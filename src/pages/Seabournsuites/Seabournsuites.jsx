@@ -27,6 +27,7 @@ import {
     Star,
     Crown,
     MapPin,
+    Dot,
 
 } from "lucide-react";
 import Nav from "../../components/Navbar/Nav";
@@ -648,7 +649,6 @@ const chooseCards = [
     { title: "Best Upgrade", suite: "Penthouse Suite", text: "A meaningful improvement in living space." },
     { title: "Best Wellness Choice", suite: "Penthouse Spa Suite", text: "Ideal for guests who prioritize spa and wellness." },
     { title: "Best Luxury Entertaining", suite: "Owner's or Signature Suite", text: "Excellent for extended voyages and socializing." },
-    { title: "Ultimate", suite: "Wintergarden Suite", text: "For travelers who want maximum residential-style space and don't want to compromise." },
 ];
 
 const strategySteps = [
@@ -1094,14 +1094,14 @@ const SeabournSuitesGuide = () => {
                             <div className="Sbc-qa-card" style={{ marginTop: 0 }}>
                                 <div className="Sbc-qa-card-title">Even within a single category, individual suites can differ in:</div>
                                 <ul className="Sbc-qa-list">
-                                    <li><Check size={24} /><span>Interior square footage</span></li>
-                                    <li><Check size={24} /><span>Veranda size</span></li>
-                                    <li><Check size={24} /><span>Location</span></li>
-                                    <li><Check size={24} /><span>Bed configuration</span></li>
-                                    <li><Check size={24} /><span>View</span></li>
-                                    <li><Check size={24} /><span>Connecting-door configuration</span></li>
-                                    <li><Check size={24} /><span>Accessibility</span></li>
-                                    <li><Check size={24} /><span>Bathroom layout</span></li>
+                                    <li><Dot size={24} /><span>Interior square footage</span></li>
+                                    <li><Dot size={24} /><span>Veranda size</span></li>
+                                    <li><Dot size={24} /><span>Location</span></li>
+                                    <li><Dot size={24} /><span>Bed configuration</span></li>
+                                    <li><Dot size={24} /><span>View</span></li>
+                                    <li><Dot size={24} /><span>Connecting-door configuration</span></li>
+                                    <li><Dot size={24} /><span>Accessibility</span></li>
+                                    <li><Dot size={24} /><span>Bathroom layout</span></li>
                                 </ul>
                             </div>
                             <p className="Sbc-p" style={{ marginTop: "20px" }}>
@@ -1351,12 +1351,12 @@ const SeabournSuitesGuide = () => {
                             <div className="Sbc-brand-highlights" style={{ marginTop: "24px" }}>
                                 <div className="Sbc-highlights-title">Consider Before Booking</div>
                                 <ul className="Sbc-highlights-list">
-                                    <li><Check size={16} /><span>View & balcony</span></li>
-                                    <li><Check size={16} /><span>Deck location</span></li>
-                                    <li><Check size={16} /><span>Expedition itinerary</span></li>
-                                    <li><Check size={16} /><span>Wildlife viewing</span></li>
-                                    <li><Check size={16} /><span>Proximity to expedition facilities</span></li>
-                                    <li><Check size={16} /><span>Published sizes: ~355–689 sq. ft.</span></li>
+                                    <li><Check size={22} /><span>View & balcony</span></li>
+                                    <li><Check size={22} /><span>Deck location</span></li>
+                                    <li><Check size={22} /><span>Expedition itinerary</span></li>
+                                    <li><Check size={22} /><span>Wildlife viewing</span></li>
+                                    <li><Check size={22} /><span>Proximity to expedition facilities</span></li>
+                                    <li><Check size={22} /><span>Published sizes: ~355–689 sq. ft.</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -1392,8 +1392,10 @@ const SeabournSuitesGuide = () => {
                                 <div className="Sst-well-badge-icon">
                                     <Waves size={24} />
                                 </div>
-                                <div className="Sst-well-badge-label">Recommended Suite</div>
-                                <div className="Sst-well-badge-name">Penthouse Spa Suite</div>
+                                <div className="Sst-well-badge-details">
+                                    <div className="Sst-well-badge-label">Recommended Suite</div>
+                                    <div className="Sst-well-badge-name">Penthouse Spa Suite</div>
+                                </div>
                             </div>
 
                             {/* Benefit pills */}
@@ -1793,7 +1795,7 @@ const SeabournSuitesGuide = () => {
             </section>
 
             {/* ── FAQ (reused Sbc-faq classes) ──────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbc-faq">
+            <section className="Sbc-section Sbc-bg-white" id="Sbc-faq">
                 <div className="Sbc-container">
                     <div className="Sbc-section-header">
                         <h2 className="Sbc-h2">Frequently Asked Questions About Seabourn Suites</h2>

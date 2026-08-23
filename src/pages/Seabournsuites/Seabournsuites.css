@@ -107,7 +107,7 @@
 
 .Sst-rank-name {
     font-family: var(--font-display);
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--navy);
     margin-bottom: 2px;
@@ -115,7 +115,7 @@
 
 .Sst-rank-text {
     font-family: var(--font-body);
-    font-size: 14.5px;
+    font-size: 16px;
     color: #556477;
     line-height: 1.5;
     margin: 0;
@@ -176,7 +176,7 @@
 /* ── What I Would Choose (5-up summary cards) ────────────────────── */
 .Sst-choice-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -458,6 +458,7 @@
 .Sbc-fleet-tab-desc p {
     font-family: var(--font-body);
     color: var(--navy);
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.7;
     margin: 0 0 16px 0;
@@ -566,7 +567,7 @@
 
 .Sbc-fleet-tab-diff-title, .Sbc-fleet-tab-dest-title {
     font-family: var(--font-body);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -577,7 +578,8 @@
 .Sbc-fleet-tab-diff-text {
     font-family: var(--font-body);
     color: var(--navy);
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 1.6;
     margin: 0 0 10px 0;
 }
@@ -806,7 +808,7 @@
 /* Main 2-column grid */
 .Sst-well-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.15fr 0.85fr;
     gap: 60px;
     align-items: center;
 }
@@ -817,74 +819,95 @@
 }
 
 .Sst-well-intro {
-    font-size: 17px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     color: var(--text-muted);
-    margin-bottom: 28px;
+    margin-bottom: 16px;
 }
 
 /* Suite spotlight badge */
 .Sst-well-badge {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-    background: var(--bg-white);
-    border: 1px solid var(--navy-border);
-    border-left: 5px solid var(--navy);
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(135deg, var(--navy) 0%, #1a3258 100%);
+    border: none;
     border-radius: var(--radius-lg);
-    padding: 24px 28px;
+    padding: 24px 30px;
     margin-bottom: 32px;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.Sst-well-badge::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+    pointer-events: none;
 }
 
 .Sst-well-badge-icon {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
-    background: var(--navy-soft);
-    border: 1px solid var(--navy-border);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--navy);
-    margin-bottom: 8px;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+.Sst-well-badge-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .Sst-well-badge-label {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--navy);
-    opacity: 0.7;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.65);
 }
 
 .Sst-well-badge-name {
     font-family: var(--font-display);
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
-    color: var(--navy);
+    color: #ffffff;
     line-height: 1.2;
 }
 
 /* Benefit pills */
 .Sst-well-benefits {
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
 .Sst-well-benefits-title {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.09em;
-    color: var(--text-muted);
-    margin-bottom: 12px;
+    letter-spacing: 0.1em;
+    color: var(--navy);
+    margin-bottom: 16px;
 }
 
 .Sst-well-pills {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .Sst-well-pill {
@@ -894,31 +917,40 @@
     background: var(--bg-white);
     border: 1px solid var(--navy-border);
     border-radius: 100px;
-    padding: 8px 16px;
+    padding: 8px 18px;
     font-size: 14px;
     font-weight: 500;
     color: var(--navy);
-    width: fit-content;
+    box-shadow: 0 2px 6px rgba(39, 68, 114, 0.03);
+    transition: var(--transition);
+}
+
+.Sst-well-pill:hover {
+    background: var(--navy-soft);
+    transform: translateY(-1px);
 }
 
 .Sst-well-pill svg {
-    color: var(--navy);
+    color: #10b981;
     flex-shrink: 0;
 }
 
 /* Insight block */
 .Sst-well-insight {
     background: var(--bg-white);
-    border-radius: var(--radius);
-    border-left: 3px solid var(--navy-border);
-    padding: 20px 24px;
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--navy);
+    padding: 24px 30px;
     box-shadow: var(--shadow);
+    margin-top: 36px;
+    position: relative;
 }
 
 .Sst-well-insight p {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
     color: var(--text-body);
-    line-height: 1.75;
+    line-height: 1.7;
     margin: 0 0 10px;
 }
 
@@ -928,7 +960,7 @@
 
 /* Right image column */
 .Sst-well-image-wrap .Sbc-what-image-placeholder {
-    height: 500px;
+    height: 480px;
     background: linear-gradient(135deg, var(--bg-dark2) 0%, var(--bg-dark) 100%);
     border: 1px solid var(--navy-border);
     border-radius: var(--radius-lg);
@@ -936,15 +968,15 @@
 }
 
 .Sst-well-image-wrap .Sbc-what-placeholder-icon-wrapper {
-    background: var(--navy-soft);
-    border: 1px solid var(--navy-border);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     width: 80px;
     height: 80px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 30px var(--navy-soft);
+    box-shadow: 0 0 30px rgba(39, 68, 114, 0.2);
     animation: SstGlowPulseNavy 3s infinite ease-in-out;
 }
 

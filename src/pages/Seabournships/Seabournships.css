@@ -43,38 +43,6 @@
 /* ── Destinations ──────────────────────────────────────────────── */
 
 
-/* ── Excursions / conversations / wellness three-up ───────────── */
-.Sbc-trio-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-}
-
-.Sbc-trio-card .Sbc-h3 {
-    font-family: var(--font-display);
-    color: var(--navy);
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.Sbc-trio-card .Sbc-card-text {
-    font-family: var(--font-body);
-    font-size: 15px;
-    line-height: 1.65;
-    color: #4a5568;
-    margin: 0;
-}
-
-.Sbc-trio-list li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: var(--font-body);
-    font-size: 14.5px;
-    color: #4a5568;
-}
-
 .Sbc-wellness-intro {
     font-family: var(--font-body);
     font-size: 18px;
@@ -84,15 +52,6 @@
     margin: 0 0 24px;
 }
 
-
-
-.Sbc-worth-value-desc {
-    font-family: var(--font-body);
-    font-size: 18px;
-    line-height: 1.65;
-    color: #4a5568;
-    margin: 0 0 12px;
-}
 
 /* ── Responsive typography ────────────────────────────────────── *
    1024px and up  → desktop
@@ -278,7 +237,7 @@
     }
 
     
-    .Sbc-fleet-tab-best-list li, .Sbc-fleet-tab-desc p, .Sbc-fleet-tab-subtitle{
+    .Sbc-fleet-tab-best-list li, .Sbc-fleet-tab-subtitle{
         font-size: 16px !important;
     }
 
@@ -569,7 +528,7 @@
 .Ssf-step-body h4 {
     font-family: var(--font-display);
     color: var(--navy);
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 600;
     margin: 4px 0 8px;
 }
@@ -577,7 +536,8 @@
 .Ssf-step-body p {
     font-family: var(--font-body);
     color: #556477;
-    font-size: 15.5px;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.65;
     margin: 0;
 }
@@ -888,17 +848,7 @@
     margin: 0 0 16px 0;
 }
 
-.Sbc-fleet-tab-desc p {
-    font-family: var(--font-body);
-    color: var(--navy);
-    font-size: 18px;
-    line-height: 1.7;
-    margin: 0 0 16px 0;
-}
 
-.Sbc-fleet-tab-desc p:last-child {
-    margin-bottom: 0;
-}
 
 /* Glance list */
 .Sbc-fleet-tab-glance-box {
@@ -1445,6 +1395,22 @@
     }
     .Sbc-amenities-card {
         padding: 24px;
+    }
+}
+
+/* ── Destination Tabs Stacked Layout Override (min-width: 1025px) ──── */
+@media (min-width: 1025px) {
+    #Sbc-best-by-destination .Sbc-dest-tab-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #Sbc-best-by-destination .Sbc-dest-image-placeholder {
+        height: 380px;
+        width: 100%;
+        position: static;
     }
 }
 

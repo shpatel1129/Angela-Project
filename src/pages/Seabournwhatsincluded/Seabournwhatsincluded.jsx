@@ -431,27 +431,42 @@ const SeabournWhatsIncluded = () => {
                         <span className="Sbc-eyebrow">Setting Expectations</span>
                         <h2 className="Sbc-h2">Is Seabourn All-Inclusive?</h2>
                         <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Seabourn is often described as an all-inclusive or
-                            ultra-luxury cruise experience, but "all-inclusive" does
-                            not mean absolutely everything is free. The core onboard
-                            experience includes a remarkably broad range of services
-                            and amenities — but optional services and certain shore
-                            experiences can still cost extra. That distinction is
-                            important when comparing Seabourn with other luxury cruise
-                            brands.
-                        </p>
                     </div>
 
-                    <div className="Sbc-worth-card" style={{backgroundColor: 'var(--bg-white)'}}>
-                        <h4 className="Sbc-worth-card-title">Seabourn includes:</h4>
-                        <div className="Sbc-worth-formula-row">
-                            {allInclusiveFormula.map((part, i) => (
-                                <Fragment key={i}>
-                                    <span>{part}</span>
-                                    {i < allInclusiveFormula.length - 1 && <span className="Sbc-worth-plus">+</span>}
-                                </Fragment>
-                            ))}
+                    <div className="Sbc-qa-split">
+                        <div className="Sbc-qa-content">
+                            <p className="Sbc-p" style={{ marginBottom: "24px" }}>
+                                Seabourn is often described as an all-inclusive or
+                                ultra-luxury cruise experience, but "all-inclusive" does
+                                not mean absolutely everything is free. 
+                            </p>
+                            <p className="Sbc-p" style={{ marginBottom: "24px" }}>The core onboard
+                                experience includes a remarkably broad range of services
+                                and amenities — but optional services and certain shore
+                                experiences can still cost extra. That distinction is
+                                important when comparing Seabourn with other luxury cruise
+                                brands.</p>
+
+                            <div className="Sbc-worth-card" style={{ backgroundColor: 'var(--bg-white)', margin: "0" }}>
+                                <h4 className="Sbc-worth-card-title">Seabourn includes:</h4>
+                                <div className="Sbc-worth-formula-row">
+                                    {allInclusiveFormula.map((part, i) => (
+                                        <Fragment key={i}>
+                                            <span>{part}</span>
+                                            {i < allInclusiveFormula.length - 1 && <span className="Sbc-worth-plus">+</span>}
+                                        </Fragment>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="Sbc-qa-image-container">
+                            <div className="Sbc-qa-image-placeholder" style={{ background: "linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 100%)" }}>
+                                <div className="Sbc-qa-placeholder-icon-wrapper">
+                                    <Sparkles size={40} className="Sbc-qa-placeholder-icon" />
+                                </div>
+                                <span className="Sbc-qa-placeholder-text">Seabourn All-Inclusive Luxury Image Placeholder</span>
+                            </div>
                         </div>
                     </div>
                 </div>

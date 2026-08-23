@@ -662,7 +662,7 @@ const SeabournCruisesGuide = () => {
                                         "Expedition experiences"
                                     ].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={16} strokeWidth={2.5} />
+                                            <Check size={22} strokeWidth={2.5} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -693,7 +693,7 @@ const SeabournCruisesGuide = () => {
                 <div className="Sbc-container">
                     <div className="Sbc-section-header">
                         <span className="Sbc-eyebrow">The Appeal</span>
-                        <h2 className="Sbc-h2">Why Luxury Travelers Choose Seabourn</h2>
+                        <h2 className="Sbc-h2">Why Luxury Travelers <br /> Choose Seabourn</h2>
                         <div className="Sbc-accent-line"></div>
                         <p className="Sbc-intro">
                             The appeal of Seabourn is not simply that the ships
@@ -1490,14 +1490,13 @@ const SeabournCruisesGuide = () => {
             {/* ── IS SEABOURN WORTH IT ──────────────────────────────────────── */}
             <section className="Sbc-section Sbc-bg-white" id="Sbc-worth-it">
                 <div className="Sbc-container">
+                    <div className="Sbc-section-header">
+                        <span className="Sbc-eyebrow">The Value Proposition</span>
+                        <h2 className="Sbc-h2">Is Seabourn Worth It?</h2>
+                        <div className="Sbc-accent-line"></div>
+                    </div>
                     <div className="Sbc-qa-split">
                         <div className="Sbc-qa-content">
-                            <div className="Sbc-section-header Sbc-align-left">
-                                <span className="Sbc-eyebrow">The Value Proposition</span>
-                                <h2 className="Sbc-h2">Is Seabourn Worth It?</h2>
-                                <div className="Sbc-accent-line"></div>
-                            </div>
-
                             <p className="Sbc-worth-intro">
                                 For the right traveler, yes.
                             </p>

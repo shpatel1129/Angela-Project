@@ -25,6 +25,7 @@ import {
     MapPin,
     Star,
     Award,
+    Dot,
 } from "lucide-react";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela.jpeg";
@@ -202,7 +203,7 @@ const traditionalSubtypes = [
     {
         icon: Landmark,
         title: "Seabourn Sightseeing Tours",
-        text: "Sightseeing tours are among the most straightforward ways to explore a port. They may combine several major attractions into one organized experience. A sightseeing excursion can be a good choice if you want:",
+        text: "Sightseeing tours are among the most straightforward ways to explore a port. A sightseeing excursion can be a good choice if you want:",
         items: ["Efficient transportation", "A knowledgeable guide", "A structured itinerary", "Major highlights", "Minimal planning"],
         footer: "For first-time visitors, this can be an easier alternative to arranging independent transportation.",
     },
@@ -237,14 +238,14 @@ const expeditionActivities = [
     {
         icon: Waves,
         title: "Seabourn Zodiac Excursions",
-        text: "Zodiacs are a core component of Seabourn's dedicated expedition ships. These inflatable expedition boats allow guests to explore areas that would be inaccessible to the main ship. Depending on the destination, a Zodiac excursion may involve:",
+        text: "Zodiacs are a core component of Seabourn's dedicated expedition ships. Depending on the destination, a Zodiac excursion may involve:",
         items: ["Wildlife viewing", "Glacier observation", "Coastal exploration", "Shore access", "Scenic cruising", "Remote beaches", "Ice-filled waterways"],
         footer: "Zodiac operations are particularly important in destinations such as Antarctica and other remote expedition regions.",
     },
     {
         icon: MapPin,
         title: "Seabourn Shore Landings",
-        text: "On expedition voyages, a shore landing can be one of the highlights of the entire cruise. Guests may disembark from a Zodiac and explore a remote location with members of the expedition team. Possible experiences include:",
+        text: "On expedition voyages, a shore landing can be one of the highlights of the entire cruise.  Possible experiences include:",
         items: ["Wildlife observation", "Photography", "Nature walks", "Historical sites", "Remote landscapes", "Cultural encounters"],
         footer: "Landings depend on local conditions and expedition planning.",
     },
@@ -253,7 +254,7 @@ const expeditionActivities = [
         title: "Seabourn Kayaking",
         text: "Kayaking offers a different perspective from both the ship and a Zodiac. Depending on the itinerary and conditions, travelers may kayak through:",
         items: ["Calm bays", "Fjords", "Remote coastlines", "Sheltered waterways", "Scenic environments"],
-        footer: "Kayaking can be an excellent choice for travelers who want a more active experience. However, it requires a reasonable level of physical ability and is subject to weather and safety conditions.",
+        footer: "Kayaking can be an excellent choice for travelers who want a more active experience.",
     },
    
 ];
@@ -474,7 +475,7 @@ const SeabournShoreExcursionsGuide = () => {
                                 <ul className="Sbc-highlights-list">
                                     {quickAnswerList.map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={16} strokeWidth={2.5} />
+                                            <Check size={22} strokeWidth={2.5} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -547,7 +548,7 @@ const SeabournShoreExcursionsGuide = () => {
                         <ul className="Sbc-highlights-list">
                             {traditionalOverviewList.map((item, idx) => (
                                 <li key={idx}>
-                                    <Check size={16} strokeWidth={2.5} />
+                                    <Check size={22} strokeWidth={2.5} />
                                     <span>{item}</span>
                                 </li>
                             ))}
@@ -682,7 +683,7 @@ const SeabournShoreExcursionsGuide = () => {
                                     <ul className="Sse-compare-list">
                                         {card.items.map((item, j) => (
                                             <li key={j} className="Sse-compare-item">
-                                                <Check size={14} />
+                                                <Dot size={22} />
                                                 <span>{item}</span>
                                             </li>
                                         ))}

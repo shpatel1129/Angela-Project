@@ -30,7 +30,7 @@
 
 .Sec-day-label {
     font-family: var(--font-body);
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--navy);
@@ -41,7 +41,8 @@
 
 .Sec-day-text {
     font-family: var(--font-body);
-    font-size: 15.5px;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.65;
     color: #3d4c5f;
     margin: 0;
@@ -69,7 +70,7 @@
 .Sec-day-note {
     text-align: center;
     font-family: var(--font-body);
-    font-size: 15.5px;
+    font-size: 18px;
     color: #3d4c5f;
     max-width: 640px;
     margin: 22px auto 0;
@@ -244,13 +245,20 @@
     align-items: center;
     gap: 8px;
     font-family: var(--font-body);
-    font-size: 15px;
+    font-size: 16px;
     color: #4a5568;
 }
 
 .Sec-traveler-list svg {
-    color: #10b981;
     flex-shrink: 0;
+}
+
+.Sec-traveler-couples .Sec-traveler-list svg {
+    color: #e11d48;
+}
+
+.Sec-traveler-solo .Sec-traveler-list svg {
+    color: var(--navy);
 }
 
 .Sec-traveler-verdict {
@@ -263,8 +271,9 @@
 
 .Sec-traveler-verdict p {
     font-family: var(--font-body);
-    font-size: 15px;
+    font-size: 16px;
     color: var(--navy);
+    font-weight: 400;
     margin: 0;
     line-height: 1.6;
 }
@@ -288,5 +297,306 @@
     .Sec-traveler-image-placeholder {
         height: 180px;
     }
+}
+
+/* ── Destination Tabs Stacked Layout Override (min-width: 1025px) ──── */
+@media (min-width: 1025px) {
+    #Sbc-exp-destinations .Sbc-dest-tab-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #Sbc-exp-destinations .Sbc-dest-image-placeholder {
+        height: 380px;
+        width: 100%;
+        position: static;
+    }
+}
+
+/* ── Excursion Trio Section (Zodiacs, Kayaking & Hiking) ── */
+.Sec-excursion-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.Sec-excursion-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius-lg);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+}
+
+.Sec-excursion-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Sec-excursion-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    min-height: 56px;
+}
+
+.Sec-excursion-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--navy-soft);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+.Sec-excursion-card:hover .Sec-excursion-icon-wrapper {
+    transform: scale(1.08);
+    background: var(--navy);
+    color: #ffffff;
+}
+
+.Sec-excursion-card h3 {
+    font-family: var(--font-display);
+    color: var(--navy);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Sec-excursion-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.65;
+    color: var(--navy);
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.Sec-excursion-features {
+    margin-bottom: 24px;
+}
+
+.Sec-excursion-features-title {
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.Sec-excursion-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Sec-excursion-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--text-body);
+    line-height: 1.4;
+}
+
+.Sec-excursion-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--navy);
+    flex-shrink: 0;
+    margin-top: 7px;
+}
+
+.Sec-excursion-footer-note {
+    margin-top: auto;
+    padding: 16px 20px;
+    background: var(--bg-soft);
+    border-left: 3px solid var(--navy);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--navy);
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+/* Responsive grid for excursion section */
+@media (max-width: 1024px) {
+    .Sec-excursion-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+}
+
+/* ── Expedition Equipment Section Redesign ── */
+.Sec-equip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    margin-top: 48px;
+}
+
+.Sec-equip-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.Sec-equip-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Sec-equip-card-dark {
+    background: linear-gradient(135deg, var(--navy) 0%, #1a3258 100%);
+    border: none;
+}
+
+.Sec-equip-card-dark:hover {
+    border-color: transparent;
+}
+
+.Sec-equip-image-placeholder {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, var(--bg-dark2) 0%, var(--bg-dark) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+    position: relative;
+}
+
+.Sec-equip-placeholder-icon-wrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.Sec-equip-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.Sec-equip-content {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.Sec-equip-title {
+    font-family: var(--font-display);
+    color: var(--navy);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+}
+
+.Sec-equip-card-dark .Sec-equip-title {
+    color: #ffffff;
+}
+
+.Sec-equip-text {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 0 24px 0;
+}
+
+.Sec-equip-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+}
+
+.Sec-equip-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--text-body);
+    line-height: 1.4;
+}
+
+.Sec-equip-card-dark .Sec-equip-list li {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.Sec-equip-list li svg {
+    color: #10b981;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+@media (max-width: 992px) {
+    .Sec-equip-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+/* ── Custom Circular List Icons for QA Sections ───────────────────── */
+#Sbc-exp-dining .Sbc-qa-list li svg,
+#Sbc-exp-active .Sbc-qa-list li svg,
+#Sbc-exp-families .Sbc-qa-list li svg {
+    border: 1.5px solid var(--navy);
+    background-color: transparent !important;
+    box-sizing: border-box;
+}
+
+#Sbc-exp-active .Sbc-qa-list li svg {
+    border-color: #10b981;
 }
 

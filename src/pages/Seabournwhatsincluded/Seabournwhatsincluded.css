@@ -493,7 +493,7 @@
     font-size: 18px;
     line-height: 1.7;
     color: var(--navy);
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0.7;
     margin: 0 0 14px;
     padding: 0 32px;
@@ -632,6 +632,7 @@
     font-family: var(--font-body);
     font-size: 16px;
     line-height: 1.7;
+    font-weight: 400;
     color: var(--navy);
     margin: 0 0 20px;
 }
@@ -665,7 +666,7 @@
     align-items: center;
     gap: 8px;
     font-family: var(--font-body);
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-body);
 }
 

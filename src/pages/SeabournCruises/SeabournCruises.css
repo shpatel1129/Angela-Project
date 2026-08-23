@@ -1373,132 +1373,6 @@
     line-height: 1.65;
 }
 
-/* ── Excursions / conversations / wellness three-up ───────────── */
-.Sbc-trio-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
-}
-
-.Sbc-trio-card {
-    background: var(--bg-white);
-    border: 1px solid #e3eaf1;
-    border-radius: 8px;
-    padding: 36px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
-    box-sizing: border-box;
-}
-
-.Sbc-trio-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 16px 36px rgba(13, 23, 41, 0.06);
-    border-color: var(--navy);
-}
-
-.Sbc-trio-head {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 20px;
-    min-height: 56px;
-}
-
-.Sbc-trio-icon-wrapper {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: var(--navy);
-    color: var(--bg-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    transition: all 0.3s ease;
-}
-
-.Sbc-trio-card:hover .Sbc-trio-icon-wrapper {
-    transform: scale(1.08);
-    background: var(--bg-dark2);
-}
-
-.Sbc-trio-card .Sbc-h3 {
-    font-family: var(--font-display);
-    color: var(--navy);
-    font-size: 22px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.Sbc-trio-card .Sbc-card-text {
-    font-family: var(--font-body);
-    font-size: 18px;
-    line-height: 1.65;
-    color: #4a5568;
-    margin: 0;
-    min-height: 215px;
-}
-
-.Sbc-trio-features {
-    margin: 24px 0;
-}
-
-.Sbc-trio-features-title {
-    font-family: var(--font-body);
-    font-size: 13.5px;
-    font-weight: 700;
-    color: var(--navy);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    display: block;
-    margin-bottom: 12px;
-}
-
-.Sbc-trio-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px 12px;
-    min-height: 180px;
-}
-
-.Sbc-trio-list li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: var(--font-body);
-    font-size: 16px;
-    color: #4a5568;
-    line-height: 1.3;
-    padding: 2px 0;
-}
-
-.Sbc-trio-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--navy);
-    flex-shrink: 0;
-}
-
-.Sbc-trio-footer-note {
-    margin-top: auto;
-    padding: 16px 20px;
-    background: var(--bg-soft);
-    border-left: 3px solid var(--navy);
-    border-radius: 2px;
-    font-family: var(--font-body);
-    font-size: 14.5px;
-    color: var(--navy);
-    line-height: 1.6;
-    min-height: 155px;
-    box-sizing: border-box;
-}
 
 /* ── Sbc-exp Section (Shore Excursions, Ventures & Conversations) ─── */
 .Sbc-exp-grid {
@@ -1866,6 +1740,11 @@
     font-weight: 700;
     color: var(--navy);
     line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.Sbc-atmos-card-header .Sbc-atmos-card-title {
+    margin-bottom: 0;
 }
 
 .Sbc-atmos-card ul {
@@ -2298,6 +2177,7 @@
 .Sbc-worth-value-desc {
     font-family: var(--font-body);
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.65;
     color: var(--navy);
     margin: 0 0 12px;
@@ -2662,8 +2542,7 @@
         grid-template-columns: 1fr;
         min-height: auto;
     }
-
-    .Sbc-trio-card .Sbc-card-text,
+    .Sbc-card-text,
     .Sbc-trio-footer-note {
         min-height: auto;
     }
@@ -3576,5 +3455,21 @@
 @media (max-width: 576px) {
     .Sbc-expert-section {
         padding: 60px 16px;
+    }
+}
+
+/* ── Destination Tabs Stacked Layout Override (min-width: 1025px) ──── */
+@media (min-width: 1025px) {
+    #Sbc-destinations .Sbc-dest-tab-content {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #Sbc-destinations .Sbc-dest-image-placeholder {
+        height: 380px;
+        width: 100%;
+        position: static;
     }
 }

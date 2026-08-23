@@ -31,6 +31,7 @@ import {
     Bird,
     Star,
     MapPin,
+    Dot,
 } from "lucide-react";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
@@ -229,7 +230,7 @@ const whereItGoes = [
         icon: Waves,
         title: "Drake Passage",
         intro: "The journey to Antarctica can involve crossing the Drake Passage, the ocean separating the southern tip of South America from the Antarctic Peninsula.",
-        subIntro: "The Drake Passage is famous for variable sea conditions.",
+        subIntro: "",
         listLabel: "You may experience:",
         listItems: [
             "Calm seas",
@@ -410,7 +411,7 @@ const SeabournAntarcticaCruisesGuide = () => {
                                 <ul className="Sbc-highlights-list">
                                     {whyGoodChoice.map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={16} strokeWidth={2.5} />
+                                            <Check size={22} strokeWidth={2.5} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -852,7 +853,7 @@ const SeabournAntarcticaCruisesGuide = () => {
                                         "Interacting with other penguins"
                                     ].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={20} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
+                                            <Dot size={22} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -880,7 +881,7 @@ const SeabournAntarcticaCruisesGuide = () => {
                                         "Exploring bays and channels"
                                     ].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={20} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
+                                            <Dot size={22} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -1395,13 +1396,21 @@ const SeabournAntarcticaCruisesGuide = () => {
             {/* ── WORTH IT ──────────────────────────────────────────────── */}
             <section className="Sbc-section Sbc-bg-white" id="Sbc-worth-it">
                 <div className="Sbc-container">
-                    <div className="Sbc-qa-split">
-                        <div className="Sbc-qa-content">
-                            <div className="Sbc-section-header Sbc-align-left">
-                                <span className="Sbc-eyebrow">The Value Proposition</span>
-                                <h2 className="Sbc-h2">Is a Seabourn Antarctica <br /> Cruise Worth the Money?</h2>
-                                <div className="Sbc-accent-line"></div>
+                    <div className="Sbc-section-header">
+                        <span className="Sbc-eyebrow">The Value Proposition</span>
+                        <h2 className="Sbc-h2">Is a Seabourn Antarctica <br /> Cruise Worth the Money?</h2>
+                        <div className="Sbc-accent-line"></div>
+                    </div>
+                    <div className="Sbc-qa-split Sbc-image-left">
+                        <div className="Sbc-qa-image-container">
+                            <div className="Sbc-qa-image-placeholder">
+                                <div className="Sbc-qa-placeholder-icon-wrapper">
+                                    <Award size={40} className="Sbc-qa-placeholder-icon" />
+                                </div>
+                                <span className="Sbc-qa-placeholder-text">Seabourn Antarctica Value Image Placeholder</span>
                             </div>
+                        </div>
+                        <div className="Sbc-qa-content">
                             <p className="Sbc-worth-intro">For travelers who prioritize luxury, comfort and expedition access, it can be.</p>
                             <p className="Sbc-worth-text">You are paying for more than transportation to Antarctica.</p>
 
@@ -1419,14 +1428,6 @@ const SeabournAntarcticaCruisesGuide = () => {
                             </div>
 
                             <p className="Sbc-worth-value-desc">For budget-conscious travelers, other expedition operators may provide a lower-cost path to Antarctica. For luxury travelers, Seabourn's combination can be compelling.</p>
-                        </div>
-                        <div className="Sbc-qa-image-container">
-                            <div className="Sbc-qa-image-placeholder">
-                                <div className="Sbc-qa-placeholder-icon-wrapper">
-                                    <Award size={40} className="Sbc-qa-placeholder-icon" />
-                                </div>
-                                <span className="Sbc-qa-placeholder-text">Seabourn Antarctica Value Image Placeholder</span>
-                            </div>
                         </div>
                     </div>
                 </div>

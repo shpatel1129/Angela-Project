@@ -567,3 +567,26 @@
         font-size: 15px;
     }
 }
+
+/* ── Sdg-glance Table Custom Styles ───────────────────────────────── */
+#Sdg-glance .Ssf-table-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#Sdg-glance .Ssf-table th:first-child,
+#Sdg-glance .Ssf-table td:first-child {
+    width: 35%;
+}
+
+#Sdg-glance .Ssf-table th:last-child,
+#Sdg-glance .Ssf-table td:last-child {
+    width: 65%;
+}
+
+@media (max-width: 600px) {
+    #Sdg-glance .Ssf-table th,
+    #Sdg-glance .Ssf-table td {
+        width: auto !important;
+    }
+}

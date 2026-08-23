@@ -8,7 +8,8 @@
 
 .Sse-fit-footer {
     font-family: var(--font-body);
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.6;
     color: var(--navy);
     margin-top: auto !important;
@@ -420,8 +421,9 @@
 
 .Sse-traveler-card-text {
     font-family: var(--font-body);
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
+    font-weight: 400;
     color: #3d4c5f;
     margin: 0;
 }
@@ -502,7 +504,7 @@
 
 .Sse-worth-card-title {
     font-family: var(--font-display);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--navy);
     margin: 0 0 10px;
@@ -510,8 +512,9 @@
 
 .Sse-worth-card-desc {
     font-family: var(--font-body);
-    font-size: 14.5px;
+    font-size: 18px;
     line-height: 1.5;
+    font-weight: 400;
     color: #556477;
     margin: 0;
 }
@@ -582,7 +585,7 @@
 }
 
 .Sse-compare-item span {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .Sse-traveler-text-margin {

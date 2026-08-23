@@ -923,7 +923,7 @@ const SeabournShipsGuide = () => {
                                         <div className="Sbc-compare-list-box-title">Both offer:</div>
                                         <ul className="Sbc-compare-panel-list">
                                             {comparisonTabs[0].bothOffer.map((item, i) => (
-                                                <li key={i}><Check size={16} strokeWidth={2} /> <span>{item}</span></li>
+                                                <li key={i}><Ship size={16} strokeWidth={2} /> <span>{item}</span></li>
                                             ))}
                                         </ul>
                                     </div>
@@ -939,7 +939,7 @@ const SeabournShipsGuide = () => {
                                         </p>
                                         <ul className="Sbc-compare-panel-list">
                                             {comparisonTabs[0].compareItems.map((item, i) => (
-                                                <li key={i}><Check size={16} strokeWidth={2} /> <span>{item}</span></li>
+                                                <li key={i}><Anchor size={16} strokeWidth={2} /> <span>{item}</span></li>
                                             ))}
                                         </ul>
                                     </div>
@@ -956,7 +956,7 @@ const SeabournShipsGuide = () => {
                                     <div className="Sbc-compare-prefer-title">{comparisonTabs[1].questPreferTitle}</div>
                                     <ul className="Sbc-compare-prefer-list">
                                         {comparisonTabs[1].questPrefer.map((item, i) => (
-                                            <li key={i}><Check size={16} strokeWidth={2} /> <span>{item}</span></li>
+                                            <li key={i}><Anchor size={16} strokeWidth={2} /> <span>{item}</span></li>
                                         ))}
                                     </ul>
                                 </div>
@@ -964,7 +964,7 @@ const SeabournShipsGuide = () => {
                                     <div className="Sbc-compare-prefer-title">{comparisonTabs[1].encorePreferTitle}</div>
                                     <ul className="Sbc-compare-prefer-list">
                                         {comparisonTabs[1].encorePrefer.map((item, i) => (
-                                            <li key={i}><Check size={16} strokeWidth={2} /> <span>{item}</span></li>
+                                            <li key={i}><Ship size={16} strokeWidth={2} /> <span>{item}</span></li>
                                         ))}
                                     </ul>
                                 </div>
@@ -1000,7 +1000,7 @@ const SeabournShipsGuide = () => {
                                     <div className="Sbc-compare-prefer-title">{comparisonTabs[3].oceanTitle}</div>
                                     <ul className="Sbc-compare-prefer-list" style={{ marginBottom: "16px" }}>
                                         {comparisonTabs[3].oceanItems.map((item, i) => (
-                                            <li key={i}><Check size={16} strokeWidth={2} /> <span>{item}</span></li>
+                                            <li key={i}><Waves size={16} strokeWidth={2} /> <span>{item}</span></li>
                                         ))}
                                     </ul>
                                     <div className="Sbc-compare-verdict-box" style={{ marginTop: "auto" }}>
@@ -1011,7 +1011,7 @@ const SeabournShipsGuide = () => {
                                     <div className="Sbc-compare-prefer-title">{comparisonTabs[3].expeditionTitle}</div>
                                     <ul className="Sbc-compare-prefer-list" style={{ marginBottom: "16px" }}>
                                         {comparisonTabs[3].expeditionItems.map((item, i) => (
-                                            <li key={i}><Check size={16} strokeWidth={2} /> <span>{item}</span></li>
+                                            <li key={i}><Compass size={16} strokeWidth={2} /> <span>{item}</span></li>
                                         ))}
                                     </ul>
                                     <div className="Sbc-compare-verdict-box" style={{ marginTop: "auto" }}>
@@ -1188,7 +1188,7 @@ const SeabournShipsGuide = () => {
                 <div className="Sbc-container">
                     <div className="Sbc-section-header">
                         <span className="Sbc-eyebrow">Onboard Features</span>
-                        <h2 className="Sbc-h2">Seabourn Ships and Onboard Amenities</h2>
+                        <h2 className="Sbc-h2">Seabourn Ships and <br /> Onboard Amenities</h2>
                         <div className="Sbc-accent-line"></div>
                         <p className="Sbc-intro">
                             From signature lounges and specialty dining to expedition hubs and polar gear lockers, here is what you will find onboard each ship in the fleet.
@@ -1203,7 +1203,7 @@ const SeabournShipsGuide = () => {
                             <ul className="Sbc-amenities-list">
                                 {["The Restaurant", "The Patio", "The Club", "Sky Bar", "Casino", "Spa", "Fitness Center", "Coffee Bar", "Seabourn Conversations"].map((item, idx) => (
                                     <li key={idx}>
-                                        <Check size={14} strokeWidth={2.5} />
+                                        <Anchor size={14} strokeWidth={2.5} />
                                         <span>{item}</span>
                                     </li>
                                 ))}
@@ -1216,7 +1216,7 @@ const SeabournShipsGuide = () => {
                             <ul className="Sbc-amenities-list">
                                 {["Solis", "The Restaurant", "Sushi", "Seabourn Square", "Observation Bar", "The Retreat", "Spa", "Pool", "Earth & Ocean", "Fitness Center", "Sky Bar"].map((item, idx) => (
                                     <li key={idx}>
-                                        <Check size={14} strokeWidth={2.5} />
+                                        <Ship size={14} strokeWidth={2.5} />
                                         <span>{item}</span>
                                     </li>
                                 ))}
@@ -1234,7 +1234,7 @@ const SeabournShipsGuide = () => {
                             <ul className="Sbc-amenities-list Sbc-dimmed">
                                 {["Solis", "The Restaurant", "Sushi", "Seabourn Square", "Observation Bar", "The Retreat", "Spa", "Pool", "Earth & Ocean", "Fitness Center", "Sky Bar"].map((item, idx) => (
                                     <li key={idx}>
-                                        <Check size={14} strokeWidth={2.5} />
+                                        <Waves size={14} strokeWidth={2.5} />
                                         <span>{item}</span>
                                     </li>
                                 ))}
@@ -1250,7 +1250,7 @@ const SeabournShipsGuide = () => {
                             <ul className="Sbc-amenities-list">
                                 {["Expedition Lounge", "Discovery Center", "Expedition operations", "Zodiacs", "Kayaks", "Expedition Team"].map((item, idx) => (
                                     <li key={idx}>
-                                        <Check size={14} strokeWidth={2.5} />
+                                        <Snowflake size={14} strokeWidth={2.5} />
                                         <span>{item}</span>
                                     </li>
                                 ))}
@@ -1263,7 +1263,7 @@ const SeabournShipsGuide = () => {
                             <ul className="Sbc-amenities-list">
                                 {["Expedition Lounge", "Discovery Center", "Spa", "The Restaurant", "Seabourn Square", "Zodiacs", "Kayaks", "Expedition Team"].map((item, idx) => (
                                     <li key={idx}>
-                                        <Check size={14} strokeWidth={2.5} />
+                                        <Compass size={14} strokeWidth={2.5} />
                                         <span>{item}</span>
                                     </li>
                                 ))}

@@ -152,6 +152,7 @@
     color: var(--navy);
     font-size: 18px;
     line-height: 1.6;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -643,7 +644,7 @@
     align-items: center;
     gap: 10px;
     font-family: var(--font-body);
-    font-size: 15px;
+    font-size: 16px;
     color: var(--navy);
 }
 
@@ -957,4 +958,220 @@
         gap: 28px;
     }
 }
+
+/* ── Custom Circular List Icons for QA Sections ───────────────────── */
+#Sbc-included-qa .Sbc-qa-list li svg,
+#Sbc-guaranteed-qa .Sbc-qa-list li svg,
+#Sbc-mobility-qa .Sbc-qa-list li svg {
+    border: 1.5px solid var(--navy);
+    background-color: transparent !important;
+    box-sizing: border-box;
+}
+
+/* ── Photography & Binoculars Section Custom Styles ───────────────── */
+#Sbc-photography .Sbc-trio-grid {
+    gap: 32px;
+}
+
+#Sbc-photography .Sbc-trio-card {
+    background: var(--bg-white);
+    border-radius: var(--radius);
+    border: 1px solid var(--navy-border);
+    border-top: 4px solid var(--navy);
+    padding: 40px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    height: auto;
+}
+
+#Sbc-photography .Sbc-trio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy-border);
+    border-top-color: var(--navy-light);
+}
+
+#Sbc-photography .Sbc-trio-head {
+    margin-bottom: 24px;
+    min-height: auto;
+}
+
+#Sbc-photography .Sbc-trio-icon-wrapper {
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius);
+    background: var(--navy-soft);
+    color: var(--navy);
+    transition: var(--transition);
+}
+
+#Sbc-photography .Sbc-trio-card:hover .Sbc-trio-icon-wrapper {
+    background: var(--navy);
+    color: var(--bg-white);
+    transform: scale(1.05);
+}
+
+#Sbc-photography .Sbc-trio-card .Sbc-h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--navy);
+}
+
+#Sbc-photography .Sbc-trio-card .Sbc-card-text {
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    min-height: auto;
+}
+
+#Sbc-photography .Sbc-trio-features {
+    margin: 0;
+}
+
+#Sbc-photography .Sbc-trio-features-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 16px;
+}
+
+#Sbc-photography .Sbc-trio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: auto;
+}
+
+#Sbc-photography .Sbc-trio-list li {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius-lg);
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-body);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    width: auto;
+}
+
+#Sbc-photography .Sbc-trio-list li:hover {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-color: var(--navy);
+    transform: translateY(-1px);
+}
+
+#Sbc-photography .Sbc-trio-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--navy);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+#Sbc-photography .Sbc-trio-list li:hover .Sbc-trio-dot {
+    background: var(--bg-white);
+}
+
+@media (max-width: 991px) {
+    #Sbc-photography .Sbc-trio-grid {
+        grid-template-columns: 1fr !important;
+        gap: 28px;
+    }
+}
+
+/* ── Sbc-worth-it Section Custom Styles ───────────────────────────── */
+#Sbc-worth-it .Sbc-worth-intro {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+#Sbc-worth-it .Sbc-worth-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-left: 4px solid var(--navy);
+    border-radius: var(--radius);
+    padding: 32px;
+    margin: 28px 0;
+    box-shadow: var(--shadow);
+}
+
+#Sbc-worth-it .Sbc-worth-card-title {
+    font-size: 13.5px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--navy);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#Sbc-worth-it .Sbc-worth-formula-row {
+    gap: 12px;
+}
+
+#Sbc-worth-it .Sbc-worth-formula-row span:not(.Sbc-worth-plus) {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    padding: 8px 16px;
+    border-radius: var(--radius-lg);
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--navy);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+#Sbc-worth-it .Sbc-worth-formula-row span:not(.Sbc-worth-plus):hover {
+    transform: translateY(-2px);
+    border-color: var(--navy);
+    background: var(--navy);
+    color: var(--bg-white);
+}
+
+#Sbc-worth-it .Sbc-worth-plus {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy-light);
+}
+
+#Sbc-worth-it .Sbc-qa-image-placeholder {
+    background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark2) 100%);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    position: relative;
+    box-shadow: var(--shadow-lg);
+}
+
+#Sbc-worth-it .Sbc-qa-placeholder-icon-wrapper {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+#Sbc-worth-it .Sbc-qa-image-placeholder:hover .Sbc-qa-placeholder-icon-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+#Sbc-worth-it .Sbc-qa-placeholder-text {
+    font-size: 12.5px;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+
+
 

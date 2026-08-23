@@ -34,6 +34,7 @@ import {
     Moon,
     Star,
     MapPin,
+    Dot,
 } from "lucide-react";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela.jpeg";
@@ -279,7 +280,7 @@ const teamTrio = [
     {
         icon: Compass,
         title: "Expedition Team",
-        text: "The expedition team is one of the most important components of the experience. Their expertise can transform what might otherwise be a scenic cruise into a much deeper educational experience.",
+        text: "The expedition team is one of the most important components of the experience. ",
         listLabel: "Specialists can provide insight into:",
         items: ["Wildlife", "Marine biology", "Geology", "History", "Photography", "Local culture", "Conservation"],
         note: "Expert-led exploration adds educational depth to every landing.",
@@ -431,7 +432,7 @@ const SeabournExpeditionCruisesGuide = () => {
                                 <ul className="Sbc-highlights-list">
                                     {quickAnswerList.map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={16} strokeWidth={2.5} />
+                                            <Check size={22} strokeWidth={2.5} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -478,7 +479,7 @@ const SeabournExpeditionCruisesGuide = () => {
                                     <ul className={i === 1 ? "Sbc-wintergarden-list" : "Sbc-suite-feature-list"}>
                                         {ship.features.map((f, j) => (
                                             <li key={j}>
-                                                <Check size={16} strokeWidth={2} />
+                                                <Dot size={22} strokeWidth={2} />
                                                 <span>{f}</span>
                                             </li>
                                         ))}
@@ -490,7 +491,7 @@ const SeabournExpeditionCruisesGuide = () => {
                 </div>
             </section>
 
-                      {/* ── WHERE DO THEY GO ─────────────────────────────────── */}
+            {/* ── WHERE DO THEY GO ─────────────────────────────────── */}
             <section className="Sbc-section Sbc-bg-white" id="Sbc-exp-destinations">
                 <div className="Sbc-container">
                     <div className="Sbc-section-header">
@@ -582,7 +583,7 @@ const SeabournExpeditionCruisesGuide = () => {
                 </div>
             </section>
 
-  
+
 
             {/* ── CTA A ─────────────────────────────────────────────── */}
             <section className="Sbc-cta-section Sbc-cta-dark">
@@ -671,30 +672,30 @@ const SeabournExpeditionCruisesGuide = () => {
                         <div className="Sbc-accent-line"></div>
                     </div>
 
-                    <div className="Sbc-trio-grid">
+                    <div className="Sec-excursion-grid">
                         {excursionTrio.map((card, i) => {
                             const Icon = card.icon;
                             return (
-                                <div className="Sbc-trio-card" key={i}>
-                                    <div className="Sbc-trio-head">
-                                        <div className="Sbc-trio-icon-wrapper">
-                                            <Icon size={24} strokeWidth={1.5} className="Sbc-trio-icon" />
+                                <div className="Sec-excursion-card" key={i}>
+                                    <div className="Sec-excursion-head">
+                                        <div className="Sec-excursion-icon-wrapper">
+                                            <Icon size={24} strokeWidth={1.5} className="Sec-excursion-icon" />
                                         </div>
                                         <h3 className="Sbc-h3">{card.title}</h3>
                                     </div>
-                                    <p className="Sbc-card-text">{card.text}</p>
-                                    <div className="Sbc-trio-features">
-                                        <span className="Sbc-trio-features-title">{card.listLabel}</span>
-                                        <ul className="Sbc-trio-list">
+                                    <p className="Sec-excursion-text">{card.text}</p>
+                                    <div className="Sec-excursion-features">
+                                        <span className="Sec-excursion-features-title">{card.listLabel}</span>
+                                        <ul className="Sec-excursion-list">
                                             {card.items.map((item, j) => (
                                                 <li key={j}>
-                                                    <span className="Sbc-trio-dot"></span>
+                                                    <span className="Sec-excursion-dot"></span>
                                                     <span>{item}</span>
                                                 </li>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="Sbc-trio-footer-note">{card.note}</div>
+                                    <div className="Sec-excursion-footer-note">{card.note}</div>
                                 </div>
                             );
                         })}
@@ -770,18 +771,20 @@ const SeabournExpeditionCruisesGuide = () => {
                         </p>
                     </div>
 
-                    <div className="Sbc-suite-grid">
-                        <div className="Sbc-suite-card">
-                            <div className="Sbc-suite-card-image-placeholder">
-                                <Binoculars size={32} className="Sbc-suite-placeholder-icon" />
-                                <span className="Sbc-suite-placeholder-text">Expedition Equipment Image Placeholder</span>
+                    <div className="Sec-equip-grid">
+                        <div className="Sec-equip-card">
+                            <div className="Sec-equip-image-placeholder">
+                                <div className="Sec-equip-placeholder-icon-wrapper">
+                                    <Binoculars size={32} />
+                                </div>
+                                <span className="Sec-equip-placeholder-text">Expedition Equipment Provided Onboard</span>
                             </div>
-                            <div className="Sbc-suite-card-content">
-                                <h3 className="Sbc-h3">Equipment Provided Onboard</h3>
-                                <ul className="Sbc-suite-feature-list">
+                            <div className="Sec-equip-content">
+                                <h3 className="Sec-equip-title">Equipment Provided Onboard</h3>
+                                <ul className="Sec-equip-list">
                                     {["Zodiacs", "Kayaks", "Expedition gear", "Waterproof expedition equipment", "Polar clothing on applicable itineraries", "Binoculars", "Photography equipment opportunities"].map((f, i) => (
                                         <li key={i}>
-                                            <Check size={16} strokeWidth={2} />
+                                            <Compass size={14} strokeWidth={2.5} />
                                             <span>{f}</span>
                                         </li>
                                     ))}
@@ -789,20 +792,22 @@ const SeabournExpeditionCruisesGuide = () => {
                             </div>
                         </div>
 
-                        <div className="Sbc-suite-card Sbc-suite-card-dark">
-                            <div className="Sbc-suite-card-image-placeholder">
-                                <Thermometer size={32} className="Sbc-suite-placeholder-icon" />
-                                <span className="Sbc-suite-placeholder-text">Expedition Clothing Image Placeholder</span>
+                        <div className="Sec-equip-card Sec-equip-card-dark">
+                            <div className="Sec-equip-image-placeholder">
+                                <div className="Sec-equip-placeholder-icon-wrapper">
+                                    <Thermometer size={32} />
+                                </div>
+                                <span className="Sec-equip-placeholder-text">Expedition Clothing Guidelines</span>
                             </div>
-                            <div className="Sbc-suite-card-content">
-                                <h3 className="Sbc-h3">Does Seabourn Provide Expedition Clothing?</h3>
-                                <p className="Sbc-p" style={{ marginBottom: "20px" }}>
+                            <div className="Sec-equip-content">
+                                <h3 className="Sec-equip-title">Does Seabourn Provide Expedition Clothing?</h3>
+                                <p className="Sec-equip-text">
                                     For polar expedition itineraries, Seabourn provides appropriate expedition gear as part of the experience, with specific arrangements varying by voyage. You should still pack appropriate personal clothing for:
                                 </p>
-                                <ul className="Sbc-wintergarden-list">
+                                <ul className="Sec-equip-list">
                                     {["Layering", "Wind", "Rain", "Cold", "Wet landings", "Comfortable walking"].map((item, i) => (
                                         <li key={i}>
-                                            <Check size={16} strokeWidth={2} />
+                                            <Backpack size={14} strokeWidth={2.5} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -902,30 +907,30 @@ const SeabournExpeditionCruisesGuide = () => {
                         <div className="Sbc-accent-line"></div>
                     </div>
 
-                    <div className="Sbc-trio-grid">
+                    <div className="Sec-excursion-grid">
                         {teamTrio.map((card, i) => {
                             const Icon = card.icon;
                             return (
-                                <div className="Sbc-trio-card" key={i}>
-                                    <div className="Sbc-trio-head">
-                                        <div className="Sbc-trio-icon-wrapper">
-                                            <Icon size={24} strokeWidth={1.5} className="Sbc-trio-icon" />
+                                <div className="Sec-excursion-card" key={i}>
+                                    <div className="Sec-excursion-head">
+                                        <div className="Sec-excursion-icon-wrapper">
+                                            <Icon size={24} strokeWidth={1.5} className="Sec-excursion-icon" />
                                         </div>
                                         <h3 className="Sbc-h3">{card.title}</h3>
                                     </div>
-                                    <p className="Sbc-card-text">{card.text}</p>
-                                    <div className="Sbc-trio-features">
-                                        <span className="Sbc-trio-features-title">{card.listLabel}</span>
-                                        <ul className="Sbc-trio-list">
+                                    <p className="Sec-excursion-text">{card.text}</p>
+                                    <div className="Sec-excursion-features">
+                                        <span className="Sec-excursion-features-title">{card.listLabel}</span>
+                                        <ul className="Sec-excursion-list">
                                             {card.items.map((item, j) => (
                                                 <li key={j}>
-                                                    <span className="Sbc-trio-dot"></span>
+                                                    <span className="Sec-excursion-dot"></span>
                                                     <span>{item}</span>
                                                 </li>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="Sbc-trio-footer-note">{card.note}</div>
+                                    <div className="Sec-excursion-footer-note">{card.note}</div>
                                 </div>
                             );
                         })}
@@ -1149,12 +1154,12 @@ const SeabournExpeditionCruisesGuide = () => {
                                 <ul className="Sec-traveler-list">
                                     {["Nature", "Wildlife", "Adventure", "Photography", "Fine dining", "Luxury accommodations"].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={18} strokeWidth={2} />
+                                            <Heart size={18} strokeWidth={2} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
                                 </ul>
-                                <p>can find Seabourn expedition cruising especially appealing.</p>
+                            
                                 <div className="Sec-traveler-verdict">
                                     <p>
                                         It offers a combination that is difficult to replicate on a traditional cruise: <strong>remote adventure by day + luxury by night</strong>.
@@ -1172,12 +1177,12 @@ const SeabournExpeditionCruisesGuide = () => {
                             <div className="Sec-traveler-card-content">
                                 <h3>Are Seabourn Expeditions Good for Solo Travelers?</h3>
                                 <p className="Sec-bold-p">Yes.</p>
-                                <p>The small-ship environment makes it relatively easy to meet other travelers.</p>
+
                                 <span className="Sec-traveler-list-title">Guests often share:</span>
                                 <ul className="Sec-traveler-list">
                                     {["Zodiac rides", "Landings", "Lectures", "Dining experiences", "Wildlife sightings"].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={18} strokeWidth={2} />
+                                            <Users size={18} strokeWidth={2} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -1261,7 +1266,7 @@ const SeabournExpeditionCruisesGuide = () => {
                                 <ul className="Sbc-suite-feature-list" style={{ gridTemplateColumns: "1fr", margin: "0" }}>
                                     {["Silversea Expeditions", "Scenic Eclipse", "Ponant", "Lindblad Expeditions", "Regent Seven Seas for non-expedition luxury cruising"].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={16} strokeWidth={2} />
+                                            <Ship size={16} strokeWidth={2} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -1279,7 +1284,7 @@ const SeabournExpeditionCruisesGuide = () => {
                                 <ul className="Sbc-suite-feature-list" style={{ gridTemplateColumns: "1fr", margin: "0" }}>
                                     {["Ship size", "Suite design", "Dining", "Expedition philosophy", "Activity intensity", "Price", "Destination portfolio", "Luxury level"].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={16} strokeWidth={2} />
+                                            <Anchor size={16} strokeWidth={2} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -1309,7 +1314,7 @@ const SeabournExpeditionCruisesGuide = () => {
                                 <ul className="Sbc-qa-list">
                                     {["Destination", "Ship", "Sailing date", "Suite category", "Cruise length", "Season", "Demand"].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={18} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
+                                            <Dot size={22} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
@@ -1333,7 +1338,7 @@ const SeabournExpeditionCruisesGuide = () => {
                                 <ul className="Sbc-qa-list">
                                     {["Suite", "Dining", "Beverages", "Expedition activities", "Zodiacs", "Kayaking", "Wi-Fi", "Gratuities", "Expedition team", "Equipment"].map((item, idx) => (
                                         <li key={idx}>
-                                            <Check size={18} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
+                                            <Dot size={22} strokeWidth={2.5} style={{ color: "var(--navy)" }} />
                                             <span>{item}</span>
                                         </li>
                                     ))}
