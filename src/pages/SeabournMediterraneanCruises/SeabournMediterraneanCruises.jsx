@@ -43,113 +43,358 @@ import { Helmet } from "react-helmet-async";
 import "./SeabournMediterraneanCruises.css";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
-const schemaData = {
+const seabournMediterraneanSchema = {
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "Organization",
-            "@id": "https://www.tripsandships.com/#organization",
-            name: "Trips & Ships Luxury Travel",
-            url: "https://www.tripsandships.com/",
-            logo: "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp",
-        },
-        {
-            "@type": "TravelAgency",
-            "@id": "https://www.tripsandships.com/#travelagency",
-            name: "Trips & Ships Luxury Travel",
-            url: "https://www.tripsandships.com/",
-            description:
-                "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences.",
-        },
-        {
-            "@type": "Person",
-            "@id": "https://www.tripsandships.com/#person",
-            name: "Angela Hughes",
-            jobTitle: "CEO of Trips & Ships Luxury Travel",
-            description:
-                "Luxury travel expert with over 40 years of experience and travel to 121+ countries.",
-        },
-        {
             "@type": "WebPage",
             "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#webpage",
-            name: "Seabourn Mediterranean Cruises: Ports, Itineraries & Seasons",
-            url: "https://www.tripsandships.com/seabourn-cruises/mediterranean/",
-            description:
-                "Explore Seabourn Mediterranean cruises, including small ports, luxury itineraries, signature events, shore excursions, dining, destinations and the best time to sail.",
-        },
-        {
-            "@type": "Article",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#article",
-            headline: "Seabourn Mediterranean Cruises: Small Ports, Luxury Itineraries & Signature Experiences",
-            description:
-                "A complete guide to Seabourn Mediterranean cruises covering small ports, itineraries, Signature Events, shore excursions, dining, best time to sail and who should book.",
-            author: {
-                "@type": "Person",
-                name: "Angela Hughes",
-                "@id": "https://www.tripsandships.com/#person",
+            "url": "https://www.tripsandships.com/seabourn-cruises/mediterranean/",
+            "name": "Seabourn Mediterranean Cruises: Itineraries & Small Ports",
+            "headline": "Seabourn Mediterranean Cruises: Small Ports, Luxury Itineraries & Signature Experiences",
+            "description": "Explore Seabourn Mediterranean cruises, including small ports, luxury itineraries, signature events, shore excursions, dining, destinations and the best time to sail.",
+            "keywords": [
+                "Seabourn Mediterranean Cruises",
+                "Seabourn Mediterranean cruise",
+                "Seabourn Mediterranean cruises",
+                "Seabourn Mediterranean itineraries",
+                "Seabourn Mediterranean cruise ports",
+                "Seabourn Mediterranean cruise review",
+                "Seabourn Mediterranean shore excursions",
+                "Seabourn Mediterranean small ports",
+                "Seabourn Mediterranean luxury cruise",
+                "Seabourn Mediterranean cruise ships",
+                "Seabourn Mediterranean best time to cruise",
+                "Seabourn Mediterranean sailing season",
+                "Seabourn Mediterranean destinations",
+                "Seabourn Mediterranean islands",
+                "Seabourn Mediterranean cruise worth it",
+                "Seabourn Mediterranean Signature Events",
+                "luxury Mediterranean cruise",
+                "small ship Mediterranean cruise"
+            ],
+            "isPartOf": {
+                "@type": "WebSite",
+                "@id": "https://www.tripsandships.com/#website",
+                "url": "https://www.tripsandships.com/",
+                "name": "Trips & Ships Luxury Travel"
             },
-            publisher: {
-                "@type": "Organization",
-                name: "Trips & Ships Luxury Travel",
-                "@id": "https://www.tripsandships.com/#organization",
+            "breadcrumb": {
+                "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#breadcrumb"
             },
-            inLanguage: "en-US",
+            "mainEntity": {
+                "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#destination"
+            },
+            "inLanguage": "en-US"
         },
+
         {
             "@type": "BreadcrumbList",
             "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#breadcrumb",
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripsandships.com/" },
-                { "@type": "ListItem", position: 2, name: "Seabourn Cruises", item: "https://www.tripsandships.com/seabourn-cruises/" },
-                { "@type": "ListItem", position: 3, name: "Mediterranean", item: "https://www.tripsandships.com/seabourn-cruises/mediterranean/" },
-            ],
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.tripsandships.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Seabourn Cruises",
+                    "item": "https://www.tripsandships.com/seabourn-cruises/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Seabourn Mediterranean Cruises",
+                    "item": "https://www.tripsandships.com/seabourn-cruises/mediterranean/"
+                }
+            ]
         },
+
+        {
+            "@type": "TouristDestination",
+            "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#destination",
+            "name": "Seabourn Mediterranean Cruises",
+            "description": "Seabourn Mediterranean cruises offer an intimate luxury small-ship way to explore Mediterranean destinations, including major ports, smaller coastal destinations, historic sites, islands, beaches, cuisine and cultural experiences.",
+            "url": "https://www.tripsandships.com/seabourn-cruises/mediterranean/",
+            "touristType": [
+                "Luxury travelers",
+                "Couples",
+                "Food lovers",
+                "Culture enthusiasts",
+                "History lovers",
+                "Wine lovers",
+                "First-time luxury travelers"
+            ],
+            "containedInPlace": {
+                "@type": "Place",
+                "name": "Mediterranean"
+            },
+            "additionalProperty": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Region",
+                    "value": "Mediterranean"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Cruise Style",
+                    "value": "Ultra-luxury small-ship cruising"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Main Destinations",
+                    "value": "Italy, Greece, Croatia, France, Spain, Turkey and surrounding regions"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Highlights",
+                    "value": "Historic ports, islands, beaches, cuisine and culture"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Port Style",
+                    "value": "Major destinations plus smaller ports"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Experiences",
+                    "value": "Shore excursions, cultural activities and Signature Events"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Best For",
+                    "value": "Couples, luxury travelers, food lovers and culture enthusiasts"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Peak Season",
+                    "value": "Summer"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Shoulder Seasons",
+                    "value": "Spring and fall"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Atmosphere",
+                    "value": "Intimate, relaxed and sophisticated"
+                }
+            ]
+        },
+
         {
             "@type": "ItemList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#destinations",
-            name: "Seabourn Mediterranean Cruise Regions",
-            itemListElement: [
-                { "@type": "Place", position: 1, name: "Italy" },
-                { "@type": "Place", position: 2, name: "Greece" },
-                { "@type": "Place", position: 3, name: "Croatia" },
-                { "@type": "Place", position: 4, name: "France" },
-                { "@type": "Place", position: 5, name: "Spain" },
-                { "@type": "Place", position: 6, name: "Turkey" },
-            ],
+            "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#features",
+            "name": "Seabourn Mediterranean Cruise Highlights",
+            "description": "Key destinations, experiences and features of Seabourn Mediterranean cruises.",
+            "numberOfItems": 8,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Mediterranean Destinations",
+                    "description": "Seabourn Mediterranean itineraries can include Italy, Greece, Croatia, France, Spain, Turkey and other Mediterranean regions."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Small Mediterranean Ports",
+                    "description": "Selected itineraries can include smaller ports and coastal destinations offering quieter streets, local restaurants, historic neighborhoods, scenic harbors and less-commercialized experiences."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Western Mediterranean",
+                    "description": "Western Mediterranean itinerary themes can include Spain, France, Italy and Mediterranean islands."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Eastern Mediterranean and Adriatic",
+                    "description": "Eastern Mediterranean and Adriatic itineraries can include Greece, Turkey, Croatia, Montenegro, Greek islands and Adriatic islands."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "Signature Events",
+                    "description": "Depending on the itinerary and destination, Signature Events can include private cultural performances, special dinners, historic venues, local entertainment and exclusive destination experiences."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "name": "Shore Excursions",
+                    "description": "Shore excursions can include cultural, culinary, scenic, active and beach experiences such as archaeological sites, cooking experiences, wine tasting, coastal drives, hiking, cycling, kayaking and swimming."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "name": "Mediterranean Food and Wine",
+                    "description": "Mediterranean voyages provide opportunities to experience regional cuisine and wine traditions from Italy, Greece, Croatia, France and Spain."
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "name": "Seasonal Cruising",
+                    "description": "The Mediterranean cruise season generally extends from spring through fall, with summer offering warm weather and long daylight while spring and fall can provide more comfortable sightseeing conditions and fewer peak-season crowds."
+                }
+            ]
         },
-        {
-            "@type": "Review",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#review",
-            itemReviewed: { "@type": "Product", name: "Seabourn Mediterranean Cruises" },
-            author: { "@type": "Person", name: "Angela Hughes", "@id": "https://www.tripsandships.com/#person" },
-            reviewBody:
-                "Seabourn Mediterranean cruises are an excellent choice for travelers who want to explore the Mediterranean without sacrificing intimacy, luxury or personalized service, combining small ports, excellent food, cultural discovery and elegant accommodations.",
-        },
+
         {
             "@type": "FAQPage",
             "@id": "https://www.tripsandships.com/seabourn-cruises/mediterranean/#faq",
-            mainEntity: [
-                { "@type": "Question", name: "Where does Seabourn cruise in the Mediterranean?", acceptedAnswer: { "@type": "Answer", text: "Seabourn Mediterranean itineraries can include destinations in Italy, Greece, Croatia, France, Spain, Turkey and other Mediterranean regions, depending on the specific sailing." } },
-                { "@type": "Question", name: "What makes Seabourn Mediterranean cruises different?", acceptedAnswer: { "@type": "Answer", text: "Seabourn focuses on an intimate luxury experience with smaller ships, personalized service, sophisticated dining and itineraries that can include smaller ports." } },
-                { "@type": "Question", name: "Does Seabourn visit small Mediterranean ports?", acceptedAnswer: { "@type": "Answer", text: "Selected Seabourn itineraries include smaller ports and less-commercialized destinations, although the exact ports vary by voyage." } },
-                { "@type": "Question", name: "What are the best Seabourn Mediterranean itineraries?", acceptedAnswer: { "@type": "Answer", text: "The best itinerary depends on your interests. Greece and the Greek islands are ideal for island scenery and history, Italy for art and food, Croatia for the Adriatic, and France and Spain for culture and cuisine." } },
-                { "@type": "Question", name: "What is the best time for a Seabourn Mediterranean cruise?", acceptedAnswer: { "@type": "Answer", text: "Late spring and early fall can provide an attractive combination of comfortable temperatures and fewer peak-season crowds. Summer is ideal for travelers prioritizing beach weather and long daylight." } },
-                { "@type": "Question", name: "Is summer too hot for a Mediterranean cruise?", acceptedAnswer: { "@type": "Answer", text: "Summer can be very warm, particularly in southern Mediterranean destinations. Travelers focused on sightseeing may prefer spring or fall." } },
-                { "@type": "Question", name: "Does Seabourn offer Mediterranean Signature Events?", acceptedAnswer: { "@type": "Answer", text: "Seabourn offers distinctive Signature Experiences and special destination programming, with availability depending on the itinerary." } },
-                { "@type": "Question", name: "Are shore excursions included on Seabourn?", acceptedAnswer: { "@type": "Answer", text: "Shore excursions are not universally included simply because you are sailing with Seabourn. The exact inclusions depend on the voyage and excursion selected." } },
-                { "@type": "Question", name: "Is Seabourn Mediterranean good for couples?", acceptedAnswer: { "@type": "Answer", text: "Yes. The combination of intimate ships, scenic destinations, fine dining and sophisticated service makes Seabourn particularly appealing for couples." } },
-                { "@type": "Question", name: "Is Seabourn Mediterranean good for first-time cruisers?", acceptedAnswer: { "@type": "Answer", text: "Yes. The Mediterranean offers a wide range of destinations, making it an excellent introduction to luxury cruising." } },
-                { "@type": "Question", name: "Is Seabourn Mediterranean good for families?", acceptedAnswer: { "@type": "Answer", text: "It can work for multigenerational families, particularly those interested in culture, history and food. Families seeking extensive children's entertainment may prefer a larger cruise ship." } },
-                { "@type": "Question", name: "What should I pack for a Seabourn Mediterranean cruise?", acceptedAnswer: { "@type": "Answer", text: "Pack lightweight clothing, comfortable walking shoes, sun protection, a light jacket and smart-casual evening clothing." } },
-                { "@type": "Question", name: "Is a balcony worth it on a Mediterranean cruise?", acceptedAnswer: { "@type": "Answer", text: "A balcony can be valuable for enjoying scenic cruising, coastal views, morning coffee and quiet time in port." } },
-                { "@type": "Question", name: "Can you combine Italy and Greece on a Seabourn cruise?", acceptedAnswer: { "@type": "Answer", text: "Yes, depending on the itinerary. Some Mediterranean voyages combine multiple countries and regions." } },
-                { "@type": "Question", name: "Does Seabourn cruise the Greek Islands?", acceptedAnswer: { "@type": "Answer", text: "Yes, Greek islands can feature on Seabourn Mediterranean itineraries, with the exact destinations depending on the sailing." } },
-                { "@type": "Question", name: "Is Seabourn better than a large Mediterranean cruise ship?", acceptedAnswer: { "@type": "Answer", text: "It depends on your priorities. Seabourn is better suited to travelers seeking intimacy, personalized service and luxury, while large ships offer more entertainment and onboard facilities." } },
-                { "@type": "Question", name: "Is Seabourn Mediterranean all-inclusive?", acceptedAnswer: { "@type": "Answer", text: "Seabourn offers an inclusive luxury experience with many onboard amenities included, although specific inclusions and optional expenses vary by sailing." } },
-                { "@type": "Question", name: "Is a Seabourn Mediterranean cruise worth the money?", acceptedAnswer: { "@type": "Answer", text: "For travelers who value smaller ships, personalized service, excellent dining and distinctive Mediterranean experiences, Seabourn can be worth the premium." } },
-            ],
-        },
-    ],
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Where does Seabourn cruise in the Mediterranean?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seabourn Mediterranean itineraries can include destinations in Italy, Greece, Croatia, France, Spain, Turkey and other Mediterranean regions, depending on the specific sailing."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What makes Seabourn Mediterranean cruises different?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seabourn focuses on an intimate luxury experience with smaller ships, personalized service, sophisticated dining and itineraries that can include smaller ports."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does Seabourn visit small Mediterranean ports?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Selected Seabourn itineraries include smaller ports and less-commercialized destinations, although the exact ports vary by voyage."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What are the best Seabourn Mediterranean itineraries?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "The best itinerary depends on your interests. Greece and the Greek islands are ideal for island scenery and history, Italy for art and food, Croatia for the Adriatic, and France and Spain for culture and cuisine."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the best time for a Seabourn Mediterranean cruise?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Late spring and early fall can provide an attractive combination of comfortable temperatures and fewer peak-season crowds. Summer is ideal for travelers prioritizing beach weather and long daylight."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is summer too hot for a Mediterranean cruise?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Summer can be very warm, particularly in southern Mediterranean destinations. Travelers focused on sightseeing may prefer spring or fall."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does Seabourn offer Mediterranean Signature Events?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seabourn offers distinctive Signature Experiences and special destination programming, with availability depending on the itinerary."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are shore excursions included on Seabourn?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Shore excursions are not universally included simply because you are sailing with Seabourn. The exact inclusions depend on the voyage and excursion selected."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Seabourn Mediterranean good for couples?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. The combination of intimate ships, scenic destinations, fine dining and sophisticated service makes Seabourn particularly appealing for couples."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Seabourn Mediterranean good for first-time cruisers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. The Mediterranean offers a wide range of destinations, making it an excellent introduction to luxury cruising."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Seabourn Mediterranean good for families?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It can work for multigenerational families, particularly those interested in culture, history and food. Families seeking extensive children's entertainment may prefer a larger cruise ship."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What should I pack for a Seabourn Mediterranean cruise?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pack lightweight clothing, comfortable walking shoes, sun protection, a light jacket and smart-casual evening clothing."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is a balcony worth it on a Mediterranean cruise?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A balcony can be valuable for enjoying scenic cruising, coastal views, morning coffee and quiet time in port."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can you combine Italy and Greece on a Seabourn cruise?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, depending on the itinerary. Some Mediterranean voyages combine multiple countries and regions."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does Seabourn cruise the Greek Islands?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, Greek islands can feature on Seabourn Mediterranean itineraries, with the exact destinations depending on the sailing."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Seabourn better than a large Mediterranean cruise ship?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It depends on your priorities. Seabourn is better suited to travelers seeking intimacy, personalized service and luxury, while large ships offer more entertainment and onboard facilities."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is Seabourn Mediterranean all-inclusive?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seabourn offers an inclusive luxury experience with many onboard amenities included, although specific inclusions and optional expenses vary by sailing."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is a Seabourn Mediterranean cruise worth the money?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "For travelers who value smaller ships, personalized service, excellent dining and distinctive Mediterranean experiences, Seabourn can be worth the premium."
+                    }
+                }
+            ]
+        }
+    ]
 };
 
 /* ── FAQ Accordion ─────────────────────────────────────────────── */
@@ -392,7 +637,7 @@ const SeabournMediterraneanCruisesGuide = () => {
                     name="description"
                     content="Explore Seabourn Mediterranean cruises, including small ports, luxury itineraries, signature events, shore excursions, dining, destinations and the best time to sail."
                 />
-                <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+                <script type="application/ld+json">{JSON.stringify(seabournMediterraneanSchema)}</script>
             </Helmet>
             <Nav />
 

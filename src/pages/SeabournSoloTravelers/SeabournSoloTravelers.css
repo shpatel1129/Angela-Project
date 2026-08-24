@@ -1,0 +1,483 @@
+/* ──────────────────────────────────────────────────────────────────
+   SeabournSoloTravelers.css
+   Only NEW, unique classes for content types that have no equivalent
+   in SeabournCruises.css. Every class below is prefixed "Slo-" so it
+   can never collide with the "Sbc-" classes reused from the reference
+   stylesheet. Colors, fonts and spacing reuse the same global design
+   tokens (--navy, --bg-white, --bg-soft, --bg-dark, --bg-dark2,
+   --font-display, --font-body) as the reference file.
+   ────────────────────────────────────────────────────────────────── */
+
+/* ── Comparison / "at a glance" tables ───────────────────────────── */
+.Slo-glance-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid #e3eaf1;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
+}
+
+.Slo-glance-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 560px;
+    background: var(--bg-white);
+    font-family: var(--font-body);
+}
+
+.Slo-glance-table thead th {
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bg-white);
+    text-align: left;
+    padding: 18px 28px;
+    background: var(--navy);
+    letter-spacing: 0.02em;
+}
+
+.Slo-glance-table thead th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.Slo-glance-table thead th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.Slo-glance-table tbody td {
+    padding: 16px 28px;
+    font-size: 16px;
+    color: #3d4c5f;
+    border-bottom: 1px solid #e3eaf1;
+    line-height: 1.55;
+}
+
+.Slo-glance-table tbody td:first-child {
+    font-weight: 600;
+    color: var(--navy);
+    width: 32%;
+    white-space: nowrap;
+}
+
+.Slo-glance-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.Slo-glance-table tbody tr:nth-child(even) {
+    background: var(--bg-soft);
+}
+
+.Slo-glance-table tbody tr:hover {
+    background: #eef2f7;
+}
+
+/* Two-column "Seabourn vs Large Cruise Ship" variant */
+.Slo-vs-table thead th:first-child {
+    background: var(--navy);
+}
+
+.Slo-vs-table thead th:last-child {
+    background: #7c8896;
+}
+
+.Slo-vs-table tbody td:first-child {
+    color: var(--navy);
+    font-weight: 600;
+    width: 50%;
+    white-space: normal;
+}
+
+/* ── Numbered solo travel tips grid ──────────────────────────────── */
+.Slo-tips-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.Slo-tip-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 6px;
+    padding: 26px 28px;
+    transition: all 0.3s ease;
+}
+
+.Slo-tip-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Slo-tip-number {
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--bg-soft);
+    -webkit-text-stroke: 1.5px var(--navy);
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 44px;
+}
+
+.Slo-tip-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 6px;
+    line-height: 1.3;
+}
+
+.Slo-tip-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: #3d4c5f;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Responsive: 1024px ──────────────────────────────────────────── */
+@media (max-width: 1024px) {
+    
+    .Slo-tips-grid {
+        gap: 20px;
+    }
+
+    .Slo-glance-table thead th,
+    .Slo-glance-table tbody td {
+        padding: 14px 22px;
+    }
+}
+
+/* ── Responsive: 768px ───────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .Slo-tips-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Slo-tip-card {
+        padding: 22px;
+    }
+
+    .Slo-glance-table {
+        min-width: 480px;
+    }
+}
+
+/* ── Responsive: 480px ───────────────────────────────────────────── */
+@media (max-width: 480px) {
+    .Slo-tip-card {
+        gap: 14px;
+        padding: 18px;
+    }
+
+    .Slo-tip-number {
+        font-size: 22px;
+        min-width: 34px;
+    }
+    .Sbc-suite-strategy p, .Slo-tip-text{
+        font-size: 16px !important;
+    }
+
+
+    .Slo-glance-table thead th,
+    .Slo-glance-table tbody td {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .Slo-glance-table {
+        min-width: 420px;
+    }
+}
+
+/* ── Shore Excursions Cards ─────────────────────────────────────── */
+.Slo-excursions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.Slo-excursion-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
+}
+
+.Slo-excursion-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Slo-excursion-image-placeholder {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, #1b2e4b 0%, #0d1726 100%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+}
+
+.Slo-excursion-placeholder-icon {
+    color: rgba(255, 255, 255, 0.25);
+    transition: all 0.3s ease;
+}
+
+.Slo-excursion-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.Slo-excursion-card:hover .Slo-excursion-placeholder-icon {
+    transform: scale(1.08);
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.Slo-excursion-card:hover .Slo-excursion-placeholder-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Slo-excursion-card-title {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 14px;
+    line-height: 1.25;
+}
+
+.Slo-excursion-card-intro {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--navy);
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.Slo-excursion-list {
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.Slo-excursion-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: #3d4c5f;
+    line-height: 1.45;
+}
+
+.Slo-excursion-list li svg {
+    color: var(--navy);
+    background: var(--bg-soft);
+    border-radius: 50%;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.Slo-excursion-card-footer {
+    margin-top: auto;
+    padding: 20px 24px;
+    background: var(--bg-soft);
+    border-left: 3px solid var(--navy);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--navy);
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+    .Slo-excursions-grid {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Slo-excursions-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .Slo-excursion-card {
+        padding: 30px 24px;
+    }
+}
+
+/* ── Value Proposition Section (Slo-worth-it) ───────────────────── */
+.Slo-worth-verdict-intro {
+    font-family: var(--font-body);
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.Slo-worth-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.Slo-worth-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: var(--navy);
+    font-weight: 500;
+    padding: 12px 16px;
+    background: var(--bg-soft);
+    border-radius: 8px;
+    border: 1px solid #e3eaf1;
+    transition: all 0.25s ease;
+}
+
+.Slo-worth-item:hover {
+    background: var(--bg-white);
+    border-color: var(--navy);
+    box-shadow: 0 4px 12px rgba(13, 23, 41, 0.04);
+}
+
+.Slo-worth-item svg {
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 50%;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.Slo-worth-caveat {
+    padding: 22px 26px;
+    background: rgba(239, 68, 68, 0.03);
+    border-left: 4px solid #ef4444;
+    border-radius: 4px;
+    margin-top: 28px;
+}
+
+.Slo-worth-caveat-title {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #ef4444;
+    margin: 0 0 8px;
+}
+
+.Slo-worth-caveat-text {
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: #3d4c5f;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.Slo-worth-image-card {
+    background: linear-gradient(135deg, #1b2e4b 0%, #0d1726 100%);
+    border-radius: 12px;
+    padding: 40px 30px;
+    color: var(--bg-white);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(13, 23, 41, 0.15);
+    box-sizing: border-box;
+}
+
+.Slo-worth-image-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.06), transparent 75%);
+    pointer-events: none;
+}
+
+.Slo-worth-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+}
+
+.Slo-worth-rating {
+    font-family: var(--font-display);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--bg-white);
+    margin: 0 0 8px;
+    line-height: 1;
+}
+
+.Slo-worth-rating-sub {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 24px;
+}
+
+.Slo-worth-stars {
+    display: flex;
+    gap: 4px;
+    color: #fbbf24;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .Slo-worth-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .Slo-worth-image-card {
+        padding: 30px 20px;
+        min-height: 280px;
+    }
+}
+

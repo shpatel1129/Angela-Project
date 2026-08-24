@@ -1,0 +1,652 @@
+
+
+/* ── Quick Verdict star-rating table ─────────────────────────────── */
+.Isw-verdict-table-wrap {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(13, 23, 41, 0.04);
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.Isw-verdict-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Isw-verdict-table thead th {
+    font-family: var(--font-body);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--bg-white);
+    background: var(--navy);
+    text-align: left;
+    padding: 18px 28px;
+}
+
+.Isw-verdict-table thead th:first-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.Isw-verdict-table thead th:last-child {
+    text-align: right;
+}
+
+.Isw-verdict-table tbody tr {
+    border-bottom: 1px solid #d2dbe5;
+    transition: background 0.2s ease;
+}
+
+.Isw-verdict-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.Isw-verdict-table tbody tr:hover {
+    background: var(--bg-soft);
+}
+
+.Isw-verdict-table td {
+    padding: 15px 28px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: #3d4c5f;
+    font-weight: 500;
+}
+
+.Isw-verdict-table td:first-child {
+    color: var(--navy);
+    font-weight: 600;
+    border-right: 1px solid #e3eaf1;
+}
+
+.Isw-verdict-stars {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+    letter-spacing: 1px;
+    color: #d4a017;
+    font-size: 16px;
+}
+
+.Isw-verdict-bottomline {
+    margin-top: 40px;
+}
+
+/* ── Formula-style callouts reused for stat call-outs (yacht/hotel) ── */
+.Isw-service-stat {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: var(--font-display);
+    color: var(--navy);
+    font-weight: 600;
+}
+
+.Isw-service-stat span {
+    font-size: 34px;
+}
+
+/* ── Cost comparison table ───────────────────────────────────────── */
+.Isw-cost-table-wrap {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(13, 23, 41, 0.04);
+    margin-top: 8px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Isw-cost-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Isw-cost-table thead th {
+    font-family: var(--font-body);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--bg-white);
+    background: var(--bg-dark2, var(--navy));
+    text-align: left;
+    padding: 18px 28px;
+}
+
+.Isw-cost-table thead th:first-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.Isw-cost-table thead th:last-child {
+    text-align: right;
+}
+
+.Isw-cost-table tbody tr {
+    border-bottom: 1px solid #d2dbe5;
+}
+
+.Isw-cost-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.Isw-cost-table tbody tr:nth-child(even) {
+    background: var(--bg-soft);
+}
+
+.Isw-cost-table td {
+    padding: 18px 28px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: #3d4c5f;
+}
+
+.Isw-cost-table td:first-child {
+    color: var(--navy);
+    font-weight: 600;
+    border-right: 1px solid #e3eaf1;
+}
+
+.Isw-cost-table td:last-child {
+    text-align: right;
+    font-weight: 500;
+}
+
+.Isw-cost-caption {
+    margin-top: 20px;
+}
+
+/* ── The Real Seabourn Value Test (5 questions) ──────────────────── */
+.Isw-test-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Isw-test-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 28px 22px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.Isw-test-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 34px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Isw-test-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--bg-soft);
+    color: var(--navy);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.Isw-test-q {
+    font-family: var(--font-display);
+    color: var(--navy);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 10px;
+}
+
+.Isw-test-a {
+    font-family: var(--font-body);
+    color: #5a6a80;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Decide checklist (three-level test) ─────────────────────────── */
+.Isw-decide-card {
+    background: var(--bg-white);
+    border: 1.5px solid var(--navy);
+    border-radius: 8px;
+    padding: 28px;
+    box-shadow: 0 8px 24px rgba(13, 23, 41, 0.04);
+}
+
+.Isw-decide-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 24px;
+}
+
+.Isw-decide-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--navy);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.Isw-decide-list li svg {
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 50%;
+    padding: 4px;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+
+
+/* ══════════════════════════════════════════════════════════════════
+   RESPONSIVE — 1024 / 768 / 480 (matches reference breakpoints)
+   ══════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 1024px) {
+    .Isw-test-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+    .Isw-verdict-table td,
+    .Isw-verdict-table thead th {
+        padding: 14px 20px;
+    }
+
+    .Isw-cost-table td,
+    .Isw-cost-table thead th {
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Isw-test-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    .Isw-decide-list {
+        grid-template-columns: 1fr;
+    }
+
+    .Isw-verdict-table thead th,
+    .Isw-verdict-table td,
+    .Isw-cost-table thead th,
+    .Isw-cost-table td {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    .Isw-service-stat span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Isw-test-grid {
+        grid-template-columns: 1fr;
+    }
+    .Isw-vs-title{
+        font-size: 22px !important;
+    }
+    .Isw-vs-text{
+        font-size: 16px !important;
+    }
+    .Isw-veranda-title{
+        font-size: 18px !important;
+    }
+
+    .Isw-verdict-table-wrap,
+    .Isw-cost-table-wrap {
+        overflow-x: auto;
+    }
+
+    .Isw-verdict-table,
+    .Isw-cost-table {
+        min-width: 480px;
+    }
+
+    .Isw-test-card {
+        padding: 22px 18px;
+    }
+
+
+}
+
+/* ── Formula Card styling (Service Section) ─────────────────────── */
+.Isw-formula-card {
+    background: linear-gradient(135deg, var(--navy) 0%, #1b2d4b 100%);
+    border-radius: 12px;
+    padding: 30px 40px;
+    color: var(--bg-white);
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(13, 23, 41, 0.15);
+    max-width: 800px;
+    margin: 32px auto 0;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.Isw-formula-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(13, 23, 41, 0.25);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.Isw-formula-title {
+    font-family: var(--font-body);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.Isw-formula-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Isw-formula-item {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--bg-white);
+}
+
+.Isw-formula-plus {
+    font-size: 20px;
+    color: #e3eaf1;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.Isw-formula-verdict {
+    margin-top: 24px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .Isw-formula-body {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Isw-formula-plus {
+        transform: rotate(90deg);
+        display: inline-block;
+        margin: 5px 0;
+    }
+    .Isw-formula-item {
+        font-size: 18px;
+    }
+}
+
+/* ── Veranda Cards stacked layout ─────────────────────────────────── */
+.Isw-veranda-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.Isw-veranda-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 6px 20px rgba(13, 23, 41, 0.03);
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.Isw-veranda-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Isw-veranda-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Isw-veranda-title {
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0 0 16px;
+    border-bottom: 1.5px solid #edf1f5;
+    padding-bottom: 8px;
+}
+
+.Isw-veranda-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Isw-veranda-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--navy);
+    font-weight: 500;
+}
+
+.Isw-veranda-image-placeholder {
+    width: 100%;
+    background: var(--bg-soft);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+    min-height: 180px;
+    box-sizing: border-box;
+}
+
+.Isw-veranda-placeholder-icon {
+    color: var(--navy);
+    margin-bottom: 8px;
+    opacity: 0.8;
+}
+
+.Isw-veranda-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #718096;
+}
+
+@media (max-width: 768px) {
+    .Isw-veranda-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* ── Vs Section Premium styling ────────────────────────────────── */
+.Isw-vs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.Isw-vs-card {
+    background: var(--bg-white);
+    border: 1px solid #e2eaf2;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    position: relative;
+}
+
+.Isw-vs-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 36px rgba(13, 23, 41, 0.08);
+    border-color: var(--navy);
+}
+
+.Isw-vs-badge {
+    display: inline-block;
+    align-self: flex-start;
+    background: rgba(13, 23, 41, 0.06);
+    color: var(--navy);
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding: 6px 14px;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    border: 1px solid rgba(13, 23, 41, 0.1);
+}
+
+.Isw-vs-title {
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 16px;
+    letter-spacing: -0.01em;
+}
+
+.Isw-vs-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: #4a5568;
+    font-weight: 400;
+    line-height: 1.65;
+    margin-bottom: 24px;
+}
+
+.Isw-vs-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.Isw-vs-pill {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    color: #4a5568;
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Isw-vs-pill::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: var(--navy);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Isw-vs-card:hover .Isw-vs-pill {
+    background: #f0f4f8;
+    border-color: #cbd5e0;
+    color: var(--navy);
+}
+
+.Isw-vs-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: var(--navy);
+    color: var(--bg-white);
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+    margin-top: auto;
+    border: 1px solid var(--navy);
+    box-shadow: 0 4px 10px rgba(13, 23, 41, 0.15);
+}
+
+.Isw-vs-link:hover {
+    background: #1b2d4b;
+    border-color: #1b2d4b;
+    color: var(--bg-white);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(13, 23, 41, 0.25);
+}
+
+.Isw-vs-link svg {
+    transition: transform 0.2s ease;
+}
+
+.Isw-vs-link:hover svg {
+    transform: translateX(4px);
+}
+
+@media (max-width: 992px) {
+    .Isw-vs-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+    .Isw-vs-card {
+        padding: 30px;
+    }
+}

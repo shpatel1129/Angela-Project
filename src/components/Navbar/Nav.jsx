@@ -1461,7 +1461,7 @@ const Nav = () => {
                 Seabourn Alaska
               </NavLink>
 
-              
+
               <NavLink
                 to="/seabourn-cruises/mediterranean"
                 className="nav-dropdown-single"
@@ -1470,6 +1470,38 @@ const Nav = () => {
                 Seabourn Mediterranean
               </NavLink>
 
+              <NavLink
+                to="/seabourn-cruises/caribbean"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn Caribbean
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/solo-travelers"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn Solo Travelers
+              </NavLink>
+
+
+              <NavLink
+                to="/seabourn-cruises/world-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn World Cruises
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/is-seabourn-worth-it"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Seabourn Worth it
+              </NavLink>
 
 
 
@@ -2940,9 +2972,42 @@ const Nav = () => {
               to="/seabourn-cruises/mediterranean"
               className="nav-dropdown-single"
               onClick={toggleMenu}
-              >
-                Seabourn Mediterranean
-              </NavLink>
+            >
+              Seabourn Mediterranean
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/caribbean"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn Caribbean
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/solo-travelers"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn Solo Travelers
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/world-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn World Cruises
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/is-seabourn-worth-it"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Seabourn Worth it
+            </NavLink>
+
 
 
 

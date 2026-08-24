@@ -1,0 +1,863 @@
+/* ══════════════════════════════════════════════════════════════════
+   NEW CONTENT — Seabourn World Cruises & Grand Voyages page
+   (Wcg- prefixed classes: used only where no matching Sbc- pattern
+   existed in the reference file. All shared/matching content reuses
+   the original Sbc-/Asc- classes above, untouched.)
+   ══════════════════════════════════════════════════════════════════ */
+
+/* Generic default icon color for Sbc-qa-list reused on this page
+   (reference file only scoped this per-section id; this default
+   simply extends the same pattern for the new sections below) */
+.Sbc-qa-list li svg {
+    color: var(--navy);
+    background: var(--bg-soft);
+}
+
+/* ── Wcg-table: used for "At a Glance", "World Cruise vs Grand
+   Voyage" and "World Cruise vs Multiple Short Cruises" tables ───── */
+.Wcg-table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    border: 1px solid #e3eaf1;
+}
+
+.Wcg-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-white);
+    min-width: 480px;
+}
+
+.Wcg-table thead th {
+    background: var(--navy);
+    color: var(--bg-white);
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 18px 26px;
+}
+
+.Wcg-table tbody td {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: #3d4c5f;
+    padding: 16px 26px;
+    border-bottom: 1px solid #e3eaf1;
+    line-height: 1.5;
+}
+
+.Wcg-table tbody td:first-child {
+    font-weight: 600;
+    color: var(--navy);
+    white-space: nowrap;
+}
+
+.Wcg-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.Wcg-table tbody tr:nth-child(even) td {
+    background: var(--bg-soft);
+}
+
+/* ── Wcg-timeline: World Cruise planning timeline ────────────────── */
+.Wcg-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.Wcg-timeline-item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.Wcg-timeline-phase {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-radius: 6px;
+    padding: 16px 18px;
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.Wcg-timeline-content {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 26px 30px;
+}
+
+.Wcg-timeline-title {
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 14px;
+}
+
+/* ── Wcg-day-schedule: couples sample day (morning/afternoon/evening) */
+.Wcg-day-schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.Wcg-day-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 30px 26px;
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+.Wcg-day-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow);
+}
+
+.Wcg-day-time {
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--navy);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.Wcg-day-text {
+    font-family: var(--font-body);
+    color: #3d4c5f;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Wcg-num: numeral inside a reused Sbc-card-icon circle ───────── */
+.Wcg-num {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* ════════════════════════ RESPONSIVE ════════════════════════════ */
+@media (max-width: 1024px) {
+    .Wcg-timeline-item {
+        grid-template-columns: 160px 1fr;
+        gap: 22px;
+    }
+
+    .Wcg-timeline-phase {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+
+    .Wcg-day-schedule {
+        gap: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Wcg-table thead th,
+    .Wcg-table tbody td {
+        padding: 14px 18px;
+        font-size: 14px;
+    }
+
+    .Wcg-timeline-item {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .Wcg-timeline-phase {
+        text-align: left;
+        width: fit-content;
+    }
+
+    .Wcg-timeline-content {
+        padding: 22px 22px;
+    }
+
+    .Wcg-day-schedule {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .Wcg-table thead th,
+    .Wcg-table tbody td {
+        padding: 12px 14px;
+        font-size: 13px;
+    }
+
+    .Wcg-timeline-content {
+        padding: 18px 18px;
+    }
+    .Wcg-worth-verdict-intro{
+        font-size: 16px !important;
+    }
+
+    .Wcg-timeline-title {
+        font-size: 13px;
+    }
+
+    .Wcg-day-card {
+        padding: 22px 18px;
+    }
+}
+
+/* ── Destinations Grid ───────────────────────────────────────────── */
+.Wcg-destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.Wcg-destination-card {
+    background: var(--bg-soft);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+}
+
+.Wcg-destination-card:hover {
+    transform: translateY(-5px);
+    background: var(--bg-white);
+    border-color: var(--navy);
+    box-shadow: 0 12px 30px rgba(13, 23, 41, 0.06);
+}
+
+.Wcg-destination-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.Wcg-destination-card:hover .Wcg-destination-icon {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-color: var(--navy);
+}
+
+.Wcg-destination-name {
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--navy);
+}
+
+@media (max-width: 1024px) {
+    .Wcg-destinations-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Wcg-destinations-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .Wcg-destinations-grid {
+        grid-template-columns: 1fr;
+    }
+    .Wcg-destination-card {
+        padding: 20px;
+    }
+}
+
+/* ── Equal Height for Longer Voyage Benefits & Wellness ─────────── */
+#Wcg-longer-voyage-benefits .Sbc-wellness-layout,
+#Wcg-wellness .Sbc-wellness-layout {
+    align-items: stretch;
+}
+
+#Wcg-longer-voyage-benefits .Sbc-wellness-image-placeholder,
+#Wcg-wellness .Sbc-wellness-image-placeholder {
+    height: 100%;
+    min-height: 480px;
+}
+
+@media (max-width: 768px) {
+    #Wcg-longer-voyage-benefits .Sbc-wellness-image-placeholder,
+    #Wcg-wellness .Sbc-wellness-image-placeholder {
+        height: 320px;
+        min-height: auto;
+    }
+}
+
+/* ── World Cruise Suites Grid & Cards ───────────────────────────── */
+.Wcg-suites-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.Wcg-suite-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
+}
+
+.Wcg-suite-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Wcg-suite-image-placeholder {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, #1b2e4b 0%, #0d1726 100%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+}
+
+.Wcg-suite-placeholder-icon {
+    color: rgba(255, 255, 255, 0.25);
+    transition: all 0.3s ease;
+}
+
+.Wcg-suite-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.Wcg-suite-card:hover .Wcg-suite-placeholder-icon {
+    transform: scale(1.08);
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.Wcg-suite-card:hover .Wcg-suite-placeholder-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Wcg-suite-card-title {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 14px;
+    line-height: 1.25;
+}
+
+.Wcg-suite-card-intro {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--navy);
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.Wcg-suite-list {
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.Wcg-suite-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: #3d4c5f;
+    line-height: 1.45;
+}
+
+.Wcg-suite-list li svg {
+    color: var(--navy);
+    background: var(--bg-soft);
+    border-radius: 50%;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.Wcg-suite-card-footer {
+    margin-top: auto;
+    padding: 20px 24px;
+    background: var(--bg-soft);
+    border-left: 3px solid var(--navy);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--navy);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .Wcg-suites-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .Wcg-suite-card {
+        padding: 30px 24px;
+    }
+}
+
+/* ── World Cruise Dining Grid & Cards ───────────────────────────── */
+.Wcg-dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.Wcg-dining-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
+}
+
+.Wcg-dining-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Wcg-dining-card-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: var(--bg-soft);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+}
+
+.Wcg-dining-card:hover .Wcg-dining-card-icon {
+    background: var(--navy);
+    color: var(--bg-white);
+}
+
+.Wcg-dining-card-title {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 14px;
+    line-height: 1.25;
+}
+
+.Wcg-dining-card-intro {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--navy);
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.Wcg-dining-list {
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.Wcg-dining-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: #3d4c5f;
+    line-height: 1.45;
+}
+
+.Wcg-dining-list li svg {
+    color: var(--navy);
+    background: var(--bg-soft);
+    border-radius: 50%;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.Wcg-dining-card-footer {
+    margin-top: auto;
+    padding: 20px 24px;
+    background: var(--bg-soft);
+    border-left: 3px solid var(--navy);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--navy);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .Wcg-dining-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .Wcg-dining-card {
+        padding: 30px 24px;
+    }
+}
+
+/* ── World Cruise Suitability Grid & Cards ───────────────────────── */
+.Wcg-suitability-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.Wcg-suitability-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
+}
+
+.Wcg-suitability-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Wcg-suitability-image-placeholder {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, #1b2e4b 0%, #0d1726 100%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+}
+
+.Wcg-suitability-placeholder-icon {
+    color: rgba(255, 255, 255, 0.25);
+    transition: all 0.3s ease;
+}
+
+.Wcg-suitability-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.Wcg-suitability-card:hover .Wcg-suitability-placeholder-icon {
+    transform: scale(1.08);
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.Wcg-suitability-card:hover .Wcg-suitability-placeholder-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.Wcg-suitability-card-title {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 14px;
+    line-height: 1.25;
+}
+
+.Wcg-suitability-card-intro {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--navy);
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.Wcg-suitability-list {
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.Wcg-suitability-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: #3d4c5f;
+    line-height: 1.45;
+}
+
+.Wcg-suitability-list li svg {
+    color: var(--navy);
+    background: var(--bg-soft);
+    border-radius: 50%;
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.Wcg-suitability-card-footer {
+    margin-top: auto;
+    padding: 20px 24px;
+    background: var(--bg-soft);
+    border-left: 3px solid var(--navy);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--navy);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .Wcg-suitability-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .Wcg-suitability-card {
+        padding: 30px 24px;
+    }
+}
+
+/* ── Value Comparison Grid & Cards ─────────────────────────────── */
+.Wcg-value-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.Wcg-value-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.01);
+}
+
+.Wcg-value-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--navy);
+    box-shadow: 0 12px 30px rgba(13, 23, 41, 0.06);
+}
+
+.Wcg-value-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-soft);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.Wcg-value-card:hover .Wcg-value-icon {
+    background: var(--navy);
+    color: var(--bg-white);
+}
+
+.Wcg-value-text {
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    font-weight: 600;
+    color: var(--navy);
+}
+
+@media (max-width: 1024px) {
+    .Wcg-value-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Wcg-value-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .Wcg-value-grid {
+        grid-template-columns: 1fr;
+    }
+    .Wcg-value-card {
+        padding: 20px;
+    }
+}
+
+/* ── Value Proposition Section (Wcg-worth-it) ───────────────────── */
+.Wcg-worth-verdict-intro {
+    font-family: var(--font-body);
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.Wcg-worth-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.Wcg-worth-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: var(--navy);
+    font-weight: 500;
+    padding: 12px 16px;
+    background: var(--bg-white);
+    border-radius: 8px;
+    border: 1px solid #e3eaf1;
+    transition: all 0.25s ease;
+}
+
+.Wcg-worth-item:hover {
+    background: var(--bg-soft);
+    border-color: var(--navy);
+    box-shadow: 0 4px 12px rgba(13, 23, 41, 0.04);
+}
+
+.Wcg-worth-item svg {
+    color: var(--navy) !important;
+    border: 1.5px solid var(--navy) !important;
+    background: transparent !important;
+    border-radius: 50% !important;
+    padding: 3px !important;
+    flex-shrink: 0 !important;
+    width: 22px !important;
+    height: 22px !important;
+    box-sizing: border-box !important;
+    transition: all 0.25s ease !important;
+}
+
+.Wcg-worth-item:hover svg {
+    color: var(--bg-white) !important;
+    background: var(--navy) !important;
+    border-color: var(--navy) !important;
+}
+
+.Wcg-worth-caveat {
+    padding: 22px 26px;
+    background: var(--bg-white);
+    border-left: 4px solid var(--navy);
+    border-radius: 4px;
+    margin-top: 28px;
+}
+
+.Wcg-worth-caveat-title {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--navy);
+    margin: 0 0 8px;
+}
+
+.Wcg-worth-caveat-text {
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: #3d4c5f;
+    line-height: 1.55;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .Wcg-worth-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}

@@ -166,19 +166,23 @@ import Seabournantarcticacruises from "./pages/Seabournantarcticacruises/Seabour
 import Seabournvssilversea from "./pages/Seabournvssilversea/Seabournvssilversea";
 import Seabournshoreexcursions from "./pages/Seabournshoreexcursions/Seabournshoreexcursions";
 import Seabournvsregent from "./pages/Seabournvsregent/Seabournvsregent";
-import Seabournfaqs  from "./pages/Seabournfaqs/Seabournfaqs";
-import Seabournwhybookwithus  from "./pages/Seabournwhybookwithus/Seabournwhybookwithus";
-import Seabourndining   from "./pages/Seabourndining/Seabourndining";
-import Seabournsignatureexperiences    from "./pages/Seabournsignatureexperiences/Seabournsignatureexperiences";
-import SeabournVentureShipGuide    from "./pages/SeabournVentureShipGuide/SeabournVentureShipGuide";
-import SeabournPursuitShipGuide    from "./pages/SeabournPursuitShipGuide/SeabournPursuitShipGuide";
-import SeabournOvationShipGuide    from "./pages/SeabournOvationShipGuide/SeabournOvationShipGuide";
-import SeabournEncoreShipGuide    from "./pages/SeabournEncoreShipGuide/SeabournEncoreShipGuide";
-import SeabournQuestShipGuide    from "./pages/SeabournQuestShipGuide/SeabournQuestShipGuide";
-import SeabournKimberleyCruises    from "./pages/SeabournKimberleyCruises/SeabournKimberleyCruises";
-import SeabournArcticandGreenlandCruises    from "./pages/SeabournArcticandGreenlandCruises/SeabournArcticandGreenlandCruises";
-import SeabournAlaskaCruises    from "./pages/SeabournAlaskaCruises/SeabournAlaskaCruises";
-import SeabournMediterraneanCruises    from "./pages/SeabournMediterraneanCruises/SeabournMediterraneanCruises";
+import Seabournfaqs from "./pages/Seabournfaqs/Seabournfaqs";
+import Seabournwhybookwithus from "./pages/Seabournwhybookwithus/Seabournwhybookwithus";
+import Seabourndining from "./pages/Seabourndining/Seabourndining";
+import Seabournsignatureexperiences from "./pages/Seabournsignatureexperiences/Seabournsignatureexperiences";
+import SeabournVentureShipGuide from "./pages/SeabournVentureShipGuide/SeabournVentureShipGuide";
+import SeabournPursuitShipGuide from "./pages/SeabournPursuitShipGuide/SeabournPursuitShipGuide";
+import SeabournOvationShipGuide from "./pages/SeabournOvationShipGuide/SeabournOvationShipGuide";
+import SeabournEncoreShipGuide from "./pages/SeabournEncoreShipGuide/SeabournEncoreShipGuide";
+import SeabournQuestShipGuide from "./pages/SeabournQuestShipGuide/SeabournQuestShipGuide";
+import SeabournKimberleyCruises from "./pages/SeabournKimberleyCruises/SeabournKimberleyCruises";
+import SeabournArcticandGreenlandCruises from "./pages/SeabournArcticandGreenlandCruises/SeabournArcticandGreenlandCruises";
+import SeabournAlaskaCruises from "./pages/SeabournAlaskaCruises/SeabournAlaskaCruises";
+import SeabournMediterraneanCruises from "./pages/SeabournMediterraneanCruises/SeabournMediterraneanCruises";
+import SeabournCaribbeanCruises from "./pages/SeabournCaribbeanCruises/SeabournCaribbeanCruises";
+import SeabournSoloTravelers from "./pages/SeabournSoloTravelers/SeabournSoloTravelers";
+import SeabournWorldCruises from "./pages/SeabournWorldCruises/SeabournWorldCruises";
+import IsSeabournWorthPrice from "./pages/IsSeabournWorthPrice/IsSeabournWorthPrice";
 
 
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
@@ -681,6 +685,10 @@ function App() {
           <Route path="/seabourn-cruises/arctic-greenland" element={<SeabournArcticandGreenlandCruises />} />
           <Route path="/seabourn-cruises/alaska" element={<SeabournAlaskaCruises />} />
           <Route path="/seabourn-cruises/mediterranean" element={<SeabournMediterraneanCruises />} />
+          <Route path="/seabourn-cruises/caribbean" element={<SeabournCaribbeanCruises />} />
+          <Route path="/seabourn-cruises/solo-travelers" element={<SeabournSoloTravelers />} />
+          <Route path="/seabourn-cruises/world-cruises" element={<SeabournWorldCruises />} />
+          <Route path="/seabourn-cruises/is-seabourn-worth-it" element={<IsSeabournWorthPrice />} />
 
         </Routes>
       </BrowserRouter>
