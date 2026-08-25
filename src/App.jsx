@@ -183,6 +183,10 @@ import SeabournCaribbeanCruises from "./pages/SeabournCaribbeanCruises/SeabournC
 import SeabournSoloTravelers from "./pages/SeabournSoloTravelers/SeabournSoloTravelers";
 import SeabournWorldCruises from "./pages/SeabournWorldCruises/SeabournWorldCruises";
 import IsSeabournWorthPrice from "./pages/IsSeabournWorthPrice/IsSeabournWorthPrice";
+import HowMuchDoesSeabournCruiseCost from "./pages/HowMuchDoesSeabournCruiseCost/HowMuchDoesSeabournCruiseCost";
+import Seabournoffersloyalty  from "./pages/Seabournoffersloyalty/Seabournoffersloyalty";
+import Seabourncruisequote   from "./pages/Seabourncruisequote/Seabourncruisequote";
+import Seabourndresscode    from "./pages/Seabourndresscode/Seabourndresscode";
 
 
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
@@ -689,6 +693,10 @@ function App() {
           <Route path="/seabourn-cruises/solo-travelers" element={<SeabournSoloTravelers />} />
           <Route path="/seabourn-cruises/world-cruises" element={<SeabournWorldCruises />} />
           <Route path="/seabourn-cruises/is-seabourn-worth-it" element={<IsSeabournWorthPrice />} />
+          <Route path="/seabourn-cruises/cost" element={<HowMuchDoesSeabournCruiseCost />} />
+          <Route path="/seabourn-cruises/offers-loyalty" element={<Seabournoffersloyalty />} />
+          <Route path="/seabourn-cruises/request-a-quote" element={<Seabourncruisequote />} />
+          <Route path="/seabourn-cruises/dress-code" element={<Seabourndresscode />} />
 
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,464 @@
+
+.Sdc-pack-card {
+    background: var(--bg-white);
+    border: 1px solid #e3eaf1;
+    border-top: 4px solid var(--navy);
+    border-radius: 8px;
+    padding: 30px 28px;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.Sdc-pack-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(13, 23, 41, 0.06);
+}
+
+.Sbc-bg-soft .Sdc-pack-card {
+    background: var(--bg-white);
+}
+
+.Sdc-pack-card-title {
+    font-family: var(--font-body);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0 0 18px;
+}
+
+.Sdc-pack-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Sdc-pack-card li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    color: #3d4c5f;
+    padding: 7px 0;
+    border-bottom: 1px solid #edf1f5;
+}
+
+.Sdc-pack-card li:last-child {
+    border-bottom: none;
+}
+
+.Sdc-pack-card li svg {
+    color: var(--navy);
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.Sdc-pack-card.Sdc-checklist li svg {
+    color: #7c8aa0;
+}
+
+/* ── Single centered "avoid" card (What Not to Overpack) ───────
+   (New: reference pros/cons card is always paired in a 2-col
+   grid; this page needs one standalone cons-style card) */
+.Sdc-single-card-wrap {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+/* ── Note / callout box for light backgrounds ───────────────────
+   (New: reference Sbc-includes-note is styled for dark bg only) */
+.Sdc-note-box {
+    margin-top: 8px;
+    background: var(--bg-soft);
+    border: 1px solid #e3eaf1;
+    border-left: 4px solid var(--navy);
+    border-radius: 6px;
+    padding: 22px 28px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.Sdc-note-box svg {
+    color: var(--navy);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.Sdc-note-box p {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: #3d4c5f;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.Sdc-note-box strong {
+    color: var(--navy);
+}
+
+/* ── Numbered circle used inside a reused Sbc-card-icon ─────────
+   (New: small typographic addition only, no layout change) */
+.Sdc-card-num {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+
+/* ── Responsive: 1024 / 768 / 480 ───────────────────────────── */
+
+
+@media (max-width: 768px) {
+    .Sdc-pack-card {
+        padding: 24px 22px;
+    }
+
+    .Sdc-note-box {
+        padding: 18px 20px;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Sdc-pack-card-title {
+        font-size: 12px;
+    }
+
+    .Sdc-pack-card li,
+    .Sdc-note-box p {
+        font-size: 14.5px;
+    }
+}
+
+/* ── Premium Table Styling ───────────────────────────────────────── */
+.Sdc-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    background: var(--bg-white);
+    border: 1px solid rgba(39, 68, 114, 0.12);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(13, 23, 41, 0.03);
+    margin-top: 36px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.Sdc-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 600px;
+}
+
+.Sdc-table th {
+    background: rgba(39, 68, 114, 0.04);
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--navy);
+    padding: 18px 24px;
+    border-bottom: 2px solid rgba(39, 68, 114, 0.12);
+}
+
+.Sdc-table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(39, 68, 114, 0.08);
+    font-family: var(--font-body);
+    font-size: 15.5px;
+    line-height: 1.6;
+    color: #3d4c5f;
+}
+
+.Sdc-table tr:last-child td {
+    border-bottom: none;
+}
+
+.Sdc-table tr:hover td {
+    background: rgba(39, 68, 114, 0.02);
+}
+
+.Sdc-table td strong {
+    color: var(--navy);
+    font-weight: 600;
+}
+
+/* Responsive Table */
+@media (max-width: 600px) {
+    .Sdc-table thead {
+        display: none;
+    }
+
+    .Sdc-table, 
+    .Sdc-table tbody, 
+    .Sdc-table tr, 
+    .Sdc-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .Sdc-table-wrap {
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        margin-top: 24px;
+    }
+
+    .Sdc-table tr {
+        background: var(--bg-white);
+        border: 1px solid rgba(39, 68, 114, 0.1);
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 12px rgba(13, 23, 41, 0.02);
+    }
+
+    .Sdc-table td {
+        padding: 8px 0;
+        border-bottom: none;
+        font-size: 14.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Sdc-table td[data-label]::before {
+        content: attr(data-label);
+        font-family: var(--font-body);
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--navy);
+        opacity: 0.7;
+        margin-bottom: 4px;
+    }
+}
+
+/* ── Poolside & Wellness Grid Layout ──────────────────────────────── */
+.Sdc-pool-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 36px;
+}
+
+.Sdc-pack-card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(39, 68, 114, 0.08);
+    padding-bottom: 16px;
+}
+
+.Sdc-pack-icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(39, 68, 114, 0.06);
+    border: 1px solid rgba(39, 68, 114, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    flex-shrink: 0;
+}
+
+.Sdc-pack-card:hover .Sdc-pack-icon-circle {
+    background: var(--navy);
+    border-color: var(--navy);
+    color: #fff;
+    transform: scale(1.08) rotate(360deg);
+}
+
+.Sdc-pack-card-title-custom {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0;
+}
+
+.Sdc-note-highlight {
+    background: var(--bg-soft);
+    border: 1px solid rgba(39, 68, 114, 0.1);
+    border-left: 4px solid var(--navy);
+    border-radius: 8px;
+    padding: 16px 18px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+    .Sdc-pool-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* ── Evening Cards Stack Layout ──────────────────────────────────── */
+.Sdc-evening-cards-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .Sdc-evening-cards-stack {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
+/* ── Two Column Checklist Layout ─────────────────────────────────── */
+.Sdc-two-col-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .Sdc-two-col-list {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+/* ── Carry-On List Wrapper Card ──────────────────────────────────── */
+.Sdc-carryon-list-container {
+    background: var(--bg-white);
+    border: 1px solid rgba(39, 68, 114, 0.1);
+    border-radius: 10px;
+    padding: 24px 28px;
+    box-shadow: 0 4px 20px rgba(13, 23, 41, 0.02);
+}
+
+@media (max-width: 576px) {
+    .Sdc-carryon-list-container {
+        padding: 20px;
+    }
+}
+
+/* ── Destination Vertical Layout Overrides ───────────────────────── */
+#Sbc-dest-packing .Sbc-dest-tab-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#Sbc-dest-packing .Sbc-dest-image-placeholder {
+    width: 100%;
+    height: 220px;
+    border-radius: 12px;
+}
+
+#Sbc-dest-packing .Sbc-dest-details {
+    width: 100%;
+    padding: 0;
+}
+
+/* ── Laundry Highlights Cards ────────────────────────────────────── */
+.Sdc-laundry-card {
+    background: var(--bg-white);
+    border: 1px solid rgba(39, 68, 114, 0.1);
+    border-radius: 10px;
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.Sdc-laundry-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(13, 23, 41, 0.06);
+    border-color: var(--navy);
+}
+
+.Sdc-laundry-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: rgba(39, 68, 114, 0.05);
+    border: 1px solid rgba(39, 68, 114, 0.1);
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+.Sdc-laundry-card:hover .Sdc-laundry-icon {
+    background: var(--navy);
+    border-color: var(--navy);
+    color: #fff;
+    transform: scale(1.06);
+}
+
+.Sdc-laundry-label {
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+}
+
+/* ── Ashore Tags Layout ─────────────────────────────────────────── */
+.Sdc-ashore-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.Sdc-ashore-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(39, 68, 114, 0.05);
+    border: 1px solid rgba(39, 68, 114, 0.1);
+    color: var(--navy);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+    cursor: default;
+}
+
+.Sdc-ashore-tag:hover {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+    transform: translateY(-2px);
+}
+
+.Sdc-ashore-tag svg {
+    flex-shrink: 0;
+    color: var(--navy);
+    transition: color 0.25s ease;
+}
+
+.Sdc-ashore-tag:hover svg {
+    color: #fff;
+}

@@ -1503,6 +1503,44 @@ const Nav = () => {
                 Is Seabourn Worth it
               </NavLink>
 
+              <NavLink
+                to="/seabourn-cruises/cost"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                How much does Seabourn cost
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/dress-code"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn Dress Code
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/offers-loyalty"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn Offers & Loyalty
+              </NavLink>
+
+
+              <NavLink
+                to="/seabourn-cruises/request-a-quote"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn Request a quote
+              </NavLink>
+
+
+
+
+
+
 
 
 
@@ -3007,6 +3045,41 @@ const Nav = () => {
             >
               Is Seabourn Worth it
             </NavLink>
+
+
+            <NavLink
+              to="/seabourn-cruises/cost"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              How much does Seabourn cost
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/dress-code"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn Dress Code
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/offers-loyalty"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn Offers & Loyalty
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/request-a-quote"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn Request a quote
+            </NavLink>
+
+
 
 
 

@@ -1,0 +1,1730 @@
+
+/* ── Pricing tables ("At a Glance" + "Cost vs Total Value") ─────── */
+.Scc-table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+    box-shadow: 0 12px 36px rgba(13, 23, 41, 0.06);
+}
+
+.Scc-table {
+    width: 100%;
+    min-width: 480px;
+    border-collapse: collapse;
+    font-family: var(--font-body);
+    background: var(--bg-white);
+}
+
+.Scc-table thead th {
+    background: var(--navy);
+    color: var(--bg-white);
+    text-align: left;
+    padding: 18px 24px;
+    font-size: 12.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.Scc-table tbody td {
+    padding: 16px 24px;
+    border-bottom: 1px solid #e3eaf1;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3d4c5f;
+    vertical-align: top;
+}
+
+.Scc-table tbody tr:nth-child(even) {
+    background: var(--bg-soft);
+}
+
+.Scc-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.Scc-table-label {
+    font-weight: 600;
+    color: var(--navy);
+    white-space: nowrap;
+}
+
+/* ── Related guides / CTA links grid ─────────────────────────────── */
+
+/* ── Responsive: 1024 / 768 / 480 ─────────────────────────────────── */
+@media (max-width: 1024px) {
+    .Scc-table thead th,
+    .Scc-table tbody td {
+        padding: 14px 18px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Scc-table-scroll {
+        border-radius: 6px;
+    }
+
+    .Scc-table thead th {
+        font-size: 11.5px;
+        padding: 14px 16px;
+    }
+
+    .Scc-table tbody td {
+        font-size: 14.5px;
+        padding: 13px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Scc-table {
+        min-width: 420px;
+    }
+
+    .Scc-table thead th {
+        font-size: 11px;
+        padding: 12px 14px;
+    }
+
+    .Scc-table tbody td {
+        font-size: 14px;
+        padding: 12px 14px;
+    }
+}
+
+/* ==========================================================================
+   Is a More Expensive Suite Worth It? Section CSS (Scc-worth-*)
+   ========================================================================== */
+
+.Scc-worth-section {
+    padding: 80px 0;
+    position: relative;
+    background-color: var(--bg-white);
+}
+
+.Scc-worth-split {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.Scc-worth-left-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.Scc-worth-badge-verdict {
+    display: inline-block;
+    align-self: flex-start;
+    background: var(--navy);
+    color: var(--bg-white);
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: var(--radius);
+    margin-bottom: 24px;
+}
+
+.Scc-worth-desc-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.65;
+    color: var(--navy);
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.Scc-worth-desc-text:last-child {
+    margin-bottom: 0;
+}
+
+.Scc-worth-equation-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0 25px;
+}
+
+.Scc-eq-item {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    color: var(--navy);
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    text-transform: capitalize;
+}
+
+.Scc-eq-plus {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+.Scc-worth-right-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.Scc-worth-right-card:hover {
+    border-color: var(--navy);
+    box-shadow: var(--shadow-lg);
+}
+
+.Scc-worth-right-title {
+    font-family: var(--font-display);
+    font-size: 22px;
+    color: var(--navy);
+    font-weight: 600;
+    margin: 0 0 25px;
+}
+
+.Scc-worth-travel-points {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Scc-worth-point-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.Scc-point-icon-wrapper {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    flex-shrink: 0;
+    box-shadow: var(--shadow);
+}
+
+.Scc-point-icon-wrapper.Scc-gold-icon {
+    color: var(--navy-light);
+    border-color: var(--navy-border);
+}
+
+.Scc-point-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 868px) {
+    .Scc-worth-split,
+    .Scc-amenities-split {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+}
+
+/* ==========================================================================
+   What Do You Get In A Seabourn Suite Section CSS (Scc-amenities-*)
+   ========================================================================== */
+
+.Scc-title-center {
+    text-align: center;
+}
+
+.Scc-title-center .Sbc-accent-line {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Scc-amenities-split {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 45px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.Scc-amenities-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Scc-amenities-note {
+    margin: 24px 0 0;
+    text-align: left;
+}
+
+.Scc-amenities-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.Scc-amenities-image-placeholder {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 100%;
+    height: 100%;
+    transition: var(--transition);
+}
+
+.Scc-amenities-image-placeholder:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Scc-amenities-placeholder-icon-wrapper {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-amenities-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Cost For Two Section CSS (Scc-two-*)
+   ========================================================================== */
+
+.Scc-two-section {
+    padding: 80px 0;
+    position: relative;
+    background-color: var(--bg-white);
+}
+
+.Scc-two-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.Scc-two-intro-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0 0 35px;
+}
+
+.Scc-two-calculation-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    box-shadow: var(--shadow);
+    margin-bottom: 35px;
+    transition: var(--transition);
+}
+
+.Scc-two-calculation-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Scc-two-card-subtitle {
+    font-family: var(--font-display);
+    font-size: 19px;
+    color: var(--navy);
+    font-weight: 600;
+    margin: 0 0 25px;
+}
+
+.Scc-two-formula-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.Scc-two-formula-badge {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    color: var(--navy);
+    padding: 10px 24px;
+    border-radius: var(--radius-lg);
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+}
+
+.Scc-two-formula-badge.Scc-badge-highlight {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-color: var(--navy);
+}
+
+.Scc-two-formula-op, 
+.Scc-two-formula-eq {
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.Scc-two-card-result-text {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--text-body);
+    margin: 0 0 12px;
+}
+
+.Scc-two-card-result-text strong {
+    color: var(--navy);
+    font-size: 24px;
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Scc-two-card-footnote {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    margin: 0;
+    font-style: italic;
+}
+
+.Scc-two-conclusion-text {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-body);
+    font-weight: 500;
+    margin: 0;
+}
+
+/* ==========================================================================
+   Solo Traveler Section CSS (Scc-solo-*)
+   ========================================================================== */
+
+.Scc-solo-section {
+    padding: 80px 0;
+    position: relative;
+    background-color: var(--bg-soft);
+}
+
+.Scc-solo-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Scc-solo-row-split {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.Scc-solo-row-split.Scc-row-reverse {
+    grid-template-columns: 0.85fr 1.15fr;
+}
+
+.Scc-row-reverse .Scc-solo-card {
+    order: 2;
+}
+
+.Scc-row-reverse .Scc-solo-image-placeholder {
+    order: 1;
+}
+
+.Scc-solo-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 35px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-solo-card-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    color: var(--navy);
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+.Scc-solo-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0 0 16px;
+}
+
+.Scc-solo-text:last-of-type {
+    margin-bottom: 0;
+}
+
+.Scc-solo-callout {
+    background: var(--bg-soft);
+    border-left: 4px solid var(--navy);
+    padding: 20px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin-top: 25px;
+}
+
+.Scc-solo-callout-text {
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: var(--text-body);
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.Scc-solo-callout-text:last-child {
+    margin-bottom: 0;
+}
+
+.Scc-solo-example-box {
+    background: var(--bg-soft);
+    border: 1px dashed var(--navy-border);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.Scc-example-header {
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.Scc-example-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Scc-example-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    color: var(--text-body);
+    margin-bottom: 8px;
+}
+
+.Scc-example-list li:last-child {
+    margin-bottom: 0;
+}
+
+.Scc-bullet-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--navy);
+    flex-shrink: 0;
+}
+
+/* .Scc-solo-image-container no longer used — placeholders are inline per row */
+
+.Scc-solo-image-placeholder {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 100%;
+    min-height: 280px;
+    transition: var(--transition);
+}
+
+.Scc-solo-image-placeholder:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Scc-solo-placeholder-icon-wrapper {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-solo-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 868px) {
+    .Scc-worth-split,
+    .Scc-amenities-split,
+    .Scc-solo-row-split,
+    .Scc-solo-row-split.Scc-row-reverse,
+    .Scc-solo-save-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .Scc-row-reverse .Scc-solo-card,
+    .Scc-row-reverse .Scc-solo-image-placeholder {
+        order: unset;
+    }
+
+    .Scc-solo-image-placeholder {
+        min-height: 200px;
+    }
+}
+
+/* ==========================================================================
+   How to Save as a Solo Traveler Section CSS (Scc-solo-save-*)
+   ========================================================================== */
+
+.Scc-solo-save-section {
+    background-color: var(--bg-white);
+}
+
+.Scc-solo-save-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.Scc-solo-save-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.Scc-solo-save-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Scc-solo-save-card-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    color: var(--navy);
+    font-weight: 600;
+    margin: 0 0 24px;
+}
+
+.Scc-solo-save-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Scc-solo-save-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--text-body);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--navy-border);
+}
+
+.Scc-solo-save-list li:last-child {
+    border-bottom: none;
+}
+
+.Scc-save-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--navy);
+    color: var(--bg-white);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.Scc-solo-save-info-card {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-radius: var(--radius);
+    padding: 40px;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Scc-solo-save-info-icon {
+    background: var(--navy-soft, rgba(39, 68, 114, 0.15));
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg-white);
+    flex-shrink: 0;
+}
+
+.Scc-solo-save-info-title {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--bg-white);
+}
+
+.Scc-solo-save-info-text {
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+    flex-grow: 1;
+}
+
+.Scc-solo-save-info-note {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    font-style: italic;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 16px;
+}
+
+/* ==========================================================================
+   Shore Excursion Costs Section CSS (Scc-excursion-*)
+   ========================================================================== */
+
+.Scc-excursion-section {
+    background-color: var(--bg-white);
+}
+
+.Scc-excursion-split {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.Scc-excursion-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Scc-excursion-intro {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0;
+}
+
+.Scc-excursion-closing {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: var(--text-muted);
+    margin: 0;
+    font-style: italic;
+    border-top: 1px solid var(--navy-border);
+    padding-top: 20px;
+}
+
+.Scc-excursion-image-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.Scc-excursion-image-placeholder {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 100%;
+    min-height: 320px;
+    transition: var(--transition);
+}
+
+.Scc-excursion-image-placeholder:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Scc-excursion-placeholder-icon-wrapper {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-excursion-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 868px) {
+    .Scc-excursion-split {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .Scc-excursion-image-placeholder {
+        min-height: 200px;
+    }
+}
+
+/* ==========================================================================
+   Budget Formula Section CSS (Scc-budget-*)
+   ========================================================================== */
+
+.Scc-budget-section {
+    background-color: var(--bg-white);
+}
+
+.Scc-budget-subtitle {
+    font-family: var(--font-body);
+    font-size: 17px;
+    color: var(--text-muted);
+    margin: 12px 0 0;
+    font-style: italic;
+}
+
+.Scc-budget-formula-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius-lg);
+    padding: 50px 40px;
+    max-width: 900px;
+    margin: 48px auto 0;
+    box-shadow: var(--shadow-lg);
+}
+
+.Scc-budget-formula-chain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.Scc-budget-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--navy);
+    transition: var(--transition);
+}
+
+.Scc-budget-pill:hover {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-color: var(--navy);
+}
+
+.Scc-budget-pill svg {
+    flex-shrink: 0;
+}
+
+.Scc-budget-operator {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy-light);
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.Scc-budget-formula-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid var(--navy-border);
+}
+
+.Scc-budget-equals {
+    font-family: var(--font-display);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1;
+}
+
+.Scc-budget-result-label {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: -0.01em;
+}
+
+.Scc-budget-note {
+    max-width: 680px;
+    margin: 32px auto 0;
+    text-align: center;
+}
+
+.Scc-budget-note-text {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin: 0;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .Scc-budget-formula-card {
+        padding: 30px 20px;
+    }
+
+    .Scc-budget-formula-chain {
+        gap: 8px;
+    }
+
+    .Scc-budget-pill {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+
+        .Scc-budget-result-label {
+        font-size: 18px;
+    }
+
+    .Scc-budget-equals {
+        font-size: 28px;
+    }
+}
+
+/* ==========================================================================
+   VS Other Luxury Lines Section CSS (Scc-vslines-*)
+   ========================================================================== */
+
+.Scc-vslines-section {
+    background-color: var(--bg-white);
+}
+
+/* Top full-width image placeholder */
+.Scc-vslines-top-image {
+    max-width: 1040px;
+    margin: 0 auto 40px;
+    width: 100%;
+}
+
+.Scc-vslines-top-placeholder {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 100%;
+    min-height: 220px;
+    transition: var(--transition);
+}
+
+.Scc-vslines-top-placeholder:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+/* Two cards side by side */
+.Scc-vslines-cards-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1040px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.Scc-vslines-lead {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.Scc-vslines-lead-em {
+    color: var(--navy-light);
+    font-style: italic;
+    font-weight: 500;
+}
+
+.Scc-vslines-block {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 28px 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.Scc-vslines-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0;
+}
+
+.Scc-vslines-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Scc-vslines-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--text-body);
+}
+
+.Scc-vslines-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--navy);
+    flex-shrink: 0;
+}
+
+.Scc-vslines-formula-block {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 28px 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.Scc-vslines-formula-label {
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--navy);
+    margin: 0;
+}
+
+.Scc-formula-label-vs {
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+.Scc-vslines-formula-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.Scc-vf-pill {
+    display: inline-flex;
+    align-items: center;
+    background: var(--navy);
+    color: var(--bg-white);
+    border-radius: 100px;
+    padding: 7px 16px;
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.Scc-vf-pill-muted {
+    background: var(--bg-soft);
+    color: var(--text-muted);
+    border: 1px solid var(--navy-border);
+}
+
+.Scc-vf-op {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy-light);
+    flex-shrink: 0;
+}
+
+/* image-container and image-placeholder replaced by top-image above */
+
+.Scc-vslines-placeholder-icon-wrapper {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-vslines-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 868px) {
+    .Scc-vslines-cards-row {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .Scc-vslines-top-placeholder {
+        min-height: 160px;
+        padding: 30px 20px;
+    }
+}
+
+/* ==========================================================================
+   Is Seabourn Worth the Cost Section CSS (Scc-worth2-*)
+   ========================================================================== */
+
+.Scc-worth2-section {
+    background-color: var(--bg-soft);
+}
+
+.Scc-worth2-split {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 48px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.Scc-worth2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Scc-worth2-lead {
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--text-body);
+    margin: 0;
+}
+
+.Scc-worth2-value-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Scc-worth2-card-title {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.Scc-worth2-pills-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.Scc-worth2-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 100px;
+    padding: 7px 14px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--navy);
+    white-space: nowrap;
+    transition: var(--transition);
+}
+
+.Scc-worth2-pill:hover {
+    background: var(--navy);
+    color: var(--bg-white);
+    border-color: var(--navy);
+}
+
+.Scc-worth2-op {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy-light);
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.Scc-worth2-callout {
+    background: var(--navy);
+    border-radius: var(--radius);
+    padding: 22px 26px;
+}
+
+.Scc-worth2-verdict {
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--bg-white);
+    margin: 0;
+    font-style: italic;
+}
+
+.Scc-worth2-link-text {
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.Scc-worth2-link {
+    color: var(--navy);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid var(--navy-border);
+    transition: var(--transition);
+}
+
+.Scc-worth2-link:hover {
+    border-bottom-color: var(--navy);
+    color: var(--navy-light);
+}
+
+.Scc-worth2-image-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.Scc-worth2-image-placeholder {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 100%;
+    min-height: 340px;
+    transition: var(--transition);
+}
+
+.Scc-worth2-image-placeholder:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+.Scc-worth2-icon-wrapper {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-worth2-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 868px) {
+    .Scc-worth2-split {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .Scc-worth2-image-placeholder {
+        min-height: 200px;
+    }
+}
+
+/* ==========================================================================
+   World Cruise Cost Section CSS (Scc-world-*)
+   ========================================================================== */
+
+.Scc-world-section {
+    background-color: var(--bg-white);
+}
+
+/* Top full-width image placeholder */
+.Scc-world-top-image {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    width: 100%;
+}
+
+.Scc-world-top-placeholder {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 100%;
+    min-height: 220px;
+    transition: var(--transition);
+}
+
+.Scc-world-top-placeholder:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+}
+
+/* Bottom: left para / right card */
+.Scc-world-bottom-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.Scc-world-para-col {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.Scc-world-text {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0;
+}
+
+.Scc-world-card {
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 28px 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Scc-world-card-title {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.Scc-world-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Scc-world-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-body);
+    line-height: 1.5;
+}
+
+.Scc-world-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    flex-shrink: 0;
+}
+
+.Scc-world-closing {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: var(--navy);
+    margin: 0;
+    font-style: italic;
+    border-top: 1px solid var(--navy-border);
+    padding-top: 16px;
+}
+
+/* image-container and image-placeholder replaced by top-image above */
+
+.Scc-world-icon-wrapper {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+}
+
+.Scc-world-placeholder-text {
+    font-family: var(--font-body);
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 868px) {
+    .Scc-world-bottom-split {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .Scc-world-top-placeholder {
+        min-height: 160px;
+        padding: 30px 20px;
+    }
+}
+
+/* ==========================================================================
+   Cost Checklist Section CSS (Scc-cl-*)
+   ========================================================================== */
+
+.Scc-cl-section {
+    background-color: var(--bg-soft);
+}
+
+.Scc-cl-subtitle {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--text-muted);
+    margin: 12px 0 0;
+    font-style: italic;
+}
+
+.Scc-cl-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1040px;
+    margin: 48px auto 0;
+}
+
+.Scc-cl-card {
+    background: var(--bg-white);
+    border: 1px solid var(--navy-border);
+    border-radius: var(--radius);
+    padding: 28px 26px 24px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.Scc-cl-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--navy-border);
+    transition: var(--transition);
+}
+
+.Scc-cl-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--navy);
+    transform: translateY(-2px);
+}
+
+.Scc-cl-card:hover::before {
+    background: var(--navy);
+}
+
+.Scc-cl-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Scc-cl-step {
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    line-height: 1;
+}
+
+.Scc-cl-icon-wrap {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--bg-soft);
+    border: 1px solid var(--navy-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--navy);
+    flex-shrink: 0;
+}
+
+.Scc-cl-title {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.Scc-cl-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Scc-cl-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: var(--text-body);
+    line-height: 1.55;
+}
+
+.Scc-cl-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--navy-light);
+    flex-shrink: 0;
+    margin-top: 6px;
+}
+
+/* Highlight card — Total Budget */
+.Scc-cl-card-highlight {
+    background: var(--navy);
+    border-color: var(--navy);
+}
+
+.Scc-cl-card-highlight::before {
+    background: var(--bg-white);
+    opacity: 0.2;
+}
+
+.Scc-cl-card-highlight:hover {
+    border-color: var(--navy);
+    transform: translateY(-2px);
+}
+
+.Scc-cl-step-hl {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.Scc-cl-icon-hl {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--bg-white);
+}
+
+.Scc-cl-title-hl {
+    color: var(--bg-white);
+}
+
+.Scc-cl-card-highlight .Scc-cl-list li {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.Scc-cl-dot-hl {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 900px) {
+    .Scc-cl-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 580px) {
+    .Scc-cl-grid {
+        grid-template-columns: 1fr;
+    }
+}
