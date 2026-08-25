@@ -27,8 +27,12 @@ import {
     Utensils,
     Globe,
     Calendar,
+    Award,
+    Star,
+    Users,
 } from "lucide-react";
 import Nav from "../../components/Navbar/Nav";
+import AboutImage from "../../assets/AboutAngela3.jpeg";
 
 import { Helmet } from "react-helmet-async";
 import "./SeabournDressCode.css";
@@ -1329,6 +1333,69 @@ const SeabournDressCodeGuide = () => {
                                 </ul>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* ── ANGELA HUGHES AUTHORITY BOX ──────────────────────────────── */}
+            <section className="Sbc-expert-section" id="Scc-expert-insight">
+                <div className="Sbc-container">
+                    <div className="Sbc-expert-heading">
+                        <span className="Sbc-expert-eyebrow">Luxury Travel Expertise</span>
+                        <h2 className="Sbc-expert-title">Angela Hughes Luxury Authority</h2>
+                        <div className="Sbc-expert-divider"></div>
+                    </div>
+
+                    <div className="Sbc-expert-grid">
+                        <div className="Sbc-expert-image-col">
+                            <div className="Sbc-expert-portrait-wrap">
+                                <img src={AboutImage} alt="Angela Hughes – Luxury Travel Expert" className="Sbc-expert-portrait" />
+                                <div className="Sbc-expert-portrait-badge">
+                                    <Star size={14} />
+                                    <span>40+ Years Experience</span>
+                                </div>
+                            </div>
+
+                            <div className="Sbc-expert-name-card">
+                                <h3 className="Sbc-expert-name">Angela Hughes</h3>
+                                <p className="Sbc-expert-role">CEO of Trips &amp; Ships Luxury Travel</p>
+                                <div className="Sbc-expert-name-divider"></div>
+                                <p className="Sbc-expert-countries">
+                                    <MapPin size={14} />
+                                    Traveled to more than 121 countries
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="Sbc-expert-content-col">
+                            <div className="Sbc-expert-credentials-box">
+                                <h4 className="Sbc-expert-credentials-title">
+                                    <Award size={16} />
+                                    Angela Hughes Authority Box
+                                </h4>
+
+                                <div className="Sbc-expert-credentials-grid">
+                                    {[
+                                        { icon: <Award size={16} />, label: "CEO of Trips & Ships Luxury Travel" },
+                                        { icon: <Star size={16} />, label: "Over 40 years in the travel industry" },
+                                        { icon: <MapPin size={16} />, label: "Traveled to more than 121 countries" },
+                                        { icon: <Award size={16} />, label: "Founder of Luxury Travel University" },
+                                        { icon: <Users size={16} />, label: "Global luxury travel speaker and trainer" },
+                                        { icon: <Users size={16} />, label: "Weekly industry columnist" },
+                                        { icon: <Users size={16} />, label: "Travel Leaders Network Advisory Board member" },
+                                        { icon: <Award size={16} />, label: "2024 Luxury Travel Influencer of the Year" },
+                                        { icon: <Star size={16} />, label: "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
+                                        { icon: <Award size={16} />, label: "Featured in major travel publications globally" },
+                                        { icon: <Ship size={16} />, label: "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" },
+                                    ].map((item, i) => (
+                                        <div className="Sbc-expert-list-item" key={i}>
+                                            <span className="Sbc-expert-list-icon">{item.icon}</span>
+                                            <span className="Sbc-expert-list-label">{item.label}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
