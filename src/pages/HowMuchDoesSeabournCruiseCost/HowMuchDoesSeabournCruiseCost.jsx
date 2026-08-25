@@ -30,7 +30,7 @@ import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela.jpeg";
 
 import { Helmet } from "react-helmet-async";
-import "./SeabournCruiseCost.css";
+import "./Seabourncruisecost.css";
 
 /* ── Schema (from supplied schema data) ────────────────────────── */
 const schemaData = {
