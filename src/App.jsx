@@ -52,6 +52,9 @@ import WhoShouldSailViking from "./pages/WhoShouldSailViking/WhoShouldSailViking
 import WhoShouldNotSailViking from "./pages/WhoShouldNotSailViking/WhoShouldNotSailViking";
 import VikingDanubeRiverCruises from "./pages/VikingDanubeRiverCruises/VikingDanubeRiverCruises";
 import DisneyCruiseLineVacations from "./pages/DisneyCruiseLineVacations/DisneyCruiseLineVacations";
+import BestTravelAgentFlorida from "./pages/BestTravelAgentFlorida/BestTravelAgentFlorida";
+import BestTravelAgencyFlorida from "./pages/BestTravelAgencyFlorida/BestTravelAgencyFlorida";
+import BestCruiseTravelAgentFlorida from "./pages/BestCruiseTravelAgentFlorida/BestCruiseTravelAgentFlorida";
 import TravelProgramsForMuseums from "./pages/TravelProgramsForMuseums/TravelProgramsForMuseums";
 import TravelProgramsForAquariums from "./pages/TravelProgramsForAquariums/TravelProgramsForAquariums";
 import TravelProgramsForZoos from "./pages/TravelProgramsForZoos/TravelProgramsForZoos";
@@ -384,6 +387,11 @@ function App() {
             element={<DisneyCruiseLineVacations />}
           />
 
+          <Route
+            path="/best-travel-agent-florida"
+            element={<BestTravelAgentFlorida />}
+          />
+
           <Route path="/viking-cruises" element={<VikingCruises />} />
 
           <Route
@@ -697,6 +705,9 @@ function App() {
           <Route path="/seabourn-cruises/offers-loyalty" element={<Seabournoffersloyalty />} />
           <Route path="/seabourn-cruises/request-a-quote" element={<Seabourncruisequote />} />
           <Route path="/seabourn-cruises/dress-code" element={<Seabourndresscode />} />
+          <Route path="/best-travel-agent-florida" element={<BestTravelAgentFlorida />} />
+          <Route path="/best-travel-agency-florida" element={<BestTravelAgencyFlorida />} />
+          <Route path="/best-cruise-travel-agent-florida" element={<BestCruiseTravelAgentFlorida />} />
 
         </Routes>
       </BrowserRouter>

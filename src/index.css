@@ -1,3 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #0a1128;
+  --color-navy-900: #0f1c2e;
+  --color-navy-800: #1c2f4a;
+  --color-brand-navy: #274472;
+  --color-brand-dark-navy: #0f1c2e;
+  --color-brand-light-blue: #7bb2d9;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c59b27;
+  --color-ice-100: #e8f4f8;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Montserrat", sans-serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
 :root {
     --navy: #274472;
     --navy-light: #274472cc;
@@ -18,49 +35,9 @@
     --font-body: "Montserrat", sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
 }
 
-h1 {
-    color: #fff;
-    font-family: "Playfair Display", serif;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 1.15;
-}
 
-h2 {
-    color: #274472;
-    font-family: "Playfair Display", serif;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.1;
-}
-
-h3 {
-    font-family: "Playfair Display", serif;
-}
-
-h4 {
-    font-family: "Montserrat", serif;
-    font-size: 20px;
-    color: #1a1a1a;
-    font-weight: 500;
-    line-height: 1.4;
-}
-
-p {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.625;
-}

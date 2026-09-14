@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FadeIn from './FadeIn';
 import MasterImage from './MasterImage';
 import { User, Star, MapPin, GraduationCap, Users, Pen, Shield, Award, Globe, Ship, Anchor, Quote } from 'lucide-react';
-import defaultAngelaImage from '../../assets/avalon-inclusions/Angela.webp';
+import defaultAngelaImage from '../../assets/AboutAngela.jpeg';
 
 const credentialIcons = [User, Star, MapPin, GraduationCap, Users, Pen, Shield, Award, Globe, Ship, Anchor, Award];
 

@@ -1,0 +1,232 @@
+{
+  "seo": {
+    "title": "Disney Cruise Line Vacations | Family, Luxury & Adventure at Sea",
+    "metaTitle": "Disney Cruise Line Vacations",
+    "metaDescription": "Discover Disney Cruise Line vacations featuring family-friendly entertainment, world-class dining, tropical destinations, Alaska adventures, European cruises, and unforgettable Disney magic at sea.",
+    "keywords": [
+      "Disney Cruise Line Vacations",
+      "Disney family cruises",
+      "Disney Cruise Line",
+      "Castaway Cay private island",
+      "Disney Wish",
+      "Disney Treasure",
+      "Disney cruise packages",
+      "family luxury cruises"
+    ],
+    "url": "/disney-cruise-line-vacations"
+  },
+  "hero": {
+    "title": "Disney Cruise Line Vacations: Where Family Adventures Meet Disney Magic",
+    "subtitle": "A Disney Cruise Line vacation offers something few travel experiences can match the magic of Disney combined with the relaxation and excitement of a world-class cruise. Whether you're sailing through the Caribbean, exploring Alaska's glaciers, discovering Europe, or enjoying a tropical getaway to the Bahamas, Disney Cruise Line creates unforgettable vacations for families, couples, grandparents, and multigenerational travelers.",
+    "ctaLabel": "Plan Your Disney Cruise",
+    "ctaUrl": "/contact"
+  },
+  "videoSection": {
+    "title": "Enjoy 3 Vacations in 1 With Disney Cruise Line",
+    "subtitle": "Disney Cruise Line brings families together with great kids' clubs and relaxing adult zones.",
+    "specialties": [
+      "Disney Storytelling Woven Into Every Voyage",
+      "Exceptional Service & Guest Satisfaction",
+      "Family-Focused Ship Design",
+      "Premium Cruise Experience",
+      "Exclusive Private Island Destinations"
+    ],
+    "videoText": "Characters, entertainment, and experiences are woven into every aspect of the voyage. Disney combines family entertainment with many luxury-style cruise features.",
+    "youtubeId": "Af4CWANXYMc"
+  },
+  "whyAttention": {
+    "title": "What Makes Disney Cruise Line Vacations Different?",
+    "quote": "Many cruise lines offer family trips. Disney Cruise Line goes further, creating experiences that delight all ages.",
+    "author": "Angela Hughes, CEO of Trips & Ships Luxury Travel",
+    "body": "Disney Cruise Line is a beloved choice for its great service, shows, and global destinations. At Trips & Ships, we help you plan a Disney Cruise matched to your family's pace. Characters, entertainment, and experiences are woven into every aspect of the voyage. Disney combines family entertainment with many luxury-style cruise features."
+  },
+  "fleetOverview": {
+    "title": "The Disney Cruise Fleet: Immersive Family Adventure at Sea",
+    "subtitle": "Every ship in the Disney Cruise Line fleet features its own unique dining options, signature theater shows, and immersive family designs.",
+    "items": [
+      {
+        "title": "Disney Magic",
+        "description": "The ship that started it all — known for classic Disney charm, a family atmosphere, and European and Caribbean itineraries.",
+        "placeholderLabel": "DISNEY MAGIC CLASSIC VESSEL"
+      },
+      {
+        "title": "Disney Wonder",
+        "description": "A favorite for Alaska cruises — known for Alaska sailings, family entertainment, and an intimate atmosphere.",
+        "placeholderLabel": "DISNEY WONDER ALASKA VESSEL"
+      },
+      {
+        "title": "Disney Dream",
+        "description": "Popular among first-time Disney cruisers — known for Bahamian itineraries, family attractions, and modern amenities.",
+        "placeholderLabel": "DISNEY DREAM FIRST TIME VESSEL"
+      },
+      {
+        "title": "Disney Fantasy",
+        "description": "Designed for longer Caribbean vacations — known for expanded entertainment, family experiences, and tropical itineraries.",
+        "placeholderLabel": "DISNEY FANTASY LONG VOYAGES"
+      },
+      {
+        "title": "Disney Wish",
+        "description": "A newer generation of Disney cruising — known for innovative dining, immersive storytelling, and luxury-inspired design.",
+        "placeholderLabel": "DISNEY WISH MODERN VESSEL"
+      },
+      {
+        "title": "Disney Treasure",
+        "description": "Expands Disney's newest cruise experiences — known for adventure-themed experiences, family entertainment, and modern accommodations.",
+        "placeholderLabel": "DISNEY TREASURE NEWEST VESSEL"
+      }
+    ]
+  },
+  "cabinInnovations": {
+    "title": "Accommodations on Disney Cruise Line",
+    "subtitle": "Disney offers some of the most family-friendly staterooms in cruising, engineered specifically to satisfy both kids and parents.",
+    "features": [
+      {
+        "title": "Spacious Layouts",
+        "description": "Many rooms provide more space than comparable cruise lines, offering signature split bathrooms and smart storage solutions for families."
+      },
+      {
+        "title": "Family-Oriented Features",
+        "description": "Designed specifically for traveling families, featuring privacy curtains, pull-down bunk beds, and in-room amenities."
+      },
+      {
+        "title": "Concierge-Level Suites",
+        "description": "Premium accommodations for luxury travelers, offering priority boarding, private deck spaces, and dedicated lounge access."
+      }
+    ]
+  },
+  "diningAndInclusions": {
+    "title": "Dining on Disney Cruise Vacations",
+    "subtitle": "Dining is one of the most celebrated parts of the Disney Cruise experience, balancing family entertainment and gourmet options.",
+    "items": [
+      {
+        "title": "Rotational Dining",
+        "description": "Guests rotate through multiple themed restaurants while keeping the same serving team, offering exceptional variety, personalized service, and unique restaurant experiences.",
+        "category": "Signature Program",
+        "placeholderLabel": "ROTATIONAL DINING EXPERIENCE"
+      },
+      {
+        "title": "Family-Friendly Menus",
+        "description": "Thoughtfully crafted culinary options suited perfectly for both adults and children alike, catering to all palates and dietary restrictions.",
+        "category": "Menus",
+        "placeholderLabel": "FAMILY DINING EXPERIENCE"
+      },
+      {
+        "title": "Specialty Dining",
+        "description": "Upscale, adult-exclusive dining venues like Palo and Remy are available on select ships for an additional charge, providing romantic getaways.",
+        "category": "Adult Escape",
+        "placeholderLabel": "SPECIALTY FINE DINING"
+      }
+    ]
+  },
+  "pricingEstimates": {
+    "title": "How Much Does a Disney Cruise Cost?",
+    "subtitle": "Estimated vacation packages and per-person fares based on duration, destinations, and cabin class.",
+    "tiers": [
+      {
+        "duration": "3 & 4-Night Bahamian Cruises",
+        "priceRange": "From $1,800 – $3,500+",
+        "description": "Perfect for first-time cruisers or quick family getaways to Castaway Cay."
+      },
+      {
+        "duration": "7-Night Caribbean Cruises",
+        "priceRange": "From $3,500 – $7,000+",
+        "description": "Seven days of sailing to eastern or western Caribbean tropical ports."
+      },
+      {
+        "duration": "7-Night Alaska Passages",
+        "priceRange": "From $4,500 – $9,000+",
+        "description": "Scenic glacial viewing and outdoor adventures through the Inside Passage."
+      },
+      {
+        "duration": "Concierge Suites & Holiday Sailings",
+        "priceRange": "From $8,000 – $15,000+",
+        "description": "Holiday cruises, Christmas sailings, or concierge-level suite VIP experiences."
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Disney Cruises",
+    "subtitle": "Everything you need to know about planning a Disney Cruise Line vacation.",
+    "items": [
+      {
+        "question": "What destinations does Disney Cruise Line visit?",
+        "answer": "Disney sails to the Caribbean, Bahamas, Alaska, Europe, Mexico, and other global destinations."
+      },
+      {
+        "question": "Are Disney cruises only for families?",
+        "answer": "No. Disney welcomes families, couples, grandparents, solo travelers, and multigenerational groups."
+      },
+      {
+        "question": "What is included on a Disney Cruise?",
+        "answer": "Accommodations, dining, entertainment, kids clubs, character experiences, and many onboard activities are included."
+      },
+      {
+        "question": "Is Disney Cruise Line worth the cost?",
+        "answer": "Many travelers believe Disney's service, entertainment, and family experiences justify the premium pricing."
+      },
+      {
+        "question": "Which Disney ship is best for first-time cruisers?",
+        "answer": "Disney Dream and Disney Wish are often recommended for first-time guests."
+      },
+      {
+        "question": "Are Disney cruises good for grandparents?",
+        "answer": "Yes. Disney is one of the most popular cruise lines for multigenerational family travel."
+      },
+      {
+        "question": "Do Disney cruises have adult-only areas?",
+        "answer": "Yes. Dedicated adult spaces include pools, lounges, restaurants, and spa facilities."
+      },
+      {
+        "question": "Are Disney cruises luxurious?",
+        "answer": "Disney offers a premium cruise experience with exceptional service and high-quality accommodations."
+      },
+      {
+        "question": "How long are Disney Cruise vacations?",
+        "answer": "Itineraries range from short 3-night sailings to extended European and Alaska voyages."
+      },
+      {
+        "question": "Why do families choose Disney Cruise Line?",
+        "answer": "Families appreciate the combination of entertainment, service, safety, dining, accommodations, and Disney storytelling."
+      },
+      {
+        "question": "Can I bring my own alcohol onboard a Disney Cruise?",
+        "answer": "Yes. Guests aged 21 and older may bring up to 2 bottles of unopened wine or champagne, or 6 beers, at the beginning of the voyage and at each port of call. These must be packed in carry-on luggage."
+      },
+      {
+        "question": "Does Disney Cruise Line offer ground transfers and vacation packages?",
+        "answer": "Yes. Disney Cruise Line offers ground transfers from nearby airports and select Disney Resorts to the cruise port, as well as land-and-sea vacation packages that combine a cruise with a Walt Disney World stay."
+      },
+      {
+        "question": "What is Disney Cruise Line's dining rotation and dress code?",
+        "answer": "Disney's unique rotational dining moves you to a different themed restaurant each night with your same servers. The dress code is mostly cruise casual with optional dress-up nights depending on itinerary length."
+      },
+      {
+        "question": "Is Wi-Fi included, and is there a Disney Cruise app?",
+        "answer": "Wi-Fi packages are available for purchase onboard. The complimentary Disney Cruise Line Navigator app is highly recommended, allowing guests to view daily schedules, menus, and chat with family members."
+      },
+      {
+        "question": "How does Disney Cruise Line handle dietary restrictions and allergies?",
+        "answer": "Disney Cruise Line is exceptionally accommodating with dietary needs, including gluten-free, vegetarian, vegan, halal, kosher, and specific food allergies. You can specify these in your reservation or inform your servers."
+      }
+    ]
+  },
+  "expertCredentials": {
+    "title": "Angela Hughes: Helping Families Explore the World Together",
+    "name": "Angela Hughes",
+    "subtitle": "CEO · Trips & Ships Luxury Travel",
+    "experienceBadge": "40+ Years Experience",
+    "stats": "121+ Countries Visited",
+    "credentials": [
+      "Match Families to the Right Disney Ship",
+      "Plan Multigenerational Itineraries",
+      "Balance Magic, Relaxation & Adventure",
+      "Deliver Exceptional Value",
+      "More than 40 years of travel experience",
+      "Visited 121 countries",
+      "CEO of Trips & Ships Luxury Travel",
+      "Founder of Luxury Travel University",
+      "Global travel speaker and expert trainer"
+    ],
+    "bottomText": "Angela Hughes has over 40 years of travel experience. She has visited 121 countries and helps plan successful Disney Cruise vacations. For families, grandparents, and Disney fans alike, that expertise can make all the difference."
+  }
+}
