@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import FadeIn from './FadeIn';
+import MasterImage from './MasterImage';
 import { Check } from 'lucide-react';
 
 const TravelerProfileTabs = ({ title, subtitle, profiles }) => {
@@ -46,27 +47,26 @@ const TravelerProfileTabs = ({ title, subtitle, profiles }) => {
             <div className="flex flex-col lg:flex-row gap-10 lg:gap-14 items-center lg:items-stretch">
               
               {/* Image Section */}
-              {active.image && (
-                <div className="w-full lg:w-5/12">
-                  <div className="w-full h-full min-h-[400px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative group">
-                    <img 
-                      src={active.image} 
-                      alt={active.name} 
-                      className="absolute inset-0 w-full h-full object-cover object-[center_25%] transition-transform duration-700 group-hover:scale-105" 
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
-                    <div className="absolute bottom-8 left-8 right-8">
-                      <span className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-gold-400 block mb-2">
-                        {active.tagline}
-                      </span>
-                      <h3 className="font-display text-3xl md:text-4xl text-white">{active.name}</h3>
-                    </div>
+              <div className="w-full lg:w-5/12">
+                <div className="w-full h-full min-h-[400px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative group">
+                  <MasterImage 
+                    src={active.image} 
+                    alt={active.name} 
+                    placeholderLabel={active.placeholderLabel || active.name}
+                    className="absolute inset-0 w-full h-full object-cover object-[center_25%] transition-transform duration-700 group-hover:scale-105" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
+                  <div className="absolute bottom-8 left-8 right-8">
+                    <span className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-gold-400 block mb-2">
+                      {active.tagline}
+                    </span>
+                    <h3 className="font-display text-3xl md:text-4xl text-white">{active.name}</h3>
                   </div>
                 </div>
-              )}
+              </div>
 
               {/* Content Section */}
-              <div className={`w-full flex flex-col justify-center ${active.image ? 'lg:w-7/12' : ''}`}>
+              <div className="w-full flex flex-col justify-center lg:w-7/12">
                 <p className="font-display text-2xl lg:text-3xl text-ice-50 italic mb-10 leading-relaxed font-light">
                   "{active.quote}"
                 </p>

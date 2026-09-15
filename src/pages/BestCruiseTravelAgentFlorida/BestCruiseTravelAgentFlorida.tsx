@@ -42,13 +42,84 @@ import FAQAccordion from '@/components/ui/FAQAccordion';
 import ExpertCredentials from '@/components/ui/ExpertCredentials';
 import CenterCTA from '@/components/ui/CenterCTA';
 import InteractivePillarHubGrid from '@/components/ui/InteractivePillarHubGrid';
+import CurvilinearGrid from '@/components/ui/CurvilinearGrid';
+import CabinFeatureGrid from '@/components/ui/CabinFeatureGrid';
 import FadeIn from '@/components/ui/FadeIn';
 
-// Assets (kept exclusively for Authority & Why Trips & Ships Stands Out sections)
+// Assets
 import AboutImage from "../../assets/AboutAngela.jpeg";
 import AboutImage2 from "../../assets/AboutAngela2.jpeg";
 
+// SVG Image Placeholders for Cabin Selection
+const cabinPlaceholderImage1 = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"><rect width="800" height="450" fill="%230f172a"/><circle cx="400" cy="225" r="160" fill="%231e293b" opacity="0.6"/><path d="M260 290 L400 160 L540 290 Z" fill="none" stroke="%2338bdf8" stroke-width="2" opacity="0.3"/><text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="%2394a3b8" letter-spacing="4">[ IMAGE PLACEHOLDER ]</text><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="%23f8fafc" letter-spacing="2">STATEROOM &amp; VESSEL POSITIONING</text></svg>`;
+const cabinPlaceholderImage2 = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450"><rect width="800" height="450" fill="%23050b14"/><circle cx="400" cy="225" r="160" fill="%230f1d32" opacity="0.7"/><path d="M280 290 L400 150 L520 290 Z" fill="none" stroke="%23d4af37" stroke-width="2" opacity="0.35"/><text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="%23d4af37" letter-spacing="4">[ IMAGE PLACEHOLDER ]</text><text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="%23ffffff" letter-spacing="2">SUITE INCLUSIONS &amp; ACOUSTICS</text></svg>`;
+
 const BestCruiseTravelAgentFlorida = () => {
+  // Map 6 Ship Selection Questions for CurvilinearGrid
+  const shipSelectionCurvilinearItems = [
+    {
+      title: pageData.shipSelection.questions[0].q,
+      description: pageData.shipSelection.questions[0].a,
+      icon: 'Heart'
+    },
+    {
+      title: pageData.shipSelection.questions[1].q,
+      description: pageData.shipSelection.questions[1].a,
+      icon: 'user'
+    },
+    {
+      title: pageData.shipSelection.questions[2].q,
+      description: pageData.shipSelection.questions[2].a,
+      icon: 'ship'
+    },
+    {
+      title: pageData.shipSelection.questions[3].q,
+      description: pageData.shipSelection.questions[3].a,
+      icon: 'Compass'
+    },
+    {
+      title: pageData.shipSelection.questions[4].q,
+      description: pageData.shipSelection.questions[4].a,
+      icon: 'map'
+    },
+    {
+      title: pageData.shipSelection.questions[5].q,
+      description: pageData.shipSelection.questions[5].a,
+      icon: 'check'
+    }
+  ];
+
+  // Cabin Selection Data mapped for CabinFeatureGrid with all 13 checklist points
+  const cabinFeatureGridData = {
+    title: pageData.cabinSelection.title,
+    subtitle: pageData.cabinSelection.subtitle,
+    oceanview: {
+      title: "Stateroom Selection & Vessel Positioning",
+      bestFor: "Strategic placement across ship zones for stability in rough seas, multi-room family connectivity, and elevation benefits.",
+      advantages: [
+        pageData.cabinSelection.checklist[0], // Suite versus Balcony Veranda
+        pageData.cabinSelection.checklist[1], // Oceanview versus Interior Stateroom
+        pageData.cabinSelection.checklist[2], // Location on the Ship (Forward, Midship, or Aft)
+        pageData.cabinSelection.checklist[3], // Deck Elevation & Stability in Rough Seas
+        pageData.cabinSelection.checklist[4], // Connecting Staterooms for Family Travel
+        pageData.cabinSelection.checklist[5], // Family & Multi-Bedroom Suite Configurations
+        pageData.cabinSelection.checklist[6]  // Accessible Accommodations & Elevator Proximity
+      ]
+    },
+    balcony: {
+      title: "Suite Inclusions, Verandas & Acoustics",
+      bestFor: "Concierge perks, private veranda sun exposure, noise buffer considerations, and clear unobstructed sightlines.",
+      advantages: [
+        pageData.cabinSelection.checklist[7],  // Dedicated Butler-Level Concierge Service
+        pageData.cabinSelection.checklist[8],  // Private Veranda Square Footage & Sun Exposure
+        pageData.cabinSelection.checklist[9],  // Suite Inclusions (Laundry, Priority Boarding, Mini-Bar)
+        pageData.cabinSelection.checklist[10], // Noise Considerations (Below Pool Deck, Nightclubs, or Anchor)
+        pageData.cabinSelection.checklist[11], // Proximity to Elevators, Stairs & Public Spaces
+        pageData.cabinSelection.checklist[12]  // Obstructed View & Lifeboat Placement Verification
+      ]
+    }
+  };
+
   // Map 6 Destinations to InteractivePillarHubGrid items with clean placeholders
   const destinationHubItems = pageData.destinations.items.map((item) => ({
     title: item.title,
@@ -431,58 +502,28 @@ const BestCruiseTravelAgentFlorida = () => {
         </div>
       </section>
 
-      {/* ─── 8. CHOOSING THE RIGHT SHIP & CABIN ─── */}
-      <section className="py-24 bg-slate-50 border-b border-slate-200">
-        <div className="max-w-[1280px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-            {/* Choosing the Right Ship */}
-            <FadeIn direction="right">
-              <div>
-                <span className="text-xs font-bold uppercase tracking-widest text-blue-600 mb-2 block">
-                  Vessel Architecture
-                </span>
-                <h3 className="font-display text-2xl md:text-4xl font-light text-navy-950 mb-4">
-                  {pageData.shipSelection.title}
-                </h3>
-                <p className="text-slate-600 font-light text-sm md:text-base mb-6">
-                  {pageData.shipSelection.subtitle}
-                </p>
-                <div className="space-y-3.5">
-                  {pageData.shipSelection.questions.map((item, idx) => (
-                    <div key={idx} className="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs">
-                      <h4 className="font-semibold text-navy-950 text-sm mb-1">{item.q}</h4>
-                      <p className="text-xs text-slate-600 font-light">{item.a}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </FadeIn>
+      {/* ─── 8. CHOOSING THE RIGHT CRUISE SHIP (CurvilinearGrid Component) ─── */}
+      <CurvilinearGrid
+        title={pageData.shipSelection.title}
+        subtitle={pageData.shipSelection.subtitle}
+        items={shipSelectionCurvilinearItems}
+      />
 
-            {/* Choosing the Right Cabin */}
-            <FadeIn direction="left">
-              <div>
-                <span className="text-xs font-bold uppercase tracking-widest text-blue-600 mb-2 block">
-                  Stateroom & Hull Strategy
-                </span>
-                <h3 className="font-display text-2xl md:text-4xl font-light text-navy-950 mb-4">
-                  {pageData.cabinSelection.title}
-                </h3>
-                <p className="text-slate-600 font-light text-sm md:text-base mb-6">
-                  {pageData.cabinSelection.subtitle}
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                  {pageData.cabinSelection.checklist.map((chk, idx) => (
-                    <div key={idx} className="flex items-center gap-2.5 bg-white p-3 rounded-xl border border-slate-200 text-xs text-slate-700">
-                      <div className="w-1.5 h-1.5 bg-blue-600 rounded-full shrink-0" />
-                      <span>{chk}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </FadeIn>
-          </div>
-        </div>
-      </section>
+      {/* ─── 8b. CHOOSING THE RIGHT CRUISE CABIN (CabinFeatureGrid Component) ─── */}
+      <CabinFeatureGrid
+        data={cabinFeatureGridData}
+        image1={cabinPlaceholderImage1}
+        image2={cabinPlaceholderImage2}
+      />
+
+      {/* ─── MID-PAGE CALL TO ACTION ─── */}
+      <CenterCTA
+        title="Find the Perfect Ship & Stateroom"
+        description="Connect with Florida's premier luxury cruise specialist to secure preferred stateroom allocations, exclusive Virtuoso shipboard credits, and private shore itineraries."
+        buttonText="Request a Custom Cruise Consultation"
+        buttonLink="/contact"
+        theme="dark"
+      />
 
       {/* ─── 9. WORLDWIDE DESTINATIONS (Interactive Pillar Hub Grid) ─── */}
       <div className="[&_.grid]:!flex [&_.grid]:flex-wrap [&_.grid]:justify-center [&_.grid>div]:w-full md:[&_.grid>div]:w-[calc(50%-1rem)] lg:[&_.grid>div]:w-[calc(33.333%-1.333rem)]">

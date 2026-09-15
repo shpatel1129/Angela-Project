@@ -4,12 +4,17 @@
   --color-navy-950: #0a1128;
   --color-navy-900: #0f1c2e;
   --color-navy-800: #1c2f4a;
+  --color-navy-700: #274472;
+  --color-navy-600: #3b5998;
   --color-brand-navy: #274472;
   --color-brand-dark-navy: #0f1c2e;
   --color-brand-light-blue: #7bb2d9;
   --color-gold-400: #d4af37;
   --color-gold-500: #c59b27;
+  --color-ts-gold: #c59b27;
+  --color-ice-50: #f4f9fb;
   --color-ice-100: #e8f4f8;
+  --color-ice-200: #d1e9f1;
   --font-display: "Playfair Display", serif;
   --font-body: "Montserrat", sans-serif;
   --font-sans: "Montserrat", sans-serif;

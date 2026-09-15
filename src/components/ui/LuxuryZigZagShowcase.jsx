@@ -48,13 +48,12 @@ const LuxuryZigZagShowcase = ({ title, subtitle, items, images = [] }) => {
                   className="w-full lg:w-7/12 relative z-0"
                 >
                   <div className={`relative aspect-[4/3] lg:aspect-[16/10] overflow-hidden rounded-2xl shadow-2xl group ${isEven ? 'lg:mr-[-10%]' : 'lg:ml-[-10%]'}`}>
-                    {imageSrc && (
-                      <MasterImage
-                        src={imageSrc}
-                        alt={item.title}
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
-                      />
-                    )}
+                    <MasterImage
+                      src={imageSrc || item.image || null}
+                      alt={item.title}
+                      placeholderLabel={item.placeholderLabel || `${item.title?.toUpperCase()} — ADVISOR VALUE`}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+                    />
                     <div className="absolute inset-0 bg-navy-950/10 transition-opacity duration-700 group-hover:opacity-0"></div>
                   </div>
                 </FadeIn>

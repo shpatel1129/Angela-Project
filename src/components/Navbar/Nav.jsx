@@ -1560,6 +1560,22 @@ const Nav = () => {
                 Best Cruise Travel Agent in Florida
               </NavLink>
 
+              <NavLink
+                to="/how-to-find-reputable-travel-agent-florida"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                How to Find a Reputable Travel Agent in Florida
+              </NavLink>
+
+              <NavLink
+                to="/does-it-cost-more-to-book-through-a-travel-agent"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Does It Cost More to Book Through a Travel Agent?
+              </NavLink>
+
 
 
 
@@ -3125,6 +3141,22 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Best Cruise Travel Agent in Florida
+            </NavLink>
+
+            <NavLink
+              to="/how-to-find-reputable-travel-agent-florida"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              How to Find a Reputable Travel Agent in Florida
+            </NavLink>
+
+            <NavLink
+              to="/does-it-cost-more-to-book-through-a-travel-agent"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Does It Cost More to Book Through a Travel Agent?
             </NavLink>
 
             <span className="mobile-dropdown-divider"></span>

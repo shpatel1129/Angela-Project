@@ -1,5 +1,6 @@
 import React from 'react';
 import FadeIn from './FadeIn';
+import MasterImage from './MasterImage';
 
 const EditorialFeatureShowcase = ({ title, subtitle, image, features, bgClass = 'bg-white' }) => {
   return (
@@ -23,9 +24,9 @@ const EditorialFeatureShowcase = ({ title, subtitle, image, features, bgClass = 
           <div className="lg:col-span-7 relative">
             <FadeIn delay={0.2}>
               <div className="relative aspect-[4/5] md:aspect-[16/10] lg:aspect-[4/5] overflow-hidden shadow-2xl">
-                <img 
+                <MasterImage 
                   src={image} 
-                  alt="AmaDahlia Luxury Feature" 
+                  alt={title || "Luxury Feature"} 
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-navy-900/10 mix-blend-multiply"></div>

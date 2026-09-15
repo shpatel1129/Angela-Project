@@ -42,8 +42,8 @@ const CenterCTA = ({
             href={buttonLink}
             className={`inline-flex items-center justify-center gap-3 font-sans font-medium uppercase tracking-[0.15em] text-sm px-10 py-4 transition-colors shadow-xl ${
               isDark 
-                ? 'bg-white text-navy-950 hover:bg-ts-gold hover:text-white' 
-                : 'bg-navy-950 text-white hover:bg-ts-gold hover:text-white'
+                ? 'bg-white text-navy-950 hover:bg-gold-500 hover:text-navy-950' 
+                : 'bg-navy-950 text-white hover:bg-gold-500 hover:text-navy-950'
             }`}
           >
             {buttonText}

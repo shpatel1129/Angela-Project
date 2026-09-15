@@ -55,6 +55,8 @@ import DisneyCruiseLineVacations from "./pages/DisneyCruiseLineVacations/DisneyC
 import BestTravelAgentFlorida from "./pages/BestTravelAgentFlorida/BestTravelAgentFlorida";
 import BestTravelAgencyFlorida from "./pages/BestTravelAgencyFlorida/BestTravelAgencyFlorida";
 import BestCruiseTravelAgentFlorida from "./pages/BestCruiseTravelAgentFlorida/BestCruiseTravelAgentFlorida";
+import HowToFindReputableTravelAgentFlorida from "./pages/HowToFindReputableTravelAgentFlorida/HowToFindReputableTravelAgentFlorida";
+import DoesItCostMoreToBookThroughATravelAgent from "./pages/DoesItCostMoreToBookThroughATravelAgent/DoesItCostMoreToBookThroughATravelAgent";
 import TravelProgramsForMuseums from "./pages/TravelProgramsForMuseums/TravelProgramsForMuseums";
 import TravelProgramsForAquariums from "./pages/TravelProgramsForAquariums/TravelProgramsForAquariums";
 import TravelProgramsForZoos from "./pages/TravelProgramsForZoos/TravelProgramsForZoos";
@@ -708,6 +710,8 @@ function App() {
           <Route path="/best-travel-agent-florida" element={<BestTravelAgentFlorida />} />
           <Route path="/best-travel-agency-florida" element={<BestTravelAgencyFlorida />} />
           <Route path="/best-cruise-travel-agent-florida" element={<BestCruiseTravelAgentFlorida />} />
+          <Route path="/how-to-find-reputable-travel-agent-florida" element={<HowToFindReputableTravelAgentFlorida />} />
+          <Route path="/does-it-cost-more-to-book-through-a-travel-agent" element={<DoesItCostMoreToBookThroughATravelAgent />} />
 
         </Routes>
       </BrowserRouter>
