@@ -1,0 +1,856 @@
+{
+  "seo": {
+    "title": "How Much Does a Seabourn Cruise Cost? 2026 Guide",
+    "metaTitle": "Seabourn Cruise Cost: Fares, Suites, Solo & Extra Costs",
+    "metaDescription": "How much does a Seabourn cruise cost? Compare typical fares, suite categories, solo pricing, promotions, what's included and additional expenses in this complete guide.",
+    "canonical": "https://www.tripsandships.com/seabourn-cruises/cost/"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#webpage",
+        "url": "https://www.tripsandships.com/seabourn-cruises/cost/",
+        "name": "How Much Does a Seabourn Cruise Cost? 2026 Guide",
+        "headline": "How Much Does a Seabourn Cruise Cost? Complete Pricing Guide",
+        "description": "How much does a Seabourn cruise cost? Compare typical fares, suite categories, solo pricing, promotions, what's included and additional expenses in this complete guide.",
+        "keywords": [
+          "Seabourn cruise cost",
+          "How much does a Seabourn cruise cost",
+          "Seabourn cruise prices",
+          "Seabourn cruise cost per person",
+          "Seabourn cruise fares",
+          "Seabourn cruise price",
+          "Seabourn suite prices",
+          "Seabourn cruise cost for two",
+          "Seabourn solo cruise cost",
+          "Seabourn single supplement",
+          "Seabourn cruise promotions",
+          "Seabourn cruise deals",
+          "Seabourn cruise inclusions",
+          "Seabourn additional costs",
+          "Seabourn luxury cruise cost",
+          "Seabourn cruise price 2026",
+          "Seabourn cost per night"
+        ],
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://www.tripsandships.com/#website",
+          "url": "https://www.tripsandships.com/",
+          "name": "Trips & Ships Luxury Travel"
+        },
+        "breadcrumb": { "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#breadcrumb" },
+        "mainEntity": { "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#pricing-guide" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
+          { "@type": "ListItem", "position": 3, "name": "Seabourn Cruise Cost", "item": "https://www.tripsandships.com/seabourn-cruises/cost/" }
+        ]
+      },
+      {
+        "@type": "Thing",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#pricing-guide",
+        "name": "Seabourn Cruise Cost",
+        "description": "A comprehensive guide to Seabourn cruise pricing, including fares, suite categories, solo supplements, inclusions, additional expenses, promotions and cost-per-night comparisons.",
+        "url": "https://www.tripsandships.com/seabourn-cruises/cost/",
+        "brand": { "@type": "Brand", "name": "Seabourn" },
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "Pricing Basis", "value": "Generally per guest based on double occupancy" },
+          { "@type": "PropertyValue", "name": "Currency", "value": "U.S. dollars" },
+          { "@type": "PropertyValue", "name": "Taxes and Port Expenses", "value": "Included in advertised fares" },
+          { "@type": "PropertyValue", "name": "Accommodation", "value": "All-suite" },
+          { "@type": "PropertyValue", "name": "Dining", "value": "Complimentary dining venues" },
+          { "@type": "PropertyValue", "name": "Premium Beverages", "value": "Included" },
+          { "@type": "PropertyValue", "name": "Wi-Fi", "value": "Included" },
+          { "@type": "PropertyValue", "name": "Onboard Gratuities", "value": "Not required or expected" },
+          { "@type": "PropertyValue", "name": "Solo Pricing", "value": "May involve a single supplement" },
+          { "@type": "PropertyValue", "name": "Promotions", "value": "Varies by sailing and eligibility" }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#price-factors",
+        "name": "Factors That Determine Seabourn Cruise Cost",
+        "description": "Key factors that can affect the price of a Seabourn cruise.",
+        "numberOfItems": 6,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Cruise Length", "description": "The total length of the voyage affects the overall fare and can influence the effective cost per night." },
+          { "@type": "ListItem", "position": 2, "name": "Suite Category", "description": "Seabourn's suite categories range from Oceanview and Veranda Suites to Penthouse and Premium Suites, with higher categories offering additional space and amenities." },
+          { "@type": "ListItem", "position": 3, "name": "Destination", "description": "Destination demand and itinerary can significantly influence cruise pricing." },
+          { "@type": "ListItem", "position": 4, "name": "Time of Year", "description": "Peak-season departures may command higher fares, while shoulder-season itineraries can sometimes offer better value." },
+          { "@type": "ListItem", "position": 5, "name": "Ship", "description": "Different Seabourn ships offer different itineraries and suite configurations, which can influence pricing and experience." },
+          { "@type": "ListItem", "position": 6, "name": "Promotions", "description": "Available promotions, loyalty offers, shipboard credit and reduced deposits can change the effective cost of a sailing." }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#suite-categories",
+        "name": "Seabourn Cruise Suite Categories",
+        "description": "Suite categories discussed in the Seabourn cruise cost guide.",
+        "numberOfItems": 4,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Oceanview Suites", "description": "Ocean-facing accommodation without the private veranda found on veranda categories." },
+          { "@type": "ListItem", "position": 2, "name": "Veranda Suites", "description": "Suites with private outdoor space, particularly attractive for scenic itineraries." },
+          { "@type": "ListItem", "position": 3, "name": "Penthouse Suites", "description": "Larger suites offering substantially more space and additional amenities." },
+          { "@type": "ListItem", "position": 4, "name": "Premium Suites", "description": "Higher-level suites offering additional living space and enhanced amenities." }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#included",
+        "name": "Seabourn Cruise Fare Inclusions",
+        "description": "Core experiences and services described as included in applicable Seabourn cruise fares.",
+        "numberOfItems": 6,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "All-Suite Accommodation", "description": "Seabourn operates an all-suite accommodation model." },
+          { "@type": "ListItem", "position": 2, "name": "Complimentary Dining", "description": "Complimentary dining is available across Seabourn's restaurants and venues." },
+          { "@type": "ListItem", "position": 3, "name": "Complimentary Fine Wines and Premium Spirits", "description": "Fine wines and premium spirits are part of Seabourn's onboard offering." },
+          { "@type": "ListItem", "position": 4, "name": "Complimentary Wi-Fi", "description": "Seabourn currently includes complimentary Wi-Fi for bookings." },
+          { "@type": "ListItem", "position": 5, "name": "In-Suite Bar", "description": "Suites include an in-suite bar with complimentary wines or spirits, with enhanced offerings in higher categories." },
+          { "@type": "ListItem", "position": 6, "name": "Onboard Gratuities", "description": "Seabourn states that onboard gratuities are neither required nor expected." }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#additional-costs",
+        "name": "Potential Additional Seabourn Cruise Costs",
+        "description": "Expenses that may remain separate from the cruise fare.",
+        "numberOfItems": 12,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Airfare" },
+          { "@type": "ListItem", "position": 2, "name": "Travel Insurance" },
+          { "@type": "ListItem", "position": 3, "name": "Shore Excursions" },
+          { "@type": "ListItem", "position": 4, "name": "Spa Treatments" },
+          { "@type": "ListItem", "position": 5, "name": "Boutique Purchases" },
+          { "@type": "ListItem", "position": 6, "name": "Casino Spending" },
+          { "@type": "ListItem", "position": 7, "name": "Private Transportation" },
+          { "@type": "ListItem", "position": 8, "name": "Pre-Cruise Hotels" },
+          { "@type": "ListItem", "position": 9, "name": "Post-Cruise Hotels" },
+          { "@type": "ListItem", "position": 10, "name": "Independent Tour Gratuities" },
+          { "@type": "ListItem", "position": 11, "name": "Airline Baggage Charges" },
+          { "@type": "ListItem", "position": 12, "name": "Personal Expenses" }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#promotions",
+        "name": "Seabourn Cruise Promotions",
+        "description": "Promotion types discussed in the Seabourn cruise cost guide.",
+        "numberOfItems": 7,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Early Booking Advantage" },
+          { "@type": "ListItem", "position": 2, "name": "Savings on Select Voyages" },
+          { "@type": "ListItem", "position": 3, "name": "Shipboard Credit" },
+          { "@type": "ListItem", "position": 4, "name": "Reduced Deposits" },
+          { "@type": "ListItem", "position": 5, "name": "Single-Supplement Offers" },
+          { "@type": "ListItem", "position": 6, "name": "World Cruise Benefits" },
+          { "@type": "ListItem", "position": 7, "name": "Combination Cruise Savings" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/cost/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "How much does a Seabourn cruise cost?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn pricing varies by itinerary, cruise length, suite, sailing date and availability. Advertised fares are generally per guest based on double occupancy and include taxes, fees and port expenses." } },
+          { "@type": "Question", "name": "Is Seabourn expensive?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn is positioned in the ultra-luxury cruise market, so its upfront fares are generally higher than mainstream cruises. However, many onboard expenses are included." } },
+          { "@type": "Question", "name": "What does a Seabourn cruise fare include?", "acceptedAnswer": { "@type": "Answer", "text": "Depending on the sailing and applicable terms, Seabourn includes complimentary dining, beverages, Wi-Fi and onboard gratuities, along with all-suite accommodation." } },
+          { "@type": "Question", "name": "Does Seabourn include taxes and port fees?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn's current U.S. pricing terms state that advertised fares include taxes, fees and port expenses." } },
+          { "@type": "Question", "name": "Are drinks included on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Complimentary fine wines and premium spirits are part of Seabourn's onboard offering." } },
+          { "@type": "Question", "name": "Is Wi-Fi included on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn currently provides complimentary Wi-Fi with unlimited minutes for bookings, powered by Starlink." } },
+          { "@type": "Question", "name": "Are gratuities included on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Onboard gratuities are not required or expected. Independent shore-excursion staff may be treated separately." } },
+          { "@type": "Question", "name": "How much does a Seabourn cruise cost for one person?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the sailing and whether a single supplement applies. Current Seabourn promotions can reduce the supplement on selected sailings." } },
+          { "@type": "Question", "name": "Does Seabourn have solo cruise deals?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn's current terms include a single-supplement offer as low as 125% on selected sailings, subject to availability and restrictions." } },
+          { "@type": "Question", "name": "Is a Seabourn Veranda Suite worth the extra cost?", "acceptedAnswer": { "@type": "Answer", "text": "For travelers who value private outdoor space, particularly on scenic itineraries and longer cruises, a Veranda Suite can be worth the upgrade." } },
+          { "@type": "Question", "name": "Are Seabourn shore excursions included?", "acceptedAnswer": { "@type": "Answer", "text": "Not all excursions are included. Shore excursion costs depend on the specific experience and itinerary." } },
+          { "@type": "Question", "name": "Does Seabourn include airfare?", "acceptedAnswer": { "@type": "Answer", "text": "Generally, airfare should be treated separately unless a specific promotion or voyage includes it. Certain qualifying World Cruise offers can include business-class or first-class air." } },
+          { "@type": "Question", "name": "Does Seabourn offer cruise promotions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Current promotions can include reduced fares, shipboard credit, reduced deposits, single-supplement offers and other incentives." } },
+          { "@type": "Question", "name": "Can Seabourn Club members get lower prices?", "acceptedAnswer": { "@type": "Answer", "text": "Eligible Seabourn Club members can receive certain promotional discounts when qualifying offers are available. The current Early Booking Advantage provides a 10% reduced fare to eligible members under its terms." } },
+          { "@type": "Question", "name": "Does Seabourn offer shipboard credit?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Selected promotions provide shipboard credit, with current offers varying according to sailing and suite category." } },
+          { "@type": "Question", "name": "Is a longer Seabourn cruise cheaper per night?", "acceptedAnswer": { "@type": "Answer", "text": "Not necessarily, but longer itineraries can sometimes provide a lower effective cost per night. Compare the total fare divided by the number of nights." } },
+          { "@type": "Question", "name": "How much does a Seabourn World Cruise cost?", "acceptedAnswer": { "@type": "Answer", "text": "World Cruise pricing varies significantly according to the voyage and suite. Full World Cruise bookings can also receive additional benefits that change the overall value proposition." } },
+          { "@type": "Question", "name": "What additional costs should I budget for on a Seabourn cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Plan for potential airfare, hotels, transfers, shore excursions, travel insurance, spa treatments, personal purchases and other incidental expenses." } }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "How Much Does a Seabourn Cruise Cost?",
+    "subtitle": "There isn't one standard Seabourn cruise price. Fares vary significantly based on the ship, itinerary, sailing date, cruise length, suite category, occupancy and available promotions.",
+    "extendedParagraphs": [
+      "Seabourn's current pricing is advertised in U.S. dollars, with fares generally shown per guest based on double occupancy. Its current terms also state that advertised fares include taxes, fees and port expenses, although prices and availability can change before a reservation is confirmed.",
+      "That means the most useful way to understand Seabourn pricing isn't to ask only, 'What is the cheapest Seabourn cruise?' Instead, ask: What will my total Seabourn vacation cost, and what is already included in that price?",
+      "Because Seabourn includes many elements that can be extra on other cruise lines — including dining, beverages, Wi-Fi and onboard gratuities — the headline fare doesn't tell the whole story."
+    ],
+    "ctaText": "Start Planning Your Seabourn Cruise",
+    "ctaLink": "/contact"
+  },
+  "glance": {
+    "eyebrow": "Quick Overview",
+    "title": "Seabourn Cruise Cost at a Glance",
+    "intro": "Seabourn's official terms are particularly important when comparing prices because promotional fares, occupancy assumptions and inclusions can differ by offer.",
+    "table": [
+      { "label": "Cruise fare", "value": "Varies by sailing and suite" },
+      { "label": "Pricing basis", "value": "Generally per guest, double occupancy" },
+      { "label": "Taxes & port expenses", "value": "Included in advertised fares" },
+      { "label": "Accommodation", "value": "All-suite" },
+      { "label": "Dining", "value": "Complimentary dining venues" },
+      { "label": "Premium beverages", "value": "Included" },
+      { "label": "Wi-Fi", "value": "Included" },
+      { "label": "Onboard gratuities", "value": "Not required or expected" },
+      { "label": "Shore excursions", "value": "Varies; additional in many cases" },
+      { "label": "Airfare", "value": "Usually separate unless specifically included" },
+      { "label": "Hotels", "value": "Additional unless part of a package" },
+      { "label": "Spa", "value": "Additional" },
+      { "label": "Personal purchases", "value": "Additional" },
+      { "label": "Solo travel", "value": "May involve a single supplement" },
+      { "label": "Promotions", "value": "Frequently vary by sailing" }
+    ]
+  },
+  "priceFactors": {
+    "eyebrow": "Pricing Factors",
+    "title": "What Determines the Price of a Seabourn Cruise?",
+    "intro": "Several factors can dramatically change the fare.",
+    "factors": [
+      {
+        "icon": "Calendar",
+        "title": "Cruise Length",
+        "text": "A seven-day cruise and a multi-week voyage obviously have very different total prices. However, don't compare only the total — a longer cruise can sometimes offer a more attractive cost per night, particularly when more included amenities are spread across the voyage."
+      },
+      {
+        "icon": "Gem",
+        "title": "Suite Category",
+        "text": "Seabourn operates an all-suite accommodation model. Its suite categories range from Oceanview and Veranda Suites through Penthouse and Premium Suites, with higher categories providing additional space and amenities. The suite is therefore one of the biggest factors influencing your final cruise price."
+      },
+      {
+        "icon": "Map",
+        "title": "Destination",
+        "text": "Itinerary demand can affect pricing. A sailing to a highly sought-after destination during peak season may cost substantially more than another itinerary of similar length. Alaska, the Mediterranean, Northern Europe, the Caribbean, Antarctica, the Arctic, Australia, Asia and the Kimberley are examples of very different cruise experiences that can have different pricing."
+      },
+      {
+        "icon": "Sun",
+        "title": "Time of Year",
+        "text": "Peak-season departures can command higher fares, while shoulder-season itineraries may sometimes offer better value. However, don't choose a sailing based on price alone — weather, daylight, wildlife activity and destination conditions can make the timing of a voyage just as important."
+      },
+      {
+        "icon": "Ship",
+        "title": "Ship",
+        "text": "Seabourn's ships don't all offer identical itineraries or suite configurations. Its expedition ships, Seabourn Venture and Seabourn Pursuit, are purpose-built for remote destinations, while the ocean ships offer a different style of luxury cruising. The ship can therefore influence both price and the type of experience you're purchasing."
+      }
+    ]
+  },
+  "howAdvertised": {
+    "eyebrow": "Reading the Fare",
+    "title": "How Seabourn Advertises Its Cruise Prices",
+    "intro": "This is an important detail for shoppers. Seabourn's current terms state that advertised fares:",
+    "listTitle": "Advertised fares currently:",
+    "list": [
+      "Are in U.S. dollars",
+      "Are per guest",
+      "Are based on double occupancy",
+      "Include taxes, fees and port expenses",
+      "Apply to minimum lead-in suite categories",
+      "Are subject to availability",
+      "Can change without notice"
+    ],
+    "conclusion": "So if you see a Seabourn cruise advertised at a particular price, don't automatically assume that is the price of the suite you want. The displayed fare may apply to the lowest available category."
+  },
+  "suiteCost": {
+    "eyebrow": "Accommodations & Price",
+    "title": "Seabourn Cruise Cost by Suite Category",
+    "intro": "One of the easiest ways to increase your cruise price is to upgrade your suite. Seabourn's current suite lineup includes categories such as:",
+    "categories": [
+      {
+        "icon": "Waves",
+        "title": "Oceanview Suites",
+        "text": "These provide ocean-facing accommodation without the private veranda found on veranda categories."
+      },
+      {
+        "icon": "Home",
+        "title": "Veranda Suites",
+        "text": "These add private outdoor space and are particularly attractive for scenic itineraries."
+      },
+      {
+        "icon": "Star",
+        "title": "Penthouse Suites",
+        "text": "These offer substantially more space and additional amenities."
+      },
+      {
+        "icon": "Gem",
+        "title": "Premium Suites",
+        "text": "Higher-level suites can add even more living space and special services."
+      }
+    ],
+    "note": "Seabourn confirms that its accommodations are all-suite and ocean-front, with many suites offering private verandas."
+  },
+  "cta1": {
+    "eyebrow": "Choose the Right Suite",
+    "title": "Not Sure Which Seabourn Suite Category Is Right for You?",
+    "description": "From Oceanview to Premium Suites, the right category depends on your travel style, itinerary and budget. Let us help you find the perfect fit.",
+    "buttonText": "Get Suite Recommendations",
+    "buttonLink": "/contact"
+  },
+  "suiteWorthIt": {
+    "eyebrow": "Weighing the Upgrade",
+    "title": "Is a More Expensive Seabourn Suite Worth It?",
+    "verdict": "Not necessarily.",
+    "balanceIntro": "For some travelers, a Veranda Suite may provide the ideal balance between:",
+    "equation": ["space", "outdoor area", "price"],
+    "sublead": "For others, a larger Penthouse or Premium Suite may be worthwhile because they expect to spend substantial time in their suite.",
+    "rightTitle": "Think about how you actually travel.",
+    "points": [
+      {
+        "icon": "Compass",
+        "text": "If you spend most of your day ashore, you may not need the largest suite."
+      },
+      {
+        "icon": "Ship",
+        "text": "If you're taking a long World Cruise, the additional space can become much more valuable."
+      }
+    ]
+  },
+  "suiteAmenities": {
+    "eyebrow": "What's Inside",
+    "title": "What Do You Get in a Seabourn Suite?",
+    "intro": "Current Seabourn suite amenities can include:",
+    "listTitle": "Included with your suite:",
+    "items": [
+      "Personal suite host and attendant",
+      "Walk-in closet",
+      "Luxury bath products",
+      "In-suite bar",
+      "Complimentary wines or spirits",
+      "Coffee/espresso facilities in selected categories",
+      "Champagne on embarkation",
+      "Wi-Fi",
+      "Interactive entertainment",
+      "PressReader access"
+    ],
+    "note": "Higher categories add features such as larger living areas, dining areas and enhanced amenities. This is one reason comparing Seabourn's fare directly against a standard cruise cabin can produce a misleading value comparison."
+  },
+  "costForTwo": {
+    "eyebrow": "Couples Budgeting",
+    "title": "How Much Does a Seabourn Cruise Cost for Two?",
+    "intro": "Because Seabourn generally advertises fares per guest based on double occupancy, a displayed per-person price needs to be multiplied by two when budgeting for a couple.",
+    "exampleLabel": "For example, if a particular sailing displays:",
+    "formula": {
+      "left": "$X per guest",
+      "operator": "× 2",
+      "arrow": "→",
+      "right": "$2X for two"
+    },
+    "resultText": "your cruise fare for two would generally begin around: $2X",
+    "footnote": "before considering optional travel components and personal expenses.",
+    "conclusion": "The actual amount depends on the sailing and selected suite."
+  },
+  "soloCost": {
+    "eyebrow": "Traveling Alone",
+    "title": "How Much Does a Seabourn Cruise Cost for a Solo Traveler?",
+    "intro": "Solo pricing is an important consideration. Cruise fares are generally structured around two guests sharing a suite, so solo travelers can face a single supplement.",
+    "promoText": "Seabourn currently lists a promotion offering single supplements as low as 125% on select sailings, compared with a standard 200% supplement. The offer is capacity-controlled and subject to availability.",
+    "callout": "That means solo travelers should never assume the advertised per-person fare is their final price. Always check the actual solo fare for the sailing and suite category.",
+    "supplementTitle": "Seabourn Single Supplement Explained",
+    "supplementText": "A single supplement is an additional charge applied when one traveler occupies a suite designed to accommodate two guests.",
+    "examples": [
+      "Double occupancy: two travelers share the suite.",
+      "Solo occupancy: one traveler uses the same suite."
+    ],
+    "supplementOutro": "Because the cruise line loses the second passenger's fare, a supplement can be applied. The exact percentage varies according to the sailing, suite and current promotion."
+  },
+  "cta2": {
+    "eyebrow": "Compare Suites & Fares",
+    "title": "Find the Right Seabourn Suite for Your Budget",
+    "description": "Let us compare sailing dates, suite categories and current promotions to find the fare that fits your Seabourn vacation.",
+    "buttonText": "Get a Personalized Quote",
+    "buttonLink": "/contact"
+  },
+  "soloSave": {
+    "eyebrow": "Solo Savings Tips",
+    "title": "How to Save on Seabourn as a Solo Traveler",
+    "listTitle": "Solo travelers should monitor:",
+    "items": [
+      "Reduced single supplements",
+      "Specific solo promotions",
+      "Less expensive suite categories",
+      "Shoulder-season sailings",
+      "Less-demanded itineraries",
+      "Seabourn Club offers where eligible"
+    ],
+    "diamondElite": {
+      "title": "Diamond Elite Discount",
+      "text": "Seabourn's current terms also list a separate Diamond Elite solo-traveler discount, with supplements as low as 150% or 175% depending on suite category.",
+      "note": "Offers can change, so verify the terms when booking."
+    }
+  },
+  "included": {
+    "eyebrow": "The Inclusive Fare",
+    "title": "What Is Included in a Seabourn Cruise Fare?",
+    "intro": "This is where Seabourn pricing becomes particularly interesting. Depending on the sailing and applicable terms, the onboard experience includes many expenses that travelers may otherwise pay separately.",
+    "categories": [
+      { "title": "Dining", "items": ["Complimentary dining across Seabourn's restaurants and venues"] },
+      { "title": "Beverages", "items": ["Complimentary fine wines and premium spirits are part of the Seabourn experience"] },
+      { "title": "Wi-Fi", "items": ["Complimentary Wi-Fi for bookings, with the Surf package powered by Starlink"] },
+      { "title": "In-Suite Bar", "items": ["An in-suite bar with complimentary wines or spirits, with enhanced offerings in higher categories"] },
+      { "title": "Onboard Gratuities", "items": ["Onboard gratuities are neither required nor expected"] }
+    ],
+    "takeaway": "The takeaway: This combination can significantly change the effective cost of a Seabourn vacation."
+  },
+  "notIncluded": {
+    "eyebrow": "Budget Carefully",
+    "title": "What Is Not Included in the Seabourn Cruise Fare?",
+    "intro": "Your cruise fare should not automatically be treated as an all-expenses-paid vacation. Potential additional expenses include:",
+    "items": [
+      "Airfare",
+      "Travel insurance",
+      "Shore excursions",
+      "Spa treatments",
+      "Boutique purchases",
+      "Casino spending",
+      "Some private transportation",
+      "Pre-cruise hotels",
+      "Post-cruise hotels",
+      "Independent tour gratuities",
+      "Airline baggage charges",
+      "Personal expenses"
+    ],
+    "note": "Seabourn's cruise contract specifically excludes certain incidental items, activities, excursions, transportation and personal services from the cruise fare. Airline services and baggage fees may also be charged separately."
+  },
+  "excursions": {
+    "eyebrow": "Ashore",
+    "title": "Seabourn Shore Excursion Costs",
+    "intro": "Shore excursions are an important part of your total budget. Some travelers spend very little beyond the cruise fare by exploring independently. Others may spend significantly more by booking:",
+    "types": [
+      "Private tours",
+      "Premium excursions",
+      "Cultural experiences",
+      "Adventure activities",
+      "Expedition experiences",
+      "Small-group tours"
+    ],
+    "closing": "The right strategy depends on the destination. For a once-in-a-lifetime port, paying for a memorable experience may be worthwhile. For a destination you know well, independent exploration may make more sense."
+  },
+  "cta3": {
+    "eyebrow": "Plan Your Shore Experience",
+    "title": "Get Expert Help Budgeting Your Seabourn Shore Excursions",
+    "description": "From private tours to expedition experiences, shore excursion costs vary widely. Let us help you plan the right excursions for your itinerary — and build a realistic total vacation budget.",
+    "buttonText": "Start Planning Your Cruise",
+    "buttonLink": "/contact"
+  },
+  "airAndHotel": {
+    "eyebrow": "Getting There & Staying Over",
+    "title": "Airfare & Pre/Post-Cruise Hotel Costs",
+    "cards": [
+      {
+        "icon": "Plane",
+        "title": "Airfare and Seabourn Cruise Cost",
+        "text": "Airfare can represent a significant additional expense. Unless a particular promotion or voyage specifically includes air, don't assume your flights are part of the cruise fare. Seabourn does offer air programs and selected promotions. For example, its 2027 World Cruise terms include complimentary round-trip business-class or first-class air on select flights from select North American gateways for qualifying full World Cruise bookings.",
+        "footer": "That's a very different pricing proposition from a regular cruise. Always check the specific fare and promotion."
+      },
+      {
+        "icon": "Building2",
+        "title": "Pre- and Post-Cruise Hotel Costs",
+        "text": "Many travelers should budget for at least one hotel night before embarkation. Seabourn offers pre- and post-cruise hotel packages that can include hotel accommodation, breakfast, private car transfers, a hospitality representative, porterage, bell service gratuities and taxes.",
+        "footer": "These packages are optional, but they can simplify the logistics of a luxury trip."
+      },
+      {
+        "icon": "Car",
+        "title": "Transfers & Ground Transport",
+        "text": "Port transfers between the airport, hotel and pier can add up, especially in distant embarkation cities. Seabourn offers private car and transfer packages. Some promotions, such as the 2027 World Cruise, include complimentary transfers between select airports, hotels and the ship for qualifying bookings.",
+        "footer": "Always confirm whether transfers are included in your fare or package before assuming they are covered."
+      }
+    ]
+  },
+  "totalBudget": {
+    "eyebrow": "The Full Picture",
+    "title": "How Much Should You Budget Beyond the Cruise Fare?",
+    "subtitle": "A useful planning formula is:",
+    "formulaItems": [
+      { "icon": "Anchor", "label": "Cruise fare" },
+      { "icon": "Plane", "label": "Airfare" },
+      { "icon": "Building2", "label": "Hotels" },
+      { "icon": "Car", "label": "Transfers" },
+      { "icon": "Map", "label": "Excursions" },
+      { "icon": "Heart", "label": "Insurance" },
+      { "icon": "CreditCard", "label": "Personal spending" }
+    ],
+    "result": "Total Trip Budget",
+    "note": "For a luxury cruise, don't make the mistake of spending your entire budget on the suite. Leave room for the rest of the journey."
+  },
+  "promotions": {
+    "eyebrow": "Save on Your Sailing",
+    "title": "Seabourn Cruise Promotions",
+    "intro": "Promotions can significantly change the effective cost of a Seabourn cruise. Current Seabourn terms list several types of offers, including Early Booking Advantage, savings on select voyages, shipboard credit, reduced deposits, single-supplement offers, World Cruise benefits, combination cruise savings and other limited-time promotions. The exact promotion available depends on the booking date, sailing and eligibility.",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Early Booking Advantage",
+        "text": "Seabourn's current Early Booking Advantage can provide a 10% reduced fare for eligible Seabourn Club members on qualifying new bookings made by September 17, 2026. A separate additional discount is available to eligible returning World or Grand Cruise guests under the terms of the promotion."
+      },
+      {
+        "icon": "Compass",
+        "title": "Exploration Promotions",
+        "text": "Seabourn's current \"Exploration Awaits\" promotion offers up to 15% savings on select sailings booked during the promotional period. Seabourn has also announced promotions offering up to 15% savings on select summer voyages between 2026 and 2028."
+      },
+      {
+        "icon": "CreditCard",
+        "title": "Shipboard Credit Promotions",
+        "text": "Current terms, for example, list an offer of up to $1,000 per suite on select sailings, with the amount varying by suite category."
+      },
+      {
+        "icon": "Ship",
+        "title": "Combination Cruise Savings",
+        "text": "Seabourn's terms currently list combination cruise savings of up to 15% in qualifying circumstances."
+      }
+    ]
+  },
+  "costPerNight": {
+    "eyebrow": "Longer vs. Shorter",
+    "title": "Is It Cheaper to Book a Longer Seabourn Cruise?",
+    "intro": "Not automatically. Longer voyages cost more overall, but the per-night value can sometimes improve. Cost per night is one of the best ways to compare different Seabourn itineraries: total cruise fare ÷ number of nights = approximate cruise cost per night.",
+    "cruiseA": {
+      "heading": "Cruise A",
+      "sub": "10-night sailing",
+      "items": [
+        "$10,000 total cruise fare",
+        "÷ 10 nights",
+        "= $1,000 per night"
+      ]
+    },
+    "cruiseB": {
+      "heading": "Cruise B",
+      "sub": "15-night sailing",
+      "items": [
+        "$13,000 total cruise fare",
+        "÷ 15 nights",
+        "= about $867 per night"
+      ]
+    },
+    "takeaways": [
+      "The result: Cruise B costs more overall but less per night. A 14-night cruise isn't necessarily twice the value of a seven-night cruise — but it may offer a more efficient overall travel experience.",
+      "The second question: Which itinerary and suite do I actually prefer?"
+    ]
+  },
+  "cta4": {
+    "eyebrow": "Full Trip, Full Budget",
+    "title": "Let's Map Out Your Complete Seabourn Vacation Cost",
+    "description": "From fare to flights, hotels and excursions, we'll help you understand exactly what your Seabourn vacation will cost before you book.",
+    "buttonText": "Build My Budget",
+    "buttonLink": "/contact"
+  },
+  "valueTable": {
+    "eyebrow": "Look Beyond the Fare",
+    "title": "Seabourn Cruise Cost vs. Total Value",
+    "intro": "The cheapest Seabourn cruise isn't necessarily the best deal. A more useful comparison considers:",
+    "table": [
+      { "factor": "Fare", "question": "What is the starting price?" },
+      { "factor": "Suite", "question": "What category is included?" },
+      { "factor": "Dining", "question": "How much dining is included?" },
+      { "factor": "Drinks", "question": "What beverages are included?" },
+      { "factor": "Wi-Fi", "question": "Is internet included?" },
+      { "factor": "Gratuities", "question": "Are onboard gratuities included?" },
+      { "factor": "Excursions", "question": "What will I spend ashore?" },
+      { "factor": "Flights", "question": "Are flights separate?" },
+      { "factor": "Hotels", "question": "Do I need pre/post nights?" },
+      { "factor": "Promotion", "question": "Is there current onboard credit or discount?" },
+      { "factor": "Itinerary", "question": "Is the route worth the price?" }
+    ]
+  },
+  "vsLuxury": {
+    "eyebrow": "Making Fair Comparisons",
+    "title": "Seabourn Cruise Cost vs. Other Luxury Cruise Lines",
+    "lead": "Don't compare Seabourn solely on advertised fare.",
+    "leadEm": "Compare the total included experience.",
+    "competitorIntro": "For example, a competitor might advertise a lower cruise fare but charge separately for:",
+    "competitorExtras": [
+      "Wi-Fi",
+      "Premium beverages",
+      "Specialty dining",
+      "Gratuities",
+      "Certain services"
+    ],
+    "conclusion": "A higher Seabourn fare may therefore narrow the apparent price difference.",
+    "formulaLabelGood": "This is why your comparison should always be:",
+    "formulaGood": ["Fare", "Inclusions", "Extras", "Itinerary", "Suite"],
+    "formulaLabelBad": "rather than simply:",
+    "formulaBad": ["Fare", "vs.", "Fare"]
+  },
+  "bestPrice": {
+    "eyebrow": "Smart Booking",
+    "title": "How to Get the Best Seabourn Cruise Price",
+    "tips": [
+      { "title": "Compare multiple sailing dates", "text": "Even changing your departure date by a few weeks can produce a meaningful difference." },
+      { "title": "Compare suite categories", "text": "Don't automatically assume the most expensive suite is necessary." },
+      { "title": "Watch promotions", "text": "Promotions can include percentage discounts, shipboard credit or reduced deposits." },
+      { "title": "Check your Seabourn Club status", "text": "Eligible members may receive special offers." },
+      { "title": "Consider shoulder season", "text": "You may find better value outside the busiest periods." },
+      { "title": "Compare the cost per night", "text": "A longer cruise can sometimes provide a better daily value." },
+      { "title": "Consider consecutive cruises", "text": "Combination savings may apply on qualifying bookings." },
+      { "title": "Compare solo offers", "text": "If traveling alone, a reduced single supplement can make a major difference." },
+      { "title": "Look beyond the cruise fare", "text": "Calculate your complete trip budget before deciding." },
+      { "title": "Work with a luxury travel advisor", "text": "A knowledgeable advisor can monitor promotions, compare suite options and help determine whether a particular fare represents good value." }
+    ]
+  },
+  "bestTime": {
+    "eyebrow": "Timing Your Booking",
+    "title": "When Is the Best Time to Book Seabourn?",
+    "intro": "There isn't one universal answer. The best strategy depends on whether choice or price is your highest priority.",
+    "bookEarlyTitle": "Book Early If:",
+    "bookEarly": [
+      "You want a specific suite",
+      "You want a popular itinerary",
+      "You need multiple suites",
+      "You're planning a World Cruise",
+      "You need specific connecting arrangements"
+    ],
+    "monitorPromoTitle": "Monitor Promotions If:",
+    "monitorPromo": [
+      "You're flexible on dates",
+      "You're flexible on suite category",
+      "You're willing to consider alternative itineraries",
+      "You are primarily price-sensitive"
+    ]
+  },
+  "vsMainstream": {
+    "eyebrow": "Ultra-Luxury vs. Mainstream",
+    "title": "Is Seabourn More Expensive Than Mainstream Cruises?",
+    "intro": "Yes, generally. But that's not necessarily an apples-to-apples comparison. Seabourn operates in the ultra-luxury segment, with all-suite accommodations and a highly inclusive onboard model.",
+    "mainstreamTitle": "A Mainstream Cruise May Offer",
+    "mainstream": [
+      "Lower entry price",
+      "Much larger ships",
+      "More entertainment",
+      "More family facilities"
+    ],
+    "seabournTitle": "Seabourn Offers",
+    "seabourn": [
+      "Smaller ships",
+      "All suites",
+      "Personalized service",
+      "More included amenities",
+      "A quieter atmosphere"
+    ],
+    "takeaway": "Choose based on what you actually value."
+  },
+  "cta5": {
+    "eyebrow": "Plan With Confidence",
+    "title": "Ready to See Real Seabourn Pricing?",
+    "description": "Let's compare current fares, suite categories and active promotions to find the best value for your Seabourn cruise.",
+    "buttonText": "Speak with a Specialist",
+    "buttonLink": "/contact"
+  },
+  "worthCost": {
+    "eyebrow": "The Value Question",
+    "title": "Is Seabourn Worth the Cost?",
+    "lead": "For travelers who value service, food, space, smaller ships and inclusions, Seabourn can offer strong value despite its higher upfront fare.",
+    "cardTitle": "The value becomes compelling when you'd otherwise spend on:",
+    "elements": [
+      { "icon": "Gem", "label": "Premium drinks" },
+      { "icon": "Star", "label": "Dining" },
+      { "icon": "Waves", "label": "Internet" },
+      { "icon": "Heart", "label": "Gratuities" },
+      { "icon": "Home", "label": "Larger accommodations" }
+    ],
+    "verdict": "But if you don't use those benefits, the premium may be harder to justify.",
+    "linkText": "For a deeper assessment, see:",
+    "linkLabel": "Is Seabourn Worth the Price?",
+    "linkUrl": "/seabourn-cruises/is-seabourn-worth-it/"
+  },
+  "travelerTypes": {
+    "eyebrow": "Budgeting by Traveler",
+    "title": "Seabourn Cruise Cost for Different Traveler Types",
+    "types": [
+      {
+        "icon": "Heart",
+        "title": "Couples",
+        "items": [
+          "Couples may find Seabourn's pricing easier to evaluate because fares are generally structured around double occupancy.",
+          "The best value often comes from selecting the right suite rather than automatically upgrading."
+        ]
+      },
+      {
+        "icon": "Users",
+        "title": "Solo Travelers",
+        "items": [
+          "Solo travelers should focus heavily on the single supplement.",
+          "A reduced supplement can completely change the economics of a sailing."
+        ]
+      },
+      {
+        "icon": "Home",
+        "title": "Multigenerational Families",
+        "items": [
+          "Number of suites",
+          "Occupancy",
+          "Children's needs",
+          "Excursions",
+          "Transfers",
+          "Airfare",
+          "Pre/post hotels"
+        ]
+      },
+      {
+        "icon": "Anchor",
+        "title": "Long-Voyage Travelers",
+        "items": [
+          "Total duration",
+          "Cost per night",
+          "Suite category",
+          "Included air",
+          "Shipboard credit",
+          "Hotel nights",
+          "Laundry",
+          "Transfers",
+          "Special events"
+        ]
+      },
+      {
+        "icon": "Star",
+        "title": "First-Time Luxury Cruisers",
+        "items": [
+          "Compare the all-in cost, not just the headline fare.",
+          "Start with a Veranda Suite to experience the product before committing to a premium category.",
+          "Budget for excursions, transfers and travel insurance as separate line items.",
+          "Check whether an active promotion reduces the effective cost of your first sailing."
+        ]
+      },
+      {
+        "icon": "Gem",
+        "title": "Repeat & Loyal Cruisers",
+        "items": [
+          "Seabourn Club membership can unlock loyalty discounts on eligible sailings.",
+          "Stacking a loyalty discount with a current promotion may require verification of eligibility.",
+          "Repeat guests often have clearer suite preferences, making category selection more efficient.",
+          "Consider cost-per-night comparisons across different itinerary lengths."
+        ]
+      }
+    ]
+  },
+  "worldCruise": {
+    "eyebrow": "The Longest Voyages",
+    "title": "Seabourn World Cruise Cost",
+    "paragraphs": [
+      "World Cruises should be evaluated separately from ordinary Seabourn cruises. The price is significantly higher because of the length, but qualifying full-voyage bookings can receive substantial additional benefits.",
+      "For example, Seabourn's 2026 129-day World Cruise included benefits such as:",
+      "This illustrates why World Cruise pricing should be evaluated as a package rather than simply multiplying a short cruise fare by the number of days."
+    ],
+    "listTitle": "Included with qualifying full-voyage bookings:",
+    "benefits": [
+      "Two-night pre-cruise hotel stay",
+      "Business-class air on qualifying routes",
+      "Shipboard credit",
+      "Upgraded Wi-Fi",
+      "Medical services package",
+      "Special events",
+      "Laundry",
+      "Transfers",
+      "Exclusive dining experiences"
+    ]
+  },
+  "checklist": {
+    "eyebrow": "Before You Book",
+    "title": "Seabourn Cruise Cost Checklist",
+    "subtitle": "Before booking, ask:",
+    "groups": [
+      {
+        "step": "01",
+        "icon": "CreditCard",
+        "title": "Cruise Fare",
+        "items": ["What is the exact fare?", "Is it refundable?", "What taxes and fees are included?"]
+      },
+      {
+        "step": "02",
+        "icon": "Home",
+        "title": "Suite",
+        "items": ["What category am I booking?", "Is there a veranda?", "What is the actual suite location?"]
+      },
+      {
+        "step": "03",
+        "icon": "Star",
+        "title": "Inclusions",
+        "items": ["Is Wi-Fi included?", "Are beverages included?", "Are gratuities included?", "Which dining venues are complimentary?"]
+      },
+      {
+        "step": "04",
+        "icon": "Compass",
+        "title": "Extras",
+        "items": ["How much should I budget for excursions?", "Do I need airfare?", "Do I need a hotel before embarkation?", "Will I purchase spa services?"]
+      },
+      {
+        "step": "05",
+        "icon": "Percent",
+        "title": "Promotions",
+        "items": ["Is there an active promotion?", "Is shipboard credit included?", "Is there a reduced deposit?", "Does a loyalty discount apply?", "Is there a solo offer?"]
+      },
+      {
+        "step": "06",
+        "icon": "Award",
+        "title": "Total Budget",
+        "items": ["What is the all-in cost of my vacation?"]
+      }
+    ]
+  },
+  "authority": {
+    "eyebrow": "Luxury Travel Expertise",
+    "title": "Angela Hughes Luxury Authority",
+    "author": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "experience": "40+ Years Experience",
+    "countries": "Traveled to more than 121 countries",
+    "credentials": [
+      { "icon": "Award", "label": "CEO of Trips & Ships Luxury Travel" },
+      { "icon": "Star", "label": "Over 40 years in the travel industry" },
+      { "icon": "MapPin", "label": "Traveled to more than 121 countries" },
+      { "icon": "Award", "label": "Founder of Luxury Travel University" },
+      { "icon": "Users", "label": "Global luxury travel speaker and trainer" },
+      { "icon": "Users", "label": "Weekly industry columnist" },
+      { "icon": "Users", "label": "Travel Leaders Network Advisory Board member" },
+      { "icon": "Award", "label": "2024 Luxury Travel Influencer of the Year" },
+      { "icon": "Star", "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
+      { "icon": "Award", "label": "Featured in major travel publications globally" },
+      { "icon": "Ship", "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" }
+    ]
+  },
+  "faq": [
+    { "question": "How much does a Seabourn cruise cost?", "answer": "Seabourn pricing varies by itinerary, cruise length, suite, sailing date and availability. Advertised fares are generally per guest based on double occupancy and include taxes, fees and port expenses." },
+    { "question": "Is Seabourn expensive?", "answer": "Seabourn is positioned in the ultra-luxury cruise market, so its upfront fares are generally higher than mainstream cruises. However, many onboard expenses are included." },
+    { "question": "What does a Seabourn cruise fare include?", "answer": "Depending on the sailing and applicable terms, Seabourn includes complimentary dining, beverages, Wi-Fi and onboard gratuities, along with all-suite accommodation." },
+    { "question": "Does Seabourn include taxes and port fees?", "answer": "Yes. Seabourn's current U.S. pricing terms state that advertised fares include taxes, fees and port expenses." },
+    { "question": "Are drinks included on Seabourn?", "answer": "Yes. Complimentary fine wines and premium spirits are part of Seabourn's onboard offering." },
+    { "question": "Is Wi-Fi included on Seabourn?", "answer": "Yes. Seabourn currently provides complimentary Wi-Fi with unlimited minutes for bookings, powered by Starlink." },
+    { "question": "Are gratuities included on Seabourn?", "answer": "Onboard gratuities are not required or expected. Independent shore-excursion staff may be treated separately." },
+    { "question": "How much does a Seabourn cruise cost for one person?", "answer": "It depends on the sailing and whether a single supplement applies. Current Seabourn promotions can reduce the supplement on selected sailings." },
+    { "question": "Does Seabourn have solo cruise deals?", "answer": "Yes. Seabourn's current terms include a single-supplement offer as low as 125% on selected sailings, subject to availability and restrictions." },
+    { "question": "Is a Seabourn Veranda Suite worth the extra cost?", "answer": "For travelers who value private outdoor space, particularly on scenic itineraries and longer cruises, a Veranda Suite can be worth the upgrade." },
+    { "question": "Are Seabourn shore excursions included?", "answer": "Not all excursions are included. Shore excursion costs depend on the specific experience and itinerary." },
+    { "question": "Does Seabourn include airfare?", "answer": "Generally, airfare should be treated separately unless a specific promotion or voyage includes it. Certain qualifying World Cruise offers can include business-class or first-class air." },
+    { "question": "Does Seabourn offer cruise promotions?", "answer": "Yes. Current promotions can include reduced fares, shipboard credit, reduced deposits, single-supplement offers and other incentives." },
+    { "question": "Can Seabourn Club members get lower prices?", "answer": "Eligible Seabourn Club members can receive certain promotional discounts when qualifying offers are available. The current Early Booking Advantage provides a 10% reduced fare to eligible members under its terms." },
+    { "question": "Does Seabourn offer shipboard credit?", "answer": "Yes. Selected promotions provide shipboard credit, with current offers varying according to sailing and suite category." },
+    { "question": "Is a longer Seabourn cruise cheaper per night?", "answer": "Not necessarily, but longer itineraries can sometimes provide a lower effective cost per night. Compare the total fare divided by the number of nights." },
+    { "question": "How much does a Seabourn World Cruise cost?", "answer": "World Cruise pricing varies significantly according to the voyage and suite. Full World Cruise bookings can also receive additional benefits that change the overall value proposition." },
+    { "question": "What additional costs should I budget for on a Seabourn cruise?", "answer": "Plan for potential airfare, hotels, transfers, shore excursions, travel insurance, spa treatments, personal purchases and other incidental expenses." }
+  ],
+  "finalVerdict": {
+    "eyebrow": "Our Seabourn Cost Verdict",
+    "title": "There Is No Single Seabourn Cruise Price",
+    "paragraphs": [
+      "The final cost depends primarily on itinerary, length, suite, occupancy, sailing date and promotions. The advertised fare is generally per guest based on double occupancy and currently includes taxes, fees and port expenses, but additional travel and personal expenses can still apply.",
+      "The most important thing to remember is that Seabourn's higher upfront fare includes many components that travelers may pay separately elsewhere. That includes complimentary dining, beverages, Wi-Fi and no expected onboard gratuities."
+    ],
+    "recommendation": "So when comparing Seabourn, don't ask only: 'How much is the cruise?' Ask: 'How much will my entire vacation cost, and how much of that cost is already covered by the Seabourn fare?' That is the more accurate way to determine whether a particular Seabourn sailing represents good value.",
+    "buttonText": "Start Planning Your Seabourn Cruise",
+    "buttonLink": "/contact"
+  },
+  "relatedLinks": [
+    { "icon": "Ship", "title": "Seabourn Cruises: The Complete Guide", "text": "Explore the full guide covering ships, suites, destinations, dining, inclusions and what makes Seabourn different.", "url": "/seabourn-cruises/" },
+    { "icon": "Award", "title": "Is Seabourn Worth the Price?", "text": "A deeper look at whether Seabourn's ultra-luxury fare delivers real value for your travel style.", "url": "/seabourn-cruises/is-seabourn-worth-it/" },
+    { "icon": "Gem", "title": "Seabourn Suites Explained", "text": "Compare Oceanview, Veranda, Penthouse and Premium suite categories across the fleet.", "url": "/seabourn-cruises/suites/" },
+    { "icon": "Map", "title": "Seabourn Destinations", "text": "See where Seabourn sails, from the Mediterranean and Alaska to Antarctica and the Kimberley.", "url": "/seabourn-cruises/destinations/" },
+    { "icon": "Percent", "title": "Seabourn Promotions & Deals", "text": "Current Seabourn offers, shipboard credit, reduced deposits and single-supplement promotions.", "url": "/seabourn-cruises/promotions/" }
+  ]
+}

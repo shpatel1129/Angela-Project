@@ -192,6 +192,7 @@ import HowMuchDoesSeabournCruiseCost from "./pages/HowMuchDoesSeabournCruiseCost
 import Seabournoffersloyalty  from "./pages/Seabournoffersloyalty/Seabournoffersloyalty";
 import Seabourncruisequote   from "./pages/Seabourncruisequote/Seabourncruisequote";
 import Seabourndresscode    from "./pages/Seabourndresscode/Seabourndresscode";
+import SeabournVsSilverseaVsRegent from "./pages/SeabournVsSilverseaVsRegent/SeabournVsSilverseaVsRegent";
 
 
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
@@ -707,6 +708,7 @@ function App() {
           <Route path="/seabourn-cruises/offers-loyalty" element={<Seabournoffersloyalty />} />
           <Route path="/seabourn-cruises/request-a-quote" element={<Seabourncruisequote />} />
           <Route path="/seabourn-cruises/dress-code" element={<Seabourndresscode />} />
+          <Route path="/seabourn-vs-silversea-vs-regent" element={<SeabournVsSilverseaVsRegent />} />
           <Route path="/best-travel-agent-florida" element={<BestTravelAgentFlorida />} />
           <Route path="/best-travel-agency-florida" element={<BestTravelAgencyFlorida />} />
           <Route path="/best-cruise-travel-agent-florida" element={<BestCruiseTravelAgentFlorida />} />

@@ -1364,6 +1364,14 @@ const Nav = () => {
               </NavLink>
 
               <NavLink
+                to="/seabourn-vs-silversea-vs-regent"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn vs Silversea vs Regent
+              </NavLink>
+
+              <NavLink
                 to="/seabourn-cruises/faqs"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -2950,6 +2958,14 @@ const Nav = () => {
             </NavLink>
 
             <NavLink
+              to="/seabourn-vs-silversea-vs-regent"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn vs Silversea vs Regent
+            </NavLink>
+
+            <NavLink
               to="/seabourn-cruises/faqs"
               className="nav-dropdown-single"
               onClick={toggleMenu}
@@ -3083,7 +3099,7 @@ const Nav = () => {
               className="nav-dropdown-single"
               onClick={toggleMenu}
             >
-              Is Seabourn Worth it
+              Is Seabourn Worth it?
             </NavLink>
 
 
@@ -3092,7 +3108,7 @@ const Nav = () => {
               className="nav-dropdown-single"
               onClick={toggleMenu}
             >
-              How much does Seabourn cost
+              How much does Seabourn cost?
             </NavLink>
 
             <NavLink

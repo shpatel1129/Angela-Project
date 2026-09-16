@@ -1,2205 +1,681 @@
-import { useState, useEffect } from "react";
-import {
-  Ship,
-  Users,
-  MapPin,
-  Award,
-  Check,
-  Plus,
-  Minus,
-  ArrowRight,
-  Star,
-  Compass,
-  Info,
-  HeartPulse,
-  Utensils,
-  Quote,
-  Sparkles,
-  ChefHat,
-  Crown,
-} from "lucide-react";
-import Nav from "../../components/Navbar/Nav";
-import "./ExploraJourneysvsSeabourn.css";
-import AboutImage from "../../assets/AboutAngela3.jpeg";
-import CTAImage from "../../assets/ExploraJourneysvsSeabourn/EXPLORA-Mediterranean.webp";
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import Nav from '../../components/Navbar/Nav';
+import data from './data.json';
 
-import HeroImage1 from "../../assets/ExploraJourneysvsSeabourn/ExploraCruise.webp";
-import HeroImage2 from "../../assets/ExploraJourneysvsSeabourn/Auckland-skyline-in-New-Zealand.jpg";
-import HeroImage4 from "../../assets/ExploraJourneysvsSeabourn/Asia-Ship-a-Long-Bay-Vietnam.webp";
+// Assets
+import AboutImage from '../../assets/AboutAngela3.jpeg';
+// import HeroImage1 from '../../assets/ExploraJourneysvsSeabourn/ExploraCruise.webp';
+// import HeroImage2 from '../../assets/ExploraJourneysvsSeabourn/Auckland-skyline-in-New-Zealand.jpg';
+// import HeroImage4 from '../../assets/ExploraJourneysvsSeabourn/Asia-Ship-a-Long-Bay-Vietnam.webp';
+// import ExploraOverview from '../../assets/ExploraJourneysvsSeabourn/Explora-Overview.webp';
+// import SeabournOverview from '../../assets/ExploraJourneysvsSeabourn/Seabourn-Overview.jpg';
+// import ExploraSuite from '../../assets/ExploraJourneysvsSeabourn/Suite-Services.webp';
+// import SeabournSuite from '../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg';
+// import SpaExperience from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-sunrise-pool-deck-luxury-yacht.webp';
+// import ExploraDetination from '../../assets/ExploraJourneysvsSeabourn/ExploraDestination.webp';
+// import SeabournDetination from '../../assets/ExploraJourneysvsSeabourn/SeabourPlace.jpg';
+// import ExploraPool from '../../assets/ExploraJourneysvsSeabourn/explora-I-infinity-pool.webp';
+// import ExploraDinig from '../../assets/ExploraJourneysvsSeabourn/Conservatory-Pool-Bar.jpg';
+// import ExploraJournryDinig from '../../assets/ExploraJourneysvsSeabourn/ExploraDining.jpeg';
+// import SeabourDinig from '../../assets/ExploraJourneysvsSeabourn/SeabournDining.jpg';
+// import CTAImage from '../../assets/ExploraJourneysvsSeabourn/EXPLORA-Mediterranean.webp';
 
-import ExploraOverview from "../../assets/ExploraJourneysvsSeabourn/Explora-Overview.webp";
-import SeabournOverview from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Overview.jpg";
-import ExploraSuite from "../../assets/ExploraJourneysvsSeabourn/Suite-Services.webp";
-import SeabournSuite from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg";
-import SpaExperience from "../../assets/ExploraJourneysvsSeabourn/explora-journeys-sunrise-pool-deck-luxury-yacht.webp";
-import ExploraDetination from "../../assets/ExploraJourneysvsSeabourn/ExploraDestination.webp";
-import SeabournDetination from "../../assets/ExploraJourneysvsSeabourn/SeabourPlace.jpg";
-import ExploraPool from "../../assets/ExploraJourneysvsSeabourn/explora-I-infinity-pool.webp";
-import ExploraDinig from "../../assets/ExploraJourneysvsSeabourn/Conservatory-Pool-Bar.jpg";
-import ExploraJournryDinig from "../../assets/ExploraJourneysvsSeabourn/ExploraDining.jpeg";
-import SeabourDinig from "../../assets/ExploraJourneysvsSeabourn/SeabournDining.jpg";
+// import Experience from '../../assets/ExploraJourneysvsSeabourn/Ilulissat_Greenland_Jakobshavn_Glacier.jpg';
+// import Experience1 from '../../assets/ExploraJourneysvsSeabourn/OnBoard_AfternoonTea.jpg';
+// import Experience2 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore.jpg';
+// import Experience3 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encor.jpg';
+// import Experience4 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encores.jpg';
+// import Experience5 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore_PoolDeck.jpg';
+// import Experience6 from '../../assets/ExploraJourneysvsSeabourn/SBN_Kusadasi_Turkey_Encore_ENC_Sunrise_Sail_In_Location_Drone.jpg';
 
-import Experience from "../../assets/ExploraJourneysvsSeabourn/Ilulissat_Greenland_Jakobshavn_Glacier.jpg";
-import Experience1 from "../../assets/ExploraJourneysvsSeabourn/OnBoard_AfternoonTea.jpg";
-import Experience2 from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore.jpg";
-import Experience3 from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encor.jpg";
-import Experience4 from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encores.jpg";
-import Experience5 from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore_PoolDeck.jpg";
-import Experience6 from "../../assets/ExploraJourneysvsSeabourn/SBN_Kusadasi_Turkey_Encore_ENC_Sunrise_Sail_In_Location_Drone.jpg";
+// UI Components
+import ComparisonHero from '../../components/ui/ComparisonHero';
+import EditorialIntroSection from '../../components/ui/EditorialIntroSection';
+import ContainedShowdown from '../../components/ui/ContainedShowdown';
+import BrandShowcase from '../../components/ui/BrandShowcase';
+import BentoGlassmorphismGrid from '../../components/ui/BentoGlassmorphismGrid';
+import CenterCTA from '../../components/ui/CenterCTA';
+import VideoEmbed from '../../components/ui/VideoEmbed';
+import DestinationFlipCards from '../../components/ui/DestinationFlipCards';
+import DynamicCulinaryShowcase from '../../components/ui/DynamicCulinaryShowcase';
+import EditorialFeatureShowcase from '../../components/ui/EditorialFeatureShowcase';
+import DestinationEditorialGrid from '../../components/ui/DestinationEditorialGrid';
+import InclusionsSplitFeatures from '../../components/ui/InclusionsSplitFeatures';
+import GrandBentoFeatures from '../../components/ui/GrandBentoFeatures';
+import CostValueAnalysisCards from '../../components/ui/CostValueAnalysisCards';
+import ScenicGallery from '../../components/ui/ScenicGallery';
+import MistakesGrid from '../../components/ui/MistakesGrid';
+import ProsConsCards from '../../components/ui/ProsConsCards';
+import ExpertCredentials from '../../components/ui/ExpertCredentials';
+import StepByStepGuide from '../../components/ui/StepByStepGuide';
+import FAQAccordion from '../../components/ui/FAQAccordion';
+import TrustSection from '../../components/ui/TrustSection';
+import FadeIn from '../../components/ui/FadeIn';
 
-import { Helmet } from "react-helmet-async";
+const ExploraJourneysvsSeabourn = () => {
+  // Section 3: Overview Brand Showcase Data
+  const exploraBrandData = {
+    name: data.overview.explora.title,
+    // image: ExploraOverview,
+    bestFor: data.overview.explora.badge,
+    whatMakesItStandOut: `${data.overview.explora.lead} ${data.overview.explora.description}`,
+    strengths: data.overview.explora.atmosphere.map((a) => `Atmosphere: ${a}`),
+    considerations: data.overview.explora.appeals.map((a) => `Appeals to: ${a}`),
+  };
 
-const experienceSlides = [
-  {
-    img: Experience,
-    text: "Ilulissat Greenland & Jakobshavn Glacier Expedition Views",
-  },
-  {
-    img: Experience1,
-    text: "Luxury Afternoon Tea Experience Onboard Seabourn",
-  },
-  {
-    img: Experience2,
-    text: "Seabourn Encore Ultra-Luxury Cruise Ship Experience",
-  },
-  {
-    img: Experience3,
-    text: "Elegant Seabourn Encore Ocean Voyage Experience",
-  },
-  {
-    img: Experience4,
-    text: "Seabourn Encore Luxury Suite & Onboard Lifestyle",
-  },
-  {
-    img: Experience5,
-    text: "Seabourn Encore Pool Deck Luxury Relaxation",
-  },
-  {
-    img: Experience6,
-    text: "Seabourn Encore Sunrise Arrival in Kusadasi, Turkey",
-  },
-];
+  const seabournBrandData = {
+    name: data.overview.seabourn.title,
+    // image: SeabournOverview,
+    bestFor: data.overview.seabourn.badge,
+    whatMakesItStandOut: `${data.overview.seabourn.lead} ${data.overview.seabourn.description}`,
+    strengths: data.overview.seabourn.atmosphere.map((a) => `Atmosphere: ${a}`),
+    considerations: data.overview.seabourn.appeals.map((a) => `Appeals to: ${a}`),
+  };
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@graph": [
+  // Section 4: Design & Experience Style Bento Items
+  const designBentoItems = [
     {
-      "@type": "Organization",
-      name: "Trips & Ships Luxury Travel",
-      url: "https://www.tripsandships.com",
-      logo: "https://www.tripsandships.com/logo.png",
-      sameAs: ["https://www.linkedin.com", "https://www.facebook.com"],
+      title: 'Explora Journeys — Boutique Luxury',
+      description: `${data.designAtmosphere.explora.intro} ${data.designAtmosphere.explora.note}`,
+      // image: ExploraPool,
+      stat: 'Explora',
     },
     {
-      "@type": "Person",
-      name: "Angela Hughes",
-      jobTitle: "CEO of Trips & Ships Luxury Travel",
+      title: 'Explora Design Highlights',
+      description: data.designAtmosphere.explora.highlights.join(' • '),
+      // image: ExploraOverview,
+      stat: 'Modern',
+    },
+    {
+      title: 'Seabourn — Classic Refinement',
+      description: `${data.designAtmosphere.seabourn.intro} ${data.designAtmosphere.seabourn.note}`,
+      // image: SeabournOverview,
+      stat: 'Seabourn',
+    },
+    {
+      title: 'Seabourn Elegance Highlights',
+      description: data.designAtmosphere.seabourn.highlights.join(' • '),
+      // image: SeabournSuite,
+      stat: 'Refined',
+    },
+  ];
+
+  // Section 6: Suites & Accommodations Flip Cards
+  const suitesFlipItems = [
+    {
+      title: 'Explora Ocean Suites',
+      // image: ExploraSuite,
+      description: `${data.suitesComparison.explora.intro} ${data.suitesComparison.explora.note}`,
+      features: data.suitesComparison.explora.features,
+    },
+    {
+      title: 'Seabourn Ultra-Luxury Suites',
+      // image: SeabournSuite,
+      description: `${data.suitesComparison.seabourn.intro} ${data.suitesComparison.seabourn.note}`,
+      features: data.suitesComparison.seabourn.features,
+    },
+    {
+      title: 'Suite Comparison Summary',
+      // image: HeroImage4,
       description:
-        "Luxury travel expert with over 40 years of experience and travel to 121+ countries.",
-      worksFor: {
-        "@type": "Organization",
-        name: "Trips & Ships Luxury Travel",
-      },
-    },
-    {
-      "@type": "TravelAgency",
-      name: "Trips & Ships Luxury Travel",
-      url: "https://www.tripsandships.com",
-    },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://www.tripsandships.com",
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "Luxury Cruises",
-          item: "https://www.tripsandships.com/luxury-cruises",
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: "Explora Journeys vs Seabourn",
-          item: "https://www.tripsandships.com/explora-journeys-vs-seabourn",
-        },
+        'Explora delivers larger contemporary oceanfront living areas and terraces, while Seabourn sets the industry standard for dedicated suite attendant hospitality and personalized butler attention.',
+      features: [
+        'Explora: Penthouse residential layout & heated marble floors',
+        'Seabourn: Dedicated suite hosts & personalized in-suite dining',
+        'Both: 100% ocean-view suites with private verandas',
       ],
     },
+  ];
+
+  // Section 7: Dining Showcase
+  const diningItems = [
     {
-      "@type": "WebPage",
-      name: "Explora Journeys vs Seabourn",
-      url: "https://www.tripsandships.com/explora-journeys-vs-seabourn",
-      description:
-        "Luxury cruise comparison between Explora Journeys and Seabourn.",
+      title: 'Explora Culinary Arts',
+      description: `${data.diningComparison.venues[0].intro} ${data.diningComparison.venues[0].description}`,
     },
     {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Is Explora Journeys more luxurious than Seabourn?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Explora offers more modern lifestyle luxury, while Seabourn emphasizes traditional ultra-luxury service and refinement.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line has larger suites?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Explora Journeys generally offers larger entry-level suites.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line is better for wellness travelers?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Explora Journeys is more wellness-focused overall.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line has better dining?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Both excel, but Seabourn is especially renowned for culinary excellence.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is Seabourn more formal than Explora?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Seabourn feels more traditionally refined and formal.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line attracts younger luxury travelers?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Explora Journeys tends to attract a younger affluent demographic.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line is quieter?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Explora generally feels quieter and more relaxed.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line is better for couples?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Both are excellent for couples, though Explora appeals more to modern romantic luxury travelers.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line is better for expedition travel?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Seabourn offers stronger expedition capabilities.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are drinks included on both cruise lines?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Both include many premium beverages and luxury inclusions.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which luxury cruise line offers better value?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Value depends on traveler priorities, destinations, and desired onboard experience.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is Explora Journeys all-inclusive?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Explora includes many luxury amenities, dining, beverages, and wellness offerings.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which cruise line is best for Mediterranean cruises?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Both are strong, though Explora’s Mediterranean lifestyle focus resonates strongly with many travelers.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Should I use a luxury cruise travel advisor?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Luxury cruises vary significantly in style, inclusions, and atmosphere, making expert guidance valuable.",
-          },
-        },
+      title: 'Seabourn Fine Dining',
+      description: `${data.diningComparison.venues[1].intro} ${data.diningComparison.venues[1].description}`,
+    },
+    {
+      title: 'Explora Pool & Lounge Dining',
+      description:
+        'Relaxed yet sophisticated poolside dining and conservatory lounges serving fresh Mediterranean and global gastronomy.',
+    },
+    {
+      title: 'Seabourn Signature Venues',
+      description:
+        'Caviar in the Surf, Thomas Keller inspired culinary offerings, and sommelier-curated fine wine pairings.',
+    },
+  ];
+  // const diningImages = [ExploraJournryDinig, SeabourDinig, ExploraDinig, Experience1];
+
+  // Section 8: Wellness & Spa Features
+  const spaFeatures = [
+    ...data.wellnessAndSpa.explora.features.map((f) => ({
+      title: f,
+      description:
+        "Explora's Ocean Wellness philosophy integrates thermal hydrotherapy, ocean-view fitness suites, open-air running tracks, and restorative mind-body wellness rituals.",
+    })),
+    {
+      title: 'Seabourn Spa by Mindful Living',
+      description: `${data.wellnessAndSpa.seabourn.note} Includes mindful living programs, thermal suites, and oceanfront massage cabanas.`,
+    },
+  ];
+
+  // Section 9: Entertainment & Nightlife Showdown
+  const entertainmentBrandA = {
+    name: data.entertainmentNightlife.explora.name,
+    // image: ExploraPool,
+    features: [
+      data.entertainmentNightlife.explora.intro,
+      ...data.entertainmentNightlife.explora.features,
+      data.entertainmentNightlife.explora.highlight,
+    ],
+  };
+  const entertainmentBrandB = {
+    name: data.entertainmentNightlife.seabourn.name,
+    // image: Experience5,
+    features: [
+      data.entertainmentNightlife.seabourn.intro,
+      ...data.entertainmentNightlife.seabourn.features,
+      data.entertainmentNightlife.seabourn.highlight,
+    ],
+  };
+
+  // Section 10: Destinations & Itineraries Editorial Grid
+  const destinationItems = [
+    {
+      category: 'Global Exploration',
+      title: data.destinationsItineraries.seabourn.name,
+      description: `${data.destinationsItineraries.seabourn.intro} Highlights include: ${data.destinationsItineraries.seabourn.features.join('; ')}.`,
+    },
+    {
+      category: 'Expedition & Polar',
+      title: 'Seabourn Expeditions',
+      description:
+        'Antarctica, Arctic, Northwest Passage, and remote polar archipelagos with PC6-class hull luxury expedition vessels.',
+    },
+    {
+      category: 'World Cruises',
+      title: 'Seabourn Grand Voyages',
+      description:
+        'Extended worldwide journeys exploring hidden harbors, exotic islands, and cultural capital ports across 7 continents.',
+    },
+    {
+      category: 'Ocean State of Mind',
+      title: data.destinationsItineraries.explora.name,
+      description: `${data.destinationsItineraries.explora.intro} Highlights include: ${data.destinationsItineraries.explora.features.join('; ')}.`,
+    },
+    {
+      category: 'Mediterranean Elegance',
+      title: 'Explora Mediterranean Sailings',
+      description:
+        'Riviera escapes, Greek Isles, boutique Italian ports, and late-night departures designed for immersive discovery.',
+    },
+    {
+      category: 'Caribbean Retreats',
+      title: 'Explora Caribbean Itineraries',
+      description:
+        'Secluded Caribbean cays, St. Barts, Virgin Gorda, and relaxed turquoise-water yacht harbor calls.',
+    },
+  ];
+  // const destinationImages = [Experience, SeabournDetination, Experience6, ExploraDetination, HeroImage2, CTAImage];
+
+  // Section 11: Service Style Comparison
+  const serviceData = {
+    headline: data.serviceStyle.title,
+    description: data.serviceStyle.subtitle,
+    pullQuote:
+      'Service on Explora feels like a chic contemporary boutique hotel, while Seabourn offers the pinnacle of intuitive, white-glove ultra-luxury hospitality.',
+    whatIsIncluded: {
+      title: data.serviceStyle.explora.name,
+      items: [
+        { title: 'Warm & Contemporary', desc: data.serviceStyle.explora.intro },
+        { title: 'Service Pillars', desc: data.serviceStyle.explora.tags.join(' • ') },
       ],
     },
-  ],
-};
+    whatIsExtra: {
+      title: data.serviceStyle.seabourn.name,
+      items: [
+        { title: 'Polished & Refined', desc: data.serviceStyle.seabourn.intro },
+        { title: 'Service Pillars', desc: data.serviceStyle.seabourn.tags.join(' • ') },
+      ],
+    },
+  };
 
-function FAQ() {
-  const [open, setOpen] = useState(null);
+  // Section 12: Which Feels More Luxurious Grand Bento
+  const luxuryFeatures = [
+    {
+      title: data.luxuryDefinition.title,
+      description: data.luxuryDefinition.note,
+      // image: HeroImage1,
+    },
+    {
+      title: data.luxuryDefinition.explora.label,
+      description:
+        'Contemporary atmosphere anchored by: ' +
+        data.luxuryDefinition.explora.elements.join(', '),
+      // image: ExploraOverview,
+    },
+    {
+      title: data.luxuryDefinition.seabourn.label,
+      description:
+        'Heritage ultra-luxury distinguished by: ' +
+        data.luxuryDefinition.seabourn.elements.join(', '),
+      // image: SeabournOverview,
+    },
+    {
+      title: 'The Deciding Factor',
+      description:
+        'Your preference between cutting-edge modern European hotel design and time-honored maritime luxury tradition.',
+      // image: Experience3,
+    },
+  ];
 
-  const faqData = [
+  // Section 13: Pricing & Value Comparison Data
+  const exploraValueItems = [
     {
-      q: "Is Explora Journeys more luxurious than Seabourn?",
-      a: "Explora offers more modern lifestyle luxury, while Seabourn emphasizes traditional ultra-luxury service and refinement.",
+      title: "Explora appeals strongly to travelers who prioritize the onboard luxury lifestyle experience.",
+      description: "Comprehensive inclusions curated for modern luxury cruising.",
     },
     {
-      q: "Which cruise line has larger suites?",
-      a: "Explora Journeys generally offers larger entry-level suites.",
+      title: "Lifestyle-oriented inclusions",
+      description: "All-inclusive dining, premium beverages, and high-speed Wi-Fi.",
     },
     {
-      q: "Which cruise line is better for wellness travelers?",
-      a: "Explora Journeys is more wellness-focused overall.",
+      title: "Modern luxury atmosphere",
+      description: "European contemporary aesthetic with a relaxed, residential feel.",
     },
     {
-      q: "Which cruise line has better dining?",
-      a: "Both excel, but Seabourn is especially renowned for culinary excellence.",
+      title: "Wellness-focused experiences",
+      description: "Extensive Ocean Wellness spa, fitness, and open-air tracks.",
     },
     {
-      q: "Is Seabourn more formal than Explora?",
-      a: "Yes. Seabourn feels more traditionally refined and formal.",
+      title: "Large residential-style suites",
+      description: "Spacious private oceanfront terraces and walk-in wardrobes.",
     },
     {
-      q: "Which cruise line attracts younger luxury travelers?",
-      a: "Explora Journeys tends to attract a younger affluent demographic.",
+      title: "Relaxed luxury ambiance",
+      description: "Unhurried, casual-elegant atmosphere with flexible dining.",
     },
     {
-      q: "Which cruise line is quieter?",
-      a: "Explora generally feels quieter and more relaxed.",
+      title: "Ideal for travelers seeking a highly contemporary luxury experience at sea.",
+      description: "Perfect for modern affluent travelers and luxury hotel lovers.",
+    },
+  ];
+
+  const seabournValueItems = [
+    {
+      title: "Seabourn often delivers exceptional value for travelers focused on service and destination depth.",
+      description: "Legendary ultra-luxury reputation built over decades of excellence.",
     },
     {
-      q: "Which cruise line is better for couples?",
-      a: "Both are excellent for couples, though Explora appeals more to modern romantic luxury travelers.",
+      title: "Refined personalized service",
+      description: "Intuitive, dedicated suite host attention and classic hospitality.",
     },
     {
-      q: "Which cruise line is better for expedition travel?",
-      a: "Seabourn offers stronger expedition capabilities.",
+      title: "Destination-intensive itineraries",
+      description: "Boutique ports, polar expedition landings, and world voyages.",
     },
     {
-      q: "Are drinks included on both cruise lines?",
-      a: "Both include many premium beverages and luxury inclusions.",
+      title: "Traditional ultra-luxury atmosphere",
+      description: "Sophisticated yacht-club elegance and formal refinement.",
     },
     {
-      q: "Which luxury cruise line offers better value?",
-      a: "Value depends on traveler priorities, destinations, and desired onboard experience.",
+      title: "Elegant culinary experiences",
+      description: "Legendary fine dining, wine programming, and signature caviar.",
     },
     {
-      q: "Is Explora Journeys all-inclusive?",
-      a: "Explora includes many luxury amenities, dining, beverages, and wellness offerings.",
+      title: "Strong itinerary reputation",
+      description: "Decades of proven excellence across remote global destinations.",
     },
     {
-      q: "Which cruise line is best for Mediterranean cruises?",
-      a: "Both are strong, though Explora’s Mediterranean lifestyle focus resonates strongly with many travelers.",
+      title: "Best suited for travelers who value classic luxury cruising and immersive destinations.",
+      description: "Ideal for experienced luxury cruisers and cultural explorers.",
+    },
+  ];
+
+  // Section 14: Experience Gallery
+  const galleryItems = data.experienceShowcase.slides.map((s) => ({
+    title: s.title,
+    description: s.description,
+    // image: ...
+  }));
+
+  // Section 15: Common Mistakes
+  const mistakesData = {
+    title: data.commonMistakes.title,
+    items: data.commonMistakes.items,
+  };
+
+  // Section 22: Trust Sections Data
+  const trustSections = [
+    {
+      heading: 'Why Book With Trips & Ships Luxury Travel',
+      paragraphs: [
+        'Choosing an ultra-luxury cruise involves far more than picking a date and stateroom category. It requires deep firsthand knowledge of ship ambiance, suite locations, dining nuances, and destination port logistics.',
+        'Angela Hughes and Trips & Ships Luxury Travel provide unmatched luxury travel advisory services, securing priority dining reservations, complimentary onboard amenities, and personalized journey planning tailored exclusively to your preferences.',
+      ],
+      conclusion:
+        'Personalized advice from verified luxury travel authorities ensures your voyage exceeds every expectation.',
     },
     {
-      q: "Should I use a luxury cruise travel advisor?",
-      a: "Yes. Luxury cruises vary significantly in style, inclusions, and atmosphere, making expert guidance valuable.",
+      heading: 'Why Luxury Cruisers Choose Us',
+      paragraphs: [
+        'Over four decades of luxury travel relationships and direct access to cruise executive teams ensure VIP treatment at every step.',
+      ],
+      list: [
+        '40+ Years Luxury Cruise Industry Authority',
+        'Over 121+ Countries Explored Worldwide',
+        'Exclusive Virtuoso & Travel Leaders VIP Amenities',
+        'Direct Relationships with Explora & Seabourn Executives',
+        'Bespoke Pre- and Post-Cruise Custom Itinerary Design',
+      ],
+      conclusion: 'UNPARALLELED ACCESS & LUXURY ADVOCACY',
+    },
+    {
+      heading: 'Planning Your Luxury Cruise?',
+      paragraphs: [
+        'Let our master cruise advisors design a seamless, customized vacation experience tailored to your exact travel style.',
+      ],
+      list: [
+        'Complimentary Stateroom Upgrades (when available)',
+        'Exclusive Shipboard Spending Credits',
+        'Private Shore Excursion Curation',
+        'Dedicated Concierge Support Before, During, and After Sailing',
+      ],
     },
   ];
 
   return (
-    <div className="Asc-faq-list">
-      {faqData.map((item, i) => (
-        <div
-          key={i}
-          className={`Asc-faq-item${open === i ? " Asc-open" : ""}`}
-          onClick={() => setOpen(open === i ? null : i)}
-        >
-          <div className="Asc-faq-q">
-            <span>{item.q}</span>
-            <span className="Asc-faq-icon">
-              {open === i ? (
-                <Minus size={18} strokeWidth={1.5} />
-              ) : (
-                <Plus size={18} strokeWidth={1.5} />
-              )}
-            </span>
-          </div>
-          {open === i && (
-            <div className="Asc-faq-a">
-              <div className="Asc-faq-a-inner">{item.a}</div>
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  );
-}
-const ExploraJourneysvsSeabourn = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [readMore, setReadMore] = useState(false);
-
-  const images = [HeroImage1, HeroImage4, HeroImage2];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % images.length);
-    }, 6000);
-    return () => clearInterval(timer);
-  }, [images.length]);
-
-  return (
-    <div className="Asc-page-wrapper">
+    <div className="min-h-screen bg-slate-50 font-sans antialiased text-navy-900 selection:bg-gold-500 selection:text-white">
+      {/* Helmet SEO & Schema */}
       <Helmet>
-        <title>
-          Explora Journeys vs Seabourn: Which Luxury Cruise Line Is Better in
-          2026?
-        </title>
-        <meta
-          name="title"
-          content="Explora Journeys vs Seabourn | Luxury Cruise Comparison 2026"
-        />
-        <meta
-          name="description"
-          content="Compare Explora Journeys vs Seabourn for luxury cruising in 2026. Discover differences in suites, dining, pricing, service, wellness, destinations, and overall luxury experience with expert insights from Angela Hughes of Trips & Ships Luxury Travel."
-        />
-        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+        <title>{data.seo.title}</title>
+        <meta name="description" content={data.seo.metaDescription} />
+        <link rel="canonical" href={`https://www.tripsandships.com${data.seo.url}`} />
+        <script type="application/ld+json">{JSON.stringify(data.schema)}</script>
       </Helmet>
 
+      {/* Navigation */}
       <Nav />
 
-      {/* HERO */}
-      <section className="aac_hero_section">
-        {/* ── Background slideshow ── */}
-        {images.map((img, index) => (
-          <div
-            key={index}
-            className={`aac_hero_bg ${index === currentSlide ? "active" : ""}`}
-            style={{ backgroundImage: `url(${img})` }}
-          />
-        ))}
-
-        {/* ── Layered overlays ── */}
-        <div className="aac_hero_overlay" />
-        <div className="aac_hero_overlay_gradient" />
-        <div className="aac_hero_noise" />
-
-        {/* ── Main content ── */}
-        <div className="aac_hero_content">
-          {/* Heading */}
-          <h1>
-            Explora Journeys vs Seabourn: Which Luxury Cruise Line Is Right for
-            You?
-          </h1>
-
-          <p className="aac_hero_subtitle">
-            Understanding key differences in modern luxury cruising
-          </p>
-
-          <p className="aac_hero_text">
-            Luxury cruising has evolved dramatically in recent years, and two
-            names are dominating conversations among affluent travelers seeking
-            elevated ocean experiences: Explora Journeys and Seabourn.
-          </p>
-
-          <p className="aac_hero_text">
-            Both deliver premium service, elegant accommodations, gourmet
-            dining, and immersive itineraries — but the experience onboard each
-            line feels very different.
-          </p>
-
-          {/* ── Expandable content ── */}
-          <div className={`aac_expandable ${readMore ? "open" : ""}`}>
-            <p className="aac_hero_text">
-              For travelers investing significantly in a luxury cruise vacation,
-              choosing the right cruise line matters. The wrong fit can leave
-              travelers feeling underwhelmed. The right fit creates
-              unforgettable memories, seamless luxury, and transformative travel
-              experiences.
-            </p>
-
-            <p className="aac_hero_text">
-              At Trips & Ships Luxury Travel, Angela Hughes has spent more than
-              40 years helping discerning travelers choose luxury cruise
-              experiences aligned with their personal travel style,
-              expectations, and lifestyle preferences.
-            </p>
-
-            <ul className="aac_hero_list">
-              <li>CEO of Trips &amp; Ships Luxury Travel</li>
-              <li>Founder of Luxury Travel University</li>
-              <li>Travel Leaders Network Advisory Board member</li>
-              <li>2024 Luxury Travel Influencer of the Year</li>
-              <li>Named among the Most Influential Women in Travel in 2026</li>
-              <li>Traveler to 121+ countries</li>
-            </ul>
-
-            <div className="aac_bio_card">
-              <div className="aac_bio_avatar">A</div>
-              <div className="aac_bio_body">
-                <p className="aac_hero_text" style={{ marginTop: "12px" }}>
-                  Angela Hughes brings a level of real-world luxury travel
-                  expertise few advisors worldwide can match.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Read more toggle */}
-          <div className="Scenic_readmore_wrapper">
-            <button
-              className="Scenic_readmore_btn"
-              onClick={() => setReadMore(!readMore)}
-            >
-              {readMore ? "Read Less" : "Read More"}
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* FINAL VERDICT */}
-      <section className="Asc-section Asc-bg-soft" id="Asc-verdict">
-        <div className="Asc-container">
-          <div className="Asc-section-header margin-large">
-            <h2 className="Asc-h2">Explora Journeys vs Seabourn</h2>
-
-            <div className="Asc-accent-line"></div>
-          </div>
-
-          <div className="Asc-verdict-grid">
-            {/* Explora Column */}
-            <div className="Asc-verdict-card Asc-verdict-azamara">
-              <h3 className="Asc-verdict-card-title">
-                Choose Explora Journeys If You Want:
-              </h3>
-
-              <ul className="Asc-verdict-list">
-                {[
-                  "Modern European luxury",
-                  "A yacht-inspired atmosphere",
-                  "Larger suites",
-                  "Wellness-focused travel",
-                  "Contemporary design",
-                  "More spacious public areas",
-                  "A younger luxury demographic",
-                  "Lifestyle-driven cruising",
-                ].map((item, i) => (
-                  <li key={i} className="Asc-verdict-item">
-                    <Check size={18} className="Asc-verdict-icon" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Seabourn Column */}
-            <div className="Asc-verdict-card Asc-verdict-regent">
-              <h3 className="Asc-verdict-card-title">
-                Choose Seabourn If You Want:
-              </h3>
-
-              <ul className="Asc-verdict-list">
-                {[
-                  "Traditional ultra-luxury cruising",
-                  "Highly refined classic service",
-                  "Destination-intensive itineraries",
-                  "Smaller ship intimacy",
-                  "Long-established luxury reputation",
-                  "Expedition options",
-                  "Sophisticated social atmosphere",
-                ].map((item, i) => (
-                  <li key={i} className="Asc-verdict-item">
-                    <Check size={18} className="Asc-verdict-icon" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* EXPERIENCE COMPARISON */}
-      <section className="azs-experience-section" id="azs-experience">
-        <div className="azs-container">
-          <div className="azs-section-header">
-            <h2 className="azs-section-title">
-              Explora Journeys vs Seabourn Overview
-            </h2>
-
-            <div className="azs-section-accent"></div>
-          </div>
-
-          <div className="azs-experience-grid">
-            {/* Explora Card */}
-            <div className="azs-experience-card azs-azamara-exp">
-              <div className="azs-exp-image-wrap">
-                <img
-                  src={ExploraOverview}
-                  alt="Explora Journeys modern luxury atmosphere"
-                  className="azs-exp-img"
-                />
-
-                <div className="azs-exp-image-badge">
-                  Modern Lifestyle Luxury
-                </div>
-              </div>
-
-              <div className="azs-exp-content">
-                <div className="azs-exp-header">
-                  <Ship size={24} className="azs-exp-icon" />
-                  <h3 className="azs-exp-title">Explora Journeys Overview</h3>
-                </div>
-
-                <div className="azs-exp-body">
-                  <p className="azs-exp-highlight">
-                    Explora Journeys is the ultra-luxury lifestyle brand created
-                    by MSC Group.
-                  </p>
-
-                  <div className="azs-exp-divider"></div>
-
-                  <p
-                    className="azs-exp-highlight"
-                    style={{ fontWeight: "400" }}
-                  >
-                    Rather than positioning itself as a traditional cruise line,
-                    Explora focuses on “ocean state of mind” luxury travel —
-                    emphasizing wellness, space, design, culinary experiences,
-                    and slower-paced immersive journeys.
-                  </p>
-
-                  <div className="azs-exp-group">
-                    <h4 className="azs-exp-group-title">
-                      The atmosphere onboard feels:
-                    </h4>
-
-                    <ul className="azs-exp-list">
-                      {[
-                        "Contemporary",
-                        "Residential",
-                        "Calm",
-                        "Sophisticated",
-                        "Wellness-oriented",
-                        "Design-forward",
-                      ].map((item, idx) => (
-                        <li key={idx} className="azs-exp-list-item">
-                          <Check size={16} className="azs-exp-list-icon" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="azs-exp-divider"></div>
-
-                  <div className="azs-exp-group">
-                    <h4 className="azs-exp-group-title">
-                      Explora appeals strongly to:
-                    </h4>
-
-                    <ul className="azs-exp-list">
-                      {[
-                        "Luxury hotel travelers",
-                        "Aman and Four Seasons guests",
-                        "Affluent younger travelers",
-                        "Modern luxury seekers",
-                        "Travelers who dislike traditional cruise environments",
-                      ].map((item, idx) => (
-                        <li key={idx} className="azs-exp-list-item">
-                          <ArrowRight size={16} className="azs-exp-list-icon" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Seabourn Card */}
-            <div className="azs-experience-card azs-seabourn-exp">
-              <div className="azs-exp-image-wrap">
-                <img
-                  src={SeabournOverview}
-                  alt="Seabourn ultra luxury atmosphere"
-                  className="azs-exp-img"
-                />
-
-                <div className="azs-exp-image-badge">
-                  Traditional Ultra-Luxury
-                </div>
-              </div>
-
-              <div className="azs-exp-content">
-                <div className="azs-exp-header">
-                  <Ship size={24} className="azs-exp-icon" />
-                  <h3 className="azs-exp-title">Seabourn Overview</h3>
-                </div>
-
-                <div className="azs-exp-body">
-                  <p className="azs-exp-highlight">
-                    Seabourn has long been considered one of the world’s premier
-                    ultra-luxury cruise brands.
-                  </p>
-
-                  <div className="azs-exp-divider"></div>
-
-                  <p
-                    className="azs-exp-highlight"
-                    style={{ fontWeight: "400" }}
-                  >
-                    Known for exceptional service, destination-focused
-                    itineraries, refined dining, and intimate ships, Seabourn
-                    attracts experienced luxury cruisers seeking traditional
-                    elegance and personalized attention.
-                  </p>
-
-                  <div className="azs-exp-group">
-                    <h4 className="azs-exp-group-title">
-                      Seabourn’s atmosphere feels:
-                    </h4>
-
-                    <ul className="azs-exp-list">
-                      {[
-                        "Refined",
-                        "Sophisticated",
-                        "Social",
-                        "Elegant",
-                        "Classic luxury",
-                      ].map((item, idx) => (
-                        <li key={idx} className="azs-exp-list-item">
-                          <Check size={16} className="azs-exp-list-icon" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="azs-exp-divider"></div>
-
-                  <div className="azs-exp-group">
-                    <h4 className="azs-exp-group-title">
-                      It especially appeals to:
-                    </h4>
-
-                    <ul className="azs-exp-list">
-                      {[
-                        "Experienced luxury cruisers",
-                        "Affluent retirees",
-                        "World travelers",
-                        "Culinary-focused travelers",
-                        "Destination enthusiasts",
-                      ].map((item, idx) => (
-                        <li key={idx} className="azs-exp-list-item">
-                          <ArrowRight size={16} className="azs-exp-list-icon" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ENTERTAINMENT & ENRICHMENT */}
-      <section className="azs-entertainment-section" id="azs-entertainment">
-        <div className="azs-container">
-          <div className="azs-section-header">
-            <h2 className="azs-section-title">
-              Explora Journeys vs Seabourn Comparison
-            </h2>
-
-            <div className="azs-section-accent"></div>
-
-            <p className="azs-section-subtitle">
-              Ship Design, Atmosphere, and Luxury Experience Style
-            </p>
-          </div>
-
-          <div className="azs-entertainment-grid">
-            {/* Explora Journeys Card */}
-            <div className="azs-entertainment-card azs-azamara-ent">
-              <div className="azs-ent-header">
-                <div className="azs-ent-icon-circle">
-                  <Sparkles size={24} className="azs-ent-icon" />
-                </div>
-
-                <h3 className="azs-ent-title">Explora Journeys</h3>
-              </div>
-
-              <p className="azs-ent-intro">
-                Explora’s ships feel like modern luxury boutique hotels at sea.
-              </p>
-
-              <div className="azs-ent-body">
-                <h4 className="azs-ent-group-title">Highlights include:</h4>
-
-                <ul className="azs-ent-list">
-                  {[
-                    "European contemporary interiors",
-                    "High ceilings",
-                    "Spacious open decks",
-                    "Residential suite styling",
-                    "Wellness-inspired spaces",
-                    "Quiet luxury aesthetic",
-                  ].map((item, idx) => (
-                    <li key={idx} className="azs-ent-list-item">
-                      <div className="azs-ent-list-icon-wrapper">
-                        <Check size={14} className="azs-ent-list-icon" />
-                      </div>
-
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="azs-ent-divider"></div>
-
-                <div className="azs-ent-highlight-box azs-azamara-ent-highlight">
-                  <p className="azs-ent-highlight-text">
-                    The experience feels intentionally unhurried and uncrowded.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Seabourn Card */}
-            <div className="azs-entertainment-card azs-seabourn-ent">
-              <div className="azs-ent-header">
-                <div className="azs-ent-icon-circle">
-                  <Sparkles size={24} className="azs-ent-icon" />
-                </div>
-
-                <h3 className="azs-ent-title">Seabourn</h3>
-              </div>
-
-              <p className="azs-ent-intro">
-                Seabourn offers a more classic ultra-luxury cruise atmosphere.
-              </p>
-
-              <div className="azs-ent-body">
-                <h4 className="azs-ent-group-title">Highlights include:</h4>
-
-                <ul className="azs-ent-list">
-                  {[
-                    "Traditional elegance",
-                    "Yacht-club ambiance",
-                    "Intimate lounges",
-                    "Social sophistication",
-                    "Formal luxury touches",
-                  ].map((item, idx) => (
-                    <li key={idx} className="azs-ent-list-item">
-                      <div className="azs-ent-list-icon-wrapper">
-                        <Star size={14} className="azs-ent-list-icon" />
-                      </div>
-
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="azs-ent-divider"></div>
-
-                <div className="azs-ent-highlight-box azs-seabourn-ent-highlight">
-                  <p className="azs-ent-highlight-text">
-                    The atmosphere often feels more social and refined in a
-                    classic luxury sense.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* VIDEO SECTION */}
-      <section
-        className="Asc-video-section"
-        id="Asc-video"
-        style={{ backgroundColor: "var(--bg-white)" }}
-      >
-        <div className="Asc-container">
-          <div className="Asc-section-header">
-            <h2 className="Asc-h2">Explora Luxury Cruise Naming Ceremony</h2>
-
-            <div className="Asc-accent-line"></div>
-
-            <p className="Asc-video-intro">
-              Watch the spectacular EXPLORA I Naming Ceremony in New York City
-              as Explora Journeys officially introduces its first luxury ship
-              with a celebration of refined elegance, immersive ocean travel,
-              and modern European luxury cruising.
-            </p>
-          </div>
-
-          <div className="Asc-video-wrapper">
-            <div className="Asc-video-frame">
-              <iframe
-                src="https://www.youtube.com/embed/6jg3MVXjjuo"
-                title="EXPLORA I Naming Ceremony in New York City | Explora Journeys"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SUITES & ACCOMMODATIONS */}
-      <section className="azs-suites-section" id="azs-suites">
-        <div className="azs-container">
-          <div className="azs-section-header">
-            <h2 className="azs-section-title">Suites & Accommodations</h2>
-
-            <div className="azs-section-accent"></div>
-
-            <p className="azs-section-subtitle">
-              Modern Residential Luxury vs Personalized Traditional Elegance
-            </p>
-          </div>
-
-          <div className="azs-suites-grid">
-            {/* Explora Card */}
-            <div className="azs-suites-card azs-seabourn-suites">
-              <div className="azs-suites-image-wrap">
-                <img
-                  src={ExploraSuite}
-                  alt="Explora Journeys luxury suite"
-                  className="azs-suites-img"
-                />
-
-                <span className="azs-suites-image-badge">
-                  Spacious Modern Suites
-                </span>
-              </div>
-
-              <div className="azs-suites-content">
-                <div className="azs-suites-card-header">
-                  <div className="azs-suites-icon-circle">
-                    <Award size={24} className="azs-suites-icon" />
-                  </div>
-
-                  <h3 className="azs-suites-title">
-                    Explora Journeys Wins on Space
-                  </h3>
-                </div>
-
-                <p className="azs-suites-intro">
-                  Explora suites are among the largest entry-level suites in
-                  luxury cruising.
-                </p>
-
-                <div className="azs-suites-body">
-                  <h4 className="azs-suites-group-title">
-                    Travelers appreciate:
-                  </h4>
-
-                  <ul className="azs-suites-list">
-                    {[
-                      "Large terraces",
-                      "Floor-to-ceiling windows",
-                      "Walk-in closets",
-                      "Heated bathroom floors",
-                      "Residential comfort",
-                    ].map((item, idx) => (
-                      <li key={idx} className="azs-suites-list-item">
-                        <div className="azs-suites-list-icon-wrapper">
-                          <Star size={14} className="azs-suites-list-icon" />
-                        </div>
-
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="azs-suites-divider"></div>
-
-                  <div className="azs-suites-highlight-box azs-seabourn-suites-highlight">
-                    <p className="azs-suites-highlight-text">
-                      The aesthetic feels more like a luxury penthouse than a
-                      cruise cabin.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Seabourn Card */}
-            <div className="azs-suites-card azs-azamara-suites">
-              <div className="azs-suites-image-wrap">
-                <img
-                  src={SeabournSuite}
-                  alt="Seabourn luxury suite"
-                  className="azs-suites-img"
-                />
-
-                <span className="azs-suites-image-badge">
-                  Personalized Ultra-Luxury
-                </span>
-              </div>
-
-              <div className="azs-suites-content">
-                <div className="azs-suites-card-header">
-                  <div className="azs-suites-icon-circle">
-                    <Ship size={24} className="azs-suites-icon" />
-                  </div>
-
-                  <h3 className="azs-suites-title">
-                    Seabourn Excels in Personalized Luxury
-                  </h3>
-                </div>
-
-                <p className="azs-suites-intro">
-                  Seabourn suites remain elegant and comfortable, with
-                  exceptional service being the standout differentiator.
-                </p>
-
-                <div className="azs-suites-body">
-                  <h4 className="azs-suites-group-title">
-                    Guests consistently praise:
-                  </h4>
-
-                  <ul className="azs-suites-list">
-                    {[
-                      "Personalized attention",
-                      "Attentive suite stewards",
-                      "Butler-level hospitality",
-                      "Seamless service delivery",
-                    ].map((item, idx) => (
-                      <li key={idx} className="azs-suites-list-item">
-                        <div className="azs-suites-list-icon-wrapper">
-                          <Check size={14} className="azs-suites-list-icon" />
-                        </div>
-
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="azs-suites-divider"></div>
-
-                  <div className="azs-suites-highlight-box azs-azamara-suites-highlight">
-                    <p className="azs-suites-highlight-text">
-                      Service and hospitality remain core strengths of the
-                      Seabourn experience.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* DINING COMPARISON */}
-      <section
-        className="azs-dining-section"
-        id="azs-dining"
-        style={{ borderBottom: "none" }}
-      >
-        <div className="azs-container">
-          <div className="azs-section-header">
-            <h2 className="azs-section-title">Dining Comparison</h2>
-            <div className="azs-section-accent"></div>
-            <p className="azs-section-subtitle">
-              Contemporary Wellness-Focused Cuisine vs Legendary Fine Dining
-            </p>
-          </div>
-
-          <div className="azs-dining-grid">
-            {/* Explora Journeys Card */}
-            <div className="azs-dining-card azs-seabourn-dining">
-              <div className="azs-dining-image-wrap">
-                <img
-                  src={
-                    ExploraJournryDinig
-                  } /* Swap this out with your Explora Dining image variable if available */
-                  alt="Explora Journeys Culinary Experience"
-                  className="azs-dining-img"
-                />
-                <div className="azs-dining-badge-wrapper">
-                  <span className="azs-dining-badge azs-seabourn-badge">
-                    Contemporary Luxury
-                  </span>
-                </div>
-              </div>
-
-              <div className="azs-dining-content">
-                <div className="azs-dining-header">
-                  <div className="azs-dining-icon-circle">
-                    <ChefHat size={24} className="azs-dining-icon" />
-                  </div>
-                  <h3 className="azs-dining-title">Explora Journeys Dining</h3>
-                </div>
-
-                <p className="azs-dining-intro">
-                  Explora emphasizes elevated contemporary dining with a strong
-                  lifestyle and wellness focus.
-                </p>
-
-                <div className="azs-dining-body">
-                  <h4 className="azs-dining-group-title">
-                    Explora emphasizes:
-                  </h4>
-
-                  <ul className="azs-dining-list">
-                    {[
-                      "Wellness-conscious cuisine",
-                      "Mediterranean influences",
-                      "Elevated casual luxury",
-                      "Flexible dining",
-                      "Contemporary culinary presentation",
-                    ].map((item, idx) => (
-                      <li key={idx} className="azs-dining-list-item">
-                        <div className="azs-dining-list-icon-wrapper">
-                          <Check size={14} className="azs-dining-list-icon" />
-                        </div>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="azs-dining-divider"></div>
-
-                  <div className="azs-dining-highlight-box azs-seabourn-highlight">
-                    <p className="azs-dining-highlight-text">
-                      Dining feels relaxed yet sophisticated.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Seabourn Card */}
-            <div className="azs-dining-card azs-azamara-dining">
-              <div className="azs-dining-image-wrap">
-                <img
-                  src={
-                    SeabourDinig
-                  } /* Swap this out with your Seabourn Dining image variable if available */
-                  alt="Seabourn Fine Dining"
-                  className="azs-dining-img"
-                />
-                <div className="azs-dining-badge-wrapper">
-                  <span className="azs-dining-badge azs-azamara-badge">
-                    Ultra-Luxury Dining
-                  </span>
-                </div>
-              </div>
-
-              <div className="azs-dining-content">
-                <div className="azs-dining-header">
-                  <div className="azs-dining-icon-circle">
-                    <Utensils size={24} className="azs-dining-icon" />
-                  </div>
-                  <h3 className="azs-dining-title">Seabourn Dining</h3>
-                </div>
-
-                <p className="azs-dining-intro">
-                  Seabourn remains one of the most respected culinary
-                  experiences in ultra-luxury cruising.
-                </p>
-
-                <div className="azs-dining-body">
-                  <h4 className="azs-dining-group-title">
-                    Seabourn remains legendary for:
-                  </h4>
-
-                  <ul className="azs-dining-list">
-                    {[
-                      "Fine dining standards",
-                      "Formal culinary excellence",
-                      "Wine programming",
-                      "Thomas Keller collaborations",
-                      "Destination-inspired menus",
-                    ].map((item, idx) => (
-                      <li key={idx} className="azs-dining-list-item">
-                        <div className="azs-dining-list-icon-wrapper">
-                          <Star size={14} className="azs-dining-list-icon" />
-                        </div>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="azs-dining-divider"></div>
-
-                  <div className="azs-dining-highlight-box azs-azamara-highlight">
-                    <p className="azs-dining-highlight-text">
-                      Food-focused travelers often rank Seabourn among the best
-                      luxury cruise lines globally.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="Ejvs-section">
-        <div className="Ejvs-container">
-          {/* ── Page Header ── */}
-          <div className="Ejvs-header">
-            <h2 className="Ejvs-title">Wellness & Spa Experience</h2>
-
-            <div className="Asc-accent-line"></div>
-          </div>
-
-          {/* ══ BLOCK 1: Wellness — Full bleed image split ══ */}
-          <div className="Ejvs-wellness-block">
-            <div className="Ejvs-wellness-img-side">
-              <img
-                src={SpaExperience}
-                alt="Wellness"
-                className="Ejvs-wellness-img"
-              />
-              <div className="Ejvs-wellness-img-label">
-                <HeartPulse size={16} strokeWidth={1.6} />
-                <span>Wellness & Spa Experience</span>
-              </div>
-            </div>
-            <div className="Ejvs-wellness-content">
-              <p className="Ejvs-wellness-note">
-                Travelers prioritizing spa and wellness often prefer Explora.
-              </p>
-              <div className="Ejvs-wellness-rows">
-                <div className="Ejvs-wellness-brand">
-                  <span className="Ejvs-pill Ejvs-pill--dark">
-                    Explora Journeys
-                  </span>
-                  <ul className="Ejvs-dot-list">
-                    {[
-                      "Extensive spa facilities",
-                      "Wellness programming",
-                      "Fitness spaces",
-                      "Relaxation-focused design",
-                      "Ocean wellness philosophy",
-                    ].map((i) => (
-                      <li key={i}>
-                        <span className="Ejvs-dot Ejvs-dot--solid"></span>
-                        {i}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="Ejvs-wellness-brand">
-                  <span className="Ejvs-pill Ejvs-pill--outline">Seabourn</span>
-                  <p className="Ejvs-muted-text">
-                    Excellent wellness facilities but with less emphasis on
-                    lifestyle wellness immersion.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ENTERTAINMENT & NIGHTLIFE */}
-      <section className="Ejsc-ent-section" id="Ejsc-entertainment">
-        <div className="Ejsc-container">
-          <div className="Ejsc-section-header">
-            <h2 className="Ejsc-section-title">
-              Entertainment &amp; Nightlife
-            </h2>
-            <div className="Asc-accent-line"></div>
-            <p className="Ejsc-section-subtitle">
-              Comparing Explora’s understated sophistication with Seabourn’s
-              engaging social atmosphere
-            </p>
-          </div>
-
-          <div className="Ejsc-ent-grid">
-            {/* Explora Journeys Card */}
-            <div className="Ejsc-ent-card Ejsc-explora-card">
-              <div className="Ejsc-card-header">
-                <div className="Ejsc-card-icon-wrap">
-                  <Compass size={24} className="Ejsc-card-icon" />
-                </div>
-                <h3 className="Ejsc-card-title">Explora Journeys</h3>
-              </div>
-              <p className="Ejsc-card-intro">
-                Entertainment feels understated and sophisticated, designed to
-                complement your evening without dominating it.
-              </p>
-              <ul className="Ejsc-feature-list">
-                {[
-                  "Live music in elegant lounges",
-                  "Elegant, understated lounge experiences",
-                  "Quiet, relaxing nightlife venues",
-                  "Curated cultural programming & guest hosts",
-                ].map((item, i) => (
-                  <li key={i} className="Ejsc-feature-item">
-                    <div className="Ejsc-feature-icon">
-                      <Check size={14} />
-                    </div>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="Ejsc-card-highlight">
-                <p>
-                  Perfect for guests who prefer sophisticated, low-key evenings
-                  and intimate conversation.
-                </p>
-              </div>
-            </div>
-
-            {/* Seabourn Card */}
-            <div className="Ejsc-ent-card Ejsc-seabourn-card">
-              <div className="Ejsc-card-header">
-                <div className="Ejsc-card-icon-wrap">
-                  <Users size={24} className="Ejsc-card-icon" />
-                </div>
-                <h3 className="Ejsc-card-title">Seabourn</h3>
-              </div>
-              <p className="Ejsc-card-intro">
-                Seabourn offers a more social, classic luxury environment where
-                guests naturally mingle and celebrate.
-              </p>
-              <ul className="Ejsc-feature-list">
-                {[
-                  "Lively cocktail lounges & social spots",
-                  "Inviting social gatherings & Hosted tables",
-                  "Enlightening enrichment talks by experts",
-                  "High-caliber live performances & stage shows",
-                ].map((item, i) => (
-                  <li key={i} className="Ejsc-feature-item">
-                    <div className="Ejsc-feature-icon">
-                      <Star size={14} />
-                    </div>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="Ejsc-card-highlight">
-                <p>
-                  Ideal for those who enjoy a highly interactive onboard
-                  community and traditional evening entertainment.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* DESTINATIONS & ITINERARIES */}
-      <section className="Ejsc-dest-section" id="Ejsc-destinations">
-        <div className="Ejsc-container">
-          <div className="Ejsc-section-header">
-            <h2 className="Ejsc-section-title">
-              Destinations &amp; Itineraries
-            </h2>
-            <div className="Asc-accent-line"></div>
-            <p className="Ejsc-section-subtitle">
-              Slower lifestyle-focused port pacing vs. a comprehensive global
-              footprint
-            </p>
-          </div>
-
-          <div className="Ejsc-dest-grid">
-            {/* Seabourn Strengths Card */}
-            <div className="Ejsc-dest-card Ejsc-seabourn-dest-card">
-              <div className="Ejsc-dest-img-wrap">
-                <img
-                  src={SeabournDetination}
-                  alt="Seabourn polar and remote destinations"
-                  className="Ejsc-dest-img"
-                />
-              </div>
-              <div className="Ejsc-card-header">
-                <div className="Ejsc-card-icon-wrap">
-                  <Compass size={24} className="Ejsc-card-icon" />
-                </div>
-                <h3 className="Ejsc-card-title">Seabourn Strengths</h3>
-              </div>
-              <p className="Ejsc-card-intro">
-                Seabourn has a broader global itinerary portfolio that reaches
-                all seven continents with specialized expedition travel.
-              </p>
-              <ul className="Ejsc-feature-list">
-                {[
-                  "Ultra-luxury expedition cruises",
-                  "Deep exploration of polar regions",
-                  "Remote, hard-to-reach destinations",
-                  "Grand voyages & longer world cruises",
-                ].map((item, i) => (
-                  <li key={i} className="Ejsc-feature-item">
-                    <div className="Ejsc-feature-icon">
-                      <Check size={14} />
-                    </div>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Explora Strengths Card */}
-            <div className="Ejsc-dest-card Ejsc-explora-dest-card">
-              <div className="Ejsc-dest-img-wrap">
-                <img
-                  src={ExploraDetination}
-                  alt="Explora Mediterranean luxury cruising"
-                  className="Ejsc-dest-img"
-                />
-              </div>
-              <div className="Ejsc-card-header">
-                <div className="Ejsc-card-icon-wrap">
-                  <Ship size={24} className="Ejsc-card-icon" />
-                </div>
-                <h3 className="Ejsc-card-title">Explora Strengths</h3>
-              </div>
-              <p className="Ejsc-card-intro">
-                Explora Journeys focuses heavily on iconic, lifestyle-centered
-                regions with extended port stays and a relaxed rhythm.
-              </p>
-              <ul className="Ejsc-feature-list">
-                {[
-                  "Mediterranean luxury cruising expertise",
-                  "Boutique Caribbean luxury itineraries",
-                  "Curated, lifestyle-focused port experiences",
-                  "Slower travel pacing with overnight stays",
-                ].map((item, i) => (
-                  <li key={i} className="Ejsc-feature-item">
-                    <div className="Ejsc-feature-icon">
-                      <Star size={14} />
-                    </div>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SERVICE STYLE COMPARISON */}
-      <section className="Ejsc-service-section" id="Ejsc-service">
-        <div className="Ejsc-container">
-          <div className="Ejsc-section-header">
-            <h2 className="Ejsc-section-title">Service Style Comparison</h2>
-            <div className="Asc-accent-line"></div>
-            <p className="Ejsc-section-subtitle">
-              Modern hospitality-focused warmth vs. timeless, highly polished
-              ultra-luxury refinement
-            </p>
-          </div>
-
-          <div className="Ejsc-service-grid">
-            {/* Explora Service Card */}
-            <div className="Ejsc-service-card Ejsc-explora-service">
-              <div className="Ejsc-card-header">
-                <div className="Ejsc-card-icon-wrap">
-                  <Sparkles size={24} className="Ejsc-card-icon" />
-                </div>
-                <h3 className="Ejsc-card-title">Explora Service Style</h3>
-              </div>
-              <p className="Ejsc-card-intro">
-                Contemporary and warm hospitality designed to feel like an
-                upscale, relaxed European boutique hotel.
-              </p>
-              <div className="Ejsc-service-tags">
-                {[
-                  "Warm",
-                  "Contemporary",
-                  "Less Formal",
-                  "Lifestyle-Focused",
-                ].map((tag, i) => (
-                  <span key={i} className="Ejsc-service-tag">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Seabourn Service Card */}
-            <div className="Ejsc-service-card Ejsc-seabourn-service">
-              <div className="Ejsc-card-header">
-                <div className="Ejsc-card-icon-wrap">
-                  <Crown size={24} className="Ejsc-card-icon" />
-                </div>
-                <h3 className="Ejsc-card-title">Seabourn Service Style</h3>
-              </div>
-              <p className="Ejsc-card-intro">
-                Timeless ultra-luxury service, highly personalized and
-                meticulously trained to anticipate every whim.
-              </p>
-              <div className="Ejsc-service-tags">
-                {[
-                  "Highly Polished",
-                  "Traditional Ultra-Luxury",
-                  "Formal Refinement",
-                  "Exceptionally Personalized",
-                ].map((tag, i) => (
-                  <span key={i} className="Ejsc-service-tag Ejsc-tag-highlight">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        className="Ejvs-section"
-        style={{ backgroundColor: "var(--bg-soft)" }}
-      >
-        <div className="Ejvs-container">
-          {/* ── Page Header ── */}
-          <div className="Ejvs-header">
-            <h2 className="Ejvs-title">
-              Which Cruise Line Feels More Luxurious?
-            </h2>
-
-            <div className="Asc-accent-line"></div>
-          </div>
-
-          {/* ══ BLOCK 5: Luxury — Dark full-width with image ══ */}
-          <div className="Ejvs-luxury-block">
-            <div className="Ejvs-luxury-img-wrap">
-              <img src={ExploraPool} alt="Luxury" className="Ejvs-luxury-img" />
-            </div>
-            <div className="Ejvs-luxury-content">
-              <p className="Ejvs-luxury-note">
-                This depends entirely on how travelers define luxury.
-              </p>
-              <div className="Ejvs-luxury-split">
-                <div className="Ejvs-luxury-half">
-                  <p className="Ejvs-luxury-brand">Explora — Luxury Through</p>
-                  <div className="Ejvs-luxury-tags">
-                    {[
-                      "Space",
-                      "Design",
-                      "Wellness",
-                      "Lifestyle",
-                      "Modern aesthetics",
-                    ].map((t) => (
-                      <span key={t} className="Ejvs-luxury-tag">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div className="Ejvs-luxury-vline"></div>
-                <div className="Ejvs-luxury-half">
-                  <p className="Ejvs-luxury-brand">Seabourn — Luxury Through</p>
-                  <div className="Ejvs-luxury-tags">
-                    {[
-                      "Service",
-                      "Tradition",
-                      "Refinement",
-                      "Culinary excellence",
-                      "Heritage reputation",
-                    ].map((t) => (
-                      <span
-                        key={t}
-                        className="Ejvs-luxury-tag Ejvs-luxury-tag--muted"
-                      >
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PRICING & VALUE */}
-      <section className="Ejvs-pricing-section" id="Ejvs-pricing">
-        <div className="Ejvs-container">
-          {/* Section Header */}
-          <div className="Ejvs-section-header">
-            <h2 className="Ejvs-section-title">Pricing &amp; Value</h2>
-            <div className="Asc-accent-line"></div>
-
-            <p className="Ejvs-section-subtitle">
-              Understanding the difference between lifestyle luxury and
-              destination-focused value
-            </p>
-          </div>
-
-          {/* Main Grid */}
-          <div className="Ejvs-pricing-grid">
-            {/* Explora Card */}
-            <div className="Ejvs-pricing-card Ejvs-explora-card">
-              <div className="Ejvs-card-header">
-                <div className="Ejvs-card-icon-wrap">
-                  <Sparkles size={24} className="Ejvs-card-icon" />
-                </div>
-
-                <h3 className="Ejvs-card-title">Explora Journeys Value</h3>
-              </div>
-
-              <p className="Ejvs-card-intro">
-                Explora appeals strongly to travelers who prioritize the onboard
-                luxury lifestyle experience.
-              </p>
-
-              <ul className="Ejvs-feature-list">
-                {[
-                  "Lifestyle-oriented inclusions",
-                  "Modern luxury atmosphere",
-                  "Wellness-focused experiences",
-                  "Large residential-style suites",
-                  "Relaxed luxury ambiance",
-                ].map((item, i) => (
-                  <li key={i} className="Ejvs-feature-item">
-                    <div className="Ejvs-feature-icon">
-                      <Check size={14} />
-                    </div>
-
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="Ejvs-card-highlight">
-                <p>
-                  Ideal for travelers seeking a highly contemporary luxury
-                  experience at sea.
-                </p>
-              </div>
-            </div>
-
-            {/* Seabourn Card */}
-            <div className="Ejvs-pricing-card Ejvs-seabourn-card">
-              <div className="Ejvs-card-header">
-                <div className="Ejvs-card-icon-wrap">
-                  <Award size={24} className="Ejvs-card-icon" />
-                </div>
-
-                <h3 className="Ejvs-card-title">Seabourn Value</h3>
-              </div>
-
-              <p className="Ejvs-card-intro">
-                Seabourn often delivers exceptional value for travelers focused
-                on service and destination depth.
-              </p>
-
-              <ul className="Ejvs-feature-list">
-                {[
-                  "Refined personalized service",
-                  "Destination-intensive itineraries",
-                  "Traditional ultra-luxury atmosphere",
-                  "Elegant culinary experiences",
-                  "Strong itinerary reputation",
-                ].map((item, i) => (
-                  <li key={i} className="Ejvs-feature-item">
-                    <div className="Ejvs-feature-icon">
-                      <Star size={14} />
-                    </div>
-
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="Ejvs-card-highlight">
-                <p>
-                  Best suited for travelers who value classic luxury cruising
-                  and immersive destinations.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Bottom Summary */}
-          <div className="Ejvs-summary-box">
-            <p className="Ejvs-summary-text">
-              Both cruise lines occupy the ultra-luxury category, but the right
-              value depends entirely on whether travelers prioritize onboard
-              lifestyle luxury or destination-focused sophistication.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== EXPERIENCE ===== */}
-      <section className="experience" style={{ backgroundColor: "var(--bg-soft)" }}>
-        <div className="section-inner wide">
-          <h2 className="afc-h2" style={{ textAlign: "center" }}>
-            The Experience Onboard
-          </h2>
-          <div className="exp-slider">
-            <div className="exp-track">
-              {[...experienceSlides, ...experienceSlides].map((slide, i) => (
-                <div
-                  key={i}
-                  className="exp-slide"
-                  style={{ backgroundImage: `url('${slide.img}')` }}
-                >
-                  <span>{slide.text}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── COMMON MISTAKES ───────────────────────────────────────── */}
-      <section className="Lfsg-section Lfsg-bg-dark" id="Lfsg-mistakes">
-        <div className="Lfsg-container">
-          <div className="Lfsg-section-header">
-            <h2 className="Lfsg-h2-white">Common Mistakes Travelers Make</h2>
-
-            <div className="Lfsg-accent-line-white" />
-          </div>
-
-          <div className="Lfsg-mistakes-grid">
-            {[
-              {
-                title: "Choosing Based Only on Price",
-                desc: "Luxury cruise value is about fit, not simply cost.",
-              },
-
-              {
-                title: "MIgnoring Atmosphere",
-                desc: "The emotional feel of a cruise line matters tremendously.",
-              },
-
-              {
-                title: "Booking Without Expert Guidance",
-                desc: "Luxury cruise selection is increasingly nuanced.",
-              },
-
-              {
-                title: "Personalized Luxury Cruise Matching",
-                desc: "Angela Hughes and the Trips & Ships Luxury Travel team help travelers align travel style, lifestyle preferences, destination goals, wellness priorities, dining expectations, social preferences, and suite preferences.",
-              },
-            ].map((item, i) => (
-              <div key={i} className="Lfsg-mistake-card">
-                <div className="Lfsg-mistake-number">
-                  {String(i + 1).padStart(2, "0")}
-                </div>
-
-                <h4 className="Lfsg-mistake-title">{item.title}</h4>
-
-                <p className="Lfsg-mistake-desc">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* VIDEO SECTION */}
-      <section
-        className="Asc-video-section"
-        id="Asc-video"
-        style={{ backgroundColor: "var(--bg-soft)" }}
-      >
-        <div className="Asc-container">
-          <div className="Asc-section-header">
-            <h2 className="Asc-h2">Explore Seabourn Luxury Cruises</h2>
-
-            <div className="Asc-accent-line"></div>
-
-            <p className="Asc-video-intro">
-              Discover the elegance, ultra-luxury suites, fine dining, and
-              immersive voyage experiences that make Seabourn one of the world’s
-              most prestigious luxury cruise lines.
-            </p>
-          </div>
-
-          <div className="Asc-video-wrapper">
-            <div className="Asc-video-frame">
-              <iframe
-                src="https://drive.google.com/file/d/1CwCMcEQjb9iHzopy_nIbtP3S-m84bbap/preview"
-                title="Explore Seabourn Luxury Cruises"
-                frameBorder="0"
-                allow="autoplay"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WHO SHOULD CHOOSE */}
-      <section
-        className="Asc-section Asc-bg-soft"
-        id="Asc-who"
-        style={{ backgroundColor: "var(--bg-white)" }}
-      >
-        <div className="Asc-container">
-          <div className="Asc-section-header">
-            <h2 className="Asc-h2">Who Explora Journeys Is Best Suited For</h2>
-
-            <div className="Asc-accent-line"></div>
-          </div>
-
-          <div className="Asc-who-grid">
-            {/* BEST FOR */}
-            <div className="Asc-who-card Asc-who-yes">
-              <h3 className="Asc-who-title">Explora Journeys Is Best For</h3>
-
-              <ul className="Asc-who-list">
-                {[
-                  "Modern luxury travelers",
-                  "Wellness enthusiasts",
-                  "Younger affluent travelers",
-                  "Luxury hotel lovers",
-                  "Design-focused travelers",
-                ].map((item, i) => (
-                  <li key={i}>
-                    <Check size={16} className="Asc-icon-green" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* NOT IDEAL FOR */}
-            <div className="Asc-who-card Asc-who-no">
-              <h3 className="Asc-who-title">Explora May Not Be Ideal For</h3>
-
-              <ul className="Asc-who-list">
-                {[
-                  "Travelers seeking traditional formal cruising",
-                  "Highly social cruise atmospheres",
-                  "Expedition-focused travelers",
-                ].map((item, i) => (
-                  <li key={i}>
-                    <Minus size={16} className="Asc-icon-muted" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WHO SHOULD CHOOSE */}
-      <section className="Asc-section Asc-bg-soft" id="Asc-who">
-        <div className="Asc-container">
-          <div className="Asc-section-header">
-            <h2 className="Asc-h2">Who Seabourn Is Best Suited For</h2>
-
-            <div className="Asc-accent-line"></div>
-          </div>
-
-          <div className="Asc-who-grid">
-            {/* BEST FOR */}
-            <div className="Asc-who-card Asc-who-yes">
-              <h3 className="Asc-who-title">Seabourn Is Best For</h3>
-
-              <ul className="Asc-who-list">
-                {[
-                  "Experienced luxury cruisers",
-                  "Food-focused travelers",
-                  "Traditional luxury lovers",
-                  "Destination enthusiasts",
-                  "Expedition travelers",
-                ].map((item, i) => (
-                  <li key={i}>
-                    <Check size={16} className="Asc-icon-green" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* NOT IDEAL FOR */}
-            <div className="Asc-who-card Asc-who-no">
-              <h3 className="Asc-who-title">Seabourn May Not Be Ideal For</h3>
-
-              <ul className="Asc-who-list">
-                {[
-                  "Travelers wanting highly contemporary design",
-                  "Travelers seeking wellness-centric cruising",
-                  "Younger luxury demographics",
-                ].map((item, i) => (
-                  <li key={i}>
-                    <Minus size={16} className="Asc-icon-muted" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ANGELA HUGHES AUTHORITY BOX */}
-      <section className="Adg-expert-section" id="Asc-expert-insight">
-        <div className="Asc-container">
-          {/* TOP HEADING */}
-          <div className="Adg-expert-heading">
-            <span className="Adg-expert-eyebrow">
-              Angela Hughes Luxury Cruise Authority
+      {/* Hero Section */}
+      <ComparisonHero
+        badge={data.hero.badge}
+        title={data.hero.title}
+        subtitle={data.hero.subtitle}
+        description={`${data.hero.lead}\n\n${data.hero.sublead}`}
+        // backgroundImage={HeroImage1}
+        secondaryCtaText="Request a Quote"
+        secondaryCtaLink="/contact"
+      />
+
+      <div id="content">
+        {/* Section 1: Editorial Intro */}
+        <EditorialIntroSection
+          eyebrow={data.introSection.eyebrow}
+          heading={data.introSection.heading}
+          paragraphs={data.introSection.paragraphs}
+          highlights={data.introSection.highlights}
+          badgeTitle={data.introSection.badgeTitle}
+          badgeDescription={data.introSection.badgeDescription}
+          image={AboutImage}
+          placeholderLabel="Angela Hughes Luxury Authority"
+        />
+
+        {/* Section 2: Final Verdict Showdown */}
+        <ContainedShowdown
+          title={data.finalVerdict.title}
+          brandA={{
+            name: data.finalVerdict.explora.name,
+            features: data.finalVerdict.explora.features,
+            // image: ExploraOverview,
+          }}
+          brandB={{
+            name: data.finalVerdict.seabourn.name,
+            features: data.finalVerdict.seabourn.features,
+            // image: SeabournOverview,
+          }}
+        />
+
+        {/* Section 3: Overview Comparison Brand Showcases */}
+        <div className="w-full bg-ice-50 pt-16 pb-4 border-b border-slate-200">
+          <FadeIn className="text-center max-w-3xl mx-auto px-6 mb-8">
+            <span className="font-sans text-xs uppercase tracking-[0.25em] text-gold-500 font-bold mb-3 block">
+              Overview Comparison
             </span>
-
-            <h2 className="Adg-expert-title">
-              Why Travelers Trust Angela Hughes
+            <h2 className="font-display text-4xl md:text-5xl text-navy-950 mb-4">
+              {data.overview.title}
             </h2>
-
-            <div className="Adg-expert-divider"></div>
-          </div>
-
-          {/* MAIN GRID */}
-          <div className="Adg-expert-grid">
-            {/* LEFT SIDE */}
-            <div className="Adg-expert-image-col">
-              <div className="Adg-expert-portrait-wrap">
-                <img
-                  src={AboutImage}
-                  alt="Angela Hughes Luxury Cruise Expert"
-                  className="Adg-expert-portrait"
-                />
-
-                <div className="Adg-expert-portrait-badge">
-                  <Star size={14} />
-                  <span>40+ Years Luxury Travel Expertise</span>
-                </div>
-              </div>
-
-              <div className="Adg-expert-name-card">
-                <h3 className="Adg-expert-name">Angela Hughes</h3>
-
-                <p className="Adg-expert-role">
-                  CEO · Trips &amp; Ships Luxury Travel
-                </p>
-
-                <div className="Adg-expert-name-divider"></div>
-
-                <p className="Adg-expert-countries">
-                  <MapPin size={14} />
-                  121+ Countries Visited
-                </p>
-              </div>
-            </div>
-
-            {/* RIGHT SIDE */}
-            <div className="Adg-expert-content-col">
-              {/* INTRO */}
-              <div className="Adg-expert-quote-box">
-                <div className="Adg-expert-quote-icon">
-                  <Quote size={36} />
-                </div>
-
-                <blockquote className="Adg-expert-quote-text">
-                  "Angela Hughes is one of the travel industry’s most respected
-                  luxury travel experts."
-                </blockquote>
-              </div>
-
-              {/* CREDENTIALS */}
-              <div className="Adg-expert-credentials-box">
-                <h4 className="Adg-expert-credentials-title">
-                  <Award size={16} />
-                  Her Credentials Include
-                </h4>
-
-                <div className="Adg-expert-credentials-grid">
-                  {[
-                    {
-                      icon: <Star size={16} />,
-                      label: "Over 40 years in luxury travel",
-                    },
-                    {
-                      icon: <MapPin size={16} />,
-                      label: "Visited 121+ countries",
-                    },
-                    {
-                      icon: <Users size={16} />,
-                      label: "Global luxury travel speaker",
-                    },
-                    {
-                      icon: <Award size={16} />,
-                      label: "Founder of Luxury Travel University",
-                    },
-                    {
-                      icon: <Users size={16} />,
-                      label: "Weekly travel industry columnist",
-                    },
-                    {
-                      icon: <Award size={16} />,
-                      label: "Travel Leaders Network Advisory Board member",
-                    },
-                    {
-                      icon: <Award size={16} />,
-                      label: "Luxury Travel Influencer of the Year",
-                    },
-                    {
-                      icon: <Star size={16} />,
-                      label: "Featured in global travel publications",
-                    },
-                  ].map((item, i) => (
-                    <div className="Adg-expert-list-item" key={i}>
-                      <span className="Adg-expert-list-icon">{item.icon}</span>
-
-                      <span className="Adg-expert-list-label">
-                        {item.label}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* SPECIALTIES */}
-              <div
-                className="Adg-expert-credentials-box"
-                style={{ marginTop: "24px" }}
-              >
-                <h4 className="Adg-expert-credentials-title">
-                  <Star size={16} />
-                  Her Expertise Spans
-                </h4>
-
-                <div className="Adg-expert-credentials-grid">
-                  {[
-                    "Luxury ocean cruises",
-                    "River cruises",
-                    "Expedition travel",
-                    "Safaris",
-                    "Premium custom travel",
-                  ].map((item, i) => (
-                    <div className="Adg-expert-list-item" key={i}>
-                      <span className="Adg-expert-list-icon">
-                        <Star size={16} />
-                      </span>
-
-                      <span className="Adg-expert-list-label">{item}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <p
-                  className="Adg-expert-list-label"
-                  style={{ marginTop: "20px" }}
-                >
-                  Trips & Ships Luxury Travel delivers concierge-level luxury
-                  travel planning designed specifically for affluent travelers
-                  seeking curated experiences rather than transactional
-                  bookings.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* final verdict */}
-
-      <section
-        className="Ejv-verdict-section"
-        style={{ backgroundColor: "var(--bg-white)" }}
-      >
-        <div className="Ejv-verdict-container">
-          {/* Header */}
-          <div className="Ejv-verdict-header">
-            <span className="Ejv-verdict-eyebrow">Luxury Cruise Guidance</span>
-
-            <h2 className="Ejv-verdict-title">
-              How to Choose the Right Luxury Cruise Line
-            </h2>
-
-            <div className="Asc-accent-line"></div>
-          </div>
-
-          {/* Main card */}
-          <div className="Ejv-verdict-card">
-            {/* Left — Image */}
-            <div className="Ejv-verdict-img-col">
-              <img
-                src={ExploraDinig}
-                alt="Luxury cruise experience"
-                className="Ejv-verdict-img"
-              />
-
-              <div className="Ejv-verdict-img-badge">
-                <span className="Ejv-verdict-badge-label">
-                  Luxury Cruise Planning
-                </span>
-
-                <span className="Ejv-verdict-badge-sub">
-                  Personalized Guidance
-                </span>
-              </div>
-            </div>
-
-            {/* Right — Content */}
-            <div className="Ejv-verdict-content">
-              <p className="Ejv-verdict-intro">
-                The best luxury cruise line is not universally the same for
-                every traveler.
-              </p>
-
-              <p className="Ejv-verdict-intro">The right choice depends on:</p>
-
-              <ul className="Ejv-verdict-list">
-                {[
-                  "Personality",
-                  "Lifestyle",
-                  "Travel goals",
-                  "Wellness priorities",
-                  "Dining expectations",
-                  "Desired atmosphere",
-                  "Preferred destinations",
-                ].map((item) => (
-                  <li key={item} className="Ejv-verdict-list-item">
-                    <Check
-                      size={14}
-                      strokeWidth={2.5}
-                      className="Ejv-verdict-check"
-                    />
-
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="Ejv-verdict-outcome">
-                <ArrowRight
-                  size={16}
-                  strokeWidth={2}
-                  className="Ejv-verdict-outcome-icon"
-                />
-
-                <p className="Ejv-verdict-outcome-text">
-                  That is why expert guidance matters.
-                </p>
-              </div>
-
-              <div className="Ejv-verdict-divider"></div>
-
-              <div className="Ejv-verdict-note">
-                <Info
-                  size={15}
-                  strokeWidth={1.8}
-                  className="Ejv-verdict-note-icon"
-                />
-
-                <p className="Ejv-verdict-note-text">
-                  Angela Hughes and Trips &amp; Ships Luxury Travel help
-                  travelers compare luxury cruise experiences based on personal
-                  travel style, expectations, and long-term value rather than
-                  generic comparisons.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="Asc-section Asc-bg-soft" id="Asc-faq">
-        <div className="Asc-container">
-          <div className="Asc-section-header">
-            <h2 className="Asc-h2">Frequently Asked Questions</h2>
-            <div className="Asc-accent-line"></div>
-            <p className="Asc-faq-intro">
-              Everything you need to know about choosing the right Azamara ship.
+            <div className="w-16 h-0.5 bg-navy-800 mx-auto my-4"></div>
+            <p className="font-sans text-lg text-slate-600">
+              {data.overview.subtitle}
             </p>
-          </div>
-          <FAQ />
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="Asc-help-section">
-        <div className="Asc-help-bg-wrap">
-          <img
-            src={CTAImage}
-            alt="Luxury cruise consultation"
-            className="Asc-help-bg-img"
-          />
-          <div className="Asc-help-overlay"></div>
+          </FadeIn>
+          <BrandShowcase brand={exploraBrandData} index={0} />
+          <BrandShowcase brand={seabournBrandData} index={1} />
         </div>
 
-        <div className="Asc-container">
-          <div className="Asc-help-card">
-            <div className="Asc-help-content">
-              <div className="Asc-help-header">
-                <span className="Asc-help-eyebrow">
-                  Personalized Luxury Cruise Planning
-                </span>
+        {/* Section 4: Ship Design & Atmosphere Bento Grid */}
+        <BentoGlassmorphismGrid
+          title={data.designAtmosphere.title}
+          subtitle={data.designAtmosphere.subtitle}
+          bentoItems={designBentoItems}
+        />
 
-                <h2 className="Asc-help-h2">
-                  Ready to Plan Your Luxury Cruise?
-                </h2>
+        {/* Interlude CTA 1 (After 4 sections) */}
+        <CenterCTA
+          theme="light"
+          title="Need Help Choosing Between Explora & Seabourn?"
+          description="Connect with Angela Hughes and the Trips & Ships Luxury Travel team for personalized cabin selection, VIP perks, and voyage planning."
+          buttonText="Plan Your Luxury Cruise"
+          buttonLink="/contact"
+        />
 
-                <div className="Asc-help-accent"></div>
+        {/* Section 5: Explora Naming Ceremony Video */}
+        <VideoEmbed data={data.videoSection1} />
+
+        {/* Section 6: Suites & Accommodations Flip Cards */}
+        <DestinationFlipCards
+          title={data.suitesComparison.title}
+          subtitle={data.suitesComparison.subtitle}
+          items={suitesFlipItems}
+        />
+
+        {/* Section 7: Dining Comparison Showcase */}
+        <DynamicCulinaryShowcase
+          title={data.diningComparison.title}
+          subtitle={data.diningComparison.subtitle}
+          items={diningItems}
+          // images={diningImages}
+        />
+
+        {/* Section 8: Wellness & Spa Experience */}
+        <EditorialFeatureShowcase
+          title={data.wellnessAndSpa.title}
+          subtitle={`${data.wellnessAndSpa.subtitle} — ${data.wellnessAndSpa.note}`}
+          // image={SpaExperience}
+          features={spaFeatures}
+        />
+
+        {/* Interlude CTA 2 (After 4 sections) */}
+        <CenterCTA
+          theme="light"
+          title="Elevate Your Onboard Experience"
+          description="Unlock exclusive stateroom upgrades, onboard ship credits, and tailored shore excursions on your upcoming voyage."
+          buttonText="Request a Luxury Cruise Quote"
+          buttonLink="/contact"
+        />
+
+        {/* Section 9: Entertainment & Nightlife */}
+        <ContainedShowdown
+          title={data.entertainmentNightlife.title}
+          brandA={entertainmentBrandA}
+          brandB={entertainmentBrandB}
+        />
+
+        {/* Section 10: Destinations & Itineraries Editorial Grid */}
+        <DestinationEditorialGrid
+          eyebrow="Global Deployment & Port Pacing"
+          title={data.destinationsItineraries.title}
+          subtitle={data.destinationsItineraries.subtitle}
+          items={destinationItems}
+          // images={destinationImages}
+        />
+
+        {/* Section 11: Service Style Comparison */}
+        <InclusionsSplitFeatures data={serviceData} />
+
+        {/* Section 12: Which Cruise Line Feels More Luxurious */}
+        <GrandBentoFeatures
+          title={data.luxuryDefinition.title}
+          subtitle={data.luxuryDefinition.note}
+          features={luxuryFeatures}
+        />
+
+        {/* Interlude CTA 3 (After 4 sections) */}
+        <CenterCTA
+          theme="light"
+          title="Speak Directly With Angela Hughes"
+          description="Get candid comparisons, cabin recommendations, and exclusive VIP booking amenities for your 2026-2027 voyage."
+          buttonText="Schedule a Consultation"
+          buttonLink="/contact"
+        />
+
+        {/* Section 13: Pricing & Value Comparison */}
+        <CostValueAnalysisCards
+          title="Pricing & Value Comparison"
+          subtitle="Understanding the difference between lifestyle luxury and destination-focused value"
+          includedTitle="Explora Journeys Value"
+          extrasTitle="Seabourn Value"
+          included={exploraValueItems}
+          extras={seabournValueItems}
+        />
+
+        {/* Section 14: The Experience Onboard Gallery */}
+        <ScenicGallery
+          title={data.experienceShowcase.title}
+          subtitle={data.experienceShowcase.subtitle}
+          items={galleryItems}
+        />
+
+        {/* Section 15: Common Mistakes Travelers Make */}
+        <MistakesGrid data={mistakesData} />
+
+        {/* Section 16: Seabourn Luxury Cruise Video */}
+        <section className="w-full py-16 bg-navy-950 text-white">
+          <div className="max-w-[1050px] mx-auto px-6 text-center">
+            <FadeIn>
+              <h2 className="font-display text-4xl md:text-5xl text-white mb-5">
+                {data.videoSection2.title}
+              </h2>
+              <div className="w-12 h-0.5 bg-ts-gold mx-auto mt-4 mb-6"></div>
+              <p className="font-sans text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+                {data.videoSection2.description}
+              </p>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div className="w-full aspect-video bg-navy-900 rounded-2xl overflow-hidden shadow-2xl relative border border-white/10">
+                <iframe
+                  src={data.videoSection2.embedUrl}
+                  title={data.videoSection2.title}
+                  width="100%"
+                  height="100%"
+                  allow="autoplay; fullscreen"
+                  className="absolute inset-0 w-full h-full"
+                ></iframe>
               </div>
-
-              <div className="Asc-help-grid">
-                <div className="Asc-help-info">
-                  <p className="Asc-help-intro">
-                    Whether you are considering Explora Journeys, Seabourn, or
-                    another ultra-luxury cruise experience, Trips & Ships Luxury
-                    Travel can help you select the perfect fit for your travel
-                    style.
-                  </p>
-
-                  <p className="Asc-help-intro">
-                    With decades of expertise and deep luxury cruise knowledge,
-                    Angela Hughes and her team provide highly personalized
-                    recommendations designed around your preferences — not
-                    generic booking engines.
-                  </p>
-
-                  <div className="Asc-help-btn-container">
-                    <button className="Asc-help-cta-btn">
-                      Schedule Your Luxury Cruise Consultation
-                      <ArrowRight size={18} />
-                    </button>
-                  </div>
-                </div>
-
-                <div className="Asc-help-list-box">
-                  <h3 className="Asc-help-list-title">
-                    Contact Trips & Ships Luxury Travel Today
-                  </h3>
-
-                  <p className="Asc-help-intro">
-                    Schedule a personalized luxury cruise consultation and
-                    discover which ultra-luxury cruise experience is truly right
-                    for you.
-                  </p>
-
-                  <ul className="Asc-help-bullets">
-                    {[
-                      "Explora Journeys guidance",
-                      "Seabourn comparison expertise",
-                      "Personalized itinerary planning",
-                      "Suite selection support",
-                      "Luxury cruise recommendations",
-                      "Tailored travel experiences",
-                    ].map((item, i) => (
-                      <li key={i}>
-                        <div className="Asc-bullet-icon">
-                          <Check size={14} strokeWidth={3} />
-                        </div>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
+            </FadeIn>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* Interlude CTA 4 (After 4 sections) */}
+        <CenterCTA
+          theme="light"
+          title="Ready to Experience Ultra-Luxury Cruising?"
+          description="Contact Angela Hughes to lock in special promotional pricing, complimentary suite upgrades, and bespoke pre/post cruise arrangements."
+          buttonText="Request Your Custom Proposal"
+          buttonLink="/contact"
+        />
+
+        {/* Section 17: Who Explora Journeys Is Best For */}
+        <ProsConsCards
+          title={data.whoExploraIsBestFor.title}
+          prosTitle={data.whoExploraIsBestFor.prosTitle}
+          consTitle={data.whoExploraIsBestFor.consTitle}
+          bestFor={data.whoExploraIsBestFor.bestFor}
+          notBestFor={data.whoExploraIsBestFor.notBestFor}
+          bgClass="bg-white"
+        />
+
+        {/* Section 18: Who Seabourn Is Best For */}
+        <ProsConsCards
+          title={data.whoSeabournIsBestFor.title}
+          prosTitle={data.whoSeabournIsBestFor.prosTitle}
+          consTitle={data.whoSeabournIsBestFor.consTitle}
+          bestFor={data.whoSeabournIsBestFor.bestFor}
+          notBestFor={data.whoSeabournIsBestFor.notBestFor}
+          bgClass="bg-ice-50"
+        />
+
+        {/* Section 19: Angela Hughes Authority & Credentials */}
+        <ExpertCredentials
+          name={data.angelaHughes.name}
+          title={data.angelaHughes.title}
+          badge={data.angelaHughes.eyebrow}
+          experienceBadge="40+ YEARS CRUISE EXPERTISE"
+          authorityBoxTitle={`${data.angelaHughes.name} CRUISE AUTHORITY & LEADERSHIP`}
+          authoritySubtitle={data.angelaHughes.role}
+          image={AboutImage}
+          paragraphs={[
+            data.angelaHughes.lead,
+            data.angelaHughes.expertise,
+            data.angelaHughes.value,
+          ]}
+          quote={data.angelaHughes.quote}
+          quoteSubtitle={data.angelaHughes.quoteSubtitle}
+          credentials={data.angelaHughes.credentials}
+          ctaText="Consult With Angela Hughes"
+          ctaLink="/contact"
+        />
+
+        {/* Section 20: How to Choose the Right Luxury Cruise Line */}
+        <StepByStepGuide
+          title={data.howToChoose.title}
+          subtitle={data.howToChoose.eyebrow}
+          steps={data.howToChoose.factors.map((f) => ({
+            title: `${f.number}. ${f.title}`,
+            description: f.description,
+          }))}
+        />
+
+        {/* Section 21: Frequently Asked Questions */}
+        <FAQAccordion
+          data={{
+            title: 'Frequently Asked Questions',
+            subtitle: 'Common Questions About Explora Journeys vs Seabourn',
+            faqs: data.faqs,
+          }}
+        />
+
+        {/* Section 22: Trust Section */}
+        <TrustSection
+          sections={trustSections}
+          secondaryImage={AboutImage}
+        />
+
+        {/* Final CTA Section */}
+        <CenterCTA
+          theme="dark"
+          title="Ready to Plan Your Explora or Seabourn Cruise?"
+          description="Contact Angela Hughes today for expert insights, tailored suite recommendations, and exclusive VIP booking privileges."
+          buttonText="Request a Consultation"
+          buttonLink="/contact"
+        />
+      </div>
     </div>
   );
 };

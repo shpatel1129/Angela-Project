@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { Lightbulb } from 'lucide-react';
-import angelaFallback from '../../assets/avalon-inclusions/Angela.webp';
+import defaultAngelaFallback from '../../assets/AboutAngela.jpeg';
 
 const OriginExpertTips = ({ tips, image }) => {
   const [imageError, setImageError] = useState(false);
   const [useFallback, setUseFallback] = useState(false);
 
   const handleImageError = () => {
-    if (!useFallback && image !== angelaFallback) {
+    if (!useFallback && image !== defaultAngelaFallback) {
       setUseFallback(true);
     } else {
       setImageError(true);
     }
   };
 
-  const currentImage = useFallback ? angelaFallback : image;
+  const currentImage = useFallback ? defaultAngelaFallback : image;
   const showImage = currentImage && !imageError;
 
   return (
