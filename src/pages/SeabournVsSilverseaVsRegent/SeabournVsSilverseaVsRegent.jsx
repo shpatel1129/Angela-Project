@@ -23,6 +23,7 @@ import {
 } from 'lucide-react';
 
 import pageData from './data.json';
+import Nav from '../../components/Navbar/Nav';
 import FadeIn from '../../components/ui/FadeIn';
 import ComparisonHero from '../../components/ui/ComparisonHero';
 import ComparisonTable from '../../components/ui/ComparisonTable';
@@ -322,6 +323,8 @@ const SeabournVsSilverseaVsRegent = () => {
           {JSON.stringify(pageData.schema)}
         </script>
       </Helmet>
+
+      <Nav />
 
       <div className="min-h-screen bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white w-full overflow-x-hidden">
         
