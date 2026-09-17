@@ -1,0 +1,618 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dining/#webpage",
+        "url": "https://www.tripsandships.com/seabourn-cruises/dining/",
+        "name": "Seabourn Dining Guide: Restaurants, Food, Menus & Room Service",
+        "headline": "Seabourn Dining Guide: Restaurants, Food, Menus & Room Service",
+        "description": "Explore Seabourn dining, including restaurants, complimentary meals, open seating, room service, specialty dining, drinks, dietary needs and what to expect onboard.",
+        "keywords": [
+          "Seabourn dining",
+          "Seabourn restaurants",
+          "Seabourn dining guide",
+          "Seabourn food",
+          "Seabourn dining options",
+          "Seabourn complimentary dining",
+          "Seabourn room service",
+          "Seabourn open seating",
+          "Seabourn specialty restaurants",
+          "Seabourn dinner",
+          "Seabourn breakfast",
+          "Seabourn lunch",
+          "Seabourn dietary restrictions",
+          "Seabourn food review",
+          "Seabourn dining experience",
+          "Seabourn caviar",
+          "Seabourn restaurants and menus"
+        ],
+        "isPartOf": { "@id": "https://www.tripsandships.com/#website" },
+        "about": { "@type": "Thing", "name": "Seabourn dining" },
+        "breadcrumb": { "@id": "https://www.tripsandships.com/seabourn-cruises/dining/#breadcrumb" },
+        "mainEntity": { "@id": "https://www.tripsandships.com/seabourn-cruises/dining/#faq" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dining/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
+          { "@type": "ListItem", "position": 3, "name": "Seabourn Dining Guide", "item": "https://www.tripsandships.com/seabourn-cruises/dining/" }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dining/#restaurants",
+        "name": "Seabourn Dining Options",
+        "description": "Dining venues and culinary experiences available across Seabourn ships, with exact offerings varying by ship and sailing.",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "The Restaurant" },
+          { "@type": "ListItem", "position": 2, "name": "The Colonnade" },
+          { "@type": "ListItem", "position": 3, "name": "Earth & Ocean" },
+          { "@type": "ListItem", "position": 4, "name": "Solis" },
+          { "@type": "ListItem", "position": 5, "name": "Sushi and Specialty Dining" },
+          { "@type": "ListItem", "position": 6, "name": "The Patio" },
+          { "@type": "ListItem", "position": 7, "name": "In-Suite Dining" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dining/#faq",
+        "name": "Seabourn Dining Frequently Asked Questions",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is dining included on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Meals in Seabourn's primary dining venues are included in the cruise fare." } },
+          { "@type": "Question", "name": "How many restaurants does Seabourn have?", "acceptedAnswer": { "@type": "Answer", "text": "The number and names of dining venues vary by ship. Options can include The Restaurant, The Colonnade, Earth & Ocean, Solis and other ship-specific venues." } },
+          { "@type": "Question", "name": "Does Seabourn have a buffet?", "acceptedAnswer": { "@type": "Answer", "text": "The Colonnade can offer buffet-style dining for selected meals, depending on the ship and meal period." } },
+          { "@type": "Question", "name": "Is Seabourn open seating?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn generally offers flexible dining rather than traditional fixed seating." } },
+          { "@type": "Question", "name": "Can I choose who I dine with on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Guests can generally request private dining or choose to socialize and share meals with other travelers." } },
+          { "@type": "Question", "name": "Is room service free on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "In-suite dining is part of Seabourn's onboard service. Exact menus and availability vary by ship and sailing." } },
+          { "@type": "Question", "name": "Does Seabourn have specialty restaurants?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Selected ships feature specialty dining venues. The restaurant lineup varies across the fleet." } },
+          { "@type": "Question", "name": "Does Seabourn include wine?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A selection of wines is included as part of the onboard beverage offering." } },
+          { "@type": "Question", "name": "Does Seabourn include Champagne?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Champagne is included, although specific brands and availability can vary." } },
+          { "@type": "Question", "name": "Does Seabourn serve caviar?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Caviar is one of Seabourn's signature luxury dining touches." } },
+          { "@type": "Question", "name": "Can Seabourn accommodate food allergies?", "acceptedAnswer": { "@type": "Answer", "text": "Many dietary requirements and allergies can be accommodated, particularly when communicated in advance. Guests with severe allergies should discuss their requirements directly with the culinary team." } },
+          { "@type": "Question", "name": "Does Seabourn have vegan food?", "acceptedAnswer": { "@type": "Answer", "text": "Vegan dining can be accommodated. Advance notice is recommended so the culinary team can prepare appropriately." } },
+          { "@type": "Question", "name": "Does Seabourn have vegetarian food?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vegetarian options are available, and guests can communicate their preferences before and during the voyage." } },
+          { "@type": "Question", "name": "Do I need reservations for Seabourn restaurants?", "acceptedAnswer": { "@type": "Answer", "text": "Some specialty restaurants may require reservations, while the main dining venues generally offer greater flexibility." } },
+          { "@type": "Question", "name": "Can I eat dinner in my suite?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. In-suite dining allows guests to enjoy meals privately in their suite." } },
+          { "@type": "Question", "name": "Can I eat breakfast on my Seabourn balcony?", "acceptedAnswer": { "@type": "Answer", "text": "If your suite has a private veranda, in-suite dining can allow you to enjoy breakfast outdoors." } },
+          { "@type": "Question", "name": "Does Seabourn have formal nights?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn generally maintains a more relaxed luxury approach to evening dress rather than requiring traditional formalwear." } },
+          { "@type": "Question", "name": "Is Seabourn good for foodies?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn is particularly suited to travelers who value fine dining, premium beverages, caviar and destination-inspired cuisine." } }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "Seabourn Dining Guide: Restaurants, Food, Menus & Room Service",
+    "subtitle": "An Intimate, All-Inclusive Culinary Journey",
+    "badge": "Seabourn Dining Guide",
+    "description": "Dining is one of the most important parts of the Seabourn experience. Unlike a large resort-style cruise ship with dozens of restaurants and massive buffets, Seabourn takes a more intimate approach to dining. Guests can choose from thoughtfully designed restaurants, casual venues, in-suite dining and destination-inspired culinary experiences. Seabourn also offers a particularly flexible approach to dining. You aren't generally locked into one table or dining time for the entire voyage. For travelers researching Seabourn food, restaurants, menus, room service and dining inclusions, this guide explains what to expect before you book.",
+    "ctaText": "Start Planning Your Seabourn Cruise"
+  },
+  "isIncluded": {
+    "title": "Is Dining Included on Seabourn?",
+    "subtitle": "The Quick Answer",
+    "cards": [
+      {
+        "title": "All-Inclusive Dining Inclusions",
+        "items": [
+          "Meals in all primary dining venues included in cruise fare",
+          "24-hour in-suite dining delivered directly to your suite or veranda",
+          "Casual outdoor poolside grill and café dining options",
+          "Complimentary fine wines and premium beverages with lunch & dinner",
+          "Signature caviar service served in diverse settings across the ship",
+          "Flexible open seating without mandatory fixed dining times"
+        ]
+      },
+      {
+        "title": "Primary Dining Venues Across the Fleet",
+        "items": [
+          "The Restaurant: Multi-course gourmet fine dining",
+          "The Colonnade: Relaxed indoor & outdoor buffet and table service",
+          "Earth & Ocean: Destination-inspired global gastronomy",
+          "Solis: Intimate Mediterranean fine dining experience",
+          "Sushi & Specialty Concepts: Fresh artisanal Japanese dining",
+          "The Patio: Casual poolside grill and light bites"
+        ]
+      }
+    ]
+  },
+  "glanceTable": {
+    "title": "Seabourn Dining at a Glance",
+    "headers": ["Dining Feature", "Seabourn Experience"],
+    "rows": [
+      ["Main dining", "Included"],
+      ["Casual dining", "Included"],
+      ["Breakfast", "Included"],
+      ["Lunch", "Included"],
+      ["Dinner", "Included"],
+      ["In-suite dining", "Available"],
+      ["Open seating", "Yes"],
+      ["Premium beverages", "Included"],
+      ["Caviar", "Available as part of Seabourn's luxury experience"],
+      ["Specialty dining", "Varies by venue and ship"],
+      ["Dietary requests", "Can generally be accommodated with advance notice"],
+      ["Room service", "Available"],
+      ["Reservations", "Required for some venues"],
+      ["Formal dining", "Relaxed luxury atmosphere"]
+    ]
+  },
+  "venues": {
+    "title": "The Seabourn Dining Venues",
+    "subtitle": "Exceptional Culinary Concepts Fleetwide",
+    "items": [
+      {
+        "category": "Principal Fine Dining",
+        "title": "The Restaurant",
+        "description": "The Restaurant is Seabourn's principal dining venue and one of the most important places to experience the line's cuisine. It provides a traditional fine dining setting while maintaining Seabourn's relaxed luxury approach.",
+        "features": [
+          "Multi-course gourmet menus changing daily",
+          "Extensive appetizers, main courses & decadent desserts",
+          "Sommelier-selected fine wine pairings included",
+          "White-glove open seating table service",
+          "Leisurely, refined evening atmosphere"
+        ],
+        "highlight": "The Restaurant is a good choice when you want a more leisurely, elevated dinner rather than a casual meal."
+      },
+      {
+        "category": "Relaxed & Regional",
+        "title": "The Colonnade",
+        "description": "The Colonnade offers a more relaxed dining environment with indoor and al fresco seating. It is particularly useful when you want flexibility rather than a formal multi-course dinner.",
+        "features": [
+          "Full breakfast, lunch, and themed evening dinners",
+          "Buffet-style selections combined with cooked-to-order table service",
+          "Regional cuisines inspired by current ports of call",
+          "Casual evening dining without reservations",
+          "Stunning outdoor wake views"
+        ],
+        "highlight": "The dinner concept changes throughout the voyage, giving guests opportunities to experience different world cuisines."
+      },
+      {
+        "category": "Global Gastronomy",
+        "title": "Earth & Ocean",
+        "description": "Earth & Ocean focuses on globally inspired cuisine in a relaxed, open-air setting. The concept emphasizes inventive dishes influenced by diverse destinations and international street food flavors.",
+        "features": [
+          "Globally inspired culinary creations",
+          "Fresh local ingredients reflecting itinerary destinations",
+          "Relaxed poolside and covered outdoor seating",
+          "Artisanal presentations and tapas-style courses",
+          "Intimate and atmospheric evening lighting"
+        ],
+        "highlight": "A wonderful alternative when you crave international gastronomy and an informal, vibrant ambiance."
+      },
+      {
+        "category": "Mediterranean Specialty",
+        "title": "Solis",
+        "description": "On applicable Seabourn ships, Solis provides an intimate specialty dining experience focusing on Mediterranean-inspired cuisine and elevated culinary craftsmanship.",
+        "features": [
+          "Vibrant Mediterranean coastal recipes",
+          "Handmade pastas, fresh seafood & artisanal meats",
+          "Intimate specialty restaurant setting",
+          "Curated Mediterranean vintage wine selections",
+          "Sophisticated evening fine dining"
+        ],
+        "highlight": "Check your specific Seabourn sailing to determine whether Solis is featured on your ship."
+      },
+      {
+        "category": "Japanese Artistry",
+        "title": "Sushi & Specialty Dining",
+        "description": "Selected Seabourn ships offer additional specialty dining concepts such as masterfully prepared fresh sushi, sashimi, and focused Asian culinary experiences.",
+        "features": [
+          "Master-crafted fresh sushi, sashimi & rolls",
+          "Bespoke Japanese bento presentations at lunch",
+          "Intimate dining room and sushi counter seating",
+          "Premium sake and Japanese beer selections",
+          "High-demand specialty venue"
+        ],
+        "highlight": "Tip: If a specific restaurant is important to you, check whether reservations are recommended for your sailing."
+      },
+      {
+        "category": "Poolside Grill",
+        "title": "The Patio",
+        "description": "The Patio provides another casual option on selected Seabourn ships. It is particularly appealing for travelers who want to enjoy a meal outdoors when weather and itinerary conditions allow.",
+        "features": [
+          "Casual lunches under the open sky",
+          "Fresh grilled burgers, seafood & steaks",
+          "Crisp salads, artisan pizzas & light fare",
+          "Poolside bar and beverage service",
+          "Relaxed resort-casual attire"
+        ],
+        "highlight": "The Patio is ideal for enjoying a quick, flavorful lunch between shore excursions without changing attire."
+      }
+    ]
+  },
+  "mealsOverview": {
+    "title": "Seabourn Breakfast, Lunch & Dinner",
+    "subtitle": "Flexible Morning, Midday & Evening Dining",
+    "cards": [
+      {
+        "title": "Seabourn Breakfast",
+        "items": [
+          "Full-service dining at The Restaurant with cooked-to-order specialties",
+          "Casual breakfast buffet and action stations at The Colonnade",
+          "Complimentary in-suite veranda breakfast delivered at your requested time",
+          "Continental selections, artisan pastries, fresh fruit, and specialty espresso",
+          "Hot made-to-order eggs benedict, omelets, pancakes, and wellness bowls"
+        ]
+      },
+      {
+        "title": "Seabourn Lunch",
+        "items": [
+          "The Colonnade: Generous buffet selections and cooked-to-order hot entrées",
+          "The Patio: Casual poolside grill serving steaks, seafood, and flatbreads",
+          "Sushi & Specialty Venues: Fresh bento boxes and sushi rolls on select ships",
+          "24-Hour In-Suite Dining: Delivered directly to your suite or private balcony",
+          "Destination-inspired midday menus reflecting the culinary culture of local ports"
+        ]
+      },
+      {
+        "title": "Seabourn Dinner",
+        "items": [
+          "The Restaurant: Multi-course culinary journey with daily changing menus",
+          "The Colonnade: Themed regional dinners celebrating international cuisines",
+          "Earth & Ocean / Solis / Sushi: Intimate specialty dining venues",
+          "Course-by-course in-suite dining served in your suite with fine linens",
+          "Flexible open seating allowing you to dine whenever and with whomever you choose"
+        ]
+      }
+    ]
+  },
+  "seatingAndCompany": {
+    "title": "Seating, Company & Reservations",
+    "subtitle": "Flexible Dining by Design",
+    "personas": [
+      {
+        "title": "Open Seating Freedom",
+        "description": "One of the advantages of Seabourn's dining experience is its flexible approach to seating. Rather than assigning guests to the same table every evening, guests have the freedom to decide when to dine, where to dine, and who to dine with. This works particularly well for couples and solo travelers who value independence.",
+        "icon": "Users"
+      },
+      {
+        "title": "Social or Private Tables",
+        "description": "If you enjoy meeting fellow travelers, you can choose to dine with other guests when seating arrangements allow. Alternatively, couples and families can request private tables whenever available. This flexibility is why Seabourn appeals to both social and independent travelers.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Reservation Policies",
+        "description": "The main dining room generally offers open, flexible dining with no reservations required. Specialty restaurants or high-demand venues may require reservations. If you have a particular restaurant you want to experience on a specific evening, make arrangements early.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "inSuiteAndBalcony": {
+    "title": "Seabourn Room Service & Balcony Dining",
+    "subtitle": "Private Luxury Dining in Your Suite",
+    "features": [
+      {
+        "title": "Seabourn In-Suite Room Service",
+        "description": "One of the major advantages of an all-suite luxury cruise is the ability to enjoy meals privately in your suite without visiting a restaurant. Seabourn provides a comprehensive in-suite dining program including full breakfast served course-by-course on crisp linens, a dedicated 24-hour room service menu for early mornings or late evenings, and dinner from The Restaurant menu served in-suite during regular dining hours. It is ideal for romantic occasions, days with early excursions, or when you simply prefer total privacy."
+      },
+      {
+        "title": "Dining Outdoors on Your Private Balcony",
+        "description": "If your suite has a private veranda, dining outdoors is one of the most memorable parts of a Seabourn cruise. Guests frequently take advantage of veranda dining while sailing through scenic destinations such as fjords, glaciers, or tropical coastlines, watching the ship enter historic ports at sunrise, cruising past dramatic island coastlines during sunset, or enjoying a quiet, peaceful morning coffee at sea — a signature luxury experience tailored to veranda suite guests."
+      }
+    ]
+  },
+  "foodQuality": {
+    "title": "Seabourn Food Quality & Caviar Experience",
+    "subtitle": "The Culinary Philosophy — Quality Over Quantity",
+    "features": [
+      {
+        "title": "Artisanal Culinary Philosophy",
+        "description": "Seabourn's culinary philosophy emphasizes quality over quantity. Instead of offering an enormous number of generic restaurants, the line focuses on a refined collection of intimate dining experiences that feel more like boutique land restaurants than a cruise buffet.",
+        "tags": [
+          "Fresh Local Ingredients",
+          "International Cuisine",
+          "Destination-Inspired Menus",
+          "Fine Dining Presentation"
+        ],
+        "highlight": "Travelers enjoy fine-dining execution, premium wine pairings, and flexible open seating every night."
+      },
+      {
+        "title": "Signature Caviar Service",
+        "description": "Caviar is one of the signature touches associated with Seabourn's luxury experience. Guests can enjoy caviar service across multiple venues, during the iconic 'Caviar in the Surf' beach parties, or delivered directly to their suite.",
+        "tags": [
+          "Complimentary Caviar",
+          "Caviar in the Surf",
+          "In-Suite Caviar Service",
+          "Signature Luxury Detail"
+        ],
+        "highlight": "For food-focused travelers, this is one of the standout details that distinguishes Seabourn from premium cruise lines."
+      }
+    ]
+  },
+  "drinksWithMeals": {
+    "title": "Seabourn Drinks With Meals",
+    "subtitle": "What's In the Glass — Generous Beverage Inclusions",
+    "personas": [
+      {
+        "title": "Fine Wines Included With Lunch & Dinner",
+        "description": "A rotating selection of fine red, white, and sparkling wines is complimentary with lunch and dinner. Guests don't need to purchase a separate wine package to enjoy quality vintage wines throughout their cruise.",
+        "icon": "Wine"
+      },
+      {
+        "title": "Champagne & Premium Spirits",
+        "description": "Champagne is included throughout the ship, alongside top-shelf spirits, handcrafted cocktails, craft beers, specialty coffees, and artisanal teas served freely across all lounges and restaurants.",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "dietaryRestrictions": {
+    "title": "Seabourn Dining and Dietary Restrictions",
+    "subtitle": "Special Requirements Handled With Care",
+    "cards": [
+      {
+        "title": "Vegetarian Dining Options",
+        "items": [
+          "Vegetarian selections are readily available across all dining venues",
+          "Daily changing plant-forward soups, pastas, and gourmet entrées",
+          "Mentioning your vegetarian diet in advance ensures custom culinary options",
+          "Chefs can adapt specialty restaurant menus upon request"
+        ]
+      },
+      {
+        "title": "Vegan & Plant-Based Menus",
+        "items": [
+          "Vegan dining can be readily accommodated across the ship",
+          "Travelers with strict vegan diets should notify Seabourn before sailing",
+          "Advance notice allows the culinary team to prepare custom multi-course vegan dishes",
+          "Plant-based milks, cheeses, and vegan desserts are available"
+        ]
+      },
+      {
+        "title": "Food Allergies & Medical Diets",
+        "items": [
+          "Seabourn accommodates gluten-free, dairy-free, and nut allergies with advance notice",
+          "Guests with severe allergies speak directly with the executive chef and maître d'",
+          "Dedicated allergen-safe preparation areas to prevent cross-contact",
+          "Customized daily menu previews provided to allergic guests every evening"
+        ]
+      }
+    ]
+  },
+  "travelerProfiles": {
+    "title": "Dining for Families, Solo Travelers & Couples",
+    "subtitle": "A Tailored Experience for Every Travel Style",
+    "items": [
+      {
+        "tag": "Families",
+        "title": "Multigenerational Families",
+        "description": "Although Seabourn is primarily an adult-oriented luxury cruise, families benefit from earlier dining options, casual venues like The Colonnade, in-suite meals, flexible seating, and private tables to accommodate diverse preferences.",
+        "icon": "Users"
+      },
+      {
+        "tag": "Solo Voyagers",
+        "title": "Solo Travelers",
+        "description": "Solo travelers enjoy the freedom of open seating. You can request to join shared hosted tables to meet fellow travelers, or request a quiet private table for one whenever you prefer solitary relaxation.",
+        "icon": "Compass"
+      },
+      {
+        "tag": "Romance",
+        "title": "Couples & Romantic Getaways",
+        "description": "Couples enjoy exceptional romantic flexibility: intimate tables for two in The Restaurant, sunset veranda dinners, champagne pairings, specialty dining at Solis, and custom celebration arrangements for anniversaries.",
+        "icon": "Heart"
+      }
+    ]
+  },
+  "dressCode": {
+    "title": "What Is the Dress Code for Seabourn Dining?",
+    "bestFor": [
+      "Dresses and sundresses",
+      "Skirts and blouses",
+      "Elegant trousers and pantsuits",
+      "Smart separates and fine sweaters",
+      "Polished resort-casual footwear"
+    ],
+    "notBestFor": [
+      "Collared shirts and button-downs",
+      "Tailored trousers and chinos",
+      "Polo shirts and fine sweaters",
+      "Sports jackets for more elegant evenings",
+      "Leather loafers and dress shoes"
+    ],
+    "prosTitle": "Women's Evening Attire",
+    "consTitle": "Men's Evening Attire",
+    "bottomNote": "Seabourn generally maintains a relaxed luxury dress code rather than traditional formal-night cruising. Smart casual clothing is appropriate for evening dining."
+  },
+  "vsTraditionalTable": {
+    "title": "Seabourn Dining vs. Traditional Cruise Dining",
+    "headers": ["Traditional Cruise Dining", "Seabourn Experience"],
+    "rows": [
+      ["Fixed dining times common", "Flexible dining anytime"],
+      ["Assigned tables common", "Open seating and choice of company"],
+      ["Large crowded dining rooms", "Smaller, intimate luxury venues"],
+      ["Heavy emphasis on massive buffets", "More curated, cooked-to-order options"],
+      ["Drinks and wines often cost extra", "Broad beverage and wine inclusions"],
+      ["Strict formal nights common", "Relaxed luxury atmosphere"],
+      ["Room service may be limited", "Complimentary full in-suite dining"],
+      ["Thousands of passengers", "Intimate small-ship environment"]
+    ]
+  },
+  "differentCards": {
+    "title": "What Makes Seabourn Dining Different?",
+    "subtitle": "Three Standout Characteristics",
+    "personas": [
+      {
+        "title": "Flexibility",
+        "description": "You don't have to structure your entire vacation around fixed dining schedules or rigid reservation systems.",
+        "icon": "Star"
+      },
+      {
+        "title": "Intimacy",
+        "description": "The smaller ships create a more personal restaurant atmosphere with attentive, intuitive white-glove service.",
+        "icon": "Compass"
+      },
+      {
+        "title": "All-Inclusive Value",
+        "description": "Fine dining venues, sommelier-selected wines, spirits, caviar, and in-suite room service are incorporated into your cruise fare.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "tips": {
+    "title": "Tips for Getting the Most From Seabourn Dining",
+    "subtitle": "Insider Advice for an Exceptional Culinary Journey",
+    "steps": [
+      {
+        "title": "Try More Than One Restaurant",
+        "description": "Don't limit yourself to the main dining venue. Explore The Colonnade, Earth & Ocean, Solis, and The Patio throughout your voyage."
+      },
+      {
+        "title": "Order Breakfast in Your Suite",
+        "description": "If your suite has a veranda, ordering a leisurely breakfast outdoors is one of the best ways to begin a sea day."
+      },
+      {
+        "title": "Ask About Daily Specials",
+        "description": "Menus change daily, and your server or sommelier can explain the chef's recommendations and wine pairings."
+      },
+      {
+        "title": "Communicate Dietary Requirements Early",
+        "description": "Advance communication during booking is especially important for allergies, vegan diets, and strict preferences."
+      },
+      {
+        "title": "Reserve Specialty Dining Early",
+        "description": "If a particular specialty venue like Solis or Sushi is high on your list, make reservations early in your sailing."
+      },
+      {
+        "title": "Explore Destination-Inspired Regional Cuisine",
+        "description": "Use the itinerary as an opportunity to try dishes and local specialties inspired by the ports you are visiting."
+      },
+      {
+        "title": "Don't Overlook Casual Lunch",
+        "description": "Casual poolside or Colonnade lunch is an easy, delicious way to experience Seabourn's culinary offerings without spending hours at table."
+      }
+    ]
+  },
+  "bestForTable": {
+    "title": "Best Seabourn Dining Experiences for Different Travelers",
+    "headers": ["Traveler Type", "Recommended Experience"],
+    "rows": [
+      ["Couple", "The Restaurant or intimate specialty dining at Solis"],
+      ["Romantic occasion", "Private in-suite multi-course veranda dining with Champagne"],
+      ["Foodie", "Specialty restaurants + destination-inspired menus at Earth & Ocean"],
+      ["Solo traveler", "Open seating and shared hosted dining tables"],
+      ["Family", "Casual dining at The Colonnade and flexible seating"],
+      ["Early riser", "In-suite breakfast delivered at sunrise on your private balcony"],
+      ["Privacy-focused traveler", "Course-by-course balcony/in-suite dining"],
+      ["Casual traveler", "The Colonnade and poolside grill at The Patio"],
+      ["Special celebration", "Specialty dining or private suite dining with caviar"]
+    ]
+  },
+  "prosAndCons": {
+    "title": "Seabourn Dining: Pros and Cons",
+    "bestFor": [
+      "All primary dining venues and specialty restaurants included",
+      "Flexible open seating with no rigid assigned times",
+      "Diverse collection of intimate luxury dining venues",
+      "Full course-by-course in-suite dining and balcony service",
+      "Complimentary premium wines, spirits, and champagne",
+      "Signature caviar service served in various venues",
+      "Refined fine-dining focus with fresh local ingredients",
+      "Destination-inspired menus reflecting cruise ports",
+      "Dietary requests and allergies handled with personal care",
+      "Intimate restaurant atmosphere with exceptional service"
+    ],
+    "notBestFor": [
+      "Fewer total restaurants than 5,000-passenger mega-ships",
+      "Restaurant selection varies somewhat across ship classes",
+      "Some popular specialty venues may require advance reservations",
+      "Menus and daily offerings rotate based on local provisioning",
+      "Travelers wanting massive 24-hour food courts may prefer mega-ships"
+    ],
+    "prosTitle": "Seabourn Dining Advantages",
+    "consTitle": "Considerations & Limitations",
+    "bottomNote": "Seabourn excels in culinary quality, flexibility, and all-inclusive luxury rather than sheer restaurant quantity."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About Seabourn Dining",
+    "subtitle": "Everything travelers need to know before booking a Seabourn cruise.",
+    "questions": [
+      {
+        "question": "Is dining included on Seabourn?",
+        "answer": "Yes. Meals in Seabourn's primary dining venues are included in the cruise fare."
+      },
+      {
+        "question": "How many restaurants does Seabourn have?",
+        "answer": "The number and names of dining venues vary by ship. Options can include The Restaurant, The Colonnade, Earth & Ocean, Solis and other ship-specific venues."
+      },
+      {
+        "question": "Does Seabourn have a buffet?",
+        "answer": "The Colonnade can offer buffet-style dining for selected meals, depending on the ship and meal period."
+      },
+      {
+        "question": "Is Seabourn open seating?",
+        "answer": "Yes. Seabourn generally offers flexible dining rather than traditional fixed seating."
+      },
+      {
+        "question": "Can I choose who I dine with on Seabourn?",
+        "answer": "Yes. Guests can generally request private dining or choose to socialize and share meals with other travelers."
+      },
+      {
+        "question": "Is room service free on Seabourn?",
+        "answer": "In-suite dining is part of Seabourn's onboard service. Exact menus and availability vary by ship and sailing."
+      },
+      {
+        "question": "Does Seabourn have specialty restaurants?",
+        "answer": "Yes. Selected ships feature specialty dining venues. The restaurant lineup varies across the fleet."
+      },
+      {
+        "question": "Does Seabourn include wine?",
+        "answer": "Yes. A selection of wines is included as part of the onboard beverage offering."
+      },
+      {
+        "question": "Does Seabourn include Champagne?",
+        "answer": "Yes. Champagne is included, although specific brands and availability can vary."
+      },
+      {
+        "question": "Does Seabourn serve caviar?",
+        "answer": "Yes. Caviar is one of Seabourn's signature luxury dining touches."
+      },
+      {
+        "question": "Can Seabourn accommodate food allergies?",
+        "answer": "Many dietary requirements and allergies can be accommodated, particularly when communicated in advance. Guests with severe allergies should discuss their requirements directly with the culinary team."
+      },
+      {
+        "question": "Does Seabourn have vegan food?",
+        "answer": "Vegan dining can be accommodated. Advance notice is recommended so the culinary team can prepare appropriately."
+      },
+      {
+        "question": "Does Seabourn have vegetarian food?",
+        "answer": "Yes. Vegetarian options are available, and guests can communicate their preferences before and during the voyage."
+      },
+      {
+        "question": "Do I need reservations for Seabourn restaurants?",
+        "answer": "Some specialty restaurants may require reservations, while the main dining venues generally offer greater flexibility."
+      },
+      {
+        "question": "Can I eat dinner in my suite?",
+        "answer": "Yes. In-suite dining allows guests to enjoy meals privately in their suite."
+      },
+      {
+        "question": "Can I eat breakfast on my Seabourn balcony?",
+        "answer": "If your suite has a private veranda, in-suite dining can allow you to enjoy breakfast outdoors."
+      },
+      {
+        "question": "Does Seabourn have formal nights?",
+        "answer": "Seabourn generally maintains a more relaxed luxury approach to evening dress rather than requiring traditional formalwear."
+      },
+      {
+        "question": "Is Seabourn good for foodies?",
+        "answer": "Yes. Seabourn is particularly suited to travelers who value fine dining, premium beverages, caviar and destination-inspired cuisine."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Our Verdict: Is Seabourn Good for Food and Dining?",
+        "paragraphs": [
+          "Yes. Seabourn's dining experience is one of its strongest selling points, particularly for travelers who prefer quality, flexibility and personalized service over sheer restaurant quantity. You can enjoy a leisurely dinner in The Restaurant, a casual meal at The Colonnade, a specialty dining experience, or breakfast delivered directly to your suite.",
+          "Add included wines and premium beverages, flexible seating and Seabourn's signature caviar experience, and dining becomes an important part of the overall luxury proposition.",
+          "Our recommendation: If your ideal cruise includes excellent food without having to constantly calculate additional dining and beverage charges, Seabourn deserves a place on your shortlist."
+        ]
+      }
+    ]
+  }
+}

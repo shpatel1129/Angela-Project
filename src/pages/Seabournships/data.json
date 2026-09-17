@@ -1,0 +1,776 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#person",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO of Trips & Ships Luxury Travel",
+        "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#webpage",
+        "name": "Seabourn Ships: Complete Fleet Guide & Ship Comparison",
+        "url": "https://www.tripsandships.com/seabourn-cruises/ships/",
+        "description": "Compare Seabourn ships including Quest, Encore, Ovation, Venture and Pursuit. Explore suites, dining, amenities, expedition features, size and which Seabourn ship is best for you.",
+        "inLanguage": "en-US",
+        "isPartOf": { "@id": "https://www.tripsandships.com/#website" },
+        "about": { "@type": "Brand", "name": "Seabourn" }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#article",
+        "headline": "Seabourn Ships: The Complete Fleet Guide",
+        "description": "A complete guide comparing Seabourn Quest, Seabourn Encore, Seabourn Ovation, Seabourn Venture and Seabourn Pursuit, including ship size, suites, dining, amenities, expedition capabilities and which ship may be best for different travel styles.",
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes",
+          "@id": "https://www.tripsandships.com/#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel",
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#webpage"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
+          { "@type": "ListItem", "position": 3, "name": "Seabourn Ships", "item": "https://www.tripsandships.com/seabourn-cruises/ships/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#service",
+        "serviceType": "Seabourn Cruise Planning and Ship Selection",
+        "provider": {
+          "@type": "TravelAgency",
+          "name": "Trips & Ships Luxury Travel",
+          "@id": "https://www.tripsandships.com/#travelagency"
+        },
+        "areaServed": "Worldwide",
+        "description": "Personalized Seabourn cruise planning and ship selection support, including itinerary comparison, suite selection, ocean and expedition ship recommendations, and luxury cruise planning."
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#fleet",
+        "name": "Seabourn Fleet",
+        "description": "The five Seabourn ships covered in this complete fleet guide.",
+        "numberOfItems": 5,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Seabourn Quest", "item": { "@type": "Product", "name": "Seabourn Quest", "brand": { "@type": "Brand", "name": "Seabourn" }, "category": "Luxury Ocean Cruise Ship" } },
+          { "@type": "ListItem", "position": 2, "name": "Seabourn Encore", "item": { "@type": "Product", "name": "Seabourn Encore", "brand": { "@type": "Brand", "name": "Seabourn" }, "category": "Luxury Ocean Cruise Ship" } },
+          { "@type": "ListItem", "position": 3, "name": "Seabourn Ovation", "item": { "@type": "Product", "name": "Seabourn Ovation", "brand": { "@type": "Brand", "name": "Seabourn" }, "category": "Luxury Ocean Cruise Ship" } },
+          { "@type": "ListItem", "position": 4, "name": "Seabourn Venture", "item": { "@type": "Product", "name": "Seabourn Venture", "brand": { "@type": "Brand", "name": "Seabourn" }, "category": "Luxury Expedition Cruise Ship" } },
+          { "@type": "ListItem", "position": 5, "name": "Seabourn Pursuit", "item": { "@type": "Product", "name": "Seabourn Pursuit", "brand": { "@type": "Brand", "name": "Seabourn" }, "category": "Luxury Expedition Cruise Ship" } }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "How many Seabourn ships are there?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn currently operates five ships in its fleet: Seabourn Quest, Seabourn Encore, Seabourn Ovation, Seabourn Venture and Seabourn Pursuit." } },
+          { "@type": "Question", "name": "Which Seabourn ship is the newest?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Pursuit is the newest of the five ships covered in this fleet, having entered service in August 2023." } },
+          { "@type": "Question", "name": "Which Seabourn ships are expedition ships?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Venture and Seabourn Pursuit are the line's purpose-built expedition ships." } },
+          { "@type": "Question", "name": "Which Seabourn ships are ocean ships?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Quest, Seabourn Encore and Seabourn Ovation are the fleet's primary ocean-going luxury ships." } },
+          { "@type": "Question", "name": "Which Seabourn ship is best for Antarctica?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Venture and Seabourn Pursuit are the primary ships to consider for Antarctica because they are purpose-built expedition vessels equipped for remote exploration." } },
+          { "@type": "Question", "name": "What is the difference between Seabourn Venture and Pursuit?", "acceptedAnswer": { "@type": "Answer", "text": "They are sister expedition ships with similar core capabilities, including 24 Zodiacs, kayaks and 19-person Expedition Teams. Pursuit entered service in 2023, one year after Venture." } },
+          { "@type": "Question", "name": "Are Seabourn Encore and Ovation sister ships?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn describes Ovation as the sister ship to Encore." } },
+          { "@type": "Question", "name": "Which Seabourn ship is best for the Mediterranean?", "acceptedAnswer": { "@type": "Answer", "text": "Quest, Encore and Ovation can all be considered for Mediterranean cruising. The best choice depends heavily on the specific itinerary, departure date, suite and port schedule." } },
+          { "@type": "Question", "name": "Which Seabourn ship is best for first-time Seabourn travelers?", "acceptedAnswer": { "@type": "Answer", "text": "Encore or Ovation can be attractive introductions to the contemporary Seabourn ocean experience, while Quest may appeal to travelers specifically looking for the line's classic intimate atmosphere." } },
+          { "@type": "Question", "name": "Which Seabourn ship has the largest capacity?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Encore and Seabourn Ovation each accommodate approximately 600 guests, making them larger than Quest and the 264-guest expedition ships." } },
+          { "@type": "Question", "name": "Do all Seabourn ships have suites?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn's fleet is built around luxury suite accommodation, with oceanfront suites across its ships. Encore and Ovation specifically offer oceanfront suites with private verandas." } },
+          { "@type": "Question", "name": "Do Seabourn expedition ships have balconies?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn expedition ships offer luxury oceanfront accommodations, but travelers should compare the specific suite category and deck plan for the sailing they are considering." } },
+          { "@type": "Question", "name": "Which Seabourn ship is best for luxury adventure travel?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Venture and Pursuit are the strongest choices for travelers who want luxury combined with expedition-style exploration." } },
+          { "@type": "Question", "name": "Which Seabourn ship is best for a quiet luxury cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Quest can be particularly appealing to travelers who prioritize an intimate, classic small-ship atmosphere." } },
+          { "@type": "Question", "name": "Which Seabourn ship has the best dining?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single objective winner. Encore, Ovation and Quest all offer sophisticated dining, while Venture and Pursuit combine Seabourn's culinary approach with expedition travel." } },
+          { "@type": "Question", "name": "Is Seabourn Venture only an expedition ship?", "acceptedAnswer": { "@type": "Answer", "text": "Venture is a purpose-built expedition ship, but Seabourn also uses it for some traditional ocean voyages depending on the deployment." } },
+          { "@type": "Question", "name": "Are Seabourn ships small?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn deliberately operates small ships designed to provide a more intimate, yacht-like experience than large mainstream cruise ships." } },
+          { "@type": "Question", "name": "How do I choose the best Seabourn ship?", "acceptedAnswer": { "@type": "Answer", "text": "Start with your destination, then compare the ship's itinerary, suite category, amenities, sailing date and price. For remote destinations, prioritize Venture or Pursuit; for traditional ocean cruising, compare Quest, Encore and Ovation." } }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Fleet Guide & Comparison",
+    "title": "Seabourn Ships\nComplete Fleet Guide",
+    "subtitle": "Choosing the right ship can be just as important as choosing the right itinerary.",
+    "description": "While Seabourn Cruises is known for its intimate, yacht-like approach to luxury cruising, the fleet is not identical. The current fleet includes five ships: Seabourn Quest, Seabourn Encore, Seabourn Ovation, Seabourn Venture and Seabourn Pursuit. The first three are ocean-going luxury ships, while Venture and Pursuit are purpose-built expedition vessels. That distinction matters. If you are planning a Mediterranean escape, you may prefer the atmosphere and amenities of Seabourn Encore or Seabourn Ovation. If your goal is Antarctica, the Arctic or the Kimberley, Seabourn Venture or Seabourn Pursuit are designed specifically for that style of exploration. This guide compares the five ships so you can understand which Seabourn ship is best for your travel style, destination and priorities.",
+    "ctaText": "Start Planning Your Voyage",
+    "ctaLink": "/contact"
+  },
+  "quickCompareTable": {
+    "title": "Quick Seabourn Ship Comparison",
+    "headers": ["Ship", "Type", "Guest Capacity", "Best For"],
+    "rows": [
+      ["Seabourn Quest", "Ocean", "~458", "Classic Seabourn, intimate luxury"],
+      ["Seabourn Encore", "Ocean", "600", "Modern luxury, suites & dining"],
+      ["Seabourn Ovation", "Ocean", "600", "Contemporary luxury & European cruising"],
+      ["Seabourn Venture", "Expedition", "264", "Antarctica, Arctic & remote exploration"],
+      ["Seabourn Pursuit", "Expedition", "264", "Newer expedition experience & remote destinations"]
+    ]
+  },
+  "whichBest": {
+    "title": "Which Seabourn Ship Is Best?",
+    "subtitle": "No Single Winner",
+    "intro": "There is no single \"best\" Seabourn ship for every traveler. If your priority is remote exploration, start with Venture and Pursuit. If your priority is classic luxury cruising in destinations such as Europe, compare Quest, Encore and Ovation.",
+    "personas": [
+      {
+        "title": "Seabourn Quest",
+        "description": "Best for classic Seabourn intimacy and a traditional small-ship atmosphere.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Seabourn Encore",
+        "description": "Best for a modern ocean cruise with expanded suite categories and dining.",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Seabourn Ovation",
+        "description": "Best for contemporary luxury cruising, especially in European destinations.",
+        "icon": "Star"
+      },
+      {
+        "title": "Seabourn Venture",
+        "description": "Best for expedition cruising in Antarctica, the Arctic and remote regions.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Seabourn Pursuit",
+        "description": "Best for the newest expedition experience across remote destinations.",
+        "icon": "Camera"
+      }
+    ],
+    "cards": [
+      {
+        "category": "Classic Small-Ship Luxury",
+        "winner": "Seabourn Quest",
+        "description": "Best for classic Seabourn intimacy and a traditional small-ship atmosphere."
+      },
+      {
+        "category": "Expanded Suites & Dining",
+        "winner": "Seabourn Encore",
+        "description": "Best for a modern ocean cruise with expanded suite categories and dining."
+      },
+      {
+        "category": "Contemporary Luxury",
+        "winner": "Seabourn Ovation",
+        "description": "Best for contemporary luxury cruising, especially in European destinations."
+      },
+      {
+        "category": "Polar & Remote Cruising",
+        "winner": "Seabourn Venture",
+        "description": "Best for expedition cruising in Antarctica, the Arctic and remote regions."
+      },
+      {
+        "category": "Newest Expedition Experience",
+        "winner": "Seabourn Pursuit",
+        "description": "Best for the newest expedition experience across remote destinations."
+      }
+    ]
+  },
+  "fleet": [
+    {
+      "name": "Seabourn Quest",
+      "atmosphere": "Ocean · ~458 guests",
+      "launched": "Entered Service: 2011",
+      "guests": "~458",
+      "crew": "330",
+      "class": "Luxury Ocean",
+      "signature": "Classic Small-Ship Seabourn Luxury",
+      "description": "Seabourn Quest represents the classic evolution of Seabourn's larger small-ship design. The ship entered service in 2011 and is part of the trio of vessels that Seabourn describes as a major evolution of its small-ship concept. Seabourn highlights Quest for its dining options, including complimentary dining venues, and its intimate onboard atmosphere. Its smaller capacity creates a particularly intimate feel compared with the 600-guest Encore and Ovation. For travelers who think of Seabourn as a private yacht-style experience, Quest is an important ship to consider.",
+      "bestFor": "Travelers who want the classic Seabourn experience and care more about intimacy and atmosphere than having the newest ship in the fleet.",
+      "features": [
+        "Ocean-going luxury ship (~458 guests)",
+        "Intimate small-ship atmosphere",
+        "Multiple dining venues including complimentary options",
+        "Spa and wellness & Fitness center",
+        "In-suite dining & Seabourn Conversations",
+        "Sky Bar, The Club & Casino",
+        "Caviar and other signature Seabourn experiences"
+      ]
+    },
+    {
+      "name": "Seabourn Encore",
+      "atmosphere": "Ocean · 600 guests",
+      "launched": "Entered Service: 2016",
+      "guests": "600",
+      "crew": "450",
+      "class": "Modern Ocean",
+      "signature": "Modern Ocean Luxury With More Space",
+      "description": "Seabourn Encore represents the next generation of Seabourn's ocean fleet. The ship entered service in 2016 and carries approximately 600 guests (690 feet long, 92 feet wide). Encore was designed as an evolution of earlier Seabourn ships, adding another deck and expanded common spaces. Seabourn states that Encore has 13 categories of oceanfront suites with private verandas, with suites ranging from 251 to 1,306 square feet of interior space.",
+      "bestFor": "Travelers who want a modern Seabourn ocean ship with a broader selection of onboard spaces and suite categories.",
+      "features": [
+        "600 guests across 13 oceanfront suite categories with private verandas",
+        "Expanded common areas across an additional deck",
+        "Solis & The Restaurant signature venues",
+        "Sushi, Earth & Ocean, The Colonnade, The Patio",
+        "Seabourn Square & Observation Bar",
+        "The Retreat & Spa / Wellness complex",
+        "Pool, Fitness Center & Sky Bar"
+      ]
+    },
+    {
+      "name": "Seabourn Ovation",
+      "atmosphere": "Ocean · 600 guests",
+      "launched": "Entered Service: 2018",
+      "guests": "600",
+      "crew": "450",
+      "class": "Contemporary Ocean",
+      "signature": "Encore's Sister Ship",
+      "description": "Seabourn Ovation is the sister ship to Seabourn Encore and entered service in 2018. Seabourn describes Ovation as another stage in the evolution of the small-ship concept pioneered by the brand. Because Encore and Ovation share the same general design lineage, they are among the easiest Seabourn ships to compare.",
+      "bestFor": "Travelers looking for a contemporary Seabourn experience with a strong combination of luxury accommodations, dining and wellness.",
+      "features": [
+        "600 guests in all-veranda oceanfront suites",
+        "Sister ship design sharing Encore's expanded layout",
+        "Solis, The Restaurant & dedicated Sushi restaurant",
+        "Earth & Ocean, The Colonnade & The Patio",
+        "Seabourn Square, Observation Bar & Sky Bar",
+        "The Retreat private cabana area",
+        "Full-service Spa & Wellness facilities"
+      ]
+    },
+    {
+      "name": "Seabourn Venture",
+      "atmosphere": "Expedition · 264 guests",
+      "launched": "Entered Service: 2022",
+      "guests": "264",
+      "crew": "120",
+      "class": "Luxury Expedition (PC6 Polar Class)",
+      "signature": "Purpose-Built Luxury Expedition Ship",
+      "description": "Seabourn Venture is fundamentally different from Quest, Encore and Ovation. It is a purpose-built expedition ship designed to take guests into remote environments while maintaining Seabourn's luxury service and accommodations. Venture entered service in 2022 and was built to PC6 Polar Class standards. It carries 24 Zodiacs, kayaks and a 19-person expert Expedition Team. Deployments include Antarctica, the Arctic, the Northwest Passage, Kimberley, and South Pacific.",
+      "bestFor": "Luxury adventure travelers who want remote destinations without giving up sophisticated accommodations and service.",
+      "features": [
+        "264 guests built to PC6 Polar Class standards",
+        "557 feet long, 78 feet wide",
+        "24 Zodiacs and double sea kayaks onboard",
+        "19-person expert Expedition Team",
+        "Expedition Lounge & Discovery Center",
+        "Seabourn Square, Spa, The Club & The Restaurant",
+        "Antarctica, Arctic, Northwest Passage & Kimberley capability"
+      ]
+    },
+    {
+      "name": "Seabourn Pursuit",
+      "atmosphere": "Expedition · 264 guests",
+      "launched": "Entered Service: August 2023",
+      "guests": "264",
+      "crew": "120",
+      "class": "Luxury Expedition (PC6 Polar Class)",
+      "signature": "The Newer Generation of Seabourn Expedition Cruising",
+      "description": "Seabourn Pursuit is the second purpose-built expedition ship in the Seabourn fleet. It entered service on August 12, 2023 and was designed for remote exploration while maintaining a yacht-like luxury environment. Seabourn's current expedition deployment describes Pursuit as visiting destinations across the South Pacific, Kimberley, Antarctica, South Georgia and the Falkland Islands.",
+      "bestFor": "Travelers looking for a newer, purpose-built Seabourn expedition experience.",
+      "features": [
+        "264 guests in luxury oceanfront suites",
+        "PC6 Polar Class hull for extreme environments",
+        "24 Zodiacs, kayaks and advanced exploration equipment",
+        "19-person Expedition Team of naturalists and scientists",
+        "Expedition Lounge & Discovery Center",
+        "The Restaurant, Seabourn Square & Spa",
+        "Antarctica, South Georgia, Falklands, South Pacific & Kimberley itineraries"
+      ]
+    }
+  ],
+  "ventureVsPursuit": {
+    "title": "Seabourn Venture vs Seabourn Pursuit",
+    "subtitle": "Expedition Twins",
+    "headers": ["Feature", "Seabourn Venture", "Seabourn Pursuit", "Comparison"],
+    "rows": [
+      { "category": "Ship Type", "avalon": "Expedition", "ama": "Expedition", "winner": "Identical" },
+      { "category": "Guest Capacity", "avalon": "264 guests", "ama": "264 guests", "winner": "Identical" },
+      { "category": "Entered Service", "avalon": "2022", "ama": "August 2023", "winner": "Pursuit is Newer" },
+      { "category": "Expedition Team", "avalon": "19-person expert team", "ama": "19-person expert team", "winner": "Identical" },
+      { "category": "Zodiacs", "avalon": "24 Zodiacs", "ama": "24 Zodiacs", "winner": "Identical" },
+      { "category": "Kayaks", "avalon": "Yes (Double Kayaks)", "ama": "Yes (Double Kayaks)", "winner": "Identical" },
+      { "category": "Polar Class Rating", "avalon": "PC6 Polar Class", "ama": "PC6 Polar Class", "winner": "Identical" },
+      { "category": "Remote Destinations", "avalon": "Arctic, Antarctica, NW Passage", "ama": "Antarctica, South Georgia, Kimberley", "winner": "Tie / Destination" },
+      { "category": "Luxury Accommodations", "avalon": "Oceanfront Suites with Balconies", "ama": "Oceanfront Suites with Balconies", "winner": "Identical" },
+      { "category": "Best For", "avalon": "Expedition pioneers", "ama": "Newer expedition experience", "winner": "Choose by Itinerary" }
+    ]
+  },
+  "tabbedComparisons": {
+    "title": "Ship vs Ship Comparisons",
+    "competitors": [
+      {
+        "name": "Encore vs Ovation",
+        "mainBrandStrengths": [
+          "600 guests with oceanfront suites and private verandas",
+          "Contemporary design with multiple specialty dining venues",
+          "Dedicated Seabourn Square, Solis, Sushi & The Retreat",
+          "Expansive Spa, wellness facilities and fitness center"
+        ],
+        "competitorStrengths": [
+          "Ovation is Encore's sister ship with identical design lineage",
+          "Both share world-class European & global deployment",
+          "Decision factor: Compare sailing date, itinerary, suite category and port schedule",
+          "Verdict: The itinerary should usually break the tie"
+        ],
+        "bestForMainBrand": [
+          "Travelers who find an Encore itinerary matching their exact travel dates and port wish list."
+        ],
+        "bestForCompetitor": [
+          "Travelers who find an Ovation itinerary matching their ideal departure and suite preference."
+        ]
+      },
+      {
+        "name": "Quest vs Encore",
+        "mainBrandStrengths": [
+          "Intimate ~458-guest capacity creating a private yacht atmosphere",
+          "Classic Seabourn design and timeless small-ship feel",
+          "Easy navigation and highly personalized service touchpoints",
+          "Ideal for travelers prioritizing intimacy over having the newest ship"
+        ],
+        "competitorStrengths": [
+          "600-guest capacity with an additional deck of public spaces",
+          "Modern design with 13 oceanfront suite categories",
+          "Expanded dining venues including dedicated Sushi restaurant",
+          "A newer-generation ocean cruise experience"
+        ],
+        "bestForMainBrand": [
+          "Travelers who prefer classic Seabourn small-ship intimacy."
+        ],
+        "bestForCompetitor": [
+          "Travelers who want expanded amenities, dining options, and larger modern common areas."
+        ]
+      },
+      {
+        "name": "Quest vs Ovation",
+        "mainBrandStrengths": [
+          "Classic ~458-guest intimate small-ship luxury",
+          "Yacht-like atmosphere with signature Seabourn experiences",
+          "Complimentary dining options and cozy public lounges",
+          "Focus on destination depth with smaller port accessibility"
+        ],
+        "competitorStrengths": [
+          "Contemporary 600-guest luxury with expanded spaces",
+          "All-veranda oceanfront suites with modern styling",
+          "Broad culinary lineup including Solis and Earth & Ocean",
+          "Expanded wellness, fitness, and The Retreat facilities"
+        ],
+        "bestForMainBrand": [
+          "Travelers who prioritize intimate luxury and traditional small-ship atmosphere."
+        ],
+        "bestForCompetitor": [
+          "Travelers who prefer a newer-generation ship with expanded facilities and amenities."
+        ]
+      },
+      {
+        "name": "Ocean vs Expedition",
+        "mainBrandStrengths": [
+          "Ocean Ships (Encore, Ovation, Quest): Fine dining, spa, pool, lounges, bars, relaxed sea days",
+          "Sophisticated onboard social life and scenic cruising",
+          "Destinations like Mediterranean, Northern Europe, Caribbean & Americas",
+          "Verdict: Choose when the ship's luxury and relaxation are central to your vacation"
+        ],
+        "competitorStrengths": [
+          "Expedition Ships (Venture, Pursuit): Penguins, polar landscapes, Zodiac excursions, wildlife",
+          "19-person expert Expedition Team and PC6 Polar Class capabilities",
+          "Destinations like Antarctica, Arctic, Northwest Passage, Kimberley & South Pacific",
+          "Verdict: Choose when active, immersive exploration is your top priority"
+        ],
+        "bestForMainBrand": [
+          "Vacationers seeking classic ocean luxury, fine dining, relaxation, and cultural ports."
+        ],
+        "bestForCompetitor": [
+          "Adventure travelers seeking active exploration, Zodiac landings, and polar wildlife."
+        ]
+      }
+    ]
+  },
+  "destinationShowcase": {
+    "title": "Which Seabourn Ship Is Best for Your Destination?",
+    "subtitle": "Start with your desired region, then select the ship purpose-built for that environment.",
+    "items": [
+      {
+        "title": "Mediterranean",
+        "description": "For a traditional Mediterranean luxury cruise, compare Quest, Encore and Ovation. Seabourn's ocean fleet is designed for destination-rich voyages with smaller port access.",
+        "features": [
+          "Greek Isles, Italy, Croatia, France & Spain",
+          "Turkey, Adriatic itineraries & overnight port calls",
+          "Access to boutique harbors larger ships cannot reach",
+          "Best for: Itinerary and port schedules make the biggest difference"
+        ]
+      },
+      {
+        "title": "Antarctica",
+        "description": "For Antarctica, focus on Seabourn Venture or Seabourn Pursuit. Both are purpose-built PC6 expedition vessels equipped with Zodiacs, kayaks, and 19-person Expedition Teams.",
+        "features": [
+          "Number of expedition landing days & wildlife season",
+          "South Georgia & Falkland Islands inclusions",
+          "Expert-led Zodiac excursions & kayak outings",
+          "Best for: Purpose-built expedition ships equipped for remote exploration"
+        ]
+      },
+      {
+        "title": "Arctic & NW Passage",
+        "description": "Seabourn Venture is particularly relevant for Arctic and Northwest Passage itineraries, combining PC6 polar navigation with ultra-luxury onboard living.",
+        "features": [
+          "Northwest Passage routing & remote landscapes",
+          "Wildlife viewing: polar bears, walruses & sea birds",
+          "Ice conditions navigation with expert interpretation",
+          "Best for: Itinerary selection is more important than ship age"
+        ]
+      },
+      {
+        "title": "The Kimberley",
+        "description": "Both Seabourn Venture and Seabourn Pursuit explore Australia's rugged northwest coast, offering unprecedented access to remote waterfalls and indigenous heritage.",
+        "features": [
+          "Daily Zodiac excursions to tidal waterfalls & gorges",
+          "Remote coastline, wildlife & ancient rock art",
+          "Small-ship access to shallow river mouths",
+          "Best for: Remote Australian landscapes, wildlife & active access"
+        ]
+      }
+    ]
+  },
+  "suitesShowcase": {
+    "title": "Which Seabourn Ship Has the Best Suites?",
+    "subtitle": "All five ships maintain Seabourn's luxury accommodation philosophy, but suite configurations differ between ocean and expedition vessels. Encore and Ovation feature private verandas across all categories.",
+    "features": [
+      {
+        "title": "Interior Square Footage",
+        "description": "From spacious classic suites on Quest (295+ sq ft) to Grand Wintergarden suites on Encore and Ovation reaching up to 1,306 interior sq ft."
+      },
+      {
+        "title": "Veranda Size & Oceanfront Views",
+        "description": "Encore and Ovation provide 100% oceanfront veranda suites, ensuring private open-air ocean views on every single sailing."
+      },
+      {
+        "title": "Separate Living & Dining Areas",
+        "description": "Premium Owner's, Signature, and Wintergarden suites offer separate master bedrooms, dining tables for four, and guest powder rooms."
+      },
+      {
+        "title": "Expedition Gear Lockers",
+        "description": "Venture and Pursuit suites feature specialized heated drying closets for expedition parkas, boots, and polar equipment."
+      }
+    ]
+  },
+  "dining": {
+    "title": "Seabourn Ships and Dining",
+    "subtitle": "World-class dining across the fleet with no single objective winner — dining differs venue-by-venue across ocean and expedition ships.",
+    "items": [
+      {
+        "title": "Encore & Ovation Dining",
+        "description": "Offer an expanded collection of dining venues, including Solis, The Restaurant, Sushi, Earth & Ocean, The Colonnade and The Patio with open seating and complimentary fine wines."
+      },
+      {
+        "title": "Seabourn Quest Dining",
+        "description": "Offers an intimate culinary experience featuring Solis, Earth & Ocean, The Restaurant, The Patio, Sky Bar and 24-hour complimentary in-suite dining."
+      },
+      {
+        "title": "Venture & Pursuit Dining",
+        "description": "Expedition ships combine polar-grade exploration with Seabourn's gourmet culinary standard — fine dining, The Restaurant, and casual bites without sacrificing adventure."
+      },
+      {
+        "title": "Signature Culinary Experiences",
+        "description": "Indulge in Seabourn's iconic Caviar in the Surf, complimentary fine wines and premium spirits, 24-hour course-by-course in-suite dining, and farm-to-table regional menus crafted fresh on every voyage."
+      }
+    ]
+  },
+  "amenities": {
+    "title": "Seabourn Ships and Onboard Amenities",
+    "subtitle": "From signature lounges and specialty dining to expedition discovery hubs and polar gear lockers, here is what you will find onboard.",
+    "items": [
+      {
+        "category": "Ocean Fleet · Classic Luxury",
+        "title": "Seabourn Quest",
+        "description": "Intimate luxury with classic small-ship design and cozy signature spaces.",
+        "features": [
+          "The Restaurant & The Patio",
+          "The Club & Sky Bar",
+          "Casino & Coffee Bar",
+          "Full-service Spa & Fitness Center",
+          "Seabourn Conversations enrichment program"
+        ]
+      },
+      {
+        "category": "Ocean Fleet · Expanded Luxury",
+        "title": "Seabourn Encore",
+        "description": "Expanded ocean ship featuring an additional deck and dedicated specialty venues.",
+        "features": [
+          "Solis, The Restaurant & dedicated Sushi venue",
+          "Seabourn Square & Observation Bar",
+          "The Retreat private cabanas",
+          "Earth & Ocean, The Colonnade & The Patio",
+          "Spa & Wellness with thermal suite"
+        ]
+      },
+      {
+        "category": "Ocean Fleet · Contemporary Sister",
+        "title": "Seabourn Ovation",
+        "description": "Shares Encore's expanded layout and contemporary luxury aesthetic.",
+        "features": [
+          "Solis, The Restaurant & Sushi",
+          "Seabourn Square & Observation Bar",
+          "The Retreat & Pool deck",
+          "Earth & Ocean & Fitness Center",
+          "Sky Bar & live evening entertainment"
+        ]
+      },
+      {
+        "category": "Expedition Fleet · Polar Class",
+        "title": "Seabourn Venture",
+        "description": "Purpose-built PC6 polar expedition vessel with state-of-the-art exploration gear.",
+        "features": [
+          "24 Zodiacs & double sea kayaks",
+          "19-person expert Expedition Team",
+          "Expedition Lounge & Discovery Center",
+          "The Restaurant, Seabourn Square & Spa",
+          "The Club & panoramic outdoor observation areas"
+        ]
+      },
+      {
+        "category": "Expedition Fleet · Newest Generation",
+        "title": "Seabourn Pursuit",
+        "description": "The fleet's newest purpose-built expedition ship entering service in August 2023.",
+        "features": [
+          "24 Zodiacs & marine excursion marina",
+          "19-person Expedition Team of scientists & naturalists",
+          "Discovery Center with interactive science displays",
+          "Expedition Lounge, The Restaurant & Spa",
+          "Remote destination capabilities across polar & tropical seas"
+        ]
+      }
+    ]
+  },
+  "atmosphereAwards": {
+    "title": "Which Seabourn Ship Has the Best Atmosphere?",
+    "subtitle": "Onboard Feel & Character",
+    "personas": [
+      {
+        "title": "Most Intimate: Seabourn Quest",
+        "description": "Unmatched classic intimacy, yacht-like camaraderie, and easy personal connections with staff and fellow travelers.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Most Contemporary Ocean Experience: Seabourn Encore & Ovation",
+        "description": "Modern elegance, spacious light-filled public areas, expansive sundecks, and diverse dining atmospheres.",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Most Adventurous: Seabourn Venture",
+        "description": "A pioneering expedition spirit blending rugged polar exploration with refined 5-star comfort.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Most Expedition-Focused: Seabourn Pursuit",
+        "description": "The newest expedition atmosphere, equipped for deep immersion into the world's most remote habitats.",
+        "icon": "Star"
+      }
+    ],
+    "categories": [
+      {
+        "category": "Most Intimate Atmosphere",
+        "winner": "Seabourn Quest",
+        "description": "Unmatched classic intimacy, yacht-like camaraderie, and easy personal connections with staff and fellow travelers."
+      },
+      {
+        "category": "Most Contemporary Ocean Feel",
+        "winner": "Seabourn Encore & Ovation",
+        "description": "Modern elegance, spacious light-filled public areas, expansive sundecks, and diverse dining atmospheres."
+      },
+      {
+        "category": "Most Adventurous Atmosphere",
+        "winner": "Seabourn Venture",
+        "description": "A pioneering expedition spirit blending rugged polar exploration with refined 5-star comfort."
+      },
+      {
+        "category": "Most Expedition-Focused",
+        "winner": "Seabourn Pursuit",
+        "description": "The newest expedition atmosphere, equipped for deep immersion into the world's most remote habitats."
+      }
+    ]
+  },
+  "decisionTable": {
+    "title": "Seabourn Fleet: Which Ship Is Right for You?",
+    "headers": ["Your Priority", "Recommended Ship", "Why"],
+    "rows": [
+      ["Classic Seabourn experience", "Seabourn Quest", "Intimate ~458-guest small-ship yacht atmosphere"],
+      ["Modern ocean luxury", "Seabourn Encore", "Expanded decks, 13 suite categories & Solis dining"],
+      ["Contemporary ocean cruising", "Seabourn Ovation", "Encore's sister ship with modern styling & European focus"],
+      ["Antarctica expedition", "Seabourn Venture or Pursuit", "PC6 Polar Class hull, 24 Zodiacs & 19-person Expedition Team"],
+      ["Arctic & NW Passage", "Seabourn Venture", "Proven Arctic and Northwest Passage polar deployments"],
+      ["Kimberley expedition", "Seabourn Venture or Pursuit", "Shallow-draft access to Australian gorges and waterfalls"],
+      ["Remote South Pacific", "Seabourn Venture or Pursuit", "Expedition Zodiac landings on remote coral atolls"],
+      ["Large suite selection", "Seabourn Encore / Ovation", "13 categories ranging up to 1,306 sq ft with private verandas"],
+      ["Intimate classic atmosphere", "Seabourn Quest", "Highest ratio of intimate spaces to guest count"],
+      ["Newest expedition ship", "Seabourn Pursuit", "Entered service August 2023 with latest marine technology"]
+    ]
+  },
+  "considerSteps": {
+    "title": "7 Things to Consider Before Choosing a Seabourn Ship",
+    "subtitle": "Before You Book",
+    "steps": [
+      {
+        "title": "Start With the Destination",
+        "description": "Don't choose the ship first. Choose the destination you want to experience — whether European ports or polar ice."
+      },
+      {
+        "title": "Compare the Itineraries",
+        "description": "Two Seabourn cruises to the same region can feel completely different depending on port selection, overnight stays, sea days, departure ports, number of days and excursion opportunities."
+      },
+      {
+        "title": "Decide Between Ocean and Expedition",
+        "description": "This is the biggest decision. Ocean means luxury cruising with fine dining, relaxation and culture. Expedition means active exploration with Zodiacs, naturalists and wildlife."
+      },
+      {
+        "title": "Compare Suite Categories",
+        "description": "The same ship can offer dramatically different experiences depending on your suite — from classic oceanfront layouts to expansive multi-room verandas."
+      },
+      {
+        "title": "Look at the Ship's Amenities",
+        "description": "If you care about spa, pool, dining, fitness, specialty restaurants or lounges, compare the individual ship rather than assuming every Seabourn vessel is identical."
+      },
+      {
+        "title": "Consider the Ship's Age and Design",
+        "description": "A newer ship isn't automatically better. Some travelers prefer the classic atmosphere of Quest, while others prefer the more contemporary design of Encore or Ovation."
+      },
+      {
+        "title": "Compare the Total Value",
+        "description": "Look beyond the cruise fare. Consider suite, dining, beverages, Wi-Fi, gratuities, excursions, transfers, airfare and pre/post-cruise hotels."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel · Luxury Cruise Authority",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "authorityBoxTitle": "Angela Hughes Authority & Credentials",
+    "authoritySubtitle": "Recognized Global Luxury Cruise & Expedition Specialist",
+    "paragraphs": [
+      "Angela Hughes has explored over 121 countries and spent more than four decades designing luxury cruise, expedition, and yacht journeys worldwide.",
+      "As CEO of Trips & Ships Luxury Travel, Angela works directly with Seabourn executives to ensure VIP amenities, priority suite selection, and customized shore arrangements for her clientele."
+    ],
+    "credentials": [
+      "CEO & Founder of Trips & Ships Luxury Travel",
+      "Over 40 years of elite travel industry leadership",
+      "Traveled to more than 121 countries worldwide",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker, trainer, and weekly industry columnist",
+      "Travel Leaders Network Advisory Board Member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications and media globally",
+      "Specialist in Seabourn ocean and expedition fleet selection",
+      "Expert in luxury cruises, expeditions, safaris, and custom itineraries"
+    ],
+    "quote": "Choosing the right Seabourn ship is about matching your personal travel style to the right vessel. Whether it's the intimate charm of Quest, the modern luxury of Encore and Ovation, or the rugged polar elegance of Venture and Pursuit, our goal is to match you with the voyage of a lifetime.",
+    "quoteSubtitle": "Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "ctaText": "Request a Seabourn Consultation",
+    "ctaLink": "/contact"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About Seabourn Ships",
+    "subtitle": "Common Questions About the Seabourn Ocean and Expedition Fleet",
+    "questions": [
+      {
+        "question": "How many Seabourn ships are there?",
+        "answer": "Seabourn currently operates five ships in its fleet: Seabourn Quest, Seabourn Encore, Seabourn Ovation, Seabourn Venture and Seabourn Pursuit."
+      },
+      {
+        "question": "Which Seabourn ship is the newest?",
+        "answer": "Seabourn Pursuit is the newest of the five ships covered in this fleet, having entered service in August 2023."
+      },
+      {
+        "question": "Which Seabourn ships are expedition ships?",
+        "answer": "Seabourn Venture and Seabourn Pursuit are the line's purpose-built expedition ships."
+      },
+      {
+        "question": "Which Seabourn ships are ocean ships?",
+        "answer": "Seabourn Quest, Seabourn Encore and Seabourn Ovation are the fleet's primary ocean-going luxury ships."
+      },
+      {
+        "question": "Which Seabourn ship is best for Antarctica?",
+        "answer": "Seabourn Venture and Seabourn Pursuit are the primary ships to consider for Antarctica because they are purpose-built expedition vessels equipped for remote exploration."
+      },
+      {
+        "question": "What is the difference between Seabourn Venture and Pursuit?",
+        "answer": "They are sister expedition ships with similar core capabilities, including 24 Zodiacs, kayaks and 19-person Expedition Teams. Pursuit entered service in 2023, one year after Venture."
+      },
+      {
+        "question": "Are Seabourn Encore and Ovation sister ships?",
+        "answer": "Yes. Seabourn describes Ovation as the sister ship to Encore."
+      },
+      {
+        "question": "Which Seabourn ship is best for the Mediterranean?",
+        "answer": "Quest, Encore and Ovation can all be considered for Mediterranean cruising. The best choice depends heavily on the specific itinerary, departure date, suite and port schedule."
+      },
+      {
+        "question": "Which Seabourn ship is best for first-time Seabourn travelers?",
+        "answer": "Encore or Ovation can be attractive introductions to the contemporary Seabourn ocean experience, while Quest may appeal to travelers specifically looking for the line's classic intimate atmosphere."
+      },
+      {
+        "question": "Which Seabourn ship has the largest capacity?",
+        "answer": "Seabourn Encore and Seabourn Ovation each accommodate approximately 600 guests, making them larger than Quest and the 264-guest expedition ships."
+      },
+      {
+        "question": "Do all Seabourn ships have suites?",
+        "answer": "Seabourn's fleet is built around luxury suite accommodation, with oceanfront suites across its ships. Encore and Ovation specifically offer oceanfront suites with private verandas."
+      },
+      {
+        "question": "Do Seabourn expedition ships have balconies?",
+        "answer": "Seabourn expedition ships offer luxury oceanfront accommodations, but travelers should compare the specific suite category and deck plan for the sailing they are considering."
+      },
+      {
+        "question": "Which Seabourn ship is best for luxury adventure travel?",
+        "answer": "Seabourn Venture and Pursuit are the strongest choices for travelers who want luxury combined with expedition-style exploration."
+      },
+      {
+        "question": "Which Seabourn ship is best for a quiet luxury cruise?",
+        "answer": "Seabourn Quest can be particularly appealing to travelers who prioritize an intimate, classic small-ship atmosphere."
+      },
+      {
+        "question": "Which Seabourn ship has the best dining?",
+        "answer": "There is no single objective winner. Encore, Ovation and Quest all offer sophisticated dining, while Venture and Pursuit combine Seabourn's culinary approach with expedition travel."
+      },
+      {
+        "question": "Is Seabourn Venture only an expedition ship?",
+        "answer": "Venture is a purpose-built expedition ship, but Seabourn also uses it for some traditional ocean voyages depending on the deployment."
+      },
+      {
+        "question": "Are Seabourn ships small?",
+        "answer": "Yes. Seabourn deliberately operates small ships designed to provide a more intimate, yacht-like experience than large mainstream cruise ships."
+      },
+      {
+        "question": "How do I choose the best Seabourn ship?",
+        "answer": "Start with your destination, then compare the ship's itinerary, suite category, amenities, sailing date and price. For remote destinations, prioritize Venture or Pursuit; for traditional ocean cruising, compare Quest, Encore and Ovation."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Our Seabourn Ship Verdict: Choose the Itinerary First, Then the Ship",
+        "paragraphs": [
+          "The beauty of the Seabourn fleet is that there isn't one ship that has to work for everyone. Quest is the choice for classic Seabourn intimacy. Encore and Ovation are strong choices for travelers who want contemporary ocean cruising with more expansive onboard spaces. Venture and Pursuit are the ships to consider when the destination itself is the adventure.",
+          "For Mediterranean, European and other conventional ocean journeys, compare Quest, Encore and Ovation. For Antarctica, the Arctic, Kimberley and other remote destinations, focus on Venture and Pursuit.",
+          "Our recommendation: Choose the Seabourn itinerary first, then choose the ship and suite that make that itinerary exceptional. When two ships appear equally appealing, let the itinerary, suite and sailing date make the final decision."
+        ]
+      }
+    ]
+  }
+}

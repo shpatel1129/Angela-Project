@@ -216,7 +216,10 @@ const IsSeabournWorthIt = () => {
   const faqAccordionData = {
     title: "Frequently Asked Questions About Seabourn Value",
     subtitle: "Everything travelers need to know before deciding whether Seabourn is worth the price.",
-    questions: pageData.faq
+    questions: (pageData.faq || []).map((item) => ({
+      question: item.question || item.q,
+      answer: item.answer || item.a
+    }))
   };
 
   return (

@@ -1,0 +1,667 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dress-code/#webpage",
+        "url": "https://www.tripsandships.com/seabourn-cruises/dress-code/",
+        "name": "Seabourn Dress Code & Packing Guide: What to Wear",
+        "headline": "Seabourn Dress Code: What to Wear and What to Pack",
+        "description": "What should you wear on a Seabourn cruise? See Seabourn's daytime, Elegant Casual and formal dress codes, plus destination-specific packing tips for Alaska, Antarctica, Europe and more.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://www.tripsandships.com/#website",
+          "url": "https://www.tripsandships.com/",
+          "name": "Trips & Ships Luxury Travel"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/seabourn-cruises/dress-code/#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.tripsandships.com/seabourn-cruises/dress-code/#guide"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dress-code/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
+          { "@type": "ListItem", "position": 3, "name": "Seabourn Dress Code", "item": "https://www.tripsandships.com/seabourn-cruises/dress-code/" }
+        ]
+      },
+      {
+        "@type": "Thing",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dress-code/#guide",
+        "name": "Seabourn Dress Code and Packing Guide",
+        "description": "A practical guide to Seabourn's daytime, Elegant Casual and formal evening dress codes, plus cruise packing lists and destination-specific clothing recommendations.",
+        "url": "https://www.tripsandships.com/seabourn-cruises/dress-code/",
+        "brand": { "@type": "Brand", "name": "Seabourn" },
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "Daytime Dress Code", "value": "Casual, resort-style attire" },
+          { "@type": "PropertyValue", "name": "Evening Dress Code", "value": "Elegant Casual after 6 p.m." },
+          { "@type": "PropertyValue", "name": "Formal Evenings", "value": "Applicable on Seabourn Quest, Seabourn Encore and Seabourn Ovation" },
+          { "@type": "PropertyValue", "name": "Expedition Ships", "value": "Seabourn Venture and Seabourn Pursuit have zero formal evenings" },
+          { "@type": "PropertyValue", "name": "Jeans", "value": "Elegant jeans are welcome in dining venues, subject to formal-evening restrictions" },
+          { "@type": "PropertyValue", "name": "Men's Evening Attire", "value": "Slacks with a collared shirt or sweater; jacket optional for Elegant Casual" },
+          { "@type": "PropertyValue", "name": "Women's Evening Attire", "value": "Slacks, skirts, blouses, pantsuits or dresses" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/dress-code/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is the dress code on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn's daytime dress code is casual resort-style. After 6 p.m., the standard is Elegant Casual, with formal evenings on some ocean ships." } },
+          { "@type": "Question", "name": "Is Seabourn formal?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn is generally elegant rather than continuously formal. Most evenings are Elegant Casual, while certain ocean ships schedule formal evenings." } },
+          { "@type": "Question", "name": "Does Seabourn have formal nights?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, on Seabourn Quest, Seabourn Encore and Seabourn Ovation. Seabourn Venture and Seabourn Pursuit have no formal evenings." } },
+          { "@type": "Question", "name": "How many formal nights are on a Seabourn cruise?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, voyages up to 13 days have one formal evening, 14–20 days have two, and voyages of 21 days or more have three. World Cruises and special voyages can follow different schedules." } },
+          { "@type": "Question", "name": "Can I wear jeans on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Elegant jeans are welcome in dining venues, although jeans are not appropriate in The Restaurant after 6 p.m. on formal evenings." } },
+          { "@type": "Question", "name": "Do men need a jacket on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "A jacket is optional for the regular Elegant Casual evening dress code. A jacket, suit or tuxedo is required for men dining in The Restaurant on applicable formal evenings." } },
+          { "@type": "Question", "name": "Do women need a dress on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "No. Women can wear slacks, skirts, blouses, pantsuits or dresses during Elegant Casual evenings." } },
+          { "@type": "Question", "name": "Do I need a tuxedo for Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Only if you want to wear one for a formal evening. Seabourn also permits a suit or slacks and jacket for men on formal evenings in The Restaurant." } },
+          { "@type": "Question", "name": "What should I pack for a Seabourn cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Pack versatile casual clothing, Elegant Casual evening attire, comfortable walking shoes, swimwear, exercise clothing, weather-appropriate layers and formalwear if your ship and itinerary require it." } },
+          { "@type": "Question", "name": "What should I pack for a Seabourn Alaska cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Pack warm layers, weather protection and comfortable footwear. Seabourn provides a destination-specific Alaska packing list and currently provides guests with a complimentary all-weather jacket." } },
+          { "@type": "Question", "name": "What should I pack for a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Bring thermal base layers, insulating clothing, waterproof outerwear and expedition accessories. Seabourn provides additional polar packing guidance and expedition gear." } },
+          { "@type": "Question", "name": "Can I wear shorts on Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Shorts are appropriate during the daytime, but resort-style swimwear and similar pool attire should be restricted to appropriate areas." } },
+          { "@type": "Question", "name": "Can I wear a swimsuit to the dining room?", "acceptedAnswer": { "@type": "Answer", "text": "No. Seabourn recommends reserving swimsuits, brief shorts and cover-ups for the pool, deck, spa and fitness areas." } },
+          { "@type": "Question", "name": "What shoes should I pack for Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Bring comfortable walking shoes, casual shoes or sandals, and dress shoes. Expedition cruises may require specialized footwear depending on the destination." } },
+          { "@type": "Question", "name": "How can I avoid overpacking for Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Build a capsule wardrobe using neutral colors, layers and clothing that can work for multiple occasions. Seabourn also recommends using laundry services on longer voyages." } },
+          { "@type": "Question", "name": "What should I pack for a Seabourn World Cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Pack a versatile capsule wardrobe capable of handling multiple climates. World Cruises can cross several climate zones, so layering and multi-purpose clothing are especially important." } },
+          { "@type": "Question", "name": "Do Seabourn expedition cruises have formal nights?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Venture and Seabourn Pursuit have zero formal evenings, making expedition packing considerably more relaxed." } },
+          { "@type": "Question", "name": "Where can I find Seabourn's official packing list?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn provides a general packing list as well as destination-specific lists for regions including Alaska, Antarctica and the Arctic, Kimberley, the tropics and Northern Europe." } }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Dress Code & Packing Guide",
+    "title": "Seabourn Dress Code:\nWhat to Wear & What to Pack",
+    "subtitle": "What should you wear on a Seabourn cruise?",
+    "description": "Seabourn's dress code is more relaxed than many travelers expect from an ultra-luxury cruise line. During the day, casual resort-style clothing is welcome, including shorts and jeans. After 6 p.m., the standard changes to Elegant Casual, with slacks and a collared shirt or sweater for men and slacks, skirts, blouses, pantsuits or dresses for women. Some Seabourn ocean ships also have formal evenings in The Restaurant, while Seabourn Venture and Seabourn Pursuit have zero formal evenings. The key to packing well for Seabourn is to build a versatile wardrobe that moves easily between sightseeing, relaxed sea days, elegant dinners and destination-specific activities.",
+    "ctaText": "Start Planning Your Cruise",
+    "ctaLink": "/contact"
+  },
+  "threeCategories": {
+    "title": "Does Seabourn Have a Dress Code?",
+    "subtitle": "Three Practical Categories",
+    "personas": [
+      {
+        "title": "Daytime Casual",
+        "description": "Casual, resort-style clothing is welcome, including shorts and jeans, in lounges and dining venues during the day.",
+        "icon": "Sun"
+      },
+      {
+        "title": "Elegant Casual",
+        "description": "After 6 p.m., the standard changes to Elegant Casual — slacks and a collared shirt or sweater for men, and slacks, skirts, blouses, pantsuits or dresses for women.",
+        "icon": "Moon"
+      },
+      {
+        "title": "Formal Evening",
+        "description": "Some Seabourn ocean ships have formal evenings in The Restaurant, while Seabourn Venture and Seabourn Pursuit have zero formal evenings.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "quickGuideTable": {
+    "title": "Quick Seabourn Dress Code Guide",
+    "headers": ["Situation / Venue", "Dress Code & Guidelines"],
+    "rows": [
+      ["Daytime onboard", "Casual, resort-style"],
+      ["Lounges during the day", "Casual clothing, including jeans and shorts"],
+      ["Pool / spa", "Swimwear and cover-up"],
+      ["Fitness center", "Exercise clothing"],
+      ["After 6 p.m.", "Elegant Casual"],
+      ["Men – evening", "Slacks + collared shirt or sweater"],
+      ["Women – evening", "Slacks, skirt, blouse, pantsuit or dress"],
+      ["Elegant jeans", "Welcome in dining venues"],
+      ["Formal evening", "Formalwear required in The Restaurant on applicable ships"],
+      ["Venture & Pursuit", "No formal evenings"],
+      ["Shore excursions", "Comfortable, weather-appropriate clothing"]
+    ]
+  },
+  "daytimeAttire": {
+    "title": "Seabourn Daytime Dress Code",
+    "subtitle": "Casual, Resort-Style Attire Onboard & Ashore",
+    "items": [
+      {
+        "category": "Daytime Tops & Shirts",
+        "title": "Polo Shirts, Blouses & Casual Tops",
+        "description": "Breathable, lightweight tops suitable for daytime sea days and warm port exploration.",
+        "features": ["Polo shirts", "Blouses", "Casual button-downs", "High-quality T-shirts", "Sundresses"]
+      },
+      {
+        "category": "Daytime Bottoms & Trousers",
+        "title": "Shorts, Jeans & Chinos",
+        "description": "Casual trousers and shorts are welcomed in all lounges and casual dining venues during the day.",
+        "features": ["Jeans & chinos", "Tailored shorts", "Casual skirts", "Lightweight linen trousers", "Comfortable leggings"]
+      },
+      {
+        "category": "Daytime Footwear",
+        "title": "Comfortable Walking Shoes & Sandals",
+        "description": "Supportive footwear for exploring historic cobblestone ports and walking deck areas.",
+        "features": ["Comfortable walking sneakers", "Leather casual sandals", "Boat shoes or loafers", "Breathable socks"]
+      }
+    ]
+  },
+  "poolSpaWear": {
+    "title": "What Should You Wear Around the Pool & Spa?",
+    "subtitle": "Poolside & Wellness Spaces",
+    "features": [
+      {
+        "title": "Where Pool & Spa Attire is Welcomed",
+        "description": "Swimsuits, cover-ups, brief shorts, and exercise wear should be reserved for designated recreation areas: outdoor pools, sun decks, whirlpools, spa thermal suites, and fitness centers."
+      },
+      {
+        "title": "Recommended Poolside Outfit",
+        "description": "A simple poolside combination: swimsuit + cover-up + sandals + sunglasses + wide-brim hat. Keep a lightweight layer nearby when moving between outdoor decks and indoor air-conditioned spaces."
+      },
+      {
+        "title": "Dining Room & Indoor Restrictions",
+        "description": "Swimwear and bare feet are not permitted in indoor restaurants or dining venues at any time. Cover-ups, dry clothing, and proper footwear are required when walking through indoor public areas."
+      }
+    ],
+    "items": [
+      {
+        "category": "Recreation & Wellness Venues",
+        "title": "Where Pool Attire is Welcomed",
+        "description": "Swimsuits, cover-ups, brief shorts, and exercise wear should be reserved for designated recreation areas.",
+        "features": ["Outdoor swimming pools", "Sun decks & whirlpools", "Spa thermal suites", "Fitness center & aerobics studio"]
+      },
+      {
+        "category": "Poolside Combination",
+        "title": "Recommended Poolside Outfit",
+        "description": "A simple poolside combination: swimsuit + cover-up + sandals + sunglasses + wide-brim hat.",
+        "features": ["Swimsuit or swim trunks", "Breathable cover-up or linen shirt", "Non-slip pool sandals", "UV-protective sunglasses & hat"]
+      },
+      {
+        "category": "Dining Venue Policy",
+        "title": "Dining Room & Indoor Restrictions",
+        "description": "Swimwear and bare feet are not permitted in indoor restaurants or dining venues at any time.",
+        "features": ["Cover-ups required when walking through indoor areas", "Dry clothing required for indoor cafes", "Proper footwear required across all decks"]
+      }
+    ]
+  },
+  "eveningAttire": {
+    "title": "Seabourn Evening Dress Code: What Does Elegant Casual Mean?",
+    "subtitle": "After 6 P.M. — Polished, Comfortable & Sophisticated",
+    "personas": [
+      {
+        "title": "Men — Option 1 (Classic Polished)",
+        "description": "Dark trousers + collared dress shirt + leather loafers or dress shoes.",
+        "icon": "Shirt"
+      },
+      {
+        "title": "Men — Option 2 (Layered Elegance)",
+        "description": "Tailored chinos + collared shirt + lightweight sports jacket or fine sweater.",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Women — Option 1 (Resort Chic)",
+        "description": "Elegant daytime-to-evening dress + stylish flats or low wedges.",
+        "icon": "Star"
+      },
+      {
+        "title": "Women — Option 2 (Tailored Separates)",
+        "description": "Tailored trousers or skirt + silk/linen blouse + dressy sandals or heels.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "jeansAndFormalNights": {
+    "title": "Jeans Policy & Formal Nights Across the Fleet",
+    "subtitle": "Ocean Fleet vs. Expedition Fleet",
+    "headers": ["Ship / Fleet Category", "Formal Evenings", "Jeans Policy in Dining", "Dress Standard"],
+    "rows": [
+      { "category": "Seabourn Quest", "avalon": "Yes (The Restaurant)", "ama": "Jeans welcome except Formal Evenings in The Restaurant", "winner": "Ocean Fleet" },
+      { "category": "Seabourn Encore", "avalon": "Yes (The Restaurant)", "ama": "Jeans welcome except Formal Evenings in The Restaurant", "winner": "Ocean Fleet" },
+      { "category": "Seabourn Ovation", "avalon": "Yes (The Restaurant)", "ama": "Jeans welcome except Formal Evenings in The Restaurant", "winner": "Ocean Fleet" },
+      { "category": "Seabourn Venture", "avalon": "0 Formal Evenings", "ama": "Jeans welcome in all dining venues every night", "winner": "Expedition Fleet" },
+      { "category": "Seabourn Pursuit", "avalon": "0 Formal Evenings", "ama": "Jeans welcome in all dining venues every night", "winner": "Expedition Fleet" }
+    ]
+  },
+  "formalNightsCount": {
+    "title": "How Many Formal Nights Does Seabourn Have?",
+    "headers": ["Voyage Duration", "Number of Formal Evenings", "Where Formal Attire Applies"],
+    "rows": [
+      ["Up to 13 days", "1 formal evening", "The Restaurant on Quest, Encore & Ovation only"],
+      ["14–20 days", "2 formal evenings", "The Restaurant on Quest, Encore & Ovation only"],
+      ["21+ days", "3 formal evenings", "The Restaurant on Quest, Encore & Ovation only"],
+      ["Venture & Pursuit (Expedition)", "0 formal evenings", "Always Elegant Casual or Expedition Casual"],
+      ["World Cruises & Grand Voyages", "Custom schedule", "Check voyage boarding-pass documentation before departure"]
+    ]
+  },
+  "menAndWomenPacking": {
+    "title": "What Should Men & Women Pack for Seabourn?",
+    "subtitle": "Complete Wardrobe Breakdown",
+    "items": [
+      {
+        "category": "Men's Daywear",
+        "title": "Men — Daywear Essentials",
+        "description": "Versatile, comfortable clothing for onboard relaxation and sightseeing ashore.",
+        "features": [
+          "3–5 casual shirts & 2–3 polo shirts",
+          "2–3 pairs of shorts & 2–3 pairs of casual trousers",
+          "1–2 pairs of dark jeans",
+          "1 lightweight sweater or cardigan",
+          "Comfortable walking shoes & casual sandals"
+        ]
+      },
+      {
+        "category": "Men's Evening & Formal",
+        "title": "Men — Evening & Formal Attire",
+        "description": "Smart Elegant Casual options with optional formalwear for ocean ships.",
+        "features": [
+          "2–3 collared dress shirts",
+          "Dark trousers or tailored chinos",
+          "Loafers or dress shoes",
+          "1 sports jacket or blazer",
+          "Dark suit or tuxedo (only if formal dining is planned)"
+        ]
+      },
+      {
+        "category": "Women's Daywear",
+        "title": "Women — Daywear Essentials",
+        "description": "Light, breathable layers for sea days and cultural excursions.",
+        "features": [
+          "Blouses, tops & casual shirts",
+          "Lightweight trousers, linen pants & skirts",
+          "Shorts & casual sundresses",
+          "Comfortable walking shoes & supportive sandals",
+          "Sun hat & UV-protective sunglasses"
+        ]
+      },
+      {
+        "category": "Women's Evening & Formal",
+        "title": "Women — Evening & Formal Attire",
+        "description": "Chic cocktail and elegant dinner separates.",
+        "features": [
+          "2–3 evening dresses or jumpsuits",
+          "Elegant trousers & dressy blouses",
+          "Pantsuit or coordinated separates",
+          "Dressy sandals, flats or heels",
+          "Lightweight wrap, pashmina or evening jacket",
+          "Evening gown (optional for formal nights)"
+        ]
+      }
+    ]
+  },
+  "essentialsAndCarryOn": {
+    "title": "Seabourn Packing List: Essentials & Carry-On Strategy",
+    "subtitle": "Never Pack These Items in Checked Luggage",
+    "cards": [
+      {
+        "title": "Travel Documents",
+        "items": [
+          "Passport with 6+ months validity",
+          "Visas & entry documentation if required",
+          "Seabourn cruise ticket & boarding pass",
+          "Travel insurance policy & emergency cards",
+          "Physical and digital backup copies of all documents"
+        ]
+      },
+      {
+        "title": "Electronics & Power",
+        "items": [
+          "Smartphone & charging cables",
+          "Camera, spare batteries & memory cards",
+          "Universal travel power adapters",
+          "Noise-canceling headphones",
+          "Portable battery power bank"
+        ]
+      },
+      {
+        "title": "Personal Items & Health",
+        "items": [
+          "Full supply of prescription medications",
+          "Motion-sickness remedies & patches",
+          "Small first-aid kit & pain relievers",
+          "Daily sunscreen & lip balm with SPF",
+          "Toiletries & essential hygiene items"
+        ]
+      },
+      {
+        "title": "Carry-On Essentials & Useful Extras",
+        "items": [
+          "Complete change of clothes for embarkation day",
+          "Keep all valuables, jewelry & chargers in carry-on",
+          "Foldable tote bag & laundry bag",
+          "Comfortable daypack for shore excursions",
+          "Zip-lock bags & small travel sewing kit"
+        ]
+      }
+    ]
+  },
+  "capsuleAndFootwear": {
+    "title": "Capsule Wardrobe Strategy & Footwear Guide",
+    "subtitle": "Pack Less, Wear More — Build a Cohesive Cruise Capsule",
+    "steps": [
+      {
+        "title": "Stick to a Neutral Base Palette",
+        "description": "Choose 2–3 core neutral colors (navy, beige, white, black) so every top pairs seamlessly with every bottom."
+      },
+      {
+        "title": "Utilize Versatile Layering Pieces",
+        "description": "One lightweight jacket can work with jeans during the day, tailored trousers at dinner, and over a dress on a cool breezy evening."
+      },
+      {
+        "title": "Comfortable Walking Shoes (Pair 1)",
+        "description": "Supportive sneakers or walking shoes for active shore excursions, walking tours, and historic cobblestone streets."
+      },
+      {
+        "title": "Casual Shoes / Sandals (Pair 2)",
+        "description": "Relaxed loafers, boat shoes, or stylish leather sandals for relaxed sea days and poolside lounging."
+      },
+      {
+        "title": "Dress Shoes / Evening Heels (Pair 3)",
+        "description": "Polished dress shoes, loafers, or elegant evening sandals for dinners in Solis, The Restaurant, and evening lounges."
+      },
+      {
+        "title": "Specialized Outdoor Footwear (Pair 4 - If Required)",
+        "description": "Waterproof hiking shoes or sturdy boots only if your specific itinerary requires rugged trail walking."
+      }
+    ]
+  },
+  "destinationGuides": {
+    "title": "Seabourn Dress Code by Destination",
+    "subtitle": "Tailored Packing Priorities for 7 Distinct Cruise Regions",
+    "items": [
+      {
+        "title": "Mediterranean",
+        "description": "Mediterranean cruises involve hot afternoons, cool coastal evenings, and cultural visits requiring modest attire for historic religious sites.",
+        "features": [
+          "Lightweight trousers, sundresses & breathable tops",
+          "Comfortable walking shoes for cobblestones",
+          "Scarf or wrap for covering shoulders at cultural sites",
+          "Sun hat, sunglasses & evening resort chic attire"
+        ]
+      },
+      {
+        "title": "Alaska",
+        "description": "Alaska requires a layered system. Seabourn provides guests on Alaska voyages with a complimentary custom all-weather parka onboard.",
+        "features": [
+          "Waterproof outer shell & warm fleece sweater",
+          "Moisture-wicking thermal base layers",
+          "Sturdy waterproof walking footwear",
+          "Warm beanie, gloves & polarized sunglasses"
+        ]
+      },
+      {
+        "title": "Antarctica",
+        "description": "Polar expedition cruising requires specialized thermal mid-layers. Seabourn provides complimentary expedition parkas and fitted waterproof rubber boots onboard.",
+        "features": [
+          "Mid-weight thermal base layers & fleece mid-layers",
+          "Waterproof / windproof ski or expedition trousers",
+          "Merino wool socks, thermal gloves & neck gaiter",
+          "UV-protective polarized sunglasses & sunblock"
+        ]
+      },
+      {
+        "title": "Arctic & Greenland",
+        "description": "Arctic exploration involves cold polar conditions, Zodiac tours near glaciers, and tundra landings requiring flexible warmth.",
+        "features": [
+          "Thermal base layers & insulating fleece",
+          "Waterproof outer jacket & waterproof trousers",
+          "Waterproof daypack for Zodiac excursions",
+          "Warm socks, windproof hat & neck warmer"
+        ]
+      },
+      {
+        "title": "The Kimberley",
+        "description": "Australia's rugged Kimberley calls for high breathability, active sun protection, and footwear suitable for wet Zodiac beach landings.",
+        "features": [
+          "Lightweight breathable & quick-dry shirts",
+          "UPF 50+ sun hat & high-protection sunscreen",
+          "Water sandals / amphibious shoes for wet landings",
+          "Lightweight daypack & casual evening attire"
+        ]
+      },
+      {
+        "title": "Tropical Expeditions",
+        "description": "South Pacific and tropical expeditions require performance clothing that manages tropical heat, high humidity, and intermittent rain.",
+        "features": [
+          "Quick-drying breathable shirts & shorts",
+          "Rash guard for snorkeling & coral reef swimming",
+          "Waterproof dry bag for camera gear",
+          "Insect repellent & lightweight rain shell"
+        ]
+      },
+      {
+        "title": "World Cruise",
+        "description": "Extended World Cruises cross multiple climate zones. Pack a versatile capsule wardrobe and utilize Seabourn's complimentary laundry services.",
+        "features": [
+          "Cohesive neutral-color capsule wardrobe",
+          "Multi-purpose mix-and-match pieces",
+          "Layering pieces covering cold to tropical climates",
+          "Take advantage of onboard laundry & dry cleaning"
+        ]
+      }
+    ]
+  },
+  "tuxedoAndAshore": {
+    "title": "Formalwear Rules, Laundry & Going Ashore",
+    "subtitle": "Smart Advice for Every Port and Evening",
+    "items": [
+      {
+        "category": "Formalwear Guidance",
+        "title": "Do You Need a Tuxedo?",
+        "description": "Only if your ocean ship sailing includes a formal night and you wish to dine in The Restaurant. A dark suit or blazer with slacks is equally accepted. Venture and Pursuit have zero formal nights.",
+        "features": [
+          "Tuxedo is completely optional",
+          "Dark business suit or blazer is fully welcomed",
+          "Expedition ships have NO formal evenings",
+          "Alternative dining venues remain Elegant Casual"
+        ]
+      },
+      {
+        "category": "Laundry & Packing Light",
+        "title": "Laundry Services Onboard",
+        "description": "Seabourn offers full-service laundry, pressing, and dry cleaning, as well as complimentary self-service launderettes with washers, dryers, and detergent.",
+        "features": [
+          "Complimentary self-service guest launderettes",
+          "Professional wash & press service available",
+          "Pack for 7 days even on 14+ day sailings",
+          "Ideal for World Cruises and Grand Voyages"
+        ]
+      },
+      {
+        "category": "Cultural Ashore Guidelines",
+        "title": "What to Wear Ashore",
+        "description": "Onboard dress code does not dictate shore dress. Respect local customs, especially at temples, cathedrals, and mosques that mandate covered shoulders and knees.",
+        "features": [
+          "Carry a lightweight pashmina or scarf",
+          "Avoid brief shorts when visiting religious sites",
+          "Prioritize supportive, non-slip walking shoes",
+          "Dress appropriately for terrain and weather"
+        ]
+      }
+    ]
+  },
+  "packingMistakesTable": {
+    "title": "Seabourn Packing Mistakes to Avoid",
+    "headers": ["Common Mistake", "Why It Happens", "Smart Alternative"],
+    "rows": [
+      ["Packing too much formalwear", "Assuming every evening is formal", "Most evenings are Elegant Casual; bring 1 versatile formal outfit at most"],
+      ["Ignoring destination climate", "Packing Mediterranean clothes for Alaska", "Check destination packing guides for thermal & waterproof layers"],
+      ["Bringing uncomfortable shoes", "Prioritizing style over support", "Cobblestones require cushioned walking shoes; break them in before sailing"],
+      ["Forgetting layering pieces", "Assuming constant weather", "Morning port breezes turn into warm afternoons; use light cardigans & wraps"],
+      ["Packing essentials in checked bags", "Not planning for luggage arrival", "Keep passports, medications, chargers & embarkation outfit in carry-on"],
+      ["Ignoring cultural dress codes", "Assuming cruise wear applies in churches", "Bring a wrap to cover shoulders and knees at religious landmarks"],
+      ["Packing too many shoe pairs", "Bringing a pair for every outfit", "Limit to 3–4 versatile pairs (walking, casual/sandal, dinner dress, outdoor)"]
+    ]
+  },
+  "destinationPriorityTable": {
+    "title": "Packing Priority by Destination",
+    "headers": ["Destination / Voyage Type", "Packing Priority & Guidelines"],
+    "rows": [
+      ["Mediterranean", "Light layers + comfortable walking shoes + modest cultural wrap"],
+      ["Caribbean", "Lightweight breathable fabrics + swimwear + sun protection"],
+      ["Alaska", "Warm base layers + fleece + waterproof jacket & sturdy shoes"],
+      ["Antarctica", "Thermal base layers + waterproof expedition pants & warm accessories"],
+      ["Arctic / Greenland", "Insulating fleece + waterproof outer layers & wind protection"],
+      ["The Kimberley", "Breathable quick-dry shirts + wet-landing sandals + UPF 50+ hat"],
+      ["Tropical Expeditions", "Rash guard + quick-drying shorts + waterproof daypack"],
+      ["Northern Europe", "Layered sweaters + lightweight packable rain jacket"],
+      ["World Cruise", "Neutral capsule wardrobe + utilization of onboard laundry"]
+    ]
+  },
+  "quickChecklists": {
+    "title": "Quick Dress Code & Packing Checklists",
+    "subtitle": "Printable Packing Reference",
+    "items": [
+      {
+        "category": "Men's Checklist",
+        "title": "Men's Complete Checklist",
+        "description": "Daywear, Elegant Casual, and Formal evening items.",
+        "features": [
+          "Daywear: Polo shirts, casual shirts, shorts, jeans, chinos, sneakers",
+          "Evening: Collared shirts, dress trousers, sweater, loafers, sports jacket",
+          "Formal (if applicable): Suit or tuxedo, dress shirt, dress shoes",
+          "Accessories: Belt, sunglasses, watch, socks, casual sandals"
+        ]
+      },
+      {
+        "category": "Women's Checklist",
+        "title": "Women's Complete Checklist",
+        "description": "Daywear, Elegant Casual, and Formal evening items.",
+        "features": [
+          "Daywear: Tops, blouses, shorts, skirts, sundresses, walking shoes",
+          "Evening: Dresses, blouses, tailored trousers, pantsuit, dressy sandals",
+          "Formal (if applicable): Evening dress, formal gown, dressy accessories, clutch",
+          "Accessories: Scarf, wrap/pashmina, sunglasses, sun hat, jewelry"
+        ]
+      },
+      {
+        "category": "Universal Essentials Checklist",
+        "title": "Universal Essentials & Tech",
+        "description": "Crucial travel items, documents, and wellness necessities.",
+        "features": [
+          "Documents: Passport, visas, cruise tickets, insurance policy",
+          "Health: Prescriptions, motion sickness remedies, sunscreen, first-aid",
+          "Electronics: Phone, camera, memory cards, chargers, travel adapters",
+          "Carry-On: Valuables, medications, electronics, embarkation daywear"
+        ]
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel · Luxury Cruise & Expedition Authority",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "authorityBoxTitle": "Angela Hughes Authority & Credentials",
+    "authoritySubtitle": "Recognized Global Luxury Cruise & Expedition Specialist",
+    "paragraphs": [
+      "Angela Hughes has explored over 121 countries and spent more than four decades designing luxury cruise, expedition, and yacht journeys worldwide.",
+      "As CEO of Trips & Ships Luxury Travel, Angela provides personalized packing strategies, private suite selection, and VIP booking benefits for Seabourn travelers."
+    ],
+    "credentials": [
+      "CEO & Founder of Trips & Ships Luxury Travel",
+      "Over 40 years of elite travel industry leadership",
+      "Traveled to more than 121 countries worldwide",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker, trainer, and weekly industry columnist",
+      "Travel Leaders Network Advisory Board Member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications and media globally",
+      "Specialist in Seabourn ocean and expedition fleet selection",
+      "Expert in luxury cruises, expeditions, safaris, and custom itineraries"
+    ],
+    "quote": "Packing for a Seabourn cruise should never feel overwhelming. The secret is curating a smart capsule wardrobe that balances relaxed daytime comfort with polished Elegant Casual evenings, leaving plenty of room to enjoy every moment of your voyage.",
+    "quoteSubtitle": "Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "ctaText": "Request a Seabourn Consultation",
+    "ctaLink": "/contact"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About Seabourn Dress Code",
+    "subtitle": "Everything Travelers Need to Know Before Packing for a Seabourn Cruise",
+    "questions": [
+      {
+        "question": "What is the dress code on Seabourn?",
+        "answer": "Seabourn's daytime dress code is casual resort-style. After 6 p.m., the standard is Elegant Casual, with formal evenings on some ocean ships."
+      },
+      {
+        "question": "Is Seabourn formal?",
+        "answer": "Seabourn is generally elegant rather than continuously formal. Most evenings are Elegant Casual, while certain ocean ships schedule formal evenings."
+      },
+      {
+        "question": "Does Seabourn have formal nights?",
+        "answer": "Yes, on Seabourn Quest, Seabourn Encore and Seabourn Ovation. Seabourn Venture and Seabourn Pursuit have no formal evenings."
+      },
+      {
+        "question": "How many formal nights are on a Seabourn cruise?",
+        "answer": "As a general rule, voyages up to 13 days have one formal evening, 14–20 days have two, and voyages of 21 days or more have three. World Cruises and special voyages can follow different schedules."
+      },
+      {
+        "question": "Can I wear jeans on Seabourn?",
+        "answer": "Yes. Elegant jeans are welcome in dining venues, although jeans are not appropriate in The Restaurant after 6 p.m. on formal evenings."
+      },
+      {
+        "question": "Do men need a jacket on Seabourn?",
+        "answer": "A jacket is optional for the regular Elegant Casual evening dress code. A jacket, suit or tuxedo is required for men dining in The Restaurant on applicable formal evenings."
+      },
+      {
+        "question": "Do women need a dress on Seabourn?",
+        "answer": "No. Women can wear slacks, skirts, blouses, pantsuits or dresses during Elegant Casual evenings."
+      },
+      {
+        "question": "Do I need a tuxedo for Seabourn?",
+        "answer": "Only if you want to wear one for a formal evening. Seabourn also permits a suit or slacks and jacket for men on formal evenings in The Restaurant."
+      },
+      {
+        "question": "What should I pack for a Seabourn cruise?",
+        "answer": "Pack versatile casual clothing, Elegant Casual evening attire, comfortable walking shoes, swimwear, exercise clothing, weather-appropriate layers and formalwear if your ship and itinerary require it."
+      },
+      {
+        "question": "What should I pack for a Seabourn Alaska cruise?",
+        "answer": "Pack warm layers, weather protection and comfortable footwear. Seabourn provides a destination-specific Alaska packing list and currently provides guests with a complimentary all-weather jacket."
+      },
+      {
+        "question": "What should I pack for a Seabourn Antarctica cruise?",
+        "answer": "Bring thermal base layers, insulating clothing, waterproof outerwear and expedition accessories. Seabourn provides additional polar packing guidance and expedition gear."
+      },
+      {
+        "question": "Can I wear shorts on Seabourn?",
+        "answer": "Yes. Shorts are appropriate during the daytime, but resort-style swimwear and similar pool attire should be restricted to appropriate areas."
+      },
+      {
+        "question": "Can I wear a swimsuit to the dining room?",
+        "answer": "No. Seabourn recommends reserving swimsuits, brief shorts and cover-ups for the pool, deck, spa and fitness areas."
+      },
+      {
+        "question": "What shoes should I pack for Seabourn?",
+        "answer": "Bring comfortable walking shoes, casual shoes or sandals, and dress shoes. Expedition cruises may require specialized footwear depending on the destination."
+      },
+      {
+        "question": "How can I avoid overpacking for Seabourn?",
+        "answer": "Build a capsule wardrobe using neutral colors, layers and clothing that can work for multiple occasions. Seabourn also recommends using laundry services on longer voyages."
+      },
+      {
+        "question": "What should I pack for a Seabourn World Cruise?",
+        "answer": "Pack a versatile capsule wardrobe capable of handling multiple climates. World Cruises can cross several climate zones, so layering and multi-purpose clothing are especially important."
+      },
+      {
+        "question": "Do Seabourn expedition cruises have formal nights?",
+        "answer": "Seabourn Venture and Seabourn Pursuit have zero formal evenings, making expedition packing considerably more relaxed."
+      },
+      {
+        "question": "Where can I find Seabourn's official packing list?",
+        "answer": "Seabourn provides a general packing list as well as destination-specific lists for regions including Alaska, Antarctica and the Arctic, Kimberley, the tropics and Northern Europe."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Final Answer: What Should You Wear on a Seabourn Cruise?",
+        "paragraphs": [
+          "The simplest answer is: dress comfortably and elegantly, but don't overpack. During the day, Seabourn is relaxed and resort-style. After 6 p.m., dress Elegant Casual. On applicable Quest, Encore and Ovation voyages, bring formalwear if you want to dine in The Restaurant on formal evenings. And if you're sailing on Venture or Pursuit, you can leave the tuxedo or formal gown at home because those ships have no formal evenings.",
+          "For Alaska, Antarctica, Arctic, Kimberley and tropical expeditions, follow Seabourn's dedicated regional packing guidance rather than using a generic cruise packing list.",
+          "Our recommendation: Daytime comfort + Elegant Casual evenings + destination-specific layers."
+        ]
+      }
+    ]
+  }
+}
