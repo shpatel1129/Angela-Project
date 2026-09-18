@@ -1,0 +1,1096 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/expeditions/#webpage",
+        "url": "https://www.tripsandships.com/seabourn-cruises/expeditions/",
+        "name": "Seabourn Expedition Cruises: Ships, Destinations & Activities",
+        "description": "Explore Seabourn expedition cruises to Antarctica, the Arctic, Alaska, Kimberley and remote destinations. Compare ships, activities, equipment, suites and inclusions.",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/expeditions/#article",
+        "headline": "Seabourn Expedition Cruises: Complete Guide to Ships, Destinations, Activities & Inclusions",
+        "description": "A complete guide to Seabourn expedition cruises, covering expedition ships, destinations, activities, equipment, suites, inclusions, wildlife experiences and what travelers should expect.",
+        "author": { "@type": "Person", "name": "Angela Hughes" },
+        "publisher": { "@type": "Organization", "name": "Trips & Ships Luxury Travel" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/expeditions/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
+          { "@type": "ListItem", "position": 3, "name": "Seabourn Expedition Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/expeditions/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/seabourn-cruises/expeditions/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are Seabourn expedition cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn expedition cruises combine luxury cruising with exploration of remote destinations using purpose-built expedition ships, Zodiacs, kayaks and expert-led activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What ships does Seabourn use for expeditions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn's dedicated expedition ships are Seabourn Venture and Seabourn Pursuit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do Seabourn expedition cruises go?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Destinations can include Antarctica, the Arctic, Greenland, Alaska, the Kimberley, Patagonia, Indonesia, Papua New Guinea and other remote regions, depending on the season and itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn go to Antarctica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Antarctica is one of Seabourn's major expedition destinations and offers opportunities for Zodiac exploration, wildlife observation, shore landings and photography."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn expedition cruising include Zodiac excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zodiac operations are a core part of the expedition experience, allowing guests to explore remote coastlines and access shore landing locations. Specific excursions depend on weather, local conditions and the itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn offer kayaking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Kayaking is available on applicable expedition itineraries, subject to weather, sea conditions, safety requirements and local circumstances."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn provide binoculars?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Swarovski Optik binoculars are provided in every suite aboard Seabourn Venture and Seabourn Pursuit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn expedition cruises all-inclusive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn includes many components of the luxury expedition experience, including dining, selected beverages, Wi-Fi, gratuities and expedition activities depending on the sailing. Travelers should review the specific inclusions for their itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn expedition cruises expensive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They are positioned at the luxury end of the expedition market. Prices vary based on destination, sailing date, cruise length, suite category and demand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn expedition cruises physically demanding?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some activities can be physically demanding because they may involve Zodiac boarding, uneven terrain, hiking or wet landings. The difficulty varies considerably by destination and excursion."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn expedition cruises good for families?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They can be excellent for families with older children or teenagers who enjoy wildlife, science, nature and adventure. However, the experience is more expedition-focused than a conventional family cruise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn expedition cruises good for solo travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Shared expedition activities, lectures, Zodiac excursions and small-ship dining create natural opportunities for solo travelers to meet other guests."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I pack for a Seabourn expedition cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pack layers, waterproof clothing, comfortable footwear, weather protection, a small backpack and appropriate camera equipment. Polar itineraries require additional cold-weather clothing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Seabourn expedition itineraries change?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Expedition itineraries can change because of weather, sea conditions, wildlife, ice, local regulations and landing conditions. Flexibility is an inherent part of expedition cruising."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Seabourn Venture an expedition ship?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Seabourn Venture is a purpose-built expedition ship designed to operate in remote environments while providing Seabourn's luxury suite and service experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Seabourn Pursuit an expedition ship?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Seabourn Pursuit is Seabourn's second dedicated expedition ship and is designed for remote exploration and wildlife-focused itineraries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a Seabourn expedition cruise and a regular Seabourn cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An expedition cruise places much greater emphasis on remote destinations, wildlife, Zodiac exploration, kayaking, shore landings and expert-led discovery. Traditional Seabourn cruises generally focus more on ports, relaxation and classic luxury cruising."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Seabourn good for an Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn can be an excellent choice for travelers who want an Antarctic expedition combined with luxury suites, fine dining, personalized service and expedition activities."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "Seabourn Expedition Cruises: The Complete Guide",
+    "subtitle": "Seabourn expedition cruises combine luxury small-ship cruising with immersive exploration of some of the world's most remote destinations.",
+    "paragraphs": [
+      "Rather than simply visiting a port and returning to the ship, Seabourn's expedition program is designed around discovery. Guests can explore remote coastlines, observe wildlife, hike through pristine landscapes, kayak in protected waters and learn from expedition specialists who accompany the voyage.",
+      "The experience is built around Seabourn Venture and Seabourn Pursuit, purpose-built expedition ships designed for destinations ranging from Antarctica and the Arctic to Alaska and Australia's Kimberley region.",
+      "This guide explains Seabourn's expedition ships, destinations, activities, equipment, suites, inclusions and who these cruises are best suited for."
+    ]
+  },
+  "quickAnswer": {
+    "eyebrow": "The Short Version",
+    "title": "Are Seabourn Expedition Cruises Worth Considering?",
+    "paragraphs": [
+      "Yes, if you want expedition-style exploration with an upscale luxury experience.",
+      "The major trade-off is that expedition cruising is more expensive than conventional cruising and itineraries can change because of weather, ice, wildlife and local conditions."
+    ],
+    "highlights": [
+      "Remote destinations",
+      "Small-ship exploration",
+      "Luxury suites",
+      "Fine dining",
+      "Personalized service",
+      "Expert expedition teams",
+      "Wildlife encounters",
+      "Guided shore excursions",
+      "Zodiac exploration",
+      "Kayaking and nature activities",
+      "An intimate onboard atmosphere"
+    ],
+    "badgeTitle": "Luxury Expedition",
+    "badgeDescription": "Explore remote frontiers without sacrificing six-star comfort.",
+    "placeholderLabel": "SEABOURN EXPEDITION VALUE"
+  },
+  "expeditionShips": {
+    "title": "Seabourn Expedition Ships",
+    "subtitle": "Seabourn's dedicated expedition fleet consists of two purpose-built ships: Seabourn Venture and Seabourn Pursuit.",
+    "oceanview": {
+      "title": "Seabourn Venture",
+      "bestFor": "Seabourn Venture was designed specifically for expedition cruising. It combines expedition capabilities with the suite accommodation, dining and service associated with the Seabourn brand. The ship is designed for destinations where conventional cruise ships cannot easily operate.",
+      "advantages": [
+        "Purpose-built expedition design with polar capabilities",
+        "All-suite oceanfront accommodations with private verandas",
+        "Multiple fine dining venues and intimate expedition lounges",
+        "Expansive outdoor viewing decks and observation equipment",
+        "Fleet of onboard Zodiacs and sea kayaks",
+        "Expert-led multidisciplinary expedition team"
+      ]
+    },
+    "balcony": {
+      "title": "Seabourn Pursuit",
+      "bestFor": "Seabourn Pursuit is the second purpose-built expedition ship in the fleet. Like Venture, Pursuit combines a relatively intimate ship size with expedition equipment and luxury accommodations. The ship is designed to explore destinations where access and scenery are more important than conventional cruise amenities.",
+      "advantages": [
+        "Second dedicated ultra-luxury expedition vessel",
+        "Designed for extreme remote landscapes and close wildlife encounters",
+        "Expedition activities, Zodiac operations, and sea kayaking",
+        "Expert-led exploration and science discovery lectures",
+        "Small-group discovery with cultural and photography focus",
+        "Six-star intuitive service in the world's most remote waters"
+      ]
+    }
+  },
+  "destinations": {
+    "subtitle": "Where Seabourn Explores",
+    "title": "Where Do Seabourn Expedition Cruises Go?",
+    "profiles": [
+      {
+        "name": "Antarctica",
+        "tagline": "Polar Wilderness",
+        "placeholderLabel": "SEABOURN ANTARCTICA EXPEDITIONS",
+        "quote": "A typical Antarctic expedition is less about checking off individual ports and more about experiencing the pristine polar environment, ice, and wildlife.",
+        "recommendation": "Seabourn Antarctica Cruises",
+        "reason": "Antarctica is one of the strongest reasons to consider a Seabourn expedition cruise. Weather and ice conditions can influence the itinerary, which is an inherent part of the authentic expedition experience.",
+        "whyFits": [
+          "Icebergs, tabular ice & calving glaciers",
+          "Vast penguin rookeries & resting seals",
+          "Whales & seabirds in pristine waters",
+          "Remote polar landscapes & mountains",
+          "Polar photography & Zodiac exploration",
+          "Expert-led shore landings & naturalist walks"
+        ]
+      },
+      {
+        "name": "Arctic",
+        "tagline": "Northern Frontiers",
+        "placeholderLabel": "SEABOURN ARCTIC EXPEDITIONS",
+        "quote": "Seabourn's northern expedition itineraries take travelers into remote Arctic environments combining wildlife, scenery, and deep cultural exploration.",
+        "recommendation": "Seabourn Arctic Cruises",
+        "reason": "The Arctic is particularly attractive for travelers who want a combination of Arctic wildlife, dramatic glaciers, pack ice, and historic Indigenous culture.",
+        "whyFits": [
+          "Arctic wildlife & polar bear sightings",
+          "Massive glaciers & pack ice navigation",
+          "Remote settlements & Indigenous cultures",
+          "Dramatic fjords & coastal mountain walls",
+          "Polar landscapes under 24-hour midnight sun",
+          "Zodiac cruising through ice-filled bays"
+        ]
+      },
+      {
+        "name": "Alaska",
+        "tagline": "Wilderness & Glaciers",
+        "placeholderLabel": "SEABOURN ALASKA EXPEDITIONS",
+        "quote": "A smaller expedition ship provides access to remote Alaskan coves and channels that large commercial cruise ships cannot reach.",
+        "recommendation": "Seabourn Alaska Expedition Cruises",
+        "reason": "Alaska offers an intimate expedition experience combining towering glaciers, lush temperate rainforests, and dense coastal wildlife.",
+        "whyFits": [
+          "Towering glaciers & jagged mountain peaks",
+          "Humpback whales & orcas in natural habitats",
+          "Coastal brown bears & bald eagles",
+          "Remote communities & Indigenous heritage",
+          "Coastal forests & sea kayaking routes",
+          "Active guided nature hikes and walks"
+        ]
+      },
+      {
+        "name": "Kimberley",
+        "tagline": "Ancient Coastlines",
+        "placeholderLabel": "SEABOURN KIMBERLEY EXPEDITIONS",
+        "quote": "Australia's Kimberley region is particularly appealing for travelers who want an expedition experience without traveling to a polar environment.",
+        "recommendation": "Seabourn Kimberley Expeditions",
+        "reason": "Known for dramatic coastlines, waterfalls, gorges, Aboriginal culture, wildlife, ancient landscapes, and remote beaches during favorable dry-season conditions.",
+        "whyFits": [
+          "Dramatic coastlines & tidal waterfalls",
+          "Ancient gorges & sandstone formations",
+          "Ancient Aboriginal rock art sites",
+          "Prehistoric saltwater crocodiles & birdlife",
+          "Ancient landscapes & remote beaches",
+          "Small-group Zodiac exploration"
+        ]
+      }
+    ]
+  },
+  "ventureVsPursuit": {
+    "title": "Seabourn Venture vs. Seabourn Pursuit",
+    "subtitle": "For most travelers, there isn't a major reason to choose one ship simply because of its features. Instead, look first at the itinerary — the more important question is where the ship takes you.",
+    "headers": ["Feature", "Seabourn Venture", "Seabourn Pursuit"],
+    "rows": [
+      ["Purpose-built expedition ship", "Yes (PC6 Polar Class)", "Yes (PC6 Polar Class)"],
+      ["Luxury oceanfront suites", "100% Veranda Suites", "100% Veranda Suites"],
+      ["Private furnished verandas", "Included across all categories", "Included across all categories"],
+      ["Zodiac operations & fleet", "24 Inflatable Zodiacs", "24 Inflatable Zodiacs"],
+      ["Kayaking & water sports", "Double sea kayaks included", "Double sea kayaks included"],
+      ["Expedition team on board", "26-person expert team", "26-person expert team"],
+      ["Polar & remote destinations", "Antarctica, Arctic, Europe", "Antarctica, Kimberley, South Pacific"],
+      ["Luxury dining venues", "Multiple fine dining venues", "Multiple fine dining venues"],
+      ["Swarovski Optik binoculars", "In every suite", "In every suite"]
+    ]
+  },
+  "antarcticDay": {
+    "title": "What Is a Seabourn Antarctica Expedition Like?",
+    "subtitle": "A typical day in polar waters blends thrilling wilderness landings with world-class onboard luxury. The schedule can change significantly depending on wildlife, ice, weather, sea conditions, and landing conditions.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Morning Briefing & Scenic Wakeup",
+        "description": "Wake up to a changing polar landscape and attend an expedition briefing over breakfast as the expedition leader outlines ice, weather, and wildlife conditions for the day."
+      },
+      {
+        "step": "02",
+        "title": "Late Morning Zodiac Landing",
+        "description": "Board Zodiacs for an immersive landing to walk amongst penguin rookeries or navigate tabular icebergs and approach marine wildlife at water level."
+      },
+      {
+        "step": "03",
+        "title": "Afternoon Lecture & Wildlife Observation",
+        "description": "Return to the ship for lunch, attend an insightful lecture presented by onboard marine biologists and geologists, or photograph wildlife from the expansive observation decks."
+      },
+      {
+        "step": "04",
+        "title": "Evening Fine Dining & Recap",
+        "description": "Enjoy six-star dinner while discussing the day's sightings with fellow travelers and expedition specialists, followed by the daily recap in the Discovery Center."
+      }
+    ]
+  },
+  "activities": {
+    "title": "Seabourn Expedition Activities",
+    "subtitle": "One of the biggest differences between Seabourn expedition cruising and conventional cruising is the number of opportunities to get off the ship and explore. The exact activity program varies by destination.",
+    "cards": [
+      {
+        "icon": "Sailboat",
+        "title": "Zodiac Excursions",
+        "description": "Reach remote shorelines, approach wildlife, and access locations larger ships cannot reach."
+      },
+      {
+        "icon": "Waves",
+        "title": "Kayaking",
+        "description": "Experience calm bays, fjords, and glacier environments at water level with expert guides."
+      },
+      {
+        "icon": "Footprints",
+        "title": "Hiking & Shore Landings",
+        "description": "Guided walks ranging from easy strolls to uneven, snow-covered terrain led by naturalists."
+      },
+      {
+        "icon": "Binoculars",
+        "title": "Wildlife Observation",
+        "description": "Close encounters with penguins, whales, polar bears, eagles, and diverse marine life."
+      },
+      {
+        "icon": "Camera",
+        "title": "Expedition Photography",
+        "description": "Capture icebergs, landscapes, glaciers, and wildlife with guidance from photo specialists."
+      },
+      {
+        "icon": "Ship",
+        "title": "Scenic Cruising",
+        "description": "Take in dramatic coastlines, waterfalls, and remote landscapes from open observation decks."
+      },
+      {
+        "icon": "Landmark",
+        "title": "Cultural Encounters",
+        "description": "Meet remote communities and learn about Indigenous culture, history, and traditions."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Expedition Lectures",
+        "description": "Engaging presentations from specialists between landings, covering science and history."
+      }
+    ]
+  },
+  "waysToExplore": {
+    "title": "Zodiacs, Kayaking & Hiking",
+    "subtitle": "Three primary expedition modes bring you right to the heart of pristine ecosystems.",
+    "columns": [
+      {
+        "icon": "Sailboat",
+        "title": "Zodiac Expeditions",
+        "description": "Zodiacs are central to the Seabourn expedition experience. These inflatable expedition boats allow guests to reach remote shorelines and approach wildlife in bays, fjords, beaches, and around ice.",
+        "bullets": [
+          "Reach remote shorelines & shallow waters",
+          "Explore hidden bays and narrow fjords",
+          "Approach wildlife safely at water level",
+          "Navigate around sculpted icebergs",
+          "A memorable highlight of every expedition"
+        ]
+      },
+      {
+        "icon": "Waves",
+        "title": "Guided Sea Kayaking",
+        "description": "Kayaking provides an intimate way to experience the destination at water level, gliding quietly through calm bays, glacier environments, and sheltered waterways under expert supervision.",
+        "bullets": [
+          "Calm bays and glacier environments",
+          "Sheltered waterways and fjord exploration",
+          "Trained kayak guides accompany every session",
+          "High-performance tandem expedition kayaks",
+          "Subject to weather and sea conditions"
+        ]
+      },
+      {
+        "icon": "Footprints",
+        "title": "Hiking & Shore Exploration",
+        "description": "Seabourn expedition cruises include guided walks and hikes. The difficulty varies by landing, with options tailored for various activity levels across rocks, mud, and snow.",
+        "bullets": [
+          "Guided nature walks and ridge hikes",
+          "Options for gentle walks to active ascents",
+          "Explores uneven terrain, rocks, mud, and snow",
+          "Accompanied by armed polar bear guards/naturalists",
+          "Activity descriptions provided before booking"
+        ]
+      }
+    ]
+  },
+  "wildlife": {
+    "title": "Wildlife Watching by Region",
+    "subtitle": "Wildlife is one of the strongest reasons travelers choose an expedition cruise. Sightings vary by destination and season.",
+    "items": [
+      {
+        "title": "Antarctica Wildlife",
+        "description": "Home to vast colonies of Adélie, Gentoo, and Chinstrap penguins, humpback and minke whales, orcas, Weddell and leopard seals, and soaring albatrosses.",
+        "tags": ["Penguins", "Whales", "Seals", "Albatross"]
+      },
+      {
+        "title": "Arctic & Svalbard Wildlife",
+        "description": "Encounter polar bears hunting on sea ice, walruses hauled out on beaches, Arctic foxes, beluga whales, and nesting seabird cliffs.",
+        "tags": ["Polar Bears", "Walrus", "Arctic Fox", "Beluga"]
+      },
+      {
+        "title": "Alaska Coastal Wildlife",
+        "description": "Spot coastal brown bears foraging along shorelines, bubble-net feeding humpback whales, orcas, bald eagles, and playful sea otters.",
+        "tags": ["Brown Bears", "Humpbacks", "Orcas", "Bald Eagles"]
+      },
+      {
+        "title": "The Kimberley Wildlife",
+        "description": "Witness prehistoric saltwater crocodiles, sea turtles, rock wallabies, flying foxes, migrating humpback whales, and tropical bird species.",
+        "tags": ["Saltwater Crocs", "Sea Turtles", "Rock Wallabies", "Birds"]
+      }
+    ],
+    "features": [
+      {
+        "title": "Antarctica Wildlife",
+        "description": "Home to vast colonies of Adélie, Gentoo, and Chinstrap penguins, humpback and minke whales, orcas, Weddell and leopard seals, and soaring albatrosses.",
+        "tags": ["Penguins", "Whales", "Seals", "Albatross"]
+      },
+      {
+        "title": "Arctic & Svalbard Wildlife",
+        "description": "Encounter polar bears hunting on sea ice, walruses hauled out on beaches, Arctic foxes, beluga whales, and nesting seabird cliffs.",
+        "tags": ["Polar Bears", "Walrus", "Arctic Fox", "Beluga"]
+      },
+      {
+        "title": "Alaska Coastal Wildlife",
+        "description": "Spot coastal brown bears foraging along shorelines, bubble-net feeding humpback whales, orcas, bald eagles, and playful sea otters.",
+        "tags": ["Brown Bears", "Humpbacks", "Orcas", "Bald Eagles"]
+      },
+      {
+        "title": "The Kimberley Wildlife",
+        "description": "Witness prehistoric saltwater crocodiles, sea turtles, rock wallabies, flying foxes, migrating humpback whales, and tropical bird species.",
+        "tags": ["Saltwater Crocs", "Sea Turtles", "Rock Wallabies", "Birds"]
+      }
+    ]
+  },
+  "equipment": {
+    "title": "Seabourn Expedition Equipment",
+    "subtitle": "Seabourn equips its expedition ships with commercial-grade exploration gear and in-suite optics for extraordinary wildlife viewing.",
+    "oceanview": {
+      "title": "Equipment Provided Onboard",
+      "bestFor": "A full arsenal of commercial-grade expedition hardware is integrated into the ship's marina and staging areas for immediate deployment.",
+      "advantages": [
+        "Fleet of 24 custom Zodiac expedition craft",
+        "High-end double sea kayaks with drysuits and safety gear",
+        "Swarovski Optik binoculars provided in every suite",
+        "Specialized landing craft and Zodiac boarding marina",
+        "Underwater cameras and 4K Cineflex broadcast mast camera",
+        "Photography equipment advice and digital media studio"
+      ]
+    },
+    "balcony": {
+      "title": "Expedition Clothing Guidelines",
+      "bestFor": "For polar expedition itineraries, Seabourn provides complimentary expedition parkas and loaner insulated boots for the duration of the voyage.",
+      "advantages": [
+        "Complimentary Seabourn custom polar expedition parka",
+        "Loaner insulated waterproof rubber boots for wet landings",
+        "Personal packing needed: moisture-wicking thermal base layers",
+        "Insulating mid-layers (fleece or lightweight down)",
+        "Waterproof pants and windproof outerwear",
+        "Warm gloves, beanies, neck gaiters, and UV sunglasses"
+      ]
+    }
+  },
+  "suitesStrategy": {
+    "title": "Seabourn Expedition Suites",
+    "subtitle": "Seabourn expedition ships offer all-suite accommodations, including Veranda Suites and larger premium categories — combining expedition adventure with luxury suite accommodation.",
+    "cards": [
+      {
+        "title": "You Might Use Your Veranda To",
+        "items": [
+          "Watch whales breach directly beside the ship in peaceful solitude",
+          "Photograph massive glaciers and icebergs from your private balcony",
+          "Observe seabirds soaring on oceanic thermals at eye level",
+          "Enjoy fresh morning coffee in your bathrobe while entering remote fjords",
+          "Follow rugged coastlines without leaving your private suite sanctuary"
+        ]
+      },
+      {
+        "title": "When Choosing a Suite, Consider",
+        "items": [
+          "Deck location and stability for open-ocean transits",
+          "Window and veranda configurations for panoramic wildlife viewing",
+          "Veranda square footage for outdoor relaxing and camera gear setup",
+          "Proximity to the Discovery Center, Marina, and observation lounges",
+          "Motion sensitivity and accessibility requirements"
+        ]
+      }
+    ]
+  },
+  "dining": {
+    "title": "Seabourn Expedition Dining",
+    "subtitle": "Expedition does not mean sacrificing dining. Seabourn maintains its six-star luxury culinary approach aboard its expedition ships.",
+    "features": [
+      {
+        "title": "Luxury Dining Without Compromise",
+        "description": "Guests enjoy multiple open-seating restaurants, including The Restaurant for gourmet dinners, The Colonnade for indoor/outdoor casual dining, and The Bow Lounge and Club for handcrafted bites. In-suite course-by-course dining, complimentary fine wines and premium spirits ensure world-class dining even in the most remote corners of the planet."
+      },
+      {
+        "title": "All-Inclusive Culinary Excellence",
+        "description": "From freshly prepared breakfast pastries to afternoon tea service, artisanal gelato, and customized dietary requests, Seabourn's culinary team provides an uncompromising fine-dining standard throughout your expedition."
+      }
+    ]
+  },
+  "teamAndLectures": {
+    "title": "Expedition Team, Lectures & Photography",
+    "subtitle": "A 26-person multidisciplinary team of scientists, historians, and photographers enriches every moment of your voyage.",
+    "columns": [
+      {
+        "icon": "Compass",
+        "title": "Expedition Team",
+        "description": "The expedition team is one of the most important components of the experience, accompanying Zodiacs, leading walks, and sharing deep insights.",
+        "bullets": [
+          "Marine biologists & ornithologists",
+          "Geologists & glaciologists",
+          "Historians & cultural anthropologists",
+          "Naturalists & kayak masters",
+          "Expert guidance on every landing"
+        ]
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Expedition Lectures",
+        "description": "Between landings and excursions, specialists provide interactive presentations in the state-of-the-art Discovery Center.",
+        "bullets": [
+          "Wildlife behavior and migration patterns",
+          "Polar exploration history and heritage",
+          "Geology, glaciers, and climate science",
+          "Indigenous communities and traditions",
+          "Daily recap & briefing sessions"
+        ]
+      },
+      {
+        "icon": "Camera",
+        "title": "Expedition Photography",
+        "description": "Expedition cruising is an exceptional fit for photographers. Dedicated photo specialists offer tips for capturing wildlife and icy landscapes.",
+        "bullets": [
+          "Onboard photo workshops and field guidance",
+          "Bring camera with weather & rain protection",
+          "Telephoto zoom lenses for distant wildlife",
+          "Extra batteries & moisture-sealed memory cards",
+          "Waterproof phone pouches for wet Zodiac rides"
+        ]
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "Seabourn Expedition Inclusions",
+    "subtitle": "A major benefit of booking a luxury expedition cruise is that many services and experiences are included. Depending on the sailing, inclusions can include:",
+    "personas": [
+      {
+        "title": "Onboard & Ashore",
+        "description": "Expert expedition team, daily Zodiac operations, guided shore landings, hiking excursions, and sea kayaking opportunities.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Suite & Dining",
+        "description": "All-suite luxury accommodations with private verandas, open-seating fine dining across all venues, and selected fine wines, spirits, and champagne.",
+        "icon": "Utensils"
+      },
+      {
+        "title": "Connectivity & Service",
+        "description": "Unlimited Starlink Wi-Fi, all onboard gratuities, 24-hour in-suite dining, and personalized suite host and attendant service.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Enrichment & Gear",
+        "description": "Daily expedition lectures, Swarovski Optik binoculars in every suite, polar parkas on select voyages, and live music entertainment.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "prosCons": {
+    "title": "Pros and Cons of Seabourn Expedition Cruises",
+    "prosTitle": "Expedition Advantages",
+    "consTitle": "Key Considerations",
+    "bestFor": [
+      "Luxury all-suite accommodation with private oceanfront verandas",
+      "Purpose-built PC6 polar class expedition ships (Venture & Pursuit)",
+      "Unrivaled wildlife observation opportunities with expert guides",
+      "Complimentary Zodiac operations, guided hikes, and sea kayaking",
+      "26-person multidisciplinary expert expedition science team",
+      "Small-ship intimacy with fewer than 264 guests per voyage",
+      "Six-star gourmet dining, fine wines, and premium spirits included",
+      "Swarovski Optik binoculars provided in every suite"
+    ],
+    "notBestFor": [
+      "Higher price point reflecting ultra-luxury expedition standards",
+      "Weather, sea, and ice conditions can alter scheduled plans",
+      "Wildlife sightings are wild and natural, not guaranteed on a strict timetable",
+      "More physical activity required for Zodiac boarding and uneven landings",
+      "Limited traditional large-ship entertainment (no casinos, Broadway shows)",
+      "Itinerary flexibility is mandatory due to remote wilderness navigation"
+    ],
+    "bottomNote": "Seabourn expedition cruising represents the pinnacle of luxury wilderness exploration for travelers who value authentic discovery without compromising on comfort."
+  },
+  "physicalActivity": {
+    "title": "How Physically Active Are Seabourn Expeditions?",
+    "subtitle": "Activity levels vary dramatically by itinerary, with options available for both energetic adventurers and relaxed sightseers.",
+    "items": [
+      {
+        "title": "Customizable Activity Levels",
+        "category": "Tailored Expedition Pace",
+        "description": "The answer varies dramatically by itinerary. Some activities are relatively easy; others may require walking over uneven ground, getting in and out of Zodiacs, hiking, standing for extended periods or navigating wet or slippery surfaces. Many travelers enjoy an expedition by combining scenic cruising, wildlife watching from deck, lectures, easier shore walks, and Zodiac sightseeing without doing strenuous hikes.",
+        "bestFor": "Active hikers, nature photographers, and relaxed scenic sightseers alike",
+        "placeholderLabel": "CUSTOMIZABLE EXPEDITION PACING"
+      },
+      {
+        "title": "Mobility Considerations for Older Travelers",
+        "category": "Senior & Mobility Guidance",
+        "description": "For older travelers, mobility matters more than chronological age. If you can comfortably walk, step into a Zodiac with crew assistance, and navigate uneven surfaces, you can participate in almost all activities. You are never obligated to participate in every landing.",
+        "bestFor": "Travelers of all ages capable of boarding Zodiacs with crew assistance",
+        "placeholderLabel": "SENIOR & MOBILITY ADVICE"
+      }
+    ],
+    "features": [
+      {
+        "title": "Customizable Activity Levels",
+        "description": "The answer varies dramatically by itinerary. Some activities are relatively easy; others may require walking over uneven ground, getting in and out of Zodiacs, hiking, standing for extended periods or navigating wet or slippery surfaces. Many travelers enjoy an expedition by combining scenic cruising, wildlife watching from deck, lectures, easier shore walks, and Zodiac sightseeing without doing strenuous hikes."
+      },
+      {
+        "title": "Mobility Considerations for Older Travelers",
+        "description": "For older travelers, mobility matters more than chronological age. If you can comfortably walk, step into a Zodiac with crew assistance, and navigate uneven surfaces, you can participate in almost all activities. You are never obligated to participate in every landing."
+      }
+    ]
+  },
+  "familyFriendly": {
+    "title": "Are Seabourn Expedition Cruises Family-Friendly?",
+    "subtitle": "An extraordinary educational adventure for families with older children and teenagers.",
+    "features": [
+      {
+        "title": "An Enriching Educational Voyage",
+        "description": "Seabourn expedition cruises can work well for families, though they are not traditional resort-style family cruises with kids' clubs or water slides. They are ideally suited for families with older children and teens interested in wildlife, science, nature, photography, and authentic exploration."
+      },
+      {
+        "title": "Shared Family Milestones",
+        "description": "A polar or tropical expedition creates unforgettable shared memories — watching orcas breach, stepping onto Antarctic ice, or exploring ancient Aboriginal rock art with top scientists."
+      }
+    ]
+  },
+  "couplesAndSolo": {
+    "title": "Couples & Solo Travelers on Seabourn Expeditions",
+    "subtitle": "A welcoming, sociable environment with the perfect blend of shared camaraderie and private romantic luxury.",
+    "oceanview": {
+      "title": "Couples & Honeymoons",
+      "bestFor": "A rare combination difficult to find anywhere else: thrilling remote adventure by day and five-star luxury, romance, and fine dining by night.",
+      "advantages": [
+        "Private verandas for intimate sunrise coffee and sunset champagne",
+        "Fine dining and personalized table reservations for two",
+        "Couples spa treatments and thermal suite relaxation after cold landings",
+        "Intimate small-ship atmosphere without crowded tour groups",
+        "Extraordinary milestone and anniversary celebrations at sea"
+      ]
+    },
+    "balcony": {
+      "title": "Solo Travelers",
+      "bestFor": "The shared nature of expedition travel naturally creates a warm, tight-knit community of like-minded explorers.",
+      "advantages": [
+        "Shared Zodiac rides, hikes, and excursions foster natural conversations",
+        "Hosted dinner tables and open-seating dining with officers and naturalists",
+        "Engaging lectures, science chats, and recap sessions in the lounge",
+        "Attentive suite hosts and crew who remember your personal preferences",
+        "Special single supplement promotions available on select departures"
+      ]
+    }
+  },
+  "expVsTraditional": {
+    "title": "Seabourn Expedition vs Traditional Seabourn Cruise",
+    "subtitle": "If your priority is exploration and wildlife, choose expedition. If your priority is relaxation, classic ports and resort luxury, a traditional Seabourn cruise is ideal.",
+    "headers": ["Feature", "Seabourn Expedition", "Traditional Seabourn Cruise"],
+    "rows": [
+      ["Remote wilderness destinations", "Primary focus (Antarctica, Arctic, Kimberley)", "Secondary (Port-intensive classics)"],
+      ["Wildlife observation opportunities", "World-class close-up encounters", "Incidental / Port excursions"],
+      ["Zodiac operations & shore landings", "Included daily (24 Zodiacs on board)", "Not offered (Tender boats for ports)"],
+      ["Sea kayaking in remote bays", "Included guided sea kayaking", "Not offered on ship"],
+      ["26-person scientific expedition team", "Included on every sailing", "Guest speakers / Port lecturers only"],
+      ["Luxury suites with private verandas", "100% Oceanfront Veranda Suites", "All-suite accommodations"],
+      ["Open-seating fine dining & beverages", "Included across all venues", "Included across all venues"],
+      ["Physical activity & landing intensity", "Higher (Zodiacs, uneven terrain, hikes)", "Lower (Paved city ports, motorcoaches)"],
+      ["Itinerary flexibility & weather pivots", "High (Follows wildlife, ice & weather)", "Fixed scheduled port timetables"]
+    ]
+  },
+  "vsOtherLines": {
+    "title": "Seabourn Expedition vs Other Luxury Expedition Lines",
+    "subtitle": "Seabourn's strongest selling point is its combination of intimate expedition exploration with the traditional Seabourn luxury experience.",
+    "personas": [
+      {
+        "title": "Seabourn vs Silversea Expeditions",
+        "description": "A close comparison between two ultra-luxury operators. Seabourn's custom-built Venture & Pursuit feature modern Scandinavian-inspired luxury and generous suite layouts.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Seabourn vs Scenic Eclipse",
+        "description": "Compares discovery yacht concepts with purpose-built expedition ships. Seabourn offers an unhurried, warm atmosphere with world-class guest-to-expedition-staff ratios.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Seabourn vs Ponant",
+        "description": "Weighing French-style luxury expedition cruising against Seabourn's intuitive English-speaking service, larger suites, and open-bar fine dining.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Seabourn vs Lindblad Expeditions",
+        "description": "A choice between adventure-first, National Geographic science-focused exploration and luxury-first expedition cruising with six-star dining.",
+        "icon": "Anchor"
+      }
+    ]
+  },
+  "costFactors": {
+    "title": "How Much Do Seabourn Expedition Cruises Cost?",
+    "subtitle": "Expedition cruise fares reflect specialized ships, small guest capacity, remote logistics, and inclusive luxury amenities.",
+    "cards": [
+      {
+        "title": "Key Pricing Factors",
+        "items": [
+          "Destination: Antarctica and Arctic polar voyages command higher operational costs",
+          "Ship & Suite category: Entry-level Veranda up to Owner's and Wintergarden Suites",
+          "Sailing date & Season: Peak polar summer months see the highest demand",
+          "Cruise length: 10-night highlights to 24+ night extended expeditions",
+          "Early booking promotions and single supplement waivers"
+        ]
+      },
+      {
+        "title": "What Is Included in Your Expedition Price",
+        "items": [
+          "All luxury oceanfront suite accommodations with private verandas",
+          "All meals and gourmet dining across multiple open-seating restaurants",
+          "Complimentary fine wines, premium spirits, craft cocktails, and champagne",
+          "Daily Zodiac operations, landings, and guided hiking excursions",
+          "Complimentary Starlink high-speed Wi-Fi throughout the ship",
+          "All onboard crew gratuities and service charges",
+          "Swarovski Optik binoculars in every suite and custom polar parkas"
+        ]
+      }
+    ]
+  },
+  "packing": {
+    "title": "What to Pack for a Seabourn Expedition",
+    "subtitle": "Your packing list depends heavily on the destination. Don't pack only for the destination — pack for the transition between environments.",
+    "cards": [
+      {
+        "icon": "Backpack",
+        "title": "Layering System",
+        "description": "Bring moisture-wicking thermal base layers and lightweight fleece mid-layers rather than one bulky jacket."
+      },
+      {
+        "icon": "CloudRain",
+        "title": "Waterproof Outerwear",
+        "description": "Waterproof rain pants and windproof shells protect against ocean spray during Zodiac rides."
+      },
+      {
+        "icon": "Footprints",
+        "title": "Comfortable Footwear",
+        "description": "Sturdy waterproof hiking shoes for uneven terrain plus comfortable casual shoes onboard."
+      },
+      {
+        "icon": "Thermometer",
+        "title": "Gloves, Beanie & Neck Gaiter",
+        "description": "Essential for polar itineraries. Windproof gloves with touchscreen capability are highly recommended."
+      },
+      {
+        "icon": "Camera",
+        "title": "Camera & Lens Gear",
+        "description": "Bring telephoto lenses for wildlife, wide-angle lenses for landscapes, lens wipes, and spare batteries."
+      },
+      {
+        "icon": "Binoculars",
+        "title": "Binoculars & Optics",
+        "description": "Seabourn provides Swarovski binoculars in every suite, but travelers may bring compact favorites."
+      },
+      {
+        "icon": "Backpack",
+        "title": "Waterproof Daypack",
+        "description": "A 20-30L waterproof dry bag or backpack keeps your camera, extra layers, and water safe on landings."
+      },
+      {
+        "icon": "CloudRain",
+        "title": "Phone Waterproof Case",
+        "description": "A lanyard waterproof phone pouch is invaluable for taking photos during wet Zodiac transits."
+      }
+    ]
+  },
+  "bestTime": {
+    "title": "Best Time for Seabourn Expedition Cruises",
+    "subtitle": "There isn't one universal best time — it depends on the destination. Always evaluate the specific sailing because wildlife behavior and weather vary.",
+    "bentoItems": [
+      {
+        "title": "Antarctica Expeditions",
+        "stat": "Nov – Mar",
+        "description": "The Southern Hemisphere summer offers 20+ hours of daylight. Nov/Dec has pristine snow & courtship; Jan/Feb features penguin chicks & peak whale sightings."
+      },
+      {
+        "title": "Arctic & Svalbard",
+        "stat": "May – Sep",
+        "description": "Northern summer unlocks polar pack ice, 24-hour midnight sun, blooming tundra, walruses, polar bears, and migratory seabirds."
+      },
+      {
+        "title": "Alaska Expeditions",
+        "stat": "May – Sep",
+        "description": "Summer delivers lush coastal temperate rainforests, calving glaciers, salmon runs, foraging brown bears, and humpback whale migrations."
+      },
+      {
+        "title": "The Kimberley",
+        "stat": "May – Sep",
+        "description": "Australia's dry season provides mild weather, majestic waterfalls after wet-season rains, calm seas, and active wildlife."
+      }
+    ],
+    "items": [
+      {
+        "title": "Antarctica Expedition Season",
+        "timeframe": "November – March",
+        "description": "The Southern Hemisphere summer offers 20+ hours of daylight. Nov/Dec has pristine snow & courtship; Jan/Feb features penguin chicks & peak whale sightings."
+      },
+      {
+        "title": "Arctic & Svalbard Season",
+        "timeframe": "May – September",
+        "description": "Northern summer unlocks polar pack ice, 24-hour midnight sun, blooming tundra, walruses, polar bears, and migratory seabirds."
+      },
+      {
+        "title": "Alaska Expedition Season",
+        "timeframe": "May – September",
+        "description": "Summer delivers lush coastal temperate rainforests, calving glaciers, salmon runs, foraging brown bears, and humpback whale migrations."
+      },
+      {
+        "title": "The Kimberley Dry Season",
+        "timeframe": "May – September",
+        "description": "Australia's dry season provides mild weather, majestic waterfalls after wet-season rains, calm seas, and active wildlife."
+      }
+    ],
+    "personas": [
+      {
+        "title": "Antarctica: Nov – Mar",
+        "description": "The Southern Hemisphere summer offers 20+ hours of daylight. Nov/Dec has pristine snow & courtship; Jan/Feb features penguin chicks & peak whale sightings.",
+        "icon": "Snowflake"
+      },
+      {
+        "title": "Arctic: May – Sep",
+        "description": "Northern summer unlocks polar pack ice, 24-hour midnight sun, blooming tundra, walruses, polar bears, and migratory seabirds.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Alaska: May – Sep",
+        "description": "Summer delivers lush coastal temperate rainforests, calving glaciers, salmon runs, foraging brown bears, and humpback whale migrations.",
+        "icon": "Mountain"
+      },
+      {
+        "title": "The Kimberley: May – Sep",
+        "description": "Australia's dry season provides mild weather, majestic waterfalls after wet-season rains, calm seas, and active wildlife.",
+        "icon": "Anchor"
+      }
+    ]
+  },
+  "whoShouldBook": {
+    "title": "Who Should Book a Seabourn Expedition Cruise?",
+    "subtitle": "A tailored experience for discerning travelers seeking authentic discovery paired with uncompromising luxury.",
+    "personas": [
+      {
+        "title": "Luxury Travelers",
+        "description": "Travelers who refuse to sacrifice suite comfort, fine dining, or intuitive service while exploring remote destinations.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Wildlife Enthusiasts",
+        "description": "Nature lovers who want close, respectful encounters with polar bears, penguins, whales, and rare seabirds in natural habitats.",
+        "icon": "Binoculars"
+      },
+      {
+        "title": "Passionate Photographers",
+        "description": "Photographers who want extraordinary landscapes, dramatic ice formations, and wildlife under changing polar light.",
+        "icon": "Camera"
+      },
+      {
+        "title": "Adventurous Couples",
+        "description": "Couples seeking an unforgettable milestone journey blending remote thrills by day with romantic luxury by night.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Experienced Cruisers",
+        "description": "Seasoned cruisers ready to graduate from traditional port itineraries to active, exploratory small-ship travel.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Multigenerational Explorers",
+        "description": "Families with older kids and teens who want an enriching scientific adventure rather than a generic resort vacation.",
+        "icon": "Users"
+      }
+    ]
+  },
+  "whoShouldSkip": {
+    "title": "Who Should Skip a Seabourn Expedition?",
+    "subtitle": "An expedition cruise may not be ideal if you fit the profile below. For those travelers, a traditional Seabourn cruise may be a better fit.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Predictable Port Schedules",
+        "description": "Prefer rigidly predictable, minute-by-minute port schedules and fixed docking times."
+      },
+      {
+        "number": "02",
+        "title": "Dislike for Polar & Wild Nature",
+        "description": "Do not enjoy wildlife observation, outdoor rugged nature, or remote wilderness environments."
+      },
+      {
+        "number": "03",
+        "title": "Large-Ship Resort Entertainment",
+        "description": "Seek large-ship casino gambling, water slides, mega-theaters, or commercial Broadway productions."
+      },
+      {
+        "number": "04",
+        "title": "Severe Mobility Limitations",
+        "description": "Have severe mobility limitations that prevent stepping in and out of Zodiacs with crew assistance."
+      },
+      {
+        "number": "05",
+        "title": "Adverse Weather Sensitivity",
+        "description": "Dislike cold, ocean spray, wind, rain, or navigating changing ocean conditions."
+      },
+      {
+        "number": "06",
+        "title": "Rigid Itinerary Expectations",
+        "description": "Are uncomfortable with necessary weather-related and wildlife-driven itinerary adjustments."
+      },
+      {
+        "number": "07",
+        "title": "Pure Resort Sunbathing",
+        "description": "Prefer pure poolside sunbathing and resort relaxation over active exploratory shore landings."
+      },
+      {
+        "number": "08",
+        "title": "Commercial Nightlife Enthusiasts",
+        "description": "Expect large-group party venues, crowded dance clubs, and late-night commercial nightlife."
+      }
+    ],
+    "cards": [
+      {
+        "title": "Expedition Cruising May Not Fit If You",
+        "items": [
+          "Prefer rigidly predictable, minute-by-minute port schedules",
+          "Do not enjoy wildlife observation, outdoor nature, or cold weather",
+          "Seek large-ship casino gambling, water slides, or Broadway productions",
+          "Have severe mobility limitations that prevent stepping into Zodiacs",
+          "Dislike cold, rain, wind, or changing ocean conditions",
+          "Are uncomfortable with weather-related itinerary adjustments",
+          "Prefer pure sunbathing and resort relaxation over active discovery",
+          "Expect large-group entertainment and late-night commercial nightlife"
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What are Seabourn expedition cruises?",
+      "answer": "Seabourn expedition cruises combine luxury cruising with exploration of remote destinations using purpose-built expedition ships, Zodiacs, kayaks and expert-led activities."
+    },
+    {
+      "question": "What ships does Seabourn use for expeditions?",
+      "answer": "Seabourn's dedicated expedition ships are Seabourn Venture and Seabourn Pursuit."
+    },
+    {
+      "question": "Where do Seabourn expedition cruises go?",
+      "answer": "Destinations can include Antarctica, the Arctic, Greenland, Alaska, the Kimberley, Patagonia, Indonesia, Papua New Guinea and other remote regions, depending on the season and itinerary."
+    },
+    {
+      "question": "Does Seabourn go to Antarctica?",
+      "answer": "Yes. Antarctica is one of Seabourn's major expedition destinations and offers opportunities for Zodiac exploration, wildlife observation, shore landings and photography."
+    },
+    {
+      "question": "Does Seabourn expedition cruising include Zodiac excursions?",
+      "answer": "Zodiac operations are a core part of the expedition experience, allowing guests to explore remote coastlines and access shore landing locations. Specific excursions depend on weather, local conditions and the itinerary."
+    },
+    {
+      "question": "Does Seabourn offer kayaking?",
+      "answer": "Yes. Kayaking is available on applicable expedition itineraries, subject to weather, sea conditions, safety requirements and local circumstances."
+    },
+    {
+      "question": "Does Seabourn provide binoculars?",
+      "answer": "Yes. Swarovski Optik binoculars are provided in every suite aboard Seabourn Venture and Seabourn Pursuit."
+    },
+    {
+      "question": "Are Seabourn expedition cruises all-inclusive?",
+      "answer": "Seabourn includes many components of the luxury expedition experience, including dining, selected beverages, Wi-Fi, gratuities and expedition activities depending on the sailing. Travelers should review the specific inclusions for their itinerary."
+    },
+    {
+      "question": "Are Seabourn expedition cruises expensive?",
+      "answer": "They are positioned at the luxury end of the expedition market. Prices vary based on destination, sailing date, cruise length, suite category and demand."
+    },
+    {
+      "question": "Are Seabourn expedition cruises physically demanding?",
+      "answer": "Some activities can be physically demanding because they may involve Zodiac boarding, uneven terrain, hiking or wet landings. The difficulty varies considerably by destination and excursion."
+    },
+    {
+      "question": "Are Seabourn expedition cruises good for families?",
+      "answer": "They can be excellent for families with older children or teenagers who enjoy wildlife, science, nature and adventure. However, the experience is more expedition-focused than a conventional family cruise."
+    },
+    {
+      "question": "Are Seabourn expedition cruises good for solo travelers?",
+      "answer": "Yes. Shared expedition activities, lectures, Zodiac excursions and small-ship dining create natural opportunities for solo travelers to meet other guests."
+    },
+    {
+      "question": "What should I pack for a Seabourn expedition cruise?",
+      "answer": "Pack layers, waterproof clothing, comfortable footwear, weather protection, a small backpack and appropriate camera equipment. Polar itineraries require additional cold-weather clothing."
+    },
+    {
+      "question": "Can Seabourn expedition itineraries change?",
+      "answer": "Yes. Expedition itineraries can change because of weather, sea conditions, wildlife, ice, local regulations and landing conditions. Flexibility is an inherent part of expedition cruising."
+    },
+    {
+      "question": "Is Seabourn Venture an expedition ship?",
+      "answer": "Yes. Seabourn Venture is a purpose-built expedition ship designed to operate in remote environments while providing Seabourn's luxury suite and service experience."
+    },
+    {
+      "question": "Is Seabourn Pursuit an expedition ship?",
+      "answer": "Yes. Seabourn Pursuit is Seabourn's second dedicated expedition ship and is designed for remote exploration and wildlife-focused itineraries."
+    },
+    {
+      "question": "What is the difference between a Seabourn expedition cruise and a regular Seabourn cruise?",
+      "answer": "An expedition cruise places much greater emphasis on remote destinations, wildlife, Zodiac exploration, kayaking, shore landings and expert-led discovery. Traditional Seabourn cruises generally focus more on ports, relaxation and classic luxury cruising."
+    },
+    {
+      "question": "Is Seabourn good for an Antarctica cruise?",
+      "answer": "Seabourn can be an excellent choice for travelers who want an Antarctic expedition combined with luxury suites, fine dining, personalized service and expedition activities."
+    }
+  ],
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Our Seabourn Expedition Verdict: Luxury Exploration, Not Just Adventure",
+        "paragraphs": [
+          "Seabourn expedition cruises are best understood as luxury exploration rather than adventure cruising alone. The experience combines purpose-built expedition ships, luxury suites, private verandas, expert expedition teams, Zodiacs, kayaking, wildlife encounters, remote destinations, fine dining and personalized service.",
+          "The two ships — Seabourn Venture and Seabourn Pursuit — provide the platform for exploring some of the world's most remarkable environments. The biggest thing to remember is that expedition cruising is inherently unpredictable, and that's precisely what makes an expedition different from an ordinary cruise."
+        ]
+      },
+      {
+        "heading": "Our Recommendation",
+        "paragraphs": [
+          "Key recommendation: If you want to see Antarctica, the Arctic, Alaska or the Kimberley without giving up the comfort and service of an ultra-luxury cruise, Seabourn's expedition program can be an exceptional choice."
+        ]
+      }
+    ]
+  }
+}
