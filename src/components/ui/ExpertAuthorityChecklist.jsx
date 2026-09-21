@@ -24,7 +24,7 @@ const ExpertAuthorityChecklist = ({ title, subtitle, points }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {points.map((point, idx) => (
-            <FadeIn key={idx} delay={idx * 50}>
+            <FadeIn key={idx} delay={idx * 0.04}>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 h-full flex items-start space-x-4 hover:shadow-md transition-shadow duration-300">
                 <div className="bg-gold-400/10 p-2 rounded-full shrink-0">
                   <CheckCircle2 className="w-5 h-5 text-gold-400" />

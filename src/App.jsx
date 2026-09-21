@@ -193,6 +193,11 @@ import Seabournoffersloyalty  from "./pages/Seabournoffersloyalty/Seabournoffers
 import Seabourncruisequote   from "./pages/Seabourncruisequote/Seabourncruisequote";
 import Seabourndresscode    from "./pages/Seabourndresscode/Seabourndresscode";
 import SeabournVsSilverseaVsRegent from "./pages/SeabournVsSilverseaVsRegent/SeabournVsSilverseaVsRegent";
+import IsSeabournGoodForFirstTimeCruisers from "./pages/IsSeabournGoodForFirstTimeCruisers/IsSeabournGoodForFirstTimeCruisers";
+import IsSeabournGoodForSoloTravelers from "./pages/IsSeabournGoodForSoloTravelers/IsSeabournGoodForSoloTravelers";
+import IsSeabournGoodForFamiliesAndChildren from "./pages/IsSeabournGoodForFamiliesAndChildren/IsSeabournGoodForFamiliesAndChildren";
+import WhatIsAverageAgeOnSeabourn from "./pages/WhatIsAverageAgeOnSeabourn/WhatIsAverageAgeOnSeabourn";
+import IsSeabournTooFormalTooOldTooQuiet from "./pages/IsSeabournTooFormalTooOldTooQuiet/IsSeabournTooFormalTooOldTooQuiet";
 
 
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
@@ -704,6 +709,16 @@ function App() {
           <Route path="/seabourn-cruises/solo-travelers" element={<SeabournSoloTravelers />} />
           <Route path="/seabourn-cruises/world-cruises" element={<SeabournWorldCruises />} />
           <Route path="/seabourn-cruises/is-seabourn-worth-it" element={<IsSeabournWorthPrice />} />
+          <Route path="/seabourn-cruises/is-seabourn-good-for-first-time-cruisers" element={<IsSeabournGoodForFirstTimeCruisers />} />
+          <Route path="/seabourn-cruises/is-seabourn-good-for-first-time-cruisers/" element={<IsSeabournGoodForFirstTimeCruisers />} />
+          <Route path="/seabourn-cruises/is-seabourn-good-for-solo-travelers" element={<IsSeabournGoodForSoloTravelers />} />
+          <Route path="/seabourn-cruises/is-seabourn-good-for-solo-travelers/" element={<IsSeabournGoodForSoloTravelers />} />
+          <Route path="/seabourn-cruises/is-seabourn-good-for-families-and-children" element={<IsSeabournGoodForFamiliesAndChildren />} />
+          <Route path="/seabourn-cruises/is-seabourn-good-for-families-and-children/" element={<IsSeabournGoodForFamiliesAndChildren />} />
+          <Route path="/seabourn-cruises/average-age" element={<WhatIsAverageAgeOnSeabourn />} />
+          <Route path="/seabourn-cruises/average-age/" element={<WhatIsAverageAgeOnSeabourn />} />
+          <Route path="/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet" element={<IsSeabournTooFormalTooOldTooQuiet />} />
+          <Route path="/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet/" element={<IsSeabournTooFormalTooOldTooQuiet />} />
           <Route path="/seabourn-cruises/cost" element={<HowMuchDoesSeabournCruiseCost />} />
           <Route path="/seabourn-cruises/offers-loyalty" element={<Seabournoffersloyalty />} />
           <Route path="/seabourn-cruises/request-a-quote" element={<Seabourncruisequote />} />

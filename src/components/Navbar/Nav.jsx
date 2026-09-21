@@ -1512,6 +1512,46 @@ const Nav = () => {
               </NavLink>
 
               <NavLink
+                to="/seabourn-cruises/is-seabourn-good-for-first-time-cruisers"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Seabourn Good for First-Time Cruisers?
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/is-seabourn-good-for-solo-travelers"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Seabourn Good for Solo Travelers?
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/is-seabourn-good-for-families-and-children"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Seabourn Good for Families and Children?
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/average-age"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                What Is the Average Age on Seabourn?
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Seabourn Too Formal, Too Old or Too Quiet?
+              </NavLink>
+
+              <NavLink
                 to="/seabourn-cruises/cost"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -3100,6 +3140,38 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Is Seabourn Worth it?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/is-seabourn-good-for-first-time-cruisers"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Seabourn Good for First-Time Cruisers?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/is-seabourn-good-for-solo-travelers"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Seabourn Good for Solo Travelers?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/is-seabourn-good-for-families-and-children"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Seabourn Good for Families and Children?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/average-age"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              What Is the Average Age on Seabourn?
             </NavLink>
 
 

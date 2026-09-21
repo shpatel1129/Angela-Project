@@ -54,30 +54,73 @@ import SmartSpendingSplit from '@/components/ui/SmartSpendingSplit';
 import MistakesGrid from '@/components/ui/MistakesGrid';
 import ProsConsCards from '@/components/ui/ProsConsCards';
 import InteractivePillarHubGrid from '@/components/ui/InteractivePillarHubGrid';
+import VideoEmbed from '@/components/ui/VideoEmbed';
 
 // Assets
 import AboutImage from "../../assets/AboutAngela.jpeg";
-// Image Placeholder References (MasterImage automatically renders UI placeholder boxes)
-const SeabournOverviewImg = null;
-const SeabournSuiteImg = null;
-const SeabournDiningImg = null;
-const SeabournDroneImg = null;
-const SeabournEncoreImg = null;
-const SeabournPoolDeckImg = null;
-const GlacierImg = null;
-const SuiteServicesImg = null;
-const oceanPlaceholderImg = null;
-const expeditionPlaceholderImg = null;
-const wellnessPlaceholderImg = null;
+
+// Seabourn Cruises SEO-Optimized Image Assets
+import SeabournHeroImg from "../../assets/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg";
+import SeabournOverviewImg from "../../assets/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg";
+import SeabournSuitesImg from "../../assets/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg";
+import SeabournSmallShipsImg from "../../assets/SeabournCruises/seabourn-small-luxury-ships-intimate-experience.jpg";
+import SeabournAllSuiteImg from "../../assets/SeabournCruises/seabourn-oceanfront-luxury-veranda-suites.jpg";
+import SeabournPersonalizedServiceImg from "../../assets/SeabournCruises/seabourn-intuitive-personalized-luxury-service.jpg";
+import SeabournFineDiningImg from "../../assets/SeabournCruises/seabourn-gourmet-fine-dining-culinary-experience.jpg";
+import SeabournWorldwideDestinationsImg from "../../assets/SeabournCruises/seabourn-worldwide-destination-focused-itineraries.jpg";
+import SeabournExpeditionImg from "../../assets/SeabournCruises/seabourn-purpose-built-ultra-luxury-expedition-cruises.jpg";
+import SeabournOceanCruisesImg from "../../assets/SeabournCruises/seabourn-ocean-cruises-luxury-yacht-experience.jpg";
+import SeabournQuestImg from "../../assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg";
+import SeabournEncoreImg from "../../assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg";
+import SeabournOvationImg from "../../assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg";
+import SeabournVentureImg from "../../assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg";
+import SeabournPursuitImg from "../../assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg";
+import SeabournDining1Img from "../../assets/SeabournCruises/seabourn-the-restaurant-primary-fine-dining.jpg";
+import SeabournDining2Img from "../../assets/SeabournCruises/seabourn-the-colonnade-casual-regional-dining.jpg";
+import SeabournDining3Img from "../../assets/SeabournCruises/seabourn-in-suite-private-veranda-dining-service.jpg";
+import SeabournOnboardLifeImg from "../../assets/SeabournCruises/seabourn-onboard-luxury-lifestyle-all-inclusive-amenities.jpg";
+import SeabournMedImg from "../../assets/SeabournCruises/seabourn-mediterranean-cruise-amalfi-coast-italy.jpg";
+import SeabournAlaskaImg from "../../assets/SeabournCruises/seabourn-alaska-inside-passage-glacier-wilderness-cruise.jpeg";
+import SeabournJapanImg from "../../assets/SeabournCruises/seabourn-japan-autumn-foliage-cultural-cruise.jpg";
+import SeabournNorthEuropeImg from "../../assets/SeabournCruises/seabourn-northern-europe-scandinavia-baltic-cruise.jpg";
+import SeabournAntarcticaImg from "../../assets/SeabournCruises/seabourn-antarctica-luxury-polar-expedition-cruise.webp";
+import SeabournArcticImg from "../../assets/SeabournCruises/seabourn-arctic-northwest-passage-polar-expedition-cruise.webp";
+import SeabournKimberleyImg from "../../assets/SeabournCruises/seabourn-kimberley-australia-coastal-wilderness-expedition.jpg";
+import SeabournShoreExcursionsImg from "../../assets/SeabournCruises/seabourn-curated-shore-excursions-unesco-tours.jpg";
+import SeabournVenturesImg from "../../assets/SeabournCruises/ventures-by-seabourn-guided-zodiac-kayak-expeditions.jpg";
+import SeabournConversationsImg from "../../assets/SeabournCruises/seabourn-conversations-onboard-expert-lectures-enrichment.jpg";
+import SeabournWellnessImg from "../../assets/SeabournCruises/seabourn-mindful-living-wellness-spa-relaxation.jpg";
+import SeabournCouplesImg from "../../assets/SeabournCruises/seabourn-luxury-cruise-for-couples-honeymoons-anniversaries.jpg";
+import SeabournCulturalImg from "../../assets/SeabournCruises/seabourn-cultural-travelers-heritage-exploration.jpg";
+import SeabournFamiliesImg from "../../assets/SeabournCruises/seabourn-luxury-family-multigenerational-cruises.jpg";
+import SeabournSoloImg from "../../assets/SeabournCruises/seabourn-solo-travelers-luxury-single-cruising.jpg";
+import SeabournWorthItImg from "../../assets/SeabournCruises/is-seabourn-worth-the-price-luxury-cruise-value-review.jpg";
+import SeabournVsSilverseaImg from "../../assets/SeabournCruises/seabourn-vs-silversea-luxury-cruise-line-comparison.jpg";
+import SeabournVsRegentImg from "../../assets/SeabournCruises/seabourn-vs-regent-seven-seas-all-inclusive-comparison.jpg";
+import SeabournVsExploraImg from "../../assets/SeabournCruises/seabourn-vs-explora-journeys-modern-ocean-luxury-comparison.jpg";
+import SeabournVsScenicImg from "../../assets/SeabournCruises/seabourn-vs-scenic-ocean-and-expedition-cruise-comparison.webp";
+import SeabournFleetImg from "../../assets/SeabournCruises/seabourn-complete-fleet-overview-and-ships-guide.jpg";
+import SeabournCtaImg from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
 
 const SeabournCruises = () => {
 
   // 1. Map 7 Why Choose Cards for GrandBentoFeatures
-  const whyChooseBentoFeatures = pageData.whyChoose.cards.map((card) => ({
+  const whyChooseImages = [
+    { image: SeabournSmallShipsImg, alt: "Seabourn intimate boutique luxury cruise ship sailing into port" },
+    { image: SeabournAllSuiteImg, alt: "Seabourn all-suite oceanfront luxury accommodations with private balcony" },
+    { image: SeabournPersonalizedServiceImg, alt: "Intuitive personalized luxury service and hospitality onboard Seabourn" },
+    { image: SeabournFineDiningImg, alt: "Seabourn gourmet fine dining culinary dish presentation" },
+    { image: SeabournDining2Img, alt: "Complimentary fine wines and premium spirits served onboard Seabourn" },
+    { image: SeabournWorldwideDestinationsImg, alt: "Seabourn destination-focused worldwide itineraries and boutique harbors" },
+    { image: SeabournExpeditionImg, alt: "Seabourn purpose-built luxury expedition ship navigating polar ice" }
+  ];
+
+  const whyChooseBentoFeatures = pageData.whyChoose.cards.map((card, idx) => ({
     title: card.title,
     description: card.description,
     icon: card.icon,
-    image: null,
+    image: whyChooseImages[idx]?.image || null,
+    alt: whyChooseImages[idx]?.alt || card.title,
     placeholderLabel: card.title
   }));
 
@@ -98,17 +141,18 @@ const SeabournCruises = () => {
 
   // 3. Map 5 Fleet Ships for HighlightsSplit
   const fleetShipImages = [
-    SeabournOverviewImg,
-    SeabournEncoreImg,
-    SeabournDroneImg,
-    GlacierImg,
-    SeabournPoolDeckImg
+    { image: SeabournQuestImg, alt: "Seabourn Quest ocean luxury cruise ship sailing the coastline" },
+    { image: SeabournEncoreImg, alt: "Seabourn Encore modern luxury cruise ship at sea" },
+    { image: SeabournOvationImg, alt: "Seabourn Ovation ultra-luxury small cruise vessel in harbor" },
+    { image: SeabournVentureImg, alt: "Seabourn Venture purpose-built polar luxury expedition ship" },
+    { image: SeabournPursuitImg, alt: "Seabourn Pursuit expedition cruise ship navigating remote waterways" }
   ];
 
   const fleetHighlightsItems = pageData.ships.fleet.map((ship, idx) => ({
     title: `${ship.name} (${ship.meta})`,
     description: ship.desc,
-    image: fleetShipImages[idx] || null,
+    image: fleetShipImages[idx]?.image || null,
+    alt: fleetShipImages[idx]?.alt || `${ship.name} - Seabourn luxury ${ship.meta.toLowerCase()} cruise ship`,
     icon: "Ship",
     bulletPoints: ship.best.map((tag) => `Best For: ${tag}`)
   }));
@@ -134,15 +178,19 @@ const SeabournCruises = () => {
   ];
 
   // 5. Map 3 Dining Venues for ThreeColumnGrid
-  const diningItems = pageData.dining.cards.map((venue, idx) => {
-    const diningImgs = [SeabournDiningImg, SeabournPoolDeckImg, SuiteServicesImg];
-    return {
-      title: venue.title,
-      description: venue.description,
-      image: diningImgs[idx] || null,
-      placeholderLabel: venue.title
-    };
-  });
+  const diningImages = [
+    { image: SeabournDining1Img, alt: "The Restaurant - Seabourn open-seating primary fine dining room" },
+    { image: SeabournDining2Img, alt: "The Colonnade - Seabourn casual and regional indoor-outdoor dining venue" },
+    { image: SeabournDining3Img, alt: "Seabourn in-suite course-by-course private veranda dining service" }
+  ];
+
+  const diningItems = pageData.dining.cards.map((venue, idx) => ({
+    title: venue.title,
+    description: venue.description,
+    image: diningImages[idx]?.image || null,
+    alt: diningImages[idx]?.alt || venue.title,
+    placeholderLabel: venue.title
+  }));
 
   // 6. Map Inclusions for ValueBreakdownSplit
   const includedItems = pageData.includes.categories.slice(0, 4).map((cat) => ({
@@ -163,13 +211,13 @@ const SeabournCruises = () => {
 
   // 7. Map 7 Worldwide Destinations for TravelerProfileTabs
   const destinationImages = [
-    SeabournDroneImg, // Mediterranean
-    GlacierImg, // Alaska
-    SeabournOverviewImg, // Japan
-    SeabournPoolDeckImg, // Northern Europe
-    expeditionPlaceholderImg, // Antarctica
-    GlacierImg, // Arctic & Northwest Passage
-    SeabournEncoreImg // Kimberley
+    { image: SeabournMedImg, alt: "Seabourn Mediterranean cruise sailing Amalfi Coast and Italian Riviera" },
+    { image: SeabournAlaskaImg, alt: "Seabourn Alaska Inside Passage glacier and scenic wilderness cruise" },
+    { image: SeabournJapanImg, alt: "Seabourn Japan cultural heritage and autumn foliage cruise" },
+    { image: SeabournNorthEuropeImg, alt: "Seabourn Northern Europe Scandinavian fjords and Baltic capitals cruise" },
+    { image: SeabournAntarcticaImg, alt: "Seabourn Antarctica luxury expedition cruise iceberg reflection" },
+    { image: SeabournArcticImg, alt: "Seabourn Arctic and Northwest Passage remote polar expedition voyage" },
+    { image: SeabournKimberleyImg, alt: "Seabourn Kimberley Australia remote coastal wilderness and tidal waterfall expedition" }
   ];
 
   const destinationProfiles = pageData.destinations.items.map((dest, idx) => ({
@@ -179,14 +227,23 @@ const SeabournCruises = () => {
     recommendation: dest.subtitle,
     reason: dest.best ? `Best for: ${dest.best}` : '',
     whyFits: dest.listItems,
-    image: destinationImages[idx] || null
+    image: destinationImages[idx]?.image || null,
+    alt: destinationImages[idx]?.alt || `${dest.title} Seabourn Cruise Destination`,
+    placeholderLabel: `${dest.title.toUpperCase()} SEABOURN CRUISE`
   }));
 
   // 8. Map 3 Shore & Enrichment Programs for ThreeColumnGrid
-  const experienceItems = pageData.experiences.cards.map((exp) => ({
+  const experienceImages = [
+    { image: SeabournShoreExcursionsImg, alt: "Curated Seabourn shore excursions and UNESCO World Heritage destination tours" },
+    { image: SeabournVenturesImg, alt: "Ventures by Seabourn guided Zodiac tours and sea kayaking expeditions" },
+    { image: SeabournConversationsImg, alt: "Seabourn Conversations onboard expert enrichment lectures and guest speaker series" }
+  ];
+
+  const experienceItems = pageData.experiences.cards.map((exp, idx) => ({
     title: exp.title,
     description: `${exp.description} ${exp.listTitle} ${exp.tags.join(', ')}. ${exp.footer}`,
-    image: null,
+    image: experienceImages[idx]?.image || null,
+    alt: experienceImages[idx]?.alt || exp.title,
     placeholderLabel: exp.title
   }));
 
@@ -202,11 +259,20 @@ const SeabournCruises = () => {
   }));
 
   // 10. Map 5 Traveler Personas for GrandBentoFeatures
-  const bestForPersonaFeatures = pageData.bestFor.personas.map((persona) => ({
+  const bestForImages = [
+    { image: SeabournCouplesImg, alt: "Couples enjoying romantic Seabourn luxury ocean cruise vacation" },
+    { image: SeabournPersonalizedServiceImg, alt: "Discerning experienced luxury travelers enjoying bespoke Seabourn service" },
+    { image: SeabournExpeditionImg, alt: "Adventure travelers exploring polar wildlife and ice on Seabourn expedition" },
+    { image: SeabournCulturalImg, alt: "Cultural travelers exploring historic architecture and local traditions" },
+    { image: SeabournSmallShipsImg, alt: "Luxury cruisers enjoying intimate boutique small ship atmosphere" }
+  ];
+
+  const bestForPersonaFeatures = pageData.bestFor.personas.map((persona, idx) => ({
     title: persona.title,
     description: `Tailored for: ${persona.items.join(', ')}.`,
     icon: persona.icon,
-    image: null,
+    image: bestForImages[idx]?.image || null,
+    alt: bestForImages[idx]?.alt || persona.title,
     placeholderLabel: persona.title
   }));
 
@@ -224,7 +290,8 @@ const SeabournCruises = () => {
       category: pageData.qaDeepDives.families.eyebrow,
       description: `${pageData.qaDeepDives.families.intro} ${pageData.qaDeepDives.families.cardTitle} ${pageData.qaDeepDives.families.appreciatedItems.join(', ')} ${pageData.qaDeepDives.families.cardFooter}`,
       bestFor: pageData.qaDeepDives.families.warning,
-      image: null,
+      image: SeabournFamiliesImg,
+      alt: "Is Seabourn good for families - multigenerational luxury cruise review",
       placeholderLabel: "SEABOURN FAMILY TRAVEL FIT"
     },
     {
@@ -232,7 +299,8 @@ const SeabournCruises = () => {
       category: pageData.qaDeepDives.solo.eyebrow,
       description: `${pageData.qaDeepDives.solo.intro} Solo travelers should evaluate: ${pageData.qaDeepDives.solo.compareItems.join(', ')} ${pageData.qaDeepDives.solo.cardFooter}`,
       bestFor: "Ideal for social solo guests seeking boutique yacht hospitality with conversational dining.",
-      image: null,
+      image: SeabournSoloImg,
+      alt: "Seabourn solo traveler luxury cruise guide and single supplement insights",
       placeholderLabel: "SEABOURN SOLO CRUISING"
     },
     {
@@ -240,16 +308,25 @@ const SeabournCruises = () => {
       category: pageData.qaDeepDives.worthIt.eyebrow,
       description: `${pageData.qaDeepDives.worthIt.intro} ${pageData.qaDeepDives.worthIt.formulaTitle} ${pageData.qaDeepDives.worthIt.formulaTerms.join(' + ')}. ${pageData.qaDeepDives.worthIt.valueDesc}`,
       bestFor: pageData.qaDeepDives.worthIt.verdict,
-      image: null,
+      image: SeabournWorthItImg,
+      alt: "Is Seabourn cruise worth the money - luxury travel cost and value evaluation",
       placeholderLabel: "SEABOURN VALUE EQUATION"
     }
   ];
 
   // 13. Map 4 Line Comparisons for ThreeColumnGrid
-  const vsOtherLinesItems = pageData.vsOtherLines.lines.map((item) => ({
+  const vsOtherLinesImages = [
+    { image: SeabournVsSilverseaImg, alt: "Seabourn vs Silversea luxury cruise comparison review" },
+    { image: SeabournVsRegentImg, alt: "Seabourn vs Regent Seven Seas all-inclusive cruise comparison" },
+    { image: SeabournVsExploraImg, alt: "Seabourn vs Explora Journeys modern ocean luxury comparison" },
+    { image: SeabournVsScenicImg, alt: "Seabourn vs Scenic ocean and expedition cruise comparison" }
+  ];
+
+  const vsOtherLinesItems = pageData.vsOtherLines.lines.map((item, idx) => ({
     title: item.name,
     description: item.text,
-    image: null,
+    image: vsOtherLinesImages[idx]?.image || null,
+    alt: vsOtherLinesImages[idx]?.alt || item.name,
     placeholderLabel: item.name
   }));
 
@@ -269,7 +346,8 @@ const SeabournCruises = () => {
       title: "Seabourn Fleet & Ship Profiles",
       category: "Fleet & Vessels",
       description: "Explore detailed ship guides, suite plans, and onboard features across Seabourn's ocean and expedition fleet.",
-      image: SeabournEncoreImg,
+      image: SeabournFleetImg,
+      alt: "Seabourn complete fleet overview and ship profiles guide",
       badgeCount: 6,
       links: [
         { label: "Seabourn Fleet Overview", url: "/seabourn-cruises/ships" },
@@ -285,7 +363,8 @@ const SeabournCruises = () => {
       title: "Suites, Dining & Onboard Life",
       category: "Onboard Luxury",
       description: "Discover all oceanfront veranda suites, complimentary caviar, fine dining venues, and signature shoreside events.",
-      image: SeabournSuiteImg,
+      image: SeabournSuitesImg,
+      alt: "Seabourn suites dining caviar and onboard luxury lifestyle",
       badgeCount: 6,
       links: [
         { label: "Seabourn Suites Guide", url: "/seabourn-cruises/suites" },
@@ -301,7 +380,8 @@ const SeabournCruises = () => {
       title: "Worldwide Destinations & Expeditions",
       category: "Destinations",
       description: "Global sailing itineraries from Mediterranean harbors to polar expeditions in Antarctica, Arctic, and the Kimberley.",
-      image: GlacierImg,
+      image: SeabournWorldwideDestinationsImg,
+      alt: "Seabourn worldwide cruise destinations and polar expedition itineraries",
       badgeCount: 8,
       links: [
         { label: "Seabourn Expeditions Overview", url: "/seabourn-cruises/expeditions" },
@@ -319,7 +399,8 @@ const SeabournCruises = () => {
       title: "Luxury Cruise Comparisons",
       category: "Comparisons",
       description: "Compare Seabourn with Silversea, Regent Seven Seas, Explora Journeys, and Azamara to find your ideal luxury match.",
-      image: SeabournOverviewImg,
+      image: SeabournVsExploraImg,
+      alt: "Seabourn compared to Silversea Regent Seven Seas and Explora Journeys",
       badgeCount: 4,
       links: [
         { label: "Seabourn vs Silversea", url: "/seabourn-cruises/seabourn-vs-silversea" },
@@ -333,7 +414,8 @@ const SeabournCruises = () => {
       title: "Costs, Planning & Club Loyalty",
       category: "Planning & Value",
       description: "Explore Seabourn cruise costs, solo traveler pricing, club loyalty benefits, and why to book with Angela Hughes.",
-      image: SeabournDroneImg,
+      image: SeabournWorthItImg,
+      alt: "Seabourn cruise pricing costs offers and club loyalty planning",
       badgeCount: 6,
       links: [
         { label: "How Much Does Seabourn Cost?", url: "/seabourn-cruises/cost" },
@@ -363,7 +445,7 @@ const SeabournCruises = () => {
       <ComparisonHero
         title={pageData.hero.title}
         subtitle={pageData.hero.subtitle}
-        backgroundImage={SeabournDroneImg}
+        backgroundImage={SeabournHeroImg}
         primaryCtaText="Plan Your Seabourn Cruise"
         primaryCtaLink="/contact"
       />
@@ -379,7 +461,7 @@ const SeabournCruises = () => {
         ]}
         highlights={pageData.whatIs.highlights}
         image1={SeabournOverviewImg}
-        image2={SeabournSuiteImg}
+        image2={SeabournSuitesImg}
         ctaText="Explore Seabourn Fleet & Suites"
         ctaLink="/contact"
       />
@@ -394,8 +476,12 @@ const SeabournCruises = () => {
       {/* ─── 4. OCEAN VS EXPEDITION CRUISES (ShipPhilosophyFaceoff Component) ─── */}
       <ShipPhilosophyFaceoff
         data={oceanVsExpeditionData}
-        regentImage={oceanPlaceholderImg}
-        vikingImage={expeditionPlaceholderImg}
+        regentImage={SeabournOceanCruisesImg}
+        regentImageAlt="Seabourn classic luxury ocean cruise ship sailing the open sea"
+        regentImagePos="object-[center_68%]"
+        vikingImage={SeabournExpeditionImg}
+        vikingImageAlt="Seabourn purpose-built ultra-luxury expedition ship in polar ice"
+        vikingImagePos="object-[center_35%]"
       />
 
       {/* ─── 5. SEABOURN CRUISE SHIPS (HighlightsSplit Component) ─── */}
@@ -408,7 +494,7 @@ const SeabournCruises = () => {
       <EditorialFeatureShowcase
         title={pageData.suites.title}
         subtitle={pageData.suites.intro}
-        image={SeabournSuiteImg}
+        image={SeabournSuitesImg}
         features={suiteFeaturesList}
       />
 
@@ -418,7 +504,17 @@ const SeabournCruises = () => {
         description="Explore Seabourn's all-suite oceanfront configurations. Let Angela Hughes help you select the ideal layout, from spacious veranda suites to premium multi-room Wintergarden accommodations."
         buttonText="Explore Suite Availability & Upgrades"
         buttonLink="/contact"
+        image={SeabournSuitesImg}
         theme="dark"
+      />
+
+      {/* ─── VIDEO SHOWCASE 1: THE SEABOURN LUXURY EXPERIENCE ─── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "laeY8KoXhXk",
+          title: "Experience the Seabourn All-Inclusive Luxury Difference",
+          description: "Step inside the intimate world of Seabourn: yacht-like small ships, intuitive personalized hospitality, all-suite oceanfront accommodations, and gourmet open-seating dining."
+        }}
       />
 
       {/* ─── 7. SEABOURN DINING (ThreeColumnGrid Component) ─── */}
@@ -436,7 +532,7 @@ const SeabournCruises = () => {
         extrasTitle="Voyage Specializations & Notes"
         included={includedItems}
         extras={extraItems}
-        image={SeabournPoolDeckImg}
+        image={SeabournOnboardLifeImg}
       />
 
       {/* ─── 9. SEABOURN DESTINATIONS (TravelerProfileTabs Component) ─── */}
@@ -459,6 +555,7 @@ const SeabournCruises = () => {
         description="From cultural immersion and UNESCO private tours to active Zodiac adventures, Seabourn offers meaningful shore collections across 400+ worldwide ports."
         buttonText="Design My Custom Seabourn Itinerary"
         buttonLink="/contact"
+        image={SeabournShoreExcursionsImg}
         theme="dark"
       />
 
@@ -471,6 +568,8 @@ const SeabournCruises = () => {
           `${pageData.wellness.featuresTitle} ${pageData.wellness.features.join(', ')}.`,
           `${pageData.wellness.takeaway} ${pageData.wellness.coreFocus}`
         ]}
+        primaryImage={SeabournWellnessImg}
+        secondaryImage={SeabournOnboardLifeImg}
       />
 
       {/* ─── 12. ONBOARD ATMOSPHERE & FEEL (SmartSpendingSplit Component) ─── */}
@@ -530,6 +629,15 @@ const SeabournCruises = () => {
         />
       </div>
 
+      {/* ─── VIDEO SHOWCASE 2: EXPEDITIONS & WORLDWIDE DESTINATIONS ─── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "KDn0xhJh-k8",
+          title: "Seabourn Expeditions & Worldwide Ocean Journeys",
+          description: "Discover extraordinary destinations from polar ice frontiers in Antarctica and the Arctic to unhurried Mediterranean and Caribbean yacht harbors with purpose-built luxury."
+        }}
+      />
+
       {/* ─── 19. ANGELA HUGHES LUXURY AUTHORITY (ExpertCredentials Component) ─── */}
       <ExpertCredentials
         name={pageData.authority.name}
@@ -550,7 +658,7 @@ const SeabournCruises = () => {
         description={`${pageData.verdict.paragraphs.join(' ')} ${pageData.verdict.recommendation}`}
         buttonText={pageData.verdict.ctaText}
         buttonLink={pageData.verdict.ctaLink}
-        image={SeabournDroneImg}
+        image={SeabournCtaImg}
         theme="dark"
       />
     </div>

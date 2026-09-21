@@ -68,10 +68,20 @@ const HighlightsSplit = ({ title, items }) => {
                   <div className="absolute top-6 left-8 opacity-30">
                     <Star className="w-10 h-10" />
                   </div>
-                  <div className="relative z-10 pt-4">
-                    <p className="font-display text-xl lg:text-2xl leading-relaxed italic text-ice-50">
+                  <div className="relative z-10 pt-4 w-full">
+                    <p className="font-display text-xl lg:text-2xl leading-relaxed italic text-ice-50 mb-4">
                       {activeItem.description}
                     </p>
+                    {activeItem.bulletPoints && activeItem.bulletPoints.length > 0 && (
+                      <ul className="space-y-2 font-sans text-sm text-ice-100 bg-navy-950/40 p-4 rounded-xl border border-white/10 mt-4">
+                        {activeItem.bulletPoints.map((pt, pIdx) => (
+                          <li key={pIdx} className="flex items-start gap-2.5">
+                            <span className="w-1.5 h-1.5 rounded-full bg-gold-400 mt-2 flex-shrink-0" />
+                            <span>{pt}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
               </FadeIn>

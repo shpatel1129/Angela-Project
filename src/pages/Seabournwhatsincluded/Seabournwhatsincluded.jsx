@@ -59,6 +59,7 @@ import TravelerProfileTabs from "@/components/ui/TravelerProfileTabs";
 import FeatureGrid from "@/components/ui/FeatureGrid";
 import ProsConsCards from "@/components/ui/ProsConsCards";
 import ExpertRulesGrid from "@/components/ui/ExpertRulesGrid";
+import VideoEmbed from "@/components/ui/VideoEmbed";
 import MasterImage from "@/components/ui/MasterImage";
 import FadeIn from "@/components/ui/FadeIn";
 
@@ -374,6 +375,15 @@ const SeabournWhatsIncluded = () => {
         theme="dark"
       />
 
+      {/* ─── VIDEO SHOWCASE 1: WHAT IS INCLUDED ON SEABOURN ─── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "uVjz2VofTLo",
+          title: "What Is Included on a Seabourn Cruise? All-Inclusive Luxury at Sea",
+          description: "Explore Seabourn's comprehensive all-inclusive luxury model: all-suite oceanfront accommodations, open-seating gourmet dining, complimentary fine wines and spirits, caviar service, and onboard gratuities."
+        }}
+      />
+
       {/* ─── 6. CATEGORIES 03-06: CHAMPAGNE, BAR, CAVIAR & WI-FI (LuxuryZigZagShowcase) ─── */}
       <LuxuryZigZagShowcase
         title={pageData.groupedAmenities.title}
@@ -548,6 +558,15 @@ const SeabournWhatsIncluded = () => {
         placeholderLabel="SEABOURN CRUISE VALUE PROPOSITION"
         badgeTitle="True Luxury Value"
         badgeDescription="Combines all-suite living, fine dining, premium drinks, caviar, Wi-Fi, and crew gratuities."
+      />
+
+      {/* ─── VIDEO SHOWCASE 2: EXPERIENCE SEABOURN LUXURY & DINING ─── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "laeY8KoXhXk",
+          title: "Experience the Seabourn All-Inclusive Luxury Difference",
+          description: "Step inside the intimate world of Seabourn: yacht-like small ships, intuitive personalized hospitality, all-suite oceanfront accommodations, and gourmet open-seating dining."
+        }}
       />
 
       {/* ─── 23. ANGELA HUGHES LUXURY AUTHORITY BOX (ExpertCredentials) ─── */}
