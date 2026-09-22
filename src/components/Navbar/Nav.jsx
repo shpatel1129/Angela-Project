@@ -1552,6 +1552,46 @@ const Nav = () => {
               </NavLink>
 
               <NavLink
+                to="/seabourn-cruises/what-is-there-to-do"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                What Is There to Do on a Seabourn Cruise?
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/ocean-vs-expedition-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn Ocean vs Expedition Cruises
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/seabourn-vs-celebrity-retreat"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn vs Celebrity Retreat
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/seabourn-vs-ritz-carlton-yacht-collection"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Seabourn vs Ritz-Carlton Yacht
+              </NavLink>
+
+              <NavLink
+                to="/seabourn-cruises/book-directly-or-travel-advisor"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Book Direct vs Travel Advisor
+              </NavLink>
+
+              <NavLink
                 to="/seabourn-cruises/cost"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -3172,6 +3212,54 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               What Is the Average Age on Seabourn?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Seabourn Too Formal, Too Old or Too Quiet?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/what-is-there-to-do"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              What Is There to Do on a Seabourn Cruise?
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/ocean-vs-expedition-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn Ocean vs Expedition Cruises
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/seabourn-vs-celebrity-retreat"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn vs Celebrity Retreat
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/seabourn-vs-ritz-carlton-yacht-collection"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Seabourn vs Ritz-Carlton Yacht
+            </NavLink>
+
+            <NavLink
+              to="/seabourn-cruises/book-directly-or-travel-advisor"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Book Direct vs Travel Advisor
             </NavLink>
 
 

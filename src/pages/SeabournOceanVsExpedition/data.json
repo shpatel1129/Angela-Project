@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "suggestedUrl": "/seabourn-cruises/ocean-vs-expedition-cruises/",
+    "seoTitle": "Seabourn Ocean Cruises vs. Expedition Cruises: What Is the Difference?",
+    "metaTitle": "Seabourn Ocean vs. Expedition Cruises",
+    "metaDescription": "Seabourn ocean cruises vs. expedition cruises: compare ships, destinations, activities, excursions, suites, dining, pace, wildlife and which experience is right for you.",
+    "primaryKeyword": "Seabourn Ocean Cruises vs. Expedition Cruises",
+    "secondaryKeywords": [
+      "Seabourn ocean vs expedition",
+      "Seabourn expedition cruises",
+      "Seabourn ocean cruises",
+      "Seabourn expedition ships",
+      "Seabourn Venture vs Seabourn Encore",
+      "Seabourn Pursuit vs Seabourn Ovation",
+      "Seabourn expedition experience",
+      "Seabourn ocean cruise activities",
+      "Seabourn expedition activities",
+      "Seabourn Zodiac excursions",
+      "Seabourn kayaking",
+      "Seabourn Antarctica cruises",
+      "Seabourn Alaska cruises",
+      "Seabourn Arctic cruises",
+      "Seabourn luxury expedition cruises",
+      "Seabourn small ship cruises",
+      "Seabourn ocean cruise ships",
+      "Seabourn expedition destinations",
+      "Seabourn cruise comparison"
+    ],
+    "searchIntent": "Informational + Commercial Investigation",
+    "contentType": "Luxury Cruise Comparison / Seabourn Authority Guide"
+  },
+  "hero": {
+    "badge": "ULTRA-LUXURY CRUISE COMPARISON GUIDE",
+    "title": "Seabourn Ocean Cruises vs. Expedition Cruises: What Is the Difference?",
+    "subtitle": "COMPARING SHIPS, DESTINATIONS, ACTIVITIES, EXCURSIONS, SUITES, DINING, PACE, WILDLIFE & TRAVEL STYLES",
+    "leadText": "Seabourn offers two distinct styles of luxury cruising: traditional ocean cruises and purpose-built expedition cruises. Both provide Seabourn's small-ship luxury, suites, dining and personalized service, but the travel experience can be quite different.",
+    "heroImage": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "label": "Ocean Fleet", "value": "Encore, Ovation, Quest" },
+      { "label": "Expedition Fleet", "value": "Venture & Pursuit (PC6)" },
+      { "label": "Expedition Team", "value": "19 World-Class Specialists" },
+      { "label": "Exploration Gear", "value": "24 Zodiacs & Double Kayaks" }
+    ]
+  },
+  "intro": {
+    "title": "Two Distinct Approaches to Small-Ship Luxury",
+    "paragraphs": [
+      "Seabourn offers two distinct styles of luxury cruising: traditional ocean cruises and purpose-built expedition cruises.",
+      "Both provide Seabourn's small-ship luxury, suites, dining and personalized service, but the travel experience can be quite different.",
+      "Traditional ocean cruises are generally focused on luxury cruising, major destinations, cultural experiences, dining, relaxation and curated shore excursions.",
+      "Seabourn's expedition cruises are designed for travelers who want to go farther into remote regions and experience destinations through Zodiac landings, guided hikes, kayaking, wildlife encounters, expedition lectures and expert-led exploration.",
+      "Seabourn's current fleet includes traditional ocean ships such as Seabourn Encore, Seabourn Ovation and Seabourn Quest, while Seabourn Venture and Seabourn Pursuit are purpose-built expedition ships. Seabourn Venture and Pursuit are Polar Class 6 expedition ships equipped with Zodiacs, kayaks and dedicated Expedition Teams.",
+      "The important distinction is therefore not simply 'luxury cruise versus luxury cruise.' It is how you want to experience the destination."
+    ]
+  },
+  "quickAnswerTable": {
+    "title": "Quick Answer: Ocean vs. Expedition",
+    "subtitle": "SIDE-BY-SIDE FEATURE & OPERATIONAL BENCHMARKING",
+    "headers": ["Feature", "Seabourn Ocean Cruises", "Seabourn Expedition Cruises"],
+    "rows": [
+      ["Primary Ships", "Encore, Ovation, Quest", "Venture, Pursuit"],
+      ["Ship Purpose", "Luxury ocean cruising", "Purpose-built expedition travel"],
+      ["Atmosphere", "Yacht-like luxury", "Luxury expedition / adventure"],
+      ["Destinations", "Major cities, islands and ports", "Remote and difficult-to-reach regions"],
+      ["Typical Focus", "Culture, food, relaxation and sightseeing", "Exploration, wildlife and discovery"],
+      ["Zodiacs", "Not standard on traditional ocean ships", "Core expedition equipment"],
+      ["Kayaking", "Select experiences", "Expedition option"],
+      ["Expedition Team", "Select Ventures sailings", "Dedicated Expedition Team"],
+      ["Shore Excursions", "Curated excursions", "Expedition landings and excursions"],
+      ["Wildlife", "Available depending on itinerary", "Major focus on many itineraries"],
+      ["Hiking", "Select excursions", "Expedition activity"],
+      ["Scenic Cruising", "Yes", "Yes, often a major component"],
+      ["Flexibility", "More traditional itinerary structure", "Expedition itineraries can adapt to conditions"],
+      ["Antarctica", "Generally expedition-focused", "Core expedition destination"],
+      ["Arctic", "Limited/select", "Major expedition destination"],
+      ["Kimberley", "Not the primary model", "Major expedition destination"],
+      ["Northwest Passage", "No", "Expedition destination"],
+      ["Dining", "Luxury dining", "Luxury dining"],
+      ["Suites", "Oceanfront suites", "Oceanfront veranda suites"],
+      ["Best For", "Luxury destination cruising", "Luxury adventure and exploration"]
+    ]
+  },
+  "coreConcepts": {
+    "title": "Understanding the Fundamental Cruise Concepts",
+    "subtitle": "DEFINING THE OCEAN VOYAGE VS. PURPOSE-BUILT EXPEDITION MODEL",
+    "ocean": {
+      "title": "What Is a Seabourn Ocean Cruise?",
+      "description": "A Seabourn ocean cruise is the more traditional version of the Seabourn experience. You still receive the intimate, small-ship atmosphere, all-suite accommodations and personalized service associated with the brand, but the voyage is primarily structured around visiting established ports and destinations.",
+      "destinations": [
+        "Mediterranean",
+        "Alaska",
+        "Caribbean",
+        "Northern Europe",
+        "Japan",
+        "Canada and New England",
+        "Europe",
+        "Other global destinations"
+      ],
+      "footnote": "Seabourn describes its ocean voyages as part of its luxury small-ship experience, visiting destinations across all seven continents."
+    },
+    "expedition": {
+      "title": "What Is a Seabourn Expedition Cruise?",
+      "description": "A Seabourn expedition cruise is designed around exploration. The expedition ships Seabourn Venture and Seabourn Pursuit were purpose-built for this style of travel.",
+      "features": [
+        "Polar Class 6 capabilities",
+        "24 Zodiacs",
+        "Kayaks",
+        "Dedicated Expedition Teams",
+        "Expedition spaces",
+        "Oceanfront suites",
+        "Luxury dining",
+        "Spa and wellness facilities",
+        "Expedition programming"
+      ],
+      "footnote": "Each expedition ship carries a 19-person Expedition Team made up of specialists such as scientists, academics and naturalists."
+    },
+    "biggestDifference": {
+      "title": "The Biggest Difference: How You Explore",
+      "subtitle": "TWO FUNDAMENTALLY DIFFERENT OPERATIONAL FLOWS",
+      "oceanFlow": {
+        "title": "Ocean Cruise Exploration Flow",
+        "flow": "Ship → Port → Shore Excursion → Ship",
+        "description": "You visit established destinations and explore them through organized excursions, independent sightseeing or private tours."
+      },
+      "expeditionFlow": {
+        "title": "Expedition Cruise Exploration Flow",
+        "flow": "Ship → Zodiac/Kayak → Remote Landing → Wildlife/Nature/Culture → Ship",
+        "description": "The ship itself becomes a base for active exploration. Seabourn describes its expedition experience as combining a luxury base camp with Zodiacs, kayaks and an expert Expedition Team."
+      }
+    }
+  },
+  "fleetProfiles": {
+    "title": "Fleet Architecture: Ocean Class vs. Expedition Class",
+    "subtitle": "PURPOSE-BUILT LUXURY PLATFORMS FOR DISTINCT MARITIME PURPOSES",
+    "oceanFleet": [
+      {
+        "title": "Seabourn Encore",
+        "category": "OCEAN FLEET",
+        "description": "Seabourn Encore carries approximately 600 guests and features oceanfront suites with private verandas. It is designed around the traditional Seabourn small-ship luxury experience.",
+        "bullets": [
+          "Capacity: ~600 guests with spacious all-veranda suites",
+          "Multiple dining venues including The Grill and The Restaurant",
+          "Expansive pool deck, Observation Bar and Seabourn Square",
+          "Signature watersports marina platform on select warm-water sailings"
+        ]
+      },
+      {
+        "title": "Seabourn Ovation",
+        "category": "OCEAN FLEET",
+        "description": "Seabourn Ovation is a sister ship to Encore and provides a similar luxury ocean-cruise experience with dining, wellness, entertainment and social spaces.",
+        "bullets": [
+          "Capacity: ~600 guests with contemporary Adam D. Tihany interiors",
+          "Comprehensive wellness center with mindful living programming",
+          "Full evening entertainment, cabaret shows and live music",
+          "Intimate yacht-like ambiance visiting marquee and boutique ports"
+        ]
+      },
+      {
+        "title": "Seabourn Quest",
+        "category": "OCEAN FLEET",
+        "description": "Seabourn Quest is another ocean-going Seabourn ship with a smaller-ship environment, dining, enrichment, wellness and traditional cruise experiences.",
+        "bullets": [
+          "Capacity: ~458 guests delivering exceptional spatial intimacy",
+          "Classic Seabourn elegance with high crew-to-guest ratios",
+          "Flexible deployment spanning the Americas, Europe and Antarctica crossings",
+          "Equipped for Ventures by Seabourn optional active excursions"
+        ]
+      }
+    ],
+    "expeditionFleet": [
+      {
+        "title": "Seabourn Venture",
+        "category": "EXPEDITION FLEET",
+        "description": "Seabourn Venture entered service in 2022 as the company's first purpose-built luxury expedition ship. It carries approximately 264 guests and has 24 Zodiacs, kayaks and a 19-person Expedition Team.",
+        "bullets": [
+          "Polar Class 6 (PC6) strengthened ice hull for extreme latitudes",
+          "Capacity: 264 guests in 132 oceanfront veranda suites",
+          "24 custom Zodiacs launched via specialized dual side cranes",
+          "Expedition Lounge, Discovery Center and 4K GSS Cineflex gimbal camera"
+        ]
+      },
+      {
+        "title": "Seabourn Pursuit",
+        "category": "EXPEDITION FLEET",
+        "description": "Seabourn Pursuit is Venture's sister expedition ship. It was designed for diverse environments and remote destinations, including polar regions and other expedition destinations.",
+        "bullets": [
+          "PC6 polar capability engineered for Antarctica, the Arctic and remote oceans",
+          "Capacity: 264 guests with dedicated heated gear drying closets in all suites",
+          "Fleet of double kayaks, scuba/snorkeling gear and 24 Zodiacs",
+          "19-person world-class multidisciplinary Expedition Team onboard"
+        ]
+      }
+    ]
+  },
+  "shipDesignComparison": {
+    "title": "Ocean Cruise vs. Expedition Ship Design",
+    "subtitle": "HOW MARITIME ENGINEERING SERVES DIFFERENT VOYAGE OBJECTIVES",
+    "description": "The ships are both luxurious, but their designs reflect different purposes.",
+    "ocean": {
+      "title": "Ocean Ships Prioritize",
+      "items": [
+        "Spacious suites",
+        "Restaurants",
+        "Bars",
+        "Pools",
+        "Spa",
+        "Fitness",
+        "Lounges",
+        "Entertainment",
+        "Traditional shore excursions",
+        "Relaxation"
+      ]
+    },
+    "expedition": {
+      "title": "Expedition Ships Add Equipment & Facilities Designed for Exploration",
+      "items": [
+        "Zodiacs (24 onboard)",
+        "Kayaks",
+        "Expedition Team",
+        "Discovery spaces",
+        "Expedition Lounge",
+        "Enhanced outdoor areas",
+        "Expedition lecture facilities",
+        "Equipment for remote landings"
+      ],
+      "footnote": "Seabourn's expedition ships carry 24 Zodiacs and kayaks specifically to support immersive exploration."
+    }
+  },
+  "destinationsExploration": {
+    "title": "What Are the Destinations Like?",
+    "subtitle": "DESTINATION CHOICE IS ONE OF THE MOST CRUCIAL DIFFERENCES",
+    "ocean": {
+      "title": "Ocean Cruise Destinations",
+      "description": "Traditional Seabourn ocean cruises are well suited to travelers interested in cultural capitals, historic ports, and established infrastructure with a range of traditional shore excursions.",
+      "places": [
+        "Mediterranean cities",
+        "European ports",
+        "Caribbean islands",
+        "Alaska ports",
+        "Japan",
+        "Northern Europe",
+        "Canada",
+        "New England",
+        "Cultural capitals",
+        "Historic ports"
+      ]
+    },
+    "expedition": {
+      "title": "Expedition Cruise Destinations",
+      "description": "Seabourn expedition itineraries focus on more remote regions where conventional cruise docks do not exist.",
+      "places": [
+        "Antarctica",
+        "Arctic",
+        "Kimberley",
+        "Northwest Passage",
+        "South Pacific",
+        "South Georgia",
+        "Falkland Islands",
+        "Remote areas of South America"
+      ],
+      "footnote": "Seabourn's current expedition destination program specifically highlights Antarctica, Arctic regions, the Kimberley, Northwest Passage and South Pacific."
+    },
+    "antarcticaDeepDive": {
+      "title": "Is Antarctica an Ocean or Expedition Cruise?",
+      "lead": "For Seabourn, Antarctica is primarily an expedition experience.",
+      "text": "The dedicated expedition ships provide the equipment and Expedition Team needed for Zodiac cruises, shore landings, wildlife observation, guided walks, kayaking, glacier viewing, and expedition lectures. Seabourn's current Antarctica program includes Zodiac cruises, guided nature walks and wildlife encounters involving penguins, seals and whales."
+    }
+  },
+  "destinationMatchmakerTable": {
+    "title": "Seabourn Ocean vs. Expedition: Which Destinations Fit Each Style?",
+    "subtitle": "MATCHING YOUR DREAM DESTINATION TO THE IDEAL SEABOURN VESSEL CLASS",
+    "headers": ["Your Dream Destination", "Experience to Consider"],
+    "rows": [
+      ["Mediterranean", "Ocean"],
+      ["Caribbean", "Ocean"],
+      ["Japan", "Ocean"],
+      ["Northern Europe", "Ocean"],
+      ["Canada & New England", "Ocean"],
+      ["Alaska", "Ocean or expedition-style depending on sailing"],
+      ["Antarctica", "Expedition"],
+      ["Arctic", "Expedition"],
+      ["Northwest Passage", "Expedition"],
+      ["Kimberley", "Expedition"],
+      ["South Georgia", "Expedition"],
+      ["Falkland Islands", "Expedition"],
+      ["Remote South Pacific", "Expedition"]
+    ],
+    "footnote": "Seabourn's current expedition destination program specifically identifies Antarctica, Arctic, Kimberley, Northwest Passage and South Pacific as expedition regions."
+  },
+  "excursionsAndActivities": {
+    "title": "Excursions, Activities & Exploration Dynamics",
+    "subtitle": "COMPARING SHORE EXPERIENCES, GEAR, ZODIACS, KAYAKS & FIELD LEADERSHIP",
+    "sections": [
+      {
+        "title": "What Is Different About Expedition Excursions?",
+        "description": "A traditional ocean cruise excursion usually begins at a port (visiting a museum, touring a city, visiting a winery, exploring historical sites, taking a food tour, sightseeing, or visiting a beach). An expedition excursion can involve going somewhere where there is little or no conventional port infrastructure.",
+        "bullets": [
+          "Board a Zodiac to access untouched coastlines",
+          "Make wet or dry beach landings on remote shores",
+          "Hike across polar tundra or tropical wilderness",
+          "Search for wildlife alongside expert naturalists",
+          "Kayak among icebergs and secluded fjords",
+          "Explore a remote coastline inaccessible to road systems",
+          "Visit remote indigenous communities and settlements"
+        ]
+      },
+      {
+        "title": "What Is a Zodiac Excursion?",
+        "description": "A Zodiac is a sturdy inflatable boat used for expedition exploration. Seabourn uses Zodiacs to take guests closer to icebergs, glaciers, wildlife, beaches, remote coastlines, islands, and fjords. On expedition voyages, Zodiac tours and landings are an important part of the experience.",
+        "bullets": [
+          "Heavy-duty inflatable hulls engineered for rugged shores",
+          "Allows intimate navigation near glaciers and sea cliffs",
+          "Enables swift, safe transfers from ship to wild terrain",
+          "Crucial for close-range marine wildlife observation"
+        ]
+      },
+      {
+        "title": "Can You Kayak on Seabourn?",
+        "description": "Yes. Kayaking is available on selected Seabourn experiences. On the dedicated expedition ships, Seabourn carries double kayaks and offers optional guided kayaking on applicable expeditions. The activity is subject to availability, weather and operational conditions.",
+        "bullets": [
+          "Double sea kayaks guided by certified kayak leaders",
+          "Paddling through serene glacial lagoons and coral atolls",
+          "Immersive, silent perspective at water level",
+          "Offered on applicable polar and tropical expedition routes"
+        ]
+      },
+      {
+        "title": "Does an Ocean Cruise Ever Include Expedition Experiences?",
+        "description": "Yes. This is an important distinction. Seabourn's Ventures by Seabourn program can bring expedition-style activities to selected traditional ocean sailings. Seabourn introduced Ventures by Seabourn specifically to provide expedition-style experiences to guests sailing on select traditional Seabourn ships. So you do not necessarily have to book a dedicated expedition ship to experience some expedition-style activities.",
+        "bullets": [
+          "Zodiac cruises led by expert guides",
+          "Guided sea kayaking excursions",
+          "Scenic hiking and nature treks",
+          "Naturalist-led wildlife observation",
+          "Expert commentary on local biomes",
+          "Expedition-style exploration on ocean vessels"
+        ]
+      },
+      {
+        "title": "What Is the Expedition Team?",
+        "description": "The Expedition Team is another major difference. On dedicated expedition voyages, Seabourn's team includes experts such as naturalists, scientists, historians, academics, marine specialists, wildlife experts, and other regional specialists. The current Seabourn expedition experience centers on a 19-person Expedition Team. The team does more than give lectures; they accompany guests during exploration and provide interpretation of wildlife, geography, history and local culture.",
+        "bullets": [
+          "19 multidisciplinary scientists and naturalists onboard",
+          "Lead all Zodiac landings and guided wilderness hikes",
+          "Deliver daily educational lectures in the Discovery Center",
+          "Host dinner tables and informal evening discussions"
+        ]
+      }
+    ]
+  },
+  "lifeOnboardComparison": {
+    "title": "Life Onboard: Luxury, Pacing, Dining & Sea Days",
+    "subtitle": "UNDERSTANDING THE DAILY RHYTHM OF OCEAN VS. EXPEDITION TRAVEL",
+    "cards": [
+      {
+        "title": "Is an Expedition Cruise More Active?",
+        "lead": "Generally, it can be.",
+        "text": "An expedition itinerary may involve walking, hiking, Zodiac boarding, kayaking, beach landings, wildlife observation, and getting on and off expedition boats. However, expedition cruising does not mean every guest has to participate in strenuous activities. Guests can often choose different activity levels depending on the itinerary and available experiences."
+      },
+      {
+        "title": "Is an Ocean Cruise More Relaxing?",
+        "lead": "An ocean cruise can be easier to structure around relaxation.",
+        "text": "You can spend the day at the pool, in the spa, reading, dining, shopping, attending lectures, enjoying your suite, exploring a port, or relaxing on deck. That makes traditional ocean cruising attractive to travelers who want luxury travel without making adventure the central purpose of the trip."
+      },
+      {
+        "title": "Is an Expedition Cruise Rougher?",
+        "lead": "Not necessarily.",
+        "text": "Seabourn's expedition ships are designed to provide luxury accommodations while operating in challenging environments. The ships are purpose-built with PC6 Polar Class standards and expedition equipment. The environment may be more remote, but the onboard experience remains luxury-focused."
+      },
+      {
+        "title": "Are Seabourn Expedition Ships Less Luxurious?",
+        "lead": "No. This is one of the misconceptions worth addressing.",
+        "text": "Seabourn's expedition ships are designed as ultra-luxury expedition ships, not basic adventure vessels. They feature oceanfront suites, private verandas, fine dining, spa, wellness, lounges, expedition spaces, and personalized service. The difference is what the ship is built to help you do."
+      },
+      {
+        "title": "Are the Suites Different?",
+        "lead": "Both ocean and expedition ships offer oceanfront suite accommodations.",
+        "text": "Seabourn's expedition ships feature 132 oceanfront, veranda-equipped suites, while the traditional fleet also emphasizes all-suite accommodations. The choice therefore does not have to be luxury vs. adventure; it can be luxury ocean cruising vs. luxury expedition cruising."
+      },
+      {
+        "title": "Is Dining Different?",
+        "lead": "Both experiences maintain Seabourn's focus on luxury dining.",
+        "text": "Ocean cruises may place more emphasis on the traditional restaurant, specialty dining and leisurely meals between port visits. Expedition cruises still provide luxury dining, but meals may be combined with a more active expedition schedule. For example, you could spend part of the day exploring by Zodiac and return to the ship for a fine-dining experience."
+      },
+      {
+        "title": "Is the Entertainment Different?",
+        "lead": "Traditional ocean cruises generally provide more conventional onboard entertainment.",
+        "text": "This can include live music, performances, dancing, lounges, culinary programming, and enrichment. Expedition ships also provide entertainment and enrichment, but a greater proportion of the programming is connected to wildlife, geography, history, science, exploration, and local culture. The expedition itself becomes part of the entertainment."
+      },
+      {
+        "title": "Is the Evening Atmosphere Different?",
+        "lead": "Both are designed around Seabourn's relaxed luxury atmosphere.",
+        "text": "On an ocean cruise, evenings may revolve around dinner, cocktails, live music, shows, dancing, and lounges. On an expedition cruise, evenings may include expedition recaps, wildlife discussions, photography, lectures, cocktails, dinner, and informal conversation about the day's discoveries."
+      },
+      {
+        "title": "Why Are Expedition Itineraries More Flexible?",
+        "lead": "Remote environments can change quickly.",
+        "text": "Weather, ice, wildlife and sea conditions can influence where and when an expedition team can operate. Seabourn specifically notes that some expedition itineraries are described as an 'experience' and can be subject to change so the Expedition Team can adapt the voyage to conditions and opportunities. This flexibility is part of expedition travel."
+      }
+    ],
+    "seaDayTimeline": {
+      "title": "Ocean vs. Expedition: What Happens on a Sea Day?",
+      "subtitle": "COMPARING THE RHYTHM OF AT-SEA DAYS ACROSS FLEET CLASSES",
+      "ocean": {
+        "title": "Ocean Cruise Sea Day",
+        "activities": [
+          "Breakfast at The Colonnade",
+          "Fitness center workout & yoga",
+          "Spa treatments & thermal suite",
+          "Poolside relaxation & sun deck",
+          "Leisurely lunch at The Patio",
+          "Seabourn Conversations lectures",
+          "Quiet reading & afternoon tea",
+          "Culinary demos & wine tastings",
+          "Pre-dinner cocktails at Observation Bar",
+          "Gourmet dinner at The Restaurant",
+          "Live music, shows & dancing"
+        ]
+      },
+      "expedition": {
+        "title": "Expedition Sea Day",
+        "activities": [
+          "Early morning wildlife observation on bow",
+          "Scenic cruising through dramatic ice/fjords",
+          "Expedition lectures by guest scientists",
+          "Photography workshops & image curation",
+          "Naturalist presentations in Discovery Center",
+          "Active wildlife searches with bridge officers",
+          "Zodiac operations when conditions allow",
+          "Cultural presentations & polar history",
+          "Fine dining combined with field debriefs",
+          "Spa, sauna & wellness relaxation",
+          "Evening expedition recap & cocktail hour"
+        ]
+      }
+    }
+  },
+  "travelerStyleRecommendations": {
+    "title": "Which Is Better for Your Personal Travel Style?",
+    "subtitle": "CURATED COMPARISONS ACROSS TRAVELER PRIORITIES & DEMOGRAPHICS",
+    "categories": [
+      {
+        "category": "Which Is Better for Wildlife?",
+        "badge": "WILDLIFE & NATURE",
+        "verdict": "Expedition cruise is generally superior for direct wildlife encounters.",
+        "description": "For travelers whose primary goal is wildlife observation, a dedicated expedition itinerary may provide more opportunities. Expedition destinations include Antarctica, Arctic regions, South Georgia, Falkland Islands, Kimberley, Northwest Passage, and South Pacific. Depending on the destination, wildlife may include penguins, whales, seals, walruses, polar bears, dolphins, seabirds, and other regional wildlife. Seabourn specifically highlights wildlife encounters as a central component of its expedition destinations."
+      },
+      {
+        "category": "Which Is Better for Culture?",
+        "badge": "CULTURE & HERITAGE",
+        "verdict": "Both provide rich cultural immersion in different ways.",
+        "description": "Traditional ocean cruises offer museums, historic cities, architecture, food, wine, local markets, and cultural tours. Expedition itineraries add remote communities, indigenous cultures, local traditions, small settlements, cultural exchanges, and regions rarely visited by larger ships. The type of culture you want to experience should influence your choice."
+      },
+      {
+        "category": "Which Is Better for Food Lovers?",
+        "badge": "GASTRONOMY & WINE",
+        "verdict": "Both offer world-class gastronomy.",
+        "description": "Choose an ocean cruise if your priority is spending more time enjoying restaurants, specialty dining, culinary excursions, wine, food markets, and relaxed meals. Choose an expedition cruise if you want to combine luxury dining with exploration. The food experience does not disappear simply because the itinerary becomes more adventurous."
+      },
+      {
+        "category": "Which Is Better for Active Travelers?",
+        "badge": "ACTIVE ADVENTURE",
+        "verdict": "Dedicated expedition cruise is the activity-oriented option.",
+        "description": "A dedicated expedition cruise is generally the more activity-oriented option. You may have opportunities for hiking, kayaking, Zodiac cruises, wildlife observation, nature walks, beach landings, and snorkeling on select itineraries. Seabourn's expedition program includes guided walks and hikes, Zodiac tours, cultural experiences and other expedition activities."
+      },
+      {
+        "category": "Which Is Better for Travelers Who Want Relaxation?",
+        "badge": "PURE RELAXATION",
+        "verdict": "Traditional ocean cruise offers effortless restorative pacing.",
+        "description": "A traditional ocean cruise may be a natural fit if you want the cruise itself to be a significant part of the vacation. You can spend more time enjoying pool, spa, dining, suite, lounge, entertainment, and scenic cruising. That does not mean an expedition cruise cannot be relaxing; it simply means the expedition component is more central to the experience."
+      },
+      {
+        "category": "Which Is Better for First-Time Seabourn Travelers?",
+        "badge": "FIRST-TIME CRUISERS",
+        "verdict": "Depends on your ultimate vacation goals.",
+        "description": "There is no universal answer. A first-time Seabourn traveler who wants to understand the classic small-ship luxury experience may prefer an ocean voyage. Someone whose dream is Antarctica, the Arctic or the Kimberley may want to begin with an expedition. The better starting point depends on what you want the trip to accomplish."
+      },
+      {
+        "category": "Which Is Better for Couples?",
+        "badge": "ROMANTIC TRAVEL",
+        "verdict": "Both provide exceptional experiences for couples.",
+        "description": "Choose an Ocean Cruise if you want relaxation, fine dining, European cities, beach destinations, spa time, cultural sightseeing, and romantic evenings. Choose an Expedition Cruise if you want adventure, wildlife, remote destinations, hiking, kayaking, unique landscapes, and shared discoveries."
+      },
+      {
+        "category": "Which Is Better for Solo Travelers?",
+        "badge": "SOLO TRAVELERS",
+        "verdict": "Both are welcoming and social for solos.",
+        "description": "Ocean cruises offer dining, enrichment, excursions, social spaces, and entertainment. Expedition cruises add group exploration, Expedition Team interactions, shared wildlife experiences, Zodiac excursions, and guided hikes. The communal nature of expedition activities can provide natural opportunities for social interaction."
+      },
+      {
+        "category": "Which Is Better for Families?",
+        "badge": "FAMILY & MULTI-GEN",
+        "verdict": "Carefully assess children's ages and itinerary requirements.",
+        "description": "Neither is automatically a family choice. Families should consider children's ages, minimum age requirements, physical activity, suite configuration, itinerary, excursion requirements, destination, and interest in wildlife and adventure. Expedition travel may be especially interesting for older children and teenagers who enjoy nature and exploration, but specific voyage requirements should always be checked."
+      },
+      {
+        "category": "Which Is Better for Older Travelers?",
+        "badge": "OLDER TRAVELERS",
+        "verdict": "Physical interest & ability matter more than age alone.",
+        "description": "Both can work. The important consideration is physical ability and interest rather than age alone. An ocean cruise may provide easier access to dining, spa, pool, lounges, entertainment, and traditional excursions. An expedition can work for active older travelers, but Zodiac boarding, walking and weather conditions should be considered."
+      }
+    ]
+  },
+  "costAndInclusions": {
+    "title": "Cost, Inclusions & The Middle-Ground Option",
+    "subtitle": "EVALUATING PRICING DYNAMICS, WHAT IS INCLUDED & VENTURES BY SEABOURN",
+    "cost": {
+      "title": "Seabourn Ocean vs. Expedition: Cost",
+      "description": "Pricing depends on ship, suite, destination, season, voyage length, demand, itinerary, and included experiences. Expedition voyages can carry different pricing because of the specialized ships, remote destinations, expedition staff and equipment. There is no single price rule that says every expedition cruise costs more than every ocean cruise. The specific voyage should be compared."
+    },
+    "inclusions": {
+      "title": "What Is Included on Seabourn Expedition Cruises?",
+      "description": "Seabourn describes its expedition experience as all-inclusive and includes a range of expedition experiences such as:",
+      "points": [
+        "Guided nature walks and wilderness hikes",
+        "Zodiac tours and remote beach landings",
+        "Cultural experiences with local communities",
+        "Naturalist-led scenic cruising and wildlife spotting",
+        "Selected expedition activities and gear",
+        "Complimentary Helly Hansen custom expedition parka & backpack"
+      ],
+      "footnote": "Optional experiences, such as certain kayaking programs, can carry an additional charge. Always check the specific itinerary because included and optional experiences can vary."
+    },
+    "middleGround": {
+      "title": "Can You Experience Expedition Activities Without Booking an Expedition Cruise?",
+      "subtitle": "VENTURES BY SEABOURN: THE BEST OF BOTH WORLDS",
+      "description": "Yes. This is where Ventures by Seabourn becomes important. On select traditional Seabourn sailings, the Ventures program can provide expedition-style experiences including Zodiac cruises, kayaking, hiking, wildlife viewing, and expert-led exploration. Seabourn specifically created Ventures to bring expedition-style experiences to guests traveling on selected traditional Seabourn ships."
+    }
+  },
+  "decisionGuide": {
+    "title": "Seabourn Ocean vs. Expedition: Which Should You Choose?",
+    "subtitle": "A CLEAR FRAMEWORK TO PINPOINT YOUR PERFECT SEABOURN CRUISE",
+    "oceanCriteria": {
+      "title": "Choose an Ocean Cruise if:",
+      "items": [
+        "You want classic luxury cruising",
+        "You enjoy major cultural destinations",
+        "You want more traditional port experiences",
+        "You prioritize dining and relaxation",
+        "You enjoy spa and onboard amenities",
+        "You prefer a predictable cruise structure",
+        "You want a Mediterranean, Caribbean or European itinerary"
+      ]
+    },
+    "expeditionCriteria": {
+      "title": "Consider an Expedition Cruise if:",
+      "items": [
+        "Antarctica is on your bucket list",
+        "You want Arctic exploration",
+        "You want remote destinations",
+        "Wildlife is a major priority",
+        "You enjoy hiking",
+        "You want Zodiac exploration",
+        "You want kayaking",
+        "You enjoy expert-led nature and science programming",
+        "You want a more flexible expedition itinerary"
+      ]
+    },
+    "wantBoth": {
+      "title": "What If You Want Both?",
+      "description": "You may not have to choose strictly between the two. Seabourn Venture, for example, can operate both traditional ocean voyages and expedition experiences. And Ventures by Seabourn can bring expedition-style activities to selected traditional Seabourn ships. This creates a middle ground for travelers who want luxury cruising but also want opportunities for adventure."
+    }
+  },
+  "questionsBeforeBooking": {
+    "title": "How to Choose the Right Seabourn Experience",
+    "subtitle": "12 ESSENTIAL QUESTIONS TO ASK BEFORE COMMITTING TO A SHIP OR ITINERARY",
+    "questions": [
+      "Where do I want to go?",
+      "How important is wildlife?",
+      "Do I want to hike?",
+      "Would I enjoy a Zodiac landing?",
+      "Do I want kayaking?",
+      "How much time do I want to spend ashore?",
+      "Do I prefer cities or remote landscapes?",
+      "How important are dining and spa experiences?",
+      "Do I want a traditional cruise schedule?",
+      "Am I comfortable with itinerary flexibility?",
+      "How physically active do I want the vacation to be?",
+      "Do I want an ocean ship or a purpose-built expedition ship?"
+    ],
+    "conclusion": "The answers can make the choice much clearer."
+  },
+  "advisorValue": {
+    "title": "Why Work With a Luxury Travel Advisor?",
+    "subtitle": "NAVIGATING SHIP CAPABILITIES, ITINERARY PACING & EXCLUSIVES",
+    "description": "A luxury travel advisor can help compare the details that are easy to overlook. For Seabourn, that can include ocean vs. expedition ship, suite category, deck location, itinerary, voyage length, seasonal conditions, excursion availability, expedition activities, pre-cruise hotels, flights, travel protection, and special occasions. This can be especially useful when comparing an ocean itinerary with an expedition itinerary because the two vacations can have very different rhythms.",
+    "agency": {
+      "title": "Why Trips & Ships Luxury Travel for Seabourn?",
+      "description": "Trips & Ships Luxury Travel specializes in luxury cruises, small-ship cruising, expedition voyages and customized luxury travel. For Seabourn travelers, the planning process can include comparing traditional ocean cruises, expedition cruises, Seabourn Venture, Seabourn Pursuit, Seabourn Encore, Seabourn Ovation, Seabourn Quest, itineraries, suites, shore excursions, and expedition experiences. The goal is to match the voyage to your travel style rather than simply choosing the most expensive or most adventurous option."
+    },
+    "author": {
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise & Expedition Expertise",
+      "credentials": "CEO of Trips & Ships Luxury Travel and Founder of Luxury Travel University",
+      "bio": "Angela Hughes is CEO of Trips & Ships Luxury Travel and founder of Luxury Travel University. Her background in luxury cruises, small-ship travel, expedition voyages, river cruising and customized luxury travel provides an experienced perspective when comparing different cruise styles. For travelers deciding between a classic Seabourn ocean voyage and an expedition experience, personalized advice can help connect the destination, ship, suite, activities and pace into one cohesive trip."
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the difference between Seabourn ocean and expedition cruises?",
+      "answer": "Seabourn ocean cruises focus primarily on traditional luxury cruising, established ports, cultural experiences and curated shore excursions. Expedition cruises use purpose-built ships, expedition teams and equipment such as Zodiacs and kayaks to explore remote destinations."
+    },
+    {
+      "question": "Which Seabourn ships are expedition ships?",
+      "answer": "Seabourn Venture and Seabourn Pursuit are Seabourn's purpose-built expedition ships."
+    },
+    {
+      "question": "Which Seabourn ships are ocean ships?",
+      "answer": "Seabourn Encore, Seabourn Ovation and Seabourn Quest are traditional ocean-going Seabourn ships."
+    },
+    {
+      "question": "Is Seabourn Venture an ocean or expedition ship?",
+      "answer": "Seabourn Venture is a purpose-built expedition ship, although Seabourn also uses it for some traditional ocean voyages."
+    },
+    {
+      "question": "Is Seabourn Pursuit an expedition ship?",
+      "answer": "Yes. Seabourn Pursuit is a purpose-built luxury expedition ship designed for remote destinations and expedition activities."
+    },
+    {
+      "question": "Does Seabourn have expedition cruises to Antarctica?",
+      "answer": "Yes. Seabourn operates expedition voyages to Antarctica on Seabourn Venture and Seabourn Pursuit."
+    },
+    {
+      "question": "Does Seabourn offer Arctic expedition cruises?",
+      "answer": "Yes. Seabourn Venture operates expedition itineraries in Arctic regions including Svalbard, Greenland and Iceland."
+    },
+    {
+      "question": "Can you kayak on Seabourn expedition cruises?",
+      "answer": "Yes. Kayaking is available as an optional expedition experience on applicable voyages, subject to availability and conditions."
+    },
+    {
+      "question": "Does Seabourn use Zodiacs?",
+      "answer": "Yes. Seabourn's expedition ships carry 24 Zodiacs for expedition exploration and landings."
+    },
+    {
+      "question": "Are Zodiac excursions included on Seabourn expedition cruises?",
+      "answer": "Seabourn identifies Zodiac tours and landings as included expedition experiences on applicable expedition voyages. Specific inclusions should be confirmed for the individual itinerary."
+    },
+    {
+      "question": "Can you experience expedition activities on a regular Seabourn cruise?",
+      "answer": "Yes. Ventures by Seabourn provides expedition-style activities on selected traditional Seabourn sailings."
+    },
+    {
+      "question": "Are Seabourn expedition cruises more expensive?",
+      "answer": "Pricing varies by ship, itinerary, suite, season, length and demand. Expedition cruises may have different pricing because of their specialized ships, remote destinations and expedition operations."
+    },
+    {
+      "question": "Are Seabourn expedition cruises physically demanding?",
+      "answer": "Some expedition activities can involve walking, hiking, Zodiac boarding or kayaking. Guests can generally select activities based on their interests and abilities, but specific physical requirements vary by excursion."
+    },
+    {
+      "question": "Are Seabourn expedition ships luxurious?",
+      "answer": "Yes. Seabourn's Venture and Pursuit are purpose-built ultra-luxury expedition ships with oceanfront suites, dining, wellness facilities and personalized service."
+    },
+    {
+      "question": "Which is better for wildlife, Seabourn ocean or expedition?",
+      "answer": "A dedicated expedition itinerary is generally structured more directly around wildlife and remote nature experiences. Seabourn's expedition destinations include regions known for penguins, whales, seals, polar wildlife and other species."
+    },
+    {
+      "question": "Is Seabourn expedition cruising good for first-time cruisers?",
+      "answer": "It can be. Travelers who are interested in wildlife, nature and exploration may enjoy starting with an expedition, while those who want a traditional luxury cruise experience may prefer an ocean itinerary."
+    },
+    {
+      "question": "Is Seabourn expedition cruising good for couples?",
+      "answer": "Yes. Couples can combine luxury accommodations and dining with wildlife, adventure and destination exploration."
+    },
+    {
+      "question": "Which Seabourn cruise is better for relaxation?",
+      "answer": "Traditional ocean cruises may be a natural fit for travelers who want to emphasize relaxation, dining, spa time and established destinations. Expedition cruises can also be relaxing but place greater emphasis on exploration."
+    },
+    {
+      "question": "Which Seabourn cruise is better for active travelers?",
+      "answer": "Dedicated expedition cruises generally provide more opportunities for hiking, kayaking, Zodiac exploration, wildlife observation and other active experiences."
+    },
+    {
+      "question": "Can a Seabourn ocean cruise visit Alaska?",
+      "answer": "Yes. Seabourn offers Alaska ocean voyages, and selected sailings can also incorporate expedition-style experiences through Ventures by Seabourn."
+    }
+  ],
+  "finalTakeaway": {
+    "title": "Final Takeaway: Seabourn Ocean vs. Expedition Cruises",
+    "paragraphs": [
+      "The difference between Seabourn ocean and expedition cruises comes down to how you want to explore the world.",
+      "A traditional Seabourn ocean cruise is centered around luxury cruising, established destinations, dining, relaxation, culture and curated excursions.",
+      "A Seabourn expedition cruise is centered around remote destinations, wildlife, exploration, Zodiacs, kayaking, hiking and expert-led discovery.",
+      "Neither experience is simply a more luxurious version of the other. They are designed for different styles of travel.",
+      "If your dream is the Mediterranean, Caribbean, Japan or European cultural destinations, a traditional ocean voyage may be the natural place to start.",
+      "If your dream is Antarctica, the Arctic, the Northwest Passage, the Kimberley or remote South Pacific, a dedicated expedition voyage may be the more relevant experience.",
+      "And if you want some adventure without committing to a dedicated expedition itinerary, selected ocean voyages with Ventures by Seabourn can provide expedition-style experiences.",
+      "The best choice ultimately depends on your destination, activity level, travel style and the kind of memories you want the voyage to create."
+    ]
+  },
+  "cta": {
+    "title": "Plan Your Perfect Seabourn Ocean or Expedition Voyage",
+    "subtitle": "Let Angela Hughes and Trips & Ships Luxury Travel match you to the ideal ship, suite, and itinerary with insider amenities and personalized concierge guidance.",
+    "buttonText": "Request a Seabourn Consultation",
+    "buttonLink": "/seabourn-cruises/request-a-quote"
+  }
+}

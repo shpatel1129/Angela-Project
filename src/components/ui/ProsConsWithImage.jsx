@@ -14,7 +14,7 @@ const ProsConsWithImage = ({ title, bestFor, notBestFor, bottomNote, prosTitle, 
         </FadeIn>
 
         <div className={`grid grid-cols-1 ${image ? 'lg:grid-cols-12' : 'md:grid-cols-2'} gap-8 md:gap-12 items-center`}>
-          
+
           {image && (
             <FadeIn className="lg:col-span-5 h-full min-h-[500px] hidden lg:block rounded-3xl overflow-hidden relative shadow-xl">
               <img src={image} alt="Pros and Cons visual" className="absolute inset-0 w-full h-full object-cover" />
