@@ -185,7 +185,7 @@
     "extendedParagraphs": [
       "Seabourn's current pricing is advertised in U.S. dollars, with fares generally shown per guest based on double occupancy. Its current terms also state that advertised fares include taxes, fees and port expenses, although prices and availability can change before a reservation is confirmed.",
       "That means the most useful way to understand Seabourn pricing isn't to ask only, 'What is the cheapest Seabourn cruise?' Instead, ask: What will my total Seabourn vacation cost, and what is already included in that price?",
-      "Because Seabourn includes many elements that can be extra on other cruise lines — including dining, beverages, Wi-Fi and onboard gratuities — the headline fare doesn't tell the whole story."
+      "Because Seabourn includes many elements that can be extra on other cruise lines  including dining, beverages, Wi-Fi and onboard gratuities  the headline fare doesn't tell the whole story."
     ],
     "ctaText": "Start Planning Your Seabourn Cruise",
     "ctaLink": "/contact"
@@ -220,7 +220,7 @@
       {
         "icon": "Calendar",
         "title": "Cruise Length",
-        "text": "A seven-day cruise and a multi-week voyage obviously have very different total prices. However, don't compare only the total — a longer cruise can sometimes offer a more attractive cost per night, particularly when more included amenities are spread across the voyage."
+        "text": "A seven-day cruise and a multi-week voyage obviously have very different total prices. However, don't compare only the total  a longer cruise can sometimes offer a more attractive cost per night, particularly when more included amenities are spread across the voyage."
       },
       {
         "icon": "Gem",
@@ -235,7 +235,7 @@
       {
         "icon": "Sun",
         "title": "Time of Year",
-        "text": "Peak-season departures can command higher fares, while shoulder-season itineraries may sometimes offer better value. However, don't choose a sailing based on price alone — weather, daylight, wildlife activity and destination conditions can make the timing of a voyage just as important."
+        "text": "Peak-season departures can command higher fares, while shoulder-season itineraries may sometimes offer better value. However, don't choose a sailing based on price alone  weather, daylight, wildlife activity and destination conditions can make the timing of a voyage just as important."
       },
       {
         "icon": "Ship",
@@ -420,6 +420,11 @@
     ],
     "note": "Seabourn's cruise contract specifically excludes certain incidental items, activities, excursions, transportation and personal services from the cruise fare. Airline services and baggage fees may also be charged separately."
   },
+  "videoSection": {
+    "youtubeId": "TZ8la6nI-J8",
+    "title": "Watch: Seabourn Ultra-Luxury Cruise Cost & Experience Breakdown",
+    "description": "Explore the ultra-luxury world of Seabourn: all-suite oceanfront accommodations, gourmet open-seating dining, complimentary fine wines and spirits, and signature experiences."
+  },
   "excursions": {
     "eyebrow": "Ashore",
     "title": "Seabourn Shore Excursion Costs",
@@ -437,7 +442,7 @@
   "cta3": {
     "eyebrow": "Plan Your Shore Experience",
     "title": "Get Expert Help Budgeting Your Seabourn Shore Excursions",
-    "description": "From private tours to expedition experiences, shore excursion costs vary widely. Let us help you plan the right excursions for your itinerary — and build a realistic total vacation budget.",
+    "description": "From private tours to expedition experiences, shore excursion costs vary widely. Let us help you plan the right excursions for your itinerary  and build a realistic total vacation budget.",
     "buttonText": "Start Planning Your Cruise",
     "buttonLink": "/contact"
   },
@@ -531,7 +536,7 @@
       ]
     },
     "takeaways": [
-      "The result: Cruise B costs more overall but less per night. A 14-night cruise isn't necessarily twice the value of a seven-night cruise — but it may offer a more efficient overall travel experience.",
+      "The result: Cruise B costs more overall but less per night. A 14-night cruise isn't necessarily twice the value of a seven-night cruise  but it may offer a more efficient overall travel experience.",
       "The second question: Which itinerary and suite do I actually prefer?"
     ]
   },
@@ -563,21 +568,53 @@
   "vsLuxury": {
     "eyebrow": "Making Fair Comparisons",
     "title": "Seabourn Cruise Cost vs. Other Luxury Cruise Lines",
-    "lead": "Don't compare Seabourn solely on advertised fare.",
+    "lead": "Don't compare Seabourn solely on advertised fare  evaluate the total included value.",
     "leadEm": "Compare the total included experience.",
-    "competitorIntro": "For example, a competitor might advertise a lower cruise fare but charge separately for:",
-    "competitorExtras": [
-      "Wi-Fi",
-      "Premium beverages",
-      "Specialty dining",
-      "Gratuities",
-      "Certain services"
+    "conclusion": "A higher Seabourn fare may actually offer superior value when calculating out-of-pocket extras.",
+    "seabournInclusions": [
+      {
+        "title": "Transparent All-Inclusive Base Fare",
+        "description": "Covers your ultra-luxury oceanfront suite, world-class dining, and personalized hospitality without hidden fees or surprise daily charges."
+      },
+      {
+        "title": "Fine Wines & Premium Spirits Included",
+        "description": "Open bars throughout the ship, complimentary in-suite bar restocked with your preferences, and sommelier-selected table wines."
+      },
+      {
+        "title": "Gourmet Specialty Dining with Zero Cover Charges",
+        "description": "Dine across multiple world-class restaurants, including curated venues like Solis, without paying extra reservation fees."
+      },
+      {
+        "title": "All Onboard Gratuities Included",
+        "description": "Tipping is neither required nor expectedno surprise daily service charges ($18–$25/day per guest) added to your onboard folio."
+      },
+      {
+        "title": "Unlimited High-Speed Wi-Fi & Signature Events",
+        "description": "Starlink-powered Wi-Fi and iconic signature experiences like Caviar in the Surf® and Marina Days are fully complimentary."
+      }
     ],
-    "conclusion": "A higher Seabourn fare may therefore narrow the apparent price difference.",
-    "formulaLabelGood": "This is why your comparison should always be:",
-    "formulaGood": ["Fare", "Inclusions", "Extras", "Itinerary", "Suite"],
-    "formulaLabelBad": "rather than simply:",
-    "formulaBad": ["Fare", "vs.", "Fare"]
+    "competitorExtras": [
+      {
+        "title": "Wi-Fi & Connectivity Surcharges",
+        "description": "Competitors frequently charge $20–$40/day per device for streaming speeds, adding hundreds of dollars across a 10-to-14-night voyage."
+      },
+      {
+        "title": "Daily Crew Gratuities Added at Checkout",
+        "description": "Automatic daily service charges ($18–$25+ per person per day) are added to your final folio unless booked under special promotions."
+      },
+      {
+        "title": "Specialty Restaurant Cover Charges",
+        "description": "Signature fine dining venues often require $50–$150 per-person reservation fees or à la carte pricing on competing lines."
+      },
+      {
+        "title": "Beverage Packages & Corkage Fees",
+        "description": "Top-shelf spirits, premium cocktails, and in-suite minibar beverages often require costly daily drink package upgrades."
+      },
+      {
+        "title": "A La Carte Onboard Service Fees",
+        "description": "Additional charges frequently apply for 24-hour in-suite room service delivery, wellness classes, and basic port shuttles."
+      }
+    ]
   },
   "bestPrice": {
     "eyebrow": "Smart Booking",

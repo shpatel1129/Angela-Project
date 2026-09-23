@@ -446,10 +446,11 @@ const SeabournCruises = () => {
         title={pageData.hero.title}
         subtitle={pageData.hero.subtitle}
         backgroundImage={SeabournHeroImg}
-        primaryCtaText="Plan Your Seabourn Cruise"
-        primaryCtaLink="/contact"
+        secondaryCtaText="Contact"
+        secondaryCtaLink="/contact"
       />
 
+      <div id="content">
       {/* ─── 2. WHAT IS SEABOURN CRUISES (AsymmetricStoryIntro Component) ─── */}
       <AsymmetricStoryIntro
         eyebrow={pageData.whatIs.eyebrow}
@@ -640,13 +641,24 @@ const SeabournCruises = () => {
 
       {/* ─── 19. ANGELA HUGHES LUXURY AUTHORITY (ExpertCredentials Component) ─── */}
       <ExpertCredentials
-        name={pageData.authority.name}
-        title={pageData.authority.role}
-        experience={pageData.authority.experience}
-        countries={pageData.authority.countries}
+        name="Angela Hughes"
+        title="Luxury Cruise Specialist & CEO, Trips & Ships Luxury Travel"
+        badge="LUXURY CRUISE EXPERTISE"
+        experienceBadge="40+ YEARS EXPERTISE"
+        authorityBoxTitle="ANGELA HUGHES INSIGHTS & LEADERSHIP"
+        authoritySubtitle="Trusted Ultra-Luxury Cruise Authority"
         bio="Angela Hughes is an internationally recognized luxury travel advisor and CEO of Trips & Ships Luxury Travel. With more than four decades of high-end travel consulting, over 121 countries visited, and leadership roles on global advisory boards, Angela provides discerning travelers with peerless insight into Seabourn's fleet, suite allocations, and worldwide itineraries."
-        credentials={pageData.authority.credentials}
+        credentials={[
+          "Over 4 Decades Designing Ultra-Luxury Cruise Vacations",
+          "Explored 121+ Countries & Remote Polar Destinations",
+          "Recognized Global Ultra-Luxury & Expedition Cruise Authority",
+          "CEO & Founder of Trips & Ships Luxury Travel",
+          "Specialist in Suite Selection, Ship Comparisons & Private Excursions",
+          "Direct Executive Relationships with Seabourn & Top Luxury Lines"
+        ]}
         image={AboutImage}
+        ctaText="Plan Your Seabourn Voyage With Angela"
+        ctaLink="/contact"
       />
 
       {/* ─── 20. FREQUENTLY ASKED QUESTIONS (FAQAccordion Component) ─── */}
@@ -661,6 +673,7 @@ const SeabournCruises = () => {
         image={SeabournCtaImg}
         theme="dark"
       />
+      </div>
     </div>
   );
 };

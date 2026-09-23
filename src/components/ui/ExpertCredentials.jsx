@@ -118,7 +118,7 @@ const ExpertCredentials = ({
                       "{quote}"
                     </p>
                     <span className="font-sans text-[10px] font-bold uppercase tracking-widest text-slate-500 mt-2 block">
-                      — {expertName}, {quoteSubtitle || "On Greece Planning"}
+                      {expertName}, {quoteSubtitle || "On Greece Planning"}
                     </span>
                   </div>
                 )}

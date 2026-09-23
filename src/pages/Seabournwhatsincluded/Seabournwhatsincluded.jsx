@@ -59,20 +59,49 @@ import TravelerProfileTabs from "@/components/ui/TravelerProfileTabs";
 import FeatureGrid from "@/components/ui/FeatureGrid";
 import ProsConsCards from "@/components/ui/ProsConsCards";
 import ExpertRulesGrid from "@/components/ui/ExpertRulesGrid";
+import GenericChecklistCards from "@/components/ui/GenericChecklistCards";
 import VideoEmbed from "@/components/ui/VideoEmbed";
 import MasterImage from "@/components/ui/MasterImage";
 import FadeIn from "@/components/ui/FadeIn";
 
 // Asset References
 import AboutImage from "../../assets/AboutAngela3.jpeg";
+import HeroImage from "../../assets/WhatIncludedSeabournCruise/seabourn-luxury-cruise-ship-ocean-sailing-all-inclusive.jpg";
+import IsAllInclusiveImg from "../../assets/WhatIncludedSeabournCruise/is-seabourn-all-inclusive-luxury-cruise-experience.jpg";
+import ChampagneIncludedImg from "../../assets/WhatIncludedSeabournCruise/seabourn-included-champagne-pours-luxury-cruise.jpg";
+import TheRestaurantImg from "../../assets/WhatIncludedSeabournCruise/seabourn-the-restaurant-fine-dining-main-venue.jpg";
+import TheColonnadeImg from "../../assets/WhatIncludedSeabournCruise/seabourn-the-colonnade-casual-indoor-outdoor-dining.jpg";
+import InSuiteDiningImg from "../../assets/WhatIncludedSeabournCruise/seabourn-suite-private-dining-veranda-room-service.jpg";
+import PremiumSpiritsImg from "../../assets/WhatIncludedSeabournCruise/seabourn-premium-spirits-craft-cocktails-open-bar.jpg";
+import WelcomeChampagneImg from "../../assets/WhatIncludedSeabournCruise/seabourn-embarkation-welcome-champagne-hospitality.jpg";
+import AnInSuiteBarImg from "../../assets/WhatIncludedSeabournCruise/seabourn-luxury-suite-customized-complimentary-bar.jpg";
+import CaviarIncludedImg from "../../assets/WhatIncludedSeabournCruise/seabourn-complimentary-caviar-service-on-demand-luxury.jpg";
+import WifiIncludedImg from "../../assets/WhatIncludedSeabournCruise/seabourn-starlink-included-wifi-internet-connectivity.jpg";
+import GratuitiesAreImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-included-crew-gratuities-tipping-policy.jpg";
+import SeabournConversationsImg from "../../assets/WhatIncludedSeabournCruise/seabourn-conversations-enrichment-guest-speakers-program.jpg";
+import FitnessFacilitiesImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-fitness-center-ocean-view-wellness-facilities.jpg";
+import PoolsPublicSpacesImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-ship-pool-deck-and-public-lounges.jpg";
+import ExpeditionActivitiesImg from "../../assets/WhatIncludedSeabournCruise/seabourn-expedition-zodiac-activities-included-excursions.jpg";
+import RoomServiceImg from "../../assets/WhatIncludedSeabournCruise/seabourn-24-hour-complimentary-in-suite-room-service.jpg";
+import SpecialtyDiningImg from "../../assets/WhatIncludedSeabournCruise/seabourn-complimentary-specialty-dining-culinary-venues.jpg";
+import AlcoholicDrinksImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-included-alcoholic-drinks-fine-wines-cocktails.jpg";
+import SoftDrinksImg from "../../assets/WhatIncludedSeabournCruise/seabourn-included-specialty-coffees-soft-drinks-refreshments.jpg";
+import LaundryValetImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-valet-laundry-and-dry-cleaning-services.jpg";
+import SpaTreatmentsImg from "../../assets/WhatIncludedSeabournCruise/seabourn-spa-wellness-massage-and-salon-treatments.jpg";
+import ShoreExcursionsImg from "../../assets/WhatIncludedSeabournCruise/seabourn-shore-excursions-guided-tours-cultural-ports.jpg";
+import TrueCostImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-inclusions-true-cost-value-breakdown.jpg";
+import EnjoyDinnerImg from "../../assets/WhatIncludedSeabournCruise/seabourn-open-seating-gourmet-dinner-restaurant.jpg";
+import RelaxInSuiteImg from "../../assets/WhatIncludedSeabournCruise/seabourn-oceanfront-luxury-suite-veranda-relaxation.jpg";
+import FinalVerdictImg from "../../assets/WhatIncludedSeabournCruise/seabourn-final-verdict-all-inclusive-value-lifestyle.jpg";
 
 const SeabournWhatsIncluded = () => {
 
   // 1. Dining Sub-cards for ThreeColumnGrid
-  const diningVenueItems = pageData.dining.subCards.map((card) => ({
+  const diningImages = [TheRestaurantImg, TheColonnadeImg, InSuiteDiningImg];
+  const diningVenueItems = pageData.dining.subCards.map((card, idx) => ({
     title: card.title,
     description: card.description,
-    image: null,
+    image: diningImages[idx] || null,
     placeholderLabel: `SEABOURN DINING — ${card.title.toUpperCase()}`
   }));
 
@@ -103,7 +132,7 @@ const SeabournWhatsIncluded = () => {
       category: "Category 03 • Arrival Touch",
       description: pageData.groupedAmenities.cards[0].description,
       bestFor: "Celebrations, milestone anniversaries, and honeymooners seeking genuine first-class welcome hospitality.",
-      image: null,
+      image: WelcomeChampagneImg,
       placeholderLabel: "SEABOURN WELCOME CHAMPAGNE"
     },
     {
@@ -111,7 +140,7 @@ const SeabournWhatsIncluded = () => {
       category: "Category 04 • In-Suite Living",
       description: `${pageData.groupedAmenities.cards[1].description} Particularly valuable for: ${pageData.groupedAmenities.cards[1].items.join(', ')}.`,
       bestFor: "Private veranda breakfasts and pre-dinner suite drinks with customized wines and spirits.",
-      image: null,
+      image: AnInSuiteBarImg,
       placeholderLabel: "CUSTOMIZED IN-SUITE BAR"
     },
     {
@@ -119,7 +148,7 @@ const SeabournWhatsIncluded = () => {
       category: "Category 05 • Signature Luxury",
       description: `${pageData.groupedAmenities.cards[2].description} Caviar can be enjoyed: ${pageData.groupedAmenities.cards[2].items.join(', ')}. ${pageData.groupedAmenities.cards[2].footnote}`,
       bestFor: "Culinary connoisseurs seeking Seabourn's iconic complimentary caviar service anywhere onboard.",
-      image: null,
+      image: CaviarIncludedImg,
       placeholderLabel: "COMPLIMENTARY CAVIAR SERVICE"
     },
     {
@@ -127,7 +156,7 @@ const SeabournWhatsIncluded = () => {
       category: "Category 06 • Seamless Connectivity",
       description: `${pageData.groupedAmenities.cards[3].description} Perfect for: ${pageData.groupedAmenities.cards[3].items.join(', ')}. ${pageData.groupedAmenities.cards[3].footnote}`,
       bestFor: "Remote professionals, family connectivity, and seamless global Starlink internet at sea.",
-      image: null,
+      image: WifiIncludedImg,
       placeholderLabel: "STARLINK INCLUDED WI-FI"
     }
   ];
@@ -162,10 +191,11 @@ const SeabournWhatsIncluded = () => {
   ];
 
   // 7. Detailed Inclusions (Fitness, Pools, Expeditions) for ThreeColumnGrid
-  const detailInclusionItems = pageData.detailInclusions.items.map((item) => ({
+  const detailInclusionImages = [FitnessFacilitiesImg, PoolsPublicSpacesImg, ExpeditionActivitiesImg];
+  const detailInclusionItems = pageData.detailInclusions.items.map((item, idx) => ({
     title: item.title,
     description: `${item.text} ${item.featuresTitle} ${item.features.join(', ')}.`,
-    image: null,
+    image: detailInclusionImages[idx] || null,
     placeholderLabel: `SEABOURN ${item.title.toUpperCase()}`
   }));
 
@@ -181,10 +211,11 @@ const SeabournWhatsIncluded = () => {
   }));
 
   // 9. Common Questions Part 1 for ThreeColumnGrid
-  const moreInclusionsPart1Items = pageData.moreInclusionsPart1.cards.map((card) => ({
+  const moreInclusionsPart1Images = [RoomServiceImg, SpecialtyDiningImg, AlcoholicDrinksImg, ChampagneIncludedImg];
+  const moreInclusionsPart1Items = pageData.moreInclusionsPart1.cards.map((card, idx) => ({
     title: card.title,
     description: card.text,
-    image: null,
+    image: moreInclusionsPart1Images[idx] || null,
     placeholderLabel: card.title.replace('?', '').toUpperCase()
   }));
 
@@ -202,7 +233,7 @@ const SeabournWhatsIncluded = () => {
         "Still & sparkling bottled waters",
         "Craft mocktails & artisan sodas"
       ],
-      image: null,
+      image: SoftDrinksImg,
       placeholderLabel: "SEABOURN SOFT DRINKS & REFRESHMENTS"
     },
     {
@@ -217,7 +248,7 @@ const SeabournWhatsIncluded = () => {
         "Professional dry cleaning",
         "Same-day pressing services"
       ],
-      image: null,
+      image: LaundryValetImg,
       placeholderLabel: "SEABOURN LAUNDRY & VALET SERVICES"
     },
     {
@@ -232,7 +263,7 @@ const SeabournWhatsIncluded = () => {
         "Holistic wellness & facial treatments",
         "Full-service hair and nail salon"
       ],
-      image: null,
+      image: SpaTreatmentsImg,
       placeholderLabel: "SEABOURN SPA & WELLNESS"
     },
     {
@@ -247,7 +278,7 @@ const SeabournWhatsIncluded = () => {
         "Ventures by Seabourn active excursions",
         "Exclusive evening cultural access"
       ],
-      image: null,
+      image: ShoreExcursionsImg,
       placeholderLabel: "SEABOURN SHORE EXCURSIONS"
     }
   ];
@@ -286,14 +317,6 @@ const SeabournWhatsIncluded = () => {
     pageData.vsLuxury.takeaway
   ];
 
-  // 14. Budget Tiers for ThreeColumnGrid
-  const budgetTierItems = pageData.budgetTiers.tiers.map((tier) => ({
-    title: tier.title,
-    description: `Expected expenses: ${tier.items.join(' • ')}.`,
-    image: null,
-    placeholderLabel: tier.title.toUpperCase()
-  }));
-
   // 15. Maximize Value Tips for ExpertRulesGrid (Image-Free UI Component)
   const maximizeValueRules = pageData.maximizeValue.tips.map((tip) => ({
     title: tip.title,
@@ -326,21 +349,23 @@ const SeabournWhatsIncluded = () => {
       <ComparisonHero
         title={pageData.hero.title}
         subtitle={pageData.hero.subtitle}
-        primaryCtaText={pageData.hero.ctaText}
-        primaryCtaLink={pageData.hero.ctaLink}
+        backgroundImage={HeroImage}
+        badge={pageData.hero.eyebrow}
+        secondaryCtaText={pageData.hero.ctaText || "Contact a Specialist"}
+        secondaryCtaLink={pageData.hero.ctaLink || "/contact"}
       />
 
-    
-      {/* ─── 2. QUICK ANSWER: WHAT IS INCLUDED (InclusionCheckerGrid) ─── */}
-      <InclusionCheckerGrid
-        eyebrow={pageData.quickAnswer.eyebrow}
-        title={pageData.quickAnswer.title}
-        subtitle={pageData.quickAnswer.intro}
-        inclusionsTitle={pageData.quickAnswer.includedTitle}
-        exclusionsTitle={pageData.quickAnswer.additionalTitle}
-        inclusions={pageData.quickAnswer.included}
-        exclusions={pageData.quickAnswer.additional}
-      />
+      <div id="content">
+        {/* ─── 2. QUICK ANSWER: WHAT IS INCLUDED (InclusionCheckerGrid) ─── */}
+        <InclusionCheckerGrid
+          eyebrow={pageData.quickAnswer.eyebrow}
+          title={pageData.quickAnswer.title}
+          subtitle={pageData.quickAnswer.intro}
+          inclusionsTitle={pageData.quickAnswer.includedTitle}
+          exclusionsTitle={pageData.quickAnswer.additionalTitle}
+          inclusions={pageData.quickAnswer.included}
+          exclusions={pageData.quickAnswer.additional}
+        />
 
       {/* ─── 3. IS SEABOURN ALL-INCLUSIVE? (EditorialIntroSplit) ─── */}
       <EditorialIntroSplit
@@ -350,6 +375,8 @@ const SeabournWhatsIncluded = () => {
           ...pageData.allInclusive.paragraphs,
           `${pageData.allInclusive.formulaTitle} ${pageData.allInclusive.formula.join(' + ')}.`
         ]}
+        primaryImage={IsAllInclusiveImg}
+        secondaryImage={ChampagneIncludedImg}
       />
 
       {/* ─── 4. CATEGORY 01: SEABOURN DINING (ThreeColumnGrid) ─── */}
@@ -363,6 +390,7 @@ const SeabournWhatsIncluded = () => {
       <EditorialFeatureShowcase
         title={pageData.beverages.title}
         subtitle={`${pageData.beverages.lead} ${pageData.beverages.body}`}
+        image={PremiumSpiritsImg}
         features={beverageFeaturesList}
       />
 
@@ -401,6 +429,7 @@ const SeabournWhatsIncluded = () => {
           `${pageData.gratuities.whyTitle} ${pageData.gratuities.whyIntro} ${pageData.gratuities.highlights.join(', ')}.`,
           pageData.gratuities.outro
         ]}
+        primaryImage={GratuitiesAreImg}
       />
 
       {/* ─── 8. CATEGORY 08: ENTERTAINMENT IS INCLUDED (HighlightsSplit) ─── */}
@@ -413,6 +442,7 @@ const SeabournWhatsIncluded = () => {
       <EditorialFeatureShowcase
         title={pageData.conversations.title}
         subtitle={`${pageData.conversations.lead} ${pageData.conversations.body}`}
+        image={SeabournConversationsImg}
         features={conversationFeaturesList}
       />
 
@@ -483,6 +513,7 @@ const SeabournWhatsIncluded = () => {
           `${pageData.trueCost.noteQuestion} ${pageData.trueCost.noteQuestionText}`,
           pageData.trueCost.noteOutro
         ]}
+        primaryImage={TrueCostImg}
       />
 
       {/* ─── 17. SEABOURN VS MAINSTREAM CRUISE LINES (FeatureGrid - Image Free) ─── */}
@@ -525,17 +556,19 @@ const SeabournWhatsIncluded = () => {
         highlights={pageData.modelDifferent.formula.map(
           (item) => `${pageData.modelDifferent.cardLabel} ${item}`
         )}
+        image1={EnjoyDinnerImg}
+        image2={RelaxInSuiteImg}
         image1Placeholder="SEABOURN ALL-INCLUSIVE LUXURY"
         image2Placeholder="EFFORTLESS SHIPBOARD HOSPITALITY"
         ctaText="Plan Your Seabourn Voyage"
         ctaLink="/contact"
       />
 
-      {/* ─── 20. HOW MUCH TO BUDGET BEYOND THE FARE (ThreeColumnGrid) ─── */}
-      <ThreeColumnGrid
+      {/* ─── 20. HOW MUCH TO BUDGET BEYOND THE FARE (GenericChecklistCards - Image Free) ─── */}
+      <GenericChecklistCards
         title={pageData.budgetTiers.title}
         subtitle={pageData.budgetTiers.intro}
-        items={budgetTierItems}
+        cards={pageData.budgetTiers.tiers}
       />
 
       {/* ─── 21. HOW TO MAXIMIZE SEABOURN VALUE (ExpertRulesGrid - Image Free) ─── */}
@@ -555,19 +588,13 @@ const SeabournWhatsIncluded = () => {
           pageData.worthIt.valueDesc
         ]}
         highlights={pageData.worthIt.formula.map(item => `Included: ${item}`)}
+        image={HeroImage}
         placeholderLabel="SEABOURN CRUISE VALUE PROPOSITION"
         badgeTitle="True Luxury Value"
         badgeDescription="Combines all-suite living, fine dining, premium drinks, caviar, Wi-Fi, and crew gratuities."
       />
 
-      {/* ─── VIDEO SHOWCASE 2: EXPERIENCE SEABOURN LUXURY & DINING ─── */}
-      <VideoEmbed
-        data={{
-          youtubeId: "laeY8KoXhXk",
-          title: "Experience the Seabourn All-Inclusive Luxury Difference",
-          description: "Step inside the intimate world of Seabourn: yacht-like small ships, intuitive personalized hospitality, all-suite oceanfront accommodations, and gourmet open-seating dining."
-        }}
-      />
+    
 
       {/* ─── 23. ANGELA HUGHES LUXURY AUTHORITY BOX (ExpertCredentials) ─── */}
       <ExpertCredentials
@@ -598,8 +625,10 @@ const SeabournWhatsIncluded = () => {
         description={`${pageData.finalVerdict.paragraphs[0]} ${pageData.finalVerdict.paragraphs[1]}`}
         buttonText={pageData.finalVerdict.buttonText}
         buttonLink={pageData.finalVerdict.buttonLink}
+        image={FinalVerdictImg}
         theme="dark"
       />
+      </div>
     </div>
   );
 };

@@ -50,9 +50,38 @@ import TravelerProfileTabs from "@/components/ui/TravelerProfileTabs";
 import StepByStepGuide from "@/components/ui/StepByStepGuide";
 import ExpertCredentials from "@/components/ui/ExpertCredentials";
 import FAQAccordion from "@/components/ui/FAQAccordion";
+import VideoEmbed from "@/components/ui/VideoEmbed";
 
 // Asset References
 import AboutImage from "../../assets/AboutAngela.jpeg";
+import HeroImage from "../../assets/IsSeabournWorthPrice/is-a-seabourn-cruise-worth-the-price-luxury-guide.jpg";
+import PayingForImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-inclusions-true-cost-value-breakdown.jpg";
+import PersonalServiceImg from "../../assets/IsSeabournWorthPrice/seabourn-personal-service-intuitive-luxury-hospitality.jpg";
+import FinalVerdictImg from "../../assets/WhatIncludedSeabournCruise/seabourn-final-verdict-all-inclusive-value-lifestyle.jpg";
+import OptionAMainstreamImg from "../../assets/IsSeabournWorthPrice/mainstream-cruise-balcony-pricing-extra-costs-showdown.jpg";
+import OptionBSeabournImg from "../../assets/IsSeabournWorthPrice/seabourn-all-inclusive-veranda-suite-true-value-comparison.jpg";
+import SeabournDiningImg from "../../assets/IsSeabournWorthPrice/seabourn-complimentary-fine-dining-gourmet-restaurants.jpg";
+import LocalCulturalImg from "../../assets/IsSeabournWorthPrice/seabourn-curated-local-cultural-heritage-shore-excursions.jpg";
+import WineTastingsImg from "../../assets/IsSeabournWorthPrice/seabourn-culinary-market-tours-and-regional-wine-tastings.jpg";
+import WildlifeTrekImg from "../../assets/IsSeabournWorthPrice/seabourn-small-group-wildlife-observation-nature-treks.jpg";
+import ZodiacLandingsImg from "../../assets/IsSeabournWorthPrice/seabourn-expedition-polar-zodiac-landings-remote-cruising.jpg";
+import BoutiqueGuidesImg from "../../assets/IsSeabournWorthPrice/seabourn-curated-boutique-destination-tours-expert-guides.jpg";
+import PrivateCarImg from "../../assets/IsSeabournWorthPrice/seabourn-private-car-driver-custom-port-tours.jpg";
+import ExpeditionCruisesImg from "../../assets/IsSeabournWorthPrice/seabourn-ultra-luxury-expedition-cruises-venture-pursuit.jpg";
+import SmallShipFleetImg from "../../assets/IsSeabournWorthPrice/seabourn-intimate-small-ship-fleet-yacht-experience.jpg";
+import MassMarketMegaShipsImg from "../../assets/IsSeabournWorthPrice/mass-market-mega-cruise-ships-crowded-comparison.jpg";
+import WaterParksImg from "../../assets/IsSeabournWorthPrice/seabourn-excludes-crowded-water-parks-and-waterslides.jpg";
+import MegaEntertainmentImg from "../../assets/IsSeabournWorthPrice/seabourn-excludes-mega-entertainment-complexes.jpg";
+import RollerCoastersImg from "../../assets/IsSeabournWorthPrice/seabourn-excludes-onboard-roller-coasters-and-arcades.jpg";
+import TeenLoungesImg from "../../assets/IsSeabournWorthPrice/seabourn-excludes-large-kids-clubs-and-teen-lounges.jpg";
+import DailyAnnouncementsImg from "../../assets/IsSeabournWorthPrice/seabourn-quiet-luxury-no-disruptive-daily-announcements.jpg";
+import ShoppingMallsImg from "../../assets/IsSeabournWorthPrice/seabourn-excludes-crowded-multi-story-shopping-malls.jpg";
+import CouplesImg from "../../assets/IsSeabournWorthPrice/is-seabourn-worth-it-for-couples-romantic-cruises.jpg";
+import SoloTravelerImg from "../../assets/IsSeabournWorthPrice/is-seabourn-worth-it-for-solo-travelers-single-supplement.jpg";
+import FamiliesImg from "../../assets/IsSeabournWorthPrice/is-seabourn-worth-it-for-multigenerational-families.jpg";
+import FirstTimeCruisersImg from "../../assets/IsSeabournWorthPrice/seabourn-value-for-first-time-luxury-cruisers.jpg";
+import ExperiencedVoyagersImg from "../../assets/IsSeabournWorthPrice/seabourn-value-for-experienced-luxury-voyagers.jpg";
+import LuxuryCruiseLinesImg from "../../assets/IsSeabournWorthPrice/seabourn-vs-other-ultra-luxury-cruise-lines-comparison.jpg";
 
 const IsSeabournWorthIt = () => {
 
@@ -98,12 +127,12 @@ const IsSeabournWorthIt = () => {
   // 4. Two Vacations, Same Price (ContainedShowdown - 1x of 2)
   const optionABrand = {
     name: pageData.allSuiteMatters.optionA.title,
-    image: "",
+    image: OptionAMainstreamImg,
     features: pageData.allSuiteMatters.optionA.items
   };
   const optionBBrand = {
     name: pageData.allSuiteMatters.optionB.title,
-    image: "",
+    image: OptionBSeabournImg,
     features: pageData.allSuiteMatters.optionB.items
   };
 
@@ -123,21 +152,31 @@ const IsSeabournWorthIt = () => {
   }));
 
   // 8. Excursion Showcase Items (EditorialExcursionShowcase - 1x)
-  const excursionItems = pageData.excursionsWorth.excursionPriorities.map((item) => ({
+  const excursionImages = [
+    LocalCulturalImg,
+    WineTastingsImg,
+    WildlifeTrekImg,
+    ZodiacLandingsImg,
+    BoutiqueGuidesImg,
+    PrivateCarImg
+  ];
+
+  const excursionItems = pageData.excursionsWorth.excursionPriorities.map((item, idx) => ({
     title: item,
     category: "Curated Destination Experience",
-    description: "Small-group shore tours and remote exploration designed around deep destination access."
+    description: "Small-group shore tours and remote exploration designed around deep destination access.",
+    image: excursionImages[idx] || null
   }));
 
   // 9. Small Ship vs Mega Ship (ContainedShowdown - 2x of 2)
   const smallShipBrand = {
     name: "Seabourn Small-Ship Fleet (264–600 Guests)",
-    image: "",
+    image: SmallShipFleetImg,
     features: pageData.smallShipExperience.advantages
   };
   const megaShipBrand = {
     name: "Mass-Market Mega-Ships (3,000–6,000 Guests)",
-    image: "",
+    image: MassMarketMegaShipsImg,
     features: [
       "Thousands of passengers creating crowded public areas",
       "Long lines for specialty dining, tenders, and embarkation",
@@ -148,11 +187,21 @@ const IsSeabournWorthIt = () => {
   };
 
   // 10. What Seabourn Does Not Offer (ThreeColumnGrid - 1x)
-  const notOfferedCards = pageData.notOffered.items.map((item) => ({
+  const notOfferedImages = [
+    WaterParksImg,
+    MegaEntertainmentImg,
+    RollerCoastersImg,
+    TeenLoungesImg,
+    DailyAnnouncementsImg,
+    ShoppingMallsImg
+  ];
+
+  const notOfferedCards = pageData.notOffered.items.map((item, idx) => ({
     title: item.title,
     description: item.description,
     category: item.category,
-    highlight: "Deliberately Excluded"
+    highlight: "Deliberately Excluded",
+    image: notOfferedImages[idx] || null
   }));
 
   // 11. Seabourn vs Other Luxury Lines (InclusionsSplitFeatures - 1x)
@@ -212,6 +261,20 @@ const IsSeabournWorthIt = () => {
     icon: "CheckCircle"
   }));
 
+  // 17b. Traveler Profiles with Images (TravelerProfileTabs - 1x)
+  const profileImages = [
+    CouplesImg,
+    SoloTravelerImg,
+    FamiliesImg,
+    FirstTimeCruisersImg,
+    ExperiencedVoyagersImg
+  ];
+
+  const travelerProfilesWithImages = pageData.worthForYou.profiles.map((profile, idx) => ({
+    ...profile,
+    image: profileImages[idx] || null
+  }));
+
   // 18. FAQ Data (FAQAccordion - 1x)
   const faqAccordionData = {
     title: "Frequently Asked Questions About Seabourn Value",
@@ -238,9 +301,12 @@ const IsSeabournWorthIt = () => {
       <ComparisonHero
         title={pageData.hero.title}
         subtitle={`${pageData.hero.subtitle} ${pageData.hero.extendedParagraphs[0]} ${pageData.hero.extendedParagraphs[1]} ${pageData.hero.extendedParagraphs[2]} ${pageData.hero.extendedParagraphs[3]}`}
-        primaryCtaText={pageData.hero.ctaText}
-        primaryCtaLink={pageData.hero.ctaLink}
+        backgroundImage={HeroImage}
+        secondaryCtaText="Contact"
+        secondaryCtaLink="/contact"
       />
+
+      <div id="content">
 
       {/* ─── 2. QUICK VERDICT RATINGS TABLE (ComparisonTable - 1x of 2) ─── */}
       <ComparisonTable data={quickVerdictTableData} />
@@ -257,6 +323,7 @@ const IsSeabournWorthIt = () => {
         placeholderLabel="SEABOURN INCLUDED EXPERIENCE"
         badgeTitle="All-Inclusive Hospitality"
         badgeDescription="Fine dining, premium spirits, Starlink Wi-Fi, in-suite bar, and crew gratuities are fully included."
+        image={PayingForImg}
       />
 
       {/* ─── 4. DEFINING DIFFERENCE: PERSONAL SERVICE (EditorialIntroSplit - 1x) ─── */}
@@ -267,6 +334,7 @@ const IsSeabournWorthIt = () => {
           pageData.personalService.intro,
           `${pageData.personalService.formula.title} ${pageData.personalService.formula.body.join(' + ')} ${pageData.personalService.formula.verdict}`
         ]}
+        primaryImage={PersonalServiceImg}
       />
 
       {/* ─── 5. IS SERVICE WORTH PAYING MORE FOR? (CostValueAnalysisCards - 1x) ─── */}
@@ -321,6 +389,7 @@ const IsSeabournWorthIt = () => {
         title={pageData.diningWorth.title}
         subtitle={`${pageData.diningWorth.intro} ${pageData.diningWorth.venuesText}`}
         features={diningFeatures}
+        image={SeabournDiningImg}
         bgClass="bg-white"
       />
 
@@ -361,6 +430,9 @@ const IsSeabournWorthIt = () => {
         items={notIncludedItems}
       />
 
+      {/* ─── VIDEO SHOWCASE: IS SEABOURN WORTH IT? ─── */}
+      <VideoEmbed data={pageData.videoSection} />
+
       {/* ─── 13. SHORE EXCURSIONS: ARE THEY WORTH IT? (EditorialExcursionShowcase - 1x) ─── */}
       <EditorialExcursionShowcase
         title={pageData.excursionsWorth.title}
@@ -389,6 +461,7 @@ const IsSeabournWorthIt = () => {
         placeholderLabel="SEABOURN EXPEDITION EXPLORATION"
         badgeTitle="Purpose-Built Polar Luxury"
         badgeDescription="PC6 ice-strengthened hulls, 24 Zodiacs, submarines, kayaks, and a 24-member expert expedition team."
+        image={ExpeditionCruisesImg}
       />
 
       {/* ─── 15. SMALL SHIPS VS MEGA SHIPS (ContainedShowdown - 2x of 2) ─── */}
@@ -409,7 +482,7 @@ const IsSeabournWorthIt = () => {
       <TravelerProfileTabs
         title={pageData.worthForYou.title}
         subtitle={pageData.worthForYou.eyebrow}
-        profiles={pageData.worthForYou.profiles}
+        profiles={travelerProfilesWithImages}
       />
 
       {/* ─── MID-PAGE CTA 4: FIND YOUR FIT (CenterCTA) ─── */}
@@ -434,7 +507,7 @@ const IsSeabournWorthIt = () => {
       />
 
       {/* ─── 19. SEABOURN VS OTHER LUXURY CRUISE LINES (InclusionsSplitFeatures - 1x) ─── */}
-      <InclusionsSplitFeatures data={vsLuxuryData} />
+      <InclusionsSplitFeatures data={vsLuxuryData} image={LuxuryCruiseLinesImg} />
 
       {/* ─── 20. WHEN IS SEABOURN WORTH THE PREMIUM? (MoneySavingTips - 1x) ─── */}
       <MoneySavingTips
@@ -511,8 +584,10 @@ const IsSeabournWorthIt = () => {
         description={`${pageData.finalVerdict.paragraphs[0]} ${pageData.finalVerdict.paragraphs[1]} ${pageData.finalVerdict.recommendation}`}
         buttonText={pageData.finalVerdict.buttonText}
         buttonLink={pageData.finalVerdict.buttonLink}
+        image={FinalVerdictImg}
         theme="dark"
       />
+      </div>
     </div>
   );
 };

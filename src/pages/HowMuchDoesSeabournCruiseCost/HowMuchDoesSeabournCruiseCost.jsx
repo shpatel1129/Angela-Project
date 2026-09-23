@@ -44,7 +44,7 @@ import InclusionCheckerGrid from "@/components/ui/InclusionCheckerGrid";
 import MistakesGrid from "@/components/ui/MistakesGrid";
 import EditorialExcursionShowcase from "@/components/ui/EditorialExcursionShowcase";
 import ThreeColumnGrid from "@/components/ui/ThreeColumnGrid";
-import BentoGlassmorphismGrid from "@/components/ui/BentoGlassmorphismGrid";
+import CreativeShardGrid from "@/components/ui/CreativeShardGrid";
 import CostValueAnalysisCards from "@/components/ui/CostValueAnalysisCards";
 import ExpertRulesGrid from "@/components/ui/ExpertRulesGrid";
 import InclusionsSplitFeatures from "@/components/ui/InclusionsSplitFeatures";
@@ -53,9 +53,36 @@ import TravelerProfileTabs from "@/components/ui/TravelerProfileTabs";
 import StepByStepGuide from "@/components/ui/StepByStepGuide";
 import ExpertCredentials from "@/components/ui/ExpertCredentials";
 import FAQAccordion from "@/components/ui/FAQAccordion";
+import VideoEmbed from "@/components/ui/VideoEmbed";
 
 // Asset References
 import AboutImage from "../../assets/AboutAngela.jpeg";
+import HeroImage from "../../assets/SeabournCruiseCost/how-much-does-a-seabourn-cruise-cost-guide.jpg";
+import SeabournAdvertisesImg from "../../assets/SeabournCruiseCost/how-seabourn-advertises-cruise-prices-fare-terms.jpg";
+import VerandaSuiteBalanceImg from "../../assets/SeabournCruiseCost/seabourn-veranda-suite-cost-value-balance-showdown.jpg";
+import PenthousePremiumSuitesImg from "../../assets/SeabournCruiseCost/seabourn-penthouse-premium-luxury-suites-pricing.jpg";
+import InSuiteBarImg from "../../assets/SeabournCruiseCost/seabourn-suite-amenities-complimentary-in-suite-bar.jpg";
+import CouplesImg from "../../assets/SeabournCruiseCost/seabourn-cruise-cost-for-two-couples-pricing.jpg";
+import PrivateToursImg from "../../assets/SeabournCruiseCost/seabourn-private-car-and-guide-port-tours-cost.jpg";
+import PremiumExcursionsImg from "../../assets/SeabournCruiseCost/seabourn-bespoke-premium-shore-excursions-pricing.jpg";
+import CulturalExperiencesImg from "../../assets/SeabournCruiseCost/seabourn-curated-cultural-shore-excursions-guided-tours.jpg";
+import AdventureActivitiesImg from "../../assets/SeabournCruiseCost/seabourn-cruise-shore-excursions-adventure-activities.jpg";
+import ExpeditionExperiencesImg from "../../assets/SeabournCruiseCost/seabourn-expedition-cruises-zodiac-shore-experiences.jpg";
+import SmallGroupToursImg from "../../assets/SeabournCruiseCost/seabourn-small-group-shore-excursions-immersive-tours.jpg";
+import AirfareCostImg from "../../assets/SeabournCruiseCost/seabourn-cruise-airfare-and-flight-costs.jpg";
+import HotelCostsImg from "../../assets/SeabournCruiseCost/seabourn-pre-and-post-cruise-hotel-packages-cost.jpg";
+import GroundTransportImg from "../../assets/SeabournCruiseCost/seabourn-port-transfers-ground-transportation-packages.jpg";
+import BudgetBeyondFareImg from "../../assets/SeabournCruiseCost/budget-beyond-seabourn-cruise-fare-additional-expenses.jpg";
+import CruiseAImg from "../../assets/SeabournCruiseCost/seabourn-cruise-cost-per-night-short-itinerary-comparison.jpg";
+import CruiseBImg from "../../assets/SeabournCruiseCost/seabourn-cruise-cost-per-night-longer-voyage-value.jpg";
+import BestTimeToBookImg from "../../assets/SeabournCruiseCost/best-time-to-book-seabourn-cruise-pricing-deals.jpg";
+import SoloTravelersImg from "../../assets/SeabournCruiseCost/seabourn-solo-traveler-cost-single-supplement-deals.jpg";
+import FamiliesImg from "../../assets/SeabournCruiseCost/seabourn-luxury-multigenerational-family-cruise-cost.jpg";
+import LongVoyageImg from "../../assets/SeabournCruiseCost/seabourn-grand-voyages-long-cruise-cost-savings.jpg";
+import FirstTimeCruisersImg from "../../assets/SeabournCruiseCost/seabourn-cruise-cost-first-time-luxury-cruisers.jpg";
+import RepeatLoyalCruisersImg from "../../assets/SeabournCruiseCost/seabourn-club-loyalty-member-savings-repeat-cruisers.jpg";
+import WorldCruiseCostImg from "../../assets/SeabournCruiseCost/seabourn-world-cruise-cost-full-voyage-package-benefits.jpg";
+import SeabournCruiseCostVerdictImg from "../../assets/SeabournCruiseCost/seabourn-ultra-luxury-cruise-cost-pricing-verdict.jpg";
 
 const SeabournCruiseCostGuide = () => {
 
@@ -88,7 +115,7 @@ const SeabournCruiseCostGuide = () => {
   // 4. Suite Worth It Showdown for ContainedShowdown (1x of 2)
   const suiteWorthItBrandA = {
     name: "Veranda Suite Balance",
-    image: "",
+    image: VerandaSuiteBalanceImg,
     features: [
       `Verdict: ${pageData.suiteWorthIt.verdict}`,
       `${pageData.suiteWorthIt.balanceIntro} ${pageData.suiteWorthIt.equation.join(' + ')}.`,
@@ -98,7 +125,7 @@ const SeabournCruiseCostGuide = () => {
   };
   const suiteWorthItBrandB = {
     name: "Penthouse & Premium Suites",
-    image: "",
+    image: PenthousePremiumSuitesImg,
     features: [
       pageData.suiteWorthIt.sublead,
       pageData.suiteWorthIt.rightTitle,
@@ -114,24 +141,26 @@ const SeabournCruiseCostGuide = () => {
   }));
 
   // 6. Airfare & Hotel Cards for ThreeColumnGrid (1x)
-  const airHotelItems = pageData.airAndHotel.cards.map((card) => ({
+  const airHotelImages = [AirfareCostImg, HotelCostsImg, GroundTransportImg];
+  const airHotelItems = pageData.airAndHotel.cards.map((card, idx) => ({
     title: card.title,
     description: card.text,
     highlight: card.footer,
-    category: "Logistics & Planning"
+    category: "Logistics & Planning",
+    image: airHotelImages[idx] || null
   }));
 
-  // 7. Promotions for BentoGlassmorphismGrid (1x)
-  const promotionsBentoItems = pageData.promotions.cards.map((promo, idx) => ({
+  // 7. Promotions for CreativeShardGrid (1x)
+  const promotionsShardItems = pageData.promotions.cards.map((promo) => ({
     title: promo.title,
     description: promo.text,
-    stat: idx === 0 ? "10%" : idx === 1 ? "15%" : idx === 2 ? "CLUB" : "VIP"
+    icon: promo.icon
   }));
 
   // 8. Cost Per Night for ContainedShowdown (2x of 2)
   const costPerNightBrandA = {
     name: `${pageData.costPerNight.cruiseA.heading} (${pageData.costPerNight.cruiseA.sub})`,
-    image: "",
+    image: CruiseAImg,
     features: [
       ...pageData.costPerNight.cruiseA.items,
       pageData.costPerNight.takeaways[0]
@@ -139,7 +168,7 @@ const SeabournCruiseCostGuide = () => {
   };
   const costPerNightBrandB = {
     name: `${pageData.costPerNight.cruiseB.heading} (${pageData.costPerNight.cruiseB.sub})`,
-    image: "",
+    image: CruiseBImg,
     features: [
       ...pageData.costPerNight.cruiseB.items,
       pageData.costPerNight.takeaways[1]
@@ -155,20 +184,8 @@ const SeabournCruiseCostGuide = () => {
   };
 
   // 10. Vs Other Luxury Lines for CostValueAnalysisCards (1x)
-  const vsLuxuryIncluded = [
-    { title: pageData.vsLuxury.leadEm, description: pageData.vsLuxury.conclusion },
-    ...pageData.vsLuxury.formulaGood.map((item) => ({
-      title: item,
-      description: "Included in your base fare with zero surprise charges."
-    }))
-  ];
-  const vsLuxuryExtras = [
-    { title: pageData.vsLuxury.competitorIntro, description: `${pageData.vsLuxury.formulaLabelBad} ${pageData.vsLuxury.formulaBad.join(' ')}` },
-    ...pageData.vsLuxury.competitorExtras.map((extra) => ({
-      title: extra,
-      description: "Often billed separately on competing luxury cruise lines."
-    }))
-  ];
+  const vsLuxuryIncluded = pageData.vsLuxury.seabournInclusions || [];
+  const vsLuxuryExtras = pageData.vsLuxury.competitorExtras || [];
 
   // 11. Best Price Tips for ExpertRulesGrid (1x)
   const bestPriceRules = pageData.bestPrice.tips.map((tip) => ({
@@ -261,10 +278,19 @@ const SeabournCruiseCostGuide = () => {
   ];
 
   // 14. Excursion Items for EditorialExcursionShowcase (1x)
-  const excursionShowcaseItems = pageData.excursions.types.map((type) => ({
+  const excursionImages = [
+    PrivateToursImg,
+    PremiumExcursionsImg,
+    CulturalExperiencesImg,
+    AdventureActivitiesImg,
+    ExpeditionExperiencesImg,
+    SmallGroupToursImg
+  ];
+  const excursionShowcaseItems = pageData.excursions.types.map((type, idx) => ({
     title: type,
     category: "Curated Shore Experience",
-    description: "Available across destinations worldwide with expert guides, private transport, or small-group immersion."
+    description: "Available across destinations worldwide with expert guides, private transport, or small-group immersion.",
+    image: excursionImages[idx] || null
   }));
 
   // 15. Worth Cost Pillars for ValuePropositionHighlight (1x)
@@ -289,6 +315,7 @@ const SeabournCruiseCostGuide = () => {
         "In-suite dining and champagne service included",
         "Fine wines, premium spirits, and caviar complimentary"
       ],
+      image: CouplesImg,
       placeholderLabel: "SEABOURN FOR COUPLES"
     },
     {
@@ -303,6 +330,7 @@ const SeabournCruiseCostGuide = () => {
         "Hosted social tables & open-seating dining venues",
         "All-inclusive amenities without per-person bar minimums"
       ],
+      image: SoloTravelersImg,
       placeholderLabel: "SEABOURN FOR SOLO TRAVELERS"
     },
     {
@@ -312,6 +340,7 @@ const SeabournCruiseCostGuide = () => {
       recommendation: "Coordinate Connecting Suites & Group Airfare",
       reason: "Factoring in airfare, transfers, and pre-cruise hotels upfront prevents unexpected cost additions.",
       whyFits: pageData.travelerTypes.types[2].items.map((item) => `Planning Factor: ${item}`),
+      image: FamiliesImg,
       placeholderLabel: "SEABOURN FOR FAMILIES"
     },
     {
@@ -321,6 +350,7 @@ const SeabournCruiseCostGuide = () => {
       recommendation: "Evaluate Full Voyage Package Benefits",
       reason: "Spreading inclusive luxury amenities across a longer sailing improves overall travel efficiency.",
       whyFits: pageData.travelerTypes.types[3].items.map((item) => `Key Consideration: ${item}`),
+      image: LongVoyageImg,
       placeholderLabel: "SEABOURN LONG VOYAGES"
     },
     {
@@ -330,6 +360,7 @@ const SeabournCruiseCostGuide = () => {
       recommendation: "Start with a Veranda Suite & Compare All-In",
       reason: pageData.travelerTypes.types[4].items[1],
       whyFits: pageData.travelerTypes.types[4].items,
+      image: FirstTimeCruisersImg,
       placeholderLabel: "FIRST-TIME LUXURY CRUISERS"
     },
     {
@@ -339,6 +370,7 @@ const SeabournCruiseCostGuide = () => {
       recommendation: "Stack Seabourn Club Loyalty Benefits",
       reason: pageData.travelerTypes.types[5].items[2],
       whyFits: pageData.travelerTypes.types[5].items,
+      image: RepeatLoyalCruisersImg,
       placeholderLabel: "REPEAT & LOYAL CRUISERS"
     }
   ];
@@ -378,9 +410,12 @@ const SeabournCruiseCostGuide = () => {
       <ComparisonHero
         title={pageData.hero.title}
         subtitle={`${pageData.hero.subtitle} ${pageData.hero.extendedParagraphs[0]} ${pageData.hero.extendedParagraphs[1]} ${pageData.hero.extendedParagraphs[2]}`}
-        primaryCtaText={pageData.hero.ctaText}
-        primaryCtaLink={pageData.hero.ctaLink}
+        backgroundImage={HeroImage}
+        secondaryCtaText="Contact"
+        secondaryCtaLink="/contact"
       />
+
+      <div id="content">
 
       {/* ─── 2. SEABOURN CRUISE COST AT A GLANCE (ComparisonTable - 1x of 2) ─── */}
       <ComparisonTable data={glanceTableData} />
@@ -402,6 +437,7 @@ const SeabournCruiseCostGuide = () => {
           pageData.howAdvertised.conclusion
         ]}
         highlights={pageData.howAdvertised.list}
+        image={SeabournAdvertisesImg}
         placeholderLabel="SEABOURN FARE TERMS & ADVERTISING"
         badgeTitle="Advertised Fare Basis"
         badgeDescription="All displayed fares apply to lead-in categories per guest based on double occupancy."
@@ -436,6 +472,7 @@ const SeabournCruiseCostGuide = () => {
       <EditorialFeatureShowcase
         title={pageData.suiteAmenities.title}
         subtitle={`${pageData.suiteAmenities.intro} ${pageData.suiteAmenities.note}`}
+        image={InSuiteBarImg}
         features={suiteAmenitiesFeatures}
         bgClass="bg-white"
       />
@@ -450,6 +487,7 @@ const SeabournCruiseCostGuide = () => {
           `${pageData.costForTwo.resultText} (${pageData.costForTwo.footnote})`,
           pageData.costForTwo.conclusion
         ]}
+        primaryImage={CouplesImg}
       />
 
       {/* ─── 9. SOLO TRAVELER COST & SINGLE SUPPLEMENT (ProsConsCards - 1x of 2) ─── */}
@@ -507,6 +545,9 @@ const SeabournCruiseCostGuide = () => {
         items={notIncludedMistakes}
       />
 
+      {/* ─── VIDEO SHOWCASE: SEABOURN CRUISE COST & EXPERIENCE ─── */}
+      <VideoEmbed data={pageData.videoSection} />
+
       {/* ─── 13. SEABOURN SHORE EXCURSION COSTS (EditorialExcursionShowcase - 1x) ─── */}
       <EditorialExcursionShowcase
         title={pageData.excursions.title}
@@ -539,13 +580,15 @@ const SeabournCruiseCostGuide = () => {
           `${pageData.totalBudget.formulaItems.map((f) => f.label).join(' + ')} = ${pageData.totalBudget.result}`,
           pageData.totalBudget.note
         ]}
+        primaryImage={BudgetBeyondFareImg}
       />
 
-      {/* ─── 16. SEABOURN CRUISE PROMOTIONS (BentoGlassmorphismGrid - 1x) ─── */}
-      <BentoGlassmorphismGrid
+      {/* ─── 16. SEABOURN CRUISE PROMOTIONS (CreativeShardGrid - 1x) ─── */}
+      <CreativeShardGrid
+        eyebrow={pageData.promotions.eyebrow}
         title={pageData.promotions.title}
-        subtitle={pageData.promotions.intro}
-        bentoItems={promotionsBentoItems}
+        description={pageData.promotions.intro}
+        items={promotionsShardItems}
       />
 
       {/* ─── 17. IS IT CHEAPER TO BOOK A LONGER SEABOURN CRUISE? (ContainedShowdown - 2x of 2) ─── */}
@@ -585,7 +628,7 @@ const SeabournCruiseCostGuide = () => {
       />
 
       {/* ─── 21. WHEN IS THE BEST TIME TO BOOK SEABOURN? (InclusionsSplitFeatures - 1x) ─── */}
-      <InclusionsSplitFeatures data={bestTimeSplitData} />
+      <InclusionsSplitFeatures data={bestTimeSplitData} image={BestTimeToBookImg} />
 
       {/* ─── 22. IS SEABOURN MORE EXPENSIVE THAN MAINSTREAM CRUISES? (ProsConsCards - 2x of 2) ─── */}
       <ProsConsCards
@@ -628,6 +671,7 @@ const SeabournCruiseCostGuide = () => {
         heading={pageData.worldCruise.title}
         paragraphs={pageData.worldCruise.paragraphs}
         highlights={pageData.worldCruise.benefits}
+        image={WorldCruiseCostImg}
         placeholderLabel="SEABOURN WORLD CRUISE BENEFITS"
         badgeTitle="World Cruise Package Value"
         badgeDescription="Full-voyage bookings receive roundtrip business class air, hotel packages, shipboard credits, and private events."
@@ -669,8 +713,10 @@ const SeabournCruiseCostGuide = () => {
         description={`${pageData.finalVerdict.paragraphs[0]} ${pageData.finalVerdict.paragraphs[1]} ${pageData.finalVerdict.recommendation}`}
         buttonText={pageData.finalVerdict.buttonText}
         buttonLink={pageData.finalVerdict.buttonLink}
+        image={SeabournCruiseCostVerdictImg}
         theme="dark"
       />
+      </div>
     </div>
   );
 };

@@ -178,7 +178,7 @@
   },
   "quickVerdict": {
     "eyebrow": "At a Glance",
-    "title": "Quick Verdict: Is Seabourn Worth It?",
+    "title": "  Is Seabourn Worth It?",
     "table": [
       { "cat": "Service", "stars": 5, "rating": "5 / 5", "verdict": "Industry-leading personalized hospitality" },
       { "cat": "Suites", "stars": 5, "rating": "5 / 5", "verdict": "100% all-suite oceanfront accommodations" },
@@ -393,6 +393,11 @@
       "Gratuities for independent excursion drivers and guides"
     ],
     "note": "The exact inclusions depend on the itinerary and fare. Always check the terms of your specific sailing."
+  },
+  "videoSection": {
+    "youtubeId": "_6637gDhYKA",
+    "title": "Watch: Is a Seabourn Cruise Really Worth the Price?",
+    "description": "Take a visual walkthrough of Seabourn's ultra-luxury cruise lifestyle: all-suite oceanfront accommodations, personalized intuitive service, open-seating gourmet dining, and true vacation value."
   },
   "excursionsWorth": {
     "eyebrow": "Getting Off the Ship",
