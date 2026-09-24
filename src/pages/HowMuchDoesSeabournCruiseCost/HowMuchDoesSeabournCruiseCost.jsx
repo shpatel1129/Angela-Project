@@ -84,6 +84,13 @@ import RepeatLoyalCruisersImg from "../../assets/SeabournCruiseCost/seabourn-clu
 import WorldCruiseCostImg from "../../assets/SeabournCruiseCost/seabourn-world-cruise-cost-full-voyage-package-benefits.jpg";
 import SeabournCruiseCostVerdictImg from "../../assets/SeabournCruiseCost/seabourn-ultra-luxury-cruise-cost-pricing-verdict.jpg";
 
+// CTA Interlude Background Images from other Seabourn Folders
+import Cta1SuiteRecImg from "../../assets/SeabournSuites/seabourn-suites-luxury-accommodations-overview.jpg";
+import Cta2BudgetSuiteImg from "../../assets/SeabournSuites/seabourn-veranda-suite-private-balcony-living.jpg";
+import Cta3ShoreBudgetImg from "../../assets/SeabournCruises/seabourn-curated-shore-excursions-unesco-tours.jpg";
+import Cta4FullBudgetImg from "../../assets/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg";
+import Cta5RealPricingImg from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
+
 const SeabournCruiseCostGuide = () => {
 
   // 1. Glance Table Format for ComparisonTable
@@ -458,7 +465,8 @@ const SeabournCruiseCostGuide = () => {
         description={pageData.cta1.description}
         buttonText={pageData.cta1.buttonText}
         buttonLink={pageData.cta1.buttonLink}
-        theme="gold"
+        theme="dark"
+        image={Cta1SuiteRecImg}
       />
 
       {/* ─── 6. IS A MORE EXPENSIVE SEABOURN SUITE WORTH IT? (ContainedShowdown - 1x of 2) ─── */}
@@ -518,17 +526,18 @@ const SeabournCruiseCostGuide = () => {
         buttonText={pageData.cta2.buttonText}
         buttonLink={pageData.cta2.buttonLink}
         theme="dark"
+        image={Cta2BudgetSuiteImg}
       />
 
       {/* ─── 10. HOW TO SAVE ON SEABOURN AS A SOLO TRAVELER (MoneySavingTips - 1x) ─── */}
       <MoneySavingTips
         title={pageData.soloSave.title}
         subtitle="Solo Traveler Pricing Tactics & Loyalty Benefits"
-        hiddenCosts={soloHiddenCosts}
+        hiddenCosts={soloHiddenCosts} 
         savingTips={soloSavingTips}
       />
 
-      {/* ─── 11. WHAT IS INCLUDED IN A SEABOURN CRUISE FARE? (InclusionCheckerGrid - 1x) ─── */}
+      {/* ─── 11. WHAT IS INCLUDED IN A SEABOURN CRUISE FARE? (Inclusio  nCheckerGrid - 1x) ─── */}
       <InclusionCheckerGrid
         eyebrow={pageData.included.eyebrow}
         title={pageData.included.title}
@@ -562,6 +571,7 @@ const SeabournCruiseCostGuide = () => {
         buttonText={pageData.cta3.buttonText}
         buttonLink={pageData.cta3.buttonLink}
         theme="dark"
+        image={Cta3ShoreBudgetImg}
       />
 
       {/* ─── 14. AIRFARE & PRE/POST-CRUISE HOTEL COSTS (ThreeColumnGrid - 1x) ─── */}
@@ -604,7 +614,8 @@ const SeabournCruiseCostGuide = () => {
         description={pageData.cta4.description}
         buttonText={pageData.cta4.buttonText}
         buttonLink={pageData.cta4.buttonLink}
-        theme="gold"
+        theme="dark"
+        image={Cta4FullBudgetImg}
       />
 
       {/* ─── 18. SEABOURN CRUISE COST VS. TOTAL VALUE (ComparisonTable - 2x of 2) ─── */}
@@ -648,7 +659,8 @@ const SeabournCruiseCostGuide = () => {
         description={pageData.cta5.description}
         buttonText={pageData.cta5.buttonText}
         buttonLink={pageData.cta5.buttonLink}
-        theme="gold"
+        theme="dark"
+        image={Cta5RealPricingImg}
       />
 
       {/* ─── 23. IS SEABOURN WORTH THE COST? (ValuePropositionHighlight - 1x) ─── */}

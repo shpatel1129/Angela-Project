@@ -83,6 +83,13 @@ import FirstTimeCruisersImg from "../../assets/IsSeabournWorthPrice/seabourn-val
 import ExperiencedVoyagersImg from "../../assets/IsSeabournWorthPrice/seabourn-value-for-experienced-luxury-voyagers.jpg";
 import LuxuryCruiseLinesImg from "../../assets/IsSeabournWorthPrice/seabourn-vs-other-ultra-luxury-cruise-lines-comparison.jpg";
 
+// CTA Interlude Background Images from other Seabourn Folders
+import Cta1ServiceImg from "../../assets/SeabournCruises/seabourn-intuitive-personalized-luxury-service.jpg";
+import Cta2DiningImg from "../../assets/SeabournCruises/seabourn-the-restaurant-primary-fine-dining.jpg";
+import Cta3InclusionsImg from "../../assets/SeabournCruises/seabourn-onboard-luxury-lifestyle-all-inclusive-amenities.jpg";
+import Cta4FitImg from "../../assets/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg";
+import Cta5ConfidenceImg from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
+
 const IsSeabournWorthIt = () => {
 
   // 1. Quick Verdict Ratings Table (ComparisonTable - 1x of 2)
@@ -354,6 +361,7 @@ const IsSeabournWorthIt = () => {
         buttonText={pageData.serviceCta.buttonText}
         buttonLink={pageData.serviceCta.buttonLink}
         theme="dark"
+        image={Cta1ServiceImg}
       />
 
       {/* ─── 6. SEABOURN SUITES: IS ACCOMMODATION WORTH IT? (CardGrid - 1x) ─── */}
@@ -399,7 +407,8 @@ const IsSeabournWorthIt = () => {
         description={pageData.diningCta.description}
         buttonText={pageData.diningCta.buttonText}
         buttonLink={pageData.diningCta.buttonLink}
-        theme="gold"
+        theme="dark"
+        image={Cta2DiningImg}
       />
 
       {/* ─── 10. SEABOURN DRINKS: WHAT'S INCLUDED? (InclusionCheckerGrid - 1x) ─── */}
@@ -447,6 +456,7 @@ const IsSeabournWorthIt = () => {
         buttonText={pageData.inclusionsCta.buttonText}
         buttonLink={pageData.inclusionsCta.buttonLink}
         theme="dark"
+        image={Cta3InclusionsImg}
       />
 
       {/* ─── 14. ARE EXPEDITION CRUISES WORTH THE PRICE? (EditorialIntroSection - 2x of 2) ─── */}
@@ -491,7 +501,8 @@ const IsSeabournWorthIt = () => {
         description={pageData.fitCta.description}
         buttonText={pageData.fitCta.buttonText}
         buttonLink={pageData.fitCta.buttonLink}
-        theme="gold"
+        theme="dark"
+        image={Cta4FitImg}
       />
 
       {/* ─── 18. IS SEABOURN WORTH IT FOR FAMILIES? (ProsConsCards - 2x of 2) ─── */}
@@ -531,6 +542,7 @@ const IsSeabournWorthIt = () => {
         buttonText={pageData.confidenceCta.buttonText}
         buttonLink={pageData.confidenceCta.buttonLink}
         theme="dark"
+        image={Cta5ConfidenceImg}
       />
 
       {/* ─── 22. COST VS TOTAL VACATION COST TABLE (ComparisonTable - 2x of 2) ─── */}

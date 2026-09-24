@@ -94,6 +94,12 @@ import EnjoyDinnerImg from "../../assets/WhatIncludedSeabournCruise/seabourn-ope
 import RelaxInSuiteImg from "../../assets/WhatIncludedSeabournCruise/seabourn-oceanfront-luxury-suite-veranda-relaxation.jpg";
 import FinalVerdictImg from "../../assets/WhatIncludedSeabournCruise/seabourn-final-verdict-all-inclusive-value-lifestyle.jpg";
 
+// CTA Interlude Background Images from other Seabourn Folders
+import Cta1ExperienceImg from "../../assets/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg";
+import Cta2ShoreImg from "../../assets/SeabournCruises/seabourn-curated-shore-excursions-unesco-tours.jpg";
+import Cta3ValueImg from "../../assets/IsSeabournWorthPrice/seabourn-all-inclusive-veranda-suite-true-value-comparison.jpg";
+import Cta4CostImg from "../../assets/SeabournCruiseCost/seabourn-ultra-luxury-cruise-cost-pricing-verdict.jpg";
+
 const SeabournWhatsIncluded = () => {
 
   // 1. Dining Sub-cards for ThreeColumnGrid
@@ -401,6 +407,7 @@ const SeabournWhatsIncluded = () => {
         buttonText={pageData.cta1.buttonText}
         buttonLink={pageData.cta1.buttonLink}
         theme="dark"
+        image={Cta1ExperienceImg}
       />
 
       {/* ─── VIDEO SHOWCASE 1: WHAT IS INCLUDED ON SEABOURN ─── */}
@@ -453,6 +460,7 @@ const SeabournWhatsIncluded = () => {
         buttonText={pageData.cta2.buttonText}
         buttonLink={pageData.cta2.buttonLink}
         theme="dark"
+        image={Cta2ShoreImg}
       />
 
       {/* ─── 10. CATEGORY BY CATEGORY: IN DETAIL (ThreeColumnGrid) ─── */}
@@ -492,7 +500,8 @@ const SeabournWhatsIncluded = () => {
         description={pageData.cta3.description}
         buttonText={pageData.cta3.buttonText}
         buttonLink={pageData.cta3.buttonLink}
-        theme="gold"
+        theme="dark"
+        image={Cta3ValueImg}
       />
 
       {/* ─── 14. WHAT IS NOT INCLUDED (MistakesGrid) ─── */}
@@ -531,6 +540,7 @@ const SeabournWhatsIncluded = () => {
         buttonText={pageData.cta4.buttonText}
         buttonLink={pageData.cta4.buttonLink}
         theme="dark"
+        image={Cta4CostImg}
       />
 
       {/* ─── 18. SEABOURN VS OTHER LUXURY LINES (ProsConsCards) ─── */}

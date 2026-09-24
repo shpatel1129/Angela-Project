@@ -35,7 +35,7 @@ import AboutImage from "../../assets/AboutAngela.jpeg";
 import HeroImage1 from "../../assets/ExploraJourneysWorth/Explora-Journeys.webp";
 import HeroImage2 from "../../assets/ExploraJourneysCruises/explora-journeys-canada-new-england-fall-cruise.webp";
 import HeroImage3 from "../../assets/LuxuryExploraJourneysGuide/Luxury-Explora-Journeys3.webp";
-import ExploraPool from "../../assets/ExploraJourneysvsSeabourn/explora-journeys-sunrise-pool-deck-luxury-yacht.webp";
+import ExploraPool from "../../assets/ExploraJourneysvsSeabourn/explora-journeys-ocean-wellness-spa-sunrise-pool-deck.webp";
 import ExploraDining from "../../assets/ExploraJourneysCruises/Fine-Dining.webp";
 import ExploraAtmosphere from "../../assets/ExploraJourneysCruises/Meridian-Lounge.webp";
 import LuxuryOceanfront from "../../assets/ExploraIVGuide/greenland-expedition-cruise-arctic-luxury-voyage.jpg";

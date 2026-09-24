@@ -54,19 +54,79 @@
   },
   "quickComparison": {
     "title": "Quick Comparison: Seabourn vs. Silversea vs. Regent",
-    "headers": ["Feature", "Seabourn", "Silversea", "Regent Seven Seas"],
+    "headers": [
+      "Feature",
+      "Seabourn",
+      "Silversea",
+      "Regent Seven Seas"
+    ],
     "rows": [
-      ["Overall style", "Relaxed, yacht-like luxury", "Refined, destination-focused luxury", "Highly inclusive luxury"],
-      ["Ship atmosphere", "Intimate and social", "Elegant and sophisticated", "Spacious and polished"],
-      ["Suite experience", "All-suite accommodations with personal suite hosts", "All-suite accommodations with butler service", "Spacious suites; butler service in Penthouse categories and above"],
-      ["Beverages", "Premium spirits and wines included", "Wines, spirits and beverages included", "Extensive beverages included"],
-      ["Dining", "Complimentary dining venues", "Multiple dining venues and specialty experiences", "Specialty dining included"],
-      ["Gratuities", "Included", "Included", "Pre-paid/included"],
-      ["Wi-Fi", "Included", "Included", "Included"],
-      ["Shore excursions", "Optional experiences available", "Fare-dependent inclusions and excursion options", "Unlimited shore excursions included"],
-      ["Expedition cruising", "Yes", "Strong expedition portfolio", "Primarily luxury ocean cruising"],
-      ["Atmosphere", "Casual luxury", "More traditionally elegant", "Elegant and highly inclusive"],
-      ["Best fit", "Yacht-style luxury and relaxed social atmosphere", "Destination immersion and butler service", "Travelers wanting extensive inclusions"]
+      [
+        "Overall style",
+        "Relaxed, yacht-like luxury",
+        "Refined, destination-focused luxury",
+        "Highly inclusive luxury"
+      ],
+      [
+        "Ship atmosphere",
+        "Intimate and social",
+        "Elegant and sophisticated",
+        "Spacious and polished"
+      ],
+      [
+        "Suite experience",
+        "All-suite accommodations with personal suite hosts",
+        "All-suite accommodations with butler service",
+        "Spacious suites; butler service in Penthouse categories and above"
+      ],
+      [
+        "Beverages",
+        "Premium spirits and wines included",
+        "Wines, spirits and beverages included",
+        "Extensive beverages included"
+      ],
+      [
+        "Dining",
+        "Complimentary dining venues",
+        "Multiple dining venues and specialty experiences",
+        "Specialty dining included"
+      ],
+      [
+        "Gratuities",
+        "Included",
+        "Included",
+        "Pre-paid/included"
+      ],
+      [
+        "Wi-Fi",
+        "Included",
+        "Included",
+        "Included"
+      ],
+      [
+        "Shore excursions",
+        "Optional experiences available",
+        "Fare-dependent inclusions and excursion options",
+        "Unlimited shore excursions included"
+      ],
+      [
+        "Expedition cruising",
+        "Yes",
+        "Strong expedition portfolio",
+        "Primarily luxury ocean cruising"
+      ],
+      [
+        "Atmosphere",
+        "Casual luxury",
+        "More traditionally elegant",
+        "Elegant and highly inclusive"
+      ],
+      [
+        "Best fit",
+        "Yacht-style luxury and relaxed social atmosphere",
+        "Destination immersion and butler service",
+        "Travelers wanting extensive inclusions"
+      ]
     ],
     "footnote": "*Exact inclusions vary by ship, voyage, fare type, suite category, and destination. Always compare the specific sailing before booking.*"
   },
@@ -307,9 +367,18 @@
       "title": "What Matters Most?",
       "subtitle": "Instead of asking which line has the 'best' service, consider the service style you prefer:",
       "rules": [
-        { "style": "Relaxed and yacht-like", "winner": "Seabourn" },
-        { "style": "Butler-centered and highly personalized", "winner": "Silversea" },
-        { "style": "Highly inclusive with concierge and premium suite service", "winner": "Regent" }
+        {
+          "style": "Relaxed and yacht-like",
+          "winner": "Seabourn"
+        },
+        {
+          "style": "Butler-centered and highly personalized",
+          "winner": "Silversea"
+        },
+        {
+          "style": "Highly inclusive with concierge and premium suite service",
+          "winner": "Regent"
+        }
       ]
     }
   },
@@ -691,14 +760,46 @@
     "title": "Seabourn vs. Silversea vs. Regent: The Decision Checklist",
     "subtitle": "Before booking, ask yourself these 8 questions to find your ideal match:",
     "questions": [
-      { "number": 1, "title": "What matters most: ship or destination?", "description": "If the itinerary is the priority, start with the ports." },
-      { "number": 2, "title": "How important is butler service?", "description": "If you want a butler regardless of suite category, Silversea deserves particular attention." },
-      { "number": 3, "title": "How many shore excursions will you take?", "description": "If you plan to take multiple excursions, compare Regent's included excursion structure against the other lines' fare inclusions." },
-      { "number": 4, "title": "Do you want expedition cruising?", "description": "If yes, compare Seabourn and Silversea expedition ships and itineraries." },
-      { "number": 5, "title": "How much do you value suite space?", "description": "Compare actual suite categories and dimensions for the specific ship." },
-      { "number": 6, "title": "How important is culinary programming?", "description": "Food-focused travelers should compare Seabourn's culinary experiences, Silversea's S.A.L.T. offerings where available, and Regent's included specialty dining." },
-      { "number": 7, "title": "Do you prefer relaxed or formal luxury?", "description": "Your ideal atmosphere can be very different from another traveler's." },
-      { "number": 8, "title": "What is your true total trip cost?", "description": "Do not compare cruise fares without calculating the other components of the trip." }
+      {
+        "number": 1,
+        "title": "What matters most: ship or destination?",
+        "description": "If the itinerary is the priority, start with the ports."
+      },
+      {
+        "number": 2,
+        "title": "How important is butler service?",
+        "description": "If you want a butler regardless of suite category, Silversea deserves particular attention."
+      },
+      {
+        "number": 3,
+        "title": "How many shore excursions will you take?",
+        "description": "If you plan to take multiple excursions, compare Regent's included excursion structure against the other lines' fare inclusions."
+      },
+      {
+        "number": 4,
+        "title": "Do you want expedition cruising?",
+        "description": "If yes, compare Seabourn and Silversea expedition ships and itineraries."
+      },
+      {
+        "number": 5,
+        "title": "How much do you value suite space?",
+        "description": "Compare actual suite categories and dimensions for the specific ship."
+      },
+      {
+        "number": 6,
+        "title": "How important is culinary programming?",
+        "description": "Food-focused travelers should compare Seabourn's culinary experiences, Silversea's S.A.L.T. offerings where available, and Regent's included specialty dining."
+      },
+      {
+        "number": 7,
+        "title": "Do you prefer relaxed or formal luxury?",
+        "description": "Your ideal atmosphere can be very different from another traveler's."
+      },
+      {
+        "number": 8,
+        "title": "What is your true total trip cost?",
+        "description": "Do not compare cruise fares without calculating the other components of the trip."
+      }
     ]
   },
   "advisorRole": {
@@ -841,9 +942,18 @@
     "title": "Final Answer: Seabourn vs. Silversea vs. Regent",
     "lead": "Seabourn, Silversea, and Regent are all legitimate luxury cruise options, but they deliver luxury differently.",
     "breakdown": [
-      { "line": "Seabourn", "verdict": "Intimate, relaxed, yacht-like luxury." },
-      { "line": "Silversea", "verdict": "Personalized butler service, destination immersion, and extensive luxury expedition options." },
-      { "line": "Regent", "verdict": "Highly inclusive luxury with unlimited shore excursions and extensive onboard inclusions." }
+      {
+        "line": "Seabourn",
+        "verdict": "Intimate, relaxed, yacht-like luxury."
+      },
+      {
+        "line": "Silversea",
+        "verdict": "Personalized butler service, destination immersion, and extensive luxury expedition options."
+      },
+      {
+        "line": "Regent",
+        "verdict": "Highly inclusive luxury with unlimited shore excursions and extensive onboard inclusions."
+      }
     ],
     "coreTakeaway": "Rather than asking 'Which luxury cruise line is best?', ask: 'Which cruise line, ship, suite, itinerary, and fare provide the experience I actually want?' That is the comparison that can lead to a more meaningful luxury cruise decision."
   },
@@ -851,7 +961,10 @@
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": ["Organization", "TravelAgency"],
+        "@type": [
+          "Organization",
+          "TravelAgency"
+        ],
         "@id": "https://www.tripsandships.com/#organization",
         "name": "Trips & Ships Luxury Travel",
         "url": "https://www.tripsandships.com/",
@@ -962,8 +1075,8 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Luxury Cruises",
-            "item": "https://www.tripsandships.com/luxury-cruises"
+            "name": "Seabourn Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/"
           },
           {
             "@type": "ListItem",

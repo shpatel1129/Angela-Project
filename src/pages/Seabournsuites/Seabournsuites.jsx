@@ -2,19 +2,44 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
-// import SuiteImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg";
-// import ExpeditionSuiteImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore.jpg";
-// import AlaskaViewImg from "../../assets/ExploraJourneysvsSeabourn/Ilulissat_Greenland_Jakobshavn_Glacier.jpg";
-// import AntarcticaViewImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore.jpg";
-// import FjordsViewImg from "../../assets/ExploraJourneysvsSeabourn/Auckland-skyline-in-New-Zealand.jpg";
-// import MedViewImg from "../../assets/ExploraJourneysvsSeabourn/SBN_Kusadasi_Turkey_Encore_ENC_Sunrise_Sail_In_Location_Drone.jpg";
-// import WorldViewImg from "../../assets/ExploraJourneysvsSeabourn/Asia-Ship-a-Long-Bay-Vietnam.webp";
-// import FamilyConnectingImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg";
-// import FamilyGrandSuiteImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore.jpg";
-// import PremiumBenefitsImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg";
-// import VerandaBalconyImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg";
-// import VerandaViewsImg from "../../assets/ExploraJourneysvsSeabourn/SBN_Kusadasi_Turkey_Encore_ENC_Sunrise_Sail_In_Location_Drone.jpg";
 import data from "./data.json";
+
+// Assets - Seabourn Suites Images
+import HeroSuiteImg from "../../assets/SeabournSuites/seabourn-suites-luxury-accommodations-overview.jpg";
+
+// Category Images (for ThreeColumnGrid)
+import OceanViewSuiteImg from "../../assets/SeabournSuites/seabourn-ocean-view-suite-luxury-stateroom.jpg";
+import VerandaSuiteImg from "../../assets/SeabournSuites/seabourn-veranda-suite-private-balcony-living.jpg";
+import PenthouseSuiteImg from "../../assets/SeabournSuites/seabourn-penthouse-suite-living-room-bedroom.jpg";
+import PenthouseSpaSuiteImg from "../../assets/SeabournSuites/seabourn-penthouse-spa-suite-wellness-luxury.jpg";
+import OwnersSuiteImg from "../../assets/SeabournSuites/seabourn-owners-suite-luxury-ocean-residence.jpg";
+import SignatureSuiteImg from "../../assets/SeabournSuites/seabourn-signature-suite-forward-oceanfront-view.jpg";
+import WintergardenSuiteImg from "../../assets/SeabournSuites/seabourn-wintergarden-suite-solarium-glass-lounge.jpg";
+import GrandSuiteImg from "../../assets/SeabournSuites/seabourn-grand-suite-connecting-multi-room-luxury.jpg";
+
+// Destination Views Images (for DestinationEditorialGrid)
+import AlaskaViewImg from "../../assets/SeabournSuites/seabourn-alaska-glacier-wilderness-scenic-cruise.webp";
+import AntarcticaViewImg from "../../assets/SeabournSuites/seabourn-antarctica-polar-expedition-wildlife-scenery.jpg";
+import FjordsViewImg from "../../assets/SeabournSuites/seabourn-norwegian-fjords-scandinavia-luxury-cruise.webp";
+import MedViewImg from "../../assets/SeabournSuites/seabourn-mediterranean-amalfi-coast-italy-cruise.webp";
+import WorldViewImg from "../../assets/SeabournSuites/seabourn-grand-voyages-world-cruise-itineraries.webp";
+
+// Feature / Section Specific Suite Images
+import SoloTravelerImg from "../../assets/SeabournSuites/seabourn-suites-for-solo-travelers-single-cruising.jpg";
+import FamilyConnectingImg from "../../assets/SeabournSuites/seabourn-suites-for-families-connecting-rooms.jpg";
+import FamilyGrandSuiteImg from "../../assets/SeabournSuites/seabourn-suites-for-families-grand-suite-layout.jpg";
+import ExpeditionSuiteImg from "../../assets/SeabournSuites/seabourn-suite-for-expedition-cruises-venture-pursuit.jpg";
+import PremiumBenefitsImg from "../../assets/SeabournSuites/seabourn-premium-suite-exclusive-vip-benefits.jpg";
+import VerandaAlternateImg from "../../assets/SeabournSuites/seabourn-veranda-suite-oceanfront-balcony-view.jpg";
+
+// CTA Background Images (from other Seabourn folders)
+import Cta1CategoryImg from "../../assets/SeabournCruises/seabourn-in-suite-private-veranda-dining-service.jpg";
+import Cta2DeckImg from "../../assets/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg";
+import Cta3SuiteChoiceImg from "../../assets/SeabournCruiseCost/seabourn-penthouse-premium-luxury-suites-pricing.jpg";
+import Cta4VerandaDealImg from "../../assets/IsSeabournWorthPrice/seabourn-all-inclusive-veranda-suite-true-value-comparison.jpg";
+
+// Final CTA Image
+import FinalCtaSuiteImg from "../../assets/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg";
 
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
@@ -37,6 +62,22 @@ import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import AsymmetricStoryIntro from "../../components/ui/AsymmetricStoryIntro";
 
 const SeabournSuitesGuide = () => {
+  const categoryImages = [
+    OceanViewSuiteImg,
+    VerandaSuiteImg,
+    PenthouseSuiteImg,
+    PenthouseSpaSuiteImg,
+    OwnersSuiteImg,
+    SignatureSuiteImg,
+    WintergardenSuiteImg,
+    GrandSuiteImg,
+  ];
+
+  const suiteCategoriesWithImages = data.suiteCategories.items.map((item, idx) => ({
+    ...item,
+    image: categoryImages[idx] || VerandaSuiteImg,
+  }));
+
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
@@ -59,6 +100,7 @@ const SeabournSuitesGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.description}
         badge={data.hero.badge}
+        backgroundImage={HeroSuiteImg}
         secondaryCtaText={data.hero.ctaText}
         secondaryCtaLink="/contact"
       />
@@ -81,7 +123,7 @@ const SeabournSuitesGuide = () => {
         <ThreeColumnGrid
           title={data.suiteCategories.title}
           subtitle={data.suiteCategories.subtitle}
-          items={data.suiteCategories.items}
+          items={suiteCategoriesWithImages}
         />
 
         {/* Interlude CTA 1 */}
@@ -91,6 +133,7 @@ const SeabournSuitesGuide = () => {
           description="Let's compare deck plans, square footage and pricing so you book the suite that actually fits how you'll use it."
           buttonText="Speak with a Specialist"
           buttonLink="/contact"
+          image={Cta1CategoryImg}
         />
 
         {/* Section 5: Seabourn Suite Amenities */}
@@ -124,6 +167,7 @@ const SeabournSuitesGuide = () => {
           description="Whether you're sensitive to motion or chasing the best views, we'll match the right deck and location to your itinerary."
           buttonText="Talk to a Seabourn Specialist"
           buttonLink="/contact"
+          image={Cta2DeckImg}
         />
 
         {/* Section 9: Are All Seabourn Suites the Same Size? */}
@@ -146,14 +190,14 @@ const SeabournSuitesGuide = () => {
           title={data.viewDestinations.title}
           subtitle={data.viewDestinations.subtitle}
           items={data.viewDestinations.items}
-          // images={[AlaskaViewImg, AntarcticaViewImg, FjordsViewImg, MedViewImg, WorldViewImg]}
+          images={[AlaskaViewImg, AntarcticaViewImg, FjordsViewImg, MedViewImg, WorldViewImg]}
         />
 
         {/* Section 12: Best Seabourn Suites for Solo Travelers */}
         <EditorialFeatureShowcase
           title={data.soloTraveler.title}
           subtitle={data.soloTraveler.subtitle}
-          // image={SuiteImg}
+          image={SoloTravelerImg}
           features={data.soloTraveler.features}
         />
 
@@ -164,6 +208,7 @@ const SeabournSuitesGuide = () => {
           description="Let's compare the actual suite, deck location, square footage, veranda and itinerary before you book."
           buttonText="Speak with a Specialist"
           buttonLink="/contact"
+          image={Cta3SuiteChoiceImg}
         />
 
         {/* Section 13: Best Suites for Couples & World Cruises */}
@@ -172,15 +217,15 @@ const SeabournSuitesGuide = () => {
         {/* Section 14: Best Seabourn Suites for Families */}
         <CabinFeatureGrid
           data={data.familySuites}
-          // image1={FamilyConnectingImg}
-          // image2={FamilyGrandSuiteImg}
+          image1={FamilyConnectingImg}
+          image2={FamilyGrandSuiteImg}
         />
 
         {/* Section 15: Best Seabourn Suite for Expedition Cruises */}
         <EditorialFeatureShowcase
           title={data.expeditionSuites.title}
           subtitle={data.expeditionSuites.subtitle}
-          // image={ExpeditionSuiteImg}
+          image={ExpeditionSuiteImg}
           features={data.expeditionSuites.features}
         />
 
@@ -211,7 +256,7 @@ const SeabournSuitesGuide = () => {
           badgeTitle={data.premiumBenefits.badgeTitle}
           badgeDescription={data.premiumBenefits.badgeDescription}
           placeholderLabel={data.premiumBenefits.placeholderLabel}
-          // image={PremiumBenefitsImg}
+          image={PremiumBenefitsImg}
         />
 
         {/* Section 19: Is a Seabourn Veranda Suite Worth It? */}
@@ -222,8 +267,8 @@ const SeabournSuitesGuide = () => {
           highlights={data.verandaWorthIt.highlights}
           image1Placeholder={data.verandaWorthIt.image1Placeholder}
           image2Placeholder={data.verandaWorthIt.image2Placeholder}
-          // image1={VerandaBalconyImg}
-          // image2={VerandaViewsImg}
+          image1={VerandaSuiteImg}
+          image2={VerandaAlternateImg}
         />
 
         {/* Interlude CTA 4 */}
@@ -233,6 +278,7 @@ const SeabournSuitesGuide = () => {
           description="Let us check current promotions, upgrade offers, and suite options for your select dates and itinerary."
           buttonText="Get a Veranda Suite Quote"
           buttonLink="/contact"
+          image={Cta4VerandaDealImg}
         />
 
         {/* Section 20: Seabourn Venture & Pursuit Suite Difference */}
@@ -264,7 +310,21 @@ const SeabournSuitesGuide = () => {
         />
 
         {/* Section 24: Angela Hughes Authority Box */}
-        <ExpertCredentials image={AboutImage} />
+        <ExpertCredentials
+          name={data.angelaHughes.name}
+          title={data.angelaHughes.title}
+          badge={data.angelaHughes.badge}
+          experienceBadge={data.angelaHughes.experienceBadge}
+          authorityBoxTitle={data.angelaHughes.authorityBoxTitle}
+          authoritySubtitle={data.angelaHughes.authoritySubtitle}
+          paragraphs={data.angelaHughes.paragraphs}
+          credentials={data.angelaHughes.credentials}
+          quote={data.angelaHughes.quote}
+          quoteSubtitle={data.angelaHughes.quoteSubtitle}
+          image={AboutImage}
+          ctaText={data.angelaHughes.ctaText}
+          ctaLink={data.angelaHughes.ctaLink || "/contact"}
+        />
 
         {/* Section 25: Frequently Asked Questions (20 FAQs) */}
         <FAQAccordion data={data.faq} />
@@ -274,11 +334,12 @@ const SeabournSuitesGuide = () => {
 
         {/* Final CTA */}
         <CenterCTA
-          theme="light"
+          theme="dark"
           title="Start Planning Your Seabourn Suite"
           description="Compare suite categories, deck locations, square footage, and current luxury cruise promotions."
           buttonText="Plan Your Suite With Angela"
           buttonLink="/contact"
+          image={FinalCtaSuiteImg}
         />
       </div>
     </div>

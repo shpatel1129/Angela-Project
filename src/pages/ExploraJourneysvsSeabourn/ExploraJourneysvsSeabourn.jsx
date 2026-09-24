@@ -4,30 +4,71 @@ import Nav from '../../components/Navbar/Nav';
 import data from './data.json';
 
 // Assets
-import AboutImage from '../../assets/AboutAngela3.jpeg';
-// import HeroImage1 from '../../assets/ExploraJourneysvsSeabourn/ExploraCruise.webp';
-// import HeroImage2 from '../../assets/ExploraJourneysvsSeabourn/Auckland-skyline-in-New-Zealand.jpg';
-// import HeroImage4 from '../../assets/ExploraJourneysvsSeabourn/Asia-Ship-a-Long-Bay-Vietnam.webp';
-// import ExploraOverview from '../../assets/ExploraJourneysvsSeabourn/Explora-Overview.webp';
-// import SeabournOverview from '../../assets/ExploraJourneysvsSeabourn/Seabourn-Overview.jpg';
-// import ExploraSuite from '../../assets/ExploraJourneysvsSeabourn/Suite-Services.webp';
-// import SeabournSuite from '../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg';
-// import SpaExperience from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-sunrise-pool-deck-luxury-yacht.webp';
-// import ExploraDetination from '../../assets/ExploraJourneysvsSeabourn/ExploraDestination.webp';
-// import SeabournDetination from '../../assets/ExploraJourneysvsSeabourn/SeabourPlace.jpg';
-// import ExploraPool from '../../assets/ExploraJourneysvsSeabourn/explora-I-infinity-pool.webp';
-// import ExploraDinig from '../../assets/ExploraJourneysvsSeabourn/Conservatory-Pool-Bar.jpg';
-// import ExploraJournryDinig from '../../assets/ExploraJourneysvsSeabourn/ExploraDining.jpeg';
-// import SeabourDinig from '../../assets/ExploraJourneysvsSeabourn/SeabournDining.jpg';
-// import CTAImage from '../../assets/ExploraJourneysvsSeabourn/EXPLORA-Mediterranean.webp';
+import AboutAngela1 from '../../assets/AboutAngela.jpeg';
+import AboutAngela2 from '../../assets/AboutAngela2.jpeg';
+import AboutAngela3 from '../../assets/AboutAngela3.jpeg';
 
-// import Experience from '../../assets/ExploraJourneysvsSeabourn/Ilulissat_Greenland_Jakobshavn_Glacier.jpg';
-// import Experience1 from '../../assets/ExploraJourneysvsSeabourn/OnBoard_AfternoonTea.jpg';
-// import Experience2 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore.jpg';
-// import Experience3 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encor.jpg';
-// import Experience4 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encores.jpg';
-// import Experience5 from '../../assets/ExploraJourneysvsSeabourn/Seabourn_Encore_PoolDeck.jpg';
-// import Experience6 from '../../assets/ExploraJourneysvsSeabourn/SBN_Kusadasi_Turkey_Encore_ENC_Sunrise_Sail_In_Location_Drone.jpg';
+// Hero & Overview Assets
+import HeroImage1 from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-luxury-cruise-ship-ocean-hero.webp';
+import HeroImage2 from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-auckland-new-zealand-skyline-cruise.jpg';
+import SuiteComparisonSummaryImg from '../../assets/WhichExploraSuiteWorthUpgrade/explora-journeys-deluxe-penthouse-suite-bedroom.jpg';
+import ExploraOverview from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-modern-ocean-luxury-ship-overview.webp';
+import SeabournOverview from '../../assets/ExploraJourneysvsSeabourn/seabourn-ultra-luxury-intimate-ship-overview.jpg';
+
+// Showdown & Design Assets
+import ExploraShowdown from '../../assets/WhichExploraSuiteWorthUpgrade/explora-I-luxury-cruise-aerial-view-mediterranean.JPG';
+import SeabournShowdown from '../../assets/SeabournCruises/seabourn-ocean-cruises-luxury-yacht-experience.jpg';
+import ExploraPool from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-oceanfront-infinity-pool-deck.webp';
+import ExploraDesign from '../../assets/LuxuryExploraJourneysGuide/Luxury-Explora-Journeys.webp';
+import SeabournDesign from '../../assets/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg';
+import SeabournSuite from '../../assets/ExploraJourneysvsSeabourn/seabourn-oceanfront-veranda-luxury-suite.jpg';
+
+// Suites & Accommodations Assets
+import ExploraSuite from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-ocean-terrace-luxury-suite.webp';
+import SeabournSuiteVeranda from '../../assets/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg';
+
+// Dining Assets
+import ExploraJournryDinig from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-gourmet-fine-dining-culinary-experience.jpeg';
+import SeabourDinig from '../../assets/ExploraJourneysvsSeabourn/seabourn-fine-dining-gourmet-restaurant-experience.jpg';
+import ExploraDinig from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-conservatory-pool-bar-lounge.jpg';
+import SeabournCaviarDining from '../../assets/WhatIncludedSeabournCruise/seabourn-complimentary-caviar-service-on-demand-luxury.jpg';
+
+// Wellness, Spa & Nightlife Assets
+import SpaExperience from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-ocean-wellness-spa-sunrise-pool-deck.webp';
+import ExploraNightlife from '../../assets/ExploraJourneysCruises/Meridian-Lounge.webp';
+import Experience5 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-pool-deck-nightlife-entertainment.jpg';
+
+// Destinations Assets
+import SeabournWorldwide from '../../assets/SeabournCruises/seabourn-worldwide-destination-focused-itineraries.jpg';
+import Experience from '../../assets/ExploraJourneysvsSeabourn/seabourn-expeditions-greenland-glacier-polar-voyage.jpg';
+import Experience6 from '../../assets/ExploraJourneysvsSeabourn/seabourn-kusadasi-turkey-mediterranean-sunrise-drone.jpg';
+import ExploraDetination from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-destination-ocean-state-of-mind.webp';
+import ExploraMediterranean from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-mediterranean-luxury-yacht-cruising.webp';
+
+// Grand Bento & Luxury Distinction Assets
+import GrandBentoLuxury from '../../assets/ExploraJourneysCruises/ExploraCruise2.webp';
+import ExploraLuxuryBento from '../../assets/WhichExploraSuiteWorthUpgrade/explora-journeys-oceanfront-infinity-pool-deck.jpg';
+import SeabournLuxuryBento from '../../assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg';
+import Experience3 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-classic-luxury-ship-at-sea.jpg';
+
+// Scenic Gallery Assets
+import Experience1 from '../../assets/ExploraJourneysvsSeabourn/seabourn-onboard-traditional-afternoon-tea-service.jpg';
+import Experience2 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-modern-luxury-cruise-sailing.jpg';
+import Experience4 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-ultra-luxury-yacht-experience.jpg';
+import SeabournDetination from '../../assets/ExploraJourneysvsSeabourn/seabourn-boutique-harbor-luxury-port-destination.jpg';
+import GalleryAmalfiCoast from '../../assets/ExploraJourneysCruises/amalfi-coast-italy-mediterranean-hero-summer-2025.webp';
+import GalleryRedSea from '../../assets/ExploraJourneysCruises/explora-journeys-red-sea-luxury-cruise-oman.webp';
+import GallerySeabournAmalfi from '../../assets/SeabournCruises/seabourn-mediterranean-cruise-amalfi-coast-italy.jpg';
+
+// Trust & Final CTA Assets
+import trustMainImage from '../../assets/ExploraJourneysCruises/Explora-Journeys.webp';
+import finalCtaImage from '../../assets/ExploraJourneysCruises/onboard-experience.webp';
+
+// CTA Interlude Background Images from other Seabourn Folders
+import Cta1ExploraVsSeabournImg from '../../assets/SeabournCruises/seabourn-vs-explora-journeys-modern-ocean-luxury-comparison.jpg';
+import Cta2UpgradeExperienceImg from '../../assets/SeabournCruises/seabourn-in-suite-private-veranda-dining-service.jpg';
+import Cta3ConsultationImg from '../../assets/SeabournCruises/seabourn-intuitive-personalized-luxury-service.jpg';
+import Cta4UltraLuxuryImg from '../../assets/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg';
 
 // UI Components
 import ComparisonHero from '../../components/ui/ComparisonHero';
@@ -57,7 +98,7 @@ const ExploraJourneysvsSeabourn = () => {
   // Section 3: Overview Brand Showcase Data
   const exploraBrandData = {
     name: data.overview.explora.title,
-    // image: ExploraOverview,
+    image: ExploraOverview,
     bestFor: data.overview.explora.badge,
     whatMakesItStandOut: `${data.overview.explora.lead} ${data.overview.explora.description}`,
     strengths: data.overview.explora.atmosphere.map((a) => `Atmosphere: ${a}`),
@@ -66,7 +107,7 @@ const ExploraJourneysvsSeabourn = () => {
 
   const seabournBrandData = {
     name: data.overview.seabourn.title,
-    // image: SeabournOverview,
+    image: SeabournOverview,
     bestFor: data.overview.seabourn.badge,
     whatMakesItStandOut: `${data.overview.seabourn.lead} ${data.overview.seabourn.description}`,
     strengths: data.overview.seabourn.atmosphere.map((a) => `Atmosphere: ${a}`),
@@ -78,25 +119,25 @@ const ExploraJourneysvsSeabourn = () => {
     {
       title: 'Explora Journeys — Boutique Luxury',
       description: `${data.designAtmosphere.explora.intro} ${data.designAtmosphere.explora.note}`,
-      // image: ExploraPool,
+      image: ExploraPool,
       stat: 'Explora',
     },
     {
       title: 'Explora Design Highlights',
       description: data.designAtmosphere.explora.highlights.join(' • '),
-      // image: ExploraOverview,
+      image: ExploraDesign,
       stat: 'Modern',
     },
     {
       title: 'Seabourn — Classic Refinement',
       description: `${data.designAtmosphere.seabourn.intro} ${data.designAtmosphere.seabourn.note}`,
-      // image: SeabournOverview,
+      image: SeabournDesign,
       stat: 'Seabourn',
     },
     {
       title: 'Seabourn Elegance Highlights',
       description: data.designAtmosphere.seabourn.highlights.join(' • '),
-      // image: SeabournSuite,
+      image: SeabournSuite,
       stat: 'Refined',
     },
   ];
@@ -105,19 +146,19 @@ const ExploraJourneysvsSeabourn = () => {
   const suitesFlipItems = [
     {
       title: 'Explora Ocean Suites',
-      // image: ExploraSuite,
+      image: ExploraSuite,
       description: `${data.suitesComparison.explora.intro} ${data.suitesComparison.explora.note}`,
       features: data.suitesComparison.explora.features,
     },
     {
       title: 'Seabourn Ultra-Luxury Suites',
-      // image: SeabournSuite,
+      image: SeabournSuiteVeranda,
       description: `${data.suitesComparison.seabourn.intro} ${data.suitesComparison.seabourn.note}`,
       features: data.suitesComparison.seabourn.features,
     },
     {
       title: 'Suite Comparison Summary',
-      // image: HeroImage4,
+      image: SuiteComparisonSummaryImg,
       description:
         'Explora delivers larger contemporary oceanfront living areas and terraces, while Seabourn sets the industry standard for dedicated suite attendant hospitality and personalized butler attention.',
       features: [
@@ -149,7 +190,7 @@ const ExploraJourneysvsSeabourn = () => {
         'Caviar in the Surf, Thomas Keller inspired culinary offerings, and sommelier-curated fine wine pairings.',
     },
   ];
-  // const diningImages = [ExploraJournryDinig, SeabourDinig, ExploraDinig, Experience1];
+  const diningImages = [ExploraJournryDinig, SeabourDinig, ExploraDinig, SeabournCaviarDining];
 
   // Section 8: Wellness & Spa Features
   const spaFeatures = [
@@ -167,7 +208,7 @@ const ExploraJourneysvsSeabourn = () => {
   // Section 9: Entertainment & Nightlife Showdown
   const entertainmentBrandA = {
     name: data.entertainmentNightlife.explora.name,
-    // image: ExploraPool,
+    image: ExploraNightlife,
     features: [
       data.entertainmentNightlife.explora.intro,
       ...data.entertainmentNightlife.explora.features,
@@ -176,7 +217,7 @@ const ExploraJourneysvsSeabourn = () => {
   };
   const entertainmentBrandB = {
     name: data.entertainmentNightlife.seabourn.name,
-    // image: Experience5,
+    image: Experience5,
     features: [
       data.entertainmentNightlife.seabourn.intro,
       ...data.entertainmentNightlife.seabourn.features,
@@ -221,7 +262,7 @@ const ExploraJourneysvsSeabourn = () => {
         'Secluded Caribbean cays, St. Barts, Virgin Gorda, and relaxed turquoise-water yacht harbor calls.',
     },
   ];
-  // const destinationImages = [Experience, SeabournDetination, Experience6, ExploraDetination, HeroImage2, CTAImage];
+  const destinationImages = [SeabournWorldwide, Experience, Experience6, ExploraDetination, HeroImage2, ExploraMediterranean];
 
   // Section 11: Service Style Comparison
   const serviceData = {
@@ -250,27 +291,27 @@ const ExploraJourneysvsSeabourn = () => {
     {
       title: data.luxuryDefinition.title,
       description: data.luxuryDefinition.note,
-      // image: HeroImage1,
+      image: GrandBentoLuxury,
     },
     {
       title: data.luxuryDefinition.explora.label,
       description:
         'Contemporary atmosphere anchored by: ' +
         data.luxuryDefinition.explora.elements.join(', '),
-      // image: ExploraOverview,
+      image: ExploraLuxuryBento,
     },
     {
       title: data.luxuryDefinition.seabourn.label,
       description:
         'Heritage ultra-luxury distinguished by: ' +
         data.luxuryDefinition.seabourn.elements.join(', '),
-      // image: SeabournOverview,
+      image: SeabournLuxuryBento,
     },
     {
       title: 'The Deciding Factor',
       description:
         'Your preference between cutting-edge modern European hotel design and time-honored maritime luxury tradition.',
-      // image: Experience3,
+      image: Experience3,
     },
   ];
 
@@ -338,10 +379,19 @@ const ExploraJourneysvsSeabourn = () => {
   ];
 
   // Section 14: Experience Gallery
-  const galleryItems = data.experienceShowcase.slides.map((s) => ({
+  const experienceImages = [
+    Experience1,
+    Experience2,
+    Experience4,
+    SeabournDetination,
+    GalleryAmalfiCoast,
+    GalleryRedSea,
+    GallerySeabournAmalfi,
+  ];
+  const galleryItems = data.experienceShowcase.slides.map((s, idx) => ({
     title: s.title,
     description: s.description,
-    // image: ...
+    image: experienceImages[idx % experienceImages.length],
   }));
 
   // Section 15: Common Mistakes
@@ -408,7 +458,7 @@ const ExploraJourneysvsSeabourn = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={`${data.hero.lead}\n\n${data.hero.sublead}`}
-        // backgroundImage={HeroImage1}
+        backgroundImage={HeroImage1}
         secondaryCtaText="Request a Quote"
         secondaryCtaLink="/contact"
       />
@@ -422,7 +472,7 @@ const ExploraJourneysvsSeabourn = () => {
           highlights={data.introSection.highlights}
           badgeTitle={data.introSection.badgeTitle}
           badgeDescription={data.introSection.badgeDescription}
-          image={AboutImage}
+          image={AboutAngela2}
           placeholderLabel="Angela Hughes Luxury Authority"
         />
 
@@ -432,12 +482,12 @@ const ExploraJourneysvsSeabourn = () => {
           brandA={{
             name: data.finalVerdict.explora.name,
             features: data.finalVerdict.explora.features,
-            // image: ExploraOverview,
+            image: ExploraShowdown,
           }}
           brandB={{
             name: data.finalVerdict.seabourn.name,
             features: data.finalVerdict.seabourn.features,
-            // image: SeabournOverview,
+            image: SeabournShowdown,
           }}
         />
 
@@ -468,11 +518,12 @@ const ExploraJourneysvsSeabourn = () => {
 
         {/* Interlude CTA 1 (After 4 sections) */}
         <CenterCTA
-          theme="light"
+          theme="dark"
           title="Need Help Choosing Between Explora & Seabourn?"
           description="Connect with Angela Hughes and the Trips & Ships Luxury Travel team for personalized cabin selection, VIP perks, and voyage planning."
           buttonText="Plan Your Luxury Cruise"
           buttonLink="/contact"
+          image={Cta1ExploraVsSeabournImg}
         />
 
         {/* Section 5: Explora Naming Ceremony Video */}
@@ -490,24 +541,25 @@ const ExploraJourneysvsSeabourn = () => {
           title={data.diningComparison.title}
           subtitle={data.diningComparison.subtitle}
           items={diningItems}
-          // images={diningImages}
+          images={diningImages}
         />
 
         {/* Section 8: Wellness & Spa Experience */}
         <EditorialFeatureShowcase
           title={data.wellnessAndSpa.title}
           subtitle={`${data.wellnessAndSpa.subtitle} — ${data.wellnessAndSpa.note}`}
-          // image={SpaExperience}
+          image={SpaExperience}
           features={spaFeatures}
         />
 
         {/* Interlude CTA 2 (After 4 sections) */}
         <CenterCTA
-          theme="light"
+          theme="dark"
           title="Elevate Your Onboard Experience"
           description="Unlock exclusive stateroom upgrades, onboard ship credits, and tailored shore excursions on your upcoming voyage."
           buttonText="Request a Luxury Cruise Quote"
           buttonLink="/contact"
+          image={Cta2UpgradeExperienceImg}
         />
 
         {/* Section 9: Entertainment & Nightlife */}
@@ -523,7 +575,7 @@ const ExploraJourneysvsSeabourn = () => {
           title={data.destinationsItineraries.title}
           subtitle={data.destinationsItineraries.subtitle}
           items={destinationItems}
-          // images={destinationImages}
+          images={destinationImages}
         />
 
         {/* Section 11: Service Style Comparison */}
@@ -538,11 +590,12 @@ const ExploraJourneysvsSeabourn = () => {
 
         {/* Interlude CTA 3 (After 4 sections) */}
         <CenterCTA
-          theme="light"
+          theme="dark"
           title="Speak Directly With Angela Hughes"
           description="Get candid comparisons, cabin recommendations, and exclusive VIP booking amenities for your 2026-2027 voyage."
           buttonText="Schedule a Consultation"
           buttonLink="/contact"
+          image={Cta3ConsultationImg}
         />
 
         {/* Section 13: Pricing & Value Comparison */}
@@ -584,7 +637,10 @@ const ExploraJourneysvsSeabourn = () => {
                   title={data.videoSection2.title}
                   width="100%"
                   height="100%"
-                  allow="autoplay; fullscreen"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
                   className="absolute inset-0 w-full h-full"
                 ></iframe>
               </div>
@@ -594,11 +650,12 @@ const ExploraJourneysvsSeabourn = () => {
 
         {/* Interlude CTA 4 (After 4 sections) */}
         <CenterCTA
-          theme="light"
+          theme="dark"
           title="Ready to Experience Ultra-Luxury Cruising?"
           description="Contact Angela Hughes to lock in special promotional pricing, complimentary suite upgrades, and bespoke pre/post cruise arrangements."
           buttonText="Request Your Custom Proposal"
           buttonLink="/contact"
+          image={Cta4UltraLuxuryImg}
         />
 
         {/* Section 17: Who Explora Journeys Is Best For */}
@@ -629,7 +686,7 @@ const ExploraJourneysvsSeabourn = () => {
           experienceBadge="40+ YEARS CRUISE EXPERTISE"
           authorityBoxTitle={`${data.angelaHughes.name} CRUISE AUTHORITY & LEADERSHIP`}
           authoritySubtitle={data.angelaHughes.role}
-          image={AboutImage}
+          image={AboutAngela3}
           paragraphs={[
             data.angelaHughes.lead,
             data.angelaHughes.expertise,
@@ -664,7 +721,8 @@ const ExploraJourneysvsSeabourn = () => {
         {/* Section 22: Trust Section */}
         <TrustSection
           sections={trustSections}
-          secondaryImage={AboutImage}
+          mainImage={trustMainImage}
+          secondaryImage={AboutAngela1}
         />
 
         {/* Final CTA Section */}
@@ -674,6 +732,7 @@ const ExploraJourneysvsSeabourn = () => {
           description="Contact Angela Hughes today for expert insights, tailored suite recommendations, and exclusive VIP booking privileges."
           buttonText="Request a Consultation"
           buttonLink="/contact"
+          image={finalCtaImage}
         />
       </div>
     </div>

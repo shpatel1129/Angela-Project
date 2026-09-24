@@ -49,11 +49,11 @@
             "name": "Home",
             "item": "https://www.tripsandships.com"
           },
-          {
+           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Luxury Cruises",
-            "item": "https://www.tripsandships.com/luxury-cruises"
+            "name": "Seabourn Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/"
           },
           {
             "@type": "ListItem",
@@ -568,7 +568,8 @@
   "videoSection2": {
     "title": "Explore Seabourn Luxury Cruises",
     "description": "Discover the elegance, ultra-luxury suites, fine dining, and immersive voyage experiences that make Seabourn one of the world's most prestigious luxury cruise lines.",
-    "embedUrl": "https://drive.google.com/file/d/1CwCMcEQjb9iHzopy_nIbtP3S-m84bbap/preview"
+    "youtubeId": "65UCuDzogIQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/65UCuDzogIQ?rel=0&modestbranding=1&vq=hd1080"
   },
   "whoExploraIsBestFor": {
     "title": "Who Explora Journeys Is Best Suited For",

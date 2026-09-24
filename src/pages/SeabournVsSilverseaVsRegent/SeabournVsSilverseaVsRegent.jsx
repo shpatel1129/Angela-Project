@@ -30,7 +30,6 @@ import ComparisonTable from '../../components/ui/ComparisonTable';
 import ThreeColumnGrid from '../../components/ui/ThreeColumnGrid';
 import BentoGlassmorphismGrid from '../../components/ui/BentoGlassmorphismGrid';
 import InclusionsSplitFeatures from '../../components/ui/InclusionsSplitFeatures';
-import ContainedShowdown from '../../components/ui/ContainedShowdown';
 import EditorialExcursionShowcase from '../../components/ui/EditorialExcursionShowcase';
 import StepByStepGuide from '../../components/ui/StepByStepGuide';
 import EditorialIntroSection from '../../components/ui/EditorialIntroSection';
@@ -43,28 +42,56 @@ import ExpeditionHighlight from '../../components/ui/ExpeditionHighlight';
 import DestinationFlipCards from '../../components/ui/DestinationFlipCards';
 import FAQAccordion from '../../components/ui/FAQAccordion';
 import TravelerProfileTabs from '../../components/ui/TravelerProfileTabs';
-import MasterImage from '../../components/ui/MasterImage';
 import CenterCTA from '../../components/ui/CenterCTA';
 import FooterCTA from '../../components/ui/FooterCTA';
 import TrustSection from '../../components/ui/TrustSection';
+import VideoEmbed from '../../components/ui/VideoEmbed';
 
-// Dining Images
-import seabournDiningImg from '../../assets/ExploraJourneysvsSeabourn/SeabournDining.jpg';
-import silverseaDiningImg from '../../assets/WhatIsIncludedOnVikingCruises/viking-the-restaurant-ocean-view-dining.jpg';
-import regentDiningImg from '../../assets/WhatIsIncludedOnVikingCruises/viking-aquavit-terrace-ocean-dining.jpg';
+// Assets - Seabourn vs Silversea vs Regent
+import chooseSeabournImg from '../../assets/SeabournvsSilverseavsRegent/choose-seabourn-luxury-cruise-dining-experience.jpg';
+import considerRegentImg from '../../assets/SeabournvsSilverseavsRegent/consider-regent-seven-seas-inclusive-specialty-dining.jpg';
+import considerSilverseaImg from '../../assets/SeabournvsSilverseavsRegent/consider-silversea-salt-culinary-immersion-cruising.jpg';
+import couplesHoneymoonsImg from '../../assets/SeabournvsSilverseavsRegent/best-luxury-cruises-for-couples-and-honeymoons.jpg';
+import dressCodeGuidelinesImg from '../../assets/SeabournvsSilverseavsRegent/luxury-cruise-dress-code-guidelines-attire-standards.jpg';
+import familiesMultigenerationalImg from '../../assets/SeabournvsSilverseavsRegent/multigenerational-family-luxury-cruise-vacation.jpg';
+import soloTravelersImg from '../../assets/SeabournvsSilverseavsRegent/solo-travelers-luxury-cruising-single-supplements.jpg';
+import regentDiningImg from '../../assets/SeabournvsSilverseavsRegent/regent-seven-seas-gourmet-specialty-dining-experience.jpg';
+import silverseaDiningImg from '../../assets/SeabournvsSilverseavsRegent/silversea-fine-dining-salt-culinary-program.jpg';
+import seabournLuxuryImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-luxury-cruises-private-yacht-experience.jpg';
+import silverseaLuxuryImg from '../../assets/SeabournvsSilverseavsRegent/silversea-all-inclusive-butler-service-luxury-cruising.jpg';
+import regentLuxuryImg from '../../assets/SeabournvsSilverseavsRegent/regent-seven-seas-all-inclusive-ultra-luxury-lifestyle.jpg';
+import regentMatchImg from '../../assets/SeabournvsSilverseavsRegent/regent-seven-seas-cruises-ideal-traveler-match.jpg';
+import seabournMatchImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-cruises-ideal-traveler-match.jpg';
+import silverseaMatchImg from '../../assets/SeabournvsSilverseavsRegent/silversea-cruises-ideal-traveler-match.jpg';
+import regentSevenSeasCruisesImg from '../../assets/SeabournvsSilverseavsRegent/regent-seven-seas-luxury-cruise-ship-fleet.jpg';
+import regentShoreExcursionsImg from '../../assets/SeabournvsSilverseavsRegent/regent-seven-seas-unlimited-included-shore-excursions.jpg';
+import seabournShoreExcursionsImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-curated-shore-excursions-ventures-experience.jpg';
+import silverseaShoreExcursionsImg from '../../assets/SeabournvsSilverseavsRegent/silversea-immersive-shore-excursions-expedition-tours.jpg';
+import regentSuitesImg from '../../assets/SeabournvsSilverseavsRegent/regent-seven-seas-all-balcony-penthouse-suites.jpg';
+import seabournSuitesImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-luxury-oceanfront-veranda-suites.jpg';
+import silverseaSuitesImg from '../../assets/SeabournvsSilverseavsRegent/silversea-all-suite-butler-pampering-accommodations.jpg';
+import seabournInclusiveImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-cruise-line-all-inclusive-luxury-amenities.jpg';
+import seabournLuxuryTravelImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-ultra-luxury-travel-yacht-atmosphere.jpg';
+import seabournImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-luxury-cruise-ship-ocean-voyages.jpg';
+import silverseaDestinationsImg from '../../assets/SeabournvsSilverseavsRegent/silversea-global-destinations-expedition-cruising.jpg';
+import silverseaImg from '../../assets/SeabournvsSilverseavsRegent/silversea-luxury-cruises-ship-ocean-voyage.jpg';
+import planCruiseConfidenceImg from '../../assets/SeabournvsSilverseavsRegent/seabourn-luxury-cruises-private-yacht-experience.jpg';
 
-// Itinerary Images
-import seabournItineraryImg from '../../assets/ExploraJourneysvsSeabourn/SBN_Kusadasi_Turkey_Encore_ENC_Sunrise_Sail_In_Location_Drone.jpg';
-import silverseaItineraryImg from '../../assets/WhatIsIncludedOnVikingCruises/Expedition-Ship-Antarctica.jpg';
-import regentItineraryImg from '../../assets/LuxuryExploraJourneysGuide/Regent-Seven-Seas-Explorer.webp';
+// CTA Interlude Background Images from other Seabourn Folders
+import Cta1ComparisonImg from '../../assets/SeabournCruises/seabourn-vs-silversea-luxury-cruise-line-comparison.jpg';
+import Cta2SuiteServiceImg from '../../assets/SeabournSuites/seabourn-suites-luxury-accommodations-overview.jpg';
+import Cta3ShoreExcursionsImg from '../../assets/SeabournCruises/seabourn-curated-shore-excursions-unesco-tours.jpg';
+import Cta4FirstTimeCruisersImg from '../../assets/IsSeabournWorthPrice/seabourn-value-for-first-time-luxury-cruisers.jpg';
 
 const SeabournVsSilverseaVsRegent = () => {
   // 1. Core Differences Data (ThreeColumnGrid)
-  const differenceCards = pageData.brandDifferences.brands.map((b) => ({
+  const differenceImages = [seabournImg, silverseaImg, regentSevenSeasCruisesImg];
+  const differenceCards = pageData.brandDifferences.brands.map((b, idx) => ({
     title: b.title,
     description: b.description,
     category: b.category,
-    highlight: b.highlight
+    highlight: b.highlight,
+    image: differenceImages[idx % differenceImages.length]
   }));
 
   // 2. Luxury Bento Items (BentoGlassmorphismGrid)
@@ -73,19 +100,22 @@ const SeabournVsSilverseaVsRegent = () => {
       title: pageData.whichIsMoreLuxury.seabourn.title,
       description: pageData.whichIsMoreLuxury.seabourn.summary + " • Key elements: " + pageData.whichIsMoreLuxury.seabourn.items.slice(0, 5).join(", ") + ".",
       category: pageData.whichIsMoreLuxury.seabourn.badge,
-      highlight: "Yacht Atmosphere"
+      highlight: "Yacht Atmosphere",
+      image: seabournLuxuryImg
     },
     {
       title: pageData.whichIsMoreLuxury.silversea.title,
       description: pageData.whichIsMoreLuxury.silversea.summary + " • Key elements: " + pageData.whichIsMoreLuxury.silversea.items.slice(0, 5).join(", ") + ".",
       category: pageData.whichIsMoreLuxury.silversea.badge,
-      highlight: "Dedicated Butler"
+      highlight: "Dedicated Butler",
+      image: silverseaLuxuryImg
     },
     {
       title: pageData.whichIsMoreLuxury.regent.title,
       description: pageData.whichIsMoreLuxury.regent.summary + " • Key elements: " + pageData.whichIsMoreLuxury.regent.items.slice(0, 5).join(", ") + ".",
       category: pageData.whichIsMoreLuxury.regent.badge,
-      highlight: "Unlimited Inclusions"
+      highlight: "Unlimited Inclusions",
+      image: regentLuxuryImg
     }
   ];
 
@@ -111,11 +141,13 @@ const SeabournVsSilverseaVsRegent = () => {
   };
 
   // 4. Suite Comparison Cards (ThreeColumnGrid)
-  const suiteCards = pageData.suiteComparison.suites.map((s) => ({
+  const suiteImages = [seabournSuitesImg, silverseaSuitesImg, regentSuitesImg];
+  const suiteCards = pageData.suiteComparison.suites.map((s, idx) => ({
     title: s.brand,
     category: s.category,
     highlight: s.highlight,
-    description: s.description + "\n\nKey Highlights: " + s.amenities.join(" • ")
+    description: s.description + "\n\nKey Highlights: " + s.amenities.join(" • "),
+    image: suiteImages[idx % suiteImages.length]
   }));
 
   // 5. Service Contained Showdown (ContainedShowdown)
@@ -142,7 +174,7 @@ const SeabournVsSilverseaVsRegent = () => {
 
   // 6. Dining Items (DestinationFlipCards)
   const diningFlipItems = pageData.diningSection.venues.map((venue, idx) => {
-    const diningImages = [seabournDiningImg, silverseaDiningImg, regentDiningImg];
+    const diningImages = [chooseSeabournImg, silverseaDiningImg, regentDiningImg];
     return {
       title: venue.title,
       description: venue.description,
@@ -164,27 +196,32 @@ const SeabournVsSilverseaVsRegent = () => {
       title: "Choose Seabourn If You Value:",
       category: "Culinary Highlights",
       highlight: "Caviar & Fine Wines",
-      description: pageData.betterFoodMatchmaker.seabournValues.join(" • ")
+      description: pageData.betterFoodMatchmaker.seabournValues.join(" • "),
+      image: chooseSeabournImg
     },
     {
       title: "Consider Silversea If You Value:",
       category: "Culinary Highlights",
       highlight: "S.A.L.T. Immersion",
-      description: pageData.betterFoodMatchmaker.silverseaValues.join(" • ")
+      description: pageData.betterFoodMatchmaker.silverseaValues.join(" • "),
+      image: considerSilverseaImg
     },
     {
       title: "Consider Regent If You Value:",
       category: "Culinary Highlights",
       highlight: "Included Specialties",
-      description: pageData.betterFoodMatchmaker.regentValues.join(" • ")
+      description: pageData.betterFoodMatchmaker.regentValues.join(" • "),
+      image: considerRegentImg
     }
   ];
 
   // 8. Shore Excursions (EditorialExcursionShowcase)
-  const excursionItems = pageData.shoreExcursions.lines.map((l) => ({
+  const excursionImages = [seabournShoreExcursionsImg, silverseaShoreExcursionsImg, regentShoreExcursionsImg];
+  const excursionItems = pageData.shoreExcursions.lines.map((l, idx) => ({
     title: l.brand,
     category: l.category,
-    description: l.description
+    description: l.description,
+    image: excursionImages[idx % excursionImages.length]
   }));
 
   // 9. First-Time Guidance (MistakesGrid)
@@ -206,27 +243,30 @@ const SeabournVsSilverseaVsRegent = () => {
       title: "Seabourn Match",
       category: "Ideal Traveler",
       highlight: "Intimate Yacht Vibe",
-      description: pageData.whichShouldYouChoose.seabourn.points.join(" • ")
+      description: pageData.whichShouldYouChoose.seabourn.points.join(" • "),
+      image: seabournMatchImg
     },
     {
       title: "Silversea Match",
       category: "Ideal Traveler",
       highlight: "Butler & Expedition",
-      description: pageData.whichShouldYouChoose.silversea.points.join(" • ")
+      description: pageData.whichShouldYouChoose.silversea.points.join(" • "),
+      image: silverseaMatchImg
     },
     {
       title: "Regent Match",
       category: "Ideal Traveler",
       highlight: "Comprehensive Luxury",
-      description: pageData.whichShouldYouChoose.regent.points.join(" • ")
+      description: pageData.whichShouldYouChoose.regent.points.join(" • "),
+      image: regentMatchImg
     }
   ];
 
   // 12. Itinerary Tabs (OpulentTabbedExperience)
   const itineraryImages = [
-    seabournItineraryImg,
-    silverseaItineraryImg,
-    regentItineraryImg
+    seabournLuxuryTravelImg,
+    silverseaDestinationsImg,
+    regentSevenSeasCruisesImg
   ];
   const itineraryTabs = pageData.itineraries.destinations.map((dest, idx) => ({
     title: dest.line,
@@ -272,7 +312,8 @@ const SeabournVsSilverseaVsRegent = () => {
         "Regent for Couples: " + pageData.couplesAndHoneymoons.profiles[2].description,
         "Shared Romance Amenities: Quiet luxury, fine dining, spacious oceanfront suites, and intimate evening lounges."
       ],
-      placeholderLabel: "COUPLES & HONEYMOONS LUXURY"
+      placeholderLabel: "COUPLES & HONEYMOONS LUXURY",
+      image: couplesHoneymoonsImg
     },
     {
       name: "Families & Multigenerational",
@@ -281,7 +322,8 @@ const SeabournVsSilverseaVsRegent = () => {
       recommendation: "Select the Right Vessel, Suite Layout & Itinerary",
       reason: pageData.familiesSection.advisorAdvice,
       whyFits: pageData.familiesSection.considerations.map((c) => "Consideration: " + c),
-      placeholderLabel: "MULTIGENERATIONAL LUXURY"
+      placeholderLabel: "MULTIGENERATIONAL LUXURY",
+      image: familiesMultigenerationalImg
     },
     {
       name: "Solo Travelers",
@@ -295,7 +337,8 @@ const SeabournVsSilverseaVsRegent = () => {
         "Regent: " + pageData.soloTravelers.brands[2].fit,
         ...pageData.soloTravelers.factors.map((f) => "Evaluate: " + f)
       ],
-      placeholderLabel: "SOLO LUXURY TRAVEL"
+      placeholderLabel: "SOLO LUXURY TRAVEL",
+      image: soloTravelersImg
     },
     {
       name: "Dress Code Guidelines",
@@ -304,9 +347,17 @@ const SeabournVsSilverseaVsRegent = () => {
       recommendation: "Check Specific Guidelines Before Selecting Your Voyage",
       reason: pageData.dressCode.summary,
       whyFits: pageData.dressCode.codes.map((c) => `${c.brand}: ${c.rule}`),
-      placeholderLabel: "LUXURY CRUISE DRESS CODES"
+      placeholderLabel: "LUXURY CRUISE DRESS CODES",
+      image: dressCodeGuidelinesImg
     }
   ];
+
+  // 16. Video Data (VideoEmbed)
+  const videoData = {
+    youtubeId: "Jt_yC6BJLyI",
+    title: "Seabourn vs. Silversea vs. Regent: Luxury Cruise Comparison",
+    description: "Watch our expert breakdown comparing Seabourn, Silversea, and Regent Seven Seas Cruises to find the perfect luxury sailing match for your travel style."
+  };
 
   return (
     <>
@@ -334,6 +385,9 @@ const SeabournVsSilverseaVsRegent = () => {
           subtitle={pageData.hero.lead}
           description={pageData.hero.sublead}
           badge={pageData.hero.badge + " • " + pageData.hero.lastUpdated}
+          backgroundImage={seabournLuxuryTravelImg}
+          secondaryCtaText="Contact"
+          secondaryCtaLink="/contact"
         />
 
         {/* Brand Focus Quote Block */}
@@ -389,7 +443,8 @@ const SeabournVsSilverseaVsRegent = () => {
           description="Let our luxury cruise specialists calculate true apples-to-apples costs for Seabourn, Silversea, and Regent."
           buttonText="Request an Apples-to-Apples Quote"
           buttonLink="/contact"
-          theme="light"
+          theme="dark"
+          image={Cta1ComparisonImg}
         />
 
         {/* 5. WHICH IS MOST ALL-INCLUSIVE (InclusionsSplitFeatures - full width) */}
@@ -484,7 +539,8 @@ const SeabournVsSilverseaVsRegent = () => {
           description="Whether you prefer dedicated butler pampering or relaxed yacht-club hospitality, we'll match you to the right suite category."
           buttonText="Speak With a Luxury Specialist"
           buttonLink="/contact"
-          theme="light"
+          theme="dark"
+          image={Cta2SuiteServiceImg}
         />
 
         {/* 9. DINING COMPARISON (DestinationFlipCards - full width) */}
@@ -521,7 +577,8 @@ const SeabournVsSilverseaVsRegent = () => {
           description="Access exclusive Virtuoso shipboard credits, suite upgrades, and private destination arrangements on your luxury sailing."
           buttonText="Plan Your Luxury Itinerary"
           buttonLink="/contact"
-          theme="light"
+          theme="dark"
+          image={Cta3ShoreExcursionsImg}
         />
 
         {/* 13A. SMALL-SHIP LUXURY (CurvilinearGrid - full width) */}
@@ -538,7 +595,7 @@ const SeabournVsSilverseaVsRegent = () => {
           subtitle={pageData.expeditionCruises.lead}
           content={expeditionContent}
           features={pageData.expeditionCruises.checklist.map((item) => `${item}`)}
-          image={silverseaItineraryImg}
+          image={silverseaDestinationsImg}
         />
 
         {/* 14. TRAVELER STYLES: COUPLES, FAMILIES, SOLO & DRESS CODE (TravelerProfileTabs - full width) */}
@@ -560,10 +617,12 @@ const SeabournVsSilverseaVsRegent = () => {
           description="Avoid costly booking mistakes. Our 40+ years of luxury cruise expertise guarantees the perfect cruise line match."
           buttonText="Get Personalized Recommendations"
           buttonLink="/contact"
-          theme="light"
+          theme="dark"
+          image={Cta4FirstTimeCruisersImg}
         />
 
-       
+        {/* 16. VIDEO COMPARISON (VideoEmbed - full width) */}
+        <VideoEmbed data={videoData} />
 
         {/* 17. WHICH SHOULD YOU CHOOSE (ThreeColumnGrid - full width) */}
         <ThreeColumnGrid
@@ -588,6 +647,7 @@ const SeabournVsSilverseaVsRegent = () => {
             pageData.advisorRole.goal
           ]}
           highlights={pageData.advisorRole.dimensions}
+          image={seabournInclusiveImg}
           placeholderLabel="LUXURY CRUISE ADVISOR ADVANTAGE"
           badgeTitle="Strategic Value Guidance"
           badgeDescription="Personalized itinerary matching, suite selection, and total vacation value optimization."
@@ -673,6 +733,7 @@ const SeabournVsSilverseaVsRegent = () => {
           description="Speak with our luxury travel advisors to design your perfect itinerary."
           buttonText="Speak With a Luxury Cruise Specialist"
           buttonLink="/contact"
+          image={planCruiseConfidenceImg}
         />
 
         <FooterCTA />
