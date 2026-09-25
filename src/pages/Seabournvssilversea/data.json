@@ -1,0 +1,805 @@
+{
+  "hero": {
+    "title": "Seabourn vs. Silversea\nWhich Luxury Cruise Line Is Right for You?",
+    "subtitle": "Seabourn and Silversea are two of the most established names in ultra-luxury cruising, and choosing between them can be surprisingly difficult.",
+    "badge": "ULTRA-LUXURY CRUISE COMPARISON",
+    "paragraphs": [
+      "Both offer intimate ships, luxury accommodations, high levels of service, fine dining, premium beverages and a strong emphasis on destination-focused travel.",
+      "But the experiences are not identical.",
+      "Seabourn tends to emphasize a relaxed, yacht-like atmosphere, spacious oceanfront suites and highly personalized service. Silversea combines luxury cruising with a particularly strong destination and expedition program, including a substantial dedicated expedition fleet.",
+      "Both lines can be excellent choices. The better option depends on what you value most.",
+      "This guide compares Seabourn vs. Silversea across ships, suites, dining, service, inclusions, excursions, expedition cruising and overall value so you can decide which better matches your travel style."
+    ],
+    "primaryCtaText": "Start Planning Your Luxury Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "Quick Answer",
+    "title": "Is Seabourn or Silversea Better?",
+    "intro": "There is no universal winner. Both lines can be excellent choices — the better option depends on what you value most.",
+    "seabournPriorities": [
+      "Yacht-like atmosphere",
+      "Relaxed luxury",
+      "Spacious oceanfront suites",
+      "Personalized service",
+      "Complimentary premium wines and spirits",
+      "Complimentary caviar",
+      "Strong culinary experience",
+      "Intimate ships",
+      "A less formal atmosphere",
+      "Luxury expedition cruising on Venture and Pursuit"
+    ],
+    "silverseaPriorities": [
+      "Extensive destination coverage",
+      "A large expedition portfolio",
+      "Butler service in every suite",
+      "Luxury expedition travel",
+      "Strong onboard inclusions",
+      "A highly destination-focused experience",
+      "A broad selection of suite categories",
+      "Classic ultra-luxury cruising"
+    ],
+    "keyTakeaway": "For traditional luxury cruising, Seabourn and Silversea are extremely close competitors. For expedition cruising, the choice becomes more dependent on the specific ship and itinerary."
+  },
+  "atAGlance": {
+    "eyebrow": "Side-by-Side",
+    "title": "Seabourn vs. Silversea at a Glance",
+    "headers": ["Category", "Seabourn", "Silversea"],
+    "rows": [
+      ["Overall atmosphere", "Relaxed, yacht-like", "Refined, elegant"],
+      ["Ship size", "Small", "Small to intimate"],
+      ["Suites", "All oceanfront", "All-suite"],
+      ["Private verandas", "Many suites", "Many suites"],
+      ["Butler service", "Suite host/attendant", "Butler service in every suite"],
+      ["Dining", "Excellent", "Excellent"],
+      ["Premium beverages", "Included", "Included"],
+      ["Caviar", "Complimentary", "Available depending on experience"],
+      ["Wi-Fi", "Included packages", "Included"],
+      ["Expedition cruising", "Strong", "Very strong"],
+      ["Dedicated expedition fleet", "Yes", "Yes"],
+      ["Zodiacs", "Expedition ships", "Expedition ships"],
+      ["Destination focus", "Very strong", "Extremely strong"],
+      ["Overall feel", "Casual ultra-luxury", "Classic ultra-luxury"],
+      ["Best for", "Relaxed luxury + intimacy", "Luxury + global exploration"]
+    ]
+  },
+  "biggestDifference": {
+    "eyebrow": "The Core Distinction",
+    "title": "Seabourn vs. Silversea: The Biggest Difference",
+    "intro": "The biggest difference isn't necessarily the quality of the ships. It's the personality of the experience.",
+    "seabourn": {
+      "badge": "Private Yacht Atmosphere",
+      "title": "Seabourn: A Private Yacht Experience",
+      "description": "Seabourn describes its ships as having a private yacht-like atmosphere and emphasizes intimate ships, oceanfront suites, personalized service, premium beverages and complimentary caviar.",
+      "features": [
+        "Intimate small ships with oceanfront suites",
+        "Intuitive suite host & attendant service",
+        "Complimentary caviar & fine champagne",
+        "Relaxed elegance without excessive formality"
+      ]
+    },
+    "silversea": {
+      "badge": "Global Exploration",
+      "title": "Silversea: A Global Exploration Experience",
+      "description": "Silversea places enormous emphasis on destination immersion, all-inclusive luxury and personalized service. Its current all-inclusive offering includes food and beverages, Wi-Fi and onboard services, while its suites receive butler service.",
+      "features": [
+        "Dedicated butler service in every suite",
+        "Expansive classic & expedition fleet",
+        "Destination-oriented culinary programs (S.A.L.T.)",
+        "Comprehensive global voyage network"
+      ]
+    },
+    "note": "There is considerable overlap, but that distinction can help when making the final decision."
+  },
+  "fleetComparison": {
+    "eyebrow": "The Fleets",
+    "title": "Seabourn Ships vs. Silversea Ships",
+    "subtitle": "Ship design matters considerably when comparing these two lines.",
+    "cards": [
+      {
+        "icon": "Sailboat",
+        "title": "Seabourn Ocean Ships",
+        "description": "Crafted for a boutique small-ship feel with open public spaces and relaxed elegance.",
+        "bullets": [
+          "Small-ship cruising",
+          "Oceanfront suites",
+          "Personalized service",
+          "Premium dining",
+          "Relaxed public spaces",
+          "Yacht-like atmosphere"
+        ]
+      },
+      {
+        "icon": "Compass",
+        "title": "Seabourn Expedition Fleet",
+        "description": "Purpose-built expedition ships designed for remote environments featuring Polar Class 6 capabilities, 24 Zodiacs, kayaks, and a dedicated expedition team.",
+        "bullets": [
+          "Seabourn Venture",
+          "Seabourn Pursuit",
+          "Polar Class 6 capabilities",
+          "24 Zodiacs & Kayaks",
+          "Dedicated expedition team"
+        ]
+      },
+      {
+        "icon": "Ship",
+        "title": "Silversea Classic Ocean Fleet",
+        "description": "Extensive global voyage deployment covering classic and exotic ports across five continents.",
+        "bullets": [
+          "Mediterranean cruising",
+          "Caribbean & Northern Europe",
+          "Asia & World Cruises",
+          "South America exploration",
+          "Silver Nova-class luxury"
+        ]
+      },
+      {
+        "icon": "Anchor",
+        "title": "Silversea Expedition Fleet",
+        "description": "A large and varied expedition fleet combining luxury accommodations with polar exploration and remote landings.",
+        "bullets": [
+          "Silver Cloud",
+          "Silver Wind",
+          "Silver Endeavour",
+          "Silver Origin",
+          "Silver Sea"
+        ]
+      }
+    ],
+    "note": "Silver Nova-class ships are part of its newer luxury ocean fleet rather than expedition vessels. The exact ship matters significantly when comparing Silversea with Seabourn."
+  },
+  "whichHasBetterShips": {
+    "eyebrow": "Comparison",
+    "title": "Which Has the Better Ships?",
+    "intro": "This depends on what you mean by \"better.\"",
+    "seabournWins": [
+      "Intimacy",
+      "Yacht-like atmosphere",
+      "Relaxed luxury",
+      "Consistent small-ship feeling",
+      "Spacious oceanfront accommodations"
+    ],
+    "silverseaWins": [
+      "More fleet variety",
+      "More ship choices",
+      "Broader destination coverage",
+      "More options between classic luxury and expedition cruising"
+    ],
+    "note": "For atmosphere, Seabourn has a particularly strong identity. For fleet breadth, Silversea has the advantage."
+  },
+  "suitesComparison": {
+    "eyebrow": "Accommodations",
+    "title": "Seabourn vs. Silversea Suites",
+    "intro": "Both cruise lines put significant emphasis on suite accommodation. Seabourn's ships offer oceanfront suites, with most featuring private verandas. Its suite program includes Oceanview, Veranda, Penthouse and premium suite categories. Silversea is similarly built around suite accommodation. But there is an important difference in service.",
+    "silverseaButlerWants": [
+      "Formalized personalized service",
+      "In-suite breakfast",
+      "Concierge-style assistance",
+      "Help with arrangements",
+      "High-touch suite service"
+    ],
+    "seabournHostWants": [
+      "Personalized but understated service",
+      "A relaxed atmosphere",
+      "Fewer formalities",
+      "Familiarity with the onboard team"
+    ],
+    "whichBetter": {
+      "title": "Which Has Better Suites?",
+      "intro": "This is very close.",
+      "seabournBetter": [
+        "Spacious oceanfront suites",
+        "Relaxed design",
+        "Large verandas",
+        "Yacht-like atmosphere",
+        "Expedition suites"
+      ],
+      "silverseaBetter": [
+        "Butler service",
+        "Greater suite-category variety",
+        "Travelers who enjoy formal personalized service"
+      ],
+      "note": "If suite service is your top priority, Silversea's butler model is a meaningful differentiator. If you care more about the atmosphere and physical design of the suite, Seabourn deserves a very close look."
+    }
+  },
+  "diningComparison": {
+    "eyebrow": "Culinary Experience",
+    "title": "Seabourn vs. Silversea Dining",
+    "intro": "Both brands take dining seriously.",
+    "seabourn": {
+      "badge": "SEABOURN DINING",
+      "title": "Seabourn Dining",
+      "description": "Seabourn emphasizes restaurant-quality dining and a relaxed approach. Its all-inclusive proposition includes complimentary dining venues and premium beverages. Seabourn's culinary experience is particularly appealing to travelers who enjoy:",
+      "features": [
+        "Fine dining without excessive formality",
+        "Flexible dining",
+        "Premium wines",
+        "Caviar",
+        "Destination-inspired cuisine",
+        "In-suite dining"
+      ]
+    },
+    "silversea": {
+      "badge": "SILVERSEA DINING",
+      "title": "Silversea Dining",
+      "description": "Silversea also places a major emphasis on culinary experiences. Its all-inclusive offering includes food and beverages, while individual ships offer multiple dining concepts. Silversea's culinary philosophy tends to emphasize:",
+      "features": [
+        "Destination-inspired cuisine",
+        "Specialty dining",
+        "Fine wines",
+        "Premium beverages",
+        "In-suite dining",
+        "Culinary experiences ashore"
+      ]
+    },
+    "seabournFoodPrefer": [
+      "Relaxed fine dining",
+      "Caviar",
+      "Flexible dining",
+      "A yacht-like atmosphere"
+    ],
+    "silverseaFoodPrefer": [
+      "A broad destination-oriented culinary program",
+      "Specialty restaurants",
+      "Highly personalized dining through butler service"
+    ],
+    "note": "Both are excellent choices for food-focused travelers."
+  },
+  "serviceComparison": {
+    "eyebrow": "Onboard Service",
+    "title": "Seabourn vs. Silversea Service",
+    "intro": "Service is one of the reasons travelers choose either line. Both operate at the ultra-luxury end of cruising.",
+    "seabournService": [
+      "Warm",
+      "Relaxed",
+      "Personalized",
+      "Less formal"
+    ],
+    "silverseaService": [
+      "More formal",
+      "Highly attentive",
+      "Personalized",
+      "Concierge-oriented"
+    ],
+    "note": "If you want warm, relaxed, yacht-style service, Seabourn may be the better fit. If you want formal, highly structured personalized service, Silversea may have the edge. Neither is a poor choice for service quality — the deciding factor is your preferred style."
+  },
+  "inclusionsComparison": {
+    "eyebrow": "What's Included",
+    "title": "Seabourn vs. Silversea Inclusions",
+    "intro": "Both brands operate with extensive all-inclusive offerings, but the exact inclusions vary by fare, itinerary and ship.",
+    "seabournIncludes": [
+      "Dining",
+      "Premium spirits",
+      "Fine wines",
+      "Champagne",
+      "Wi-Fi",
+      "In-suite dining",
+      "Gratuities",
+      "Entertainment",
+      "Selected excursions or expedition experiences depending on voyage"
+    ],
+    "silverseaIncludes": [
+      "Dining",
+      "Premium beverages",
+      "Wi-Fi",
+      "Butler service",
+      "Gratuities",
+      "Expedition activities on expedition voyages",
+      "Other onboard services"
+    ],
+    "seabournStandsOut": [
+      "Complimentary premium wines and spirits",
+      "Complimentary caviar",
+      "Strong dining program",
+      "Included expedition experiences on applicable voyages",
+      "Yacht-like service"
+    ],
+    "silverseaStandsOut": [
+      "Butler service",
+      "Extensive all-inclusive model",
+      "Expedition inclusions",
+      "Strong destination services"
+    ],
+    "expeditionNote": "Seabourn's expedition ships specifically include a variety of expedition and shore experiences as part of the Inclusive Seabourn Expedition Experience. Silversea's current All-Inclusive Plus offering specifically states that expedition voyages include landings and shore excursions, alongside food, beverages, personalized service, expedition gear and other benefits.",
+    "note": "The better value depends on what you actually use. A traveler who drinks premium spirits and enjoys caviar may find Seabourn's inclusions particularly attractive. A traveler who values daily butler service may find Silversea more compelling."
+  },
+  "shoreExcursions": {
+    "eyebrow": "On Land",
+    "title": "Seabourn vs. Silversea Shore Excursions",
+    "intro": "Both cruise lines offer extensive destination experiences, but the philosophy differs slightly. The best comparison should be made itinerary by itinerary — a particular Seabourn sailing may have a better excursion selection for you than a Silversea sailing, even if the opposite is true elsewhere.",
+    "seabourn": {
+      "badge": "Active & Immersive",
+      "title": "Seabourn Excursions",
+      "description": "Excursions include cultural tours, food and wine, sightseeing, active excursions, Ventures by Seabourn and expedition activities. Ventures by Seabourn is particularly relevant for active travelers, emphasizing nature, adventure, wildlife, hiking, active exploration and unique destination access.",
+      "features": [
+        "Ventures by Seabourn active outings",
+        "Zodiac explorations & kayaking",
+        "Cultural, culinary & wine tours",
+        "Small-group destination access"
+      ]
+    },
+    "silversea": {
+      "badge": "Destination Immersion",
+      "title": "Silversea Excursions",
+      "description": "Silversea places strong emphasis on destination immersion and offers a broad catalog of shore experiences. The difference is less about one company having excursions and the other not — instead, ask which cruise has the better experiences at the destinations you actually want to visit.",
+      "features": [
+        "Extensive worldwide excursion catalog",
+        "Included shore excursions on select fares",
+        "Deep cultural & historical immersion",
+        "Polar landings & expedition outings"
+      ]
+    }
+  },
+  "antarcticaAndExpeditions": {
+    "antarcticaTitle": "Which Is Better for Antarctica?",
+    "antarcticaIntro": "Both can be excellent. For Antarctica, the specific itinerary should be more important than the brand name.",
+    "seabournAntarctica": [
+      "Intimate expedition atmosphere",
+      "Spacious suites",
+      "Zodiacs",
+      "Kayaks",
+      "Strong expedition team",
+      "Relaxed luxury",
+      "All-suite accommodation"
+    ],
+    "silverseaAntarctica": [
+      "A broader selection of expedition ships",
+      "More itinerary choices",
+      "Butler service",
+      "Extensive destination options",
+      "Strong expedition infrastructure"
+    ],
+    "antarcticaKey": "Compare: number of Antarctic days, Peninsula coverage, South Shetland Islands, expedition activities, ship size, suite, price and included experiences.",
+    "expeditionTitle": "Seabourn vs. Silversea Expedition Cruises",
+    "expeditionSubtitle": "Remote Destinations",
+    "expeditionIntro": "This is where the comparison becomes particularly interesting. Both companies have dedicated expedition programs.",
+    "seabournExpeditionFeatures": [
+      "Polar Class 6 standards",
+      "24 Zodiacs",
+      "Kayaks",
+      "Dedicated expedition teams",
+      "Oceanfront suites",
+      "Expedition Lounge",
+      "Remote destination capabilities"
+    ],
+    "silverseaExpeditionDestinations": [
+      "Antarctica",
+      "Arctic",
+      "Galápagos",
+      "Kimberley",
+      "Iceland",
+      "Greenland",
+      "Remote Pacific",
+      "South America"
+    ],
+    "expeditionFleetNote": "Silversea has a larger and more varied expedition operation, with ships designed to combine luxury accommodations with expedition operations.",
+    "matrixTitle": "Seabourn vs. Silversea for Antarctica",
+    "matrixHeaders": ["Category", "Seabourn", "Silversea"],
+    "matrixRows": [
+      ["Expedition ships", "Excellent", "Excellent"],
+      ["Luxury suites", "Excellent", "Excellent"],
+      ["Butler service", "No dedicated butler in every suite", "Yes"],
+      ["Zodiacs", "Yes", "Yes"],
+      ["Kayaking", "Yes", "Yes"],
+      ["Expedition team", "Yes", "Yes"],
+      ["Wildlife", "Excellent", "Excellent"],
+      ["Dining", "Excellent", "Excellent"],
+      ["Overall atmosphere", "Relaxed", "Refined"],
+      ["Itinerary breadth", "Strong", "Very strong"]
+    ]
+  },
+  "travelerTypes": {
+    "eyebrow": "Who It Suits",
+    "title": "Seabourn vs. Silversea by Traveler Type",
+    "subtitle": "MATCHING YOUR TRAVEL STYLE",
+    "intro": "Both lines can work well for couples, solo travelers, families and older travelers. For a honeymoon or anniversary, compare the specific ship and itinerary rather than choosing solely by brand.",
+    "profiles": [
+      {
+        "name": "Couples & Romance",
+        "tagline": "ROMANTIC GETAWAYS",
+        "quote": "Choosing between relaxed romance and traditional elegance.",
+        "recommendation": "Seabourn or Silversea based on atmosphere",
+        "reason": "Seabourn offers relaxed romance, a yacht atmosphere, casual elegance, fine dining, small ships, and personalized service. Silversea offers butler service, formal luxury, destination immersion, extensive itineraries, and a more traditional ultra-luxury atmosphere.",
+        "whyFits": [
+          "Seabourn: Casual elegance, fine dining & intimate social vibe",
+          "Silversea: Butler service & formal luxury atmosphere",
+          "Private veranda suites on both fleets",
+          "Bespoke dining and milestone celebration coordination"
+        ]
+      },
+      {
+        "name": "Solo Travelers",
+        "tagline": "INDEPENDENT LUXURY",
+        "quote": "Intimate ships make social connection effortless.",
+        "recommendation": "Seabourn for intimate mingling, Silversea for structured tables",
+        "reason": "Seabourn's intimate atmosphere makes it easy to interact with fellow passengers in relaxed lounges. Silversea's small-ship environment and hosted dining tables also provide fantastic social opportunities.",
+        "whyFits": [
+          "Seabourn: Easy social interactions & hosted officer tables",
+          "Silversea: Single supplement promotions on select sailings",
+          "Small ship sizes prevent feeling lost in crowds",
+          "Enrichment lectures and shared excursion groups"
+        ]
+      },
+      {
+        "name": "Families & Multigenerational",
+        "tagline": "AFFLUENT FAMILY TRAVEL",
+        "quote": "Expedition and luxury cruising for older children and extended families.",
+        "recommendation": "Silversea for suite layouts, Seabourn for active exploration",
+        "reason": "Seabourn is ideal for older children, multigenerational groups, private family experiences, and expedition-focused travel. Silversea suits families wanting larger suite options, connecting staterooms, butler service, and global expedition destinations.",
+        "whyFits": [
+          "Seabourn: Ventures by Seabourn outdoor adventure & wildlife",
+          "Silversea: Connecting suites & dedicated butler support",
+          "Enrichment programming suitable for teens and adults",
+          "Shared Zodiac outings and private group dining"
+        ]
+      },
+      {
+        "name": "Older & Mature Travelers",
+        "tagline": "TIMELESS COMFORT",
+        "quote": "High-touch personalized assistance and effortless comfort.",
+        "recommendation": "Silversea for butler assistance, Seabourn for easy navigation",
+        "reason": "Seabourn's smaller ships and relaxed environment are easy to navigate and gentle on pacing. Silversea's butler service is particularly useful for travelers who appreciate extra in-suite assistance.",
+        "whyFits": [
+          "Seabourn: Compact ship layouts with short walking distances",
+          "Silversea: In-suite packing, unpacking & dining service",
+          "Elevators serving all passenger decks",
+          "Comprehensive medical centers on all vessels"
+        ]
+      }
+    ]
+  },
+  "onboardLifestyle": {
+    "eyebrow": "Onboard Life",
+    "title": "Dress Code, Entertainment, Wellness & Wi-Fi",
+    "subtitle": "EVERYDAY LUXURY ON BOARD",
+    "intro": "Both have moved away from the extremely formal cruising culture of previous generations, and neither is primarily about big-ship entertainment.",
+    "cards": [
+      {
+        "icon": "Sun",
+        "title": "Dress Code",
+        "description": "Seabourn generally emphasizes elegant, relaxed attire. Silversea also offers a more relaxed approach than traditional formal cruising, although evening expectations can vary by venue and itinerary."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Entertainment",
+        "description": "Neither line is primarily about big-ship entertainment. Instead, expect live music, guest speakers, cultural programming, destination presentations, enrichment and small performances."
+      },
+      {
+        "icon": "Waves",
+        "title": "Spa & Wellness",
+        "description": "Seabourn offers spa and wellness facilities alongside fitness and relaxation spaces. Silversea operates the Otium Spa concept, combining spa treatments, relaxation and wellness."
+      },
+      {
+        "icon": "Sailboat",
+        "title": "Wi-Fi & Connectivity",
+        "description": "Both provide Wi-Fi as part of their current onboard offerings. Seabourn's premium suites can receive unlimited internet packages, while Silversea includes Wi-Fi within its all-inclusive offering."
+      }
+    ],
+    "note": "Travelers should always review the current dress guidelines for their sailing. If wellness is central to your trip, compare the specific ship, because facilities vary. For expedition travel, remember that remote destinations can naturally affect connectivity."
+  },
+  "atmosphereComparison": {
+    "eyebrow": "The Mood Onboard",
+    "title": "Seabourn vs. Silversea Atmosphere",
+    "subtitle": "The Personality of the Cruise Experience",
+    "intro": "This is one of the easiest ways to understand the difference. Neither is objectively better.",
+    "seabourn": {
+      "sub": "Private yacht + luxury resort + relaxed social atmosphere",
+      "items": ["Casual", "Sophisticated", "Intimate", "Relaxed"]
+    },
+    "silversea": {
+      "sub": "Private yacht + European luxury hotel + global expedition",
+      "items": ["Elegant", "Refined", "Personalized", "Destination-focused"]
+    }
+  },
+  "costAndValue": {
+    "eyebrow": "Cost & Value",
+    "title": "Seabourn vs. Silversea Value",
+    "intro": "The biggest mistake is comparing only the headline cruise fare. Instead, compare cruise fare + included services + suite + itinerary + excursion value. A slightly more expensive cruise can actually be better value if it includes experiences you would otherwise purchase separately.",
+    "seabournValue": [
+      "Dining",
+      "Premium beverages",
+      "Fine wines",
+      "Champagne",
+      "Caviar",
+      "Wi-Fi",
+      "Personalized service",
+      "In-suite dining",
+      "Selected expedition experiences"
+    ],
+    "silverseaValue": [
+      "Food",
+      "Beverages",
+      "Wi-Fi",
+      "Butler service",
+      "Gratuities",
+      "Personalized service",
+      "Expedition activities and landings on expedition voyages (All-Inclusive Plus)"
+    ],
+    "note": "Seabourn describes its product as all-inclusive ultra-luxury cruising, while Silversea's all-inclusive offering centers on food, beverages, Wi-Fi and personalized service.",
+    "pricingComparison": {
+      "eyebrow": "Pricing Comparison",
+      "title": "Which Is More Expensive: Seabourn or Silversea?",
+      "intro": "There isn't a reliable universal answer.",
+      "factorsTitle": "Prices depend on:",
+      "factors": [
+        "Ship",
+        "Suite",
+        "Destination",
+        "Sailing date",
+        "Cruise length",
+        "Season",
+        "Demand",
+        "Included benefits"
+      ],
+      "desc": "A Seabourn sailing can be more expensive than a comparable Silversea itinerary in one market and less expensive in another.",
+      "callout": "Compare like-for-like itineraries rather than brand averages."
+    }
+  },
+  "prosAndCons": {
+    "eyebrow": "Weigh It Up",
+    "title": "Seabourn vs. Silversea: Pros and Cons",
+    "seabourn": {
+      "title": "Seabourn Pros & Cons",
+      "prosTitle": "Seabourn Pros",
+      "consTitle": "Seabourn Cons",
+      "pros": [
+        "Yacht-like atmosphere",
+        "Intimate ships",
+        "Oceanfront suites",
+        "Strong dining",
+        "Premium beverages included",
+        "Complimentary caviar",
+        "Personalized service",
+        "Excellent expedition ships",
+        "Strong wildlife experiences"
+      ],
+      "cons": [
+        "Smaller fleet",
+        "Fewer ship choices",
+        "Less formal service if you prefer traditional luxury",
+        "Expedition itineraries are limited to the dedicated expedition ships",
+        "Not designed for travelers seeking big-ship entertainment"
+      ]
+    },
+    "silversea": {
+      "title": "Silversea Pros & Cons",
+      "prosTitle": "Silversea Pros",
+      "consTitle": "Silversea Cons",
+      "pros": [
+        "Butler service in every suite",
+        "Extensive expedition program",
+        "Broad destination coverage",
+        "Strong all-inclusive proposition",
+        "Excellent dining",
+        "Small-ship atmosphere",
+        "Strong destination immersion"
+      ],
+      "cons": [
+        "Can feel more formal",
+        "Large fleet means experiences vary considerably by ship",
+        "The best itinerary can come at a significant premium",
+        "Comparing ships requires more research"
+      ]
+    }
+  },
+  "whoShouldChoose": {
+    "eyebrow": "The Right Fit",
+    "title": "Who Should Choose Seabourn? Who Should Choose Silversea?",
+    "intro": "Seabourn is especially strong for travelers who want luxury without excessive formality. Silversea is particularly compelling for travelers who see the ship as a luxury base for global exploration.",
+    "chooseSeabourn": [
+      "Relaxed luxury",
+      "Yacht-like atmosphere",
+      "Small ships",
+      "Spacious suites",
+      "Excellent dining",
+      "Premium drinks included",
+      "Caviar",
+      "Personalized but understated service",
+      "Luxury expedition cruising"
+    ],
+    "chooseSilversea": [
+      "Butler service",
+      "Global destination coverage",
+      "More expedition choices",
+      "Highly personalized service",
+      "Extensive suite options",
+      "Strong all-inclusive value",
+      "A refined luxury atmosphere"
+    ]
+  },
+  "decisionGuide": {
+    "eyebrow": "Decide in Seconds",
+    "title": "Seabourn vs. Silversea: Which Is Better for You?",
+    "intro": "Use this simple decision guide.",
+    "cards": [
+      {
+        "say": "I want a relaxed, intimate, yacht-like luxury experience.",
+        "label": "Choose",
+        "brand": "Seabourn"
+      },
+      {
+        "say": "I want highly personalized service and the broadest possible destination and expedition choices.",
+        "label": "Choose",
+        "brand": "Silversea"
+      },
+      {
+        "say": "Your priority is atmosphere.",
+        "label": "Choose",
+        "brand": "Seabourn"
+      },
+      {
+        "say": "Your priority is itinerary breadth.",
+        "label": "Choose",
+        "brand": "Silversea"
+      },
+      {
+        "say": "You love relaxed fine dining and premium beverages.",
+        "label": "Choose",
+        "brand": "Seabourn"
+      },
+      {
+        "say": "You particularly value butler service.",
+        "label": "Choose",
+        "brand": "Silversea"
+      }
+    ],
+    "note": "Choose either if you want small-ship luxury, excellent dining and destination-focused travel."
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "bio": "Angela Hughes has explored over 121 countries and spent more than four decades designing luxury travel experiences. She is widely recognized across the travel industry as a leading luxury cruise authority.",
+    "paragraphs": [
+      "Trips & Ships Luxury Travel specializes in luxury travel planning, including luxury cruises, small-ship cruising, expedition voyages and custom global travel.",
+      "With over 40 years of experience navigating the luxury cruise market, Angela Hughes and her team provide unbiased comparisons between Seabourn and Silversea to help travelers select the exact ship, suite, and itinerary matching their style."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is Seabourn or Silversea better?",
+      "answer": "Neither is universally better. Seabourn is particularly appealing for relaxed, yacht-like luxury, while Silversea is especially strong for butler service, destination coverage and expedition options."
+    },
+    {
+      "question": "Is Seabourn more luxurious than Silversea?",
+      "answer": "Both are positioned at the ultra-luxury end of cruising. The difference is primarily style rather than a simple luxury ranking."
+    },
+    {
+      "question": "Does Silversea have better service than Seabourn?",
+      "answer": "Silversea provides butler service in every suite, while Seabourn provides a personal suite host and attendant. Which feels better depends on whether you prefer formalized butler service or more relaxed personalized service."
+    },
+    {
+      "question": "Does Seabourn have butler service?",
+      "answer": "Seabourn provides personal suite hosts and attendants rather than a dedicated butler in every suite."
+    },
+    {
+      "question": "Which has better food, Seabourn or Silversea?",
+      "answer": "Both offer excellent dining. Seabourn is particularly known for its relaxed fine-dining experience, premium wines and spirits and complimentary caviar, while Silversea offers a broad destination-oriented culinary program."
+    },
+    {
+      "question": "Is Seabourn all-inclusive?",
+      "answer": "Seabourn markets its cruises as all-inclusive ultra-luxury experiences, with dining, premium beverages and many onboard services included. Specific inclusions can vary by voyage."
+    },
+    {
+      "question": "Is Silversea all-inclusive?",
+      "answer": "Yes. Silversea's current all-inclusive offering includes food and beverages, Wi-Fi and personalized service, with additional benefits depending on fare and voyage."
+    },
+    {
+      "question": "Which has better suites?",
+      "answer": "Both offer excellent suites. Seabourn emphasizes oceanfront accommodations and many private verandas, while Silversea distinguishes itself with butler service in every suite."
+    },
+    {
+      "question": "Does Seabourn have expedition cruises?",
+      "answer": "Yes. Seabourn operates dedicated expedition ships including Seabourn Venture and Seabourn Pursuit."
+    },
+    {
+      "question": "Does Silversea have expedition cruises?",
+      "answer": "Yes. Silversea operates a substantial expedition program covering destinations such as Antarctica, the Arctic and other remote regions."
+    },
+    {
+      "question": "Which is better for Antarctica: Seabourn or Silversea?",
+      "answer": "Both can be excellent. Compare the actual expedition ship, itinerary, number of Antarctic days, suite, included activities and price rather than choosing solely by brand."
+    },
+    {
+      "question": "Which has better expedition ships?",
+      "answer": "Both have purpose-built expedition ships. Seabourn Venture and Pursuit are particularly focused on an intimate, all-suite luxury expedition experience, while Silversea provides a broader range of expedition ships and itineraries."
+    },
+    {
+      "question": "Does Seabourn include expedition activities?",
+      "answer": "Many expedition experiences are included aboard Venture and Pursuit as part of Seabourn's Inclusive Expedition Experience, although the exact program varies by voyage."
+    },
+    {
+      "question": "Does Silversea include expedition excursions?",
+      "answer": "Silversea's current All-Inclusive Plus expedition fare includes expedition activities and landings. Specific fare conditions should be checked for the sailing being considered."
+    },
+    {
+      "question": "Which is better for couples?",
+      "answer": "Both are excellent for couples. Seabourn may appeal more to couples seeking relaxed yacht-style luxury, while Silversea may suit couples who prioritize butler service and destination variety."
+    },
+    {
+      "question": "Which is better for solo travelers?",
+      "answer": "Both can work well for solo travelers. Compare single supplements, dining arrangements, itinerary and excursion opportunities for the specific voyage."
+    },
+    {
+      "question": "Which is better for older travelers?",
+      "answer": "Both offer excellent comfort and service. Travelers should pay particular attention to mobility requirements if choosing an expedition itinerary."
+    },
+    {
+      "question": "Which is better for families?",
+      "answer": "Neither is primarily a family cruise line, but both can work well for affluent multigenerational groups. Suite configurations, connecting rooms and itinerary activity levels should be evaluated carefully."
+    },
+    {
+      "question": "Is Seabourn or Silversea more expensive?",
+      "answer": "There is no universal winner on price. Compare equivalent ships, suites, itineraries and inclusions because pricing changes significantly by sailing."
+    },
+    {
+      "question": "Should I choose Seabourn or Silversea?",
+      "answer": "Choose Seabourn if you prefer relaxed yacht-like luxury and an intimate atmosphere. Choose Silversea if you prioritize butler service, global destination coverage and a broad expedition program."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Final Verdict: Seabourn vs. Silversea",
+    "subtitle": "Choosing Your Ideal Ultra-Luxury Experience",
+    "paragraphs": [
+      "There is no universal winner between Seabourn and Silversea. Both are excellent ultra-luxury cruise lines, but they appeal to slightly different travelers.",
+      "Seabourn's strongest advantage is its relaxed yacht-like atmosphere. Its oceanfront suites, personalized service, premium beverages, caviar and intimate ships create a distinctive style of luxury. Its Venture and Pursuit expedition ships add a particularly strong option for travelers seeking remote destinations.",
+      "Silversea's strongest advantage is breadth and personalized service. Its butler-in-every-suite model and extensive classic and expedition fleet make it especially attractive to travelers who want global destination coverage and a highly attentive experience."
+    ],
+    "recommendation": "If you're choosing between the two, don't ask only 'Which cruise line is better?' Ask 'Which cruise line is better for the itinerary, ship, suite and experience I want?' For many luxury travelers, it comes down to Seabourn for relaxed yacht-style luxury, or Silversea for butler service and extensive global exploration. For Antarctica or another expedition destination, compare the actual ships and itineraries before choosing the brand."
+  },
+  "centerCta": {
+    "title": "Ready to Plan Your Luxury Cruise?",
+    "description": "Connect with Angela Hughes and the luxury travel specialists at Trips & Ships Luxury Travel for personalized suite recommendations, preferred benefits, and end-to-end itinerary coordination.",
+    "buttonText": "Start Planning Your Luxury Cruise",
+    "buttonLink": "/contact"
+  },
+  "ctas": {
+    "fleetCta": {
+      "eyebrow": "Compare the Fleet",
+      "title": "Find the Perfect Luxury Ship for Your Voyage",
+      "description": "Choosing between Seabourn's yacht-like style and Silversea's extensive destination programs is easier with a custom comparison. Let's design your ideal cruise experience.",
+      "buttonText": "Compare Ships & Fares",
+      "buttonLink": "/contact"
+    },
+    "suiteCta": {
+      "eyebrow": "Luxury Suite Selection",
+      "title": "Customize Your Suite Accommodations",
+      "description": "From dedicated butlers to personal suite hosts, we'll help you secure the ideal luxury suite category, amenities, and layout that suits your travel style.",
+      "buttonText": "Plan Your Luxury Suite",
+      "buttonLink": "/contact"
+    },
+    "inclusionsCta": {
+      "eyebrow": "Ultra-Luxury Inclusions",
+      "title": "Maximize Your Onboard Benefits",
+      "description": "Compare premium wine inclusions, butler options, and fine dining benefits. We'll help you parse the fares to find the most value-rich option for your voyage.",
+      "buttonText": "Compare Inclusions",
+      "buttonLink": "/contact"
+    },
+    "expeditionCta": {
+      "eyebrow": "Polar Expeditions",
+      "title": "Plan Your Antarctic Adventure",
+      "description": "Ready to explore Antarctica? Compare Seabourn and Silversea's expedition programs, landings, Zodiac outings, and luxury itineraries with a specialist.",
+      "buttonText": "Compare Expedition Cruises",
+      "buttonLink": "/contact"
+    },
+    "atmosphereCta": {
+      "eyebrow": "Tailor-Made Cruising",
+      "title": "Design Your Ultimate Yacht Voyage",
+      "description": "Whether you seek a casual, yacht-like atmosphere or refined European elegance, our cruise specialists will align your preferences with the perfect voyage.",
+      "buttonText": "Plan Your Yacht Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

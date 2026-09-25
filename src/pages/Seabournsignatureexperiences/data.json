@@ -1,0 +1,400 @@
+{
+  "hero": {
+    "badge": "SEABOURN SIGNATURE MOMENTS",
+    "title": "Seabourn Signature Experiences",
+    "subtitle": "The Luxury Moments That Set Seabourn Apart",
+    "paragraphs": [
+      "A luxury cruise isn't defined only by its suite, restaurant or itinerary. Sometimes, the most memorable moments are the experiences that could happen only because you're sailing with Seabourn.",
+      "Seabourn is known for creating distinctive experiences that combine its small-ship atmosphere, culinary traditions, destination expertise and relaxed approach to luxury.",
+      "Among the most recognizable are Caviar in the Surf, Marina Day, Caviar on the Ice and Evening at Ephesus.",
+      "These experiences aren't simply additional activities on a cruise schedule. They are designed to turn a day in a destination—or an afternoon at sea—into a memorable occasion.",
+      "This guide explores what makes Seabourn's signature experiences special, what travelers can expect and which experiences may be most appealing to different types of cruisers."
+    ],
+    "primaryCtaText": "Start Planning Your Seabourn Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "FOUR UNFORGETTABLE MOMENTS",
+    "heading": "Seabourn Signature Experiences at a Glance",
+    "paragraphs": [
+      "Seabourn is known for creating distinctive experiences that combine its small-ship atmosphere, culinary traditions, destination expertise and relaxed approach to luxury.",
+      "These signature moments aren't simply additional activities on a cruise schedule—they turn a day in a destination or an afternoon on the water into an unforgettable luxury occasion."
+    ],
+    "placeholderLabel": "Seabourn Signature Moments",
+    "badgeTitle": "Iconic Luxury Moments",
+    "badgeDescription": "Unique signature traditions blending yacht-style elegance, gourmet caviar, and destination immersion.",
+    "highlights": [
+      "Caviar in the Surf on sun-drenched beaches with Champagne",
+      "Retractable Marina Day with direct ocean watersports access",
+      "Caviar on the Ice amidst dramatic polar landscapes",
+      "Exclusive private classical Evening at Ephesus archaeological site"
+    ]
+  },
+  "glanceTable": {
+    "title": "Seabourn Signature Experiences at a Glance",
+    "headers": [
+      "Experience",
+      "What Makes It Special",
+      "Best For"
+    ],
+    "rows": [
+      ["Caviar in the Surf", "Caviar served in a relaxed beach setting with Champagne", "Foodies, couples, beach lovers"],
+      ["Marina Day", "Water-focused experience using the ship's retractable marina platform", "Active travelers, families, water lovers"],
+      ["Caviar on the Ice", "Caviar experience in an icy, remote expedition setting", "Expedition travelers, Antarctica guests"],
+      ["Evening at Ephesus", "Special private evening concert & visit at the ancient site", "History lovers, culture travelers, couples"]
+    ]
+  },
+  "signatureExperiencesCards": {
+    "title": "Signature Experiences in Detail",
+    "subtitle": "FOUR DISTINCTIVE OCCASIONS",
+    "cards": [
+      {
+        "title": "1. Caviar in the Surf",
+        "items": [
+          "Concept: Beach + ocean + Champagne + caviar + Seabourn's relaxed luxury atmosphere",
+          "Setting: Served directly in the surf on sun-soaked tropical beaches",
+          "Contrast: Enjoying iconic luxury caviar in beachwear rather than a formal restaurant",
+          "Highlights: Beach time, chilled Champagne, ocean views, casual socializing, Seabourn service",
+          "Best For: Couples, foodies, beach lovers, luxury travelers, and memorable vacation photographs"
+        ]
+      },
+      {
+        "title": "2. Marina Day",
+        "items": [
+          "Concept: Turns the ship itself and its retractable marina platform into the destination",
+          "Activities: Ocean swimming, kayaking, paddleboarding, and water-based recreation",
+          "Connection: Direct interaction with surrounding waters when conditions permit",
+          "Contrast: Active water immersion versus standard poolside relaxation and bus tours",
+          "Best For: Active travelers, couples, families, water-sports enthusiasts, and experiential guests"
+        ]
+      },
+      {
+        "title": "3. Caviar on the Ice",
+        "items": [
+          "Concept: Remote wilderness + ultra-luxury hospitality in polar environments",
+          "Setting: Served amidst icebergs, glaciers, and dramatic polar landscapes",
+          "Expedition Pairing: Complements Zodiac exploration, wildlife viewing, and ice landings",
+          "Juxtaposition: Refined culinary traditions set against extraordinary frozen wilderness",
+          "Best For: Antarctica travelers, polar expedition cruisers, photographers, foodies, and couples"
+        ]
+      },
+      {
+        "title": "4. Evening at Ephesus",
+        "items": [
+          "Concept: Destination + atmosphere + culture + classical hospitality",
+          "Setting: Ancient Greco-Roman city of Ephesus illuminated after hours",
+          "Cultural Immersion: Private classical performance among ancient columns and history",
+          "Atmosphere: Quiet, evocative evening visit without typical daytime tour crowds",
+          "Best For: History enthusiasts, culture travelers, architecture lovers, couples, and photographers"
+        ]
+      }
+    ]
+  },
+  "compareExcursionsTable": {
+    "title": "Seabourn Signature Experiences vs. Traditional Excursions",
+    "headers": [
+      "Traditional Excursion",
+      "Signature Experience"
+    ],
+    "rows": [
+      ["Primarily sightseeing & bus tours", "Experience-focused & immersive"],
+      ["Often standard daytime scheduling", "Can occur at unique, evocative times"],
+      ["Standard destination tour", "Destination + atmosphere + luxury hospitality"],
+      ["Guide-led group movements", "Event-oriented celebration"],
+      ["Primarily educational", "Emotional, sensory, and experiential"],
+      ["Available across many destinations", "Select signature occasions and itineraries"]
+    ]
+  },
+  "bestForCards": [
+    {
+      "title": "Best for Foodies",
+      "description": "A relaxed combination of beach, caviar and chilled Champagne.",
+      "icon": "Utensils",
+      "bullets": ["Caviar in the Surf", "Caviar on the Ice", "Culinary distinction"]
+    },
+    {
+      "title": "Best for Active Travelers",
+      "description": "A water-focused experience that lets you get closer to the open sea.",
+      "icon": "Waves",
+      "bullets": ["Marina Day", "Ocean kayaking", "Paddleboarding"]
+    },
+    {
+      "title": "Best for Expedition Travelers",
+      "description": "A memorable combination of ultra-luxury and polar surroundings.",
+      "icon": "Snowflake",
+      "bullets": ["Caviar on the Ice", "Antarctica voyages", "Remote landings"]
+    },
+    {
+      "title": "Best for History Lovers",
+      "description": "A special way to experience one of the Mediterranean's greatest archaeological sites.",
+      "icon": "Landmark",
+      "bullets": ["Evening at Ephesus", "Ancient ruins", "Classical evening concert"]
+    }
+  ],
+  "personasCards": [
+    {
+      "title": "Signature Experiences for Couples",
+      "tag": "Couples & Romance",
+      "icon": "Heart",
+      "description": "These experiences can be particularly memorable for couples—enjoying Champagne beside the ocean, sharing caviar on a beach, exploring icy landscapes together, and walking through an ancient archaeological site in the evening. For anniversaries, honeymoons and milestone trips, these experiences can become part of the story you remember long after the cruise ends."
+    },
+    {
+      "title": "Signature Experiences for History Lovers",
+      "tag": "History & Culture",
+      "icon": "Landmark",
+      "description": "If history is your priority, Evening at Ephesus is the obvious standout. However, Seabourn's destination-focused approach extends beyond one experience—connecting travelers with ancient civilizations, archaeological sites, historic cities, cultural landmarks, museums, and local traditions. The best itinerary depends on which historical destinations interest you most."
+    },
+    {
+      "title": "Signature Experiences for Adventure Travelers",
+      "tag": "Active & Expedition",
+      "icon": "Compass",
+      "description": "Adventure travelers may be particularly interested in Marina Day, Caviar on the Ice, expedition itineraries, Zodiac experiences, remote destinations, and wildlife encounters. These experiences demonstrate that luxury cruising doesn't necessarily mean remaining indoors or following a traditional sightseeing itinerary."
+    }
+  ],
+  "includedAndGuaranteed": {
+    "title": "Are Signature Experiences Included and Guaranteed?",
+    "subtitle": "Good to know before planning your Seabourn voyage.",
+    "includedTitle": "Inclusions & Voyage Policies",
+    "included": [
+      {
+        "title": "Ship & Itinerary Dependent",
+        "description": "Availability of individual signature experiences depends on the specific ship, sailing dates, and operating conditions."
+      },
+      {
+        "title": "Inclusive Nature of Events",
+        "description": "Signature events like Caviar in the Surf and Marina Day are complimentary Seabourn traditions on applicable itineraries."
+      },
+      {
+        "title": "Specific Excursion Details",
+        "description": "Some destination evening events may have specific terms; always confirm details for your chosen sailing with your advisor."
+      }
+    ],
+    "extrasTitle": "Operational & Weather Factors",
+    "extras": [
+      {
+        "title": "Weather & Ocean Conditions",
+        "description": "Beach landings and watersports platforms are subject to wind, swell, and local maritime safety standards."
+      },
+      {
+        "title": "Polar Ice & Environmental Safety",
+        "description": "Expedition activities and ice events are coordinated strictly around safe ice conditions and polar weather."
+      },
+      {
+        "title": "Local Authority Approvals",
+        "description": "Destination evening access is subject to local archaeological and heritage site permissions."
+      }
+    ]
+  },
+  "planSteps": [
+    {
+      "title": "Step 1: Identify your desired experience",
+      "description": "Decide whether you're most interested in Caviar in the Surf, Marina Day, Caviar on the Ice, or Evening at Ephesus."
+    },
+    {
+      "title": "Step 2: Find the relevant itinerary",
+      "description": "Not every Seabourn voyage offers every experience. Match your bucket-list event to the right destination."
+    },
+    {
+      "title": "Step 3: Check the ship and fleet class",
+      "description": "Some experiences (like Caviar on the Ice) are associated with expedition vessels (Venture/Pursuit), while Marina Day is offered on ocean ships."
+    },
+    {
+      "title": "Step 4: Consider the season and weather",
+      "description": "Weather significantly influences outdoor beach and water activities; select optimal departure dates."
+    },
+    {
+      "title": "Step 5: Plan your suite around the journey",
+      "description": "If spending extensive time on deck and excursions, your suite veranda and deck priorities may differ from a relaxing sea-day cruise."
+    }
+  ],
+  "tips": {
+    "title": "Tips for Getting the Most From Signature Experiences",
+    "items": [
+      {
+        "title": "1. Prioritize Itinerary First",
+        "description": "The signature experience is important, but the overall itinerary and destinations should still be your primary consideration.",
+        "icon": "Compass",
+        "bulletPoints": [
+          "Ensure ports of call align with your personal travel goals",
+          "Balance signature days with rich destination exploration"
+        ]
+      },
+      {
+        "title": "2. Consider Destination Context",
+        "description": "An experience is most meaningful when it naturally complements the geographical setting you are visiting.",
+        "icon": "Star",
+        "bulletPoints": [
+          "Beach caviar in the Caribbean or Mediterranean",
+          "Ancient ruins under evening skies in Ephesus"
+        ]
+      },
+      {
+        "title": "3. Keep Weather Flexibility in Mind",
+        "description": "Outdoor maritime events are naturally dependent on calm seas and favorable weather conditions.",
+        "icon": "Clock",
+        "bulletPoints": [
+          "Embrace weather adjustments made for guest safety",
+          "Trust the ship captain and expedition team's expertise"
+        ]
+      },
+      {
+        "title": "4. Bring Appropriate Footwear & Gear",
+        "description": "For marina watersports, beach landings, or polar Zodiac excursions, having proper clothing and footwear enhances comfort.",
+        "icon": "Sparkles",
+        "bulletPoints": [
+          "Water shoes for marina and beach landings",
+          "Thermal layers and expedition boots for polar ice"
+        ]
+      },
+      {
+        "title": "5. Consult Your Luxury Travel Advisor",
+        "description": "A dedicated Seabourn specialist can determine which sailings are scheduled to offer specific signature events.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "Verify scheduled events before making final deposit",
+          "Coordinate suite selection and pre/post-cruise extensions"
+        ]
+      }
+    ]
+  },
+  "brandPhilosophy": {
+    "name": "Seabourn's Broader Luxury Philosophy",
+    "bestFor": "Discerning travelers seeking genuine destination immersion",
+    "whatMakesItStandOut": "What makes these experiences compelling is how they fit into Seabourn's broader philosophy. Luxury isn't only about large suites, fine restaurants, premium beverages and personalized service—it's about how you experience a destination. Each signature moment tells a slightly different story about Seabourn's yacht-like hospitality.",
+    "strengths": [
+      "Caviar in the Surf: Turns a tropical beach visit into an unforgettable culinary occasion",
+      "Marina Day: Turns the ship's relationship with the sea into an active, immersive recreation",
+      "Caviar on the Ice: Connects refined gastronomic tradition with dramatic polar exploration",
+      "Evening at Ephesus: Combines ancient classical history with evocative evening atmosphere"
+    ],
+    "considerations": [
+      "Experiences are curated around destination harmony rather than artificial spectacle",
+      "Activities are subject to weather, local conditions, and operational safety"
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn Signature Experiences: Pros and Considerations",
+    "prosTitle": "Advantages",
+    "consTitle": "Considerations",
+    "bestFor": [
+      "Distinctive, iconic luxury experiences difficult to replicate elsewhere",
+      "Strong emotional connection to the destinations visited",
+      "Memorable culinary moments combining caviar and Champagne",
+      "Intimate small-ship yacht atmosphere with intuitive service",
+      "Harmonious blend of refined luxury and outdoor adventure",
+      "Exceptional opportunities for couples, romance, and celebrations",
+      "Unique vacation photography opportunities in dramatic settings",
+      "Particularly appealing for repeat luxury cruisers seeking fresh memories"
+    ],
+    "notBestFor": [
+      "Not every experience is available on every sailing or ship",
+      "Weather and sea conditions can affect outdoor beach and marina events",
+      "Expedition polar activities depend on ice and wildlife safety",
+      "Some destination events may have specific mobility or scheduling requirements",
+      "Exact formats and timings can adjust based on port authorities",
+      "Travelers should verify signature event schedules before booking"
+    ],
+    "bottomNote": "The best luxury voyages combine conventional sightseeing with unforgettable signature occasions."
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel & Ultra-Luxury Cruise Specialist",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority & Leadership",
+    "authoritySubtitle": "Over 40 Years of Luxury Travel Mastery",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "paragraphs": [
+      "Angela Hughes has traveled to more than 121 countries and spent over 40 years in the travel industry guiding discerning travelers across ultra-luxury cruises, polar expeditions, and bespoke global journeys.",
+      "As CEO of Trips & Ships Luxury Travel and founder of Luxury Travel University, Angela provides unparalleled insight into Seabourn signature itineraries, ship selection, suite positioning, and seamless door-to-door voyage coordination."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Seabourn's signature experiences—whether it's caviar on a pristine beach or classical music in Ephesus—are what turn a great cruise into the journey of a lifetime.",
+    "quoteSubtitle": "On Seabourn Signature Moments",
+    "ctaText": "Work With Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What are Seabourn signature experiences?",
+      "answer": "Seabourn signature experiences are distinctive activities and events associated with the Seabourn luxury cruise experience. Examples include Caviar in the Surf, Marina Day, Caviar on the Ice and Evening at Ephesus."
+    },
+    {
+      "question": "What is Caviar in the Surf on Seabourn?",
+      "answer": "Caviar in the Surf is a Seabourn signature experience that combines caviar and Champagne with a relaxed beach setting on applicable itineraries."
+    },
+    {
+      "question": "Is Caviar in the Surf included on Seabourn?",
+      "answer": "Availability and inclusion depend on the specific itinerary and operating conditions. Confirm the details for your sailing before assuming the experience is available."
+    },
+    {
+      "question": "What is Seabourn Marina Day?",
+      "answer": "Marina Day is a water-focused experience that uses the ship's marina platform to give guests opportunities to interact more directly with the surrounding water."
+    },
+    {
+      "question": "What activities are available during Marina Day?",
+      "answer": "Activities can vary by ship, itinerary and conditions, but may include swimming, kayaking, paddleboarding and other water-based recreation."
+    },
+    {
+      "question": "What is Caviar on the Ice?",
+      "answer": "Caviar on the Ice combines Seabourn's caviar tradition with an expedition environment, particularly associated with cold-weather and polar cruising."
+    },
+    {
+      "question": "Is Caviar on the Ice offered on Antarctica cruises?",
+      "answer": "Caviar on the Ice is associated with Seabourn's expedition experience, including polar voyages. Availability should be confirmed for the specific sailing."
+    },
+    {
+      "question": "What is Evening at Ephesus?",
+      "answer": "Evening at Ephesus is a special destination experience centered on the ancient archaeological site of Ephesus, providing an opportunity to experience the destination in an evening setting."
+    },
+    {
+      "question": "Are Seabourn signature experiences excursions?",
+      "answer": "Some are destination-based experiences, while others are onboard or ship-based experiences. They differ from standard shore excursions because they are designed around distinctive moments and settings."
+    },
+    {
+      "question": "Are Seabourn signature experiences guaranteed?",
+      "answer": "No. Outdoor, destination and expedition experiences can be affected by weather, local conditions, safety considerations and operational requirements."
+    },
+    {
+      "question": "Which Seabourn signature experience is best for foodies?",
+      "answer": "Caviar in the Surf and Caviar on the Ice are particularly appealing to food-focused travelers because they combine Seabourn's culinary traditions with unusual settings."
+    },
+    {
+      "question": "Which Seabourn signature experience is best for history lovers?",
+      "answer": "Evening at Ephesus is the natural choice for travelers interested in ancient history, archaeology and Mediterranean culture."
+    }
+  ],
+  "finalVerdict": {
+    "heading": "The Destination—and the Journey—Is the Experience",
+    "paragraphs": [
+      "Seabourn's signature experiences are part of what makes the brand distinctive. A luxury cruise can be beautiful on its own, but memorable travel often comes from moments that feel difficult to replicate elsewhere.",
+      "Whether you're enjoying Caviar in the Surf, spending time on the water during Marina Day, experiencing Caviar on the Ice in a polar environment or visiting Ephesus in the evening, the common theme is the same: Seabourn tries to make the destination—and the journey to it—the experience.",
+      "For travelers who value unique moments, destination immersion and relaxed luxury, these experiences can become the unforgettable highlights of a Seabourn voyage."
+    ]
+  },
+  "ctas": {
+    "midCta": {
+      "title": "Build a Voyage Around Your Favorite Experience",
+      "description": "Whether you're a couple seeking romance, a history enthusiast or an adventure traveler, the right Seabourn itinerary can be built around the experience that matters most to you.",
+      "buttonText": "Speak With a Specialist",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Ready to Experience Seabourn's Signature Moments?",
+      "description": "Start planning your Seabourn journey with Trips & Ships Luxury Travel.",
+      "buttonText": "Start Planning Your Seabourn Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

@@ -2,11 +2,24 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
-// import RoomServiceImg from "../../assets/ExploraJourneysvsSeabourn/Seabourn-Suite.jpg";
-// import FamiliesDiningImg from "../../assets/ExploraJourneysvsSeabourn/SeabournDining.jpg";
-// import SoloDiningImg from "../../assets/ExploraJourneysvsSeabourn/SeabournPlace.jpg";
-// import CouplesDiningImg from "../../assets/ExploraJourneysvsSeabourn/OnBoard_AfternoonTea.jpg";
 import data from "./data.json";
+
+// Dining Images from SeabournDining
+import HeroDiningImg from "../../assets/SeabournDining/seabourn-luxury-cruise-dining-culinary-experience.jpg";
+import TheRestaurantImg from "../../assets/SeabournDining/seabourn-the-restaurant-fine-dining-room.jpg";
+import TheColonnadeImg from "../../assets/SeabournDining/seabourn-the-colonnade-casual-indoor-outdoor-dining.jpg";
+import EarthOceanImg from "../../assets/SeabournDining/seabourn-earth-and-ocean-poolside-global-dining.jpg";
+import SolisImg from "../../assets/SeabournDining/seabourn-solis-mediterranean-specialty-restaurant.jpg";
+import SushiImg from "../../assets/SeabournDining/seabourn-sushi-specialty-japanese-dining.jpg";
+import ThePatioImg from "../../assets/SeabournDining/seabourn-the-patio-poolside-casual-grill.jpg";
+import BalconyDiningImg from "../../assets/SeabournDining/seabourn-suite-private-balcony-veranda-dining.jpg";
+
+// CTA Section Background Images (from WhatIncludedSeabournCruise)
+import CtaSpecialtyDiningImg from "../../assets/WhatIncludedSeabournCruise/seabourn-complimentary-specialty-dining-culinary-venues.jpg";
+import CtaVerandaDiningImg from "../../assets/WhatIncludedSeabournCruise/seabourn-suite-private-dining-veranda-room-service.jpg";
+import CtaDrinksFineWinesImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-included-alcoholic-drinks-fine-wines-cocktails.jpg";
+import CtaGourmetDinnerImg from "../../assets/WhatIncludedSeabournCruise/seabourn-open-seating-gourmet-dinner-restaurant.jpg";
+import CtaPlanningCruiseImg from "../../assets/WhatIncludedSeabournCruise/seabourn-luxury-cruise-ship-ocean-sailing-all-inclusive.jpg";
 
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
@@ -23,8 +36,23 @@ import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
 import EditorialFeatureShowcase from "../../components/ui/EditorialFeatureShowcase";
 import TravelerTypeGrid from "../../components/ui/TravelerTypeGrid";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 const SeabournDiningGuide = () => {
+  const venueImages = [
+    TheRestaurantImg,
+    TheColonnadeImg,
+    EarthOceanImg,
+    SolisImg,
+    SushiImg,
+    ThePatioImg,
+  ];
+
+  const venuesWithImages = data.venues.items.map((item, idx) => ({
+    ...item,
+    image: venueImages[idx] || TheRestaurantImg,
+  }));
+
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
@@ -47,6 +75,7 @@ const SeabournDiningGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.description}
         badge={data.hero.badge}
+        backgroundImage={HeroDiningImg}
         secondaryCtaText={data.hero.ctaText}
         secondaryCtaLink="/contact"
       />
@@ -66,7 +95,7 @@ const SeabournDiningGuide = () => {
         <ThreeColumnGrid
           title={data.venues.title}
           subtitle={data.venues.subtitle}
-          items={data.venues.items}
+          items={venuesWithImages}
         />
 
         {/* Section 4: Seabourn Breakfast, Lunch & Dinner */}
@@ -79,6 +108,7 @@ const SeabournDiningGuide = () => {
         {/* Interlude CTA 1 (Every 4 sections) */}
         <CenterCTA
           theme="dark"
+          image={CtaSpecialtyDiningImg}
           title="Reserve Your Favorite Seabourn Restaurant Early"
           description="Popular specialty venues can fill up fast. Let us help you plan your dining reservations before you set sail."
           buttonText="Start Planning Your Cruise"
@@ -96,13 +126,14 @@ const SeabournDiningGuide = () => {
         <EditorialFeatureShowcase
           title={data.inSuiteAndBalcony.title}
           subtitle={data.inSuiteAndBalcony.subtitle}
-          // image={RoomServiceImg}
+          image={BalconyDiningImg}
           features={data.inSuiteAndBalcony.features}
         />
 
         {/* Interlude CTA 2 (Every 4 sections) */}
         <CenterCTA
           theme="dark"
+          image={CtaVerandaDiningImg}
           title="Want Private Balcony Dining on Seabourn?"
           description="Veranda suites provide the perfect setting for private dining. We can help you select the ideal suite category for your cruise."
           buttonText="Speak to a Cruise Specialist"
@@ -132,7 +163,8 @@ const SeabournDiningGuide = () => {
 
         {/* Interlude CTA 3 (Every 4 sections) */}
         <CenterCTA
-          theme="light"
+          theme="dark"
+          image={CtaDrinksFineWinesImg}
           title="Plan Your Seabourn Culinary Journey"
           description="From dietary accommodations to fine dining preferences, our advisors ensure your Seabourn voyage is fully personalized."
           buttonText="Connect with an Advisor"
@@ -143,10 +175,16 @@ const SeabournDiningGuide = () => {
         <TravelerTypeGrid
           title={data.travelerProfiles.title}
           subtitle={data.travelerProfiles.subtitle}
-          items={data.travelerProfiles.items.map((item, idx) => ({
-            ...item,
-            // image: [FamiliesDiningImg, SoloDiningImg, CouplesDiningImg][idx],
-          }))}
+          items={data.travelerProfiles.items}
+        />
+
+        {/* Video Showcase (Middle of Page) */}
+        <VideoEmbed
+          data={{
+            youtubeId: "7me8VVfJiHI",
+            title: "Experience Seabourn Luxury Dining & Culinary Excellence",
+            description: "Step inside Seabourn's world-class restaurants, open-seating venues, and signature culinary moments with gourmet menus and fine wine pairings."
+          }}
         />
 
         {/* Section 11: Dress Code for Seabourn Dining */}
@@ -183,6 +221,7 @@ const SeabournDiningGuide = () => {
         {/* Interlude CTA 4 (Every 4 sections) */}
         <CenterCTA
           theme="dark"
+          image={CtaGourmetDinnerImg}
           title="Ready to Experience Seabourn Dining?"
           description="Get in touch with Trips & Ships for expert cruise guidance, special promotions, and complimentary booking support."
           buttonText="Start Planning Now"
@@ -200,7 +239,16 @@ const SeabournDiningGuide = () => {
         />
 
         {/* Section 17: Angela Hughes Authority Box */}
-        <ExpertCredentials image={AboutImage} />
+        <ExpertCredentials
+          image={AboutImage}
+          title="Seabourn Ultra-Luxury Cruise Specialist & CEO, Trips & Ships Luxury Travel"
+          badge="SEABOURN CRUISE SPECIALIST"
+          experienceBadge="40+ YEARS EXPERIENCE"
+          authorityBoxTitle="ANGELA HUGHES LUXURY AUTHORITY"
+          authoritySubtitle="Worldwide Luxury Cruise, Culinary & Dining Specialist"
+          ctaText="Consult With Angela Hughes"
+          ctaLink="/contact"
+        />
 
         {/* Section 18: Frequently Asked Questions */}
         <FAQAccordion data={data.faq} />
@@ -210,7 +258,8 @@ const SeabournDiningGuide = () => {
 
         {/* Final CTA */}
         <CenterCTA
-          theme="light"
+          theme="dark"
+          image={CtaPlanningCruiseImg}
           title="Start Planning Your Seabourn Cruise"
           description="Experience world-class culinary luxury with open seating, fine wines, and personalized service."
           buttonText="Plan Your Cruise With Angela"

@@ -1,0 +1,507 @@
+{
+  "hero": {
+    "badge": "PURPOSE-BUILT LUXURY EXPEDITION",
+    "title": "Seabourn Venture Ship Guide",
+    "subtitle": "Suites, Dining, Zodiacs, Submarine & Remote Expeditions",
+    "paragraphs": [
+      "Seabourn Venture is Seabourn's purpose-built luxury expedition ship, designed for travelers who want to explore remote destinations without giving up the comfort, service and dining associated with an ultra-luxury cruise.",
+      "The ship combines a relatively intimate passenger capacity with serious expedition capabilities, including Zodiacs, kayaks, expedition equipment and a submarine. That combination is what makes Seabourn Venture different from Seabourn's traditional ocean ships.",
+      "Instead of choosing between luxury and adventure, guests can experience both on the same voyage. This guide covers the Seabourn Venture suites, dining, expedition capabilities, Zodiacs, submarine, onboard experience and destinations to help you decide whether Venture is the right Seabourn ship for your next expedition."
+    ],
+    "primaryCtaText": "Start Planning Your Seabourn Venture Voyage",
+    "primaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "THE EXPEDITION DIFFERENCE",
+    "heading": "What Is Seabourn Venture & How Does It Differ?",
+    "paragraphs": [
+      "Seabourn Venture is a purpose-built expedition ship created for Seabourn's growing expedition program. The ship combines the characteristics of a luxury yacht with the capabilities required to operate in challenging polar and remote environments.",
+      "The biggest difference from traditional Seabourn ocean ships is that Venture is designed specifically for expedition travel. While ocean ships cruise between established ports, Venture adds 24 Zodiacs, kayaks, submarine exploration, a 19-member expedition team, and PC6 Polar Class capabilities.",
+      "The result is a voyage that feels adventurous and exploratory while maintaining Seabourn's highest luxury standards."
+    ],
+    "placeholderLabel": "Seabourn Venture Expedition Vessel",
+    "badgeTitle": "Luxury Meets Adventure",
+    "badgeDescription": "Purpose-built PC6 polar class vessel accommodating approximately 264 guests.",
+    "highlights": [
+      "PC6 Polar Class hull engineered for Antarctica and Arctic waters",
+      "Fleet of 24 Zodiacs and sea kayaks for immersive shore landings",
+      "Two custom six-person submarines for deep underwater exploration",
+      "19-member expert expedition team across wildlife, science, and history"
+    ]
+  },
+  "glanceTable": {
+    "title": "Seabourn Venture at a Glance",
+    "headers": [
+      "Ship Feature",
+      "Details"
+    ],
+    "rows": [
+      ["Ship type", "Luxury expedition ship"],
+      ["Guests", "Approximately 264"],
+      ["Entered service", "2022"],
+      ["Polar Class", "PC6"],
+      ["Length", "Approximately 557 feet"],
+      ["Width", "Approximately 78 feet"],
+      ["Zodiacs", "24"],
+      ["Expedition team", "Up to 19 members"],
+      ["Kayaks", "Available for expedition activities"],
+      ["Submarine", "Available for selected expedition experiences"],
+      ["Primary purpose", "Luxury expedition cruising"],
+      ["Best for", "Antarctica, Arctic and remote destinations"],
+      ["Atmosphere", "Intimate, sophisticated and adventurous"]
+    ]
+  },
+  "capabilitiesCards": [
+    {
+      "title": "Zodiacs (Fleet of 24)",
+      "description": "The ship carries 24 Zodiacs for shore landings, wildlife viewing, scenic cruising, photography, and coastal exploration.",
+      "icon": "Anchor",
+      "bullets": ["Shore landings", "Wildlife viewing", "Coastal exploration"]
+    },
+    {
+      "title": "Kayaks & Watersports",
+      "description": "Kayaking provides a quieter, more personal way to paddle near ice, coastlines, wildlife habitats, remote islands, and sheltered bays.",
+      "icon": "Waves",
+      "bullets": ["Paddle near ice", "Sheltered bays", "Immersive silence"]
+    },
+    {
+      "title": "Submarine Exploration",
+      "description": "Seabourn Venture carries two custom submarines for selected underwater exploration of marine life, sea beds, and submerged landscapes.",
+      "icon": "Compass",
+      "bullets": ["Marine life viewing", "Geological features", "Deep sea exploration"]
+    },
+    {
+      "title": "Dedicated Expedition Team",
+      "description": "Up to 19 specialists in marine biology, wildlife, history, photography, and geology provide lectures, guidance, and interpretation.",
+      "icon": "Users",
+      "bullets": ["Expert lecturers", "Guided Zodiac tours", "Daily enrichment"]
+    },
+    {
+      "title": "PC6 Polar Class Rating",
+      "description": "Engineered with a reinforced hull and advanced navigation to operate safely in summer and autumn polar ice environments.",
+      "icon": "Snowflake",
+      "bullets": ["Polar ice capability", "Advanced dynamic positioning", "Stabilized comfort"]
+    }
+  ],
+  "zodiacsAndSubmarine": {
+    "title": "Zodiacs & Submarine Exploration",
+    "subtitle": "REACHING UNCHARTED TERRITORY",
+    "cards": [
+      {
+        "title": "Seabourn Venture Zodiacs",
+        "items": [
+          "Essential Expedition Fleet: 24 Zodiacs transport guests to remote beaches, ice formations, and small landing sites",
+          "What Zodiacs Are Used For: Shore landings, wildlife viewing, scenic cruising, photography, and coastal exploration",
+          "Wildlife Proximity: In Antarctica, Zodiacs transport guests directly to penguin colonies and seal habitats",
+          "Dynamic Scheduling: Landings adjust flexibly to prevailing weather, sea conditions, and unexpected wildlife sightings"
+        ]
+      },
+      {
+        "title": "Seabourn Venture Submarine",
+        "items": [
+          "Beneath the Surface: Two custom submarines offer an extraordinary perspective inaccessible on conventional cruises",
+          "What You Can See: Marine life, underwater rock formations, seabed landscapes, kelp forests, and geological features",
+          "Unique Polar Dives: Experience icebergs and glacial underwater walls in Antarctica and the Arctic",
+          "Operational Factors: Submarine dives are subject to local water visibility, currents, and safety requirements"
+        ]
+      }
+    ]
+  },
+  "kayakingAndExpeditionTeam": {
+    "title": "Kayaking & Expedition Team Enrichment",
+    "subtitle": "EXPERT INSIGHT & ACTIVE DISCOVERY",
+    "cards": [
+      {
+        "title": "Seabourn Venture Kayaking",
+        "items": [
+          "A Quieter Pace: Provides a serene, immersive alternative to motorized Zodiac travel",
+          "Where Guests Paddle: Near icebergs, dramatic coastlines, wildlife habitats, remote islands, and sheltered bays",
+          "Safety & Support: Led by experienced kayak guides with full safety and thermal gear provided",
+          "Participation: Subject to favorable weather, calm waters, and guest fitness/experience requirements"
+        ]
+      },
+      {
+        "title": "Expedition Team & Lectures",
+        "items": [
+          "Specialist Team: Up to 19 experts across marine biology, wildlife, history, geography, photography, and geology",
+          "Enrichment Topics: Lectures on conservation, polar science, marine ecosystems, and destination history",
+          "Active Field Interpretation: Scientists accompany Zodiac tours and landings to explain what you see in real time",
+          "Beyond Sightseeing: Transforms every excursion into a meaningful educational expedition"
+        ]
+      }
+    ]
+  },
+  "suitesSection": {
+    "title": "Seabourn Venture Accommodations",
+    "items": [
+      {
+        "title": "All-Suite Accommodations & Amenities",
+        "description": "Like all Seabourn vessels, Venture is an all-suite luxury ship. Every stateroom features ocean views, a private veranda, comfortable living and sleeping areas, luxurious bathrooms with separate tub/shower, walk-in closets, an in-suite bar, and dedicated suite host service.",
+        "icon": "Home",
+        "bulletPoints": [
+          "Private furnished veranda with heated wardrobe for expedition gear",
+          "Spacious living area, premium bedding, and personalized in-suite bar",
+          "Luxury bathroom with separate shower, soaking tub, and designer bath amenities",
+          "Intuitive suite host service ensuring effortless daily comfort"
+        ]
+      },
+      {
+        "title": "Suite Categories & Selection Strategy",
+        "description": "Guests can select from Veranda Suites, Penthouse Suites, Panorama Veranda Suites, and grand top-tier Owner's and Signature Suites. When selecting an expedition suite, compare deck location, forward vs aft positioning, and proximity to observation decks rather than relying solely on category names.",
+        "icon": "Star",
+        "bulletPoints": [
+          "For value: Standard Veranda Suites offer exceptional comfort and private balconies",
+          "For more space: Penthouse-level accommodations offer expansive living rooms",
+          "For maximum luxury: Owner's and Signature Suites feature expansive panoramic verandas",
+          "For wildlife viewing: Choose midship or forward suites with unobstructed outdoor sightlines"
+        ]
+      }
+    ]
+  },
+  "diningCards": [
+    {
+      "title": "The Restaurant",
+      "description": "The main fine-dining venue offering multi-course gourmet menus, table service, fine wines, destination-inspired dishes, and exquisite desserts.",
+      "icon": "Utensils",
+      "bullets": ["Multi-course fine dining", "Sommelier wine pairings", "Refined evening atmosphere"]
+    },
+    {
+      "title": "The Colonnade",
+      "description": "A relaxed alternative offering indoor and outdoor seating for breakfast, lunch, and themed regional dinners after active expedition mornings.",
+      "icon": "Sun",
+      "bullets": ["Indoor/outdoor dining", "Regional culinary themes", "Casual buffet & à la carte"]
+    },
+    {
+      "title": "Earth & Ocean",
+      "description": "A sophisticated poolside evening venue serving globally inspired cuisine in a relaxed, contemporary outdoor setting.",
+      "icon": "Waves",
+      "bullets": ["Global street food flavors", "Casual evening ambiance", "Fresh seafood & grill"]
+    },
+    {
+      "title": "In-Suite Dining",
+      "description": "Course-by-course dining served in your suite or private veranda—ideal after an exhilarating day of Zodiac landings and polar exploration.",
+      "icon": "Home",
+      "bullets": ["24-hour room service", "Course-by-course dinner", "Veranda dining with views"]
+    },
+    {
+      "title": "All-Inclusive Dining & Beverages",
+      "description": "All dining venues, premium spirits, fine wines, Champagne, and specialty coffees are fully included throughout your voyage.",
+      "icon": "ShieldCheck",
+      "bullets": ["Zero surcharge specialty dining", "Complimentary fine wines & spirits", "Caviar service included"]
+    }
+  ],
+  "destinationsSection": {
+    "title": "Seabourn Venture Destinations",
+    "subtitle": "Seabourn Venture is designed for remote and expedition destinations across polar and coastal frontiers.",
+    "tabs": [
+      {
+        "title": "Antarctica",
+        "shortDesc": "Penguin colonies, tidewater glaciers, and polar Zodiac exploration",
+        "category": "Featured Polar Region",
+        "highlight": "Seabourn Venture Antarctica Cruises",
+        "description": "Antarctica is one of the most natural destinations for Seabourn Venture. The ship's combination of polar capability, Zodiacs, kayaks, expedition team, submarine, luxury suites and fine dining creates an experience designed around the Antarctic environment. Wildlife sightings can include penguins, seals, whales, seabirds, icebergs, glaciers, and dramatic coastal landscapes. (Wildlife encounters are never guaranteed)."
+      },
+      {
+        "title": "The Arctic",
+        "shortDesc": "Dramatic coastlines, pack ice, polar bears, and historic exploration sites",
+        "category": "High Arctic Exploration",
+        "highlight": "Seabourn Venture in the Arctic",
+        "description": "The Arctic offers a very different expedition experience. Depending on the itinerary, travelers may encounter dramatic coastlines, Arctic wildlife like polar bears and walruses, remote settlements, pack ice, fjords, glaciers and historic exploration sites. The Arctic can be particularly appealing to travelers who have already experienced Antarctica and want a different polar environment."
+      },
+      {
+        "title": "Greenland",
+        "shortDesc": "Ilulissat icefjords, Inuit heritage, and remote volcanic coastlines",
+        "category": "Pristine Fjords & Culture",
+        "highlight": "Seabourn Venture and Greenland",
+        "description": "Greenland can combine spectacular scenery with cultural and historical experiences. The expedition approach allows guests to experience locations that may be difficult to reach through conventional tourism, including glaciers, massive icebergs, fjords, remote communities, wildlife, and local Inuit culture."
+      }
+    ]
+  },
+  "atmosphereAndPacking": {
+    "title": "Onboard Atmosphere & Packing Essentials",
+    "subtitle": "Sophisticated relaxation meets rugged polar gear.",
+    "includedTitle": "What to Pack for Expedition Days",
+    "included": [
+      {
+        "title": "Waterproof Outerwear & Pants",
+        "description": "Waterproof, windproof shell jackets and pants essential for wet Zodiac landings and ocean spray."
+      },
+      {
+        "title": "Thermal Base & Mid-Layers",
+        "description": "Merino wool or synthetic thermal underwear, fleece jackets, warm gloves, neck gaiters, and beanies."
+      },
+      {
+        "title": "Expedition Boots & Eyewear",
+        "description": "High-traction waterproof boots for landings, plus UV-blocking polarized sunglasses for snow glare."
+      }
+    ],
+    "extrasTitle": "Onboard Dress Code & Atmosphere",
+    "extras": [
+      {
+        "title": "Smart-Casual Evening Attire",
+        "description": "No formal tuxedos or gowns required—the onboard vibe is sophisticated, relaxed, and elegant."
+      },
+      {
+        "title": "Comfortable Daytime Clothing",
+        "description": "Casual layers, fleece vests, and comfortable walking shoes for relaxing in lounges between excursions."
+      },
+      {
+        "title": "Social & Lecture Spaces",
+        "description": "The Discovery Center, Bow Lounge, and Observation Bar provide cozy gathering spots to discuss the day's sightings."
+      }
+    ]
+  },
+  "travelerTypes": [
+    {
+      "title": "Couples & Honeymooners",
+      "tag": "Couples & Romance",
+      "icon": "Heart",
+      "description": "Remote polar destinations, luxurious suites with private verandas, champagne in the Bow Lounge, fine dining, and dramatic landscapes create an unforgettable romantic journey."
+    },
+    {
+      "title": "Solo Adventure Travelers",
+      "tag": "Solo Explorers",
+      "icon": "Compass",
+      "description": "With just ~264 guests, shared Zodiac excursions and engaging scientist lectures foster an intimate, welcoming community that makes meeting fellow travelers effortless."
+    },
+    {
+      "title": "Multigenerational Families",
+      "tag": "Family Adventures",
+      "icon": "Users",
+      "description": "An inspiring educational experience for families with adult children or adventurous teens eager to see wildlife, explore glaciers, and learn polar science firsthand."
+    }
+  ],
+  "shipComparisonTable": {
+    "title": "Seabourn Venture vs. Traditional Seabourn Ships",
+    "headers": [
+      "Feature",
+      "Seabourn Venture",
+      "Traditional Seabourn Ocean Ship"
+    ],
+    "rows": [
+      ["Primary purpose", "Luxury expedition cruising", "Luxury ocean cruising"],
+      ["Zodiacs fleet", "24 Zodiacs onboard", "No expedition fleet"],
+      ["Kayaks program", "Yes, guided polar kayaking", "Not a core feature"],
+      ["Submarines", "Two custom 6-person subs", "No"],
+      ["Expedition team", "19 dedicated specialists", "Standard onboard enrichment"],
+      ["Polar destinations", "Antarctica & Arctic focus", "Limited seasonal voyages"],
+      ["Remote landings", "Yes, wet/dry remote landings", "Standard cruise port docks"],
+      ["Luxury suites", "All-suite with verandas", "All-suite with verandas"],
+      ["Fine dining", "Multiple all-inclusive venues", "Multiple all-inclusive venues"],
+      ["Small-ship atmosphere", "Intimate (~264 guests)", "Intimate (458–600 guests)"]
+    ]
+  },
+  "ventureVsOthersBrand": {
+    "name": "Seabourn Venture vs. Other Expedition Vessels",
+    "bestFor": "Travelers who refuse to compromise between rugged adventure and 5-star luxury",
+    "whatMakesItStandOut": "Some expedition ships prioritize adventure with spartan accommodations; others offer luxury but lack serious expedition equipment. Seabourn Venture combines PC6 polar engineering, Zodiacs, kayaks, and submarines with all-suite verandas, fine dining, and intuitive service.",
+    "strengths": [
+      "All-Suite Comfort: Spacious suites with private verandas, heated wardrobes, and walk-in closets",
+      "Unrivaled Exploration: 24 Zodiacs, submarines, and kayaks for all-guest participation",
+      "Gastronomic Excellence: Gourmet dining and fine wines included after rugged polar landings",
+      "Intimate Capacity: ~264 guests ensures maximum landing time under IAATO regulations"
+    ],
+    "considerations": [
+      "Expedition voyages carry a premium price point reflecting advanced polar logistics",
+      "Itineraries emphasize remote nature rather than large-ship entertainment or shopping"
+    ]
+  },
+  "prosCons": {
+    "title": "Pros and Cons of Seabourn Venture",
+    "prosTitle": "Pros",
+    "consTitle": "Cons",
+    "bestFor": [
+      "Purpose-built PC6 luxury expedition ship with small passenger capacity (~264 guests)",
+      "24 Zodiacs, guided sea kayaks, and two custom submarines onboard",
+      "Dedicated 19-member expert expedition team providing lectures and field guidance",
+      "All-suite accommodations with private verandas and heated gear drying wardrobes",
+      "All-inclusive fine dining, premium wines, Champagne, and intuitive suite host service",
+      "Exceptional access to remote Antarctica, Arctic, Greenland, and Iceland locations"
+    ],
+    "notBestFor": [
+      "Expedition cruise pricing reflects significant operational and equipment investment",
+      "Outdoor activities and landings depend strictly on weather, ice, and sea conditions",
+      "Wildlife sightings can never be guaranteed due to natural animal migrations",
+      "Not designed for travelers seeking Broadway revues, casinos, or large resort pools",
+      "Remote polar embarkation ports require longer flight connections and travel planning"
+    ],
+    "bottomNote": "Venture is ideal for travelers who want to explore the world's most remote frontiers without sacrificing 5-star luxury."
+  },
+  "whoShouldSailProsCons": {
+    "title": "Who Should (and Should Not) Choose Seabourn Venture",
+    "prosTitle": "An Excellent Match For",
+    "consTitle": "Not The Right Fit For",
+    "bestFor": [
+      "Luxury adventure travelers seeking remote polar frontiers",
+      "Antarctica and Arctic explorers wanting Zodiac and kayak access",
+      "Wildlife enthusiasts, photographers, and nature lovers",
+      "Couples celebrating once-in-a-lifetime milestone trips",
+      "Expedition newcomers who want an ultra-comfortable first expedition",
+      "Multigenerational families wanting meaningful shared discoveries"
+    ],
+    "notBestFor": [
+      "Travelers wanting mega-ship amenities (large pools, casinos, nightclubs)",
+      "Guests looking for dozens of specialty restaurants and shopping malls",
+      "Cruisers who prefer warm-weather lounging over active outdoor exploration",
+      "Travelers seeking heavily structured, traditional shore sightseeing bus tours"
+    ],
+    "bottomNote": "If you prefer relaxing by a pool in the Mediterranean over traveling by Zodiac in Antarctica, traditional Seabourn ocean ships are a better fit."
+  },
+  "bookingTips": [
+    {
+      "title": "Step 1: Choose the destination first",
+      "description": "Start with where you want to go—Antarctica, the Arctic, or Greenland—rather than picking only by ship."
+    },
+    {
+      "title": "Step 2: Consider the polar season",
+      "description": "Polar destinations have short seasonal windows (Antarctica Nov–Mar; Arctic Jun–Aug); book well in advance."
+    },
+    {
+      "title": "Step 3: Compare itineraries carefully",
+      "description": "A 10-day Antarctic Peninsula voyage differs significantly from a 21-day itinerary including South Georgia and Falklands."
+    },
+    {
+      "title": "Step 4: Choose your suite strategically",
+      "description": "A private veranda provides private wildlife viewing; midship suites offer greater stability in open seas."
+    },
+    {
+      "title": "Step 5: Pack for the destination",
+      "description": "Prioritize high-performance waterproof and thermal layers over formal evening wear."
+    },
+    {
+      "title": "Step 6: Embrace expedition flexibility",
+      "description": "Weather and ice dictate daily landing sites—unpredictability and spontaneous wildlife encounters are part of the thrill."
+    }
+  ],
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel & Polar Expedition Specialist",
+    "badge": "LUXURY EXPEDITION EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority & Leadership",
+    "authoritySubtitle": "Over 40 Years of Luxury Travel Mastery",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "paragraphs": [
+      "Angela Hughes has traveled to more than 121 countries and spent over 40 years in the travel industry guiding discerning travelers across ultra-luxury cruises, polar expeditions, and bespoke global journeys.",
+      "As CEO of Trips & Ships Luxury Travel and founder of Luxury Travel University, Angela provides unparalleled insight into Seabourn Venture suite selection, polar timing, IAATO regulations, and seamless expedition planning."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Seabourn Venture represents the golden age of expedition cruising: rugged polar exploration by day, followed by caviar, fine wine, and a warm veranda suite by night.",
+    "quoteSubtitle": "On Seabourn Venture Exploration",
+    "ctaText": "Work With Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is Seabourn Venture?",
+      "answer": "Seabourn Venture is a purpose-built luxury expedition ship designed for remote destinations, including polar regions. It combines expedition equipment with Seabourn's all-suite luxury experience."
+    },
+    {
+      "question": "How many guests can Seabourn Venture accommodate?",
+      "answer": "Seabourn Venture accommodates approximately 264 guests."
+    },
+    {
+      "question": "When did Seabourn Venture enter service?",
+      "answer": "Seabourn Venture entered service in 2022."
+    },
+    {
+      "question": "Is Seabourn Venture an expedition ship?",
+      "answer": "Yes. Venture is specifically designed as a luxury expedition ship."
+    },
+    {
+      "question": "Does Seabourn Venture have Zodiacs?",
+      "answer": "Yes. The ship carries 24 Zodiacs for expedition activities, landings and exploration."
+    },
+    {
+      "question": "Does Seabourn Venture have a submarine?",
+      "answer": "Yes. Seabourn Venture has submarine capability for selected expedition experiences."
+    },
+    {
+      "question": "Does Seabourn Venture offer kayaking?",
+      "answer": "Yes. Kayaking is available on applicable expedition voyages, subject to conditions and safety requirements."
+    },
+    {
+      "question": "Does Seabourn Venture go to Antarctica?",
+      "answer": "Yes. Antarctica is one of the ship's key expedition destinations."
+    },
+    {
+      "question": "Does Seabourn Venture go to the Arctic?",
+      "answer": "Yes. Selected itineraries explore Arctic destinations and regions."
+    },
+    {
+      "question": "Are Seabourn Venture suites all-suite accommodations?",
+      "answer": "Yes. Venture is an all-suite ship."
+    },
+    {
+      "question": "Do Seabourn Venture suites have balconies?",
+      "answer": "Many suites feature private verandas. The exact configuration depends on the suite category."
+    },
+    {
+      "question": "Is food included on Seabourn Venture?",
+      "answer": "Yes. Dining is included as part of Seabourn's all-inclusive cruise experience."
+    },
+    {
+      "question": "What restaurants are on Seabourn Venture?",
+      "answer": "Dining options can include The Restaurant, The Colonnade, Earth & Ocean and in-suite dining, with exact offerings subject to the ship and voyage."
+    },
+    {
+      "question": "Is Seabourn Venture good for first-time expedition cruisers?",
+      "answer": "Yes. Venture can be a strong option for travelers who want to experience expedition cruising without giving up luxury accommodations, fine dining and personalized service."
+    },
+    {
+      "question": "Is Seabourn Venture good for Antarctica?",
+      "answer": "Yes. Its expedition equipment, polar capability, Zodiacs, expedition team and luxury accommodations make it particularly well suited to Antarctica."
+    },
+    {
+      "question": "What should I pack for Seabourn Venture?",
+      "answer": "Pack warm, waterproof layers and appropriate expedition footwear for outdoor activities. Also bring smart-casual clothing for time onboard."
+    },
+    {
+      "question": "Are Seabourn Venture expedition activities guaranteed?",
+      "answer": "No. Activities depend on weather, sea conditions, wildlife, local regulations and operational considerations."
+    },
+    {
+      "question": "Is Seabourn Venture worth the money?",
+      "answer": "For travelers who prioritize luxury, remote destinations and expedition experiences, Venture can offer strong value. It is less suitable for travelers who primarily want a large resort-style cruise ship."
+    }
+  ],
+  "finalVerdict": {
+    "heading": "Is Seabourn Venture a Good Expedition Ship?",
+    "paragraphs": [
+      "Seabourn Venture is one of the strongest choices for travelers who want to combine ultra-luxury cruising with genuine expedition travel. Its small size, expedition equipment, Zodiacs, kayaks, submarine capability and dedicated expedition team make it significantly different from a traditional luxury cruise ship.",
+      "At the same time, guests return from the day's adventures to spacious suites, refined dining, premium beverages and Seabourn's personalized service. That combination is the real appeal. Seabourn Venture is not simply a luxury ship that happens to visit remote destinations — it is a luxury expedition ship designed around the idea of exploring them.",
+      "Choose Seabourn Venture if your priority is exploring Antarctica, the Arctic or other remote destinations without sacrificing spacious suites, fine dining and personalized service."
+    ]
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Ready to Explore Antarctica or the Arctic?",
+      "description": "Let's compare Seabourn Venture departure dates, suite categories and expedition itineraries to find the right voyage for you.",
+      "buttonText": "Plan My Expedition",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Find Your Ideal Venture Suite",
+      "description": "From value-focused veranda suites to the ship's largest premium categories, let us help you choose the right suite for your expedition.",
+      "buttonText": "Explore Suite Availability",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Venture Voyage",
+      "description": "Get expert guidance on Seabourn Venture suite selection, departure dates, and exclusive amenities from our expedition cruise specialists.",
+      "buttonText": "Start Planning Your Voyage",
+      "buttonLink": "/contact"
+    }
+  }
+}
