@@ -1,0 +1,706 @@
+{
+  "hero": {
+    "title": "Seabourn Quest Ship Guide",
+    "subtitle": "Seabourn Quest is one of Seabourn's intimate luxury ocean ships, offering a more personal cruising experience than the large vessels operated by mainstream cruise lines.",
+    "paragraphs": [
+      "With its relatively small guest capacity, all-suite accommodations, fine dining and personalized service, Quest is designed for travelers who prefer intimacy, relaxed luxury and destination-focused travel.",
+      "The ship is particularly interesting for travelers considering longer voyages and World Cruises, where the comfort of the ship becomes especially important because it serves as your home for an extended period.",
+      "This guide covers the Seabourn Quest ship experience, suites, restaurants, amenities, itineraries, World Cruises, pros and cons and who the ship is best suited for."
+    ],
+    "ctaText": "Start Planning Your Seabourn Quest Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Quest at a Glance",
+    "subtitle": "QUICK OVERVIEW",
+    "caption": "Note: Exact itineraries, World Cruise schedules, dining operations and onboard offerings can change by sailing.",
+    "headers": ["Feature", "Seabourn Quest"],
+    "rows": [
+      ["Ship type", "Luxury ocean cruise ship"],
+      ["Ship style", "Intimate, all-suite luxury"],
+      ["Passenger capacity", "Approximately 458 guests"],
+      ["Atmosphere", "Quiet, elegant and personalized"],
+      ["Accommodation", "All-suite"],
+      ["Dining", "Multiple dining venues"],
+      ["Private verandas", "Available in selected suite categories"],
+      ["Pool", "Yes"],
+      ["Spa", "Yes"],
+      ["Fitness", "Yes"],
+      ["Lounges", "Multiple"],
+      ["Entertainment", "Live music, performances and enrichment"],
+      ["Long voyages", "Yes"],
+      ["World Cruises", "Yes, on selected schedules"],
+      ["Best for", "Couples, solo travelers, experienced cruisers and long-voyage travelers"]
+    ]
+  },
+  "whatIsSection": {
+    "title": "What Is Seabourn Quest?",
+    "subtitle": "THE SHORT VERSION",
+    "paragraphs": [
+      "Seabourn Quest is an intimate luxury ocean cruise ship built around the idea that luxury cruising doesn't need to mean a huge ship.",
+      "With approximately 458 guests, Quest provides a considerably smaller environment than mainstream cruise ships."
+    ],
+    "highlights": [
+      "Personalized service",
+      "Spacious suites",
+      "Fine dining",
+      "Relaxed public areas",
+      "Destination exploration",
+      "Flexible onboard experiences",
+      "A strong sense of community"
+    ],
+    "conclusion": "For travelers who find large cruise ships overwhelming, Quest offers a different approach."
+  },
+  "whyChooseChecklistCards": [
+    {
+      "title": "Intimate Atmosphere & All-Suite Accommodations",
+      "items": [
+        "Approximately 458 guests providing a considerably smaller, more personal environment",
+        "All-suite accommodations with expansive living areas and luxury appointments",
+        "Private verandas available in selected suite categories for scenic ocean views",
+        "Dedicated suite host service catering to every in-suite comfort and preference"
+      ]
+    },
+    {
+      "title": "Personalized Service & Flexible Fine Dining",
+      "items": [
+        "Exceptional staff-to-guest ratio delivering intuitive, personalized service",
+        "Fine dining across multiple venues including The Restaurant, Colonnade, and Patio",
+        "Flexible open-seating dining with no rigid schedules or assigned tables",
+        "24-hour in-suite course-by-course dining served privately in your suite or veranda"
+      ]
+    },
+    {
+      "title": "Wellness, Enrichment & World Cruises",
+      "items": [
+        "Relaxing teak swimming pool deck and serene outdoor relaxation spaces",
+        "Comprehensive spa, wellness facilities, and fully equipped fitness center",
+        "Destination enrichment, guest speakers, live acoustic music, and cultural presentations",
+        "Exceptional extended voyage and World Cruise opportunities visiting multiple continents"
+      ]
+    }
+  ],
+  "suitesSection": {
+    "title": "Seabourn Quest Suites",
+    "subtitle": "ACCOMMODATIONS",
+    "description": "Quest offers all-suite accommodations, meaning guests don't book a traditional interior or standard cruise cabin. Suites provide a more comfortable home base during the voyage.",
+    "items": [
+      {
+        "title": "Seabourn Quest Suites",
+        "subtitle": "Residential Comfort & In-Suite Luxuries",
+        "description": "Every suite on Seabourn Quest is designed for relaxation and extended stays, featuring luxury finishes and attentive suite host service. For a long voyage, the difference between a standard cabin and a comfortable suite becomes especially important.",
+        "features": [
+          "Separate living and sleeping areas",
+          "Sitting area",
+          "Ocean views",
+          "Private veranda",
+          "In-suite bar",
+          "Luxury bathroom",
+          "Suite host service",
+          "Additional living space in larger categories"
+        ]
+      },
+      {
+        "title": "Do Seabourn Quest Suites Have Balconies?",
+        "subtitle": "Private Veranda Living",
+        "description": "Selected Seabourn Quest suites feature private verandas. A private outdoor space can be especially useful on scenic itineraries and longer voyages. For a World Cruise, having private outdoor space can become an even more meaningful upgrade because you're spending significantly more time onboard.",
+        "features": [
+          "Enjoy morning coffee",
+          "Read",
+          "Watch the ocean",
+          "Watch port arrivals",
+          "Enjoy sunsets",
+          "Relax between excursions"
+        ]
+      },
+      {
+        "title": "Seabourn Quest Suite Categories",
+        "subtitle": "Suite Choices & Key Comparison Factors",
+        "description": "The ship offers multiple suite categories, ranging from more compact accommodations to larger premium suites. When comparing suites, pay attention to deck, location, square footage, veranda, living space, sleeping configuration, bathroom layout, and proximity to public areas.",
+        "features": [
+          "Ocean View Suites",
+          "Veranda Suites",
+          "Penthouse Suites",
+          "Larger premium suites",
+          "Compare deck & location",
+          "Compare square footage & veranda",
+          "Compare living space & bathroom layout",
+          "Compare proximity to public areas"
+        ]
+      }
+    ]
+  },
+  "bestSuiteCards": [
+    {
+      "icon": "Gem",
+      "title": "Best for Value",
+      "description": "A well-positioned suite offering the features you actually use can provide better value than simply selecting the largest category.",
+      "text": "A well-positioned suite offering the features you actually use can provide better value than simply selecting the largest category."
+    },
+    {
+      "icon": "Waves",
+      "title": "Best for Scenic Cruising",
+      "description": "A veranda suite can be particularly appealing when the itinerary includes long stretches of scenic coastline.",
+      "text": "A veranda suite can be particularly appealing when the itinerary includes long stretches of scenic coastline."
+    },
+    {
+      "icon": "Compass",
+      "title": "Best for Longer Voyages",
+      "description": "Consider a larger suite if you will be onboard for several weeks or months.",
+      "text": "Consider a larger suite if you will be onboard for several weeks or months."
+    },
+    {
+      "icon": "Home",
+      "title": "Best for Maximum Space",
+      "description": "The ship's premium suite categories provide additional living space and upgraded features.",
+      "text": "The ship's premium suite categories provide additional living space and upgraded features."
+    }
+  ],
+  "worldCruiseSuiteSection": {
+    "title": "Why Suite Choice Matters on a World Cruise",
+    "subtitle": "LONG VOYAGE COMFORT",
+    "paragraphs": [
+      "A World Cruise changes how you think about accommodation. On a seven-night cruise, you may spend relatively little time in your suite. On a lengthy voyage, your suite becomes your home.",
+      "For a long voyage, livability can be more important than simply choosing the cheapest available suite."
+    ],
+    "highlights": [
+      "Comfortable seating",
+      "Storage",
+      "Outdoor space",
+      "Convenient location",
+      "Natural light",
+      "A layout that works for extended stays"
+    ],
+    "conclusion": "Prioritizing functional space, natural light, and private outdoor veranda access transforms extended sea travel into an effortless residential luxury experience."
+  },
+  "diningSection": {
+    "title": "Seabourn Quest Dining",
+    "subtitle": "Dining is central to the Quest experience. The ship offers multiple dining environments, allowing guests to choose between refined meals and more relaxed options.",
+    "description": "Dining is central to the Quest experience. The ship offers multiple dining environments, allowing guests to choose between refined meals and more relaxed options.",
+    "items": [
+      {
+        "title": "The Restaurant",
+        "subtitle": "Primary Fine Dining",
+        "description": "The Restaurant provides the ship's primary fine-dining experience with multi-course meals, table service, changing menus, regional dishes, fine wines, desserts and destination-inspired cuisine in an elegant environment without requiring formal stiffness."
+      },
+      {
+        "title": "The Colonnade",
+        "subtitle": "Casual Indoor & Outdoor Dining",
+        "description": "The Colonnade provides a more casual dining environment for breakfast, lunch, casual dinners, and relaxed meals between excursions, offering regional and international dishes."
+      },
+     
+      {
+        "title": "In-Suite Dining",
+        "subtitle": "24-Hour Course-by-Course Service",
+        "description": "In-suite dining is particularly useful on longer voyages to have breakfast privately, eat on your veranda, relax after a long excursion, enjoy a quiet dinner, or take a break from public areas."
+      },
+      {
+        "title": "Open-Seating Dining Flexibility",
+        "subtitle": "Freedom & Flexibility",
+        "description": "Seabourn's dining philosophy emphasizes flexibility and open seating without fixed assigned schedules, allowing travelers to structure their evenings differently from day to day."
+      }
+    ]
+  },
+  "publicAreasShowcase": {
+    "title": "Seabourn Quest Public Areas",
+    "subtitle": "ONBOARD & ASHORE",
+    "description": "Quest's public spaces are designed to feel comfortable and intimate. Rather than enormous atriums and large entertainment complexes, the ship provides areas centered around conversation, relaxation, dining, scenic viewing, wellness and entertainment.",
+    "items": [
+      {
+        "category": "Social Hub & Concierge",
+        "title": "Seabourn Square",
+        "subtitle": "Social Hub & Concierge",
+        "description": "Seabourn Square serves as an important social and service area. It provides a comfortable place to relax, meet fellow guests, enjoy coffee, get assistance, discuss travel plans and socialize. On a long voyage, spaces like this become particularly important because guests gradually develop familiar routines.",
+        "bestFor": "Relaxing, meeting fellow guests, enjoying specialty coffee, getting assistance, discussing travel plans, and socializing.",
+        "placeholderLabel": "SEABOURN SQUARE"
+      },
+      {
+        "category": "Teak Sundeck & Quiet Leisure",
+        "title": "Seabourn Quest Pool",
+        "subtitle": "Teak Sundeck & Quiet Leisure",
+        "description": "Quest has a pool area designed around relaxation rather than large-scale water attractions. The pool is more aligned with the ship's overall quiet-luxury philosophy, offering sun loungers, refreshing dips, and attentive bar service.",
+        "bestFor": "Swimming, sunbathing, reading, relaxing, enjoying a drink, and spending time between excursions.",
+        "placeholderLabel": "SEABOURN QUEST POOL"
+      },
+      {
+        "category": "Holistic Spa & Body Treatments",
+        "title": "Spa and Wellness",
+        "subtitle": "Holistic Spa & Body Treatments",
+        "description": "The onboard spa provides an opportunity to relax during the voyage. For longer cruises, having access to wellness facilities can be particularly valuable.",
+        "bestFor": "Massage, skincare, beauty treatments, relaxation, and holistic wellness.",
+        "placeholderLabel": "THE SPA & WELLNESS"
+      },
+      {
+        "category": "Ocean-View Fitness Center",
+        "title": "Fitness Center",
+        "subtitle": "Ocean-View Fitness Center",
+        "description": "Guests can maintain their exercise routine using the ship's fitness facilities. For World Cruise guests, maintaining a regular fitness routine can be an important part of life onboard.",
+        "bestFor": "Cardio training, strength equipment, stretching, and general exercise.",
+        "placeholderLabel": "FITNESS CENTER"
+      },
+      {
+        "category": "Intimate Social Spaces",
+        "title": "Bars and Lounges",
+        "subtitle": "Intimate Social Spaces",
+        "description": "Quest provides intimate social spaces where guests can enjoy drinks, conversation and entertainment. The atmosphere tends to be relaxed, elegant, social, and quiet — perfect for travelers who enjoy conversation and connection.",
+        "bestFor": "Handcrafted cocktails, fine wines, pre-dinner drinks, and engaging social conversation.",
+        "placeholderLabel": "BARS & LOUNGES"
+      },
+      {
+        "category": "Live Music & Cultural Talks",
+        "title": "Entertainment & Enrichment",
+        "subtitle": "Live Music & Cultural Talks",
+        "description": "Entertainment and enrichment are designed around the ship's intimate character. Programming includes live music, acoustic performances, guest speakers, destination presentations, and cultural programming focused on quality and atmosphere.",
+        "bestFor": "Live music, performances, guest speakers, destination presentations, and cultural enrichment.",
+        "placeholderLabel": "ENTERTAINMENT & ENRICHMENT"
+      }
+    ]
+  },
+  "destinationsSection": {
+    "title": "Seabourn Quest Itineraries",
+    "subtitle": "WHERE QUEST SAILS",
+    "description": "Quest's intimate design makes it suitable for a variety of international itineraries. The ship's smaller size allows it to access boutique ports that larger vessels cannot reach.",
+    "tabs": [
+      {
+        "id": "mediterranean",
+        "title": "Mediterranean",
+        "shortDesc": "Historic cities, coastal villages, and boutique Mediterranean yacht harbors",
+        "category": "Historic Ports & Antiquities",
+        "highlight": "Seabourn Quest Mediterranean Cruises",
+        "description": "Quest visits intimate harbors and celebrated cultural centers across Italy, the French Riviera, Greece, Croatia, Spain, and Turkey, accessing ports larger cruise liners cannot enter.",
+        "subtitle": "Seabourn Quest Mediterranean Cruises",
+        "badge": "Historic Ports & Antiquities",
+        "desc": "Quest visits intimate harbors and celebrated cultural centers across Italy, the French Riviera, Greece, Croatia, Spain, and Turkey.",
+        "listLabel": "Highlights include:",
+        "highlights": [
+          "Italian Riviera & Amalfi Coast",
+          "Greek Isles & Aegean Harbors",
+          "Croatian Coastline & Dubrovnik",
+          "French Riviera & Monaco",
+          "Spanish Balearic Islands & Barcelona"
+        ],
+        "listItems": ["Italy", "Greece", "Croatia", "France", "Spain", "Turkey"]
+      },
+      {
+        "id": "northern-europe",
+        "title": "Northern Europe",
+        "shortDesc": "Norwegian fjords, Scandinavia, British Isles, and Baltic historic ports",
+        "category": "Fjords & Scandinavian Capitals",
+        "highlight": "Seabourn Quest Northern Europe Voyages",
+        "description": "Sail deep into dramatic Norwegian fjords, explore the British Isles and Scottish Highlands, and visit historic Baltic ports during the luminous summer season.",
+        "subtitle": "Seabourn Quest Northern Europe Voyages",
+        "badge": "Fjords & Scandinavian Capitals",
+        "desc": "Sail deep into dramatic Norwegian fjords, explore the British Isles and Scottish Highlands, and visit historic Baltic ports.",
+        "listLabel": "Highlights include:",
+        "highlights": [
+          "Dramatic Norwegian Fjords",
+          "Scandinavia & Baltic Capitals",
+          "British Isles & Remote Scottish Isles",
+          "Historic Northern European Harbors"
+        ],
+        "listItems": ["Norwegian Fjords", "Scandinavia", "British Isles", "Baltic Ports"]
+      },
+      {
+        "id": "caribbean-southamerica",
+        "title": "Caribbean & South America",
+        "shortDesc": "Secluded tropical bays, Latin American coastlines, and Chilean fjords",
+        "category": "Warm-Water & Latin American Discovery",
+        "highlight": "Seabourn Quest Americas Cruises",
+        "description": "Explore pristine Caribbean yacht havens, transit the Panama Canal, and cruise the dramatic coastlines of South America, Patagonia, and Chilean fjords.",
+        "subtitle": "Seabourn Quest Americas Cruises",
+        "badge": "Warm-Water & Latin American Discovery",
+        "desc": "Explore pristine Caribbean yacht havens, transit the Panama Canal, and cruise the dramatic coastlines of South America.",
+        "listLabel": "Highlights include:",
+        "highlights": [
+          "Secluded Caribbean Harbors",
+          "South American Coastal Cities",
+          "Patagonia & Chilean Fjords",
+          "Panama Canal Scenic Transit"
+        ],
+        "listItems": ["Caribbean", "South America", "Patagonia", "Panama Canal"]
+      },
+      {
+        "id": "asia-pacific",
+        "title": "Asia & Australia",
+        "shortDesc": "Immersive cultural voyages across Asia, Australia, and the South Pacific",
+        "category": "Far East & Pacific Horizons",
+        "highlight": "Seabourn Quest Asia & Pacific Voyages",
+        "description": "Discover the rich heritage and exotic coastlines of Southeast Asia, Japan, Australia, New Zealand, and the idyllic islands of the South Pacific.",
+        "subtitle": "Seabourn Quest Asia & Pacific Voyages",
+        "badge": "Far East & Pacific Horizons",
+        "desc": "Discover the rich heritage and exotic coastlines of Southeast Asia, Japan, Australia, New Zealand, and the South Pacific.",
+        "listLabel": "Highlights include:",
+        "highlights": [
+          "Southeast Asia & Exotic Ports",
+          "Japan & East Asian Coastlines",
+          "Australia & Great Barrier Reef",
+          "New Zealand Fjords & South Pacific Isles"
+        ],
+        "listItems": ["Asia", "Australia", "New Zealand", "South Pacific"]
+      },
+      {
+        "id": "world-cruises",
+        "title": "World Cruises",
+        "shortDesc": "Grand global voyages visiting multiple continents and oceans over 100+ days",
+        "category": "Grand Global Voyages",
+        "highlight": "Seabourn Quest World Cruises",
+        "description": "One of the most interesting reasons to consider Quest is its suitability for long voyages and World Cruises. Visit multiple regions across Asia, Australia, South Pacific, Indian Ocean, Middle East, Mediterranean, Africa, Europe, and South America without repeatedly flying between destinations.",
+        "subtitle": "Seabourn Quest World Cruises",
+        "badge": "Grand Global Voyages",
+        "desc": "Visit multiple regions across multiple continents without repeatedly flying between destinations.",
+        "listLabel": "World Cruise appeal:",
+        "highlights": [
+          "Visit multiple continents on one voyage",
+          "Unpack once and live in residential luxury",
+          "Slow travel and extended sea day relaxation",
+          "Build lasting relationships with fellow guests and crew"
+        ],
+        "listItems": ["Global routing", "Multiple continents", "Unpack once", "Community atmosphere"]
+      }
+    ]
+  },
+  "worldCruiseWhySection": {
+    "title": "Why Choose Seabourn Quest for a World Cruise?",
+    "subtitle": "A FAMILIAR COMMUNITY",
+    "paragraphs": [
+      "One of the most interesting reasons to consider Quest is its suitability for long voyages and World Cruises. A World Cruise allows travelers to visit multiple regions without repeatedly flying between destinations. Instead, the ship becomes your home while you travel across oceans and continents.",
+      "The smaller ship can be a major advantage on an extended journey. A smaller passenger environment of approximately 458 guests makes the voyage feel deeply personal and intimate."
+    ],
+    "highlights": [
+      "Recognize fellow guests and build lasting friendships",
+      "Develop meaningful relationships with crew and hosts",
+      "Establish comfortable daily living routines",
+      "Become intimately familiar with onboard spaces",
+      "Feel part of an exclusive luxury yacht community",
+      "Unpack once to explore multiple continents and oceans"
+    ],
+    "conclusion": "World Cruise itineraries connect multiple continents including Asia, Australia, South Pacific, Southeast Asia, Indian Ocean, Middle East, Mediterranean, Africa, Europe, and South America."
+  },
+  "travelerTypes": [
+    {
+      "title": "Couples",
+      "description": "Its intimate size, suites, dining and destination-focused itineraries create a natural environment for romantic travel, anniversaries, retirement celebrations, and milestone birthdays.",
+      "tag": "Romantic Luxury"
+    },
+    {
+      "title": "Solo Travelers",
+      "description": "Open-seating dining and the welcoming, intimate passenger environment make Quest particularly comfortable and sociable for solo luxury travelers.",
+      "tag": "Solo Friendly"
+    },
+    {
+      "title": "World Cruise Travelers",
+      "description": "Travelers with flexible schedules who prefer slow travel, unpacking once, and enjoying residential comfort across multi-month global journeys.",
+      "tag": "Grand Voyages"
+    },
+    {
+      "title": "First-Time Luxury Cruisers",
+      "description": "An ideal introduction to luxury cruising for travelers who value an intimate, unpretentious, all-suite environment over mega-ship resort crowds.",
+      "tag": "First-Time Luxury"
+    },
+    {
+      "title": "Multigenerational Families",
+      "description": "Adventurous multigenerational families who value cultural travel, destination exploration, fine dining, and relaxation together.",
+      "tag": "Cultural Family Travel"
+    },
+    {
+      "title": "Small-Ship Enthusiasts",
+      "description": "Discerning cruisers who appreciate quiet luxury, personalized crew attention, and access to secluded boutique yacht harbors.",
+      "tag": "Boutique Scale"
+    }
+  ],
+  "targetFitFaceoff": {
+    "title": "Who Is a Quest World Cruise Best For vs. Who Should NOT Choose Quest",
+    "regent": {
+      "title": "A World Cruise Can Be an Excellent Fit for Travelers Who",
+      "badge": "Ideal Travel Match",
+      "description": "Seabourn Quest is tailored for travelers who value intimate scale, slow travel, and meaningful cultural immersion.",
+      "features": [
+        "Prefer slow travel and immersive destination exploration",
+        "Have flexible schedules and significant travel time available",
+        "Enjoy long, peaceful periods at sea and relaxing onboard routines",
+        "Want to visit multiple continents while unpacking only once",
+        "Value all-inclusive luxury, fine dining and personalized service",
+        "Enjoy building genuine relationships with fellow guests and crew",
+        "Want an immersive, unhurried global travel experience"
+      ]
+    },
+    "viking": {
+      "title": "It Is Less Suitable for Travelers Who",
+      "badge": "Alternative Fit",
+      "description": "Quest may not be the right choice if your vacation priorities focus on mega-ship resort amenities or rapid travel pace.",
+      "features": [
+        "Need frequent changes of environment and high-energy nightlife",
+        "Prefer short, highly active, fast-paced vacations",
+        "Dislike spending extended time at sea",
+        "Require flexibility to change plans frequently",
+        "Prefer independent travel over a structured cruise itinerary",
+        "Are uncomfortable with a single ship for months at a time",
+        "Prefer fast-paced destination hopping over slow travel"
+      ]
+    }
+  },
+  "questVsEncoreTable": {
+    "title": "Seabourn Quest vs. Seabourn Encore",
+    "subtitle": "Quest accommodates fewer guests (458) and offers an even more intimate small-ship atmosphere compared to Encore (600 guests).",
+    "headers": ["Feature", "Seabourn Quest", "Seabourn Encore"],
+    "rows": [
+      ["Approx. guests", "458", "600"],
+      ["Ship type", "Luxury ocean ship", "Luxury ocean ship"],
+      ["Accommodation", "All-suite", "All-suite"],
+      ["Atmosphere", "More intimate", "Intimate"],
+      ["Dining", "Multiple venues", "Multiple venues"],
+      ["Best for", "Smaller-ship enthusiasts & long voyages", "Luxury ocean cruising"],
+      ["World Cruise appeal", "Strong", "Depends on itinerary"]
+    ]
+  },
+  "questVsOvationTable": {
+    "title": "Seabourn Quest vs. Seabourn Ovation",
+    "subtitle": "Quest and Ovation both offer all-suite luxury, but Quest provides the smaller passenger environment and strong World Cruise suitability.",
+    "headers": ["Feature", "Seabourn Quest", "Seabourn Ovation"],
+    "rows": [
+      ["Approx. guests", "458", "600"],
+      ["Accommodation", "All-suite", "All-suite"],
+      ["Atmosphere", "Very intimate", "Intimate"],
+      ["Dining", "Multiple venues", "Multiple venues"],
+      ["Best for", "Small-ship experience & long voyages", "Broader luxury ocean experience"],
+      ["World Cruise suitability", "Strong", "Depends on itinerary"]
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn Quest Pros and Cons",
+    "prosTitle": "Pros",
+    "consTitle": "Cons",
+    "bestFor": [
+      "Smaller passenger capacity (~458 guests)",
+      "All-suite accommodations with luxury finishes",
+      "Intimate atmosphere and quiet luxury feel",
+      "Personalized service with dedicated staff",
+      "Fine dining across multiple venues",
+      "Flexible open-seating dining options",
+      "Multiple relaxed public spaces",
+      "Spa and fitness facilities onboard",
+      "Destination enrichment and guest lectures",
+      "Strong option for longer voyages",
+      "Exceptional World Cruise potential",
+      "Excellent choice for couples and solo travelers"
+    ],
+    "notBestFor": [
+      "Fewer onboard facilities than larger ships",
+      "Less large-scale entertainment and no mega theaters",
+      "Smaller dining selection than mega-ships",
+      "Limited family-focused amenities and no kids clubs",
+      "Premium pricing reflecting all-inclusive luxury",
+      "Long voyages require a greater time commitment"
+    ],
+    "bottomNote": "Weighing these factors helps determine if Seabourn Quest fits your personal vacation style."
+  },
+  "worthItBrand": {
+    "name": "Seabourn Quest Value Proposition",
+    "bestFor": "Travelers Who Value Intimacy, Personalized Service & Slow Travel",
+    "whatMakesItStandOut": "For travelers who value intimacy, personalized service and slow travel, Seabourn Quest can be an excellent choice. Its strongest value comes from the overall environment — you're not paying for hundreds of attractions, but rather for refined comfort and bespoke hospitality.",
+    "strengths": [
+      "A small luxury ship with ~458 guests",
+      "An all-suite accommodation experience",
+      "Personalized, intuitive hospitality",
+      "Fine dining and open-seating flexibility",
+      "Interesting destinations and boutique port access",
+      "A comfortable, welcoming home for longer voyages and World Cruises"
+    ],
+    "considerations": [
+      "That makes Quest particularly compelling for travelers who want to travel extensively without constantly changing hotels and flights."
+    ],
+    "image": ""
+  },
+  "bookingTips": {
+    "title": "Tips for Booking Seabourn Quest & World Cruise Prep",
+    "subtitle": "EXPERT PLANNING & PACKING ESSENTIALS",
+    "items": [
+      {
+        "step": "1",
+        "title": "Choose the Itinerary Carefully",
+        "description": "The itinerary is one of the most important parts of the experience. Match the destination routing and season to your preferred travel style."
+      },
+      {
+        "step": "2",
+        "title": "Consider a Veranda",
+        "description": "A private outdoor space can be particularly valuable on scenic routes and longer voyages for morning coffee and port arrivals."
+      },
+      {
+        "step": "3",
+        "title": "Think About the Length of the Cruise",
+        "description": "Quest is particularly appealing for extended travel, but make sure the voyage length fits your personal lifestyle and schedule."
+      },
+      {
+        "step": "4",
+        "title": "Review the Deck Plan",
+        "description": "Consider noise, traffic, elevators and proximity to public spaces when choosing your suite location."
+      },
+      {
+        "step": "5",
+        "title": "Plan for Sea Days",
+        "description": "Long voyages can include substantial time onboard — ensure you enjoy relaxing, reading, spa treatments, and slow days at sea."
+      },
+      {
+        "step": "6",
+        "title": "Consider Your Suite as Your Home",
+        "description": "For extended voyages, prioritize livability and storage rather than simply selecting by price."
+      },
+      {
+        "step": "7",
+        "title": "Pack Smart for Extended Travel",
+        "description": "Pack smart-casual evening attire, comfortable daytime clothing, destination walking shoes, swimwear, layers, and travel essentials. Laundry services make extended travel easy."
+      },
+      {
+        "step": "8",
+        "title": "Work with a Luxury Travel Advisor",
+        "description": "An experienced advisor can help compare World Cruise itineraries, suites, flights, pre- and post-cruise arrangements, and secure exclusive Seabourn offers."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Cruise Expertise",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "Seabourn Quest offers what many modern ships have lost — true small-ship intimacy, where you are known by name, dining is a relaxed pleasure, and extended world voyages feel like living in your own private yacht.",
+    "quoteSubtitle": "Personal Cruise Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand travel experience across more than 121 countries, Angela Hughes is globally recognized for her deep expertise in luxury ocean cruising, World Cruises, expeditions, and bespoke itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela guides clients to the world's most extraordinary destinations with personalized planning, insider ship access, and VIP Seabourn amenities."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Work with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is Seabourn Quest?",
+      "answer": "Seabourn Quest is an intimate all-suite luxury ocean cruise ship designed for personalized service, fine dining and destination-focused travel."
+    },
+    {
+      "question": "How many guests are on Seabourn Quest?",
+      "answer": "Seabourn Quest accommodates approximately 458 guests."
+    },
+    {
+      "question": "Is Seabourn Quest an all-suite ship?",
+      "answer": "Yes. Seabourn Quest offers all-suite accommodations."
+    },
+    {
+      "question": "Do Seabourn Quest suites have balconies?",
+      "answer": "Selected suite categories feature private verandas. The exact configuration depends on the suite category."
+    },
+    {
+      "question": "What restaurants are on Seabourn Quest?",
+      "answer": "Dining options can include The Restaurant, The Colonnade, The Patio and in-suite dining, with offerings varying by sailing."
+    },
+    {
+      "question": "Is dining included on Seabourn Quest?",
+      "answer": "Yes. Dining is included as part of Seabourn's all-inclusive luxury cruise experience."
+    },
+    {
+      "question": "Does Seabourn Quest offer open seating?",
+      "answer": "Yes. Seabourn emphasizes flexible dining rather than traditional fixed assigned seating."
+    },
+    {
+      "question": "Does Seabourn Quest have a pool?",
+      "answer": "Yes. The ship has a pool area designed primarily for relaxation."
+    },
+    {
+      "question": "Does Seabourn Quest have a spa?",
+      "answer": "Yes. Guests can access spa and wellness services onboard."
+    },
+    {
+      "question": "Does Seabourn Quest have a fitness center?",
+      "answer": "Yes. The ship provides fitness facilities for guests."
+    },
+    {
+      "question": "What destinations does Seabourn Quest visit?",
+      "answer": "Depending on the sailing, Quest can visit regions including the Mediterranean, Northern Europe, the Caribbean, South America, Asia, Australia, the Pacific and other international destinations."
+    },
+    {
+      "question": "Does Seabourn Quest offer World Cruises?",
+      "answer": "Yes. Quest can operate long-duration World Cruise itineraries on selected schedules. The exact route and year should be confirmed for the specific voyage."
+    },
+    {
+      "question": "Is Seabourn Quest good for a World Cruise?",
+      "answer": "Yes. Its intimate atmosphere, all-suite accommodations and personalized service can make it particularly appealing for extended voyages."
+    },
+    {
+      "question": "Is Seabourn Quest good for couples?",
+      "answer": "Yes. The smaller ship, suites, dining and relaxed atmosphere make it an excellent option for couples."
+    },
+    {
+      "question": "Is Seabourn Quest good for solo travelers?",
+      "answer": "Yes. Open dining and the intimate passenger environment can make it particularly comfortable for solo travelers."
+    },
+    {
+      "question": "Is Seabourn Quest good for families?",
+      "answer": "It can suit adventurous multigenerational families, but it is not designed as a traditional family resort ship."
+    },
+    {
+      "question": "What is the difference between Seabourn Quest and Seabourn Encore?",
+      "answer": "Quest accommodates fewer guests (approximately 458) and offers a more intimate small-ship atmosphere. Encore is a larger Seabourn ocean ship with approximately 600 guests."
+    },
+    {
+      "question": "Is Seabourn Quest worth the money?",
+      "answer": "For travelers who prioritize intimate luxury, personalized service, all-suite accommodations and longer international voyages, Seabourn Quest can be worth the premium."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is Seabourn Quest a Good Ship?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Seabourn Quest is an excellent choice for travelers who value a truly intimate luxury cruise experience. Its approximately 458-guest environment creates a more personal atmosphere than many larger luxury ships.",
+      "The combination of all-suite accommodations, fine dining, personalized service, destination enrichment and longer-voyage potential makes Quest particularly attractive to experienced travelers. Its appeal becomes even stronger for travelers considering a World Cruise, where the ship effectively becomes a temporary home."
+    ],
+    "recommendation": "Our recommendation: If you prefer small ships, slow travel, excellent service and meaningful destinations over large-scale entertainment, Seabourn Quest deserves serious consideration.",
+    "ctaText": "Start Planning Your Seabourn Quest Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Find Your Perfect Suite on Seabourn Quest",
+      "description": "From Veranda Suites to expansive Penthouses, let's select the ideal accommodation for your voyage.",
+      "buttonText": "Explore Suite Availability",
+      "buttonLink": "/contact"
+    },
+    "diningCta": {
+      "title": "Reserve Your Table on Seabourn Quest",
+      "description": "From The Restaurant to in-suite dining, let's plan your ideal onboard dining experience.",
+      "buttonText": "Plan My Dining Experience",
+      "buttonLink": "/contact"
+    },
+    "destinationsCta": {
+      "title": "Where Will Seabourn Quest Take You?",
+      "description": "From the Mediterranean to Asia, the Pacific, and World Cruises, let's design your ideal Seabourn Quest itinerary.",
+      "buttonText": "Design My Itinerary",
+      "buttonLink": "/contact"
+    },
+    "compareCta": {
+      "title": "Compare Seabourn Suites and Sailings",
+      "description": "Need help choosing between Seabourn Quest, Encore, or Ovation? Let's discuss which ship best fits your travel style.",
+      "buttonText": "Get Expert Advice",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Quest Cruise",
+      "description": "Let's compare itineraries, suite options and exclusive amenities to create your perfect Seabourn Quest luxury voyage.",
+      "buttonText": "Start Planning Your Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

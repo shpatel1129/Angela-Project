@@ -3,6 +3,27 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images
+import HeroImage from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-luxury-family-cruise-vacation-hero.jpg";
+import EditorialImage from "../../assets/IsSeabournGoodFamiliesChildren/is-seabourn-good-for-families-and-children-editorial.jpg";
+import StoryImage1 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-cruise-family-atmosphere-onboard.jpg";
+import StoryImage2 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-family-suite-luxury-veranda.jpg";
+import MultigenImage1 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-multigenerational-family-celebration-cruise.jpg";
+import MultigenImage2 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-family-milestone-reunion-voyage.jpg";
+import DiningImage1 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-family-open-seating-dining-experience.jpg";
+import DiningImage2 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-custom-kids-dining-dietary-support.jpg";
+import DiningImage3 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-complimentary-in-suite-family-room-service.jpg";
+import ExcursionImage1 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-shore-excursions-guided-family-tours.jpg";
+import ExcursionImage2 from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-expedition-adventure-family-cruising.jpg";
+import AlaskaDestImage from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-alaska-family-glacier-wildlife-cruise.jpeg";
+import AntarcticaDestImage from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-antarctica-expedition-family-zodiac-cruise.jpg";
+import MedDestImage from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-mediterranean-family-cultural-cruise.jpg";
+import CaribbeanDestImage from "../../assets/IsSeabournGoodFamiliesChildren/seabourn-caribbean-luxury-family-beach-cruise.jpg";
+
+// Distinct CTA Background Images (from other Seabourn collections)
+import midCtaImg from "../../assets/SeabournCruises/seabourn-luxury-family-multigenerational-cruises.jpg";
+import bottomCtaImg from "../../assets/IsSeabournWorthPrice/is-seabourn-worth-it-for-multigenerational-families.jpg";
+
 // UI Components (Zero framer-motion dependencies, unique across page)
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -25,11 +46,37 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Data Source
 import data from "./data.json";
 
 const IsSeabournGoodForFamiliesAndChildren = () => {
+  // Destination Image Map
+  const destinationImageMap = {
+    Alaska: AlaskaDestImage,
+    Antarctica: AntarcticaDestImage,
+    Mediterranean: MedDestImage,
+    Caribbean: CaribbeanDestImage
+  };
+
+  // Multigenerational Items with Images
+  const multigenerationalImages = [MultigenImage1, MultigenImage2];
+  const multigenerationalItems = data.multigenerationalDynamics.items.map((item, idx) => ({
+    ...item,
+    image: multigenerationalImages[idx] || null
+  }));
+
+  // Dining Images
+  const diningImages = [DiningImage1, DiningImage2, DiningImage3];
+
+  // Shore Excursion Items with Images
+  const excursionImages = [ExcursionImage1, ExcursionImage2];
+  const excursionItems = data.familyExcursionsAndAdventure.items.map((item, idx) => ({
+    ...item,
+    image: excursionImages[idx] || null
+  }));
+
   // 1. Format Suite Selection Pillars & Scenarios for ValuePropositionHighlight
   const suiteSelectionItems = [
     ...data.suiteSelection.priorities.map((priority) => ({
@@ -54,7 +101,8 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
     recommendation: dest.recommendation,
     reason: dest.reason,
     whyFits: dest.whyFits,
-    placeholderLabel: dest.placeholderLabel
+    placeholderLabel: dest.placeholderLabel,
+    image: destinationImageMap[dest.name] || null
   }));
 
   // 3. Format Luxury Competitors for CardGrid
@@ -84,6 +132,13 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
       ]
     }
   ];
+
+  // 5. Video Guide for Families & Multigenerational Travelers
+  const familyVideoData = {
+    youtubeId: "6qmhuAsCOAk",
+    title: "Seabourn Family & Multigenerational Luxury Cruise Guide",
+    description: "Discover what it is like to sail on Seabourn with family—from spacious suite configurations and flexible dining to enriching, educational destination adventures."
+  };
 
   // Schema.org JSON-LD structured data matching user specification verbatim
   const schemaJson = {
@@ -288,8 +343,9 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         badge={data.hero.badge}
-        ctaText="Plan Your Luxury Family Cruise"
-        ctaLink="/contact"
+        backgroundImage={HeroImage}
+        secondaryCtaText="Plan Your Luxury Family Cruise"
+        secondaryCtaLink="/contact"
       />
 
       {/* ── 2. Editorial Introduction ──────────────────────────────── */}
@@ -298,6 +354,7 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
         heading={data.editorialIntro.title}
         lead={data.editorialIntro.lead}
         paragraphs={data.editorialIntro.paragraphs}
+        image={EditorialImage}
         quote="Seabourn offers families and multigenerational groups a rare blend of intimate luxury, educational exploration, and shared destination memories without the crowds."
         quoteAuthor="Angela Hughes, CEO & Luxury Travel Expert"
       />
@@ -317,6 +374,8 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
           data.whatIsSeabournLike.agePolicy.description
         ]}
         highlights={data.whatIsSeabournLike.pillars}
+        image1={StoryImage1}
+        image2={StoryImage2}
         image1Placeholder="SEABOURN LUXURY FAMILY TRAVEL"
         image2Placeholder="SHARED DESTINATION DISCOVERY"
         ctaText="Explore Family Cruise Itineraries"
@@ -340,7 +399,7 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
       {/* ── 7. Multigenerational Travel & Family Celebrations ───────── */}
       <HighlightsSplit
         title={data.multigenerationalDynamics.title}
-        items={data.multigenerationalDynamics.items}
+        items={multigenerationalItems}
       />
 
       {/* ── 8. Are Seabourn Suites Good for Families? ──────────────── */}
@@ -356,6 +415,7 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
         title={data.familyDining.title}
         subtitle={data.familyDining.subtitle}
         items={data.familyDining.items}
+        images={diningImages}
       />
 
       {/* ── Mid-Page Call to Action ───────────────────────────────── */}
@@ -364,14 +424,18 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
         description="Speak directly with Angela Hughes and the Trips & Ships team to secure optimal suite configurations, connecting rooms, and custom family shore excursions."
         buttonText="Plan Your Family Cruise"
         buttonLink="/contact"
+        image={midCtaImg}
         theme="dark"
       />
+
+      {/* ── Family Cruiser Video Guide (VideoEmbed) ────────────────── */}
+      <VideoEmbed data={familyVideoData} />
 
       {/* ── 10. Shore Excursions for Children & Adventure (ThreeColumnGrid) ── */}
       <ThreeColumnGrid
         title={data.familyExcursionsAndAdventure.title}
         subtitle={data.familyExcursionsAndAdventure.subtitle}
-        items={data.familyExcursionsAndAdventure.items}
+        items={excursionItems}
       />
 
       {/* ── 11. Family Adventure & Global Expeditions ──────────────── */}
@@ -468,7 +532,8 @@ const IsSeabournGoodForFamiliesAndChildren = () => {
         description="Connect with Angela Hughes and the Trips & Ships team to receive personalized suite recommendations, family itineraries, and exclusive luxury perks for your Seabourn cruise."
         buttonText="Request Your Family Cruise Quote"
         buttonLink="/contact"
-        theme="light"
+        image={bottomCtaImg}
+        theme="dark"
       />
     </div>
   );

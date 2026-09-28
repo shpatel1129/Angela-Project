@@ -426,23 +426,65 @@
     "subtitle": "Seabourn's cruise experience is designed to include many elements that can be additional charges on other cruise lines. Always review current fare inclusions before booking.",
     "includedTitle": "Standard Inclusions on Seabourn",
     "includedItems": [
-      "Suite accommodations",
-      "Multiple dining options with open seating",
-      "Selected fine wines and premium spirits",
-      "Soft drinks, specialty coffees, and teas",
-      "Unlimited Wi-Fi powered by Starlink",
-      "Entertainment and enrichment lectures",
-      "All onboard crew gratuities",
-      "24-hour in-suite dining and customized minibar"
+      {
+        "title": "Suite accommodations",
+        "description": "Spacious ocean-view and veranda suites featuring private living areas, walk-in closets, and marble bathrooms."
+      },
+      {
+        "title": "Multiple dining options with open seating",
+        "description": "Gourmet dining across world-class venues and specialty restaurants without fixed table assignments or cover charges."
+      },
+      {
+        "title": "Selected fine wines and premium spirits",
+        "description": "Complimentary champagne, sommelier-selected wines, handcrafted cocktails, and spirits poured freely anytime."
+      },
+      {
+        "title": "Soft drinks, specialty coffees, and teas",
+        "description": "Unlimited espresso beverages, artisan teas, fresh juices, and sodas available throughout the ship and in-suite."
+      },
+      {
+        "title": "Unlimited Wi-Fi powered by Starlink",
+        "description": "Seamless high-speed satellite connectivity for streaming, browsing, and staying connected at sea."
+      },
+      {
+        "title": "Entertainment and enrichment lectures",
+        "description": "Distinguished guest speakers, destination experts, live musical performances, and evening cabaret shows."
+      },
+      {
+        "title": "All onboard crew gratuities",
+        "description": "Intuitive, warm hospitality without tipping expectations—all staff gratuities are fully covered."
+      },
+      {
+        "title": "24-hour in-suite dining and customized minibar",
+        "description": "Full-menu dining served course-by-course in your suite or veranda, plus a refrigerator stocked with your preferred beverages."
+      }
     ],
     "extrasTitle": "Potential Additional Expenses",
     "extrasItems": [
-      "Certain premium top-shelf specialty wines & spirits",
-      "Personalized spa and wellness treatments",
-      "Organized shore excursions & Ventures experiences",
-      "Pre- or post-cruise luxury hotel arrangements",
-      "Bespoke private vehicle touring ashore",
-      "Personal boutique purchases and laundry services"
+      {
+        "title": "Certain premium top-shelf specialty wines & spirits",
+        "description": "Rare vintage cellar selections, connoisseur tasting flights, and ultra-rare reserve labels available for purchase."
+      },
+      {
+        "title": "Personalized spa and wellness treatments",
+        "description": "Custom body therapies, massages, facials, and salon services at the full-service Spa at Seabourn."
+      },
+      {
+        "title": "Organized shore excursions & Ventures experiences",
+        "description": "Curated guided port excursions, cultural immersions, and expedition Zodiac or kayak outings."
+      },
+      {
+        "title": "Pre- or post-cruise luxury hotel arrangements",
+        "description": "Tailored overland extensions, airport transfers, and verified five-star city hotel stays coordinated before or after your voyage."
+      },
+      {
+        "title": "Bespoke private vehicle touring ashore",
+        "description": "Dedicated private cars with personal chauffeurs and local expert guides arranged for personalized port discovery."
+      },
+      {
+        "title": "Personal boutique purchases and laundry services",
+        "description": "Onboard designer shopping, logo apparel, and same-day premium dry cleaning or laundry pressing."
+      }
     ]
   },
   "couplesFirstCruiseSection": {

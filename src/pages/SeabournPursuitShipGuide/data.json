@@ -1,0 +1,772 @@
+{
+  "hero": {
+    "badge": "PURPOSE-BUILT LUXURY EXPEDITION SHIP",
+    "title": "Seabourn Pursuit Ship Guide",
+    "subtitle": "Ultra-Luxury Expedition Cruising in Antarctica, the Arctic & Remote Polar Frontiers",
+    "paragraphs": [
+      "Seabourn Pursuit is a purpose-built luxury expedition ship created for travelers who want to explore some of the world's most remote destinations without giving up the comfort and sophistication of an ultra-luxury cruise.",
+      "The sister ship to Seabourn Venture, Pursuit combines expedition capabilities with Seabourn's all-suite accommodations, fine dining, personalized service and intimate atmosphere. Instead of choosing between an adventurous expedition and a luxurious vacation, travelers can experience both.",
+      "Pursuit is particularly well suited to Antarctica, the Arctic and other remote expedition destinations, where Zodiacs, kayaks, expedition specialists and specialized equipment help guests experience the destination beyond the ship.",
+      "This guide covers the Seabourn Pursuit ship experience, suites, dining, expedition activities, onboard amenities and primary itineraries to help you decide whether Pursuit is the right expedition ship for your trip."
+    ],
+    "primaryCtaText": "Start Planning Your Seabourn Pursuit Voyage",
+    "primaryCtaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Pursuit at a Glance",
+    "subtitle": "QUICK OVERVIEW",
+    "description": "Key specifications, features and expedition metrics for Seabourn's luxury expedition vessel.",
+    "headers": ["Feature", "Seabourn Pursuit"],
+    "rows": [
+      ["Ship type", "Luxury expedition ship"],
+      ["Guests", "Approximately 264"],
+      ["Entered service", "2023"],
+      ["Expedition focus", "Polar and remote destinations"],
+      ["Polar capability", "PC6"],
+      ["Zodiacs", "24"],
+      ["Kayaks", "Available on applicable expeditions"],
+      ["Expedition team", "Dedicated expedition specialists"],
+      ["Suites", "All-suite accommodations"],
+      ["Primary destinations", "Antarctica, Arctic and other remote regions"],
+      ["Best for", "Luxury adventure and expedition travelers"],
+      ["Atmosphere", "Intimate, sophisticated and adventurous"]
+    ]
+  },
+  "editorialIntro": {
+    "eyebrow": "The Short Version & The Appeal",
+    "heading": "What Is Seabourn Pursuit & Why Is It Different?",
+    "paragraphs": [
+      "Seabourn Pursuit is a purpose-built luxury expedition ship designed to take guests to destinations that require specialized equipment and expedition capabilities.",
+      "The ship entered service in 2023 and was designed as a sister ship to Seabourn Venture. Rather than focusing primarily on established ports and traditional sightseeing, Pursuit is designed around exploration, wildlife, nature and remote destinations.",
+      "Guests can spend part of the day exploring by Zodiac or kayak and return to the ship for a luxury suite, fine dining and Seabourn's personalized service. This makes Pursuit particularly attractive to travelers who want adventure without giving up comfort."
+    ],
+    "placeholderLabel": "Seabourn Pursuit Expedition Ship",
+    "badgeTitle": "264 Guests • PC6 Polar Class",
+    "badgeDescription": "Custom-built for remote polar waters and world-class expedition cruising.",
+    "highlights": [
+      "Expedition Access: 24 Zodiacs, kayaking, wildlife observation, expert-led shore landings & presentations",
+      "Ultra-Luxury Comfort: All-suite accommodations, fine dining, premium open bar & personalized service",
+      "Balanced Exploration: Active outdoor adventure paired with yacht-like sophistication and wellness"
+    ]
+  },
+  "expeditionDaySteps": [
+    {
+      "step": "1",
+      "title": "Breakfast Onboard",
+      "description": "Fuel up with gourmet breakfast selections at The Colonnade or in your private suite before the morning expedition briefing."
+    },
+    {
+      "step": "2",
+      "title": "Expedition Briefing",
+      "description": "Gather with expedition specialists to review daily weather, sea ice conditions, landing protocols and wildlife spotting tips."
+    },
+    {
+      "step": "3",
+      "title": "Zodiac Landing or Cruise",
+      "description": "Board rugged Zodiacs for shore landings on remote beaches, ice shelves, rocky islands or coastal waterways."
+    },
+    {
+      "step": "4",
+      "title": "Wildlife Observation",
+      "description": "Get up close to penguins, seals, seabirds, whales or polar bears in their natural habitats alongside specialist guides."
+    },
+    {
+      "step": "5",
+      "title": "Return to the Ship",
+      "description": "Head back to the ship, warm up in the Mudroom, and transition from the field into ultra-luxury comfort."
+    },
+    {
+      "step": "6",
+      "title": "Lunch",
+      "description": "Enjoy relaxed or gourmet dining at The Colonnade, The Restaurant or open-air casual venues."
+    },
+    {
+      "step": "7",
+      "title": "Afternoon Expedition Activity",
+      "description": "Head out for a second Zodiac excursion, guided kayak session, scenic navigation or guided nature walk."
+    },
+    {
+      "step": "8",
+      "title": "Educational Presentation",
+      "description": "Attend engaging lectures in the Discovery Lounge covering marine biology, geology, polar history and photography."
+    },
+    {
+      "step": "9",
+      "title": "Dinner",
+      "description": "Savor multi-course destination-inspired cuisine paired with complimentary fine wines in an elegant setting."
+    },
+    {
+      "step": "10",
+      "title": "Evening Scenic Cruising or Relaxation",
+      "description": "Watch breathtaking evening landscapes from the observation lounge, spa saunas or your private veranda."
+    }
+  ],
+  "zodiacsAndKayaking": {
+    "title": "Seabourn Pursuit Zodiacs & Kayaking",
+    "subtitle": "EXPEDITION ACCESS ON WATER",
+    "cards": [
+      {
+        "title": "Seabourn Pursuit Zodiacs",
+        "description": "Zodiacs are one of the most important pieces of expedition equipment aboard Pursuit. The ship carries 24 Zodiacs, allowing expedition teams to transport guests between the ship and remote landing locations.",
+        "icon": "Compass",
+        "listTitle": "Depending on the itinerary, Zodiacs can be used for:",
+        "items": [
+          "Shore landings on remote beaches & rocky coasts",
+          "Wildlife viewing and close marine observation",
+          "Scenic cruising among icebergs & glaciers",
+          "Coastal exploration in shallow fjords & bays",
+          "Dedicated photography excursions",
+          "Visiting remote beaches and inaccessible shores",
+          "Exploring around ice floes and glacier walls"
+        ],
+        "list2Title": "What Is a Zodiac Excursion Like? Puts you closer to:",
+        "items2": [
+          "Penguins and penguin rookeries",
+          "Seals resting on ice floes",
+          "Whales and pods of dolphins",
+          "Seabirds nesting on sea cliffs",
+          "Towering icebergs and arches",
+          "Calving glaciers and ice walls",
+          "Dramatic, untouched coastlines"
+        ],
+        "footerNote": "A Zodiac excursion is very different from a bus or walking tour. Board directly from the ship and travel across the water toward unforgettable wildlife encounters."
+      },
+      {
+        "title": "Seabourn Pursuit Kayaking",
+        "description": "Kayaking offers another way to experience the destination. Instead of traveling in a Zodiac with other guests, kayaking can provide a quieter and more personal connection with the surrounding environment.",
+        "icon": "Sailboat",
+        "listTitle": "Opportunities to kayak near:",
+        "items": [
+          "Icebergs, brash ice and floes",
+          "Remote islands and islets",
+          "Deep glaciated fjords",
+          "Rugged remote coastlines",
+          "Sheltered bays and coves",
+          "Active wildlife habitats"
+        ],
+        "list2Title": "Kayaking Program Guidelines:",
+        "items2": [
+          "Led by certified expedition kayak guides",
+          "Specialized cold-water gear and drysuits provided",
+          "Small group format for intimate exploration",
+          "Subject to weather, sea conditions and safety criteria"
+        ],
+        "footerNote": "Kayaking is available on applicable expedition voyages, subject to weather, sea conditions, safety requirements and participation criteria."
+      }
+    ]
+  },
+  "expeditionTeamAndEnrichment": {
+    "title": "Seabourn Pursuit Expedition Team & Enrichment",
+    "subtitle": "DESTINATION EXPERTISE & LECTURES",
+    "cards": [
+      {
+        "title": "The Expedition Team",
+        "description": "A dedicated expedition team helps interpret the destinations visited by Pursuit. Their role isn't limited to leading shore activities—they provide expert guidance and safety throughout the voyage.",
+        "icon": "GraduationCap",
+        "listTitle": "Specialist Backgrounds Include:",
+        "items": [
+          "Marine biology and oceanography",
+          "Wildlife ecology and ornithology",
+          "Geography and glaciology",
+          "Polar history and exploration",
+          "Geology and earth sciences",
+          "Professional photography instruction",
+          "Polar environments and sea ice navigation",
+          "Conservation and environmental science"
+        ],
+        "list2Title": "Expedition Team Roles:",
+        "items2": [
+          "Guiding Zodiac landings and coastal walks",
+          "Active field wildlife spotting and safety management",
+          "On-deck interpretive commentary during scenic cruising",
+          "Daily recaps and preview briefings each evening"
+        ],
+        "footerNote": "Expedition leaders help guests understand the landscapes, ecosystems, and wildlife encountered throughout every stage of the journey."
+      },
+      {
+        "title": "Lectures & Enrichment",
+        "description": "Expedition cruising isn't only about going ashore. The educational program is a core element of the experience, deepening your appreciation of every remote region.",
+        "icon": "Binoculars",
+        "listTitle": "Presentations May Cover:",
+        "items": [
+          "Historic polar exploration and expeditions",
+          "Native polar and marine wildlife behaviors",
+          "Marine ecosystems and food chains",
+          "Local history and indigenous heritage",
+          "Regional geography and topography",
+          "Geology, glaciers and ice formation",
+          "Conservation initiatives in polar regions",
+          "Expedition photography techniques",
+          "Destination culture and traditions"
+        ],
+        "list2Title": "Enrichment Formats:",
+        "items2": [
+          "Keynote presentations in the Discovery Lounge",
+          "Interactive informal science and map chats",
+          "Hands-on wildlife spotting sessions on open decks",
+          "One-on-one specialist discussions over dinner"
+        ],
+        "footerNote": "This makes Pursuit particularly appealing to travelers who want to return home with a deeper, richer understanding of the places they visited."
+      }
+    ]
+  },
+  "suitesSection": {
+    "title": "Seabourn Pursuit Suites",
+    "subtitle": "ACCOMMODATIONS",
+    "items": [
+      {
+        "title": "Luxury Accommodations",
+        "subtitle": "All-Suite Ultra-Luxury",
+        "description": "Pursuit is an all-suite luxury expedition ship. That means guests don't have to sacrifice accommodation quality simply because they're traveling to remote destinations. The exact configuration depends on the suite category.",
+        "features": [
+          "Separate living and sleeping areas in larger categories",
+          "Private verandas",
+          "Ocean views",
+          "Luxury bathrooms",
+          "In-suite bar",
+          "Comfortable seating",
+          "Suite host service",
+          "Luxury amenities"
+        ]
+      },
+      {
+        "title": "Do Seabourn Pursuit Suites Have Balconies?",
+        "subtitle": "Veranda & Balcony Views",
+        "description": "Many Pursuit suites include private verandas. A veranda can be particularly valuable on an expedition voyage. Instead of having to go to a public observation area, you can enjoy the scenery directly from your suite.",
+        "features": [
+          "A whale",
+          "A pod of dolphins",
+          "An iceberg",
+          "A glacier",
+          "Seabirds",
+          "Mountains",
+          "A dramatic coastline"
+        ]
+      }
+    ]
+  },
+  "bestSuiteCards": [
+    {
+      "icon": "Gem",
+      "title": "Best for Value",
+      "description": "A standard veranda suite offers an excellent balance of space, private outdoor viewing and competitive luxury pricing.",
+      "text": "A standard veranda suite offers an excellent balance of space, private outdoor viewing and competitive luxury pricing."
+    },
+    {
+      "icon": "Eye",
+      "title": "Best for Balcony Viewing",
+      "description": "Prioritize a mid-ship or forward veranda suite with unobstructed panoramic views for immediate wildlife spotting.",
+      "text": "Prioritize a mid-ship or forward veranda suite with unobstructed panoramic views for immediate wildlife spotting."
+    },
+    {
+      "icon": "Home",
+      "title": "Best for Additional Space",
+      "description": "Consider a Penthouse-level suite featuring separate living and sleeping quarters and expansive walk-in closets.",
+      "text": "Consider a Penthouse-level suite featuring separate living and sleeping quarters and expansive walk-in closets."
+    },
+    {
+      "icon": "Star",
+      "title": "Best for Maximum Luxury",
+      "description": "Look at the largest premium suite categories (Signature, Wintergarden, or Owner's Suites) for grand multi-room luxury.",
+      "text": "Look at the largest premium suite categories (Signature, Wintergarden, or Owner's Suites) for grand multi-room luxury."
+    }
+  ],
+  "diningCards": [
+    {
+      "icon": "Utensils",
+      "title": "The Restaurant",
+      "description": "The main fine-dining venue offering multi-course gourmet meals, open seating, table service, changing menus, destination-inspired dishes and complimentary fine wines in an elegant setting.",
+      "text": "The main fine-dining venue offering multi-course gourmet meals, open seating, table service, changing menus, destination-inspired dishes and complimentary fine wines in an elegant setting."
+    },
+    {
+      "icon": "Sun",
+      "title": "The Colonnade",
+      "description": "A relaxed, casual dining venue perfect after active morning Zodiac excursions, offering expansive breakfast and lunch buffets alongside regionally themed evening dinners.",
+      "text": "A relaxed, casual dining venue perfect after active morning Zodiac excursions, offering expansive breakfast and lunch buffets alongside regionally themed evening dinners."
+    },
+    {
+      "icon": "Waves",
+      "title": "Earth & Ocean",
+      "description": "An inventive casual venue serving globally inspired dishes in a laid-back atmosphere, offering a delicious alternative to formal dining without requiring reservations.",
+      "text": "An inventive casual venue serving globally inspired dishes in a laid-back atmosphere, offering a delicious alternative to formal dining without requiring reservations."
+    },
+    {
+      "icon": "Home",
+      "title": "24-Hour In-Suite Dining",
+      "description": "Enjoy full course-by-course restaurant service served in your suite or on your private veranda—ideal for relaxing after a thrilling day of Zodiac excursions and cold-water adventures.",
+      "text": "Enjoy full course-by-course restaurant service served in your suite or on your private veranda—ideal for relaxing after a thrilling day of Zodiac excursions and cold-water adventures."
+    }
+  ],
+  "destinationsSection": {
+    "title": "Seabourn Pursuit Destinations",
+    "subtitle": "Pursuit is designed for remote destinations and expedition-style itineraries across Antarctica, the Arctic, Greenland and remote coastal regions.",
+    "tabs": [
+      {
+        "title": "Antarctica",
+        "shortDesc": "Penguin colonies, tidewater glaciers, and polar Zodiac exploration",
+        "category": "Featured Polar Region",
+        "highlight": "Seabourn Pursuit Antarctica Cruises",
+        "description": "Antarctica is one of the ship's most important destinations. The combination of expedition equipment and luxury accommodation makes Pursuit particularly attractive for travelers who want an elevated Antarctic experience. Highlights include frequent Zodiac shore landings, intimate penguin rookery encounters, whale watching, iceberg viewing, glacier scenery, expedition lectures, and guided polar kayaking."
+      },
+      {
+        "title": "The Arctic & Svalbard",
+        "shortDesc": "Drifting pack ice, polar bears, walruses, and historic exploration routes",
+        "category": "High Arctic Exploration",
+        "highlight": "Seabourn Pursuit Arctic Cruises",
+        "description": "The Arctic provides a completely different expedition environment. Depending on the itinerary, guests may encounter Arctic wildlife like polar bears, walruses, and Arctic foxes, massive calving tidewater glaciers, Norwegian fjords, drifting sea ice, remote islands, bird nesting cliffs, and indigenous communities."
+      },
+      {
+        "title": "Greenland & Northern Europe",
+        "shortDesc": "Ilulissat icefjords, Inuit heritage, and remote volcanic coastlines",
+        "category": "Pristine Fjords & Culture",
+        "highlight": "Seabourn Pursuit Greenland Cruises",
+        "description": "Greenland offers a combination of spectacular scenery, remote communities and cultural experiences. An expedition itinerary allows guests to experience massive icebergs in Ilulissat Icefjord, towering coastal fjords, active glaciers, remote Inuit settlements, and quiet kayaking in sheltered fjords."
+      }
+    ]
+  },
+  "onboardExperienceShowcase": {
+    "title": "Seabourn Pursuit Onboard Experience",
+    "subtitle": "YACHT-LIKE SOPHISTICATION & EXPEDITION COMFORT",
+    "items": [
+      {
+        "category": "Onboard Spaces",
+        "title": "Sophisticated Yacht-Like Atmosphere",
+        "description": "Although Pursuit is designed for adventure, the ship itself remains sophisticated and comfortable. The result is an environment that feels more like a luxury yacht than a traditional expedition vessel.",
+        "bestFor": "Lounges, Observation areas, Restaurants, Bars, Spa facilities, Fitness facilities, Outdoor spaces, Expedition briefings, and Educational presentations.",
+        "placeholderLabel": "SEABOURN PURSUIT ONBOARD EXPERIENCE"
+      },
+      {
+        "category": "Sightseeing & Vistas",
+        "title": "Observation Spaces",
+        "description": "Observation areas are particularly important on an expedition ship, since the destination can change continuously throughout the day. For many travelers, simply watching the landscape from the ship is an important part of the experience.",
+        "bestFor": "Wildlife, Icebergs, Mountains, Glaciers, Remote settlements, Birds, and Dramatic coastlines.",
+        "placeholderLabel": "SEABOURN PURSUIT OBSERVATION DECK"
+      },
+      {
+        "category": "Health & Wellbeing",
+        "title": "Seabourn Pursuit Spa and Wellness",
+        "description": "After an active expedition day, wellness facilities provide an opportunity to relax. This is another area where Pursuit differs from expedition ships that focus almost exclusively on exploration.",
+        "bestFor": "Spa treatments, Fitness facilities, Relaxation, and Wellness activities.",
+        "placeholderLabel": "SEABOURN PURSUIT SPA AND WELLNESS"
+      }
+    ]
+  },
+  "travelerTypes": [
+    {
+      "title": "Couples & Milestone Celebrations",
+      "description": "Pursuit is an excellent choice for adventurous couples, combining remote destinations, luxury suites, fine dining, private verandas, wildlife experiences and an intimate atmosphere for anniversaries and milestone celebrations.",
+      "icon": "Heart",
+      "tag": "Romantic Adventure"
+    },
+    {
+      "title": "Solo Travelers",
+      "description": "Solo travelers benefit from the social nature of expedition travel. Shared Zodiac excursions, lectures and dining create effortless connections with fellow travelers and the expedition team.",
+      "icon": "Compass",
+      "tag": "Social Camaraderie"
+    },
+    {
+      "title": "Adventurous Families",
+      "description": "While not a conventional resort ship with waterparks, Pursuit is ideal for adventurous multigenerational families who appreciate wildlife, nature, photography, education and remote wilderness.",
+      "icon": "Users",
+      "tag": "Multigenerational"
+    },
+    {
+      "title": "First-Time Expedition Cruisers",
+      "description": "An ideal introduction to expedition travel for luxury cruisers who want genuine Zodiac exploration, wildlife encounters and lectures without sacrificing fine dining or spacious suites.",
+      "icon": "Anchor",
+      "tag": "Luxury Expedition"
+    }
+  ],
+  "shipComparisonTable": {
+    "title": "Seabourn Pursuit vs. Traditional Seabourn Ships",
+    "subtitle": "TWO STYLES OF LUXURY",
+    "description": "Pursuit belongs to the Seabourn fleet, but its experience is distinctly different from the brand's traditional ocean ships.",
+    "headers": ["Feature", "Seabourn Pursuit", "Traditional Seabourn Ocean Ship"],
+    "rows": [
+      ["Primary focus", "Expedition", "Luxury cruising"],
+      ["Remote destinations", "Strong focus", "Less central"],
+      ["Zodiacs", "Yes", "No"],
+      ["Kayaks", "Yes on applicable voyages", "No core expedition program"],
+      ["Expedition team", "Yes", "Standard enrichment"],
+      ["Polar cruising", "Major focus", "Limited"],
+      ["Shore landings", "Expedition-focused", "Traditional excursions"],
+      ["All-suite accommodations", "Yes", "Yes"],
+      ["Fine dining", "Yes", "Yes"],
+      ["Small-ship atmosphere", "Yes", "Yes"]
+    ]
+  },
+  "pursuitVsVentureTable": {
+    "title": "Seabourn Pursuit vs. Seabourn Venture",
+    "subtitle": "Because Pursuit and Venture are sister expedition ships, they share many characteristics.",
+    "headers": ["Feature", "Seabourn Pursuit", "Seabourn Venture"],
+    "rows": [
+      ["Ship type", "Luxury expedition", "Luxury expedition"],
+      ["Approx. guests", "264", "264"],
+      ["Service entry", "2023", "2022"],
+      ["Zodiacs", "24", "24"],
+      ["Kayaks", "Yes on applicable voyages", "Yes on applicable voyages"],
+      ["Polar capability", "PC6", "PC6"],
+      ["All-suite", "Yes", "Yes"],
+      ["Expedition team", "Yes", "Yes"],
+      ["Submarine capability", "Expedition capability", "Expedition capability"],
+      ["Primary appeal", "Remote exploration + luxury", "Remote exploration + luxury"]
+    ]
+  },
+  "pursuitVsOthersBrand": {
+    "name": "Seabourn Pursuit vs. Other Luxury Expedition Ships",
+    "bestFor": "Expedition Capability + Seabourn Luxury Service Model",
+    "whatMakesItStandOut": "Pursuit's biggest differentiator is its combination of expedition capability and Seabourn's luxury service model. It is a strong choice if you want:",
+    "strengths": [
+      "Small passenger capacity",
+      "All-suite accommodation",
+      "Fine dining",
+      "Personalized service",
+      "Zodiacs",
+      "Kayaking",
+      "Polar exploration",
+      "Remote destinations"
+    ],
+    "considerations": [
+      "Travelers who want a more rugged or highly specialized expedition experience may prefer a different operator, while those who want more traditional luxury cruising may prefer a Seabourn ocean ship."
+    ],
+    "image": ""
+  },
+  "packingGuideSection": {
+    "title": "What Should You Pack for Seabourn Pursuit?",
+    "subtitle": "Your packing list should reflect the destination. For polar expeditions, consider the essential gear and dress code guidelines below.",
+    "categories": [
+      {
+        "id": "clothing",
+        "label": "Expedition Clothing",
+        "icon": "ShirtIcon",
+        "items": [
+          "Waterproof outer layer",
+          "Warm base layers",
+          "Insulating mid-layers",
+          "Waterproof trousers",
+          "Warm hat",
+          "Gloves",
+          "Neck protection",
+          "Sunglasses"
+        ]
+      },
+      {
+        "id": "footwear",
+        "label": "Footwear",
+        "icon": "ShoeIcon",
+        "items": [
+          "Waterproof expedition footwear",
+          "Comfortable onboard shoes"
+        ]
+      },
+      {
+        "id": "essentials",
+        "label": "Other Essentials",
+        "icon": "BackpackIcon",
+        "items": [
+          "Binoculars",
+          "Camera",
+          "Extra batteries",
+          "Waterproof phone protection",
+          "Sunscreen",
+          "Small daypack"
+        ]
+      },
+      {
+        "id": "dresscode",
+        "label": "Dress Code & Guidelines",
+        "icon": "DocumentIcon",
+        "items": [
+          "Expedition Activities: Practical clothing is far more important than formal clothing.",
+          "Onboard Atmosphere: Seabourn maintains a relaxed luxury atmosphere — smart-casual clothing is generally appropriate for restaurants and public areas.",
+          "Style Philosophy: The goal is to look polished without needing an extensive formal wardrobe.",
+          "Priority: The specific packing requirements provided for your voyage should take priority."
+        ]
+      }
+    ]
+  },
+  "prosCons": {
+    "title": "Pros and Cons of Seabourn Pursuit",
+    "prosTitle": "Pros & Key Advantages",
+    "consTitle": "Cons & Considerations",
+    "bestFor": [
+      "Purpose-built luxury expedition ship (entered service 2023)",
+      "Intimate passenger capacity (approx. 264 guests)",
+      "All-suite accommodations with luxury marble bathrooms",
+      "Private verandas on the vast majority of suites",
+      "Fleet of 24 Zodiacs ensuring swift and frequent landings",
+      "Kayaking and active outdoor expedition program",
+      "Dedicated multi-disciplinary expedition team & lectures",
+      "PC6 Polar Class hull for high-latitude polar exploration",
+      "Multiple gourmet dining venues included with open seating",
+      "All-inclusive premium beverages, fine wines and spirits",
+      "Access to remote Antarctica, Arctic and Greenland destinations",
+      "Sophisticated yacht-like onboard environment and wellness spa"
+    ],
+    "notBestFor": [
+      "Premium expedition pricing reflecting luxury all-inclusive inclusions",
+      "Outdoor excursions and landings are strictly weather and ice dependent",
+      "Wildlife sightings are natural and cannot be 100% guaranteed",
+      "Certain activities (e.g. kayaking) have physical participation criteria",
+      "Remote polar embarkation ports require additional flights and planning",
+      "Not designed for travelers looking for large resort ships or Broadway entertainment"
+    ],
+    "bottomNote": "Weighing these factors helps determine if Seabourn Pursuit fits your travel style and expectations."
+  },
+  "whoShouldSailFaceoff": {
+    "title": "Who Should Sail vs. Who Should Choose a Different Ship",
+    "regent": {
+      "title": "Who Should Sail Seabourn Pursuit",
+      "badge": "Expedition Explorers",
+      "description": "Seabourn Pursuit is tailored for travelers who want active exploration without sacrificing all-suite ultra-luxury.",
+      "features": [
+        "Luxury adventure travelers seeking off-the-beaten-path destinations",
+        "Antarctica and polar travelers wanting maximum comfort",
+        "Arctic and Greenland explorers interested in ice and wildlife",
+        "Wildlife enthusiasts, birders and marine life admirers",
+        "Amateur and professional wildlife/landscape photographers",
+        "Couples celebrating milestone anniversaries or bucket-list trips",
+        "Experienced luxury cruisers transitioning to expedition travel",
+        "First-time expedition travelers who refuse to sacrifice luxury",
+        "Multigenerational adventure families with active older children",
+        "Travelers seeking intimate small-ship camaraderie"
+      ]
+    },
+    "viking": {
+      "title": "Who Should Choose a Different Seabourn Ship",
+      "badge": "Traditional Ocean Cruisers",
+      "description": "If your goal is port-intensive warm water cruising, Seabourn Ovation, Encore, Sojourn or Quest may be a better fit.",
+      "features": [
+        "Travelers looking primarily for Mediterranean or Caribbean port hopping",
+        "Guests wanting large-scale theatrical productions and casinos",
+        "Travelers prioritizing extensive multi-pool resort sundecks",
+        "Cruisers who prefer traditional formal nights and black-tie galas",
+        "Vacationers seeking relaxed warm-weather itineraries without active landings"
+      ]
+    }
+  },
+  "itineraryAndBookingGuide": {
+    "title": "How to Choose Itinerary & Tips for Booking Pursuit",
+    "subtitle": "PLANNING & BOOKING ADVICE",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Start with Your Destination",
+        "description": "Decide whether your bucket list calls for the dramatic ice of Antarctica, the polar bears of the Arctic, or the remote fjords of Greenland and Northern Europe."
+      },
+      {
+        "step": "2",
+        "title": "Consider the Polar Season",
+        "description": "Polar destinations have distinct operating windows (Antarctica runs November to March; Arctic and Greenland run May to September)."
+      },
+      {
+        "step": "3",
+        "title": "Compare the Number of Expedition Days",
+        "description": "More dedicated expedition days mean greater opportunities for multiple Zodiac landings, wildlife encounters and flexible weather-dependent routing."
+      },
+      {
+        "step": "4",
+        "title": "Choose the Itinerary Before the Suite",
+        "description": "The destination, landing spots and seasonal timing are the primary reasons to embark on an expedition."
+      },
+      {
+        "step": "5",
+        "title": "Book Early & Consider a Veranda Suite",
+        "description": "Popular polar departures sell out fast due to the intimate 264-guest capacity. A veranda suite lets you view wildlife immediately when announced."
+      },
+      {
+        "step": "6",
+        "title": "Work with a Luxury Travel Advisor",
+        "description": "A luxury expedition specialist helps compare suites, secure exclusive amenities, and coordinate international polar air and pre-cruise logistics."
+      }
+    ],
+    "items": [
+      {
+        "step": "1",
+        "title": "Start with Your Destination",
+        "description": "Decide whether your bucket list calls for the dramatic ice of Antarctica, the polar bears of the Arctic, or the remote fjords of Greenland and Northern Europe."
+      },
+      {
+        "step": "2",
+        "title": "Consider the Polar Season",
+        "description": "Polar destinations have distinct operating windows (Antarctica runs November to March; Arctic and Greenland run May to September)."
+      },
+      {
+        "step": "3",
+        "title": "Compare the Number of Expedition Days",
+        "description": "More dedicated expedition days mean greater opportunities for multiple Zodiac landings, wildlife encounters and flexible weather-dependent routing."
+      },
+      {
+        "step": "4",
+        "title": "Choose the Itinerary Before the Suite",
+        "description": "The destination, landing spots and seasonal timing are the primary reasons to embark on an expedition."
+      },
+      {
+        "step": "5",
+        "title": "Book Early & Consider a Veranda Suite",
+        "description": "Popular polar departures sell out fast due to the intimate 264-guest capacity. A veranda suite lets you view wildlife immediately when announced."
+      },
+      {
+        "step": "6",
+        "title": "Work with a Luxury Travel Advisor",
+        "description": "A luxury expedition specialist helps compare suites, secure exclusive amenities, and coordinate international polar air and pre-cruise logistics."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY EXPEDITION ADVISOR",
+    "authorityBoxTitle": "Angela Hughes Luxury Authority",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Expedition Expertise",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "Expedition cruising on Seabourn Pursuit is the ultimate harmony between raw wilderness exploration and peerless luxury. You spend your day among penguins, glaciers and sea ice, then return to champagne, fine dining and your private suite.",
+    "quoteSubtitle": "Personal Expedition Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand travel experience across more than 121 countries, Angela Hughes is globally recognized for her deep expertise in luxury cruising, expeditions, safaris, and bespoke itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela guides clients to the world's most breathtaking polar and expedition destinations with personalized planning, insider ship access, and VIP Seabourn amenities."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Consult with Angela Hughes on Seabourn Pursuit",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is Seabourn Pursuit?",
+      "answer": "Seabourn Pursuit is a purpose-built luxury expedition ship designed for remote destinations, including Antarctica and Arctic regions."
+    },
+    {
+      "question": "How many guests are on Seabourn Pursuit?",
+      "answer": "Seabourn Pursuit accommodates approximately 264 guests."
+    },
+    {
+      "question": "When did Seabourn Pursuit enter service?",
+      "answer": "Seabourn Pursuit entered service in 2023."
+    },
+    {
+      "question": "Is Seabourn Pursuit an expedition ship?",
+      "answer": "Yes. Seabourn Pursuit was specifically designed for expedition cruising and remote destinations."
+    },
+    {
+      "question": "Does Seabourn Pursuit have Zodiacs?",
+      "answer": "Yes. Pursuit carries 24 Zodiacs for expedition landings and exploration."
+    },
+    {
+      "question": "Does Seabourn Pursuit offer kayaking?",
+      "answer": "Yes. Kayaking is available on applicable expedition voyages, subject to weather, safety and participation requirements."
+    },
+    {
+      "question": "Does Seabourn Pursuit go to Antarctica?",
+      "answer": "Yes. Antarctica is one of Seabourn Pursuit's primary expedition destinations."
+    },
+    {
+      "question": "Does Seabourn Pursuit go to the Arctic?",
+      "answer": "Yes. Selected voyages explore Arctic regions."
+    },
+    {
+      "question": "Does Seabourn Pursuit visit Greenland?",
+      "answer": "Yes. Selected itineraries include Greenland and its remote coastal landscapes."
+    },
+    {
+      "question": "Are Seabourn Pursuit suites all-suite accommodations?",
+      "answer": "Yes. Pursuit is an all-suite luxury expedition ship."
+    },
+    {
+      "question": "Do Seabourn Pursuit suites have balconies?",
+      "answer": "Many Seabourn Pursuit suites have private verandas. Exact features depend on the suite category."
+    },
+    {
+      "question": "What suite categories are available on Seabourn Pursuit?",
+      "answer": "Pursuit offers multiple suite categories that can include Veranda suites, Penthouse suites, Premium suites and larger top-tier accommodations."
+    },
+    {
+      "question": "Is dining included on Seabourn Pursuit?",
+      "answer": "Yes. Dining is included as part of the Seabourn all-inclusive cruise experience."
+    },
+    {
+      "question": "What restaurants are on Seabourn Pursuit?",
+      "answer": "Dining options can include The Restaurant, The Colonnade, Earth & Ocean and in-suite dining. Specific offerings can vary."
+    },
+    {
+      "question": "Does Seabourn Pursuit have a spa?",
+      "answer": "Yes. Seabourn Pursuit provides spa and wellness facilities for relaxation after expedition activities."
+    },
+    {
+      "question": "Is Seabourn Pursuit good for first-time expedition cruisers?",
+      "answer": "Yes. Pursuit can be an excellent introduction to expedition cruising for travelers who want to combine adventure with luxury accommodations and personalized service."
+    },
+    {
+      "question": "Is Seabourn Pursuit good for couples?",
+      "answer": "Yes. The intimate ship, luxury suites, remote destinations and shared expedition experiences make Seabourn Pursuit well suited to couples."
+    },
+    {
+      "question": "Is Seabourn Pursuit suitable for families?",
+      "answer": "It can work well for adventurous multigenerational families, although it is not a traditional family resort ship. Activity age requirements should be checked before booking."
+    },
+    {
+      "question": "Are wildlife sightings guaranteed on Seabourn Pursuit?",
+      "answer": "No. Wildlife sightings depend on natural conditions and cannot be guaranteed."
+    },
+    {
+      "question": "What destinations does Seabourn Pursuit visit?",
+      "answer": "Seabourn Pursuit is designed for remote expedition destinations and can visit Antarctica, Arctic regions, Greenland, Iceland, Northern Europe and other remote coastal destinations depending on the itinerary."
+    },
+    {
+      "question": "What is the difference between Seabourn Pursuit and Seabourn Venture?",
+      "answer": "Seabourn Pursuit and Seabourn Venture are sister expedition ships with many similar characteristics, including approximately 264 guests, 24 Zodiacs, PC6 polar capability, all-suite accommodations and dedicated expedition teams. Itinerary and departure date are often more important than choosing between the two."
+    },
+    {
+      "question": "Is Seabourn Pursuit worth the money?",
+      "answer": "For travelers who prioritize luxury expedition travel, remote destinations, wildlife and personalized service, Seabourn Pursuit can offer strong value. It is less appropriate for travelers seeking a traditional large-ship vacation."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is Seabourn Pursuit a Good Expedition Ship?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Seabourn Pursuit offers a compelling combination of genuine expedition capability and ultra-luxury cruising. Its purpose-built design, Zodiacs, expedition team, kayaking opportunities and polar capability make it capable of exploring remote environments.",
+      "But the ship's real appeal is what happens after the expedition activity. You return from a Zodiac landing to a private luxury suite. You finish a day of wildlife viewing with fine dining. You can spend the evening listening to an expedition presentation or relaxing in an elegant lounge. That balance is what makes Seabourn Pursuit different — it brings the comforts of luxury cruising to destinations where adventure is the main attraction."
+    ],
+    "recommendation": "Our recommendation: Choose Seabourn Pursuit if you want genuine expedition capability, all-suite luxury, fine dining and access to Antarctica, the Arctic and other remote destinations — without giving up the comforts of an ultra-luxury cruise.",
+    "ctaText": "Start Planning Your Seabourn Pursuit Voyage",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "See If Seabourn Pursuit Is Right for You",
+      "description": "Let's compare Pursuit against other Seabourn ships and expedition itineraries to find the right fit for your travel style.",
+      "buttonText": "Start Planning Your Voyage",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Find Your Suite Aboard Seabourn Pursuit",
+      "description": "Let us help you compare suite categories, verandas and dining venues so your expedition feels as luxurious as it is adventurous.",
+      "buttonText": "Explore Suite Availability",
+      "buttonLink": "/contact"
+    },
+    "polarAdventureCta": {
+      "title": "Choose Your Polar Adventure",
+      "description": "Whether it's Antarctica, the Arctic or Greenland, let's find the Seabourn Pursuit itinerary that fits your travel style.",
+      "buttonText": "Find Your Polar Itinerary",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Is Seabourn Pursuit Your Next Adventure?",
+      "description": "Let's compare itineraries, fares and exclusive amenities to find the best value for your Seabourn Pursuit expedition.",
+      "buttonText": "Plan Your Expedition",
+      "buttonLink": "/contact"
+    }
+  }
+}

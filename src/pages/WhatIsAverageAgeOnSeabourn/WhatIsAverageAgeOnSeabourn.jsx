@@ -3,6 +3,23 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from WhatIstheAverageAge
+import HeroImage from "../../assets/WhatIstheAverageAge/what-is-the-average-age-on-a-seabourn-cruise-hero.jpg";
+import EditorialImage from "../../assets/WhatIstheAverageAge/seabourn-passenger-demographics-average-age-editorial.jpg";
+import alaskaDestImg from "../../assets/WhatIstheAverageAge/seabourn-alaska-cruise-demographic-glacier-viewing.jpeg";
+import medDestImg from "../../assets/WhatIstheAverageAge/seabourn-mediterranean-demographic-historic-coastal-cruise.png";
+import caribbeanDestImg from "../../assets/WhatIstheAverageAge/seabourn-caribbean-demographic-winter-luxury-cruise.jpg";
+import antarcticaDestImg from "../../assets/WhatIstheAverageAge/seabourn-antarctica-expeditions-active-adventurer-demographics.jpg";
+import worldCruisesDestImg from "../../assets/WhatIstheAverageAge/seabourn-world-cruises-grand-voyages-extended-travelers.webp";
+import oceanFleetImg from "../../assets/WhatIstheAverageAge/seabourn-classic-ocean-fleet-ovation-encore-quest.jpg";
+import expeditionFleetImg from "../../assets/WhatIstheAverageAge/seabourn-polar-expedition-fleet-venture-pursuit.jpg";
+import youngerImg1 from "../../assets/WhatIstheAverageAge/seabourn-younger-travelers-destination-luxury-experience.jpg";
+import youngerImg2 from "../../assets/WhatIstheAverageAge/seabourn-children-family-policy-small-ship-cruising.jpg";
+
+// Distinct CTA Background Images (from other Seabourn collections)
+import midCtaImg from "../../assets/SeabournCruises/seabourn-onboard-luxury-lifestyle-all-inclusive-amenities.jpg";
+import bottomCtaImg from "../../assets/SeabournCruises/seabourn-conversations-onboard-expert-lectures-enrichment.jpg";
+
 // UI Components (Zero framer-motion dependencies, unique across page)
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -28,6 +45,15 @@ import CurvilinearGrid from "../../components/ui/CurvilinearGrid";
 import data from "./data.json";
 
 const WhatIsAverageAgeOnSeabourn = () => {
+  // Destination Image Map
+  const destinationImageMap = {
+    Alaska: alaskaDestImg,
+    Mediterranean: medDestImg,
+    Caribbean: caribbeanDestImg,
+    "Antarctica & Expeditions": antarcticaDestImg,
+    "World Cruises & Grand Voyages": worldCruisesDestImg
+  };
+
   // 1. Format Destination Profiles for TravelerProfileTabs
   const destinationTabProfiles = data.itineraryDemographics.tabs.map((dest) => ({
     name: dest.name,
@@ -36,8 +62,21 @@ const WhatIsAverageAgeOnSeabourn = () => {
     recommendation: dest.recommendation,
     reason: dest.reason,
     whyFits: dest.whyFits,
-    placeholderLabel: dest.placeholderLabel
+    placeholderLabel: dest.placeholderLabel,
+    image: destinationImageMap[dest.name] || null
   }));
+
+  // Younger Policies with Images
+  const youngerPoliciesItems = [
+    {
+      ...data.youngerAndChildrenPolicies.items[0],
+      image: youngerImg1
+    },
+    {
+      ...data.youngerAndChildrenPolicies.items[1],
+      image: youngerImg2
+    }
+  ];
 
   // 2. Format Advisor Value for GenericChecklistCards
   const advisorCards = [
@@ -256,8 +295,9 @@ const WhatIsAverageAgeOnSeabourn = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         badge={data.hero.badge}
-        ctaText="Plan Your Seabourn Voyage"
-        ctaLink="/contact"
+        backgroundImage={HeroImage}
+        secondaryCtaText="Plan Your Seabourn Voyage"
+        secondaryCtaLink="/contact"
       />
 
       {/* ── 2. Editorial Introduction ──────────────────────────────── */}
@@ -266,6 +306,7 @@ const WhatIsAverageAgeOnSeabourn = () => {
         heading={data.editorialIntro.title}
         lead={data.editorialIntro.lead}
         paragraphs={data.editorialIntro.paragraphs}
+        image={EditorialImage}
         quote="Seabourn attracts accomplished, well-traveled guests who appreciate five-star dining, intimate ships, and destination immersion over loud entertainment."
         quoteAuthor="Angela Hughes, CEO & Luxury Travel Expert"
       />
@@ -299,6 +340,7 @@ const WhatIsAverageAgeOnSeabourn = () => {
         title={data.shipVariations.title}
         subtitle={data.shipVariations.subtitle}
         items={data.shipVariations.items}
+        images={[oceanFleetImg, expeditionFleetImg]}
       />
 
       {/* ── Mid-Page Call to Action ───────────────────────────────── */}
@@ -307,7 +349,8 @@ const WhatIsAverageAgeOnSeabourn = () => {
         description="Speak directly with Angela Hughes and the Trips & Ships team to match your age, pacing, and preferred atmosphere with the ideal ship and itinerary."
         buttonText="Plan Your Cruise With Angela Hughes"
         buttonLink="/contact"
-        theme="light"
+        image={midCtaImg}
+        theme="dark"
       />
 
       {/* ── Age by Decade Breakdown (40s, 50s, 60s, 70s) ───────────── */}
@@ -320,7 +363,7 @@ const WhatIsAverageAgeOnSeabourn = () => {
       {/* ── Younger Travelers & Children Policies on Seabourn ──────── */}
       <HighlightsSplit
         title={data.youngerAndChildrenPolicies.title}
-        items={data.youngerAndChildrenPolicies.items}
+        items={youngerPoliciesItems}
       />
 
       {/* ── 8. Younger Guests, Solo Cruisers & Atmosphere ─────────── */}
@@ -412,7 +455,8 @@ const WhatIsAverageAgeOnSeabourn = () => {
         description="Connect with Angela Hughes and the Trips & Ships team to unlock exclusive Virtuoso amenities, optimal suite locations, and personalized itinerary guidance."
         buttonText="Request Your Seabourn Quote"
         buttonLink="/contact"
-        theme="light"
+        image={bottomCtaImg}
+        theme="dark"
       />
     </div>
   );

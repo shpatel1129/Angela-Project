@@ -1,0 +1,833 @@
+{
+  "hero": {
+    "title": "Seabourn Ovation Ship Guide",
+    "subtitle": "Seabourn Ovation is a luxury ocean cruise ship designed for travelers who want an intimate, sophisticated cruise experience without the size and crowds of a conventional large ship.",
+    "paragraphs": [
+      "As one of Seabourn's larger ocean-going vessels, Ovation combines all-suite accommodations, multiple dining venues, elegant public spaces, personalized service and destination-focused itineraries.",
+      "The ship is particularly appealing to travelers who want the atmosphere of a private yacht with the amenities and variety of a larger luxury vessel.",
+      "In this guide, we'll cover the Seabourn Ovation suites, restaurants, public areas, onboard experience, destinations and the type of traveler the ship suits best."
+    ],
+    "ctaText": "Start Planning Your Seabourn Ovation Voyage",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Ovation at a Glance",
+    "subtitle": "THE SHORT VERSION",
+    "caption": "Note: Specific restaurants, entertainment, itineraries and onboard services may vary depending on the sailing and operational schedule.",
+    "headers": ["Feature", "Seabourn Ovation"],
+    "rows": [
+      ["Ship type", "Luxury ocean cruise ship"],
+      ["Guests", "Approximately 600"],
+      ["Ship style", "All-suite luxury"],
+      ["Atmosphere", "Intimate, elegant and relaxed"],
+      ["Dining", "Multiple restaurants and dining venues"],
+      ["Accommodation", "All-suite"],
+      ["Private verandas", "Available in many suite categories"],
+      ["Pool", "Yes"],
+      ["Spa", "Yes"],
+      ["Fitness center", "Yes"],
+      ["Bars & lounges", "Multiple"],
+      ["Entertainment", "Shows, live music and enrichment"],
+      ["Best for", "Couples, luxury travelers and experienced cruisers"],
+      ["Sister ship", "Seabourn Encore"]
+    ]
+  },
+  "whatIsSection": {
+    "title": "What Is Seabourn Ovation?",
+    "subtitle": "THE SHIP",
+    "paragraphs": [
+      "Seabourn Ovation is an all-suite luxury cruise ship built for travelers who value personalized service, refined dining and a relaxed onboard atmosphere. It offers considerably more space and amenities than a small yacht-style vessel while maintaining the intimate feeling associated with Seabourn."
+    ],
+    "highlights": [
+      "Personalized service",
+      "Spacious suites",
+      "Fine dining",
+      "Destination experiences",
+      "Relaxed public spaces",
+      "Small-ship atmosphere"
+    ],
+    "conclusion": "The result is a cruise experience designed around quality rather than quantity."
+  },
+  "whyChooseChecklistCards": [
+    {
+      "title": "Intimate Yacht Atmosphere & All-Suite Luxury",
+      "items": [
+        "Approximately 600 guests ensuring zero lines and uncrowded spaces",
+        "All-suite accommodations with separate living areas and marble baths",
+        "Many suites with expansive private teak verandas",
+        "Personalized Seabourn service with high staff-to-guest ratios"
+      ]
+    },
+    {
+      "title": "Gourmet Dining & Refined Social Lounges",
+      "items": [
+        "Multiple dining venues from fine dining to relaxed alfresco",
+        "Open-seating dining flexibility with no assigned times",
+        "Elegant residential lounges including the Seabourn Square hub",
+        "Teak sundeck swimming pool and quiet whirlpools"
+      ]
+    },
+    {
+      "title": "Holistic Wellness, Fitness & Enrichment",
+      "items": [
+        "Spa and wellness facilities for post-excursion rejuvenation",
+        "Ocean-view fitness center and personal exercise facilities",
+        "Destination-focused programming, cultural lectures and enrichment"
+      ]
+    }
+  ],
+  "whyChooseCards": [
+    {
+      "icon": "Users",
+      "title": "Approximately 600 Guests",
+      "description": "An intimate guest capacity ensuring zero lines, highly personalized service and relaxed open public spaces.",
+      "text": "An intimate guest capacity ensuring zero lines, highly personalized service and relaxed open public spaces."
+    },
+    {
+      "icon": "Home",
+      "title": "All-Suite Accommodations",
+      "description": "Every single stateroom is a luxury suite featuring separate sleeping and living spaces and marble bathrooms.",
+      "text": "Every single stateroom is a luxury suite featuring separate sleeping and living spaces and marble bathrooms."
+    },
+    {
+      "icon": "Compass",
+      "title": "Many Suites with Verandas",
+      "description": "Expansive private teak balconies for personal ocean viewing, morning coffee and scenic sail-aways.",
+      "text": "Expansive private teak balconies for personal ocean viewing, morning coffee and scenic sail-aways."
+    },
+    {
+      "icon": "Utensils",
+      "title": "Multiple Dining Venues",
+      "description": "A diverse collection of gourmet dining options from fine dining to relaxed alfresco poolside venues.",
+      "text": "A diverse collection of gourmet dining options from fine dining to relaxed alfresco poolside venues."
+    },
+    {
+      "icon": "Gem",
+      "title": "Open-Seating Dining",
+      "description": "Dine when, where and with whom you wish with no assigned tables or rigid seating times.",
+      "text": "Dine when, where and with whom you wish with no assigned tables or rigid seating times."
+    },
+    {
+      "icon": "Star",
+      "title": "Elegant Lounges",
+      "description": "Sophisticated, residential-style bars and social hubs like Seabourn Square designed for relaxed conversation.",
+      "text": "Sophisticated, residential-style bars and social hubs like Seabourn Square designed for relaxed conversation."
+    },
+    {
+      "icon": "Waves",
+      "title": "Swimming Pool & Whirlpools",
+      "description": "A refined teak sundeck pool area designed for quiet sunbathing and leisure rather than noisy crowds.",
+      "text": "A refined teak sundeck pool area designed for quiet sunbathing and leisure rather than noisy crowds."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Spa & Wellness Facilities",
+      "description": "Comprehensive thermal suites, holistic treatments, skincare and massage facilities for ultimate renewal.",
+      "text": "Comprehensive thermal suites, holistic treatments, skincare and massage facilities for ultimate renewal."
+    },
+    {
+      "icon": "Dumbbell",
+      "title": "Fitness Center",
+      "description": "Full ocean-view gymnasium equipped for cardio, strength training and personal wellness routines.",
+      "text": "Full ocean-view gymnasium equipped for cardio, strength training and personal wellness routines."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Destination-Focused Programming",
+      "description": "Carefully curated cultural lectures, port enrichment and itineraries that access boutique harbors.",
+      "text": "Carefully curated cultural lectures, port enrichment and itineraries that access boutique harbors."
+    },
+    {
+      "icon": "Award",
+      "title": "Personalized Seabourn Service",
+      "description": "Industry-leading staff-to-guest ratios where staff remember your personal preferences by name.",
+      "text": "Industry-leading staff-to-guest ratios where staff remember your personal preferences by name."
+    }
+  ],
+  "suitesSection": {
+    "title": "Seabourn Ovation Suites",
+    "subtitle": "ACCOMMODATIONS",
+    "description": "One of the defining characteristics of Ovation is that every accommodation is a suite. This immediately separates the ship from many mainstream cruise vessels. Suites provide more residential-style space than a typical cruise cabin and are designed to give guests a comfortable place to relax between excursions and activities.",
+    "items": [
+      {
+        "title": "Depending on the Category, Suites Can Include",
+        "subtitle": "In-Suite Luxuries & Amenities",
+        "description": "Every suite on Seabourn Ovation is designed with a residential feel, offering abundant comfort, walk-in closets, granite bathrooms and dedicated suite host service.",
+        "features": [
+          "Separate living space",
+          "Bedroom area",
+          "Private veranda",
+          "Ocean views",
+          "Sitting area",
+          "In-suite bar",
+          "Luxury bathroom",
+          "Suite host service"
+        ]
+      },
+      {
+        "title": "Seabourn Ovation Suite Categories",
+        "subtitle": "All-Suite Configurations",
+        "description": "Travelers can choose between more compact entry-level accommodations and expansive multi-room premium suites. The exact layout, size and amenities depend on the specific category.",
+        "features": [
+          "Ocean View Suites",
+          "Veranda Suites",
+          "Penthouse Suites",
+          "Premium Suites",
+          "Larger specialty suites"
+        ]
+      },
+      {
+        "title": "Do Seabourn Ovation Suites Have Balconies?",
+        "subtitle": "Private Veranda Living",
+        "description": "Many Seabourn Ovation suites feature private verandas. A veranda can be particularly valuable for travelers who enjoy spending time outdoors without leaving their accommodation. When choosing a suite, compare both location and layout, rather than simply choosing the largest available category.",
+        "features": [
+          "Watch the ship arrive in port",
+          "Enjoy morning coffee",
+          "Read",
+          "Watch the sunset",
+          "Take in coastal scenery",
+          "Relax between excursions"
+        ]
+      }
+    ]
+  },
+  "bestSuiteCards": [
+    {
+      "icon": "Gem",
+      "title": "Best for Value",
+      "description": "A well-positioned Veranda Suite can provide an excellent combination of space, outdoor access and price.",
+      "text": "A well-positioned Veranda Suite can provide an excellent combination of space, outdoor access and price."
+    },
+    {
+      "icon": "Heart",
+      "title": "Best for Couples",
+      "description": "A veranda suite provides private outdoor space and a comfortable place to relax together.",
+      "text": "A veranda suite provides private outdoor space and a comfortable place to relax together."
+    },
+    {
+      "icon": "Home",
+      "title": "Best for Additional Space",
+      "description": "A Penthouse Suite can be worth considering when living space is a priority.",
+      "text": "A Penthouse Suite can be worth considering when living space is a priority."
+    },
+    {
+      "icon": "Star",
+      "title": "Best for Maximum Luxury",
+      "description": "The ship's largest premium suites provide additional space and upgraded amenities.",
+      "text": "The ship's largest premium suites provide additional space and upgraded amenities."
+    }
+  ],
+  "diningSection": {
+    "title": "Seabourn Ovation Restaurants",
+    "subtitle": "Dining is a major component of the Seabourn experience. Ovation offers several dining environments, allowing guests to choose between formal fine dining, casual meals and relaxed outdoor options.",
+    "description": "Dining is a major component of the Seabourn experience. Ovation offers several dining environments, allowing guests to choose between formal fine dining, casual meals and relaxed outdoor options.",
+    "items": [
+      {
+        "title": "The Restaurant",
+        "subtitle": "Primary Fine Dining",
+        "description": "The Restaurant is Seabourn Ovation's primary fine-dining venue. Guests can enjoy multi-course meals, changing menus, table service, regional dishes, wine, desserts and destination-inspired cuisine."
+      },
+      {
+        "title": "The Colonnade",
+        "subtitle": "Casual Indoor & Outdoor Dining",
+        "description": "The Colonnade provides a more casual alternative to The Restaurant. Guests can enjoy breakfast, lunch, dinner, regional cuisine, casual dishes and buffet selections indoors or alfresco."
+      },
+      {
+        "title": "Earth & Ocean",
+        "subtitle": "Globally Inspired Alfresco",
+        "description": "Earth & Ocean offers a relaxed dining experience with globally inspired dishes under the stars. The venue is designed for travelers who want variety and a less formal atmosphere."
+      },
+      {
+        "title": "The Patio",
+        "subtitle": "Poolside Alfresco Dining",
+        "description": "The Patio provides an outdoor dining environment with grilled specialties, gourmet burgers, salads and light fare while enjoying the surrounding scenery on warm-weather itineraries."
+      },
+      {
+        "title": "In-Suite Dining",
+        "subtitle": "24-Hour Course-by-Course Service",
+        "description": "In-suite dining can be ideal when you want a quiet breakfast, prefer a private dinner, return late from an excursion, want to relax on your veranda, or don't feel like going to a restaurant."
+      }
+    ],
+    "venues": [
+      {
+        "name": "The Restaurant",
+        "title": "The Restaurant",
+        "type": "Primary Fine Dining",
+        "description": "The Restaurant is Seabourn Ovation's primary fine-dining venue. Guests can enjoy multi-course meals, changing menus, table service, regional dishes, wine, desserts and destination-inspired cuisine. The Restaurant is a good choice when you want a traditional luxury dining experience."
+      },
+      {
+        "name": "The Colonnade",
+        "title": "The Colonnade",
+        "type": "Casual Indoor & Outdoor Dining",
+        "description": "The Colonnade provides a more casual alternative to The Restaurant. It can be particularly convenient for breakfast and lunch or when you don't want a traditional fine-dining experience. Depending on the meal period, guests can enjoy breakfast, lunch, dinner, regional cuisine, casual dishes and buffet selections."
+      },
+      {
+        "name": "Earth & Ocean",
+        "title": "Earth & Ocean",
+        "type": "Globally Inspired Alfresco",
+        "description": "Earth & Ocean offers a more relaxed dining experience with globally inspired dishes. The venue is designed for travelers who want variety and a less formal atmosphere. It can be a particularly appealing choice after returning from a shore excursion."
+      },
+      {
+        "name": "The Patio",
+        "title": "The Patio",
+        "type": "Poolside Alfresco Dining",
+        "description": "The Patio provides an outdoor dining environment. Depending on weather and operating schedules, it can be a pleasant option for a relaxed meal while enjoying the surrounding scenery. Outdoor dining is particularly attractive on warm-weather itineraries."
+      },
+      {
+        "name": "In-Suite Dining",
+        "title": "In-Suite Dining",
+        "type": "24-Hour Course-by-Course Service",
+        "description": "In-suite dining can be ideal when you want a quiet breakfast, prefer a private dinner, return late from an excursion, want to relax on your veranda, or simply don't feel like going to a restaurant."
+      }
+    ],
+    "qaCards": [
+      {
+        "title": "Is Seabourn Ovation Dining Open Seating?",
+        "text": "Yes. One of the attractions of Seabourn dining is the flexibility of open seating. Rather than being tied to one table or dining time throughout the cruise, guests can generally choose when and with whom they want to dine within the applicable restaurant's operating schedule. This works particularly well for couples and independent travelers."
+      },
+      {
+        "title": "Is Food Included on Seabourn Ovation?",
+        "text": "Yes. Dining is included as part of Seabourn's all-inclusive cruise experience. A broad selection of beverages is also included. Certain optional products, services or special experiences may have additional charges."
+      }
+    ]
+  },
+  "publicAreasShowcase": {
+    "title": "Seabourn Ovation Public Areas",
+    "subtitle": "ONBOARD SPACES",
+    "description": "Ovation's public spaces are designed around relaxation and conversation rather than large-scale entertainment. The overall design emphasizes an elegant, residential atmosphere.",
+    "items": [
+      {
+        "category": "Social Heart of the Ship",
+        "title": "Seabourn Square",
+        "subtitle": "Social Heart of the Ship",
+        "description": "Seabourn Square functions as one of the ship's central social and service areas. It has more of a sophisticated lounge or living-room atmosphere than a conventional cruise-ship atrium, serving as the relaxed heartbeat of daily life onboard.",
+        "bestFor": "Relaxing, meeting other travelers, concierge assistance, specialty coffee, planning activities, and socializing.",
+        "placeholderLabel": "SEABOURN SQUARE LOUNGE",
+        "paragraphs": [
+          "Seabourn Square functions as one of the ship's central social and service areas. It has more of a sophisticated lounge or living-room atmosphere than a conventional cruise-ship atrium.",
+          "It contributes significantly to the intimate feel of the ship, serving as the relaxed heartbeat of daily life onboard."
+        ],
+        "listTitle": "Guests can use the area to:",
+        "listItems": [
+          "Relax",
+          "Meet other travelers",
+          "Get assistance",
+          "Enjoy coffee",
+          "Plan activities",
+          "Socialize"
+        ]
+      },
+      {
+        "category": "Panoramic Scenic Viewing",
+        "title": "Observation Areas",
+        "subtitle": "Panoramic Scenic Viewing",
+        "description": "Scenic viewing is an important part of any luxury cruise. Ovation provides public spaces where guests can relax and take in the natural surroundings in comfort. For destination-focused itineraries, these viewing decks and indoor lounges become some of the most popular and enjoyable areas onboard.",
+        "bestFor": "Ocean views, sunsets, port arrivals, dramatic coastal scenery, and departures.",
+        "placeholderLabel": "OBSERVATION AREAS & DECKS",
+        "paragraphs": [
+          "Scenic viewing is an important part of any luxury cruise. Ovation provides public spaces where guests can relax and take in the natural surroundings in comfort.",
+          "For destination-focused itineraries, these viewing decks and indoor lounges become some of the most popular and enjoyable areas onboard."
+        ],
+        "listTitle": "Ovation provides public spaces where guests can enjoy:",
+        "listItems": [
+          "Ocean views",
+          "Sunsets",
+          "Port arrivals",
+          "Coastal scenery",
+          "Departures"
+        ]
+      },
+      {
+        "category": "Teak Sundeck & Quiet Relaxation",
+        "title": "Swimming Pool",
+        "subtitle": "Teak Sundeck & Quiet Relaxation",
+        "description": "The ship features an open-air swimming pool area designed for peaceful relaxation. It is focused on quiet leisure and comfort rather than the large, crowded water-park-style pool decks found on mainstream cruise ships.",
+        "bestFor": "Swimming, relaxing in the sun, reading, enjoying a refreshing drink, and lounging between excursions.",
+        "placeholderLabel": "SWIMMING POOL & SUNDECK",
+        "paragraphs": [
+          "The ship features a swimming pool area designed for relaxation. It is more focused on quiet leisure than the large, crowded water-park-style pool decks found on mainstream cruise ships."
+        ],
+        "listTitle": "Guests can:",
+        "listItems": [
+          "Swim",
+          "Relax in the sun",
+          "Read",
+          "Enjoy a drink",
+          "Spend time between excursions"
+        ]
+      },
+      {
+        "category": "Renewal & Wellness Facilities",
+        "title": "Luxury Spa",
+        "subtitle": "Renewal & Wellness Facilities",
+        "description": "The spa provides a tranquil haven to unwind during the voyage. For many guests, the spa is particularly restorative for unwinding and rejuvenating after a busy day exploring a destination.",
+        "bestFor": "Relaxation therapies, revitalizing skincare, massage treatments, beauty services, and wellness rituals.",
+        "placeholderLabel": "THE SPA AT SEABOURN",
+        "paragraphs": [
+          "The spa provides a place to relax during the voyage. For many guests, the spa is particularly useful for unwinding after a busy day exploring a destination."
+        ],
+        "listTitle": "Available wellness services can include treatments designed around:",
+        "listItems": [
+          "Relaxation",
+          "Skincare",
+          "Massage",
+          "Beauty",
+          "Wellness"
+        ]
+      },
+      {
+        "category": "Ocean-View Gym & Exercise",
+        "title": "Fitness Center",
+        "subtitle": "Ocean-View Gym & Exercise",
+        "description": "Travelers who want to maintain their fitness routine can use the ship's fully equipped ocean-view fitness facilities. Specialized programming, yoga, and personal training may also be offered depending on the voyage.",
+        "bestFor": "Cardio workouts, strength training, guided stretching, and general daily exercise.",
+        "placeholderLabel": "OCEAN-VIEW FITNESS CENTER",
+        "paragraphs": [
+          "Travelers who want to maintain their fitness routine can use the ship's fitness facilities. Specialized programming may also be offered depending on the voyage."
+        ],
+        "listTitle": "The gym can be useful for:",
+        "listItems": [
+          "Cardio workouts",
+          "Strength training",
+          "Stretching",
+          "General exercise"
+        ]
+      },
+      {
+        "category": "Intimate Social Venues",
+        "title": "Bars & Lounges",
+        "subtitle": "Intimate Social Venues",
+        "description": "Ovation provides several intimate social spaces where guests can enjoy artisanal cocktails, fine wines, conversation and light entertainment in an atmosphere that is sophisticated, quiet, and relaxed.",
+        "bestFor": "Evenings with handcrafted drinks, pre-dinner cocktails, engaging conversation, and quiet nighttime elegance.",
+        "placeholderLabel": "BARS & SOCIAL LOUNGES",
+        "paragraphs": [
+          "Ovation provides several social spaces where guests can enjoy drinks, conversation and light entertainment. This is different from cruise ships designed around loud nightlife and large crowds."
+        ],
+        "listTitle": "The atmosphere tends to be:",
+        "listItems": [
+          "Sophisticated",
+          "Quiet",
+          "Social",
+          "Relaxed"
+        ]
+      },
+      {
+        "category": "Intimate Evening Performances",
+        "title": "Entertainment",
+        "subtitle": "Intimate Evening Performances",
+        "description": "Entertainment on Ovation focuses on refined quality and intimacy rather than large-scale production. The ship is tailored to travelers who prefer an elegant evening with live acoustic music, cabaret performances, or conversation.",
+        "bestFor": "Live music, intimate vocal performances, guest speakers, cultural presentations, and destination talks.",
+        "placeholderLabel": "EVENING ENTERTAINMENT",
+        "paragraphs": [
+          "Entertainment on Ovation focuses on quality and intimacy rather than large-scale production. The ship is better suited to travelers who prefer an elegant evening with music or conversation than those seeking a large nightclub or Broadway-style entertainment complex."
+        ],
+        "listTitle": "Depending on the sailing, programming can include:",
+        "listItems": [
+          "Live music",
+          "Performances",
+          "Guest speakers",
+          "Cultural presentations",
+          "Destination talks",
+          "Evening entertainment"
+        ]
+      },
+      {
+        "category": "Cultural & Destination Talks",
+        "title": "Enrichment",
+        "subtitle": "Cultural & Destination Talks",
+        "description": "Destination enrichment is a vital pillar of the onboard experience. Thoughtfully curated educational programming helps guests deeply understand the history and heritage of the places they visit.",
+        "bestFor": "Lectures on local history, culture, regional cuisine, art, geography, travel lore, and destination highlights.",
+        "placeholderLabel": "SEABOURN ENRICHMENT SERIES",
+        "paragraphs": [
+          "Destination enrichment can be an important part of the onboard experience. These activities help guests understand the places they visit rather than simply passing through them."
+        ],
+        "listTitle": "Programs may cover:",
+        "listItems": [
+          "Local history",
+          "Culture",
+          "Food",
+          "Art",
+          "Geography",
+          "Travel",
+          "Destination highlights"
+        ]
+      }
+    ]
+  },
+  "destinationsSection": {
+    "title": "Seabourn Ovation Destinations",
+    "subtitle": "WHERE OVATION SAILS",
+    "description": "Ovation is an ocean-going luxury ship designed for a wide variety of destinations. Depending on the sailing schedule, itineraries can include the Mediterranean, Northern Europe, Western Europe, Scandinavia, the British Isles, the Caribbean and other seasonal destinations. Itinerary availability changes over time, so travelers should compare current schedules when planning.",
+    "tabs": [
+      {
+        "id": "mediterranean",
+        "title": "Mediterranean",
+        "shortDesc": "Iconic historic ports, Amalfi coastlines, Greek Isles, and boutique Mediterranean yacht harbors",
+        "category": "Iconic Ports & Ancient History",
+        "highlight": "Seabourn Ovation Mediterranean Cruises",
+        "description": "The Mediterranean is a natural fit for Ovation. The ship's smaller size allows it to provide a more intimate alternative to large cruise ships while visiting iconic destinations. Itinerary highlights include Italy (Amalfi Coast, Rome, Venice), Greece & the Greek Isles, Croatia & the Adriatic Coast, France & the French Riviera, Spain & the Balearic Islands, and Turkey & Ephesus.",
+        "subtitle": "Seabourn Ovation Mediterranean Cruises",
+        "badge": "Iconic Ports & Ancient History",
+        "desc": "The Mediterranean is a natural fit for Ovation. The ship's smaller size allows it to provide a more intimate alternative to large cruise ships while visiting iconic destinations. The exact ports vary by itinerary.",
+        "listLabel": "Possible itinerary highlights can include:",
+        "highlights": [
+          "Italy (Amalfi Coast, Rome, Venice)",
+          "Greece & Greek Isles",
+          "Croatia & Adriatic Coast",
+          "France & French Riviera",
+          "Spain & Balearic Islands",
+          "Turkey & Ephesus"
+        ],
+        "listItems": ["Italy", "Greece", "Croatia", "France", "Spain", "Turkey"]
+      },
+      {
+        "id": "northern-europe",
+        "title": "Northern Europe",
+        "shortDesc": "Dramatic Norwegian fjords, Scandinavian capitals, Scottish Highlands, and Baltic medieval cities",
+        "category": "Fjords, Baltic & British Isles",
+        "highlight": "Seabourn Ovation Northern Europe Cruises",
+        "description": "Northern European itineraries offer a captivating style of luxury cruising, combining breathtaking scenic navigation with rich cultural exploration. Destinations include the Norwegian Fjords, Scandinavia (Stockholm, Copenhagen, Oslo), the British Isles & Scottish Highlands, historic Northern European ports, and medieval Baltic capitals.",
+        "subtitle": "Seabourn Ovation Northern Europe Cruises",
+        "badge": "Fjords, Baltic & British Isles",
+        "desc": "Northern European itineraries can offer a different style of luxury cruise. These cruises can appeal to travelers who want scenic cruising combined with cultural exploration.",
+        "listLabel": "Possible destinations include:",
+        "highlights": [
+          "Norwegian Fjords",
+          "Scandinavia (Stockholm, Copenhagen, Oslo)",
+          "British Isles & Scottish Highlands",
+          "Northern European historic ports",
+          "Baltic capitals & medieval cities"
+        ],
+        "listItems": ["Scandinavia", "British Isles", "Northern European ports", "Fjords", "Baltic destinations"]
+      },
+      {
+        "id": "caribbean",
+        "title": "Caribbean",
+        "shortDesc": "Warm-water cruising, secluded tropical yacht harbors, private beaches, and colonial towns",
+        "category": "Tropical Warm-Water Cruising",
+        "highlight": "Seabourn Ovation Caribbean Cruises",
+        "description": "Caribbean sailings offer warm-weather cruising and a relaxed tropical atmosphere. Ovation's smaller scale accesses boutique yacht harbors and secluded beaches that mega-ships cannot reach. Depending on the itinerary, guests visit intimate Caribbean islands, smaller yacht ports, secluded beaches, and historic colonial towns.",
+        "subtitle": "Seabourn Ovation Caribbean Cruises",
+        "badge": "Tropical Warm-Water Cruising",
+        "desc": "Caribbean sailings offer warm-weather cruising and a more relaxed atmosphere. Ovation's smaller scale can provide a more intimate experience than large Caribbean cruise ships.",
+        "listLabel": "Depending on the itinerary, travelers may visit:",
+        "highlights": [
+          "Intimate Caribbean islands",
+          "Smaller boutique yacht harbors",
+          "Secluded beach destinations",
+          "Historic colonial towns"
+        ],
+        "listItems": ["Caribbean islands", "Smaller ports", "Beach destinations", "Historic towns"]
+      }
+    ]
+  },
+  "travelerTypes": [
+    {
+      "title": "Luxury Seekers",
+      "description": "Discerning travelers seeking high-end finishes, champagne inclusions and refined comfort.",
+      "tag": "All-Inclusive Luxury"
+    },
+    {
+      "title": "Couples & Romantics",
+      "description": "Guests celebrating anniversaries, honeymoons or peaceful adult-oriented escapes.",
+      "tag": "Intimate Romance"
+    },
+    {
+      "title": "All-Suite Enthusiasts",
+      "description": "Travelers who prioritize spacious living quarters, walk-in closets and private verandas.",
+      "tag": "Residential Comfort"
+    },
+    {
+      "title": "Fine Dining Aficionados",
+      "description": "Food and wine lovers who appreciate open seating, gourmet menus and personalized service.",
+      "tag": "Culinary Excellence"
+    },
+    {
+      "title": "Small-Ship Cruisers",
+      "description": "Travelers who want to avoid mega-ship lines, crowded pool decks and long queues.",
+      "tag": "Boutique Scale"
+    },
+    {
+      "title": "Relaxed Socialites",
+      "description": "Guests who enjoy refined living-room ambiance, quiet lounges and conversational atmosphere.",
+      "tag": "Sophisticated Atmosphere"
+    },
+    {
+      "title": "Destination Explorers",
+      "description": "Travelers wanting culturally rich itineraries, longer port stays and curated shore excursions.",
+      "tag": "In-Depth Exploration"
+    },
+    {
+      "title": "Solo Travelers",
+      "description": "Independent travelers who appreciate welcoming open seating and friendly small-ship camaraderie.",
+      "tag": "Welcoming Community"
+    },
+    {
+      "title": "First-Time Luxury Cruisers",
+      "description": "Cruisers upgrading from premium lines who want to experience true all-inclusive elegance.",
+      "tag": "Seamless Introduction"
+    }
+  ],
+  "targetFitFaceoff": {
+    "title": "Who Should Sail vs. Who Should NOT Choose Ovation",
+    "regent": {
+      "title": "Who Should Sail Seabourn Ovation",
+      "badge": "Ideal Travel Match",
+      "description": "Seabourn Ovation is tailored for couples, solo travelers, and first-time luxury cruisers who value refined luxury without excess formality.",
+      "features": [
+        "Couples wanting spacious suites, private verandas, romantic dining and quiet lounges",
+        "Multigenerational families focused on destination experiences, dining and cultural enrichment",
+        "First-time luxury cruisers seeking smaller passenger capacity and all-suite accommodations",
+        "Travelers prioritizing personalized service, open seating and included premium beverages",
+        "Cruisers who appreciate sophisticated, relaxed elegance rather than high-energy crowds"
+      ]
+    },
+    "viking": {
+      "title": "Who Should NOT Choose Seabourn Ovation",
+      "badge": "Alternative Fit",
+      "description": "Ovation may not be the right choice if your ideal cruise includes mega-ship resort entertainment or high-energy nightlife.",
+      "features": [
+        "Huge entertainment venues and Broadway-style mega productions",
+        "Water parks, waterslides and extensive children's facilities",
+        "Dozens of casual chain restaurants and food courts",
+        "Large bustling casinos and late-night loud nightclubs",
+        "Constant high-energy onboard pool games and announcements",
+        "Thousands of passengers and large-scale resort atmospheres"
+      ]
+    }
+  },
+  "ovationVsEncoreTable": {
+    "title": "Seabourn Ovation vs. Seabourn Encore",
+    "subtitle": "Ovation and Encore are sister ships and share many characteristics. For travelers choosing between the two, itinerary, sailing date and suite availability may matter more than the ship itself.",
+    "headers": ["Feature", "Seabourn Ovation", "Seabourn Encore"],
+    "rows": [
+      ["Ship type", "Luxury ocean ship", "Luxury ocean ship"],
+      ["Approx. guests", "600", "600"],
+      ["Accommodation", "All-suite", "All-suite"],
+      ["Atmosphere", "Intimate & sophisticated", "Intimate & sophisticated"],
+      ["Dining", "Multiple venues", "Multiple venues"],
+      ["Public spaces", "Luxury lounges & outdoor areas", "Luxury lounges & outdoor areas"],
+      ["Best for", "Luxury ocean cruising", "Luxury ocean cruising"]
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn Ovation Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "All-suite accommodations with luxury marble bathrooms",
+      "Many suites with private teak verandas",
+      "Approximately 600 guests ensuring an intimate feel",
+      "Multiple dining venues with open-seating flexibility",
+      "Personalized Seabourn service with intuitive staff",
+      "Elegant public spaces including Seabourn Square",
+      "Comprehensive spa and ocean-view fitness facilities",
+      "Relaxed pool area focused on quiet leisure",
+      "Destination-focused programming and enrichment",
+      "Intimate small-ship camaraderie",
+      "Strong choice for couples and milestone anniversaries",
+      "All-inclusive beverages, fine wines and spirits"
+    ],
+    "notBestFor": [
+      "Less onboard entertainment than large mega-ships",
+      "Limited family-focused facilities and no water parks",
+      "Fewer restaurants than mega-ships with dozens of eateries",
+      "Premium pricing reflecting all-inclusive luxury inclusions",
+      "Not designed for travelers seeking a high-energy resort atmosphere"
+    ],
+    "bottomNote": "Weighing these factors helps determine if Seabourn Ovation fits your personal vacation style."
+  },
+  "worthItBrand": {
+    "name": "Seabourn Ovation Value Proposition",
+    "bestFor": "Discerning Travelers Seeking Service, Space & Small-Ship Luxury",
+    "whatMakesItStandOut": "For travelers who prioritize service, space, dining and a sophisticated small-ship atmosphere, Seabourn Ovation can be an excellent value within the luxury cruise market. The value is not primarily about the number of attractions. It comes from the quality of the overall experience.",
+    "strengths": [
+      "Less crowding",
+      "More personal service",
+      "All-suite accommodations",
+      "Flexible dining",
+      "Refined public spaces",
+      "Destination-focused travel"
+    ],
+    "considerations": [
+      "If those qualities matter more to you than water parks, huge theaters and dozens of restaurants, Ovation is likely to be a strong fit."
+    ],
+    "image": ""
+  },
+  "suiteAndPlanningTips": {
+    "title": "Tips for Choosing a Suite & Planning an Ovation Cruise",
+    "subtitle": "EXPERT BOOKING & ITINERARY ADVICE",
+    "items": [
+      {
+        "step": "1",
+        "title": "Decide Whether a Veranda Matters",
+        "description": "For many travelers, private outdoor space is worth prioritizing for morning coffee, port arrivals and scenic viewing."
+      },
+      {
+        "step": "2",
+        "title": "Compare Deck Locations",
+        "description": "Look at the deck plan before booking to evaluate proximity to elevators, restaurants or quieter residential areas."
+      },
+      {
+        "step": "3",
+        "title": "Don't Automatically Book the Largest Suite",
+        "description": "A well-located Veranda Suite can provide an excellent overall experience without paying top-tier suite premiums."
+      },
+      {
+        "step": "4",
+        "title": "Choose the Destination First",
+        "description": "The itinerary should be the starting point — match the sailing to the region and season you most want to explore."
+      },
+      {
+        "step": "5",
+        "title": "Compare Ports & Sea Days Carefully",
+        "description": "Some travelers love relaxing onboard during sea days, while others prefer port-intensive discovery every day."
+      },
+      {
+        "step": "6",
+        "title": "Work with a Luxury Travel Advisor",
+        "description": "An experienced advisor helps compare itineraries, suite categories and access exclusive Seabourn amenities."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY CRUISE EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Cruise Expertise",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "Cruising on Seabourn Ovation represents luxury in its purest form — spacious suites, exquisite dining, and an intimate atmosphere where every staff member knows your name.",
+    "quoteSubtitle": "Personal Cruise Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand travel experience across more than 121 countries, Angela Hughes is globally recognized for her deep expertise in luxury ocean cruising, expeditions, and bespoke itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela guides clients to the world's most breathtaking destinations with personalized planning, insider ship access, and VIP Seabourn amenities."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Work with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is Seabourn Ovation?",
+      "answer": "Seabourn Ovation is an all-suite luxury ocean cruise ship designed for travelers seeking personalized service, fine dining and an intimate onboard atmosphere."
+    },
+    {
+      "question": "How many guests does Seabourn Ovation accommodate?",
+      "answer": "Seabourn Ovation accommodates approximately 600 guests."
+    },
+    {
+      "question": "Is Seabourn Ovation an all-suite ship?",
+      "answer": "Yes. All accommodations on Seabourn Ovation are suites."
+    },
+    {
+      "question": "Do Seabourn Ovation suites have balconies?",
+      "answer": "Many Seabourn Ovation suite categories include private verandas. The exact configuration depends on the suite."
+    },
+    {
+      "question": "What restaurants are on Seabourn Ovation?",
+      "answer": "Dining options can include The Restaurant, The Colonnade, Earth & Ocean, The Patio and in-suite dining."
+    },
+    {
+      "question": "Is dining included on Seabourn Ovation?",
+      "answer": "Yes. Dining is included as part of Seabourn's all-inclusive cruise experience."
+    },
+    {
+      "question": "Is Seabourn Ovation dining open seating?",
+      "answer": "Yes. Seabourn's dining model provides flexible, open-seating options rather than requiring guests to remain at one assigned table throughout the cruise."
+    },
+    {
+      "question": "Does Seabourn Ovation have a pool?",
+      "answer": "Yes. Seabourn Ovation has a pool area designed primarily for relaxation."
+    },
+    {
+      "question": "Does Seabourn Ovation have a spa?",
+      "answer": "Yes. Guests can access spa and wellness services onboard."
+    },
+    {
+      "question": "Does Seabourn Ovation have a fitness center?",
+      "answer": "Yes. The ship provides fitness facilities for guests who want to exercise during the cruise."
+    },
+    {
+      "question": "What destinations does Seabourn Ovation visit?",
+      "answer": "Depending on the itinerary and season, Ovation can sail to destinations in the Mediterranean, Northern Europe, Scandinavia, the British Isles, the Caribbean and other regions."
+    },
+    {
+      "question": "Is Seabourn Ovation good for couples?",
+      "answer": "Yes. Its intimate atmosphere, suites, verandas, dining and destination-focused itineraries make it particularly appealing to couples."
+    },
+    {
+      "question": "Is Seabourn Ovation good for solo travelers?",
+      "answer": "Yes. Open dining and the relatively intimate passenger environment can make the ship comfortable for solo travelers."
+    },
+    {
+      "question": "Is Seabourn Ovation good for families?",
+      "answer": "It can work for families, particularly multigenerational travelers, but it is not designed as a traditional family resort ship."
+    },
+    {
+      "question": "Is Seabourn Ovation good for first-time luxury cruisers?",
+      "answer": "Yes. The combination of all-suite accommodations, personalized service, fine dining and a relaxed atmosphere makes it a strong introduction to luxury cruising."
+    },
+    {
+      "question": "Is Seabourn Ovation formal?",
+      "answer": "The atmosphere is sophisticated but generally relaxed. Smart-casual clothing is appropriate for much of the onboard experience."
+    },
+    {
+      "question": "What is the difference between Seabourn Ovation and Seabourn Encore?",
+      "answer": "They are sister ships with very similar luxury concepts, passenger capacity and onboard experiences. Itinerary and suite availability can be more important factors when choosing between them."
+    },
+    {
+      "question": "Is Seabourn Ovation worth the money?",
+      "answer": "For travelers who value all-suite accommodations, personalized service, fine dining and a quieter luxury cruise atmosphere, Seabourn Ovation can be an excellent choice."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is Seabourn Ovation a Good Ship?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Seabourn Ovation is a strong choice for travelers who want a sophisticated luxury cruise without the crowds and scale of a large cruise ship. Its combination of all-suite accommodations, multiple restaurants, elegant public spaces, flexible dining and personalized service creates an experience centered on comfort and destination exploration.",
+      "The ship is particularly well suited to couples, solo travelers, experienced cruisers and first-time luxury travelers who value a quieter, more refined atmosphere."
+    ],
+    "recommendation": "Our recommendation: If your ideal vacation is a combination of beautiful destinations, excellent food, spacious accommodations and attentive service, Seabourn Ovation deserves a place on your shortlist.",
+    "ctaText": "Start Planning Your Seabourn Ovation Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Find Your Perfect Ovation Suite",
+      "description": "Explore Seabourn Ovation's all-suite configurations. Let us help you select the ideal category, from Ocean View Suites to the largest Premium Suites.",
+      "buttonText": "Explore Suite Availability",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Reserve Your Table at Sea",
+      "description": "From The Restaurant's changing menus to a private veranda dinner, let's plan your onboard dining around what matters most to you.",
+      "buttonText": "Plan My Dining Experience",
+      "buttonLink": "/contact"
+    },
+    "midCta3": {
+      "title": "Plan Your Ovation Voyage",
+      "description": "From the Mediterranean to the Caribbean, let's compare itineraries and find the Seabourn Ovation sailing that fits your travel style.",
+      "buttonText": "Design My Itinerary",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Ovation Cruise",
+      "description": "Let's compare itineraries, fares and exclusive amenities to find the best value for your Seabourn Ovation luxury voyage.",
+      "buttonText": "Plan Your Voyage",
+      "buttonLink": "/contact"
+    }
+  }
+}

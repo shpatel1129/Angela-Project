@@ -13,8 +13,7 @@ import EditorialIntroSplit from "../../components/ui/EditorialIntroSplit";
 import EditorialFeatureShowcase from "../../components/ui/EditorialFeatureShowcase";
 import HighlightsSplit from "../../components/ui/HighlightsSplit";
 import BentoGlassmorphismGrid from "../../components/ui/BentoGlassmorphismGrid";
-import CuratedComforts from "../../components/ui/CuratedComforts";
-import ValuePropositionHighlight from "../../components/ui/ValuePropositionHighlight";
+import CurvilinearGrid from "../../components/ui/CurvilinearGrid";
 import LuxuryZigZagShowcase from "../../components/ui/LuxuryZigZagShowcase";
 import CostValueAnalysisCards from "../../components/ui/CostValueAnalysisCards";
 import GenericChecklistCards from "../../components/ui/GenericChecklistCards";
@@ -26,17 +25,30 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Data Source
 import data from "./data.json";
 
-// Optional Image imports (commented out per requirements)
-// import HeroImage from "../../assets/SeabournAlaskaCruises/hero.jpg";
-// import EncoreImage from "../../assets/SeabournAlaskaCruises/encore.jpg";
-// import GlacierBayImage from "../../assets/SeabournAlaskaCruises/glacier-bay.jpg";
-// import VenturesImage from "../../assets/SeabournAlaskaCruises/ventures.jpg";
-// import WildlifeImage from "../../assets/SeabournAlaskaCruises/wildlife.jpg";
-// import DenaliImage from "../../assets/SeabournAlaskaCruises/denali.jpg";
+// Images from assets/SeabournAlaskaCruises (SEO Optimized Filenames)
+import HeroBgImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-luxury-cruise-ship.jpg";
+import QuickAnswerImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-cruise-oceanfront-veranda.jpg";
+import SkagwayRailwayImage from "../../assets/SeabournAlaskaCruises/skagway-white-pass-railway-alaska.png";
+import ScenicWildernessImage from "../../assets/SeabournAlaskaCruises/alaska-glacier-mountain-lake-scenic-wilderness-vacation.jpeg";
+import EncoreImage from "../../assets/SeabournAlaskaCruises/seabourn-encore-ultra-luxury-ship-alaska.jpg";
+import SmallerShipImage from "../../assets/SeabournAlaskaCruises/seabourn-small-ship-luxury-atmosphere-alaska.jpg";
+import LuxurySuitesImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-luxury-oceanfront-suites.jpg";
+import ScenicCruisingImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-scenic-cruising-mountains.jpg";
+import GlacierBayImage from "../../assets/SeabournAlaskaCruises/seabourn-glacier-bay-national-park-cruising.jpg";
+import GlacierViewingImage from "../../assets/SeabournAlaskaCruises/seabourn-glacier-viewing-hubbard-glacier-bay.jpg";
+import InsidePassageImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-inside-passage-scenic-navigation.jpg";
+import WildlifeViewingImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-wildlife-whales-marine-viewing.jpg";
+import GlacierScenicImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-glacier-viewing-fjords.jpg";
+import WildlifeScenicImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-wildlife-expedition-viewing.jpg";
+import DenaliRailImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-denali-scenic-dome-rail-travel.png";
+import DenaliFlightseeingImage from "../../assets/SeabournAlaskaCruises/seabourn-alaska-denali-flightseeing-glacier-landing.jpg";
+import MidCtaImage from "../../assets/SeabournExpeditionCruises/seabourn-alaska-expedition-cruises-best-season-glaciers.jpg";
+import BottomCtaImage from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
 
 const SeabournAlaskaCruises = () => {
   // Format items for LuxuryZigZagShowcase (Glacier Viewing, Inside Passage, Wildlife)
@@ -151,6 +163,15 @@ const SeabournAlaskaCruises = () => {
     description: f.description
   }));
 
+  // Format What is Alaska like items with images
+  const whatIsAlaskaLikeItems = data.whatIsAlaskaLike.items.map((item, idx) => {
+    const images = [SmallerShipImage, LuxurySuitesImage, ScenicCruisingImage];
+    return {
+      ...item,
+      image: images[idx] || null
+    };
+  });
+
   // Format Ventures activities for HighlightsSplit
   const venturesSplitItems = data.venturesBySeabourn.activities.map((act) => ({
     title: act,
@@ -168,42 +189,87 @@ const SeabournAlaskaCruises = () => {
     {
       title: "The Denali Experience",
       description: `${data.denaliExperience.lead} ${data.denaliExperience.description}`,
-      tag: "Pre-Cruise Land Program"
+      tag: "Pre-Cruise Land Program",
+      image: GlacierScenicImage
     },
     {
       title: "Denali National Park & Preserve",
       description: "Explore the vast wilderness surrounding North America's tallest peak with dedicated guides.",
-      tag: "National Park Highlight"
+      tag: "National Park Highlight",
+      image: WildlifeScenicImage
     },
     {
       title: "Scenic Rail Travel",
       description: "Travel through Alaska's rugged interior via luxury scenic rail cars with panoramic dome windows.",
-      tag: "Interior Transit"
+      tag: "Interior Transit",
+      image: DenaliRailImage
     },
     {
       title: "Flightseeing & Glacier Landings",
       description: `${data.denaliExperience.takeaway} Includes breathtaking aerial views and remote wilderness landings.`,
-      tag: "Wilderness Flightseeing"
+      tag: "Wilderness Flightseeing",
+      image: DenaliFlightseeingImage
     }
   ];
 
-  // Format Cruise Length Curated Comforts Bento
-  const cruiseLengthData = {
-    title: data.cruiseLength.title,
-    subtitle: data.cruiseLength.lead,
-    items: data.cruiseLength.longerReasons.map((reason) => ({
-      title: reason,
-      description: `Essential consideration when choosing a comprehensive 14-day combination voyage versus a 7-day introduction. ${data.cruiseLength.note}`
-    }))
-  };
+  // Format Cruise Length Considerations for CardGrid
+  const cruiseLengthCards = data.cruiseLength.longerReasons.map((reason, idx) => {
+    const icons = ["Anchor", "Mountain", "Compass", "Clock", "MapPin", "Sparkles"];
+    return {
+      title: reason.title || reason,
+      description: reason.description || `Essential consideration when choosing a comprehensive 14-day combination voyage versus a 7-day introduction. ${data.cruiseLength.note}`,
+      icon: icons[idx] || "CheckCircle"
+    };
+  });
 
-  // Format Worth It reasons for ValuePropositionHighlight
-  const worthItItems = data.isWorthIt.reasons.map((r) => ({
-    title: r,
-    description: "True ultra-luxury value combining intimate ship access, all-suite service, and uncompromised destination immersion.",
-    icon: "CheckCircle",
-    impact: "Included Luxury"
-  }));
+  // Format Worth It reasons for CurvilinearGrid (No-image luxury UI component)
+  const worthItCurvilinearItems = [
+    {
+      title: "Smaller-Ship Access",
+      description: "Navigates intimate channels, shallow fjords, and secluded bays inaccessible to larger mega-ships.",
+      icon: "ship"
+    },
+    {
+      title: "Glacier & Fjord Scenery",
+      description: "Up-close navigation through dramatic glacial carving, active ice faces, and coastal mountains.",
+      icon: "Eye"
+    },
+    {
+      title: "Inside Passage Itineraries",
+      description: "Dedicated routing through narrow scenic waterways, misty straits, and remote coastal passages.",
+      icon: "map"
+    },
+    {
+      title: "Glacier Bay Options",
+      description: "Select itineraries featuring full-day UNESCO World Heritage Glacier Bay National Park access.",
+      icon: "Compass"
+    },
+    {
+      title: "Wildlife Opportunities",
+      description: "Expedition-level spotting of humpback whales, orcas, coastal brown bears, and bald eagles.",
+      icon: "Activity"
+    },
+    {
+      title: "Ventures by Seabourn",
+      description: "Active Zodiac excursions, guided sea kayaking, and hiking straight from the ship.",
+      icon: "Maximize"
+    },
+    {
+      title: "Expedition Expertise",
+      description: "Insights and interpretative commentary provided daily by onboard scientists and naturalists.",
+      icon: "Compass"
+    },
+    {
+      title: "Personalized Luxury",
+      description: "All-suite oceanfront accommodations, complimentary fine dining, and intuitive yacht-style service.",
+      icon: "Heart"
+    },
+    {
+      title: "Optional Denali Extension",
+      description: "Pre-cruise land journeys extending into interior Alaska with luxury scenic dome rail and flightseeing.",
+      icon: "map"
+    }
+  ];
 
   return (
     <div className="w-full bg-white font-sans text-navy-900 antialiased">
@@ -228,7 +294,7 @@ const SeabournAlaskaCruises = () => {
           subtitle={data.hero.subtitle}
           description={data.hero.description}
           badge={data.hero.badge}
-          // backgroundImage={HeroImage}
+          backgroundImage={HeroBgImage}
           secondaryCtaText={data.hero.ctaText}
           secondaryCtaLink={data.hero.ctaLink}
         />
@@ -243,7 +309,7 @@ const SeabournAlaskaCruises = () => {
         placeholderLabel={data.quickAnswer.placeholderLabel}
         badgeTitle={data.quickAnswer.badgeTitle}
         badgeDescription={data.quickAnswer.badgeDescription}
-        // image={GlacierBayImage}
+        image={QuickAnswerImage}
       />
 
       {/* ── 3. Quick Answer Matrix Table ──────────────────────────── */}
@@ -261,7 +327,8 @@ const SeabournAlaskaCruises = () => {
         image2Placeholder="LUXURY SUITE HOSPITALITY"
         ctaText="Plan With Seabourn Specialists"
         ctaLink="/contact"
-        // image1={HeroImage}
+        image1={SkagwayRailwayImage}
+        image2={ScenicWildernessImage}
       />
 
       {/* ── 5. Seabourn Encore in Alaska (Editorial Intro Split) ──── */}
@@ -269,14 +336,14 @@ const SeabournAlaskaCruises = () => {
         eyebrow={data.encoreInAlaska.eyebrow}
         heading={data.encoreInAlaska.title}
         paragraphs={[data.encoreInAlaska.lead, ...data.encoreInAlaska.paragraphs]}
-        // primaryImage={EncoreImage}
+        primaryImage={EncoreImage}
       />
 
       {/* ── 6. What Is Seabourn Alaska Like? (Scenic, Wildlife, Glaciers) */}
       <ThreeColumnGrid
         title={data.whatIsAlaskaLike.title}
         subtitle={data.whatIsAlaskaLike.subtitle}
-        items={data.whatIsAlaskaLike.items}
+        items={whatIsAlaskaLikeItems}
       />
 
       {/* ── 7. Does Seabourn Go to Glacier Bay? (Editorial Feature Showcase) ── */}
@@ -287,7 +354,7 @@ const SeabournAlaskaCruises = () => {
           title: item,
           description: "Essential route landmark to identify when booking pristine glacial fjord itineraries."
         }))}
-        // image={GlacierBayImage}
+        image={GlacierBayImage}
       />
 
       {/* ── 8. Seabourn Alaska Itineraries ─────────────────────────── */}
@@ -322,12 +389,22 @@ const SeabournAlaskaCruises = () => {
         )}
       </div>
 
+      {/* ── Video Showcase: Seabourn Alaska Experience ────────────── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "3D-zCFFhhEo",
+          title: "Experience Seabourn in Alaska",
+          description: "Immerse yourself in the majestic beauty of Alaska with Seabourn—from close-up glacier viewing and active wildlife exploration to ultra-luxury yacht-style service onboard."
+        }}
+      />
+
       {/* ── Mid-Page Call to Action ───────────────────────────────── */}
       <CenterCTA
         title="Experience Alaska with Ultra-Luxury Precision"
         description="Connect with Angela Hughes and the Trips & Ships team to secure your preferred Seabourn Encore suite and Glacier Bay itinerary."
         buttonText="Plan Your Alaska Journey"
         buttonLink="/contact"
+        image={MidCtaImage}
         theme="dark"
       />
 
@@ -336,6 +413,7 @@ const SeabournAlaskaCruises = () => {
         title="Glaciers, Wildlife & The Inside Passage"
         subtitle="Explore Alaska's majestic wilderness from narrow fjords to active marine habitats with Seabourn's expedition naturalists."
         items={zigZagItems}
+        images={[GlacierViewingImage, InsidePassageImage, WildlifeViewingImage]}
       />
 
       {/* ── 13. Traveler Personas (Couples, Families, First-Timers) ── */}
@@ -401,9 +479,12 @@ const SeabournAlaskaCruises = () => {
         columns={3}
       />
 
-      {/* ── 20. Cruise Length Considerations (Curated Comforts Bento) ─ */}
-      <CuratedComforts
-        data={cruiseLengthData}
+      {/* ── 20. Cruise Length Considerations ──────────────────────── */}
+      <CardGrid
+        title={data.cruiseLength.title}
+        subtitle={`${data.cruiseLength.lead} ${data.cruiseLength.longerReasonTitle}`}
+        cards={cruiseLengthCards}
+        columns={3}
       />
 
       {/* ── 21. Step-by-Step Itinerary Selection Guide ─────────────── */}
@@ -425,12 +506,15 @@ const SeabournAlaskaCruises = () => {
         bgClass="bg-slate-50"
       />
 
-      {/* ── 23. Is Seabourn Worth It for Alaska? (Value Proposition Highlight) ── */}
-      <ValuePropositionHighlight
+      {/* ── 23. Is Seabourn Worth It for Alaska? (CurvilinearGrid) ── */}
+      <CurvilinearGrid
         title={data.isWorthIt.title}
-        subtitle={data.isWorthIt.description}
-        items={worthItItems}
-        imageOverlayText="Small-Ship Access & Ultra-Luxury Value"
+        subtitle={data.isWorthIt.eyebrow}
+        paragraphs={[
+          data.isWorthIt.description,
+          data.isWorthIt.strongestReasonsTitle
+        ]}
+        items={worthItCurvilinearItems}
       />
 
       {/* ── 24. How to Choose the Best Seabourn Alaska Cruise ──────── */}
@@ -486,6 +570,7 @@ const SeabournAlaskaCruises = () => {
         description="Contact our luxury cruise specialists today to access exclusive Seabourn amenities, select staterooms, and custom Denali land extensions."
         buttonText={data.finalTakeaway.ctaText}
         buttonLink={data.finalTakeaway.ctaLink}
+        image={BottomCtaImage}
         theme="dark"
       />
     </div>

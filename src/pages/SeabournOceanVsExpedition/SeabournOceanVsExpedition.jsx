@@ -4,6 +4,28 @@ import { Link } from "react-router-dom";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from SeabournOceanvsExpeditionCruises (SEO-Optimized)
+import heroImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-ocean-vs-expedition-cruises-hero.jpg";
+import editorialImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-ocean-vs-expedition-two-distinct-luxury-approaches-editorial.jpg";
+import oceanCoreImg from "../../assets/SeabournOceanvsExpeditionCruises/what-is-a-seabourn-ocean-cruise-classic-luxury-ports.jpg";
+import expeditionCoreImg from "../../assets/SeabournOceanvsExpeditionCruises/what-is-a-seabourn-expedition-cruise-polar-exploration-ships.jpg";
+import ovationImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-ovation-ocean-fleet-luxury-cruise-ship.jpg";
+import encoreImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-encore-ocean-fleet-modern-luxury-ship.jpg";
+import questImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-quest-ocean-fleet-intimate-luxury-ship.jpg";
+import ventureImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-venture-ultra-luxury-polar-expedition-ship.jpg";
+import pursuitImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-pursuit-remote-destination-expedition-ship.jpg";
+import oceanDestImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-ocean-cruise-destinations-mediterranean-caribbean-alaska.jpg";
+import expeditionDestImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-expedition-cruise-destinations-arctic-antarctica-kimberley.jpg";
+import antarcticaDestImg from "../../assets/SeabournOceanvsExpeditionCruises/is-seabourn-antarctica-ocean-or-expedition-cruise-guide.jpg";
+import oceanSeaDayImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-ocean-fleet-sea-day-relaxation-dining-amenities.jpg";
+import expeditionSeaDayImg from "../../assets/SeabournOceanvsExpeditionCruises/seabourn-expedition-fleet-sea-day-wildlife-zodiac-discovery.jpg";
+import chooseOceanImg from "../../assets/SeabournOceanvsExpeditionCruises/choose-seabourn-ocean-cruise-classic-cultural-ports.jpg";
+import considerExpeditionImg from "../../assets/SeabournOceanvsExpeditionCruises/consider-seabourn-expedition-cruise-remote-adventure.jpg";
+
+// Distinct CTA Background Images (from other Seabourn collections)
+import midCtaImg from "../../assets/SeabournCruises/seabourn-purpose-built-ultra-luxury-expedition-cruises.jpg";
+import bottomCtaImg from "../../assets/SeabournShips/seabourn-ocean-vs-expedition-fleet-comparison.jpg";
+
 // Distinct UI Components (Zero repetition of component types across sections)
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -24,6 +46,7 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 import FadeIn from "../../components/ui/FadeIn";
 
 // Data Source
@@ -59,20 +82,29 @@ const SeabournOceanVsExpedition = () => {
   ];
 
   // ── 2. LuxuryZigZagShowcase Data (Combined Ocean & Expedition Fleet) ──
+  const shipImageMap = {
+    "Seabourn Ovation": ovationImg,
+    "Seabourn Encore": encoreImg,
+    "Seabourn Quest": questImg,
+    "Seabourn Venture": ventureImg,
+    "Seabourn Pursuit": pursuitImg
+  };
   const fleetShowcaseItems = [
     ...data.fleetProfiles.oceanFleet.map((ship) => ({
       title: ship.title,
       name: ship.title,
       category: ship.category,
       description: ship.description,
-      bullets: ship.bullets
+      bullets: ship.bullets,
+      image: shipImageMap[ship.title] || null
     })),
     ...data.fleetProfiles.expeditionFleet.map((ship) => ({
       title: ship.title,
       name: ship.title,
       category: ship.category,
       description: ship.description,
-      bullets: ship.bullets
+      bullets: ship.bullets,
+      image: shipImageMap[ship.title] || null
     }))
   ];
 
@@ -80,6 +112,7 @@ const SeabournOceanVsExpedition = () => {
   const coreShowcaseItems = [
     {
       title: "What Is a Seabourn Ocean Cruise?",
+      image: oceanCoreImg,
       paragraphs: [
         "A Seabourn ocean cruise is the more traditional version of the Seabourn experience.",
         "You still receive the intimate, small-ship atmosphere, all-suite accommodations and personalized service associated with the brand, but the voyage is primarily structured around visiting established ports and destinations."
@@ -99,6 +132,7 @@ const SeabournOceanVsExpedition = () => {
     },
     {
       title: "What Is a Seabourn Expedition Cruise?",
+      image: expeditionCoreImg,
       paragraphs: [
         "A Seabourn expedition cruise is designed around exploration.",
         "The expedition ships Seabourn Venture and Seabourn Pursuit were purpose-built for this style of travel."
@@ -150,13 +184,15 @@ const SeabournOceanVsExpedition = () => {
       title: data.destinationsExploration.ocean.title,
       description: data.destinationsExploration.ocean.description,
       category: "TRADITIONAL OCEAN PORTS",
-      features: data.destinationsExploration.ocean.places
+      features: data.destinationsExploration.ocean.places,
+      image: oceanDestImg
     },
     {
       title: data.destinationsExploration.expedition.title,
       description: `${data.destinationsExploration.expedition.description} ${data.destinationsExploration.expedition.footnote}`,
       category: "REMOTE EXPEDITION REGIONS",
-      features: data.destinationsExploration.expedition.places
+      features: data.destinationsExploration.expedition.places,
+      image: expeditionDestImg
     },
     {
       title: data.destinationsExploration.antarcticaDeepDive.title,
@@ -167,7 +203,8 @@ const SeabournOceanVsExpedition = () => {
         "Wet landings among penguin colonies",
         "Guided hikes across polar ice & tundra",
         "Expert marine biologist & historian debriefs"
-      ]
+      ],
+      image: antarcticaDestImg
     }
   ];
 
@@ -290,7 +327,8 @@ const SeabournOceanVsExpedition = () => {
       quote: "A sea day on a Seabourn ocean ship is pure restorative freedom—unhurried mornings, poolside cocktails, spa indulgence, and fine dining.",
       reason: "Designed for travelers who want the luxury ship itself to be an indulgent destination.",
       whyFits: data.lifeOnboardComparison.seaDayTimeline.ocean.activities,
-      placeholderLabel: "Ocean Fleet Sea Day Experience"
+      placeholderLabel: "Ocean Fleet Sea Day Experience",
+      image: oceanSeaDayImg
     },
     {
       name: "Expedition Sea Day",
@@ -299,7 +337,8 @@ const SeabournOceanVsExpedition = () => {
       recommendation: data.lifeOnboardComparison.seaDayTimeline.expedition.activities.join(" • "),
       reason: "Designed for travelers who thrive on natural wonder, science, and spontaneous exploration.",
       whyFits: data.lifeOnboardComparison.seaDayTimeline.expedition.activities,
-      placeholderLabel: "Expedition Fleet Sea Day Experience"
+      placeholderLabel: "Expedition Fleet Sea Day Experience",
+      image: expeditionSeaDayImg
     }
   ];
 
@@ -374,6 +413,13 @@ const SeabournOceanVsExpedition = () => {
         "You want a more flexible expedition itinerary"
       ]
     }
+  };
+
+  // ── 10. Video Component Data ─────────────────────────────────────
+  const oceanVsExpeditionVideoData = {
+    youtubeId: "yPMZpLaHHpc",
+    title: "Seabourn Ocean vs. Expedition Cruises: Expert Comparison",
+    description: "Watch luxury travel expert Angela Hughes break down the essential differences between Seabourn's classic ocean yachts and purpose-built polar expedition ships."
   };
 
   // ── Schema.org JSON-LD Structured Data ───────────────────────────
@@ -553,17 +599,19 @@ const SeabournOceanVsExpedition = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.leadText}
-        heroImage={data.hero.heroImage}
-        stats={data.hero.stats}
+        backgroundImage={heroImg}
+        secondaryCtaText="Explore Seabourn Voyages"
+        secondaryCtaLink="/contact"
       />
-
-     
 
       {/* ── 2. Editorial Introduction (EditorialIntroSection) ──────── */}
-      <EditorialIntroSection
-        title={data.intro.title}
-        paragraphs={data.intro.paragraphs}
-      />
+      <div id="content">
+        <EditorialIntroSection
+          title={data.intro.title}
+          paragraphs={data.intro.paragraphs}
+          image={editorialImg}
+        />
+      </div>
 
       {/* ── 3. Quick Answer Comparison Table (ComparisonTable) ─────── */}
       <div className="bg-slate-50 py-12">
@@ -615,6 +663,16 @@ const SeabournOceanVsExpedition = () => {
         )}
       </div>
 
+      {/* ── Mid-Page Call to Action ───────────────────────────────── */}
+      <CenterCTA
+        title="Deciding Between an Ocean Yacht or Polar Expedition?"
+        description="Connect with Angela Hughes and the Trips & Ships team to compare fleet amenities, verify seasonal destination weather, and unlock exclusive Virtuoso benefits."
+        buttonText="Compare Seabourn Itineraries"
+        buttonLink="/contact"
+        image={midCtaImg}
+        theme="dark"
+      />
+
       {/* ── 9. Excursions & Activities Dynamics (CurvilinearGrid) ─── */}
       <CurvilinearGrid
         title={data.excursionsAndActivities.title}
@@ -628,6 +686,9 @@ const SeabournOceanVsExpedition = () => {
         subtitle="EXPLORING COMFORT, PACING, DINING & ENTERTAINMENT DIFFERENCES"
         personas={onboardNuancePersonas}
       />
+
+      {/* ── Mid-Page Video Spotlight (Angela Hughes Expert Comparison) ── */}
+      <VideoEmbed data={oceanVsExpeditionVideoData} />
 
       {/* ── 10. Sea Day Progression Timeline (TravelerProfileTabs) ─── */}
       <TravelerProfileTabs
@@ -654,8 +715,8 @@ const SeabournOceanVsExpedition = () => {
       {/* ── 13. Decision Framework (DualPhilosophyShowcase) ────────── */}
       <DualPhilosophyShowcase
         data={decisionDualData}
-        /* imageSailing="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1200&q=80" */
-        /* imageAllSuite="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80" */
+        imageSailing={chooseOceanImg}
+        imageAllSuite={considerExpeditionImg}
       />
 
       {/* ── 14. 12 Questions Before Booking (ExpertAuthorityChecklist) ─ */}
@@ -701,10 +762,24 @@ const SeabournOceanVsExpedition = () => {
 
       {/* ── 16. Expert Credentials (Angela Hughes) ──────────────────── */}
       <ExpertCredentials
-        authorName={data.advisorValue.author.name}
-        authorTitle={data.advisorValue.author.title}
-        authorBio={data.advisorValue.author.bio}
-        authorImage={AboutImage}
+        title={data.advisorValue.author.title}
+        name={data.advisorValue.author.name}
+        image={AboutImage}
+        badge="LUXURY CRUISE & EXPEDITION EXPERT"
+        experienceBadge="40+ YEARS EXPERTISE"
+        bio={data.advisorValue.author.bio}
+        credentials={[
+          "Over 4 Decades Designing Luxury & Expedition Cruises",
+          "Explored 121+ Countries Across All 7 Continents",
+          "CEO & Founder of Trips & Ships Luxury Travel",
+          "Certified Virtuoso Luxury Travel Advisor & Cruise Specialist",
+          "Direct Relationships with Seabourn Fleet Operations & Executives",
+          "Specialist in Ocean Yachts, Polar Expeditions & Remote Itineraries"
+        ]}
+        authorityBoxTitle="Why Plan Your Seabourn Voyage With Angela Hughes?"
+        authoritySubtitle="With over four decades of luxury travel mastery, Angela Hughes ensures you choose the ideal ship architecture, suite location, and destination pacing for your personal travel style."
+        ctaText="Work With Angela Hughes"
+        ctaLink="/contact"
       />
 
       {/* ── 17. Frequently Asked Questions (FAQAccordion) ──────────── */}
@@ -730,6 +805,8 @@ const SeabournOceanVsExpedition = () => {
         subtitle={data.cta.subtitle}
         buttonText={data.cta.buttonText}
         buttonLink={data.cta.buttonLink}
+        image={bottomCtaImg}
+        theme="dark"
       />
     </div>
   );

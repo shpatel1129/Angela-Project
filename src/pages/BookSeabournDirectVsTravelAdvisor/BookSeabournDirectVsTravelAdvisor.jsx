@@ -28,6 +28,30 @@ import {
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from ShouldYouBookSeabournDirectly (SEO-Optimized)
+import heroImg from "../../assets/ShouldYouBookSeabournDirectly/should-you-book-seabourn-directly-or-through-a-travel-advisor-hero.jpg";
+import editorialImg from "../../assets/ShouldYouBookSeabournDirectly/seabourn-direct-booking-vs-luxury-travel-advisor-editorial-guide.jpg";
+
+// 8 Pillars Images
+import pillar1Img from "../../assets/ShouldYouBookSeabournDirectly/choosing-the-right-seabourn-cruise-sailing-itinerary-planning.jpg";
+import pillar2Img from "../../assets/ShouldYouBookSeabournDirectly/selecting-the-right-seabourn-luxury-suite-and-deck-location.jpg";
+import pillar3Img from "../../assets/ShouldYouBookSeabournDirectly/understanding-seabourn-all-inclusive-cruise-fares-and-value.jpg";
+import pillar4Img from "../../assets/ShouldYouBookSeabournDirectly/planning-international-flights-around-seabourn-cruise-logistics.jpg";
+import pillar5Img from "../../assets/ShouldYouBookSeabournDirectly/planning-luxury-pre-cruise-hotel-stays-and-seabourn-transfers.jpg";
+import pillar6Img from "../../assets/ShouldYouBookSeabournDirectly/seabourn-curated-shore-excursions-and-private-tour-planning.jpg";
+import pillar7Img from "../../assets/ShouldYouBookSeabournDirectly/planning-milestone-anniversaries-and-special-occasions-on-seabourn.jpg";
+import pillar8Img from "../../assets/ShouldYouBookSeabournDirectly/coordinating-multigenerational-families-and-group-travel-on-seabourn.jpg";
+
+// Faceoff Images
+import simpleTripsDirectImg from "../../assets/ShouldYouBookSeabournDirectly/is-booking-seabourn-directly-better-for-simple-cruise-trips.jpg";
+import whenAdvisorUsefulImg from "../../assets/ShouldYouBookSeabournDirectly/when-a-luxury-travel-advisor-is-essential-for-complex-seabourn-voyages.jpg";
+
+// Destination Images
+import alaskaImg from "../../assets/ShouldYouBookSeabournDirectly/seabourn-alaska-cruise-glacier-and-wilderness-advisor-planning.jpeg";
+import antarcticaImg from "../../assets/ShouldYouBookSeabournDirectly/seabourn-antarctica-polar-expedition-cruise-advisor-logistics.jpg";
+import caribbeanImg from "../../assets/ShouldYouBookSeabournDirectly/seabourn-caribbean-luxury-yacht-cruise-destinations.jpg";
+import europeImg from "../../assets/ShouldYouBookSeabournDirectly/seabourn-mediterranean-and-northern-europe-luxury-cruises.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -67,22 +91,16 @@ const BookSeabournDirectVsTravelAdvisor = () => {
   }));
 
   // ── 8 Pillars Image-based Data for LuxuryZigZagShowcase ──
-  // =========================================================================
-  // IMAGES COMMENTED OUT AS REQUESTED - UNCOMMENT WHEN READY TO DISPLAY IMAGES
-  // =========================================================================
-  /*
   const pillarImages = [
-    "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=80"
+    pillar1Img,
+    pillar2Img,
+    pillar3Img,
+    pillar4Img,
+    pillar5Img,
+    pillar6Img,
+    pillar7Img,
+    pillar8Img
   ];
-  */
-  const pillarImages = []; // Commented-out image slots ready
 
   const pillarsZigZagItems = [
     {
@@ -169,13 +187,19 @@ const BookSeabournDirectVsTravelAdvisor = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         stats={data.hero.stats}
+        backgroundImage={heroImg}
+        secondaryCtaText="Request a Consultation"
+        secondaryCtaLink="/contact"
       />
 
       {/* ── 2. Editorial Introduction ── */}
-      <EditorialIntroSection
-        title={data.intro.title}
-        paragraphs={data.intro.paragraphs}
-      />
+      <div id="content">
+        <EditorialIntroSection
+          title={data.intro.title}
+          paragraphs={data.intro.paragraphs}
+          image={editorialImg}
+        />
+      </div>
 
       {/* Core Question Callout */}
       <section className="py-8 bg-slate-100 border-b border-slate-200">
@@ -291,8 +315,8 @@ const BookSeabournDirectVsTravelAdvisor = () => {
             )
           }
         }}
-        // regentImage="https://images.unsplash.com/photo-1548574505-5e2386136fb6?auto=format&fit=crop&w=1200&q=80"
-        // vikingImage="https://images.unsplash.com/photo-1516495312341-3da872e27e7a?auto=format&fit=crop&w=1200&q=80"
+        regentImage={simpleTripsDirectImg}
+        vikingImage={whenAdvisorUsefulImg}
       />
 
       {/* ── 8. Advantages & Limitations (Pros & Cons) (ProsConsCards) ── */}
@@ -392,16 +416,14 @@ const BookSeabournDirectVsTravelAdvisor = () => {
             ...(dest.cities ? dest.cities.map((c) => `Pre/Post Extension: ${c}`) : []),
             ...(dest.routing ? [dest.summary] : [])
           ],
-          /*
           image:
             dest.destination === "Alaska"
-              ? "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80"
+              ? alaskaImg
               : dest.destination === "Antarctica"
-              ? "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80"
+              ? antarcticaImg
               : dest.destination === "Caribbean"
-              ? "https://images.unsplash.com/photo-1548574505-5e2386136fb6?auto=format&fit=crop&w=1200&q=80"
-              : "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
-          */
+              ? caribbeanImg
+              : europeImg,
           placeholderLabel: dest.destination
         }))}
       />
@@ -446,9 +468,11 @@ const BookSeabournDirectVsTravelAdvisor = () => {
 
       {/* ── 14. Authority & Angela Hughes / Trips & Ships Credentials (ExpertCredentials) ── */}
       <ExpertCredentials
-        authorImage={AboutImage}
-        authorName="Angela Hughes"
-        authorTitle="CEO of Trips & Ships Luxury Travel & Founder of Luxury Travel University"
+        title="CEO & Luxury Travel Expert"
+        name="Angela Hughes"
+        image={AboutImage}
+        badge="LUXURY SEABOURN CRUISE EXPERT"
+        experienceBadge="40+ YEARS EXPERTISE"
         paragraphs={data.agencyAndAngelaHughes.angelaHughes.paragraphs}
         credentials={[
           "40+ Years of Luxury Travel & Cruise Planning Experience",
@@ -457,6 +481,10 @@ const BookSeabournDirectVsTravelAdvisor = () => {
           "Extensive Global On-Ship Experience Across Seabourn Ocean & Polar Expedition Fleets",
           "Specialist in Polar Expeditions (Antarctica & Arctic), Alaska, Mediterranean & World Cruises"
         ]}
+        authorityBoxTitle="Why Plan Your Seabourn Voyage With Angela Hughes?"
+        authoritySubtitle="With over four decades of luxury travel mastery, Angela Hughes ensures you choose the ideal ship architecture, suite location, and destination pacing for your personal travel style."
+        ctaText="Work With Angela Hughes"
+        ctaLink="/contact"
       />
 
       {/* ── 14. Agency Capabilities Box (DetailedInclusionsList) ── */}
@@ -535,6 +563,8 @@ const BookSeabournDirectVsTravelAdvisor = () => {
         description="Connect with Angela Hughes and the luxury travel specialists at Trips & Ships Luxury Travel for personalized suite recommendations, preferred benefits, and end-to-end itinerary coordination."
         buttonText="Request a Complimentary Seabourn Consultation"
         buttonLink="/contact"
+        image={heroImg}
+        theme="dark"
       />
     </div>
   );

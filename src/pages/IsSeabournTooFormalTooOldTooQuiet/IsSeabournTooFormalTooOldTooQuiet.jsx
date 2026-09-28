@@ -1,8 +1,24 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
+
+// Page Asset Images from IsSeabournTooFormal
+import HeroImage from "../../assets/IsSeabournTooFormal/is-seabourn-too-formal-too-old-too-quiet-hero.jpg";
+import EditorialImage from "../../assets/IsSeabournTooFormal/seabourn-luxury-cruise-atmosphere-editorial.jpg";
+import skepticsImg1 from "../../assets/IsSeabournTooFormal/seabourn-small-ship-cruising-skeptics-appeal.jpg";
+import skepticsImg2 from "../../assets/IsSeabournTooFormal/seabourn-ocean-cruising-realities-lifestyle.jpg";
+import silverseaImg from "../../assets/IsSeabournTooFormal/seabourn-vs-silversea-luxury-cruise-atmosphere.webp";
+import regentImg from "../../assets/IsSeabournTooFormal/seabourn-vs-regent-seven-seas-atmosphere-comparison.webp";
+import exploraImg from "../../assets/IsSeabournTooFormal/seabourn-vs-explora-journeys-lifestyle-comparison.webp";
+import ritzImg from "../../assets/IsSeabournTooFormal/seabourn-vs-ritz-carlton-yacht-collection-comparison.jpg";
+import energeticItinImg from "../../assets/IsSeabournTooFormal/seabourn-energetic-expedition-itineraries-active-adventure.jpg";
+import relaxedItinImg from "../../assets/IsSeabournTooFormal/seabourn-relaxed-itineraries-warm-weather-sailing.jpg";
+import seasonalDemoImg from "../../assets/IsSeabournTooFormal/seabourn-seasonal-demographics-guest-mix-planning.jpg";
+
+// Distinct CTA Background Images (from other Seabourn collections)
+import midCtaImg from "../../assets/SeabournCruises/seabourn-gourmet-fine-dining-culinary-experience.jpg";
+import bottomCtaImg from "../../assets/WhatIncludedSeabournCruise/is-seabourn-all-inclusive-luxury-cruise-experience.jpg";
 
 // UI Components (Zero framer-motion dependencies, unique across page)
 import ComparisonHero from "../../components/ui/ComparisonHero";
@@ -27,6 +43,16 @@ import ConclusionSection from "../../components/ui/ConclusionSection";
 import data from "./data.json";
 
 const IsSeabournTooFormalTooOldTooQuiet = () => {
+  // Itinerary Image Map
+  const itineraryImageMap = {
+    "Energetic Itineraries": energeticItinImg,
+    "Relaxed Itineraries": relaxedItinImg,
+    "Seasonal Demographics": seasonalDemoImg
+  };
+
+  // Competitor Images
+  const competitorImages = [silverseaImg, regentImg, exploraImg, ritzImg];
+
   // 1. Format Itinerary Pacing Profiles for TravelerProfileTabs
   const itineraryProfiles = data.itineraryEnergyAndSeasons.tabs.map((tab) => ({
     name: tab.name,
@@ -35,7 +61,8 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
     recommendation: tab.recommendation,
     reason: tab.reason,
     whyFits: tab.whyFits,
-    placeholderLabel: tab.placeholderLabel
+    placeholderLabel: tab.placeholderLabel,
+    image: itineraryImageMap[tab.name] || null
   }));
 
   // 2. Format Packing Guide for GenericChecklistCards
@@ -82,13 +109,15 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
       title: "Why People Who Dislike Cruising May Appreciate Seabourn",
       description: `${data.skepticsSection.lead} ${data.skepticsSection.dislikeIntro} ... ${data.skepticsSection.dislikeConclusion} ${data.skepticsSection.closingNote1}`,
       bulletPoints: data.skepticsSection.dislikeReasons,
-      icon: "Ship"
+      icon: "Ship",
+      image: skepticsImg1
     },
     {
       title: "Cruising Realities to Evaluate",
       description: `${data.skepticsSection.cruiseRealityIntro} ${data.skepticsSection.closingNote2}`,
       bulletPoints: data.skepticsSection.cruiseRealities,
-      icon: "Compass"
+      icon: "Compass",
+      image: skepticsImg2
     }
   ];
 
@@ -297,8 +326,9 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         badge={data.hero.badge}
-        ctaText="Plan Your Seabourn Voyage"
-        ctaLink="/contact"
+        backgroundImage={HeroImage}
+        secondaryCtaText="Plan Your Seabourn Voyage"
+        secondaryCtaLink="/contact"
       />
 
       {/* ── 2. Editorial Introduction ──────────────────────────────── */}
@@ -307,6 +337,7 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
         heading={data.editorialIntro.title}
         lead={data.editorialIntro.lead}
         paragraphs={data.editorialIntro.paragraphs}
+        image={EditorialImage}
         quote="Seabourn is not a floating theme park or a stuffy gala. It is an intimate, relaxed luxury sanctuary where guests dress intentionally, dine magnificently, and explore the world in unhurried comfort."
         quoteAuthor="Angela Hughes, CEO & Luxury Travel Expert"
       />
@@ -343,7 +374,8 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
         description="Speak directly with Angela Hughes and the Trips & Ships team to match your preferred energy level, dress expectations, and entertainment style with the ideal ship and itinerary."
         buttonText="Plan Your Cruise With Angela Hughes"
         buttonLink="/contact"
-        theme="light"
+        image={midCtaImg}
+        theme="dark"
       />
 
       {/* ── 7. Traveler Compatibility Profiles ─────────────────────── */}
@@ -370,6 +402,7 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
         title={data.luxuryCompetitors.title}
         subtitle={data.luxuryCompetitors.subtitle}
         items={data.luxuryCompetitors.items}
+        images={competitorImages}
       />
 
       {/* ── 11. Itinerary Pacing & Seasonal Demographics (Tabs) ────── */}
@@ -437,42 +470,13 @@ const IsSeabournTooFormalTooOldTooQuiet = () => {
         ]}
       />
 
-      {/* ── 19. Recommended Internal Links ─────────────────────────── */}
-      <section className="py-16 bg-slate-50 border-t border-slate-200">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-10">
-            <span className="text-xs uppercase tracking-[0.2em] text-navy-800 font-bold block mb-2">
-              Explore Related Guides
-            </span>
-            <h2 className="text-3xl font-display text-navy-950">
-              Recommended Seabourn Planning Resources
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.internalLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                to={link.url}
-                className="p-5 bg-white rounded-xl border border-slate-200 hover:border-gold-400 hover:shadow-md transition-all flex items-center justify-between group"
-              >
-                <span className="font-sans text-sm text-navy-950 group-hover:text-gold-600 font-medium">
-                  {link.title}
-                </span>
-                <span className="text-gold-400 group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── 20. Bottom Call to Action ──────────────────────────────── */}
+      {/* ── 19. Bottom Call to Action ──────────────────────────────── */}
       <CenterCTA
         title="Ready to Experience the Elegance of Seabourn?"
         description="Connect with Angela Hughes and the Trips & Ships team to unlock exclusive Virtuoso amenities, optimal suite locations, and personalized itinerary guidance."
         buttonText="Request Your Seabourn Quote"
         buttonLink="/contact"
+        image={bottomCtaImg}
         theme="dark"
       />
     </div>

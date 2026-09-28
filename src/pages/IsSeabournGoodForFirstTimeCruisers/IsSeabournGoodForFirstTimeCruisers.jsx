@@ -14,9 +14,9 @@ import RomanticMilestoneShowcase from "../../components/ui/RomanticMilestoneShow
 import CostValueAnalysisCards from "../../components/ui/CostValueAnalysisCards";
 import CuratedComforts from "../../components/ui/CuratedComforts";
 import TravelerPersonaCards from "../../components/ui/TravelerPersonaCards";
-import HighlightsSplit from "../../components/ui/HighlightsSplit";
+import ShipPhilosophyFaceoff from "../../components/ui/ShipPhilosophyFaceoff";
 import ExpeditionHighlight from "../../components/ui/ExpeditionHighlight";
-import ValuePropositionHighlight from "../../components/ui/ValuePropositionHighlight";
+import BrandPillarsShowcase from "../../components/ui/BrandPillarsShowcase";
 import ThreeColumnGrid from "../../components/ui/ThreeColumnGrid";
 import StepByStepGuide from "../../components/ui/StepByStepGuide";
 import CardGrid from "../../components/ui/CardGrid";
@@ -28,31 +28,51 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Data Source
 import data from "./data.json";
 
-// Expedition Image
-import ExpeditionShipImage from "../../assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg";
+// Images from assets/IsSeabournGoodFirstTimeCruisers
+import HeroImage from "../../assets/IsSeabournGoodFirstTimeCruisers/is-seabourn-good-for-first-time-cruisers-luxury-ship.jpg";
+import QuickAnswerImage from "../../assets/IsSeabournGoodFirstTimeCruisers/seabourn-first-time-cruisers-yacht-experience.jpg";
+import WhySeabourn1Image from "../../assets/IsSeabournGoodFirstTimeCruisers/why-seabourn-is-good-for-first-time-cruisers-intimate-luxury.jpg";
+import WhySeabourn2Image from "../../assets/IsSeabournGoodFirstTimeCruisers/why-seabourn-is-good-for-first-time-cruisers-suite-comfort.jpg";
+import WhatIsItLikeImage from "../../assets/IsSeabournGoodFirstTimeCruisers/what-is-seabourn-like-for-a-first-time-cruiser.jpg";
+import FormalityImage from "../../assets/IsSeabournGoodFirstTimeCruisers/is-seabourn-too-formal-for-first-time-cruisers.jpg";
+import WhatShip1Image from "../../assets/IsSeabournGoodFirstTimeCruisers/what-seabourn-ship-should-a-first-time-cruiser-choose.jpg";
+import SeasickImage from "../../assets/IsSeabournGoodFirstTimeCruisers/will-i-get-seasick-on-seabourn-cruise.jpg";
+import DislikeCrowdsImage from "../../assets/IsSeabournGoodFirstTimeCruisers/is-seabourn-good-for-people-who-dislike-crowds.jpg";
+import DoNotLikeCruisesImage from "../../assets/IsSeabournGoodFirstTimeCruisers/is-seabourn-good-for-travelers-who-do-not-like-cruises.jpg";
+import MedDestImage from "../../assets/IsSeabournGoodFirstTimeCruisers/seabourn-first-time-cruisers-mediterranean-coastal-towns.jpg";
+import CaribDestImage from "../../assets/IsSeabournGoodFirstTimeCruisers/seabourn-first-time-cruisers-caribbean-yacht-harbors.jpg";
+import AlaskaDestImage from "../../assets/IsSeabournGoodFirstTimeCruisers/seabourn-first-time-cruisers-alaska-glaciers.jpg";
+import EuropeDestImage from "../../assets/IsSeabournGoodFirstTimeCruisers/seabourn-first-time-cruisers-northern-europe-fjords.jpg";
+import AntarcticaDestImage from "../../assets/IsSeabournGoodFirstTimeCruisers/seabourn-first-time-cruisers-antarctica-expedition.jpg";
 
-// Optional Destination Tab Images (commented out per requirements)
-// import MedDestImage from "../../assets/SeabournCruises/seabourn-mediterranean-cruise-amalfi-coast-italy.jpg";
-// import CaribDestImage from "../../assets/SeabournCruises/seabourn-ocean-cruises-luxury-yacht-experience.jpg";
-// import AlaskaDestImage from "../../assets/SeabournCruises/seabourn-alaska-inside-passage-glacier-wilderness-cruise.jpeg";
-// import NorthEuropeDestImage from "../../assets/SeabournCruises/seabourn-northern-europe-scandinavia-baltic-cruise.jpg";
-// import AntarcticaDestImage from "../../assets/SeabournCruises/seabourn-antarctica-luxury-polar-expedition-cruise.webp";
+// Ocean & Expedition Fleet Images (Distinct Images from SeabournShips)
+import OceanShipImage from "../../assets/SeabournShips/seabourn-ovation-ultra-luxury-sister-ship.jpg";
+import FleetExpeditionShipImage from "../../assets/SeabournShips/seabourn-pursuit-ultra-luxury-expedition-vessel.jpg";
+
+// CTA Background Images (Distinct Images from SeabournCruises)
+import MidPageCtaImage from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
+import BottomCtaImage from "../../assets/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg";
 
 const IsSeabournGoodForFirstTimeCruisers = () => {
   // 1. Format Inclusions vs Extras for CostValueAnalysisCards
-  const includedItemsFormatted = data.detailedInclusions.includedItems.map((item) => ({
-    title: item,
-    description: "Complimentary luxury amenity included as standard on your Seabourn voyage."
-  }));
+  const includedItemsFormatted = data.detailedInclusions.includedItems.map((item) => 
+    typeof item === "object" ? item : {
+      title: item,
+      description: "Complimentary luxury amenity included as standard on your Seabourn voyage."
+    }
+  );
 
-  const extrasItemsFormatted = data.detailedInclusions.extrasItems.map((item) => ({
-    title: item,
-    description: "Optional personalized service or bespoke arrangement available upon request."
-  }));
+  const extrasItemsFormatted = data.detailedInclusions.extrasItems.map((item) => 
+    typeof item === "object" ? item : {
+      title: item,
+      description: "Optional personalized service or bespoke arrangement available upon request."
+    }
+  );
 
   // 2. Format Scale & Vibe Bento data for CuratedComforts (requires 5 items)
   const scaleAndVibeData = {
@@ -168,51 +188,57 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
     }
   ];
 
-  // 4. Format Ocean vs Expedition for HighlightsSplit
-  const fleetItems = [
-    {
+  // 4. Format Ocean vs Expedition for ShipPhilosophyFaceoff
+  const fleetShipFaceoffData = {
+    title: data.fleetAndExpedition.title,
+    regent: {
+      badge: "Ocean Cruises",
       title: data.fleetAndExpedition.oceanTitle,
-      description: `${data.fleetAndExpedition.oceanBestFor}\n\n${data.fleetAndExpedition.expeditionAdvice}`,
-      icon: "Ship",
-      bulletPoints: data.fleetAndExpedition.oceanFeatures
+      description: `${data.fleetAndExpedition.oceanBestFor} ${data.fleetAndExpedition.expeditionAdvice}`,
+      features: data.fleetAndExpedition.oceanFeatures
     },
-    {
+    viking: {
+      badge: "Expedition Cruises",
       title: data.fleetAndExpedition.expeditionTitle,
-      description: `${data.fleetAndExpedition.expeditionBestFor}\n\n${data.fleetAndExpedition.expeditionAdvice}`,
-      icon: "Compass",
-      bulletPoints: data.fleetAndExpedition.expeditionFeatures
+      description: `${data.fleetAndExpedition.expeditionBestFor} ${data.fleetAndExpedition.expeditionAdvice}`,
+      features: data.fleetAndExpedition.expeditionFeatures
     }
-  ];
+  };
 
-  // 5. Format Suite & Dining Pillars for ValuePropositionHighlight
-  const diningAndSuiteItems = [
-    ...data.suiteGuide.features.map((feat) => ({
-      title: feat,
-      description: "Standard in-suite indulgence designed for seamless transition from luxury hotels.",
-      icon: "CheckCircle",
-      impact: "All-Suite Living"
-    })),
-    {
-      title: data.diningExperience.sharedDiningQuestion,
-      description: data.diningExperience.sharedDiningAnswer,
-      icon: "Utensils",
-      impact: "Open Seating"
-    }
-  ];
+  // 5. Format Suite & Dining Pillars for BrandPillarsShowcase
+  const suiteAndDiningPillarsData = {
+    title: "Dining Excellence & All-Suite Living",
+    subtitle: "Enjoy open-seating gourmet restaurants and spacious suite retreats with walk-in closets, marble tubs, and private verandas.",
+    pillars: [
+      ...data.suiteGuide.features.map((feat, idx) => ({
+        title: feat,
+        description: "Standard in-suite indulgence designed for seamless transition from luxury hotels.",
+        icon: idx % 4 === 0 ? "window" : idx % 4 === 1 ? "star" : idx % 4 === 2 ? "ship" : "compass"
+      })),
+      {
+        title: data.diningExperience.sharedDiningQuestion,
+        description: data.diningExperience.sharedDiningAnswer,
+        icon: "star"
+      }
+    ]
+  };
 
   // 6. Format Seasickness, Crowds & Non-Cruisers for ThreeColumnGrid
   const threePillars = [
     {
       title: data.seasicknessAndCrowds.seasicknessTitle,
-      description: data.seasicknessAndCrowds.seasicknessDesc
+      description: data.seasicknessAndCrowds.seasicknessDesc,
+      image: SeasickImage
     },
     {
       title: data.seasicknessAndCrowds.crowdsTitle,
-      description: data.seasicknessAndCrowds.crowdsDesc
+      description: data.seasicknessAndCrowds.crowdsDesc,
+      image: DislikeCrowdsImage
     },
     {
       title: data.seasicknessAndCrowds.nonCruisersTitle,
-      description: data.seasicknessAndCrowds.nonCruisersDesc
+      description: data.seasicknessAndCrowds.nonCruisersDesc,
+      image: DoNotLikeCruisesImage
     }
   ];
 
@@ -233,7 +259,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
     reason: dest.reason,
     whyFits: dest.whyFits,
     placeholderLabel: `SEABOURN ${dest.name.toUpperCase()} CRUISE`,
-    // image: dest.name === "Mediterranean" ? MedDestImage : dest.name === "Caribbean" ? CaribDestImage : dest.name === "Alaska" ? AlaskaDestImage : dest.name === "Northern Europe" ? NorthEuropeDestImage : AntarcticaDestImage
+    image: dest.name === "Mediterranean" ? MedDestImage : dest.name === "Caribbean" ? CaribDestImage : dest.name === "Alaska" ? AlaskaDestImage : dest.name === "Northern Europe" ? EuropeDestImage : AntarcticaDestImage
   }));
 
   // 9. Format Competitor Factors for CardGrid
@@ -256,6 +282,13 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
       ]
     }
   ];
+
+  // 10. Video Section Data
+  const videoSectionData = {
+    youtubeId: "2wTfN2K_NNc",
+    title: "Watch: Is Seabourn Right for Your First Luxury Cruise?",
+    description: "Explore an inside look at Seabourn's intimate yacht-style atmosphere, all-suite oceanfront accommodations, open-seating gourmet dining, and personalized service."
+  };
 
   return (
     <div className="w-full bg-white font-sans text-navy-900 antialiased">
@@ -280,7 +313,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
           subtitle={data.hero.subtitle}
           description={data.hero.description}
           badge={data.hero.badge}
-          // backgroundImage={HeroImage}
+          backgroundImage={HeroImage}
           secondaryCtaText={data.hero.ctaText}
           secondaryCtaLink={data.hero.ctaLink}
         />
@@ -295,7 +328,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
         placeholderLabel={data.quickAnswer.placeholderLabel}
         badgeTitle={data.quickAnswer.badgeTitle}
         badgeDescription={data.quickAnswer.badgeDescription}
-        // image={ShipImage}
+        image={QuickAnswerImage}
       />
 
       {/* ── 3. Quick Answer Matrix Table ──────────────────────────── */}
@@ -313,7 +346,8 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
         image2Placeholder="LUXURY SUITE & DINING RETREAT"
         ctaText="Plan With First-Time Cruise Specialists"
         ctaLink="/contact"
-        // image1={SuiteImage}
+        image1={WhySeabourn1Image}
+        image2={WhySeabourn2Image}
       />
 
       {/* ── 5. What Is Seabourn Like for a First-Timer? (Editorial Feature Showcase) ── */}
@@ -324,7 +358,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
           title: act,
           description: "A flexible, self-paced onboard experience designed entirely around your personal vacation interests."
         }))}
-        // image={DiningImage}
+        image={WhatIsItLikeImage}
       />
 
       {/* ── 6. Is Seabourn Too Formal? (Editorial Intro Split) ─────── */}
@@ -332,6 +366,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
         eyebrow={data.formalitySection.eyebrow}
         heading={data.formalitySection.title}
         paragraphs={[data.formalitySection.lead, ...data.formalitySection.paragraphs]}
+        primaryImage={FormalityImage}
       />
 
       {/* ── 7. Inclusions vs Potential Additional Expenses ────────── */}
@@ -357,10 +392,13 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
         personas={personaCards}
       />
 
-      {/* ── 10. Ocean Ships vs Expedition Ships (Highlights Split) ─── */}
-      <HighlightsSplit
-        title={data.fleetAndExpedition.title}
-        items={fleetItems}
+      {/* ── 10. Ocean Ships vs Expedition Ships (Ship Philosophy Faceoff) ─── */}
+      <ShipPhilosophyFaceoff
+        data={fleetShipFaceoffData}
+        regentImage={OceanShipImage}
+        vikingImage={FleetExpeditionShipImage}
+        regentImageAlt="Seabourn Ocean Ships"
+        vikingImageAlt="Seabourn Expedition Ships"
       />
 
       {/* ── 11. Should a First-Time Cruiser Choose an Expedition Cruise? (ExpeditionHighlight) ─── */}
@@ -373,7 +411,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
           data.shouldChooseExpedition.conclusion
         ]}
         features={data.shouldChooseExpedition.priorities}
-        image={ExpeditionShipImage}
+        image={WhatShip1Image}
       />
 
       {/* ── Mid-Page Call to Action ───────────────────────────────── */}
@@ -382,16 +420,15 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
         description="Speak directly with Angela Hughes and the Trips & Ships team to select the ideal Seabourn ship, suite location, and beginner-friendly itinerary."
         buttonText="Plan Your First Cruise"
         buttonLink="/contact"
+        image={MidPageCtaImage}
         theme="dark"
       />
 
-      {/* ── 11. Dining Excellence & All-Suite Living (Value Proposition Highlight) ── */}
-      <ValuePropositionHighlight
-        title="Dining Excellence & All-Suite Living"
-        subtitle="Enjoy open-seating gourmet restaurants and spacious suite retreats with walk-in closets, marble tubs, and private verandas."
-        items={diningAndSuiteItems}
-        imageOverlayText="All-Suite Luxury & Flexible Gourmet Dining"
-      />
+      {/* ── First-Time Cruiser Video Guide (VideoEmbed) ──────────── */}
+      <VideoEmbed data={videoSectionData} />
+
+      {/* ── 11. Dining Excellence & All-Suite Living (Brand Pillars Showcase) ── */}
+      <BrandPillarsShowcase data={suiteAndDiningPillarsData} />
 
       {/* ── 12. Seasickness, Crowds & Non-Cruisers (Three Column Grid) ── */}
       <ThreeColumnGrid
@@ -507,6 +544,7 @@ const IsSeabournGoodForFirstTimeCruisers = () => {
         description="Contact our luxury cruise advisors today to access exclusive Seabourn amenities, select staterooms, and comprehensive vacation planning."
         buttonText={data.finalTakeaway.ctaText}
         buttonLink={data.finalTakeaway.ctaLink}
+        image={BottomCtaImage}
         theme="dark"
       />
     </div>

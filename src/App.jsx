@@ -716,26 +716,16 @@ function App() {
           <Route path="/seabourn-cruises/solo-travelers" element={<SeabournSoloTravelers />} />
           <Route path="/seabourn-cruises/world-cruises" element={<SeabournWorldCruises />} />
           <Route path="/seabourn-cruises/is-seabourn-worth-it" element={<IsSeabournWorthPrice />} />
-          <Route path="/seabourn-cruises/is-seabourn-good-for-first-time-cruisers" element={<IsSeabournGoodForFirstTimeCruisers />} />
           <Route path="/seabourn-cruises/is-seabourn-good-for-first-time-cruisers/" element={<IsSeabournGoodForFirstTimeCruisers />} />
           <Route path="/seabourn-cruises/is-seabourn-good-for-solo-travelers" element={<IsSeabournGoodForSoloTravelers />} />
-          <Route path="/seabourn-cruises/is-seabourn-good-for-solo-travelers/" element={<IsSeabournGoodForSoloTravelers />} />
           <Route path="/seabourn-cruises/is-seabourn-good-for-families-and-children" element={<IsSeabournGoodForFamiliesAndChildren />} />
-          <Route path="/seabourn-cruises/is-seabourn-good-for-families-and-children/" element={<IsSeabournGoodForFamiliesAndChildren />} />
           <Route path="/seabourn-cruises/average-age" element={<WhatIsAverageAgeOnSeabourn />} />
-          <Route path="/seabourn-cruises/average-age/" element={<WhatIsAverageAgeOnSeabourn />} />
           <Route path="/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet" element={<IsSeabournTooFormalTooOldTooQuiet />} />
-          <Route path="/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet/" element={<IsSeabournTooFormalTooOldTooQuiet />} />
           <Route path="/seabourn-cruises/what-is-there-to-do" element={<WhatIsThereToDoOnSeabourn />} />
-          <Route path="/seabourn-cruises/what-is-there-to-do/" element={<WhatIsThereToDoOnSeabourn />} />
           <Route path="/seabourn-cruises/ocean-vs-expedition-cruises" element={<SeabournOceanVsExpedition />} />
-          <Route path="/seabourn-cruises/ocean-vs-expedition-cruises/" element={<SeabournOceanVsExpedition />} />
           <Route path="/seabourn-cruises/seabourn-vs-celebrity-retreat" element={<SeabournVsCelebrityRetreat />} />
-          <Route path="/seabourn-cruises/seabourn-vs-celebrity-retreat/" element={<SeabournVsCelebrityRetreat />} />
           <Route path="/seabourn-cruises/seabourn-vs-ritz-carlton-yacht-collection" element={<SeabournVsRitzCarltonYacht />} />
-          <Route path="/seabourn-cruises/seabourn-vs-ritz-carlton-yacht-collection/" element={<SeabournVsRitzCarltonYacht />} />
           <Route path="/seabourn-cruises/book-directly-or-travel-advisor" element={<BookSeabournDirectVsTravelAdvisor />} />
-          <Route path="/seabourn-cruises/book-directly-or-travel-advisor/" element={<BookSeabournDirectVsTravelAdvisor />} />
           <Route path="/seabourn-cruises/cost" element={<HowMuchDoesSeabournCruiseCost />} />
           <Route path="/seabourn-cruises/offers-loyalty" element={<Seabournoffersloyalty />} />
           <Route path="/seabourn-cruises/request-a-quote" element={<Seabourncruisequote />} />

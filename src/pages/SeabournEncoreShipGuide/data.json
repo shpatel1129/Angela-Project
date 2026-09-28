@@ -1,0 +1,642 @@
+{
+  "hero": {
+    "title": "Seabourn Encore Ship Guide",
+    "subtitle": "Seabourn Encore is an intimate luxury ocean cruise ship designed for travelers who want the comfort and service of a high-end cruise without the crowds associated with larger vessels.",
+    "paragraphs": [
+      "With approximately 600 guests, all-suite accommodations, multiple dining venues, elegant public spaces and personalized service, Encore offers a refined way to explore destinations around the world.",
+      "The ship is especially appealing to travelers who value space, attentive service, excellent food and a relaxed atmosphere over large-scale entertainment and resort-style attractions.",
+      "This complete Seabourn Encore guide covers its suites, restaurants, dining experience, amenities, public areas, destinations, itineraries, pros and cons and who the ship is best suited for."
+    ],
+    "ctaText": "Start Planning Your Seabourn Encore Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Encore at a Glance",
+    "subtitle": "QUICK OVERVIEW",
+    "caption": "Note: Specific restaurants, onboard programming, amenities and itineraries may vary by sailing.",
+    "headers": ["Feature", "Seabourn Encore"],
+    "rows": [
+      ["Ship type", "Luxury ocean cruise ship"],
+      ["Guests", "Approximately 600"],
+      ["Ship style", "All-suite luxury"],
+      ["Atmosphere", "Intimate, elegant and relaxed"],
+      ["Accommodation", "All-suite"],
+      ["Private verandas", "Available in many categories"],
+      ["Dining", "Multiple restaurants and venues"],
+      ["Pool", "Yes"],
+      ["Spa", "Yes"],
+      ["Fitness center", "Yes"],
+      ["Lounges", "Multiple"],
+      ["Entertainment", "Live performances, music and enrichment"],
+      ["Best for", "Couples, solo travelers and luxury cruisers"],
+      ["Sister ship", "Seabourn Ovation"]
+    ]
+  },
+  "whatIsSection": {
+    "title": "What Is Seabourn Encore?",
+    "subtitle": "THE SHORT VERSION",
+    "paragraphs": [
+      "Seabourn Encore is an all-suite luxury cruise ship designed around Seabourn's intimate approach to ocean cruising.",
+      "Rather than competing with large ships through hundreds of restaurants, amusement attractions or enormous entertainment venues, Encore focuses on the fundamentals of luxury travel. With approximately 600 guests, Encore is large enough to offer a good variety of restaurants and public spaces while remaining considerably more intimate than mainstream cruise ships."
+    ],
+    "highlights": [
+      "Personalized service",
+      "Spacious accommodations",
+      "Fine dining",
+      "Elegant surroundings",
+      "Destination exploration",
+      "Relaxed onboard experiences"
+    ],
+    "conclusion": "Encore focuses on delivering the highest standards of luxury travel through intuitive hospitality, spacious design, and enriching itineraries."
+  },
+  "whyChooseChecklistCards": [
+    {
+      "title": "All-Suite Accommodations & Intimate Scale",
+      "items": [
+        "All-suite accommodations with expansive residential layouts, walk-in closets and granite bathrooms",
+        "Many suites featuring private teak verandas for morning coffee, sunset viewing and scenic port arrivals",
+        "Approximately 600 guests ensuring an intimate feel with zero mega-ship crowds or queues",
+        "Dedicated suite host and attendant service anticipating every personal comfort"
+      ]
+    },
+    {
+      "title": "Culinary & Personalized Service Excellence",
+      "items": [
+        "Multiple gourmet restaurants, casual eateries, and outdoor alfresco dining venues",
+        "Flexible open-seating dining with the freedom to dine when, where and with whom you choose",
+        "Industry-leading staff-to-guest ratios with intuitive crew members who remember your preferences",
+        "24-hour complimentary course-by-course in-suite dining and premium included fine wines and spirits"
+      ]
+    },
+    {
+      "title": "Onboard Wellness & Destination Enrichment",
+      "items": [
+        "Elegant social lounges designed for quiet conversation, afternoon tea and handcrafted evening cocktails",
+        "Teak swimming pool deck focused on peaceful leisure, sunbathing, and panoramic ocean vistas",
+        "Comprehensive spa and wellness facilities along with a fully equipped ocean-view fitness center",
+        "Destination-focused enrichment, expert guest lectures, cultural presentations, and a relaxed luxury atmosphere"
+      ]
+    }
+  ],
+  "suitesSection": {
+    "title": "Seabourn Encore Suites",
+    "subtitle": "ACCOMMODATIONS",
+    "description": "Every accommodation aboard Seabourn Encore is a suite, which is one of the ship's biggest selling points. Instead of booking a traditional cruise cabin, guests have a more spacious residential-style accommodation designed to provide an inviting sanctuary between excursions.",
+    "items": [
+      {
+        "title": "Depending on the Category, Suites May Offer",
+        "subtitle": "Residential Comfort & In-Suite Luxuries",
+        "description": "Every suite on Seabourn Encore is crafted with luxury finishes, residential comforts, walk-in closets, granite bathrooms and dedicated suite host service.",
+        "features": [
+          "Living area",
+          "Sleeping area",
+          "Private veranda",
+          "Ocean views",
+          "Sitting area",
+          "In-suite bar",
+          "Luxury bathroom",
+          "Suite host service"
+        ]
+      },
+      {
+        "title": "Seabourn Encore Suite Categories",
+        "subtitle": "All-Suite Configurations",
+        "description": "Encore offers several suite categories, ranging from entry-level accommodations to larger premium suites. Exact dimensions, layouts and amenities vary by category.",
+        "features": [
+          "Ocean View Suites",
+          "Veranda Suites",
+          "Penthouse Suites",
+          "Premium suites",
+          "Larger specialty suites"
+        ]
+      },
+      {
+        "title": "Do Seabourn Encore Suites Have Balconies?",
+        "subtitle": "Private Veranda Living",
+        "description": "Many Seabourn Encore suites feature private verandas. A veranda gives guests their own outdoor space for enjoying the scenery without needing to go to a public deck. For many travelers, a well-located veranda suite provides an exceptional overall experience.",
+        "features": [
+          "Morning coffee",
+          "Reading",
+          "Watching sunsets",
+          "Scenic cruising",
+          "Port arrivals",
+          "Relaxing between excursions"
+        ]
+      }
+    ]
+  },
+  "bestSuiteCards": [
+    {
+      "icon": "Wine",
+      "title": "Best for Value",
+      "description": "A well-located Veranda Suite can offer an excellent balance of space, privacy and price.",
+      "text": "A well-located Veranda Suite can offer an excellent balance of space, privacy and price."
+    },
+    {
+      "icon": "Heart",
+      "title": "Best for Couples",
+      "description": "A veranda suite gives couples private outdoor space and a comfortable place to relax together.",
+      "text": "A veranda suite gives couples private outdoor space and a comfortable place to relax together."
+    },
+    {
+      "icon": "Home",
+      "title": "Best for More Living Space",
+      "description": "A Penthouse-level suite is worth considering if having a larger living area is important.",
+      "text": "A Penthouse-level suite is worth considering if having a larger living area is important."
+    },
+    {
+      "icon": "Gem",
+      "title": "Best for Maximum Luxury",
+      "description": "The largest premium suites provide additional space, upgraded features and commanding ocean vistas.",
+      "text": "The largest premium suites provide additional space, upgraded features and commanding ocean vistas."
+    }
+  ],
+  "diningSection": {
+    "title": "Seabourn Encore Dining",
+    "subtitle": "Dining is one of the central components of the Seabourn experience. Encore offers multiple dining environments, allowing guests to move between fine dining, casual meals and outdoor dining.",
+    "description": "Dining is one of the central components of the Seabourn experience. Encore offers multiple dining environments, allowing guests to move between fine dining, casual meals and outdoor dining.",
+    "items": [
+      {
+        "title": "The Restaurant",
+        "subtitle": "Primary Fine Dining",
+        "description": "The Restaurant is Encore's primary fine-dining venue. It provides an elegant environment for multi-course meals, changing regional menus, table service, fine wines, desserts and destination-inspired cuisine."
+      },
+      {
+        "title": "The Colonnade",
+        "subtitle": "Casual Indoor & Outdoor Dining",
+        "description": "The Colonnade provides a relaxed dining environment with breakfast and lunch buffets, along with regionally themed casual dinners indoors or alfresco on the aft deck."
+      },
+      {
+        "title": "In-Suite Dining",
+        "subtitle": "24-Hour Course-by-Course Service",
+        "description": "Complimentary around-the-clock course-by-course room service, perfect for a quiet breakfast, veranda dining, or late-night cravings after shore excursions."
+      },
+      {
+        "title": "Open-Seating Dining Flexibility",
+        "subtitle": "Freedom & Flexibility",
+        "description": "Seabourn's dining concept emphasizes complete flexibility. Guests can choose when and with whom they want to dine without being tied to a fixed dining time or assigned table."
+      }
+    ]
+  },
+  "publicAreasShowcase": {
+    "title": "Seabourn Encore Public Areas",
+    "subtitle": "ONBOARD SPACES",
+    "description": "Encore's public spaces are designed to create an atmosphere closer to an elegant private club or yacht than a large resort, encouraging guests to slow down and savor every moment.",
+    "items": [
+      {
+        "category": "Social Heart of the Ship",
+        "title": "Seabourn Square",
+        "subtitle": "Social Heart of the Ship",
+        "description": "Seabourn Square is an important social and service area aboard the ship. Rather than feeling like a large cruise terminal, it has a comfortable lounge-style atmosphere where guests can relax, meet fellow travelers, get concierge assistance, enjoy specialty coffee, and plan daily activities.",
+        "bestFor": "Relaxing, meeting fellow travelers, concierge assistance, specialty coffee, planning activities, and socializing.",
+        "placeholderLabel": "SEABOURN SQUARE LOUNGE"
+      },
+      {
+        "category": "Teak Sundeck & Quiet Relaxation",
+        "title": "Seabourn Encore Pool",
+        "subtitle": "Teak Sundeck & Quiet Relaxation",
+        "description": "Encore includes a teak pool area designed primarily for relaxation. Unlike large cruise ships with elaborate water attractions, the pool experience is focused on quiet comfort, sunbathing, swimming, and slow-paced leisure that fits the ship's overall quiet-luxury philosophy.",
+        "bestFor": "Swimming, sunbathing, reading, relaxing, enjoying a refreshing drink, and spending time between excursions.",
+        "placeholderLabel": "SEABOURN ENCORE POOL DECK"
+      },
+      {
+        "category": "Renewal & Wellness Facilities",
+        "title": "Seabourn Encore Spa",
+        "subtitle": "Renewal & Wellness Facilities",
+        "description": "The onboard spa provides a dedicated sanctuary for relaxation and holistic wellness. A customized spa treatment is particularly restorative and appealing after a busy day exploring historic ports and coastal villages.",
+        "bestFor": "Massage therapies, revitalizing skincare, beauty treatments, relaxation, and wellness rituals.",
+        "placeholderLabel": "THE SPA AT SEABOURN"
+      },
+      {
+        "category": "Ocean-View Gym & Exercise",
+        "title": "Fitness Center",
+        "subtitle": "Ocean-View Gym & Exercise",
+        "description": "Guests who want to stay active during their cruise can use the fully equipped ocean-view fitness facilities. Modern cardio machines, strength training equipment, stretching areas, and guided wellness programming support all fitness routines.",
+        "bestFor": "Cardio exercise, strength training, guided stretching, and general daily workouts.",
+        "placeholderLabel": "OCEAN-VIEW FITNESS CENTER"
+      },
+      {
+        "category": "Intimate Social Venues",
+        "title": "Bars & Lounges",
+        "subtitle": "Intimate Social Venues",
+        "description": "Encore provides several intimate places for guests to enjoy handcrafted drinks, fine wines, and engaging conversation. The atmosphere is sophisticated, relaxed, social, and quiet — perfectly suited for pre-dinner aperitifs and quiet evening elegance.",
+        "bestFor": "Evenings with handcrafted cocktails, fine vintage wines, pre-dinner drinks, and engaging conversation.",
+        "placeholderLabel": "BARS & SOCIAL LOUNGES"
+      },
+      {
+        "category": "Intimate Evening Performances",
+        "title": "Entertainment",
+        "subtitle": "Intimate Evening Performances",
+        "description": "Entertainment focuses on intimate acoustic performances, cabaret shows, and enrichment rather than huge production shows. This distinct focus on quality and intimacy provides a refined evening contrast to mainstream mega-ships.",
+        "bestFor": "Live music, vocal performances, guest speakers, cultural presentations, and destination talks.",
+        "placeholderLabel": "EVENING ENTERTAINMENT"
+      },
+      {
+        "category": "Cultural & Destination Talks",
+        "title": "Enrichment",
+        "subtitle": "Cultural & Destination Talks",
+        "description": "Destination enrichment helps travelers deeply understand the history, art, and culture of the places they visit. Thoughtfully curated lectures and presentations ensure guests connect meaningfully with every destination.",
+        "bestFor": "Lectures on local culture, regional history, art, geography, culinary heritage, and destination highlights.",
+        "placeholderLabel": "SEABOURN ENRICHMENT SERIES"
+      }
+    ]
+  },
+  "destinationsSection": {
+    "title": "Seabourn Encore Destinations",
+    "subtitle": "WHERE ENCORE SAILS",
+    "description": "Encore is designed for ocean cruising and visits a wide range of destinations depending on its seasonal schedule, including the Mediterranean, Northern Europe, Scandinavia, the British Isles, Western Europe, the Caribbean and other seasonal destinations.",
+    "tabs": [
+      {
+        "id": "mediterranean",
+        "title": "Mediterranean",
+        "shortDesc": "Historic cities, coastal villages, ancient antiquities, and boutique Mediterranean yacht harbors",
+        "category": "Iconic Ports & Ancient History",
+        "highlight": "Seabourn Encore Mediterranean Cruises",
+        "description": "The Mediterranean is particularly well suited to Seabourn's luxury cruising style. Mediterranean itineraries combine historic cities, coastal villages, cultural experiences, gourmet food and wine, and scenic cruising across Italy, Greece, Croatia, France, Spain, and Turkey.",
+        "subtitle": "Seabourn Encore Mediterranean Cruises",
+        "badge": "Iconic Ports & Ancient History",
+        "desc": "The Mediterranean is particularly well suited to Seabourn's luxury cruising style. Mediterranean itineraries can combine historic cities, coastal villages, cultural experiences, food and wine, and scenic cruising.",
+        "listLabel": "Depending on the itinerary, guests may visit:",
+        "highlights": [
+          "Italy (Amalfi Coast, Rome, Venice)",
+          "Greece & Greek Isles",
+          "Croatia & Adriatic Coast",
+          "France & French Riviera",
+          "Spain & Balearic Islands",
+          "Turkey & Ephesus"
+        ],
+        "listItems": ["Italy", "Greece", "Croatia", "France", "Spain", "Turkey"]
+      },
+      {
+        "id": "northern-europe",
+        "title": "Northern Europe",
+        "shortDesc": "Norwegian fjords, Scandinavian capitals, British Isles, and medieval Baltic ports",
+        "category": "Fjords, Baltic & British Isles",
+        "highlight": "Seabourn Encore Northern Europe Cruises",
+        "description": "Northern Europe provides a breathtaking style of luxury cruising during warmer months. Guests explore dramatic Norwegian fjords, Scandinavian capitals, the British Isles, historic Northern European ports, and medieval Baltic destinations.",
+        "subtitle": "Seabourn Encore Northern Europe Cruises",
+        "badge": "Fjords, Baltic & British Isles",
+        "desc": "Northern Europe provides a different style of luxury cruise. The region is particularly attractive during the warmer months.",
+        "listLabel": "Depending on the itinerary, guests may explore:",
+        "highlights": [
+          "Norwegian Fjords",
+          "Scandinavia (Stockholm, Copenhagen, Oslo)",
+          "British Isles & Scottish Highlands",
+          "Northern European historic ports",
+          "Baltic destinations"
+        ],
+        "listItems": ["Scandinavia", "British Isles", "Northern European ports", "Fjords", "Baltic destinations"]
+      },
+      {
+        "id": "caribbean",
+        "title": "Caribbean",
+        "shortDesc": "Warm-weather cruising, secluded tropical yacht harbors, beaches, and historic towns",
+        "category": "Tropical Warm-Water Cruising",
+        "highlight": "Seabourn Encore Caribbean Cruises",
+        "description": "Caribbean itineraries provide warm-weather cruising and opportunities to explore boutique island harbors. Encore provides a more intimate alternative to large mega-ships, visiting pristine beaches, historic colonial towns, secluded coves, and local island cultures.",
+        "subtitle": "Seabourn Encore Caribbean Cruises",
+        "badge": "Tropical Warm-Water Cruising",
+        "desc": "Caribbean itineraries provide warm-weather cruising and opportunities to explore islands and coastal destinations. Encore provides a more intimate alternative to the much larger ships that dominate many Caribbean routes.",
+        "listLabel": "Depending on the voyage, guests may experience:",
+        "highlights": [
+          "Secluded Caribbean beaches",
+          "Historic colonial towns",
+          "Local culture and island cuisine",
+          "Curated island excursions",
+          "Scenic warm-water coastal cruising"
+        ],
+        "listItems": ["Beaches", "Historic towns", "Local culture", "Island excursions", "Scenic cruising"]
+      }
+    ]
+  },
+  "travelerTypes": [
+    {
+      "title": "Luxury Seekers",
+      "description": "Discerning travelers seeking high-end finishes, champagne inclusions and refined comfort.",
+      "tag": "All-Inclusive Luxury"
+    },
+    {
+      "title": "Personalized Service",
+      "description": "Guests who value staff who anticipate needs and remember personal preferences by name.",
+      "tag": "Intuitive Hospitality"
+    },
+    {
+      "title": "Spacious Suites",
+      "description": "Travelers who prioritize residential living space, walk-in closets and private verandas.",
+      "tag": "All-Suite Comfort"
+    },
+    {
+      "title": "Fine Dining",
+      "description": "Food and wine enthusiasts who appreciate gourmet menus, fresh ingredients and culinary variety.",
+      "tag": "Gourmet Excellence"
+    },
+    {
+      "title": "Smaller Ships",
+      "description": "Cruisers seeking to avoid mega-ship lines, crowded pool decks and long embarkation queues.",
+      "tag": "Boutique Scale"
+    },
+    {
+      "title": "Relaxed Surroundings",
+      "description": "Travelers who prefer peaceful observation lounges, quiet sun decks and low-stress travel.",
+      "tag": "Quiet Elegance"
+    },
+    {
+      "title": "Destination Experiences",
+      "description": "Explorers looking for culturally rich itineraries, longer port stays and authentic discovery.",
+      "tag": "In-Depth Discovery"
+    },
+    {
+      "title": "Flexible Dining",
+      "description": "Guests who enjoy open seating and the freedom to dine whenever and with whomever they wish.",
+      "tag": "Open Seating"
+    },
+    {
+      "title": "Sophisticated Atmosphere",
+      "description": "Travelers seeking refined social elegance and conversational ambiance without loud party scenes.",
+      "tag": "Refined Ambiance"
+    }
+  ],
+  "targetFitFaceoff": {
+    "title": "Who Should Sail vs. Who Should NOT Choose Encore",
+    "regent": {
+      "title": "Who Should Sail Seabourn Encore",
+      "badge": "Ideal Travel Match",
+      "description": "Seabourn Encore is tailored for couples, multigenerational families and first-time luxury cruisers who value refined comfort, fine dining, and destination exploration.",
+      "features": [
+        "Couples wanting spacious suites, private verandas, romantic dining, quiet lounges and intimate celebrations",
+        "Multigenerational families who value destination experiences, fine dining, cultural enrichment and luxury service",
+        "First-time luxury cruisers seeking an unpretentious, all-suite introduction to premium small-ship cruising",
+        "Travelers prioritizing personalized service, flexible open seating and complimentary premium beverages",
+        "Cruisers who appreciate sophisticated, relaxed elegance rather than high-energy crowds and loud attractions"
+      ]
+    },
+    "viking": {
+      "title": "Who Should NOT Choose Seabourn Encore",
+      "badge": "Alternative Fit",
+      "description": "Encore may not be the right match if your ideal cruise vacation centers around mega-ship resort attractions or high-energy nightlife.",
+      "features": [
+        "Huge entertainment production shows and Broadway-style theaters",
+        "Large water parks, waterslides and extensive children's facilities",
+        "Dozens of casual chain restaurants and food courts",
+        "Large bustling casinos and loud late-night nightclubs",
+        "Constant high-energy pool games and loud public address announcements",
+        "Thousands of fellow passengers and mega-resort environments"
+      ]
+    }
+  },
+  "encoreVsOvationTable": {
+    "title": "Seabourn Encore vs. Seabourn Ovation",
+    "subtitle": "Encore and Ovation are sister ships with highly similar designs and onboard experiences. For most travelers, the specific itinerary, departure date and available suite are more important than choosing one sister ship over the other.",
+    "headers": ["Feature", "Seabourn Encore", "Seabourn Ovation"],
+    "rows": [
+      ["Ship type", "Luxury ocean ship", "Luxury ocean ship"],
+      ["Approx. guests", "600", "600"],
+      ["Accommodation", "All-suite", "All-suite"],
+      ["Private verandas", "Many categories", "Many categories"],
+      ["Dining", "Multiple venues", "Multiple venues"],
+      ["Atmosphere", "Intimate & sophisticated", "Intimate & sophisticated"],
+      ["Best deciding factor", "Itinerary & suite", "Itinerary & suite"]
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn Encore Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "All-suite accommodations with residential luxury",
+      "Many suites with private teak verandas",
+      "Approximately 600 guests ensuring an intimate feel",
+      "Multiple dining venues with open-seating flexibility",
+      "Personalized service with intuitive crew members",
+      "Elegant public spaces including Seabourn Square",
+      "Relaxing teak pool deck focused on quiet leisure",
+      "Comprehensive spa and ocean-view fitness facilities",
+      "Destination-focused enrichment and cultural talks",
+      "Relaxed luxury atmosphere without stiff formality",
+      "Strong choice for couples and milestone anniversaries",
+      "Complimentary fine wines, spirits and beverages",
+      "Access to boutique yacht harbors and smaller ports"
+    ],
+    "notBestFor": [
+      "Less entertainment than large mega-cruise ships",
+      "Limited family-focused amenities and no water parks",
+      "Fewer restaurants than ships with dozens of eateries",
+      "Premium pricing reflecting all-inclusive luxury inclusions",
+      "Not designed for travelers seeking a high-energy resort experience"
+    ],
+    "bottomNote": "Weighing these factors helps determine if Seabourn Encore fits your personal vacation style."
+  },
+  "worthItBrand": {
+    "name": "Seabourn Encore Value Proposition",
+    "bestFor": "Discerning Travelers Seeking Space, Service, Dining & a Quieter Luxury Environment",
+    "whatMakesItStandOut": "For travelers who value space, service, food and a quieter luxury environment, Seabourn Encore can be worth the premium. The value comes from the overall quality of the experience rather than the sheer number of onboard attractions.",
+    "strengths": [
+      "An all-suite accommodation experience with marble baths",
+      "Personalized, intuitive hospitality from dedicated staff",
+      "Multiple fine-dining and casual culinary choices",
+      "A more intimate passenger environment of ~600 guests",
+      "Destination-focused travel with longer port stays",
+      "A sophisticated, relaxed onboard atmosphere"
+    ],
+    "considerations": [
+      "If those priorities match your travel style, Encore can be a compelling luxury cruise option."
+    ],
+    "image": ""
+  },
+  "suiteAndPlanningTips": {
+    "title": "Tips for Choosing a Suite & Planning an Encore Cruise",
+    "subtitle": "EXPERT BOOKING & ITINERARY ADVICE",
+    "items": [
+      {
+        "step": "1",
+        "title": "Start with the Itinerary",
+        "description": "Your destination should influence your suite choice — match the region and season to your preferred travel style."
+      },
+      {
+        "step": "2",
+        "title": "Consider a Private Veranda",
+        "description": "A private veranda is particularly valuable on scenic itineraries for morning coffee and watching port arrivals."
+      },
+      {
+        "step": "3",
+        "title": "Review the Deck Plan Carefully",
+        "description": "Check the location before booking to evaluate proximity to elevators, dining venues or quieter residential areas."
+      },
+      {
+        "step": "4",
+        "title": "Consider Noise & Foot Traffic",
+        "description": "Travelers who prioritize quiet may want to avoid suites immediately beside high-traffic public areas."
+      },
+      {
+        "step": "5",
+        "title": "Don't Automatically Choose the Largest Suite",
+        "description": "A well-positioned Veranda Suite often provides exceptional value without paying top-tier suite premiums."
+      },
+      {
+        "step": "6",
+        "title": "Compare Port Times & Duration",
+        "description": "Look at how long the ship remains in each destination to make the most of shore excursions."
+      },
+      {
+        "step": "7",
+        "title": "Consider Sea Days",
+        "description": "Some travelers love relaxing onboard during sea days, while others prefer port-intensive discovery every day."
+      },
+      {
+        "step": "8",
+        "title": "Check the Seasonal Weather",
+        "description": "Weather can significantly affect your experience in regions like the Mediterranean and Northern Europe."
+      },
+      {
+        "step": "9",
+        "title": "Compare Suite Categories",
+        "description": "Look beyond the price and compare location, square footage, layout and veranda space."
+      },
+      {
+        "step": "10",
+        "title": "Work with a Luxury Travel Advisor",
+        "description": "A knowledgeable advisor helps compare itineraries, suite availability, and access exclusive Seabourn amenities."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY CRUISE EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Cruise Expertise",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "Cruising on Seabourn Encore represents luxury in its purest form — spacious suites, exquisite dining, and an intimate atmosphere where every staff member knows your name.",
+    "quoteSubtitle": "Personal Cruise Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand travel experience across more than 121 countries, Angela Hughes is globally recognized for her deep expertise in luxury ocean cruising, expeditions, and bespoke itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela guides clients to the world's most breathtaking destinations with personalized planning, insider ship access, and VIP Seabourn amenities."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Work with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is Seabourn Encore?",
+      "answer": "Seabourn Encore is an all-suite luxury ocean cruise ship designed around personalized service, fine dining and destination-focused cruising."
+    },
+    {
+      "question": "How many guests are on Seabourn Encore?",
+      "answer": "Seabourn Encore accommodates approximately 600 guests."
+    },
+    {
+      "question": "Is Seabourn Encore an all-suite ship?",
+      "answer": "Yes. All guest accommodations are suites."
+    },
+    {
+      "question": "Do Seabourn Encore suites have balconies?",
+      "answer": "Many suites include private verandas. The exact configuration depends on the suite category."
+    },
+    {
+      "question": "What restaurants are on Seabourn Encore?",
+      "answer": "Dining options can include The Restaurant, The Colonnade, Earth & Ocean, The Patio and in-suite dining."
+    },
+    {
+      "question": "Is dining included on Seabourn Encore?",
+      "answer": "Yes. Dining is included as part of Seabourn's all-inclusive cruise experience."
+    },
+    {
+      "question": "Does Seabourn Encore offer open seating?",
+      "answer": "Yes. Seabourn's dining approach provides flexible dining rather than traditional fixed assigned seating."
+    },
+    {
+      "question": "Does Seabourn Encore have a pool?",
+      "answer": "Yes. The ship has a pool area designed primarily for relaxation."
+    },
+    {
+      "question": "Does Seabourn Encore have a spa?",
+      "answer": "Yes. The ship provides spa and wellness services."
+    },
+    {
+      "question": "Does Seabourn Encore have a gym?",
+      "answer": "Yes. Guests can use the onboard fitness facilities."
+    },
+    {
+      "question": "What destinations does Seabourn Encore visit?",
+      "answer": "Depending on the sailing, Encore can visit regions such as the Mediterranean, Northern Europe, Scandinavia, the British Isles, the Caribbean and other seasonal destinations."
+    },
+    {
+      "question": "Is Seabourn Encore good for couples?",
+      "answer": "Yes. Its all-suite accommodations, verandas, dining and intimate atmosphere make it particularly well suited to couples."
+    },
+    {
+      "question": "Is Seabourn Encore good for solo travelers?",
+      "answer": "Yes. Flexible dining and the relatively intimate passenger environment can make it a comfortable choice for solo travelers."
+    },
+    {
+      "question": "Is Seabourn Encore good for families?",
+      "answer": "It can work well for multigenerational families who value luxury and destination experiences, although it is not designed as a traditional family cruise ship."
+    },
+    {
+      "question": "Is Seabourn Encore good for first-time luxury cruisers?",
+      "answer": "Yes. The combination of all-suite accommodations, personalized service, fine dining and relaxed luxury makes it a strong introduction to luxury cruising."
+    },
+    {
+      "question": "Is Seabourn Encore formal?",
+      "answer": "Seabourn Encore maintains a sophisticated but relatively relaxed atmosphere. Smart-casual clothing is appropriate for much of the onboard experience."
+    },
+    {
+      "question": "What is the difference between Seabourn Encore and Seabourn Ovation?",
+      "answer": "They are sister ships with very similar designs and experiences. Itinerary, departure date and suite availability are often more important when choosing between them."
+    },
+    {
+      "question": "Is Seabourn Encore worth the money?",
+      "answer": "For travelers who value spacious suites, personalized service, fine dining and an intimate luxury atmosphere, Seabourn Encore can be worth the premium."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is Seabourn Encore a Good Ship?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Seabourn Encore is an excellent choice for travelers who want a sophisticated, intimate luxury cruise experience without the crowds of a large ship. Its all-suite accommodations, multiple restaurants, elegant public spaces, flexible dining and personalized service make it particularly attractive to travelers who prioritize comfort and quality over onboard quantity.",
+      "It is especially well suited to couples, solo travelers, experienced luxury cruisers and first-time luxury travelers who value a quieter, more refined atmosphere."
+    ],
+    "recommendation": "Our recommendation: If your ideal cruise includes excellent food, spacious accommodations, attentive service and fascinating destinations, Seabourn Encore deserves serious consideration.",
+    "ctaText": "Start Planning Your Seabourn Encore Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Find Your Perfect Suite on Seabourn Encore",
+      "description": "Every accommodation aboard Seabourn Encore is a suite. Let us help you compare categories and find the layout that fits your itinerary and travel style.",
+      "buttonText": "Explore Suite Availability",
+      "buttonLink": "/contact"
+    },
+    "destinationsCta": {
+      "title": "Discover Seabourn Encore's Destinations",
+      "description": "From the Mediterranean to the Caribbean, let's find the itinerary that matches the way you want to travel.",
+      "buttonText": "Explore Itineraries",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Not Sure Whether to Choose Encore or Ovation?",
+      "description": "Both ships offer nearly identical luxury experiences. Let us help you choose based on the itinerary and departure that works best for your travel dates.",
+      "buttonText": "Get Expert Guidance",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Encore Cruise",
+      "description": "Let's compare itineraries, suite options and exclusive amenities to create your perfect Seabourn Encore luxury voyage.",
+      "buttonText": "Start Planning Your Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

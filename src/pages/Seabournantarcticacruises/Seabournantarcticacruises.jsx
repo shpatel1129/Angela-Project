@@ -24,19 +24,41 @@ import CabinFeatureGrid from "../../components/ui/CabinFeatureGrid";
 import DetailedInclusionsList from "../../components/ui/DetailedInclusionsList";
 import CostValueAnalysisCards from "../../components/ui/CostValueAnalysisCards";
 import TravelerPersonaCards from "../../components/ui/TravelerPersonaCards";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Data Source
 import data from "./data.json";
 
-// Optional Image imports (commented out per requirements)
-// import HeroImage from "../../assets/Seabournantarcticacruises/hero.jpg";
-// import ShipVentureImage from "../../assets/Seabournantarcticacruises/venture.jpg";
-// import ShipPursuitImage from "../../assets/Seabournantarcticacruises/pursuit.jpg";
-// import ZodiacLandingImage from "../../assets/Seabournantarcticacruises/zodiac.jpg";
-// import ZodiacIncludedImage from "../../assets/Seabournantarcticacruises/zodiac-included.jpg";
-// import GuaranteedWildlifeImage from "../../assets/Seabournantarcticacruises/guaranteed-wildlife.jpg";
-// import WildlifePenguinsImage from "../../assets/Seabournantarcticacruises/penguins.jpg";
-// import WildlifeWhalesImage from "../../assets/Seabournantarcticacruises/whales.jpg";
+// Images from SeabournAntarcticaCruises (SEO Optimized)
+import HeroImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-cruises-ultra-luxury-expedition-guide.jpg";
+import QuickAnswerImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-luxury-expedition-cruise-review.jpg";
+import ShipVentureImage from "../../assets/SeabournAntarcticaCruises/seabourn-venture-ultra-luxury-polar-expedition-ship.jpg";
+import ShipPursuitImage from "../../assets/SeabournAntarcticaCruises/seabourn-pursuit-ultra-luxury-polar-expedition-ship.jpg";
+import RoutePeninsulaImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-peninsula-scenic-glaciers-mountains.jpg";
+import RouteShetlandImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-south-shetland-islands-itinerary.jpg";
+import RouteDrakeImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-drake-passage-ocean-crossing.jpg";
+import ZodiacLandingImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-zodiac-shore-landings-ice-floes.jpg";
+import ZodiacExcursion1Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-included-zodiac-excursions-glaciers.jpg";
+import ZodiacExcursion2Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-zodiac-expedition-coastal-landings.jpg";
+import GuaranteedWildlifeImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-wildlife-sightings-polar-nature.jpg";
+import WildlifePenguinsImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-penguin-colony-wildlife-encounters.jpg";
+import WildlifeWhalesImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-whale-watching-humpback-orcas.jpg";
+import SuiteFeature1Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-luxury-veranda-suite-ocean-views.jpg";
+import SuiteFeature2Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-spacious-expedition-suite-living.jpg";
+import DiningExpedition1Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-dining-after-day-of-exploration.jpg";
+import DiningExpedition2Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-world-class-expedition-team-specialists.jpg";
+import DiningExpedition3Image from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-expedition-enrichment-presentations.jpg";
+import MobilityImage from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-mobility-senior-older-travelers-guide.jpg";
+import WorthItImage from "../../assets/SeabournAntarcticaCruises/is-seabourn-antarctica-cruise-worth-the-money-value.jpg";
+
+// CTA Section Background Images (from other Seabourn folders)
+import Cta1ExploreImg from "../../assets/SeabournExpeditionCruises/seabourn-expedition-cruises-ultra-luxury-adventure.jpg";
+import Cta2SuitesImg from "../../assets/SeabournSuites/seabourn-suite-for-expedition-cruises-venture-pursuit.jpg";
+import Cta3GearImg from "../../assets/SeabournExpeditionCruises/seabourn-expedition-parka-boots-polar-gear-inclusions.jpg";
+import Cta4VerandaImg from "../../assets/SeabournSuites/seabourn-veranda-suite-oceanfront-balcony-view.jpg";
+import Cta5SeasonImg from "../../assets/SeabournExpeditionCruises/seabourn-antarctica-cruises-best-time-to-sail-season.jpg";
+import Cta6ValueImg from "../../assets/WhatIncludedSeabournCruise/seabourn-cruise-inclusions-true-cost-value-breakdown.jpg";
+import CtaFinalImg from "../../assets/SeabournCruises/seabourn-purpose-built-ultra-luxury-expedition-cruises.jpg";
 
 const SeabournAntarcticaCruises = () => {
   return (
@@ -46,6 +68,7 @@ const SeabournAntarcticaCruises = () => {
         <title>{data.meta.title}</title>
         <meta name="title" content={data.meta.metaTitle} />
         <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl || "https://www.tripsandships.com/seabourn-cruises/antarctica/"} />
         <script type="application/ld+json">
           {JSON.stringify(data.schemaData)}
         </script>
@@ -61,7 +84,7 @@ const SeabournAntarcticaCruises = () => {
           subtitle={data.hero.subtitle}
           description={data.hero.description}
           badge={data.hero.badge}
-          // backgroundImage={HeroImage}
+          backgroundImage={HeroImage}
           secondaryCtaText={data.hero.ctaText}
           secondaryCtaLink={data.hero.ctaLink}
         />
@@ -76,14 +99,17 @@ const SeabournAntarcticaCruises = () => {
         placeholderLabel={data.quickAnswer.placeholderLabel}
         badgeTitle={data.quickAnswer.badgeTitle}
         badgeDescription={data.quickAnswer.badgeDescription}
-        // image={ZodiacLandingImage}
+        image={QuickAnswerImage}
       />
 
       {/* ── 3. The Fleet: Seabourn Antarctica Ships ───────────────── */}
       <ThreeColumnGrid
         title={data.ships.title}
         subtitle={data.ships.subtitle}
-        items={data.ships.items}
+        items={data.ships.items.map((item, idx) => ({
+          ...item,
+          image: [ShipVentureImage, ShipPursuitImage][idx]
+        }))}
       />
 
       {/* ── 4. Venture vs. Pursuit Comparison Table ───────────────── */}
@@ -102,11 +128,15 @@ const SeabournAntarcticaCruises = () => {
       <ThreeColumnGrid
         title={data.route.heading}
         subtitle={data.route.intro}
-        items={data.route.cards}
+        items={data.route.cards.map((card, idx) => ({
+          ...card,
+          image: [RoutePeninsulaImage, RouteShetlandImage, RouteDrakeImage][idx]
+        }))}
       />
 
       {/* ── 6. CTA 1 ──────────────────────────────────────────────── */}
       <CenterCTA
+        image={Cta1ExploreImg}
         title={data.cta1.title}
         description={data.cta1.description}
         buttonText={data.cta1.buttonText}
@@ -139,6 +169,7 @@ const SeabournAntarcticaCruises = () => {
         placeholderLabel={data.zodiacLandings.placeholderLabel}
         badgeTitle="Zodiac Exploration"
         badgeDescription="Daily Zodiac operations bringing you right up to ice floes and wildlife."
+        image={ZodiacLandingImage}
       />
 
       {/* ── 9. Zodiac Landing Steps ───────────────────────────────── */}
@@ -176,12 +207,13 @@ const SeabournAntarcticaCruises = () => {
         image2Placeholder="ANTARCTIC LANDINGS & EXPEDITIONS"
         ctaText="Speak with an Expedition Specialist"
         ctaLink="/contact"
-        // image1={ZodiacIncludedImage}
-        // image2={ZodiacExcursionImage}
+        image1={ZodiacExcursion1Image}
+        image2={ZodiacExcursion2Image}
       />
 
       {/* ── 11. CTA 2 ──────────────────────────────────────────────── */}
       <CenterCTA
+        image={Cta2SuitesImg}
         title={data.cta2.title}
         description={data.cta2.description}
         buttonText={data.cta2.buttonText}
@@ -205,7 +237,7 @@ const SeabournAntarcticaCruises = () => {
         summary={data.guaranteedQA.footer}
         imagePosition="left"
         theme="light"
-        // image={GuaranteedWildlifeImage}
+        image={GuaranteedWildlifeImage}
       />
 
       {/* ── 14. Penguins & Whales Deep Dive ────────────────────────── */}
@@ -219,7 +251,7 @@ const SeabournAntarcticaCruises = () => {
           bestFor: `${c.listLabel} ${c.listItems.join(", ")}. ${c.note || ""}`.trim(),
           placeholderLabel: c.title.toUpperCase(),
         }))}
-        // images={[WildlifePenguinsImage, WildlifeWhalesImage]}
+        images={[WildlifePenguinsImage, WildlifeWhalesImage]}
       />
 
       {/* ── 15. Photography & Binoculars ───────────────────────────── */}
@@ -229,8 +261,18 @@ const SeabournAntarcticaCruises = () => {
         cards={data.photographyAndBinoculars.cards}
       />
 
+      {/* ── Video Showcase (Middle of Page) ────────────────────────── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "_ZExnvHXfpE",
+          title: "Experience Seabourn Ultra-Luxury Antarctica Expeditions",
+          description: "Step aboard Seabourn Venture and Seabourn Pursuit to experience the sublime beauty, active Zodiac landings, and intimate polar exploration in Antarctica."
+        }}
+      />
+
       {/* ── 16. CTA 3 ──────────────────────────────────────────────── */}
       <CenterCTA
+        image={Cta3GearImg}
         title={data.cta3.title}
         description={data.cta3.description}
         buttonText={data.cta3.buttonText}
@@ -254,15 +296,18 @@ const SeabournAntarcticaCruises = () => {
             advantages: data.suites.cards[1].items,
           },
         }}
-        // image1={SuiteFeature1Image}
-        // image2={SuiteFeature2Image}
+        image1={SuiteFeature1Image}
+        image2={SuiteFeature2Image}
       />
 
       {/* ── 18. Dining & Expedition Team ───────────────────────────── */}
       <ThreeColumnGrid
         title={data.diningAndExpedition.title}
         subtitle={data.diningAndExpedition.subtitle}
-        items={data.diningAndExpedition.items}
+        items={data.diningAndExpedition.items.map((item, idx) => ({
+          ...item,
+          image: [DiningExpedition1Image, DiningExpedition2Image, DiningExpedition3Image][idx]
+        }))}
       />
 
       {/* ── 19. Mobility & Older Travelers ─────────────────────────── */}
@@ -274,6 +319,7 @@ const SeabournAntarcticaCruises = () => {
         placeholderLabel={data.mobilityQA.placeholderLabel}
         badgeTitle="Mobility Advisory"
         badgeDescription="Essential physical considerations for comfortable Antarctic expedition participation."
+        image={MobilityImage}
       />
 
       {/* ── 20. Activity Level ─────────────────────────────────────── */}
@@ -302,6 +348,7 @@ const SeabournAntarcticaCruises = () => {
 
       {/* ── 21. CTA 4 ──────────────────────────────────────────────── */}
       <CenterCTA
+        image={Cta4VerandaImg}
         title={data.cta4.title}
         description={data.cta4.description}
         buttonText={data.cta4.buttonText}
@@ -360,6 +407,7 @@ const SeabournAntarcticaCruises = () => {
 
       {/* ── 26. CTA 5 ──────────────────────────────────────────────── */}
       <CenterCTA
+        image={Cta5SeasonImg}
         title={data.cta5.title}
         description={data.cta5.description}
         buttonText={data.cta5.buttonText}
@@ -401,6 +449,7 @@ const SeabournAntarcticaCruises = () => {
         placeholderLabel={data.worthIt.placeholderLabel}
         badgeTitle="Integrated Value"
         badgeDescription="Remote expedition capabilities with ultra-luxury inclusions and world-class culinary excellence."
+        image={WorthItImage}
       />
 
       {/* ── 29. Seabourn vs. Traditional Cruise Table ──────────────── */}
@@ -426,6 +475,7 @@ const SeabournAntarcticaCruises = () => {
 
       {/* ── 31. CTA 6 ──────────────────────────────────────────────── */}
       <CenterCTA
+        image={Cta6ValueImg}
         title={data.cta6.title}
         description={data.cta6.description}
         buttonText={data.cta6.buttonText}
@@ -503,11 +553,12 @@ const SeabournAntarcticaCruises = () => {
 
       {/* ── 38. Final CTA ─────────────────────────────────────────── */}
       <CenterCTA
+        image={CtaFinalImg}
         title="Ready to Begin Your Antarctic Adventure?"
         description="Let Angela Hughes and Trips & Ships Luxury Travel design your bespoke Seabourn Antarctica journey."
         buttonText={data.conclusion.ctaText}
         buttonLink={data.conclusion.ctaLink}
-        theme="light"
+        theme="dark"
       />
     </div>
   );

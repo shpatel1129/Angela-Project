@@ -1,8 +1,28 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
+
+// Page Asset Images from WhatIsThereDoSeabournCruise (SEO-Optimized)
+import heroImg from "../../assets/WhatIsThereDoSeabournCruise/what-is-there-to-do-on-a-seabourn-cruise-hero.jpg";
+import editorialImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-intimate-luxury-yacht-onboard-lifestyle-editorial.jpg";
+import kayakingImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-expedition-kayaking-adventures-fjords-glaciers.jpg";
+import zodiacImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-zodiac-tour-coastal-wildlife-exploration.jpg";
+import hikeImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-guided-nature-hike-shore-excursion.jpg";
+import wildlifeImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-wildlife-viewing-naturalist-expedition.jpg";
+import morningImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-sea-day-morning-fitness-breakfast-seabourn-square.jpg";
+import lateMorningImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-sea-day-late-morning-enrichment-pool-spa.jpg";
+import lunchImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-sea-day-lunch-colonnade-patio-dining.jpg";
+import afternoonImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-sea-day-afternoon-wellness-relaxation-deck.jpg";
+import eveningImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-sea-day-evening-entertainment-cocktails-club.jpg";
+import silverseaImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-vs-silversea-onboard-activities-comparison.jpg";
+import regentImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-vs-regent-seven-seas-activities-comparison.jpg";
+import exploraImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-vs-explora-journeys-activities-lifestyle-comparison.webp";
+import ritzImg from "../../assets/WhatIsThereDoSeabournCruise/seabourn-vs-ritz-carlton-yacht-collection-activities-comparison.jpg";
+
+// Distinct CTA Background Images (from other Seabourn collections)
+import midCtaImg from "../../assets/SeabournCruises/seabourn-ocean-cruises-luxury-yacht-experience.jpg";
+import bottomCtaImg from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
 
 // Distinct UI Components (Zero repetition of component types)
 import ComparisonHero from "../../components/ui/ComparisonHero";
@@ -31,6 +51,9 @@ import FadeIn from "../../components/ui/FadeIn";
 import data from "./data.json";
 
 const WhatIsThereToDoOnSeabourn = () => {
+  // Competitor Images for LuxuryZigZagShowcase
+  const competitorImages = [silverseaImg, regentImg, exploraImg, ritzImg];
+
   // ── 1. Dining (Activities 1–6) via DetailedInclusionsList ─────────
   const diningInclusions = {
     title: data.thirtyActivities.dining.title,
@@ -75,11 +98,18 @@ const WhatIsThereToDoOnSeabourn = () => {
   }));
 
   // ── 6. Expedition (Activities 22–25) via ThreeColumnGrid ──────────
+  const expeditionImageMap = {
+    "22. Go Kayaking": kayakingImg,
+    "23. Take a Zodiac Tour": zodiacImg,
+    "24. Join a Guided Hike": hikeImg,
+    "25. Look for Wildlife": wildlifeImg
+  };
   const expeditionGridItems = data.thirtyActivities.expeditionAndAdventure.items.map((item) => ({
     title: item.title,
     description: item.description,
     category: "EXPEDITION & ADVENTURE",
-    features: item.bullets || []
+    features: item.bullets || [],
+    image: expeditionImageMap[item.title] || null
   }));
 
   // ── 7. Shore Excursions (Activities 26–29) via StepByStepGuide ────
@@ -89,6 +119,13 @@ const WhatIsThereToDoOnSeabourn = () => {
   }));
 
   // ── 8. Sea Day Schedule (Activity 30) via TravelerProfileTabs ─────
+  const seaDayImageMap = {
+    Morning: morningImg,
+    "Late Morning": lateMorningImg,
+    Lunch: lunchImg,
+    Afternoon: afternoonImg,
+    Evening: eveningImg
+  };
   const seaDayProfiles = data.seaDayTimeline.periods.map((period) => ({
     name: period.period,
     tagline: period.badge,
@@ -96,7 +133,8 @@ const WhatIsThereToDoOnSeabourn = () => {
     recommendation: period.activities.join(" • "),
     reason: "Curated experiences that invite participation without ever forcing a rigid schedule.",
     whyFits: period.activities,
-    placeholderLabel: `${period.period} on Seabourn`
+    placeholderLabel: `${period.period} on Seabourn`,
+    image: seaDayImageMap[period.period] || null
   }));
 
   // ── 9. Best Activities by Traveler Style via CardGrid ─────────────
@@ -313,18 +351,22 @@ const WhatIsThereToDoOnSeabourn = () => {
         badge={data.hero.badge}
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        ctaText="Explore Seabourn Itineraries"
-        ctaLink="/contact"
+        backgroundImage={heroImg}
+        secondaryCtaText="Explore Seabourn Itineraries"
+        secondaryCtaLink="/contact"
       />
 
       {/* ── 2. Editorial Introduction ──────────────────────────────── */}
-      <EditorialIntroSection
-        badge="THE SEABOURN LIFESTYLE"
-        title={data.editorialIntro.heading}
-        paragraphs={data.editorialIntro.paragraphs}
-        takeaway={data.editorialIntro.takeaway}
-        accentText="Curated & Uncrowded"
-      />
+      <div id="content">
+        <EditorialIntroSection
+          badge="THE SEABOURN LIFESTYLE"
+          title={data.editorialIntro.heading}
+          paragraphs={data.editorialIntro.paragraphs}
+          takeaway={data.editorialIntro.takeaway}
+          accentText="Curated & Uncrowded"
+          image={editorialImg}
+        />
+      </div>
 
       {/* ── 3. Quick Answer Table ──────────────────────────────────── */}
       <div className="bg-slate-50 py-12">
@@ -436,11 +478,22 @@ const WhatIsThereToDoOnSeabourn = () => {
         <ComparisonTable data={data.seabournVsMegaShipsTable} />
       </div>
 
+      {/* ── Mid-Page Call to Action ───────────────────────────────── */}
+      <CenterCTA
+        title="Curate Your Ideal Seabourn Activity Experience"
+        description="Connect with Angela Hughes and the Trips & Ships team to customize your daily pacing, reserve premier shore excursions, and secure exclusive Virtuoso amenities."
+        buttonText="Plan Your Seabourn Voyage"
+        buttonLink="/contact"
+        image={midCtaImg}
+        theme="dark"
+      />
+
       {/* ── 9. Seabourn vs Luxury Competitors (LuxuryZigZagShowcase) ── */}
       <LuxuryZigZagShowcase
         title={data.luxuryCompetitors.title}
         subtitle={data.luxuryCompetitors.subtitle}
         items={data.luxuryCompetitors.items}
+        images={competitorImages}
       />
 
       {/* ── 10. Best Activities by Traveler Style (CardGrid) ───────── */}
@@ -533,42 +586,13 @@ const WhatIsThereToDoOnSeabourn = () => {
         ]}
       />
 
-      {/* ── 17. Recommended Internal Links ─────────────────────────── */}
-      <section className="py-16 bg-slate-50 border-t border-slate-200">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-10">
-            <span className="text-xs uppercase tracking-[0.2em] text-navy-800 font-bold block mb-2">
-              Explore Related Guides
-            </span>
-            <h2 className="text-3xl font-display text-navy-950">
-              Recommended Seabourn Planning Resources
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.internalLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                to={link.url}
-                className="p-5 bg-white rounded-xl border border-slate-200 hover:border-gold-400 hover:shadow-md transition-all flex items-center justify-between group"
-              >
-                <span className="font-sans text-sm text-navy-950 group-hover:text-gold-600 font-medium">
-                  {link.title}
-                </span>
-                <span className="text-gold-400 group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── 18. Bottom Call to Action ──────────────────────────────── */}
       <CenterCTA
         title="Ready to Experience the World of Seabourn?"
         description="Connect with Angela Hughes and the Trips & Ships Luxury Travel team to plan your ideal voyage with exclusive Virtuoso amenities, preferred suite placements, and expert itinerary advice."
         buttonText="Request Your Seabourn Quote"
         buttonLink="/contact"
+        image={bottomCtaImg}
         theme="dark"
       />
     </div>

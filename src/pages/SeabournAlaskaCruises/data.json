@@ -756,12 +756,30 @@
     "lead": "A seven- or eight-day voyage can provide a strong introduction to Alaska.",
     "longerReasonTitle": "Consider a longer voyage if you want:",
     "longerReasons": [
-      "More ports",
-      "More scenic cruising",
-      "More glacier viewing",
-      "More time for excursions",
-      "Additional Inside Passage experiences",
-      "A more comprehensive Alaska journey"
+      {
+        "title": "More Ports",
+        "description": "Extended 10- to 14-day combination voyages visit up to 15 distinct destinations, including off-the-beaten-path fishing communities and authentic Native heritage harbors."
+      },
+      {
+        "title": "More Scenic Cruising",
+        "description": "Allows deeper exploration into narrow fjords, Tracy Arm, and Endicott Arm without the rushed timelines of shorter introductory routes."
+      },
+      {
+        "title": "More Glacier Viewing",
+        "description": "Experience multiple major glacial formations across your voyage, pairing Glacier Bay National Park with Hubbard Glacier and pristine fjord icefields."
+      },
+      {
+        "title": "More Time for Excursions",
+        "description": "Enjoy extended time in port for high-adventure Ventures by Seabourn Zodiac outings, catamaran wilderness safaris, and guided rainforest hikes."
+      },
+      {
+        "title": "Additional Inside Passage Experiences",
+        "description": "Sail both northern and southern passages, navigating tranquil channels and remote straits where mega-ships cannot venture."
+      },
+      {
+        "title": "A More Comprehensive Alaska Journey",
+        "description": "Combine back-to-back itineraries or add the Denali pre-cruise overland journey for an all-encompassing land-and-sea Alaskan expedition."
+      }
     ],
     "note": "Seabourn's Alaska programs can include longer combination itineraries, including 14-day options."
   },

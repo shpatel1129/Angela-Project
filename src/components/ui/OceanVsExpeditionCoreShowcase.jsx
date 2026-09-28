@@ -34,32 +34,28 @@ const OceanVsExpeditionCoreShowcase = ({
               <FadeIn key={idx} delay={0.1}>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                   
-                  {/* Image Container Side (Images commented out as requested) */}
+                  {/* Image Container Side */}
                   <div className={`lg:col-span-5 w-full ${isEven ? 'lg:order-1' : 'lg:order-2'}`}>
                     <div className="relative group rounded-2xl overflow-hidden shadow-lg border border-slate-200 bg-slate-50">
-                      
-                      {/* ========================================================================= */}
-                      {/* IMAGE COMMENTED OUT AS REQUESTED - UNCOMMENT WHEN READY TO DISPLAY IMAGES */}
-                      {/* ========================================================================= */}
-                      {/* 
-                      <img 
-                        src={item.image || "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1200&q=80"} 
-                        alt={item.title} 
-                        className="w-full h-full min-h-[380px] lg:min-h-[480px] object-cover transition-transform duration-700 group-hover:scale-105"
-                      /> 
-                      */}
-                      
-                      {/* Image Placeholder Frame (Visible while image tag remains commented out above) */}
-                      <div className="w-full min-h-[340px] md:min-h-[420px] bg-gradient-to-br from-slate-100 via-ice-50 to-slate-200/70 rounded-2xl border-2 border-dashed border-slate-300 flex flex-col items-center justify-center p-8 text-center relative overflow-hidden">
-                        <div className="w-16 h-16 rounded-full bg-navy-950 text-gold-400 flex items-center justify-center mb-4 shadow-md">
-                          {idx === 0 ? <Ship className="w-8 h-8" /> : <Compass className="w-8 h-8" />}
+                      {item.image ? (
+                        <div className="relative w-full min-h-[380px] lg:min-h-[480px] overflow-hidden">
+                          <img 
+                            src={item.image} 
+                            alt={item.title} 
+                            className="w-full h-full min-h-[380px] lg:min-h-[480px] object-cover transition-transform duration-700 group-hover:scale-105"
+                          />
                         </div>
-                        <h4 className="font-display text-xl text-navy-950 mb-2">{item.title}</h4>
-                        <span className="text-xs uppercase tracking-widest text-slate-500 font-semibold bg-white/80 px-3 py-1 rounded-full border border-slate-200">
-                          Image Section Ready (Commented Out)
-                        </span>
-                      </div>
-
+                      ) : (
+                        <div className="w-full min-h-[340px] md:min-h-[420px] bg-gradient-to-br from-slate-100 via-ice-50 to-slate-200/70 rounded-2xl border-2 border-dashed border-slate-300 flex flex-col items-center justify-center p-8 text-center relative overflow-hidden">
+                          <div className="w-16 h-16 rounded-full bg-navy-950 text-gold-400 flex items-center justify-center mb-4 shadow-md">
+                            {idx === 0 ? <Ship className="w-8 h-8" /> : <Compass className="w-8 h-8" />}
+                          </div>
+                          <h4 className="font-display text-xl text-navy-950 mb-2">{item.title}</h4>
+                          <span className="text-xs uppercase tracking-widest text-slate-500 font-semibold bg-white/80 px-3 py-1 rounded-full border border-slate-200">
+                            {item.title}
+                          </span>
+                        </div>
+                      )}
                     </div>
                   </div>
 

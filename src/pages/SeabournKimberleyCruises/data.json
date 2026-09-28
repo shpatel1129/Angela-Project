@@ -1,0 +1,746 @@
+{
+  "hero": {
+    "title": "Seabourn Kimberley Cruises",
+    "subtitle": "Wildlife, Waterfalls & Zodiacs",
+    "paragraphs": [
+      "A Seabourn Kimberley cruise offers an opportunity to explore one of Australia's most remote and dramatic coastal regions from the water.",
+      "The Kimberley, in Western Australia's far northwest, is known for its rugged coastline, red cliffs, secluded beaches, waterfalls, tidal rivers, Indigenous cultural heritage and abundant wildlife. Rather than exploring the region through conventional sightseeing, Seabourn's Kimberley voyages emphasize expedition-style exploration.",
+      "Guests can use Zodiacs to reach remote shorelines, discover waterfalls and beaches, observe wildlife and experience landscapes that are difficult to access by road. The result is a style of luxury travel that combines Seabourn's onboard experience with adventure and exploration.",
+      "This guide covers what to expect from a Seabourn Kimberley cruise, including waterfalls, Zodiac excursions, wildlife, Indigenous culture, the sailing season, activities, packing and who this itinerary is best suited for."
+    ],
+    "ctaText": "Start Planning Your Seabourn Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Kimberley Cruises at a Glance",
+    "subtitle": "THE OVERVIEW",
+    "caption": "Note: Exact itineraries, Zodiac operations, wildlife sightings and onboard programming can change by sailing and conditions.",
+    "headers": ["Feature", "Seabourn Kimberley Cruises"],
+    "rows": [
+      ["Destination", "Kimberley, Western Australia"],
+      ["Cruise style", "Luxury expedition"],
+      ["Main attraction", "Remote landscapes and wildlife"],
+      ["Shore access", "Zodiac excursions"],
+      ["Wildlife", "Crocodiles, birds, marine life and other native species"],
+      ["Scenery", "Cliffs, waterfalls, beaches, rivers and tidal landscapes"],
+      ["Cultural experiences", "Indigenous heritage and local cultural interpretation"],
+      ["Activities", "Zodiac rides, hikes, wildlife viewing and exploration"],
+      ["Sailing season", "Primarily during the Kimberley's dry-season months"],
+      ["Best for", "Adventure travelers, couples, photographers and luxury expedition cruisers"]
+    ]
+  },
+  "whyTakeSection": {
+    "title": "Why Take a Seabourn Kimberley Cruise?",
+    "subtitle": "THE CASE FOR IT",
+    "paragraphs": [
+      "The Kimberley is not a destination that can be fully appreciated from a conventional sightseeing itinerary. Its remote geography is one of its biggest attractions. A cruise allows travelers to experience landscapes that may be difficult to reach independently while returning each evening to the comfort of a luxury expedition ship."
+    ],
+    "highlights": [
+      "Remote coastal landscapes",
+      "Zodiac exploration",
+      "Waterfalls",
+      "Wildlife encounters",
+      "Indigenous cultural experiences",
+      "Scenic cruising",
+      "Hiking",
+      "Beaches",
+      "River and tidal environments",
+      "Luxury accommodation"
+    ],
+    "conclusion": "This combination makes the Kimberley particularly attractive to travelers who want adventure without giving up comfort."
+  },
+  "specialChecklistCards": [
+    {
+      "title": "Dramatic Contrasts & Landscapes",
+      "items": [
+        "Deep red sandstone cliffs rising dramatically above turquoise waters",
+        "Rocky coastlines and hidden tropical beaches accessible only by sea",
+        "Ancient river systems carving through dramatic gorges and wilderness",
+        "Ancient landscapes shaped over hundreds of millions of years"
+      ]
+    },
+    {
+      "title": "Wilderness & Tidal Ecosystems",
+      "items": [
+        "Powerful seasonal waterfalls cascading directly into ocean fjords",
+        "Dense mangrove forests and unique tidal flat ecosystems",
+        "Massive tidal fluctuations creating fast-moving horizontal falls and currents",
+        "Remote offshore islands untouched by modern development"
+      ]
+    }
+  ],
+  "zodiacShowcase": {
+    "title": "Seabourn Kimberley Zodiac Excursions",
+    "subtitle": "GETTING ASHORE",
+    "description": "Zodiac excursions are one of the defining features of a Kimberley expedition cruise. These smaller inflatable boats allow the expedition team to take guests closer to the coastline and into areas that the main ship cannot reach.",
+    "items": [
+      {
+        "title": "Zodiac Excursion Opportunities",
+        "subtitle": "Close-Up Exploration by Water",
+        "description": "Zodiac outings allow guests to navigate shallow waterways and approach towering cliffs and waterfalls that are impossible to reach by larger vessels.",
+        "features": [
+          "Explore narrow waterways",
+          "Approach waterfalls",
+          "View cliffs from the water",
+          "Reach remote beaches",
+          "Observe wildlife",
+          "Explore tidal environments"
+        ]
+      },
+      {
+        "title": "Expedition Outing Conditions",
+        "subtitle": "What to Expect on the Water",
+        "description": "Zodiac outings are conducted with expert expedition leaders. Conditions can vary significantly across tides, wind and terrain.",
+        "features": [
+          "Calm water & light spray",
+          "Waves & changing tides",
+          "Strong tropical sunlight",
+          "Rocky landing areas",
+          "Wet landings (stepping into shallow water)",
+          "Warm tropical temperatures"
+        ]
+      }
+    ]
+  },
+  "waterfallsSection": {
+    "title": "Kimberley Waterfalls & Seasonal Cascades",
+    "subtitle": "SEASONAL CASCADES",
+    "paragraphs": [
+      "Waterfalls are among the most memorable features of the Kimberley during the cruising season. Seasonal rainfall creates waterfalls that flow from the region's rugged cliffs toward the sea. The combination of red rock, tropical vegetation and cascading water creates some of the region's most dramatic scenery.",
+      "Why Waterfalls Are Seasonal: The Kimberley's climate has a distinct wet and dry season. Rainfall during the wetter months feeds rivers and waterfalls. As the dry season progresses, some waterfalls can become less powerful or change significantly. This is one reason the timing of a Kimberley cruise matters."
+    ],
+    "highlights": [
+      "Zodiac exploration up close to thunderous falls",
+      "Scenic cruising from the ship's outdoor observation decks",
+      "Shore landings and guided walks near freshwater pools",
+      "Guided expedition interpretation of geology and seasonal hydrology"
+    ],
+    "conclusion": "Travelers interested specifically in waterfalls should discuss the timing of their voyage with an experienced travel advisor to choose optimal sailing dates."
+  },
+  "wildlifeSection": {
+    "title": "Seabourn Kimberley Wildlife",
+    "subtitle": "NATIVE SPECIES",
+    "paragraphs": [
+      "Wildlife is another major reason travelers choose this region. The remote environment creates excellent opportunities for observing native Australian species from Zodiacs and open observation decks."
+    ],
+    "items": [
+      {
+        "icon": "Compass",
+        "title": "Seabourn Kimberley Wildlife",
+        "description": "Wildlife is another major reason travelers choose this region. Depending on the itinerary, conditions and season, travelers may encounter saltwater crocodiles, sea turtles, dolphins, whales, rays, seabirds and shore birds. Wildlife sightings are never guaranteed, but the remote environment creates excellent opportunities for observation.",
+        "features": [
+          "Saltwater crocodiles",
+          "Sea turtles & manta rays",
+          "Coastal dolphins & marine life",
+          "Migrating humpback whales",
+          "Endemic sea and shore birds"
+        ]
+      },
+      {
+        "icon": "Activity",
+        "title": "Marine Wildlife",
+        "description": "The Kimberley is also home to diverse marine life. Guests may encounter dolphins, sea turtles, rays, fish, whales and other marine species. Travelers interested in wildlife photography should keep binoculars and a camera readily accessible.",
+        "features": [
+          "Dolphins & porpoises",
+          "Sea turtles & rays",
+          "Tropical reef & pelagic fish",
+          "Migrating whale pods",
+          "Diverse marine ecosystems"
+        ]
+      },
+      {
+        "icon": "Eye",
+        "title": "Birdwatching in the Kimberley",
+        "description": "Birdlife can be particularly rewarding for nature-focused travelers. Keep an eye out around cliffs, beaches, mangroves, river mouths, islands and waterfalls. A good pair of binoculars can significantly enhance the experience.",
+        "features": [
+          "Cliffs & rocky roosts",
+          "Beaches & coastal shores",
+          "Mangroves & river mouths",
+          "Offshore islands & waterfalls",
+          "Native raptors & sea eagles"
+        ]
+      }
+    ]
+  },
+  "wildlifeCards": [
+    {
+      "icon": "Compass",
+      "title": "Seabourn Kimberley Wildlife",
+      "description": "Wildlife is a major reason travelers choose this region.",
+      "text": "Wildlife is another major reason travelers choose this region. Depending on the itinerary, conditions and season, travelers may encounter saltwater crocodiles, sea turtles, dolphins, whales, rays, seabirds and shore birds. Wildlife sightings are never guaranteed, but the remote environment creates excellent opportunities for observation."
+    },
+    {
+      "icon": "Fish",
+      "title": "Marine Wildlife",
+      "description": "The Kimberley is home to diverse tropical marine life.",
+      "text": "The Kimberley is also home to diverse marine life. Guests may encounter dolphins, sea turtles, manta rays, tropical fish, migrating humpback whales and other marine species. Travelers interested in wildlife photography should keep binoculars and a camera readily accessible."
+    },
+    {
+      "icon": "Bird",
+      "title": "Birdwatching in the Kimberley",
+      "description": "Birdlife can be particularly rewarding for nature-focused travelers.",
+      "text": "Keep an eye out around cliffs, beaches, mangroves, river mouths, offshore islands and waterfalls for native raptors, sea eagles, kingfishers, and migratory shorebirds. A good pair of binoculars can significantly enhance the experience."
+    }
+  ],
+  "cultureShowcase": {
+    "title": "Seabourn Kimberley Indigenous Culture",
+    "subtitle": "CONNECTION TO COUNTRY",
+    "description": "The Kimberley has a deep Indigenous cultural heritage spanning over 50,000 years. Cultural experiences provide travelers with insight into the region's traditional connections to land, sea and waterways.",
+    "items": [
+      {
+        "title": "Cultural Heritage & Traditions",
+        "subtitle": "Ancient Living Culture",
+        "description": "Depending on the itinerary and programming, guests may learn about Indigenous history, traditional knowledge, connection to Country, art, stories, traditions and ancient rock art.",
+        "features": [
+          "Indigenous history",
+          "Traditional knowledge",
+          "Cultural heritage",
+          "Connection to Country",
+          "Art & rock galleries",
+          "Stories and oral traditions",
+          "Ancient rock art (Gwion Gwion & Wandjina)"
+        ]
+      },
+      {
+        "title": "Why Indigenous Experiences Matter",
+        "subtitle": "Meaning Beyond Scenery",
+        "description": "A Kimberley cruise is not simply a wildlife or scenic adventure. Understanding how traditional custodians have lived in harmony with the land for millennia enriches every excursion.",
+        "features": [
+          "How people have lived in the region for millennia",
+          "Connections between communities and Country",
+          "Traditional ecological knowledge",
+          "The spiritual significance of landscapes",
+          "The history represented through art and storytelling"
+        ]
+      }
+    ]
+  },
+  "hikingCards": [
+    {
+      "title": "Hiking and Shore Exploration Activities",
+      "items": [
+        "Guided nature walks led by expert expedition geologists and botanists",
+        "Short hikes across ancient rock platforms to scenic lookout points",
+        "Beachcombing and exploration along untouched coastal shorelines",
+        "Visits to ancient Aboriginal rock art galleries with local cultural guides",
+        "Observation of endemic birdlife, reptiles, and native coastal flora",
+        "Walking conditions can be uneven and may include rocky surfaces, sand or natural trails"
+      ]
+    },
+    {
+      "title": "Is a Kimberley Cruise Physically Active?",
+      "items": [
+        "Getting in and out of inflatable Zodiacs with assistance from crew",
+        "Walking on uneven rocky terrain, wet sand, and unpaved natural tracks",
+        "Short uphill hikes to reach panoramic plateau viewpoints and waterfalls",
+        "Wet beach landings requiring stepping into knee-deep warm water",
+        "Exposure to tropical sun, heat, and humidity during daytime outings",
+        "A reasonable level of mobility is helpful, but activities can be tailored"
+      ]
+    }
+  ],
+  "scenicSection": {
+    "title": "Seabourn Kimberley Scenic Cruising",
+    "subtitle": "FROM THE WATER",
+    "paragraphs": [
+      "Not every memorable moment requires leaving the ship. Some of the Kimberley's most dramatic scenery can be experienced from the water. This is one of the advantages of expedition cruising: the journey between landing sites can itself be an attraction."
+    ],
+    "highlights": [
+      "Red sandstone cliffs glowing at sunrise and sunset",
+      "Remote archipelago islands and rocky outcrops",
+      "Secluded white-sand beaches flanked by turquoise sea",
+      "Seasonal cascading waterfalls tumbling into the ocean",
+      "Tidal rivers and dramatic saltwater estuaries"
+    ],
+    "conclusion": "Expedition ships navigate close to sheer cliff faces, providing uninterrupted panoramic views from private suite verandas and open observation lounges."
+  },
+  "seasonShowcase": {
+    "title": "When to Sail the Kimberley",
+    "subtitle": "PLANNING YOUR VOYAGE",
+    "description": "The Kimberley cruise season is concentrated during the dry season (April through October), when weather conditions are most suitable for expedition cruising and navigation.",
+    "items": [
+      {
+        "category": "Optimal Sailing Season",
+        "title": "Best Time for a Seabourn Kimberley Cruise",
+        "subtitle": "Dry-Season Expedition Window",
+        "description": "The cruising season corresponds with the region's dry season. Timing influences waterfall flow, daytime heat, and wildlife migration patterns.",
+        "bestFor": "Lower rainfall, warm days, clear blue skies, accessible landing sites, and predictable navigation conditions.",
+        "placeholderLabel": "DRY SEASON EXPEDITION"
+      },
+      {
+        "category": "Tropical Climate & Weather",
+        "title": "Kimberley Weather & Climate",
+        "subtitle": "Tropical Warmth & Sun",
+        "description": "The Kimberley has a tropical climate. Travelers should prepare for intense sunlight, daytime warmth, and varying coastal breezes.",
+        "bestFor": "Strong sunlight, warm daytime temperatures, moderate humidity, and variable coastal conditions.",
+        "placeholderLabel": "TROPICAL WEATHER & SUN"
+      }
+    ]
+  },
+  "packingChecklist": {
+    "title": "What to Pack for a Seabourn Kimberley Cruise",
+    "subtitle": "PACKING ESSENTIALS • GETTING READY FOR EXPEDITION & ONBOARD LUXURY",
+    "categories": [
+      {
+        "id": "clothing",
+        "icon": "ShirtIcon",
+        "label": "Essential Daytime Clothing",
+        "items": [
+          "Lightweight, breathable long-sleeve shirts for sun protection",
+          "Quick-drying trousers and comfortable outdoor walking shorts",
+          "Comfortable, moisture-wicking walking layers",
+          "Lightweight fleece or windbreaker for breezy coastal mornings",
+          "Swimwear for onboard pool, whirlpools, and remote beach landings",
+          "Wide-brimmed sun hat with chin strap for windy Zodiac rides"
+        ]
+      },
+      {
+        "id": "essentials",
+        "icon": "BackpackIcon",
+        "label": "Expedition Gear & Optics",
+        "items": [
+          "High-quality binoculars (8x42 or 10x42) for wildlife and cliff spotting",
+          "Camera with telephoto zoom lens and extra memory cards",
+          "Waterproof dry bags or protective pouches for electronics in Zodiacs",
+          "High-SPF water-resistant sunscreen and lip protection",
+          "Effective insect repellent for mangrove and river excursions",
+          "Small lightweight daypack and reusable insulated water bottle"
+        ]
+      },
+      {
+        "id": "footwear",
+        "icon": "ShoeIcon",
+        "label": "Footwear & Shore Access",
+        "items": [
+          "Comfortable walking shoes with good traction for uneven terrain",
+          "Sturdy footwear suitable for rocky surfaces and natural tracks",
+          "Water-friendly sandals or amphibious reef shoes for wet Zodiac landings",
+          "Casual shoes or sandals for relaxing onboard the ship"
+        ]
+      },
+      {
+        "id": "evening",
+        "icon": "HeartIcon",
+        "label": "Evening & Onboard Attire",
+        "items": [
+          "Seabourn's onboard environment remains sophisticated and elegant",
+          "Appropriate smart-casual attire for gourmet dinners and cocktails",
+          "Light jacket, wrap, or sweater for air-conditioned indoor lounges",
+          "Comfortable resort-casual clothing for daytime sea days"
+        ]
+      }
+    ]
+  },
+  "packingData": {
+    "title": "What to Pack for a Seabourn Kimberley Cruise",
+    "subtitle": "GETTING READY & PACKING ESSENTIALS",
+    "items": [
+      {
+        "step": "1",
+        "title": "Essential Daytime Clothing",
+        "description": "Lightweight breathable long-sleeve shirts, quick-drying trousers or shorts, sun-protective clothing, lightweight layers, and swimwear."
+      },
+      {
+        "step": "2",
+        "title": "Sun & Insect Protection",
+        "description": "Broad-brimmed sun hat, polarized sunglasses, high-SPF sunscreen, and effective insect repellent."
+      },
+      {
+        "step": "3",
+        "title": "Expedition Footwear",
+        "description": "Comfortable sturdy walking shoes for uneven trails, plus water-friendly sandals or amphibious shoes for wet Zodiac landings."
+      },
+      {
+        "step": "4",
+        "title": "Camera & Optical Gear",
+        "description": "High-quality binoculars for bird and wildlife viewing, a camera with zoom lens, and waterproof dry bags or protective pouches."
+      },
+      {
+        "step": "5",
+        "title": "Daypacks & Hydration",
+        "description": "A small lightweight waterproof daypack and reusable insulated water bottle for shore excursions."
+      },
+      {
+        "step": "6",
+        "title": "Evening Smart-Casual Attire",
+        "description": "Seabourn's onboard environment remains sophisticated — pack elegant smart-casual attire for dinner, cocktails, and evening lectures."
+      }
+    ]
+  },
+  "onboardSection": {
+    "title": "What Is the Seabourn Kimberley Experience Like Onboard?",
+    "subtitle": "BACK ON THE SHIP • A SOPHISTICATED LUXURY RETREAT",
+    "paragraphs": [
+      "The ship provides a contrast to the rugged environment outside. After a day of exploring, guests can return to comfort. That contrast is one of the major attractions of luxury expedition cruising. You can spend the day exploring remote wilderness and return to a sophisticated onboard environment in the evening.",
+      "The expedition experience is built around wildlife, remote landscapes, Zodiac exploration, cultural experiences, scenic cruising, shore landings, and natural history."
+    ],
+    "features": [
+      {
+        "title": "All-Suite Residential Accommodations",
+        "description": "Expansive oceanfront suites with private verandas, luxury marble bathrooms, walk-in closets, and dedicated suite host service."
+      },
+      {
+        "title": "Gourmet Dining & Flexible Open Seating",
+        "description": "Multiple fine-dining venues and casual eateries featuring destination-inspired cuisine, fine wines, and flexible open seating."
+      },
+      {
+        "title": "Observation Lounges & Social Spaces",
+        "description": "Inviting lounges, panoramic observation decks, and Seabourn Square for specialty coffee, conversation, and evening drinks."
+      },
+      {
+        "title": "Spa & Holistic Wellness Facilities",
+        "description": "Comprehensive spa therapies, ocean-view fitness center, sauna, and wellness rituals to rejuvenate after shore excursions."
+      },
+      {
+        "title": "Teak Pool & Heated Whirlpool Decks",
+        "description": "Expansive outdoor teak decks with swimming pool and heated whirlpools for relaxing between Zodiac landings."
+      },
+      {
+        "title": "Expedition Team Lectures & Daily Recaps",
+        "description": "Enriching presentations, wildlife briefings, and daily recaps in the Discovery Center with world-class expedition leaders."
+      }
+    ],
+    "highlights": [
+      "Comfortable all-suite accommodations with private verandas",
+      "Fine dining and open-seating gourmet restaurants",
+      "Inviting observation lounges and social spaces",
+      "Comprehensive spa and wellness facilities",
+      "Teak pool and whirlpool decks for afternoon relaxation",
+      "Expert lectures, recaps, and briefings by the expedition team"
+    ],
+    "conclusion": "Returning from an exhilarating Zodiac ride to champagne, fine dining, and personalized hospitality defines the magic of Seabourn luxury expedition cruising."
+  },
+  "kimberleyVsTraditionalFaceoff": {
+    "title": "Seabourn Kimberley vs. Traditional Luxury Cruise",
+    "regent": {
+      "title": "Seabourn Kimberley Expedition",
+      "badge": "Wilderness Expedition",
+      "description": "A destination-focused expedition combining raw Australian wilderness with ultra-luxury shipboard comfort.",
+      "features": [
+        "Remote wilderness and uninhabited coastal landscapes",
+        "Daily Zodiac excursions reaching secluded waterways",
+        "Active wildlife viewing (crocodiles, whales, raptors)",
+        "Accompanied by expert expedition guides and scientists",
+        "Wet and dry shore landings on pristine beaches",
+        "Guided hiking and rock art exploration",
+        "Immersive natural history and Indigenous cultural talks",
+        "Adventure-focused luxury travel experience"
+      ]
+    },
+    "viking": {
+      "title": "Traditional Luxury Cruise",
+      "badge": "Port-to-Port Leisure",
+      "description": "A classic ocean voyage centered around developed harbors, city sightseeing, and traditional port calls.",
+      "features": [
+        "Developed destination ports and metropolitan harbors",
+        "Standard bus and walking shore excursions",
+        "City sightseeing, museums, and historical landmarks",
+        "Traditional cruise entertainment and theater productions",
+        "Docked port calls and paved municipal piers",
+        "Urban dining, shopping, and commercial centers",
+        "Leisure-focused, resort-style pacing"
+      ]
+    }
+  },
+  "travelerTypes": [
+    {
+      "title": "Adventure Travelers",
+      "description": "Travelers who want active exploration, Zodiac rides, and raw wilderness without sacrificing five-star luxury.",
+      "tag": "Expedition Adventure"
+    },
+    {
+      "title": "Wildlife Enthusiasts",
+      "description": "Nature lovers eager to observe saltwater crocodiles, sea turtles, humpback whales, and rare birdlife in their natural habitats.",
+      "tag": "Native Wildlife"
+    },
+    {
+      "title": "Photographers",
+      "description": "Photographers drawn to towering red sandstone cliffs, dramatic tidal waterfalls, glowing sunsets, and pristine landscapes.",
+      "tag": "Photography Focus"
+    },
+    {
+      "title": "Couples",
+      "description": "Couples seeking an extraordinary shared journey that balances rugged day exploration with romantic fine dining and luxury suites.",
+      "tag": "Romantic Adventure"
+    },
+    {
+      "title": "Solo Travelers",
+      "description": "Independent travelers who appreciate an intimate, sociable expedition community where shared Zodiac outings create instant bonds.",
+      "tag": "Solo Friendly"
+    },
+    {
+      "title": "Indigenous Culture Enthusiasts",
+      "description": "Travelers seeking deep, respectful engagement with ancient Aboriginal traditions, connection to Country, and rock art galleries.",
+      "tag": "Cultural Heritage"
+    }
+  ],
+  "travelerPersonaCards": {
+    "title": "Is Seabourn Kimberley Good for Couples, Solos & Families?",
+    "subtitle": "TRAVELER COMPATIBILITY",
+    "personas": [
+      {
+        "icon": "Heart",
+        "title": "Is Seabourn Kimberley Good for Couples?",
+        "description": "Yes. Couples can enjoy a balance of adventure and relaxation. One day might involve a Zodiac excursion and wildlife viewing, followed by an elegant dinner and quiet evening onboard. That combination makes the Kimberley attractive for couples who don't want to choose between adventure and luxury.",
+        "traits": [
+          "Balance of active day exploration and romantic evening relaxation",
+          "Private veranda suites with panoramic ocean and red cliff views",
+          "Fine dining, champagne, and quiet evenings after expedition outings"
+        ],
+        "recommendations": ["Romance & Luxury", "Shared Adventure"]
+      },
+      {
+        "icon": "Compass",
+        "title": "Is Seabourn Kimberley Good for Solo Travelers?",
+        "description": "Yes. The expedition environment naturally encourages interaction. Guests often share Zodiac excursions, lectures and shore experiences, creating opportunities to meet fellow travelers. The relatively intimate atmosphere can make the journey particularly comfortable for independent travelers.",
+        "traits": [
+          "Expedition camaraderie during daily Zodiac outings and landings",
+          "Open-seating dining creating effortless social connections",
+          "Comfortable, welcoming environment for independent luxury cruisers"
+        ],
+        "recommendations": ["Solo Friendly", "Expedition Community"]
+      },
+      {
+        "icon": "Landmark",
+        "title": "Is Seabourn Kimberley Good for Families?",
+        "description": "It can be suitable for adventurous multigenerational families, depending on the ages and mobility of the travelers. However, this is not a traditional family cruise with extensive children's entertainment.",
+        "traits": [
+          "Activity levels and walking conditions",
+          "Zodiac boarding access and wet beach landings",
+          "Tropical heat and sun exposure during daytime outings",
+          "Age requirements and individual mobility"
+        ],
+        "recommendations": ["Multigenerational", "Active Families"]
+      }
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn Kimberley Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "Access to remote Kimberley landscapes inaccessible by road",
+      "Daily Zodiac excursions included with expert expedition guides",
+      "Exceptional wildlife viewing including crocodiles and marine life",
+      "Thunderous seasonal waterfall experiences and scenic cruising",
+      "Deep Indigenous cultural interpretation and ancient rock art",
+      "World-class expedition team with marine biologists and geologists",
+      "All-suite luxury accommodations with private verandas",
+      "Fine dining, open seating, and complimentary premium beverages",
+      "Intimate small-ship atmosphere with zero crowd congestion",
+      "Unrivaled photography opportunities across red cliffs and blue water"
+    ],
+    "notBestFor": [
+      "Warm and potentially humid tropical conditions",
+      "Expedition activities require moderate physical mobility for Zodiacs",
+      "Wildlife sightings and waterfall flow depend on season and nature",
+      "Weather, tides, and swell can necessitate itinerary adjustments",
+      "No traditional city shopping, ports, or mega-ship stage shows",
+      "Premium pricing reflecting specialized ultra-luxury expedition operations"
+    ],
+    "bottomNote": "Weighing these factors helps determine if a Seabourn Kimberley expedition cruise matches your travel style."
+  },
+  "worthItBrand": {
+    "name": "Seabourn Kimberley Value Proposition",
+    "bestFor": "Discerning Travelers Seeking Raw Wilderness, Wildlife & Uncompromising Luxury",
+    "whatMakesItStandOut": "For travelers who want to experience the Kimberley's remote landscapes in comfort, a Seabourn Kimberley cruise can be an exceptional luxury expedition experience. Rather than simply sightseeing from a hotel or road, you experience the destination as an immersive journey from the water.",
+    "strengths": [
+      "Direct access to remote wilderness inaccessible by standard travel",
+      "Luxury all-suite accommodation with private oceanfront verandas",
+      "World-renowned expedition expertise and dedicated Zodiac operations",
+      "Active wildlife encounters and seasonal waterfall exploration",
+      "Authentic Indigenous cultural connections and ancient rock art",
+      "Spectacular scenic cruising along red sandstone gorges"
+    ],
+    "considerations": [
+      "The value comes from combining remote adventure with effortless residential luxury and fine dining every day."
+    ],
+    "image": ""
+  },
+  "tipsData": {
+    "title": "Tips for Planning a Seabourn Kimberley Cruise",
+    "subtitle": "BEFORE YOU BOOK • EXPERT EXPEDITION GUIDANCE",
+    "items": [
+      {
+        "step": "1",
+        "title": "Choose the Season Carefully",
+        "description": "Timing influences waterfall activity, temperature, humidity, and wildlife viewing. Early dry season (April-May) offers peak waterfalls; mid-dry season (June-August) brings milder weather and migrating whales."
+      },
+      {
+        "step": "2",
+        "title": "Prioritize Mobility & Physical Comfort",
+        "description": "Make sure you are comfortable with boarding inflatable Zodiacs from the ship platform and navigating rocky beaches on foot."
+      },
+      {
+        "step": "3",
+        "title": "Pack Thoroughly for the Tropical Sun",
+        "description": "High-SPF sunscreen, wide-brimmed hats, polarized sunglasses, and breathable UV-protective shirts are essential."
+      },
+      {
+        "step": "4",
+        "title": "Bring High-Quality Binoculars",
+        "description": "A pair of 8x42 or 10x42 binoculars significantly improves birdwatching, crocodile spotting, and observing cliff details."
+      },
+      {
+        "step": "5",
+        "title": "Protect Your Camera & Optics",
+        "description": "Water spray during Zodiac rides and wet shore landings make waterproof dry bags and protective camera pouches essential."
+      },
+      {
+        "step": "6",
+        "title": "Embrace Expedition Flexibility",
+        "description": "Expedition itineraries adapt dynamically to tides, weather, and wildlife opportunities — some of the greatest highlights are spontaneous."
+      },
+      {
+        "step": "7",
+        "title": "Don't Focus Only on Ports",
+        "description": "The Kimberley has virtually no traditional ports; the true magic happens between landings in remote bays, rivers, and gorges."
+      },
+      {
+        "step": "8",
+        "title": "Work with a Luxury Travel Advisor",
+        "description": "A knowledgeable advisor helps select the ideal sailing date, suite category, flights to Darwin/Broome, and pre- or post-cruise arrangements."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY EXPEDITION EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Expedition Experience",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "The Kimberley is one of Earth's last true wilderness frontiers. Exploring its fiery red gorges, thundering waterfalls, and ancient Aboriginal rock art aboard a Seabourn expedition vessel is an unforgettable blend of raw adventure and pure luxury.",
+    "quoteSubtitle": "Personal Expedition Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand travel experience across more than 121 countries, Angela Hughes is globally recognized for her deep expertise in luxury expedition cruising, polar and tropical expeditions, and bespoke itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela guides clients to the world's most remote corners with personalized planning, insider ship access, and VIP Seabourn amenities."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Work with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is a Seabourn Kimberley cruise?",
+      "answer": "A Seabourn Kimberley cruise is a luxury expedition voyage exploring Australia's remote Kimberley region through Zodiac excursions, scenic cruising, wildlife encounters and cultural experiences."
+    },
+    {
+      "question": "Where is the Kimberley?",
+      "answer": "The Kimberley is a remote region in the far northwest of Western Australia, known for dramatic coastlines, red cliffs, rivers, waterfalls and Indigenous cultural heritage."
+    },
+    {
+      "question": "What can you see on a Seabourn Kimberley cruise?",
+      "answer": "Depending on the itinerary and conditions, guests may see waterfalls, dramatic cliffs, beaches, saltwater crocodiles, marine life, birds and other wildlife."
+    },
+    {
+      "question": "Does Seabourn use Zodiacs in the Kimberley?",
+      "answer": "Yes. Zodiac excursions are an important part of the expedition experience and allow guests to explore areas inaccessible to the main ship."
+    },
+    {
+      "question": "Are Zodiac excursions included on Seabourn Kimberley cruises?",
+      "answer": "Expedition activities are generally part of the overall expedition experience, but the exact inclusions should be confirmed for the specific sailing."
+    },
+    {
+      "question": "Can you see waterfalls on a Kimberley cruise?",
+      "answer": "Yes. Waterfalls are one of the region's major attractions, particularly during periods when seasonal water flow is strong."
+    },
+    {
+      "question": "Can you see crocodiles on a Seabourn Kimberley cruise?",
+      "answer": "Saltwater crocodiles inhabit the Kimberley region, and expedition excursions can provide opportunities to observe them from a safe distance. Wildlife sightings are not guaranteed."
+    },
+    {
+      "question": "Are there Indigenous cultural experiences?",
+      "answer": "Depending on the itinerary, guests may have opportunities to learn about Indigenous heritage, traditional connections to Country, cultural history, art and storytelling."
+    },
+    {
+      "question": "What is the best time to cruise the Kimberley?",
+      "answer": "The Kimberley cruise season generally corresponds with the region's dry-season period. The ideal timing depends on whether you prioritize waterfall activity, weather or particular wildlife opportunities."
+    },
+    {
+      "question": "Is a Seabourn Kimberley cruise physically demanding?",
+      "answer": "Some activities can require moderate mobility, including getting into and out of Zodiacs, walking on uneven surfaces and participating in shore excursions."
+    },
+    {
+      "question": "What should I pack for a Kimberley cruise?",
+      "answer": "Pack lightweight breathable clothing, sun protection, comfortable walking shoes, swimwear, sunglasses, a hat, binoculars and appropriate protection for cameras and electronics."
+    },
+    {
+      "question": "Is Seabourn Kimberley suitable for couples?",
+      "answer": "Yes. Couples can enjoy a combination of adventure during the day and luxury, dining and relaxation onboard."
+    },
+    {
+      "question": "Is Seabourn Kimberley suitable for solo travelers?",
+      "answer": "Yes. The intimate expedition environment provides many opportunities to meet fellow guests through excursions and onboard activities."
+    },
+    {
+      "question": "Is a Kimberley cruise good for families?",
+      "answer": "It can suit adventurous multigenerational families, although travelers should consider mobility, heat, Zodiac access and age requirements."
+    },
+    {
+      "question": "Is a Seabourn Kimberley cruise worth it?",
+      "answer": "For travelers who value remote destinations, wildlife, expedition experiences, Indigenous culture and luxury service, a Seabourn Kimberley cruise can be an excellent choice."
+    },
+    {
+      "question": "Can Kimberley cruise itineraries change?",
+      "answer": "Yes. Expedition itineraries can change because of weather, tides, wildlife conditions, safety considerations and other local factors."
+    },
+    {
+      "question": "Is the Kimberley a luxury cruise destination?",
+      "answer": "The Kimberley itself is a remote wilderness destination rather than a conventional luxury resort area. A Seabourn expedition adds a luxury onboard experience to the remote environment."
+    },
+    {
+      "question": "Is Seabourn Kimberley different from a regular Seabourn cruise?",
+      "answer": "Yes. Kimberley voyages place considerably more emphasis on expedition activities, Zodiac excursions, wildlife, remote landscapes and shore exploration than a conventional port-focused ocean cruise."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is a Seabourn Kimberley Cruise Right for You?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Seabourn Kimberley cruises are ideal for travelers who want to experience one of Australia's most remote regions through a combination of luxury and expedition travel. The destination offers a remarkable mix of red cliffs, waterfalls, wildlife, Indigenous cultural heritage and rugged coastline.",
+      "Zodiac excursions make it possible to explore beyond the main ship, while the luxury onboard environment provides a comfortable retreat after a day of adventure."
+    ],
+    "recommendation": "Our recommendation: If your ideal vacation combines wildlife, nature, culture, photography and adventure with excellent service and comfortable accommodations, the Kimberley deserves serious consideration.",
+    "ctaText": "Start Planning Your Seabourn Kimberley Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Explore Seabourn Kimberley Voyages",
+      "description": "Let's compare sailing dates, suite categories and expedition inclusions to plan your Kimberley expedition cruise.",
+      "buttonText": "Speak with a Specialist",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Find Your Ideal Kimberley Sailing Date",
+      "description": "We'll help you match waterfall activity, weather and wildlife opportunities to the right departure date.",
+      "buttonText": "Check Sailing Dates",
+      "buttonLink": "/contact"
+    },
+    "midCta3": {
+      "title": "Start Planning Your Seabourn Kimberley Cruise",
+      "description": "Let's design an itinerary around waterfalls, wildlife, Indigenous culture and expedition adventure.",
+      "buttonText": "Start Planning",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Kimberley Cruise",
+      "description": "Connect with luxury cruise expert Angela Hughes to craft your perfect Australian Kimberley expedition voyage.",
+      "buttonText": "Start Planning Your Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

@@ -9,8 +9,8 @@ import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import ComparisonTable from "../../components/ui/ComparisonTable";
 import AsymmetricStoryIntro from "../../components/ui/AsymmetricStoryIntro";
 import DetailedInclusionsList from "../../components/ui/DetailedInclusionsList";
-import HighlightsSplit from "../../components/ui/HighlightsSplit";
-import ValuePropositionHighlight from "../../components/ui/ValuePropositionHighlight";
+import ShipPhilosophyFaceoff from "../../components/ui/ShipPhilosophyFaceoff";
+import InclusionCheckerGrid from "../../components/ui/InclusionCheckerGrid";
 import LuxuryZigZagShowcase from "../../components/ui/LuxuryZigZagShowcase";
 import BrandPillarsShowcase from "../../components/ui/BrandPillarsShowcase";
 import TravelerPersonaCards from "../../components/ui/TravelerPersonaCards";
@@ -25,15 +25,39 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Data Source
 import data from "./data.json";
 
-// Optional Image Assets (commented out per requirements)
-// import SoloHeroImage from "../../assets/SeabournCruises/seabourn-solo-travelers-luxury-single-cruising.jpg";
-// import SoloSuiteImage from "../../assets/SeabournCruises/seabourn-oceanfront-luxury-veranda-suites.jpg";
-// import SoloDiningImage from "../../assets/SeabournCruises/seabourn-the-restaurant-primary-fine-dining.jpg";
-// import ExpeditionShipImage from "../../assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg";
+// Image Assets from IsSeabournGoodSoloTravelers
+import heroSoloImg from "../../assets/IsSeabournGoodSoloTravelers/is-seabourn-good-for-solo-travelers-luxury-cruise-guide.jpg";
+import introSoloImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-solo-traveler-luxury-oceanfront-experience.jpg";
+import whySeabournImg1 from "../../assets/IsSeabournGoodSoloTravelers/seabourn-solo-veranda-suite-private-sanctuary.jpg";
+import whySeabournImg2 from "../../assets/IsSeabournGoodSoloTravelers/seabourn-intimate-luxury-ship-social-ambiance.jpg";
+import socialDiningImg1 from "../../assets/IsSeabournGoodSoloTravelers/seabourn-open-seating-social-dining-solo-travelers.jpg";
+import socialDiningImg2 from "../../assets/IsSeabournGoodSoloTravelers/seabourn-culinary-open-dining-table-sharing-freedom.jpg";
+import privateExcursionsImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-private-shore-excursions-bespoke-touring.jpg";
+import groupExcursionsImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-small-group-shore-excursions-solo-cruises.jpg";
+
+// Atmosphere & Vibe Section Images
+import lonelyCardImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-solo-cruise-vacation-enrichment-camaraderie.jpg";
+import quietCardImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-evening-atmosphere-cocktail-lounge-vibe.jpg";
+import touringCardImg from "../../assets/SeabournCruises/seabourn-curated-shore-excursions-unesco-tours.jpg";
+
+// Distinct CTA Background Images
+import midCtaImg from "../../assets/SeabournCruises/seabourn-solo-travelers-luxury-single-cruising.jpg";
+import bottomCtaImg from "../../assets/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
+
+// Destination Images
+import mediterraneanImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-mediterranean-cruise-solo-travel-ports.png";
+import alaskaImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-alaska-expedition-ventures-solo-wildlife.jpeg";
+import antarcticaImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-antarctica-expedition-polar-solo-travel.jpg";
+import europeImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-northern-europe-fjords-solo-cruise.jpg";
+import caribbeanImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-caribbean-tropical-luxury-solo-cruises.jpg";
+import asiaImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-asia-cultural-destinations-solo-travel.jpg";
+import southPacificImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-south-pacific-kimberley-expedition-voyages.jpg";
+import australiaImg from "../../assets/IsSeabournGoodSoloTravelers/seabourn-australia-new-zealand-scenic-solo-itineraries.jpg";
 
 const IsSeabournGoodForSoloTravelers = () => {
   // 1. Format Single Supplement & Pricing for DetailedInclusionsList
@@ -65,50 +89,58 @@ const IsSeabournGoodForSoloTravelers = () => {
     }
   ];
 
-  // 2. Format Social & Dining Highlights for HighlightsSplit
-  const socialAndDiningSplitItems = [
-    {
+  // 2. Format Social & Dining Highlights for ShipPhilosophyFaceoff
+  const socialAndDiningFaceoffData = {
+    title: "Social Connection & Dining Freedom",
+    regent: {
+      badge: data.socialExperience.eyebrow,
       title: data.socialExperience.title,
       description: `${data.socialExperience.lead}\n\n${data.socialExperience.description}`,
-      icon: "Users",
-      bulletPoints: data.socialExperience.socialTouchpoints
+      features: data.socialExperience.socialTouchpoints
     },
-    {
+    viking: {
+      badge: data.diningFreedom.eyebrow,
       title: data.diningFreedom.title,
       description: `${data.diningFreedom.lead}\n\n${data.diningFreedom.description}\n\n${data.diningFreedom.inSuiteDiningDesc}`,
-      icon: "Utensils",
-      bulletPoints: [
+      features: [
         "Open-seating dining in all primary venues",
         "Zero fixed tables or mandatory assigned seatings",
         "Complimentary 24-hour course-by-course in-suite dining",
         "Freedom to choose private or shared tables nightly"
       ]
     }
-  ];
+  };
 
-  // 3. Format Suite Selection Pillars for ValuePropositionHighlight
-  const suiteSelectionItems = [
-    ...data.suiteSelection.priorities.map((priority) => ({
-      title: priority,
-      description: "Standard luxury design element across Seabourn's all-oceanfront suite accommodations.",
-      icon: "CheckCircle",
-      impact: "Solo Comfort"
-    })),
-    ...data.suiteSelection.scenarios.map((s) => ({
-      title: `${s.category}: ${s.recommendation}`,
-      description: s.reason,
-      icon: "Sparkles",
-      impact: "Category Fit"
-    }))
-  ];
+  // 3. Format Suite Selection for InclusionCheckerGrid (No Images)
+  const suiteSelectionPriorities = data.suiteSelection.priorities.map((priority) => ({
+    title: priority,
+    description: "Standard luxury design element across Seabourn's all-oceanfront suites."
+  }));
+
+  const suiteSelectionScenarios = data.suiteSelection.scenarios.map((s) => ({
+    title: `${s.category}: ${s.recommendation}`,
+    description: s.reason
+  }));
 
   // 4. Format Destinations for TravelerProfileTabs
+  const destinationImages = {
+    "Mediterranean": mediterraneanImg,
+    "Alaska": alaskaImg,
+    "Antarctica": antarcticaImg,
+    "Northern Europe": europeImg,
+    "Caribbean": caribbeanImg,
+    "Asia": asiaImg,
+    "South Pacific & Kimberley": southPacificImg,
+    "Australia & New Zealand": australiaImg
+  };
+
   const destinationTabProfiles = data.destinations.items.map((dest) => ({
     name: dest.destination,
     tagline: `Best for Solo Exploration`,
     quote: `There is no single best destination for every solo traveler. Your choice should depend on how much independence and social interaction you want.`,
     recommendation: dest.destination,
     reason: dest.highlights,
+    image: destinationImages[dest.destination] || null,
     whyFits: [
       dest.highlights,
       "Small-group guided excursions & independent port time",
@@ -122,15 +154,21 @@ const IsSeabournGoodForSoloTravelers = () => {
   const atmospherePillars = [
     {
       title: data.lonelinessAndVibe.lonelyTitle,
-      description: data.lonelinessAndVibe.lonelyDesc
+      description: data.lonelinessAndVibe.lonelyDesc,
+      image: lonelyCardImg,
+      category: "Social Vibe"
     },
     {
       title: data.lonelinessAndVibe.quietTitle,
-      description: data.lonelinessAndVibe.quietDesc
+      description: data.lonelinessAndVibe.quietDesc,
+      image: quietCardImg,
+      category: "Evening Ambiance"
     },
     {
       title: "Excursions & Private Touring",
-      description: `${data.excursionsAndAdventure.privateTouring.description} ${data.excursionsAndAdventure.sharedExcursions.description}`
+      description: `${data.excursionsAndAdventure.privateTouring.description} ${data.excursionsAndAdventure.sharedExcursions.description}`,
+      image: touringCardImg,
+      category: "Port Discovery"
     }
   ];
 
@@ -161,6 +199,13 @@ const IsSeabournGoodForSoloTravelers = () => {
       ]
     }
   ];
+
+  // 8. Video Guide for Solo Travelers
+  const soloVideoData = {
+    youtubeId: "kQEgvML8lF4",
+    title: "Seabourn Solo Luxury Cruise Experience",
+    description: "Discover what it is truly like to sail solo on Seabourn—from all-suite oceanfront comfort and open-seating gourmet dining to effortless small-ship camaraderie."
+  };
 
   // 8. Format Schema JSON-LD
   const schemaJson = {
@@ -339,12 +384,13 @@ const IsSeabournGoodForSoloTravelers = () => {
     <div className="w-full bg-white font-sans text-navy-900 antialiased">
       {/* ── SEO / Meta Tags ────────────────────────────────────────── */}
       <Helmet>
-        <title>{data.meta.seoTitle}</title>
+        <title>{data.meta.seoTitle}</title> 
         <meta name="title" content={data.meta.metaTitle} />
         <meta name="description" content={data.meta.description} />
         <link rel="canonical" href={data.meta.canonicalUrl || "https://www.tripsandships.com/seabourn-cruises/is-seabourn-good-for-solo-travelers/"} />
         <script type="application/ld+json">
           {JSON.stringify(schemaJson)}
+
         </script>
       </Helmet>
 
@@ -356,20 +402,23 @@ const IsSeabournGoodForSoloTravelers = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         badge={data.hero.badge}
-        ctaText="Plan Your Solo Luxury Cruise"
-        ctaLink="/contact"
-        // image={SoloHeroImage}
+        backgroundImage={heroSoloImg}
+        secondaryCtaText="Plan Your Solo Luxury Cruise"
+        secondaryCtaLink="/contact"
       />
 
       {/* ── 2. Editorial Introduction ──────────────────────────────── */}
-      <EditorialIntroSection
-        eyebrow={data.editorialIntro.eyebrow}
-        heading={data.editorialIntro.title}
-        lead={data.editorialIntro.lead}
-        paragraphs={data.editorialIntro.paragraphs}
-        quote="Seabourn delivers the rare freedom of independent solo travel combined with intuitive ultra-luxury service and spontaneous connection."
-        quoteAuthor="Angela Hughes, CEO & Luxury Travel Expert"
-      />
+      <div id="content">
+        <EditorialIntroSection
+          eyebrow={data.editorialIntro.eyebrow}
+          heading={data.editorialIntro.title}
+          lead={data.editorialIntro.lead}
+          paragraphs={data.editorialIntro.paragraphs}
+          quote="Seabourn delivers the rare freedom of independent solo travel combined with intuitive ultra-luxury service and spontaneous connection."
+          quoteAuthor="Angela Hughes, CEO & Luxury Travel Expert"
+          image={introSoloImg}
+        />
+      </div>
 
       {/* ── 3. Quick Answer Comparison Table ───────────────────────── */}
       <div className="bg-slate-50 py-4">
@@ -386,13 +435,17 @@ const IsSeabournGoodForSoloTravelers = () => {
         image2Placeholder="INTIMATE SOCIAL & DINING EXPERIENCES"
         ctaText="Explore Solo Cruise Options"
         ctaLink="/contact"
-        // image1={SoloSuiteImage}
+        image1={whySeabournImg1}
+        image2={whySeabournImg2}
       />
 
       {/* ── 5. Social Experience & Dining Freedom ──────────────────── */}
-      <HighlightsSplit
-        title="Social Connection & Dining Freedom"
-        items={socialAndDiningSplitItems}
+      <ShipPhilosophyFaceoff
+        data={socialAndDiningFaceoffData}
+        regentImage={socialDiningImg1}
+        vikingImage={socialDiningImg2}
+        regentImageAlt="Seabourn Social Connection"
+        vikingImageAlt="Seabourn Dining Freedom"
       />
 
       {/* ── 6. Single Supplements & Solo Pricing (DetailedInclusionsList) ── */}
@@ -403,11 +456,14 @@ const IsSeabournGoodForSoloTravelers = () => {
       />
 
       {/* ── 7. Best Seabourn Suite for a Solo Traveler ─────────────── */}
-      <ValuePropositionHighlight
+      <InclusionCheckerGrid
+        eyebrow={data.suiteSelection.eyebrow}
         title={data.suiteSelection.title}
         subtitle={data.suiteSelection.subtitle}
-        items={suiteSelectionItems}
-        imageOverlayText="All-Oceanfront Luxury Suite Sanctuary"
+        inclusionsTitle={data.suiteSelection.prioritiesTitle || "Key Suite Priorities for Solo Guests"}
+        exclusionsTitle="Scenario-Based Suite Recommendations"
+        inclusions={suiteSelectionPriorities}
+        exclusions={suiteSelectionScenarios}
       />
 
       {/* ── 8. Solo Shore Excursions & Private Touring ─────────────── */}
@@ -415,6 +471,7 @@ const IsSeabournGoodForSoloTravelers = () => {
         title={data.excursionsAndPrivateTouring.title}
         subtitle={data.excursionsAndPrivateTouring.subtitle}
         items={data.excursionsAndPrivateTouring.items}
+        images={[privateExcursionsImg, groupExcursionsImg]}
       />
 
       {/* ── 9. Solo Adventure & Expeditions (Global, Alaska, Antarctica) ── */}
@@ -435,8 +492,12 @@ const IsSeabournGoodForSoloTravelers = () => {
         description="Speak directly with Angela Hughes and the Trips & Ships team to capture reduced single-supplement promotions, optimal suite locations, and seamless itinerary planning."
         buttonText="Plan Your Solo Cruise"
         buttonLink="/contact"
+        image={midCtaImg}
         theme="dark"
       />
+
+      {/* ── Solo Cruiser Video Guide (VideoEmbed) ──────────────────── */}
+      <VideoEmbed data={soloVideoData} />
 
       {/* ── 10. Best Destinations for Solo Travelers (Tabs) ────────── */}
       <TravelerProfileTabs
@@ -541,7 +602,8 @@ const IsSeabournGoodForSoloTravelers = () => {
         description="Connect with Angela Hughes and the Trips & Ships team to unlock exclusive solo rates, tailored itineraries, and expert guidance for your Seabourn voyage."
         buttonText="Request Your Solo Cruise Quote"
         buttonLink="/contact"
-        theme="light"
+        image={bottomCtaImg}
+        theme="dark"
       />
     </div>
   );
