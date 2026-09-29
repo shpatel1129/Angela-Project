@@ -22,7 +22,7 @@ import SaltJourneyTimeline from "../../components/ui/SaltJourneyTimeline";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
-import CenterCTA from "../../components/ui/CenterCTA";
+import CenterCTA from "../../components/ui/CenterCTA";  
 
 // Assets (imported with images commented out as standard)
 import kimberleyHeroImg from "../../assets/SeabournShips/seabourn-pursuit-ultra-luxury-expedition-vessel.jpg";
@@ -427,8 +427,17 @@ const SeabournKimberleyCruisesGuide = () => {
       </div>
 
       {/* ── 24. FINAL CONCLUSION ── */}
+      {/* ── 24. FINAL VERDICT ── */}
       <ConclusionSection
-        sections={[data.finalVerdict]}
+        sections={[
+          {
+            heading: data.finalVerdict.title,
+            paragraphs: [
+              ...data.finalVerdict.paragraphs,
+              data.finalVerdict.recommendation,
+            ],
+          },
+        ]}
       />
 
       {/* ── 25. FINAL CTA ── */}

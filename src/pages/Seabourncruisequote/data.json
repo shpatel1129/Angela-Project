@@ -1,0 +1,639 @@
+{
+  "hero": {
+    "badge": "PERSONALIZED LUXURY CRUISE PLANNING",
+    "title": "Request a Seabourn Cruise Quote",
+    "subtitle": "EXPERT GUIDANCE • PREFERRED SUITES • APPLICABLE PROMOTIONS",
+    "intro": "Planning a Seabourn cruise is about choosing more than a destination. The right ship, suite, itinerary, departure date and available offer can make a significant difference to your overall experience.",
+    "details": [
+      "Expert Luxury Cruise Advisor Support",
+      "Direct Seabourn Executive Contacts",
+      "Personalized Suite & Itinerary Recommendations",
+      "Promotion & Onboard Credit Monitoring"
+    ],
+    "paragraphs": [
+      "Planning a Seabourn cruise is about choosing more than a destination. The right ship, suite, itinerary, departure date and available offer can make a significant difference to your overall experience.",
+      "At Trips & Ships Luxury Travel, we help travelers plan Seabourn vacations around what matters most to them—from the ideal suite and itinerary to special occasions, expedition adventures and extended voyages.",
+      "Complete the quote request form to tell us what you are looking for, and a luxury travel advisor can help you explore the best available options."
+    ],
+    "ctaText": "Request My Seabourn Quote",
+    "ctaLink": "/contact"
+  },
+  "introSection": {
+    "badge": "PERSONALIZED CRUISE PLANNING",
+    "title": "Start Planning Your Seabourn Cruise",
+    "subtitle": "A DEDICATED FIRST STEP TOWARD YOUR IDEAL VOYAGE",
+    "paragraphs": [
+      "Whether you already know exactly which Seabourn cruise you want or you're still deciding between ships and destinations, a personalized quote is a useful first step.",
+      "Complete the quote request form to tell us what you are looking for, and a luxury travel advisor can help you explore the best available options."
+    ],
+    "highlights": [
+      "Preferred destination & travel dates",
+      "Number of travelers & suites needed",
+      "Preferred suite category & approximate budget",
+      "Special occasions & preferred voyage length",
+      "Previous Seabourn experience & loyalty status",
+      "Other custom travel preferences"
+    ],
+    "conclusion": "The more information you provide, the more effectively we can narrow down the options."
+  },
+  "tripDetailFields": [
+    "Preferred destination",
+    "Travel dates",
+    "Number of travelers",
+    "Preferred suite category",
+    "Approximate budget",
+    "Special occasions",
+    "Cruise length",
+    "Previous Seabourn experience",
+    "Loyalty status, if applicable",
+    "Other travel preferences"
+  ],
+  "whyQuote": {
+    "title": "Why Request a Personalized Seabourn Quote?",
+    "subtitle": "BEYOND THE ADVERTISED FARE • TOTAL VALUE EVALUATION",
+    "intro": "Seabourn offers a range of ships, suites and itineraries, and pricing can vary considerably depending on the sailing. A personalized quote allows us to look beyond a basic advertised fare. We can help compare:",
+    "cards": [
+      {
+        "title": "Different Seabourn Ships",
+        "subtitle": "OCEAN & EXPEDITION",
+        "description": "Choose between Seabourn's classic ocean ships and expedition vessels based on your travel style.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Suite Categories",
+        "subtitle": "SPACE & LOCATION",
+        "description": "Compare suite locations, space, verandas, amenities and overall value.",
+        "icon": "Home"
+      },
+      {
+        "title": "Itineraries",
+        "subtitle": "PORTS & SEASONS",
+        "description": "Consider different destinations, ports and sailing dates.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Current Offers",
+        "subtitle": "PROMOTIONS & PERKS",
+        "description": "Review applicable Seabourn promotions and special offers.",
+        "icon": "Tag"
+      },
+      {
+        "title": "Past-Guest Benefits",
+        "subtitle": "SEABOURN CLUB",
+        "description": "If you have sailed with Seabourn before, we can take your Seabourn Club status and applicable benefits into consideration.",
+        "icon": "Award"
+      },
+      {
+        "title": "Additional Travel",
+        "subtitle": "DOOR-TO-DOOR LUXURY",
+        "description": "If your cruise is part of a larger vacation, we can help coordinate the broader travel plan.",
+        "icon": "Briefcase"
+      }
+    ]
+  },
+  "formOptions": {
+    "destinations": [
+      "Mediterranean",
+      "Alaska",
+      "Antarctica",
+      "Arctic & Greenland",
+      "Kimberley",
+      "South America",
+      "Northern Europe",
+      "Asia",
+      "World Cruise"
+    ],
+    "ships": [
+      "Seabourn Quest",
+      "Seabourn Encore",
+      "Seabourn Ovation",
+      "Seabourn Venture",
+      "Seabourn Pursuit",
+      "Not Sure"
+    ],
+    "suites": [
+      "Veranda Suite",
+      "Penthouse Suite",
+      "Premium Suite",
+      "Signature Suite",
+      "Expedition Suite",
+      "Not Sure"
+    ],
+    "lengths": [
+      "Less than 7 days",
+      "7–13 days",
+      "14–20 days",
+      "21+ days",
+      "World Cruise / Grand Voyage",
+      "Flexible"
+    ],
+    "specialRequestTags": [
+      "Anniversary",
+      "Birthday",
+      "Honeymoon",
+      "Family celebration",
+      "Multigenerational travel",
+      "Solo travel",
+      "Accessibility requirements",
+      "Connecting suites",
+      "Preferred suite location",
+      "Pre- or post-cruise travel",
+      "Private excursions",
+      "Extended land stay"
+    ]
+  },
+  "notSureSection": {
+    "title": "Not Sure Which Seabourn Cruise Is Right for You?",
+    "subtitle": "NO PRESSURE TO DECIDE • START WITH AN INSPIRATIONAL VISION",
+    "intro": "That's completely fine. You don't need to know the exact ship or itinerary before requesting a quote. If you're deciding between options, tell us what kind of experience you're looking for. These details give your advisor a starting point for developing recommendations.",
+    "examples": [
+      {
+        "text": "We want a two-week luxury cruise in Europe with excellent food, smaller ports and a quiet atmosphere.",
+        "label": "European Mediterranean & Culture"
+      },
+      {
+        "text": "We're interested in Antarctica but don't know whether Seabourn Venture or Seabourn Pursuit is the better choice.",
+        "label": "Polar Expedition Discovery"
+      },
+      {
+        "text": "We're planning a special anniversary and want the best suite we can find.",
+        "label": "Milestone Celebration & Premium Suites"
+      }
+    ]
+  },
+  "fleetSection": {
+    "title": "Choosing the Right Seabourn Ship",
+    "subtitle": "THE SEABOURN FLEET • INTIMATE OCEAN SHIPS & PURPOSE-BUILT EXPEDITIONS",
+    "intro": "Seabourn's fleet offers different experiences. If you're uncertain which ship fits your travel style, your quote request can simply say 'Not sure.'",
+    "ships": [
+      {
+        "title": "Seabourn Quest",
+        "subtitle": "CLASSIC OCEAN LUXURY",
+        "description": "A smaller ocean-going luxury ship with an intimate atmosphere and classic Seabourn experience.",
+        "icon": "Ship",
+        "tags": ["458 Guests", "Intimate Ocean", "Marina Platform"]
+      },
+      {
+        "title": "Seabourn Encore",
+        "subtitle": "MODERN DESIGN & EXPANDED DINING",
+        "description": "A larger ocean ship offering spacious suites, dining and an extensive range of onboard amenities.",
+        "icon": "Ship",
+        "tags": ["600 Guests", "The Grill by TK", "The Retreat"]
+      },
+      {
+        "title": "Seabourn Ovation",
+        "subtitle": "MODERN DESIGN & EXPANDED DINING",
+        "description": "A sister ship to Encore with a similar luxury experience and access to a broad range of destinations.",
+        "icon": "Ship",
+        "tags": ["600 Guests", "All-Veranda Suites", "Boutique Harbors"]
+      },
+      {
+        "title": "Seabourn Venture",
+        "subtitle": "PURPOSE-BUILT POLAR EXPEDITION",
+        "description": "An expedition ship designed for destinations where exploration is the primary focus.",
+        "icon": "Snowflake",
+        "tags": ["264 Guests", "PC6 Polar Class", "Submarines & Zodiacs"]
+      },
+      {
+        "title": "Seabourn Pursuit",
+        "subtitle": "PURPOSE-BUILT POLAR EXPEDITION",
+        "description": "A purpose-built expedition ship combining Seabourn's luxury service with expedition capabilities.",
+        "icon": "Compass",
+        "tags": ["264 Guests", "PC6 Polar Class", "Kimberley & Antarctica"]
+      }
+    ]
+  },
+  "suiteSection": {
+    "title": "Choosing the Right Seabourn Suite",
+    "subtitle": "YOUR ACCOMMODATION • ELEVATING YOUR DAILY ONBOARD EXPERIENCE",
+    "intro": "Your suite is an important part of the Seabourn experience. When preparing a quote, we can help you consider:",
+    "cards": [
+      {
+        "title": "Suite Location & Deck Placement",
+        "items": [
+          "Midship suites for maximum stability in open water",
+          "Deck placement relative to observation lounges and dining venues",
+          "Quiet residential corridors away from high-traffic public areas",
+          "Unobstructed panoramic veranda views"
+        ]
+      },
+      {
+        "title": "Space, Solariums & Premium Perks",
+        "items": [
+          "Veranda Suite vs. Penthouse expanded living areas",
+          "Wintergarden Suites with private glass solarium bathtubs",
+          "Connecting suites for family and multigenerational voyages",
+          "Enhanced amenities and private airport transfers in higher categories"
+        ]
+      }
+    ],
+    "considerations": [
+      "Suite size and interior living area",
+      "Suite location and midship stability",
+      "Veranda configuration and teak outdoor furniture",
+      "Unobstructed horizon views",
+      "Deck location and elevator proximity",
+      "Accessibility and step-free bathroom layouts",
+      "Connecting-suite options for groups",
+      "Higher-category upgrade value",
+      "Overall bottom-line value vs. headline price"
+    ],
+    "footnote": "Rather than automatically choosing the least expensive suite, consider how much time you expect to spend in your accommodation and which features matter most to you."
+  },
+  "specializedPlanning": {
+    "title": "Specialized Voyage Planning",
+    "subtitle": "EXPEDITIONS, WORLD CRUISES & GRAND VOYAGES",
+    "intro": "Seabourn offers unique journeys for adventurers and world travelers. Here is what we consider when tailoring your quote:",
+    "personas": [
+      {
+        "title": "Planning a Seabourn Expedition?",
+        "role": "ANTARCTICA • ARCTIC • GREENLAND • KIMBERLEY",
+        "description": "If you're considering Antarctica, the Arctic, Greenland or the Kimberley, mention the destination in your request. Expedition cruises have different considerations from traditional ocean voyages.",
+        "icon": "Snowflake",
+        "recommendations": [
+          "Daily Zodiac landings & guided kayak excursions",
+          "Wildlife viewing seasonality & polar photography",
+          "Complimentary customized Helly Hansen polar parkas",
+          "Custom expedition gear drying closets in all suites",
+          "Pre- and post-cruise luxury hotel and charter flight logistics"
+        ],
+        "footerNote": "We can help you evaluate the itinerary as well as the ship."
+      },
+      {
+        "title": "Planning a Seabourn World Cruise?",
+        "role": "100+ DAY GRAND VOYAGES • REGIONAL SEGMENTS",
+        "description": "For travelers considering a Seabourn World Cruise or Grand Voyage, early planning can be particularly important. Long voyages require additional coordination.",
+        "icon": "Globe",
+        "recommendations": [
+          "Long-lead suite reservation (12–18 months in advance)",
+          "Full World Cruise vs. customized segment selection",
+          "Packing strategies across multiple seasonal climates",
+          "Complimentary laundry, medical, and Wi-Fi inclusions",
+          "Exclusive shoreside events, private gala dinners & bespoke excursions"
+        ],
+        "footerNote": "If you are considering a World Cruise, include your approximate travel window and preferred length in your quote request."
+      }
+    ]
+  },
+  "offersSection": {
+    "title": "Looking for Seabourn Offers?",
+    "subtitle": "VALUE & PROMOTIONS • EVALUATING TOTAL VALUE OVER HEADLINE DISCOUNTS",
+    "intro": "When you request a quote, let us know if you're specifically interested in evaluating promotional opportunities:",
+    "pillars": [
+      {
+        "title": "Current Seabourn Promotions",
+        "description": "Public and private promotional fares, reduced deposit events, and seasonal value packages.",
+        "icon": "tag"
+      },
+      {
+        "title": "Onboard Spending Credits",
+        "description": "Promotional shipboard credit applicable toward spa treatments, vintage wines, and excursions.",
+        "icon": "compass"
+      },
+      {
+        "title": "Past-Guest Special Offers",
+        "description": "Special loyalty pricing and milestone recognition rates for previous Seabourn travelers.",
+        "icon": "star"
+      },
+      {
+        "title": "Seabourn Club Benefits",
+        "description": "Stackable loyalty privileges including complimentary laundry, internet, and dining perks.",
+        "icon": "award"
+      },
+      {
+        "title": "Suite Category Promotions",
+        "description": "Complimentary veranda suite upgrades and added amenities on higher-tier accommodations.",
+        "icon": "window"
+      },
+      {
+        "title": "Group & Multi-Suite Savings",
+        "description": "Tailored amenities and pricing opportunities for families, friends, and small private groups.",
+        "icon": "ship"
+      }
+    ],
+    "conclusion": "Promotions can vary by sailing, suite category and booking conditions. The objective is to evaluate the total value of the booking, rather than simply selecting the largest advertised discount."
+  },
+  "whyWorkWithUs": {
+    "title": "Why Work With Trips & Ships Luxury Travel?",
+    "subtitle": "EXPERT GUIDANCE • DEDICATED SEABOURN SPECIALISTS",
+    "intro": "A Seabourn cruise is a significant travel investment. Working with a knowledgeable luxury travel advisor can provide another layer of planning expertise. At Trips & Ships Luxury Travel, we can help with:",
+    "cards": [
+      {
+        "title": "Expert Cruise Advisory",
+        "items": [
+          "Seabourn ocean vs. expedition ship selection",
+          "Personalized suite recommendations and deck placement",
+          "Detailed itinerary and seasonal port comparisons",
+          "Comprehensive cruise pricing and promotion monitoring",
+          "Seabourn Club loyalty status and benefits alignment"
+        ]
+      },
+      {
+        "title": "End-to-End Vacation Design",
+        "items": [
+          "Pre- and post-cruise 5-star hotel arrangements",
+          "Special occasion and milestone anniversary planning",
+          "Private airport transfers and executive car services",
+          "Private shore excursions and bespoke land tours",
+          "Direct Seabourn executive and onboard concierge contacts"
+        ]
+      }
+    ],
+    "conclusion": "Our goal is to make the planning process easier and help you select the Seabourn experience that best fits your priorities."
+  },
+  "completeJourney": {
+    "title": "More Than a Cruise: Plan the Complete Journey",
+    "subtitle": "THE FULL VACATION • SEAMLESS DOOR-TO-DOOR LUXURY TRAVEL",
+    "intro": "Your Seabourn cruise may be only one part of your vacation. This approach can turn a cruise booking into a complete luxury travel experience.",
+    "items": [
+      {
+        "category": "PRE-CRUISE",
+        "badge": "PRE-CRUISE",
+        "title": "Before Your Cruise",
+        "description": "Start your journey in complete comfort with coordinated luxury arrangements before embarkation.",
+        "text": "Start your journey in complete comfort with coordinated luxury arrangements before embarkation.",
+        "features": [
+          "5-Star luxury hotel reservations",
+          "Private airport transfers & chauffeur service",
+          "Early check-in & luggage handling",
+          "Curated pre-cruise city tours",
+          "Seamless port transfer coordination"
+        ],
+        "list": [
+          "5-Star luxury hotel reservations",
+          "Private airport transfers & chauffeur service",
+          "Early check-in & luggage handling",
+          "Curated pre-cruise city tours",
+          "Seamless port transfer coordination"
+        ]
+      },
+      {
+        "category": "ONBOARD",
+        "badge": "ONBOARD",
+        "title": "During Your Cruise",
+        "description": "Enjoy an effortless ultra-luxury experience at sea tailored to your personal preferences.",
+        "text": "Enjoy an effortless ultra-luxury experience at sea tailored to your personal preferences.",
+        "features": [
+          "Preferred suite selection & placement",
+          "Bespoke shore excursions & Zodiac tours",
+          "Special occasion & anniversary celebrations",
+          "Private dining & dietary arrangements",
+          "Expedition team briefing & activity access"
+        ],
+        "list": [
+          "Preferred suite selection & placement",
+          "Bespoke shore excursions & Zodiac tours",
+          "Special occasion & anniversary celebrations",
+          "Private dining & dietary arrangements",
+          "Expedition team briefing & activity access"
+        ]
+      },
+      {
+        "category": "POST-CRUISE",
+        "badge": "POST-CRUISE",
+        "title": "After Your Cruise",
+        "description": "Extend your luxury vacation with post-cruise land extensions and stress-free return logistics.",
+        "text": "Extend your luxury vacation with post-cruise land extensions and stress-free return logistics.",
+        "features": [
+          "Post-cruise luxury resort stays",
+          "Private guided regional excursions",
+          "Coordinated airport transfers",
+          "Extended rail or villa travel",
+          "Seamless return flight coordination"
+        ],
+        "list": [
+          "Post-cruise luxury resort stays",
+          "Private guided regional excursions",
+          "Coordinated airport transfers",
+          "Extended rail or villa travel",
+          "Seamless return flight coordination"
+        ]
+      }
+    ]
+  },
+  "processSteps": {
+    "title": "Seabourn Cruise Quote: What Happens Next?",
+    "subtitle": "OUR 5-STEP STREAMLINED PLANNING PROCESS",
+    "items": [
+      {
+        "step": "1",
+        "title": "Tell Us What You Want",
+        "description": "Submit your preferred destination, dates, travelers and any other relevant details through our quote form."
+      },
+      {
+        "step": "2",
+        "title": "We Review Your Preferences",
+        "description": "We examine your travel priorities, including your desired pace, suite style, ship preference, and dream itinerary."
+      },
+      {
+        "step": "3",
+        "title": "We Identify Options",
+        "description": "Potential Seabourn sailings are evaluated based on real-time suite inventory, promotions, loyalty perks, and advisor amenities."
+      },
+      {
+        "step": "4",
+        "title": "We Discuss the Choices",
+        "description": "You review the tailored options with your advisor and ask questions before making any final booking decisions."
+      },
+      {
+        "step": "5",
+        "title": "We Refine the Trip",
+        "description": "Once the right cruise is locked in, we can refine flights, pre-cruise luxury hotels, transfers, and custom shore arrangements."
+      }
+    ]
+  },
+  "travelStyles": {
+    "title": "Planning for Your Travel Style",
+    "subtitle": "TAILORED FOR CELEBRATIONS, FAMILIES & SOLO EXPLORERS",
+    "intro": "Every Seabourn journey is personal. Here is how we customize planning for different travelers:",
+    "personas": [
+      {
+        "title": "Special Occasions & Milestones",
+        "role": "ANNIVERSARIES • BIRTHDAYS • HONEYMOONS",
+        "description": "Seabourn can be an excellent choice for milestone travel. Tell us if your cruise is celebrating a major personal milestone.",
+        "icon": "Heart",
+        "recommendations": [
+          "Milestone wedding anniversaries & renewals",
+          "Honeymoons & romantic celebratory escapes",
+          "Milestone birthdays & retirement celebrations",
+          "Graduations & multi-family reunions",
+          "In-suite champagne, caviar & private dining perks"
+        ],
+        "footerNote": "Providing this information allows your advisor to arrange special recognition and amenities."
+      },
+      {
+        "title": "Family & Multigenerational Travel",
+        "role": "CONNECTING SUITES • BALANCED ITINERARIES",
+        "description": "Traveling with several generations requires coordinated logistics and appropriate suite configurations.",
+        "icon": "Users",
+        "recommendations": [
+          "Connecting or adjacent Veranda Suites",
+          "Adult and child passenger counts and ages",
+          "Accessible suite and step-free mobility planning",
+          "Coordinated group dining tables at The Restaurant",
+          "Private family shore excursions and Zodiac outings"
+        ],
+        "footerNote": "Helps your advisor identify suitable suite configurations and family-friendly itineraries."
+      },
+      {
+        "title": "Solo Luxury Cruise Travel",
+        "role": "SINGLE SUPPLEMENTS • SOCIAL ATMOSPHERE",
+        "description": "Solo travelers receive personalized quote evaluations to secure reduced single supplement opportunities.",
+        "icon": "Anchor",
+        "recommendations": [
+          "Reduced single supplement promotional departures",
+          "Double Seabourn Club loyalty points on solo bookings",
+          "Welcoming social atmosphere & hosted officer tables",
+          "Intimate small ships where it is easy to make friends",
+          "Solo-friendly Zodiac excursions and shore tours"
+        ],
+        "footerNote": "A solo quote can be very different from simply dividing the advertised fare for two travelers."
+      }
+    ]
+  },
+  "minimumInfoSection": {
+    "title": "Seabourn Cruise Quote: What Information Should I Provide?",
+    "subtitle": "GETTING STARTED • MINIMUM DETAILS NEEDED FOR AN ACCURATE QUOTE",
+    "intro": "You don't need to have every detail decided. At minimum, providing the following gives your advisor a solid foundation:",
+    "cards": [
+      {
+        "title": "Essential Details to Provide",
+        "items": [
+          "Where you want to go (destination or region)",
+          "When you want to travel (dates, month, or season)",
+          "How many people are traveling in your party",
+          "Your approximate cruise budget range",
+          "Your preferred suite category, if known",
+          "Any special celebration or accessibility requirements"
+        ]
+      },
+      {
+        "title": "The Advantage of Flexibility",
+        "items": [
+          "Tell us if your travel dates are flexible by 1–2 weeks",
+          "Flexibility often opens up significantly better suite availability",
+          "Shoulder-season sailings frequently carry stronger promotional pricing",
+          "Nearby alternate ports may offer more desirable smaller-harbor calls",
+          "Your advisor can evaluate multiple departure dates side-by-side"
+        ]
+      }
+    ],
+    "conclusion": "If your dates or destination are flexible, tell us. Flexibility can open up additional itinerary and pricing possibilities."
+  },
+  "ctas": {
+    "shipCta": {
+      "eyebrow": "SELECT YOUR SHIP",
+      "title": "Unsure Which Seabourn Ship Is Right For You?",
+      "description": "Tell us about your ideal cruise experience, and a luxury travel advisor can help you compare ocean ships and expedition vessels to find the perfect match.",
+      "buttonText": "Request My Seabourn Quote",
+      "buttonLink": "/contact"
+    },
+    "guideCta": {
+      "eyebrow": "GO DEEPER",
+      "title": "Explore the Complete Seabourn Cruises Guide",
+      "description": "Read our full guide covering ships, suites, dining, destinations, inclusions and what makes Seabourn different before you request your quote.",
+      "buttonText": "Read the Seabourn Cruises Guide",
+      "buttonLink": "/seabourn-cruises/"
+    },
+    "travelStyleCta": {
+      "eyebrow": "WE'RE HERE TO HELP",
+      "title": "Traveling Solo, as a Couple or With Family?",
+      "description": "Whatever your travel style, tell us about your travel goals, and we'll help you explore the possibilities.",
+      "buttonText": "Request My Seabourn Quote",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Request Your Personalized Seabourn Quote",
+      "description": "Tell us what you're looking for and let Trips & Ships Luxury Travel help you explore your best available Seabourn options.",
+      "buttonText": "Request a Seabourn Cruise Quote",
+      "buttonLink": "/contact"
+    }
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY TRAVEL AUTHORITY",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Recognized leader with over four decades of luxury cruise and bespoke global travel expertise.",
+    "experienceBadge": "40+ Years Experience",
+    "quote": "A Seabourn cruise is about creating extraordinary memories in pure comfort. Getting the ship, suite, and itinerary right from the very beginning transforms a great trip into an unforgettable journey.",
+    "quoteSubtitle": "On Personalized Luxury Cruise Planning",
+    "paragraphs": [
+      "Angela Hughes is the CEO of Trips & Ships Luxury Travel with over 40 years of luxury travel industry leadership.",
+      "Having traveled to more than 121 countries, Angela specializes in matching discerning travelers with the ideal cruise line, ship, suite, and bespoke itinerary."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Speak With Angela & Her Team",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "How do I request a Seabourn cruise quote?",
+      "answer": "Complete the quote request form with your preferred dates, destination, number of travelers, suite preferences and budget. You can also tell us if you are unsure which Seabourn itinerary is right for you."
+    },
+    {
+      "question": "Do I need to know which Seabourn ship I want?",
+      "answer": "No. You can request a quote even if you're still deciding between Seabourn's ocean ships (Quest, Encore, Ovation) and expedition vessels (Venture, Pursuit)."
+    },
+    {
+      "question": "Can I request a quote for a specific Seabourn suite?",
+      "answer": "Yes. Include your preferred suite category (Veranda, Penthouse, Premium, Signature, or Wintergarden) in the request."
+    },
+    {
+      "question": "Can you help me compare Seabourn itineraries?",
+      "answer": "Yes. If your dates or destinations are flexible, tell us what type of experience you're looking for and we can help narrow down suitable options."
+    },
+    {
+      "question": "Can I request a Seabourn quote for Antarctica?",
+      "answer": "Yes. Include Antarctica as your preferred destination and mention any expedition preferences, Zodiac landing desires, or pre-cruise hotel plans in your request."
+    },
+    {
+      "question": "Can I request a Seabourn World Cruise quote?",
+      "answer": "Yes. Include your preferred travel dates, approximate voyage length and whether you are interested in the full World Cruise or selected regional segments."
+    },
+    {
+      "question": "Can you check Seabourn promotions?",
+      "answer": "Your advisor will review applicable public and private promotions, past-guest discounts, and onboard credits to compare them with fare and suite options."
+    },
+    {
+      "question": "Can I request a Seabourn quote as a solo traveler?",
+      "answer": "Yes. Indicate that you are traveling solo so the quote can account for applicable solo supplements, promotional departures, and double loyalty points."
+    },
+    {
+      "question": "Can I request a quote for a family or multigenerational group?",
+      "answer": "Yes. Include the number of travelers, ages of children if applicable, number of suites and any connecting-suite requirements."
+    },
+    {
+      "question": "Can you help with pre- and post-cruise travel?",
+      "answer": "Yes. If your cruise is part of a larger vacation, mention your pre- or post-cruise plans for luxury hotels, private tours, and transfers in the quote request."
+    },
+    {
+      "question": "What information should I include in my quote request?",
+      "answer": "Provide your destination, dates, number of travelers, preferred suite, budget and any special requirements. If you're flexible, let us know."
+    },
+    {
+      "question": "Why should I use a luxury travel advisor for a Seabourn cruise?",
+      "answer": "A luxury travel advisor can help compare ships, suites, itineraries, promotions and travel arrangements while helping you build a more complete vacation around your cruise—at no extra cost."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Ready to Start Planning Your Seabourn Vacation?",
+    "paragraphs": [
+      "Tell us what you're looking for and let Trips & Ships Luxury Travel help you explore your best available Seabourn options.",
+      "Not sure which Seabourn cruise is right for you? Tell us about your travel goals, and we'll help you explore the possibilities."
+    ],
+    "recommendation": "Submit your quote request today to receive personalized recommendations, suite guidance, and promotion monitoring from our dedicated luxury cruise specialists."
+  }
+}

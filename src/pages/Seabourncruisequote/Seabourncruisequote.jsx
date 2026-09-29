@@ -1,1418 +1,867 @@
-import { useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useRef } from "react";
+import { Helmet } from "react-helmet-async";
 import {
-    Check,
-    Plus,
-    Minus,
-    ArrowRight,
-    Ship,
-    Home,
-    Compass,
-    Gem,
-    Award,
-    Users,
-    Anchor,
-    Snowflake,
-    Globe,
-    Calendar,
-    Phone,
-    Mail,
-    User,
-    MessageCircle,
-    Heart,
-    MapPin,
-    Quote,
-    Tag,
-    Briefcase,
-    Landmark,
-    Star,
+  User,
+  Mail,
+  Phone,
+  Compass,
+  Calendar,
+  Users,
+  Home,
+  Ship,
+  Tag,
+  Award,
+  Heart,
+  Check,
+  ArrowRight,
+  Sparkles,
+  Quote
 } from "lucide-react";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
+import data from "./data.json";
 
-import { Helmet } from "react-helmet-async";
-import "./SeabournCruiseQuote.css";
+// UI Components
+import ComparisonHero from "../../components/ui/ComparisonHero";
+import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
+import CardGrid from "../../components/ui/CardGrid";
+import DynamicCulinaryShowcase from "../../components/ui/DynamicCulinaryShowcase";
+import GenericChecklistCards from "../../components/ui/GenericChecklistCards";
+import BrandPillarsShowcase from "../../components/ui/BrandPillarsShowcase";
+import ThreeColumnGrid from "../../components/ui/ThreeColumnGrid";
+import TravelerPersonaCards from "../../components/ui/TravelerPersonaCards";
+import SaltJourneyTimeline from "../../components/ui/SaltJourneyTimeline";
+import ExpertCredentials from "../../components/ui/ExpertCredentials";
+import FAQAccordion from "../../components/ui/FAQAccordion";
+import ConclusionSection from "../../components/ui/ConclusionSection";
+import CenterCTA from "../../components/ui/CenterCTA";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const seabournCruiseQuoteSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "WebPage",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#webpage",
-            url: "https://www.tripsandships.com/seabourn-cruises/request-a-quote/",
-            name: "Request a Seabourn Cruise Quote | Luxury Cruise Planning",
-            headline: "Request a Seabourn Cruise Quote",
-            description:
-                "Request a personalized Seabourn cruise quote from Trips & Ships Luxury Travel. Get expert help choosing your Seabourn ship, suite, itinerary, dates and available offers.",
-            keywords: [
-                "Seabourn cruise quote",
-                "Seabourn cruise pricing",
-                "Seabourn cruise travel advisor",
-                "Seabourn luxury cruise planning",
-                "Seabourn cruise booking",
-                "Seabourn cruise specialist",
-                "Seabourn cruise vacation",
-                "Seabourn suite quote",
-                "Seabourn cruise deals",
-                "Seabourn cruise offers",
-                "Seabourn itinerary planning",
-                "luxury cruise quote",
-                "Seabourn travel advisor",
-                "book a Seabourn cruise",
-            ],
-            isPartOf: {
-                "@type": "WebSite",
-                "@id": "https://www.tripsandships.com/#website",
-                url: "https://www.tripsandships.com/",
-                name: "Trips & Ships Luxury Travel",
-            },
-            breadcrumb: {
-                "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#breadcrumb",
-            },
-            mainEntity: {
-                "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#quote-service",
-            },
-            inLanguage: "en-US",
-        },
-        {
-            "@type": "BreadcrumbList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#breadcrumb",
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Home", item: "https://www.tripsandships.com/" },
-                { "@type": "ListItem", position: 2, name: "Seabourn Cruises", item: "https://www.tripsandships.com/seabourn-cruises/" },
-                { "@type": "ListItem", position: 3, name: "Request a Seabourn Cruise Quote", item: "https://www.tripsandships.com/seabourn-cruises/request-a-quote/" },
-            ],
-        },
-        {
-            "@type": "Service",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#quote-service",
-            name: "Seabourn Cruise Quote",
-            serviceType: "Luxury Seabourn Cruise Planning and Quote Service",
-            description:
-                "Personalized Seabourn cruise planning and quote assistance covering ships, suites, itineraries, travel dates, pricing, promotions, loyalty benefits and related travel arrangements.",
-            url: "https://www.tripsandships.com/seabourn-cruises/request-a-quote/",
-            provider: {
-                "@type": "Organization",
-                "@id": "https://www.tripsandships.com/#organization",
-                name: "Trips & Ships Luxury Travel",
-                url: "https://www.tripsandships.com/",
-            },
-            brand: { "@type": "Brand", name: "Seabourn" },
-            areaServed: { "@type": "Place", name: "Worldwide" },
-            hasOfferCatalog: {
-                "@type": "OfferCatalog",
-                name: "Seabourn Cruise Planning Options",
-                itemListElement: [
-                    { "@type": "Offer", name: "Seabourn Ocean Cruise Planning", description: "Planning assistance for Seabourn ocean-going luxury cruises." },
-                    { "@type": "Offer", name: "Seabourn Expedition Cruise Planning", description: "Planning assistance for Seabourn expedition voyages including Antarctica, the Arctic, Greenland and the Kimberley." },
-                    { "@type": "Offer", name: "Seabourn World Cruise Planning", description: "Planning assistance for Seabourn World Cruises and Grand Voyages." },
-                    { "@type": "Offer", name: "Seabourn Suite Planning", description: "Assistance comparing suite categories, locations, verandas, amenities and overall value." },
-                    { "@type": "Offer", name: "Seabourn Itinerary Planning", description: "Assistance comparing destinations, ports, sailing dates and cruise lengths." },
-                ],
-            },
-        },
-        {
-            "@type": "ItemList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#quote-details",
-            name: "Seabourn Quote Request Details",
-            description: "Information travelers can provide when requesting a personalized Seabourn cruise quote.",
-            numberOfItems: 9,
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Preferred Destination", description: "The destination or region the traveler would like to visit." },
-                { "@type": "ListItem", position: 2, name: "Travel Dates", description: "Preferred travel dates and whether those dates are flexible." },
-                { "@type": "ListItem", position: 3, name: "Number of Travelers", description: "The number of travelers included in the cruise request." },
-                { "@type": "ListItem", position: 4, name: "Preferred Suite Category", description: "Preferred suite category or accommodation level." },
-                { "@type": "ListItem", position: 5, name: "Approximate Budget", description: "A budget range that helps narrow down realistic Seabourn options." },
-                { "@type": "ListItem", position: 6, name: "Special Occasions", description: "Special occasions such as anniversaries, honeymoons, birthdays, retirements or family celebrations." },
-                { "@type": "ListItem", position: 7, name: "Cruise Length", description: "Preferred voyage length, including shorter cruises, extended voyages or World Cruises." },
-                { "@type": "ListItem", position: 8, name: "Previous Seabourn Experience", description: "Information about previous Seabourn cruises and past-guest experience." },
-                { "@type": "ListItem", position: 9, name: "Loyalty Status and Travel Preferences", description: "Seabourn Club status and other preferences that may affect cruise recommendations." },
-            ],
-        },
-        {
-            "@type": "ItemList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#ships",
-            name: "Seabourn Ships Available for Quote Requests",
-            description: "Seabourn ships listed on the quote request page.",
-            numberOfItems: 6,
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Seabourn Quest" },
-                { "@type": "ListItem", position: 2, name: "Seabourn Encore" },
-                { "@type": "ListItem", position: 3, name: "Seabourn Ovation" },
-                { "@type": "ListItem", position: 4, name: "Seabourn Venture" },
-                { "@type": "ListItem", position: 5, name: "Seabourn Pursuit" },
-                { "@type": "ListItem", position: 6, name: "Not Sure" },
-            ],
-        },
-        {
-            "@type": "ItemList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#suite-categories",
-            name: "Seabourn Suite Categories for Quote Requests",
-            description: "Suite categories travelers can select or discuss when requesting a Seabourn cruise quote.",
-            numberOfItems: 6,
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Veranda Suite" },
-                { "@type": "ListItem", position: 2, name: "Penthouse Suite" },
-                { "@type": "ListItem", position: 3, name: "Premium Suite" },
-                { "@type": "ListItem", position: 4, name: "Signature Suite" },
-                { "@type": "ListItem", position: 5, name: "Expedition Suite" },
-                { "@type": "ListItem", position: 6, name: "Not Sure" },
-            ],
-        },
-        {
-            "@type": "ItemList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#destinations",
-            name: "Seabourn Cruise Quote Destinations",
-            description: "Destination examples available for Seabourn quote requests.",
-            numberOfItems: 9,
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Mediterranean" },
-                { "@type": "ListItem", position: 2, name: "Alaska" },
-                { "@type": "ListItem", position: 3, name: "Antarctica" },
-                { "@type": "ListItem", position: 4, name: "Arctic & Greenland" },
-                { "@type": "ListItem", position: 5, name: "Kimberley" },
-                { "@type": "ListItem", position: 6, name: "South America" },
-                { "@type": "ListItem", position: 7, name: "Northern Europe" },
-                { "@type": "ListItem", position: 8, name: "Asia" },
-                { "@type": "ListItem", position: 9, name: "World Cruise" },
-            ],
-        },
-        {
-            "@type": "ItemList",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#planning-services",
-            name: "Seabourn Cruise Planning Services",
-            description: "Areas of cruise and luxury travel planning assistance offered by Trips & Ships Luxury Travel.",
-            numberOfItems: 10,
-            itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Seabourn Ship Selection", description: "Help choosing between Seabourn ocean ships and expedition vessels." },
-                { "@type": "ListItem", position: 2, name: "Suite Recommendations", description: "Help comparing suite size, location, veranda configuration, views, accessibility and amenities." },
-                { "@type": "ListItem", position: 3, name: "Itinerary Comparisons", description: "Help comparing destinations, ports and sailing dates." },
-                { "@type": "ListItem", position: 4, name: "Cruise Pricing", description: "Help evaluating Seabourn cruise pricing and available options." },
-                { "@type": "ListItem", position: 5, name: "Promotion Monitoring", description: "Help reviewing applicable Seabourn promotions and special offers." },
-                { "@type": "ListItem", position: 6, name: "Seabourn Club Considerations", description: "Help taking applicable Seabourn Club status and benefits into consideration." },
-                { "@type": "ListItem", position: 7, name: "Pre- and Post-Cruise Arrangements", description: "Help coordinating hotels, transfers and other travel before or after the cruise." },
-                { "@type": "ListItem", position: 8, name: "Special Occasions", description: "Planning considerations for anniversaries, honeymoons, birthdays, retirements and other milestones." },
-                { "@type": "ListItem", position: 9, name: "Private Travel Arrangements", description: "Assistance with private travel arrangements connected to the Seabourn vacation." },
-                { "@type": "ListItem", position: 10, name: "Destination Planning", description: "Help coordinating the broader destination experience around the cruise." },
-            ],
-        },
-        {
-            "@type": "HowTo",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#how-it-works",
-            name: "How the Seabourn Cruise Quote Process Works",
-            description: "Five steps for requesting and refining a personalized Seabourn cruise quote.",
-            step: [
-                { "@type": "HowToStep", position: 1, name: "Tell Us What You Want", text: "Submit your preferred destination, dates, travelers and other relevant details." },
-                { "@type": "HowToStep", position: 2, name: "We Review Your Preferences", text: "Your travel priorities, desired experience, suite and itinerary are reviewed." },
-                { "@type": "HowToStep", position: 3, name: "We Identify Options", text: "Potential Seabourn sailings are evaluated based on availability, itinerary, suite category and applicable offers." },
-                { "@type": "HowToStep", position: 4, name: "We Discuss the Choices", text: "Review the potential options and ask questions before deciding." },
-                { "@type": "HowToStep", position: 5, name: "We Refine the Trip", text: "Once the right cruise is identified, the details of the broader luxury vacation can be refined." },
-            ],
-        },
-        {
-            "@type": "FAQPage",
-            "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#faq",
-            mainEntity: [
-                { "@type": "Question", name: "How do I request a Seabourn cruise quote?", acceptedAnswer: { "@type": "Answer", text: "Complete the quote request form with your preferred dates, destination, number of travelers, suite preferences and budget. You can also indicate if you are unsure which Seabourn itinerary is right for you." } },
-                { "@type": "Question", name: "Do I need to know which Seabourn ship I want?", acceptedAnswer: { "@type": "Answer", text: "No. You can request a quote even if you are still deciding between Seabourn's ships." } },
-                { "@type": "Question", name: "Can I request a quote for a specific Seabourn suite?", acceptedAnswer: { "@type": "Answer", text: "Yes. Include your preferred suite category or specific suite preference in the request." } },
-                { "@type": "Question", name: "Can you help me compare Seabourn itineraries?", acceptedAnswer: { "@type": "Answer", text: "Yes. If your dates or destinations are flexible, provide the type of experience you are looking for and suitable options can be narrowed down." } },
-                { "@type": "Question", name: "Can I request a Seabourn quote for Antarctica?", acceptedAnswer: { "@type": "Answer", text: "Yes. Include Antarctica as your preferred destination and mention any expedition preferences in your request." } },
-                { "@type": "Question", name: "Can I request a Seabourn World Cruise quote?", acceptedAnswer: { "@type": "Answer", text: "Yes. Include your preferred travel dates, approximate voyage length and whether you are interested in the full World Cruise or selected segments." } },
-                { "@type": "Question", name: "Can you check Seabourn promotions?", acceptedAnswer: { "@type": "Answer", text: "Your advisor can review applicable promotions and help compare them with the fare and suite options for your preferred sailing." } },
-                { "@type": "Question", name: "Can I request a Seabourn quote as a solo traveler?", acceptedAnswer: { "@type": "Answer", text: "Yes. Indicate that you are traveling solo so the quote can account for applicable solo pricing and supplement." } },
-                { "@type": "Question", name: "Can I request a quote for a family or multigenerational group?", acceptedAnswer: { "@type": "Answer", text: "Yes. Include the number of travelers, ages of children if applicable, number of suites and any connecting-suite requirements." } },
-                { "@type": "Question", name: "Can you help with pre- and post-cruise travel?", acceptedAnswer: { "@type": "Answer", text: "Yes. If your cruise is part of a larger vacation, mention your pre- or post-cruise plans in the quote request." } },
-                { "@type": "Question", name: "What information should I include in my quote request?", acceptedAnswer: { "@type": "Answer", text: "Provide your destination, dates, number of travelers, preferred suite, budget and any special requirements. If you are flexible, say so." } },
-                { "@type": "Question", name: "Why should I use a luxury travel advisor for a Seabourn cruise?", acceptedAnswer: { "@type": "Answer", text: "A luxury travel advisor can help compare ships, suites, itineraries, promotions and travel arrangements while helping build a more complete vacation around the cruise." } },
-            ],
-        },
-    ],
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#webpage",
+      "url": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/",
+      "name": "Request a Seabourn Cruise Quote | Luxury Cruise Planning",
+      "headline": "Request a Seabourn Cruise Quote",
+      "description":
+        "Request a personalized Seabourn cruise quote from Trips & Ships Luxury Travel. Get expert help choosing your Seabourn ship, suite, itinerary, dates and available offers.",
+      "keywords": [
+        "Seabourn cruise quote",
+        "Seabourn cruise pricing",
+        "Seabourn cruise travel advisor",
+        "Seabourn luxury cruise planning",
+        "Seabourn cruise booking",
+        "Seabourn cruise specialist",
+        "Seabourn cruise vacation",
+        "Seabourn suite quote",
+        "Seabourn cruise deals",
+        "Seabourn cruise offers",
+        "Seabourn itinerary planning",
+        "luxury cruise quote",
+        "Seabourn travel advisor",
+        "book a Seabourn cruise"
+      ],
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com/",
+        "name": "Trips & Ships Luxury Travel"
+      },
+      "breadcrumb": {
+        "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#quote-service"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
+        { "@type": "ListItem", "position": 3, "name": "Request a Seabourn Cruise Quote", "item": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#quote-service",
+      "name": "Seabourn Cruise Quote",
+      "serviceType": "Luxury Seabourn Cruise Planning and Quote Service",
+      "description":
+        "Personalized Seabourn cruise planning and quote assistance covering ships, suites, itineraries, travel dates, pricing, promotions, loyalty benefits and related travel arrangements.",
+      "url": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/"
+      },
+      "brand": { "@type": "Brand", "name": "Seabourn" },
+      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Seabourn Cruise Planning Options",
+        "itemListElement": [
+          { "@type": "Offer", "name": "Seabourn Ocean Cruise Planning", "description": "Planning assistance for Seabourn ocean-going luxury cruises." },
+          { "@type": "Offer", "name": "Seabourn Expedition Cruise Planning", "description": "Planning assistance for Seabourn expedition voyages including Antarctica, the Arctic, Greenland and the Kimberley." },
+          { "@type": "Offer", "name": "Seabourn World Cruise Planning", "description": "Planning assistance for Seabourn World Cruises and Grand Voyages." },
+          { "@type": "Offer", "name": "Seabourn Suite Planning", "description": "Assistance comparing suite categories, locations, verandas, amenities and overall value." },
+          { "@type": "Offer", "name": "Seabourn Itinerary Planning", "description": "Assistance comparing destinations, ports, sailing dates and cruise lengths." }
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#quote-details",
+      "name": "Seabourn Quote Request Details",
+      "description": "Information travelers can provide when requesting a personalized Seabourn cruise quote.",
+      "numberOfItems": 9,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Preferred Destination", "description": "The destination or region the traveler would like to visit." },
+        { "@type": "ListItem", "position": 2, "name": "Travel Dates", "description": "Preferred travel dates and whether those dates are flexible." },
+        { "@type": "ListItem", "position": 3, "name": "Number of Travelers", "description": "The number of travelers included in the cruise request." },
+        { "@type": "ListItem", "position": 4, "name": "Preferred Suite Category", "description": "Preferred suite category or accommodation level." },
+        { "@type": "ListItem", "position": 5, "name": "Approximate Budget", "description": "A budget range that helps narrow down realistic Seabourn options." },
+        { "@type": "ListItem", "position": 6, "name": "Special Occasions", "description": "Special occasions such as anniversaries, honeymoons, birthdays, retirements or family celebrations." },
+        { "@type": "ListItem", "position": 7, "name": "Cruise Length", "description": "Preferred voyage length, including shorter cruises, extended voyages or World Cruises." },
+        { "@type": "ListItem", "position": 8, "name": "Previous Seabourn Experience", "description": "Information about previous Seabourn cruises and past-guest experience." },
+        { "@type": "ListItem", "position": 9, "name": "Loyalty Status and Travel Preferences", "description": "Seabourn Club status and other preferences that may affect cruise recommendations." }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#ships",
+      "name": "Seabourn Ships Available for Quote Requests",
+      "description": "Seabourn ships listed on the quote request page.",
+      "numberOfItems": 6,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Seabourn Quest" },
+        { "@type": "ListItem", "position": 2, "name": "Seabourn Encore" },
+        { "@type": "ListItem", "position": 3, "name": "Seabourn Ovation" },
+        { "@type": "ListItem", "position": 4, "name": "Seabourn Venture" },
+        { "@type": "ListItem", "position": 5, "name": "Seabourn Pursuit" },
+        { "@type": "ListItem", "position": 6, "name": "Not Sure" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#suite-categories",
+      "name": "Seabourn Suite Categories for Quote Requests",
+      "description": "Suite categories travelers can select or discuss when requesting a Seabourn cruise quote.",
+      "numberOfItems": 6,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Veranda Suite" },
+        { "@type": "ListItem", "position": 2, "name": "Penthouse Suite" },
+        { "@type": "ListItem", "position": 3, "name": "Premium Suite" },
+        { "@type": "ListItem", "position": 4, "name": "Signature Suite" },
+        { "@type": "ListItem", "position": 5, "name": "Expedition Suite" },
+        { "@type": "ListItem", "position": 6, "name": "Not Sure" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#destinations",
+      "name": "Seabourn Cruise Quote Destinations",
+      "description": "Destination examples available for Seabourn quote requests.",
+      "numberOfItems": 9,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Mediterranean" },
+        { "@type": "ListItem", "position": 2, "name": "Alaska" },
+        { "@type": "ListItem", "position": 3, "name": "Antarctica" },
+        { "@type": "ListItem", "position": 4, "name": "Arctic & Greenland" },
+        { "@type": "ListItem", "position": 5, "name": "Kimberley" },
+        { "@type": "ListItem", "position": 6, "name": "South America" },
+        { "@type": "ListItem", "position": 7, "name": "Northern Europe" },
+        { "@type": "ListItem", "position": 8, "name": "Asia" },
+        { "@type": "ListItem", "position": 9, "name": "World Cruise" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#planning-services",
+      "name": "Seabourn Cruise Planning Services",
+      "description": "Areas of cruise and luxury travel planning assistance offered by Trips & Ships Luxury Travel.",
+      "numberOfItems": 10,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Seabourn Ship Selection", "description": "Help choosing between Seabourn ocean ships and expedition vessels." },
+        { "@type": "ListItem", "position": 2, "name": "Suite Recommendations", "description": "Help comparing suite size, location, veranda configuration, views, accessibility and amenities." },
+        { "@type": "ListItem", "position": 3, "name": "Itinerary Comparisons", "description": "Help comparing destinations, ports and sailing dates." },
+        { "@type": "ListItem", "position": 4, "name": "Cruise Pricing", "description": "Help evaluating Seabourn cruise pricing and available options." },
+        { "@type": "ListItem", "position": 5, "name": "Promotion Monitoring", "description": "Help reviewing applicable Seabourn promotions and special offers." },
+        { "@type": "ListItem", "position": 6, "name": "Seabourn Club Considerations", "description": "Help taking applicable Seabourn Club status and benefits into consideration." },
+        { "@type": "ListItem", "position": 7, "name": "Pre- and Post-Cruise Arrangements", "description": "Help coordinating hotels, transfers and other travel before or after the cruise." },
+        { "@type": "ListItem", "position": 8, "name": "Special Occasions", "description": "Planning considerations for anniversaries, honeymoons, birthdays, retirements and other milestones." },
+        { "@type": "ListItem", "position": 9, "name": "Private Travel Arrangements", "description": "Assistance with private travel arrangements connected to the Seabourn vacation." },
+        { "@type": "ListItem", "position": 10, "name": "Destination Planning", "description": "Help coordinating the broader destination experience around the cruise." }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#how-it-works",
+      "name": "How the Seabourn Cruise Quote Process Works",
+      "description": "Five steps for requesting and refining a personalized Seabourn cruise quote.",
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Tell Us What You Want", "text": "Submit your preferred destination, dates, travelers and other relevant details." },
+        { "@type": "HowToStep", "position": 2, "name": "We Review Your Preferences", "text": "Your travel priorities, desired experience, suite and itinerary are reviewed." },
+        { "@type": "HowToStep", "position": 3, "name": "We Identify Options", "text": "Potential Seabourn sailings are evaluated based on availability, itinerary, suite category and applicable offers." },
+        { "@type": "HowToStep", "position": 4, "name": "We Discuss the Choices", "text": "Review the potential options and ask questions before deciding." },
+        { "@type": "HowToStep", "position": 5, "name": "We Refine the Trip", "text": "Once the right cruise is identified, the details of the broader luxury vacation can be refined." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/#faq",
+      "mainEntity": data.faqs.map((f) => ({
+        "@type": "Question",
+        "name": f.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": f.answer
+        }
+      }))
+    }
+  ]
 };
 
-/* ── FAQ Accordion (reused Sbc-faq classes) ───────────────────────── */
-function QuoteFAQ() {
-    const [open, setOpen] = useState(null);
-
-    const faqData = [
-        { q: "How do I request a Seabourn cruise quote?", a: "Complete the quote request form with your preferred dates, destination, number of travelers, suite preferences and budget. You can also tell us if you are unsure which Seabourn itinerary is right for you." },
-        { q: "Do I need to know which Seabourn ship I want?", a: "No. You can request a quote even if you're still deciding between Seabourn's ships." },
-        { q: "Can I request a quote for a specific Seabourn suite?", a: "Yes. Include your preferred suite category or specific suite preference in the request." },
-        { q: "Can you help me compare Seabourn itineraries?", a: "Yes. If your dates or destinations are flexible, tell us what type of experience you're looking for and we can help narrow down suitable options." },
-        { q: "Can I request a Seabourn quote for Antarctica?", a: "Yes. Include Antarctica as your preferred destination and mention any expedition preferences in your request." },
-        { q: "Can I request a Seabourn World Cruise quote?", a: "Yes. Include your preferred travel dates, approximate voyage length and whether you are interested in the full World Cruise or selected segments." },
-        { q: "Can you check Seabourn promotions?", a: "Your advisor can review applicable promotions and help compare them with the fare and suite options for your preferred sailing." },
-        { q: "Can I request a Seabourn quote as a solo traveler?", a: "Yes. Indicate that you are traveling solo so the quote can account for the applicable solo pricing and supplement." },
-        { q: "Can I request a quote for a family or multigenerational group?", a: "Yes. Include the number of travelers, ages of children if applicable, number of suites and any connecting-suite requirements." },
-        { q: "Can you help with pre- and post-cruise travel?", a: "Yes. If your cruise is part of a larger vacation, mention your pre- or post-cruise plans in the quote request." },
-        { q: "What information should I include in my quote request?", a: "Provide your destination, dates, number of travelers, preferred suite, budget and any special requirements. If you're flexible, say so." },
-        { q: "Why should I use a luxury travel advisor for a Seabourn cruise?", a: "A luxury travel advisor can help compare ships, suites, itineraries, promotions and travel arrangements while helping you build a more complete vacation around your cruise." },
-    ];
-
-    return (
-        <div className="Sbc-faq-list">
-            {faqData.map((item, i) => (
-                <div
-                    key={i}
-                    className={`Sbc-faq-item${open === i ? " Sbc-open" : ""}`}
-                    onClick={() => setOpen(open === i ? null : i)}
-                >
-                    <div className="Sbc-faq-q">
-                        <span>{item.q}</span>
-                        <span className="Sbc-faq-icon">
-                            {open === i ? <Minus size={18} strokeWidth={1.5} /> : <Plus size={18} strokeWidth={1.5} />}
-                        </span>
-                    </div>
-                    {open === i && (
-                        <div className="Sbc-faq-a">
-                            <div className="Sbc-faq-a-inner">{item.a}</div>
-                        </div>
-                    )}
-                </div>
-            ))}
-        </div>
-    );
-}
-
-/* ── Data ──────────────────────────────────────────────────────── */
-const tripDetailFields = [
-    "Preferred destination", "Travel dates", "Number of travelers", "Preferred suite category",
-    "Approximate budget", "Special occasions", "Cruise length", "Previous Seabourn experience",
-    "Loyalty status, if applicable", "Other travel preferences",
-];
-
-const whyQuoteCards = [
-    { icon: Ship, title: "Different Seabourn Ships", text: "Choose between Seabourn's classic ocean ships and expedition vessels based on your travel style." },
-    { icon: Home, title: "Suite Categories", text: "Compare suite locations, space, verandas, amenities and overall value." },
-    { icon: Compass, title: "Itineraries", text: "Consider different destinations, ports and sailing dates." },
-    { icon: Tag, title: "Current Offers", text: "Review applicable Seabourn promotions and special offers." },
-    { icon: Award, title: "Past-Guest Benefits", text: "If you have sailed with Seabourn before, we can take your Seabourn Club status and applicable benefits into consideration." },
-    { icon: Briefcase, title: "Additional Travel", text: "If your cruise is part of a larger vacation, we can help coordinate the broader travel plan." },
-];
-
-const destinationOptions = ["Mediterranean", "Alaska", "Antarctica", "Arctic & Greenland", "Kimberley", "South America", "Northern Europe", "Asia", "World Cruise"];
-const shipOptions = ["Seabourn Quest", "Seabourn Encore", "Seabourn Ovation", "Seabourn Venture", "Seabourn Pursuit", "Not Sure"];
-const suiteOptions = ["Veranda Suite", "Penthouse Suite", "Premium Suite", "Signature Suite", "Expedition Suite", "Not Sure"];
-const lengthOptions = ["Less than 7 days", "7\u201313 days", "14\u201320 days", "21+ days", "World Cruise / Grand Voyage", "Flexible"];
-
-const specialRequestTags = [
-    "Anniversary", "Birthday", "Honeymoon", "Family celebration", "Multigenerational travel",
-    "Solo travel", "Accessibility requirements", "Connecting suites", "Preferred suite location",
-    "Pre- or post-cruise travel", "Private excursions", "Extended land stay",
-];
-
-const notSureExamples = [
-    "We want a two-week luxury cruise in Europe with excellent food, smaller ports and a quiet atmosphere.",
-    "We're interested in Antarctica but don't know whether Seabourn Venture or Seabourn Pursuit is the better choice.",
-    "We're planning a special anniversary and want the best suite we can find.",
-];
-
-const quoteShips = [
-    { icon: Ship, title: "Seabourn Quest", text: "A smaller ocean-going luxury ship with an intimate atmosphere and classic Seabourn experience." },
-    { icon: Ship, title: "Seabourn Encore", text: "A larger ocean ship offering spacious suites, dining and an extensive range of onboard amenities." },
-    { icon: Ship, title: "Seabourn Ovation", text: "A sister ship to Encore with a similar luxury experience and access to a broad range of destinations." },
-    { icon: Snowflake, title: "Seabourn Venture", text: "An expedition ship designed for destinations where exploration is the primary focus." },
-    { icon: Snowflake, title: "Seabourn Pursuit", text: "A purpose-built expedition ship combining Seabourn's luxury service with expedition capabilities." },
-];
-
-const suiteConsiderations = ["Suite size", "Suite location", "Veranda configuration", "View", "Deck location", "Accessibility", "Connecting-suite options", "Higher-category upgrades", "Overall value"];
-
-const expeditionConsiderations = ["Expedition activities", "Zodiac excursions", "Wildlife viewing", "Weather", "Specialized clothing", "Expedition equipment", "Physical activity levels", "Pre- and post-cruise arrangements"];
-
-const worldCruiseConsiderations = ["Suite selection", "Departure dates", "Voyage segments", "Multiple climates", "Air arrangements", "Pre-cruise accommodations", "Post-cruise travel", "Laundry", "Travel insurance", "Special events", "Long-voyage packing"];
-
-const offersConsiderations = ["Current Seabourn promotions", "Onboard credit", "Past-guest offers", "Seabourn Club benefits", "Suite promotions", "Group opportunities", "Special-occasion amenities"];
-
-const processSteps = [
-    { title: "Tell Us What You Want", text: "Submit your preferred destination, dates, travelers and any other relevant details." },
-    { title: "We Review Your Preferences", text: "We look at your travel priorities, including your desired experience, suite and itinerary." },
-    { title: "We Identify Options", text: "Potential Seabourn sailings can be evaluated based on availability, itinerary, suite category and applicable offers." },
-    { title: "We Discuss the Choices", text: "You can review the options and ask questions before deciding." },
-    { title: "We Refine the Trip", text: "Once you identify the right cruise, we can help refine the details of your luxury vacation." },
-];
-
-const whyWorkWithUs = ["Seabourn ship selection", "Suite recommendations", "Itinerary comparisons", "Cruise pricing", "Promotion monitoring", "Seabourn Club considerations", "Pre- and post-cruise arrangements", "Special occasions", "Private travel arrangements", "Destination planning"];
-
-const journeyColumns = [
-    { icon: Landmark, title: "Before Your Cruise", items: ["Luxury hotels", "Airport transfers", "Private drivers", "Pre-cruise stays", "Destination experiences"] },
-    { icon: Ship, title: "During Your Cruise", items: ["Suite selection", "Shore excursions", "Special occasions", "Dining preferences", "Expedition planning"] },
-    { icon: MapPin, title: "After Your Cruise", items: ["Post-cruise hotel stays", "Private tours", "Transfers", "Extended destination travel", "Return flights"] },
-];
-
-const occasionsList = ["Anniversary", "Honeymoon", "Birthday", "Retirement", "Graduation", "Family reunion", "Wedding celebration", "Major personal milestone"];
-
-const familyList = ["Number of adults", "Number of children", "Ages of children", "Number of suites", "Connecting-suite preferences", "Accessibility requirements", "Dining preferences", "Preferred itinerary"];
-
-const soloList = ["Single supplement", "Available solo opportunities", "Suite categories", "Itinerary length", "Social atmosphere", "Shore excursions", "Overall value"];
-
-const minimumInfo = [
-    "Where you want to go",
-    "When you want to travel",
-    "How many people are traveling",
-    "Your approximate budget",
-    "Your preferred suite level, if known",
-    "Any special requirements",
-];
-
-
-
-/* ── Main Component ──────────────────────────────────────────────── */
 const SeabournCruiseQuote = () => {
-    const formRef = useRef(null);
+  const formRef = useRef(null);
 
-    const [form, setForm] = useState({
-        firstName: "", lastName: "", email: "", phone: "",
-        destination: "", travelDates: "", flexible: "",
-        travelers: "", suitesNeeded: "",
-        ship: "", suite: "", cruiseLength: "",
-        budget: "",
-        sailedBefore: "", clubMember: "", previousExperience: "",
-        specialRequests: "",
-    });
-    const [submitted, setSubmitted] = useState(false);
-    const [readMore, setReadMore] = useState(false);
-    const [activeTab, setActiveTab] = useState("expedition");
-    const [activeCategoryTab, setActiveCategoryTab] = useState("occasions");
+  const [form, setForm] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    destination: "",
+    travelDates: "",
+    flexible: "",
+    travelers: "",
+    suitesNeeded: "",
+    ship: "",
+    suite: "",
+    cruiseLength: "",
+    budget: "",
+    sailedBefore: "",
+    clubMember: "",
+    previousExperience: "",
+    specialRequests: ""
+  });
 
-    const updateField = (key, value) => setForm((prev) => ({ ...prev, [key]: value }));
+  const [submitted, setSubmitted] = useState(false);
 
-    const addTag = (tag) => {
-        setForm((prev) => ({
-            ...prev,
-            specialRequests: prev.specialRequests ? `${prev.specialRequests}, ${tag}` : tag,
-        }));
-    };
+  const updateField = (key, value) => setForm((prev) => ({ ...prev, [key]: value }));
 
-    const useExample = (text) => {
-        setForm((prev) => ({ ...prev, specialRequests: text }));
-        formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-    };
+  const addTag = (tag) => {
+    setForm((prev) => ({
+      ...prev,
+      specialRequests: prev.specialRequests ? `${prev.specialRequests}, ${tag}` : tag
+    }));
+  };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setSubmitted(true);
-    };
+  const useExample = (text) => {
+    setForm((prev) => ({ ...prev, specialRequests: text }));
+    scrollToForm();
+  };
 
-    const scrollToForm = () => formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
 
-    return (
-        <div className="Asc-page-wrapper">
-            <Helmet>
-                <title>Request a Seabourn Cruise Quote | Luxury Cruise Planning</title>
-                <meta name="title" content="Request a Seabourn Cruise Quote | Trips & Ships" />
-                <meta
-                    name="description"
-                    content="Request a personalized Seabourn cruise quote from Trips & Ships Luxury Travel. Get expert help choosing your Seabourn ship, suite, itinerary, dates and available offers."
-                />
-                <script type="application/ld+json">{JSON.stringify(seabournCruiseQuoteSchema)}</script>
-            </Helmet>
-            <Nav />
+  const scrollToForm = () => {
+    formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
-            {/* ── HERO (same UI as Offers & Loyalty hero) ──────────────── */}
-            <section className="Sbc-hero-section">
-                <div className="Sbc-hero-overlay"></div>
-                <div className="Sbc-hero-content">
-                    <h1>Request a Seabourn <br /> Cruise Quote</h1>
-                    <p>
-                        Planning a Seabourn cruise is about choosing more than a destination. The right ship, suite, itinerary, departure date and available offer can make a significant difference to your overall experience.
-                    </p>
+  return (
+    <div className="w-full bg-white text-navy-950 font-sans antialiased">
+      <Helmet>
+        <title>Request a Seabourn Cruise Quote | Luxury Cruise Planning</title>
+        <meta name="title" content="Request a Seabourn Cruise Quote | Trips & Ships" />
+        <meta
+          name="description"
+          content="Request a personalized Seabourn cruise quote from Trips & Ships Luxury Travel. Get expert help choosing your Seabourn ship, suite, itinerary, dates and available offers."
+        />
+        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/request-a-quote/" />
+        <script type="application/ld+json">{JSON.stringify(seabournCruiseQuoteSchema)}</script>
+      </Helmet>
 
-                    {readMore && (
-                        <>
-                            <p>
-                                At Trips &amp; Ships Luxury Travel, we help travelers plan Seabourn vacations around what matters most to them—from the ideal suite and itinerary to special occasions, expedition adventures and extended voyages.
-                            </p>
-                            <p>
-                                Complete the quote request form to tell us what you are looking for, and a luxury travel advisor can help you explore the best available options.
-                            </p>
-                        </>
-                    )}
+      <Nav />
 
-                    <div className="Sbc-hero-readmore-wrapper">
-                        <button className="Sbc-hero-readmore-btn" onClick={() => setReadMore(!readMore)}>
-                            {readMore ? "Read Less" : "Read More"}
-                        </button>
-                    </div>
+      {/* ── 1. HERO SECTION ── */}
+      <ComparisonHero
+        title={data.hero.title}
+        subtitle={data.hero.subtitle}
+        intro={data.hero.intro}
+        details={data.hero.details}
+        ctaText={data.hero.ctaText}
+        ctaLink={data.hero.ctaLink}
+      />
 
-                    <div className="rlc-page-cta-container" style={{ marginTop: "24px" }}>
-                        <button className="rlc-page-cta-btn rlc-btn-light" onClick={scrollToForm}>
-                            Request My Seabourn Quote
-                            <ArrowRight size={18} />
-                        </button>
-                    </div>
+      {/* ── 2. EDITORIAL INTRO: START PLANNING ── */}
+      <EditorialIntroSection
+        badge={data.introSection.badge}
+        title={data.introSection.title}
+        subtitle={data.introSection.subtitle}
+        paragraphs={data.introSection.paragraphs}
+        highlights={data.introSection.highlights}
+      />
+
+      {/* ── 3. WHY REQUEST A PERSONALIZED QUOTE (CARD GRID) ── */}
+      <CardGrid
+        title={data.whyQuote.title}
+        subtitle={data.whyQuote.subtitle}
+        cards={data.whyQuote.cards}
+        columns={3}
+      />
+
+      {/* ── 4. DEDICATED LUXURY QUOTE REQUEST FORM ── */}
+      <section className="w-full py-20 lg:py-28 bg-slate-50 border-y border-slate-200/80" id="quote-form" ref={formRef}>
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-14">
+            <span className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-ts-gold block mb-3">
+              YOUR QUOTE REQUEST
+            </span>
+            <h2 className="font-display text-3xl md:text-5xl text-navy-950 mb-4 tracking-tight">
+              Tell Us About Your Seabourn Cruise
+            </h2>
+            <div className="w-16 h-0.5 bg-ts-gold mx-auto mb-5"></div>
+            <p className="font-sans text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed font-light">
+              Use the quote request form below to provide the details that are most important to you.
+            </p>
+          </div>
+
+          {submitted ? (
+            <div className="bg-white rounded-3xl p-10 lg:p-14 shadow-xl border border-gold-200/60 text-center">
+              <div className="w-16 h-16 rounded-full bg-emerald-50 text-emerald-600 border border-emerald-200 flex items-center justify-center mx-auto mb-6 shadow-sm">
+                <Check size={32} strokeWidth={2.5} />
+              </div>
+              <h3 className="font-display text-3xl text-navy-950 mb-3">
+                Thank You, {form.firstName || "Traveler"}!
+              </h3>
+              <p className="font-sans text-slate-600 text-base lg:text-lg leading-relaxed max-w-lg mx-auto font-light mb-8">
+                Your Seabourn cruise quote request has been received. A dedicated luxury cruise advisor from Trips & Ships will be in touch shortly with personalized recommendations and current promotions.
+              </p>
+              <button
+                type="button"
+                onClick={() => setSubmitted(false)}
+                className="inline-flex items-center gap-2 px-8 py-3.5 bg-navy-950 text-white rounded-full font-sans text-sm font-bold uppercase tracking-wider hover:bg-navy-900 transition-all shadow-md"
+              >
+                Submit Another Request
+              </button>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="bg-white rounded-3xl p-8 sm:p-12 lg:p-14 shadow-xl border border-slate-200 space-y-10">
+              
+              {/* Group 1: Contact Info */}
+              <div>
+                <div className="flex items-center gap-3 pb-3 mb-6 border-b border-slate-100">
+                  <div className="w-8 h-8 rounded-full bg-ice-100 text-navy-900 flex items-center justify-center">
+                    <User size={16} />
+                  </div>
+                  <h3 className="font-display text-xl text-navy-950 font-medium">Contact Information</h3>
                 </div>
-            </section>
-
-            {/* ── INTRO ──────────────────────────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-intro">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">Personalized Cruise Planning</span>
-                        <h2 className="Sbc-h2">Start Planning Your <br /> Seabourn Cruise</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Whether you already know exactly which Seabourn cruise
-                            you want or you're still deciding between ships and
-                            destinations, a personalized quote is a useful first
-                            step. Complete the quote request form to tell us what
-                            you are looking for, and a luxury travel advisor can
-                            help you explore the best available options.
-                        </p>
-                    </div>
-
-                    <div className="Sbc-what-grid">
-                        <div className="Sbc-what-content">
-                            <div className="Sbc-brand-highlights">
-                                <h4 className="Sbc-highlights-title">Tell us about your:</h4>
-                                <ul className="Sbc-highlights-list">
-                                    {tripDetailFields.map((item, idx) => (
-                                        <li key={idx}>
-                                            <Check size={22} strokeWidth={2.5} />
-                                            <span>{item}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                            <p className="Sbc-p Sbc-what-conclusion">
-                                The more information you provide, the more
-                                effectively we can narrow down the options.
-                            </p>
-                        </div>
-
-                        <div className="Sbc-what-image-container">
-                            <div className="Sbc-what-image-placeholder">
-                                <div className="Sbc-what-placeholder-icon-wrapper">
-                                    <Compass size={40} className="Sbc-what-placeholder-icon" />
-                                </div>
-                                <span className="Sbc-what-placeholder-text">Seabourn Cruise Planning Image Placeholder</span>
-                            </div>
-                        </div>
-                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">First Name *</label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="e.g. Eleanor"
+                      value={form.firstName}
+                      onChange={(e) => updateField("firstName", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Last Name *</label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="e.g. Vance"
+                      value={form.lastName}
+                      onChange={(e) => updateField("lastName", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Email Address *</label>
+                    <input
+                      type="email"
+                      required
+                      placeholder="e.g. eleanor@example.com"
+                      value={form.email}
+                      onChange={(e) => updateField("email", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Phone Number</label>
+                    <input
+                      type="tel"
+                      placeholder="e.g. +1 (555) 019-2834"
+                      value={form.phone}
+                      onChange={(e) => updateField("phone", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
                 </div>
-            </section>
+              </div>
 
-            {/* ── WHY REQUEST A PERSONALIZED QUOTE ─────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-why-quote">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">Beyond the Advertised Fare</span>
-                        <h2 className="Sbc-h2">Why Request a Personalized Seabourn Quote?</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Seabourn offers a range of ships, suites and
-                            itineraries, and pricing can vary considerably
-                            depending on the sailing. A personalized quote allows
-                            us to look beyond a basic advertised fare. We can
-                            help compare:
-                        </p>
-                    </div>
-
-                    <div className="Sbc-card-grid">
-                        {whyQuoteCards.map((card, i) => {
-                            const Icon = card.icon;
-                            return (
-                                <div className="Sbc-card" key={i}>
-                                    <div className="Sbc-card-icon">
-                                        <Icon size={22} strokeWidth={1.5} />
-                                    </div>
-                                    <h3 className="Sbc-card-title">{card.title}</h3>
-                                    <p className="Sbc-card-text">{card.text}</p>
-                                </div>
-                            );
-                        })}
-                    </div>
+              {/* Group 2: Trip Details */}
+              <div>
+                <div className="flex items-center gap-3 pb-3 mb-6 border-b border-slate-100">
+                  <div className="w-8 h-8 rounded-full bg-ice-100 text-navy-900 flex items-center justify-center">
+                    <Compass size={16} />
+                  </div>
+                  <h3 className="font-display text-xl text-navy-950 font-medium">Trip Details</h3>
                 </div>
-            </section>
-
-            {/* ── QUOTE REQUEST FORM (new Sbcq-form classes) ───────────────── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-quote-form" ref={formRef}>
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">Your Quote Request</span>
-                        <h2 className="Sbc-h2">Tell Us About Your Seabourn Cruise</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Use the quote request form to provide the details
-                            that are most important to you.
-                        </p>
-                    </div>
-
-                    {submitted ? (
-                        <div className="Sbcq-form-card Sbcq-form-success">
-                            <div className="Sbcq-success-icon">
-                                <Check size={30} strokeWidth={2} />
-                            </div>
-                            <h3 className="Sbc-h3">Thank You, {form.firstName || "Traveler"}!</h3>
-                            <p className="Sbc-p">
-                                Your Seabourn cruise quote request has been
-                                received. A luxury travel advisor will be in
-                                touch shortly to help explore your best
-                                available options.
-                            </p>
-                        </div>
-                    ) : (
-                        <form className="Sbcq-form-card" onSubmit={handleSubmit}>
-
-                            {/* Contact Information */}
-                            <div className="Sbcq-form-group">
-                                <h3 className="Sbcq-form-group-title"><User size={18} /> Contact Information</h3>
-                                <div className="Sbcq-form-row">
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">First Name</label>
-                                        <input className="Sbcq-input" type="text" value={form.firstName} onChange={(e) => updateField("firstName", e.target.value)} required />
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Last Name</label>
-                                        <input className="Sbcq-input" type="text" value={form.lastName} onChange={(e) => updateField("lastName", e.target.value)} required />
-                                    </div>
-                                </div>
-                                <div className="Sbcq-form-row">
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label"><Mail size={13} /> Email Address</label>
-                                        <input className="Sbcq-input" type="email" value={form.email} onChange={(e) => updateField("email", e.target.value)} required />
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label"><Phone size={13} /> Phone Number</label>
-                                        <input className="Sbcq-input" type="tel" value={form.phone} onChange={(e) => updateField("phone", e.target.value)} />
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Trip Details */}
-                            <div className="Sbcq-form-group">
-                                <h3 className="Sbcq-form-group-title"><Compass size={18} /> Trip Details</h3>
-                                <div className="Sbcq-form-row">
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Preferred Destination</label>
-                                        <select className="Sbcq-select" value={form.destination} onChange={(e) => updateField("destination", e.target.value)}>
-                                            <option value="">Select a destination</option>
-                                            {destinationOptions.map((d) => (
-                                                <option key={d} value={d}>{d}</option>
-                                            ))}
-                                        </select>
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label"><Calendar size={13} /> Preferred Travel Dates</label>
-                                        <input className="Sbcq-input" type="text" placeholder="e.g. June 2027, or flexible" value={form.travelDates} onChange={(e) => updateField("travelDates", e.target.value)} />
-                                    </div>
-                                </div>
-
-                                <div className="Sbcq-form-field Sbcq-full" style={{ marginBottom: "20px" }}>
-                                    <label className="Sbcq-label">Are Your Dates Flexible?</label>
-                                    <div className="Sbcq-radio-group">
-                                        {["Yes", "No", "Somewhat"].map((opt) => (
-                                            <label key={opt} className={`Sbcq-radio-option${form.flexible === opt ? " Sbcq-radio-active" : ""}`}>
-                                                <input type="radio" name="flexible" value={opt} checked={form.flexible === opt} onChange={(e) => updateField("flexible", e.target.value)} />
-                                                {opt}
-                                            </label>
-                                        ))}
-                                    </div>
-                                </div>
-
-                                <div className="Sbcq-form-row">
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label"><Users size={13} /> Number of Travelers</label>
-                                        <input className="Sbcq-input" type="number" min="1" value={form.travelers} onChange={(e) => updateField("travelers", e.target.value)} />
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label"><Home size={13} /> Number of Suites Needed</label>
-                                        <input className="Sbcq-input" type="number" min="1" value={form.suitesNeeded} onChange={(e) => updateField("suitesNeeded", e.target.value)} />
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Cruise Preferences */}
-                            <div className="Sbcq-form-group">
-                                <h3 className="Sbcq-form-group-title"><Ship size={18} /> Cruise Preferences</h3>
-                                <div className="Sbcq-form-row Sbcq-row-3">
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Preferred Seabourn Ship</label>
-                                        <select className="Sbcq-select" value={form.ship} onChange={(e) => updateField("ship", e.target.value)}>
-                                            <option value="">Select a ship</option>
-                                            {shipOptions.map((s) => (
-                                                <option key={s} value={s}>{s}</option>
-                                            ))}
-                                        </select>
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Preferred Suite Category</label>
-                                        <select className="Sbcq-select" value={form.suite} onChange={(e) => updateField("suite", e.target.value)}>
-                                            <option value="">Select a suite</option>
-                                            {suiteOptions.map((s) => (
-                                                <option key={s} value={s}>{s}</option>
-                                            ))}
-                                        </select>
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Preferred Cruise Length</label>
-                                        <select className="Sbcq-select" value={form.cruiseLength} onChange={(e) => updateField("cruiseLength", e.target.value)}>
-                                            <option value="">Select a length</option>
-                                            {lengthOptions.map((s) => (
-                                                <option key={s} value={s}>{s}</option>
-                                            ))}
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Budget */}
-                            <div className="Sbcq-form-group">
-                                <h3 className="Sbcq-form-group-title"><Tag size={18} /> Budget</h3>
-                                <div className="Sbcq-form-field Sbcq-full">
-                                    <label className="Sbcq-label">Approximate Cruise Budget</label>
-                                    <input className="Sbcq-input" type="text" placeholder="e.g. $10,000 &ndash; $15,000 per person" value={form.budget} onChange={(e) => updateField("budget", e.target.value)} />
-                                    <p className="Sbcq-form-hint">
-                                        Providing a budget range helps your advisor
-                                        focus on realistic options rather than
-                                        presenting a large number of unsuitable
-                                        choices.
-                                    </p>
-                                </div>
-                            </div>
-
-                            {/* Previous Seabourn Experience */}
-                            <div className="Sbcq-form-group">
-                                <h3 className="Sbcq-form-group-title"><Award size={18} /> Previous Seabourn Experience</h3>
-                                <div className="Sbcq-form-row">
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Have You Sailed With Seabourn Before?</label>
-                                        <div className="Sbcq-radio-group">
-                                            {["Yes", "No"].map((opt) => (
-                                                <label key={opt} className={`Sbcq-radio-option${form.sailedBefore === opt ? " Sbcq-radio-active" : ""}`}>
-                                                    <input type="radio" name="sailedBefore" value={opt} checked={form.sailedBefore === opt} onChange={(e) => updateField("sailedBefore", e.target.value)} />
-                                                    {opt}
-                                                </label>
-                                            ))}
-                                        </div>
-                                    </div>
-                                    <div className="Sbcq-form-field">
-                                        <label className="Sbcq-label">Seabourn Club Member?</label>
-                                        <div className="Sbcq-radio-group">
-                                            {["Yes", "No", "Not Sure"].map((opt) => (
-                                                <label key={opt} className={`Sbcq-radio-option${form.clubMember === opt ? " Sbcq-radio-active" : ""}`}>
-                                                    <input type="radio" name="clubMember" value={opt} checked={form.clubMember === opt} onChange={(e) => updateField("clubMember", e.target.value)} />
-                                                    {opt}
-                                                </label>
-                                            ))}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="Sbcq-form-field Sbcq-full">
-                                    <label className="Sbcq-label">Previous Sailings &amp; Loyalty Status</label>
-                                    <textarea className="Sbcq-textarea" placeholder="If you are a returning Seabourn guest, include any information you have about your previous sailings or loyalty status." value={form.previousExperience} onChange={(e) => updateField("previousExperience", e.target.value)} />
-                                </div>
-                            </div>
-
-                            {/* Special Requests */}
-                            <div className="Sbcq-form-group">
-                                <h3 className="Sbcq-form-group-title"><Heart size={18} /> Special Requests</h3>
-                                <div className="Sbcq-form-field Sbcq-full">
-                                    <label className="Sbcq-label">Tell us anything that would help us personalize your recommendation.</label>
-                                    <textarea className="Sbcq-textarea" placeholder="Anniversary, honeymoon, accessibility requirements, connecting suites, pre- or post-cruise travel..." value={form.specialRequests} onChange={(e) => updateField("specialRequests", e.target.value)} />
-                                    <div className="Sbcq-tag-suggestions">
-                                        {specialRequestTags.map((tag, i) => (
-                                            <button type="button" key={i} className="Sbc-exp-tag Sbcq-tag-btn" onClick={() => addTag(tag)}>
-                                                {tag}
-                                            </button>
-                                        ))}
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="Sbcq-form-submit-row">
-                                <button type="submit" className="Sbc-btn Sbc-btn-solid">
-                                    Request My Seabourn Quote
-                                    <ArrowRight size={18} />
-                                </button>
-                            </div>
-                        </form>
-                    )}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Preferred Destination</label>
+                    <select
+                      value={form.destination}
+                      onChange={(e) => updateField("destination", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    >
+                      <option value="">Select a destination</option>
+                      {data.formOptions.destinations.map((d) => (
+                        <option key={d} value={d}>{d}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Preferred Travel Dates</label>
+                    <input
+                      type="text"
+                      placeholder="e.g. June 2027, or flexible"
+                      value={form.travelDates}
+                      onChange={(e) => updateField("travelDates", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
                 </div>
-            </section>
 
-            {/* ── NOT SURE WHICH CRUISE ─────────────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-not-sure">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">No Pressure to Decide</span>
-                        <h2 className="Sbc-h2">Not Sure Which Seabourn Cruise Is Right for You?</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            That's completely fine. You don't need to know the
-                            exact ship or itinerary before requesting a quote.
-                            If you're deciding between options, tell us what
-                            kind of experience you're looking for. These
-                            details give your advisor a starting point for
-                            developing recommendations.
-                        </p>
-                    </div>
-
-                    <div className="Sbcq-example-grid">
-                        {notSureExamples.map((ex, i) => (
-                            <div className="Sbcq-example-card" key={i}>
-                                <Quote size={22} className="Sbcq-example-quote-icon" />
-                                <p className="Sbcq-example-text">&ldquo;{ex}&rdquo;</p>
-                                <button className="Sbcq-example-btn" onClick={() => useExample(ex)}>
-                                    Use This Example <ArrowRight size={14} />
-                                </button>
-                            </div>
-                        ))}
-                    </div>
+                <div className="mb-5">
+                  <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Are Your Dates Flexible?</label>
+                  <div className="grid grid-cols-3 gap-3">
+                    {["Yes", "No", "Somewhat"].map((opt) => (
+                      <button
+                        type="button"
+                        key={opt}
+                        onClick={() => updateField("flexible", opt)}
+                        className={`py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider border transition-all ${
+                          form.flexible === opt
+                            ? "bg-navy-950 text-white border-navy-950 shadow-sm"
+                            : "bg-slate-50/70 hover:bg-slate-100 text-slate-700 border-slate-200"
+                        }`}
+                      >
+                        {opt}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-            </section>
 
-            {/* ── CHOOSING THE RIGHT SHIP ────────────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-ships">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">The Fleet</span>
-                        <h2 className="Sbc-h2">Choosing the Right Seabourn Ship</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Seabourn's fleet offers different experiences. If
-                            you're uncertain which ship fits your travel style,
-                            your quote request can simply say &ldquo;Not
-                            sure.&rdquo;
-                        </p>
-                    </div>
-
-                    <div className="Sbc-card-grid">
-                        {quoteShips.map((s, i) => {
-                            const Icon = s.icon;
-                            return (
-                                <div className="Sbc-card" key={i}>
-                                    <div className="Sbc-card-icon">
-                                        <Icon size={22} strokeWidth={1.5} />
-                                    </div>
-                                    <h3 className="Sbc-card-title">{s.title}</h3>
-                                    <p className="Sbc-card-text">{s.text}</p>
-                                </div>
-                            );
-                        })}
-                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Number of Travelers</label>
+                    <input
+                      type="number"
+                      min="1"
+                      placeholder="2"
+                      value={form.travelers}
+                      onChange={(e) => updateField("travelers", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Number of Suites Needed</label>
+                    <input
+                      type="number"
+                      min="1"
+                      placeholder="1"
+                      value={form.suitesNeeded}
+                      onChange={(e) => updateField("suitesNeeded", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    />
+                  </div>
                 </div>
-            </section>
+              </div>
 
-            {/* ── RELATED CTA #1.5 (SHIP SELECTION CTA) ─────────────────────── */}
-            <section className="Sbc-cta-section Sbc-cta-dark">
-                <div className="Sbc-container">
-                    <span className="Sbc-cta-eyebrow">Select Your Ship</span>
-                    <h3 className="Sbc-cta-title">Unsure Which Seabourn Ship Is Right For You?</h3>
-                    <p className="Sbc-cta-text">
-                        Tell us about your ideal cruise experience, and a luxury travel advisor can help you compare ocean ships and expedition vessels to find the perfect match.
-                    </p>
-                    <button className="Sbc-cta-button" onClick={scrollToForm}>
-                        Request My Seabourn Quote
-                        <ArrowRight size={16} />
-                    </button>
+              {/* Group 3: Cruise Preferences */}
+              <div>
+                <div className="flex items-center gap-3 pb-3 mb-6 border-b border-slate-100">
+                  <div className="w-8 h-8 rounded-full bg-ice-100 text-navy-900 flex items-center justify-center">
+                    <Ship size={16} />
+                  </div>
+                  <h3 className="font-display text-xl text-navy-950 font-medium">Cruise Preferences</h3>
                 </div>
-            </section>
-
-            {/* ── CHOOSING THE RIGHT SUITE ───────────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-suite">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header Scc-title-center">
-                        <span className="Sbc-eyebrow">Your Accommodation</span>
-                        <h2 className="Sbc-h2">Choosing the Right Seabourn Suite</h2>
-                        <div className="Sbc-accent-line"></div>
-                    </div>
-
-                    <div className="Sbcq-suite-split">
-                        <div className="Sbcq-suite-content">
-                            <p className="Sbc-intro" style={{ marginBottom: "24px" }}>
-                                Your suite is an important part of the Seabourn experience. When preparing a quote, we can help you consider:
-                            </p>
-                            
-                            <div className="Sbc-wellness-features-card" style={{ maxWidth: "100%", margin: "0 0 24px" }}>
-                                <ul className="Sbc-wellness-list">
-                                    {suiteConsiderations.map((item, idx) => (
-                                        <li key={idx}>
-                                            <Check size={20} strokeWidth={2.5} />
-                                            <span>{item}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-
-                            <p className="Sbc-p" style={{ margin: 0 }}>
-                                Rather than automatically choosing the least expensive suite, consider how much time you expect to spend in your accommodation and which features matter most to you.
-                            </p>
-                        </div>
-
-                        <div className="Sbcq-suite-image-container">
-                            <div className="Sbcq-suite-image-placeholder">
-                                <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                    <Home size={44} strokeWidth={1.5} />
-                                </div>
-                                <span className="Sbcq-suite-placeholder-text">Seabourn Suite Accommodation</span>
-                            </div>
-                        </div>
-                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Preferred Seabourn Ship</label>
+                    <select
+                      value={form.ship}
+                      onChange={(e) => updateField("ship", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    >
+                      <option value="">Select a ship</option>
+                      {data.formOptions.ships.map((s) => (
+                        <option key={s} value={s}>{s}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Suite Category</label>
+                    <select
+                      value={form.suite}
+                      onChange={(e) => updateField("suite", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    >
+                      <option value="">Select a suite</option>
+                      {data.formOptions.suites.map((s) => (
+                        <option key={s} value={s}>{s}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Cruise Length</label>
+                    <select
+                      value={form.cruiseLength}
+                      onChange={(e) => updateField("cruiseLength", e.target.value)}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                    >
+                      <option value="">Select a length</option>
+                      {data.formOptions.lengths.map((l) => (
+                        <option key={l} value={l}>{l}</option>
+                      ))}
+                    </select>
+                  </div>
                 </div>
-            </section>
+              </div>
 
-            {/* ── SPECIALIZED VOYAGE PLANNING (EXPEDITION & WORLD CRUISE TABS) ── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-specialized-planning">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header Scc-title-center">
-                        <span className="Sbc-eyebrow">Voyage Types</span>
-                        <h2 className="Sbc-h2">Specialized Voyage Planning</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Seabourn offers unique journeys for adventurers and world travelers. Select a voyage type to learn more:
-                        </p>
-                    </div>
+              {/* Group 4: Budget */}
+              <div>
+                <div className="flex items-center gap-3 pb-3 mb-6 border-b border-slate-100">
+                  <div className="w-8 h-8 rounded-full bg-ice-100 text-navy-900 flex items-center justify-center">
+                    <Tag size={16} />
+                  </div>
+                  <h3 className="font-display text-xl text-navy-950 font-medium">Budget</h3>
+                </div>
+                <div>
+                  <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Approximate Cruise Budget</label>
+                  <input
+                    type="text"
+                    placeholder="e.g. $10,000 – $15,000 per person"
+                    value={form.budget}
+                    onChange={(e) => updateField("budget", e.target.value)}
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm mb-2"
+                  />
+                  <p className="font-sans text-xs text-slate-500 font-light">
+                    Providing a budget range helps your advisor focus on realistic options rather than presenting unsuitable choices.
+                  </p>
+                </div>
+              </div>
 
-                    {/* Tab Navigation */}
-                    <div className="Sbcq-tabs-nav">
-                        <button 
-                            className={`Sbcq-tab-btn ${activeTab === "expedition" ? "active" : ""}`}
-                            onClick={() => setActiveTab("expedition")}
+              {/* Group 5: Previous Seabourn Experience */}
+              <div>
+                <div className="flex items-center gap-3 pb-3 mb-6 border-b border-slate-100">
+                  <div className="w-8 h-8 rounded-full bg-ice-100 text-navy-900 flex items-center justify-center">
+                    <Award size={16} />
+                  </div>
+                  <h3 className="font-display text-xl text-navy-950 font-medium">Previous Seabourn Experience</h3>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Sailed With Seabourn Before?</label>
+                    <div className="grid grid-cols-2 gap-3">
+                      {["Yes", "No"].map((opt) => (
+                        <button
+                          type="button"
+                          key={opt}
+                          onClick={() => updateField("sailedBefore", opt)}
+                          className={`py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider border transition-all ${
+                            form.sailedBefore === opt
+                              ? "bg-navy-950 text-white border-navy-950 shadow-sm"
+                              : "bg-slate-50/70 hover:bg-slate-100 text-slate-700 border-slate-200"
+                          }`}
                         >
-                            <Snowflake size={18} />
-                            Expedition Cruises
+                          {opt}
                         </button>
-                        <button 
-                            className={`Sbcq-tab-btn ${activeTab === "world" ? "active" : ""}`}
-                            onClick={() => setActiveTab("world")}
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Seabourn Club Member?</label>
+                    <div className="grid grid-cols-3 gap-2">
+                      {["Yes", "No", "Not Sure"].map((opt) => (
+                        <button
+                          type="button"
+                          key={opt}
+                          onClick={() => updateField("clubMember", opt)}
+                          className={`py-2.5 px-3 rounded-xl text-xs font-bold uppercase tracking-wider border transition-all ${
+                            form.clubMember === opt
+                              ? "bg-navy-950 text-white border-navy-950 shadow-sm"
+                              : "bg-slate-50/70 hover:bg-slate-100 text-slate-700 border-slate-200"
+                          }`}
                         >
-                            <Globe size={18} />
-                            World Cruises
+                          {opt}
                         </button>
+                      ))}
                     </div>
-
-                    {/* Tab Content */}
-                    <div className="Sbcq-tab-content-wrap">
-                        {activeTab === "expedition" ? (
-                            <div className="Sbcq-tab-pane Sbcq-suite-split animate-fade">
-                                <div className="Sbcq-suite-content">
-                                    <h3 className="Sbcq-tab-title">Planning a Seabourn Expedition?</h3>
-                                    <p className="Sbc-intro" style={{ marginBottom: "20px" }}>
-                                        If you're considering Antarctica, the Arctic, Greenland or the Kimberley, mention the destination in your request. Expedition cruises have different considerations from traditional ocean voyages. Your planning may involve:
-                                    </p>
-                                    <div className="Sbc-wellness-features-card" style={{ maxWidth: "100%", margin: "0 0 20px" }}>
-                                        <ul className="Sbc-wellness-list">
-                                            {expeditionConsiderations.map((item, idx) => (
-                                                <li key={idx}>
-                                                    <Snowflake size={18} strokeWidth={2.5} />
-                                                    <span>{item}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <p className="Sbc-p" style={{ margin: 0 }}>
-                                        We can help you evaluate the itinerary as well as the ship.
-                                    </p>
-                                </div>
-                                <div className="Sbcq-suite-image-container">
-                                    <div className="Sbcq-suite-image-placeholder">
-                                        <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                            <Snowflake size={44} strokeWidth={1.5} />
-                                        </div>
-                                        <span className="Sbcq-suite-placeholder-text">Seabourn Expedition Planning</span>
-                                    </div>
-                                </div>
-                            </div>
-                        ) : (
-                            <div className="Sbcq-tab-pane Sbcq-suite-split animate-fade">
-                                <div className="Sbcq-suite-content">
-                                    <h3 className="Sbcq-tab-title">Planning a Seabourn World Cruise?</h3>
-                                    <p className="Sbc-intro" style={{ marginBottom: "20px" }}>
-                                        For travelers considering a Seabourn World Cruise or Grand Voyage, early planning can be particularly important. Long voyages require additional consideration of:
-                                    </p>
-                                    <div className="Sbc-wellness-features-card" style={{ maxWidth: "100%", margin: "0 0 20px" }}>
-                                        <ul className="Sbc-wellness-list">
-                                            {worldCruiseConsiderations.map((item, idx) => (
-                                                <li key={idx}>
-                                                    <Globe size={18} strokeWidth={2.5} />
-                                                    <span>{item}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <p className="Sbc-p" style={{ margin: 0 }}>
-                                        If you are considering a World Cruise, include your approximate travel window and preferred length in your quote request.
-                                    </p>
-                                </div>
-                                <div className="Sbcq-suite-image-container">
-                                    <div className="Sbcq-suite-image-placeholder">
-                                        <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                            <Globe size={44} strokeWidth={1.5} />
-                                        </div>
-                                        <span className="Sbcq-suite-placeholder-text">Seabourn World Cruise Planning</span>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-                    </div>
+                  </div>
                 </div>
-            </section>
-
-
-            {/* ── SEABOURN OFFERS ───────────────────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-offers">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">Value &amp; Promotions</span>
-                        <h2 className="Sbc-h2">Looking for Seabourn Offers?</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            When you request a quote, let us know if you're
-                            specifically interested in:
-                        </p>
-                    </div>
-
-                    <div className="Sbc-wellness-features-card" style={{ maxWidth: "820px", margin: "0 auto" }}>
-                        <ul className="Sbc-wellness-list">
-                            {offersConsiderations.map((item, idx) => (
-                                <li key={idx}>
-                                    <Tag size={18} strokeWidth={2.5} />
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <p className="Sbc-p" style={{ maxWidth: "820px", margin: "24px auto 0", textAlign: "center" }}>
-                        Promotions can vary by sailing, suite category and
-                        booking conditions. The objective is to evaluate the
-                        total value of the booking, rather than simply
-                        selecting the largest advertised discount.
-                    </p>
+                <div>
+                  <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">Previous Sailings & Loyalty Status</label>
+                  <textarea
+                    rows={2}
+                    placeholder="If you are a returning Seabourn guest, include information about your previous sailings, sailed days, or loyalty tier."
+                    value={form.previousExperience}
+                    onChange={(e) => updateField("previousExperience", e.target.value)}
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm"
+                  />
                 </div>
-            </section>
+              </div>
 
-                    {/* ── WHY WORK WITH TRIPS & SHIPS ───────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-why-us">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header Scc-title-center">
-                        <span className="Sbc-eyebrow">Expert Guidance</span>
-                        <h2 className="Sbc-h2">Why Work With Trips &amp; Ships Luxury Travel?</h2>
-                        <div className="Sbc-accent-line"></div>
-                    </div>
-
-                    <div className="Sbcq-suite-split">
-                        <div className="Sbcq-suite-content">
-                            <p className="Sbc-intro" style={{ marginBottom: "24px" }}>
-                                A Seabourn cruise is a significant travel investment. Working with a knowledgeable luxury travel advisor can provide another layer of planning expertise. At Trips &amp; Ships Luxury Travel, we can help with:
-                            </p>
-
-                            <div className="Sbc-brand-highlights" style={{ maxWidth: "100%", margin: "0 0 24px" }}>
-                                <ul className="Sbc-highlights-list">
-                                    {whyWorkWithUs.map((item, idx) => (
-                                        <li key={idx}>
-                                            <Check size={22} strokeWidth={2.5} />
-                                            <span>{item}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-
-                            <p className="Sbc-p" style={{ margin: 0 }}>
-                                Our goal is to make the planning process easier and help you select the Seabourn experience that best fits your priorities.
-                            </p>
-                        </div>
-
-                        <div className="Sbcq-suite-image-container">
-                            <div className="Sbcq-suite-image-placeholder">
-                                <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                    <Award size={44} strokeWidth={1.5} />
-                                </div>
-                                <span className="Sbcq-suite-placeholder-text">Trips &amp; Ships Travel Advisor Expertise</span>
-                            </div>
-                        </div>
-                    </div>
+              {/* Group 6: Special Requests & Interactive Tags */}
+              <div>
+                <div className="flex items-center gap-3 pb-3 mb-6 border-b border-slate-100">
+                  <div className="w-8 h-8 rounded-full bg-ice-100 text-navy-900 flex items-center justify-center">
+                    <Heart size={16} />
+                  </div>
+                  <h3 className="font-display text-xl text-navy-950 font-medium">Special Requests & Celebrations</h3>
                 </div>
-            </section>
-
-                        {/* ── RELATED CTA #1 ─────────────────────────────────────────────── */}
-            <section className="Sbc-cta-section Sbc-cta-dark">
-                <div className="Sbc-container">
-                    <span className="Sbc-cta-eyebrow">Go Deeper</span>
-                    <h3 className="Sbc-cta-title">Explore the Complete Seabourn Cruises Guide</h3>
-                    <p className="Sbc-cta-text">
-                        Read our full guide covering ships, suites, dining, destinations, inclusions and what makes Seabourn different before you request your quote.
-                    </p>
-                    <Link to="/seabourn-cruises/" className="Sbc-cta-button">
-                        Read the Seabourn Cruises Guide
-                        <ArrowRight size={16} />
-                    </Link>
+                <div>
+                  <label className="block font-sans text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">
+                    Tell us anything that would help us personalize your recommendation:
+                  </label>
+                  <textarea
+                    rows={3}
+                    placeholder="Anniversary, honeymoon, accessibility requirements, connecting suites, pre- or post-cruise travel..."
+                    value={form.specialRequests}
+                    onChange={(e) => updateField("specialRequests", e.target.value)}
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-navy-950 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-ts-gold/40 focus:border-ts-gold transition-all text-sm mb-4"
+                  />
+                  <div className="flex flex-wrap gap-2">
+                    {data.formOptions.specialRequestTags.map((tag, i) => (
+                      <button
+                        type="button"
+                        key={i}
+                        onClick={() => addTag(tag)}
+                        className="px-3 py-1.5 rounded-lg bg-ice-50 hover:bg-ice-100 text-navy-800 border border-ice-200/80 font-sans text-xs font-medium transition-colors cursor-pointer"
+                      >
+                        + {tag}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-            </section>
+              </div>
 
-
-                  {/* ── COMPLETE JOURNEY (reused Sbc-exp classes) ─────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-journey">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">The Full Vacation</span>
-                        <h2 className="Sbc-h2">More Than a Cruise: <br /> Plan the Complete Journey</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Your Seabourn cruise may be only one part of your
-                            vacation. This approach can turn a cruise booking
-                            into a complete luxury travel experience.
-                        </p>
-                    </div>
-
-                    <div className="Sbc-exp-grid">
-                        {journeyColumns.map((col, i) => {
-                            const Icon = col.icon;
-                            return (
-                                <div className="Sbc-exp-card" key={i}>
-                                    <div className="Sbc-exp-card-header">
-                                        <div className="Sbc-exp-icon-wrap">
-                                            <Icon size={24} />
-                                        </div>
-                                        <h3 className="Sbc-h3">{col.title}</h3>
-                                    </div>
-                                    <div className="Sbc-exp-features">
-                                        <div className="Sbc-exp-tags">
-                                            {col.items.map((item, idx) => (
-                                                <span key={idx} className="Sbc-exp-tag">{item}</span>
-                                            ))}
-                                        </div>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            </section>
-
-
-            {/* ── WHAT HAPPENS NEXT (new Sbcq-steps classes) ───────────────── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-process">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">The Process</span>
-                        <h2 className="Sbc-h2">Seabourn Cruise Quote: What Happens Next?</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            After submitting your request, your information
-                            gives us a starting point for your cruise
-                            planning.
-                        </p>
-                    </div>
-
-                    <div className="Sbcq-steps-list">
-                        {processSteps.map((step, i) => (
-                            <div className="Sbcq-step" key={i}>
-                                <div className="Sbcq-step-number">{i + 1}</div>
-                                <div className="Sbcq-step-body">
-                                    <h3 className="Sbcq-step-title">{step.title}</h3>
-                                    <p className="Sbcq-step-text">{step.text}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-    
-
-      
-            {/* ── TRAVEL STYLES MERGED SECTION (TABS) ───────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-travel-styles">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header Scc-title-center">
-                        <span className="Sbc-eyebrow">Your Travel Style</span>
-                        <h2 className="Sbc-h2">Planning for Your Travel Style</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            Every Seabourn journey is personal. Select your travel style below to see how we customize your planning:
-                        </p>
-                    </div>
-
-                    {/* Tab Navigation */}
-                    <div className="Sbcq-tabs-nav">
-                        <button 
-                            className={`Sbcq-tab-btn ${activeCategoryTab === "occasions" ? "active" : ""}`}
-                            onClick={() => setActiveCategoryTab("occasions")}
-                        >
-                            <Heart size={18} />
-                            Special Occasions
-                        </button>
-                        <button 
-                            className={`Sbcq-tab-btn ${activeCategoryTab === "family" ? "active" : ""}`}
-                            onClick={() => setActiveCategoryTab("family")}
-                        >
-                            <Users size={18} />
-                            Family Travel
-                        </button>
-                        <button 
-                            className={`Sbcq-tab-btn ${activeCategoryTab === "solo" ? "active" : ""}`}
-                            onClick={() => setActiveCategoryTab("solo")}
-                        >
-                            <Anchor size={18} />
-                            Solo Travel
-                        </button>
-                    </div>
-
-                    {/* Tab Content */}
-                    <div className="Sbcq-tab-content-wrap">
-                        {activeCategoryTab === "occasions" && (
-                            <div className="Sbcq-tab-pane Sbcq-suite-split animate-fade">
-                                <div className="Sbcq-suite-content">
-                                    <h3 className="Sbcq-tab-title">Seabourn Quote Request for Special Occasions</h3>
-                                    <p className="Sbc-intro" style={{ marginBottom: "20px" }}>
-                                        Seabourn can be an excellent choice for milestone travel. Tell us if your cruise is celebrating:
-                                    </p>
-                                    <div className="Sbc-wellness-features-card" style={{ maxWidth: "100%", margin: "0 0 20px" }}>
-                                        <ul className="Sbc-wellness-list">
-                                            {occasionsList.map((item, idx) => (
-                                                <li key={idx}>
-                                                    <Heart size={18} strokeWidth={2.5} />
-                                                    <span>{item}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <p className="Sbc-p" style={{ margin: 0 }}>
-                                        Providing this information when you request your quote allows your advisor to consider the occasion when planning your experience.
-                                    </p>
-                                </div>
-                                <div className="Sbcq-suite-image-container">
-                                    <div className="Sbcq-suite-image-placeholder">
-                                        <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                            <Heart size={44} strokeWidth={1.5} />
-                                        </div>
-                                        <span className="Sbcq-suite-placeholder-text">Seabourn Special Occasion Planning</span>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-
-                        {activeCategoryTab === "family" && (
-                            <div className="Sbcq-tab-pane Sbcq-suite-split animate-fade">
-                                <div className="Sbcq-suite-content">
-                                    <h3 className="Sbcq-tab-title">Seabourn Family &amp; Multigenerational Travel</h3>
-                                    <p className="Sbc-intro" style={{ marginBottom: "20px" }}>
-                                        Traveling with several generations can require additional planning. A quote request should mention:
-                                    </p>
-                                    <div className="Sbc-wellness-features-card" style={{ maxWidth: "100%", margin: "0 0 20px" }}>
-                                        <ul className="Sbc-wellness-list">
-                                            {familyList.map((item, idx) => (
-                                                <li key={idx}>
-                                                    <Users size={18} strokeWidth={2.5} />
-                                                    <span>{item}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <p className="Sbc-p" style={{ margin: 0 }}>
-                                        This information helps your advisor identify suitable suite configurations and itineraries.
-                                    </p>
-                                </div>
-                                <div className="Sbcq-suite-image-container">
-                                    <div className="Sbcq-suite-image-placeholder">
-                                        <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                            <Users size={44} strokeWidth={1.5} />
-                                        </div>
-                                        <span className="Sbcq-suite-placeholder-text">Seabourn Family Travel Planning</span>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-
-                        {activeCategoryTab === "solo" && (
-                            <div className="Sbcq-tab-pane Sbcq-suite-split animate-fade">
-                                <div className="Sbcq-suite-content">
-                                    <h3 className="Sbcq-tab-title">Seabourn Solo Cruise Quote</h3>
-                                    <p className="Sbc-intro" style={{ marginBottom: "20px" }}>
-                                        Solo travelers should also request a personalized quote. Let us know that you are traveling alone so we can consider:
-                                    </p>
-                                    <div className="Sbc-wellness-features-card" style={{ maxWidth: "100%", margin: "0 0 20px" }}>
-                                        <ul className="Sbc-wellness-list">
-                                            {soloList.map((item, idx) => (
-                                                <li key={idx}>
-                                                    <Anchor size={18} strokeWidth={2.5} />
-                                                    <span>{item}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <p className="Sbc-p" style={{ margin: 0 }}>
-                                        A solo quote can be very different from simply dividing the advertised fare for two travelers.
-                                    </p>
-                                </div>
-                                <div className="Sbcq-suite-image-container">
-                                    <div className="Sbcq-suite-image-placeholder">
-                                        <div className="Sbcq-suite-placeholder-icon-wrapper">
-                                            <Anchor size={44} strokeWidth={1.5} />
-                                        </div>
-                                        <span className="Sbcq-suite-placeholder-text">Seabourn Solo Travel Planning</span>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </div>
-            </section>
-
-            {/* ── RELATED CTA #2 ─────────────────────────────────────────────── */}
-            <section className="Sbc-cta-section Sbc-cta-dark">
-                <div className="Sbc-container">
-                    <span className="Sbc-cta-eyebrow">We're Here to Help</span>
-                    <h3 className="Sbc-cta-title">Traveling Solo, as a Couple or With Family?</h3>
-                    <p className="Sbc-cta-text">
-                        Whatever your travel style, tell us about your travel
-                        goals, and we'll help you explore the possibilities.
-                    </p>
-                    <button className="Sbc-cta-button" onClick={scrollToForm}>
-                        Request My Seabourn Quote
-                        <ArrowRight size={16} />
-                    </button>
-                </div>
-            </section>
-
-            {/* ── WHAT INFORMATION SHOULD I PROVIDE ─────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-white" id="Sbcq-minimum">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">Getting Started</span>
-                        <h2 className="Sbc-h2">Seabourn Cruise Quote: What Information Should I Provide?</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-intro">
-                            You don't need to have every detail decided. At
-                            minimum, provide:
-                        </p>
-                    </div>
-
-                    <ol className="Sbcq-minimum-list">
-                        {minimumInfo.map((item, idx) => (
-                            <li key={idx}>
-                                <span className="Sbcq-minimum-number">{idx + 1}</span>
-                                <span>{item}</span>
-                            </li>
-                        ))}
-                    </ol>
-
-                    <p className="Sbc-p" style={{ maxWidth: "780px", margin: "28px auto 0", textAlign: "center" }}>
-                        If your dates or destination are flexible, tell us.
-                        Flexibility can open up additional itinerary and
-                        pricing possibilities.
-                    </p>
-                </div>
-            </section>
-
-
-
-            {/* ── ANGELA HUGHES AUTHORITY BOX ──────────────────────────────── */}
-            <section className="Sbc-expert-section" id="Scc-expert-insight">
-                <div className="Sbc-container">
-                    <div className="Sbc-expert-heading">
-                        <span className="Sbc-expert-eyebrow">Luxury Travel Expertise</span>
-                        <h2 className="Sbc-expert-title">Angela Hughes Luxury Authority</h2>
-                        <div className="Sbc-expert-divider"></div>
-                    </div>
-
-                    <div className="Sbc-expert-grid">
-                        <div className="Sbc-expert-image-col">
-                            <div className="Sbc-expert-portrait-wrap">
-                                <img src={AboutImage} alt="Angela Hughes – Luxury Travel Expert" className="Sbc-expert-portrait" />
-                                <div className="Sbc-expert-portrait-badge">
-                                    <Star size={14} />
-                                    <span>40+ Years Experience</span>
-                                </div>
-                            </div>
-
-                            <div className="Sbc-expert-name-card">
-                                <h3 className="Sbc-expert-name">Angela Hughes</h3>
-                                <p className="Sbc-expert-role">CEO of Trips &amp; Ships Luxury Travel</p>
-                                <div className="Sbc-expert-name-divider"></div>
-                                <p className="Sbc-expert-countries">
-                                    <MapPin size={14} />
-                                    Traveled to more than 121 countries
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="Sbc-expert-content-col">
-                            <div className="Sbc-expert-credentials-box">
-                                <h4 className="Sbc-expert-credentials-title">
-                                    <Award size={16} />
-                                    Angela Hughes Authority Box
-                                </h4>
-
-                                <div className="Sbc-expert-credentials-grid">
-                                    {[
-                                        { icon: <Award size={16} />, label: "CEO of Trips & Ships Luxury Travel" },
-                                        { icon: <Star size={16} />, label: "Over 40 years in the travel industry" },
-                                        { icon: <MapPin size={16} />, label: "Traveled to more than 121 countries" },
-                                        { icon: <Award size={16} />, label: "Founder of Luxury Travel University" },
-                                        { icon: <Users size={16} />, label: "Global luxury travel speaker and trainer" },
-                                        { icon: <Users size={16} />, label: "Weekly industry columnist" },
-                                        { icon: <Users size={16} />, label: "Travel Leaders Network Advisory Board member" },
-                                        { icon: <Award size={16} />, label: "2024 Luxury Travel Influencer of the Year" },
-                                        { icon: <Star size={16} />, label: "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
-                                        { icon: <Award size={16} />, label: "Featured in major travel publications globally" },
-                                        { icon: <Ship size={16} />, label: "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" },
-                                    ].map((item, i) => (
-                                        <div className="Sbc-expert-list-item" key={i}>
-                                            <span className="Sbc-expert-list-icon">{item.icon}</span>
-                                            <span className="Sbc-expert-list-label">{item.label}</span>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* ── FAQ (reused Sbc-faq classes) ──────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-soft" id="Sbcq-faq">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <h2 className="Sbc-h2">Frequently Asked Questions</h2>
-                        <div className="Sbc-accent-line"></div>
-                        <p className="Sbc-faq-intro">
-                            Everything travelers need to know before requesting
-                            a Seabourn cruise quote.
-                        </p>
-                    </div>
-                    <QuoteFAQ />
-                </div>
-            </section>
-
-            {/* ── FINAL CTA ──────────────────────────────────────────────────── */}
-            <section className="Sbc-section Sbc-bg-dark" id="Sbcq-final-cta">
-                <div className="Sbc-container">
-                    <div className="Sbc-section-header">
-                        <span className="Sbc-eyebrow">Ready to Start Planning?</span>
-                        <h2 className="Sbc-h2">Request Your Seabourn Quote</h2>
-                        <div className="Sbc-accent-line"></div>
-                    </div>
-
-                    <div className="Sbc-verdict-copy">
-                        <p className="Sbc-p" style={{ textAlign: "center" }}>
-                            Tell us what you're looking for and let Trips
-                            &amp; Ships Luxury Travel help you explore your
-                            Seabourn options.
-                        </p>
-
-                        <div className="Sbc-verdict-recommend">
-                            <p>
-                                <strong>Not sure which Seabourn cruise is right
-                                for you?</strong> Tell us about your travel
-                                goals, and we'll help you explore the
-                                possibilities.
-                            </p>
-                        </div>
-
-                        <div className="Sbc-btn-row">
-                            <button className="Sbc-btn Sbc-btn-light" onClick={scrollToForm}>
-                                Request a Seabourn Cruise Quote
-                                <ArrowRight size={18} />
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+              {/* Submit Button */}
+              <div className="pt-6 border-t border-slate-100 text-center sm:text-left">
+                <button
+                  type="submit"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-4 bg-navy-950 text-white font-sans text-sm font-bold uppercase tracking-widest rounded-full shadow-xl hover:bg-navy-900 hover:scale-[1.02] transition-all cursor-pointer"
+                >
+                  Request My Seabourn Quote
+                  <ArrowRight size={18} />
+                </button>
+              </div>
+            </form>
+          )}
         </div>
-    );
+      </section>
+
+      {/* ── 5. NOT SURE WHICH CRUISE IS RIGHT (INSPIRATIONAL EXAMPLES) ── */}
+      <section className="w-full py-20 lg:py-28 bg-white border-b border-slate-200/80">
+        <div className="max-w-[1280px] mx-auto px-6">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-ts-gold block mb-3">
+              NO PRESSURE TO DECIDE
+            </span>
+            <h2 className="font-display text-3xl md:text-5xl text-navy-950 mb-4 tracking-tight">
+              {data.notSureSection.title}
+            </h2>
+            <div className="w-16 h-0.5 bg-ts-gold mx-auto mb-6"></div>
+            <p className="font-sans text-base sm:text-lg text-slate-600 font-light leading-relaxed">
+              {data.notSureSection.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            {data.notSureSection.examples.map((ex, i) => (
+              <div
+                key={i}
+                className="bg-slate-50 p-8 rounded-3xl border border-slate-200/80 shadow-sm flex flex-col justify-between hover:shadow-md transition-all duration-300"
+              >
+                <div>
+                  <div className="w-10 h-10 rounded-2xl bg-white border border-slate-200 flex items-center justify-center text-ts-gold mb-6 shadow-sm">
+                    <Quote size={20} />
+                  </div>
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-navy-600 block mb-2">
+                    {ex.label}
+                  </span>
+                  <p className="font-display text-lg text-navy-950 italic leading-relaxed mb-6">
+                    "{ex.text}"
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => useExample(ex.text)}
+                  className="inline-flex items-center gap-2 font-sans text-xs font-bold uppercase tracking-wider text-ts-gold hover:text-navy-950 transition-colors pt-4 border-t border-slate-200/60"
+                >
+                  Use This Example in Form <ArrowRight size={14} />
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── 6. CHOOSING THE RIGHT SEABOURN SHIP (FLEET SHOWCASE) ── */}
+      <DynamicCulinaryShowcase
+        title={data.fleetSection.title}
+        subtitle={data.fleetSection.subtitle}
+        items={data.fleetSection.ships}
+        images={[
+          // "src/assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg",
+          // "src/assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg",
+          // "src/assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg",
+          // "src/assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg",
+          // "src/assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg",
+        ]}
+      />
+
+      {/* ── 7. SHIP SELECTION CTA ── */}
+      <CenterCTA
+        title={data.ctas.shipCta.title}
+        description={data.ctas.shipCta.description}
+        buttonText={data.ctas.shipCta.buttonText}
+        buttonLink={data.ctas.shipCta.buttonLink}
+        theme="dark"
+      />
+
+      {/* ── 8. CHOOSING THE RIGHT SUITE (GENERIC CHECKLIST CARDS) ── */}
+      <GenericChecklistCards
+        title={data.suiteSection.title}
+        subtitle={data.suiteSection.subtitle}
+        cards={data.suiteSection.cards}
+      />
+
+      {/* ── 9. SPECIALIZED VOYAGE PLANNING (TRAVELER PERSONA CARDS) ── */}
+      <TravelerPersonaCards
+        title={data.specializedPlanning.title}
+        subtitle={data.specializedPlanning.subtitle}
+        personas={data.specializedPlanning.personas}
+      />
+
+      {/* ── 10. LOOKING FOR SEABOURN OFFERS? (BRAND PILLARS SHOWCASE) ── */}
+      <BrandPillarsShowcase
+        data={data.offersSection}
+      />
+
+      {/* ── 11. WHY WORK WITH TRIPS & SHIPS LUXURY TRAVEL? ── */}
+      <GenericChecklistCards
+        title={data.whyWorkWithUs.title}
+        subtitle={data.whyWorkWithUs.subtitle}
+        cards={data.whyWorkWithUs.cards}
+      />
+
+      {/* ── 12. RELATED GUIDE CTA ── */}
+      <CenterCTA
+        title={data.ctas.guideCta.title}
+        description={data.ctas.guideCta.description}
+        buttonText={data.ctas.guideCta.buttonText}
+        buttonLink={data.ctas.guideCta.buttonLink}
+        theme="light"
+      />
+
+      {/* ── 13. MORE THAN A CRUISE: PLAN THE COMPLETE JOURNEY ── */}
+      <ThreeColumnGrid
+        title={data.completeJourney.title}
+        subtitle={data.completeJourney.subtitle}
+        items={data.completeJourney.items}
+      />
+
+      {/* ── 14. SEABOURN CRUISE QUOTE: WHAT HAPPENS NEXT? (TIMELINE) ── */}
+      <SaltJourneyTimeline
+        data={data.processSteps}
+      />
+
+      {/* ── 15. PLANNING FOR YOUR TRAVEL STYLE (TRAVELER PERSONA CARDS) ── */}
+      <TravelerPersonaCards
+        title={data.travelStyles.title}
+        subtitle={data.travelStyles.subtitle}
+        personas={data.travelStyles.personas}
+      />
+
+      {/* ── 16. TRAVEL STYLES CTA ── */}
+      <CenterCTA
+        title={data.ctas.travelStyleCta.title}
+        description={data.ctas.travelStyleCta.description}
+        buttonText={data.ctas.travelStyleCta.buttonText}
+        buttonLink={data.ctas.travelStyleCta.buttonLink}
+        theme="dark"
+      />
+
+      {/* ── 17. WHAT INFORMATION SHOULD I PROVIDE? (GENERIC CHECKLIST CARDS) ── */}
+      <GenericChecklistCards
+        title={data.minimumInfoSection.title}
+        subtitle={data.minimumInfoSection.subtitle}
+        cards={data.minimumInfoSection.cards}
+      />
+
+      {/* ── 18. ANGELA HUGHES AUTHORITY BOX ── */}
+      <ExpertCredentials
+        name={data.angelaHughes.name}
+        title={data.angelaHughes.title}
+        badge={data.angelaHughes.badge}
+        authorityBoxTitle={data.angelaHughes.authorityBoxTitle}
+        authoritySubtitle={data.angelaHughes.authoritySubtitle}
+        experienceBadge={data.angelaHughes.experienceBadge}
+        image={AboutImage}
+        paragraphs={data.angelaHughes.paragraphs}
+        credentials={data.angelaHughes.credentials}
+        quote={data.angelaHughes.quote}
+        quoteSubtitle={data.angelaHughes.quoteSubtitle}
+        ctaText={data.angelaHughes.ctaText}
+        ctaLink={data.angelaHughes.ctaLink}
+      />
+
+      {/* ── 19. FREQUENTLY ASKED QUESTIONS (12 FAQS) ── */}
+      <FAQAccordion
+        data={{
+          title: "Frequently Asked Questions",
+          subtitle: "Everything travelers need to know before requesting a Seabourn cruise quote.",
+          faqs: data.faqs
+        }}
+      />
+
+      {/* ── 20. FINAL RECOMMENDATION & VERDICT ── */}
+      <ConclusionSection
+        sections={[
+          {
+            heading: data.finalVerdict.title,
+            paragraphs: [
+              ...data.finalVerdict.paragraphs,
+              data.finalVerdict.recommendation
+            ]
+          }
+        ]}
+      />
+
+      {/* ── 21. FINAL CTA ── */}
+      <CenterCTA
+        title={data.ctas.finalCta.title}
+        description={data.ctas.finalCta.description}
+        buttonText={data.ctas.finalCta.buttonText}
+        buttonLink={data.ctas.finalCta.buttonLink}
+        theme="dark"
+      />
+    </div>
+  );
 };
 
 export default SeabournCruiseQuote;

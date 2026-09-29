@@ -1,0 +1,885 @@
+{
+  "hero": {
+    "title": "Seabourn Offers & Seabourn Club Benefits",
+    "subtitle": "A Complete Guide to Maximizing Value, Promotions, Loyalty Rewards & Group Opportunities",
+    "intro": "Planning a Seabourn cruise is about more than finding the lowest advertised fare. The best value comes from understanding current Seabourn offers, past-guest benefits, onboard credits, loyalty rewards and group opportunities before you book.",
+    "details": [
+      "Seabourn periodically offers promotions that can change the economics of a luxury cruise, including savings on select voyages, reduced fares, onboard credits or other booking incentives. Past guests may also have access to additional benefits through Seabourn Club, the cruise line's loyalty program.",
+      "For travelers comparing luxury cruise lines, the important question is not simply 'What is the Seabourn discount?' It is: What combination of fare, promotion, loyalty benefits and included value gives me the best overall Seabourn experience? This guide explains how to evaluate Seabourn offers and make the most of Seabourn Club benefits."
+    ],
+    "ctaText": "Explore Current Seabourn Offers",
+    "ctaLink": "/contact"
+  },
+  "quickGuideTable": {
+    "title": "Quick Guide to Seabourn Offers at a Glance",
+    "headers": ["Opportunity", "What It Can Provide", "Best For"],
+    "rows": [
+      ["Current Seabourn promotions", "Promotional savings or added-value benefits", "New and returning guests"],
+      ["Past-guest offers", "Special opportunities for previous Seabourn guests", "Repeat travelers"],
+      ["Seabourn Club", "Loyalty recognition and benefits", "Frequent Seabourn guests"],
+      ["Onboard credit", "Credit that can be used for eligible onboard expenses", "Travelers with qualifying offers"],
+      ["Group opportunities", "Potential special pricing or benefits", "Families, friends and organizations"],
+      ["Travel advisor offers", "Additional amenities or preferred opportunities", "Travelers booking with an advisor"],
+      ["Early booking", "Better access to popular suites and itineraries", "High-demand voyages"],
+      ["Longer voyages", "Potential value through included experiences", "Extended travelers"]
+    ],
+    "note": "Important: Seabourn promotions are voyage- and date-specific and can change. Always verify the terms of a promotion before booking."
+  },
+  "whatAreOffers": {
+    "badge": "UNDERSTANDING PROMOTIONS",
+    "title": "What Are Seabourn Offers?",
+    "subtitle": "PROMOTIONAL VALUE VS. HEADLINE PERCENTAGES",
+    "paragraphs": [
+      "Seabourn offers are promotional opportunities that may apply to selected cruises, dates, destinations, suites or booking conditions.",
+      "Depending on the promotion, an offer may provide reduced cruise fares, onboard credit, special pricing, added-value amenities, past-guest opportunities, suite-specific incentives, group opportunities, or other promotional benefits.",
+      "Not every promotion applies to every sailing. A seemingly attractive discount may also have specific requirements involving booking dates, departure dates, suite categories, availability, minimum length of cruise, payment terms, or cancellation conditions.",
+      "That is why comparing the effective value of the entire booking is more useful than comparing headline percentages alone."
+    ]
+  },
+  "findPromotions": {
+    "title": "How to Find Current Seabourn Promotions",
+    "subtitle": "RESEARCH FIRST • PROMOTION ESSENTIALS",
+    "cards": [
+      {
+        "title": "The Exact Voyage & Sailing",
+        "description": "Confirm that the promotional offer applies specifically to the ship, route, and embarkation port you are planning.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Specific Departure Dates",
+        "description": "Promotions are frequently date-restricted; shoulder dates may feature more attractive pricing than peak departures.",
+        "icon": "Calendar"
+      },
+      {
+        "title": "Suite Category Eligibility",
+        "description": "Verify whether the promotional rate applies to Veranda, Penthouse, Premium, or Expedition suites.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Fare Type & Restrictions",
+        "description": "Check whether the fare is non-refundable, requires immediate full payment, or offers standard cancellation terms.",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Promotion Expiration Date",
+        "description": "Most Seabourn promotions operate on strict promotional windows and inventory quotas that can expire without notice.",
+        "icon": "Clock"
+      },
+      {
+        "title": "What Is Actually Included",
+        "description": "Confirm whether onboard credits, Wi-Fi upgrades, air credits, or shore event privileges are bundled into the quote.",
+        "icon": "Sparkles"
+      }
+    ],
+    "note": "A promotion that looks excellent on one sailing may not be available on another. For that reason, travelers should avoid choosing an itinerary solely because it has the largest advertised discount."
+  },
+  "dealsComparison": {
+    "title": "Seabourn Cruise Deals: What Should You Compare?",
+    "regent": {
+      "title": "Option 1: Headline Discount",
+      "badge": "20% OFF HEADLINE",
+      "description": "One voyage may advertise 20% off the cruise fare, appearing to be the superior financial discount.",
+      "features": [
+        "Focuses purely on headline percentage discount",
+        "Standard basic booking terms apply",
+        "No additional onboard credit included",
+        "May apply only to select guarantee suite categories",
+        "Restrictive cancellation or payment schedules"
+      ]
+    },
+    "viking": {
+      "title": "Option 2: Total Value Package",
+      "badge": "10% OFF + ONBOARD CREDIT + PERKS",
+      "description": "While another provides 10% off plus onboard credit, past-guest benefits, and preferred suite location.",
+      "features": [
+        "10% fare reduction plus generous onboard spending credit",
+        "Includes past-guest Seabourn Club loyalty perks",
+        "Better suite location and category selection",
+        "Enhanced booking flexibility and cancellation conditions",
+        "Additional luxury travel advisor amenities layered in"
+      ]
+    },
+    "bottomNote": "A useful comparison is: Cruise fare + Included benefits + Promotional value + Loyalty benefits + Advisor amenities — rather than simply the advertised discount percentage."
+  },
+  "onboardCredit": {
+    "title": "Seabourn Onboard Credit",
+    "subtitle": "A HIGHLY VERSATILE PROMOTIONAL PERK",
+    "items": [
+      {
+        "step": "01",
+        "category": "ELIGIBLE EXPENSES",
+        "title": "What Can Onboard Credit Be Used For?",
+        "description": "Depending on the applicable offer and terms, onboard credit can offset discretionary onboard expenses, including:",
+        "features": [
+          "Luxury Spa Treatments & Thermal Suite Passes",
+          "Curated Seabourn Shore Excursions & Private Overland Tours",
+          "The Boutique Fine Jewelry, Watches & Nautical Apparel",
+          "Vintage Wine & Premium Spirit Cellar Selections",
+          "Mindful Living Wellness Assessments & Personal Training",
+          "Caviar in the Surf & Private Marina Water Sports Experiences"
+        ]
+      },
+      {
+        "step": "02",
+        "category": "VERIFICATION CHECKLIST",
+        "title": "Essential Questions Before Choosing an OBC Offer",
+        "description": "Onboard credit is not the same as cash. Before choosing an onboard-credit promotion, always verify:",
+        "features": [
+          "How much credit is included and is it per person or per suite?",
+          "When is the credit applied to your onboard account?",
+          "What specific venues and services can it be used toward?",
+          "Does the credit expire at the end of the voyage or is unused credit refundable?",
+          "Can the promotional credit be combined with Seabourn Club perks?",
+          "Is the credit valid for pre-cruise shore excursion bookings online?"
+        ]
+      }
+    ]
+  },
+  "seabournClubIntro": {
+    "badge": "THE LOYALTY PROGRAM",
+    "title": "Seabourn Club: The Loyalty Program",
+    "paragraphs": [
+      "Seabourn Club is Seabourn's loyalty program for past guests. The program recognizes repeat travelers and provides benefits that can become increasingly valuable as you continue sailing with Seabourn.",
+      "Instead of treating each cruise as a completely separate purchase, repeat guests can potentially build a longer-term relationship with the brand through Seabourn Club.",
+      "For travelers who already enjoy Seabourn's ships, service and style, loyalty benefits can be another reason to consider returning.",
+      "Guests who sail with Seabourn can participate in the Seabourn Club loyalty program. Your cruise history is important because Seabourn Club benefits are connected to your past Seabourn experience.",
+      "If you have sailed with Seabourn previously, check your Seabourn Club account before booking another voyage to make sure your loyalty information is properly reflected."
+    ]
+  },
+  "clubBenefits": {
+    "title": "What Are Seabourn Club Benefits?",
+    "subtitle": "RECOGNITION & ONBOARD PRIVILEGES FOR REPEAT GUESTS",
+    "features": [
+      {
+        "title": "Future Cruise Planning",
+        "highlight": "PRIORITY ACCESS",
+        "description": "Advance access to newly announced itineraries, signature maiden voyages, and preferred suite reservations before public release.",
+        "tags": ["Priority Bookings", "Maiden Voyages"]
+      },
+      {
+        "title": "Special Events",
+        "highlight": "EXCLUSIVE GATHERINGS",
+        "description": "Invitations to private onboard cocktail receptions hosted by the Captain, exclusive officer dinners, and loyalty milestone events.",
+        "tags": ["Captain's Reception", "Officer Dinners"]
+      },
+      {
+        "title": "Loyalty Recognition",
+        "highlight": "PERSONALIZED SERVICE",
+        "description": "Dedicated recognition from ship officers and crew, personalized in-suite welcome amenities, and tier-specific commemorative gifts.",
+        "tags": ["Welcome Amenities", "Tier Recognition"]
+      },
+      {
+        "title": "Savings Opportunities",
+        "highlight": "MEMBER FARES",
+        "description": "Exclusive loyalty savings percentages, promotional past-guest rates, early-booking loyalty credits, and reduced single supplements.",
+        "tags": ["Past-Guest Rates", "Loyalty Credits"]
+      },
+      {
+        "title": "Onboard Privileges",
+        "highlight": "ENHANCED AMENITIES",
+        "description": "Complimentary premium Wi-Fi packages, complimentary laundry & pressing services, spa savings, and bespoke dining privileges.",
+        "tags": ["Complimentary Laundry", "Premium Wi-Fi"]
+      },
+      {
+        "title": "Exclusive Communications",
+        "highlight": "INSIDER UPDATES",
+        "description": "Private member previews, personalized milestone updates, dedicated Club desk access, and priority concierge support.",
+        "tags": ["Club Concierge", "Milestone Previews"]
+      }
+    ],
+    "cards": [
+      {
+        "title": "Future Cruise Planning",
+        "subtitle": "PRIORITY ACCESS",
+        "description": "Advance access to newly announced itineraries, signature maiden voyages, and preferred suite reservations before public release.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Special Events",
+        "subtitle": "EXCLUSIVE GATHERINGS",
+        "description": "Invitations to private onboard cocktail receptions hosted by the Captain, exclusive officer dinners, and loyalty milestone events.",
+        "icon": "Star"
+      },
+      {
+        "title": "Loyalty Recognition",
+        "subtitle": "PERSONALIZED SERVICE",
+        "description": "Dedicated recognition from ship officers and crew, personalized in-suite welcome amenities, and tier-specific commemorative gifts.",
+        "icon": "Award"
+      },
+      {
+        "title": "Savings Opportunities",
+        "subtitle": "MEMBER FARES",
+        "description": "Exclusive loyalty savings percentages, promotional past-guest rates, early-booking loyalty credits, and reduced single supplements.",
+        "icon": "Percent"
+      },
+      {
+        "title": "Onboard Privileges",
+        "subtitle": "ENHANCED AMENITIES",
+        "description": "Complimentary premium Wi-Fi packages, complimentary laundry & pressing services, spa savings, and bespoke dining privileges.",
+        "icon": "Gift"
+      },
+      {
+        "title": "Exclusive Communications",
+        "subtitle": "INSIDER UPDATES",
+        "description": "Private member previews, personalized milestone updates, dedicated Club desk access, and priority concierge support.",
+        "icon": "Sparkles"
+      }
+    ],
+    "note": "Because individual benefits and program terms can change, travelers should confirm the current benefits applicable to their Seabourn Club status."
+  },
+  "loyaltyLevelsAndWhy": {
+    "title": "Seabourn Club Loyalty Levels & Why It Matters",
+    "subtitle": "CRUISE HISTORY & REPEAT TRAVELER ADVANTAGES",
+    "cards": [
+      {
+        "title": "Seabourn Club Loyalty Levels",
+        "items": [
+          "Seabourn Club is structured around a guest's cruise history and sailed days rather than tier names alone.",
+          "Your travel advisor verifies your current Seabourn Club status and tier placement.",
+          "Confirmation of accumulated sailed days and eligible cruise history.",
+          "Specific benefits and onboard credits available on your next voyage.",
+          "Determination of whether a current promotion can be combined with loyalty benefits.",
+          "Assessing whether your booking is eligible for additional advisor amenities."
+        ]
+      },
+      {
+        "title": "Why Seabourn Club Matters for Repeat Guests",
+        "items": [
+          "Intimate luxury ships with 264 to 600 guests maximum.",
+          "All-suite accommodations with private oceanfront verandas.",
+          "Seamlessly inclusive onboard experience with open bars & caviar.",
+          "Intuitive, personalized service where staff remember your preferences.",
+          "Purpose-built ultra-luxury expedition vessels and Zodiac excursions.",
+          "World-class culinary program with open-seating flexibility.",
+          "Destination-focused itineraries accessing boutique, small harbors."
+        ]
+      }
+    ],
+    "items": [
+      {
+        "step": "01",
+        "badge": "MILESTONE TRACKING",
+        "category": "MILESTONE TRACKING",
+        "title": "Seabourn Club Loyalty Levels",
+        "description": "Seabourn Club is structured around a guest's cruise history and sailed days. Rather than focusing exclusively on the name of a loyalty level, travelers should look at the specific benefits attached to their current status. Your travel advisor can help you determine:",
+        "features": [
+          "Your current Seabourn Club status and tier placement",
+          "Your accumulated sailed days and eligible cruise history",
+          "Specific benefits and onboard credits available on your next voyage",
+          "Whether a current promotion can be combined with loyalty benefits",
+          "Whether your booking is eligible for additional advisor amenities"
+        ]
+      },
+      {
+        "step": "02",
+        "badge": "RETURNING GUESTS",
+        "category": "RETURNING GUESTS",
+        "title": "Why Seabourn Club Matters for Repeat Guests",
+        "description": "For first-time guests, the primary question is which itinerary and suite provide the best experience. For repeat guests, loyalty benefits make returning to Seabourn even more compelling, particularly for travelers who love Seabourn's:",
+        "features": [
+          "Intimate luxury ships with 264 to 600 guests maximum",
+          "All-suite accommodations with private oceanfront verandas",
+          "Seamlessly inclusive onboard experience with open bars & caviar",
+          "Intuitive, personalized service where staff remember your preferences",
+          "Purpose-built ultra-luxury expedition vessels and Zodiac excursions",
+          "World-class culinary program with open-seating flexibility",
+          "Destination-focused itineraries accessing boutique, small harbors"
+        ]
+      }
+    ]
+  },
+  "combineOffers": {
+    "title": "Can Seabourn Offers Be Combined?",
+    "subtitle": "STACKING PROMOTIONS, LOYALTY & ADVISOR PERKS",
+    "pillars": [
+      {
+        "title": "Past-Guest Special Offers",
+        "description": "Select promotional fares specifically designed for returning Seabourn travelers may allow stackable benefits.",
+        "icon": "star"
+      },
+      {
+        "title": "Seabourn Club Loyalty Perks",
+        "description": "Loyalty status privileges (laundry, internet, member savings) often stack on top of standard promotional rates.",
+        "icon": "compass"
+      },
+      {
+        "title": "Promotional Onboard Credits",
+        "description": "Promotional OBC may combine with travel advisor amenities or early-booking credits depending on fare rules.",
+        "icon": "ship"
+      },
+      {
+        "title": "Group & Multi-Suite Benefits",
+        "description": "Group contracted rates may have specific rules regarding whether individual loyalty discounts can be applied.",
+        "icon": "window"
+      },
+      {
+        "title": "Travel Advisor Preferred Amenities",
+        "description": "Exclusive agency amenities like shipboard credits, private car transfers, or hosted events often layer cleanly.",
+        "icon": "compass"
+      },
+      {
+        "title": "Promotional Special Fares",
+        "description": "Flash sales or deeply discounted promotional fares may restrict combining with additional discount codes.",
+        "icon": "star"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Past-Guest Special Offers",
+        "description": "Select promotional fares specifically designed for returning Seabourn travelers may allow stackable benefits.",
+        "icon": "UserCheck"
+      },
+      {
+        "title": "Seabourn Club Loyalty Perks",
+        "description": "Loyalty status privileges (laundry, internet, member savings) often stack on top of standard promotional rates.",
+        "icon": "Award"
+      },
+      {
+        "title": "Promotional Onboard Credits",
+        "description": "Promotional OBC may combine with travel advisor amenities or early-booking credits depending on fare rules.",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Group & Multi-Suite Benefits",
+        "description": "Group contracted rates may have specific rules regarding whether individual loyalty discounts can be applied.",
+        "icon": "Users"
+      },
+      {
+        "title": "Travel Advisor Preferred Amenities",
+        "description": "Exclusive agency amenities like shipboard credits, private car transfers, or hosted events often layer cleanly.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Promotional Special Fares",
+        "description": "Flash sales or deeply discounted promotional fares may restrict combining with additional discount codes.",
+        "icon": "Percent"
+      }
+    ],
+    "note": "Never assume that stacking two offers will automatically produce a larger discount. Always have your luxury travel advisor verify the specific combination rules before booking."
+  },
+  "offersVsLowestFare": {
+    "title": "Seabourn Offers vs. Lowest Fare",
+    "regent": {
+      "title": "Option A: Lowest Headline Fare",
+      "badge": "LOWEST HEADLINE PRICE",
+      "description": "Lower cruise fare upfront, but with fewer added amenities, standard guarantees, and strict booking terms.",
+      "features": [
+        "Lower headline cruise fare",
+        "No onboard spending credit included",
+        "No loyalty benefits or upgrades applied",
+        "Fewer booking amenities and perks",
+        "Standard restrictive cancellation conditions"
+      ]
+    },
+    "viking": {
+      "title": "Option B: Value-Packed Fare",
+      "badge": "MAXIMUM BOTTOM-LINE VALUE",
+      "description": "Slightly higher headline fare that delivers greater overall bottom-line value through stacked benefits.",
+      "features": [
+        "Generous onboard credit for spa, excursions & dining",
+        "Superior suite location (midship, unobstructed veranda)",
+        "More flexible deposit and cancellation terms",
+        "Past-guest Seabourn Club perks applied",
+        "Additional luxury travel advisor amenities layered in"
+      ]
+    },
+    "bottomNote": "Option B could potentially deliver greater overall value. This is one reason luxury cruise pricing should be evaluated as a total-value decision, rather than simply a price-per-night calculation."
+  },
+  "suitePromotions": {
+    "title": "Seabourn Suite Promotions",
+    "subtitle": "SUITE CATEGORY INVENTORY & PROMOTIONAL DIFFERENCES",
+    "personas": [
+      {
+        "title": "Veranda Suites",
+        "description": "Frequently feature promotional upgrades (e.g., V1 to V4 complimentary upgrades) or reduced deposit incentives.",
+        "icon": "Wine",
+        "recommendations": ["MOST POPULAR CATEGORY"]
+      },
+      {
+        "title": "Penthouse Suites",
+        "description": "May offer enhanced onboard credits, complimentary private car transfers, or promotional specialty dining perks.",
+        "icon": "Gem",
+        "recommendations": ["EXPANDED LIVING SPACE"]
+      },
+      {
+        "title": "Wintergarden Suites",
+        "description": "Exclusive multi-room signature suites with glass solariums; promotions focus on inclusions and private services.",
+        "icon": "Landmark",
+        "recommendations": ["TOP-TIER RESIDENTIAL LUXURY"]
+      },
+      {
+        "title": "Signature Suites",
+        "description": "Rarely discounted heavily on price; promotions often include substantial shipboard credits or air credit allowances.",
+        "icon": "Heart",
+        "recommendations": ["EXPANSIVE BOW & STERN VIEWS"]
+      },
+      {
+        "title": "Expedition Suites",
+        "description": "Custom expedition suites with heated gear drying closets; promotions vary by polar seasonality and destination.",
+        "icon": "Camera",
+        "recommendations": ["VENTURE & PURSUIT ULTRA-LUXURY"]
+      },
+      {
+        "title": "Higher-Category Accommodations",
+        "description": "Require tailored booking evaluation; early reservation is crucial as these premium suites sell out 12–18 months early.",
+        "icon": "Gem",
+        "recommendations": ["OWNER'S & GRAND SUITES"]
+      }
+    ],
+    "cards": [
+      {
+        "title": "Veranda Suites",
+        "subtitle": "MOST POPULAR CATEGORY",
+        "description": "Frequently feature promotional upgrades (e.g., V1 to V4 complimentary upgrades) or reduced deposit incentives.",
+        "icon": "Sailboat"
+      },
+      {
+        "title": "Penthouse Suites",
+        "subtitle": "EXPANDED LIVING SPACE",
+        "description": "May offer enhanced onboard credits, complimentary private car transfers, or promotional specialty dining perks.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Wintergarden Suites",
+        "subtitle": "TOP-TIER RESIDENTIAL LUXURY",
+        "description": "Exclusive multi-room signature suites with glass solariums; promotions focus on inclusions and private services.",
+        "icon": "Snowflake"
+      },
+      {
+        "title": "Signature Suites",
+        "subtitle": "EXPANSIVE BOW & STERN VIEWS",
+        "description": "Rarely discounted heavily on price; promotions often include substantial shipboard credits or air credit allowances.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Expedition Suites",
+        "subtitle": "VENTURE & PURSUIT ULTRA-LUXURY",
+        "description": "Custom expedition suites with heated gear drying closets; promotions vary by polar seasonality and destination.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Higher-Category Accommodations",
+        "subtitle": "OWNER'S & GRAND SUITES",
+        "description": "Require tailored booking evaluation; early reservation is crucial as these premium suites sell out 12–18 months early.",
+        "icon": "Star"
+      }
+    ],
+    "note": "When comparing promotions, always check the actual suite inventory available under the offer. A discounted fare is less useful if it applies only to a suite category that doesn't meet your needs."
+  },
+  "groupOpportunities": {
+    "title": "Seabourn Group Opportunities & Families",
+    "subtitle": "SPECIAL PRICING, AMENITIES & MULTI-SUITE CELEBRATIONS",
+    "items": [
+      {
+        "badge": "GROUP TRAVEL OCCASIONS",
+        "title": "Seabourn Group Opportunities",
+        "text": "Traveling with a group can create additional opportunities. Group arrangements can potentially provide different pricing or amenities depending on the sailing and group size. Travelers should discuss group opportunities before everyone books individually.",
+        "list": [
+          "Milestone birthday celebrations & anniversaries",
+          "Multi-generational family reunions",
+          "Alumni & university travel groups",
+          "Corporate executive retreats & incentive travel",
+          "Nonprofit & philanthropic donor travel",
+          "Special-interest culinary & wine enthusiast groups"
+        ]
+      },
+      {
+        "badge": "MULTI-SUITE VALUE",
+        "title": "Seabourn for Families & Groups",
+        "text": "A group booking can be particularly useful when multiple suites are being reserved together. Instead of treating every traveler as an independent booking, a luxury travel advisor can investigate whether the sailing supports a tailored group arrangement.",
+        "list": [
+          "Connecting or adjacent Veranda & Penthouse suites",
+          "Coordinated group dining tables at The Restaurant",
+          "Customized private Zodiac & shore excursions",
+          "Group leader credits or pooled onboard spending",
+          "Seamless centralized booking & payment management"
+        ]
+      },
+      {
+        "badge": "EARLY BOOKING ADVANTAGE",
+        "title": "Booking Early vs. Waiting for Deals",
+        "text": "For popular itineraries, early planning can be more valuable than waiting for a larger discount. Luxury cruise inventory is limited, particularly in desirable suite categories. Waiting for a promotion may mean losing your ideal suite or date.",
+        "list": [
+          "Preferred midship suite location and deck",
+          "Specific suite categories that sell out early",
+          "Popular peak departure dates and holiday sailings",
+          "Desirable high-demand itineraries (Antarctica, World Cruises, Kimberley)",
+          "Limited expedition departures with small passenger caps"
+        ]
+      }
+    ]
+  },
+  "whenOffersMatter": {
+    "title": "When Are Seabourn Offers Most Important?",
+    "subtitle": "WORTH WATCHING CLOSELY • KEY PLANNING MOMENTS",
+    "items": [
+      {
+        "title": "Longer Voyages & Grand Voyages",
+        "description": "A percentage-based promotion or daily onboard credit has a significantly larger dollar impact on an extended 30+ day cruise.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Expedition Voyages",
+        "description": "Specialty polar and tropical expedition itineraries carry limited suite inventory; promotions can offset expedition gear or flight costs.",
+        "icon": "Compass"
+      },
+      {
+        "title": "World Cruises & Grand Explorations",
+        "description": "Even a minor percentage fare adjustment or value-added amenity creates thousands of dollars in cumulative savings on 100+ day voyages.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Shoulder-Season Itineraries",
+        "description": "Travelers with date flexibility in May, June, September, or October often find the strongest promotional pricing and suite upgrades.",
+        "icon": "Sailboat"
+      },
+      {
+        "title": "Repeat Seabourn Cruises",
+        "description": "Combining past-guest offers with accumulated Seabourn Club status benefits adds another powerful layer of total trip value.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Holiday & Festive Sailings",
+        "description": "Monitoring early promotional releases for Thanksgiving, Christmas, and New Year voyages secures limited family inventory.",
+        "icon": "Sparkles"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Longer Voyages & Grand Voyages",
+        "description": "A percentage-based promotion or daily onboard credit has a significantly larger dollar impact on an extended 30+ day cruise.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Expedition Voyages",
+        "description": "Specialty polar and tropical expedition itineraries carry limited suite inventory; promotions can offset expedition gear or flight costs.",
+        "icon": "Compass"
+      },
+      {
+        "title": "World Cruises & Grand Explorations",
+        "description": "Even a minor percentage fare adjustment or value-added amenity creates thousands of dollars in cumulative savings on 100+ day voyages.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Shoulder-Season Itineraries",
+        "description": "Travelers with date flexibility in May, June, September, or October often find the strongest promotional pricing and suite upgrades.",
+        "icon": "Sailboat"
+      },
+      {
+        "title": "Repeat Seabourn Cruises",
+        "description": "Combining past-guest offers with accumulated Seabourn Club status benefits adds another powerful layer of total trip value.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Holiday & Festive Sailings",
+        "description": "Monitoring early promotional releases for Thanksgiving, Christmas, and New Year voyages secures limited family inventory.",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "advisorAndTripsShips": {
+    "title": "How a Luxury Travel Advisor Maximizes Seabourn Offers",
+    "subtitle": "EXPERT GUIDANCE • WHY BOOK WITH TRIPS & SHIPS",
+    "items": [
+      {
+        "step": "01",
+        "category": "OFFER OPTIMIZATION",
+        "badge": "01 • OFFER OPTIMIZATION",
+        "title": "What a Luxury Travel Advisor Compares",
+        "description": "Seabourn promotions can be complicated because the best option isn't always the most obvious one. A knowledgeable luxury travel advisor systematically compares:",
+        "features": [
+          "Current public and private Seabourn promotional offers",
+          "Past-guest loyalty perks and eligible Seabourn Club status benefits",
+          "Real-time suite inventory across multiple deck locations",
+          "Group rates and multi-suite promotional opportunities",
+          "Promotional onboard credits vs. upfront fare discounts",
+          "Exclusive travel advisor preferred amenities and consortia perks",
+          "Itinerary alternatives and nearby departure dates for better value"
+        ],
+        "bullets": [
+          "Current public and private Seabourn promotional offers",
+          "Past-guest loyalty perks and eligible Seabourn Club status benefits",
+          "Real-time suite inventory across multiple deck locations",
+          "Group rates and multi-suite promotional opportunities",
+          "Promotional onboard credits vs. upfront fare discounts",
+          "Exclusive travel advisor preferred amenities and consortia perks",
+          "Itinerary alternatives and nearby departure dates for better value"
+        ]
+      },
+      {
+        "step": "02",
+        "category": "OUR APPROACH",
+        "badge": "02 • OUR APPROACH",
+        "title": "Why Book Seabourn Offers With Trips & Ships",
+        "description": "At Trips & Ships Luxury Travel, the focus is on helping travelers evaluate the complete Seabourn booking rather than simply selecting the largest advertised promotion. Your advisor actively monitors:",
+        "features": [
+          "New promotional offers released after your initial quote",
+          "Price adjustments and promotion re-faring opportunities prior to final payment",
+          "Preferred suite allocations and deck placements",
+          "Stacking rules for past-guest, loyalty, and agency amenities",
+          "Tailored flight arrangements, pre-cruise luxury hotels, and private transfers",
+          "Dedicated post-booking support and direct Seabourn executive contacts"
+        ],
+        "bullets": [
+          "New promotional offers released after your initial quote",
+          "Price adjustments and promotion re-faring opportunities prior to final payment",
+          "Preferred suite allocations and deck placements",
+          "Stacking rules for past-guest, loyalty, and agency amenities",
+          "Tailored flight arrangements, pre-cruise luxury hotels, and private transfers",
+          "Dedicated post-booking support and direct Seabourn executive contacts"
+        ]
+      }
+    ]
+  },
+  "maximizeSteps": {
+    "title": "How to Maximize Your Seabourn Value",
+    "subtitle": "A 6-STEP STRATEGY FOR EVALUATING OFFERS & BOOKINGS",
+    "items": [
+      {
+        "step": "1",
+        "title": "Choose the Right Itinerary",
+        "description": "Start with the destination, regions, and travel dates that match your personal travel aspirations rather than shopping discounts first."
+      },
+      {
+        "step": "2",
+        "title": "Choose the Right Ship",
+        "description": "Decide whether an intimate ocean ship (Quest, Sojourn, Encore, Ovation) or an ultra-luxury expedition vessel (Venture, Pursuit) is the right fit."
+      },
+      {
+        "step": "3",
+        "title": "Select the Right Suite",
+        "description": "Evaluate suite location (midship vs. aft), interior square footage, veranda size, and specific amenities (walk-in closet, bathtub, butler service)."
+      },
+      {
+        "step": "4",
+        "title": "Check Current Promotions",
+        "description": "Review applicable Seabourn offers, early-booking incentives, and promotional fares for your selected sailing date."
+      },
+      {
+        "step": "5",
+        "title": "Check Your Loyalty Status",
+        "description": "Confirm your Seabourn Club account number, past cruise history, accumulated benefits, and eligible past-guest savings."
+      },
+      {
+        "step": "6",
+        "title": "Compare the Complete Value",
+        "description": "Evaluate the complete formula: Cruise Fare + Onboard Credit + Loyalty Benefits + Suite Category + Itinerary Quality + Advisor Amenities."
+      }
+    ],
+    "note": "This produces a much more meaningful comparison than the advertised discount alone."
+  },
+  "askBeforeBooking": {
+    "title": "Seabourn Offers: What to Ask Before Booking",
+    "subtitle": "ESSENTIAL QUESTIONS TO UNCOVER HIDDEN VALUE",
+    "items": [
+      {
+        "badge": "FARE & PROMOTIONS",
+        "title": "Fare & Promotional Details",
+        "text": "Clarify the precise financial terms of the promotion before committing to a deposit.",
+        "list": [
+          "What is the final total cruise fare including taxes and fees?",
+          "What specific promotion code is being applied to the booking?",
+          "Is the promotional savings calculated per person or per suite?",
+          "What suite categories qualify for this promotional pricing?"
+        ]
+      },
+      {
+        "badge": "PERKS & STACKING",
+        "title": "Perks, Onboard Credit & Stacking",
+        "text": "Ensure all promotional perks and loyalty privileges are properly layered and documented.",
+        "list": [
+          "Is onboard credit included and how much per suite?",
+          "What specific onboard services can the credit be applied toward?",
+          "Can my Seabourn Club loyalty benefits be applied concurrently?",
+          "Is there an applicable past-guest discount or special offer?"
+        ]
+      },
+      {
+        "badge": "STRATEGY & DATES",
+        "title": "Booking Flexibility & Alternatives",
+        "text": "Explore nearby dates and group opportunities that may yield superior overall value.",
+        "list": [
+          "Can this promotion be combined with agency preferred amenities?",
+          "Are there group opportunities or multi-suite perks available?",
+          "Are there stronger promotional offers on adjacent departure dates?",
+          "Is there a better overall value available on an alternate itinerary?"
+        ]
+      }
+    ],
+    "note": "These questions can uncover hidden booking opportunities that aren't obvious from a basic online fare search."
+  },
+  "offersVsClubTable": {
+    "title": "Seabourn Offers vs. Seabourn Club Benefits Side by Side",
+    "headers": ["Feature", "Seabourn Offers", "Seabourn Club Benefits"],
+    "rows": [
+      ["Core Purpose", "Promotional booking incentive", "Loyalty recognition & repeat guest reward"],
+      ["Availability", "Changes by promotion & sailing", "Based on guest cruise history & sailed days"],
+      ["Applies to First-Time Guests", "Yes, frequently available", "No past cruise history required for first tier"],
+      ["Applies to Past Guests", "Yes, may qualify for special rates", "Yes, unlocks progressive tiered benefits"],
+      ["Onboard Credit", "Frequently included with offers", "Depends on applicable milestone benefit"],
+      ["Fare Discounts", "Promotional percentage or dollar savings", "Loyalty member savings on selected sailings"],
+      ["Group Opportunities", "Promotional group rates & amenities", "Separate consideration from loyalty status"],
+      ["Best Strategy", "Compare current promotional packages", "Verify status & combine with active offers"]
+    ],
+    "note": "The two concepts should be evaluated together rather than separately to capture maximum value."
+  },
+  "commonMistakes": {
+    "title": "Common Seabourn Offer Mistakes to Avoid",
+    "subtitle": "EXPERT ADVISORY • PITFALLS IN LUXURY CRUISE BOOKING",
+    "mistakes": [
+      {
+        "title": "Looking Only at the Percentage Discount",
+        "description": "A smaller promotion on a better itinerary or with generous onboard credits can often provide greater overall vacation value than a large headline discount on an undesirable sailing."
+      },
+      {
+        "title": "Forgetting About Seabourn Club",
+        "description": "Repeat guests often fail to verify their loyalty account numbers prior to booking, missing out on valuable past-guest savings, onboard credits, and complimentary laundry privileges."
+      },
+      {
+        "title": "Ignoring Onboard Credit Rules",
+        "description": "Assuming onboard credit functions like cash without checking expiration rules, per-suite vs. per-person limits, or eligible venues can lead to unused credit being forfeited."
+      },
+      {
+        "title": "Waiting Too Long for a Late Deal",
+        "description": "Unlike mainstream mega-ships, Seabourn vessels have limited suite inventory. Waiting for a last-minute promotion usually results in losing your preferred midship suite or missing the sailing entirely."
+      },
+      {
+        "title": "Comparing Incomparable Suite Categories",
+        "description": "A seemingly cheaper promotional fare isn't comparable if it places you in a forward guarantee suite rather than a spacious midship Veranda or Penthouse Suite."
+      },
+      {
+        "title": "Assuming All Promotions Stack",
+        "description": "Assuming two promotional discounts or agency offers can automatically be stacked without verifying Seabourn's strict combinability terms can cause unexpected pricing surprises."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY TRAVEL SPECIALIST",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Luxury Travel Expertise • 121+ Countries Visited",
+    "experienceBadge": "40+ Years Experience",
+    "paragraphs": [
+      "Angela Hughes is an internationally acclaimed luxury travel advisor and the CEO of Trips & Ships Luxury Travel. With over four decades in the travel industry, she has personally traveled to more than 121 countries across all seven continents, bringing unparalleled firsthand expertise to luxury and expedition cruise planning.",
+      "As a leading authority on ultra-luxury cruising, Angela works directly with discerning travelers to evaluate cruise line value propositions, optimize promotional offers, navigate loyalty programs, and ensure every voyage exceeds expectations."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel with 40+ years in the industry",
+      "Traveled to more than 121 countries across all seven continents",
+      "Founder of Luxury Travel University training thousands of advisors globally",
+      "Travel Leaders Network Advisory Board member & luxury cruise authority",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured columnist in major luxury travel publications worldwide",
+      "Master-level expertise in Seabourn ocean, expedition, and World Cruises"
+    ],
+    "quote": "The best Seabourn booking is never about chasing the biggest advertised discount. It is about crafting a total luxury experience where your itinerary, suite, loyalty perks, and advisor amenities align seamlessly to deliver extraordinary value.",
+    "quoteSubtitle": "Angela Hughes, CEO & Luxury Travel Specialist",
+    "ctaText": "Speak with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Does Seabourn offer cruise discounts?",
+      "answer": "Yes. Seabourn periodically offers promotions on selected voyages, dates, suite categories and destinations. The exact offers, percentage savings, and terms change regularly."
+    },
+    {
+      "question": "How can I find current Seabourn offers?",
+      "answer": "Check Seabourn's current promotional offers and have your luxury travel advisor compare them with the exact sailing, departure date, and suite category you are considering."
+    },
+    {
+      "question": "What is Seabourn Club?",
+      "answer": "Seabourn Club is Seabourn's loyalty program for guests who have sailed with the cruise line, offering progressive recognition, onboard privileges, and member savings."
+    },
+    {
+      "question": "What benefits do Seabourn Club members receive?",
+      "answer": "Benefits depend on your Seabourn Club status and current program terms. They can include loyalty recognition, special onboard events, member savings, complimentary Wi-Fi, laundry service, and other repeat travel benefits."
+    },
+    {
+      "question": "Do Seabourn past guests get special offers?",
+      "answer": "Yes. Past guests frequently receive special opportunities, private sales, or exclusive loyalty fares. Always check your Seabourn Club account and current terms before booking."
+    },
+    {
+      "question": "Does Seabourn offer onboard credit?",
+      "answer": "Some promotional offers include onboard credit. The amount, eligible expenses (such as spa, boutique purchases, and shore excursions), and restrictions depend on the specific promotion."
+    },
+    {
+      "question": "Can Seabourn onboard credit be used for excursions?",
+      "answer": "Depending on the terms of the credit, it may be usable toward eligible onboard purchases or shore experiences. Always confirm current restrictions before relying on it for a specific expense."
+    },
+    {
+      "question": "Can Seabourn offers be combined?",
+      "answer": "Some offers may be combinable while others are not. The specific terms of each promotion determine whether past-guest discounts, promotional OBC, and advisor amenities can be stacked."
+    },
+    {
+      "question": "Are Seabourn group discounts available?",
+      "answer": "Group opportunities may be available depending on the sailing, number of suites, and booking conditions. Families, friends, and organizations should inquire about group arrangements before booking individually."
+    },
+    {
+      "question": "Is it better to book Seabourn early or wait for a promotion?",
+      "answer": "For high-demand voyages, booking early is usually more valuable because it secures preferred suites and dates. A later promotion rarely compensates for losing the exact suite you want."
+    },
+    {
+      "question": "Can a travel advisor help me find Seabourn promotions?",
+      "answer": "Yes. A knowledgeable travel advisor monitors promotions, compares suite categories, reviews past-guest benefits, and identifies agency amenities that provide superior overall value."
+    },
+    {
+      "question": "Are Seabourn promotions available on expedition cruises?",
+      "answer": "Promotions can vary by voyage type, including polar and tropical expedition itineraries. Check the specific sailing rather than assuming ocean-cruise promotions apply to expedition ships."
+    },
+    {
+      "question": "Are Seabourn offers available for World Cruises?",
+      "answer": "Promotional availability varies. Because World Cruises are long, high-value voyages, it is particularly important to compare complete fares, suite categories, included benefits, and loyalty credits."
+    },
+    {
+      "question": "Can Seabourn Club benefits reduce my cruise fare?",
+      "answer": "Depending on current loyalty program rules and applicable offers, Seabourn Club membership may provide member savings or special past-guest promotional fares on selected sailings."
+    },
+    {
+      "question": "Should I choose a cruise based on the biggest Seabourn discount?",
+      "answer": "Not necessarily. Compare the complete value, including the itinerary, suite location, included amenities, onboard credit, loyalty benefits, and booking conditions."
+    },
+    {
+      "question": "How can I get the best Seabourn cruise deal?",
+      "answer": "Start by choosing the right itinerary and suite, then compare current promotions, Seabourn Club benefits, past-guest opportunities, onboard credit, and available advisor amenities."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Compare the Complete Value, Not Just the Discount",
+    "subtitle": "OUR RECOMMENDATION",
+    "paragraphs": [
+      "The best Seabourn booking strategy starts with the right itinerary, ship and suite, then layers in current promotions, Seabourn Club status, past-guest opportunities, onboard credit and any available group or advisor amenities.",
+      "Start by choosing the right itinerary and suite, then compare current promotions, Seabourn Club benefits, past-guest opportunities, onboard credit and any available group or advisor amenities."
+    ],
+    "recommendation": "Our recommendation: Work with a knowledgeable advisor to compare fare, promotion, onboard credit, loyalty benefits, suite, itinerary and advisor amenities together, rather than choosing a cruise based on the biggest advertised discount alone.",
+    "ctaText": "Start Planning Your Seabourn Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Compare Your Seabourn Offer Options",
+      "description": "Let us help you evaluate the complete Seabourn booking value across fare, onboard credit, loyalty benefits and suite category.",
+      "buttonText": "Compare My Offers",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Check Your Seabourn Club Status",
+      "description": "We'll confirm your loyalty benefits, past-guest opportunities and how they can apply to your next Seabourn voyage.",
+      "buttonText": "Check My Status",
+      "buttonLink": "/contact"
+    },
+    "midCta3": {
+      "title": "Explore Group Cruise Opportunities",
+      "description": "Planning a milestone celebration, reunion or alumni trip? Let's discuss potential group pricing, multi-suite perks, and exclusive amenities.",
+      "buttonText": "Ask About Group Rates",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Cruise",
+      "description": "Connect with luxury cruise specialist Angela Hughes to maximize your Seabourn offers, loyalty benefits, and overall booking value.",
+      "buttonText": "Start Planning Your Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

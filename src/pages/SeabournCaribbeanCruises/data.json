@@ -1,0 +1,816 @@
+{
+  "hero": {
+    "title": "Seabourn Caribbean Cruises",
+    "subtitle": "Beaches, Yacht Harbors, Marina Day & Caviar in the Surf",
+    "paragraphs": [
+      "A Seabourn Caribbean cruise offers a more intimate way to experience the Caribbean, combining beautiful beaches and tropical islands with Seabourn's luxury small-ship atmosphere.",
+      "The Caribbean is often associated with large cruise ships and busy resort ports. Seabourn takes a different approach, emphasizing smaller harbors, beautiful anchorages, relaxed beach experiences and destination-focused excursions.",
+      "Depending on the itinerary, travelers can explore islands and coastal destinations across the Caribbean while enjoying experiences such as Marina Day and the iconic Caviar in the Surf.",
+      "This guide covers Seabourn Caribbean itineraries, yacht harbors, beaches, Marina Day, Caviar in the Surf, shore excursions, the best time to sail and who should choose a Seabourn Caribbean cruise."
+    ],
+    "ctaText": "Start Planning Your Caribbean Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Caribbean Cruises at a Glance",
+    "subtitle": "QUICK FACTS",
+    "caption": "Note: Port calls, marquee events, shore excursions, and seasonal sailing windows vary by ship and specific itinerary.",
+    "headers": ["Feature", "Seabourn Caribbean Cruises"],
+    "rows": [
+      ["Region", "Caribbean"],
+      ["Cruise style", "Ultra-luxury small-ship cruising"],
+      ["Main attractions", "Beaches, islands, harbors and tropical scenery"],
+      ["Signature experiences", "Marina Day and Caviar in the Surf"],
+      ["Activities", "Swimming, watersports, snorkeling, excursions and sightseeing"],
+      ["Atmosphere", "Relaxed, elegant and intimate"],
+      ["Best for", "Couples, luxury travelers, beach lovers and repeat Caribbean visitors"],
+      ["Peak season", "Winter and early spring"],
+      ["Shoulder seasons", "Fall and late spring"],
+      ["Ideal vacation style", "Luxury + relaxation + island exploration"]
+    ]
+  },
+  "whyTakeSection": {
+    "title": "Why Take a Seabourn Caribbean Cruise?",
+    "subtitle": "THE APPEAL",
+    "paragraphs": [
+      "The Caribbean has thousands of islands, beaches and coastal communities, but not every cruise experience feels the same.",
+      "Rather than making the ship itself the main attraction, Seabourn puts greater emphasis on the islands, beaches and experiences outside the ship."
+    ],
+    "highlights": [
+      "Smaller ships",
+      "Personalized service",
+      "Beautiful anchorages",
+      "Relaxed beach days",
+      "Luxury accommodations",
+      "Fine dining",
+      "Fewer crowds",
+      "Curated shore experiences"
+    ],
+    "conclusion": "Rather than making the ship itself the main attraction, Seabourn puts greater emphasis on the islands, beaches and experiences outside the ship.",
+    "imagePlaceholderText": "Seabourn Caribbean Cruise Image Placeholder"
+  },
+  "differentCards": {
+    "title": "What Makes Seabourn Caribbean Cruises Different?",
+    "subtitle": "THE SMALL-SHIP DIFFERENCE",
+    "paragraphs": [
+      "The Caribbean is dominated by large cruise ships. Seabourn offers a more intimate alternative. The smaller-ship experience can make it possible to spend more time in destinations where the atmosphere feels closer to a private yacht vacation than a traditional cruise.",
+      "For travelers who have already experienced mainstream Caribbean cruising, this difference can be significant."
+    ],
+    "items": [
+      {
+        "icon": "Sailboat",
+        "title": "Scenic Island Approaches",
+        "description": "Navigate into picturesque channels and calm bays with dramatic close-up island views from your veranda.",
+        "features": ["Scenic cruising", "Boutique navigation", "Dramatic approaches"]
+      },
+      {
+        "icon": "Anchor",
+        "title": "Smaller Harbors",
+        "description": "Dock or anchor directly in charming, non-commercialized island harbors away from mega-ship piers.",
+        "features": ["Boutique ports", "Town quays", "Fewer crowds"]
+      },
+      {
+        "icon": "Sun",
+        "title": "Beach Experiences",
+        "description": "Relax on pristine white-sand beaches, secluded coves, and private beach club settings across the islands.",
+        "features": ["Secluded coves", "White-sand bays", "Crystal clear waters"]
+      },
+      {
+        "icon": "Waves",
+        "title": "Watersports",
+        "description": "Enjoy direct ocean access with complimentary kayaking, paddleboarding, and snorkeling from the ship.",
+        "features": ["Marina watersports", "Snorkeling reefs", "Paddleboarding"]
+      },
+      {
+        "icon": "Landmark",
+        "title": "Local Culture",
+        "description": "Discover authentic island communities, historic colonial towns, and genuine Caribbean warmth.",
+        "features": ["Historic settlements", "Island traditions", "Artisan crafts"]
+      },
+      {
+        "icon": "Utensils",
+        "title": "Gourmet Dining & Signature Events",
+        "description": "Savor world-class culinary creations alongside legendary events like Caviar in the Surf and Marina Day.",
+        "features": ["Caviar in the Surf", "Marina Day", "Open-seating dining"]
+      }
+    ]
+  },
+  "itineraryShowcase": {
+    "title": "Seabourn Caribbean Itinerary Options",
+    "subtitle": "WHERE TO SAIL",
+    "items": [
+      {
+        "category": "U.S. Virgin Islands • British Virgin Islands • Leewards • Windwards",
+        "title": "Eastern Caribbean Itineraries",
+        "subtitle": "Eastern Caribbean Cruises",
+        "description": "Eastern Caribbean itineraries appeal to travelers looking for beaches, clear turquoise water, island scenery, snorkeling, sailing, and relaxed port days. Depending on the sailing, ports span the U.S. Virgin Islands, British Virgin Islands, Leeward Islands, and Windward Islands.",
+        "bestFor": "St. Barts, Jost Van Dyke, Virgin Gorda, St. Kitts, Nevis, Antigua, and St. Martin.",
+        "placeholderLabel": "EASTERN CARIBBEAN"
+      },
+      {
+        "category": "Barbados • Grenada • St. Lucia • Martinique • Guadeloupe",
+        "title": "Southern Caribbean Itineraries",
+        "subtitle": "Southern Caribbean Cruises",
+        "description": "Southern Caribbean itineraries offer a different atmosphere, combining beaches with lush rainforests, dramatic volcanic landscapes, local Creole food, history, and vibrant culture across the southernmost islands.",
+        "bestFor": "Barbados, Grenada, St. Lucia (Pitons), St. Vincent & the Grenadines, Martinique, Guadeloupe, and Dominica.",
+        "placeholderLabel": "SOUTHERN CARIBBEAN"
+      },
+      {
+        "category": "Small Harbors • Dramatic Coastlines • Coral Reefs • Local Villages",
+        "title": "The Lesser Antilles Itineraries",
+        "subtitle": "The Lesser Antilles",
+        "description": "The Lesser Antilles are particularly well suited to small-ship cruising. A smaller luxury ship provides a remarkably intimate way to explore secluded island chains with minimal crowds and effortless tender access.",
+        "bestFor": "Bequia, Mayreau, Îles des Saintes, Carriacou, Montserrat, and Anguilla.",
+        "placeholderLabel": "LESSER ANTILLES"
+      }
+    ]
+  },
+  "yachtHarborsFaceoff": {
+    "title": "Seabourn Yacht Harbors & Why Small Ports Matter",
+    "regent": {
+      "title": "A Yacht Harbor Experience",
+      "badge": "Boutique Yacht Harbors",
+      "description": "One of the strongest advantages of a smaller luxury ship is the ability to experience yacht-style harbors.",
+      "features": [
+        "Scenic tropical surroundings without industrial freight piers",
+        "Significantly smaller crowds and peaceful atmosphere",
+        "Beautiful waterfront promenades and marina boardwalks",
+        "Easy walking access to local cafés and seafood restaurants",
+        "Charming island towns and historic colonial streets",
+        "More relaxed, unhurried, and flexible port days"
+      ]
+    },
+    "viking": {
+      "title": "Why Smaller Harbors Matter",
+      "badge": "Authentic Island Life",
+      "description": "Some of the most memorable experiences come from boutique ports rather than famous mega-terminals.",
+      "features": [
+        "Walk right along the waterfront at your own pace",
+        "Visit a local seaside café or authentic rum distillery",
+        "Explore historic fishing villages and cobblestone lanes",
+        "Swim at a quiet nearby beach away from cruise tour buses",
+        "Take a small private boat excursion to uninhabited cays",
+        "Enjoy pristine scenery and sunsets without large crowds"
+      ]
+    }
+  },
+  "beachCategories": [
+    {
+      "title": "Beaches for Relaxation",
+      "items": [
+        "Quieter secluded bays with calm, gentle swimming water",
+        "Soft white sand lined with swaying coconut palms",
+        "Minimal commercial vendors and tour bus congestion",
+        "Perfect for peaceful reading, sunbathing, and unwinding"
+      ]
+    },
+    {
+      "title": "Beaches for Snorkeling",
+      "items": [
+        "Destinations renowned for crystal clear water visibility",
+        "Thriving living coral reefs just off the shoreline",
+        "Abundant tropical fish, sea turtles, and marine life",
+        "Protected marine reserves and calm underwater bays"
+      ]
+    },
+    {
+      "title": "Beaches for Dramatic Scenery",
+      "items": [
+        "Towering volcanic peaks and lush clifftop backdrops",
+        "Stunning contrasts of emerald green rainforest and sapphire sea",
+        "Iconic Caribbean settings like St. Lucia's Pitons and Virgin Gorda Baths",
+        "Extraordinary photo opportunities from sunrise to sunset"
+      ]
+    },
+    {
+      "title": "Beaches for Watersports",
+      "items": [
+        "Active coastal bays ideal for sea kayaking and paddleboarding",
+        "Sheltered lagoons for swimming directly from the ship's marina",
+        "Sailing catamarans and Zodiac explorations into hidden coves",
+        "Windsurfing and snorkeling equipment available right at the beach"
+      ]
+    }
+  ],
+  "marinaDaySection": {
+    "title": "Seabourn Marina Day: Your Floating Beach Club",
+    "subtitle": "DIRECT OCEAN WATERSPORTS",
+    "description": "Marina Day is one of the signature experiences that makes a Seabourn Caribbean cruise feel entirely different from a conventional cruise. When conditions allow, the ship deploys its retractable aft marina, creating the feeling of your own private floating beach club in warm Caribbean bays.",
+    "features": [
+      {
+        "title": "Swimming Directly from the Ship",
+        "description": "Step right off the aft marina platform into the calm, warm Caribbean sea for an exhilarating open-water swim."
+      },
+      {
+        "title": "Kayaking & Stand-Up Paddleboarding",
+        "description": "Glide across crystal-clear turquoise waters and explore nearby shorelines and secluded coves at your own pace."
+      },
+      {
+        "title": "Banana Boats & Active Water Fun",
+        "description": "Enjoy fun-filled water toys, tubing, and high-energy water activities operated by Seabourn's expert watersports team."
+      },
+      {
+        "title": "Sunbathing & Relaxing by the Water",
+        "description": "Lounge comfortably on the marina deck with refreshments and attentive crew service just inches from the ocean."
+      }
+    ]
+  },
+  "caviarInTheSurf": {
+    "heading": "Seabourn Caviar in the Surf",
+    "subtitle": "SIGNATURE ULTRA-LUXURY MOMENT",
+    "paragraphs": [
+      "Caviar in the Surf is one of Seabourn's most recognizable signature experiences. It is designed to seamlessly combine Seabourn's luxury identity with the Caribbean's natural tropical environment.",
+      "Rather than serving caviar exclusively in an elegant dining room, Seabourn takes the celebration outdoors. Uniformed staff wade waist-deep into the Caribbean shallows with floating surfboards laden with chilled caviar and Champagne."
+    ],
+    "highlights": [
+      "Iced tins of premium Regiis Ova caviar served in the shallows",
+      "Free-flowing chilled French Champagne served right in the surf",
+      "Sun-drenched Caribbean white-sand beach scenery",
+      "Lavish beachside gourmet barbecue feast with fresh grilled lobster",
+      "Complimentary signature event included with zero extra cover charge",
+      "An unforgettably fun, social, and photogenic milestone memory"
+    ],
+    "image1Placeholder": "CAVIAR & CHAMPAGNE IN THE SURF",
+    "image2Placeholder": "BEACHSIDE GOURMET BARBECUE"
+  },
+  "excursionCategories": [
+    {
+      "title": "Beach & Water Experiences",
+      "items": [
+        "Private VIP beach club day passes with dedicated sun loungers",
+        "Secluded catamaran sailing charters to uninhabited offshore cays",
+        "Quiet swimming coves and white-sand beach transfers",
+        "Scenic coastal boat cruises along dramatic island coastlines"
+      ]
+    },
+    {
+      "title": "Snorkeling & Sailing Excursions",
+      "items": [
+        "Guided snorkeling tours over vibrant coral reefs and shipwrecks",
+        "Swimming alongside sea turtles and spotted eagle rays",
+        "America's Cup style yacht racing and catamaran sailing",
+        "Sea kayaking through protected tropical mangrove lagoons"
+      ]
+    },
+    {
+      "title": "Wildlife & Tropical Nature",
+      "items": [
+        "Hikes through lush rainforests and volcanic crater reserves",
+        "Visits to botanical gardens and cascading jungle waterfalls",
+        "Birdwatching for rare endemic parrots and tropical wildlife",
+        "Off-road 4x4 safari adventures through rugged island interiors"
+      ]
+    },
+    {
+      "title": "Culture, History & Culinary",
+      "items": [
+        "Historic UNESCO forts, colonial architecture, and plantation estates",
+        "Rum distillery heritage tours and aged rum tastings",
+        "Local culinary masterclasses with regional Caribbean chefs",
+        "Strolling through vibrant island spice markets and artisan shops"
+      ]
+    }
+  ],
+  "firstTimeTips": {
+    "title": "Best Seabourn Caribbean Excursions for First-Time Visitors",
+    "subtitle": "BALANCED ISLAND DISCOVERY",
+    "items": [
+      {
+        "step": "01",
+        "title": "One Classic Beach Day",
+        "description": "Enjoy the classic Caribbean experience with white sand, turquoise water, and relaxing in a tropical setting."
+      },
+      {
+        "step": "02",
+        "title": "One Snorkeling or Sailing Excursion",
+        "description": "Experience the Caribbean from the water via catamaran, visiting offshore reefs and secluded coves."
+      },
+      {
+        "step": "03",
+        "title": "One Cultural or Historical Tour",
+        "description": "Learn about the islands beyond their beaches by visiting historic towns, forts, and colonial architecture."
+      },
+      {
+        "step": "04",
+        "title": "One Nature or Rainforest Excursion",
+        "description": "Explore lush interior rainforests, volcanic landscapes, dramatic waterfalls, and exotic tropical wildlife."
+      },
+      {
+        "step": "05",
+        "title": "One Completely Unscheduled Day",
+        "description": "Sometimes the best Caribbean experience is simply walking ashore into a boutique harbor and exploring at your own relaxed pace."
+      }
+    ]
+  },
+  "travelerPersonas": {
+    "title": "Who Seabourn Caribbean Is Best For",
+    "subtitle": "THE RIGHT FIT • BEACH LOVERS, FOODIES, COUPLES & FAMILIES",
+    "personas": [
+      {
+        "icon": "Palmtree",
+        "title": "Beach & Relaxation Lovers",
+        "description": "If your priority is pure rejuvenation, Seabourn is exceptional. Combine beach time, pool time, Marina Day, watersports, spa treatments, and fine dining for a trip that doesn't require constant sightseeing.",
+        "traits": [
+          "Uncrowded white-sand beaches and secluded bays",
+          "Marina Day with direct ocean swimming and watersports",
+          "Luxurious spa treatments and poolside ocean views"
+        ],
+        "recommendations": ["Beach Lovers", "Relaxation Seekers"]
+      },
+      {
+        "icon": "Utensils",
+        "title": "Food & Rum Connoisseurs",
+        "description": "Caribbean travel provides a wonderful opportunity to explore regional cuisine, fresh local seafood, island spices, French-Creole traditions, and historic aged rum distilleries.",
+        "traits": [
+          "Fresh grilled spiny lobster and local Caribbean spices",
+          "French-Caribbean Creole gastronomy in Martinique & St. Barts",
+          "Complimentary open-seating gourmet dining onboard"
+        ],
+        "recommendations": ["Culinary Travelers", "Rum Enthusiasts"]
+      },
+      {
+        "icon": "Heart",
+        "title": "Couples & Romantic Escapes",
+        "description": "The Caribbean is naturally romantic with Seabourn. A typical day balances morning beach excursions, afternoon Marina Day relaxation, and evening sunset cocktails and veranda dining.",
+        "traits": [
+          "Morning: Leisurely snorkeling or secluded cove excursion",
+          "Afternoon: Relax onboard or enjoy watersports from the marina",
+          "Evening: Candlelit dinner and cocktails under tropical stars"
+        ],
+        "recommendations": ["Honeymoons", "Anniversaries", "Couples"]
+      },
+      {
+        "icon": "Compass",
+        "title": "Solo Travelers",
+        "description": "Solo travelers thrive in Seabourn's intimate, welcoming environment. The smaller ship fosters easy social interaction during excursions, dining, and Marina Day while allowing abundant personal space.",
+        "traits": [
+          "Friendly, social small-ship atmosphere with like-minded guests",
+          "Hosted dinner tables and shared shore excursion groups",
+          "Spacious private veranda suites with luxury amenities"
+        ],
+        "recommendations": ["Solo Travelers", "Independent Explorers"]
+      },
+      {
+        "icon": "Users",
+        "title": "Multigenerational Families",
+        "description": "Suitable for families with adult children or teens who appreciate pristine beaches, snorkeling, watersports, and refined luxury. (Note: Seabourn does not have waterslides or dedicated kids' clubs).",
+        "traits": [
+          "Active snorkeling, kayaking, and sailing excursions",
+          "Connecting luxury suites with spacious private verandas",
+          "Emphasis on shared island adventures and quality time"
+        ],
+        "recommendations": ["Mature Families", "Multi-Gen Groups"]
+      }
+    ]
+  },
+  "seasonsCards": {
+    "title": "Best Time for a Seabourn Caribbean Cruise",
+    "subtitle": "TIMING YOUR CARIBBEAN VOYAGE • SEASONAL HIGHLIGHTS & CLIMATE",
+    "cards": [
+      {
+        "icon": "Sun",
+        "title": "Winter (Dec – Feb)",
+        "description": "The quintessential peak season. Warm sunny weather, lowest rainfall, calm seas, and the ultimate tropical escape from colder northern climates.",
+        "bullets": [
+          "Peak sunny weather & calm ocean seas",
+          "Lowest humidity & minimal rainfall",
+          "Ideal swimming & beach club conditions"
+        ]
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Spring (Mar – May)",
+        "description": "Glorious tropical temperatures with crystal-clear underwater visibility for snorkeling, and noticeably fewer peak holiday crowds.",
+        "bullets": [
+          "Warm waters & superb reef visibility",
+          "Pleasant coastal breezes throughout",
+          "Fewer crowds in marquee yacht harbors"
+        ]
+      },
+      {
+        "icon": "Thermometer",
+        "title": "Summer (Jun – Aug)",
+        "description": "Hot tropical temperatures, vibrant local summer culture, and attractive cruise fares, with early Atlantic storm monitoring.",
+        "bullets": [
+          "Warmest tropical ocean water temperatures",
+          "Vibrant local island summer culture",
+          "Favorable summer pricing opportunities"
+        ]
+      },
+      {
+        "icon": "CloudRain",
+        "title": "Fall (Sep – Nov)",
+        "description": "The quietest time in the Caribbean with peaceful anchorages. Comprehensive travel insurance is essential due to active tropical weather.",
+        "bullets": [
+          "Fewest travelers & most tranquil ports",
+          "Warmest sea temperatures for diving",
+          "Requires flexibility for tropical weather"
+        ]
+      }
+    ]
+  },
+  "packingChecklist": {
+    "title": "What to Pack for a Seabourn Caribbean Cruise",
+    "subtitle": "PACKING ESSENTIALS • WARM-WEATHER TROPICAL LIVING & ELEGANT EVENINGS",
+    "categories": [
+      {
+        "id": "daytime",
+        "icon": "ShirtIcon",
+        "label": "Daytime & Tropical Living",
+        "items": [
+          "Lightweight breathable linen shirts, polos, and cotton blouses",
+          "Comfortable walking shorts, skirts, and lightweight linen trousers",
+          "Multiple sets of swimwear and stylish beach cover-ups",
+          "Comfortable walking sandals, boat shoes, and water shoes",
+          "Wide-brimmed sun hat and UV-blocking polarized sunglasses"
+        ]
+      },
+      {
+        "id": "beach-water",
+        "icon": "BackpackIcon",
+        "label": "Beach & Watersports",
+        "items": [
+          "High-SPF reef-safe sunscreen and soothing after-sun lotion",
+          "Waterproof phone pouch or dry bag for marina days and boat tours",
+          "Personal well-fitting snorkeling mask and snorkel (optional but recommended)",
+          "Compact microfiber beach towel or rash guard for snorkeling",
+          "Reusable insulated water bottle to stay hydrated under the tropical sun"
+        ]
+      },
+      {
+        "id": "excursions",
+        "icon": "BackpackIcon",
+        "label": "Shore Excursions & Hiking",
+        "items": [
+          "Comfortable broken-in walking shoes or trail runners for nature hikes",
+          "Lightweight compact daypack for carrying excursion essentials",
+          "Insect repellent for rainforest walks and botanical gardens",
+          "Lightweight breathable rain jacket or windbreaker for tropical showers"
+        ]
+      },
+      {
+        "id": "evening",
+        "icon": "HeartIcon",
+        "label": "Evening Elegance",
+        "items": [
+          "Smart-casual tropical evening attire for open-seating dinners",
+          "Collared shirts, lightweight trousers, or casual blazers for gentlemen",
+          "Sundresses, cocktail dresses, or elegant evening separates for ladies",
+          "Comfortable evening dress shoes, loafers, or wedges",
+          "Light wrap, pashmina, or cardigan for air-conditioned indoor lounges"
+        ]
+      }
+    ]
+  },
+  "scenicCruising": {
+    "title": "Seabourn Caribbean Scenic Cruising & Balcony Value",
+    "subtitle": "VIEWS FROM THE SHIP",
+    "paragraphs": [
+      "Not every memorable Caribbean moment happens ashore. The region is stunningly beautiful from the ship as well. Scenic cruising reveals lush tropical islands, volcanic mountain peaks, white-sand coves, and dramatic coastlines.",
+      "A private veranda suite provides an intimate, quiet sanctuary to enjoy morning coffee as your ship glides into a tranquil harbor, watch dramatic island sunsets, and relax after an active excursion."
+    ],
+    "highlights": [
+      "Sip morning coffee while watching dramatic tropical islands appear on the horizon",
+      "Watch the ship sail into boutique harbors and drop anchor in turquoise bays",
+      "Enjoy private front-row views of breathtaking Caribbean sunsets",
+      "Unwind in complete privacy with room service on your veranda between excursions",
+      "Observe lush volcanic coastlines and passing sailing yachts in total serenity"
+    ],
+    "conclusion": "A private veranda enhances every aspect of your Caribbean journey, offering private oceanfront relaxation throughout the voyage."
+  },
+  "seabournVsLargeFaceoff": {
+    "title": "Seabourn vs. Large-Ship Caribbean Cruises",
+    "regent": {
+      "title": "Seabourn Small-Ship Luxury",
+      "badge": "Intimate Small Ship (450–600 Guests)",
+      "description": "An intimate, refined yacht-like experience focused on destinations and service.",
+      "features": [
+        "Small luxury ships (450–600 guests) with an intimate yacht atmosphere",
+        "Nearly 1:1 crew-to-guest ratio providing highly personalized service",
+        "Access to boutique yacht harbors, secluded bays, and small islands",
+        "All-suite oceanfront accommodations with expansive private verandas",
+        "Signature experiences: Marina Day watersports and Caviar in the Surf",
+        "Inclusive model: open-bar drinks, fine wines, Wi-Fi, and gratuities",
+        "Sophisticated, relaxed ambiance with zero lines, crowds, or blaring noise",
+        "Emphasis on pristine beaches, local culture, and bespoke excursions"
+      ]
+    },
+    "viking": {
+      "title": "Large-Ship Mega Cruises",
+      "badge": "Mega Resort Ship (3,000–6,000+ Guests)",
+      "description": "Massive resort ships offering high-energy commercial entertainment.",
+      "features": [
+        "Mega-ships carrying 3,000 to 6,000+ passengers",
+        "Large-scale service with scheduled seatings in vast dining halls",
+        "Restricted to large commercial industrial cruise terminals",
+        "Cabin mix includes small windowless interior and ocean-view rooms",
+        "Extra charges for specialty dining, drinks, Wi-Fi, and daily gratuities",
+        "Extensive onboard theme park amenities (water parks, casinos, big shows)",
+        "Busy pool decks, crowded tenders, and long disembarkation lines",
+        "Commercialized port stops with major retail chains and crowded beaches"
+      ]
+    }
+  },
+  "inclusionsAndDining": {
+    "title": "Seabourn Caribbean Inclusions & Dining",
+    "subtitle": "ALL-INCLUSIVE CULINARY EXCELLENCE",
+    "description": "Dining is a highlight of every Seabourn voyage. Guests enjoy open-seating gourmet venues, regionally inspired menus, and complimentary fine wines and champagne.",
+    "items": [
+      {
+        "title": "The Restaurant",
+        "subtitle": "Primary Fine Dining",
+        "description": "The elegant main dining room offering open seating, masterfully crafted multi-course menus, and regional Caribbean seafood specialties paired with fine wines."
+      },
+      {
+        "title": "The Colonnade",
+        "subtitle": "Casual Indoor & Outdoor Dining",
+        "description": "A relaxed venue featuring lavish breakfast and lunch buffets, and themed regional dinners with alfresco ocean-view terrace seating."
+      },
+      {
+        "title": "The Patio",
+        "subtitle": "Poolside Alfresco Dining",
+        "description": "Casual poolside grill serving fresh grilled Caribbean fish, gourmet burgers, salads, and freshly baked pizzas under the tropical sun."
+      },
+      {
+        "title": "24-Hour In-Suite Dining",
+        "subtitle": "Course-by-Course Veranda Service",
+        "description": "Complimentary 24-hour room service, including dinner served course-by-course on your private veranda from The Restaurant menu."
+      }
+    ]
+  },
+  "worthItBrand": {
+    "name": "Seabourn Caribbean Value Proposition",
+    "bestFor": "Discerning Travelers Seeking Authentic Caribbean Islands in Uncompromising Five-Star Luxury",
+    "whatMakesItStandOut": "For travelers who value intimacy, personalized service, luxury suites, and unique beach experiences, Seabourn justifies its premium. The value comes from combining yacht-like harbor access, all-inclusive luxury, and iconic signature moments.",
+    "strengths": [
+      "Access to boutique yacht harbors and secluded beaches unreachable by mega-ships",
+      "Exclusive signature events: Marina Day watersports and Caviar in the Surf",
+      "Inclusive luxury model covering open-bar drinks, fine wines, Wi-Fi, and gratuities",
+      "All-suite oceanfront accommodations with dedicated Suite Hosts",
+      "World-class open-seating dining program featuring fresh regional seafood"
+    ],
+    "considerations": [
+      "The value comes from combining small-ship intimacy, personalized hospitality, and curated destination discovery."
+    ],
+    "image": ""
+  },
+  "prosCons": {
+    "title": "Seabourn Caribbean Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "Intimate small-ship luxury atmosphere with only 450–600 guests",
+      "Access to boutique yacht harbors and secluded Caribbean coves",
+      "Direct ocean watersports with complimentary Marina Day",
+      "Iconic signature events like Caviar in the Surf on pristine beaches",
+      "Nearly 1:1 intuitive crew-to-guest service ratio",
+      "All-suite accommodations with expansive private verandas",
+      "World-class dining across multiple open-seating gourmet venues",
+      "Inclusive luxury model covering fine wines, spirits, Wi-Fi, and gratuities",
+      "Relaxed, sophisticated ambiance ideal for couples and culture enthusiasts",
+      "Docking directly in charming towns rather than industrial freight docks",
+      "Excellent selection of curated small-group water activities",
+      "Far fewer crowds and zero long lines compared to mega-ships"
+    ],
+    "notBestFor": [
+      "Higher upfront cruise fare than mainstream mass-market cruise lines",
+      "Fewer large-scale entertainment facilities, waterparks, or big casinos",
+      "Limited infrastructure for children seeking large supervised kids' clubs",
+      "Weather and sea conditions can occasionally affect marina or beach activities",
+      "Atlantic hurricane season (June–Nov) requires travel flexibility",
+      "Individual shore excursions carry additional charges"
+    ],
+    "bottomNote": "Weighing these factors ensures a Seabourn Caribbean cruise perfectly matches your vacation style."
+  },
+  "whoShouldBookChecklist": {
+    "title": "Who Should Book vs. Considering Alternatives",
+    "ama": {
+      "name": "Who Should Book a Seabourn Caribbean Cruise?",
+      "reasons": [
+        "Love beaches and secluded tropical coves",
+        "Prefer smaller ships with an intimate atmosphere",
+        "Enjoy luxury travel and personalized five-star service",
+        "Appreciate excellent fine dining and premium beverages",
+        "Enjoy watersports, snorkeling, and Marina Day access",
+        "Prefer fewer crowds and quiet, unhurried port days",
+        "Want a sophisticated yacht-like cruising experience",
+        "Are excited about unique signature events like Caviar in the Surf",
+        "Have already experienced mass-market Caribbean cruises and want something refined"
+      ]
+    },
+    "avalon": {
+      "name": "Who May Prefer Another Caribbean Cruise?",
+      "reasons": [
+        "Waterparks and massive multi-story waterslides",
+        "Large children's clubs and extensive youth programs",
+        "Huge multi-deck entertainment and Broadway show venues",
+        "Dozens of casual theme restaurants and large buffets",
+        "Large-scale commercial casinos and loud poolside parties",
+        "Extensive late-night nightclub and party scene",
+        "The lowest possible budget cruise fare"
+      ]
+    }
+  },
+  "itineraryTips": {
+    "title": "Tips for Choosing the Right Seabourn Caribbean Itinerary",
+    "subtitle": "GETTING IT RIGHT • EXPERT TRAVEL ADVICE",
+    "items": [
+      {
+        "step": "01",
+        "title": "Decide Between Beaches and Culture",
+        "description": "Some itineraries emphasize pure beach relaxation (Eastern Caribbean), while others offer volcanic rainforest exploration and Creole history (Southern Caribbean)."
+      },
+      {
+        "step": "02",
+        "title": "Look at the Ports Carefully",
+        "description": "Boutique small harbors like Jost Van Dyke, Bequia, and St. Barts often become the highlight of the entire vacation."
+      },
+      {
+        "step": "03",
+        "title": "Check for Marina Day Availability",
+        "description": "If open-water swimming, kayaking, and paddleboarding from the ship are important to you, look for sailings where Marina Day is scheduled."
+      },
+      {
+        "step": "04",
+        "title": "Look for Caviar in the Surf",
+        "description": "This iconic signature beach celebration is a defining milestone experience for first-time and repeat Seabourn guests."
+      },
+      {
+        "step": "05",
+        "title": "Consider the Sailing Season",
+        "description": "Winter provides ideal sunny weather, while spring and fall shoulder seasons offer fewer crowds and pleasant cruising conditions."
+      },
+      {
+        "step": "06",
+        "title": "Research Excursions Before Departure",
+        "description": "Popular small-group catamaran charters, reef snorkeling tours, and rainforest hikes can fill up in advance."
+      },
+      {
+        "step": "07",
+        "title": "Leave Room for Unscheduled Relaxation",
+        "description": "Don't schedule a packed tour in every port. Some of the best days involve simply walking ashore to a quiet beach café."
+      },
+      {
+        "step": "08",
+        "title": "Choose a Suite with a Private Veranda",
+        "description": "A private balcony allows you to enjoy morning coffee, sea breezes, and stunning Caribbean sunsets in complete privacy."
+      },
+      {
+        "step": "09",
+        "title": "Consider Comprehensive Travel Insurance",
+        "description": "Travel insurance provides valuable peace of mind, particularly if traveling during the Atlantic hurricane season."
+      },
+      {
+        "step": "10",
+        "title": "Work with a Luxury Travel Specialist",
+        "description": "An experienced advisor like Angela Hughes compares itineraries, secures prime suite locations, and coordinates seamless VIP transfers."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "CARIBBEAN LUXURY CRUISE EXPERT",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Caribbean Travel Experience",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "Sailing the Caribbean on Seabourn is like having your own private luxury yacht. Dropping anchor in secluded harbors and enjoying Caviar in the Surf is the purest expression of tropical luxury.",
+    "quoteSubtitle": "Personal Caribbean Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand experience exploring more than 121 countries, Angela Hughes is globally recognized for her expertise in small-ship luxury cruising, boutique island navigation, and Caribbean itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela collaborates closely with discerning clients to choose the ideal Caribbean route, reserve coveted veranda suites, and arrange customized private shore excursions."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Plan with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Where does Seabourn cruise in the Caribbean?",
+      "answer": "Seabourn Caribbean itineraries can include destinations across the Eastern Caribbean, Southern Caribbean, Lesser Antilles and other Caribbean regions, depending on the sailing."
+    },
+    {
+      "question": "What makes Seabourn Caribbean cruises different?",
+      "answer": "Seabourn focuses on an intimate luxury experience with smaller ships, personalized service, yacht-style harbors, beach experiences and distinctive Signature Events."
+    },
+    {
+      "question": "Does Seabourn offer Marina Day in the Caribbean?",
+      "answer": "Marina Day can be offered on selected Seabourn Caribbean voyages when weather, sea conditions and local regulations permit."
+    },
+    {
+      "question": "What is Seabourn Caviar in the Surf?",
+      "answer": "Caviar in the Surf is a Seabourn Signature Event that combines caviar and Champagne with a beach and ocean setting."
+    },
+    {
+      "question": "Is Caviar in the Surf included?",
+      "answer": "When offered as a Seabourn Signature Event, it is generally part of the cruise experience rather than a separately purchased dining venue. Availability depends on the itinerary and conditions."
+    },
+    {
+      "question": "Does Seabourn visit small Caribbean ports?",
+      "answer": "Selected itineraries can include smaller harbors and destinations that provide a more intimate experience than major commercial cruise ports."
+    },
+    {
+      "question": "What are the best Seabourn Caribbean itineraries?",
+      "answer": "The best itinerary depends on your priorities. Eastern Caribbean routes can be excellent for beaches and water activities, while Southern Caribbean itineraries can provide more varied landscapes and cultural experiences."
+    },
+    {
+      "question": "What is the best time for a Seabourn Caribbean cruise?",
+      "answer": "Winter and early spring are popular because of warm weather and generally favorable conditions. Other seasons can offer fewer crowds but come with different weather considerations."
+    },
+    {
+      "question": "Is summer a good time to cruise the Caribbean?",
+      "answer": "It can be, especially for travelers looking for warm weather and potentially lower fares. However, tropical weather and hurricane-season considerations become more important."
+    },
+    {
+      "question": "Is the Caribbean hurricane season a concern?",
+      "answer": "Yes. The Atlantic hurricane season runs from June through November. Cruise itineraries can be adjusted when tropical weather affects destinations."
+    },
+    {
+      "question": "Is Seabourn Caribbean good for couples?",
+      "answer": "Yes. The intimate ships, beaches, fine dining and romantic tropical settings make Seabourn particularly attractive to couples."
+    },
+    {
+      "question": "Is Seabourn Caribbean good for solo travelers?",
+      "answer": "Yes. Solo travelers can participate in excursions, dining, Marina Day and other onboard activities while enjoying the smaller-ship atmosphere."
+    },
+    {
+      "question": "Is Seabourn Caribbean good for families?",
+      "answer": "It can work well for multigenerational families who enjoy beaches and watersports, but travelers looking for extensive children's entertainment may prefer a larger cruise line."
+    },
+    {
+      "question": "What should I pack for a Seabourn Caribbean cruise?",
+      "answer": "Bring lightweight clothing, swimwear, comfortable walking shoes, sunglasses, sunscreen, a hat, a light rain layer and smart-casual evening clothing."
+    },
+    {
+      "question": "Is a balcony worth it on a Seabourn Caribbean cruise?",
+      "answer": "For many travelers, yes. A balcony provides private space for enjoying tropical views, sunsets and relaxing between excursions."
+    },
+    {
+      "question": "Are shore excursions included on Seabourn Caribbean cruises?",
+      "answer": "The exact inclusions vary by sailing. Some onboard experiences may be included while individual shore excursions can carry additional charges."
+    },
+    {
+      "question": "Is Seabourn Caribbean all-inclusive?",
+      "answer": "Seabourn offers an inclusive luxury cruise experience with many onboard amenities, dining, selected beverages, Wi-Fi and gratuities generally included. Specific terms vary by sailing."
+    },
+    {
+      "question": "Is a Seabourn Caribbean cruise worth the money?",
+      "answer": "For travelers who value small ships, personalized service, beautiful beaches, unique experiences and luxury rather than large-ship entertainment, Seabourn can be worth the premium."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is Seabourn Caribbean Right for You?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Seabourn Caribbean cruises are an excellent choice for travelers who want the Caribbean to feel more like a luxury yacht vacation than a traditional mega-ship cruise. The combination of beautiful beaches, smaller harbors, tropical scenery, Marina Day, Caviar in the Surf and personalized service creates a distinctly Seabourn approach to the region.",
+      "For travelers who want to spend their days swimming, exploring islands and relaxing in beautiful surroundings rather than participating in a huge onboard entertainment program, Seabourn can be an excellent fit."
+    ],
+    "recommendation": "Our recommendation: If your ideal Caribbean vacation combines beaches, yacht-style harbors, watersports, fine dining and sophisticated luxury, a Seabourn Caribbean cruise deserves serious consideration.",
+    "ctaText": "Start Planning Your Seabourn Caribbean Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Find Your Perfect Caribbean Sailing",
+      "description": "From Eastern harbors to Southern hideaways, let us help you find the itinerary, suite and pace that matches your style.",
+      "buttonText": "Speak With a Specialist",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Reserve Your Marina Day & Caviar in the Surf",
+      "description": "Let us help you choose a sailing where Seabourn's most memorable Caribbean moments are on the itinerary.",
+      "buttonText": "Explore Available Sailings",
+      "buttonLink": "/contact"
+    },
+    "midCta3": {
+      "title": "Plan Your Custom Caribbean Getaway",
+      "description": "Whether you want to lounge on white sand beaches, kayak through mangroves, or enjoy gourmet dining, we can guide you to the perfect fit.",
+      "buttonText": "Start Planning My Voyage",
+      "buttonLink": "/contact"
+    },
+    "midCta4": {
+      "title": "Experience the Yachting Lifestyle",
+      "description": "Skip the crowds and queues of mega-ships. Sail into the heart of the Caribbean's boutique harbors on Seabourn.",
+      "buttonText": "Explore Intimate Cruising",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Caribbean Cruise",
+      "description": "Connect with luxury Caribbean cruise specialist Angela Hughes to plan your unforgettable voyage.",
+      "buttonText": "Start Planning Your Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

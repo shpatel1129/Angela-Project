@@ -1,0 +1,642 @@
+{
+  "hero": {
+    "title": "Seabourn for Solo Travelers",
+    "subtitle": "Single Supplements, Dining, Suites & What to Expect",
+    "paragraphs": [
+      "A Seabourn cruise can be an excellent choice for solo travelers who want the freedom of traveling independently without giving up luxury, personalized service or opportunities to meet other guests.",
+      "Seabourn's intimate ships, relaxed atmosphere and destination-focused itineraries can make solo cruising feel less overwhelming than traveling alone on a very large cruise ship.",
+      "However, there is an important consideration: the cost of cruising alone. Solo travelers need to understand Seabourn's single-occupancy pricing, available promotions, suite options and itinerary choices before booking.",
+      "This guide explains Seabourn solo travel, single supplements, dining arrangements, social opportunities, choosing the right suite and which types of Seabourn itineraries work particularly well for travelers sailing alone."
+    ],
+    "ctaText": "Start Planning Your Solo Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Solo Travel at a Glance",
+    "subtitle": "QUICK OVERVIEW",
+    "caption": "Note: Single supplement rates, promotional offers, and solo amenities vary by sailing date, itinerary, and suite category.",
+    "headers": ["Feature", "Solo Traveler Experience"],
+    "rows": [
+      ["Ship atmosphere", "Intimate and sophisticated"],
+      ["Single supplement", "Varies by sailing and suite"],
+      ["Solo dining", "Flexible dining environment"],
+      ["Meeting people", "Relatively easy through activities and excursions"],
+      ["Suites", "Most accommodations are designed for two"],
+      ["Excursions", "Excellent opportunity to meet other travelers"],
+      ["Best for", "Independent luxury travelers"],
+      ["Social atmosphere", "Friendly without being overly structured"],
+      ["Best itinerary types", "Destination-rich, expedition and longer voyages"]
+    ]
+  },
+  "isGoodSection": {
+    "title": "Is Seabourn Good for Solo Travelers?",
+    "subtitle": "THE SHORT ANSWER",
+    "paragraphs": [
+      "Yes, Seabourn can be very good for solo travelers.",
+      "The biggest challenge is usually pricing, rather than the onboard experience. A solo traveler may pay more than a traveler sharing a suite because cruise fares are generally structured around double occupancy."
+    ],
+    "highlights": [
+      "Luxury accommodations",
+      "Personalized service",
+      "Smaller ships",
+      "Fine dining",
+      "Cultural experiences",
+      "Wildlife and expedition travel",
+      "Flexible days",
+      "A sophisticated social environment"
+    ],
+    "conclusion": "The biggest challenge is usually pricing, rather than the onboard experience. A solo traveler may pay more than a traveler sharing a suite because cruise fares are generally structured around double occupancy.",
+    "imagePlaceholderText": "Seabourn Solo Travel Overview"
+  },
+  "whyChooseGrid": {
+    "title": "Why Solo Travelers Choose Seabourn",
+    "subtitle": "THE ADVANTAGES • FREEDOM, SERVICE & INTIMATE SHIPS",
+    "paragraphs": [
+      "Solo travel on Seabourn offers an ideal balance between complete independence and effortless social connectivity.",
+      "Rather than navigating massive crowds alone, solo guests enjoy intuitive, personalized hospitality where crew and fellow guests quickly become familiar."
+    ],
+    "items": [
+      {
+        "icon": "Ship",
+        "title": "Smaller-Ship Atmosphere",
+        "description": "With only 450 to 600 guests onboard, you are never lost in a sea of anonymous crowds.",
+        "features": ["Restaurants", "Lounges", "Crew Recognition", "Fellow Guests", "Public Spaces"]
+      },
+      {
+        "icon": "Heart",
+        "title": "Personalized Service",
+        "description": "Attentive, intuitive service makes traveling alone comfortable, taking care of every logistics detail.",
+        "features": ["Dedicated Suite Host", "Personalized Dining", "Effortless Excursion Care"]
+      },
+      {
+        "icon": "Sun",
+        "title": "Complete Schedule Flexibility",
+        "description": "Spend your days exactly as you wish without having to compromise with a travel companion.",
+        "features": ["Unscheduled Mornings", "Spontaneous Shore Trips", "Private Veranda Hours"]
+      },
+      {
+        "icon": "Users",
+        "title": "Built-In Social Opportunities",
+        "description": "Excursions, open-seating dinners, and hosted cocktail hours create natural, pressure-free connection.",
+        "features": ["Hosted Tables", "Small-Group Excursions", "Zodiac Landings"]
+      },
+      {
+        "icon": "Gem",
+        "title": "Luxury Without Party Chaos",
+        "description": "Enjoy a sophisticated, refined atmosphere rather than a noisy, highly commercialized mega-resort.",
+        "features": ["Acoustic Music", "Quiet Ocean Lounges", "Enriching Lectures"]
+      }
+    ]
+  },
+  "singleSupplementSection": {
+    "title": "Seabourn Single Supplement Explained",
+    "subtitle": "UNDERSTANDING THE COST",
+    "paragraphs": [
+      "The single supplement is one of the most important considerations for solo travelers. Cruise fares are commonly advertised based on double occupancy. When one traveler occupies a suite alone, the cruise line may charge a higher percentage of the fare.",
+      "There is no single Seabourn single-supplement percentage that applies to every voyage. Pricing fluctuates based on demand and seasonality."
+    ],
+    "highlights": [
+      "Ship selected and overall guest capacity",
+      "Suite category chosen (Veranda vs. Premium Suites)",
+      "Sailing date and high vs. shoulder season timing",
+      "Specific itinerary popularity and destination",
+      "Current booking demand and cabin occupancy levels",
+      "Targeted promotional solo offers and reduced supplement specials",
+      "Remaining suite availability closer to departure"
+    ],
+    "conclusion": "Because single supplements vary by voyage and season, consulting an experienced luxury advisor helps pinpoint sailings with the most favorable solo terms."
+  },
+  "reducedFaresChecklist": {
+    "title": "Reduced Supplements & Finding the Best Solo Fare",
+    "subtitle": "SMART COST MANAGEMENT",
+    "cards": [
+      {
+        "title": "Reduced Single Supplements",
+        "items": [
+          "Be flexible with departure dates across different months",
+          "Compare different ships sailing in neighboring regions",
+          "Consider shoulder seasons (fall and late spring)",
+          "Evaluate entry-level Veranda suites vs. standard Ocean View suites",
+          "Monitor seasonal promotional windows for limited-time solo waivers"
+        ]
+      },
+      {
+        "title": "Finding the Best Solo Value",
+        "items": [
+          "Evaluate total trip cost rather than advertised base fare alone",
+          "Factor in inclusive amenities (fine wines, spirits, Wi-Fi, gratuities)",
+          "Consider flight, transfer, and pre-cruise luxury hotel packages",
+          "Weigh the value of a private veranda on scenic itineraries",
+          "Work with an advisor who can secure exclusive agency promotions"
+        ]
+      }
+    ]
+  },
+  "suiteOptionsShowcase": {
+    "title": "Which Seabourn Suite Is Best for a Solo Traveler?",
+    "subtitle": "ACCOMMODATIONS & VERANDA VALUE",
+    "items": [
+      {
+        "category": "Cost-Effective Luxury",
+        "title": "Entry-Level Ocean View & Veranda Suites",
+        "subtitle": "Smart Value for Solo Explorers",
+        "description": "An exceptional choice if your primary goal is keeping total single supplement costs under control while enjoying Seabourn's standard all-suite luxury, walk-in closet, and marble bathroom.",
+        "bestFor": "Budget-conscious solo luxury travelers and active port explorers.",
+        "placeholderLabel": "ENTRY-LEVEL SUITE"
+      },
+      {
+        "category": "Private Sanctuary",
+        "title": "Mid-Ship Veranda Suites",
+        "subtitle": "The Sweet Spot of Comfort & Views",
+        "description": "The most popular choice for solo travelers. A private balcony provides a tranquil sanctuary to read, sip morning coffee, watch scenic cruising, and relax in total privacy between shore excursions.",
+        "bestFor": "Scenic itineraries like Alaska, Antarctica, and Mediterranean coastlines.",
+        "placeholderLabel": "VERANDA SUITE"
+      },
+      {
+        "category": "Expansive Living",
+        "title": "Penthouse & Premium Suites",
+        "subtitle": "Extended Space & Entertaining",
+        "description": "Ideal if you anticipate spending significant time working or relaxing in your accommodation, or if you are sailing on an extended voyage or World Cruise.",
+        "bestFor": "World Cruises, extended back-to-back sailings, and working nomads.",
+        "placeholderLabel": "PENTHOUSE SUITE"
+      }
+    ]
+  },
+  "soloDiningShowcase": {
+    "title": "Solo Dining on Seabourn: Complete Flexibility",
+    "subtitle": "AT THE TABLE • DINE PRIVATELY OR JOIN HOSTED TABLES",
+    "description": "Dining alone can initially feel like a concern for solo cruisers, but Seabourn's open-seating model and intuitive hospitality make dining completely stress-free.",
+    "items": [
+      {
+        "title": "The Restaurant",
+        "subtitle": "Open-Seating Fine Dining",
+        "description": "Dine alone at your own private table with a good book, or ask the maître d' to seat you at a hosted table with fellow guests and ship officers."
+      },
+      {
+        "title": "The Colonnade",
+        "subtitle": "Casual Indoor & Outdoor Dining",
+        "description": "A relaxed, social buffet and themed dinner venue where striking up casual conversation over breakfast or lunch is natural and effortless."
+      },
+      {
+        "title": "The Patio & Seabourn Square",
+        "subtitle": "Poolside Grill & Artisanal Coffee",
+        "description": "Grab a light alfresco lunch poolside or enjoy artisanal espresso and fresh pastries in the vibrant, European-style Seabourn Square."
+      },
+      {
+        "title": "24-Hour In-Suite Course-by-Course",
+        "subtitle": "Private Veranda Sanctuary",
+        "description": "Enjoy full multi-course meals from The Restaurant served course-by-course in the comfort of your suite or on your private veranda."
+      }
+    ]
+  },
+  "tooQuietPhilosophy": {
+    "title": "Is Seabourn Too Quiet for Solo Travelers?",
+    "subtitle": "SETTING EXPECTATIONS • HIGH-ENERGY MEGA RESORTS VS. REFINED LUXURY",
+    "sailing": {
+      "label": "May Feel Too Quiet If You Want",
+      "philosophy": "High-Energy Mega Cruise Priorities",
+      "points": [
+        "Late-night pulsing nightclubs and loud DJ pool parties",
+        "Massive singles mixer programs with hundreds of people",
+        "Constant multi-deck high-decibel commercial entertainment",
+        "Huge casinos, Broadway theater productions, and water parks"
+      ]
+    },
+    "allSuite": {
+      "label": "The Atmosphere Is Ideal If You Prefer",
+      "philosophy": "Sophisticated Luxury & Meaningful Connection",
+      "points": [
+        "Stimulating dinner conversation and cultural discussions",
+        "World-class fine dining paired with sommelier-selected wines",
+        "Quiet reading on your veranda or in Seabourn Square",
+        "Destination-focused enrichment lectures and scenic cruising",
+        "Unwinding in peaceful luxury with complete personal control"
+      ]
+    },
+    "verdict": "Seabourn's strength is quiet luxury and quality interaction, rather than a highly programmed solo-cruising party scene."
+  },
+  "itineraryShowcase": {
+    "title": "Best Seabourn Itineraries for Solo Travelers",
+    "subtitle": "WHERE TO SAIL ALONE • CULTURE, WILDLIFE & IMMERSION",
+    "items": [
+      {
+        "category": "History • Food • Walking Tours • Boutique Ports",
+        "title": "Mediterranean Cruises",
+        "subtitle": "Cultural Discovery & Vibrant Harbors",
+        "description": "Exceptional for history, food, and walking tours in smaller ports. Small-group excursions provide effortless opportunities to connect with like-minded travelers.",
+        "bestFor": "First-time solo cruisers, art and food enthusiasts.",
+        "placeholderLabel": "MEDITERRANEAN"
+      },
+      {
+        "category": "Glaciers • Wildlife • Scenic Cruising • Wilderness",
+        "title": "Alaska Cruises",
+        "subtitle": "Breathtaking Wildlife & Scenic Fjords",
+        "description": "Ideal for wildlife viewing, glacier watching, and outdoor adventures. Shared whale-watching and kayaking excursions create instant camaraderie.",
+        "bestFor": "Nature lovers, photographers, and active travelers.",
+        "placeholderLabel": "ALASKA"
+      },
+      {
+        "category": "Zodiacs • Penguins • Polar Plunge • Icebergs",
+        "title": "Antarctica Expedition Cruises",
+        "subtitle": "The Ultimate Shared Expedition Adventure",
+        "description": "Expedition cruises are inherently social. Shared Zodiac landings, wildlife sightings, and daily briefings create strong, lasting bonds among solo explorers.",
+        "bestFor": "Adventurous solo travelers and bucket-list explorers.",
+        "placeholderLabel": "ANTARCTICA"
+      },
+      {
+        "category": "Fjords • Remote Settlements • Polar Bears",
+        "title": "Arctic & Greenland Expeditions",
+        "subtitle": "Remote Exploration in Five-Star Luxury",
+        "description": "Superb for travelers who enjoy truly remote destinations, pristine ice landscapes, Arctic wildlife, and deep exploration.",
+        "bestFor": "Exploration enthusiasts and photography aficionados.",
+        "placeholderLabel": "ARCTIC & GREENLAND"
+      },
+      {
+        "category": "Global Routes • Extended Community • Deep Friendships",
+        "title": "Grand Voyages & World Cruises",
+        "subtitle": "Extended Voyages & Lifelong Friendships",
+        "description": "Longer voyages appeal to seasoned solo travelers who enjoy developing deep, enduring friendships with fellow guests and crew over several months.",
+        "bestFor": "Experienced solo travelers with flexible schedules.",
+        "placeholderLabel": "WORLD CRUISES"
+      }
+    ]
+  },
+  "personalityFaceoff": {
+    "title": "Solo Travel for Introverts & Extroverts",
+    "regent": {
+      "title": "For Introverted Solo Travelers",
+      "badge": "Privacy & Peace on Your Terms",
+      "description": "Enjoy the luxury of solitude without feeling pressured to socialize.",
+      "features": [
+        "Spend peaceful mornings reading on your private veranda",
+        "Explore quiet boutique ports and local cafés independently",
+        "Enjoy course-by-course room service dinners in total tranquility",
+        "Relax in the tranquil spa or observation lounge with ocean views",
+        "Choose to socialize only when and where you feel comfortable"
+      ]
+    },
+    "viking": {
+      "title": "For Extroverted Solo Travelers",
+      "badge": "Organic Connections & Shared Adventures",
+      "description": "Find engaging conversations and social companionship easily.",
+      "features": [
+        "Join small-group culinary, hiking, and cultural shore excursions",
+        "Request shared tables at The Restaurant to meet new dinner companions",
+        "Attend engaging enrichment lectures and evening musical performances",
+        "Connect with fellow guests and officers at the evening Club lounge",
+        "Build organic friendships through repeated encounters on an intimate ship"
+      ]
+    }
+  },
+  "genderAndExcursions": {
+    "title": "Solo Women, Solo Men & Curated Excursions",
+    "subtitle": "INDEPENDENT TRAVEL MADE SAFE, EASY & SOCIAL",
+    "cards": [
+      {
+        "title": "Solo Women on Seabourn",
+        "items": [
+          "Safe, secure, and upscale environment with attentive staff recognition",
+          "Organized small-group excursions provide seamless, worry-free port discovery",
+          "Dedicated Suite Host ensures personalized care and comfort throughout",
+          "Sophisticated fellow guest demographic fosters respectful camaraderie"
+        ]
+      },
+      {
+        "title": "Solo Men on Seabourn",
+        "items": [
+          "Complete freedom to explore ports at your own unhurried pace",
+          "Participate in active hiking, kayaking, wildlife, and golf excursions",
+          "Enjoy open-seating fine dining, premium spirits, and scotch tastings",
+          "Connect naturally with fellow travelers during destination briefings"
+        ]
+      },
+      {
+        "title": "Shore Excursions for Solo Travelers",
+        "items": [
+          "Small-group food tours, cooking masterclasses, and wine tastings",
+          "Guided wildlife tracking, zodiac safaris, and rainforest hikes",
+          "Local expert historians and private cultural access tours",
+          "Seamless transportation returning safely directly to the ship"
+        ]
+      }
+    ]
+  },
+  "soloTipsTimeline": {
+    "title": "Seabourn Solo Travel Tips",
+    "subtitle": "EXPERT ADVICE BEFORE YOU BOOK",
+    "items": [
+      {
+        "step": "01",
+        "title": "Compare Single Supplements",
+        "description": "Don't book the first sailing you find; single supplement percentages vary widely across departure dates."
+      },
+      {
+        "step": "02",
+        "title": "Check Multiple Dates & Seasons",
+        "description": "Fares can differ substantially by shifting your departure by just a few weeks into shoulder periods."
+      },
+      {
+        "step": "03",
+        "title": "Consider Shoulder Seasons",
+        "description": "Lower-demand spring and fall windows frequently provide significantly reduced solo supplement rates."
+      },
+      {
+        "step": "04",
+        "title": "Book Small-Group Excursions Early",
+        "description": "Popular intimate culinary tours, wildlife hikes, and catamaran charters fill quickly."
+      },
+      {
+        "step": "05",
+        "title": "Communicate with the Dining Team",
+        "description": "Let the maître d' know your dining preferences—whether you want a private table or a lively shared table."
+      },
+      {
+        "step": "06",
+        "title": "Participate in Selected Activities",
+        "description": "You don't need to attend everything; pick one or two lectures or tastings that genuinely interest you."
+      },
+      {
+        "step": "07",
+        "title": "Choose Your Suite Carefully",
+        "description": "On scenic itineraries, investing in a private veranda enhances your solo sanctuary immeasurably."
+      },
+      {
+        "step": "08",
+        "title": "Utilize Seabourn Square & Lounges",
+        "description": "The ship's public spaces and coffee bar are relaxed, natural hubs for spontaneous conversation."
+      },
+      {
+        "step": "09",
+        "title": "Never Feel Obligated to Socialize",
+        "description": "Solo luxury travel is fundamentally about having total, uncompromising control over your own time."
+      },
+      {
+        "step": "10",
+        "title": "Work with an Experienced Travel Advisor",
+        "description": "A luxury cruise specialist monitors supplement waivers, promotions, and secures prime suite locations."
+      }
+    ]
+  },
+  "moneySavingCards": {
+    "title": "How to Save Money on a Seabourn Solo Cruise",
+    "subtitle": "SMART STRATEGIES FOR INDEPENDENT TRAVELERS",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Travel in Shoulder Season",
+        "description": "Demand is lower than peak holiday windows, making single supplement reductions much more frequent.",
+        "bullets": [
+          "Lower supplement percentages",
+          "Fewer crowds in marquee ports",
+          "Pleasant cruising weather"
+        ]
+      },
+      {
+        "icon": "Clock",
+        "title": "Be Flexible with Dates",
+        "description": "Comparing alternate sailings across a 60-day window can reveal substantial pricing advantages.",
+        "bullets": [
+          "Different departures have different yields",
+          "Back-to-back sailing opportunities",
+          "Optimal booking windows"
+        ]
+      },
+      {
+        "icon": "Home",
+        "title": "Compare Suite Categories",
+        "description": "An entry-level Veranda suite often delivers virtually the same luxury experience at a lower solo supplement.",
+        "bullets": [
+          "Identical five-star service & dining",
+          "Generous square footage for one",
+          "Best cost-per-day luxury value"
+        ]
+      },
+      {
+        "icon": "Percent",
+        "title": "Watch for Solo Promotions",
+        "description": "Seabourn occasionally launches special solo traveler promotions with supplement waivers on select sailings.",
+        "bullets": [
+          "Limited-time promotional inventory",
+          "Early booking solo incentives",
+          "Exclusive agency consortia offers"
+        ]
+      }
+    ]
+  },
+  "worthItBrand": {
+    "name": "Seabourn Solo Travel Value Proposition",
+    "bestFor": "Independent Luxury Travelers Seeking Complete Freedom, Five-Star Hospitality & Natural Connection",
+    "whatMakesItStandOut": "For the right independent traveler, Seabourn is worth every penny. The biggest advantage is enjoying a world-class luxury vacation with personalized service, fine dining, and curated destinations without needing a travel companion or coordinating schedules.",
+    "strengths": [
+      "Nearly 1:1 crew-to-guest ratio providing attentive, intuitive solo support",
+      "Flexible open-seating dining with choices between private tables and hosted groups",
+      "All-inclusive luxury model covering fine wines, champagne, Wi-Fi, and gratuities",
+      "Intimate ships (450–600 guests) making familiar connections effortless",
+      "All-suite oceanfront accommodations with dedicated Suite Hosts"
+    ],
+    "considerations": [
+      "The primary consideration is the single supplement cost for occupying a suite designed for two."
+    ],
+    "image": ""
+  },
+  "prosCons": {
+    "title": "Seabourn Solo Travel Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "Intuitive, personalized service from crew who quickly know your name and preferences",
+      "Intimate ship atmosphere (450–600 guests) where you never feel anonymous",
+      "Total dining flexibility: choose between solitary veranda dining or social hosted tables",
+      "Natural, unforced social opportunities through small-group excursions and lectures",
+      "Spacious all-suite oceanfront accommodations with walk-in closets and marble baths",
+      "Destination-rich itineraries visiting boutique harbors unreachable by mega-ships",
+      "Expedition cruises create extraordinary shared camaraderie and friendships",
+      "Inclusive luxury: fine wines, open bars, premium dining, Wi-Fi, and gratuities included",
+      "Sophisticated, relaxed environment without noisy crowds or commercial pressure",
+      "Complete freedom to plan each day entirely around your personal desires"
+    ],
+    "notBestFor": [
+      "Single supplements can be substantial depending on the sailing date and demand",
+      "Dedicated single-occupancy studio cabins are very limited across the fleet",
+      "Social atmosphere is relaxed and cultured rather than high-energy or party-focused",
+      "Solo travelers must be comfortable managing their own independent leisure time",
+      "Popular small-group shore excursions can book out if not reserved early",
+      "Top-tier premium suites carry steep solo pricing when sailing alone"
+    ],
+    "bottomNote": "Evaluating these pros and cons helps ensure Seabourn aligns perfectly with your independent luxury travel expectations."
+  },
+  "whoShouldChooseChecklist": {
+    "title": "Who Should Choose Seabourn for Solo Travel?",
+    "ama": {
+      "name": "Seabourn Is Especially Suited to Solo Travelers Who:",
+      "reasons": [
+        "Enjoy five-star luxury travel and personalized, attentive service",
+        "Prefer smaller, intimate ships where meeting fellow guests is easy and organic",
+        "Value independent days and complete control over their personal daily schedule",
+        "Appreciate world-class dining, fine wines, and flexible seating arrangements",
+        "Like meeting like-minded, well-traveled companions without forced party activities",
+        "Are drawn to cultural exploration, pristine beaches, and boutique yacht ports",
+        "Enjoy active expedition cruising, wildlife encounters, and polar landings",
+        "Prefer sophisticated, quiet evenings and enriching destination lectures"
+      ]
+    },
+    "avalon": {
+      "name": "A Different Cruise Line May Be Better If You Want:",
+      "reasons": [
+        "A large inventory of dedicated single-occupancy studio cabins",
+        "Guaranteed zero single supplement pricing year-round",
+        "Extensive singles mixer games and organized speed-dating events",
+        "Loud, late-night nightclubs and multi-deck party entertainment",
+        "Mega-ship amenities like water parks, go-karts, and large commercial casinos",
+        "The lowest possible budget cruise fare",
+        "A predominantly young-adult or party-oriented social scene"
+      ]
+    }
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "SOLO LUXURY CRUISE SPECIALIST",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Solo Travel Advisory Experience",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "Solo travel on Seabourn is empowering. You get all the freedom of traveling on your own terms with the safety, comfort, and five-star elegance of an intimate luxury ship.",
+    "quoteSubtitle": "Personal Solo Travel Advice from Angela Hughes",
+    "paragraphs": [
+      "With over 40 years of luxury travel industry expertise and personal travels spanning more than 121 countries, Angela Hughes specializes in guiding independent travelers toward the finest luxury cruise experiences.",
+      "As CEO of Trips & Ships Luxury Travel, Angela works directly with solo travelers to navigate single supplement policies, identify promotional sailings with reduced supplements, and match clients with itineraries that offer the perfect balance of independence and community."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Plan Solo with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Is Seabourn good for solo travelers?",
+      "answer": "Yes. Seabourn's smaller ships, personalized service, flexible dining and relaxed social atmosphere can work particularly well for independent luxury travelers."
+    },
+    {
+      "question": "Does Seabourn charge a single supplement?",
+      "answer": "Solo travelers may pay a single supplement because cruise fares are commonly based on double occupancy. The amount varies by sailing, suite and availability."
+    },
+    {
+      "question": "Does Seabourn have solo cabins?",
+      "answer": "Seabourn primarily operates a suite-based accommodation model, so dedicated single cabins are not the main focus of its fleet. Solo travelers should compare single-occupancy pricing across suite categories."
+    },
+    {
+      "question": "Can solo travelers get a reduced single supplement?",
+      "answer": "Sometimes. Promotions and reduced single supplements may be available on selected sailings, so flexibility can be valuable."
+    },
+    {
+      "question": "Is Seabourn expensive for solo travelers?",
+      "answer": "It can be. The main reason is that a solo traveler may pay more to occupy a suite designed for two guests. However, the total value depends on the fare, supplement, suite and inclusions."
+    },
+    {
+      "question": "Can solo travelers dine alone on Seabourn?",
+      "answer": "Yes. Solo travelers can choose to dine privately or participate in shared dining when available."
+    },
+    {
+      "question": "Is Seabourn social for solo travelers?",
+      "answer": "Yes, but the atmosphere is generally sophisticated and relaxed rather than party-oriented. Excursions, dining and onboard activities provide natural opportunities to meet other guests."
+    },
+    {
+      "question": "How do solo travelers meet people on Seabourn?",
+      "answer": "Common opportunities include shore excursions, dining, lectures, lounges, cultural activities and other onboard events."
+    },
+    {
+      "question": "What are the best Seabourn cruises for solo travelers?",
+      "answer": "Mediterranean, Alaska, expedition, Arctic and longer voyages can all work well. The best itinerary depends on whether you prioritize culture, wildlife, adventure or social opportunities."
+    },
+    {
+      "question": "Is Seabourn good for solo women?",
+      "answer": "Yes. Seabourn's upscale environment and personalized service can be appealing to women traveling independently. Normal travel-safety precautions should still be followed ashore."
+    },
+    {
+      "question": "Is Seabourn good for solo men?",
+      "answer": "Yes. Solo men can enjoy Seabourn's independent travel, dining, excursions and social opportunities just as other solo guests can."
+    },
+    {
+      "question": "Is Seabourn good for introverts?",
+      "answer": "Yes. The cruise allows you to control how much you socialize. You can enjoy private time while still having opportunities to interact when you want."
+    },
+    {
+      "question": "Is Seabourn good for extroverts?",
+      "answer": "Yes. Dining, excursions, lounges and onboard activities provide opportunities for frequent social interaction."
+    },
+    {
+      "question": "Is a balcony suite worth it for a solo traveler?",
+      "answer": "For travelers who value privacy and scenic views, a balcony can be worthwhile. It provides a personal outdoor space for relaxing and watching the destination."
+    },
+    {
+      "question": "Are Seabourn shore excursions good for solo travelers?",
+      "answer": "Yes. Group excursions can make sightseeing easier while creating natural opportunities to meet other travelers."
+    },
+    {
+      "question": "Can solo travelers go on Seabourn expedition cruises?",
+      "answer": "Yes. Expedition cruises can be particularly appealing to solo travelers because shared Zodiac excursions, wildlife encounters and expedition activities create natural social interaction."
+    },
+    {
+      "question": "How can I find the best Seabourn solo cruise price?",
+      "answer": "Compare several sailing dates, suite categories and itineraries. Monitor promotions and single-supplement offers, and compare the total trip cost rather than only the advertised fare."
+    },
+    {
+      "question": "Is Seabourn worth it for a solo traveler?",
+      "answer": "For travelers who prioritize luxury, personalized service and an intimate ship environment, Seabourn can be worth the additional cost of solo occupancy."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Is Seabourn Good for Solo Travelers?",
+    "subtitle": "FINAL VERDICT",
+    "paragraphs": [
+      "Yes — Seabourn can be an excellent choice for solo luxury travelers, provided you understand the pricing structure. The ships offer a comfortable balance between privacy and social interaction. You can dine alone, join other guests, explore independently or participate in excursions without feeling that the entire vacation revolves around being part of a group.",
+      "The main issue is the single supplement, which can significantly affect the overall cost. For travelers willing to pay a premium for personalized service, luxury accommodations, intimate ships and destination-focused experiences, Seabourn can make solo travel feel remarkably comfortable."
+    ],
+    "recommendation": "Our recommendation: Compare single-occupancy fares, suite categories, itineraries and promotions rather than simply choosing the lowest advertised cruise fare.",
+    "ctaText": "Start Planning Your Seabourn Solo Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Start Planning Your Solo Seabourn Voyage",
+      "description": "Let's compare single supplements, suites and sailings so you can find the right Seabourn voyage for traveling alone.",
+      "buttonText": "Speak with a Specialist",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Find the Right Suite for Traveling Alone",
+      "description": "From entry-level suites to spacious verandas, let's find the category that fits your budget and your priorities.",
+      "buttonText": "Explore Suite Availability",
+      "buttonLink": "/contact"
+    },
+    "midCta3": {
+      "title": "Design Your Solo Itinerary",
+      "description": "From the Mediterranean to Antarctica, let's find the itinerary that gives you the right mix of independence and connection.",
+      "buttonText": "Design My Itinerary",
+      "buttonLink": "/contact"
+    },
+    "midCta4": {
+      "title": "Ready to Book Your Solo Voyage?",
+      "description": "Let's compare single-occupancy fares, suite categories and promotions to find the best value for your solo luxury cruise.",
+      "buttonText": "Start Planning Your Solo Cruise",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Solo Cruise",
+      "description": "Connect with luxury solo cruise advisor Angela Hughes to secure the best single-occupancy terms and suite availability.",
+      "buttonText": "Start Planning Your Solo Voyage",
+      "buttonLink": "/contact"
+    }
+  }
+}

@@ -1,0 +1,896 @@
+{
+  "hero": {
+    "title": "Seabourn World Cruises and Grand Voyages",
+    "subtitle": "Routes, Suites, Segments & Complete Planning Guide",
+    "paragraphs": [
+      "A Seabourn World Cruise offers the opportunity to travel across multiple regions of the world during one extended luxury voyage rather than experiencing each destination as a separate vacation.",
+      "For travelers who enjoy slow travel, extended exploration and the comfort of returning to the same ship each evening, a Seabourn World Cruise or Grand Voyage can be an appealing alternative to a series of shorter cruises.",
+      "These longer journeys can connect multiple continents, countries and cultures, with time for both well-known destinations and less frequently visited ports.",
+      "This guide explains how Seabourn World Cruises work, what makes a Grand Voyage different, how cruise segments can be booked, which suites to consider, the benefits and challenges of a long voyage, and how far in advance you should begin planning."
+    ],
+    "ctaText": "Start Planning Your World Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn World Cruises at a Glance",
+    "subtitle": "QUICK OVERVIEW",
+    "caption": "Note: World Cruise and Grand Voyage itineraries, inclusions, segment options and promotional benefits vary by sailing date and ship.",
+    "headers": [
+      "Feature",
+      "Seabourn World Cruises & Grand Voyages"
+    ],
+    "rows": [
+      [
+        "Cruise style",
+        "Extended luxury voyage"
+      ],
+      [
+        "Duration",
+        "Significantly longer than a typical cruise"
+      ],
+      [
+        "Destinations",
+        "Multiple regions and countries"
+      ],
+      [
+        "Accommodation",
+        "Seabourn oceanfront suites"
+      ],
+      [
+        "Dining",
+        "Multiple onboard fine dining venues"
+      ],
+      [
+        "Best for",
+        "Slow travelers and experienced cruisers"
+      ],
+      [
+        "Booking",
+        "Best planned well in advance (18–24+ months)"
+      ],
+      [
+        "Segments",
+        "Selected voyages may offer shorter portions"
+      ],
+      [
+        "Pace",
+        "Designed for unhurried, extended exploration"
+      ],
+      [
+        "Atmosphere",
+        "Intimate, relaxed and destination-focused"
+      ]
+    ]
+  },
+  "whatIsWorldCruise": {
+    "title": "What Is a Seabourn World Cruise?",
+    "subtitle": "THE SHORT VERSION",
+    "paragraphs": [
+      "A Seabourn World Cruise is an extended voyage designed to connect a broad collection of destinations within one continuous journey.",
+      "Rather than booking several unrelated cruises, travelers remain on the same ship for a much longer period. This creates a different style of travel. You can settle into your suite, become familiar with the crew and fellow guests, and develop a rhythm that is very different from a one-week cruise.",
+      "Depending on the itinerary, a long Seabourn voyage may include destinations across several regions and potentially multiple continents."
+    ],
+    "highlights": [
+      "Wake up in a different destination without packing and unpacking",
+      "Return to the same comfortable, familiar suite every evening",
+      "Develop meaningful, lasting relationships with attentive crew",
+      "Meet fellow passionate, well-traveled long-voyage guests",
+      "Spend significantly more time exploring boutique ports in depth",
+      "Enjoy extended, relaxing sea days with world-class amenities",
+      "Travel at a slower, deeply enriching and unhurried pace"
+    ],
+    "conclusion": "For many experienced travelers, the unhurried pace and seamless continuity is the greatest luxury.",
+    "imagePlaceholderText": "Seabourn World Cruise Overview"
+  },
+  "whatIsGrandVoyage": {
+    "title": "What Is a Seabourn Grand Voyage?",
+    "subtitle": "A FLEXIBLE ALTERNATIVE",
+    "paragraphs": [
+      "A Grand Voyage generally refers to a longer, carefully connected itinerary that combines multiple destinations or regions into one extended experience.",
+      "Grand Voyages can appeal to travelers who want more than a conventional cruise itinerary but may not necessarily want to commit to an entire world cruise. The exact itinerary, duration and included benefits vary by voyage."
+    ],
+    "highlights": [
+      "Total Number of Nights: Carefully calibrated extended duration",
+      "Countries Visited: In-depth focus across specific global regions",
+      "Number of Sea Days: Balanced mix of port exploration and open sea relaxation",
+      "Overnight Stays: Multiple overnight calls for vibrant evening discovery",
+      "Included Experiences: Bespoke shore events and exclusive gala evenings",
+      "Suite Availability: Prime selection across mid-ship and veranda categories",
+      "Segment Options: Accessible bookable portions for flexible schedules"
+    ],
+    "image1Placeholder": "SEABOURN GRAND VOYAGE",
+    "image2Placeholder": "EXTENDED LUXURY LIVING"
+  },
+  "vsGrandVoyageTable": {
+    "title": "Seabourn World Cruise vs. Grand Voyage",
+    "subtitle": "MAKING THE COMPARISON",
+    "caption": "The terminology and exact structure can vary by Seabourn sailing, so always evaluate the individual itinerary rather than relying solely on the voyage name.",
+    "headers": [
+      "World Cruise",
+      "Grand Voyage"
+    ],
+    "rows": [
+      [
+        "Typically an exceptionally long journey (100–140+ days)",
+        "Extended multi-region voyage (40–90 days)"
+      ],
+      [
+        "Broad global geographic scope circumnavigating continents",
+        "Can focus on specific regions like the Pacific, South America, or Europe"
+      ],
+      [
+        "Ideal for committed long-term travelers and retirees",
+        "Useful for travelers seeking a shorter commitment with deep regional focus"
+      ],
+      [
+        "May cross multiple continents and oceans in one voyage",
+        "May combine several neighboring destinations or regions"
+      ],
+      [
+        "Significant advance planning (18–24 months) required",
+        "Easier to fit into a shorter travel calendar"
+      ]
+    ]
+  },
+  "benefitsGrid": {
+    "title": "The Benefits of a Seabourn World Cruise",
+    "subtitle": "FIVE REASONS TO CONSIDER AN EXTENDED VOYAGE",
+    "paragraphs": [
+      "A long voyage changes the way you experience travel. Instead of constantly packing and unpacking, you establish a home at sea.",
+      "Seabourn's intimate luxury ships transform global circumnavigation into a deeply personal, seamless journey."
+    ],
+    "items": [
+      {
+        "icon": "map",
+        "title": "1. Unpack Once",
+        "description": "One of the biggest advantages is simplicity. Instead of changing hotels every few days, your suite remains your home throughout the voyage.",
+        "features": [
+          "Dedicated Suite Host",
+          "Walk-in Wardrobes",
+          "Zero Hotel Changes",
+          "No Repacking"
+        ]
+      },
+      {
+        "icon": "Compass",
+        "title": "2. See Multiple Regions",
+        "description": "A single long voyage can connect destinations that would otherwise require multiple international flights, transfers, and hotel stays.",
+        "features": [
+          "Continuous Routing",
+          "Diverse Continents",
+          "Boutique Yacht Harbors",
+          "Transoceanic Crossings"
+        ]
+      },
+      {
+        "icon": "ship",
+        "title": "3. Develop a Relationship With the Ship",
+        "description": "On a long voyage, the ship becomes familiar. You learn your favorite restaurants, lounges, preferred seating, crew members, and daily routines.",
+        "features": [
+          "Personalized Hospitality",
+          "Familiar Staff Recognition",
+          "Custom Dining Requests"
+        ]
+      },
+      {
+        "icon": "Heart",
+        "title": "4. More Time to Slow Down",
+        "description": "A long voyage gives you permission to slow down. You don't need to treat every port as a checklist. You can choose a quiet day onboard.",
+        "features": [
+          "Unhurried Port Days",
+          "Leisurely Mornings",
+          "Private Balcony Lounging"
+        ]
+      },
+      {
+        "icon": "user",
+        "title": "5. Build Enduring Friendships",
+        "description": "Long voyages naturally encourage repeated interaction. Encountering fellow guests over months creates deep, lifelong friendships.",
+        "features": [
+          "Shared Excursions",
+          "Hosted Dining Tables",
+          "Global Traveler Community"
+        ]
+      }
+    ]
+  },
+  "destinationsAndCriteria": {
+    "title": "Destinations & How to Choose an Itinerary",
+    "subtitle": "WHERE WORLD CRUISES SAIL • STRATEGIC ITINERARY SELECTION",
+    "cards": [
+      {
+        "title": "World Cruise Destination Regions",
+        "items": [
+          "Mediterranean & Boutique European Harbors",
+          "Northern Europe, British Isles & Norwegian Fjords",
+          "Middle East, Suez Canal & Arabian Gulf",
+          "Africa, Indian Ocean & Cape of Good Hope",
+          "Asia, Japan, East Asia & Southeast Asia",
+          "Australia, New Zealand & The Great Barrier Reef",
+          "South Pacific, French Polynesia & Remote Islands",
+          "North America, Panama Canal & The Caribbean",
+          "South America, Chilean Fjords & Antarctica",
+          "Transpacific and Transatlantic Oceanic Crossings"
+        ]
+      },
+      {
+        "title": "Key Questions to Choose Your Itinerary",
+        "items": [
+          "Which destinations matter most: Prioritize regions where you want in-depth exploration",
+          "Sea day preferences: Ensure you genuinely enjoy open ocean cruising days",
+          "Depth vs. breadth: Weigh visiting fewer regions slowly vs. sweeping global coverage",
+          "Overnight stays: Look for multi-day calls in marquee cities for evening culture",
+          "Seasonal weather timing: Evaluate climate conditions across all route segments",
+          "Pre- and post-cruise logistics: Factor in embarkation and disembarkation ports"
+        ]
+      }
+    ]
+  },
+  "segmentsFaceoff": {
+    "title": "Should You Book the Full World Cruise or a Segment?",
+    "regent": {
+      "title": "Choose the Full Voyage If",
+      "badge": "Full Circumnavigation (100–140+ Days)",
+      "description": "Ideal for travelers seeking an all-encompassing global journey and total immersion.",
+      "features": [
+        "You enjoy slow, unhurried long-form travel",
+        "You have substantial time available (3–5 months)",
+        "You want maximum global geographic coverage",
+        "You truly love life onboard and relaxing sea days",
+        "You want zero repeated travel logistics or intermediate flights"
+      ]
+    },
+    "viking": {
+      "title": "Choose a Cruise Segment If",
+      "badge": "Targeted Regional Segment (14–45 Days)",
+      "description": "Ideal for travelers with time constraints who want the World Cruise experience.",
+      "features": [
+        "You have limited vacation time (2 to 6 weeks)",
+        "You prefer to focus deeply on one particular region",
+        "You want to test long-voyage cruising before a full commitment",
+        "You want to combine the luxury cruise with extended land travel"
+      ]
+    }
+  },
+  "suitesAndBalconyChecklist": {
+    "title": "Seabourn World Cruise Suites & Balcony Living",
+    "subtitle": "ACCOMMODATIONS • YOUR HOME FOR WEEKS OR MONTHS",
+    "cards": [
+      {
+        "title": "Suite Living Considerations on a Long Voyage",
+        "items": [
+          "Suite Size & Living Area: Generous square footage prevents feeling confined",
+          "Storage & Walk-in Wardrobes: Crucial for organizing multi-month wardrobes",
+          "Bathroom Configuration: Double vanities, soaking tub, and separate shower",
+          "Private Veranda Space: An essential private outdoor sanctuary for fresh air",
+          "Ship Location: Mid-ship placement minimizes motion on ocean crossings",
+          "Noise & Traffic: Proximity to elevators vs. serene quiet corridors",
+          "Natural Light & Desk Setup: Excellent lighting for reading, writing, and work"
+        ]
+      },
+      {
+        "title": "Why a Private Balcony Is Essential on a World Cruise",
+        "items": [
+          "Enjoy unhurried private morning coffee and breakfast alfresco",
+          "Watch spectacular scenic cruising and port arrivals in robe and slippers",
+          "Read and write in serene seclusion away from public ship areas",
+          "Marvel at dramatic ocean sunsets, starry skies, and marine wildlife",
+          "Host intimate evening cocktail toasts with newly made friends",
+          "Value compounds exponentially when spending 100+ consecutive days onboard"
+        ]
+      }
+    ]
+  },
+  "suiteLocationCards": {
+    "title": "Which Suite Location Is Best on a Long Voyage?",
+    "subtitle": "WHERE TO BOOK • BALANCING STABILITY, CONVENIENCE & VIEWS",
+    "cards": [
+      {
+        "icon": "Building2",
+        "title": "Midship Suites",
+        "description": "The most sought-after location for long voyages due to maximum physical stability and central access.",
+        "bullets": [
+          "Lowest motion during sea days",
+          "Equal distance to forward and aft venues",
+          "Sells out fastest on World Cruises"
+        ]
+      },
+      {
+        "icon": "Sun",
+        "title": "Higher Decks",
+        "description": "Provide commanding ocean views, elevated perspectives, and convenient proximity to open sun decks.",
+        "bullets": [
+          "Panoramic horizon views",
+          "Quick access to Observation Lounge & pool",
+          "Bright, sun-drenched private verandas"
+        ]
+      },
+      {
+        "icon": "Anchor",
+        "title": "Lower Decks",
+        "description": "Ideal for guests who value supreme tranquility, minimal motion, and effortless disembarkation in port.",
+        "bullets": [
+          "Closest to the water line for stability",
+          "Quick access to gangway on port days",
+          "Quiet corridors with minimal foot traffic"
+        ]
+      },
+      {
+        "icon": "Users",
+        "title": "Near Elevators",
+        "description": "Offers supreme convenience for walking, though travelers sensitive to noise may prefer mid-corridor suites.",
+        "bullets": [
+          "Shortest walking distance daily",
+          "Effortless access between decks",
+          "Choose suites buffered from main foyers"
+        ]
+      }
+    ]
+  },
+  "diningShowcase": {
+    "title": "Dining & Life at Sea on a World Cruise",
+    "subtitle": "CULINARY EXCELLENCE • REFINED ROUTINES & SOCIAL FREEDOM",
+    "description": "During a multi-month journey, dining variety and sea day enrichment become the rhythmic heartbeat of your onboard lifestyle.",
+    "items": [
+      {
+        "title": "The Restaurant",
+        "subtitle": "Open-Seating Fine Dining",
+        "description": "Experience rotating regional menus inspired by the destinations you visit, with freedom to dine privately or join hosted tables with guest lecturers and officers."
+      },
+      {
+        "title": "The Colonnade & The Patio",
+        "subtitle": "Casual Indoor, Outdoor & Poolside Grill",
+        "description": "Enjoy relaxed breakfasts overlooking new ports, themed regional dinners, and fresh poolside alfresco lunch without reservations."
+      },
+      {
+        "title": "Solis & Specialty Dining",
+        "subtitle": "Modern Mediterranean Culinary Art",
+        "description": "Savor elevated fine dining, handmade pastas, and sommelier-paired vintage wines in an intimate, celebratory ambiance."
+      },
+      {
+        "title": "24-Hour Course-by-Course In-Suite Dining",
+        "subtitle": "Private Veranda Feasts",
+        "description": "Have full multi-course meals served course-by-course in your suite or on your veranda whenever you desire complete relaxation."
+      },
+      {
+        "title": "Solo Dining Freedom",
+        "subtitle": "Natural, Pressure-Free Connection",
+        "description": "Solo guests can easily request shared tables, join officer-hosted dinners, or enjoy solitary fine dining with complete personal freedom."
+      }
+    ]
+  },
+  "suitabilityPhilosophy": {
+    "title": "Is a Seabourn World Cruise Right for You?",
+    "subtitle": "FIRST-TIME CRUISERS VS. RETIREES & FLEXIBLE TRAVELERS",
+    "sailing": {
+      "label": "First-Time Cruisers",
+      "philosophy": "Testing the Waters Before a Full Journey",
+      "points": [
+        "A full 100+ day World Cruise is a major commitment for cruising newcomers",
+        "Consider trying a 7 to 14-night Seabourn voyage first to confirm you enjoy sea days",
+        "Ensure you appreciate shipboard routines and living in a suite for extended periods",
+        "A 2 to 3-week World Cruise segment is an ideal entry-point trial"
+      ]
+    },
+    "allSuite": {
+      "label": "Retirees & Flexible Travelers",
+      "philosophy": "The Ultimate Slow Travel Lifestyle",
+      "points": [
+        "Unpack once and eliminate the stress of dozens of hotel check-ins and flights",
+        "Experience multiple continents at a leisurely, highly dignified pace",
+        "Form deep, lasting connections with a refined community of global peers",
+        "Enjoy comprehensive wellness, five-star healthcare onboard, and stress-free logistics"
+      ]
+    },
+    "verdict": "For travelers with flexible schedules, a Seabourn World Cruise represents the pinnacle of civilized global exploration."
+  },
+  "travelStylesAndCost": {
+    "title": "Couples, Solo Travelers & World Cruise Cost",
+    "subtitle": "LIFESTYLE AT SEA • COMPREHENSIVE BUDGETING",
+    "items": [
+      {
+        "title": "Seabourn World Cruises for Couples",
+        "category": "COUPLES AT SEA",
+        "description": "Life together on a multi-month voyage balances shared discoveries with relaxed personal routines.",
+        "features": [
+          "Morning: Unhurried breakfast on your private veranda and scenic ocean cruising",
+          "Afternoon: Small-group cultural excursions, Zodiac safaris, or quiet spa time",
+          "Evening: Fine dining, sommelier wine pairings, and live cabaret performances",
+          "Sea Days: Establish a relaxing shared routine of reading, fitness, lectures, and ocean watching without pressure to maximize every hour"
+        ]
+      },
+      {
+        "title": "Seabourn World Cruises for Solo Travelers",
+        "category": "SOLO TRAVELERS",
+        "description": "The extended duration creates natural, unforced opportunities to build meaningful, lasting friendships.",
+        "features": [
+          "Repeated encounters over months foster organic, enduring friendships rather than repeated introductions",
+          "Host-led tables at dinner make socializing effortless without forced single mixers",
+          "Join shared meals or choose private dining whenever personal solitude is desired",
+          "Dedicated Suite Host provides personalized assistance, attentive care, and warm familiarity",
+          "Carefully evaluate single supplement promotions and segment options to optimize investment"
+        ]
+      },
+      {
+        "title": "How Much Does a Seabourn World Cruise Cost?",
+        "category": "COMPREHENSIVE BUDGETING",
+        "description": "Understanding the key drivers of long-voyage investment and evaluating all-inclusive value.",
+        "features": [
+          "Total voyage length (full 100–140+ day circumnavigation vs. regional segments)",
+          "Selected suite category (Veranda, Penthouse, Owner's, Signature Suites)",
+          "Departure date and early booking promotions / past-guest loyalty savings",
+          "Itinerary scope and included bespoke World Cruise gala experiences",
+          "Included business-class airfare packages, luxury hotel stays, and private transfers",
+          "Budgeting strategy: Compare total cost per night against all-inclusive luxury inclusions rather than base fare alone"
+        ]
+      }
+    ]
+  },
+  "evaluationAndBooking": {
+    "title": "Evaluating Value & When to Book",
+    "subtitle": "LOOK BEYOND THE BASE FARE • STRATEGIC TIMING",
+    "items": [
+      {
+        "title": "How to Evaluate World Cruise Value",
+        "subtitle": "COMPREHENSIVE ALL-INCLUSIVE VALUE",
+        "description": "Evaluating the true worth of a World Cruise requires looking beyond the sticker price to assess daily all-inclusive luxury inclusions compared to independent international travel.",
+        "features": [
+          "Cost per night compared to five-star luxury land hotels, gourmet meals, and international flights",
+          "All-suite luxury accommodations with personal suite host and attendant service",
+          "All-inclusive open-seating fine dining across all restaurants and 24-hr room service",
+          "Fine wines, premium spirits, specialty coffees, and champagne included throughout",
+          "Complimentary high-speed Wi-Fi and prepaid shipboard gratuities included",
+          "Exclusive World Cruise events, private gala evenings, and unique cultural performances",
+          "Complimentary luggage delivery services and pre-cruise luxury hotel stays included on full voyages",
+          "Shore excursions, bespoke private car transfers, and international flight coordination"
+        ]
+      },
+      {
+        "title": "When Should You Book a Seabourn World Cruise?",
+        "subtitle": "THE 18–24 MONTH ADVANCE BOOKING WINDOW",
+        "description": "Because World Cruises represent a major logistical and financial commitment, advance planning is essential to secure your preferred accommodation and travel arrangements.",
+        "features": [
+          "Planning 18–24+ months before departure is strongly recommended for World Cruises",
+          "Prime mid-ship suites and top-tier Penthouse/Owner's Suites sell out very early",
+          "Secures early-booking savings, reduced deposits, and promotional air credits",
+          "Provides ample time for multi-country visa processing, passport renewals, and medical preparation",
+          "Allows seamless advance planning for long-term home, pet, and personal logistics while away",
+          "Note: Waiting for late promotions can severely reduce suite availability on premier routes"
+        ]
+      }
+    ]
+  },
+  "planningTimeline": {
+    "title": "Suggested World Cruise Planning Timeline",
+    "subtitle": "STEP-BY-STEP PREPARATION FROM CONCEPT TO EMBARKATION",
+    "items": [
+      {
+        "step": "Phase 1",
+        "title": "18–24+ Months Before Departure: Research & Selection",
+        "description": "Review global routes, compare ships, select preferred suite categories, establish budget, and place early deposits to secure prime suite locations."
+      },
+      {
+        "step": "Phase 2",
+        "title": "12–18 Months Before Departure: Itinerary & Flights",
+        "description": "Confirm specific segments, evaluate promotional inclusions, review international business-class flight options, and map out visa requirements."
+      },
+      {
+        "step": "Phase 3",
+        "title": "6–12 Months Before Departure: Excursions & Documentation",
+        "description": "Reserve exclusive shore excursions, finalize pre-cruise hotel stays and transfers, obtain necessary travel visas, and secure comprehensive travel insurance."
+      },
+      {
+        "step": "Phase 4",
+        "title": "1–3 Months Before Departure: Final Logistics & Packing",
+        "description": "Coordinate luggage shipping services, finalize medical and prescription supplies, review packing checklist, and complete online check-in."
+      }
+    ]
+  },
+  "preparationChecklist": {
+    "title": "Arriving Early, Packing & Health Guidelines",
+    "subtitle": "PRACTICAL ADVICE FOR AN EXTENDED GLOBAL JOURNEY",
+    "categories": [
+      {
+        "id": "arrive-early",
+        "label": "Arriving Early in Port",
+        "icon": "DocumentIcon",
+        "items": [
+          "Provides a crucial buffer against unexpected flight delays, cancellations, and missed connections",
+          "Eliminates the stress of lost or delayed baggage before embarking on a multi-month voyage",
+          "Allows 1 to 3 days to adjust to international time zones and recover from jet lag",
+          "Protects against local transportation problems or strikes in departure ports",
+          "Enables you to start your luxury vacation relaxed and refreshed rather than racing the clock on Day 1"
+        ]
+      },
+      {
+        "id": "packing-laundry",
+        "label": "What to Pack & Laundry",
+        "icon": "ShirtIcon",
+        "items": [
+          "Versatile clothing & layering pieces for transitioning across diverse global climates",
+          "Comfortable walking shoes, workout clothing, swimwear, and sun protection",
+          "Formal and dressier evening attire for gala evenings and formal dinners",
+          "Travel adapters, essential toiletries, medications, and small laundry supplies",
+          "Focus on neutral basics that mix and match easily rather than dozens of separate outfits",
+          "Practical formula: Neutral basics + interchangeable layers + dressier pieces",
+          "Utilize Seabourn's complimentary self-service launderettes or onboard pressing packages"
+        ]
+      },
+      {
+        "id": "health-wellness",
+        "label": "Health & Long-Term Wellness",
+        "icon": "HeartIcon",
+        "items": [
+          "Secure 4 to 6-month supplies of all essential prescription medications in original labeled containers",
+          "Carry comprehensive medical documentation, physician contact info, and written prescriptions",
+          "Purchase comprehensive travel insurance including medical coverage and emergency evacuation",
+          "Discuss long-term travel plans, vaccinations, and mobility needs with healthcare professionals",
+          "Maintain daily fitness routines, active walking on deck, and adequate hydration onboard",
+          "Establish restful sleep routines and take advantage of the ship's spa and thermal suites"
+        ]
+      }
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn World Cruise Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "Unpack once and visit dozens of countries across multiple continents",
+      "Slow-travel pace with extended port stays and overnight cultural exploration",
+      "Intimate ship atmosphere (450–600 guests) where you never feel like a number",
+      "Familiar shipboard living where crew quickly know your exact preferences",
+      "Strong opportunities to build lasting, lifelong friendships with global peers",
+      "Inclusive luxury: fine wines, open bars, specialty dining, Wi-Fi, and gratuities included",
+      "Spacious all-suite oceanfront accommodations with walk-in closets and marble baths",
+      "Significant reduction in repetitive flight logistics, airport transfers, and packing",
+      "World-class destination enrichment lectures, cultural performances, and workshops",
+      "The pinnacle luxury travel experience for experienced cruisers and retirees"
+    ],
+    "notBestFor": [
+      "Substantial overall financial investment required for 100+ days",
+      "Long time away from home, family, pets, and personal commitments",
+      "Single supplements can be high for solo travelers on long voyages",
+      "Extensive advance planning and visa management required 18+ months out",
+      "Significant number of sea days required for ocean crossings",
+      "Less flexibility to change itinerary once the multi-month voyage begins",
+      "Prime mid-ship and top-tier suites sell out very early",
+      "Requires thoughtful medical, prescription, and packing preparations"
+    ],
+    "bottomNote": "Weighing these trade-offs ensures a Seabourn World Cruise aligns perfectly with your lifestyle, schedule, and expectations."
+  },
+  "whoShouldSailChecklist": {
+    "title": "Who Should Take a World Cruise vs. Grand Voyage?",
+    "ama": {
+      "name": "A Full World Cruise Is Ideal If You:",
+      "reasons": [
+        "Have substantial time available (3 to 5 continuous months)",
+        "Deeply enjoy slow travel and exploring destinations in depth",
+        "Love life at sea, relaxing transoceanic days, and onboard routines",
+        "Want to circumnavigate the globe without changing hotels or packing",
+        "Appreciate becoming deeply familiar with a ship and its dedicated crew",
+        "Enjoy building enduring friendships with fellow world travelers",
+        "Have already experienced shorter cruises and know you thrive onboard"
+      ]
+    },
+    "avalon": {
+      "name": "Consider a Grand Voyage or Segment If You:",
+      "reasons": [
+        "Have limited vacation time (2 to 8 weeks maximum)",
+        "Want to concentrate intensely on one specific global region",
+        "Prefer a shorter financial and calendar commitment",
+        "Want to test long-voyage cruising before booking a full circumnavigation",
+        "Want to combine an ocean voyage with extensive overland exploration"
+      ]
+    }
+  },
+  "vsMultipleCruisesTable": {
+    "title": "Seabourn World Cruise vs. Multiple Short Cruises",
+    "subtitle": "CONTINUITY VS. FRAGMENTATION",
+    "caption": "For travelers who enjoy slow travel, the World Cruise experience provides an unmatched sense of continuity that cannot be replicated through disconnected shorter sailings.",
+    "headers": [
+      "Seabourn World Cruise",
+      "Multiple Short Cruises"
+    ],
+    "rows": [
+      [
+        "One continuous, seamless global journey",
+        "Several separate vacations spread across years"
+      ],
+      [
+        "Unpack once for the entire 3–5 month voyage",
+        "Repeated packing, unpacking, and airport check-ins"
+      ],
+      [
+        "More relaxed, unhurried pace across all ports",
+        "More frequent transitions and compressed sightseeing"
+      ],
+      [
+        "Deeper, enduring friendships with guests & crew",
+        "New guest demographic every 7 to 10 days"
+      ],
+      [
+        "Extended ship familiarity and personalized routines",
+        "Different ships, layouts, and crew each time"
+      ],
+      [
+        "Minimal international flight transitions",
+        "Multiple long-haul roundtrip flights required"
+      ],
+      [
+        "Long calendar commitment with total lifestyle focus",
+        "Flexible vacation scheduling throughout the year"
+      ]
+    ]
+  },
+  "bookingTipsGrid": {
+    "title": "10 Tips for Booking a Seabourn World Cruise",
+    "subtitle": "EXPERT GUIDANCE FROM LUXURY CRUISE SPECIALISTS",
+    "cards": [
+      {
+        "icon": "Compass",
+        "title": "Start with the Itinerary",
+        "description": "The route matters more than the voyage title. Prioritize itineraries that visit regions you have always dreamed of exploring in depth.",
+        "bullets": [
+          "Check overnight port stays",
+          "Evaluate sea day balance",
+          "Review boutique port calls"
+        ]
+      },
+      {
+        "icon": "Home",
+        "title": "Choose Your Suite Early",
+        "description": "On a voyage lasting months, suite comfort is paramount. Secure mid-ship placement and ample storage 18–24 months in advance.",
+        "bullets": [
+          "Mid-ship for stability",
+          "Walk-in closet space",
+          "Private veranda value"
+        ]
+      },
+      {
+        "icon": "Map",
+        "title": "Compare Voyage Segments",
+        "description": "If a full circumnavigation is too long, booking one or two consecutive segments often provides the optimal balance of time and cost.",
+        "bullets": [
+          "Flexible departure ports",
+          "Targeted regional focus",
+          "Custom combination routes"
+        ]
+      },
+      {
+        "icon": "Wallet",
+        "title": "Calculate Total Trip Cost",
+        "description": "Evaluate the all-inclusive value per night including business flights, transfers, hotel nights, excursions, and onboard amenities.",
+        "bullets": [
+          "Cost per night analysis",
+          "Included premium spirits & wine",
+          "Wi-Fi & gratuities included"
+        ]
+      },
+      {
+        "icon": "Waves",
+        "title": "Embrace the Sea Days",
+        "description": "Make sure you genuinely enjoy time at sea. Sea days provide essential rest, spa treatments, lectures, and social connection.",
+        "bullets": [
+          "Enrichment lecture series",
+          "Spa & thermal suite access",
+          "Private veranda reading"
+        ]
+      },
+      {
+        "icon": "Sun",
+        "title": "Research Multi-Climate Packing",
+        "description": "A global voyage crosses diverse climate zones. Plan an interchangeable capsule wardrobe with versatile layering pieces.",
+        "bullets": [
+          "Tropical to polar layers",
+          "Complimentary launderettes",
+          "Formal gala attire"
+        ]
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Plan Medical & Essentials",
+        "description": "Secure multi-month supplies of prescriptions, medical documentation, and comprehensive global medical evacuation insurance.",
+        "bullets": [
+          "Advance prescription fills",
+          "Detailed physician notes",
+          "Comprehensive travel insurance"
+        ]
+      },
+      {
+        "icon": "CalendarClock",
+        "title": "Build Schedule Flexibility",
+        "description": "Avoid scheduling major commitments immediately before or after disembarkation to allow seamless re-entry into daily life.",
+        "bullets": [
+          "Buffer days post-cruise",
+          "Stress-free airport departures",
+          "Adjust to home time zones"
+        ]
+      },
+      {
+        "icon": "PlaneTakeoff",
+        "title": "Book Pre-Cruise Hotels",
+        "description": "Arrive 2 to 3 days before embarkation to overcome jet lag, explore the departure city, and protect against flight delays.",
+        "bullets": [
+          "Overcome international jet lag",
+          "Explore departure harbor",
+          "Zero embarkation stress"
+        ]
+      },
+      {
+        "icon": "Award",
+        "title": "Work with a Luxury Cruise Advisor",
+        "description": "An experienced specialist coordinates suite selection, consortia amenities, promotional pricing, airfare, and complex logistics.",
+        "bullets": [
+          "Exclusive agency perks",
+          "Personalized suite guidance",
+          "Dedicated support throughout"
+        ]
+      }
+    ]
+  },
+  "worthItBrand": {
+    "name": "Seabourn World Cruise Value Proposition",
+    "bestFor": "Passionate Global Travelers Seeking Slow-Travel Depth, Ultra-Luxury Comfort & Seamless Continuity",
+    "whatMakesItStandOut": "For travelers who genuinely enjoy long-form travel, a Seabourn World Cruise offers exceptional convenience and depth. The true value isn't simply in the number of countries visited, but in establishing a luxurious home at sea while exploring the globe.",
+    "strengths": [
+      "One suite as your sanctuary throughout the entire global journey",
+      "One intimate luxury ship with intuitive, personalized crew service",
+      "Multiple continents, regions, and boutique harbors in one continuous voyage",
+      "Extended time to truly absorb cultures at an unhurried, slow-travel pace",
+      "All-inclusive luxury: fine dining, premium wines, Wi-Fi, and gratuities included",
+      "Eliminates the logistical friction of dozens of flights, hotel check-ins, and packing"
+    ],
+    "considerations": [
+      "If you prefer short vacations and frequent changes of pace, a 100+ day World Cruise may feel too long. In that case, a Grand Voyage or segment is the ideal alternative."
+    ],
+    "image": ""
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "WORLD CRUISE & GRAND VOYAGE SPECIALIST",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Expedition Cruise Advisory",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "A Seabourn World Cruise is the ultimate expression of slow luxury travel. It transforms global exploration from a series of exhausting logistics into a seamless, deeply personal lifestyle at sea.",
+    "quoteSubtitle": "Personal World Cruise Guidance from Angela Hughes",
+    "paragraphs": [
+      "With over 40 years of luxury travel industry expertise and personal travels spanning more than 121 countries, Angela Hughes specializes in orchestrating complex, ultra-luxury World Cruises and Grand Voyages for discerning global travelers.",
+      "As CEO of Trips & Ships Luxury Travel, Angela works directly with clients to select prime suite locations 18–24 months in advance, navigate segment options, secure exclusive consortia amenities, and coordinate seamless door-to-door international logistics."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Plan Your World Cruise with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is a Seabourn World Cruise?",
+      "answer": "A Seabourn World Cruise is an extended luxury voyage that connects multiple regions and destinations during one continuous journey."
+    },
+    {
+      "question": "How long is a Seabourn World Cruise?",
+      "answer": "The duration varies by sailing. World Cruises are significantly longer than conventional cruises (typically 100 to 140+ days), while Grand Voyages and segments can provide shorter alternatives from 14 to 90 days."
+    },
+    {
+      "question": "What is a Seabourn Grand Voyage?",
+      "answer": "A Grand Voyage is an extended itinerary that combines multiple destinations or regions into one longer cruise experience. Exact duration and structure vary by sailing."
+    },
+    {
+      "question": "Can I book only part of a Seabourn World Cruise?",
+      "answer": "Selected long voyages may offer individual segments. Availability and segment lengths depend on the specific itinerary."
+    },
+    {
+      "question": "Are Seabourn World Cruises worth the money?",
+      "answer": "They can be worthwhile for travelers who value slow travel, luxury accommodations, personalized service and the convenience of visiting multiple regions without repeatedly changing hotels."
+    },
+    {
+      "question": "How far in advance should I book a Seabourn World Cruise?",
+      "answer": "Planning well in advance is advisable, especially if you want a specific suite or itinerary. Many travelers begin researching 18–24 months or more before departure."
+    },
+    {
+      "question": "Which Seabourn suite is best for a World Cruise?",
+      "answer": "The best suite depends on your budget and priorities. For a long voyage, consider storage, space, location, bathroom configuration and whether a private balcony is important."
+    },
+    {
+      "question": "Is a balcony worth it on a Seabourn World Cruise?",
+      "answer": "Many travelers find a balcony valuable during a long voyage because it provides private outdoor space for relaxing and enjoying scenic cruising."
+    },
+    {
+      "question": "Are Seabourn World Cruises good for solo travelers?",
+      "answer": "They can be. The extended duration creates repeated opportunities to meet fellow travelers, although solo travelers should carefully consider the cost of single occupancy."
+    },
+    {
+      "question": "Are Seabourn World Cruises good for couples?",
+      "answer": "Yes. Couples can enjoy the slower pace, multiple destinations, dining and the ability to establish a comfortable routine onboard."
+    },
+    {
+      "question": "Are Seabourn World Cruises good for first-time cruisers?",
+      "answer": "They can be, but travelers uncertain about cruising may want to try a shorter Seabourn voyage first to make sure they enjoy sea days and life onboard."
+    },
+    {
+      "question": "What destinations are included on Seabourn World Cruises?",
+      "answer": "Routes vary by year. Depending on the sailing, a World Cruise may connect destinations across Europe, Africa, Asia, Australia, the South Pacific and the Americas."
+    },
+    {
+      "question": "Do Seabourn World Cruises have many sea days?",
+      "answer": "Extended voyages generally include sea days. Travelers should make sure they enjoy relaxing and participating in onboard activities between destinations."
+    },
+    {
+      "question": "Should I arrive early for a Seabourn World Cruise?",
+      "answer": "Arriving at the embarkation city before departure can provide a useful buffer against flight delays and other transportation problems."
+    },
+    {
+      "question": "What should I pack for a Seabourn World Cruise?",
+      "answer": "Focus on versatile clothing, comfortable shoes, layers, evening attire, workout clothing, medications and travel essentials. Laundry planning is also important for an extended voyage."
+    },
+    {
+      "question": "Can I take a Seabourn World Cruise in segments?",
+      "answer": "Selected voyages may be available as segments. This can be useful for travelers who want a portion of the itinerary without committing to the entire journey."
+    },
+    {
+      "question": "Is a Seabourn World Cruise better than several shorter cruises?",
+      "answer": "It depends on your travel style. A World Cruise offers continuity and slow travel, while separate cruises provide more flexibility and allow you to choose different ships and itineraries."
+    },
+    {
+      "question": "What is the biggest advantage of a Seabourn World Cruise?",
+      "answer": "The ability to make the ship your temporary home while visiting numerous destinations without repeatedly packing, unpacking and changing hotels is one of the biggest advantages."
+    }
+  ],
+  "finalVerdict": {
+    "title": "A Lifestyle Experience, Not Just a Longer Cruise",
+    "subtitle": "OUR FINAL VERDICT",
+    "paragraphs": [
+      "A Seabourn World Cruise or Grand Voyage is best viewed as a lifestyle experience rather than simply a longer cruise. The greatest advantages are the ability to unpack once, travel across multiple regions, settle into a familiar ship and experience destinations at a slower pace.",
+      "The biggest considerations are cost, time commitment, sea days and advance planning.",
+      "For experienced luxury travelers with the flexibility to spend an extended period away from home, Seabourn's long voyages offer a compelling combination of global exploration, intimate shipboard living and sophisticated service. For travelers who cannot commit to the entire voyage, a segment or Grand Voyage can provide many of the same benefits while requiring a shorter time commitment."
+    ],
+    "recommendation": "Our recommendation: Choose a Seabourn World Cruise if you want to unpack once, travel across multiple regions, settle into a familiar ship and experience destinations at a slower, more luxurious pace — and consider a Grand Voyage or segment if you want many of the same benefits within a shorter time commitment.",
+    "ctaText": "Start Planning Your Seabourn World Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Start Planning Your Extended Voyage",
+      "description": "Whether it's a full World Cruise or a Grand Voyage segment, let's find the itinerary, suite and departure date that fits your travel style.",
+      "buttonText": "Speak With a Specialist",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Let's Design Your Journey",
+      "description": "Choosing the right route is the most critical decision for a long voyage. Speak with an advisor to customize your travel plans today.",
+      "buttonText": "Get Itinerary Planning Help",
+      "buttonLink": "/contact"
+    },
+    "midCta4": {
+      "title": "Book Before Your Preferred Suite Sells Out",
+      "description": "The most desirable suites on the most sought-after itineraries go early. Let's map out your planning timeline today.",
+      "buttonText": "Start Planning Your Seabourn Cruise",
+      "buttonLink": "/contact"
+    },
+    "midCta5": {
+      "title": "Let's Compare Routes, Suites & Promotions",
+      "description": "From a single segment to a full circumnavigation, we'll help you find the best value for your ultra-luxury voyage.",
+      "buttonText": "Speak With a Specialist",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn World Cruise",
+      "description": "Connect with luxury World Cruise advisor Angela Hughes to secure prime suite availability and exclusive booking benefits.",
+      "buttonText": "Start Planning Your World Cruise",
+      "buttonLink": "/contact"
+    }
+  }
+}

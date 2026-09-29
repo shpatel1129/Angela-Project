@@ -1,0 +1,755 @@
+{
+  "hero": {
+    "title": "Seabourn Arctic and Greenland Cruises",
+    "subtitle": "Svalbard, Glaciers & Polar Wildlife",
+    "paragraphs": [
+      "A Seabourn Arctic and Greenland cruise offers an opportunity to explore some of the most remote landscapes in the Northern Hemisphere while traveling aboard a purpose-built luxury expedition ship.",
+      "From the glacier-carved fjords of Greenland to the dramatic wilderness of Svalbard, Seabourn's Arctic expeditions combine wildlife viewing, Zodiac exploration, guided walks, cultural experiences and expert-led interpretation with the comfort of an ultra-luxury ship.",
+      "Depending on the itinerary, voyages can also include Iceland, the Canadian Arctic, Baffin Island, Ellesmere Island and the Northwest Passage. Seabourn's current Arctic program includes voyages aboard Seabourn Venture and Seabourn Pursuit, with itineraries varying by season and year.",
+      "This guide explains where Seabourn goes in the Arctic, what you can see, what expedition activities are included, when to travel, what to pack and whether a Seabourn Arctic or Greenland cruise is right for you."
+    ],
+    "ctaText": "Start Planning Your Seabourn Cruise",
+    "ctaLink": "/contact"
+  },
+  "glanceTable": {
+    "title": "Seabourn Arctic and Greenland Cruises at a Glance",
+    "subtitle": "THE OVERVIEW",
+    "caption": "Note: Exact itineraries, Zodiac operations, wildlife sightings and onboard programming vary by sailing date and local ice conditions.",
+    "headers": ["Feature", "Seabourn Arctic & Greenland"],
+    "rows": [
+      ["Cruise style", "Ultra-luxury expedition"],
+      ["Main regions", "Greenland, Svalbard, Iceland and Arctic Canada"],
+      ["Expedition ships", "Seabourn Venture and Seabourn Pursuit"],
+      ["Popular wildlife", "Polar bears, walruses, seals, whales and seabirds"],
+      ["Activities", "Zodiac cruises, landings, walks, hikes and wildlife viewing"],
+      ["Cultural experiences", "Arctic communities, history and local traditions"],
+      ["Scenery", "Glaciers, fjords, sea ice, mountains and tundra"],
+      ["Northern Lights", "Possible on selected itineraries and conditions"],
+      ["Best travel period", "Primarily Arctic summer"],
+      ["Best for", "Wildlife lovers, photographers, adventure travelers and luxury expedition cruisers"]
+    ]
+  },
+  "whyTakeSection": {
+    "title": "Why Take a Seabourn Arctic Cruise?",
+    "subtitle": "WHY GO",
+    "paragraphs": [
+      "The Arctic is one of the world's great wilderness destinations.",
+      "The expedition format allows travelers to experience the landscape at close range through Zodiac cruises, shore landings and guided walks.",
+      "Seabourn describes its Arctic experience as a combination of remote exploration and luxury, with expert Expedition Teams providing interpretation throughout the voyage."
+    ],
+    "highlights": [
+      "Glaciers & calving ice fronts",
+      "Sea ice & frozen polar seas",
+      "Immense fjord systems",
+      "Arctic tundra & flora",
+      "Remote uninhabited islands",
+      "Dramatic coastal mountains",
+      "Native polar wildlife",
+      "Indigenous and Arctic cultures"
+    ],
+    "conclusion": "Instead of traveling between conventional ports, a Seabourn expedition takes you into pristine polar environments defined by raw wilderness and effortless residential comfort."
+  },
+  "whereGoCards": [
+    {
+      "title": "Nordic & European Arctic",
+      "items": [
+        "Greenland's immense glacial fjords, icebergs, and remote Inuit settlements",
+        "Svalbard archipelago (Spitsbergen) known for sea ice and High Arctic wilderness",
+        "Iceland's dramatic volcanic coastlines, waterfalls, and puffin colonies",
+        "Scoresby Sound — the largest and deepest fjord system on Earth"
+      ]
+    },
+    {
+      "title": "High Arctic Canada & Passage",
+      "items": [
+        "The historic Northwest Passage through Canada's Arctic archipelago",
+        "Baffin Island's sheer granite cliffs and deep polar fjords",
+        "Ellesmere Island & Devon Island — the world's northernmost wilderness",
+        "Labrador and the Torngat Mountains National Park"
+      ]
+    }
+  ],
+  "destinationsShowcase": {
+    "title": "Seabourn Greenland & Svalbard Cruises",
+    "subtitle": "THE TWO ICONS OF THE ARCTIC",
+    "items": [
+      {
+        "category": "Immense Fjords & Inuit Culture",
+        "title": "Greenland Expedition Cruises",
+        "subtitle": "Seabourn Greenland Cruises",
+        "description": "Greenland is one of the highlights of Seabourn's Arctic program. Its immense landscapes include glaciers, icebergs, deep fjords, mountainous coastlines, tundra, remote settlements and Arctic wildlife. A Greenland expedition provides a very different experience from a conventional cruise — it is about landscape, wildlife, culture and exploration rather than shopping or traditional sightseeing.",
+        "bestFor": "Glacier viewing, Zodiac cruising, shore walks, remote villages, cultural encounters, wildlife observation, and scenic fjord cruising. Seabourn specifically highlights Greenland's fjords and the cultural traditions of communities that have long lived in these northern environments.",
+        "placeholderLabel": "GREENLAND EXPEDITION"
+      },
+      {
+        "category": "High Arctic Sea Ice & Polar Wildlife",
+        "title": "Svalbard Expedition Cruises",
+        "subtitle": "Seabourn Svalbard Cruises",
+        "description": "Svalbard is one of the most compelling destinations for Arctic expedition travelers. The Norwegian archipelago lies far north of mainland Europe and is known for sea ice, glaciers, Arctic mountains, remote beaches, polar wildlife and long summer daylight. Svalbard offers one of the best opportunities to experience a true High Arctic environment without traveling to the geographic North Pole.",
+        "bestFor": "Glacier fronts, sea ice navigation, mountainous islands, coastal tundra, and polar bear habitats. Seabourn's Arctic program includes Svalbard expeditions designed to explore the archipelago in greater depth, spending multiple days navigating according to ice and wildlife conditions.",
+        "placeholderLabel": "SVALBARD HIGH ARCTIC"
+      }
+    ]
+  },
+  "wildlifeSection": {
+    "title": "Seabourn Arctic Wildlife",
+    "subtitle": "NATIVE SPECIES",
+    "paragraphs": [
+      "Wildlife is one of the biggest reasons travelers choose Arctic expeditions. Seabourn emphasizes wildlife viewing throughout its Arctic itineraries, while noting that sightings depend on local conditions and the animals themselves."
+    ],
+    "items": [
+      {
+        "icon": "Snowflake",
+        "title": "Polar Bears",
+        "description": "For many travelers, the polar bear is the ultimate Arctic wildlife encounter. Polar bears can be found in several Arctic regions, including areas around Svalbard and the Canadian Arctic.",
+        "features": [
+          "Pack ice and floe edge habitats",
+          "Svalbard & High Arctic Canada",
+          "Expert scouting by expedition team",
+          "Observed from safe ship and Zodiac distances",
+          "Influenced by sea ice and seal movements"
+        ]
+      },
+      {
+        "icon": "Waves",
+        "title": "Walrus & Seal Viewing",
+        "description": "Walruses can sometimes be found hauled out on beaches or ice floes. Seals are also common Arctic wildlife, with several species inhabiting polar waters.",
+        "features": [
+          "Atlantic walrus haul-outs on beaches",
+          "Ringed, bearded, and harp seals",
+          "Sea-level Zodiac exploration",
+          "Close approaches while maintaining distance",
+          "Pristine coastal ice habitats"
+        ]
+      },
+      {
+        "icon": "Fish",
+        "title": "Whale Watching & Marine Life",
+        "description": "Depending on the itinerary and season, travelers may encounter whales in Arctic waters while cruising in Greenland, Iceland, and polar fjords.",
+        "features": [
+          "Beluga whales & narwhals",
+          "Minke, humpback, and fin whales",
+          "Bowhead whales in High Arctic waters",
+          "Spontaneous fjord sightings from verandas",
+          "Acrobatic feeding behavior near glacier fronts"
+        ]
+      }
+    ]
+  },
+  "zodiacTabs": {
+    "title": "Seabourn Arctic Zodiac & Landings",
+    "subtitle": "GETTING CLOSER",
+    "description": "Zodiac exploration and guided shore walks are central to the Seabourn Arctic experience, taking guests off the ship to experience polar wilderness at close range aboard purpose-built expedition craft.",
+    "tabs": [
+      {
+        "id": "zodiac-cruising",
+        "label": "Zodiac Excursions",
+        "title": "Seabourn Arctic Zodiac Excursions",
+        "description": "Zodiac exploration is central to the Seabourn Arctic experience. Seabourn's purpose-built expedition ships carry 24 Zodiacs and are designed for exploration in challenging polar environments.",
+        "features": [
+          "Cruise alongside massive glaciers",
+          "Explore narrow waterways and rocky fjords",
+          "Search for marine wildlife and polar bears",
+          "Approach remote inaccessible coastlines",
+          "Visit untouched gravel beaches",
+          "Reach shore landing sites safely",
+          "View sea ice and icebergs from sea level"
+        ]
+      },
+      {
+        "id": "zodiac-landings",
+        "label": "Zodiac Landings",
+        "title": "What Is a Seabourn Zodiac Landing Like?",
+        "description": "A Zodiac landing is different from stepping off a ship at a conventional cruise terminal. Landing locations adapt to weather, sea conditions, ice floes, and wildlife safety.",
+        "features": [
+          "Board Zodiacs directly from the ship's sheltered platform",
+          "Travel toward a remote wilderness landing site",
+          "Step ashore with direct assistance from the Expedition Team",
+          "Explore the area through guided walks or hikes",
+          "Return safely to the ship for warm beverages"
+        ]
+      },
+      {
+        "id": "guided-walks",
+        "label": "Guided Walks & Hikes",
+        "title": "Arctic Guided Walks and Hikes",
+        "description": "Walking ashore is an essential part of the expedition experience. Walks range from gentle scenic strolls to active tundra and ridge hikes led by armed expedition guides.",
+        "features": [
+          "Vibrant Arctic tundra and miniature flora",
+          "Remote gravel beaches and driftwood shores",
+          "Historic trapper cabins and whaling stations",
+          "Authentic Inuit villages and settlements",
+          "Panoramic mountain and fjord viewpoints",
+          "Nesting seabird cliffs and reindeer habitats"
+        ]
+      },
+      {
+        "id": "ice-landings",
+        "label": "Ice Landings",
+        "title": "Polar Ice Landings",
+        "description": "Selected Arctic itineraries include opportunities to experience sea ice directly when conditions permit. Ice landings are thrilling expedition opportunities subject to polar nature.",
+        "features": [
+          "Stepping directly onto stable sea ice floes",
+          "Viewing towering blue icebergs up close",
+          "Navigating close to thunderous glacier fronts",
+          "Experiencing frozen polar seas firsthand",
+          "Guided by experienced ice masters and glaciologists"
+        ]
+      }
+    ]
+  },
+  "expeditionTeam": {
+    "title": "Seabourn Arctic Expedition Team",
+    "subtitle": "EXPERT GUIDANCE",
+    "description": "The Expedition Team is an essential pillar of every polar voyage. Comprising up to 24 world-renowned specialists, they provide daily briefings, lectures, wildlife interpretation, shore guidance, safety instructions and cultural context.",
+    "roles": [
+      {
+        "title": "Naturalists & Marine Biologists",
+        "description": "Provide deep wildlife interpretation, lead Zodiac wildlife scouting, and deliver daily briefings on polar bears, whales, seals, and Arctic ecosystems."
+      },
+      {
+        "title": "Historians & Geologists",
+        "description": "Offer rich cultural context on Inuit heritage, heroic age polar exploration, Arctic archaeology, and the dynamic geology of tectonic fjords."
+      },
+      {
+        "title": "Glaciologists & Photographers",
+        "description": "Explain ice dynamics and climate science while providing hands-on camera guidance to help guests capture breathtaking polar imagery."
+      }
+    ]
+  },
+  "cultureSection": {
+    "heading": "Arctic Cultural Experiences",
+    "subtitle": "THE HUMAN SIDE OF THE ARCTIC",
+    "paragraphs": [
+      "An Arctic cruise isn't only about ice and wildlife. The region has long been home to communities with deep relationships to the land and sea.",
+      "Greenland's history adds another dimension to the journey — travelers may encounter communities where traditional Arctic culture remains closely connected to the surrounding environment."
+    ],
+    "highlights": [
+      "Remote Inuit village visits and authentic community interactions",
+      "Traditional storytelling, oral histories, and legends",
+      "Cultural interpretation by local guides and elders",
+      "Historic archaeological sites, turf houses, and Norse ruins",
+      "Local Arctic art, crafts, and stone carvings",
+      "Discussions about modern life and sustainable living in the High Arctic"
+    ],
+    "image1Placeholder": "ARCTIC CULTURAL TRADITIONS",
+    "image2Placeholder": "GREENLAND COMMUNITY ENCOUNTERS"
+  },
+  "nwpFaceoff": {
+    "title": "Northwest Passage vs. Baffin & Ellesmere Island",
+    "regent": {
+      "title": "Northwest Passage Expeditions",
+      "badge": "Historic Polar Route",
+      "description": "The legendary sea route through Canada's Arctic archipelago connecting the Atlantic and Pacific oceans.",
+      "features": [
+        "Historic exploration heritage (Franklin, Amundsen)",
+        "Navigation through narrow ice-choked straits and channels",
+        "Remote uninhabited islands and dramatic tundra",
+        "Active wildlife viewing (polar bears, muskoxen, belugas)",
+        "Traditional Inuit cultural settlements and historic camps",
+        "Spectacular Arctic scenery and vast frozen expanses"
+      ]
+    },
+    "viking": {
+      "title": "Baffin & Ellesmere Island",
+      "badge": "Deeper High Arctic",
+      "description": "Expeditions reaching into the northernmost reaches of the Canadian Arctic archipelago.",
+      "features": [
+        "Baffin Island's colossal vertical granite cliffs and fjords",
+        "Ellesmere Island — among Earth's northernmost landmasses",
+        "Exceptionally remote, untouched polar wilderness",
+        "Deeper exploration far off conventional navigation routes",
+        "Ancient geological formations and fossil forests",
+        "Unrivaled isolation and raw polar expedition spirit"
+      ]
+    }
+  },
+  "northernLights": {
+    "title": "Seabourn Arctic and Northern Lights",
+    "subtitle": "CHASING THE AURORA",
+    "paragraphs": [
+      "The Northern Lights can be one of the most spectacular possibilities on an Arctic voyage. However, seeing the aurora is never guaranteed — it depends on solar activity, darkness, cloud cover, location and weather.",
+      "Seabourn highlights opportunities to search for the Northern Lights from the ship, including specialized observation areas such as the panoramic Constellation Lounge and open outdoor decks.",
+      "Can you see the Northern Lights on a Greenland cruise? Potentially, but travelers should understand the aurora is a natural phenomenon rather than a scheduled activity. Later summer departures (August-September) offer increasing hours of nighttime darkness optimal for aurora viewing."
+    ]
+  },
+  "seasonsTimeline": {
+    "title": "Best Time for a Seabourn Arctic Cruise",
+    "subtitle": "ARCTIC CRUISE SEASONS EXPLAINED",
+    "items": [
+      {
+        "step": "01",
+        "title": "Early Season (April – June)",
+        "description": "Cooler polar conditions, extensive sea ice, dramatic snow-capped landscapes, and a strong expedition atmosphere. Ideal for ice navigation and wildlife on sea ice."
+      },
+      {
+        "step": "02",
+        "title": "Mid-Season (July – August)",
+        "description": "24-hour Midnight Sun daylight, maximum ice melt allowing deeper fjord access, active wildlife viewing (seabirds, whales, polar bears), and extensive shore exploration time."
+      },
+      {
+        "step": "03",
+        "title": "Late Season (August – September)",
+        "description": "Changing autumn tundra colors, shifting wildlife migration patterns, and returning dark evening skies providing potential opportunities to search for the Northern Lights."
+      }
+    ]
+  },
+  "shipsShowcase": {
+    "title": "Seabourn Arctic Expedition Ships",
+    "subtitle": "PURPOSE-BUILT POLAR LUXURY",
+    "items": [
+      {
+        "category": "PC6 Polar Class Expedition Vessel",
+        "title": "Seabourn Venture",
+        "subtitle": "Arctic, Greenland & Northwest Passage",
+        "description": "Seabourn Venture has been a cornerstone of Seabourn's Arctic program. Its PC6 Polar Class ice-strengthened hull is engineered for Svalbard, Greenland, Iceland, the Canadian Arctic, and the Northwest Passage. With 24 Zodiacs, expedition team, and ultra-luxury suites, it delivers pure adventure in five-star comfort.",
+        "bestFor": "Svalbard, Greenland Fjords, Iceland, Canadian High Arctic, and the Northwest Passage.",
+        "placeholderLabel": "SEABOURN VENTURE"
+      },
+      {
+        "category": "PC6 Polar Class Expedition Vessel",
+        "title": "Seabourn Pursuit",
+        "subtitle": "Svalbard & Expanded Arctic Regions",
+        "description": "Seabourn Pursuit expands Seabourn's ultra-luxury expedition fleet. Featuring identical purpose-built capabilities, advanced positioning systems, and expansive public lounges, Pursuit operates across Svalbard and remote northern waterways.",
+        "bestFor": "Svalbard, High Arctic ice navigation, and expanded polar itineraries.",
+        "placeholderLabel": "SEABOURN PURSUIT"
+      }
+    ]
+  },
+  "shipVsTraditionalFaceoff": {
+    "title": "Seabourn Arctic Ship vs. Traditional Cruise Ship",
+    "regent": {
+      "title": "Seabourn Expedition Ship",
+      "badge": "Purpose-Built Expedition",
+      "description": "Engineered specifically for remote polar navigation, ice transit, and daily expedition operations.",
+      "features": [
+        "PC6 Polar Class ice-strengthened hull design",
+        "Carries 24 Zodiacs and sea kayaks for remote access",
+        "24-person world-class specialist Expedition Team",
+        "Wildlife-focused daily scouting and ice landings",
+        "Direct shore landings on remote beaches and ice floes",
+        "Access to uninhabited Arctic fjords and wilderness",
+        "Intimate small-ship atmosphere (264 guests)"
+      ]
+    },
+    "viking": {
+      "title": "Traditional Cruise Ship",
+      "badge": "Conventional Cruise",
+      "description": "Designed primarily for port-to-port ocean cruising between developed municipal harbors.",
+      "features": [
+        "Conventional hull without polar ice strengthening",
+        "Standard tenders or reliance on commercial docks",
+        "Traditional cruise staff and entertainment hosts",
+        "City and standard sightseeing motorcoach excursions",
+        "Docking exclusively at established commercial piers",
+        "Visits to developed tourist ports and cities",
+        "Much larger vessel capacity (1,000+ passengers)"
+      ]
+    }
+  },
+  "inclusionsData": {
+    "title": "What Is Included on a Seabourn Arctic Cruise?",
+    "subtitle": "THE INCLUSIVE EXPEDITION MODEL",
+    "description": "Seabourn combines all-inclusive ultra-luxury hospitality with comprehensive expedition operations, ensuring guests explore without unexpected fees.",
+    "categories": [
+      {
+        "title": "Included Expedition Activities",
+        "items": [
+          "Daily Zodiac cruises along glacier fronts and coastlines",
+          "Selected shore landings on remote beaches and tundra",
+          "Guided nature walks and hikes led by expedition specialists",
+          "Digital photography workshops and equipment advice"
+        ]
+      },
+      {
+        "title": "Included Onboard Programming",
+        "items": [
+          "Daily expedition briefings and wildlife recaps in Discovery Center",
+          "Enriching lectures by naturalists, geologists, and historians",
+          "Signature polar events including Caviar on the Ice",
+          "Informal Fireside Chats with expedition leaders"
+        ]
+      },
+      {
+        "title": "Included Luxury & Dining",
+        "items": [
+          "All-suite oceanfront accommodations with private verandas",
+          "Gourmet open-seating dining across multiple restaurants",
+          "Complimentary premium spirits, fine wines, and champagne",
+          "Custom expedition parka and waterproof backpack on select sailings"
+        ]
+      },
+      {
+        "title": "Optional Arctic Add-Ons",
+        "items": [
+          "Guided sea kayaking excursions in polar bays and fjords",
+          "The optional Polar Plunge jump into freezing Arctic waters",
+          "Custom private flightseeing and specialized local tours",
+          "Pre- and post-cruise luxury hotel and transfer extensions"
+        ]
+      }
+    ]
+  },
+  "packingChecklist": {
+    "title": "What to Pack for a Seabourn Arctic Cruise",
+    "subtitle": "PACKING ESSENTIALS • BALANCING EXPEDITION GEAR WITH ONBOARD LUXURY",
+    "categories": [
+      {
+        "id": "expedition-clothing",
+        "icon": "ShirtIcon",
+        "label": "Essential Expedition Clothing",
+        "items": [
+          "Waterproof, windproof outer jacket (parka provided on select voyages)",
+          "Waterproof rain/wind trousers for wet Zodiac rides",
+          "Thermal base layers (merino wool or high-performance synthetic)",
+          "Fleece jackets, down vests, or wool insulating mid-layers",
+          "Warm insulated beanie hat covering ears and neck gaiter",
+          "Waterproof outer gloves plus lightweight touchscreen inner glove liners",
+          "Moisture-wicking wool hiking socks (bring multiple pairs)"
+        ]
+      },
+      {
+        "id": "onboard-clothing",
+        "icon": "HeartIcon",
+        "label": "Onboard Luxury Attire",
+        "items": [
+          "Elegant smart-casual evening clothing for fine dining and cocktails",
+          "Comfortable relaxed lounge wear and cozy sweaters for daytime cruising",
+          "Comfortable indoor shoes or loafers for walking around the ship",
+          "Swimwear for heated outdoor whirlpools and spa sauna facilities"
+        ]
+      },
+      {
+        "id": "footwear-gear",
+        "icon": "ShoeIcon",
+        "label": "Footwear & Shore Gear",
+        "items": [
+          "Comfortable waterproof walking shoes or sturdy trail boots",
+          "Water-friendly footwear for wet Zodiac shore landings",
+          "Knee-high muck boots (often provided or loaned onboard for landings)",
+          "Sturdy ankle-support footwear for rocky tundra walks"
+        ]
+      },
+      {
+        "id": "optics-essentials",
+        "icon": "BackpackIcon",
+        "label": "Optics & Expedition Essentials",
+        "items": [
+          "High-quality binoculars (8x42 or 10x42) for polar bear & bird spotting",
+          "Camera with telephoto zoom lens and extra cold-resistant batteries",
+          "Waterproof dry bag or protective pouch for cameras in Zodiacs",
+          "Polarized sunglasses and high-SPF lip and face sun protection",
+          "Reusable insulated water bottle and personal daypack"
+        ]
+      }
+    ]
+  },
+  "experienceNeeded": {
+    "title": "Do You Need Polar Expedition Experience?",
+    "subtitle": "GETTING READY & PHYSICAL PREPARATION",
+    "paragraphs": [
+      "No. You don't need previous polar expedition experience to enjoy a Seabourn Arctic cruise. The Expedition Team guides and assists guests throughout every stage of the voyage.",
+      "However, you should be comfortable with the realities of expedition travel. Activity levels vary by excursion — the ability to step into and out of Zodiacs and walk on uneven natural terrain is important."
+    ],
+    "highlights": [
+      "Zodiac boarding and stepping ashore onto uneven rocky beaches",
+      "Walking on natural tundra, loose gravel, and unpaved terrain",
+      "Cold, breezy, or wet polar weather conditions",
+      "Flexible daily schedules that adapt to ice and wildlife opportunities",
+      "Following safety protocols set by armed expedition guides"
+    ],
+    "conclusion": "With dedicated crew assistance, first-time expedition cruisers regularly enjoy every aspect of Seabourn's Arctic itineraries in total comfort and safety."
+  },
+  "travelerPersonas": {
+    "title": "Is a Seabourn Arctic Cruise Good for You?",
+    "subtitle": "THE RIGHT FIT FOR COUPLES, SOLOS & FAMILIES",
+    "personas": [
+      {
+        "icon": "Heart",
+        "title": "Couples",
+        "description": "Couples can share once-in-a-lifetime polar wildlife encounters during the day, followed by romantic champagne dinners and quiet evenings watching midnight sun glaciated fjords.",
+        "traits": [
+          "Morning: Zodiac wildlife exploration and glacier cruising",
+          "Afternoon: Scenic tundra walk or relaxing in the ship's spa",
+          "Evening: Fine dining, caviar service, and panoramic sunset views"
+        ],
+        "recommendations": ["Romantic Polar Journey", "Shared Adventure"]
+      },
+      {
+        "icon": "Compass",
+        "title": "Solo Travelers",
+        "description": "The intimate small-ship expedition setting fosters immediate camaraderie. Shared Zodiac outings, expert lectures, and open-seating dining make solo exploration exceptionally welcoming.",
+        "traits": [
+          "Shared Zodiac excursions and wildlife observation decks",
+          "Enriching daily briefings, lectures, and photo workshops",
+          "Open-seating dining with fellow travelers and expedition team"
+        ],
+        "recommendations": ["Solo Friendly", "Expedition Community"]
+      },
+      {
+        "icon": "Landmark",
+        "title": "Adventurous Families",
+        "description": "Ideal for multigenerational families with older children or teens who appreciate raw wildlife, geology, and history over mega-ship water slides.",
+        "traits": [
+          "Review minimum age requirements and polar weather suitability",
+          "Confirm family members are comfortable with Zodiac boarding",
+          "Engage in world-class hands-on science and wildlife education"
+        ],
+        "recommendations": ["Multigenerational", "Active Nature Lovers"]
+      }
+    ]
+  },
+  "prosCons": {
+    "title": "Seabourn Arctic Pros and Cons",
+    "prosTitle": "Key Advantages (Pros)",
+    "consTitle": "Considerations (Cons)",
+    "bestFor": [
+      "Access to remote Arctic destinations inaccessible by conventional ships",
+      "Comprehensive Svalbard and Greenland expedition itineraries",
+      "Purpose-built PC6 Polar Class luxury expedition vessels",
+      "24 Zodiacs onboard for daily glacier and wildlife exploration",
+      "Exceptional wildlife viewing including polar bears, walruses, and whales",
+      "World-class 24-person specialist Expedition Team",
+      "Spectacular glacial fjords, icebergs, and dramatic mountain scenery",
+      "Authentic Indigenous Inuit cultural connections in Greenland",
+      "Intimate small-ship luxury atmosphere with five-star accommodations",
+      "Fine gourmet dining, open seating, and complimentary premium beverages",
+      "Optional polar kayaking and signature Caviar on the Ice events",
+      "Potential Northern Lights viewing opportunities on late-season voyages"
+    ],
+    "notBestFor": [
+      "Wildlife sightings and sea ice conditions cannot be guaranteed",
+      "Polar weather and ice conditions can necessitate dynamic itinerary changes",
+      "Expedition shore landings require moderate physical mobility",
+      "Arctic conditions can be cold, windy, and wet",
+      "No traditional mega-ship casinos, water parks, or port shopping malls",
+      "Premium luxury pricing reflecting specialized polar expedition operations"
+    ],
+    "bottomNote": "Weighing these factors helps ensure a Seabourn Arctic expedition aligns perfectly with your expectations."
+  },
+  "worthItBrand": {
+    "name": "Seabourn Arctic Value Proposition",
+    "bestFor": "Discerning Travelers Seeking Authentic High Arctic Exploration in Ultra-Luxury",
+    "whatMakesItStandOut": "For the right traveler, a Seabourn Arctic or Greenland cruise delivers unmatched value. The biggest advantage is access: you are not simply visiting Greenland or Svalbard from afar — you are experiencing these remote polar environments through an expedition platform engineered to bring you face-to-face with glaciers, ice floes, and wildlife in complete five-star luxury.",
+    "strengths": [
+      "Remote polar wilderness combined with residential suite luxury",
+      "Active wildlife encounters supported by expert scientific interpretation",
+      "True High Arctic exploration delivered with effortless comfort",
+      "Deep Inuit cultural engagement and dramatic natural landscapes",
+      "Daily Zodiac excursions and ice navigation paired with fine dining"
+    ],
+    "considerations": [
+      "The value comes from combining raw polar adventure with unmatched five-star service every single day."
+    ],
+    "image": ""
+  },
+  "arcticVsAntarctica": {
+    "title": "Seabourn Arctic vs. Antarctica",
+    "subtitle": "MAKING COMPARISONS • TWO DIFFERENT POLAR WORLDS",
+    "caption": "Both are world-class polar expedition destinations, but each offers completely distinct wildlife, geography, and cultural dimensions.",
+    "headers": ["Comparison Feature", "Arctic (North)", "Antarctica (South)"],
+    "rows": [
+      ["Key Destinations", "Greenland, Svalbard, Arctic Canada", "Antarctic Peninsula, South Shetland Islands"],
+      ["Iconic Land Wildlife", "Polar bears, Arctic foxes, muskoxen", "Penguins (Gentoo, Adélie, Chinstrap)"],
+      ["Marine Life", "Walruses, beluga whales, narwhals", "Leopard seals, crabeater seals, orcas"],
+      ["Human Culture", "Indigenous Inuit communities & history", "Uninhabited wilderness & research stations"],
+      ["Daylight & Skies", "Northern Lights (late season) & Midnight Sun", "24-hour austral summer sunlight"],
+      ["Landscape Character", "Deep fjords, green tundra, jagged mountains", "Massive ice sheets, ice shelves & glaciers"],
+      ["Sailing Season", "June through September (Northern Summer)", "November through March (Southern Summer)"],
+      ["Embarkation Ports", "Reykjavik, Longyearbyen, Kangerlussuaq", "Buenos Aires, Ushuaia, Punta Arenas"],
+      ["Expedition Style", "Wildlife, culture, and fjord navigation", "Ice landscapes, massive penguin rookeries"]
+    ]
+  },
+  "bookingTips": {
+    "title": "Tips for Booking a Seabourn Arctic Cruise",
+    "subtitle": "BEFORE YOU BOOK • EXPERT EXPEDITION GUIDANCE",
+    "items": [
+      {
+        "step": "1",
+        "title": "Choose the Destination Before the Ship",
+        "description": "Decide whether you most want Greenland's fjords, Svalbard's High Arctic sea ice, Iceland's volcanism, or the historic Northwest Passage before choosing sailing dates."
+      },
+      {
+        "step": "2",
+        "title": "Compare the Seasons Carefully",
+        "description": "Early season (June) brings dramatic sea ice; mid-season (July-August) offers 24-hour daylight and active whales; late season (August-September) brings autumn tundra and potential Northern Lights."
+      },
+      {
+        "step": "3",
+        "title": "Look at the Total Expedition Days",
+        "description": "Longer itineraries (14 to 24 days) offer substantially more opportunities for spontaneous wildlife encounters and remote fjord exploration."
+      },
+      {
+        "step": "4",
+        "title": "Review Excursion Activity Levels",
+        "description": "Ensure you are comfortable with Zodiac boarding from the platform and walking on unpaved gravel and tundra terrain."
+      },
+      {
+        "step": "5",
+        "title": "Choose Your Suite Category Carefully",
+        "description": "A private veranda suite provides priceless impromptu viewing when whales or polar bears appear alongside the ship."
+      },
+      {
+        "step": "6",
+        "title": "Pack for Layering and Flexibility",
+        "description": "High-performance thermal base layers, waterproof outer shells, and warm gloves are far more effective than bulky single coats."
+      },
+      {
+        "step": "7",
+        "title": "Bring High-Quality Binoculars",
+        "description": "A quality pair of 8x42 or 10x42 binoculars is the single most valuable piece of gear for spotting polar bears, walruses, and seabirds."
+      },
+      {
+        "step": "8",
+        "title": "Work with a Polar Travel Specialist",
+        "description": "A knowledgeable luxury advisor helps compare routes, reserve prime suites, coordinate charter flights to Longyearbyen/Kangerlussuaq, and secure VIP amenities."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "POLAR EXPEDITION EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "40+ Years of Industry Leadership & Global Polar Travel Experience",
+    "experienceBadge": "40+ Years Experience • 121+ Countries",
+    "quote": "The Arctic is a realm of breathtaking grandeur. Watching polar bears on Svalbard's pack ice or cruising beneath Greenland's towering granite cliffs aboard Seabourn Venture is the ultimate harmony of true wilderness and refined luxury.",
+    "quoteSubtitle": "Personal Arctic Expedition Insights from Angela Hughes",
+    "paragraphs": [
+      "With over four decades in the luxury travel industry and firsthand experience exploring more than 121 countries, Angela Hughes is globally recognized for her deep expertise in polar expedition cruising, Arctic navigation, and bespoke luxury itineraries.",
+      "As CEO of Trips & Ships Luxury Travel, Angela works closely with discerning travelers to match optimal polar sailing dates, select prime veranda suites, and arrange flawless charter flights to the High Arctic."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Plan with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is a Seabourn Arctic cruise?",
+      "answer": "A Seabourn Arctic cruise is a luxury expedition voyage exploring remote northern destinations such as Greenland, Svalbard, Iceland and the Canadian Arctic."
+    },
+    {
+      "question": "Does Seabourn cruise to Greenland?",
+      "answer": "Yes. Greenland is an important destination within Seabourn's Arctic expedition program. Current and future itineraries include Greenland and its fjords and remote northern landscapes."
+    },
+    {
+      "question": "Does Seabourn cruise to Svalbard?",
+      "answer": "Yes. Seabourn offers expedition itineraries featuring Svalbard, including voyages designed to explore the archipelago in greater depth."
+    },
+    {
+      "question": "Which Seabourn ships sail the Arctic?",
+      "answer": "Seabourn Venture and Seabourn Pursuit are the company's purpose-built expedition ships used for Arctic exploration."
+    },
+    {
+      "question": "Can you see polar bears on a Seabourn Arctic cruise?",
+      "answer": "Polar bears are among the wildlife travelers may search for in Arctic regions such as Svalbard and the Canadian Arctic. Sightings are never guaranteed."
+    },
+    {
+      "question": "What other wildlife can you see?",
+      "answer": "Possible wildlife includes walruses, seals, beluga whales, other whales, Arctic foxes, muskox, caribou and numerous seabirds."
+    },
+    {
+      "question": "Are Zodiac excursions included?",
+      "answer": "Seabourn's Arctic program includes Zodiac cruises and selected landings as part of the expedition experience. Specific inclusions should always be confirmed for the individual sailing."
+    },
+    {
+      "question": "Can you go ashore in Greenland?",
+      "answer": "Yes. Depending on the itinerary and conditions, guests can participate in shore landings, guided walks and cultural experiences."
+    },
+    {
+      "question": "Can you see the Northern Lights?",
+      "answer": "Potentially. The Northern Lights depend on darkness, solar activity and weather. Seabourn specifically highlights opportunities to search for the aurora on Arctic voyages."
+    },
+    {
+      "question": "What is the best time for a Seabourn Arctic cruise?",
+      "answer": "The main expedition season is during the Arctic's warmer months. Seabourn's current programs include summer Arctic voyages, with exact timing varying by destination and year."
+    },
+    {
+      "question": "Is Greenland or Svalbard better?",
+      "answer": "It depends on your interests. Choose Greenland for immense fjords, glaciers and Arctic communities. Choose Svalbard for High Arctic landscapes, sea ice and strong polar wildlife opportunities."
+    },
+    {
+      "question": "Is a Seabourn Arctic cruise physically demanding?",
+      "answer": "Some excursions can be moderately active, particularly Zodiac boarding, shore landings and hikes. Activity levels vary by excursion."
+    },
+    {
+      "question": "Do I need previous expedition experience?",
+      "answer": "No. Seabourn's Expedition Team guides guests throughout the voyage, making the experience accessible to first-time expedition travelers."
+    },
+    {
+      "question": "What should I pack for a Seabourn Arctic cruise?",
+      "answer": "Bring waterproof outerwear, warm layers, waterproof footwear, gloves, a hat, sunglasses, sunscreen, binoculars and appropriate photography equipment."
+    },
+    {
+      "question": "Does Seabourn provide expedition gear?",
+      "answer": "Selected Seabourn Arctic voyages include expedition items such as a custom parka and waterproof day pack. Guests should check the specific sailing's inclusions before packing."
+    },
+    {
+      "question": "Is kayaking available?",
+      "answer": "Kayaking is available as an optional experience on selected Arctic itineraries."
+    },
+    {
+      "question": "Is a Seabourn Greenland cruise worth it?",
+      "answer": "For travelers who value remote landscapes, wildlife, expedition exploration and luxury service, a Seabourn Greenland cruise can be an excellent choice."
+    },
+    {
+      "question": "Is Seabourn Arctic better than Antarctica?",
+      "answer": "Neither is universally better. The Arctic is especially appealing for Greenland, Svalbard, polar bears and Arctic cultures, while Antarctica is particularly compelling for penguins, ice landscapes and the Antarctic Peninsula."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Remote Wilderness, Delivered in Comfort",
+    "subtitle": "OUR SEABOURN ARCTIC VERDICT",
+    "paragraphs": [
+      "Seabourn Arctic and Greenland cruises are an excellent fit for travelers who want to explore the far north in comfort while remaining deeply connected to the landscape. The combination of Svalbard, Greenland, glaciers, sea ice, polar wildlife, Zodiac exploration and Arctic culture creates an experience unlike a conventional luxury cruise.",
+      "The biggest appeal is the opportunity to travel into places that are difficult to reach independently while having a purpose-built expedition ship and expert team supporting the journey."
+    ],
+    "recommendation": "Our recommendation: If your idea of luxury travel includes wildlife, remote landscapes, meaningful cultural experiences and adventure, a Seabourn Arctic or Greenland expedition may be one of the most rewarding choices in the Seabourn portfolio.",
+    "ctaText": "Start Planning Your Seabourn Arctic Cruise",
+    "ctaLink": "/contact"
+  },
+  "ctas": {
+    "midCta1": {
+      "title": "Chart Your Arctic Expedition",
+      "description": "From Greenland's fjords to Svalbard's sea ice, let's compare Seabourn's Arctic itineraries and find the voyage that matches your priorities.",
+      "buttonText": "Compare Arctic Itineraries",
+      "buttonLink": "/contact"
+    },
+    "midCta2": {
+      "title": "Explore the Northwest Passage & High Arctic",
+      "description": "From Baffin Island to Ellesmere Island, let's design a deeper High Arctic expedition tailored to your sense of adventure.",
+      "buttonText": "Design My Arctic Voyage",
+      "buttonLink": "/contact"
+    },
+    "midCta3": {
+      "title": "Find Your Perfect Arctic Suite",
+      "description": "Let's compare suite categories, veranda access and departure dates to find the best fit for your Arctic expedition.",
+      "buttonText": "Speak with a Specialist",
+      "buttonLink": "/contact"
+    },
+    "midCta4": {
+      "title": "Consult a Polar Travel Specialist",
+      "description": "Weighing the pros and cons of Svalbard vs. Greenland? Talk to our specialists to find your ideal sailing date and route.",
+      "buttonText": "Speak with an Advisor",
+      "buttonLink": "/contact"
+    },
+    "finalCta": {
+      "title": "Start Planning Your Seabourn Arctic Cruise",
+      "description": "Connect with luxury polar cruise specialist Angela Hughes to plan your unforgettable Seabourn Arctic and Greenland expedition.",
+      "buttonText": "Start Planning Your Expedition",
+      "buttonLink": "/contact"
+    }
+  }
+}
