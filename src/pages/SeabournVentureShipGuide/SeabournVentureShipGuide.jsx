@@ -3,6 +3,16 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela.jpeg";
 
+// Page Asset Images from SeabournVentureShipGuide (SEO-Optimized)
+import heroImg from "../../assets/SeabournVentureShipGuide/seabourn-venture-luxury-expedition-ship-guide-hero.jpg";
+import editorialImg from "../../assets/SeabournVentureShipGuide/what-is-seabourn-venture-ultra-luxury-polar-expedition-editorial.jpg";
+import accommodations1Img from "../../assets/SeabournVentureShipGuide/seabourn-venture-veranda-suite-luxury-accommodations.jpg";
+import accommodations2Img from "../../assets/SeabournVentureShipGuide/seabourn-venture-premium-panoramic-expedition-suites.jpg";
+import findSuiteCtaImg from "../../assets/SeabournVentureShipGuide/find-your-ideal-seabourn-venture-suite-consultation-cta.jpg";
+import ventureVsOthersImg from "../../assets/SeabournVentureShipGuide/seabourn-venture-vs-other-polar-expedition-ships-showcase.jpg";
+import finalCtaImg from "../../assets/SeabournVentureShipGuide/start-planning-your-seabourn-venture-polar-expedition-voyage-cta.jpg";
+import explorePolarCtaImg from "../../assets/SeabournExpeditionCruises/seabourn-antarctica-cruises-best-time-to-sail-season.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -20,6 +30,7 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Destination Images
 import antarcticaImg from "../../assets/SeabournExpeditionCruises/seabourn-antarctica-wildlife-penguins-polar-expedition.jpg";
@@ -155,6 +166,17 @@ const schemaData = {
 };
 
 const SeabournVentureGuide = () => {
+  const suiteItems = data.suitesSection.items.map((item, idx) => ({
+    ...item,
+    image: idx === 0 ? accommodations1Img : accommodations2Img
+  }));
+
+  const ventureVideoData = {
+    youtubeId: "ao0tzvV6k2o",
+    title: "Seabourn Venture: Ultra-Luxury Expedition Ship Tour & Guide",
+    description: "Explore Seabourn Venture up close—from PC6 polar hull architecture and custom submersibles to all-suite luxury accommodations and master culinary venues."
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
@@ -176,6 +198,7 @@ const SeabournVentureGuide = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs[0]}
+        backgroundImage={heroImg}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
         secondaryCtaText="Explore Venture Details"
@@ -192,6 +215,7 @@ const SeabournVentureGuide = () => {
         eyebrow={data.editorialIntro.eyebrow}
         heading={data.editorialIntro.heading}
         paragraphs={data.editorialIntro.paragraphs}
+        image={editorialImg}
         placeholderLabel={data.editorialIntro.placeholderLabel}
         badgeTitle={data.editorialIntro.badgeTitle}
         badgeDescription={data.editorialIntro.badgeDescription}
@@ -214,6 +238,7 @@ const SeabournVentureGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={explorePolarCtaImg}
         theme="dark"
       />
 
@@ -234,7 +259,7 @@ const SeabournVentureGuide = () => {
       {/* ── 7. SUITES & ACCOMMODATIONS ── */}
       <HighlightsSplit
         title={data.suitesSection.title}
-        items={data.suitesSection.items}
+        items={suiteItems}
       />
 
       {/* ── CTA 2: SUITE AVAILABILITY ── */}
@@ -243,7 +268,8 @@ const SeabournVentureGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
-        theme="light"
+        image={findSuiteCtaImg}
+        theme="dark"
       />
 
       {/* ── 8. DINING & CULINARY PROGRAM (5 CARDS) ── */}
@@ -273,8 +299,11 @@ const SeabournVentureGuide = () => {
         extras={data.atmosphereAndPacking.extras}
       />
 
+      {/* ── Mid-Page Video Spotlight (Seabourn Venture Tour) ── */}
+      <VideoEmbed data={ventureVideoData} />
+
       {/* ── 11. WHO IS VENTURE BEST FOR (TRAVELER TYPES) ── */}
-      <TravelerTypeGrid
+      <TravelerTypeGrid                   
         title="Who Is Seabourn Venture Best For?"
         subtitle="Venture is designed for discerning travelers seeking active adventure paired with all-suite luxury."
         items={data.travelerTypes}
@@ -287,7 +316,10 @@ const SeabournVentureGuide = () => {
 
       {/* ── 13. VENTURE VS OTHER EXPEDITION SHIPS (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.ventureVsOthersBrand}
+        brand={{
+          ...data.ventureVsOthersBrand,
+          image: ventureVsOthersImg
+        }}
         index={0}
       />
 
@@ -359,7 +391,8 @@ const SeabournVentureGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

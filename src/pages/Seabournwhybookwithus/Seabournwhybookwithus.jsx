@@ -3,6 +3,18 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from WhyBookSeabourn (SEO-Optimized)
+import heroImg from "../../assets/WhyBookSeabourn/why-book-seabourn-cruises-with-trips-and-ships-luxury-travel-hero.jpg";
+import editorialImg from "../../assets/WhyBookSeabourn/the-advantage-of-booking-seabourn-with-luxury-travel-advisor-editorial.jpg";
+import compareLinesImg from "../../assets/WhyBookSeabourn/comparing-seabourn-with-other-ultra-luxury-cruise-lines.jpg";
+import luxuryPerspective1Img from "../../assets/WhyBookSeabourn/seabourn-luxury-perspective-suite-and-deck-selection-expertise.jpg";
+import luxuryPerspective2Img from "../../assets/WhyBookSeabourn/seabourn-added-amenities-and-consortium-perks-guidance.jpg";
+import midCtaImg from "../../assets/WhyBookSeabourn/experience-seabourn-with-expert-travel-advisor-guidance-cta.jpg";
+import worthIt1Img from "../../assets/WhyBookSeabourn/is-booking-seabourn-with-travel-advisor-worth-it-value-analysis.jpg";
+import worthIt2Img from "../../assets/WhyBookSeabourn/is-booking-seabourn-with-travel-advisor-worth-it-advocacy-support.jpg";
+import tripsShipsDiffImg from "../../assets/WhyBookSeabourn/the-trips-and-ships-luxury-travel-difference-effortless-cruising.jpg";
+import finalCtaImg from "../../assets/WhyBookSeabourn/ready-to-plan-your-luxury-seabourn-cruise-vacation-cta.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -91,6 +103,16 @@ const schemaData = {
 };
 
 const SeabournWhyBookWithUs = () => {
+  const luxuryPerspectiveItems = data.luxuryPerspectiveAndAmenities.items.map((item, idx) => ({
+    ...item,
+    image: idx === 0 ? luxuryPerspective1Img : luxuryPerspective2Img
+  }));
+
+  const worthItItems = data.worthItSection.items.map((item, idx) => ({
+    ...item,
+    image: idx === 0 ? worthIt1Img : worthIt2Img
+  }));
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
@@ -112,6 +134,7 @@ const SeabournWhyBookWithUs = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs[0]}
+        backgroundImage={heroImg}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
         secondaryCtaText="Explore Advisor Benefits"
@@ -123,6 +146,7 @@ const SeabournWhyBookWithUs = () => {
         eyebrow={data.advisorAdvantage.eyebrow}
         heading={data.advisorAdvantage.heading}
         paragraphs={data.advisorAdvantage.paragraphs}
+        image={editorialImg}
         placeholderLabel={data.advisorAdvantage.placeholderLabel}
         badgeTitle={data.advisorAdvantage.badgeTitle}
         badgeDescription={data.advisorAdvantage.badgeDescription}
@@ -150,14 +174,17 @@ const SeabournWhyBookWithUs = () => {
 
       {/* ── 5. BENEFIT 7 (COMPARING SEABOURN WITH OTHER LUXURY CRUISE LINES) ── */}
       <BrandShowcase
-        brand={data.compareCruiseLinesBrand}
+        brand={{
+          ...data.compareCruiseLinesBrand,
+          image: compareLinesImg
+        }}
         index={0}
       />
 
       {/* ── 6. BENEFITS 8 & 9 (LUXURY PERSPECTIVE & ADDED AMENITIES) ── */}
       <HighlightsSplit
         title={data.luxuryPerspectiveAndAmenities.title}
-        items={data.luxuryPerspectiveAndAmenities.items}
+        items={luxuryPerspectiveItems}
       />
 
       {/* ── 7. BENEFITS 10, 11, 12 (SPECIAL OCCASIONS, PRE-TRIP & LOGISTICS SUPPORT) ── */}
@@ -174,6 +201,7 @@ const SeabournWhyBookWithUs = () => {
         description={data.ctas.midCta.description}
         buttonText={data.ctas.midCta.buttonText}
         buttonLink={data.ctas.midCta.buttonLink}
+        image={midCtaImg}
         theme="dark"
       />
 
@@ -205,7 +233,7 @@ const SeabournWhyBookWithUs = () => {
       {/* ── 12. IS BOOKING SEABOURN WITH A TRAVEL ADVISOR WORTH IT? ── */}
       <HighlightsSplit
         title={data.worthItSection.title}
-        items={data.worthItSection.items}
+        items={worthItItems}
       />
 
       {/* ── 13. WHO BENEFITS MOST FROM BOOKING SEABOURN WITH TRIPS & SHIPS? ── */}
@@ -218,7 +246,10 @@ const SeabournWhyBookWithUs = () => {
 
       {/* ── 14. THE TRIPS & SHIPS DIFFERENCE: EFFORTLESS LUXURY ── */}
       <BrandShowcase
-        brand={data.tripsAndShipsDifferenceBrand}
+        brand={{
+          ...data.tripsAndShipsDifferenceBrand,
+          image: tripsShipsDiffImg
+        }}
         index={1}
       />
 
@@ -261,7 +292,8 @@ const SeabournWhyBookWithUs = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

@@ -3,6 +3,13 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from SeabournFrequentlyAskedQuestions (SEO-Optimized)
+import heroImg from "../../assets/SeabournFrequentlyAskedQuestions/seabourn-frequently-asked-questions-planning-guide-hero.jpg";
+import editorialImg from "../../assets/SeabournFrequentlyAskedQuestions/everything-you-need-to-know-before-booking-seabourn-editorial.jpg";
+import midCtaImg from "../../assets/SeabournFrequentlyAskedQuestions/have-specific-seabourn-cruise-questions-consultation-cta.jpg";
+import seabournRightForYouImg from "../../assets/SeabournFrequentlyAskedQuestions/is-seabourn-right-for-you-intimacy-service-fine-dining-showcase.jpg";
+import finalCtaImg from "../../assets/SeabournFrequentlyAskedQuestions/start-planning-your-luxury-seabourn-cruise-voyage-cta.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -89,6 +96,7 @@ const SeabournFAQs = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs[0]}
+        backgroundImage={heroImg}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
         secondaryCtaText="Explore Quick FAQs"
@@ -100,6 +108,7 @@ const SeabournFAQs = () => {
         eyebrow="SEABOURN CRUISE PLANNING GUIDE"
         heading="Everything You Need to Know Before Booking Seabourn"
         paragraphs={data.hero.paragraphs.slice(1)}
+        image={editorialImg}
         placeholderLabel="SEABOURN CRUISE PLANNING & FAQS"
         badgeTitle="Ultra-Luxury Guidance"
         badgeDescription="Expert answers backed by over 40 years of luxury cruise industry leadership."
@@ -127,6 +136,7 @@ const SeabournFAQs = () => {
         description={data.ctas.midCta.description}
         buttonText={data.ctas.midCta.buttonText}
         buttonLink={data.ctas.midCta.buttonLink}
+        image={midCtaImg}
         theme="dark"
       />
 
@@ -149,10 +159,6 @@ const SeabournFAQs = () => {
       </div>
 
       {/* ── 5. IS SEABOURN RIGHT FOR YOU ── */}
-      {/*
-      // Image for the showcase card (uncomment and pass when image asset is ready):
-      // import seabournRightForYouImg from "../../assets/Seabourn/seabourn-lifestyle.jpg";
-      */}
       <div className="w-full bg-ice-50 pt-20 pb-4 border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-6 text-center mb-12">
           <span className="font-sans text-xs uppercase tracking-[0.25em] text-gold-600 font-bold mb-3 block">
@@ -176,7 +182,7 @@ const SeabournFAQs = () => {
             considerations: [
               data.fitSection.note
             ],
-            /* image: seabournRightForYouImg */
+            image: seabournRightForYouImg
           }}
           index={0}
         />
@@ -226,6 +232,8 @@ const SeabournFAQs = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

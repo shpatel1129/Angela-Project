@@ -3,6 +3,13 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from SeabournSignatureExperiences (SEO-Optimized)
+import heroImg from "../../assets/SeabournSignatureExperiences/seabourn-signature-experiences-luxury-moments-hero.jpg";
+import editorialImg from "../../assets/SeabournSignatureExperiences/seabourn-signature-experiences-at-a-glance-editorial.jpg";
+import midCtaImg from "../../assets/SeabournSignatureExperiences/build-a-seabourn-voyage-around-your-favorite-signature-experience.jpg";
+import brandPhilosophyImg from "../../assets/SeabournSignatureExperiences/discerning-travelers-seeking-genuine-destination-immersion-seabourn-philosophy.jpg";
+import finalCtaImg from "../../assets/SeabournSignatureExperiences/ready-to-experience-seabourn-signature-luxury-moments-cta.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -19,30 +26,13 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
-
-// Image Assets for Travel Style Section (Commented out)
-// import coupleImg from "../../assets/SeabournShoreExcursions/seabourn-shore-excursions-luxury-cruise-tours.jpg";
-// import historyImg from "../../assets/SeabournShoreExcursions/seabourn-cultural-historic-shore-excursions.jpg";
-// import adventureImg from "../../assets/SeabournShoreExcursions/seabourn-ventures-guided-kayak-excursions.jpg";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 // Data Source
 import data from "./data.json";
 
-/* ── Personas with Curated Image Assets (Commented out) ─────────── */
-const travelerTypeItems = [
-  {
-    ...data.personasCards[0],
-    // image: coupleImg
-  },
-  {
-    ...data.personasCards[1],
-    // image: historyImg
-  },
-  {
-    ...data.personasCards[2],
-    // image: adventureImg
-  }
-];
+/* ── Personas for Traveler Type Grid ────────────────────────────── */
+const travelerTypeItems = data.personasCards;
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -109,6 +99,12 @@ const schemaData = {
 };
 
 const SeabournSignatureExperiences = () => {
+  const signatureExperiencesVideoData = {
+    youtubeId: "ev3IBDUKWIU",
+    title: "Seabourn Signature Experiences: Luxury Moments Unveiled",
+    description: "Explore the iconic signature moments that define Seabourn cruising—from Caviar in the Surf and Watersports Marina Days to Evening at Ephesus."
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
@@ -130,6 +126,7 @@ const SeabournSignatureExperiences = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs[0]}
+        backgroundImage={heroImg}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
         secondaryCtaText="Explore Signature Moments"
@@ -141,6 +138,7 @@ const SeabournSignatureExperiences = () => {
         eyebrow={data.editorialIntro.eyebrow}
         heading={data.editorialIntro.heading}
         paragraphs={data.editorialIntro.paragraphs}
+        image={editorialImg}
         placeholderLabel={data.editorialIntro.placeholderLabel}
         badgeTitle={data.editorialIntro.badgeTitle}
         badgeDescription={data.editorialIntro.badgeDescription}
@@ -182,6 +180,7 @@ const SeabournSignatureExperiences = () => {
         description={data.ctas.midCta.description}
         buttonText={data.ctas.midCta.buttonText}
         buttonLink={data.ctas.midCta.buttonLink}
+        image={midCtaImg}
         theme="dark"
       />
 
@@ -202,6 +201,9 @@ const SeabournSignatureExperiences = () => {
         extras={data.includedAndGuaranteed.extras}
       />
 
+      {/* ── Mid-Page Video Spotlight (Seabourn Signature Experiences) ── */}
+      <VideoEmbed data={signatureExperiencesVideoData} />
+
       {/* ── 9. HOW TO PLAN AROUND SIGNATURE EXPERIENCES (5 STEPS) ── */}
       <StepByStepGuide
         title="How to Plan Around Seabourn Signature Experiences"
@@ -217,7 +219,10 @@ const SeabournSignatureExperiences = () => {
 
       {/* ── 11. SIGNATURE EXPERIENCES & BROADER LUXURY PHILOSOPHY ── */}
       <BrandShowcase
-        brand={data.brandPhilosophy}
+        brand={{
+          ...data.brandPhilosophy,
+          image: brandPhilosophyImg
+        }}
         index={0}
       />
 
@@ -271,7 +276,8 @@ const SeabournSignatureExperiences = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );
