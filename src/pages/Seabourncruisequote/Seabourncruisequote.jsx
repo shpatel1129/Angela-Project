@@ -21,11 +21,18 @@ import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 import data from "./data.json";
 
+// Ship Images for Fleet Showcase (Commented out)
+// import questImg from "../../assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg";
+// import encoreImg from "../../assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg";
+// import ovationImg from "../../assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg";
+// import ventureImg from "../../assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg";
+// import pursuitImg from "../../assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import CardGrid from "../../components/ui/CardGrid";
-import DynamicCulinaryShowcase from "../../components/ui/DynamicCulinaryShowcase";
+import ElegantFleetShowcase from "../../components/ui/ElegantFleetShowcase";
 import GenericChecklistCards from "../../components/ui/GenericChecklistCards";
 import BrandPillarsShowcase from "../../components/ui/BrandPillarsShowcase";
 import ThreeColumnGrid from "../../components/ui/ThreeColumnGrid";
@@ -295,20 +302,22 @@ const SeabournCruiseQuote = () => {
       <ComparisonHero
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        intro={data.hero.intro}
-        details={data.hero.details}
-        ctaText={data.hero.ctaText}
-        ctaLink={data.hero.ctaLink}
+        description={data.hero.intro}
+        badge={data.hero.badge}
+        secondaryCtaText={data.hero.ctaText || "Request a Quote"}
+        secondaryCtaLink={data.hero.ctaLink || "/contact"}
       />
 
-      {/* ── 2. EDITORIAL INTRO: START PLANNING ── */}
-      <EditorialIntroSection
-        badge={data.introSection.badge}
-        title={data.introSection.title}
-        subtitle={data.introSection.subtitle}
-        paragraphs={data.introSection.paragraphs}
-        highlights={data.introSection.highlights}
-      />
+      <div id="content">
+        {/* ── 2. EDITORIAL INTRO: START PLANNING ── */}
+        <EditorialIntroSection
+          badge={data.introSection.badge}
+          title={data.introSection.title}
+          subtitle={data.introSection.subtitle}
+          paragraphs={data.introSection.paragraphs}
+          highlights={data.introSection.highlights}
+        />
+      </div>
 
       {/* ── 3. WHY REQUEST A PERSONALIZED QUOTE (CARD GRID) ── */}
       <CardGrid
@@ -721,17 +730,27 @@ const SeabournCruiseQuote = () => {
       </section>
 
       {/* ── 6. CHOOSING THE RIGHT SEABOURN SHIP (FLEET SHOWCASE) ── */}
-      <DynamicCulinaryShowcase
+      <ElegantFleetShowcase
         title={data.fleetSection.title}
         subtitle={data.fleetSection.subtitle}
-        items={data.fleetSection.ships}
-        images={[
-          // "src/assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg",
-          // "src/assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg",
-          // "src/assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg",
-          // "src/assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg",
-          // "src/assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg",
-        ]}
+        ships={data.fleetSection.ships.map((ship, idx) => {
+          // const fleetImages = [
+          //   "src/assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg",
+          //   "src/assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg",
+          //   "src/assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg",
+          //   "src/assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg",
+          //   "src/assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg",
+          // ];
+          return {
+            name: ship.title,
+            atmosphere: ship.subtitle,
+            // image: fleetImages[idx],
+            launched: ship.tags?.[1] || "Ultra-Luxury",
+            description: ship.description,
+            guests: ship.tags?.[0]?.replace(/\s*Guests/i, "") || "Luxury Suites",
+            bestFor: ship.tags?.[2] || ship.subtitle
+          };
+        })}
       />
 
       {/* ── 7. SHIP SELECTION CTA ── */}

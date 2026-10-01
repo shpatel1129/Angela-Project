@@ -23,13 +23,39 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets
-import ovationHeroImg from "../../assets/SeabournShips/seabourn-ovation-ultra-luxury-sister-ship.jpg";
-import encoreVsOvationImg from "../../assets/SeabournShips/seabourn-encore-vs-seabourn-ovation-sister-ship-comparison.jpg";
-import suitesImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
-import diningImg from "../../assets/SeabournShips/seabourn-signature-culinary-experiences-and-dining.jpg";
-import loungeImg from "../../assets/SeabournShips/seabourn-encore-onboard-luxury-lifestyle-lounge.jpg";
+// Page Asset Images from SeabournOvationShipGuide (SEO-Optimized)
+import heroImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-ultra-luxury-ship-guide-hero.jpg";
+import whatIsOvationImg from "../../assets/SeabournOvationShipGuide/what-is-seabourn-ovation-luxury-cruise-ship-editorial.jpg";
+import dependingOnCategoryImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-luxury-suite-amenities-inclusions.jpg";
+import suiteCategoriesImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-all-suite-accommodations-categories.jpg";
+import balconiesImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-veranda-suite-private-balcony.jpg";
+import theRestaurantImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-the-restaurant-fine-dining-venue.jpg";
+import theColonnadeImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-the-colonnade-casual-indoor-outdoor-dining.jpg";
+import earthOceanImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-earth-and-ocean-alfresco-dining.jpg";
+import thePatioImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-the-patio-poolside-alfresco-dining.jpg";
+import seabournSquareImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-seabourn-square-living-room-hub.jpg";
+import observationAreasImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-scenic-observation-lounge-decks.jpg";
+import swimmingPoolImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-teak-sundeck-swimming-pool.jpg";
+import luxurySpaImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-the-spa-wellness-thermal-suite.jpg";
+import fitnessCenterImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-ocean-view-fitness-center-gym.jpg";
+import barsLoungesImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-bars-and-lounges-social-venues.jpg";
+import entertainmentImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-intimate-evening-entertainment-performances.jpg";
+import enrichmentImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-cultural-enrichment-destination-lectures.jpg";
+import whoShouldSailImg from "../../assets/SeabournOvationShipGuide/who-should-sail-seabourn-ovation-luxury-cruisers.jpg";
+import whoShouldNotChooseImg from "../../assets/SeabournOvationShipGuide/who-should-not-choose-seabourn-ovation-mega-ship-travelers.jpg";
+import worthItBrandImg from "../../assets/SeabournOvationShipGuide/seabourn-ovation-luxury-value-proposition-showcase.jpg";
+import finalCtaImg from "../../assets/SeabournOvationShipGuide/start-planning-your-seabourn-ovation-cruise-voyage-cta.jpg";
+
+// Mid-Page CTA Images
+import findSuiteCtaImg from "../../assets/SeabournSuites/seabourn-signature-suite-forward-oceanfront-view.jpg";
+import reserveTableCtaImg from "../../assets/SeabournDining/seabourn-luxury-cruise-dining-culinary-experience.jpg";
+
+// Destination Images
+import medImg from "../../assets/GreeceGreekIslesCruisesExploraJourneys/Greek-Isles-Cruises.jpg";
+import northEuropeImg from "../../assets/NorthernEuropeCruisesExploraJourneys/Magnificent-Fjords.jpg";
+import caribbeanImg from "../../assets/CaribbeanCruisesExploraJourneys/explora-caribbean-beach-aerial.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -38,17 +64,25 @@ import data from "./data.json";
 const destinationTabs = [
   {
     ...data.destinationsSection.tabs[0],
-    // image: ovationHeroImg, // Images commented out as requested
+    image: medImg,
   },
   {
     ...data.destinationsSection.tabs[1],
-    // image: loungeImg, // Images commented out as requested
+    image: northEuropeImg,
   },
   {
     ...data.destinationsSection.tabs[2],
-    // image: suitesImg, // Images commented out as requested
+    image: caribbeanImg,
   },
 ];
+
+/* ── Video Data ─────────────────────────────────────────────────── */
+const ovationVideoData = {
+  youtubeId: "v_LbIOec38Y",
+  title: "Experience Seabourn Ovation",
+  description:
+    "Explore the refined ultra-luxury design, Adam D. Tihany all-suite interiors, gourmet dining venues, and destination-focused cruising aboard Seabourn Ovation.",
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const seabournOvationSchema = {
@@ -170,8 +204,30 @@ const seabournOvationSchema = {
   ],
 };
 
-/* ── Main Component ──────────────────────────────────────────────── */
 const SeabournOvationGuide = () => {
+  const suiteItems = data.suitesSection.items.map((item, idx) => ({
+    ...item,
+    image: [dependingOnCategoryImg, suiteCategoriesImg, balconiesImg][idx]
+  }));
+
+  const diningImages = [
+    theRestaurantImg,
+    theColonnadeImg,
+    earthOceanImg,
+    thePatioImg
+  ];
+
+  const publicAreasImages = [
+    seabournSquareImg,
+    observationAreasImg,
+    swimmingPoolImg,
+    luxurySpaImg,
+    fitnessCenterImg,
+    barsLoungesImg,
+    entertainmentImg,
+    enrichmentImg
+  ];
+
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
@@ -194,8 +250,11 @@ const SeabournOvationGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs ? data.hero.paragraphs[0] : ""}
         badge="ULTIMATE LUXURY SHIP GUIDE"
-        secondaryCtaText={data.hero.ctaText || "Start Planning Your Ovation Voyage"}
-        secondaryCtaLink={data.hero.ctaLink || "/contact"}
+        backgroundImage={heroImg}
+        primaryCtaText={data.hero.ctaText || "Start Planning Your Ovation Voyage"}
+        primaryCtaLink={data.hero.ctaLink || "/contact"}
+        secondaryCtaText="Explore Ovation Details"
+        secondaryCtaLink="/contact"
       />
 
       <div id="content">
@@ -214,6 +273,7 @@ const SeabournOvationGuide = () => {
         highlights={data.whatIsSection.highlights}
         conclusion={data.whatIsSection.conclusion}
         imagePlaceholderText="Seabourn Ovation Luxury Yacht Atmosphere"
+        image={whatIsOvationImg}
       />
 
       {/* ── 4. WHY CHOOSE SEABOURN OVATION (CHECKLIST CARDS) ── */}
@@ -228,10 +288,7 @@ const SeabournOvationGuide = () => {
         title={data.suitesSection.title}
         subtitle={data.suitesSection.subtitle}
         description={data.suitesSection.description}
-        items={data.suitesSection.items}
-        images={[
-          // suitesImg, // Images commented out as requested
-        ]}
+        items={suiteItems}
       />
 
       {/* ── 6. BEST SUITES SELECTION (CARD GRID) ── */}
@@ -248,6 +305,7 @@ const SeabournOvationGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={findSuiteCtaImg}
         theme="dark"
       />
 
@@ -256,9 +314,7 @@ const SeabournOvationGuide = () => {
         title={data.diningSection.title}
         subtitle={data.diningSection.subtitle}
         items={data.diningSection.items || data.diningSection.venues}
-        images={[
-          // diningImg, // Images commented out as requested
-        ]}
+        images={diningImages}
       />
 
       {/* ── 9. PUBLIC AREAS & ONBOARD EXPERIENCE (ZIG-ZAG SHOWCASE) ── */}
@@ -266,9 +322,7 @@ const SeabournOvationGuide = () => {
         title={data.publicAreasShowcase.title}
         subtitle={data.publicAreasShowcase.subtitle}
         items={data.publicAreasShowcase.items}
-        images={[
-          // loungeImg, // Images commented out as requested
-        ]}
+        images={publicAreasImages}
       />
 
       {/* ── 10. DESTINATIONS (OPULENT TABBED EXPERIENCE) ── */}
@@ -277,6 +331,9 @@ const SeabournOvationGuide = () => {
         subtitle={data.destinationsSection.subtitle}
         tabs={destinationTabs}
       />
+
+      {/* ── Mid-Page Video Spotlight (Seabourn Ovation Tour) ── */}
+      <VideoEmbed data={ovationVideoData} />
 
       {/* ── 11. WHO IS SEABOURN OVATION BEST FOR (TRAVELER TYPE GRID) ── */}
       <TravelerTypeGrid
@@ -291,12 +348,17 @@ const SeabournOvationGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
-        theme="light"
+        image={reserveTableCtaImg}
+        theme="dark"
       />
 
       {/* ── 13. TARGET FIT (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.targetFitFaceoff}
+        regentImage={whoShouldSailImg}
+        vikingImage={whoShouldNotChooseImg}
+        regentImageAlt="Who Should Sail Seabourn Ovation"
+        vikingImageAlt="Who Should NOT Choose Seabourn Ovation"
       />
 
       {/* ── 14. OVATION VS SEABOURN ENCORE (SISTER SHIP TABLE) ── */}
@@ -306,8 +368,6 @@ const SeabournOvationGuide = () => {
         headers={data.ovationVsEncoreTable.headers}
         rows={data.ovationVsEncoreTable.rows}
       />
-
-      
 
       {/* ── 16. PROS AND CONS ── */}
       <ProsConsCards
@@ -322,7 +382,10 @@ const SeabournOvationGuide = () => {
 
       {/* ── 17. VALUE PROPOSITION (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{
+          ...data.worthItBrand,
+          image: worthItBrandImg,
+        }}
         index={0}
       />
 
@@ -370,7 +433,8 @@ const SeabournOvationGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

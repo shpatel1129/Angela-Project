@@ -3,12 +3,16 @@
     "title": "Seabourn Offers & Seabourn Club Benefits",
     "subtitle": "A Complete Guide to Maximizing Value, Promotions, Loyalty Rewards & Group Opportunities",
     "intro": "Planning a Seabourn cruise is about more than finding the lowest advertised fare. The best value comes from understanding current Seabourn offers, past-guest benefits, onboard credits, loyalty rewards and group opportunities before you book.",
+    "description": "Planning a Seabourn cruise is about more than finding the lowest advertised fare. The best value comes from understanding current Seabourn offers, past-guest benefits, onboard credits, loyalty rewards and group opportunities before you book.",
+    "badge": "SEABOURN OFFERS & LOYALTY GUIDE",
     "details": [
       "Seabourn periodically offers promotions that can change the economics of a luxury cruise, including savings on select voyages, reduced fares, onboard credits or other booking incentives. Past guests may also have access to additional benefits through Seabourn Club, the cruise line's loyalty program.",
       "For travelers comparing luxury cruise lines, the important question is not simply 'What is the Seabourn discount?' It is: What combination of fare, promotion, loyalty benefits and included value gives me the best overall Seabourn experience? This guide explains how to evaluate Seabourn offers and make the most of Seabourn Club benefits."
     ],
     "ctaText": "Explore Current Seabourn Offers",
-    "ctaLink": "/contact"
+    "ctaLink": "/contact",
+    "secondaryCtaText": "Explore Current Seabourn Offers",
+    "secondaryCtaLink": "/contact"
   },
   "quickGuideTable": {
     "title": "Quick Guide to Seabourn Offers at a Glance",
@@ -471,9 +475,19 @@
     "subtitle": "SPECIAL PRICING, AMENITIES & MULTI-SUITE CELEBRATIONS",
     "items": [
       {
+        "category": "GROUP TRAVEL OCCASIONS",
         "badge": "GROUP TRAVEL OCCASIONS",
         "title": "Seabourn Group Opportunities",
+        "description": "Traveling with a group can create additional opportunities. Group arrangements can potentially provide different pricing or amenities depending on the sailing and group size. Travelers should discuss group opportunities before everyone books individually.",
         "text": "Traveling with a group can create additional opportunities. Group arrangements can potentially provide different pricing or amenities depending on the sailing and group size. Travelers should discuss group opportunities before everyone books individually.",
+        "features": [
+          "Milestone birthday celebrations & anniversaries",
+          "Multi-generational family reunions",
+          "Alumni & university travel groups",
+          "Corporate executive retreats & incentive travel",
+          "Nonprofit & philanthropic donor travel",
+          "Special-interest culinary & wine enthusiast groups"
+        ],
         "list": [
           "Milestone birthday celebrations & anniversaries",
           "Multi-generational family reunions",
@@ -484,9 +498,18 @@
         ]
       },
       {
+        "category": "MULTI-SUITE VALUE",
         "badge": "MULTI-SUITE VALUE",
         "title": "Seabourn for Families & Groups",
+        "description": "A group booking can be particularly useful when multiple suites are being reserved together. Instead of treating every traveler as an independent booking, a luxury travel advisor can investigate whether the sailing supports a tailored group arrangement.",
         "text": "A group booking can be particularly useful when multiple suites are being reserved together. Instead of treating every traveler as an independent booking, a luxury travel advisor can investigate whether the sailing supports a tailored group arrangement.",
+        "features": [
+          "Connecting or adjacent Veranda & Penthouse suites",
+          "Coordinated group dining tables at The Restaurant",
+          "Customized private Zodiac & shore excursions",
+          "Group leader credits or pooled onboard spending",
+          "Seamless centralized booking & payment management"
+        ],
         "list": [
           "Connecting or adjacent Veranda & Penthouse suites",
           "Coordinated group dining tables at The Restaurant",
@@ -496,9 +519,18 @@
         ]
       },
       {
+        "category": "EARLY BOOKING ADVANTAGE",
         "badge": "EARLY BOOKING ADVANTAGE",
         "title": "Booking Early vs. Waiting for Deals",
+        "description": "For popular itineraries, early planning can be more valuable than waiting for a larger discount. Luxury cruise inventory is limited, particularly in desirable suite categories. Waiting for a promotion may mean losing your ideal suite or date.",
         "text": "For popular itineraries, early planning can be more valuable than waiting for a larger discount. Luxury cruise inventory is limited, particularly in desirable suite categories. Waiting for a promotion may mean losing your ideal suite or date.",
+        "features": [
+          "Preferred midship suite location and deck",
+          "Specific suite categories that sell out early",
+          "Popular peak departure dates and holiday sailings",
+          "Desirable high-demand itineraries (Antarctica, World Cruises, Kimberley)",
+          "Limited expedition departures with small passenger caps"
+        ],
         "list": [
           "Preferred midship suite location and deck",
           "Specific suite categories that sell out early",
@@ -673,10 +705,25 @@
     "subtitle": "ESSENTIAL QUESTIONS TO UNCOVER HIDDEN VALUE",
     "items": [
       {
+        "category": "FARE & PROMOTIONS",
         "badge": "FARE & PROMOTIONS",
+        "icon": "BadgePercent",
         "title": "Fare & Promotional Details",
+        "description": "Clarify the precise financial terms of the promotion before committing to a deposit.",
         "text": "Clarify the precise financial terms of the promotion before committing to a deposit.",
+        "features": [
+          "What is the final total cruise fare including taxes and fees?",
+          "What specific promotion code is being applied to the booking?",
+          "Is the promotional savings calculated per person or per suite?",
+          "What suite categories qualify for this promotional pricing?"
+        ],
         "list": [
+          "What is the final total cruise fare including taxes and fees?",
+          "What specific promotion code is being applied to the booking?",
+          "Is the promotional savings calculated per person or per suite?",
+          "What suite categories qualify for this promotional pricing?"
+        ],
+        "bullets": [
           "What is the final total cruise fare including taxes and fees?",
           "What specific promotion code is being applied to the booking?",
           "Is the promotional savings calculated per person or per suite?",
@@ -684,10 +731,25 @@
         ]
       },
       {
+        "category": "PERKS & STACKING",
         "badge": "PERKS & STACKING",
+        "icon": "Sparkles",
         "title": "Perks, Onboard Credit & Stacking",
+        "description": "Ensure all promotional perks and loyalty privileges are properly layered and documented.",
         "text": "Ensure all promotional perks and loyalty privileges are properly layered and documented.",
+        "features": [
+          "Is onboard credit included and how much per suite?",
+          "What specific onboard services can the credit be applied toward?",
+          "Can my Seabourn Club loyalty benefits be applied concurrently?",
+          "Is there an applicable past-guest discount or special offer?"
+        ],
         "list": [
+          "Is onboard credit included and how much per suite?",
+          "What specific onboard services can the credit be applied toward?",
+          "Can my Seabourn Club loyalty benefits be applied concurrently?",
+          "Is there an applicable past-guest discount or special offer?"
+        ],
+        "bullets": [
           "Is onboard credit included and how much per suite?",
           "What specific onboard services can the credit be applied toward?",
           "Can my Seabourn Club loyalty benefits be applied concurrently?",
@@ -695,10 +757,25 @@
         ]
       },
       {
+        "category": "STRATEGY & DATES",
         "badge": "STRATEGY & DATES",
+        "icon": "CalendarCheck",
         "title": "Booking Flexibility & Alternatives",
+        "description": "Explore nearby dates and group opportunities that may yield superior overall value.",
         "text": "Explore nearby dates and group opportunities that may yield superior overall value.",
+        "features": [
+          "Can this promotion be combined with agency preferred amenities?",
+          "Are there group opportunities or multi-suite perks available?",
+          "Are there stronger promotional offers on adjacent departure dates?",
+          "Is there a better overall value available on an alternate itinerary?"
+        ],
         "list": [
+          "Can this promotion be combined with agency preferred amenities?",
+          "Are there group opportunities or multi-suite perks available?",
+          "Are there stronger promotional offers on adjacent departure dates?",
+          "Is there a better overall value available on an alternate itinerary?"
+        ],
+        "bullets": [
           "Can this promotion be combined with agency preferred amenities?",
           "Are there group opportunities or multi-suite perks available?",
           "Are there stronger promotional offers on adjacent departure dates?",

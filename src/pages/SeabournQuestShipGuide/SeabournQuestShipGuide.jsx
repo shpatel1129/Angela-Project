@@ -23,22 +23,88 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets (imported with images commented out as standard)
-import questHeroImg from "../../assets/SeabournShips/seabourn-quest-luxury-ocean-cruise-ship.jpg";
-import questDiningImg from "../../assets/SeabournShips/seabourn-quest-gourmet-dining-restaurant-experience.jpg";
-import questVsEncoreImg from "../../assets/SeabournShips/seabourn-quest-vs-seabourn-encore-ship-comparison.jpg";
-import questVsOvationImg from "../../assets/SeabournShips/seabourn-quest-vs-seabourn-ovation-ship-comparison.jpg";
-import suitesImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
+// Assets from SeabournQuestShipGuide
+import heroImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-luxury-cruise-ship-guide-hero.jpg";
+import whatIsImg from "../../assets/SeabournQuestShipGuide/what-is-seabourn-quest-intimate-luxury-yacht-atmosphere.jpg";
+import suitesImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-luxury-suites-accommodations-overview.jpg";
+import balconiesImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-veranda-suite-private-balcony-ocean-view.jpg";
+import suiteCategoriesImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-suite-categories-ocean-view-penthouse-layout.jpg";
+import findSuiteCtaImg from "../../assets/SeabournQuestShipGuide/find-your-perfect-suite-seabourn-quest-cruise-cta.jpg";
+import worldCruiseSuiteImg from "../../assets/SeabournQuestShipGuide/why-suite-choice-matters-seabourn-quest-world-cruise.jpg";
+import theRestaurantImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-the-restaurant-fine-dining-culinary-experience.jpg";
+import theColonnadeImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-the-colonnade-casual-indoor-outdoor-dining.jpg";
+import inSuiteDiningImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-24-hour-in-suite-course-by-course-dining.jpg";
+import openSeatingDiningImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-open-seating-dining-flexibility-freedom.jpg";
+import reserveTableCtaImg from "../../assets/SeabournQuestShipGuide/reserve-your-table-seabourn-quest-culinary-cta.jpg";
+import seabournSquareImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-seabourn-square-living-room-concierge-lounge.jpg";
+import poolImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-teak-swimming-pool-sundeck-relaxation.jpg";
+import spaWellnessImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-the-spa-wellness-thermal-suite.jpg";
+import fitnessCenterImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-ocean-view-fitness-center-gym.jpg";
+import barsLoungesImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-bars-and-lounges-social-venues.jpg";
+import entertainmentImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-intimate-entertainment-enrichment-lectures.jpg";
+import medImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-mediterranean-coastal-ports-ancient-cities.jpg";
+import northEuropeImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-northern-europe-norwegian-fjords-baltic-voyages.jpg";
+import americasImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-americas-caribbean-south-america-cruises.jpg";
+import asiaPacificImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-asia-australia-pacific-islands-voyages.jpg";
+import worldCruisesImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-grand-world-cruise-global-voyages.jpg";
+import worldCruiseWhyImg from "../../assets/SeabournQuestShipGuide/why-choose-seabourn-quest-for-a-world-cruise-community.jpg";
+import whoShouldSailImg from "../../assets/SeabournQuestShipGuide/who-should-sail-seabourn-quest-world-cruise-travelers.jpg";
+import whoShouldNotChooseImg from "../../assets/SeabournQuestShipGuide/who-should-not-choose-seabourn-quest-mega-ship-cruisers.jpg";
+import compareCtaImg from "../../assets/SeabournQuestShipGuide/compare-seabourn-quest-suites-and-sailings-cta.jpg";
+import destinationsCtaImg from "../../assets/SeabournSuites/seabourn-grand-voyages-world-cruise-itineraries.webp";
+import worthItBrandImg from "../../assets/SeabournQuestShipGuide/seabourn-quest-luxury-value-proposition-showcase.jpg";
+import finalCtaImg from "../../assets/SeabournQuestShipGuide/start-planning-your-seabourn-quest-cruise-voyage-cta.jpg";
 
 // Data Source
 import data from "./data.json";
 
-/* ── Destination Tabs (Images Commented Out) ─────────────────────── */
-const destinationTabs = data.destinationsSection.tabs.map((tab) => ({
-  ...tab,
-  // image: questHeroImg, // Images commented out as requested
+/* ── Suite Items with Images ─────────────────────────────────────── */
+const suiteImages = [suitesImg, balconiesImg, suiteCategoriesImg];
+const suiteItems = data.suitesSection.items.map((item, idx) => ({
+  ...item,
+  image: suiteImages[idx],
 }));
+
+/* ── Dining Images ──────────────────────────────────────────────── */
+const diningImages = [
+  theRestaurantImg,
+  theColonnadeImg,
+  inSuiteDiningImg,
+  openSeatingDiningImg,
+];
+
+/* ── Public Areas Images ────────────────────────────────────────── */
+const publicAreasImages = [
+  seabournSquareImg,
+  poolImg,
+  spaWellnessImg,
+  fitnessCenterImg,
+  barsLoungesImg,
+  entertainmentImg,
+];
+
+/* ── Destination Tabs with Images ───────────────────────────────── */
+const destinationImages = [
+  medImg,
+  northEuropeImg,
+  americasImg,
+  asiaPacificImg,
+  worldCruisesImg,
+];
+const destinationTabs = data.destinationsSection.tabs.map((tab, idx) => ({
+  ...tab,
+  image: destinationImages[idx],
+}));
+
+/* ── Video Data ─────────────────────────────────────────────────── */
+const questVideoData = {
+  youtubeId: "65UCuDzogIQ",
+  title: "Experience Seabourn Quest",
+  description:
+    "Explore the intimate all-suite ambiance, world-class dining, personalized service, and extended global voyages aboard Seabourn Quest.",
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -185,6 +251,7 @@ const SeabournQuestGuide = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs ? data.hero.paragraphs[0] : ""}
+        backgroundImage={heroImg}
         badge="INTIMATE LUXURY & WORLD CRUISES"
         secondaryCtaText={data.hero.ctaText || "Start Planning Your Seabourn Quest Cruise"}
         secondaryCtaLink={data.hero.ctaLink || "/contact"}
@@ -206,6 +273,7 @@ const SeabournQuestGuide = () => {
         highlights={data.whatIsSection.highlights}
         conclusion={data.whatIsSection.conclusion}
         imagePlaceholderText="Seabourn Quest Luxury Yacht Atmosphere"
+        image={whatIsImg}
       />
 
       {/* ── 4. WHY CHOOSE SEABOURN QUEST (CHECKLIST CARDS) ── */}
@@ -220,10 +288,7 @@ const SeabournQuestGuide = () => {
         title={data.suitesSection.title}
         subtitle={data.suitesSection.subtitle}
         description={data.suitesSection.description}
-        items={data.suitesSection.items}
-        images={[
-          // suitesImg, // Images commented out as requested
-        ]}
+        items={suiteItems}
       />
 
       {/* ── 6. BEST SUITES SELECTION (CARD GRID) ── */}
@@ -240,6 +305,7 @@ const SeabournQuestGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={findSuiteCtaImg}
         theme="dark"
       />
 
@@ -252,6 +318,7 @@ const SeabournQuestGuide = () => {
         highlights={data.worldCruiseSuiteSection.highlights}
         conclusion={data.worldCruiseSuiteSection.conclusion}
         imagePlaceholderText="Suite as Your Home on a World Cruise"
+        image={worldCruiseSuiteImg}
       />
 
       {/* ── 9. DINING & RESTAURANTS (CULINARY SHOWCASE) ── */}
@@ -259,9 +326,7 @@ const SeabournQuestGuide = () => {
         title={data.diningSection.title}
         subtitle={data.diningSection.subtitle}
         items={data.diningSection.items}
-        images={[
-          // questDiningImg, // Images commented out as requested
-        ]}
+        images={diningImages}
       />
 
       {/* ── 10. CTA 2 (DINING) ── */}
@@ -270,6 +335,7 @@ const SeabournQuestGuide = () => {
         description={data.ctas.diningCta.description}
         buttonText={data.ctas.diningCta.buttonText}
         buttonLink={data.ctas.diningCta.buttonLink}
+        image={reserveTableCtaImg}
         theme="dark"
       />
 
@@ -278,9 +344,7 @@ const SeabournQuestGuide = () => {
         title={data.publicAreasShowcase.title}
         subtitle={data.publicAreasShowcase.subtitle}
         items={data.publicAreasShowcase.items}
-        images={[
-          // questHeroImg, // Images commented out as requested
-        ]}
+        images={publicAreasImages}
       />
 
       {/* ── 12. DESTINATIONS & WORLD CRUISES (OPULENT TABBED EXPERIENCE) ── */}
@@ -296,8 +360,12 @@ const SeabournQuestGuide = () => {
         description={data.ctas.destinationsCta.description}
         buttonText={data.ctas.destinationsCta.buttonText}
         buttonLink={data.ctas.destinationsCta.buttonLink}
-        theme="light"
+        image={destinationsCtaImg}
+        theme="dark"
       />
+
+      {/* ── Mid-Page Video Spotlight (Seabourn Quest Tour) ── */}
+      <VideoEmbed data={questVideoData} />
 
       {/* ── 13. WHY CHOOSE QUEST FOR A WORLD CRUISE / COMMUNITY ── */}
       <EditorialIntroSection
@@ -308,6 +376,7 @@ const SeabournQuestGuide = () => {
         highlights={data.worldCruiseWhySection.highlights}
         conclusion={data.worldCruiseWhySection.conclusion}
         imagePlaceholderText="World Cruise Community Onboard"
+        image={worldCruiseWhyImg}
       />
 
       {/* ── 14. WHO IS SEABOURN QUEST BEST FOR (TRAVELER TYPE GRID) ── */}
@@ -320,6 +389,10 @@ const SeabournQuestGuide = () => {
       {/* ── 15. TARGET FIT (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.targetFitFaceoff}
+        regentImage={whoShouldSailImg}
+        vikingImage={whoShouldNotChooseImg}
+        regentImageAlt="A World Cruise Can Be an Excellent Fit"
+        vikingImageAlt="It Is Less Suitable for Travelers Who"
       />
 
       {/* ── 16. QUEST VS ENCORE COMPARISON (COMPARISON TABLE) ── */}
@@ -344,6 +417,7 @@ const SeabournQuestGuide = () => {
         description={data.ctas.compareCta.description}
         buttonText={data.ctas.compareCta.buttonText}
         buttonLink={data.ctas.compareCta.buttonLink}
+        image={compareCtaImg}
         theme="dark"
       />
 
@@ -360,7 +434,10 @@ const SeabournQuestGuide = () => {
 
       {/* ── 19. VALUE PROPOSITION (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{
+          ...data.worthItBrand,
+          image: worthItBrandImg,
+        }}
         index={0}
       />
 
@@ -408,7 +485,8 @@ const SeabournQuestGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

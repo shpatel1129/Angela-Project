@@ -3,6 +3,26 @@ import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 
+// Page Asset Images from SeabournPursuitShipGuide (SEO-Optimized)
+import heroImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-luxury-expedition-ship-guide-hero.jpg";
+import editorialImg from "../../assets/SeabournPursuitShipGuide/what-is-seabourn-pursuit-ultra-luxury-polar-expedition-editorial.jpg";
+import rightForYouCtaImg from "../../assets/SeabournPursuitShipGuide/see-if-seabourn-pursuit-is-right-for-you-planning-cta.jpg";
+import luxuryAccommodationsImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-luxury-all-suite-accommodations.jpg";
+import balconiesImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-veranda-suite-balcony-ocean-views.jpg";
+import findSuiteCtaImg from "../../assets/SeabournPursuitShipGuide/find-your-suite-aboard-seabourn-pursuit-consultation-cta.jpg";
+import restaurantImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-the-restaurant-fine-dining-venue.jpg";
+import colonnadeImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-the-colonnade-casual-buffet-dining.jpg";
+import earthOceanImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-earth-and-ocean-dining-experience.jpg";
+import inSuiteDiningImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-24-hour-in-suite-dining-room-service.jpg";
+import atmosphereImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-sophisticated-yacht-like-atmosphere.jpg";
+import observationImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-panoramic-observation-lounge-spaces.jpg";
+import spaWellnessImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-spa-and-wellness-relaxation-deck.jpg";
+import polarAdventureCtaImg from "../../assets/SeabournPursuitShipGuide/choose-your-seabourn-pursuit-polar-adventure-itinerary-cta.jpg";
+import pursuitVsOthersImg from "../../assets/SeabournPursuitShipGuide/seabourn-pursuit-vs-other-luxury-expedition-ships-showcase.jpg";
+import whoShouldSailImg from "../../assets/SeabournPursuitShipGuide/who-should-sail-seabourn-pursuit-expedition-travelers.jpg";
+import whoShouldChooseDiffImg from "../../assets/SeabournPursuitShipGuide/who-should-choose-different-seabourn-ocean-cruise-ship.jpg";
+import finalCtaImg from "../../assets/SeabournPursuitShipGuide/is-seabourn-pursuit-your-next-adventure-booking-cta.jpg";
+
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
@@ -25,11 +45,12 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Destination Images
-import antarcticaImg from "../../assets/SeabournExpeditionCruises/seabourn-antarctica-wildlife-penguins-polar-expedition.jpg";
-import arcticImg from "../../assets/SeabournExpeditionCruises/seabourn-arctic-svalbard-polar-bear-wildlife-expedition.jpg";
-import greenlandImg from "../../assets/SeabournExpeditionCruises/seabourn-arctic-cruises-best-time-greenland-svalbard.jpg";
+// Destination Images (Content-Matched from Dedicated Regional Asset Collections)
+import antarcticaImg from "../../assets/SeabournAntarcticaCruises/seabourn-antarctica-penguin-colony-wildlife-encounters.jpg";
+import arcticImg from "../../assets/IcelandGreenlandCruisesExploraJourneys/Arctic.jpg";
+import greenlandImg from "../../assets/IcelandGreenlandCruisesExploraJourneys/Ilulissat.png";
 
 // Data Source
 import data from "./data.json";
@@ -49,6 +70,14 @@ const destinationTabs = [
     image: greenlandImg,
   },
 ];
+
+/* ── Video Data ─────────────────────────────────────────────────── */
+const pursuitVideoData = {
+  youtubeId: "OI9mYBY6lG0",
+  title: "Experience Seabourn Pursuit",
+  description:
+    "Explore Seabourn Pursuit—from PC6 polar hull architecture and custom submarines to all-suite luxury accommodations and authentic expedition discovery.",
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -167,6 +196,24 @@ const schemaData = {
 };
 
 const SeabournPursuitGuide = () => {
+  const suiteItems = data.suitesSection.items.map((item, idx) => ({
+    ...item,
+    image: idx === 0 ? luxuryAccommodationsImg : balconiesImg,
+  }));
+
+  const diningImages = [
+    restaurantImg,
+    colonnadeImg,
+    earthOceanImg,
+    inSuiteDiningImg,
+  ];
+
+  const onboardImages = [
+    atmosphereImg,
+    observationImg,
+    spaWellnessImg,
+  ];
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
@@ -188,6 +235,7 @@ const SeabournPursuitGuide = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs[0]}
+        backgroundImage={heroImg}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
         secondaryCtaText="Explore Pursuit Details"
@@ -203,6 +251,7 @@ const SeabournPursuitGuide = () => {
         badgeTitle={data.editorialIntro.badgeTitle}
         badgeDescription={data.editorialIntro.badgeDescription}
         highlights={data.editorialIntro.highlights}
+        image={editorialImg}
       />
 
       {/* ── 3. AT A GLANCE TABLE ── */}
@@ -223,6 +272,7 @@ const SeabournPursuitGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={rightForYouCtaImg}
         theme="dark"
       />
 
@@ -249,10 +299,7 @@ const SeabournPursuitGuide = () => {
       <LuxuryFeatureShowcase
         title={data.suitesSection.title}
         subtitle={data.suitesSection.subtitle}
-        items={data.suitesSection.items.map((item) => ({
-          ...item,
-          // image: pursuitSuiteImg, // images commented out as requested
-        }))}
+        items={suiteItems}
       />
 
       {/* ── 9. BEST SUITE FOR EVERY TRAVELER (4 CARDS) ── */}
@@ -271,7 +318,8 @@ const SeabournPursuitGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
-        theme="light"
+        image={findSuiteCtaImg}
+        theme="dark"
       />
 
       {/* ── 10. DINING & CULINARY PROGRAM (4 CARDS) ── */}
@@ -279,12 +327,7 @@ const SeabournPursuitGuide = () => {
         title="Seabourn Pursuit Dining"
         subtitle="All-inclusive fine dining, fine wines, and 24-hour in-suite service following exhilarating days of exploration."
         items={data.diningCards}
-        images={[
-          // diningVenueImg1, // images commented out as requested
-          // diningVenueImg2,
-          // diningVenueImg3,
-          // diningVenueImg4,
-        ]}
+        images={diningImages}
       />
 
       {/* ── 11. DESTINATIONS (OPULENT TABBED EXPERIENCE WITH IMAGES) ── */}
@@ -294,16 +337,15 @@ const SeabournPursuitGuide = () => {
         tabs={destinationTabs}
       />
 
+      {/* ── Mid-Page Video Spotlight (Seabourn Pursuit Tour) ── */}
+      <VideoEmbed data={pursuitVideoData} />
+
       {/* ── 12. ONBOARD EXPERIENCE & WELLNESS ── */}
       <LuxuryZigZagShowcase
         title={data.onboardExperienceShowcase.title}
         subtitle={data.onboardExperienceShowcase.subtitle}
         items={data.onboardExperienceShowcase.items}
-        images={[
-          // onboardImg1, // images commented out as requested
-          // onboardImg2,
-          // onboardImg3,
-        ]}
+        images={onboardImages}
       />
 
       {/* ── 13. WHO IS PURSUIT BEST FOR (TRAVELER TYPES) ── */}
@@ -319,7 +361,8 @@ const SeabournPursuitGuide = () => {
         description={data.ctas.polarAdventureCta.description}
         buttonText={data.ctas.polarAdventureCta.buttonText}
         buttonLink={data.ctas.polarAdventureCta.buttonLink}
-        theme="light "
+        image={polarAdventureCtaImg}
+        theme="dark"
       />
 
       {/* ── 14. PURSUIT VS SEABOURN VENTURE TABLE ── */}
@@ -331,7 +374,10 @@ const SeabournPursuitGuide = () => {
 
       {/* ── 15. PURSUIT VS OTHER EXPEDITION SHIPS & VENTURE SISTER SHIP (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.pursuitVsOthersBrand}
+        brand={{
+          ...data.pursuitVsOthersBrand,
+          image: pursuitVsOthersImg,
+        }}
         index={0}
       />
 
@@ -356,6 +402,10 @@ const SeabournPursuitGuide = () => {
       {/* ── 18. WHO SHOULD SAIL VS WHO SHOULD CHOOSE A DIFFERENT SHIP (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.whoShouldSailFaceoff}
+        regentImage={whoShouldSailImg}
+        vikingImage={whoShouldChooseDiffImg}
+        regentImageAlt="Who Should Sail Seabourn Pursuit"
+        vikingImageAlt="Who Should Choose a Different Seabourn Ship"
       />
 
       {/* ── 19. HOW TO CHOOSE ITINERARY & BOOKING TIPS (SALT JOURNEY TIMELINE) ── */}
@@ -402,7 +452,8 @@ const SeabournPursuitGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

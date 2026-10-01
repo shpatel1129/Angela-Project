@@ -23,13 +23,36 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets (imported with images commented out as standard)
-import encoreHeroImg from "../../assets/SeabournShips/seabourn-encore-modern-luxury-ocean-ship.jpg";
-import encoreVsOvationImg from "../../assets/SeabournShips/seabourn-encore-vs-seabourn-ovation-sister-ship-comparison.jpg";
-import suitesImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
-import diningImg from "../../assets/SeabournShips/seabourn-signature-culinary-experiences-and-dining.jpg";
-import loungeImg from "../../assets/SeabournShips/seabourn-encore-onboard-luxury-lifestyle-lounge.jpg";
+// Page Asset Images from SeabournEncoreShipGuide (SEO-Optimized)
+import heroImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-ultra-luxury-ship-guide-hero.jpg";
+import whatIsEncoreImg from "../../assets/SeabournEncoreShipGuide/what-is-seabourn-encore-luxury-cruise-ship-editorial.jpg";
+import dependingOnCategoryImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-luxury-suite-amenities-inclusions.jpg";
+import suiteCategoriesImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-all-suite-accommodations-categories.jpg";
+import balconiesImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-veranda-suite-private-balcony.jpg";
+import findSuiteCtaImg from "../../assets/SeabournEncoreShipGuide/find-your-perfect-suite-seabourn-encore-consultation-cta.jpg";
+import theRestaurantImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-the-restaurant-fine-dining-venue.jpg";
+import theColonnadeImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-the-colonnade-casual-indoor-outdoor-dining.jpg";
+import inSuiteDiningImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-24-hour-in-suite-dining-service.jpg";
+import openSeatingDiningImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-open-seating-dining-flexibility.jpg";
+import seabournSquareImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-seabourn-square-living-room-hub.jpg";
+import encorePoolImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-teak-sundeck-swimming-pool.jpg";
+import encoreSpaImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-the-spa-wellness-thermal-suite.jpg";
+import fitnessCenterImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-ocean-view-fitness-center-gym.jpg";
+import barsLoungesImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-bars-and-lounges-social-venues.jpg";
+import entertainmentImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-intimate-evening-entertainment-performances.jpg";
+import enrichmentImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-cultural-enrichment-destination-lectures.jpg";
+import destinationsCtaImg from "../../assets/SeabournEncoreShipGuide/discover-seabourn-encore-destinations-itinerary-cta.jpg";
+import whoShouldSailImg from "../../assets/SeabournEncoreShipGuide/who-should-sail-seabourn-encore-luxury-cruisers.jpg";
+import whoShouldNotChooseImg from "../../assets/SeabournEncoreShipGuide/who-should-not-choose-seabourn-encore-mega-ship-travelers.jpg";
+import worthItBrandImg from "../../assets/SeabournEncoreShipGuide/seabourn-encore-luxury-value-proposition-showcase.jpg";
+import finalCtaImg from "../../assets/SeabournEncoreShipGuide/start-planning-your-seabourn-encore-cruise-voyage-cta.jpg";
+
+// Destination Images (Content-Matched from Dedicated Regional Asset Collections)
+import medImg from "../../assets/SeabournSuites/seabourn-mediterranean-amalfi-coast-italy-cruise.webp";
+import northEuropeImg from "../../assets/SeabournSuites/seabourn-norwegian-fjords-scandinavia-luxury-cruise.webp";
+import caribbeanImg from "../../assets/CaribbeanCruisesExploraJourneys/explora-caribbean-turquoise-water.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -38,17 +61,25 @@ import data from "./data.json";
 const destinationTabs = [
   {
     ...data.destinationsSection.tabs[0],
-    // image: encoreHeroImg, // Images commented out as requested
+    image: medImg,
   },
   {
     ...data.destinationsSection.tabs[1],
-    // image: loungeImg, // Images commented out as requested
+    image: northEuropeImg,
   },
   {
     ...data.destinationsSection.tabs[2],
-    // image: suitesImg, // Images commented out as requested
+    image: caribbeanImg,
   },
 ];
+
+/* ── Video Data ─────────────────────────────────────────────────── */
+const encoreVideoData = {
+  youtubeId: "laeY8KoXhXk",
+  title: "Experience Seabourn Encore",
+  description:
+    "Explore the ultra-luxury ambiance, Adam D. Tihany-designed all-suite accommodations, fine dining, and destination cruising aboard Seabourn Encore.",
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const seabournEncoreSchema = {
@@ -245,8 +276,29 @@ const seabournEncoreSchema = {
   ],
 };
 
-/* ── Main Component ──────────────────────────────────────────────── */
 const SeabournEncoreGuide = () => {
+  const suiteItems = data.suitesSection.items.map((item, idx) => ({
+    ...item,
+    image: [dependingOnCategoryImg, suiteCategoriesImg, balconiesImg][idx],
+  }));
+
+  const diningImages = [
+    theRestaurantImg,
+    theColonnadeImg,
+    inSuiteDiningImg,
+    openSeatingDiningImg,
+  ];
+
+  const publicAreasImages = [
+    seabournSquareImg,
+    encorePoolImg,
+    encoreSpaImg,
+    fitnessCenterImg,
+    barsLoungesImg,
+    entertainmentImg,
+    enrichmentImg,
+  ];
+
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
@@ -269,8 +321,11 @@ const SeabournEncoreGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs ? data.hero.paragraphs[0] : ""}
         badge="ULTIMATE LUXURY SHIP GUIDE"
-        secondaryCtaText={data.hero.ctaText || "Start Planning Your Encore Cruise"}
-        secondaryCtaLink={data.hero.ctaLink || "/contact"}
+        backgroundImage={heroImg}
+        primaryCtaText={data.hero.ctaText || "Start Planning Your Encore Cruise"}
+        primaryCtaLink={data.hero.ctaLink || "/contact"}
+        secondaryCtaText="Explore Encore Details"
+        secondaryCtaLink="/contact"
       />
 
       <div id="content">
@@ -289,6 +344,7 @@ const SeabournEncoreGuide = () => {
         highlights={data.whatIsSection.highlights}
         conclusion={data.whatIsSection.conclusion}
         imagePlaceholderText="Seabourn Encore Luxury Yacht Atmosphere"
+        image={whatIsEncoreImg}
       />
 
       {/* ── 4. WHY CHOOSE SEABOURN ENCORE (CHECKLIST CARDS) ── */}
@@ -303,10 +359,7 @@ const SeabournEncoreGuide = () => {
         title={data.suitesSection.title}
         subtitle={data.suitesSection.subtitle}
         description={data.suitesSection.description}
-        items={data.suitesSection.items}
-        images={[
-          // suitesImg, // Images commented out as requested
-        ]}
+        items={suiteItems}
       />
 
       {/* ── 6. BEST SUITES SELECTION (CARD GRID) ── */}
@@ -323,6 +376,7 @@ const SeabournEncoreGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={findSuiteCtaImg}
         theme="dark"
       />
 
@@ -331,9 +385,7 @@ const SeabournEncoreGuide = () => {
         title={data.diningSection.title}
         subtitle={data.diningSection.subtitle}
         items={data.diningSection.items}
-        images={[
-          // diningImg, // Images commented out as requested
-        ]}
+        images={diningImages}
       />
 
       {/* ── 9. PUBLIC AREAS & ONBOARD EXPERIENCE (ZIG-ZAG SHOWCASE) ── */}
@@ -341,9 +393,7 @@ const SeabournEncoreGuide = () => {
         title={data.publicAreasShowcase.title}
         subtitle={data.publicAreasShowcase.subtitle}
         items={data.publicAreasShowcase.items}
-        images={[
-          // loungeImg, // Images commented out as requested
-        ]}
+        images={publicAreasImages}
       />
 
       {/* ── 10. DESTINATIONS (OPULENT TABBED EXPERIENCE) ── */}
@@ -359,8 +409,12 @@ const SeabournEncoreGuide = () => {
         description={data.ctas.destinationsCta.description}
         buttonText={data.ctas.destinationsCta.buttonText}
         buttonLink={data.ctas.destinationsCta.buttonLink}
-        theme="light"
+        image={destinationsCtaImg}
+        theme="dark"
       />
+
+      {/* ── Mid-Page Video Spotlight (Seabourn Encore Tour) ── */}
+      <VideoEmbed data={encoreVideoData} />
 
       {/* ── 11. WHO IS SEABOURN ENCORE BEST FOR (TRAVELER TYPE GRID) ── */}
       <TravelerTypeGrid
@@ -372,6 +426,10 @@ const SeabournEncoreGuide = () => {
       {/* ── 12. TARGET FIT (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.targetFitFaceoff}
+        regentImage={whoShouldSailImg}
+        vikingImage={whoShouldNotChooseImg}
+        regentImageAlt="Who Should Sail Seabourn Encore"
+        vikingImageAlt="Who Should NOT Choose Seabourn Encore"
       />
 
       {/* ── 13. ENCORE VS SEABOURN OVATION (SISTER SHIP TABLE) ── */}
@@ -395,7 +453,10 @@ const SeabournEncoreGuide = () => {
 
       {/* ── 15. VALUE PROPOSITION (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{
+          ...data.worthItBrand,
+          image: worthItBrandImg,
+        }}
         index={0}
       />
 
@@ -443,7 +504,8 @@ const SeabournEncoreGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalCtaImg}
+        theme="dark"
       />
     </div>
   );

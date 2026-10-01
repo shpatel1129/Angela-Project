@@ -11,7 +11,8 @@ import ComparisonHero from "../../components/ui/ComparisonHero";
 import LuxuryCruiseComparisonTable from "../../components/ui/LuxuryCruiseComparisonTable";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import GenericChecklistCards from "../../components/ui/GenericChecklistCards";
-import ShipPhilosophyFaceoff from "../../components/ui/ShipPhilosophyFaceoff";
+import InclusionCheckerGrid from "../../components/ui/InclusionCheckerGrid";
+import ProsConsCards from "../../components/ui/ProsConsCards";
 import LuxuryFeatureShowcase from "../../components/ui/LuxuryFeatureShowcase";
 import ValueShowcase from "../../components/ui/ValueShowcase";
 import FeatureGrid from "../../components/ui/FeatureGrid";
@@ -201,21 +202,21 @@ const SeabournOffersLoyaltyGuide = () => {
       <ComparisonHero
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        intro={data.hero.intro}
-        details={data.hero.details}
-        ctaText={data.hero.ctaText}
-        ctaLink={data.hero.ctaLink}
+        description={data.hero.intro || data.hero.description}
+        badge={data.hero.badge || "SEABOURN OFFERS & LOYALTY GUIDE"}
+        secondaryCtaText={data.hero.ctaText || data.hero.secondaryCtaText || "Explore Current Seabourn Offers"}
+        secondaryCtaLink={data.hero.ctaLink || data.hero.secondaryCtaLink || "/contact"}
       />
 
-     
-
-      {/* 3. WHAT ARE SEABOURN OFFERS? */}
-      <EditorialIntroSection
-        badge={data.whatAreOffers.badge}
-        title={data.whatAreOffers.title}
-        subtitle={data.whatAreOffers.subtitle}
-        paragraphs={data.whatAreOffers.paragraphs}
-      />
+      <div id="content">
+        {/* 3. WHAT ARE SEABOURN OFFERS? */}
+        <EditorialIntroSection
+          badge={data.whatAreOffers.badge}
+          title={data.whatAreOffers.title}
+          subtitle={data.whatAreOffers.subtitle}
+          paragraphs={data.whatAreOffers.paragraphs}
+        />
+      </div>
 
        {/* 2. QUICK GUIDE AT A GLANCE TABLE */}
       <LuxuryCruiseComparisonTable
@@ -233,8 +234,14 @@ const SeabournOffersLoyaltyGuide = () => {
       />
 
       {/* 5. SEABOURN CRUISE DEALS: WHAT TO COMPARE (OPTION 1 VS OPTION 2) */}
-      <ShipPhilosophyFaceoff
-        data={data.dealsComparison}
+      <ProsConsCards
+        title={data.dealsComparison.title}
+        prosTitle={data.dealsComparison.regent.title}
+        consTitle={data.dealsComparison.viking.title}
+        bestFor={data.dealsComparison.regent.features}
+        notBestFor={data.dealsComparison.viking.features}
+        bottomNote={data.dealsComparison.bottomNote}
+        type="compare"
       />
 
       {/* 6. CTA 1 */}
@@ -289,8 +296,14 @@ const SeabournOffersLoyaltyGuide = () => {
       />
 
       {/* 13. SEABOURN OFFERS VS LOWEST FARE (OPTION A VS OPTION B) */}
-      <ShipPhilosophyFaceoff
-        data={data.offersVsLowestFare}
+      <InclusionCheckerGrid
+        eyebrow="Offer Analysis"
+        title={data.offersVsLowestFare.title}
+        subtitle={data.offersVsLowestFare.bottomNote}
+        inclusionsTitle={data.offersVsLowestFare.regent.title}
+        exclusionsTitle={data.offersVsLowestFare.viking.title}
+        inclusions={data.offersVsLowestFare.regent.features}
+        exclusions={data.offersVsLowestFare.viking.features}
       />
 
       {/* 14. SEABOURN SUITE PROMOTIONS */}
@@ -304,7 +317,12 @@ const SeabournOffersLoyaltyGuide = () => {
       <ThreeColumnGrid
         title={data.groupOpportunities.title}
         subtitle={data.groupOpportunities.subtitle}
-        items={data.groupOpportunities.items}
+        items={data.groupOpportunities.items?.map((item) => ({
+          ...item,
+          category: item.category || item.badge,
+          description: item.description || item.text,
+          features: item.features || item.list,
+        }))}
       />
 
       {/* 16. WHEN ARE SEABOURN OFFERS MOST IMPORTANT? */}
@@ -344,10 +362,16 @@ const SeabournOffersLoyaltyGuide = () => {
       />
 
       {/* 20. SEABOURN OFFERS: WHAT TO ASK BEFORE BOOKING */}
-      <ThreeColumnGrid
+      <CardGrid
         title={data.askBeforeBooking.title}
         subtitle={data.askBeforeBooking.subtitle}
-        items={data.askBeforeBooking.items}
+        columns={3}
+        stagger={false}
+        cards={data.askBeforeBooking.items?.map((item) => ({
+          ...item,
+          icon: item.icon || "BadgePercent",
+          bullets: item.bullets || item.features || item.list,
+        }))}
       />
 
       {/* 21. OFFERS VS SEABOURN CLUB BENEFITS TABLE */}

@@ -348,14 +348,15 @@ const SeabournCruises = () => {
       description: "Explore detailed ship guides, suite plans, and onboard features across Seabourn's ocean and expedition fleet.",
       image: SeabournFleetImg,
       alt: "Seabourn complete fleet overview and ship profiles guide",
-      badgeCount: 6,
+      badgeCount: 7,
       links: [
         { label: "Seabourn Fleet Overview", url: "/seabourn-cruises/ships" },
         { label: "Seabourn Venture Guide", url: "/seabourn-cruises/ships/seabourn-venture" },
         { label: "Seabourn Pursuit Guide", url: "/seabourn-cruises/ships/seabourn-pursuit" },
         { label: "Seabourn Ovation Guide", url: "/seabourn-cruises/ships/seabourn-ovation" },
         { label: "Seabourn Encore Guide", url: "/seabourn-cruises/ships/seabourn-encore" },
-        { label: "Seabourn Quest Guide", url: "/seabourn-cruises/ships/seabourn-quest" }
+        { label: "Seabourn Quest Guide", url: "/seabourn-cruises/ships/seabourn-quest" },
+        { label: "Ocean vs Expedition Ships", url: "/seabourn-cruises/ocean-vs-expedition-cruises" }
       ],
       mainUrl: "/seabourn-cruises/ships"
     },
@@ -365,14 +366,15 @@ const SeabournCruises = () => {
       description: "Discover all oceanfront veranda suites, complimentary caviar, fine dining venues, and signature shoreside events.",
       image: SeabournSuitesImg,
       alt: "Seabourn suites dining caviar and onboard luxury lifestyle",
-      badgeCount: 6,
+      badgeCount: 7,
       links: [
         { label: "Seabourn Suites Guide", url: "/seabourn-cruises/suites" },
         { label: "Seabourn Dining & Menus", url: "/seabourn-cruises/dining" },
         { label: "What Is Included on Seabourn", url: "/seabourn-cruises/whats-included" },
         { label: "Signature Experiences & Caviar", url: "/seabourn-cruises/signature-experiences" },
         { label: "Shore Excursions & Ventures", url: "/seabourn-cruises/shore-excursions" },
-        { label: "Seabourn Dress Code Guide", url: "/seabourn-cruises/dress-code" }
+        { label: "Seabourn Dress Code Guide", url: "/seabourn-cruises/dress-code" },
+        { label: "What Is There To Do on Seabourn?", url: "/seabourn-cruises/what-is-there-to-do" }
       ],
       mainUrl: "/seabourn-cruises/suites"
     },
@@ -398,30 +400,51 @@ const SeabournCruises = () => {
     {
       title: "Luxury Cruise Comparisons",
       category: "Comparisons",
-      description: "Compare Seabourn with Silversea, Regent Seven Seas, Explora Journeys, and Azamara to find your ideal luxury match.",
+      description: "Compare Seabourn with Silversea, Regent Seven Seas, Explora Journeys, Celebrity, and Ritz-Carlton.",
       image: SeabournVsExploraImg,
       alt: "Seabourn compared to Silversea Regent Seven Seas and Explora Journeys",
-      badgeCount: 4,
+      badgeCount: 7,
       links: [
         { label: "Seabourn vs Silversea", url: "/seabourn-cruises/seabourn-vs-silversea" },
         { label: "Seabourn vs Regent Seven Seas", url: "/seabourn-cruises/seabourn-vs-regent" },
+        { label: "Seabourn vs Silversea vs Regent", url: "/seabourn-vs-silversea-vs-regent" },
+        { label: "Seabourn vs Celebrity Retreat", url: "/seabourn-cruises/seabourn-vs-celebrity-retreat" },
+        { label: "Seabourn vs Ritz-Carlton Yacht", url: "/seabourn-cruises/seabourn-vs-ritz-carlton-yacht-collection" },
         { label: "Explora Journeys vs Seabourn", url: "/explora-journeys-vs-seabourn" },
         { label: "Azamara vs Seabourn", url: "/azamara-vs-seabourn" }
       ],
       mainUrl: "/seabourn-cruises/seabourn-vs-silversea"
     },
     {
+      title: "Traveler Profiles & Atmosphere Insights",
+      category: "Traveler Profiles",
+      description: "In-depth guides for first-timers, solo cruisers, families, guest demographics, and atmosphere expectations.",
+      image: SeabournSoloImg,
+      alt: "Seabourn traveler profiles first timers solo cruisers and families",
+      badgeCount: 6,
+      links: [
+        { label: "Is Seabourn Good for First-Timers?", url: "/seabourn-cruises/is-seabourn-good-for-first-time-cruisers/" },
+        { label: "Seabourn for Solo Travelers", url: "/seabourn-cruises/solo-travelers" },
+        { label: "Is Seabourn Good for Solo Cruisers?", url: "/seabourn-cruises/is-seabourn-good-for-solo-travelers" },
+        { label: "Seabourn for Families & Children", url: "/seabourn-cruises/is-seabourn-good-for-families-and-children" },
+        { label: "Average Age & Demographics", url: "/seabourn-cruises/average-age" },
+        { label: "Is Seabourn Too Formal, Old, or Quiet?", url: "/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet" }
+      ],
+      mainUrl: "/seabourn-cruises/solo-travelers"
+    },
+    {
       title: "Costs, Planning & Club Loyalty",
       category: "Planning & Value",
-      description: "Explore Seabourn cruise costs, solo traveler pricing, club loyalty benefits, and why to book with Angela Hughes.",
+      description: "Explore Seabourn cruise pricing, club loyalty benefits, custom quotes, and why booking with Angela Hughes gives you an edge.",
       image: SeabournWorthItImg,
       alt: "Seabourn cruise pricing costs offers and club loyalty planning",
-      badgeCount: 6,
+      badgeCount: 7,
       links: [
         { label: "How Much Does Seabourn Cost?", url: "/seabourn-cruises/cost" },
         { label: "Is Seabourn Worth the Price?", url: "/seabourn-cruises/is-seabourn-worth-it" },
         { label: "Offers & Seabourn Club Loyalty", url: "/seabourn-cruises/offers-loyalty" },
-        { label: "Seabourn for Solo Travelers", url: "/seabourn-cruises/solo-travelers" },
+        { label: "Book Direct vs Travel Advisor", url: "/seabourn-cruises/book-directly-or-travel-advisor" },
+        { label: "Why Book Seabourn With Us?", url: "/seabourn-cruises/why-book-with-us" },
         { label: "Seabourn Comprehensive FAQs", url: "/seabourn-cruises/faqs" },
         { label: "Request a Custom Cruise Quote", url: "/seabourn-cruises/request-a-quote" }
       ],
@@ -512,7 +535,7 @@ const SeabournCruises = () => {
       {/* ─── VIDEO SHOWCASE 1: THE SEABOURN LUXURY EXPERIENCE ─── */}
       <VideoEmbed
         data={{
-          youtubeId: "laeY8KoXhXk",
+          youtubeId: "qFT2ZU2c3iI",
           title: "Experience the Seabourn All-Inclusive Luxury Difference",
           description: "Step inside the intimate world of Seabourn: yacht-like small ships, intuitive personalized hospitality, all-suite oceanfront accommodations, and gourmet open-seating dining."
         }}
@@ -595,12 +618,25 @@ const SeabournCruises = () => {
         mistakes={notFitMistakesItems}
       />
 
+           {/* ─── VIDEO SHOWCASE 2: EXPEDITIONS & WORLDWIDE DESTINATIONS ─── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "KDn0xhJh-k8",
+          title: "Seabourn Expeditions & Worldwide Ocean Journeys",
+          description: "Discover extraordinary destinations from polar ice frontiers in Antarctica and the Arctic to unhurried Mediterranean and Caribbean yacht harbors with purpose-built luxury."
+        }}
+      />
+
       {/* ─── 15. SEABOURN Q&A DEEP DIVES (LuxuryZigZagShowcase Component) ─── */}
       <LuxuryZigZagShowcase
         title="Seabourn Practical Insights & Evaluations"
         subtitle="In-depth analysis for families, solo travelers, and overall vacation value."
         items={qaZigZagItems}
       />
+
+      
+ 
+
 
       {/* ─── 16. PROS AND CONS (ProsConsCards Component) ─── */}
       <ProsConsCards
@@ -629,15 +665,6 @@ const SeabournCruises = () => {
           variant="destination"
         />
       </div>
-
-      {/* ─── VIDEO SHOWCASE 2: EXPEDITIONS & WORLDWIDE DESTINATIONS ─── */}
-      <VideoEmbed
-        data={{
-          youtubeId: "KDn0xhJh-k8",
-          title: "Seabourn Expeditions & Worldwide Ocean Journeys",
-          description: "Discover extraordinary destinations from polar ice frontiers in Antarctica and the Arctic to unhurried Mediterranean and Caribbean yacht harbors with purpose-built luxury."
-        }}
-      />
 
       {/* ─── 19. ANGELA HUGHES LUXURY AUTHORITY (ExpertCredentials Component) ─── */}
       <ExpertCredentials
