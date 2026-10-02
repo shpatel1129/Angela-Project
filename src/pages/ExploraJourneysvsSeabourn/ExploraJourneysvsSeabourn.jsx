@@ -17,21 +17,21 @@ import SeabournOverview from '../../assets/ExploraJourneysvsSeabourn/seabourn-ul
 
 // Showdown & Design Assets
 import ExploraShowdown from '../../assets/WhichExploraSuiteWorthUpgrade/explora-I-luxury-cruise-aerial-view-mediterranean.JPG';
-import SeabournShowdown from '../../assets/SeabournCruises/seabourn-ocean-cruises-luxury-yacht-experience.jpg';
+import SeabournShowdown from '../../assets/Seabourn/SeabournCruises/seabourn-ocean-cruises-luxury-yacht-experience.jpg';
 import ExploraPool from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-oceanfront-infinity-pool-deck.webp';
 import ExploraDesign from '../../assets/LuxuryExploraJourneysGuide/Luxury-Explora-Journeys.webp';
-import SeabournDesign from '../../assets/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg';
+import SeabournDesign from '../../assets/Seabourn/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg';
 import SeabournSuite from '../../assets/ExploraJourneysvsSeabourn/seabourn-oceanfront-veranda-luxury-suite.jpg';
 
 // Suites & Accommodations Assets
 import ExploraSuite from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-ocean-terrace-luxury-suite.webp';
-import SeabournSuiteVeranda from '../../assets/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg';
+import SeabournSuiteVeranda from '../../assets/Seabourn/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg';
 
 // Dining Assets
 import ExploraJournryDinig from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-gourmet-fine-dining-culinary-experience.jpeg';
 import SeabourDinig from '../../assets/ExploraJourneysvsSeabourn/seabourn-fine-dining-gourmet-restaurant-experience.jpg';
 import ExploraDinig from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-conservatory-pool-bar-lounge.jpg';
-import SeabournCaviarDining from '../../assets/WhatIncludedSeabournCruise/seabourn-complimentary-caviar-service-on-demand-luxury.jpg';
+import SeabournCaviarDining from '../../assets/Seabourn/WhatIncludedSeabournCruise/seabourn-complimentary-caviar-service-on-demand-luxury.jpg';
 
 // Wellness, Spa & Nightlife Assets
 import SpaExperience from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-ocean-wellness-spa-sunrise-pool-deck.webp';
@@ -39,7 +39,7 @@ import ExploraNightlife from '../../assets/ExploraJourneysCruises/Meridian-Loung
 import Experience5 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-pool-deck-nightlife-entertainment.jpg';
 
 // Destinations Assets
-import SeabournWorldwide from '../../assets/SeabournCruises/seabourn-worldwide-destination-focused-itineraries.jpg';
+import SeabournWorldwide from '../../assets/Seabourn/SeabournCruises/seabourn-worldwide-destination-focused-itineraries.jpg';
 import Experience from '../../assets/ExploraJourneysvsSeabourn/seabourn-expeditions-greenland-glacier-polar-voyage.jpg';
 import Experience6 from '../../assets/ExploraJourneysvsSeabourn/seabourn-kusadasi-turkey-mediterranean-sunrise-drone.jpg';
 import ExploraDetination from '../../assets/ExploraJourneysvsSeabourn/explora-journeys-destination-ocean-state-of-mind.webp';
@@ -48,7 +48,7 @@ import ExploraMediterranean from '../../assets/ExploraJourneysvsSeabourn/explora
 // Grand Bento & Luxury Distinction Assets
 import GrandBentoLuxury from '../../assets/ExploraJourneysCruises/ExploraCruise2.webp';
 import ExploraLuxuryBento from '../../assets/WhichExploraSuiteWorthUpgrade/explora-journeys-oceanfront-infinity-pool-deck.jpg';
-import SeabournLuxuryBento from '../../assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg';
+import SeabournLuxuryBento from '../../assets/Seabourn/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg';
 import Experience3 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-classic-luxury-ship-at-sea.jpg';
 
 // Scenic Gallery Assets
@@ -58,17 +58,17 @@ import Experience4 from '../../assets/ExploraJourneysvsSeabourn/seabourn-encore-
 import SeabournDetination from '../../assets/ExploraJourneysvsSeabourn/seabourn-boutique-harbor-luxury-port-destination.jpg';
 import GalleryAmalfiCoast from '../../assets/ExploraJourneysCruises/amalfi-coast-italy-mediterranean-hero-summer-2025.webp';
 import GalleryRedSea from '../../assets/ExploraJourneysCruises/explora-journeys-red-sea-luxury-cruise-oman.webp';
-import GallerySeabournAmalfi from '../../assets/SeabournCruises/seabourn-mediterranean-cruise-amalfi-coast-italy.jpg';
+import GallerySeabournAmalfi from '../../assets/Seabourn/SeabournCruises/seabourn-mediterranean-cruise-amalfi-coast-italy.jpg';
 
 // Trust & Final CTA Assets
 import trustMainImage from '../../assets/ExploraJourneysCruises/Explora-Journeys.webp';
 import finalCtaImage from '../../assets/ExploraJourneysCruises/onboard-experience.webp';
 
 // CTA Interlude Background Images from other Seabourn Folders
-import Cta1ExploraVsSeabournImg from '../../assets/SeabournCruises/seabourn-vs-explora-journeys-modern-ocean-luxury-comparison.jpg';
-import Cta2UpgradeExperienceImg from '../../assets/SeabournCruises/seabourn-in-suite-private-veranda-dining-service.jpg';
-import Cta3ConsultationImg from '../../assets/SeabournCruises/seabourn-intuitive-personalized-luxury-service.jpg';
-import Cta4UltraLuxuryImg from '../../assets/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg';
+import Cta1ExploraVsSeabournImg from '../../assets/Seabourn/SeabournCruises/seabourn-vs-explora-journeys-modern-ocean-luxury-comparison.jpg';
+import Cta2UpgradeExperienceImg from '../../assets/Seabourn/SeabournCruises/seabourn-in-suite-private-veranda-dining-service.jpg';
+import Cta3ConsultationImg from '../../assets/Seabourn/SeabournCruises/seabourn-intuitive-personalized-luxury-service.jpg';
+import Cta4UltraLuxuryImg from '../../assets/Seabourn/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg';
 
 // UI Components
 import ComparisonHero from '../../components/ui/ComparisonHero';
