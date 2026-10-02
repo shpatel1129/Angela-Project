@@ -15,18 +15,51 @@
     "title": "Seabourn Mediterranean Cruises at a Glance",
     "subtitle": "QUICK OVERVIEW",
     "caption": "Note: Port calls, marquee events, shore excursions, and seasonal sailing windows vary by ship and specific itinerary.",
-    "headers": ["Feature", "Seabourn Mediterranean Cruises"],
+    "headers": [
+      "Feature",
+      "Seabourn Mediterranean Cruises"
+    ],
     "rows": [
-      ["Region", "Mediterranean"],
-      ["Cruise style", "Ultra-luxury small-ship cruising"],
-      ["Main destinations", "Italy, Greece, Croatia, France, Spain, Turkey and surrounding regions"],
-      ["Highlights", "Historic ports, islands, beaches, cuisine and culture"],
-      ["Port style", "Major destinations plus smaller ports"],
-      ["Experiences", "Shore excursions, cultural activities and Signature Events"],
-      ["Best for", "Couples, luxury travelers, food lovers and culture enthusiasts"],
-      ["Peak season", "Summer"],
-      ["Shoulder seasons", "Spring and fall"],
-      ["Atmosphere", "Intimate, relaxed and sophisticated"]
+      [
+        "Region",
+        "Mediterranean"
+      ],
+      [
+        "Cruise style",
+        "Ultra-luxury small-ship cruising"
+      ],
+      [
+        "Main destinations",
+        "Italy, Greece, Croatia, France, Spain, Turkey and surrounding regions"
+      ],
+      [
+        "Highlights",
+        "Historic ports, islands, beaches, cuisine and culture"
+      ],
+      [
+        "Port style",
+        "Major destinations plus smaller ports"
+      ],
+      [
+        "Experiences",
+        "Shore excursions, cultural activities and Signature Events"
+      ],
+      [
+        "Best for",
+        "Couples, luxury travelers, food lovers and culture enthusiasts"
+      ],
+      [
+        "Peak season",
+        "Summer"
+      ],
+      [
+        "Shoulder seasons",
+        "Spring and fall"
+      ],
+      [
+        "Atmosphere",
+        "Intimate, relaxed and sophisticated"
+      ]
     ]
   },
   "whyTakeSection": {
@@ -63,37 +96,61 @@
         "icon": "Landmark",
         "title": "Local Culture",
         "description": "Itineraries are built around the everyday rhythm of each port rather than only its commercial landmarks, creating deeper connections.",
-        "features": ["Everyday local life", "Artisan workshops", "Authentic village squares"]
+        "features": [
+          "Everyday local life",
+          "Artisan workshops",
+          "Authentic village squares"
+        ]
       },
       {
         "icon": "Building2",
         "title": "Historic Architecture",
         "description": "Smaller destinations offer historic medieval quarters, Venetian walls, and cobblestone alleys away from mass-tourist crowds.",
-        "features": ["Ancient fortified towns", "Venetian fortresses", "Quiet cobblestone streets"]
+        "features": [
+          "Ancient fortified towns",
+          "Venetian fortresses",
+          "Quiet cobblestone streets"
+        ]
       },
       {
         "icon": "Utensils",
         "title": "Regional Food",
         "description": "Regional cuisine is experienced firsthand through bustling morning markets, rustic tavernas, and family-run trattorias ashore.",
-        "features": ["Fresh market visits", "Local trattorias", "Regional specialties"]
+        "features": [
+          "Fresh market visits",
+          "Local trattorias",
+          "Regional specialties"
+        ]
       },
       {
         "icon": "Waves",
         "title": "Secluded Beaches",
         "description": "Smaller ship navigation provides effortless access to quiet coves, hidden bays, and pristine coastal stretches.",
-        "features": ["Quiet swimming coves", "Crystal clear waters", "Exclusive beach clubs"]
+        "features": [
+          "Quiet swimming coves",
+          "Crystal clear waters",
+          "Exclusive beach clubs"
+        ]
       },
       {
         "icon": "Mountain",
         "title": "Scenic Landscapes",
         "description": "Spectacular coastal drives, hillside olive groves, and island viewpoints add dramatic visual variety throughout each voyage.",
-        "features": ["Dramatic clifftops", "Terraced hillside villages", "Panoramic viewpoints"]
+        "features": [
+          "Dramatic clifftops",
+          "Terraced hillside villages",
+          "Panoramic viewpoints"
+        ]
       },
       {
         "icon": "Compass",
         "title": "Walking-Friendly Ports",
         "description": "A relaxed pace in port makes it easy to step straight off the ship into charming village centers on foot without long coach rides.",
-        "features": ["Docking in city centers", "Effortless walking tours", "Independent exploration"]
+        "features": [
+          "Docking in city centers",
+          "Effortless walking tours",
+          "Independent exploration"
+        ]
       }
     ]
   },
@@ -283,7 +340,10 @@
           "Afternoon: Secluded beach cove swim, scenic coastal drive, or marina watersports",
           "Evening: Gourmet candlelit dinner followed by an exclusive classical concert under the stars"
         ],
-        "recommendations": ["Romantic Getaways", "Anniversaries & Honeymoons"]
+        "recommendations": [
+          "Romantic Getaways",
+          "Anniversaries & Honeymoons"
+        ]
       },
       {
         "icon": "Gem",
@@ -294,7 +354,10 @@
           "Open-seating dining across multiple world-class restaurants",
           "Unpacking once to experience multiple iconic Mediterranean countries"
         ],
-        "recommendations": ["First-Time Luxury", "Hassle-Free Exploration"]
+        "recommendations": [
+          "First-Time Luxury",
+          "Hassle-Free Exploration"
+        ]
       },
       {
         "icon": "Users",
@@ -305,7 +368,10 @@
           "Connecting suites with spacious private living areas",
           "Focus on shared culinary, historical, and beach experiences"
         ],
-        "recommendations": ["Mature Families", "Culture & Culinary Travelers"]
+        "recommendations": [
+          "Mature Families",
+          "Culture & Culinary Travelers"
+        ]
       }
     ]
   },
@@ -494,7 +560,6 @@
         "subtitle": "Poolside Alfresco Dining",
         "description": "Casual poolside grill serving fresh Mediterranean grilled seafood, gourmet burgers, salads, and freshly baked pizzas under the sun."
       },
-    
       {
         "title": "24-Hour In-Suite Dining",
         "subtitle": "Course-by-Course Veranda Service",
@@ -747,5 +812,11 @@
       "buttonText": "Start Planning Your Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Mediterranean Cruises: Riviera, Greek Isles & Ports",
+    "metaTitle": "Seabourn Mediterranean Luxury Cruises: Small Harbors & Itineraries",
+    "description": "Explore the Mediterranean aboard intimate Seabourn ships. Sail the Italian Riviera, Greek Isles, French Coast, and Adriatic with curated shore excursions.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/mediterranean/"
   }
 }

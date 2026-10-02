@@ -336,10 +336,10 @@ const WhatIsThereToDoOnSeabourn = () => {
     <div className="min-h-screen bg-white text-navy-950 font-sans selection:bg-gold-500 selection:text-white">
       {/* ── SEO / Helmet Metadata ───────────────────────────────────── */}
       <Helmet>
-        <title>{data.seo.seoTitle}</title>
-        <meta name="description" content={data.seo.metaDescription} />
-        <meta name="keywords" content={data.seo.secondaryKeywords.join(", ")} />
-        <link rel="canonical" href={`https://www.tripsandships.com${data.seo.suggestedUrl}`} />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaJson)}</script>
       </Helmet>
 

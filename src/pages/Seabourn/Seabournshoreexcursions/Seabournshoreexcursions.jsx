@@ -76,13 +76,10 @@ const SeabournShoreExcursionsGuide = () => {
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
-        <title>Seabourn Shore Excursions: Ventures, Tours & Activities</title>
-        <meta name="title" content="Seabourn Shore Excursions Guide: Tours, Ventures & Activities" />
-        <meta
-          name="description"
-          content="Explore Seabourn shore excursions, including traditional tours, Ventures by Seabourn, expedition activities, private experiences, wildlife adventures and planning tips."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/shore-excursions/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(data.schemaData)}</script>
       </Helmet>
 

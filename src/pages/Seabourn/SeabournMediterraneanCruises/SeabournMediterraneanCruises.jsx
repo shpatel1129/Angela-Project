@@ -236,13 +236,10 @@ const SeabournMediterraneanCruisesGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Seabourn Mediterranean Cruises: Itineraries & Small Ports</title>
-        <meta name="title" content="Seabourn Mediterranean Cruises: Ports, Itineraries & Seasons" />
-        <meta
-          name="description"
-          content="Explore Seabourn Mediterranean cruises, including small ports, luxury itineraries, signature events, shore excursions, dining, destinations and the best time to sail."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/mediterranean/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournMediterraneanSchema)}</script>
       </Helmet>
 

@@ -1,8 +1,8 @@
 {
   "meta": {
     "seoTitle": "Is Seabourn Too Formal, Too Old or Too Quiet? Complete Guide",
-    "metaTitle": "Is Seabourn Too Formal, Too Old or Too Quiet?",
-    "description": "Is Seabourn too formal, too old or too quiet? Learn about Seabourn's dress code, passenger age, nightlife, onboard atmosphere, entertainment and who will enjoy the experience.",
+    "metaTitle": "Seabourn Onboard Vibe & Atmosphere: Formal vs Relaxed Luxury",
+    "description": "Debunking Seabourn myths: Is the dress code too formal, the crowd too old, or the vibe too quiet? Get an honest review of Seabourn's yacht-like luxury atmosphere.",
     "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/is-seabourn-too-formal-too-old-too-quiet/",
     "primaryKeyword": "Is Seabourn Too Formal, Too Old or Too Quiet",
     "secondaryKeywords": [
@@ -23,7 +23,8 @@
       "Seabourn formal nights",
       "Seabourn evening dress code",
       "Seabourn luxury cruise experience"
-    ]
+    ],
+    "title": "Is Seabourn Too Formal, Too Old, or Too Quiet? Honest Review"
   },
   "hero": {
     "badge": "SEABOURN ATMOSPHERE & LIFESTYLE EVALUATION",
@@ -44,21 +45,63 @@
   "quickAnswerTable": {
     "title": "Quick Answer: Is Seabourn Too Formal, Too Old or Too Quiet?",
     "subtitle": "AT-A-GLANCE REALITY CHECK OF ONBOARD ATMOSPHERE, VIBE & LIFESTYLE",
-    "headers": ["Concern", "What Seabourn Is Actually Like"],
+    "headers": [
+      "Concern",
+      "What Seabourn Is Actually Like"
+    ],
     "rows": [
-      ["Too formal?", "Generally sophisticated but relaxed"],
-      ["Formal nights?", "No traditional formal-night dress requirement"],
-      ["Dress code", "Relaxed daytime attire and elevated evening attire"],
-      ["Too old?", "Passenger demographic generally skews mature"],
-      ["Younger travelers?", "Yes, particularly on certain itineraries"],
-      ["Too quiet?", "Quieter than large mainstream cruise lines"],
-      ["Nightlife", "Available, but not the primary focus"],
-      ["Entertainment", "Live music, performances, enrichment and destination programming"],
-      ["Families", "Welcome, although Seabourn is not primarily a family-entertainment cruise line"],
-      ["Solo travelers", "Yes, highly welcoming with natural social opportunities"],
-      ["Party atmosphere", "Not the main focus"],
-      ["Small ship", "Yes (264 to 600 guests)"],
-      ["Overall atmosphere", "Intimate, refined and destination-focused"]
+      [
+        "Too formal?",
+        "Generally sophisticated but relaxed"
+      ],
+      [
+        "Formal nights?",
+        "No traditional formal-night dress requirement"
+      ],
+      [
+        "Dress code",
+        "Relaxed daytime attire and elevated evening attire"
+      ],
+      [
+        "Too old?",
+        "Passenger demographic generally skews mature"
+      ],
+      [
+        "Younger travelers?",
+        "Yes, particularly on certain itineraries"
+      ],
+      [
+        "Too quiet?",
+        "Quieter than large mainstream cruise lines"
+      ],
+      [
+        "Nightlife",
+        "Available, but not the primary focus"
+      ],
+      [
+        "Entertainment",
+        "Live music, performances, enrichment and destination programming"
+      ],
+      [
+        "Families",
+        "Welcome, although Seabourn is not primarily a family-entertainment cruise line"
+      ],
+      [
+        "Solo travelers",
+        "Yes, highly welcoming with natural social opportunities"
+      ],
+      [
+        "Party atmosphere",
+        "Not the main focus"
+      ],
+      [
+        "Small ship",
+        "Yes (264 to 600 guests)"
+      ],
+      [
+        "Overall atmosphere",
+        "Intimate, refined and destination-focused"
+      ]
     ],
     "note": "Atmosphere and energy levels vary naturally by itinerary, voyage length, ship type, and season."
   },
@@ -354,20 +397,72 @@
   "mainstreamVsSeabournTable": {
     "title": "Seabourn vs. Large Mainstream Cruise Lines",
     "subtitle": "SIDE-BY-SIDE COMPARISON: INTIMATE LUXURY VS. HIGH-VOLUME MEGA-RESORTS",
-    "headers": ["Feature", "Seabourn", "Large Mainstream Cruise Line"],
+    "headers": [
+      "Feature",
+      "Seabourn",
+      "Large Mainstream Cruise Line"
+    ],
     "rows": [
-      ["Ship size", "Small (264 to 600 guests)", "Large to very large (2,500 to 7,000+ guests)"],
-      ["Passenger environment", "Intimate, uncrowded & relaxed", "High-volume, busy & high-energy"],
-      ["Dress code", "Elegant casual (relaxed daytime, elevated evenings)", "Varies (casual to mandatory formal nights)"],
-      ["Formal nights", "No traditional formal-night focus", "Varies by line (often 1–2 formal nights/week)"],
-      ["Passenger age", "Generally mature (50s–70s, with 40s & young luxury)", "Broad demographic (families, young adults, all ages)"],
-      ["Nightlife", "Sophisticated lounges, live music & acoustic sets", "Extensive (massive multi-story nightclubs & casinos)"],
-      ["Entertainment", "Intimate performances, lectures & cabaret", "Large-scale Broadway productions & water shows"],
-      ["Dining", "All-inclusive gourmet venues with open seating", "Broad range (buffets, assigned seatings & extra-fee specialty)"],
-      ["Children's programming", "Limited compared with family-centric lines", "Extensive (youth clubs, splash parks & teen lounges)"],
-      ["Destination focus", "Strong (boutique ports & UNESCO partnerships)", "Varies (often private island resort stops)"],
-      ["Crowds & Lines", "Virtually zero lines; uncrowded decks", "Larger crowds, tender delays & busy pool decks"],
-      ["Atmosphere", "Quiet, refined, conversational & sophisticated", "Energetic, bustling & theme-park oriented"]
+      [
+        "Ship size",
+        "Small (264 to 600 guests)",
+        "Large to very large (2,500 to 7,000+ guests)"
+      ],
+      [
+        "Passenger environment",
+        "Intimate, uncrowded & relaxed",
+        "High-volume, busy & high-energy"
+      ],
+      [
+        "Dress code",
+        "Elegant casual (relaxed daytime, elevated evenings)",
+        "Varies (casual to mandatory formal nights)"
+      ],
+      [
+        "Formal nights",
+        "No traditional formal-night focus",
+        "Varies by line (often 1–2 formal nights/week)"
+      ],
+      [
+        "Passenger age",
+        "Generally mature (50s–70s, with 40s & young luxury)",
+        "Broad demographic (families, young adults, all ages)"
+      ],
+      [
+        "Nightlife",
+        "Sophisticated lounges, live music & acoustic sets",
+        "Extensive (massive multi-story nightclubs & casinos)"
+      ],
+      [
+        "Entertainment",
+        "Intimate performances, lectures & cabaret",
+        "Large-scale Broadway productions & water shows"
+      ],
+      [
+        "Dining",
+        "All-inclusive gourmet venues with open seating",
+        "Broad range (buffets, assigned seatings & extra-fee specialty)"
+      ],
+      [
+        "Children's programming",
+        "Limited compared with family-centric lines",
+        "Extensive (youth clubs, splash parks & teen lounges)"
+      ],
+      [
+        "Destination focus",
+        "Strong (boutique ports & UNESCO partnerships)",
+        "Varies (often private island resort stops)"
+      ],
+      [
+        "Crowds & Lines",
+        "Virtually zero lines; uncrowded decks",
+        "Larger crowds, tender delays & busy pool decks"
+      ],
+      [
+        "Atmosphere",
+        "Quiet, refined, conversational & sophisticated",
+        "Energetic, bustling & theme-park oriented"
+      ]
     ],
     "note": "Comparing ship size and onboard lifestyle is essential to choosing the cruise experience that matches your vacation goals."
   },

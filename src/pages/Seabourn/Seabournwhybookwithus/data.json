@@ -228,18 +228,54 @@
       "How Trips & Ships Can Help"
     ],
     "rows": [
-      ["Ship selection", "Compare ships and experiences"],
-      ["Itinerary", "Match destinations to your interests"],
-      ["Suite selection", "Review categories, locations and availability"],
-      ["Promotions", "Monitor applicable offers"],
-      ["Excursions", "Help prioritize experiences"],
-      ["Flights", "Coordinate pre/post-cruise travel"],
-      ["Hotels", "Plan extensions and overnight stays"],
-      ["Transfers", "Coordinate transportation"],
-      ["Special occasions", "Plan around celebrations"],
-      ["Additional amenities", "Identify applicable benefits"],
-      ["Travel logistics", "Connect the pieces of your trip"],
-      ["Pre-trip planning", "Review important details before departure"]
+      [
+        "Ship selection",
+        "Compare ships and experiences"
+      ],
+      [
+        "Itinerary",
+        "Match destinations to your interests"
+      ],
+      [
+        "Suite selection",
+        "Review categories, locations and availability"
+      ],
+      [
+        "Promotions",
+        "Monitor applicable offers"
+      ],
+      [
+        "Excursions",
+        "Help prioritize experiences"
+      ],
+      [
+        "Flights",
+        "Coordinate pre/post-cruise travel"
+      ],
+      [
+        "Hotels",
+        "Plan extensions and overnight stays"
+      ],
+      [
+        "Transfers",
+        "Coordinate transportation"
+      ],
+      [
+        "Special occasions",
+        "Plan around celebrations"
+      ],
+      [
+        "Additional amenities",
+        "Identify applicable benefits"
+      ],
+      [
+        "Travel logistics",
+        "Connect the pieces of your trip"
+      ],
+      [
+        "Pre-trip planning",
+        "Review important details before departure"
+      ]
     ]
   },
   "priceQuestionsSection": {
@@ -326,37 +362,61 @@
       "title": "First-Time Seabourn Travelers",
       "description": "If you have never sailed Seabourn, we explain the differences between ships, suites, itineraries, dining venues, and inclusive amenities.",
       "icon": "Compass",
-      "bullets": ["Ship style guidance", "Suite category advice", "Inclusive amenity clarity"]
+      "bullets": [
+        "Ship style guidance",
+        "Suite category advice",
+        "Inclusive amenity clarity"
+      ]
     },
     {
       "title": "Experienced Luxury Travelers",
       "description": "If you already know luxury cruising, we focus on the fine details that matter most to you—from specific suite layouts to custom excursions.",
       "icon": "Star",
-      "bullets": ["Specific suite location", "Promotion monitoring", "VIP coordination"]
+      "bullets": [
+        "Specific suite location",
+        "Promotion monitoring",
+        "VIP coordination"
+      ]
     },
     {
       "title": "Couples & Romantic Getaways",
       "description": "We help match your itinerary and suite to create an unforgettable, relaxing romantic getaway or honeymoon celebration.",
       "icon": "Heart",
-      "bullets": ["Veranda positioning", "Special dining setups", "Intimate excursions"]
+      "bullets": [
+        "Veranda positioning",
+        "Special dining setups",
+        "Intimate excursions"
+      ]
     },
     {
       "title": "Multigenerational Families",
       "description": "We coordinate multiple suites, connecting staterooms, diverse excursion preferences, and seamless flight logistics for family groups.",
       "icon": "Users",
-      "bullets": ["Multi-suite management", "Diverse activity planning", "Coordinated flights"]
+      "bullets": [
+        "Multi-suite management",
+        "Diverse activity planning",
+        "Coordinated flights"
+      ]
     },
     {
       "title": "Expedition Travelers",
       "description": "For Antarctica, the Arctic, and remote destinations, thorough planning of polar gear, charter flights, and pre-cruise staging is critical.",
       "icon": "Snowflake",
-      "bullets": ["Polar vessel specs", "Expedition logistics", "Pre/post hotel staging"]
+      "bullets": [
+        "Polar vessel specs",
+        "Expedition logistics",
+        "Pre/post hotel staging"
+      ]
     },
     {
       "title": "Travelers Celebrating Milestones",
       "description": "We incorporate milestone anniversaries, birthdays, and retirement celebrations into the planning process for special recognition.",
       "icon": "Gem",
-      "bullets": ["Celebration recognition", "Milestone coordination", "Memorable moments"]
+      "bullets": [
+        "Celebration recognition",
+        "Milestone coordination",
+        "Memorable moments"
+      ]
     }
   ],
   "tripsAndShipsDifferenceBrand": {
@@ -474,5 +534,11 @@
       "buttonText": "Start Planning Your Seabourn Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Why Book Seabourn With Trips & Ships? Travel Advisor Advantage",
+    "metaTitle": "Book Seabourn With Trips & Ships: Exclusive Perks & VIP Advice",
+    "description": "Discover why luxury travelers book Seabourn with Angela Hughes and Trips & Ships. Exclusive consortium amenities, suite selection expertise, and VIP service.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/why-book-with-us/"
   }
 }

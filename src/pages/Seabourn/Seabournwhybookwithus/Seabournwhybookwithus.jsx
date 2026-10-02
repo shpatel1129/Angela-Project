@@ -116,13 +116,10 @@ const SeabournWhyBookWithUs = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
-        <title>Why Book Seabourn With Trips & Ships?</title>
-        <meta name="title" content="Book Seabourn With Trips & Ships | Luxury Cruise Advisors" />
-        <meta
-          name="description"
-          content="Discover why travelers book Seabourn with Trips & Ships. Get expert cruise advice, personalized suite selection, promotion monitoring and added amenities."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/why-book-with-us/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

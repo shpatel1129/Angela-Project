@@ -68,7 +68,7 @@ const SeabournAntarcticaCruises = () => {
         <title>{data.meta.title}</title>
         <meta name="title" content={data.meta.metaTitle} />
         <meta name="description" content={data.meta.description} />
-        <link rel="canonical" href={data.meta.canonicalUrl || "https://www.tripsandships.com/seabourn-cruises/antarctica/"} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(data.schemaData)}
         </script>

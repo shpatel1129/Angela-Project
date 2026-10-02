@@ -148,17 +148,10 @@ const SeabournVsSilversea = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
-        <title>Seabourn vs Silversea: Ships, Suites, Dining & Value</title>
-        <meta name="title" content="Seabourn vs Silversea: Ships, Suites, Dining & Value" />
-        <meta
-          name="description"
-          content="Seabourn vs Silversea compared across ships, suites, dining, service, inclusions, expeditions and overall value. Find out which luxury cruise line is right for you."
-        />
-        <meta
-          name="keywords"
-          content="Seabourn vs Silversea, Seabourn or Silversea, Seabourn vs Silversea cruises, Seabourn vs Silversea comparison, Seabourn vs Silversea expedition, Seabourn vs Silversea suites, Seabourn vs Silversea dining, Seabourn vs Silversea service, Seabourn vs Silversea inclusions, Seabourn vs Silversea price, Seabourn vs Silversea value, Seabourn or Silversea for couples, Seabourn vs Silversea Antarctica"
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/seabourn-vs-silversea/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

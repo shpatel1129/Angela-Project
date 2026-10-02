@@ -54,13 +54,10 @@ const SeabournDressCodeGuide = () => {
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
-        <title>Seabourn Dress Code: What to Wear & What to Pack</title>
-        <meta name="title" content="Seabourn Dress Code: What to Wear & What to Pack" />
-        <meta
-          name="description"
-          content="What should you wear on a Seabourn cruise? See Seabourn's daytime, elegant casual and formal dress codes, plus destination-specific packing tips for Alaska, Antarctica, Europe and more."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/dress-code/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(data.schemaData)}</script>
       </Helmet>
 

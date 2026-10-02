@@ -164,15 +164,10 @@ const SeabournCaribbeanCruises = () => {
   return (
     <div className="bg-white min-h-screen">
       <Helmet>
-        <title>Seabourn Caribbean Cruises: Beaches, Yacht Harbors & More</title>
-        <meta
-          name="description"
-          content="Explore Seabourn Caribbean cruises, including yacht harbors, secluded beaches, Marina Day, Caviar in the Surf, shore excursions, itineraries and the best time to sail."
-        />
-        <link
-          rel="canonical"
-          href="https://www.tripsandships.com/seabourn-cruises/caribbean/"
-        />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(seabournCaribbeanSchema)}
         </script>

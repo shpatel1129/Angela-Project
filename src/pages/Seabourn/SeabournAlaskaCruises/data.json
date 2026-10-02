@@ -3,8 +3,8 @@
     "url": "/seabourn-cruises/alaska/",
     "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/alaska/",
     "seoTitle": "Is Seabourn Good for Alaska? Alaska Cruise Guide",
-    "metaTitle": "Is Seabourn Good for Alaska? Luxury Alaska Cruise Guide",
-    "description": "Is Seabourn good for Alaska? Discover Seabourn's ships, Glacier Bay itineraries, wildlife, excursions, Ventures, Inside Passage routes and who should sail.",
+    "metaTitle": "Seabourn Alaska Luxury Cruises & Expedition Guide",
+    "description": "Experience Alaska on Seabourn luxury small ships. Explore Inside Passage itineraries, Ventures by Seabourn Zodiac excursions, wildlife, and best sailing dates.",
     "primaryKeyword": "Is Seabourn Good for Alaska",
     "secondaryKeywords": [
       "Seabourn Alaska cruises",
@@ -22,7 +22,8 @@
       "Seabourn Ventures Alaska",
       "Seabourn Alaska 2027",
       "best Seabourn Alaska cruise"
-    ]
+    ],
+    "title": "Seabourn Alaska Cruises: Inside Passage, Glaciers & Ventures"
   },
   "schemaData": {
     "@context": "https://schema.org",
@@ -367,24 +368,75 @@
   "quickAnswerTable": {
     "title": "Quick Answer: Is Seabourn Good for Alaska?",
     "subtitle": "A high-level overview of key cruise categories and how Seabourn aligns with Alaska travel priorities.",
-    "headers": ["Category", "Seabourn for Alaska"],
+    "headers": [
+      "Category",
+      "Seabourn for Alaska"
+    ],
     "rows": [
-      ["Luxury", "Excellent fit"],
-      ["Ship size", "Smaller, yacht-like atmosphere"],
-      ["Glacier viewing", "Strong"],
-      ["Glacier Bay", "Available on select itineraries"],
-      ["Inside Passage", "Major focus"],
-      ["Wildlife", "Strong opportunities"],
-      ["Small ports", "Excellent fit"],
-      ["Excursions", "Wide range, including Ventures by Seabourn"],
-      ["Expedition experiences", "Available on select Alaska sailings"],
-      ["Service", "Highly personalized"],
-      ["Formal nights", "Generally relaxed luxury atmosphere"],
-      ["Families", "Possible, especially for families seeking luxury"],
-      ["Couples", "Particularly well suited"],
-      ["Active travelers", "Strong fit on Ventures sailings"],
-      ["Large-ship entertainment", "Not the primary focus"],
-      ["Best for", "Luxury travelers who value destination immersion"]
+      [
+        "Luxury",
+        "Excellent fit"
+      ],
+      [
+        "Ship size",
+        "Smaller, yacht-like atmosphere"
+      ],
+      [
+        "Glacier viewing",
+        "Strong"
+      ],
+      [
+        "Glacier Bay",
+        "Available on select itineraries"
+      ],
+      [
+        "Inside Passage",
+        "Major focus"
+      ],
+      [
+        "Wildlife",
+        "Strong opportunities"
+      ],
+      [
+        "Small ports",
+        "Excellent fit"
+      ],
+      [
+        "Excursions",
+        "Wide range, including Ventures by Seabourn"
+      ],
+      [
+        "Expedition experiences",
+        "Available on select Alaska sailings"
+      ],
+      [
+        "Service",
+        "Highly personalized"
+      ],
+      [
+        "Formal nights",
+        "Generally relaxed luxury atmosphere"
+      ],
+      [
+        "Families",
+        "Possible, especially for families seeking luxury"
+      ],
+      [
+        "Couples",
+        "Particularly well suited"
+      ],
+      [
+        "Active travelers",
+        "Strong fit on Ventures sailings"
+      ],
+      [
+        "Large-ship entertainment",
+        "Not the primary focus"
+      ],
+      [
+        "Best for",
+        "Luxury travelers who value destination immersion"
+      ]
     ]
   },
   "whySeabournIsGood": {
@@ -536,15 +588,47 @@
   "venturesComparisonTable": {
     "title": "Seabourn Ventures vs. Regular Shore Excursions",
     "subtitle": "Understanding the difference between standard destination tours and specialized expedition activities.",
-    "headers": ["Feature", "Regular Shore Excursion", "Ventures by Seabourn"],
+    "headers": [
+      "Feature",
+      "Regular Shore Excursion",
+      "Ventures by Seabourn"
+    ],
     "rows": [
-      ["Main focus", "Destination sightseeing", "Expedition-style exploration"],
-      ["Typical activities", "Tours, culture, sightseeing", "Zodiac, kayaking, hiking, wildlife"],
-      ["Expedition Team", "Not necessarily", "Yes, on applicable sailings"],
-      ["Remote environments", "Sometimes", "Strong focus"],
-      ["Adventure level", "Varies", "Generally more active"],
-      ["Equipment", "Depends on excursion", "Equipment provided for Ventures activities"],
-      ["Availability", "Itinerary dependent", "Select Alaska sailings"]
+      [
+        "Main focus",
+        "Destination sightseeing",
+        "Expedition-style exploration"
+      ],
+      [
+        "Typical activities",
+        "Tours, culture, sightseeing",
+        "Zodiac, kayaking, hiking, wildlife"
+      ],
+      [
+        "Expedition Team",
+        "Not necessarily",
+        "Yes, on applicable sailings"
+      ],
+      [
+        "Remote environments",
+        "Sometimes",
+        "Strong focus"
+      ],
+      [
+        "Adventure level",
+        "Varies",
+        "Generally more active"
+      ],
+      [
+        "Equipment",
+        "Depends on excursion",
+        "Equipment provided for Ventures activities"
+      ],
+      [
+        "Availability",
+        "Itinerary dependent",
+        "Select Alaska sailings"
+      ]
     ],
     "note": "Ventures by Seabourn is specifically associated with Alaska sailings and is not automatically available simply because another voyage happens to call at an Alaskan port."
   },
@@ -672,19 +756,67 @@
   "shipComparisonTable": {
     "title": "Seabourn Alaska vs. a Large Alaska Cruise Ship",
     "subtitle": "The right choice depends on what you want from Alaska rather than simply the number of activities available onboard.",
-    "headers": ["Feature", "Seabourn", "Large Cruise Ship"],
+    "headers": [
+      "Feature",
+      "Seabourn",
+      "Large Cruise Ship"
+    ],
     "rows": [
-      ["Ship atmosphere", "Intimate", "Large-scale"],
-      ["Service", "Highly personalized", "Larger guest operation"],
-      ["Alaska access", "Smaller ports and waterways", "Major cruise ports"],
-      ["Expedition experiences", "Available on select sailings", "Varies"],
-      ["Glacier viewing", "Strong", "Strong"],
-      ["Entertainment", "More intimate", "Extensive"],
-      ["Restaurants", "Luxury-focused", "Numerous venues"],
-      ["Crowds", "Smaller environment", "Larger"],
-      ["Family activities", "More limited", "Often extensive"],
-      ["Destination focus", "Strong", "Varies"],
-      ["Best for", "Luxury & immersion", "Variety & large-ship amenities"]
+      [
+        "Ship atmosphere",
+        "Intimate",
+        "Large-scale"
+      ],
+      [
+        "Service",
+        "Highly personalized",
+        "Larger guest operation"
+      ],
+      [
+        "Alaska access",
+        "Smaller ports and waterways",
+        "Major cruise ports"
+      ],
+      [
+        "Expedition experiences",
+        "Available on select sailings",
+        "Varies"
+      ],
+      [
+        "Glacier viewing",
+        "Strong",
+        "Strong"
+      ],
+      [
+        "Entertainment",
+        "More intimate",
+        "Extensive"
+      ],
+      [
+        "Restaurants",
+        "Luxury-focused",
+        "Numerous venues"
+      ],
+      [
+        "Crowds",
+        "Smaller environment",
+        "Larger"
+      ],
+      [
+        "Family activities",
+        "More limited",
+        "Often extensive"
+      ],
+      [
+        "Destination focus",
+        "Strong",
+        "Varies"
+      ],
+      [
+        "Best for",
+        "Luxury & immersion",
+        "Variety & large-ship amenities"
+      ]
     ]
   },
   "luxuryComparison": {
@@ -727,13 +859,31 @@
   "seasonality": {
     "title": "Seabourn Alaska: Best Time to Go",
     "subtitle": "Seabourn's Alaska ocean season generally runs from May through September. Different parts of the season appeal to different travelers.",
-    "tableHeaders": ["Time", "What Travelers May Like"],
+    "tableHeaders": [
+      "Time",
+      "What Travelers May Like"
+    ],
     "tableRows": [
-      ["May", "Early-season scenery and spring conditions"],
-      ["June", "Long daylight and early-summer landscapes"],
-      ["July", "Peak summer conditions and wildlife opportunities"],
-      ["August", "Summer cruising and wildlife experiences"],
-      ["September", "Late-season scenery and quieter atmosphere"]
+      [
+        "May",
+        "Early-season scenery and spring conditions"
+      ],
+      [
+        "June",
+        "Long daylight and early-summer landscapes"
+      ],
+      [
+        "July",
+        "Peak summer conditions and wildlife opportunities"
+      ],
+      [
+        "August",
+        "Summer cruising and wildlife experiences"
+      ],
+      [
+        "September",
+        "Late-season scenery and quieter atmosphere"
+      ]
     ],
     "seasonNote": "There is no universally best month because the ideal timing depends on whether your priority is wildlife, daylight, weather, glaciers, photography or a particular itinerary.",
     "monthHighlights": [

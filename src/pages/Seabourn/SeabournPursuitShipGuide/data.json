@@ -16,20 +16,59 @@
     "title": "Seabourn Pursuit at a Glance",
     "subtitle": "QUICK OVERVIEW",
     "description": "Key specifications, features and expedition metrics for Seabourn's luxury expedition vessel.",
-    "headers": ["Feature", "Seabourn Pursuit"],
+    "headers": [
+      "Feature",
+      "Seabourn Pursuit"
+    ],
     "rows": [
-      ["Ship type", "Luxury expedition ship"],
-      ["Guests", "Approximately 264"],
-      ["Entered service", "2023"],
-      ["Expedition focus", "Polar and remote destinations"],
-      ["Polar capability", "PC6"],
-      ["Zodiacs", "24"],
-      ["Kayaks", "Available on applicable expeditions"],
-      ["Expedition team", "Dedicated expedition specialists"],
-      ["Suites", "All-suite accommodations"],
-      ["Primary destinations", "Antarctica, Arctic and other remote regions"],
-      ["Best for", "Luxury adventure and expedition travelers"],
-      ["Atmosphere", "Intimate, sophisticated and adventurous"]
+      [
+        "Ship type",
+        "Luxury expedition ship"
+      ],
+      [
+        "Guests",
+        "Approximately 264"
+      ],
+      [
+        "Entered service",
+        "2023"
+      ],
+      [
+        "Expedition focus",
+        "Polar and remote destinations"
+      ],
+      [
+        "Polar capability",
+        "PC6"
+      ],
+      [
+        "Zodiacs",
+        "24"
+      ],
+      [
+        "Kayaks",
+        "Available on applicable expeditions"
+      ],
+      [
+        "Expedition team",
+        "Dedicated expedition specialists"
+      ],
+      [
+        "Suites",
+        "All-suite accommodations"
+      ],
+      [
+        "Primary destinations",
+        "Antarctica, Arctic and other remote regions"
+      ],
+      [
+        "Best for",
+        "Luxury adventure and expedition travelers"
+      ],
+      [
+        "Atmosphere",
+        "Intimate, sophisticated and adventurous"
+      ]
     ]
   },
   "editorialIntro": {
@@ -381,35 +420,123 @@
     "title": "Seabourn Pursuit vs. Traditional Seabourn Ships",
     "subtitle": "TWO STYLES OF LUXURY",
     "description": "Pursuit belongs to the Seabourn fleet, but its experience is distinctly different from the brand's traditional ocean ships.",
-    "headers": ["Feature", "Seabourn Pursuit", "Traditional Seabourn Ocean Ship"],
+    "headers": [
+      "Feature",
+      "Seabourn Pursuit",
+      "Traditional Seabourn Ocean Ship"
+    ],
     "rows": [
-      ["Primary focus", "Expedition", "Luxury cruising"],
-      ["Remote destinations", "Strong focus", "Less central"],
-      ["Zodiacs", "Yes", "No"],
-      ["Kayaks", "Yes on applicable voyages", "No core expedition program"],
-      ["Expedition team", "Yes", "Standard enrichment"],
-      ["Polar cruising", "Major focus", "Limited"],
-      ["Shore landings", "Expedition-focused", "Traditional excursions"],
-      ["All-suite accommodations", "Yes", "Yes"],
-      ["Fine dining", "Yes", "Yes"],
-      ["Small-ship atmosphere", "Yes", "Yes"]
+      [
+        "Primary focus",
+        "Expedition",
+        "Luxury cruising"
+      ],
+      [
+        "Remote destinations",
+        "Strong focus",
+        "Less central"
+      ],
+      [
+        "Zodiacs",
+        "Yes",
+        "No"
+      ],
+      [
+        "Kayaks",
+        "Yes on applicable voyages",
+        "No core expedition program"
+      ],
+      [
+        "Expedition team",
+        "Yes",
+        "Standard enrichment"
+      ],
+      [
+        "Polar cruising",
+        "Major focus",
+        "Limited"
+      ],
+      [
+        "Shore landings",
+        "Expedition-focused",
+        "Traditional excursions"
+      ],
+      [
+        "All-suite accommodations",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Fine dining",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Small-ship atmosphere",
+        "Yes",
+        "Yes"
+      ]
     ]
   },
   "pursuitVsVentureTable": {
     "title": "Seabourn Pursuit vs. Seabourn Venture",
     "subtitle": "Because Pursuit and Venture are sister expedition ships, they share many characteristics.",
-    "headers": ["Feature", "Seabourn Pursuit", "Seabourn Venture"],
+    "headers": [
+      "Feature",
+      "Seabourn Pursuit",
+      "Seabourn Venture"
+    ],
     "rows": [
-      ["Ship type", "Luxury expedition", "Luxury expedition"],
-      ["Approx. guests", "264", "264"],
-      ["Service entry", "2023", "2022"],
-      ["Zodiacs", "24", "24"],
-      ["Kayaks", "Yes on applicable voyages", "Yes on applicable voyages"],
-      ["Polar capability", "PC6", "PC6"],
-      ["All-suite", "Yes", "Yes"],
-      ["Expedition team", "Yes", "Yes"],
-      ["Submarine capability", "Expedition capability", "Expedition capability"],
-      ["Primary appeal", "Remote exploration + luxury", "Remote exploration + luxury"]
+      [
+        "Ship type",
+        "Luxury expedition",
+        "Luxury expedition"
+      ],
+      [
+        "Approx. guests",
+        "264",
+        "264"
+      ],
+      [
+        "Service entry",
+        "2023",
+        "2022"
+      ],
+      [
+        "Zodiacs",
+        "24",
+        "24"
+      ],
+      [
+        "Kayaks",
+        "Yes on applicable voyages",
+        "Yes on applicable voyages"
+      ],
+      [
+        "Polar capability",
+        "PC6",
+        "PC6"
+      ],
+      [
+        "All-suite",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Expedition team",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Submarine capability",
+        "Expedition capability",
+        "Expedition capability"
+      ],
+      [
+        "Primary appeal",
+        "Remote exploration + luxury",
+        "Remote exploration + luxury"
+      ]
     ]
   },
   "pursuitVsOthersBrand": {
@@ -768,5 +895,11 @@
       "buttonText": "Plan Your Expedition",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Pursuit Ship Guide: Ultra-Luxury Expedition Vessel",
+    "metaTitle": "Seabourn Pursuit Expedition Ship Review: Submarines & Suites",
+    "description": "Complete guide to Seabourn Pursuit: PC6 polar-class hull, Zodiac fleet, custom submarines, expedition lounge, luxurious duplex suites, and polar itineraries.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-pursuit/"
   }
 }

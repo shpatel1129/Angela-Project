@@ -78,13 +78,10 @@ const SeabournFAQs = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
-        <title>Seabourn FAQs: Cruise Questions Answered</title>
-        <meta name="title" content="Seabourn Cruise FAQs: Ships, Suites, Costs & Inclusions" />
-        <meta
-          name="description"
-          content="Get answers to frequently asked questions about Seabourn cruises, including costs, ships, suites, dining, drinks, excursions, dress code, Wi-Fi, gratuities and expedition cruises."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/faqs/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

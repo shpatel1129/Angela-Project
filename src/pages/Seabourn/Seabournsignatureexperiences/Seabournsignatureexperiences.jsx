@@ -108,13 +108,10 @@ const SeabournSignatureExperiences = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
-        <title>Seabourn Signature Experiences: Caviar, Marina Day & More</title>
-        <meta name="title" content="Seabourn Signature Experiences: Caviar in the Surf & More" />
-        <meta
-          name="description"
-          content="Discover Seabourn signature experiences including Caviar in the Surf, Marina Day, Caviar on the Ice and Evening at Ephesus."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/signature-experiences/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

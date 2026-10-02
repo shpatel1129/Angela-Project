@@ -156,15 +156,10 @@ const SeabournSoloTravelers = () => {
   return (
     <div className="bg-white min-h-screen">
       <Helmet>
-        <title>Seabourn Solo Cruises: Single Supplements, Dining & Tips</title>
-        <meta
-          name="description"
-          content="Is Seabourn good for solo travelers? Explore single supplements, solo dining, social opportunities, suites, itineraries and tips for cruising alone."
-        />
-        <link
-          rel="canonical"
-          href="https://www.tripsandships.com/seabourn-cruises/solo-travelers/"
-        />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(seabournSoloTravelersSchema)}
         </script>

@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "What Is Included on a Seabourn Cruise? Complete Guide",
-    "metaTitle": "Seabourn Cruise Inclusions: What Is Included?",
-    "metaDescription": "Find out what is included on a Seabourn cruise, from dining, premium beverages and caviar to Wi-Fi, gratuities, entertainment, suites and expedition experiences.",
+    "title": "What Is Included on a Seabourn Cruise? All-Inclusive Guide",
+    "metaTitle": "Seabourn Cruise Inclusions Breakdown: Dining, Drinks, Wi-Fi & More",
+    "metaDescription": "Detailed guide to all Seabourn cruise inclusions: open bars, fine dining, caviar, Wi-Fi, gratuities, watersports, entertainment, and what costs extra.",
     "canonical": "https://www.tripsandships.com/seabourn-cruises/whats-included/"
   },
   "schema": {
@@ -57,9 +57,24 @@
         "@type": "BreadcrumbList",
         "@id": "https://www.tripsandships.com/seabourn-cruises/whats-included/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
-          { "@type": "ListItem", "position": 3, "name": "What Is Included on a Seabourn Cruise?", "item": "https://www.tripsandships.com/seabourn-cruises/whats-included/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Seabourn Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What Is Included on a Seabourn Cruise?",
+            "item": "https://www.tripsandships.com/seabourn-cruises/whats-included/"
+          }
         ]
       },
       {
@@ -77,8 +92,15 @@
       {
         "@type": "Review",
         "@id": "https://www.tripsandships.com/seabourn-cruises/whats-included/#review",
-        "itemReviewed": { "@type": "Product", "name": "Seabourn Cruises" },
-        "author": { "@type": "Person", "name": "Angela Hughes", "@id": "https://www.tripsandships.com/#person" },
+        "itemReviewed": {
+          "@type": "Product",
+          "name": "Seabourn Cruises"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes",
+          "@id": "https://www.tripsandships.com/#person"
+        },
         "reviewBody": "Seabourn provides one of the more comprehensive luxury cruise experiences, with dining, premium beverages, Champagne, caviar, Wi-Fi, gratuities, entertainment and enrichment forming the foundation of the onboard experience. Optional shore excursions, spa treatments, private experiences, travel arrangements and personal purchases may carry additional costs."
       },
       {
@@ -86,26 +108,106 @@
         "@id": "https://www.tripsandships.com/seabourn-cruises/whats-included/#itemlist",
         "name": "What This Seabourn Cruise Inclusions Guide Covers",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "What Is Included on a Seabourn Cruise?" },
-          { "@type": "ListItem", "position": 2, "name": "Is Seabourn All-Inclusive?" },
-          { "@type": "ListItem", "position": 3, "name": "Seabourn Dining" },
-          { "@type": "ListItem", "position": 4, "name": "Premium Spirits and Fine Wines" },
-          { "@type": "ListItem", "position": 5, "name": "Welcome Champagne" },
-          { "@type": "ListItem", "position": 6, "name": "In-Suite Bar" },
-          { "@type": "ListItem", "position": 7, "name": "Complimentary Caviar" },
-          { "@type": "ListItem", "position": 8, "name": "Wi-Fi" },
-          { "@type": "ListItem", "position": 9, "name": "Gratuities" },
-          { "@type": "ListItem", "position": 10, "name": "Entertainment" },
-          { "@type": "ListItem", "position": 11, "name": "Seabourn Conversations" },
-          { "@type": "ListItem", "position": 12, "name": "Fitness Facilities" },
-          { "@type": "ListItem", "position": 13, "name": "Pools and Public Spaces" },
-          { "@type": "ListItem", "position": 14, "name": "Expedition Activities" },
-          { "@type": "ListItem", "position": 15, "name": "Seabourn Shore Excursions" },
-          { "@type": "ListItem", "position": 16, "name": "Ventures by Seabourn" },
-          { "@type": "ListItem", "position": 17, "name": "What Is Not Included on a Seabourn Cruise?" },
-          { "@type": "ListItem", "position": 18, "name": "How Seabourn Inclusions Affect the True Cruise Cost" },
-          { "@type": "ListItem", "position": 19, "name": "How to Maximize the Value of a Seabourn Cruise" },
-          { "@type": "ListItem", "position": 20, "name": "Is Seabourn Worth the Money Because of Its Inclusions?" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "What Is Included on a Seabourn Cruise?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Is Seabourn All-Inclusive?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Seabourn Dining"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Premium Spirits and Fine Wines"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Welcome Champagne"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "In-Suite Bar"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Complimentary Caviar"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Wi-Fi"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Gratuities"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Entertainment"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Seabourn Conversations"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Fitness Facilities"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "Pools and Public Spaces"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Expedition Activities"
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "name": "Seabourn Shore Excursions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "name": "Ventures by Seabourn"
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "name": "What Is Not Included on a Seabourn Cruise?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "name": "How Seabourn Inclusions Affect the True Cruise Cost"
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "name": "How to Maximize the Value of a Seabourn Cruise"
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "name": "Is Seabourn Worth the Money Because of Its Inclusions?"
+          }
         ]
       }
     ]
@@ -229,9 +331,18 @@
     "buttonText": "Speak with a Specialist",
     "buttonLink": "/contact",
     "links": [
-      { "label": "Seabourn Cruises Guide", "url": "/seabourn-cruises/" },
-      { "label": "Seabourn Ships", "url": "/seabourn-cruises/#Sbc-ships" },
-      { "label": "Seabourn Suites", "url": "/seabourn-cruises/#Sbc-suites" }
+      {
+        "label": "Seabourn Cruises Guide",
+        "url": "/seabourn-cruises/"
+      },
+      {
+        "label": "Seabourn Ships",
+        "url": "/seabourn-cruises/#Sbc-ships"
+      },
+      {
+        "label": "Seabourn Suites",
+        "url": "/seabourn-cruises/#Sbc-suites"
+      }
     ]
   },
   "groupedAmenities": {
@@ -343,8 +454,14 @@
     "buttonText": "Design My Itinerary",
     "buttonLink": "/contact",
     "links": [
-      { "label": "Seabourn Destinations", "url": "/seabourn-cruises/#Sbc-destinations" },
-      { "label": "Shore Excursions & Conversations", "url": "/seabourn-cruises/#Sbc-experiences" }
+      {
+        "label": "Seabourn Destinations",
+        "url": "/seabourn-cruises/#Sbc-destinations"
+      },
+      {
+        "label": "Shore Excursions & Conversations",
+        "url": "/seabourn-cruises/#Sbc-experiences"
+      }
     ]
   },
   "detailInclusions": {
@@ -492,8 +609,14 @@
     "buttonText": "Get a Personalized Quote",
     "buttonLink": "/contact",
     "links": [
-      { "label": "Is Seabourn Worth It?", "url": "/seabourn-cruises/#Sbc-worth-it" },
-      { "label": "Seabourn vs Other Luxury Lines", "url": "/seabourn-cruises/#Sbc-vs-others" }
+      {
+        "label": "Is Seabourn Worth It?",
+        "url": "/seabourn-cruises/#Sbc-worth-it"
+      },
+      {
+        "label": "Seabourn vs Other Luxury Lines",
+        "url": "/seabourn-cruises/#Sbc-vs-others"
+      }
     ]
   },
   "notIncluded": {
@@ -501,15 +624,42 @@
     "title": "What Is NOT Included on a Seabourn Cruise?",
     "intro": "While Seabourn includes more than many cruise lines, travelers should still budget for certain expenses.",
     "items": [
-      { "title": "Shore Excursions", "text": "Some excursions require additional payment." },
-      { "title": "Spa Treatments", "text": "Massages, facials and salon services are generally extra." },
-      { "title": "Private Experiences", "text": "Private guides, private transportation and exclusive tours can cost extra." },
-      { "title": "Airfare", "text": "Unless specifically included in a particular package or promotion, airfare should be treated separately." },
-      { "title": "Pre- and Post-Cruise Hotels", "text": "Hotels before or after the cruise are additional unless included in a specific package." },
-      { "title": "Travel Insurance", "text": "Travel insurance is separate." },
-      { "title": "Medical Services", "text": "Medical treatment onboard can involve additional charges." },
-      { "title": "Shopping", "text": "Items purchased from onboard boutiques are not included." },
-      { "title": "Specialty Experiences", "text": "Certain premium or specialized experiences may carry additional fees." }
+      {
+        "title": "Shore Excursions",
+        "text": "Some excursions require additional payment."
+      },
+      {
+        "title": "Spa Treatments",
+        "text": "Massages, facials and salon services are generally extra."
+      },
+      {
+        "title": "Private Experiences",
+        "text": "Private guides, private transportation and exclusive tours can cost extra."
+      },
+      {
+        "title": "Airfare",
+        "text": "Unless specifically included in a particular package or promotion, airfare should be treated separately."
+      },
+      {
+        "title": "Pre- and Post-Cruise Hotels",
+        "text": "Hotels before or after the cruise are additional unless included in a specific package."
+      },
+      {
+        "title": "Travel Insurance",
+        "text": "Travel insurance is separate."
+      },
+      {
+        "title": "Medical Services",
+        "text": "Medical treatment onboard can involve additional charges."
+      },
+      {
+        "title": "Shopping",
+        "text": "Items purchased from onboard boutiques are not included."
+      },
+      {
+        "title": "Specialty Experiences",
+        "text": "Certain premium or specialized experiences may carry additional fees."
+      }
     ]
   },
   "comparisonTable": {
@@ -518,18 +668,54 @@
     "includedHeading": "Included on Seabourn",
     "additionalHeading": "Usually Additional",
     "rows": [
-      ["Suite accommodation", "Spa treatments"],
-      ["Dining", "Some shore excursions"],
-      ["Premium spirits", "Private tours"],
-      ["Fine wines", "Specialty experiences"],
-      ["Champagne", "Airfare"],
-      ["Caviar", "Pre-cruise hotels"],
-      ["Wi-Fi", "Post-cruise hotels"],
-      ["Gratuities", "Travel insurance"],
-      ["Entertainment", "Medical services"],
-      ["Seabourn Conversations", "Boutique purchases"],
-      ["Fitness facilities", "Certain premium activities"],
-      ["Standard onboard facilities", "Personal expenses"]
+      [
+        "Suite accommodation",
+        "Spa treatments"
+      ],
+      [
+        "Dining",
+        "Some shore excursions"
+      ],
+      [
+        "Premium spirits",
+        "Private tours"
+      ],
+      [
+        "Fine wines",
+        "Specialty experiences"
+      ],
+      [
+        "Champagne",
+        "Airfare"
+      ],
+      [
+        "Caviar",
+        "Pre-cruise hotels"
+      ],
+      [
+        "Wi-Fi",
+        "Post-cruise hotels"
+      ],
+      [
+        "Gratuities",
+        "Travel insurance"
+      ],
+      [
+        "Entertainment",
+        "Medical services"
+      ],
+      [
+        "Seabourn Conversations",
+        "Boutique purchases"
+      ],
+      [
+        "Fitness facilities",
+        "Certain premium activities"
+      ],
+      [
+        "Standard onboard facilities",
+        "Personal expenses"
+      ]
     ],
     "note": "Always confirm the exact inclusions for your specific sailing before booking, because offerings can vary by ship, itinerary and promotion."
   },
@@ -546,12 +732,30 @@
     "title": "Is Seabourn More Inclusive Than Mainstream Cruise Lines?",
     "intro": "Generally, yes. Seabourn's ultra-luxury positioning means many amenities that are optional on mainstream cruise lines are included in the cruise experience.",
     "items": [
-      { "term": "Premium beverages", "desc": "Included rather than requiring a beverage package." },
-      { "term": "Wi-Fi", "desc": "Included rather than requiring an internet package." },
-      { "term": "Gratuities", "desc": "Included rather than added daily." },
-      { "term": "Dining", "desc": "Multiple dining options included." },
-      { "term": "Caviar", "desc": "A signature luxury amenity." },
-      { "term": "Suite accommodations", "desc": "All-suite oceanfront accommodation is central to the product." }
+      {
+        "term": "Premium beverages",
+        "desc": "Included rather than requiring a beverage package."
+      },
+      {
+        "term": "Wi-Fi",
+        "desc": "Included rather than requiring an internet package."
+      },
+      {
+        "term": "Gratuities",
+        "desc": "Included rather than added daily."
+      },
+      {
+        "term": "Dining",
+        "desc": "Multiple dining options included."
+      },
+      {
+        "term": "Caviar",
+        "desc": "A signature luxury amenity."
+      },
+      {
+        "term": "Suite accommodations",
+        "desc": "All-suite oceanfront accommodation is central to the product."
+      }
     ]
   },
   "cta4": {
@@ -561,8 +765,14 @@
     "buttonText": "Start My Trip Estimate",
     "buttonLink": "/contact",
     "links": [
-      { "label": "Seabourn Dining", "url": "/seabourn-cruises/#Sbc-dining" },
-      { "label": "Seabourn Inclusions Overview", "url": "/seabourn-cruises/#Sbc-includes" }
+      {
+        "label": "Seabourn Dining",
+        "url": "/seabourn-cruises/#Sbc-dining"
+      },
+      {
+        "label": "Seabourn Inclusions Overview",
+        "url": "/seabourn-cruises/#Sbc-includes"
+      }
     ]
   },
   "vsLuxury": {
@@ -705,17 +915,50 @@
     "experience": "40+ Years Experience",
     "countries": "Traveled to more than 121 countries",
     "credentials": [
-      { "icon": "Award", "label": "CEO of Trips & Ships Luxury Travel" },
-      { "icon": "Star", "label": "Over 40 years in the travel industry" },
-      { "icon": "MapPin", "label": "Traveled to more than 121 countries" },
-      { "icon": "Award", "label": "Founder of Luxury Travel University" },
-      { "icon": "Users", "label": "Global luxury travel speaker and trainer" },
-      { "icon": "Users", "label": "Weekly industry columnist" },
-      { "icon": "Users", "label": "Travel Leaders Network Advisory Board member" },
-      { "icon": "Award", "label": "2024 Luxury Travel Influencer of the Year" },
-      { "icon": "Star", "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
-      { "icon": "Award", "label": "Featured in major travel publications globally" },
-      { "icon": "Ship", "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" }
+      {
+        "icon": "Award",
+        "label": "CEO of Trips & Ships Luxury Travel"
+      },
+      {
+        "icon": "Star",
+        "label": "Over 40 years in the travel industry"
+      },
+      {
+        "icon": "MapPin",
+        "label": "Traveled to more than 121 countries"
+      },
+      {
+        "icon": "Award",
+        "label": "Founder of Luxury Travel University"
+      },
+      {
+        "icon": "Users",
+        "label": "Global luxury travel speaker and trainer"
+      },
+      {
+        "icon": "Users",
+        "label": "Weekly industry columnist"
+      },
+      {
+        "icon": "Users",
+        "label": "Travel Leaders Network Advisory Board member"
+      },
+      {
+        "icon": "Award",
+        "label": "2024 Luxury Travel Influencer of the Year"
+      },
+      {
+        "icon": "Star",
+        "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse"
+      },
+      {
+        "icon": "Award",
+        "label": "Featured in major travel publications globally"
+      },
+      {
+        "icon": "Ship",
+        "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+      }
     ]
   },
   "faq": [
@@ -801,5 +1044,11 @@
     ],
     "buttonText": "Start Planning Your Seabourn Cruise",
     "buttonLink": "/contact"
+  },
+  "meta": {
+    "title": "What Is Included on a Seabourn Cruise? All-Inclusive Guide",
+    "metaTitle": "Seabourn Cruise Inclusions Breakdown: Dining, Drinks, Wi-Fi & More",
+    "description": "Detailed guide to all Seabourn cruise inclusions: open bars, fine dining, caviar, Wi-Fi, gratuities, watersports, entertainment, and what costs extra.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/whats-included/"
   }
 }

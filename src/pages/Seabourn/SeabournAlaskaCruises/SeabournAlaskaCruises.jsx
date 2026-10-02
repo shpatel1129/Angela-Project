@@ -275,10 +275,10 @@ const SeabournAlaskaCruises = () => {
     <div className="w-full bg-white font-sans text-navy-900 antialiased">
       {/* ── SEO / Meta Tags ────────────────────────────────────────── */}
       <Helmet>
-        <title>{data.meta.seoTitle}</title>
+        <title>{data.meta.title}</title>
         <meta name="title" content={data.meta.metaTitle} />
         <meta name="description" content={data.meta.description} />
-        <link rel="canonical" href={data.meta.canonicalUrl || "https://www.tripsandships.com/seabourn-cruises/alaska/"} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(data.schemaData)}
         </script>

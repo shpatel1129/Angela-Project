@@ -8,9 +8,15 @@
         "url": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/",
         "name": "Seabourn Shore Excursions: Complete Guide to Tours, Ventures & Expedition Activities",
         "description": "Explore Seabourn shore excursions, including traditional tours, Ventures by Seabourn, expedition activities, private experiences, wildlife adventures and planning tips.",
-        "isPartOf": { "@id": "https://www.tripsandships.com/#website" },
-        "breadcrumb": { "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#breadcrumb" },
-        "mainEntity": { "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#article" },
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#breadcrumb"
+        },
+        "mainEntity": {
+          "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#article"
+        },
         "inLanguage": "en-US"
       },
       {
@@ -19,7 +25,9 @@
         "headline": "Seabourn Shore Excursions: Complete Guide to Tours, Ventures & Expedition Activities",
         "description": "Explore Seabourn shore excursions, including traditional tours, Ventures by Seabourn, expedition activities, private experiences, wildlife adventures and planning tips.",
         "url": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/",
-        "mainEntityOfPage": { "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#webpage" },
+        "mainEntityOfPage": {
+          "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#webpage"
+        },
         "articleSection": [
           "Seabourn Shore Excursions",
           "Traditional Shore Excursions",
@@ -45,47 +53,210 @@
           "best Seabourn excursions"
         ],
         "about": [
-          { "@type": "Thing", "name": "Seabourn shore excursions" },
-          { "@type": "Thing", "name": "Ventures by Seabourn" },
-          { "@type": "Thing", "name": "Seabourn expedition activities" },
-          { "@type": "Thing", "name": "Seabourn Zodiac excursions" },
-          { "@type": "Thing", "name": "Seabourn kayaking" },
-          { "@type": "Thing", "name": "Seabourn wildlife excursions" }
+          {
+            "@type": "Thing",
+            "name": "Seabourn shore excursions"
+          },
+          {
+            "@type": "Thing",
+            "name": "Ventures by Seabourn"
+          },
+          {
+            "@type": "Thing",
+            "name": "Seabourn expedition activities"
+          },
+          {
+            "@type": "Thing",
+            "name": "Seabourn Zodiac excursions"
+          },
+          {
+            "@type": "Thing",
+            "name": "Seabourn kayaking"
+          },
+          {
+            "@type": "Thing",
+            "name": "Seabourn wildlife excursions"
+          }
         ],
-        "publisher": { "@type": "TravelAgency", "name": "Trips & Ships Luxury Travel", "url": "https://www.tripsandships.com/" }
+        "publisher": {
+          "@type": "TravelAgency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/"
+        }
       },
       {
         "@type": "FAQPage",
         "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#faq",
         "url": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/",
         "mainEntity": [
-          { "@type": "Question", "name": "What are Seabourn shore excursions?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn shore excursions are organized tours and activities that allow cruise guests to explore destinations beyond the ship. They range from sightseeing and cultural tours to food, wine, adventure and nature experiences." } },
-          { "@type": "Question", "name": "What are Ventures by Seabourn?", "acceptedAnswer": { "@type": "Answer", "text": "Ventures by Seabourn are more immersive experiences focused on active exploration, nature, adventure and unique destination experiences. Availability varies by itinerary." } },
-          { "@type": "Question", "name": "Are Seabourn shore excursions included?", "acceptedAnswer": { "@type": "Answer", "text": "Not all shore excursions should be assumed to be included. Pricing and availability vary by experience and itinerary, so check the specific excursion details when planning your cruise." } },
-          { "@type": "Question", "name": "What activities are available on Seabourn expedition cruises?", "acceptedAnswer": { "@type": "Answer", "text": "Depending on the itinerary, expedition activities can include Zodiac excursions, shore landings, kayaking, hiking, wildlife observation and scenic exploration." } },
-          { "@type": "Question", "name": "Does Seabourn offer private shore excursions?", "acceptedAnswer": { "@type": "Answer", "text": "Private experiences may be available on selected itineraries and can provide greater flexibility around transportation, pace and activities." } },
-          { "@type": "Question", "name": "Are Seabourn shore excursions worth the cost?", "acceptedAnswer": { "@type": "Answer", "text": "They can be, particularly when an excursion provides expert guides, specialized transportation, exclusive access or experiences that are difficult to arrange independently." } },
-          { "@type": "Question", "name": "Can I explore a port independently on a Seabourn cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Independent exploration can be a good option in ports that are easy to navigate, provided you return to the ship well before its scheduled departure." } },
-          { "@type": "Question", "name": "How active are Seabourn shore excursions?", "acceptedAnswer": { "@type": "Answer", "text": "Activity levels vary from easy sightseeing to strenuous hiking and expedition activities. Always check the individual excursion's requirements before booking." } },
-          { "@type": "Question", "name": "Are Seabourn excursions suitable for older travelers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. There are many lower-activity options, although travelers should evaluate walking distance, terrain, stairs and transportation requirements for each excursion." } },
-          { "@type": "Question", "name": "Are Seabourn excursions good for families?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Families can choose from cultural, wildlife, food, nature and adventure experiences. Private excursions can be particularly useful for multigenerational groups." } },
-          { "@type": "Question", "name": "Does Seabourn offer Zodiac excursions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Zodiac operations are an important part of the expedition experience aboard Seabourn Venture and Seabourn Pursuit, subject to itinerary and conditions." } },
-          { "@type": "Question", "name": "Does Seabourn offer kayaking?", "acceptedAnswer": { "@type": "Answer", "text": "Kayaking is available on applicable expedition itineraries and is subject to weather, sea conditions, safety requirements and local circumstances." } },
-          { "@type": "Question", "name": "Can I see wildlife on a Seabourn shore excursion?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Wildlife-focused excursions are available on appropriate itineraries. Expedition destinations can provide opportunities to see animals such as penguins, whales, seals and birds." } },
-          { "@type": "Question", "name": "Should I book excursions in every port?", "acceptedAnswer": { "@type": "Answer", "text": "Not necessarily. Leaving some ports open can give you time to explore independently or enjoy the ship without a structured tour." } },
-          { "@type": "Question", "name": "How do I choose the best Seabourn excursion?", "acceptedAnswer": { "@type": "Answer", "text": "Start with your interests and activity level. Choose cultural tours for history, culinary experiences for food lovers, Ventures for active exploration and expedition activities for wildlife and remote destinations." } },
-          { "@type": "Question", "name": "What should I bring on a Seabourn shore excursion?", "acceptedAnswer": { "@type": "Answer", "text": "Bring comfortable shoes, weather-appropriate clothing, identification, a phone, camera, sunscreen, water and any necessary medication. Expedition activities may require additional waterproof or cold-weather gear." } },
-          { "@type": "Question", "name": "Can Seabourn excursions be canceled because of weather?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Weather, sea conditions, safety concerns and local circumstances can affect excursions, particularly outdoor and expedition activities." } },
-          { "@type": "Question", "name": "What is the difference between a Seabourn shore excursion and a Ventures experience?", "acceptedAnswer": { "@type": "Answer", "text": "Traditional shore excursions often focus on sightseeing, culture, food and major attractions. Ventures experiences generally emphasize more active, immersive or nature-oriented exploration." } }
+          {
+            "@type": "Question",
+            "name": "What are Seabourn shore excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn shore excursions are organized tours and activities that allow cruise guests to explore destinations beyond the ship. They range from sightseeing and cultural tours to food, wine, adventure and nature experiences."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are Ventures by Seabourn?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ventures by Seabourn are more immersive experiences focused on active exploration, nature, adventure and unique destination experiences. Availability varies by itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn shore excursions included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not all shore excursions should be assumed to be included. Pricing and availability vary by experience and itinerary, so check the specific excursion details when planning your cruise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What activities are available on Seabourn expedition cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Depending on the itinerary, expedition activities can include Zodiac excursions, shore landings, kayaking, hiking, wildlife observation and scenic exploration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn offer private shore excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Private experiences may be available on selected itineraries and can provide greater flexibility around transportation, pace and activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn shore excursions worth the cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They can be, particularly when an excursion provides expert guides, specialized transportation, exclusive access or experiences that are difficult to arrange independently."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I explore a port independently on a Seabourn cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Independent exploration can be a good option in ports that are easy to navigate, provided you return to the ship well before its scheduled departure."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How active are Seabourn shore excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Activity levels vary from easy sightseeing to strenuous hiking and expedition activities. Always check the individual excursion's requirements before booking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn excursions suitable for older travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. There are many lower-activity options, although travelers should evaluate walking distance, terrain, stairs and transportation requirements for each excursion."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Seabourn excursions good for families?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Families can choose from cultural, wildlife, food, nature and adventure experiences. Private excursions can be particularly useful for multigenerational groups."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn offer Zodiac excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Zodiac operations are an important part of the expedition experience aboard Seabourn Venture and Seabourn Pursuit, subject to itinerary and conditions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn offer kayaking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kayaking is available on applicable expedition itineraries and is subject to weather, sea conditions, safety requirements and local circumstances."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I see wildlife on a Seabourn shore excursion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Wildlife-focused excursions are available on appropriate itineraries. Expedition destinations can provide opportunities to see animals such as penguins, whales, seals and birds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I book excursions in every port?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not necessarily. Leaving some ports open can give you time to explore independently or enjoy the ship without a structured tour."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose the best Seabourn excursion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with your interests and activity level. Choose cultural tours for history, culinary experiences for food lovers, Ventures for active exploration and expedition activities for wildlife and remote destinations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I bring on a Seabourn shore excursion?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bring comfortable shoes, weather-appropriate clothing, identification, a phone, camera, sunscreen, water and any necessary medication. Expedition activities may require additional waterproof or cold-weather gear."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Seabourn excursions be canceled because of weather?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Weather, sea conditions, safety concerns and local circumstances can affect excursions, particularly outdoor and expedition activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a Seabourn shore excursion and a Ventures experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Traditional shore excursions often focus on sightseeing, culture, food and major attractions. Ventures experiences generally emphasize more active, immersive or nature-oriented exploration."
+            }
+          }
         ]
       },
       {
         "@type": "BreadcrumbList",
         "@id": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
-          { "@type": "ListItem", "position": 3, "name": "Seabourn Shore Excursions", "item": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Seabourn Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Seabourn Shore Excursions",
+            "item": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/"
+          }
         ]
       }
     ]
@@ -587,17 +758,57 @@
   "traditionalVsVentures": {
     "title": "Seabourn Shore Excursions vs. Ventures by Seabourn",
     "subtitle": "Side-by-Side Comparison of Tour Styles",
-    "headers": ["Feature", "Traditional Shore Excursions", "Ventures by Seabourn"],
+    "headers": [
+      "Feature",
+      "Traditional Shore Excursions",
+      "Ventures by Seabourn"
+    ],
     "rows": [
-      ["Sightseeing", "Excellent", "Sometimes"],
-      ["Culture", "Excellent", "Good"],
-      ["Food & wine", "Excellent", "Sometimes"],
-      ["Adventure", "Moderate", "High"],
-      ["Nature", "Good", "High"],
-      ["Active exploration", "Limited to moderate", "Strong"],
-      ["Remote environments", "Sometimes", "More likely"],
-      ["Hiking", "Some", "More common"],
-      ["Wildlife", "Destination dependent", "Strong focus on applicable itineraries"]
+      [
+        "Sightseeing",
+        "Excellent",
+        "Sometimes"
+      ],
+      [
+        "Culture",
+        "Excellent",
+        "Good"
+      ],
+      [
+        "Food & wine",
+        "Excellent",
+        "Sometimes"
+      ],
+      [
+        "Adventure",
+        "Moderate",
+        "High"
+      ],
+      [
+        "Nature",
+        "Good",
+        "High"
+      ],
+      [
+        "Active exploration",
+        "Limited to moderate",
+        "Strong"
+      ],
+      [
+        "Remote environments",
+        "Sometimes",
+        "More likely"
+      ],
+      [
+        "Hiking",
+        "Some",
+        "More common"
+      ],
+      [
+        "Wildlife",
+        "Destination dependent",
+        "Strong focus on applicable itineraries"
+      ]
     ]
   },
   "traditionalVsExpedition": {
@@ -728,5 +939,11 @@
         ]
       }
     ]
+  },
+  "meta": {
+    "title": "Seabourn Shore Excursions: Ventures, UNESCO & Private Tours",
+    "metaTitle": "Seabourn Shore Excursions Guide: Ventures & Curated Tours",
+    "description": "Comprehensive guide to Seabourn shore excursions: UNESCO World Heritage partnerships, Ventures by Seabourn active tours, private cars, and bespoke excursions.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/shore-excursions/"
   }
 }

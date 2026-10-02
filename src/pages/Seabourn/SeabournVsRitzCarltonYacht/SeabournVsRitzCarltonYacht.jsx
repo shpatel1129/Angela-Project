@@ -279,11 +279,10 @@ const SeabournVsRitzCarltonYacht = () => {
     <div className="bg-slate-50 min-h-screen text-slate-900">
       {/* ── SEO Metadata & Schema Injection ─────────────────────────── */}
       <Helmet>
-        <title>{data.meta.seoTitle}</title>
+        <title>{data.meta.title}</title>
         <meta name="title" content={data.meta.metaTitle} />
-        <meta name="description" content={data.meta.metaDescription} />
-        <meta name="keywords" content={data.meta.secondaryKeywords.join(", ")} />
-        <link rel="canonical" href={`https://www.tripsandships.com${data.meta.suggestedUrl}`} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaJson)}</script>
       </Helmet>
 

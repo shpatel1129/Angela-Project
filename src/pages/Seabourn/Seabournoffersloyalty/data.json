@@ -16,16 +16,52 @@
   },
   "quickGuideTable": {
     "title": "Quick Guide to Seabourn Offers at a Glance",
-    "headers": ["Opportunity", "What It Can Provide", "Best For"],
+    "headers": [
+      "Opportunity",
+      "What It Can Provide",
+      "Best For"
+    ],
     "rows": [
-      ["Current Seabourn promotions", "Promotional savings or added-value benefits", "New and returning guests"],
-      ["Past-guest offers", "Special opportunities for previous Seabourn guests", "Repeat travelers"],
-      ["Seabourn Club", "Loyalty recognition and benefits", "Frequent Seabourn guests"],
-      ["Onboard credit", "Credit that can be used for eligible onboard expenses", "Travelers with qualifying offers"],
-      ["Group opportunities", "Potential special pricing or benefits", "Families, friends and organizations"],
-      ["Travel advisor offers", "Additional amenities or preferred opportunities", "Travelers booking with an advisor"],
-      ["Early booking", "Better access to popular suites and itineraries", "High-demand voyages"],
-      ["Longer voyages", "Potential value through included experiences", "Extended travelers"]
+      [
+        "Current Seabourn promotions",
+        "Promotional savings or added-value benefits",
+        "New and returning guests"
+      ],
+      [
+        "Past-guest offers",
+        "Special opportunities for previous Seabourn guests",
+        "Repeat travelers"
+      ],
+      [
+        "Seabourn Club",
+        "Loyalty recognition and benefits",
+        "Frequent Seabourn guests"
+      ],
+      [
+        "Onboard credit",
+        "Credit that can be used for eligible onboard expenses",
+        "Travelers with qualifying offers"
+      ],
+      [
+        "Group opportunities",
+        "Potential special pricing or benefits",
+        "Families, friends and organizations"
+      ],
+      [
+        "Travel advisor offers",
+        "Additional amenities or preferred opportunities",
+        "Travelers booking with an advisor"
+      ],
+      [
+        "Early booking",
+        "Better access to popular suites and itineraries",
+        "High-demand voyages"
+      ],
+      [
+        "Longer voyages",
+        "Potential value through included experiences",
+        "Extended travelers"
+      ]
     ],
     "note": "Important: Seabourn promotions are voyage- and date-specific and can change. Always verify the terms of a promotion before booking."
   },
@@ -158,37 +194,55 @@
         "title": "Future Cruise Planning",
         "highlight": "PRIORITY ACCESS",
         "description": "Advance access to newly announced itineraries, signature maiden voyages, and preferred suite reservations before public release.",
-        "tags": ["Priority Bookings", "Maiden Voyages"]
+        "tags": [
+          "Priority Bookings",
+          "Maiden Voyages"
+        ]
       },
       {
         "title": "Special Events",
         "highlight": "EXCLUSIVE GATHERINGS",
         "description": "Invitations to private onboard cocktail receptions hosted by the Captain, exclusive officer dinners, and loyalty milestone events.",
-        "tags": ["Captain's Reception", "Officer Dinners"]
+        "tags": [
+          "Captain's Reception",
+          "Officer Dinners"
+        ]
       },
       {
         "title": "Loyalty Recognition",
         "highlight": "PERSONALIZED SERVICE",
         "description": "Dedicated recognition from ship officers and crew, personalized in-suite welcome amenities, and tier-specific commemorative gifts.",
-        "tags": ["Welcome Amenities", "Tier Recognition"]
+        "tags": [
+          "Welcome Amenities",
+          "Tier Recognition"
+        ]
       },
       {
         "title": "Savings Opportunities",
         "highlight": "MEMBER FARES",
         "description": "Exclusive loyalty savings percentages, promotional past-guest rates, early-booking loyalty credits, and reduced single supplements.",
-        "tags": ["Past-Guest Rates", "Loyalty Credits"]
+        "tags": [
+          "Past-Guest Rates",
+          "Loyalty Credits"
+        ]
       },
       {
         "title": "Onboard Privileges",
         "highlight": "ENHANCED AMENITIES",
         "description": "Complimentary premium Wi-Fi packages, complimentary laundry & pressing services, spa savings, and bespoke dining privileges.",
-        "tags": ["Complimentary Laundry", "Premium Wi-Fi"]
+        "tags": [
+          "Complimentary Laundry",
+          "Premium Wi-Fi"
+        ]
       },
       {
         "title": "Exclusive Communications",
         "highlight": "INSIDER UPDATES",
         "description": "Private member previews, personalized milestone updates, dedicated Club desk access, and priority concierge support.",
-        "tags": ["Club Concierge", "Milestone Previews"]
+        "tags": [
+          "Club Concierge",
+          "Milestone Previews"
+        ]
       }
     ],
     "cards": [
@@ -397,37 +451,49 @@
         "title": "Veranda Suites",
         "description": "Frequently feature promotional upgrades (e.g., V1 to V4 complimentary upgrades) or reduced deposit incentives.",
         "icon": "Wine",
-        "recommendations": ["MOST POPULAR CATEGORY"]
+        "recommendations": [
+          "MOST POPULAR CATEGORY"
+        ]
       },
       {
         "title": "Penthouse Suites",
         "description": "May offer enhanced onboard credits, complimentary private car transfers, or promotional specialty dining perks.",
         "icon": "Gem",
-        "recommendations": ["EXPANDED LIVING SPACE"]
+        "recommendations": [
+          "EXPANDED LIVING SPACE"
+        ]
       },
       {
         "title": "Wintergarden Suites",
         "description": "Exclusive multi-room signature suites with glass solariums; promotions focus on inclusions and private services.",
         "icon": "Landmark",
-        "recommendations": ["TOP-TIER RESIDENTIAL LUXURY"]
+        "recommendations": [
+          "TOP-TIER RESIDENTIAL LUXURY"
+        ]
       },
       {
         "title": "Signature Suites",
         "description": "Rarely discounted heavily on price; promotions often include substantial shipboard credits or air credit allowances.",
         "icon": "Heart",
-        "recommendations": ["EXPANSIVE BOW & STERN VIEWS"]
+        "recommendations": [
+          "EXPANSIVE BOW & STERN VIEWS"
+        ]
       },
       {
         "title": "Expedition Suites",
         "description": "Custom expedition suites with heated gear drying closets; promotions vary by polar seasonality and destination.",
         "icon": "Camera",
-        "recommendations": ["VENTURE & PURSUIT ULTRA-LUXURY"]
+        "recommendations": [
+          "VENTURE & PURSUIT ULTRA-LUXURY"
+        ]
       },
       {
         "title": "Higher-Category Accommodations",
         "description": "Require tailored booking evaluation; early reservation is crucial as these premium suites sell out 12–18 months early.",
         "icon": "Gem",
-        "recommendations": ["OWNER'S & GRAND SUITES"]
+        "recommendations": [
+          "OWNER'S & GRAND SUITES"
+        ]
       }
     ],
     "cards": [
@@ -787,16 +853,52 @@
   },
   "offersVsClubTable": {
     "title": "Seabourn Offers vs. Seabourn Club Benefits Side by Side",
-    "headers": ["Feature", "Seabourn Offers", "Seabourn Club Benefits"],
+    "headers": [
+      "Feature",
+      "Seabourn Offers",
+      "Seabourn Club Benefits"
+    ],
     "rows": [
-      ["Core Purpose", "Promotional booking incentive", "Loyalty recognition & repeat guest reward"],
-      ["Availability", "Changes by promotion & sailing", "Based on guest cruise history & sailed days"],
-      ["Applies to First-Time Guests", "Yes, frequently available", "No past cruise history required for first tier"],
-      ["Applies to Past Guests", "Yes, may qualify for special rates", "Yes, unlocks progressive tiered benefits"],
-      ["Onboard Credit", "Frequently included with offers", "Depends on applicable milestone benefit"],
-      ["Fare Discounts", "Promotional percentage or dollar savings", "Loyalty member savings on selected sailings"],
-      ["Group Opportunities", "Promotional group rates & amenities", "Separate consideration from loyalty status"],
-      ["Best Strategy", "Compare current promotional packages", "Verify status & combine with active offers"]
+      [
+        "Core Purpose",
+        "Promotional booking incentive",
+        "Loyalty recognition & repeat guest reward"
+      ],
+      [
+        "Availability",
+        "Changes by promotion & sailing",
+        "Based on guest cruise history & sailed days"
+      ],
+      [
+        "Applies to First-Time Guests",
+        "Yes, frequently available",
+        "No past cruise history required for first tier"
+      ],
+      [
+        "Applies to Past Guests",
+        "Yes, may qualify for special rates",
+        "Yes, unlocks progressive tiered benefits"
+      ],
+      [
+        "Onboard Credit",
+        "Frequently included with offers",
+        "Depends on applicable milestone benefit"
+      ],
+      [
+        "Fare Discounts",
+        "Promotional percentage or dollar savings",
+        "Loyalty member savings on selected sailings"
+      ],
+      [
+        "Group Opportunities",
+        "Promotional group rates & amenities",
+        "Separate consideration from loyalty status"
+      ],
+      [
+        "Best Strategy",
+        "Compare current promotional packages",
+        "Verify status & combine with active offers"
+      ]
     ],
     "note": "The two concepts should be evaluated together rather than separately to capture maximum value."
   },
@@ -958,5 +1060,11 @@
       "buttonText": "Start Planning Your Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Offers & Seabourn Club Loyalty Benefits: 2026 Guide",
+    "metaTitle": "Seabourn Club Loyalty Tiers, Promotions & Special Offers",
+    "description": "Maximize your savings with Seabourn Club loyalty perks, milestone awards, promotional onboard credits, early booking savings, and advisor incentives.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/offers-loyalty/"
   }
 }

@@ -15,17 +15,38 @@
         "@id": "https://www.tripsandships.com/seabourn-cruises/expeditions/#article",
         "headline": "Seabourn Expedition Cruises: Complete Guide to Ships, Destinations, Activities & Inclusions",
         "description": "A complete guide to Seabourn expedition cruises, covering expedition ships, destinations, activities, equipment, suites, inclusions, wildlife experiences and what travelers should expect.",
-        "author": { "@type": "Person", "name": "Angela Hughes" },
-        "publisher": { "@type": "Organization", "name": "Trips & Ships Luxury Travel" },
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel"
+        },
         "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
         "@id": "https://www.tripsandships.com/seabourn-cruises/expeditions/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
-          { "@type": "ListItem", "position": 3, "name": "Seabourn Expedition Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/expeditions/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Seabourn Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Seabourn Expedition Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/expeditions/"
+          }
         ]
       },
       {
@@ -314,17 +335,57 @@
   "ventureVsPursuit": {
     "title": "Seabourn Venture vs. Seabourn Pursuit",
     "subtitle": "For most travelers, there isn't a major reason to choose one ship simply because of its features. Instead, look first at the itinerary — the more important question is where the ship takes you.",
-    "headers": ["Feature", "Seabourn Venture", "Seabourn Pursuit"],
+    "headers": [
+      "Feature",
+      "Seabourn Venture",
+      "Seabourn Pursuit"
+    ],
     "rows": [
-      ["Purpose-built expedition ship", "Yes (PC6 Polar Class)", "Yes (PC6 Polar Class)"],
-      ["Luxury oceanfront suites", "100% Veranda Suites", "100% Veranda Suites"],
-      ["Private furnished verandas", "Included across all categories", "Included across all categories"],
-      ["Zodiac operations & fleet", "24 Inflatable Zodiacs", "24 Inflatable Zodiacs"],
-      ["Kayaking & water sports", "Double sea kayaks included", "Double sea kayaks included"],
-      ["Expedition team on board", "26-person expert team", "26-person expert team"],
-      ["Polar & remote destinations", "Antarctica, Arctic, Europe", "Antarctica, Kimberley, South Pacific"],
-      ["Luxury dining venues", "Multiple fine dining venues", "Multiple fine dining venues"],
-      ["Swarovski Optik binoculars", "In every suite", "In every suite"]
+      [
+        "Purpose-built expedition ship",
+        "Yes (PC6 Polar Class)",
+        "Yes (PC6 Polar Class)"
+      ],
+      [
+        "Luxury oceanfront suites",
+        "100% Veranda Suites",
+        "100% Veranda Suites"
+      ],
+      [
+        "Private furnished verandas",
+        "Included across all categories",
+        "Included across all categories"
+      ],
+      [
+        "Zodiac operations & fleet",
+        "24 Inflatable Zodiacs",
+        "24 Inflatable Zodiacs"
+      ],
+      [
+        "Kayaking & water sports",
+        "Double sea kayaks included",
+        "Double sea kayaks included"
+      ],
+      [
+        "Expedition team on board",
+        "26-person expert team",
+        "26-person expert team"
+      ],
+      [
+        "Polar & remote destinations",
+        "Antarctica, Arctic, Europe",
+        "Antarctica, Kimberley, South Pacific"
+      ],
+      [
+        "Luxury dining venues",
+        "Multiple fine dining venues",
+        "Multiple fine dining venues"
+      ],
+      [
+        "Swarovski Optik binoculars",
+        "In every suite",
+        "In every suite"
+      ]
     ]
   },
   "antarcticDay": {
@@ -448,44 +509,84 @@
       {
         "title": "Antarctica Wildlife",
         "description": "Home to vast colonies of Adélie, Gentoo, and Chinstrap penguins, humpback and minke whales, orcas, Weddell and leopard seals, and soaring albatrosses.",
-        "tags": ["Penguins", "Whales", "Seals", "Albatross"]
+        "tags": [
+          "Penguins",
+          "Whales",
+          "Seals",
+          "Albatross"
+        ]
       },
       {
         "title": "Arctic & Svalbard Wildlife",
         "description": "Encounter polar bears hunting on sea ice, walruses hauled out on beaches, Arctic foxes, beluga whales, and nesting seabird cliffs.",
-        "tags": ["Polar Bears", "Walrus", "Arctic Fox", "Beluga"]
+        "tags": [
+          "Polar Bears",
+          "Walrus",
+          "Arctic Fox",
+          "Beluga"
+        ]
       },
       {
         "title": "Alaska Coastal Wildlife",
         "description": "Spot coastal brown bears foraging along shorelines, bubble-net feeding humpback whales, orcas, bald eagles, and playful sea otters.",
-        "tags": ["Brown Bears", "Humpbacks", "Orcas", "Bald Eagles"]
+        "tags": [
+          "Brown Bears",
+          "Humpbacks",
+          "Orcas",
+          "Bald Eagles"
+        ]
       },
       {
         "title": "The Kimberley Wildlife",
         "description": "Witness prehistoric saltwater crocodiles, sea turtles, rock wallabies, flying foxes, migrating humpback whales, and tropical bird species.",
-        "tags": ["Saltwater Crocs", "Sea Turtles", "Rock Wallabies", "Birds"]
+        "tags": [
+          "Saltwater Crocs",
+          "Sea Turtles",
+          "Rock Wallabies",
+          "Birds"
+        ]
       }
     ],
     "features": [
       {
         "title": "Antarctica Wildlife",
         "description": "Home to vast colonies of Adélie, Gentoo, and Chinstrap penguins, humpback and minke whales, orcas, Weddell and leopard seals, and soaring albatrosses.",
-        "tags": ["Penguins", "Whales", "Seals", "Albatross"]
+        "tags": [
+          "Penguins",
+          "Whales",
+          "Seals",
+          "Albatross"
+        ]
       },
       {
         "title": "Arctic & Svalbard Wildlife",
         "description": "Encounter polar bears hunting on sea ice, walruses hauled out on beaches, Arctic foxes, beluga whales, and nesting seabird cliffs.",
-        "tags": ["Polar Bears", "Walrus", "Arctic Fox", "Beluga"]
+        "tags": [
+          "Polar Bears",
+          "Walrus",
+          "Arctic Fox",
+          "Beluga"
+        ]
       },
       {
         "title": "Alaska Coastal Wildlife",
         "description": "Spot coastal brown bears foraging along shorelines, bubble-net feeding humpback whales, orcas, bald eagles, and playful sea otters.",
-        "tags": ["Brown Bears", "Humpbacks", "Orcas", "Bald Eagles"]
+        "tags": [
+          "Brown Bears",
+          "Humpbacks",
+          "Orcas",
+          "Bald Eagles"
+        ]
       },
       {
         "title": "The Kimberley Wildlife",
         "description": "Witness prehistoric saltwater crocodiles, sea turtles, rock wallabies, flying foxes, migrating humpback whales, and tropical bird species.",
-        "tags": ["Saltwater Crocs", "Sea Turtles", "Rock Wallabies", "Birds"]
+        "tags": [
+          "Saltwater Crocs",
+          "Sea Turtles",
+          "Rock Wallabies",
+          "Birds"
+        ]
       }
     ]
   },
@@ -722,17 +823,57 @@
   "expVsTraditional": {
     "title": "Seabourn Expedition vs Traditional Seabourn Cruise",
     "subtitle": "If your priority is exploration and wildlife, choose expedition. If your priority is relaxation, classic ports and resort luxury, a traditional Seabourn cruise is ideal.",
-    "headers": ["Feature", "Seabourn Expedition", "Traditional Seabourn Cruise"],
+    "headers": [
+      "Feature",
+      "Seabourn Expedition",
+      "Traditional Seabourn Cruise"
+    ],
     "rows": [
-      ["Remote wilderness destinations", "Primary focus (Antarctica, Arctic, Kimberley)", "Secondary (Port-intensive classics)"],
-      ["Wildlife observation opportunities", "World-class close-up encounters", "Incidental / Port excursions"],
-      ["Zodiac operations & shore landings", "Included daily (24 Zodiacs on board)", "Not offered (Tender boats for ports)"],
-      ["Sea kayaking in remote bays", "Included guided sea kayaking", "Not offered on ship"],
-      ["26-person scientific expedition team", "Included on every sailing", "Guest speakers / Port lecturers only"],
-      ["Luxury suites with private verandas", "100% Oceanfront Veranda Suites", "All-suite accommodations"],
-      ["Open-seating fine dining & beverages", "Included across all venues", "Included across all venues"],
-      ["Physical activity & landing intensity", "Higher (Zodiacs, uneven terrain, hikes)", "Lower (Paved city ports, motorcoaches)"],
-      ["Itinerary flexibility & weather pivots", "High (Follows wildlife, ice & weather)", "Fixed scheduled port timetables"]
+      [
+        "Remote wilderness destinations",
+        "Primary focus (Antarctica, Arctic, Kimberley)",
+        "Secondary (Port-intensive classics)"
+      ],
+      [
+        "Wildlife observation opportunities",
+        "World-class close-up encounters",
+        "Incidental / Port excursions"
+      ],
+      [
+        "Zodiac operations & shore landings",
+        "Included daily (24 Zodiacs on board)",
+        "Not offered (Tender boats for ports)"
+      ],
+      [
+        "Sea kayaking in remote bays",
+        "Included guided sea kayaking",
+        "Not offered on ship"
+      ],
+      [
+        "26-person scientific expedition team",
+        "Included on every sailing",
+        "Guest speakers / Port lecturers only"
+      ],
+      [
+        "Luxury suites with private verandas",
+        "100% Oceanfront Veranda Suites",
+        "All-suite accommodations"
+      ],
+      [
+        "Open-seating fine dining & beverages",
+        "Included across all venues",
+        "Included across all venues"
+      ],
+      [
+        "Physical activity & landing intensity",
+        "Higher (Zodiacs, uneven terrain, hikes)",
+        "Lower (Paved city ports, motorcoaches)"
+      ],
+      [
+        "Itinerary flexibility & weather pivots",
+        "High (Follows wildlife, ice & weather)",
+        "Fixed scheduled port timetables"
+      ]
     ]
   },
   "vsOtherLines": {
@@ -1092,5 +1233,11 @@
         ]
       }
     ]
+  },
+  "meta": {
+    "title": "Seabourn Expedition Cruises: Polar & Remote Adventure Guide",
+    "metaTitle": "Seabourn Ultra-Luxury Expedition Cruises: Ships & Destinations",
+    "description": "Explore ultra-luxury expedition cruising with Seabourn. Discover custom submarines, Zodiac excursions, expert expedition teams, Antarctica, and the Arctic.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/expeditions/"
   }
 }

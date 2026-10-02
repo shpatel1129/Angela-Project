@@ -171,35 +171,55 @@
         "subtitle": "CLASSIC OCEAN LUXURY",
         "description": "A smaller ocean-going luxury ship with an intimate atmosphere and classic Seabourn experience.",
         "icon": "Ship",
-        "tags": ["458 Guests", "Intimate Ocean", "Marina Platform"]
+        "tags": [
+          "458 Guests",
+          "Intimate Ocean",
+          "Marina Platform"
+        ]
       },
       {
         "title": "Seabourn Encore",
         "subtitle": "MODERN DESIGN & EXPANDED DINING",
         "description": "A larger ocean ship offering spacious suites, dining and an extensive range of onboard amenities.",
         "icon": "Ship",
-        "tags": ["600 Guests", "The Grill by TK", "The Retreat"]
+        "tags": [
+          "600 Guests",
+          "The Grill by TK",
+          "The Retreat"
+        ]
       },
       {
         "title": "Seabourn Ovation",
         "subtitle": "MODERN DESIGN & EXPANDED DINING",
         "description": "A sister ship to Encore with a similar luxury experience and access to a broad range of destinations.",
         "icon": "Ship",
-        "tags": ["600 Guests", "All-Veranda Suites", "Boutique Harbors"]
+        "tags": [
+          "600 Guests",
+          "All-Veranda Suites",
+          "Boutique Harbors"
+        ]
       },
       {
         "title": "Seabourn Venture",
         "subtitle": "PURPOSE-BUILT POLAR EXPEDITION",
         "description": "An expedition ship designed for destinations where exploration is the primary focus.",
         "icon": "Snowflake",
-        "tags": ["264 Guests", "PC6 Polar Class", "Submarines & Zodiacs"]
+        "tags": [
+          "264 Guests",
+          "PC6 Polar Class",
+          "Submarines & Zodiacs"
+        ]
       },
       {
         "title": "Seabourn Pursuit",
         "subtitle": "PURPOSE-BUILT POLAR EXPEDITION",
         "description": "A purpose-built expedition ship combining Seabourn's luxury service with expedition capabilities.",
         "icon": "Compass",
-        "tags": ["264 Guests", "PC6 Polar Class", "Kimberley & Antarctica"]
+        "tags": [
+          "264 Guests",
+          "PC6 Polar Class",
+          "Kimberley & Antarctica"
+        ]
       }
     ]
   },
@@ -635,5 +655,11 @@
       "Not sure which Seabourn cruise is right for you? Tell us about your travel goals, and we'll help you explore the possibilities."
     ],
     "recommendation": "Submit your quote request today to receive personalized recommendations, suite guidance, and promotion monitoring from our dedicated luxury cruise specialists."
+  },
+  "meta": {
+    "title": "Request a Seabourn Cruise Quote | Luxury Vacation Planning",
+    "metaTitle": "Get a Custom Seabourn Cruise Quote | Trips & Ships Luxury Travel",
+    "description": "Request a personalized Seabourn cruise quote from Trips & Ships Luxury Travel. Get expert advice on ships, suites, itineraries, dates, and exclusive offers.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/request-a-quote/"
   }
 }

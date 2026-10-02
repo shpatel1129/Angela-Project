@@ -36,19 +36,58 @@
       "Details"
     ],
     "rows": [
-      ["Ship type", "Luxury expedition ship"],
-      ["Guests", "Approximately 264"],
-      ["Entered service", "2022"],
-      ["Polar Class", "PC6"],
-      ["Length", "Approximately 557 feet"],
-      ["Width", "Approximately 78 feet"],
-      ["Zodiacs", "24"],
-      ["Expedition team", "Up to 19 members"],
-      ["Kayaks", "Available for expedition activities"],
-      ["Submarine", "Available for selected expedition experiences"],
-      ["Primary purpose", "Luxury expedition cruising"],
-      ["Best for", "Antarctica, Arctic and remote destinations"],
-      ["Atmosphere", "Intimate, sophisticated and adventurous"]
+      [
+        "Ship type",
+        "Luxury expedition ship"
+      ],
+      [
+        "Guests",
+        "Approximately 264"
+      ],
+      [
+        "Entered service",
+        "2022"
+      ],
+      [
+        "Polar Class",
+        "PC6"
+      ],
+      [
+        "Length",
+        "Approximately 557 feet"
+      ],
+      [
+        "Width",
+        "Approximately 78 feet"
+      ],
+      [
+        "Zodiacs",
+        "24"
+      ],
+      [
+        "Expedition team",
+        "Up to 19 members"
+      ],
+      [
+        "Kayaks",
+        "Available for expedition activities"
+      ],
+      [
+        "Submarine",
+        "Available for selected expedition experiences"
+      ],
+      [
+        "Primary purpose",
+        "Luxury expedition cruising"
+      ],
+      [
+        "Best for",
+        "Antarctica, Arctic and remote destinations"
+      ],
+      [
+        "Atmosphere",
+        "Intimate, sophisticated and adventurous"
+      ]
     ]
   },
   "capabilitiesCards": [
@@ -56,31 +95,51 @@
       "title": "Zodiacs (Fleet of 24)",
       "description": "The ship carries 24 Zodiacs for shore landings, wildlife viewing, scenic cruising, photography, and coastal exploration.",
       "icon": "Anchor",
-      "bullets": ["Shore landings", "Wildlife viewing", "Coastal exploration"]
+      "bullets": [
+        "Shore landings",
+        "Wildlife viewing",
+        "Coastal exploration"
+      ]
     },
     {
       "title": "Kayaks & Watersports",
       "description": "Kayaking provides a quieter, more personal way to paddle near ice, coastlines, wildlife habitats, remote islands, and sheltered bays.",
       "icon": "Waves",
-      "bullets": ["Paddle near ice", "Sheltered bays", "Immersive silence"]
+      "bullets": [
+        "Paddle near ice",
+        "Sheltered bays",
+        "Immersive silence"
+      ]
     },
     {
       "title": "Submarine Exploration",
       "description": "Seabourn Venture carries two custom submarines for selected underwater exploration of marine life, sea beds, and submerged landscapes.",
       "icon": "Compass",
-      "bullets": ["Marine life viewing", "Geological features", "Deep sea exploration"]
+      "bullets": [
+        "Marine life viewing",
+        "Geological features",
+        "Deep sea exploration"
+      ]
     },
     {
       "title": "Dedicated Expedition Team",
       "description": "Up to 19 specialists in marine biology, wildlife, history, photography, and geology provide lectures, guidance, and interpretation.",
       "icon": "Users",
-      "bullets": ["Expert lecturers", "Guided Zodiac tours", "Daily enrichment"]
+      "bullets": [
+        "Expert lecturers",
+        "Guided Zodiac tours",
+        "Daily enrichment"
+      ]
     },
     {
       "title": "PC6 Polar Class Rating",
       "description": "Engineered with a reinforced hull and advanced navigation to operate safely in summer and autumn polar ice environments.",
       "icon": "Snowflake",
-      "bullets": ["Polar ice capability", "Advanced dynamic positioning", "Stabilized comfort"]
+      "bullets": [
+        "Polar ice capability",
+        "Advanced dynamic positioning",
+        "Stabilized comfort"
+      ]
     }
   ],
   "zodiacsAndSubmarine": {
@@ -163,31 +222,51 @@
       "title": "The Restaurant",
       "description": "The main fine-dining venue offering multi-course gourmet menus, table service, fine wines, destination-inspired dishes, and exquisite desserts.",
       "icon": "Utensils",
-      "bullets": ["Multi-course fine dining", "Sommelier wine pairings", "Refined evening atmosphere"]
+      "bullets": [
+        "Multi-course fine dining",
+        "Sommelier wine pairings",
+        "Refined evening atmosphere"
+      ]
     },
     {
       "title": "The Colonnade",
       "description": "A relaxed alternative offering indoor and outdoor seating for breakfast, lunch, and themed regional dinners after active expedition mornings.",
       "icon": "Sun",
-      "bullets": ["Indoor/outdoor dining", "Regional culinary themes", "Casual buffet & à la carte"]
+      "bullets": [
+        "Indoor/outdoor dining",
+        "Regional culinary themes",
+        "Casual buffet & à la carte"
+      ]
     },
     {
       "title": "Earth & Ocean",
       "description": "A sophisticated poolside evening venue serving globally inspired cuisine in a relaxed, contemporary outdoor setting.",
       "icon": "Waves",
-      "bullets": ["Global street food flavors", "Casual evening ambiance", "Fresh seafood & grill"]
+      "bullets": [
+        "Global street food flavors",
+        "Casual evening ambiance",
+        "Fresh seafood & grill"
+      ]
     },
     {
       "title": "In-Suite Dining",
       "description": "Course-by-course dining served in your suite or private veranda—ideal after an exhilarating day of Zodiac landings and polar exploration.",
       "icon": "Home",
-      "bullets": ["24-hour room service", "Course-by-course dinner", "Veranda dining with views"]
+      "bullets": [
+        "24-hour room service",
+        "Course-by-course dinner",
+        "Veranda dining with views"
+      ]
     },
     {
       "title": "All-Inclusive Dining & Beverages",
       "description": "All dining venues, premium spirits, fine wines, Champagne, and specialty coffees are fully included throughout your voyage.",
       "icon": "ShieldCheck",
-      "bullets": ["Zero surcharge specialty dining", "Complimentary fine wines & spirits", "Caviar service included"]
+      "bullets": [
+        "Zero surcharge specialty dining",
+        "Complimentary fine wines & spirits",
+        "Caviar service included"
+      ]
     }
   ],
   "destinationsSection": {
@@ -279,16 +358,56 @@
       "Traditional Seabourn Ocean Ship"
     ],
     "rows": [
-      ["Primary purpose", "Luxury expedition cruising", "Luxury ocean cruising"],
-      ["Zodiacs fleet", "24 Zodiacs onboard", "No expedition fleet"],
-      ["Kayaks program", "Yes, guided polar kayaking", "Not a core feature"],
-      ["Submarines", "Two custom 6-person subs", "No"],
-      ["Expedition team", "19 dedicated specialists", "Standard onboard enrichment"],
-      ["Polar destinations", "Antarctica & Arctic focus", "Limited seasonal voyages"],
-      ["Remote landings", "Yes, wet/dry remote landings", "Standard cruise port docks"],
-      ["Luxury suites", "All-suite with verandas", "All-suite with verandas"],
-      ["Fine dining", "Multiple all-inclusive venues", "Multiple all-inclusive venues"],
-      ["Small-ship atmosphere", "Intimate (~264 guests)", "Intimate (458–600 guests)"]
+      [
+        "Primary purpose",
+        "Luxury expedition cruising",
+        "Luxury ocean cruising"
+      ],
+      [
+        "Zodiacs fleet",
+        "24 Zodiacs onboard",
+        "No expedition fleet"
+      ],
+      [
+        "Kayaks program",
+        "Yes, guided polar kayaking",
+        "Not a core feature"
+      ],
+      [
+        "Submarines",
+        "Two custom 6-person subs",
+        "No"
+      ],
+      [
+        "Expedition team",
+        "19 dedicated specialists",
+        "Standard onboard enrichment"
+      ],
+      [
+        "Polar destinations",
+        "Antarctica & Arctic focus",
+        "Limited seasonal voyages"
+      ],
+      [
+        "Remote landings",
+        "Yes, wet/dry remote landings",
+        "Standard cruise port docks"
+      ],
+      [
+        "Luxury suites",
+        "All-suite with verandas",
+        "All-suite with verandas"
+      ],
+      [
+        "Fine dining",
+        "Multiple all-inclusive venues",
+        "Multiple all-inclusive venues"
+      ],
+      [
+        "Small-ship atmosphere",
+        "Intimate (~264 guests)",
+        "Intimate (458–600 guests)"
+      ]
     ]
   },
   "ventureVsOthersBrand": {
@@ -503,5 +622,11 @@
       "buttonText": "Start Planning Your Voyage",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Venture Ship Guide: Submarines, Zodiacs & Polar Suites",
+    "metaTitle": "Seabourn Venture Luxury Expedition Ship Review & Deck Plans",
+    "description": "Explore Seabourn Venture: Purpose-built ultra-luxury expedition ship featuring PC6 ice classification, 24 Zodiacs, dual submarines, and expedition suites.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-venture/"
   }
 }

@@ -1,8 +1,8 @@
 {
   "seo": {
     "url": "/seabourn-vs-silversea-vs-regent",
-    "title": "Seabourn vs Silversea vs Regent: Which Is Best?",
-    "metaDescription": "Compare Seabourn vs Silversea vs Regent Seven Seas Cruises by suites, dining, service, inclusions, excursions, itineraries and luxury cruise value.",
+    "title": "Seabourn vs Silversea vs Regent: The Ultimate Luxury Shootout",
+    "metaDescription": "The definitive 3-way comparison of Seabourn, Silversea, and Regent Seven Seas. Detailed analysis of inclusions, suites, gourmet dining, excursions, and value.",
     "primaryKeyword": "Seabourn vs Silversea vs Regent",
     "secondaryKeywords": [
       "Seabourn vs Silversea",
@@ -28,7 +28,9 @@
       "luxury cruise all inclusive",
       "luxury cruise with butler service",
       "luxury cruises with included excursions"
-    ]
+    ],
+    "metaTitle": "Seabourn vs Silversea vs Regent Seven Seas: 3-Way Comparison",
+    "canonical": "https://www.tripsandships.com/seabourn-vs-silversea-vs-regent"
   },
   "hero": {
     "badge": "Comprehensive Luxury Comparison",
@@ -1197,5 +1199,11 @@
         ]
       }
     ]
+  },
+  "meta": {
+    "title": "Seabourn vs Silversea vs Regent: The Ultimate Luxury Shootout",
+    "metaTitle": "Seabourn vs Silversea vs Regent Seven Seas: 3-Way Comparison",
+    "description": "The definitive 3-way comparison of Seabourn, Silversea, and Regent Seven Seas. Detailed analysis of inclusions, suites, gourmet dining, excursions, and value.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-vs-silversea-vs-regent"
   }
 }

@@ -56,13 +56,10 @@ const SeabournDiningGuide = () => {
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
-        <title>Seabourn Dining Guide: Restaurants, Menus & Dining</title>
-        <meta name="title" content="Seabourn Dining Guide: Restaurants, Food & Room Service" />
-        <meta
-          name="description"
-          content="Explore Seabourn dining, including restaurants, complimentary meals, open seating, room service, specialty dining, drinks, dietary needs and what to expect onboard."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/dining/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(data.schemaData)}</script>
       </Helmet>
 

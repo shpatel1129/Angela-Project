@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Seabourn Cruises: Complete Guide to Ships, Suites & Destinations",
-    "metaTitle": "Seabourn Cruises Complete Guide | Ships, Suites & Destinations",
-    "metaDescription": "Explore our complete Seabourn Cruises guide covering ships, suites, destinations, dining, inclusions, excursions, expedition cruises, service, and what makes Seabourn different.",
+    "title": "Seabourn Cruises Guide: Ultra-Luxury Ocean & Expedition Ships",
+    "metaTitle": "Seabourn Cruises: Complete Fleet, Suites & Destinations Guide",
+    "metaDescription": "The ultimate guide to Seabourn Cruises. Explore all-suite luxury ships, purpose-built expedition vessels, gourmet dining, global destinations, and booking tips.",
     "canonical": "https://www.tripsandships.com/seabourn-cruises/"
   },
   "schema": {
@@ -79,14 +79,46 @@
         "itinerary": {
           "@type": "ItemList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Mediterranean" },
-            { "@type": "ListItem", "position": 2, "name": "Alaska" },
-            { "@type": "ListItem", "position": 3, "name": "Japan" },
-            { "@type": "ListItem", "position": 4, "name": "Northern Europe" },
-            { "@type": "ListItem", "position": 5, "name": "Antarctica" },
-            { "@type": "ListItem", "position": 6, "name": "Arctic and Northwest Passage" },
-            { "@type": "ListItem", "position": 7, "name": "Kimberley" },
-            { "@type": "ListItem", "position": 8, "name": "South Pacific" }
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Mediterranean"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Alaska"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japan"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Northern Europe"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Antarctica"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Arctic and Northwest Passage"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Kimberley"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "South Pacific"
+            }
           ]
         }
       },
@@ -95,14 +127,46 @@
         "@id": "https://www.tripsandships.com/seabourn-cruises/#destinations",
         "name": "Seabourn Cruises Destinations",
         "itemListElement": [
-          { "@type": "Place", "position": 1, "name": "Mediterranean" },
-          { "@type": "Place", "position": 2, "name": "Alaska" },
-          { "@type": "Place", "position": 3, "name": "Japan" },
-          { "@type": "Place", "position": 4, "name": "Northern Europe" },
-          { "@type": "Place", "position": 5, "name": "Antarctica" },
-          { "@type": "Place", "position": 6, "name": "Arctic and Northwest Passage" },
-          { "@type": "Place", "position": 7, "name": "Kimberley" },
-          { "@type": "Place", "position": 8, "name": "South Pacific" }
+          {
+            "@type": "Place",
+            "position": 1,
+            "name": "Mediterranean"
+          },
+          {
+            "@type": "Place",
+            "position": 2,
+            "name": "Alaska"
+          },
+          {
+            "@type": "Place",
+            "position": 3,
+            "name": "Japan"
+          },
+          {
+            "@type": "Place",
+            "position": 4,
+            "name": "Northern Europe"
+          },
+          {
+            "@type": "Place",
+            "position": 5,
+            "name": "Antarctica"
+          },
+          {
+            "@type": "Place",
+            "position": 6,
+            "name": "Arctic and Northwest Passage"
+          },
+          {
+            "@type": "Place",
+            "position": 7,
+            "name": "Kimberley"
+          },
+          {
+            "@type": "Place",
+            "position": 8,
+            "name": "South Pacific"
+          }
         ]
       },
       {
@@ -120,7 +184,10 @@
       {
         "@type": "Review",
         "@id": "https://www.tripsandships.com/seabourn-cruises/#review",
-        "itemReviewed": { "@type": "Product", "name": "Seabourn Cruises" },
+        "itemReviewed": {
+          "@type": "Product",
+          "name": "Seabourn Cruises"
+        },
         "author": {
           "@type": "Person",
           "name": "Angela Hughes",
@@ -133,22 +200,86 @@
         "@id": "https://www.tripsandships.com/seabourn-cruises/#itemlist",
         "name": "What This Seabourn Cruises Guide Covers",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "What Is Seabourn Cruises?" },
-          { "@type": "ListItem", "position": 2, "name": "Why Luxury Travelers Choose Seabourn" },
-          { "@type": "ListItem", "position": 3, "name": "Seabourn Ocean Cruises vs Seabourn Expedition Cruises" },
-          { "@type": "ListItem", "position": 4, "name": "Seabourn Cruise Ships" },
-          { "@type": "ListItem", "position": 5, "name": "Seabourn Suites" },
-          { "@type": "ListItem", "position": 6, "name": "Seabourn Dining" },
-          { "@type": "ListItem", "position": 7, "name": "What Is Included on Seabourn?" },
-          { "@type": "ListItem", "position": 8, "name": "Seabourn Destinations" },
-          { "@type": "ListItem", "position": 9, "name": "Seabourn Shore Excursions" },
-          { "@type": "ListItem", "position": 10, "name": "Ventures by Seabourn" },
-          { "@type": "ListItem", "position": 11, "name": "Seabourn Conversations" },
-          { "@type": "ListItem", "position": 12, "name": "Seabourn Wellness" },
-          { "@type": "ListItem", "position": 13, "name": "Who Is Seabourn Best For?" },
-          { "@type": "ListItem", "position": 14, "name": "Is Seabourn Worth It?" },
-          { "@type": "ListItem", "position": 15, "name": "Seabourn Pros and Cons" },
-          { "@type": "ListItem", "position": 16, "name": "Seabourn vs Other Luxury Cruise Lines" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "What Is Seabourn Cruises?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Why Luxury Travelers Choose Seabourn"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Seabourn Ocean Cruises vs Seabourn Expedition Cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Seabourn Cruise Ships"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Seabourn Suites"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Seabourn Dining"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "What Is Included on Seabourn?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Seabourn Destinations"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Seabourn Shore Excursions"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Ventures by Seabourn"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Seabourn Conversations"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Seabourn Wellness"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "Who Is Seabourn Best For?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Is Seabourn Worth It?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "name": "Seabourn Pros and Cons"
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "name": "Seabourn vs Other Luxury Cruise Lines"
+          }
         ]
       },
       {
@@ -423,11 +554,18 @@
     "categories": [
       {
         "title": "Ocean-Focused Ships",
-        "ships": ["Seabourn Encore", "Seabourn Ovation", "Seabourn Quest"]
+        "ships": [
+          "Seabourn Encore",
+          "Seabourn Ovation",
+          "Seabourn Quest"
+        ]
       },
       {
         "title": "Expedition Ships",
-        "ships": ["Seabourn Venture", "Seabourn Pursuit"]
+        "ships": [
+          "Seabourn Venture",
+          "Seabourn Pursuit"
+        ]
       }
     ],
     "fleet": [
@@ -568,27 +706,47 @@
     "categories": [
       {
         "title": "Accommodation",
-        "items": ["Oceanfront suite", "Most suites with private veranda"]
+        "items": [
+          "Oceanfront suite",
+          "Most suites with private veranda"
+        ]
       },
       {
         "title": "Dining",
-        "items": ["Complimentary dining venues", "In-suite dining"]
+        "items": [
+          "Complimentary dining venues",
+          "In-suite dining"
+        ]
       },
       {
         "title": "Beverages",
-        "items": ["Premium spirits", "Fine wines", "Welcome Champagne", "In-suite bar"]
+        "items": [
+          "Premium spirits",
+          "Fine wines",
+          "Welcome Champagne",
+          "In-suite bar"
+        ]
       },
       {
         "title": "Service",
-        "items": ["Personalized service", "No required tipping"]
+        "items": [
+          "Personalized service",
+          "No required tipping"
+        ]
       },
       {
         "title": "Connectivity",
-        "items": ["Complimentary Wi-Fi packages with unlimited minutes powered by Starlink"]
+        "items": [
+          "Complimentary Wi-Fi packages with unlimited minutes powered by Starlink"
+        ]
       },
       {
         "title": "Experiences",
-        "items": ["Included entertainment", "Seabourn Conversations", "Selected signature events"]
+        "items": [
+          "Included entertainment",
+          "Seabourn Conversations",
+          "Selected signature events"
+        ]
       }
     ],
     "importantDistinction": "Not every possible experience is automatically included. Optional programs such as Ventures by Seabourn shore excursions can carry additional charges. For expedition voyages, however, Seabourn includes a broad range of expedition experiences such as Zodiac cruises, hikes, nature walks and snorkeling, depending on destination and conditions."
@@ -789,7 +947,13 @@
     "eyebrow": "Onboard Feel",
     "title": "What Is Seabourn's Atmosphere Like?",
     "intro": "This is one of the most difficult things to understand from a brochure — and one of the most important. The line describes its atmosphere as relaxed and sociable, with guests able to feel at home onboard.",
-    "keywords": ["Elegant", "Quiet", "Social", "Intimate", "Unhurried"],
+    "keywords": [
+      "Elegant",
+      "Quiet",
+      "Social",
+      "Intimate",
+      "Unhurried"
+    ],
     "unlikelyTitle": "You Are Unlikely To Choose Seabourn Because You Want",
     "unlikelyItems": [
       "Large crowds",
@@ -1087,5 +1251,11 @@
     "recommendation": "Choose Seabourn if you want intimate luxury, exceptional service, sophisticated suites, outstanding dining and access to remarkable destinations without the crowds of a large cruise ship.",
     "ctaText": "Start Planning Your Seabourn Cruise",
     "ctaLink": "/contact"
+  },
+  "meta": {
+    "title": "Seabourn Cruises Guide: Ultra-Luxury Ocean & Expedition Ships",
+    "metaTitle": "Seabourn Cruises: Complete Fleet, Suites & Destinations Guide",
+    "description": "The ultimate guide to Seabourn Cruises. Explore all-suite luxury ships, purpose-built expedition vessels, gourmet dining, global destinations, and booking tips.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/"
   }
 }

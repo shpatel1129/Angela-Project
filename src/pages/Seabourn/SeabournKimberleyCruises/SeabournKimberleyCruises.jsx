@@ -220,13 +220,10 @@ const SeabournKimberleyCruisesGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Seabourn Kimberley Cruises: Itineraries, Wildlife & Zodiacs</title>
-        <meta name="title" content="Seabourn Kimberley Cruises: Itineraries, Wildlife & Zodiacs" />
-        <meta
-          name="description"
-          content="Explore Seabourn Kimberley cruises with Zodiac excursions, waterfalls, Indigenous culture, wildlife, remote landscapes and the best time to sail Australia's Kimberley coast."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/kimberley/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournKimberleySchema)}</script>
       </Helmet>
 

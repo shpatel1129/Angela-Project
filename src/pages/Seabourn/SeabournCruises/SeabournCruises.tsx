@@ -340,8 +340,8 @@ const SeabournCruises = () => {
     }))
   };
 
-  // 15. Seabourn Curated Guides Hub mapping all Seabourn related pages/routes from App.jsx
-  const seabournCuratedGuides = [
+  // 15. Seabourn Curated Guides Hub 1: Ships, Suites & Destinations
+  const seabournFleetAndDestinationsGuides = [
     {
       title: "Seabourn Fleet & Ship Profiles",
       category: "Fleet & Vessels",
@@ -396,7 +396,11 @@ const SeabournCruises = () => {
         { label: "Seabourn World Cruises", url: "/seabourn-cruises/world-cruises" }
       ],
       mainUrl: "/seabourn-cruises/expeditions"
-    },
+    }
+  ];
+
+  // 16. Seabourn Curated Guides Hub 2: Comparisons, Traveler Profiles & Planning
+  const seabournPlanningAndComparisonsGuides = [
     {
       title: "Luxury Cruise Comparisons",
       category: "Comparisons",
@@ -455,10 +459,10 @@ const SeabournCruises = () => {
   return (
     <div className="bg-white min-h-screen font-sans text-slate-800">
       <Helmet>
-        <title>{pageData.seo.title}</title>
-        <meta name="title" content={pageData.seo.metaTitle} />
-        <meta name="description" content={pageData.seo.metaDescription} />
-        <link rel="canonical" href={pageData.seo.canonical} />
+        <title>{pageData.meta.title}</title>
+        <meta name="title" content={pageData.meta.metaTitle} />
+        <meta name="description" content={pageData.meta.description} />
+        <link rel="canonical" href={pageData.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(pageData.schema)}</script>
       </Helmet>
 
@@ -507,6 +511,16 @@ const SeabournCruises = () => {
         vikingImageAlt="Seabourn purpose-built ultra-luxury expedition ship in polar ice"
         vikingImagePos="object-[center_35%]"
       />
+
+      {/* ─── CURATED FLEET, SUITES & DESTINATIONS GUIDES (InteractivePillarHubGrid Component) ─── */}
+      <div className="[&_.grid]:!flex [&_.grid]:flex-wrap [&_.grid]:justify-center [&_.grid>div]:w-full md:[&_.grid>div]:w-[calc(50%-1rem)] lg:[&_.grid>div]:w-[calc(33.333%-1.333rem)]">
+        <InteractivePillarHubGrid
+          title="Explore Seabourn Ships, Suites & Destinations"
+          subtitle="Hover over any card below to slide open the guide drawer, access dedicated ship reviews, suite layouts, and worldwide itineraries."
+          items={seabournFleetAndDestinationsGuides}
+          variant="destination"
+        />
+      </div>
 
       {/* ─── 5. SEABOURN CRUISE SHIPS (HighlightsSplit Component) ─── */}
       <HighlightsSplit
@@ -661,7 +675,7 @@ const SeabournCruises = () => {
         <InteractivePillarHubGrid
           title="Explore Our Curated Seabourn Guides & Planning Resources"
           subtitle="Hover over any card below to slide open the guide drawer, access dedicated ship reviews, compare luxury lines, and plan your voyage."
-          items={seabournCuratedGuides}
+          items={seabournPlanningAndComparisonsGuides}
           variant="destination"
         />
       </div>

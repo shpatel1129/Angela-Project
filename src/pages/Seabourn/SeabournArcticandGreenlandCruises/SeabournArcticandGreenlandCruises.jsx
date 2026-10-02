@@ -231,13 +231,10 @@ const SeabournArcticGreenlandGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Seabourn Arctic & Greenland Cruises: Svalbard & Wildlife</title>
-        <meta name="title" content="Seabourn Arctic & Greenland Cruises: Routes, Wildlife & Svalbard" />
-        <meta
-          name="description"
-          content="Explore Seabourn Arctic and Greenland cruises featuring Svalbard, Greenland, Iceland, wildlife, glaciers, Zodiac excursions, expedition activities and Arctic culture."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/arctic-greenland/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournArcticGreenlandSchema)}</script>
       </Helmet>
 

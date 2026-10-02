@@ -15,18 +15,51 @@
     "title": "Seabourn Kimberley Cruises at a Glance",
     "subtitle": "THE OVERVIEW",
     "caption": "Note: Exact itineraries, Zodiac operations, wildlife sightings and onboard programming can change by sailing and conditions.",
-    "headers": ["Feature", "Seabourn Kimberley Cruises"],
+    "headers": [
+      "Feature",
+      "Seabourn Kimberley Cruises"
+    ],
     "rows": [
-      ["Destination", "Kimberley, Western Australia"],
-      ["Cruise style", "Luxury expedition"],
-      ["Main attraction", "Remote landscapes and wildlife"],
-      ["Shore access", "Zodiac excursions"],
-      ["Wildlife", "Crocodiles, birds, marine life and other native species"],
-      ["Scenery", "Cliffs, waterfalls, beaches, rivers and tidal landscapes"],
-      ["Cultural experiences", "Indigenous heritage and local cultural interpretation"],
-      ["Activities", "Zodiac rides, hikes, wildlife viewing and exploration"],
-      ["Sailing season", "Primarily during the Kimberley's dry-season months"],
-      ["Best for", "Adventure travelers, couples, photographers and luxury expedition cruisers"]
+      [
+        "Destination",
+        "Kimberley, Western Australia"
+      ],
+      [
+        "Cruise style",
+        "Luxury expedition"
+      ],
+      [
+        "Main attraction",
+        "Remote landscapes and wildlife"
+      ],
+      [
+        "Shore access",
+        "Zodiac excursions"
+      ],
+      [
+        "Wildlife",
+        "Crocodiles, birds, marine life and other native species"
+      ],
+      [
+        "Scenery",
+        "Cliffs, waterfalls, beaches, rivers and tidal landscapes"
+      ],
+      [
+        "Cultural experiences",
+        "Indigenous heritage and local cultural interpretation"
+      ],
+      [
+        "Activities",
+        "Zodiac rides, hikes, wildlife viewing and exploration"
+      ],
+      [
+        "Sailing season",
+        "Primarily during the Kimberley's dry-season months"
+      ],
+      [
+        "Best for",
+        "Adventure travelers, couples, photographers and luxury expedition cruisers"
+      ]
     ]
   },
   "whyTakeSection": {
@@ -487,7 +520,10 @@
           "Private veranda suites with panoramic ocean and red cliff views",
           "Fine dining, champagne, and quiet evenings after expedition outings"
         ],
-        "recommendations": ["Romance & Luxury", "Shared Adventure"]
+        "recommendations": [
+          "Romance & Luxury",
+          "Shared Adventure"
+        ]
       },
       {
         "icon": "Compass",
@@ -498,7 +534,10 @@
           "Open-seating dining creating effortless social connections",
           "Comfortable, welcoming environment for independent luxury cruisers"
         ],
-        "recommendations": ["Solo Friendly", "Expedition Community"]
+        "recommendations": [
+          "Solo Friendly",
+          "Expedition Community"
+        ]
       },
       {
         "icon": "Landmark",
@@ -510,7 +549,10 @@
           "Tropical heat and sun exposure during daytime outings",
           "Age requirements and individual mobility"
         ],
-        "recommendations": ["Multigenerational", "Active Families"]
+        "recommendations": [
+          "Multigenerational",
+          "Active Families"
+        ]
       }
     ]
   },
@@ -742,5 +784,11 @@
       "buttonText": "Start Planning Your Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Kimberley Cruises: Australia Expeditions & Zodiacs",
+    "metaTitle": "Seabourn Kimberley Luxury Expedition Guide: Waterfalls & Wildlife",
+    "description": "Discover Australia's rugged Kimberley coast on Seabourn expedition ships. Experience King George Falls, Montgomery Reef, Horizontal Falls, and Zodiac safaris.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/kimberley/"
   }
 }

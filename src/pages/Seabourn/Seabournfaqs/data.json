@@ -361,31 +361,103 @@
   "comparisonTable": {
     "eyebrow": "AT A GLANCE",
     "title": "Seabourn Cruise FAQs: Quick Comparison",
-    "headers": ["Question", "Short Answer"],
+    "headers": [
+      "Question",
+      "Short Answer"
+    ],
     "rows": [
-      ["Is Seabourn luxury?", "Yes"],
-      ["Is Seabourn all-inclusive?", "Yes, with some exclusions"],
-      ["Are drinks included?", "Yes"],
-      ["Is Champagne included?", "Yes"],
-      ["Is caviar included?", "Yes"],
-      ["Is Wi-Fi included?", "Yes"],
-      ["Are gratuities included?", "Yes"],
-      ["Are meals included?", "Yes"],
-      ["Is room service included?", "Yes"],
-      ["Does Seabourn have suites?", "Yes, all-suite"],
-      ["Do suites have balconies?", "Many do"],
-      ["Does Seabourn have butlers?", "Suite hosts/attendants rather than butlers in every suite"],
-      ["Does Seabourn offer excursions?", "Yes"],
-      ["Does Seabourn offer private excursions?", "Available on selected itineraries"],
-      ["Does Seabourn offer expedition cruises?", "Yes"],
-      ["Does Seabourn go to Antarctica?", "Yes"],
-      ["Does Seabourn use Zodiacs?", "Yes, on expedition voyages"],
-      ["Does Seabourn offer kayaking?", "Yes, on applicable expedition voyages"],
-      ["Is Seabourn good for couples?", "Yes"],
-      ["Is Seabourn good for solo travelers?", "Yes"],
-      ["Is Seabourn good for families?", "Better suited to mature/multigenerational travelers"],
-      ["Does Seabourn have formal nights?", "Generally relaxed"],
-      ["Is Seabourn good for first-time luxury cruisers?", "Yes"]
+      [
+        "Is Seabourn luxury?",
+        "Yes"
+      ],
+      [
+        "Is Seabourn all-inclusive?",
+        "Yes, with some exclusions"
+      ],
+      [
+        "Are drinks included?",
+        "Yes"
+      ],
+      [
+        "Is Champagne included?",
+        "Yes"
+      ],
+      [
+        "Is caviar included?",
+        "Yes"
+      ],
+      [
+        "Is Wi-Fi included?",
+        "Yes"
+      ],
+      [
+        "Are gratuities included?",
+        "Yes"
+      ],
+      [
+        "Are meals included?",
+        "Yes"
+      ],
+      [
+        "Is room service included?",
+        "Yes"
+      ],
+      [
+        "Does Seabourn have suites?",
+        "Yes, all-suite"
+      ],
+      [
+        "Do suites have balconies?",
+        "Many do"
+      ],
+      [
+        "Does Seabourn have butlers?",
+        "Suite hosts/attendants rather than butlers in every suite"
+      ],
+      [
+        "Does Seabourn offer excursions?",
+        "Yes"
+      ],
+      [
+        "Does Seabourn offer private excursions?",
+        "Available on selected itineraries"
+      ],
+      [
+        "Does Seabourn offer expedition cruises?",
+        "Yes"
+      ],
+      [
+        "Does Seabourn go to Antarctica?",
+        "Yes"
+      ],
+      [
+        "Does Seabourn use Zodiacs?",
+        "Yes, on expedition voyages"
+      ],
+      [
+        "Does Seabourn offer kayaking?",
+        "Yes, on applicable expedition voyages"
+      ],
+      [
+        "Is Seabourn good for couples?",
+        "Yes"
+      ],
+      [
+        "Is Seabourn good for solo travelers?",
+        "Yes"
+      ],
+      [
+        "Is Seabourn good for families?",
+        "Better suited to mature/multigenerational travelers"
+      ],
+      [
+        "Does Seabourn have formal nights?",
+        "Generally relaxed"
+      ],
+      [
+        "Is Seabourn good for first-time luxury cruisers?",
+        "Yes"
+      ]
     ]
   },
   "angelaHughes": {
@@ -432,5 +504,11 @@
       "buttonText": "Contact Angela Hughes",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Cruise FAQs: Essential Questions & Expert Answers",
+    "metaTitle": "Frequently Asked Questions About Seabourn Cruises | Expert Guide",
+    "description": "Find answers to common questions about Seabourn cruises: inclusions, gratuities, Wi-Fi, dress code, suite selection, dining, and loyalty benefits.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/faqs/"
   }
 }

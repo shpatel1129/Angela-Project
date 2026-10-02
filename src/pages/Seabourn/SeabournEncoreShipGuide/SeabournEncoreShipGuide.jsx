@@ -302,13 +302,10 @@ const SeabournEncoreGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Seabourn Encore: Ship Guide, Suites & Dining</title>
-        <meta name="title" content="Seabourn Encore Ship Guide: Suites, Dining & Itineraries" />
-        <meta
-          name="description"
-          content="Explore Seabourn Encore, including suites, restaurants, dining, amenities, public areas, itineraries and who this luxury cruise ship is best suited for."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/ships/seabourn-encore/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournEncoreSchema)}</script>
       </Helmet>
 

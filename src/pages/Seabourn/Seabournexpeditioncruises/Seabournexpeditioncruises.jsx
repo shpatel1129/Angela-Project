@@ -67,13 +67,10 @@ const SeabournExpeditionCruisesGuide = () => {
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
-        <title>Seabourn Expedition Cruises: Ships, Destinations & Guide</title>
-        <meta name="title" content="Seabourn Expedition Cruises Guide: Ships, Destinations & Activities" />
-        <meta
-          name="description"
-          content="Explore Seabourn expedition cruises to Antarctica, the Arctic, Alaska, Kimberley and remote destinations. Compare ships, activities, equipment, suites and inclusions."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/expeditions/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(data.schemaData)}</script>
       </Helmet>
 

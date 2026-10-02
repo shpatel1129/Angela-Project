@@ -362,14 +362,10 @@ const SeabournVsSilverseaVsRegent = () => {
   return (
     <>
       <Helmet>
-        <title>{pageData.seo.title}</title>
-        <meta name="description" content={pageData.seo.metaDescription} />
-        <meta name="keywords" content={pageData.seo.secondaryKeywords.join(', ')} />
-        <link rel="canonical" href={`https://www.tripsandships.com${pageData.seo.url}`} />
-        <meta property="og:title" content={pageData.seo.title} />
-        <meta property="og:description" content={pageData.seo.metaDescription} />
-        <meta property="og:url" content={`https://www.tripsandships.com${pageData.seo.url}`} />
-        <meta property="og:type" content="article" />
+        <title>{pageData.meta.title}</title>
+        <meta name="title" content={pageData.meta.metaTitle} />
+        <meta name="description" content={pageData.meta.description} />
+        <link rel="canonical" href={pageData.meta.canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(pageData.schema)}
         </script>

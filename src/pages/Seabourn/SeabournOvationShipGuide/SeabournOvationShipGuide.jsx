@@ -231,13 +231,10 @@ const SeabournOvationGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Seabourn Ovation: Ship Guide, Suites & Dining</title>
-        <meta name="title" content="Seabourn Ovation Ship Guide: Suites, Dining & Destinations" />
-        <meta
-          name="description"
-          content="Explore Seabourn Ovation, including suites, restaurants, public areas, onboard amenities, destinations and who this luxury ship is best suited for."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/ships/seabourn-ovation/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournOvationSchema)}</script>
       </Helmet>
 

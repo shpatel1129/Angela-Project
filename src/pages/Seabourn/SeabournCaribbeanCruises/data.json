@@ -15,18 +15,51 @@
     "title": "Seabourn Caribbean Cruises at a Glance",
     "subtitle": "QUICK FACTS",
     "caption": "Note: Port calls, marquee events, shore excursions, and seasonal sailing windows vary by ship and specific itinerary.",
-    "headers": ["Feature", "Seabourn Caribbean Cruises"],
+    "headers": [
+      "Feature",
+      "Seabourn Caribbean Cruises"
+    ],
     "rows": [
-      ["Region", "Caribbean"],
-      ["Cruise style", "Ultra-luxury small-ship cruising"],
-      ["Main attractions", "Beaches, islands, harbors and tropical scenery"],
-      ["Signature experiences", "Marina Day and Caviar in the Surf"],
-      ["Activities", "Swimming, watersports, snorkeling, excursions and sightseeing"],
-      ["Atmosphere", "Relaxed, elegant and intimate"],
-      ["Best for", "Couples, luxury travelers, beach lovers and repeat Caribbean visitors"],
-      ["Peak season", "Winter and early spring"],
-      ["Shoulder seasons", "Fall and late spring"],
-      ["Ideal vacation style", "Luxury + relaxation + island exploration"]
+      [
+        "Region",
+        "Caribbean"
+      ],
+      [
+        "Cruise style",
+        "Ultra-luxury small-ship cruising"
+      ],
+      [
+        "Main attractions",
+        "Beaches, islands, harbors and tropical scenery"
+      ],
+      [
+        "Signature experiences",
+        "Marina Day and Caviar in the Surf"
+      ],
+      [
+        "Activities",
+        "Swimming, watersports, snorkeling, excursions and sightseeing"
+      ],
+      [
+        "Atmosphere",
+        "Relaxed, elegant and intimate"
+      ],
+      [
+        "Best for",
+        "Couples, luxury travelers, beach lovers and repeat Caribbean visitors"
+      ],
+      [
+        "Peak season",
+        "Winter and early spring"
+      ],
+      [
+        "Shoulder seasons",
+        "Fall and late spring"
+      ],
+      [
+        "Ideal vacation style",
+        "Luxury + relaxation + island exploration"
+      ]
     ]
   },
   "whyTakeSection": {
@@ -61,37 +94,61 @@
         "icon": "Sailboat",
         "title": "Scenic Island Approaches",
         "description": "Navigate into picturesque channels and calm bays with dramatic close-up island views from your veranda.",
-        "features": ["Scenic cruising", "Boutique navigation", "Dramatic approaches"]
+        "features": [
+          "Scenic cruising",
+          "Boutique navigation",
+          "Dramatic approaches"
+        ]
       },
       {
         "icon": "Anchor",
         "title": "Smaller Harbors",
         "description": "Dock or anchor directly in charming, non-commercialized island harbors away from mega-ship piers.",
-        "features": ["Boutique ports", "Town quays", "Fewer crowds"]
+        "features": [
+          "Boutique ports",
+          "Town quays",
+          "Fewer crowds"
+        ]
       },
       {
         "icon": "Sun",
         "title": "Beach Experiences",
         "description": "Relax on pristine white-sand beaches, secluded coves, and private beach club settings across the islands.",
-        "features": ["Secluded coves", "White-sand bays", "Crystal clear waters"]
+        "features": [
+          "Secluded coves",
+          "White-sand bays",
+          "Crystal clear waters"
+        ]
       },
       {
         "icon": "Waves",
         "title": "Watersports",
         "description": "Enjoy direct ocean access with complimentary kayaking, paddleboarding, and snorkeling from the ship.",
-        "features": ["Marina watersports", "Snorkeling reefs", "Paddleboarding"]
+        "features": [
+          "Marina watersports",
+          "Snorkeling reefs",
+          "Paddleboarding"
+        ]
       },
       {
         "icon": "Landmark",
         "title": "Local Culture",
         "description": "Discover authentic island communities, historic colonial towns, and genuine Caribbean warmth.",
-        "features": ["Historic settlements", "Island traditions", "Artisan crafts"]
+        "features": [
+          "Historic settlements",
+          "Island traditions",
+          "Artisan crafts"
+        ]
       },
       {
         "icon": "Utensils",
         "title": "Gourmet Dining & Signature Events",
         "description": "Savor world-class culinary creations alongside legendary events like Caviar in the Surf and Marina Day.",
-        "features": ["Caviar in the Surf", "Marina Day", "Open-seating dining"]
+        "features": [
+          "Caviar in the Surf",
+          "Marina Day",
+          "Open-seating dining"
+        ]
       }
     ]
   },
@@ -315,7 +372,10 @@
           "Marina Day with direct ocean swimming and watersports",
           "Luxurious spa treatments and poolside ocean views"
         ],
-        "recommendations": ["Beach Lovers", "Relaxation Seekers"]
+        "recommendations": [
+          "Beach Lovers",
+          "Relaxation Seekers"
+        ]
       },
       {
         "icon": "Utensils",
@@ -326,7 +386,10 @@
           "French-Caribbean Creole gastronomy in Martinique & St. Barts",
           "Complimentary open-seating gourmet dining onboard"
         ],
-        "recommendations": ["Culinary Travelers", "Rum Enthusiasts"]
+        "recommendations": [
+          "Culinary Travelers",
+          "Rum Enthusiasts"
+        ]
       },
       {
         "icon": "Heart",
@@ -337,7 +400,11 @@
           "Afternoon: Relax onboard or enjoy watersports from the marina",
           "Evening: Candlelit dinner and cocktails under tropical stars"
         ],
-        "recommendations": ["Honeymoons", "Anniversaries", "Couples"]
+        "recommendations": [
+          "Honeymoons",
+          "Anniversaries",
+          "Couples"
+        ]
       },
       {
         "icon": "Compass",
@@ -348,7 +415,10 @@
           "Hosted dinner tables and shared shore excursion groups",
           "Spacious private veranda suites with luxury amenities"
         ],
-        "recommendations": ["Solo Travelers", "Independent Explorers"]
+        "recommendations": [
+          "Solo Travelers",
+          "Independent Explorers"
+        ]
       },
       {
         "icon": "Users",
@@ -359,7 +429,10 @@
           "Connecting luxury suites with spacious private verandas",
           "Emphasis on shared island adventures and quality time"
         ],
-        "recommendations": ["Mature Families", "Multi-Gen Groups"]
+        "recommendations": [
+          "Mature Families",
+          "Multi-Gen Groups"
+        ]
       }
     ]
   },
@@ -812,5 +885,11 @@
       "buttonText": "Start Planning Your Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Caribbean Cruises: Yacht Harbors & Caviar in the Surf",
+    "metaTitle": "Seabourn Caribbean Luxury Cruises: Small Ports & Itineraries",
+    "description": "Experience intimate Caribbean luxury cruising on Seabourn. Explore hidden yacht harbors, private beach barbecues, Caviar in the Surf, and water sports.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/caribbean/"
   }
 }

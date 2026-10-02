@@ -1,8 +1,8 @@
 {
   "meta": {
     "seoTitle": "Is Seabourn Good for Families and Children? Family Guide",
-    "metaTitle": "Is Seabourn Good for Families and Children?",
-    "description": "Is Seabourn good for families and children? Learn about Seabourn suites, dining, kids, activities, excursions, family travel, age considerations and more.",
+    "metaTitle": "Seabourn Family Cruises: Kids Policy, Suites & Experience",
+    "description": "Is a Seabourn cruise suitable for children and families? Learn about Seabourn's youth policies, suite configurations, onboard atmosphere, and multigenerational travel tips.",
     "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/is-seabourn-good-for-families-and-children/",
     "primaryKeyword": "Is Seabourn Good for Families and Children",
     "secondaryKeywords": [
@@ -20,7 +20,8 @@
       "Seabourn cruise age requirements",
       "luxury cruises for families",
       "Seabourn multigenerational cruise"
-    ]
+    ],
+    "title": "Is Seabourn Good for Families & Children? Cruising Guide"
   },
   "hero": {
     "badge": "FAMILY & MULTIGENERATIONAL LUXURY GUIDE",
@@ -41,20 +42,59 @@
   "quickAnswerTable": {
     "title": "Quick Answer: Is Seabourn Good for Families?",
     "subtitle": "Key family considerations across age groups, onboard programming, dining, and accommodations at a glance.",
-    "headers": ["Family Question", "Seabourn Experience"],
+    "headers": [
+      "Family Question",
+      "Seabourn Experience"
+    ],
     "rows": [
-      ["Is Seabourn family-friendly?", "Yes, but it is primarily a luxury cruise experience rather than a children's cruise"],
-      ["Can children sail on Seabourn?", "Yes, subject to Seabourn's age requirements and sailing-specific policies"],
-      ["Are there children's programs?", "Limited compared with mainstream family cruise lines"],
-      ["Is Seabourn good for teenagers?", "It can be, particularly on destination- and expedition-focused itineraries"],
-      ["Is Seabourn good for toddlers?", "Families should carefully evaluate the ship, itinerary and available facilities"],
-      ["Are family suites available?", "Seabourn offers suites in various configurations, but families should confirm occupancy limits and connecting options"],
-      ["Can families dine together?", "Yes"],
-      ["Can children participate in excursions?", "Many excursions can accommodate families, but age restrictions vary by activity"],
-      ["Is Seabourn good for multigenerational travel?", "Yes, especially for families who prioritize luxury and shared destination experiences"],
-      ["Is Seabourn good for Alaska with children?", "It can be, particularly for families interested in wildlife and nature"],
-      ["Is Seabourn good for Antarctica with children?", "Age requirements and expedition conditions should be checked carefully for the specific voyage"],
-      ["Is Seabourn like Disney Cruise Line?", "No. Seabourn offers a quieter luxury experience rather than a children's entertainment-focused cruise"]
+      [
+        "Is Seabourn family-friendly?",
+        "Yes, but it is primarily a luxury cruise experience rather than a children's cruise"
+      ],
+      [
+        "Can children sail on Seabourn?",
+        "Yes, subject to Seabourn's age requirements and sailing-specific policies"
+      ],
+      [
+        "Are there children's programs?",
+        "Limited compared with mainstream family cruise lines"
+      ],
+      [
+        "Is Seabourn good for teenagers?",
+        "It can be, particularly on destination- and expedition-focused itineraries"
+      ],
+      [
+        "Is Seabourn good for toddlers?",
+        "Families should carefully evaluate the ship, itinerary and available facilities"
+      ],
+      [
+        "Are family suites available?",
+        "Seabourn offers suites in various configurations, but families should confirm occupancy limits and connecting options"
+      ],
+      [
+        "Can families dine together?",
+        "Yes"
+      ],
+      [
+        "Can children participate in excursions?",
+        "Many excursions can accommodate families, but age restrictions vary by activity"
+      ],
+      [
+        "Is Seabourn good for multigenerational travel?",
+        "Yes, especially for families who prioritize luxury and shared destination experiences"
+      ],
+      [
+        "Is Seabourn good for Alaska with children?",
+        "It can be, particularly for families interested in wildlife and nature"
+      ],
+      [
+        "Is Seabourn good for Antarctica with children?",
+        "Age requirements and expedition conditions should be checked carefully for the specific voyage"
+      ],
+      [
+        "Is Seabourn like Disney Cruise Line?",
+        "No. Seabourn offers a quieter luxury experience rather than a children's entertainment-focused cruise"
+      ]
     ]
   },
   "whatIsSeabournLike": {
@@ -434,20 +474,72 @@
   "competitorTable": {
     "title": "Seabourn vs. Mainstream Family Cruise Lines",
     "subtitle": "Understanding the fundamental differences between luxury small-ship cruising and mega-resort family ships.",
-    "headers": ["Feature", "Seabourn", "Mainstream Family Cruise Lines"],
+    "headers": [
+      "Feature",
+      "Seabourn",
+      "Mainstream Family Cruise Lines"
+    ],
     "rows": [
-      ["Primary focus", "Luxury and destination travel", "Family entertainment and resort-style cruising"],
-      ["Ship size", "Small/intimate (450–600 guests)", "Often much larger (3,000–6,000+ guests)"],
-      ["Kids clubs", "Limited compared with family-focused lines", "Often extensive age-tiered youth spaces"],
-      ["Teen facilities", "Limited dedicated lounges", "Often large dedicated teen clubs & arcades"],
-      ["Water parks", "Limited/no major water-park focus", "Common on most mega-ships"],
-      ["Dining", "Luxury open-seating & gourmet venues", "Broad buffet, food courts & assigned seatings"],
-      ["Service", "Highly personalized 1:1 ratio", "Varies with high guest volume"],
-      ["Excursions", "Destination-focused & small-group", "Broad volume-based bus excursions"],
-      ["Expedition options", "Purpose-built PC6 polar ships", "Rarely available"],
-      ["Atmosphere", "Quiet, refined and sophisticated", "Energetic, bustling and entertainment-driven"],
-      ["Multigenerational travel", "Strong potential fit", "Strong potential fit"],
-      ["Children's entertainment", "Not the central focus", "Major primary component"]
+      [
+        "Primary focus",
+        "Luxury and destination travel",
+        "Family entertainment and resort-style cruising"
+      ],
+      [
+        "Ship size",
+        "Small/intimate (450–600 guests)",
+        "Often much larger (3,000–6,000+ guests)"
+      ],
+      [
+        "Kids clubs",
+        "Limited compared with family-focused lines",
+        "Often extensive age-tiered youth spaces"
+      ],
+      [
+        "Teen facilities",
+        "Limited dedicated lounges",
+        "Often large dedicated teen clubs & arcades"
+      ],
+      [
+        "Water parks",
+        "Limited/no major water-park focus",
+        "Common on most mega-ships"
+      ],
+      [
+        "Dining",
+        "Luxury open-seating & gourmet venues",
+        "Broad buffet, food courts & assigned seatings"
+      ],
+      [
+        "Service",
+        "Highly personalized 1:1 ratio",
+        "Varies with high guest volume"
+      ],
+      [
+        "Excursions",
+        "Destination-focused & small-group",
+        "Broad volume-based bus excursions"
+      ],
+      [
+        "Expedition options",
+        "Purpose-built PC6 polar ships",
+        "Rarely available"
+      ],
+      [
+        "Atmosphere",
+        "Quiet, refined and sophisticated",
+        "Energetic, bustling and entertainment-driven"
+      ],
+      [
+        "Multigenerational travel",
+        "Strong potential fit",
+        "Strong potential fit"
+      ],
+      [
+        "Children's entertainment",
+        "Not the central focus",
+        "Major primary component"
+      ]
     ],
     "note": "Neither approach is automatically right for every family. The decision depends on whether your family wants a luxury destination experience or a children's entertainment-focused vacation."
   },

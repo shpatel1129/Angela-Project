@@ -295,13 +295,10 @@ const SeabournCruiseQuote = () => {
   return (
     <div className="w-full bg-white text-navy-950 font-sans antialiased">
       <Helmet>
-        <title>Request a Seabourn Cruise Quote | Luxury Cruise Planning</title>
-        <meta name="title" content="Request a Seabourn Cruise Quote | Trips & Ships" />
-        <meta
-          name="description"
-          content="Request a personalized Seabourn cruise quote from Trips & Ships Luxury Travel. Get expert help choosing your Seabourn ship, suite, itinerary, dates and available offers."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/request-a-quote/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournCruiseQuoteSchema)}</script>
       </Helmet>
 

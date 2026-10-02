@@ -15,18 +15,51 @@
     "title": "Seabourn Arctic and Greenland Cruises at a Glance",
     "subtitle": "THE OVERVIEW",
     "caption": "Note: Exact itineraries, Zodiac operations, wildlife sightings and onboard programming vary by sailing date and local ice conditions.",
-    "headers": ["Feature", "Seabourn Arctic & Greenland"],
+    "headers": [
+      "Feature",
+      "Seabourn Arctic & Greenland"
+    ],
     "rows": [
-      ["Cruise style", "Ultra-luxury expedition"],
-      ["Main regions", "Greenland, Svalbard, Iceland and Arctic Canada"],
-      ["Expedition ships", "Seabourn Venture and Seabourn Pursuit"],
-      ["Popular wildlife", "Polar bears, walruses, seals, whales and seabirds"],
-      ["Activities", "Zodiac cruises, landings, walks, hikes and wildlife viewing"],
-      ["Cultural experiences", "Arctic communities, history and local traditions"],
-      ["Scenery", "Glaciers, fjords, sea ice, mountains and tundra"],
-      ["Northern Lights", "Possible on selected itineraries and conditions"],
-      ["Best travel period", "Primarily Arctic summer"],
-      ["Best for", "Wildlife lovers, photographers, adventure travelers and luxury expedition cruisers"]
+      [
+        "Cruise style",
+        "Ultra-luxury expedition"
+      ],
+      [
+        "Main regions",
+        "Greenland, Svalbard, Iceland and Arctic Canada"
+      ],
+      [
+        "Expedition ships",
+        "Seabourn Venture and Seabourn Pursuit"
+      ],
+      [
+        "Popular wildlife",
+        "Polar bears, walruses, seals, whales and seabirds"
+      ],
+      [
+        "Activities",
+        "Zodiac cruises, landings, walks, hikes and wildlife viewing"
+      ],
+      [
+        "Cultural experiences",
+        "Arctic communities, history and local traditions"
+      ],
+      [
+        "Scenery",
+        "Glaciers, fjords, sea ice, mountains and tundra"
+      ],
+      [
+        "Northern Lights",
+        "Possible on selected itineraries and conditions"
+      ],
+      [
+        "Best travel period",
+        "Primarily Arctic summer"
+      ],
+      [
+        "Best for",
+        "Wildlife lovers, photographers, adventure travelers and luxury expedition cruisers"
+      ]
     ]
   },
   "whyTakeSection": {
@@ -473,7 +506,10 @@
           "Afternoon: Scenic tundra walk or relaxing in the ship's spa",
           "Evening: Fine dining, caviar service, and panoramic sunset views"
         ],
-        "recommendations": ["Romantic Polar Journey", "Shared Adventure"]
+        "recommendations": [
+          "Romantic Polar Journey",
+          "Shared Adventure"
+        ]
       },
       {
         "icon": "Compass",
@@ -484,7 +520,10 @@
           "Enriching daily briefings, lectures, and photo workshops",
           "Open-seating dining with fellow travelers and expedition team"
         ],
-        "recommendations": ["Solo Friendly", "Expedition Community"]
+        "recommendations": [
+          "Solo Friendly",
+          "Expedition Community"
+        ]
       },
       {
         "icon": "Landmark",
@@ -495,7 +534,10 @@
           "Confirm family members are comfortable with Zodiac boarding",
           "Engage in world-class hands-on science and wildlife education"
         ],
-        "recommendations": ["Multigenerational", "Active Nature Lovers"]
+        "recommendations": [
+          "Multigenerational",
+          "Active Nature Lovers"
+        ]
       }
     ]
   },
@@ -547,17 +589,57 @@
     "title": "Seabourn Arctic vs. Antarctica",
     "subtitle": "MAKING COMPARISONS • TWO DIFFERENT POLAR WORLDS",
     "caption": "Both are world-class polar expedition destinations, but each offers completely distinct wildlife, geography, and cultural dimensions.",
-    "headers": ["Comparison Feature", "Arctic (North)", "Antarctica (South)"],
+    "headers": [
+      "Comparison Feature",
+      "Arctic (North)",
+      "Antarctica (South)"
+    ],
     "rows": [
-      ["Key Destinations", "Greenland, Svalbard, Arctic Canada", "Antarctic Peninsula, South Shetland Islands"],
-      ["Iconic Land Wildlife", "Polar bears, Arctic foxes, muskoxen", "Penguins (Gentoo, Adélie, Chinstrap)"],
-      ["Marine Life", "Walruses, beluga whales, narwhals", "Leopard seals, crabeater seals, orcas"],
-      ["Human Culture", "Indigenous Inuit communities & history", "Uninhabited wilderness & research stations"],
-      ["Daylight & Skies", "Northern Lights (late season) & Midnight Sun", "24-hour austral summer sunlight"],
-      ["Landscape Character", "Deep fjords, green tundra, jagged mountains", "Massive ice sheets, ice shelves & glaciers"],
-      ["Sailing Season", "June through September (Northern Summer)", "November through March (Southern Summer)"],
-      ["Embarkation Ports", "Reykjavik, Longyearbyen, Kangerlussuaq", "Buenos Aires, Ushuaia, Punta Arenas"],
-      ["Expedition Style", "Wildlife, culture, and fjord navigation", "Ice landscapes, massive penguin rookeries"]
+      [
+        "Key Destinations",
+        "Greenland, Svalbard, Arctic Canada",
+        "Antarctic Peninsula, South Shetland Islands"
+      ],
+      [
+        "Iconic Land Wildlife",
+        "Polar bears, Arctic foxes, muskoxen",
+        "Penguins (Gentoo, Adélie, Chinstrap)"
+      ],
+      [
+        "Marine Life",
+        "Walruses, beluga whales, narwhals",
+        "Leopard seals, crabeater seals, orcas"
+      ],
+      [
+        "Human Culture",
+        "Indigenous Inuit communities & history",
+        "Uninhabited wilderness & research stations"
+      ],
+      [
+        "Daylight & Skies",
+        "Northern Lights (late season) & Midnight Sun",
+        "24-hour austral summer sunlight"
+      ],
+      [
+        "Landscape Character",
+        "Deep fjords, green tundra, jagged mountains",
+        "Massive ice sheets, ice shelves & glaciers"
+      ],
+      [
+        "Sailing Season",
+        "June through September (Northern Summer)",
+        "November through March (Southern Summer)"
+      ],
+      [
+        "Embarkation Ports",
+        "Reykjavik, Longyearbyen, Kangerlussuaq",
+        "Buenos Aires, Ushuaia, Punta Arenas"
+      ],
+      [
+        "Expedition Style",
+        "Wildlife, culture, and fjord navigation",
+        "Ice landscapes, massive penguin rookeries"
+      ]
     ]
   },
   "bookingTips": {
@@ -751,5 +833,11 @@
       "buttonText": "Start Planning Your Expedition",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Arctic & Greenland Cruises: Northwest Passage Guide",
+    "metaTitle": "Seabourn Arctic & Greenland Luxury Expedition Voyages",
+    "description": "Sail the Arctic, Greenland, and Northwest Passage with Seabourn. Discover polar bear habitats, glacier fjords, Zodiac landings, and expedition luxury.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/arctic-greenland/"
   }
 }

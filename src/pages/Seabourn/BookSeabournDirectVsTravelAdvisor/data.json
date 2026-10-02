@@ -2,7 +2,7 @@
   "meta": {
     "suggestedUrl": "/seabourn-cruises/book-directly-or-travel-advisor/",
     "seoTitle": "Should You Book Seabourn Directly or Through a Travel Advisor?",
-    "metaTitle": "Seabourn Direct vs Travel Advisor",
+    "metaTitle": "Booking Seabourn Cruise Direct vs Travel Agent Comparison",
     "metaDescription": "Should you book Seabourn directly or through a travel advisor? Compare pricing, service, suite selection, excursions, flights, hotels, changes, support and luxury cruise planning.",
     "primaryKeyword": "Should You Book Seabourn Directly or Through a Travel Advisor",
     "secondaryKeywords": [
@@ -57,7 +57,10 @@
       "Caribbean Cruises",
       "Mediterranean Cruises",
       "Luxury Travel Advisors"
-    ]
+    ],
+    "title": "Book Seabourn Direct vs Travel Advisor: Which Is Better?",
+    "description": "Compare booking Seabourn cruises directly vs through a luxury travel advisor. Discover pricing, consortium perks, suite selection, and personalized service benefits.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/book-directly-or-travel-advisor/"
   },
   "hero": {
     "title": "Should You Book Seabourn Directly or Through a Travel Advisor?",
@@ -103,21 +106,81 @@
       "Book Through a Travel Advisor"
     ],
     "rows": [
-      ["Basic cruise booking", "Yes", "Yes"],
-      ["Choose your sailing", "Yes", "Yes"],
-      ["Choose your suite", "Yes", "Yes"],
-      ["Compare multiple sailings", "You do the research", "Advisor can help"],
-      ["Flights", "Separate planning", "Can coordinate"],
-      ["Pre-cruise hotels", "Separate planning", "Can coordinate"],
-      ["Shore excursions", "You can arrange them", "Advisor can help plan"],
-      ["Special occasions", "Self-managed", "Advisor can coordinate"],
-      ["Complex itineraries", "More self-management", "Advisor can simplify"],
-      ["Changes", "Contact Seabourn", "Advisor can often manage communication"],
-      ["Trip-wide planning", "Mostly self-managed", "Advisor can coordinate"],
-      ["Personalized recommendations", "Limited to your own research", "Advisor expertise"],
-      ["Potential advisor-added amenities", "Not applicable", "May be available depending on agency/program"],
-      ["Advisor fee", "None for the advisor service if booking direct", "May apply depending on advisor"],
-      ["Best for", "Independent planners", "Travelers wanting personalized planning"]
+      [
+        "Basic cruise booking",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Choose your sailing",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Choose your suite",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Compare multiple sailings",
+        "You do the research",
+        "Advisor can help"
+      ],
+      [
+        "Flights",
+        "Separate planning",
+        "Can coordinate"
+      ],
+      [
+        "Pre-cruise hotels",
+        "Separate planning",
+        "Can coordinate"
+      ],
+      [
+        "Shore excursions",
+        "You can arrange them",
+        "Advisor can help plan"
+      ],
+      [
+        "Special occasions",
+        "Self-managed",
+        "Advisor can coordinate"
+      ],
+      [
+        "Complex itineraries",
+        "More self-management",
+        "Advisor can simplify"
+      ],
+      [
+        "Changes",
+        "Contact Seabourn",
+        "Advisor can often manage communication"
+      ],
+      [
+        "Trip-wide planning",
+        "Mostly self-managed",
+        "Advisor can coordinate"
+      ],
+      [
+        "Personalized recommendations",
+        "Limited to your own research",
+        "Advisor expertise"
+      ],
+      [
+        "Potential advisor-added amenities",
+        "Not applicable",
+        "May be available depending on agency/program"
+      ],
+      [
+        "Advisor fee",
+        "None for the advisor service if booking direct",
+        "May apply depending on advisor"
+      ],
+      [
+        "Best for",
+        "Independent planners",
+        "Travelers wanting personalized planning"
+      ]
     ]
   },
   "difference": {

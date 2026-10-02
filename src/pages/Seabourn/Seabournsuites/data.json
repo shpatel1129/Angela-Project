@@ -256,15 +256,39 @@
   "quickAnswerTable": {
     "title": "Which Seabourn Suite Is Best?",
     "subtitle": "For most travelers, a Veranda Suite is the best balance of space, private outdoor access and value. But the best choice depends on your priorities.",
-    "headers": ["Suite Type", "Best For"],
+    "headers": [
+      "Suite Type",
+      "Best For"
+    ],
     "rows": [
-      ["Ocean View Suite", "Travelers who don't need a private veranda"],
-      ["Veranda Suite", "Best overall balance of space, view and value"],
-      ["Penthouse Suite", "More living space and entertaining"],
-      ["Penthouse Spa Suite", "Travelers prioritizing wellness and spa access"],
-      ["Owner's Suite", "Extra space and premium entertaining amenities"],
-      ["Signature Suite", "Travelers wanting exceptional space and a huge veranda"],
-      ["Wintergarden Suite", "Maximum space, entertaining and panoramic relaxation"]
+      [
+        "Ocean View Suite",
+        "Travelers who don't need a private veranda"
+      ],
+      [
+        "Veranda Suite",
+        "Best overall balance of space, view and value"
+      ],
+      [
+        "Penthouse Suite",
+        "More living space and entertaining"
+      ],
+      [
+        "Penthouse Spa Suite",
+        "Travelers prioritizing wellness and spa access"
+      ],
+      [
+        "Owner's Suite",
+        "Extra space and premium entertaining amenities"
+      ],
+      [
+        "Signature Suite",
+        "Travelers wanting exceptional space and a huge veranda"
+      ],
+      [
+        "Wintergarden Suite",
+        "Maximum space, entertaining and panoramic relaxation"
+      ]
     ]
   },
   "categoriesGlance": {
@@ -294,15 +318,47 @@
   "sizeTable": {
     "title": "Seabourn Suite Sizes (By The Numbers)",
     "subtitle": "One of the biggest advantages of Seabourn is the amount of space provided compared with conventional cruise cabins. Published dimensions are examples from Seabourn's portfolio and can vary by ship.",
-    "headers": ["Suite", "Interior Space", "Veranda"],
+    "headers": [
+      "Suite",
+      "Interior Space",
+      "Veranda"
+    ],
     "rows": [
-      ["Ocean View Suite", "Approx. 295 sq. ft.", "None"],
-      ["Veranda Suite", "246–302 sq. ft.", "68–83 sq. ft."],
-      ["Penthouse Suite", "Approx. 436 sq. ft.", "Approx. 98 sq. ft."],
-      ["Penthouse Spa Suite", "536–539 sq. ft.", "167–200 sq. ft."],
-      ["Owner's Suite", "526–593 sq. ft.", "133–354 sq. ft."],
-      ["Signature Suite", "Approx. 859 sq. ft.", "Approx. 493 sq. ft."],
-      ["Wintergarden Suite", "Approx. 989 sq. ft.", "Approx. 197 sq. ft."]
+      [
+        "Ocean View Suite",
+        "Approx. 295 sq. ft.",
+        "None"
+      ],
+      [
+        "Veranda Suite",
+        "246–302 sq. ft.",
+        "68–83 sq. ft."
+      ],
+      [
+        "Penthouse Suite",
+        "Approx. 436 sq. ft.",
+        "Approx. 98 sq. ft."
+      ],
+      [
+        "Penthouse Spa Suite",
+        "536–539 sq. ft.",
+        "167–200 sq. ft."
+      ],
+      [
+        "Owner's Suite",
+        "526–593 sq. ft.",
+        "133–354 sq. ft."
+      ],
+      [
+        "Signature Suite",
+        "Approx. 859 sq. ft.",
+        "Approx. 493 sq. ft."
+      ],
+      [
+        "Wintergarden Suite",
+        "Approx. 989 sq. ft.",
+        "Approx. 197 sq. ft."
+      ]
     ]
   },
   "suiteCategories": {
@@ -486,14 +542,35 @@
   "verandaTable": {
     "title": "Which Seabourn Suites Have Verandas?",
     "subtitle": "Most of the suite categories above the Ocean View category feature private outdoor space.",
-    "headers": ["Suite Category", "Veranda Size (Published Specification)"],
+    "headers": [
+      "Suite Category",
+      "Veranda Size (Published Specification)"
+    ],
     "rows": [
-      ["Veranda Suites", "Approximately 68–83 sq. ft. furnished veranda"],
-      ["Penthouse Suites", "Approximately 98 sq. ft. private veranda"],
-      ["Penthouse Spa Suites", "Approximately 167–200 sq. ft. expanded veranda"],
-      ["Owner's Suites", "Approximately 133–354 sq. ft. veranda, depending on ship"],
-      ["Signature Suites", "Approximately 493 sq. ft. enormous private veranda"],
-      ["Wintergarden Suites", "Approximately 197 sq. ft. private veranda"]
+      [
+        "Veranda Suites",
+        "Approximately 68–83 sq. ft. furnished veranda"
+      ],
+      [
+        "Penthouse Suites",
+        "Approximately 98 sq. ft. private veranda"
+      ],
+      [
+        "Penthouse Spa Suites",
+        "Approximately 167–200 sq. ft. expanded veranda"
+      ],
+      [
+        "Owner's Suites",
+        "Approximately 133–354 sq. ft. veranda, depending on ship"
+      ],
+      [
+        "Signature Suites",
+        "Approximately 493 sq. ft. enormous private veranda"
+      ],
+      [
+        "Wintergarden Suites",
+        "Approximately 197 sq. ft. private veranda"
+      ]
     ]
   },
   "serviceDetails": {
@@ -529,22 +606,38 @@
       {
         "title": "Interior Square Footage",
         "description": "Suites within the same category letter code can vary in interior square footage depending on their position along the ship's hull.",
-        "tags": ["Dimensions", "Floorplan", "Space"]
+        "tags": [
+          "Dimensions",
+          "Floorplan",
+          "Space"
+        ]
       },
       {
         "title": "Veranda Size & Shape",
         "description": "Corner, aft, and forward-angled suites often have dramatically larger or uniquely shaped verandas compared to midship counterparts.",
-        "tags": ["Balcony", "Outdoor Space", "Views"]
+        "tags": [
+          "Balcony",
+          "Outdoor Space",
+          "Views"
+        ]
       },
       {
         "title": "Deck Location & Stability",
         "description": "Midship suites offer maximum stability during open-ocean sailing, while higher decks provide faster access to observation lounges and pools.",
-        "tags": ["Deck Plan", "Midship", "Motion"]
+        "tags": [
+          "Deck Plan",
+          "Midship",
+          "Motion"
+        ]
       },
       {
         "title": "Layout & Accessibility",
         "description": "Configurations can differ in bed layout, connecting door placement, bathroom configuration, and ADA-compliant wheelchair access.",
-        "tags": ["Accessibility", "Bedding", "Bath Layout"]
+        "tags": [
+          "Accessibility",
+          "Bedding",
+          "Bath Layout"
+        ]
       }
     ]
   },
@@ -623,13 +716,37 @@
   "couplesAndWorldRankings": {
     "title": "Best Suites for Couples & World Cruises",
     "subtitle": "Ranked suite selections based on voyage duration, lifestyle preferences, and living space needs.",
-    "headers": ["Rank", "Best for Couples", "Best for a World Cruise"],
+    "headers": [
+      "Rank",
+      "Best for Couples",
+      "Best for a World Cruise"
+    ],
     "rows": [
-      ["1", "Veranda Suite (Best balance of space, private outdoor access and price)", "Owner's Suite (Substantial residential space for multi-month voyages)"],
-      ["2", "Penthouse Suite (Separate living salon for longer voyages & celebrations)", "Signature Suite (Enormous 493 sq. ft. veranda for daily outdoor living)"],
-      ["3", "Penthouse Spa Suite (Ideal for wellness-oriented romantic getaways)", "Wintergarden Suite (The ultimate private luxury estate at sea)"],
-      ["4", "Owner's Suite (Spacious entertaining with guest bath and whirlpool tub)", "Penthouse Suite (A meaningful step up in living space for sea days)"],
-      ["5", "Signature / Wintergarden (Ultimate exclusivity where budget is secondary)", "Veranda Suite (A highly comfortable and cost-effective extended option)"]
+      [
+        "1",
+        "Veranda Suite (Best balance of space, private outdoor access and price)",
+        "Owner's Suite (Substantial residential space for multi-month voyages)"
+      ],
+      [
+        "2",
+        "Penthouse Suite (Separate living salon for longer voyages & celebrations)",
+        "Signature Suite (Enormous 493 sq. ft. veranda for daily outdoor living)"
+      ],
+      [
+        "3",
+        "Penthouse Spa Suite (Ideal for wellness-oriented romantic getaways)",
+        "Wintergarden Suite (The ultimate private luxury estate at sea)"
+      ],
+      [
+        "4",
+        "Owner's Suite (Spacious entertaining with guest bath and whirlpool tub)",
+        "Penthouse Suite (A meaningful step up in living space for sea days)"
+      ],
+      [
+        "5",
+        "Signature / Wintergarden (Ultimate exclusivity where budget is secondary)",
+        "Veranda Suite (A highly comfortable and cost-effective extended option)"
+      ]
     ]
   },
   "familySuites": {
@@ -787,17 +904,29 @@
       {
         "title": "All-Inclusive Value Integration",
         "description": "Your suite fare includes all-suite oceanfront living, personalized host service, complimentary gourmet dining, premium fine wines and spirits, Starlink Wi-Fi, and all onboard gratuities.",
-        "tags": ["All-Inclusive", "No Hidden Extras", "Frictionless"]
+        "tags": [
+          "All-Inclusive",
+          "No Hidden Extras",
+          "Frictionless"
+        ]
       },
       {
         "title": "Core Luxury Philosophy",
         "description": "Seabourn does not compete on bottom-dollar cabin pricing. Instead, it delivers an intimate yacht-like residence where you enjoy spacious living, marble bathrooms, and intuitive hospitality.",
-        "tags": ["Yacht Lifestyle", "Marble Baths", "Spacious Suites"]
+        "tags": [
+          "Yacht Lifestyle",
+          "Marble Baths",
+          "Spacious Suites"
+        ]
       },
       {
         "title": "Veranda Suite vs. Premium Suite Value",
         "description": "For travelers seeking private outdoor relaxation, a Veranda Suite offers exceptional all-around value. Premium suites (Owner's, Signature, Wintergarden) deliver unmatched space for entertaining.",
-        "tags": ["Veranda Value", "Premium Space", "Entertaining"]
+        "tags": [
+          "Veranda Value",
+          "Premium Space",
+          "Entertaining"
+        ]
       }
     ]
   },
@@ -1004,5 +1133,11 @@
         ]
       }
     ]
+  },
+  "meta": {
+    "title": "Seabourn Suites Guide: Veranda, Penthouse & Signature Layouts",
+    "metaTitle": "Compare Seabourn Suite Categories, Square Footage & Perks",
+    "description": "Detailed guide to Seabourn suites: Veranda, Penthouse, Owners, Signature, and Wintergarden suites. Compare floor plans, amenities, balconies, and butler service.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/suites/"
   }
 }

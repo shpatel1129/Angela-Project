@@ -164,16 +164,10 @@ const Seabournvsregent = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased selection:bg-gold-500 selection:text-white">
       <Helmet>
-        <title>Seabourn vs Regent: Which Luxury Cruise Is Better?</title>
-        <meta
-          name="description"
-          content="Seabourn vs Regent Seven Seas compared across fares, suites, ships, dining, excursions, service, inclusions and atmosphere. Find the best luxury cruise for you."
-        />
-        <meta
-          name="keywords"
-          content="Seabourn vs Regent Seven Seas, Seabourn vs Regent, Seabourn or Regent, Seabourn vs Regent comparison, Seabourn vs Regent cruises, Seabourn vs Regent suites, Seabourn vs Regent dining, Seabourn vs Regent excursions, Seabourn vs Regent price, Seabourn vs Regent value, Seabourn vs Regent service, Seabourn vs Regent atmosphere, Seabourn vs Regent all inclusive"
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/seabourn-vs-regent/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

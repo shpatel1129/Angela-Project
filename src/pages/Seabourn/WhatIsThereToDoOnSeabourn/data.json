@@ -2,8 +2,8 @@
   "seo": {
     "suggestedUrl": "/seabourn-cruises/what-is-there-to-do/",
     "seoTitle": "What Is There to Do on a Seabourn Cruise? Complete Guide",
-    "metaTitle": "What Is There to Do on a Seabourn Cruise?",
-    "metaDescription": "What is there to do on a Seabourn cruise? Explore Seabourn activities, entertainment, dining, wellness, excursions, enrichment, nightlife, watersports and more.",
+    "metaTitle": "Things to Do on a Seabourn Cruise: Entertainment, Spa & Sea Days",
+    "metaDescription": "Explore all activities and entertainment on a Seabourn cruise: Seabourn Conversations, spa & wellness, sea day activities, live music, and evening nightlife.",
     "primaryKeyword": "What Is There to Do on a Seabourn Cruise",
     "secondaryKeywords": [
       "Seabourn cruise activities",
@@ -28,7 +28,9 @@
       "Seabourn cruise experience"
     ],
     "searchIntent": "Informational + Commercial Investigation",
-    "contentType": "Luxury Cruise Activities / Seabourn Experience Guide"
+    "contentType": "Luxury Cruise Activities / Seabourn Experience Guide",
+    "title": "What Is There to Do on a Seabourn Cruise? Onboard Activities",
+    "canonical": "https://www.tripsandships.com/seabourn-cruises/what-is-there-to-do/"
   },
   "hero": {
     "badge": "COMPLETE ACTIVITIES & ONBOARD EXPERIENCE GUIDE",
@@ -53,23 +55,74 @@
       "What You Can Expect"
     ],
     "rows": [
-      ["Fine Dining", "Multiple restaurants and casual dining venues"],
-      ["In-Suite Dining", "24-hour dining options"],
-      ["Live Music", "Lounges, evening performances and live entertainment"],
-      ["Dancing", "Live music and select evening dance events"],
-      ["Enrichment", "Lectures, expert talks and Seabourn Conversations"],
-      ["Cooking", "Culinary demonstrations and food-focused experiences"],
-      ["Pool", "Swimming, sunbathing and poolside relaxation"],
-      ["Spa", "Massages, beauty treatments and wellness services"],
-      ["Fitness", "Fitness center, yoga, stretching and select classes"],
-      ["Socializing", "Seabourn Square, lounges, bars and communal spaces"],
-      ["Card Games", "Bridge and other leisurely activities"],
-      ["Watersports", "Kayaking, paddleboarding and other activities on select sailings"],
-      ["Excursions", "Cultural, culinary, scenic and adventure excursions"],
-      ["Expedition Activities", "Zodiac tours, kayaking and hikes on applicable voyages"],
-      ["Destination Experiences", "Wildlife, scenery, beaches, history and local culture"],
-      ["Shopping With the Chef", "Local food-market experiences on select itineraries"],
-      ["Beach Events", "Signature events such as Caviar in the Surf on select sailings"]
+      [
+        "Fine Dining",
+        "Multiple restaurants and casual dining venues"
+      ],
+      [
+        "In-Suite Dining",
+        "24-hour dining options"
+      ],
+      [
+        "Live Music",
+        "Lounges, evening performances and live entertainment"
+      ],
+      [
+        "Dancing",
+        "Live music and select evening dance events"
+      ],
+      [
+        "Enrichment",
+        "Lectures, expert talks and Seabourn Conversations"
+      ],
+      [
+        "Cooking",
+        "Culinary demonstrations and food-focused experiences"
+      ],
+      [
+        "Pool",
+        "Swimming, sunbathing and poolside relaxation"
+      ],
+      [
+        "Spa",
+        "Massages, beauty treatments and wellness services"
+      ],
+      [
+        "Fitness",
+        "Fitness center, yoga, stretching and select classes"
+      ],
+      [
+        "Socializing",
+        "Seabourn Square, lounges, bars and communal spaces"
+      ],
+      [
+        "Card Games",
+        "Bridge and other leisurely activities"
+      ],
+      [
+        "Watersports",
+        "Kayaking, paddleboarding and other activities on select sailings"
+      ],
+      [
+        "Excursions",
+        "Cultural, culinary, scenic and adventure excursions"
+      ],
+      [
+        "Expedition Activities",
+        "Zodiac tours, kayaking and hikes on applicable voyages"
+      ],
+      [
+        "Destination Experiences",
+        "Wildlife, scenery, beaches, history and local culture"
+      ],
+      [
+        "Shopping With the Chef",
+        "Local food-market experiences on select itineraries"
+      ],
+      [
+        "Beach Events",
+        "Signature events such as Caviar in the Surf on select sailings"
+      ]
     ]
   },
   "typicalDay": {
@@ -627,20 +680,76 @@
       "Large Mainstream Cruise"
     ],
     "rows": [
-      ["Ship Atmosphere", "Intimate and yacht-like", "Resort-like"],
-      ["Pools", "Yes", "Usually multiple"],
-      ["Waterslides", "Not a central feature", "Common on some ships"],
-      ["Fine Dining", "Major focus", "Available"],
-      ["Enrichment", "Strong focus", "Varies"],
-      ["Live Entertainment", "Yes", "Often extensive"],
-      ["Nightlife", "More intimate", "Often more extensive"],
-      ["Spa", "Yes", "Yes"],
-      ["Fitness", "Yes", "Yes"],
-      ["Destination Focus", "Strong", "Varies"],
-      ["Expedition Experiences", "Available on select voyages", "Less central"],
-      ["Social Atmosphere", "Smaller-scale", "Larger-scale"],
-      ["Children's Programming", "Limited compared with family lines", "Often extensive"],
-      ["Activities per Day", "Curated", "Very numerous"]
+      [
+        "Ship Atmosphere",
+        "Intimate and yacht-like",
+        "Resort-like"
+      ],
+      [
+        "Pools",
+        "Yes",
+        "Usually multiple"
+      ],
+      [
+        "Waterslides",
+        "Not a central feature",
+        "Common on some ships"
+      ],
+      [
+        "Fine Dining",
+        "Major focus",
+        "Available"
+      ],
+      [
+        "Enrichment",
+        "Strong focus",
+        "Varies"
+      ],
+      [
+        "Live Entertainment",
+        "Yes",
+        "Often extensive"
+      ],
+      [
+        "Nightlife",
+        "More intimate",
+        "Often more extensive"
+      ],
+      [
+        "Spa",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Fitness",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Destination Focus",
+        "Strong",
+        "Varies"
+      ],
+      [
+        "Expedition Experiences",
+        "Available on select voyages",
+        "Less central"
+      ],
+      [
+        "Social Atmosphere",
+        "Smaller-scale",
+        "Larger-scale"
+      ],
+      [
+        "Children's Programming",
+        "Limited compared with family lines",
+        "Often extensive"
+      ],
+      [
+        "Activities per Day",
+        "Curated",
+        "Very numerous"
+      ]
     ]
   },
   "luxuryCompetitors": {
@@ -966,5 +1075,11 @@
       "For travelers who want a luxury cruise where the destination and the quality of the experience matter more than the sheer number of onboard attractions, Seabourn offers a broad range of ways to spend your time.",
       "The most important step is choosing the right ship and itinerary for the activities you actually enjoy."
     ]
+  },
+  "meta": {
+    "title": "What Is There to Do on a Seabourn Cruise? Onboard Activities",
+    "metaTitle": "Things to Do on a Seabourn Cruise: Entertainment, Spa & Sea Days",
+    "description": "Explore all activities and entertainment on a Seabourn cruise: Seabourn Conversations, spa & wellness, sea day activities, live music, and evening nightlife.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/what-is-there-to-do/"
   }
 }

@@ -2,7 +2,7 @@
   "meta": {
     "suggestedUrl": "/seabourn-cruises/ocean-vs-expedition-cruises/",
     "seoTitle": "Seabourn Ocean Cruises vs. Expedition Cruises: What Is the Difference?",
-    "metaTitle": "Seabourn Ocean vs. Expedition Cruises",
+    "metaTitle": "Comparing Seabourn Ocean Ships vs Polar Expedition Vessels",
     "metaDescription": "Seabourn ocean cruises vs. expedition cruises: compare ships, destinations, activities, excursions, suites, dining, pace, wildlife and which experience is right for you.",
     "primaryKeyword": "Seabourn Ocean Cruises vs. Expedition Cruises",
     "secondaryKeywords": [
@@ -27,7 +27,10 @@
       "Seabourn cruise comparison"
     ],
     "searchIntent": "Informational + Commercial Investigation",
-    "contentType": "Luxury Cruise Comparison / Seabourn Authority Guide"
+    "contentType": "Luxury Cruise Comparison / Seabourn Authority Guide",
+    "title": "Seabourn Ocean vs Expedition Cruises: Which Is Right for You?",
+    "description": "Compare Seabourn's classic ocean luxury ships (Encore, Ovation, Quest) with ultra-luxury expedition vessels (Venture, Pursuit). Key differences in vibe and destinations.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ocean-vs-expedition-cruises/"
   },
   "hero": {
     "badge": "ULTRA-LUXURY CRUISE COMPARISON GUIDE",
@@ -36,10 +39,22 @@
     "leadText": "Seabourn offers two distinct styles of luxury cruising: traditional ocean cruises and purpose-built expedition cruises. Both provide Seabourn's small-ship luxury, suites, dining and personalized service, but the travel experience can be quite different.",
     "heroImage": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1920&q=80",
     "stats": [
-      { "label": "Ocean Fleet", "value": "Encore, Ovation, Quest" },
-      { "label": "Expedition Fleet", "value": "Venture & Pursuit (PC6)" },
-      { "label": "Expedition Team", "value": "19 World-Class Specialists" },
-      { "label": "Exploration Gear", "value": "24 Zodiacs & Double Kayaks" }
+      {
+        "label": "Ocean Fleet",
+        "value": "Encore, Ovation, Quest"
+      },
+      {
+        "label": "Expedition Fleet",
+        "value": "Venture & Pursuit (PC6)"
+      },
+      {
+        "label": "Expedition Team",
+        "value": "19 World-Class Specialists"
+      },
+      {
+        "label": "Exploration Gear",
+        "value": "24 Zodiacs & Double Kayaks"
+      }
     ]
   },
   "intro": {
@@ -56,28 +71,112 @@
   "quickAnswerTable": {
     "title": "Quick Answer: Ocean vs. Expedition",
     "subtitle": "SIDE-BY-SIDE FEATURE & OPERATIONAL BENCHMARKING",
-    "headers": ["Feature", "Seabourn Ocean Cruises", "Seabourn Expedition Cruises"],
+    "headers": [
+      "Feature",
+      "Seabourn Ocean Cruises",
+      "Seabourn Expedition Cruises"
+    ],
     "rows": [
-      ["Primary Ships", "Encore, Ovation, Quest", "Venture, Pursuit"],
-      ["Ship Purpose", "Luxury ocean cruising", "Purpose-built expedition travel"],
-      ["Atmosphere", "Yacht-like luxury", "Luxury expedition / adventure"],
-      ["Destinations", "Major cities, islands and ports", "Remote and difficult-to-reach regions"],
-      ["Typical Focus", "Culture, food, relaxation and sightseeing", "Exploration, wildlife and discovery"],
-      ["Zodiacs", "Not standard on traditional ocean ships", "Core expedition equipment"],
-      ["Kayaking", "Select experiences", "Expedition option"],
-      ["Expedition Team", "Select Ventures sailings", "Dedicated Expedition Team"],
-      ["Shore Excursions", "Curated excursions", "Expedition landings and excursions"],
-      ["Wildlife", "Available depending on itinerary", "Major focus on many itineraries"],
-      ["Hiking", "Select excursions", "Expedition activity"],
-      ["Scenic Cruising", "Yes", "Yes, often a major component"],
-      ["Flexibility", "More traditional itinerary structure", "Expedition itineraries can adapt to conditions"],
-      ["Antarctica", "Generally expedition-focused", "Core expedition destination"],
-      ["Arctic", "Limited/select", "Major expedition destination"],
-      ["Kimberley", "Not the primary model", "Major expedition destination"],
-      ["Northwest Passage", "No", "Expedition destination"],
-      ["Dining", "Luxury dining", "Luxury dining"],
-      ["Suites", "Oceanfront suites", "Oceanfront veranda suites"],
-      ["Best For", "Luxury destination cruising", "Luxury adventure and exploration"]
+      [
+        "Primary Ships",
+        "Encore, Ovation, Quest",
+        "Venture, Pursuit"
+      ],
+      [
+        "Ship Purpose",
+        "Luxury ocean cruising",
+        "Purpose-built expedition travel"
+      ],
+      [
+        "Atmosphere",
+        "Yacht-like luxury",
+        "Luxury expedition / adventure"
+      ],
+      [
+        "Destinations",
+        "Major cities, islands and ports",
+        "Remote and difficult-to-reach regions"
+      ],
+      [
+        "Typical Focus",
+        "Culture, food, relaxation and sightseeing",
+        "Exploration, wildlife and discovery"
+      ],
+      [
+        "Zodiacs",
+        "Not standard on traditional ocean ships",
+        "Core expedition equipment"
+      ],
+      [
+        "Kayaking",
+        "Select experiences",
+        "Expedition option"
+      ],
+      [
+        "Expedition Team",
+        "Select Ventures sailings",
+        "Dedicated Expedition Team"
+      ],
+      [
+        "Shore Excursions",
+        "Curated excursions",
+        "Expedition landings and excursions"
+      ],
+      [
+        "Wildlife",
+        "Available depending on itinerary",
+        "Major focus on many itineraries"
+      ],
+      [
+        "Hiking",
+        "Select excursions",
+        "Expedition activity"
+      ],
+      [
+        "Scenic Cruising",
+        "Yes",
+        "Yes, often a major component"
+      ],
+      [
+        "Flexibility",
+        "More traditional itinerary structure",
+        "Expedition itineraries can adapt to conditions"
+      ],
+      [
+        "Antarctica",
+        "Generally expedition-focused",
+        "Core expedition destination"
+      ],
+      [
+        "Arctic",
+        "Limited/select",
+        "Major expedition destination"
+      ],
+      [
+        "Kimberley",
+        "Not the primary model",
+        "Major expedition destination"
+      ],
+      [
+        "Northwest Passage",
+        "No",
+        "Expedition destination"
+      ],
+      [
+        "Dining",
+        "Luxury dining",
+        "Luxury dining"
+      ],
+      [
+        "Suites",
+        "Oceanfront suites",
+        "Oceanfront veranda suites"
+      ],
+      [
+        "Best For",
+        "Luxury destination cruising",
+        "Luxury adventure and exploration"
+      ]
     ]
   },
   "coreConcepts": {
@@ -269,21 +368,63 @@
   "destinationMatchmakerTable": {
     "title": "Seabourn Ocean vs. Expedition: Which Destinations Fit Each Style?",
     "subtitle": "MATCHING YOUR DREAM DESTINATION TO THE IDEAL SEABOURN VESSEL CLASS",
-    "headers": ["Your Dream Destination", "Experience to Consider"],
+    "headers": [
+      "Your Dream Destination",
+      "Experience to Consider"
+    ],
     "rows": [
-      ["Mediterranean", "Ocean"],
-      ["Caribbean", "Ocean"],
-      ["Japan", "Ocean"],
-      ["Northern Europe", "Ocean"],
-      ["Canada & New England", "Ocean"],
-      ["Alaska", "Ocean or expedition-style depending on sailing"],
-      ["Antarctica", "Expedition"],
-      ["Arctic", "Expedition"],
-      ["Northwest Passage", "Expedition"],
-      ["Kimberley", "Expedition"],
-      ["South Georgia", "Expedition"],
-      ["Falkland Islands", "Expedition"],
-      ["Remote South Pacific", "Expedition"]
+      [
+        "Mediterranean",
+        "Ocean"
+      ],
+      [
+        "Caribbean",
+        "Ocean"
+      ],
+      [
+        "Japan",
+        "Ocean"
+      ],
+      [
+        "Northern Europe",
+        "Ocean"
+      ],
+      [
+        "Canada & New England",
+        "Ocean"
+      ],
+      [
+        "Alaska",
+        "Ocean or expedition-style depending on sailing"
+      ],
+      [
+        "Antarctica",
+        "Expedition"
+      ],
+      [
+        "Arctic",
+        "Expedition"
+      ],
+      [
+        "Northwest Passage",
+        "Expedition"
+      ],
+      [
+        "Kimberley",
+        "Expedition"
+      ],
+      [
+        "South Georgia",
+        "Expedition"
+      ],
+      [
+        "Falkland Islands",
+        "Expedition"
+      ],
+      [
+        "Remote South Pacific",
+        "Expedition"
+      ]
     ],
     "footnote": "Seabourn's current expedition destination program specifically identifies Antarctica, Arctic, Kimberley, Northwest Passage and South Pacific as expedition regions."
   },

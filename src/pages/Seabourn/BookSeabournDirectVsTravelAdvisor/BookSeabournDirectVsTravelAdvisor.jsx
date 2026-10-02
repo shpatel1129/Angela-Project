@@ -166,14 +166,10 @@ const BookSeabournDirectVsTravelAdvisor = () => {
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans antialiased selection:bg-gold-500 selection:text-white">
       {/* ── SEO Metadata with react-helmet-async ── */}
       <Helmet>
-        <title>{data.meta.seoTitle}</title>
-        <meta name="description" content={data.meta.metaDescription} />
-        <meta name="keywords" content={data.meta.secondaryKeywords.join(", ")} />
-        <link rel="canonical" href={`https://www.tripsandships.com${data.meta.suggestedUrl}`} />
-        <meta property="og:title" content={data.meta.metaTitle} />
-        <meta property="og:description" content={data.meta.metaDescription} />
-        <meta property="og:url" content={`https://www.tripsandships.com${data.meta.suggestedUrl}`} />
-        <meta property="og:type" content="article" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(data.schema)}
         </script>

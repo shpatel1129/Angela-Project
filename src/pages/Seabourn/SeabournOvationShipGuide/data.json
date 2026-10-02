@@ -14,22 +14,67 @@
     "title": "Seabourn Ovation at a Glance",
     "subtitle": "THE SHORT VERSION",
     "caption": "Note: Specific restaurants, entertainment, itineraries and onboard services may vary depending on the sailing and operational schedule.",
-    "headers": ["Feature", "Seabourn Ovation"],
+    "headers": [
+      "Feature",
+      "Seabourn Ovation"
+    ],
     "rows": [
-      ["Ship type", "Luxury ocean cruise ship"],
-      ["Guests", "Approximately 600"],
-      ["Ship style", "All-suite luxury"],
-      ["Atmosphere", "Intimate, elegant and relaxed"],
-      ["Dining", "Multiple restaurants and dining venues"],
-      ["Accommodation", "All-suite"],
-      ["Private verandas", "Available in many suite categories"],
-      ["Pool", "Yes"],
-      ["Spa", "Yes"],
-      ["Fitness center", "Yes"],
-      ["Bars & lounges", "Multiple"],
-      ["Entertainment", "Shows, live music and enrichment"],
-      ["Best for", "Couples, luxury travelers and experienced cruisers"],
-      ["Sister ship", "Seabourn Encore"]
+      [
+        "Ship type",
+        "Luxury ocean cruise ship"
+      ],
+      [
+        "Guests",
+        "Approximately 600"
+      ],
+      [
+        "Ship style",
+        "All-suite luxury"
+      ],
+      [
+        "Atmosphere",
+        "Intimate, elegant and relaxed"
+      ],
+      [
+        "Dining",
+        "Multiple restaurants and dining venues"
+      ],
+      [
+        "Accommodation",
+        "All-suite"
+      ],
+      [
+        "Private verandas",
+        "Available in many suite categories"
+      ],
+      [
+        "Pool",
+        "Yes"
+      ],
+      [
+        "Spa",
+        "Yes"
+      ],
+      [
+        "Fitness center",
+        "Yes"
+      ],
+      [
+        "Bars & lounges",
+        "Multiple"
+      ],
+      [
+        "Entertainment",
+        "Shows, live music and enrichment"
+      ],
+      [
+        "Best for",
+        "Couples, luxury travelers and experienced cruisers"
+      ],
+      [
+        "Sister ship",
+        "Seabourn Encore"
+      ]
     ]
   },
   "whatIsSection": {
@@ -473,7 +518,14 @@
           "Spain & Balearic Islands",
           "Turkey & Ephesus"
         ],
-        "listItems": ["Italy", "Greece", "Croatia", "France", "Spain", "Turkey"]
+        "listItems": [
+          "Italy",
+          "Greece",
+          "Croatia",
+          "France",
+          "Spain",
+          "Turkey"
+        ]
       },
       {
         "id": "northern-europe",
@@ -493,7 +545,13 @@
           "Northern European historic ports",
           "Baltic capitals & medieval cities"
         ],
-        "listItems": ["Scandinavia", "British Isles", "Northern European ports", "Fjords", "Baltic destinations"]
+        "listItems": [
+          "Scandinavia",
+          "British Isles",
+          "Northern European ports",
+          "Fjords",
+          "Baltic destinations"
+        ]
       },
       {
         "id": "caribbean",
@@ -512,7 +570,12 @@
           "Secluded beach destinations",
           "Historic colonial towns"
         ],
-        "listItems": ["Caribbean islands", "Smaller ports", "Beach destinations", "Historic towns"]
+        "listItems": [
+          "Caribbean islands",
+          "Smaller ports",
+          "Beach destinations",
+          "Historic towns"
+        ]
       }
     ]
   },
@@ -594,15 +657,47 @@
   "ovationVsEncoreTable": {
     "title": "Seabourn Ovation vs. Seabourn Encore",
     "subtitle": "Ovation and Encore are sister ships and share many characteristics. For travelers choosing between the two, itinerary, sailing date and suite availability may matter more than the ship itself.",
-    "headers": ["Feature", "Seabourn Ovation", "Seabourn Encore"],
+    "headers": [
+      "Feature",
+      "Seabourn Ovation",
+      "Seabourn Encore"
+    ],
     "rows": [
-      ["Ship type", "Luxury ocean ship", "Luxury ocean ship"],
-      ["Approx. guests", "600", "600"],
-      ["Accommodation", "All-suite", "All-suite"],
-      ["Atmosphere", "Intimate & sophisticated", "Intimate & sophisticated"],
-      ["Dining", "Multiple venues", "Multiple venues"],
-      ["Public spaces", "Luxury lounges & outdoor areas", "Luxury lounges & outdoor areas"],
-      ["Best for", "Luxury ocean cruising", "Luxury ocean cruising"]
+      [
+        "Ship type",
+        "Luxury ocean ship",
+        "Luxury ocean ship"
+      ],
+      [
+        "Approx. guests",
+        "600",
+        "600"
+      ],
+      [
+        "Accommodation",
+        "All-suite",
+        "All-suite"
+      ],
+      [
+        "Atmosphere",
+        "Intimate & sophisticated",
+        "Intimate & sophisticated"
+      ],
+      [
+        "Dining",
+        "Multiple venues",
+        "Multiple venues"
+      ],
+      [
+        "Public spaces",
+        "Luxury lounges & outdoor areas",
+        "Luxury lounges & outdoor areas"
+      ],
+      [
+        "Best for",
+        "Luxury ocean cruising",
+        "Luxury ocean cruising"
+      ]
     ]
   },
   "prosCons": {
@@ -824,5 +919,11 @@
       "buttonText": "Plan Your Voyage",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Ovation Ship Guide: Suites, Dining & Deck Plans",
+    "metaTitle": "Seabourn Ovation Luxury Cruise Ship Review & Itineraries",
+    "description": "Explore Seabourn Ovation: Adam D. Tihany architecture, all-veranda ocean suites, Michelin-inspired dining, wellness retreats, and global itineraries.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-ovation/"
   }
 }

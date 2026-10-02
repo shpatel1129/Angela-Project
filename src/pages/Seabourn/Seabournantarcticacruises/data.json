@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Seabourn Antarctica Cruises: Itineraries, Ships & Guide",
-    "metaTitle": "Seabourn Antarctica Cruises Guide: Ships, Wildlife & Planning",
-    "description": "Explore Seabourn Antarctica cruises, including itineraries, expedition ships, Zodiac landings, wildlife, suites, packing tips, activities and planning advice.",
+    "title": "Seabourn Antarctica Cruises: Polar Expeditions & Wildlife",
+    "metaTitle": "Seabourn Antarctica Luxury Expedition Guide: Ships & Itineraries",
+    "description": "Explore Seabourn Antarctica cruises aboard purpose-built expedition ships. Discover Zodiac landings, penguin colonies, submarine dives, and packing tips.",
     "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/antarctica/"
   },
   "schemaData": {
@@ -15,15 +15,22 @@
         "name": "Seabourn Antarctica Cruises: Itineraries, Ships & Guide",
         "headline": "Seabourn Antarctica Cruises: Complete Guide to Ships, Itineraries, Wildlife & Planning",
         "description": "Explore Seabourn Antarctica cruises, including itineraries, expedition ships, Zodiac landings, wildlife, suites, packing tips, activities and planning advice.",
-        "isPartOf": { "@id": "https://www.tripsandships.com/#website" },
-        "about": { "@type": "Thing", "name": "Seabourn Antarctica Cruises" },
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Seabourn Antarctica Cruises"
+        },
         "mainEntity": {
           "@id": "https://www.tripsandships.com/seabourn-cruises/antarctica/#faq"
         },
         "breadcrumb": {
           "@id": "https://www.tripsandships.com/seabourn-cruises/antarctica/#breadcrumb"
         },
-        "publisher": { "@id": "https://www.tripsandships.com/#organization" }
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        }
       },
       {
         "@type": "TravelAgency",
@@ -36,9 +43,24 @@
         "@type": "BreadcrumbList",
         "@id": "https://www.tripsandships.com/seabourn-cruises/antarctica/#breadcrumb",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Seabourn Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/" },
-          { "@type": "ListItem", "position": 3, "name": "Seabourn Antarctica Cruises", "item": "https://www.tripsandships.com/seabourn-cruises/antarctica/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Seabourn Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Seabourn Antarctica Cruises",
+            "item": "https://www.tripsandships.com/seabourn-cruises/antarctica/"
+          }
         ]
       },
       {
@@ -47,24 +69,150 @@
         "url": "https://www.tripsandships.com/seabourn-cruises/antarctica/",
         "name": "Frequently Asked Questions About Seabourn Antarctica Cruises",
         "mainEntity": [
-          { "@type": "Question", "name": "Does Seabourn cruise to Antarctica?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn operates expedition cruises to Antarctica using its dedicated expedition ships, including Seabourn Venture and Seabourn Pursuit." } },
-          { "@type": "Question", "name": "What Seabourn ships go to Antarctica?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn Venture and Seabourn Pursuit are Seabourn's purpose-built expedition ships designed for destinations such as Antarctica." } },
-          { "@type": "Question", "name": "Does Seabourn Antarctica include Zodiac landings?", "acceptedAnswer": { "@type": "Answer", "text": "Zodiac operations are a core component of Seabourn's expedition experience, with specific landings and excursions depending on weather, sea conditions, ice and local regulations." } },
-          { "@type": "Question", "name": "What wildlife can I see on a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Potential sightings include penguins, whales, seals and numerous seabirds. Specific wildlife sightings cannot be guaranteed." } },
-          { "@type": "Question", "name": "Can I see penguins on a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Penguins are one of the major wildlife attractions of Antarctica, and expedition itineraries can include opportunities to visit or observe penguin colonies." } },
-          { "@type": "Question", "name": "Can I see whales in Antarctica?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Whale sightings are possible during Antarctic voyages, including while cruising and during Zodiac exploration. Humpback whales are among the species that may be encountered." } },
-          { "@type": "Question", "name": "What is the best month for a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "There isn't one universally best month. December through February can be attractive for travelers prioritizing long daylight hours and active wildlife, while earlier and later sailings offer different seasonal conditions." } },
-          { "@type": "Question", "name": "How cold is a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Conditions vary considerably. Antarctica can be cold, windy and wet, particularly during shore landings and Zodiac excursions. Proper layering and waterproof clothing are essential." } },
-          { "@type": "Question", "name": "What should I pack for a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Pack thermal layers, insulating mid-layers, waterproof outerwear, waterproof trousers, warm accessories, suitable footwear, sunglasses, sunscreen and waterproof protection for electronics." } },
-          { "@type": "Question", "name": "Do I need to be physically fit for a Seabourn Antarctica cruise?", "acceptedAnswer": { "@type": "Answer", "text": "Travelers should be comfortable with activities such as Zodiac boarding, walking and potentially uneven terrain. Activity difficulty varies by excursion." } },
-          { "@type": "Question", "name": "Is Seabourn Antarctica good for first-time Antarctica travelers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Seabourn can be particularly appealing to first-time visitors who want a guided expedition experience combined with luxury accommodation, dining and service." } },
-          { "@type": "Question", "name": "Is Seabourn Antarctica all-inclusive?", "acceptedAnswer": { "@type": "Answer", "text": "Many components are included, such as dining and expedition experiences, with specific inclusions varying by sailing. Travelers should review the current terms for their specific voyage." } },
-          { "@type": "Question", "name": "Is Wi-Fi included on Seabourn Antarctica cruises?", "acceptedAnswer": { "@type": "Answer", "text": "Wi-Fi is included as part of Seabourn's onboard offering, although connectivity in Antarctica can be limited by the remote environment." } },
-          { "@type": "Question", "name": "Can Antarctic itineraries change?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Weather, sea conditions, ice, wildlife, safety and local regulations can cause expedition plans to change. Flexibility is an essential part of Antarctic travel." } },
-          { "@type": "Question", "name": "Is the Drake Passage rough?", "acceptedAnswer": { "@type": "Answer", "text": "It can be. Sea conditions vary from relatively calm to rough, and travelers who are prone to motion sickness should prepare accordingly." } },
-          { "@type": "Question", "name": "Does Seabourn provide binoculars?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Swarovski Optik binoculars are provided in every suite aboard Seabourn Venture and Seabourn Pursuit." } },
-          { "@type": "Question", "name": "Is a veranda suite worth it in Antarctica?", "acceptedAnswer": { "@type": "Answer", "text": "For many travelers, yes. A private veranda provides another place to watch glaciers, icebergs, wildlife and passing landscapes without leaving your suite." } },
-          { "@type": "Question", "name": "Is Seabourn Antarctica expensive?", "acceptedAnswer": { "@type": "Answer", "text": "Seabourn is positioned in the luxury expedition market, so fares can be considerably higher than those of mainstream expedition operators. The final cost depends on itinerary, season, suite category and sailing date." } }
+          {
+            "@type": "Question",
+            "name": "Does Seabourn cruise to Antarctica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Seabourn operates expedition cruises to Antarctica using its dedicated expedition ships, including Seabourn Venture and Seabourn Pursuit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What Seabourn ships go to Antarctica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn Venture and Seabourn Pursuit are Seabourn's purpose-built expedition ships designed for destinations such as Antarctica."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn Antarctica include Zodiac landings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zodiac operations are a core component of Seabourn's expedition experience, with specific landings and excursions depending on weather, sea conditions, ice and local regulations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What wildlife can I see on a Seabourn Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Potential sightings include penguins, whales, seals and numerous seabirds. Specific wildlife sightings cannot be guaranteed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I see penguins on a Seabourn Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Penguins are one of the major wildlife attractions of Antarctica, and expedition itineraries can include opportunities to visit or observe penguin colonies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I see whales in Antarctica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Whale sightings are possible during Antarctic voyages, including while cruising and during Zodiac exploration. Humpback whales are among the species that may be encountered."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best month for a Seabourn Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There isn't one universally best month. December through February can be attractive for travelers prioritizing long daylight hours and active wildlife, while earlier and later sailings offer different seasonal conditions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How cold is a Seabourn Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Conditions vary considerably. Antarctica can be cold, windy and wet, particularly during shore landings and Zodiac excursions. Proper layering and waterproof clothing are essential."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I pack for a Seabourn Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pack thermal layers, insulating mid-layers, waterproof outerwear, waterproof trousers, warm accessories, suitable footwear, sunglasses, sunscreen and waterproof protection for electronics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to be physically fit for a Seabourn Antarctica cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Travelers should be comfortable with activities such as Zodiac boarding, walking and potentially uneven terrain. Activity difficulty varies by excursion."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Seabourn Antarctica good for first-time Antarctica travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Seabourn can be particularly appealing to first-time visitors who want a guided expedition experience combined with luxury accommodation, dining and service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Seabourn Antarctica all-inclusive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Many components are included, such as dining and expedition experiences, with specific inclusions varying by sailing. Travelers should review the current terms for their specific voyage."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Wi-Fi included on Seabourn Antarctica cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wi-Fi is included as part of Seabourn's onboard offering, although connectivity in Antarctica can be limited by the remote environment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Antarctic itineraries change?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Weather, sea conditions, ice, wildlife, safety and local regulations can cause expedition plans to change. Flexibility is an essential part of Antarctic travel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the Drake Passage rough?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be. Sea conditions vary from relatively calm to rough, and travelers who are prone to motion sickness should prepare accordingly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Seabourn provide binoculars?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Swarovski Optik binoculars are provided in every suite aboard Seabourn Venture and Seabourn Pursuit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a veranda suite worth it in Antarctica?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For many travelers, yes. A private veranda provides another place to watch glaciers, icebergs, wildlife and passing landscapes without leaving your suite."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Seabourn Antarctica expensive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Seabourn is positioned in the luxury expedition market, so fares can be considerably higher than those of mainstream expedition operators. The final cost depends on itinerary, season, suite category and sailing date."
+            }
+          }
         ]
       }
     ]
@@ -137,16 +285,52 @@
   "ventureVsPursuit": {
     "title": "Seabourn Venture vs. Seabourn Pursuit for Antarctica",
     "subtitle": "Both ships provide a luxury expedition experience, so the itinerary and sailing date should usually be more important than choosing between the ships.",
-    "headers": ["Feature", "Seabourn Venture", "Seabourn Pursuit"],
+    "headers": [
+      "Feature",
+      "Seabourn Venture",
+      "Seabourn Pursuit"
+    ],
     "rows": [
-      ["Purpose-built expedition ship", "Yes", "Yes"],
-      ["Luxury suites", "Yes", "Yes"],
-      ["Expedition team", "Yes", "Yes"],
-      ["Zodiac operations", "Yes", "Yes"],
-      ["Kayaking opportunities", "Yes", "Yes"],
-      ["Antarctic exploration", "Yes", "Yes"],
-      ["Wildlife viewing", "Yes", "Yes"],
-      ["Fine dining", "Yes", "Yes"]
+      [
+        "Purpose-built expedition ship",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Luxury suites",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Expedition team",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Zodiac operations",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Kayaking opportunities",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Antarctic exploration",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Wildlife viewing",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Fine dining",
+        "Yes",
+        "Yes"
+      ]
     ],
     "note": "When comparing sailings, look closely at: Number of expedition days, Antarctic Peninsula routing, South Shetland Islands, Drake Passage schedule, Optional extensions, Suite category, Sailing dates."
   },
@@ -266,14 +450,38 @@
     "subtitle": "Step By Step",
     "note": "Landings can be wet, cold and uneven. That is why appropriate clothing and footwear are essential.",
     "cards": [
-      { "title": "1. Preparing for Excursion", "description": "Dressing in thermal layers, waterproof outer gear, and muck boots in the mud room." },
-      { "title": "2. Safety Instructions", "description": "Receiving safety instructions and environmental briefings from the expedition team." },
-      { "title": "3. Boarding the Zodiac", "description": "Using the sailor's grip method to board the Zodiac safely from the ship's marina." },
-      { "title": "4. Transit to Shore", "description": "Traveling from the ship toward shore across scenic, ice-filled Antarctic waters." },
-      { "title": "5. Landing Ashore", "description": "Stepping onto a landing area, often with a wet landing into shallow water." },
-      { "title": "6. Guided Exploration", "description": "Exploring shorelines, viewing wildlife rookeries, and walking with expedition specialists." },
-      { "title": "7. Returning to Zodiac", "description": "Returning to the Zodiac staging point following team guidance." },
-      { "title": "8. Return to Ship", "description": "Traveling back to the ship for warm beverages, boot cleaning, and relaxation." }
+      {
+        "title": "1. Preparing for Excursion",
+        "description": "Dressing in thermal layers, waterproof outer gear, and muck boots in the mud room."
+      },
+      {
+        "title": "2. Safety Instructions",
+        "description": "Receiving safety instructions and environmental briefings from the expedition team."
+      },
+      {
+        "title": "3. Boarding the Zodiac",
+        "description": "Using the sailor's grip method to board the Zodiac safely from the ship's marina."
+      },
+      {
+        "title": "4. Transit to Shore",
+        "description": "Traveling from the ship toward shore across scenic, ice-filled Antarctic waters."
+      },
+      {
+        "title": "5. Landing Ashore",
+        "description": "Stepping onto a landing area, often with a wet landing into shallow water."
+      },
+      {
+        "title": "6. Guided Exploration",
+        "description": "Exploring shorelines, viewing wildlife rookeries, and walking with expedition specialists."
+      },
+      {
+        "title": "7. Returning to Zodiac",
+        "description": "Returning to the Zodiac staging point following team guidance."
+      },
+      {
+        "title": "8. Return to Ship",
+        "description": "Traveling back to the ship for warm beverages, boot cleaning, and relaxation."
+      }
     ]
   },
   "includedQA": {
@@ -308,25 +516,45 @@
         "icon": "Footprints",
         "title": "Penguins",
         "description": "Depending on the location and season, travelers may encounter Gentoo, Chinstrap and Adélie penguins across vibrant coastal colonies.",
-        "bullets": ["Gentoo Penguins", "Chinstrap Penguins", "Adélie Penguins", "Nesting & chick rearing"]
+        "bullets": [
+          "Gentoo Penguins",
+          "Chinstrap Penguins",
+          "Adélie Penguins",
+          "Nesting & chick rearing"
+        ]
       },
       {
         "icon": "Fish",
         "title": "Whales",
         "description": "Possible sightings include humpback whales, minke whales and orcas breaching or feeding in the nutrient-rich southern waters.",
-        "bullets": ["Humpback Whales", "Minke Whales", "Orcas (Killer Whales)", "Bubble-net feeding"]
+        "bullets": [
+          "Humpback Whales",
+          "Minke Whales",
+          "Orcas (Killer Whales)",
+          "Bubble-net feeding"
+        ]
       },
       {
         "icon": "Waves",
         "title": "Seals",
         "description": "You may encounter Weddell seals resting on ice floes, crabeater seals, leopard seals patrolling ice edges, and southern fur seals.",
-        "bullets": ["Weddell Seals", "Crabeater Seals", "Leopard Seals", "Fur Seals"]
+        "bullets": [
+          "Weddell Seals",
+          "Crabeater Seals",
+          "Leopard Seals",
+          "Fur Seals"
+        ]
       },
       {
         "icon": "Bird",
         "title": "Birds",
         "description": "Antarctic waters and skies are home to numerous seabirds, including wandering albatross, giant petrels, skuas, and shearwaters.",
-        "bullets": ["Albatross Species", "Giant Petrels", "Antarctic Skuas", "Cape Petrels"]
+        "bullets": [
+          "Albatross Species",
+          "Giant Petrels",
+          "Antarctic Skuas",
+          "Cape Petrels"
+        ]
       }
     ]
   },
@@ -624,24 +852,57 @@
     "heading": "Best Time to Take a Seabourn Antarctica Cruise",
     "intro": "Antarctica's cruise season occurs during the Southern Hemisphere summer. The season generally runs from approximately November through March, although the exact sailing calendar varies. There isn't one perfect month for every traveler.",
     "months": [
-      { "m": "November", "h": "Ice, pristine snow, early-season landscapes and courtship rituals" },
-      { "m": "December", "h": "Long daylight (up to 24h), active wildlife, egg hatching" },
-      { "m": "January", "h": "Peak summer expedition conditions, penguin chicks active" },
-      { "m": "February", "h": "Peak whale watching opportunities, chicks fledging" },
-      { "m": "March", "h": "Late-season atmosphere, whale activity, dramatic sunsets" }
+      {
+        "m": "November",
+        "h": "Ice, pristine snow, early-season landscapes and courtship rituals"
+      },
+      {
+        "m": "December",
+        "h": "Long daylight (up to 24h), active wildlife, egg hatching"
+      },
+      {
+        "m": "January",
+        "h": "Peak summer expedition conditions, penguin chicks active"
+      },
+      {
+        "m": "February",
+        "h": "Peak whale watching opportunities, chicks fledging"
+      },
+      {
+        "m": "March",
+        "h": "Late-season atmosphere, whale activity, dramatic sunsets"
+      }
     ],
     "durationNote": "How long should you spend in Antarctica? Longer isn't automatically better, but additional expedition time can provide more opportunities for wildlife encounters, shore landings, Zodiac exploration, scenic cruising and weather flexibility. When comparing itineraries, look beyond the total cruise length and ask: how much time is actually devoted to Antarctic exploration?"
   },
   "seasonsCompare": {
     "title": "Seabourn Antarctica: November vs. December vs. January vs. February",
     "subtitle": "The best sailing depends on what matters most to you.",
-    "headers": ["Period", "Potential Highlights"],
+    "headers": [
+      "Period",
+      "Potential Highlights"
+    ],
     "rows": [
-      ["November", "Ice, early-season landscapes, pristine snow"],
-      ["December", "Long daylight, active wildlife, penguin nesting"],
-      ["January", "Peak summer expedition conditions, hatching chicks"],
-      ["February", "Wildlife and peak whale watching opportunities"],
-      ["March", "Late-season atmosphere, whale abundance, sunsets"]
+      [
+        "November",
+        "Ice, early-season landscapes, pristine snow"
+      ],
+      [
+        "December",
+        "Long daylight, active wildlife, penguin nesting"
+      ],
+      [
+        "January",
+        "Peak summer expedition conditions, hatching chicks"
+      ],
+      [
+        "February",
+        "Wildlife and peak whale watching opportunities"
+      ],
+      [
+        "March",
+        "Late-season atmosphere, whale abundance, sunsets"
+      ]
     ]
   },
   "cta5": {
@@ -705,18 +966,62 @@
   "vsTraditional": {
     "title": "Seabourn Antarctica vs. Traditional Antarctica Cruise",
     "subtitle": "The biggest difference is how you experience Antarctica.",
-    "headers": ["Feature", "Seabourn Expedition", "Traditional Cruise"],
+    "headers": [
+      "Feature",
+      "Seabourn Expedition",
+      "Traditional Cruise"
+    ],
     "rows": [
-      ["Purpose-built expedition ship", "Yes (PC6 Polar Class)", "Not always"],
-      ["Luxury suites", "Yes (All-suite)", "Varies"],
-      ["Zodiac exploration", "Yes (Daily excursions)", "Not always"],
-      ["Shore landings", "Expedition focused (Daily)", "Limited or unavailable"],
-      ["Expedition specialists", "Yes (Up to 26 experts)", "Varies"],
-      ["Small-ship atmosphere", "Yes (264 guests)", "Usually larger"],
-      ["Fine dining", "Yes (Gourmet multiple venues)", "Varies"],
-      ["Wildlife focus", "High (Close encounters)", "Moderate"],
-      ["Itinerary flexibility", "High (Weather responsive)", "Lower"],
-      ["Luxury service", "High (Nearly 1:1 ratio)", "Varies"]
+      [
+        "Purpose-built expedition ship",
+        "Yes (PC6 Polar Class)",
+        "Not always"
+      ],
+      [
+        "Luxury suites",
+        "Yes (All-suite)",
+        "Varies"
+      ],
+      [
+        "Zodiac exploration",
+        "Yes (Daily excursions)",
+        "Not always"
+      ],
+      [
+        "Shore landings",
+        "Expedition focused (Daily)",
+        "Limited or unavailable"
+      ],
+      [
+        "Expedition specialists",
+        "Yes (Up to 26 experts)",
+        "Varies"
+      ],
+      [
+        "Small-ship atmosphere",
+        "Yes (264 guests)",
+        "Usually larger"
+      ],
+      [
+        "Fine dining",
+        "Yes (Gourmet multiple venues)",
+        "Varies"
+      ],
+      [
+        "Wildlife focus",
+        "High (Close encounters)",
+        "Moderate"
+      ],
+      [
+        "Itinerary flexibility",
+        "High (Weather responsive)",
+        "Lower"
+      ],
+      [
+        "Luxury service",
+        "High (Nearly 1:1 ratio)",
+        "Varies"
+      ]
     ]
   },
   "shoppingAround": {
@@ -789,16 +1094,46 @@
     "title": "First-Time Seabourn Antarctica Tips",
     "subtitle": "Before You Go",
     "cards": [
-      { "title": "1. Choose Itinerary First", "description": "Choose the itinerary before the ship. The destination should drive your decision." },
-      { "title": "2. Respect the Weather", "description": "Don't underestimate the weather. Antarctica can be unpredictable and harsh." },
-      { "title": "3. Master Layering", "description": "Bring layers. Technical layering is much more practical than one huge coat." },
-      { "title": "4. Protect Your Camera", "description": "Protect your camera. Zodiac spray and condensation are very real risks." },
-      { "title": "5. Binoculars Ready", "description": "Keep binoculars accessible. Wildlife can appear unexpectedly at any hour." },
-      { "title": "6. Stay Flexible", "description": "Be flexible. The best expedition experiences happen when plans adapt to conditions." },
-      { "title": "7. Avoid Overpacking", "description": "Don't overpack. You need technical thermal layers, not an enormous wardrobe." },
-      { "title": "8. Prepare for Motion", "description": "Consider motion sensitivity. The Drake Passage can experience rough swells." },
-      { "title": "9. Leave Room for Gear", "description": "Leave room for photography equipment. Antarctica offers non-stop photo opportunities." },
-      { "title": "10. Select Right Suite", "description": "Choose a suite you'll enjoy. You'll spend more time watching scenery than you expect." }
+      {
+        "title": "1. Choose Itinerary First",
+        "description": "Choose the itinerary before the ship. The destination should drive your decision."
+      },
+      {
+        "title": "2. Respect the Weather",
+        "description": "Don't underestimate the weather. Antarctica can be unpredictable and harsh."
+      },
+      {
+        "title": "3. Master Layering",
+        "description": "Bring layers. Technical layering is much more practical than one huge coat."
+      },
+      {
+        "title": "4. Protect Your Camera",
+        "description": "Protect your camera. Zodiac spray and condensation are very real risks."
+      },
+      {
+        "title": "5. Binoculars Ready",
+        "description": "Keep binoculars accessible. Wildlife can appear unexpectedly at any hour."
+      },
+      {
+        "title": "6. Stay Flexible",
+        "description": "Be flexible. The best expedition experiences happen when plans adapt to conditions."
+      },
+      {
+        "title": "7. Avoid Overpacking",
+        "description": "Don't overpack. You need technical thermal layers, not an enormous wardrobe."
+      },
+      {
+        "title": "8. Prepare for Motion",
+        "description": "Consider motion sensitivity. The Drake Passage can experience rough swells."
+      },
+      {
+        "title": "9. Leave Room for Gear",
+        "description": "Leave room for photography equipment. Antarctica offers non-stop photo opportunities."
+      },
+      {
+        "title": "10. Select Right Suite",
+        "description": "Choose a suite you'll enjoy. You'll spend more time watching scenery than you expect."
+      }
     ]
   },
   "suitability": {

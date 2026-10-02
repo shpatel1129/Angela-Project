@@ -44,23 +44,87 @@
   "atAGlance": {
     "eyebrow": "Side-by-Side",
     "title": "Seabourn vs. Silversea at a Glance",
-    "headers": ["Category", "Seabourn", "Silversea"],
+    "headers": [
+      "Category",
+      "Seabourn",
+      "Silversea"
+    ],
     "rows": [
-      ["Overall atmosphere", "Relaxed, yacht-like", "Refined, elegant"],
-      ["Ship size", "Small", "Small to intimate"],
-      ["Suites", "All oceanfront", "All-suite"],
-      ["Private verandas", "Many suites", "Many suites"],
-      ["Butler service", "Suite host/attendant", "Butler service in every suite"],
-      ["Dining", "Excellent", "Excellent"],
-      ["Premium beverages", "Included", "Included"],
-      ["Caviar", "Complimentary", "Available depending on experience"],
-      ["Wi-Fi", "Included packages", "Included"],
-      ["Expedition cruising", "Strong", "Very strong"],
-      ["Dedicated expedition fleet", "Yes", "Yes"],
-      ["Zodiacs", "Expedition ships", "Expedition ships"],
-      ["Destination focus", "Very strong", "Extremely strong"],
-      ["Overall feel", "Casual ultra-luxury", "Classic ultra-luxury"],
-      ["Best for", "Relaxed luxury + intimacy", "Luxury + global exploration"]
+      [
+        "Overall atmosphere",
+        "Relaxed, yacht-like",
+        "Refined, elegant"
+      ],
+      [
+        "Ship size",
+        "Small",
+        "Small to intimate"
+      ],
+      [
+        "Suites",
+        "All oceanfront",
+        "All-suite"
+      ],
+      [
+        "Private verandas",
+        "Many suites",
+        "Many suites"
+      ],
+      [
+        "Butler service",
+        "Suite host/attendant",
+        "Butler service in every suite"
+      ],
+      [
+        "Dining",
+        "Excellent",
+        "Excellent"
+      ],
+      [
+        "Premium beverages",
+        "Included",
+        "Included"
+      ],
+      [
+        "Caviar",
+        "Complimentary",
+        "Available depending on experience"
+      ],
+      [
+        "Wi-Fi",
+        "Included packages",
+        "Included"
+      ],
+      [
+        "Expedition cruising",
+        "Strong",
+        "Very strong"
+      ],
+      [
+        "Dedicated expedition fleet",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Zodiacs",
+        "Expedition ships",
+        "Expedition ships"
+      ],
+      [
+        "Destination focus",
+        "Very strong",
+        "Extremely strong"
+      ],
+      [
+        "Overall feel",
+        "Casual ultra-luxury",
+        "Classic ultra-luxury"
+      ],
+      [
+        "Best for",
+        "Relaxed luxury + intimacy",
+        "Luxury + global exploration"
+      ]
     ]
   },
   "biggestDifference": {
@@ -374,18 +438,62 @@
     ],
     "expeditionFleetNote": "Silversea has a larger and more varied expedition operation, with ships designed to combine luxury accommodations with expedition operations.",
     "matrixTitle": "Seabourn vs. Silversea for Antarctica",
-    "matrixHeaders": ["Category", "Seabourn", "Silversea"],
+    "matrixHeaders": [
+      "Category",
+      "Seabourn",
+      "Silversea"
+    ],
     "matrixRows": [
-      ["Expedition ships", "Excellent", "Excellent"],
-      ["Luxury suites", "Excellent", "Excellent"],
-      ["Butler service", "No dedicated butler in every suite", "Yes"],
-      ["Zodiacs", "Yes", "Yes"],
-      ["Kayaking", "Yes", "Yes"],
-      ["Expedition team", "Yes", "Yes"],
-      ["Wildlife", "Excellent", "Excellent"],
-      ["Dining", "Excellent", "Excellent"],
-      ["Overall atmosphere", "Relaxed", "Refined"],
-      ["Itinerary breadth", "Strong", "Very strong"]
+      [
+        "Expedition ships",
+        "Excellent",
+        "Excellent"
+      ],
+      [
+        "Luxury suites",
+        "Excellent",
+        "Excellent"
+      ],
+      [
+        "Butler service",
+        "No dedicated butler in every suite",
+        "Yes"
+      ],
+      [
+        "Zodiacs",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Kayaking",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Expedition team",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Wildlife",
+        "Excellent",
+        "Excellent"
+      ],
+      [
+        "Dining",
+        "Excellent",
+        "Excellent"
+      ],
+      [
+        "Overall atmosphere",
+        "Relaxed",
+        "Refined"
+      ],
+      [
+        "Itinerary breadth",
+        "Strong",
+        "Very strong"
+      ]
     ]
   },
   "travelerTypes": {
@@ -484,11 +592,21 @@
     "intro": "This is one of the easiest ways to understand the difference. Neither is objectively better.",
     "seabourn": {
       "sub": "Private yacht + luxury resort + relaxed social atmosphere",
-      "items": ["Casual", "Sophisticated", "Intimate", "Relaxed"]
+      "items": [
+        "Casual",
+        "Sophisticated",
+        "Intimate",
+        "Relaxed"
+      ]
     },
     "silversea": {
       "sub": "Private yacht + European luxury hotel + global expedition",
-      "items": ["Elegant", "Refined", "Personalized", "Destination-focused"]
+      "items": [
+        "Elegant",
+        "Refined",
+        "Personalized",
+        "Destination-focused"
+      ]
     }
   },
   "costAndValue": {
@@ -801,5 +919,11 @@
       "buttonText": "Plan Your Yacht Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn vs Silversea: Which Ultra-Luxury Line Is Better?",
+    "metaTitle": "Seabourn vs Silversea Cruise Comparison: Suites, Dining & Value",
+    "description": "Head-to-head comparison of Seabourn vs Silversea. Analyze butler service, gourmet dining (Solis vs S.A.L.T.), ocean & expedition ships, and inclusions.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/seabourn-vs-silversea/"
   }
 }

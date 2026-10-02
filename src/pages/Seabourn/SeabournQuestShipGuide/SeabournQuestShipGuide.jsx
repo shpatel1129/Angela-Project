@@ -233,13 +233,10 @@ const SeabournQuestGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Seabourn Quest: Ship Guide, Suites & World Cruises</title>
-        <meta name="title" content="Seabourn Quest Ship Guide: Suites, Dining & World Cruises" />
-        <meta
-          name="description"
-          content="Explore Seabourn Quest, including its intimate ship experience, suites, dining, amenities, itineraries, World Cruises and who this luxury ship is best suited for."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/ships/seabourn-quest/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

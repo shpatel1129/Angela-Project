@@ -278,7 +278,7 @@ const WhatIsAverageAgeOnSeabourn = () => {
     <div className="bg-white min-h-screen">
       {/* ── SEO / Meta Tags ────────────────────────────────────────── */}
       <Helmet>
-        <title>{data.meta.seoTitle}</title>
+        <title>{data.meta.title}</title>
         <meta name="title" content={data.meta.metaTitle} />
         <meta name="description" content={data.meta.description} />
         <link rel="canonical" href={data.meta.canonicalUrl} />

@@ -81,13 +81,10 @@ const SeabournSuitesGuide = () => {
   return (
     <div className="w-full min-h-screen bg-white text-navy-950">
       <Helmet>
-        <title>Seabourn Suites: Complete Guide to Categories & Sizes</title>
-        <meta name="title" content="Seabourn Suites Guide: Categories, Sizes, Verandas & Amenities" />
-        <meta
-          name="description"
-          content="Compare Seabourn suites by category, size, veranda, location and amenities. See Ocean View, Veranda, Penthouse, Owner's, Signature and Wintergarden suites."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/suites/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(data.schemaData)}</script>
       </Helmet>
 

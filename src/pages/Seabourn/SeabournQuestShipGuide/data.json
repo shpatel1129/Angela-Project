@@ -14,23 +14,71 @@
     "title": "Seabourn Quest at a Glance",
     "subtitle": "QUICK OVERVIEW",
     "caption": "Note: Exact itineraries, World Cruise schedules, dining operations and onboard offerings can change by sailing.",
-    "headers": ["Feature", "Seabourn Quest"],
+    "headers": [
+      "Feature",
+      "Seabourn Quest"
+    ],
     "rows": [
-      ["Ship type", "Luxury ocean cruise ship"],
-      ["Ship style", "Intimate, all-suite luxury"],
-      ["Passenger capacity", "Approximately 458 guests"],
-      ["Atmosphere", "Quiet, elegant and personalized"],
-      ["Accommodation", "All-suite"],
-      ["Dining", "Multiple dining venues"],
-      ["Private verandas", "Available in selected suite categories"],
-      ["Pool", "Yes"],
-      ["Spa", "Yes"],
-      ["Fitness", "Yes"],
-      ["Lounges", "Multiple"],
-      ["Entertainment", "Live music, performances and enrichment"],
-      ["Long voyages", "Yes"],
-      ["World Cruises", "Yes, on selected schedules"],
-      ["Best for", "Couples, solo travelers, experienced cruisers and long-voyage travelers"]
+      [
+        "Ship type",
+        "Luxury ocean cruise ship"
+      ],
+      [
+        "Ship style",
+        "Intimate, all-suite luxury"
+      ],
+      [
+        "Passenger capacity",
+        "Approximately 458 guests"
+      ],
+      [
+        "Atmosphere",
+        "Quiet, elegant and personalized"
+      ],
+      [
+        "Accommodation",
+        "All-suite"
+      ],
+      [
+        "Dining",
+        "Multiple dining venues"
+      ],
+      [
+        "Private verandas",
+        "Available in selected suite categories"
+      ],
+      [
+        "Pool",
+        "Yes"
+      ],
+      [
+        "Spa",
+        "Yes"
+      ],
+      [
+        "Fitness",
+        "Yes"
+      ],
+      [
+        "Lounges",
+        "Multiple"
+      ],
+      [
+        "Entertainment",
+        "Live music, performances and enrichment"
+      ],
+      [
+        "Long voyages",
+        "Yes"
+      ],
+      [
+        "World Cruises",
+        "Yes, on selected schedules"
+      ],
+      [
+        "Best for",
+        "Couples, solo travelers, experienced cruisers and long-voyage travelers"
+      ]
     ]
   },
   "whatIsSection": {
@@ -188,7 +236,6 @@
         "subtitle": "Casual Indoor & Outdoor Dining",
         "description": "The Colonnade provides a more casual dining environment for breakfast, lunch, casual dinners, and relaxed meals between excursions, offering regional and international dishes."
       },
-     
       {
         "title": "In-Suite Dining",
         "subtitle": "24-Hour Course-by-Course Service",
@@ -279,7 +326,14 @@
           "French Riviera & Monaco",
           "Spanish Balearic Islands & Barcelona"
         ],
-        "listItems": ["Italy", "Greece", "Croatia", "France", "Spain", "Turkey"]
+        "listItems": [
+          "Italy",
+          "Greece",
+          "Croatia",
+          "France",
+          "Spain",
+          "Turkey"
+        ]
       },
       {
         "id": "northern-europe",
@@ -298,7 +352,12 @@
           "British Isles & Remote Scottish Isles",
           "Historic Northern European Harbors"
         ],
-        "listItems": ["Norwegian Fjords", "Scandinavia", "British Isles", "Baltic Ports"]
+        "listItems": [
+          "Norwegian Fjords",
+          "Scandinavia",
+          "British Isles",
+          "Baltic Ports"
+        ]
       },
       {
         "id": "caribbean-southamerica",
@@ -317,7 +376,12 @@
           "Patagonia & Chilean Fjords",
           "Panama Canal Scenic Transit"
         ],
-        "listItems": ["Caribbean", "South America", "Patagonia", "Panama Canal"]
+        "listItems": [
+          "Caribbean",
+          "South America",
+          "Patagonia",
+          "Panama Canal"
+        ]
       },
       {
         "id": "asia-pacific",
@@ -336,7 +400,12 @@
           "Australia & Great Barrier Reef",
           "New Zealand Fjords & South Pacific Isles"
         ],
-        "listItems": ["Asia", "Australia", "New Zealand", "South Pacific"]
+        "listItems": [
+          "Asia",
+          "Australia",
+          "New Zealand",
+          "South Pacific"
+        ]
       },
       {
         "id": "world-cruises",
@@ -355,7 +424,12 @@
           "Slow travel and extended sea day relaxation",
           "Build lasting relationships with fellow guests and crew"
         ],
-        "listItems": ["Global routing", "Multiple continents", "Unpack once", "Community atmosphere"]
+        "listItems": [
+          "Global routing",
+          "Multiple continents",
+          "Unpack once",
+          "Community atmosphere"
+        ]
       }
     ]
   },
@@ -442,28 +516,88 @@
   "questVsEncoreTable": {
     "title": "Seabourn Quest vs. Seabourn Encore",
     "subtitle": "Quest accommodates fewer guests (458) and offers an even more intimate small-ship atmosphere compared to Encore (600 guests).",
-    "headers": ["Feature", "Seabourn Quest", "Seabourn Encore"],
+    "headers": [
+      "Feature",
+      "Seabourn Quest",
+      "Seabourn Encore"
+    ],
     "rows": [
-      ["Approx. guests", "458", "600"],
-      ["Ship type", "Luxury ocean ship", "Luxury ocean ship"],
-      ["Accommodation", "All-suite", "All-suite"],
-      ["Atmosphere", "More intimate", "Intimate"],
-      ["Dining", "Multiple venues", "Multiple venues"],
-      ["Best for", "Smaller-ship enthusiasts & long voyages", "Luxury ocean cruising"],
-      ["World Cruise appeal", "Strong", "Depends on itinerary"]
+      [
+        "Approx. guests",
+        "458",
+        "600"
+      ],
+      [
+        "Ship type",
+        "Luxury ocean ship",
+        "Luxury ocean ship"
+      ],
+      [
+        "Accommodation",
+        "All-suite",
+        "All-suite"
+      ],
+      [
+        "Atmosphere",
+        "More intimate",
+        "Intimate"
+      ],
+      [
+        "Dining",
+        "Multiple venues",
+        "Multiple venues"
+      ],
+      [
+        "Best for",
+        "Smaller-ship enthusiasts & long voyages",
+        "Luxury ocean cruising"
+      ],
+      [
+        "World Cruise appeal",
+        "Strong",
+        "Depends on itinerary"
+      ]
     ]
   },
   "questVsOvationTable": {
     "title": "Seabourn Quest vs. Seabourn Ovation",
     "subtitle": "Quest and Ovation both offer all-suite luxury, but Quest provides the smaller passenger environment and strong World Cruise suitability.",
-    "headers": ["Feature", "Seabourn Quest", "Seabourn Ovation"],
+    "headers": [
+      "Feature",
+      "Seabourn Quest",
+      "Seabourn Ovation"
+    ],
     "rows": [
-      ["Approx. guests", "458", "600"],
-      ["Accommodation", "All-suite", "All-suite"],
-      ["Atmosphere", "Very intimate", "Intimate"],
-      ["Dining", "Multiple venues", "Multiple venues"],
-      ["Best for", "Small-ship experience & long voyages", "Broader luxury ocean experience"],
-      ["World Cruise suitability", "Strong", "Depends on itinerary"]
+      [
+        "Approx. guests",
+        "458",
+        "600"
+      ],
+      [
+        "Accommodation",
+        "All-suite",
+        "All-suite"
+      ],
+      [
+        "Atmosphere",
+        "Very intimate",
+        "Intimate"
+      ],
+      [
+        "Dining",
+        "Multiple venues",
+        "Multiple venues"
+      ],
+      [
+        "Best for",
+        "Small-ship experience & long voyages",
+        "Broader luxury ocean experience"
+      ],
+      [
+        "World Cruise suitability",
+        "Strong",
+        "Depends on itinerary"
+      ]
     ]
   },
   "prosCons": {
@@ -702,5 +836,11 @@
       "buttonText": "Start Planning Your Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Quest Ship Guide: Intimate Yacht Luxury & Suites",
+    "metaTitle": "Seabourn Quest Cruise Ship Review: Dining, Suites & Marina",
+    "description": "Discover Seabourn Quest: 458-guest intimate yacht atmosphere, watersports marina, fine dining, ocean suites, and Grand Voyages across the globe.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-quest/"
   }
 }

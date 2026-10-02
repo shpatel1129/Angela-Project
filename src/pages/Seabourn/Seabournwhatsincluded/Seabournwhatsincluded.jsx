@@ -342,10 +342,10 @@ const SeabournWhatsIncluded = () => {
   return (
     <div className="bg-white min-h-screen font-sans text-slate-800">
       <Helmet>
-        <title>{pageData.seo.title}</title>
-        <meta name="title" content={pageData.seo.metaTitle} />
-        <meta name="description" content={pageData.seo.metaDescription} />
-        <link rel="canonical" href={pageData.seo.canonical} />
+        <title>{pageData.meta.title}</title>
+        <meta name="title" content={pageData.meta.metaTitle} />
+        <meta name="description" content={pageData.meta.description} />
+        <link rel="canonical" href={pageData.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(pageData.schema)}</script>
       </Helmet>
 

@@ -45,23 +45,87 @@
   },
   "atAGlance": {
     "title": "Seabourn vs. Regent at a Glance",
-    "headers": ["Category", "Seabourn", "Regent Seven Seas"],
+    "headers": [
+      "Category",
+      "Seabourn",
+      "Regent Seven Seas"
+    ],
     "rows": [
-      ["Overall style", "Relaxed ultra-luxury", "Classic ultra-luxury"],
-      ["Atmosphere", "Private yacht-like", "Spacious luxury resort at sea"],
-      ["Ship size", "Intimate", "Small to midsize luxury ships"],
-      ["Suites", "All oceanfront", "All-suite"],
-      ["Private balconies", "Most suites", "99% of suites"],
-      ["Suite service", "Personal suite host & attendant", "Personalized service; butler on select suites"],
-      ["Dining", "Excellent", "Excellent"],
-      ["Specialty dining", "Included", "Included"],
-      ["Premium beverages", "Included", "Included"],
-      ["Shore excursions", "Included experiences vary", "Thousands included"],
-      ["Wi-Fi", "Included", "Included"],
-      ["Gratuities", "Included", "Included"],
-      ["Expedition cruising", "Strong", "Available through expedition offerings"],
-      ["Best strength", "Intimacy & atmosphere", "Space & inclusions"],
-      ["Best for", "Relaxed yacht-style luxury", "Maximum all-inclusive value"]
+      [
+        "Overall style",
+        "Relaxed ultra-luxury",
+        "Classic ultra-luxury"
+      ],
+      [
+        "Atmosphere",
+        "Private yacht-like",
+        "Spacious luxury resort at sea"
+      ],
+      [
+        "Ship size",
+        "Intimate",
+        "Small to midsize luxury ships"
+      ],
+      [
+        "Suites",
+        "All oceanfront",
+        "All-suite"
+      ],
+      [
+        "Private balconies",
+        "Most suites",
+        "99% of suites"
+      ],
+      [
+        "Suite service",
+        "Personal suite host & attendant",
+        "Personalized service; butler on select suites"
+      ],
+      [
+        "Dining",
+        "Excellent",
+        "Excellent"
+      ],
+      [
+        "Specialty dining",
+        "Included",
+        "Included"
+      ],
+      [
+        "Premium beverages",
+        "Included",
+        "Included"
+      ],
+      [
+        "Shore excursions",
+        "Included experiences vary",
+        "Thousands included"
+      ],
+      [
+        "Wi-Fi",
+        "Included",
+        "Included"
+      ],
+      [
+        "Gratuities",
+        "Included",
+        "Included"
+      ],
+      [
+        "Expedition cruising",
+        "Strong",
+        "Available through expedition offerings"
+      ],
+      [
+        "Best strength",
+        "Intimacy & atmosphere",
+        "Space & inclusions"
+      ],
+      [
+        "Best for",
+        "Relaxed yacht-style luxury",
+        "Maximum all-inclusive value"
+      ]
     ],
     "note": "Regent says its fleet accommodates between 496 and 822 guests depending on ship, with 99% of suites offering private balconies."
   },
@@ -447,7 +511,12 @@
       "title": "Angela Hughes Luxury Cruise Pricing Guide",
       "intro": "Headline fares can be deceptive in ultra-luxury cruising.",
       "desc": "Prices vary by itinerary, ship, suite category, and sailing date. When Regent includes thousands of excursions and pre-cruise hotels, its net cost may equal or beat lines with lower base fares. Conversely, Seabourn's inclusive caviar, premium beverages, and intimate yacht service deliver superb value if you prefer exploring on your own in port.",
-      "factors": ["Itinerary & Seasonality", "Suite Category", "Included Excursions", "Pre/Post Hotel & Air"],
+      "factors": [
+        "Itinerary & Seasonality",
+        "Suite Category",
+        "Included Excursions",
+        "Pre/Post Hotel & Air"
+      ],
       "callout": "Always compare the total vacation value including excursions and onboard amenities rather than looking solely at starting cruise fares."
     }
   },
@@ -723,5 +792,11 @@
       "buttonText": "Contact Angela Hughes",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn vs Regent Seven Seas: Which Luxury Cruise Is Best?",
+    "metaTitle": "Seabourn vs Regent Comparison: Inclusions, Ships, Suites & Dining",
+    "description": "In-depth comparison between Seabourn and Regent Seven Seas. Compare all-inclusive inclusions, suite luxury, excursions, dining quality, and overall value.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/seabourn-vs-regent/"
   }
 }

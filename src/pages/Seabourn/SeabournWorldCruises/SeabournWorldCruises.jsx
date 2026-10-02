@@ -206,13 +206,10 @@ const SeabournWorldCruises = () => {
   return (
     <div className="bg-white min-h-screen text-navy-950">
       <Helmet>
-        <title>Seabourn World Cruises: Routes, Suites & Planning Guide</title>
-        <meta name="title" content="Seabourn World Cruises & Grand Voyages: Complete Guide" />
-        <meta
-          name="description"
-          content="Explore Seabourn World Cruises and Grand Voyages, including long itineraries, cruise segments, suites, benefits, destinations, planning tips and booking timelines."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/world-cruises/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournWorldCruisesSchema)}</script>
       </Helmet>
 

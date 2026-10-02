@@ -38,10 +38,26 @@
       "Best For"
     ],
     "rows": [
-      ["Caviar in the Surf", "Caviar served in a relaxed beach setting with Champagne", "Foodies, couples, beach lovers"],
-      ["Marina Day", "Water-focused experience using the ship's retractable marina platform", "Active travelers, families, water lovers"],
-      ["Caviar on the Ice", "Caviar experience in an icy, remote expedition setting", "Expedition travelers, Antarctica guests"],
-      ["Evening at Ephesus", "Special private evening concert & visit at the ancient site", "History lovers, culture travelers, couples"]
+      [
+        "Caviar in the Surf",
+        "Caviar served in a relaxed beach setting with Champagne",
+        "Foodies, couples, beach lovers"
+      ],
+      [
+        "Marina Day",
+        "Water-focused experience using the ship's retractable marina platform",
+        "Active travelers, families, water lovers"
+      ],
+      [
+        "Caviar on the Ice",
+        "Caviar experience in an icy, remote expedition setting",
+        "Expedition travelers, Antarctica guests"
+      ],
+      [
+        "Evening at Ephesus",
+        "Special private evening concert & visit at the ancient site",
+        "History lovers, culture travelers, couples"
+      ]
     ]
   },
   "signatureExperiencesCards": {
@@ -97,12 +113,30 @@
       "Signature Experience"
     ],
     "rows": [
-      ["Primarily sightseeing & bus tours", "Experience-focused & immersive"],
-      ["Often standard daytime scheduling", "Can occur at unique, evocative times"],
-      ["Standard destination tour", "Destination + atmosphere + luxury hospitality"],
-      ["Guide-led group movements", "Event-oriented celebration"],
-      ["Primarily educational", "Emotional, sensory, and experiential"],
-      ["Available across many destinations", "Select signature occasions and itineraries"]
+      [
+        "Primarily sightseeing & bus tours",
+        "Experience-focused & immersive"
+      ],
+      [
+        "Often standard daytime scheduling",
+        "Can occur at unique, evocative times"
+      ],
+      [
+        "Standard destination tour",
+        "Destination + atmosphere + luxury hospitality"
+      ],
+      [
+        "Guide-led group movements",
+        "Event-oriented celebration"
+      ],
+      [
+        "Primarily educational",
+        "Emotional, sensory, and experiential"
+      ],
+      [
+        "Available across many destinations",
+        "Select signature occasions and itineraries"
+      ]
     ]
   },
   "bestForCards": [
@@ -110,25 +144,41 @@
       "title": "Best for Foodies",
       "description": "A relaxed combination of beach, caviar and chilled Champagne.",
       "icon": "Utensils",
-      "bullets": ["Caviar in the Surf", "Caviar on the Ice", "Culinary distinction"]
+      "bullets": [
+        "Caviar in the Surf",
+        "Caviar on the Ice",
+        "Culinary distinction"
+      ]
     },
     {
       "title": "Best for Active Travelers",
       "description": "A water-focused experience that lets you get closer to the open sea.",
       "icon": "Waves",
-      "bullets": ["Marina Day", "Ocean kayaking", "Paddleboarding"]
+      "bullets": [
+        "Marina Day",
+        "Ocean kayaking",
+        "Paddleboarding"
+      ]
     },
     {
       "title": "Best for Expedition Travelers",
       "description": "A memorable combination of ultra-luxury and polar surroundings.",
       "icon": "Snowflake",
-      "bullets": ["Caviar on the Ice", "Antarctica voyages", "Remote landings"]
+      "bullets": [
+        "Caviar on the Ice",
+        "Antarctica voyages",
+        "Remote landings"
+      ]
     },
     {
       "title": "Best for History Lovers",
       "description": "A special way to experience one of the Mediterranean's greatest archaeological sites.",
       "icon": "Landmark",
-      "bullets": ["Evening at Ephesus", "Ancient ruins", "Classical evening concert"]
+      "bullets": [
+        "Evening at Ephesus",
+        "Ancient ruins",
+        "Classical evening concert"
+      ]
     }
   ],
   "personasCards": [
@@ -396,5 +446,11 @@
       "buttonText": "Start Planning Your Seabourn Cruise",
       "buttonLink": "/contact"
     }
+  },
+  "meta": {
+    "title": "Seabourn Signature Experiences: Caviar in the Surf & Marina",
+    "metaTitle": "Seabourn Signature Events: Watersports, Marina Day & Caviar",
+    "description": "Discover Seabourn's world-famous signature experiences: Caviar in the Surf beach barbecues, retractable Marina Day watersports, and Shopping with the Chef.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/signature-experiences/"
   }
 }

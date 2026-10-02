@@ -208,13 +208,10 @@ const SeabournOffersLoyaltyGuide = () => {
   return (
     <div className="w-full bg-white text-navy-950 font-sans antialiased">
       <Helmet>
-        <title>Seabourn Offers & Seabourn Club Benefits: 2026 Guide</title>
-        <meta name="title" content="Seabourn Offers, Deals & Seabourn Club Benefits" />
-        <meta
-          name="description"
-          content="Explore Seabourn offers, promotions, onboard credits and Seabourn Club benefits. Learn how past guests can save, earn loyalty rewards and maximize cruise value."
-        />
-        <link rel="canonical" href="https://www.tripsandships.com/seabourn-cruises/offers-loyalty/" />
+        <title>{data.meta.title}</title>
+        <meta name="title" content={data.meta.metaTitle} />
+        <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href={data.meta.canonicalUrl} />
         <script type="application/ld+json">{JSON.stringify(seabournOffersLoyaltySchema)}</script>
       </Helmet>
 
