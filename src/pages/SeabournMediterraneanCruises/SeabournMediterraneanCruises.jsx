@@ -25,12 +25,33 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets (imported with images commented out as standard)
-// import medHeroImg from "../../assets/SeabournShips/seabourn-encore-modern-luxury-ocean-ship.jpg";
-// import diningImg from "../../assets/SeabournShips/seabourn-encore-ovation-solis-specialty-dining.jpg";
-// import loungeImg from "../../assets/SeabournShips/seabourn-encore-onboard-luxury-lifestyle-lounge.jpg";
-// import suiteImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
+// Assets from SeabournMediterraneanCruises (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournMediterraneanCruises/seabourn-mediterranean-cruises-luxury-hero.jpg";
+import whyTakeImg from "../../assets/SeabournMediterraneanCruises/why-take-a-seabourn-mediterranean-luxury-cruise.jpg";
+import findItineraryCtaImg from "../../assets/SeabournMediterraneanCruises/find-your-perfect-seabourn-mediterranean-itinerary-cta.jpg";
+import westernMedImg from "../../assets/SeabournMediterraneanCruises/seabourn-western-mediterranean-luxury-itineraries.webp";
+import easternMedImg from "../../assets/SeabournMediterraneanCruises/seabourn-eastern-mediterranean-greek-isles-itineraries.webp";
+import adriaticImg from "../../assets/SeabournMediterraneanCruises/seabourn-adriatic-dalmatian-coast-croatia-itineraries.jpg";
+import italianGreekImg from "../../assets/SeabournMediterraneanCruises/seabourn-italian-riviera-greek-islands-itineraries.jpg";
+import smallPortsAdvantageImg from "../../assets/SeabournMediterraneanCruises/seabourn-small-ports-advantage-boutique-harbors.jpg";
+import whySmallPortsMatterImg from "../../assets/SeabournMediterraneanCruises/why-small-mediterranean-ports-matter-luxury-cruise.jpg";
+import signatureEventsImg from "../../assets/SeabournMediterraneanCruises/seabourn-mediterranean-signature-events-caviar-in-the-surf.jpg";
+import designShoreDaysCtaImg from "../../assets/SeabournMediterraneanCruises/design-your-seabourn-mediterranean-shore-excursions-cta.jpg";
+import history1Img from "../../assets/SeabournMediterraneanCruises/seabourn-mediterranean-ancient-history-ruins-culture.jpg";
+import history2Img from "../../assets/SeabournMediterraneanCruises/seabourn-mediterranean-unesco-world-heritage-sites.jpg";
+import flavorsImg from "../../assets/SeabournMediterraneanCruises/seabourn-mediterranean-regional-culinary-flavors.jpg";
+import wineRegionsImg from "../../assets/SeabournMediterraneanCruises/seabourn-mediterranean-legendary-wine-regions-tasting.jpg";
+import readyVoyageCtaImg from "../../assets/SeabournMediterraneanCruises/ready-for-seabourn-mediterranean-voyage-advisor-cta.jpg";
+import smallShipLuxuryImg from "../../assets/SeabournMediterraneanCruises/seabourn-small-ship-ultra-luxury-mediterranean.jpg";
+import largeShipMegaImg from "../../assets/SeabournMediterraneanCruises/large-ship-mega-cruise-mediterranean-comparison.jpg";
+import restaurantImg from "../../assets/SeabournMediterraneanCruises/seabourn-the-restaurant-mediterranean-fine-dining.jpg";
+import colonnadeImg from "../../assets/SeabournMediterraneanCruises/seabourn-the-colonnade-casual-regional-dining.jpg";
+import patioImg from "../../assets/SeabournMediterraneanCruises/seabourn-the-patio-al-fresco-poolside-dining.jpg";
+import inSuiteDiningImg from "../../assets/SeabournMediterraneanCruises/seabourn-24-hour-in-suite-private-veranda-dining.jpg";
+import tasteMedCtaImg from "../../assets/SeabournMediterraneanCruises/taste-the-mediterranean-seabourn-culinary-cta.jpg";
+import startPlanningCtaImg from "../../assets/SeabournMediterraneanCruises/start-planning-seabourn-mediterranean-cruise-quote-cta.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -234,6 +255,7 @@ const SeabournMediterraneanCruisesGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs ? data.hero.paragraphs[0] : ""}
         badge="ULTRA-LUXURY MEDITERRANEAN CRUISING"
+        backgroundImage={heroBgImg}
         secondaryCtaText={data.hero.ctaText || "Start Planning Your Mediterranean Cruise"}
         secondaryCtaLink={data.hero.ctaLink || "/contact"}
       />
@@ -253,6 +275,7 @@ const SeabournMediterraneanCruisesGuide = () => {
         highlightsTitle="A Seabourn voyage can combine:"
         highlights={data.whyTakeSection.highlights}
         conclusion={data.whyTakeSection.conclusion}
+        image={whyTakeImg}
         imagePlaceholderText="Seabourn Mediterranean Coastal Exploration"
       />
 
@@ -270,6 +293,7 @@ const SeabournMediterraneanCruisesGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={findItineraryCtaImg}
         theme="dark"
       />
 
@@ -278,14 +302,14 @@ const SeabournMediterraneanCruisesGuide = () => {
         title={data.itineraryShowcase.title}
         subtitle={data.itineraryShowcase.subtitle}
         items={data.itineraryShowcase.items}
-        images={[
-          // medHeroImg, // Images commented out as standard
-        ]}
+        images={[westernMedImg, easternMedImg, adriaticImg, italianGreekImg]}
       />
 
       {/* ── 7. SMALL PORTS VS WHY THEY MATTER (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.smallPortsFaceoff}
+        regentImage={smallPortsAdvantageImg}
+        vikingImage={whySmallPortsMatterImg}
       />
 
       {/* ── 8. SIGNATURE EVENTS (EDITORIAL FEATURE SHOWCASE) ── */}
@@ -293,6 +317,7 @@ const SeabournMediterraneanCruisesGuide = () => {
         title={data.signatureEvents.title}
         subtitle={data.signatureEvents.subtitle}
         features={data.signatureEvents.features}
+        image={signatureEventsImg}
         bgClass="bg-white"
       />
 
@@ -302,6 +327,7 @@ const SeabournMediterraneanCruisesGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
+        image={designShoreDaysCtaImg}
         theme="dark"
       />
 
@@ -318,6 +344,8 @@ const SeabournMediterraneanCruisesGuide = () => {
         subtitle={data.historySection.subtitle}
         paragraphs={data.historySection.paragraphs}
         highlights={data.historySection.highlights}
+        image1={history1Img}
+        image2={history2Img}
         image1Placeholder={data.historySection.image1Placeholder}
         image2Placeholder={data.historySection.image2Placeholder}
       />
@@ -326,10 +354,10 @@ const SeabournMediterraneanCruisesGuide = () => {
       <LuxuryFeatureShowcase
         title={data.foodAndWine.title}
         subtitle={data.foodAndWine.subtitle}
-        items={data.foodAndWine.items}
-        images={[
-          // diningImg, // Images commented out as standard
-        ]}
+        items={data.foodAndWine.items.map((item, idx) => ({
+          ...item,
+          image: [flavorsImg, wineRegionsImg][idx]
+        }))}
       />
 
       {/* ── 13. TRAVELER PERSONAS (COUPLES, FIRST-TIME LUXURY, FAMILIES) ── */}
@@ -345,7 +373,17 @@ const SeabournMediterraneanCruisesGuide = () => {
         description={data.ctas.midCta3.description}
         buttonText={data.ctas.midCta3.buttonText}
         buttonLink={data.ctas.midCta3.buttonLink}
+        image={readyVoyageCtaImg}
         theme="dark"
+      />
+
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "kQEgvML8lF4",
+          title: "Experience Seabourn Mediterranean Luxury Cruising",
+          description: "Discover the breathtaking beauty of the Mediterranean with Seabourn's intimate small-ship yachting experience."
+        }}
       />
 
       {/* ── 15. BEST TIME TO CRUISE (SALT JOURNEY TIMELINE) ── */}
@@ -375,6 +413,8 @@ const SeabournMediterraneanCruisesGuide = () => {
       {/* ── 19. SEABOURN VS LARGE-SHIP CRUISES (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.seabournVsLargeFaceoff}
+        regentImage={smallShipLuxuryImg}
+        vikingImage={largeShipMegaImg}
       />
 
       {/* ── 20. MEDITERRANEAN DINING PROGRAM (DYNAMIC CULINARY SHOWCASE) ── */}
@@ -383,9 +423,7 @@ const SeabournMediterraneanCruisesGuide = () => {
         subtitle={data.diningProgram.subtitle}
         description={data.diningProgram.description}
         items={data.diningProgram.items}
-        images={[
-          // diningImg, // Images commented out as standard
-        ]}
+        images={[restaurantImg, colonnadeImg, patioImg, inSuiteDiningImg]}
       />
 
       {/* ── 21. PROS AND CONS ── */}
@@ -405,7 +443,8 @@ const SeabournMediterraneanCruisesGuide = () => {
         description={data.ctas.midCta4.description}
         buttonText={data.ctas.midCta4.buttonText}
         buttonLink={data.ctas.midCta4.buttonLink}
-        theme="light"
+        image={tasteMedCtaImg}
+        theme="dark"
       />
 
       {/* ── 23. WHO SHOULD BOOK VS ALTERNATIVES ── */}
@@ -465,7 +504,8 @@ const SeabournMediterraneanCruisesGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={startPlanningCtaImg}
+        theme="dark"
       />
     </div>
   );

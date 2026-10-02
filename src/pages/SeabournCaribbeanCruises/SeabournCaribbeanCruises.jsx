@@ -25,12 +25,32 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets (imported with images commented out as standard)
-// import caribbeanHeroImg from "../../assets/SeabournShips/seabourn-encore-modern-luxury-ocean-ship.jpg";
-// import diningImg from "../../assets/SeabournShips/seabourn-encore-ovation-solis-specialty-dining.jpg";
-// import loungeImg from "../../assets/SeabournShips/seabourn-encore-onboard-luxury-lifestyle-lounge.jpg";
-// import suiteImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
+// Assets from SeabournCaribbeanCruises (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournCaribbeanCruises/seabourn-caribbean-cruises-luxury-hero.jpg";
+import whyTakeImg from "../../assets/SeabournCaribbeanCruises/why-take-a-seabourn-caribbean-cruise.jpg";
+import findItineraryCtaImg from "../../assets/SeabournCaribbeanCruises/find-your-perfect-caribbean-sailing-cta.jpg";
+import easternCaribImg from "../../assets/SeabournCaribbeanCruises/seabourn-eastern-caribbean-itineraries.jpg";
+import southernCaribImg from "../../assets/SeabournCaribbeanCruises/seabourn-southern-caribbean-itineraries.jpg";
+import lesserAntillesImg from "../../assets/SeabournCaribbeanCruises/seabourn-lesser-antilles-itineraries.jpg";
+import yachtHarborImg from "../../assets/SeabournCaribbeanCruises/seabourn-yacht-harbor-experience.jpg";
+import whySmallerHarborsImg from "../../assets/SeabournCaribbeanCruises/why-smaller-caribbean-harbors-matter.jpg";
+import marinaDayImg from "../../assets/SeabournCaribbeanCruises/seabourn-marina-day-floating-beach-club.jpg";
+import reserveExperiencesCtaImg from "../../assets/SeabournCaribbeanCruises/reserve-marina-day-caviar-in-the-surf-cta.jpg";
+import caviar1Img from "../../assets/SeabournCaribbeanCruises/seabourn-caviar-in-the-surf-beach-party-1.jpg";
+import caviar2Img from "../../assets/SeabournCaribbeanCruises/seabourn-caviar-in-the-surf-champagne-splash-2.jpg";
+import customGetawayCtaImg from "../../assets/SeabournCaribbeanCruises/plan-your-custom-caribbean-getaway-cta.jpg";
+import scenicCruisingImg from "../../assets/SeabournCaribbeanCruises/seabourn-caribbean-scenic-cruising-balcony-value.jpg";
+import smallShipLuxuryImg from "../../assets/SeabournCaribbeanCruises/seabourn-small-ship-luxury-caribbean.jpg";
+import largeShipMegaImg from "../../assets/SeabournCaribbeanCruises/large-ship-mega-cruises-caribbean-comparison.jpg";
+import yachtingLifestyleCtaImg from "../../assets/SeabournCaribbeanCruises/experience-the-yachting-lifestyle-cta.jpg";
+import restaurantImg from "../../assets/SeabournCaribbeanCruises/seabourn-the-restaurant-caribbean-fine-dining.jpg";
+import colonnadeImg from "../../assets/SeabournCaribbeanCruises/seabourn-the-colonnade-casual-caribbean-dining.jpg";
+import patioImg from "../../assets/SeabournCaribbeanCruises/seabourn-the-patio-al-fresco-poolside-caribbean-dining.jpg";
+import inSuiteDiningImg from "../../assets/SeabournCaribbeanCruises/seabourn-24-hour-in-suite-veranda-dining.jpg";
+import valuePropositionImg from "../../assets/SeabournCaribbeanCruises/seabourn-caribbean-value-proposition.jpg";
+import finalCtaImg from "../../assets/SeabournCaribbeanCruises/start-planning-seabourn-caribbean-cruise-cta.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -170,7 +190,7 @@ const SeabournCaribbeanCruises = () => {
         primaryCtaLink="/contact"
         secondaryCtaText={data.hero.ctaText}
         secondaryCtaLink={data.hero.ctaLink}
-        image=""
+        backgroundImage={heroBgImg}
       />
 
       {/* ── 2. AT A GLANCE OVERVIEW (TABLE) ── */}
@@ -186,6 +206,7 @@ const SeabournCaribbeanCruises = () => {
         highlightsTitle="A Seabourn Caribbean cruise is designed for travelers who prefer:"
         highlights={data.whyTakeSection.highlights}
         conclusion={data.whyTakeSection.conclusion}
+        image={whyTakeImg}
         imagePlaceholderText={data.whyTakeSection.imagePlaceholderText}
       />
 
@@ -202,6 +223,7 @@ const SeabournCaribbeanCruises = () => {
         title={data.itineraryShowcase.title}
         subtitle={data.itineraryShowcase.subtitle}
         items={data.itineraryShowcase.items}
+        images={[easternCaribImg, southernCaribImg, lesserAntillesImg]}
       />
 
       {/* ── 6. CTA 1 (ITINERARY ASSISTANCE) ── */}
@@ -210,12 +232,15 @@ const SeabournCaribbeanCruises = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={findItineraryCtaImg}
         theme="dark"
       />
 
       {/* ── 7. YACHT HARBORS & SMALL PORTS (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.yachtHarborsFaceoff}
+        regentImage={yachtHarborImg}
+        vikingImage={whySmallerHarborsImg}
       />
 
       {/* ── 8. SEABOURN CARIBBEAN BEACHES ── */}
@@ -232,6 +257,7 @@ const SeabournCaribbeanCruises = () => {
         description={data.marinaDaySection.description}
         features={data.marinaDaySection.features}
         badge="SIGNATURE WATERTOP LIVING"
+        image={marinaDayImg}
       />
 
       {/* ── 10. CTA 2 (RESERVE SIGNATURE EXPERIENCES) ── */}
@@ -240,6 +266,7 @@ const SeabournCaribbeanCruises = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
+        image={reserveExperiencesCtaImg}
         theme="dark"
       />
 
@@ -249,6 +276,8 @@ const SeabournCaribbeanCruises = () => {
         subtitle={data.caviarInTheSurf.subtitle}
         paragraphs={data.caviarInTheSurf.paragraphs}
         highlights={data.caviarInTheSurf.highlights}
+        image1={caviar1Img}
+        image2={caviar2Img}
         image1Placeholder={data.caviarInTheSurf.image1Placeholder}
         image2Placeholder={data.caviarInTheSurf.image2Placeholder}
       />
@@ -278,7 +307,17 @@ const SeabournCaribbeanCruises = () => {
         description={data.ctas.midCta3.description}
         buttonText={data.ctas.midCta3.buttonText}
         buttonLink={data.ctas.midCta3.buttonLink}
+        image={customGetawayCtaImg}
         theme="dark"
+      />
+
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "4pcz4IQAaIo",
+          title: "Experience Seabourn Caribbean Luxury Cruising",
+          description: "Discover the magic of yacht-like cruising across intimate Caribbean harbors, pristine secluded beaches, and signature watersports."
+        }}
       />
 
       {/* ── 16. BEST TIME TO SAIL (CARD GRID) ── */}
@@ -304,12 +343,15 @@ const SeabournCaribbeanCruises = () => {
         highlightsTitle="The Veranda Advantage in the Caribbean:"
         highlights={data.scenicCruising.highlights}
         conclusion={data.scenicCruising.conclusion}
+        image={scenicCruisingImg}
         imagePlaceholderText="Caribbean Oceanfront Veranda Views"
       />
 
       {/* ── 19. SEABOURN VS LARGE-SHIP CARIBBEAN CRUISES (FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.seabournVsLargeFaceoff}
+        regentImage={smallShipLuxuryImg}
+        vikingImage={largeShipMegaImg}
       />
 
       {/* ── 20. CTA 4 (YACHTING LIFESTYLE) ── */}
@@ -318,7 +360,8 @@ const SeabournCaribbeanCruises = () => {
         description={data.ctas.midCta4.description}
         buttonText={data.ctas.midCta4.buttonText}
         buttonLink={data.ctas.midCta4.buttonLink}
-        theme="light"
+        image={yachtingLifestyleCtaImg}
+        theme="dark"
       />
 
       {/* ── 21. DINING & INCLUSIONS (DYNAMIC CULINARY SHOWCASE) ── */}
@@ -327,14 +370,12 @@ const SeabournCaribbeanCruises = () => {
         subtitle={data.inclusionsAndDining.subtitle}
         description={data.inclusionsAndDining.description}
         items={data.inclusionsAndDining.items}
-        images={[
-          // diningImg, // Images commented out as standard
-        ]}
+        images={[restaurantImg, colonnadeImg, patioImg, inSuiteDiningImg]}
       />
 
       {/* ── 22. VALUE PROPOSITION (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{ ...data.worthItBrand, image: valuePropositionImg }}
         index={0}
       />
 
@@ -404,6 +445,7 @@ const SeabournCaribbeanCruises = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
+        image={finalCtaImg}
         theme="dark"
       />
     </div>

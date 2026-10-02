@@ -23,12 +23,27 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";  
+import VideoEmbed from "../../components/ui/VideoEmbed";  
 
-// Assets (imported with images commented out as standard)
-import kimberleyHeroImg from "../../assets/SeabournShips/seabourn-pursuit-ultra-luxury-expedition-vessel.jpg";
-import venturePolarImg from "../../assets/SeabournShips/seabourn-venture-polar-class-expedition-ship.jpg";
-import discoveryLoungeImg from "../../assets/SeabournShips/seabourn-venture-onboard-expedition-discovery-lounge.jpg";
-import expeditionDiningImg from "../../assets/SeabournShips/seabourn-venture-pursuit-expedition-fine-dining.jpg";
+// Assets from SeabournKimberleyCruises (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-cruises-luxury-expedition-hero.jpg";
+import whyTakeImg from "../../assets/SeabournKimberleyCruises/why-take-a-seabourn-kimberley-luxury-cruise.jpg";
+import zodiacExcursionsImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-zodiac-excursions-coastal-exploration.jpg";
+import expeditionConditionsImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-expedition-zodiac-conditions-exploration.jpg";
+import waterfalls1Img from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-seasonal-waterfalls-cascades.jpg";
+import waterfalls2Img from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-zodiac-waterfall-exploration.jpg";
+import exploreVoyagesCtaImg from "../../assets/SeabournKimberleyCruises/explore-seabourn-kimberley-expedition-voyages-cta.jpg";
+import culturalHeritageImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-indigenous-cultural-heritage-traditions.jpg";
+import whyIndigenousImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-indigenous-experiences-rock-art.jpg";
+import scenicCruisingImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-scenic-cruising-gorges-cliffs.jpg";
+import bestTimeImg from "../../assets/SeabournKimberleyCruises/best-time-for-seabourn-kimberley-cruise-dry-season.jpg";
+import weatherClimateImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-weather-tropical-climate-guide.jpg";
+import findSailingDateCtaImg from "../../assets/SeabournKimberleyCruises/find-ideal-seabourn-kimberley-sailing-dates-cta.jpg";
+import onboardExperienceImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-onboard-luxury-experience-suites-dining.jpg";
+import kimberleyExpeditionImg from "../../assets/SeabournKimberleyCruises/seabourn-kimberley-expedition-cruise-wilderness.jpg";
+import traditionalLuxuryImg from "../../assets/SeabournKimberleyCruises/traditional-luxury-cruise-comparison.jpg";
+import startPlanningCtaImg from "../../assets/SeabournKimberleyCruises/start-planning-seabourn-kimberley-cruise-advisor-cta.jpg";
+import finalPlanningCtaImg from "../../assets/SeabournKimberleyCruises/plan-your-seabourn-kimberley-luxury-expedition-quote-cta.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -224,6 +239,7 @@ const SeabournKimberleyCruisesGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs ? data.hero.paragraphs[0] : ""}
         badge="LUXURY EXPEDITION VOYAGES"
+        backgroundImage={heroBgImg}
         secondaryCtaText={data.hero.ctaText || "Start Planning Your Seabourn Cruise"}
         secondaryCtaLink={data.hero.ctaLink || "/contact"}
       />
@@ -243,6 +259,7 @@ const SeabournKimberleyCruisesGuide = () => {
         highlightsTitle="A Seabourn Kimberley itinerary can combine:"
         highlights={data.whyTakeSection.highlights}
         conclusion={data.whyTakeSection.conclusion}
+        image={whyTakeImg}
         imagePlaceholderText="Seabourn Kimberley Expedition"
       />
 
@@ -258,10 +275,10 @@ const SeabournKimberleyCruisesGuide = () => {
         title={data.zodiacShowcase.title}
         subtitle={data.zodiacShowcase.subtitle}
         description={data.zodiacShowcase.description}
-        items={data.zodiacShowcase.items}
-        images={[
-          // kimberleyHeroImg, // Images commented out as requested
-        ]}
+        items={data.zodiacShowcase.items.map((item, idx) => ({
+          ...item,
+          image: [zodiacExcursionsImg, expeditionConditionsImg][idx]
+        }))}
       />
 
       {/* ── 6. WATERFALLS SECTION (ASYMMETRIC STORY INTRO) ── */}
@@ -270,6 +287,8 @@ const SeabournKimberleyCruisesGuide = () => {
         subtitle={data.waterfallsSection.subtitle}
         paragraphs={data.waterfallsSection.paragraphs}
         highlights={data.waterfallsSection.highlights}
+        image1={waterfalls1Img}
+        image2={waterfalls2Img}
         image1Placeholder="KIMBERLEY SEASONAL WATERFALLS"
         image2Placeholder="ZODIAC WATERFALL EXPLORATION"
       />
@@ -280,6 +299,7 @@ const SeabournKimberleyCruisesGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={exploreVoyagesCtaImg}
         theme="dark"
       />
 
@@ -296,10 +316,10 @@ const SeabournKimberleyCruisesGuide = () => {
         title={data.cultureShowcase.title}
         subtitle={data.cultureShowcase.subtitle}
         description={data.cultureShowcase.description}
-        items={data.cultureShowcase.items}
-        images={[
-          // venturePolarImg, // Images commented out as requested
-        ]}
+        items={data.cultureShowcase.items.map((item, idx) => ({
+          ...item,
+          image: [culturalHeritageImg, whyIndigenousImg][idx]
+        }))}
       />
 
       {/* ── 10. HIKING & SHORE EXPLORATION (CHECKLIST CARDS) ── */}
@@ -317,6 +337,7 @@ const SeabournKimberleyCruisesGuide = () => {
         highlightsTitle="Breathtaking sights from the water include:"
         highlights={data.scenicSection.highlights}
         conclusion={data.scenicSection.conclusion}
+        image={scenicCruisingImg}
         imagePlaceholderText="Scenic Cruising along Kimberley Gorges"
       />
 
@@ -325,9 +346,7 @@ const SeabournKimberleyCruisesGuide = () => {
         title={data.seasonShowcase.title}
         subtitle={data.seasonShowcase.subtitle}
         items={data.seasonShowcase.items}
-        images={[
-          // discoveryLoungeImg, // Images commented out as requested
-        ]}
+        images={[bestTimeImg, weatherClimateImg]}
       />
 
       {/* ── 13. CTA 2 (SAILING DATES) ── */}
@@ -336,7 +355,17 @@ const SeabournKimberleyCruisesGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
+        image={findSailingDateCtaImg}
         theme="dark"
+      />
+
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "kGftgmyUEr8",
+          title: "Experience Seabourn Kimberley Expedition Cruising",
+          description: "Watch how Seabourn explores the majestic waterfalls, dramatic gorges, and pristine wilderness of Australia's Kimberley coast."
+        }}
       />
 
       {/* ── 14. PACKING LIST (INTERACTIVE PACKING CHECKLIST) ── */}
@@ -351,12 +380,15 @@ const SeabournKimberleyCruisesGuide = () => {
         title={data.onboardSection.title}
         subtitle={data.onboardSection.subtitle}
         features={data.onboardSection.features}
+        image={onboardExperienceImg}
         bgClass="bg-stone-50"
       />
 
       {/* ── 16. KIMBERLEY VS TRADITIONAL LUXURY CRUISE (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.kimberleyVsTraditionalFaceoff}
+        regentImage={kimberleyExpeditionImg}
+        vikingImage={traditionalLuxuryImg}
       />
 
       {/* ── 17. WHO SHOULD TAKE THIS CRUISE (TRAVELER TYPE GRID) ── */}
@@ -372,7 +404,8 @@ const SeabournKimberleyCruisesGuide = () => {
         description={data.ctas.midCta3.description}
         buttonText={data.ctas.midCta3.buttonText}
         buttonLink={data.ctas.midCta3.buttonLink}
-        theme="light"
+        image={startPlanningCtaImg}
+        theme="dark"
       />
 
       {/* ── 19. COUPLES, SOLO TRAVELERS & FAMILIES (TRAVELER PERSONA CARDS) ── */}
@@ -446,7 +479,8 @@ const SeabournKimberleyCruisesGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={finalPlanningCtaImg}
+        theme="dark"
       />
     </div>
   );

@@ -2,8 +2,29 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela.jpeg";
-// import AdvisorComparesImage from "../../assets/ShouldYouBookSeabournDirectly/seabourn-direct-booking-vs-luxury-travel-advisor-editorial-guide.jpg";
-// import AdvisorBookImage from "../../assets/ShouldYouBookSeabournDirectly/when-a-luxury-travel-advisor-is-essential-for-complex-seabourn-voyages.jpg";
+
+// Assets from SeabournOffers (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournOffers/seabourn-offers-club-benefits-luxury-hero.jpg";
+import whatAreOffersImg from "../../assets/SeabournOffers/what-are-seabourn-offers-editorial.jpg";
+import midCta1Img from "../../assets/SeabournOffers/compare-your-seabourn-offer-options-cta.jpg";
+import onboardCredit1Img from "../../assets/SeabournOffers/what-can-onboard-credit-be-used-for.jpg";
+import onboardCredit2Img from "../../assets/SeabournOffers/essential-questions-before-choosing-onboard-credit.jpg";
+import seabournClubImg from "../../assets/SeabournOffers/seabourn-club-the-loyalty-program.jpg";
+import midCta2Img from "../../assets/SeabournOffers/check-your-seabourn-club-status-cta.jpg";
+import groupOppImg from "../../assets/SeabournOffers/seabourn-group-opportunities.jpg";
+import familyGroupImg from "../../assets/SeabournOffers/seabourn-for-families-and-groups.jpg";
+import bookingEarlyImg from "../../assets/SeabournOffers/booking-early-vs-waiting-for-deals.jpg";
+import longerVoyagesImg from "../../assets/SeabournOffers/seabourn-longer-voyages-grand-voyages-offers.jpg";
+import expeditionImg from "../../assets/SeabournOffers/seabourn-expedition-voyages-offers.jpg";
+import worldCruisesImg from "../../assets/SeabournOffers/seabourn-world-cruises-grand-explorations-offers.jpg";
+import shoulderSeasonImg from "../../assets/SeabournOffers/seabourn-shoulder-season-itineraries-offers.jpg";
+import repeatCruisesImg from "../../assets/SeabournOffers/repeat-seabourn-cruises-loyalty-offers.jpg";
+import holidaySailingsImg from "../../assets/SeabournOffers/seabourn-holiday-festive-sailings-offers.jpg";
+import midCta3Img from "../../assets/SeabournOffers/explore-group-cruise-opportunities-cta.jpg";
+import advisorDirectVsAgentImg from "../../assets/SeabournOffers/should-you-book-seabourn-directly-vs-advisor.jpg";
+import whyBookTripsShipsImg from "../../assets/SeabournOffers/why-book-seabourn-offers-with-trips-and-ships.jpg";
+import finalCtaImg from "../../assets/SeabournOffers/start-planning-your-seabourn-cruise-cta.jpg";
+
 import data from "./data.json";
 
 // UI Components
@@ -17,7 +38,7 @@ import LuxuryFeatureShowcase from "../../components/ui/LuxuryFeatureShowcase";
 import ValueShowcase from "../../components/ui/ValueShowcase";
 import FeatureGrid from "../../components/ui/FeatureGrid";
 import BrandPillarsShowcase from "../../components/ui/BrandPillarsShowcase";
-import DynamicCulinaryShowcase from "../../components/ui/DynamicCulinaryShowcase";
+import OpulentTabbedExperience from "../../components/ui/OpulentTabbedExperience";
 import CardGrid from "../../components/ui/CardGrid";
 import ThreeColumnGrid from "../../components/ui/ThreeColumnGrid";
 import TravelerPersonaCards from "../../components/ui/TravelerPersonaCards";
@@ -27,6 +48,7 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const seabournOffersLoyaltySchema = {
@@ -175,11 +197,11 @@ const SeabournOffersLoyaltyGuide = () => {
   const advisorFeatures = [
     {
       ...data.advisorAndTripsShips.items[0],
-      // image: AdvisorComparesImage
+      image: advisorDirectVsAgentImg
     },
     {
       ...data.advisorAndTripsShips.items[1],
-      // image: AdvisorBookImage
+      image: whyBookTripsShipsImg
     }
   ];
 
@@ -206,6 +228,7 @@ const SeabournOffersLoyaltyGuide = () => {
         badge={data.hero.badge || "SEABOURN OFFERS & LOYALTY GUIDE"}
         secondaryCtaText={data.hero.ctaText || data.hero.secondaryCtaText || "Explore Current Seabourn Offers"}
         secondaryCtaLink={data.hero.ctaLink || data.hero.secondaryCtaLink || "/contact"}
+        backgroundImage={heroBgImg}
       />
 
       <div id="content">
@@ -215,6 +238,7 @@ const SeabournOffersLoyaltyGuide = () => {
           title={data.whatAreOffers.title}
           subtitle={data.whatAreOffers.subtitle}
           paragraphs={data.whatAreOffers.paragraphs}
+          image={whatAreOffersImg}
         />
       </div>
 
@@ -250,6 +274,7 @@ const SeabournOffersLoyaltyGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={midCta1Img}
         theme="dark"
       />
 
@@ -257,7 +282,10 @@ const SeabournOffersLoyaltyGuide = () => {
       <LuxuryFeatureShowcase
         title={data.onboardCredit.title}
         subtitle={data.onboardCredit.subtitle}
-        items={data.onboardCredit.items}
+        items={data.onboardCredit.items.map((item, idx) => ({
+          ...item,
+          image: [onboardCredit1Img, onboardCredit2Img][idx]
+        }))}
       />
 
       {/* 8. SEABOURN CLUB: THE LOYALTY PROGRAM */}
@@ -265,6 +293,7 @@ const SeabournOffersLoyaltyGuide = () => {
         badge={data.seabournClubIntro.badge}
         title={data.seabournClubIntro.title}
         paragraphs={data.seabournClubIntro.paragraphs}
+        image={seabournClubImg}
       />
 
       {/* 9. WHAT ARE SEABOURN CLUB BENEFITS? */}
@@ -287,7 +316,17 @@ const SeabournOffersLoyaltyGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
-        theme="light"
+        image={midCta2Img}
+        theme="dark"
+      />
+
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "_ZExnvHXfpE",
+          title: "Experience Seabourn Luxury Cruise Offers & Loyalty",
+          description: "Discover how to maximize value with Seabourn Club loyalty benefits, special promotional offers, and personalized travel advisor perks."
+        }}
       />
 
       {/* 12. CAN SEABOURN OFFERS BE COMBINED? */}
@@ -317,27 +356,34 @@ const SeabournOffersLoyaltyGuide = () => {
       <ThreeColumnGrid
         title={data.groupOpportunities.title}
         subtitle={data.groupOpportunities.subtitle}
-        items={data.groupOpportunities.items?.map((item) => ({
+        items={data.groupOpportunities.items?.map((item, idx) => ({
           ...item,
+          image: [groupOppImg, familyGroupImg, bookingEarlyImg][idx],
           category: item.category || item.badge,
           description: item.description || item.text,
           features: item.features || item.list,
         }))}
       />
 
-      {/* 16. WHEN ARE SEABOURN OFFERS MOST IMPORTANT? */}
-      <DynamicCulinaryShowcase
+      {/* 16. WHEN ARE SEABOURN OFFERS MOST IMPORTANT? (OPULENT TABBED EXPERIENCE) */}
+      <OpulentTabbedExperience
         title={data.whenOffersMatter.title}
         subtitle={data.whenOffersMatter.subtitle}
-        items={data.whenOffersMatter.items}
-        images={[
-          // "src/assets/images/longer-voyages.webp",
-          // "src/assets/images/expedition-voyages.webp",
-          // "src/assets/images/world-cruises.webp",
-          // "src/assets/images/shoulder-season.webp",
-          // "src/assets/images/repeat-cruises.webp",
-          // "src/assets/images/holiday-sailings.webp",
-        ]}
+        tabs={data.whenOffersMatter.items.map((item, idx) => ({
+          title: item.title,
+          shortDesc: item.description,
+          description: item.description,
+          highlight: item.title,
+          category: "KEY PLANNING MOMENTS",
+          image: [
+            longerVoyagesImg,
+            expeditionImg,
+            worldCruisesImg,
+            shoulderSeasonImg,
+            repeatCruisesImg,
+            holidaySailingsImg,
+          ][idx]
+        }))}
       />
 
       {/* 17. CTA 3 */}
@@ -346,7 +392,8 @@ const SeabournOffersLoyaltyGuide = () => {
         description={data.ctas.midCta3.description}
         buttonText={data.ctas.midCta3.buttonText}
         buttonLink={data.ctas.midCta3.buttonLink}
-        theme="light"
+        image={midCta3Img}
+        theme="dark"
       />
 
       {/* 18. HOW A LUXURY TRAVEL ADVISOR HELPS & WHY BOOK WITH TRIPS & SHIPS */}
@@ -432,6 +479,7 @@ const SeabournOffersLoyaltyGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
+        image={finalCtaImg}
         theme="dark"
       />
     </div>

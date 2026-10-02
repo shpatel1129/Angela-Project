@@ -25,6 +25,30 @@ import CenterCTA from "../../components/ui/CenterCTA";
 import ThreeColumnGrid from "../../components/ui/ThreeColumnGrid";
 import LuxuryFeatureShowcase from "../../components/ui/LuxuryFeatureShowcase";
 import InteractivePackingChecklist from "../../components/ui/InteractivePackingChecklist";
+import VideoEmbed from "../../components/ui/VideoEmbed";
+
+// Assets from SeabournWorldCruises (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournWorldCruises/seabourn-world-cruises-luxury-hero.jpg";
+import whatIsWorldCruiseImg from "../../assets/SeabournWorldCruises/what-is-a-seabourn-world-cruise.jpg";
+import grandVoyage1Img from "../../assets/SeabournWorldCruises/what-is-a-seabourn-grand-voyage-1.jpg";
+import grandVoyage2Img from "../../assets/SeabournWorldCruises/what-is-a-seabourn-grand-voyage-2.jpg";
+import midCta1Img from "../../assets/SeabournWorldCruises/start-planning-your-extended-voyage-cta.jpg";
+import midCta2Img from "../../assets/SeabournWorldCruises/lets-design-your-journey-cta.jpg";
+import fullVoyageImg from "../../assets/SeabournWorldCruises/choose-the-full-voyage-if-seabourn-world-cruise.jpg";
+import segmentImg from "../../assets/SeabournWorldCruises/choose-a-cruise-segment-if-seabourn-world-cruise.jpg";
+import restaurantImg from "../../assets/SeabournWorldCruises/seabourn-the-restaurant-world-cruise-dining.jpg";
+import colonnadePatioImg from "../../assets/SeabournWorldCruises/seabourn-the-colonnade-the-patio-dining.jpg";
+import solisImg from "../../assets/SeabournWorldCruises/seabourn-solis-specialty-dining-world-cruise.jpg";
+import inSuiteImg from "../../assets/SeabournWorldCruises/seabourn-24-hour-in-suite-course-by-course-dining.jpg";
+import couplesImg from "../../assets/SeabournWorldCruises/seabourn-world-cruises-for-couples.jpg";
+import soloTravelersImg from "../../assets/SeabournWorldCruises/seabourn-world-cruises-for-solo-travelers.jpg";
+import costImg from "../../assets/SeabournWorldCruises/how-much-does-a-seabourn-world-cruise-cost.jpg";
+import evaluateValueImg from "../../assets/SeabournWorldCruises/how-to-evaluate-world-cruise-value.jpg";
+import whenToBookImg from "../../assets/SeabournWorldCruises/when-should-you-book-a-seabourn-world-cruise.jpg";
+import midCta4Img from "../../assets/SeabournWorldCruises/book-before-your-preferred-suite-sells-out-cta.jpg";
+import midCta5Img from "../../assets/SeabournWorldCruises/lets-compare-routes-suites-promotions-cta.jpg";
+import valuePropositionImg from "../../assets/SeabournWorldCruises/seabourn-world-cruise-value-proposition.jpg";
+import finalCtaImg from "../../assets/SeabournWorldCruises/start-planning-your-seabourn-world-cruise-cta.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -203,6 +227,7 @@ const SeabournWorldCruises = () => {
         badge="ULTRA-LUXURY GLOBAL EXPEDITIONS"
         secondaryCtaText={data.hero.ctaText}
         secondaryCtaLink={data.hero.ctaLink}
+        backgroundImage={heroBgImg}
       />
 
       {/* ── 2. AT A GLANCE TABLE ── */}
@@ -218,6 +243,7 @@ const SeabournWorldCruises = () => {
         highlightsTitle="The pace and continuity offer unique advantages:"
         highlights={data.whatIsWorldCruise.highlights}
         conclusion={data.whatIsWorldCruise.conclusion}
+        image={whatIsWorldCruiseImg}
         imagePlaceholderText={data.whatIsWorldCruise.imagePlaceholderText}
       />
 
@@ -227,6 +253,8 @@ const SeabournWorldCruises = () => {
         subtitle={data.whatIsGrandVoyage.subtitle}
         paragraphs={data.whatIsGrandVoyage.paragraphs}
         highlights={data.whatIsGrandVoyage.highlights}
+        image1={grandVoyage1Img}
+        image2={grandVoyage2Img}
         image1Placeholder={data.whatIsGrandVoyage.image1Placeholder}
         image2Placeholder={data.whatIsGrandVoyage.image2Placeholder}
       />
@@ -242,6 +270,7 @@ const SeabournWorldCruises = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={midCta1Img}
         theme="dark"
       />
 
@@ -266,12 +295,15 @@ const SeabournWorldCruises = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
-        theme="light"
+        image={midCta2Img}
+        theme="dark"
       />
 
       {/* ── 10. WORLD CRUISE SEGMENTS (FULL VOYAGE VS SEGMENT) ── */}
       <ShipPhilosophyFaceoff
         data={data.segmentsFaceoff}
+        regentImage={fullVoyageImg}
+        vikingImage={segmentImg}
       />
 
       {/* ── 11. SUITES & BALCONY LIVING ── */}
@@ -295,9 +327,7 @@ const SeabournWorldCruises = () => {
         title={data.diningShowcase.title}
         subtitle={data.diningShowcase.subtitle}
         items={data.diningShowcase.items}
-        images={[
-          // Images commented out as standard
-        ]}
+        images={[restaurantImg, colonnadePatioImg, solisImg, inSuiteImg]}
       />
 
       {/* ── 15. IS A WORLD CRUISE RIGHT FOR YOU ── */}
@@ -305,18 +335,33 @@ const SeabournWorldCruises = () => {
         data={data.suitabilityPhilosophy}
       />
 
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "F3-F5gkA9Jc",
+          title: "Experience Seabourn World Cruises & Grand Voyages",
+          description: "Embark on an extraordinary global voyage with Seabourn's intimate small ships, seamless all-inclusive luxury, and unforgettable destinations."
+        }}
+      />
+
       {/* ── 16. COUPLES, SOLO TRAVELERS & COST ── */}
       <ThreeColumnGrid
         title={data.travelStylesAndCost.title}
         subtitle={data.travelStylesAndCost.subtitle}
-        items={data.travelStylesAndCost.items}
+        items={data.travelStylesAndCost.items.map((item, idx) => ({
+          ...item,
+          image: [couplesImg, soloTravelersImg, costImg][idx]
+        }))}
       />
 
       {/* ── 17. EVALUATING VALUE & WHEN TO BOOK ── */}
       <LuxuryFeatureShowcase
         title={data.evaluationAndBooking.title}
         subtitle={data.evaluationAndBooking.subtitle}
-        items={data.evaluationAndBooking.items}
+        items={data.evaluationAndBooking.items.map((item, idx) => ({
+          ...item,
+          image: [evaluateValueImg, whenToBookImg][idx]
+        }))}
       />
 
       {/* ── 18. PLANNING TIMELINE ── */}
@@ -332,6 +377,7 @@ const SeabournWorldCruises = () => {
         description={data.ctas.midCta4.description}
         buttonText={data.ctas.midCta4.buttonText}
         buttonLink={data.ctas.midCta4.buttonLink}
+        image={midCta4Img}
         theme="dark"
       />
 
@@ -368,6 +414,7 @@ const SeabournWorldCruises = () => {
         description={data.ctas.midCta5.description}
         buttonText={data.ctas.midCta5.buttonText}
         buttonLink={data.ctas.midCta5.buttonLink}
+        image={midCta5Img}
         theme="dark"
       />
 
@@ -380,14 +427,25 @@ const SeabournWorldCruises = () => {
 
       {/* ── 26. IS IT WORTH IT VALUE PROPOSITION ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{ ...data.worthItBrand, image: valuePropositionImg }}
         index={0}
       />
 
       {/* ── 27. ANGELA HUGHES EXPERT CREDENTIALS ── */}
       <ExpertCredentials
-        expert={data.angelaHughes}
-        imageSrc={AboutImage}
+        name={data.angelaHughes.name}
+        title={data.angelaHughes.title}
+        badge={data.angelaHughes.badge}
+        authorityBoxTitle={data.angelaHughes.authorityBoxTitle}
+        authoritySubtitle={data.angelaHughes.authoritySubtitle}
+        experienceBadge={data.angelaHughes.experienceBadge}
+        image={AboutImage}
+        paragraphs={data.angelaHughes.paragraphs}
+        credentials={data.angelaHughes.credentials}
+        quote={data.angelaHughes.quote}
+        quoteSubtitle={data.angelaHughes.quoteSubtitle}
+        ctaText="Plan Your World Cruise"
+        ctaLink="/contact"
       />
 
       {/* ── 28. FAQ ACCORDION ── */}
@@ -418,6 +476,7 @@ const SeabournWorldCruises = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
+        image={finalCtaImg}
         theme="dark"
       />
     </div>

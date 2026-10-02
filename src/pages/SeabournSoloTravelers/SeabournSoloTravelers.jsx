@@ -23,12 +23,33 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets (imported with images commented out as standard)
-// import soloHeroImg from "../../assets/SeabournShips/seabourn-encore-modern-luxury-ocean-ship.jpg";
-// import diningImg from "../../assets/SeabournShips/seabourn-encore-ovation-solis-specialty-dining.jpg";
-// import loungeImg from "../../assets/SeabournShips/seabourn-encore-onboard-luxury-lifestyle-lounge.jpg";
-// import suiteImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
+// Assets from SeabournSoloTravelers (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournSoloTravelers/seabourn-for-solo-travelers-luxury-hero.jpg";
+import isGoodImg from "../../assets/SeabournSoloTravelers/is-seabourn-good-for-solo-travelers.jpg";
+import singleSupplement1Img from "../../assets/SeabournSoloTravelers/seabourn-single-supplement-explained-1.jpg";
+import singleSupplement2Img from "../../assets/SeabournSoloTravelers/seabourn-single-supplement-explained-2.jpg";
+import midCta1Img from "../../assets/SeabournSoloTravelers/start-planning-your-solo-seabourn-voyage-cta.jpg";
+import suiteOption1Img from "../../assets/SeabournSoloTravelers/seabourn-entry-level-ocean-view-veranda-suites-solo.jpg";
+import suiteOption2Img from "../../assets/SeabournSoloTravelers/seabourn-mid-ship-veranda-suites-solo.jpg";
+import suiteOption3Img from "../../assets/SeabournSoloTravelers/seabourn-penthouse-premium-suites-solo.jpg";
+import restaurantImg from "../../assets/SeabournSoloTravelers/seabourn-the-restaurant-solo-dining.jpg";
+import colonnadeImg from "../../assets/SeabournSoloTravelers/seabourn-the-colonnade-casual-solo-dining.jpg";
+import patioSquareImg from "../../assets/SeabournSoloTravelers/seabourn-the-patio-seabourn-square-solo-dining.jpg";
+import inSuiteImg from "../../assets/SeabournSoloTravelers/seabourn-24-hour-in-suite-course-by-course-solo-dining.jpg";
+import midCta2Img from "../../assets/SeabournSoloTravelers/find-the-right-suite-for-traveling-alone-cta.jpg";
+import medItineraryImg from "../../assets/SeabournSoloTravelers/seabourn-mediterranean-cruises-solo-itinerary.jpg";
+import alaskaItineraryImg from "../../assets/SeabournSoloTravelers/seabourn-alaska-cruises-solo-itinerary.jpg";
+import antarcticaItineraryImg from "../../assets/SeabournSoloTravelers/seabourn-antarctica-expedition-cruises-solo-itinerary.jpg";
+import arcticItineraryImg from "../../assets/SeabournSoloTravelers/seabourn-arctic-greenland-expeditions-solo-itinerary.jpg";
+import grandVoyageItineraryImg from "../../assets/SeabournSoloTravelers/seabourn-grand-voyages-world-cruises-solo-itinerary.jpg";
+import midCta3Img from "../../assets/SeabournSoloTravelers/design-your-solo-itinerary-cta.jpg";
+import introvertImg from "../../assets/SeabournSoloTravelers/seabourn-for-introverted-solo-travelers.jpg";
+import extrovertImg from "../../assets/SeabournSoloTravelers/seabourn-for-extroverted-solo-travelers.jpg";
+import midCta4Img from "../../assets/SeabournSoloTravelers/ready-to-book-your-solo-voyage-cta.jpg";
+import valuePropositionImg from "../../assets/SeabournSoloTravelers/seabourn-solo-travel-value-proposition.jpg";
+import finalCtaImg from "../../assets/SeabournSoloTravelers/start-planning-your-seabourn-solo-cruise-cta.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -161,7 +182,7 @@ const SeabournSoloTravelers = () => {
         primaryCtaLink="/contact"
         secondaryCtaText={data.hero.ctaText}
         secondaryCtaLink={data.hero.ctaLink}
-        image=""
+        backgroundImage={heroBgImg}
       />
 
       {/* ── 2. QUICK OVERVIEW (TABLE) ── */}
@@ -177,6 +198,7 @@ const SeabournSoloTravelers = () => {
         highlightsTitle="The experience is particularly well suited to independent travelers who appreciate:"
         highlights={data.isGoodSection.highlights}
         conclusion={data.isGoodSection.conclusion}
+        image={isGoodImg}
         imagePlaceholderText={data.isGoodSection.imagePlaceholderText}
       />
 
@@ -194,6 +216,8 @@ const SeabournSoloTravelers = () => {
         subtitle={data.singleSupplementSection.subtitle}
         paragraphs={data.singleSupplementSection.paragraphs}
         highlights={data.singleSupplementSection.highlights}
+        image1={singleSupplement1Img}
+        image2={singleSupplement2Img}
         image1Placeholder="SEABOURN SINGLE SUPPLEMENT"
         image2Placeholder="LUXURY SOLO OCCUPANCY"
       />
@@ -204,6 +228,7 @@ const SeabournSoloTravelers = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={midCta1Img}
         theme="dark"
       />
 
@@ -219,6 +244,7 @@ const SeabournSoloTravelers = () => {
         title={data.suiteOptionsShowcase.title}
         subtitle={data.suiteOptionsShowcase.subtitle}
         items={data.suiteOptionsShowcase.items}
+        images={[suiteOption1Img, suiteOption2Img, suiteOption3Img]}
       />
 
       {/* ── 9. SOLO DINING ON SEABOURN ── */}
@@ -227,9 +253,7 @@ const SeabournSoloTravelers = () => {
         subtitle={data.soloDiningShowcase.subtitle}
         description={data.soloDiningShowcase.description}
         items={data.soloDiningShowcase.items}
-        images={[
-          // diningImg, // Images commented out as standard
-        ]}
+        images={[restaurantImg, colonnadeImg, patioSquareImg, inSuiteImg]}
       />
 
       {/* ── 10. CTA 2 (FIND THE RIGHT SUITE) ── */}
@@ -238,6 +262,7 @@ const SeabournSoloTravelers = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
+        image={midCta2Img}
         theme="dark"
       />
 
@@ -251,6 +276,13 @@ const SeabournSoloTravelers = () => {
         title={data.itineraryShowcase.title}
         subtitle={data.itineraryShowcase.subtitle}
         items={data.itineraryShowcase.items}
+        images={[
+          medItineraryImg,
+          alaskaItineraryImg,
+          antarcticaItineraryImg,
+          arcticItineraryImg,
+          grandVoyageItineraryImg,
+        ]}
       />
 
       {/* ── 13. CTA 3 (DESIGN ITINERARY) ── */}
@@ -259,12 +291,24 @@ const SeabournSoloTravelers = () => {
         description={data.ctas.midCta3.description}
         buttonText={data.ctas.midCta3.buttonText}
         buttonLink={data.ctas.midCta3.buttonLink}
+        image={midCta3Img}
         theme="dark"
+      />
+
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "J9HtYOxrvj0",
+          title: "Experience Seabourn Luxury Solo Cruising",
+          description: "Discover what makes Seabourn the premier choice for independent solo travelers seeking refined ultra-luxury and welcoming onboard camaraderie."
+        }}
       />
 
       {/* ── 14. INTROVERTS VS EXTROVERTS ── */}
       <ShipPhilosophyFaceoff
         data={data.personalityFaceoff}
+        regentImage={introvertImg}
+        vikingImage={extrovertImg}
       />
 
       {/* ── 15. SOLO WOMEN, SOLO MEN & EXCURSIONS ── */}
@@ -285,7 +329,8 @@ const SeabournSoloTravelers = () => {
         description={data.ctas.midCta4.description}
         buttonText={data.ctas.midCta4.buttonText}
         buttonLink={data.ctas.midCta4.buttonLink}
-        theme="light"
+        image={midCta4Img}
+        theme="dark"
       />
 
       {/* ── 18. HOW TO SAVE MONEY ON A SOLO CRUISE ── */}
@@ -298,7 +343,7 @@ const SeabournSoloTravelers = () => {
 
       {/* ── 19. VALUE PROPOSITION ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{ ...data.worthItBrand, image: valuePropositionImg }}
         index={0}
       />
 
@@ -363,6 +408,7 @@ const SeabournSoloTravelers = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
+        image={finalCtaImg}
         theme="dark"
       />
     </div>

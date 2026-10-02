@@ -21,12 +21,21 @@ import Nav from "../../components/Navbar/Nav";
 import AboutImage from "../../assets/AboutAngela3.jpeg";
 import data from "./data.json";
 
-// Ship Images for Fleet Showcase (Commented out)
-// import questImg from "../../assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg";
-// import encoreImg from "../../assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg";
-// import ovationImg from "../../assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg";
-// import ventureImg from "../../assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg";
-// import pursuitImg from "../../assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg";
+// Assets from RequestSeabournCruiseQuote (SEO-optimized filenames)
+import heroBgImg from "../../assets/RequestSeabournCruiseQuote/request-a-seabourn-cruise-quote-hero.jpg";
+import introImg from "../../assets/RequestSeabournCruiseQuote/start-planning-your-seabourn-cruise-intro.jpg";
+import questImg from "../../assets/RequestSeabournCruiseQuote/seabourn-quest-ship-quote.jpg";
+import encoreImg from "../../assets/RequestSeabournCruiseQuote/seabourn-encore-ship-quote.jpg";
+import ovationImg from "../../assets/RequestSeabournCruiseQuote/seabourn-ovation-ship-quote.jpg";
+import ventureImg from "../../assets/RequestSeabournCruiseQuote/seabourn-venture-ship-quote.jpg";
+import pursuitImg from "../../assets/RequestSeabournCruiseQuote/seabourn-pursuit-ship-quote.jpg";
+import shipCtaImg from "../../assets/RequestSeabournCruiseQuote/which-seabourn-ship-right-for-you-advisor.jpg";
+import guideCtaImg from "../../assets/RequestSeabournCruiseQuote/explore-the-complete-seabourn-cruises-guide-cta.jpg";
+import beforeCruiseImg from "../../assets/RequestSeabournCruiseQuote/seabourn-before-your-cruise-planning.jpg";
+import duringCruiseImg from "../../assets/RequestSeabournCruiseQuote/seabourn-during-your-cruise-experience.jpg";
+import afterCruiseImg from "../../assets/RequestSeabournCruiseQuote/seabourn-after-your-cruise-extensions.jpg";
+import travelStyleCtaImg from "../../assets/RequestSeabournCruiseQuote/traveling-solo-as-a-couple-or-with-family-cta.jpg";
+import finalCtaImg from "../../assets/RequestSeabournCruiseQuote/request-your-personalized-seabourn-quote-final-cta.jpg";
 
 // UI Components
 import ComparisonHero from "../../components/ui/ComparisonHero";
@@ -304,6 +313,7 @@ const SeabournCruiseQuote = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.intro}
         badge={data.hero.badge}
+        backgroundImage={heroBgImg}
         secondaryCtaText={data.hero.ctaText || "Request a Quote"}
         secondaryCtaLink={data.hero.ctaLink || "/contact"}
       />
@@ -316,6 +326,7 @@ const SeabournCruiseQuote = () => {
           subtitle={data.introSection.subtitle}
           paragraphs={data.introSection.paragraphs}
           highlights={data.introSection.highlights}
+          image={introImg}
         />
       </div>
 
@@ -734,17 +745,17 @@ const SeabournCruiseQuote = () => {
         title={data.fleetSection.title}
         subtitle={data.fleetSection.subtitle}
         ships={data.fleetSection.ships.map((ship, idx) => {
-          // const fleetImages = [
-          //   "src/assets/SeabournCruises/seabourn-quest-ocean-luxury-cruise-ship.jpg",
-          //   "src/assets/SeabournCruises/seabourn-encore-modern-luxury-cruise-ship.jpg",
-          //   "src/assets/SeabournCruises/seabourn-ovation-ultra-luxury-cruise-ship.jpg",
-          //   "src/assets/SeabournCruises/seabourn-venture-polar-luxury-expedition-ship.jpg",
-          //   "src/assets/SeabournCruises/seabourn-pursuit-remote-luxury-expedition-ship.jpg",
-          // ];
+          const fleetImages = [
+            questImg,
+            encoreImg,
+            ovationImg,
+            ventureImg,
+            pursuitImg,
+          ];
           return {
             name: ship.title,
             atmosphere: ship.subtitle,
-            // image: fleetImages[idx],
+            image: fleetImages[idx],
             launched: ship.tags?.[1] || "Ultra-Luxury",
             description: ship.description,
             guests: ship.tags?.[0]?.replace(/\s*Guests/i, "") || "Luxury Suites",
@@ -759,6 +770,7 @@ const SeabournCruiseQuote = () => {
         description={data.ctas.shipCta.description}
         buttonText={data.ctas.shipCta.buttonText}
         buttonLink={data.ctas.shipCta.buttonLink}
+        image={shipCtaImg}
         theme="dark"
       />
 
@@ -794,14 +806,21 @@ const SeabournCruiseQuote = () => {
         description={data.ctas.guideCta.description}
         buttonText={data.ctas.guideCta.buttonText}
         buttonLink={data.ctas.guideCta.buttonLink}
-        theme="light"
+        image={guideCtaImg}
+        theme="dark"
       />
 
       {/* ── 13. MORE THAN A CRUISE: PLAN THE COMPLETE JOURNEY ── */}
       <ThreeColumnGrid
         title={data.completeJourney.title}
         subtitle={data.completeJourney.subtitle}
-        items={data.completeJourney.items}
+        items={data.completeJourney.items?.map((item, idx) => {
+          const journeyImages = [beforeCruiseImg, duringCruiseImg, afterCruiseImg];
+          return {
+            ...item,
+            image: journeyImages[idx] || item.image
+          };
+        })}
       />
 
       {/* ── 14. SEABOURN CRUISE QUOTE: WHAT HAPPENS NEXT? (TIMELINE) ── */}
@@ -822,6 +841,7 @@ const SeabournCruiseQuote = () => {
         description={data.ctas.travelStyleCta.description}
         buttonText={data.ctas.travelStyleCta.buttonText}
         buttonLink={data.ctas.travelStyleCta.buttonLink}
+        image={travelStyleCtaImg}
         theme="dark"
       />
 
@@ -877,6 +897,7 @@ const SeabournCruiseQuote = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
+        image={finalCtaImg}
         theme="dark"
       />
     </div>

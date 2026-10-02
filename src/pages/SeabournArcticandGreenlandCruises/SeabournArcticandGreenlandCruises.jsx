@@ -24,12 +24,31 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 import CenterCTA from "../../components/ui/CenterCTA";
+import VideoEmbed from "../../components/ui/VideoEmbed";
 
-// Assets (imported with images commented out as standard)
-// import polarShipHeroImg from "../../assets/SeabournShips/seabourn-venture-polar-class-expedition-ship.jpg";
-// import polarLoungeImg from "../../assets/SeabournShips/seabourn-venture-onboard-expedition-discovery-lounge.jpg";
-// import expeditionDiningImg from "../../assets/SeabournShips/seabourn-venture-pursuit-expedition-fine-dining.jpg";
-// import luxurySuiteImg from "../../assets/SeabournShips/seabourn-ships-luxury-oceanfront-suites-balcony.jpg";
+// Assets from SeabournArcticandGreenlandCruises (SEO-optimized filenames)
+import heroBgImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-and-greenland-cruises-luxury-hero.jpg";
+import whyTakeImg from "../../assets/SeabournArcticandGreenlandCruises/why-take-a-seabourn-arctic-luxury-cruise.jpg";
+import greenlandImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-greenland-fjords-expedition-cruises.jpg";
+import svalbardImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-svalbard-high-arctic-polar-expedition.jpg";
+import chartExpeditionCtaImg from "../../assets/SeabournArcticandGreenlandCruises/chart-your-seabourn-arctic-expedition-cta.jpg";
+import zodiacCruisingImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-zodiac-excursions-glacier-cruising.jpg";
+import zodiacLandingImg from "../../assets/SeabournArcticandGreenlandCruises/what-is-a-seabourn-polar-zodiac-landing-like.jpg";
+import guidedWalksImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-guided-tundra-walks-and-hikes.jpg";
+import iceLandingsImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-polar-sea-ice-landings-exploration.jpg";
+import expeditionTeamImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-expedition-team-naturalists-guides.jpg";
+import culture1Img from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-inuit-cultural-experiences-greenland.jpg";
+import culture2Img from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-greenland-community-encounters.jpg";
+import exploreNwpCtaImg from "../../assets/SeabournArcticandGreenlandCruises/explore-northwest-passage-high-arctic-voyages-cta.jpg";
+import nwpExpeditionsImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-northwest-passage-historic-polar-route.jpg";
+import baffinEllesmereImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-baffin-and-ellesmere-island-high-arctic.jpg";
+import northernLightsImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-and-greenland-northern-lights-aurora.jpg";
+import findSuiteCtaImg from "../../assets/SeabournArcticandGreenlandCruises/find-your-perfect-seabourn-arctic-suite-cta.jpg";
+import expeditionShipImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-pc6-polar-class-expedition-ship.jpg";
+import traditionalShipImg from "../../assets/SeabournArcticandGreenlandCruises/traditional-conventional-cruise-ship-comparison.jpg";
+import consultSpecialistCtaImg from "../../assets/SeabournArcticandGreenlandCruises/consult-a-polar-luxury-travel-specialist-cta.jpg";
+import valuePropImg from "../../assets/SeabournArcticandGreenlandCruises/seabourn-arctic-cruises-value-proposition-worth-it.jpg";
+import startPlanningCtaImg from "../../assets/SeabournArcticandGreenlandCruises/start-planning-seabourn-arctic-greenland-cruise-cta.jpg";
 
 // Data Source
 import data from "./data.json";
@@ -231,6 +250,7 @@ const SeabournArcticGreenlandGuide = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.paragraphs ? data.hero.paragraphs[0] : ""}
         badge="ULTRA-LUXURY POLAR EXPEDITION"
+        backgroundImage={heroBgImg}
         secondaryCtaText={data.hero.ctaText || "Start Planning Your Seabourn Cruise"}
         secondaryCtaLink={data.hero.ctaLink || "/contact"}
       />
@@ -250,6 +270,7 @@ const SeabournArcticGreenlandGuide = () => {
         highlightsTitle="Instead of traveling between conventional ports, a Seabourn expedition takes you into environments defined by:"
         highlights={data.whyTakeSection.highlights}
         conclusion={data.whyTakeSection.conclusion}
+        image={whyTakeImg}
         imagePlaceholderText="Seabourn Arctic Wilderness Expedition"
       />
 
@@ -265,9 +286,7 @@ const SeabournArcticGreenlandGuide = () => {
         title={data.destinationsShowcase.title}
         subtitle={data.destinationsShowcase.subtitle}
         items={data.destinationsShowcase.items}
-        images={[
-          // polarShipHeroImg, // Images commented out as standard
-        ]}
+        images={[greenlandImg, svalbardImg]}
       />
 
       {/* ── 6. CTA 1 (EXPEDITION ITINERARIES) ── */}
@@ -276,6 +295,7 @@ const SeabournArcticGreenlandGuide = () => {
         description={data.ctas.midCta1.description}
         buttonText={data.ctas.midCta1.buttonText}
         buttonLink={data.ctas.midCta1.buttonLink}
+        image={chartExpeditionCtaImg}
         theme="dark"
       />
 
@@ -292,10 +312,10 @@ const SeabournArcticGreenlandGuide = () => {
         title={data.zodiacTabs.title}
         subtitle={data.zodiacTabs.subtitle}
         description={data.zodiacTabs.description}
-        items={data.zodiacTabs.tabs}
-        images={[
-          // polarLoungeImg, // Images commented out as standard
-        ]}
+        items={data.zodiacTabs.tabs.map((tab, idx) => ({
+          ...tab,
+          image: [zodiacCruisingImg, zodiacLandingImg, guidedWalksImg, iceLandingsImg][idx]
+        }))}
       />
 
       {/* ── 9. EXPEDITION TEAM (EDITORIAL FEATURE SHOWCASE) ── */}
@@ -303,6 +323,7 @@ const SeabournArcticGreenlandGuide = () => {
         title={data.expeditionTeam.title}
         subtitle={data.expeditionTeam.subtitle}
         features={data.expeditionTeam.roles}
+        image={expeditionTeamImg}
         bgClass="bg-white"
       />
 
@@ -312,6 +333,8 @@ const SeabournArcticGreenlandGuide = () => {
         subtitle={data.cultureSection.subtitle}
         paragraphs={data.cultureSection.paragraphs}
         highlights={data.cultureSection.highlights}
+        image1={culture1Img}
+        image2={culture2Img}
         image1Placeholder={data.cultureSection.image1Placeholder}
         image2Placeholder={data.cultureSection.image2Placeholder}
       />
@@ -322,12 +345,15 @@ const SeabournArcticGreenlandGuide = () => {
         description={data.ctas.midCta2.description}
         buttonText={data.ctas.midCta2.buttonText}
         buttonLink={data.ctas.midCta2.buttonLink}
+        image={exploreNwpCtaImg}
         theme="dark"
       />
 
       {/* ── 12. NORTHWEST PASSAGE VS BAFFIN & ELLESMERE (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.nwpFaceoff}
+        regentImage={nwpExpeditionsImg}
+        vikingImage={baffinEllesmereImg}
       />
 
       {/* ── 13. NORTHERN LIGHTS (EDITORIAL INTRO) ── */}
@@ -342,6 +368,7 @@ const SeabournArcticGreenlandGuide = () => {
           "Natural phenomenon influenced by solar activity and cloud cover",
         ]}
         conclusion="Potentially, but travelers should understand the aurora is a natural phenomenon rather than a scheduled cruise activity."
+        image={northernLightsImg}
         imagePlaceholderText="Chasing the Aurora Borealis in the Arctic"
       />
 
@@ -350,14 +377,21 @@ const SeabournArcticGreenlandGuide = () => {
         data={data.seasonsTimeline}
       />
 
+      {/* ── VIDEO SECTION ── */}
+      <VideoEmbed
+        data={{
+          youtubeId: "jqT0HCtx0Qw",
+          title: "Experience Seabourn Arctic & Greenland Expedition Cruising",
+          description: "Watch how Seabourn explores the massive glaciers of Greenland, the sea ice of Svalbard, and the majestic wildlife of the High Arctic."
+        }}
+      />
+
       {/* ── 15. EXPEDITION SHIPS (VENTURE & PURSUIT) (ZIG-ZAG SHOWCASE) ── */}
       <LuxuryZigZagShowcase
         title={data.shipsShowcase.title}
         subtitle={data.shipsShowcase.subtitle}
         items={data.shipsShowcase.items}
-        images={[
-          // luxurySuiteImg, // Images commented out as standard
-        ]}
+        images={[expeditionShipImg]}
       />
 
       {/* ── 16. CTA 3 (SUITE PLANNING) ── */}
@@ -366,12 +400,15 @@ const SeabournArcticGreenlandGuide = () => {
         description={data.ctas.midCta3.description}
         buttonText={data.ctas.midCta3.buttonText}
         buttonLink={data.ctas.midCta3.buttonLink}
+        image={findSuiteCtaImg}
         theme="dark"
       />
 
       {/* ── 17. SHIP VS TRADITIONAL CRUISE (PHILOSOPHY FACEOFF) ── */}
       <ShipPhilosophyFaceoff
         data={data.shipVsTraditionalFaceoff}
+        regentImage={expeditionShipImg}
+        vikingImage={traditionalShipImg}
       />
 
       {/* ── 18. PACKING LIST (INTERACTIVE PACKING CHECKLIST) ── */}
@@ -426,12 +463,13 @@ const SeabournArcticGreenlandGuide = () => {
         description={data.ctas.midCta4.description}
         buttonText={data.ctas.midCta4.buttonText}
         buttonLink={data.ctas.midCta4.buttonLink}
-        theme="light"
+        image={consultSpecialistCtaImg}
+        theme="dark"
       />
 
       {/* ── 23. VALUE PROPOSITION (BRAND SHOWCASE) ── */}
       <BrandShowcase
-        brand={data.worthItBrand}
+        brand={{ ...data.worthItBrand, image: valuePropImg }}
         index={0}
       />
 
@@ -494,7 +532,8 @@ const SeabournArcticGreenlandGuide = () => {
         description={data.ctas.finalCta.description}
         buttonText={data.ctas.finalCta.buttonText}
         buttonLink={data.ctas.finalCta.buttonLink}
-        theme="light"
+        image={startPlanningCtaImg}
+        theme="dark"
       />
     </div>
   );
