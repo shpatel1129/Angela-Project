@@ -1,9 +1,9 @@
 {
-  "seo": {
+  "meta": {
     "title": "What Is Included on a Seabourn Cruise? All-Inclusive Guide",
     "metaTitle": "Seabourn Cruise Inclusions Breakdown: Dining, Drinks, Wi-Fi & More",
-    "metaDescription": "Detailed guide to all Seabourn cruise inclusions: open bars, fine dining, caviar, Wi-Fi, gratuities, watersports, entertainment, and what costs extra.",
-    "canonical": "https://www.tripsandships.com/seabourn-cruises/whats-included/"
+    "description": "Detailed guide to all Seabourn cruise inclusions: open bars, fine dining, caviar, Wi-Fi, gratuities, watersports, entertainment, and what costs extra.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/whats-included/"
   },
   "schema": {
     "@context": "https://schema.org",
@@ -92,14 +92,22 @@
       {
         "@type": "Review",
         "@id": "https://www.tripsandships.com/seabourn-cruises/whats-included/#review",
+        "name": "Seabourn Cruise Inclusions Review",
+        "headline": "What Is Included on a Seabourn Cruise? Inclusions & Value Guide",
         "itemReviewed": {
-          "@type": "Product",
+          "@type": "Organization",
           "name": "Seabourn Cruises"
         },
         "author": {
           "@type": "Person",
           "name": "Angela Hughes",
           "@id": "https://www.tripsandships.com/#person"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
         },
         "reviewBody": "Seabourn provides one of the more comprehensive luxury cruise experiences, with dining, premium beverages, Champagne, caviar, Wi-Fi, gratuities, entertainment and enrichment forming the foundation of the onboard experience. Optional shore excursions, spa treatments, private experiences, travel arrangements and personal purchases may carry additional costs."
       },
