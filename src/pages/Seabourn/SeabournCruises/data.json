@@ -5,6 +5,12 @@
     "metaDescription": "The ultimate guide to Seabourn Cruises. Explore all-suite luxury ships, purpose-built expedition vessels, gourmet dining, global destinations, and booking tips.",
     "canonical": "https://www.tripsandships.com/seabourn-cruises/"
   },
+  "meta": {
+    "title": "Seabourn Cruises Guide: Ultra-Luxury Ocean & Expedition Ships",
+    "metaTitle": "Seabourn Cruises: Complete Fleet, Suites & Destinations Guide",
+    "description": "The ultimate guide to Seabourn Cruises. Explore all-suite luxury ships, purpose-built expedition vessels, gourmet dining, global destinations, and booking tips.",
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/"
+  },
   "schema": {
     "@context": "https://schema.org",
     "@graph": [
@@ -184,14 +190,22 @@
       {
         "@type": "Review",
         "@id": "https://www.tripsandships.com/seabourn-cruises/#review",
+        "name": "Seabourn Cruises Review",
+        "headline": "Seabourn Cruises: Ultra-Luxury Ocean & Expedition Cruise Guide",
         "itemReviewed": {
-          "@type": "Product",
+          "@type": "Organization",
           "name": "Seabourn Cruises"
         },
         "author": {
           "@type": "Person",
           "name": "Angela Hughes",
           "@id": "https://www.tripsandships.com/#person"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
         },
         "reviewBody": "Seabourn is one of the strongest choices for travelers who want luxury cruising without the scale and crowds of a traditional cruise ship. Its combination of small ships, all-suite accommodations, personalized service, fine dining, premium inclusions, and destination depth creates an intimate luxury experience, with expedition ships extending the experience to destinations such as Antarctica, the Arctic, the Kimberley, and the South Pacific."
       },
