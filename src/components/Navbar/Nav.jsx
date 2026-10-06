@@ -1664,25 +1664,45 @@ const Nav = () => {
                 Does It Cost More to Book Through a Travel Agent?
               </NavLink>
 
+              <NavLink
+                to="/luxury-solo-womens-travel"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Luxury Solo Travel for Women
+              </NavLink>
 
+              <NavLink
+                to="/luxury-solo-womens-travel/solo-luxury-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Best Luxury Cruises for Solo Women
+              </NavLink>
 
+              {/* <NavLink
+                to="/luxury-solo-womens-travel/women-only-tours"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Best Women-Only Luxury Tours
+              </NavLink>
 
+              <NavLink
+                to="/luxury-solo-womens-travel/women-over-50"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Solo Travel for Women Over 50
+              </NavLink>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              <NavLink
+                to="/luxury-solo-womens-travel/best-destinations"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Best Destinations for Solo Women
+              </NavLink> */}
 
 
             </div>
@@ -3334,6 +3354,46 @@ const Nav = () => {
             >
               Does It Cost More to Book Through a Travel Agent?
             </NavLink>
+
+            <NavLink
+              to="/luxury-solo-womens-travel"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Luxury Solo Travel for Women
+            </NavLink>
+
+            <NavLink
+              to="/luxury-solo-womens-travel/solo-luxury-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Best Luxury Cruises for Solo Women
+            </NavLink>
+
+            {/* <NavLink
+              to="/luxury-solo-womens-travel/women-only-tours"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Best Women-Only Luxury Tours
+            </NavLink>
+
+            <NavLink
+              to="/luxury-solo-womens-travel/women-over-50"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Solo Travel for Women Over 50
+            </NavLink>
+
+            <NavLink
+              to="/luxury-solo-womens-travel/best-destinations"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Best Destinations for Solo Women
+            </NavLink> */}
 
             <span className="mobile-dropdown-divider"></span>
           </div>

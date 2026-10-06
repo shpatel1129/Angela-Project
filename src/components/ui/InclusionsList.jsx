@@ -68,7 +68,7 @@ const InclusionsList = ({ title, inclusions, expertNote, image }) => {
             })}
             
             <p className="font-sans text-sm text-slate-400 mt-4 italic text-center lg:text-left">
-              * Certain premium experiences may require additional reservations or costs.
+              Certain premium experiences may require additional reservations or costs.
             </p>
           </FadeIn>
         </div>

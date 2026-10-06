@@ -203,6 +203,11 @@ import SeabournOceanVsExpedition from "./pages/Seabourn/SeabournOceanVsExpeditio
 import SeabournVsCelebrityRetreat from "./pages/Seabourn/SeabournVsCelebrityRetreat/SeabournVsCelebrityRetreat";
 import SeabournVsRitzCarltonYacht from "./pages/Seabourn/SeabournVsRitzCarltonYacht/SeabournVsRitzCarltonYacht";
 import BookSeabournDirectVsTravelAdvisor from "./pages/Seabourn/BookSeabournDirectVsTravelAdvisor/BookSeabournDirectVsTravelAdvisor";
+import LuxurySoloWomensTravel from "./pages/LuxurySoloWomensTravel/LuxurySoloWomensTravel";
+import SoloLuxuryCruises from "./pages/LuxurySoloWomensTravel/SoloLuxuryCruises/SoloLuxuryCruises";
+// import WomenOnlyTours from "./pages/LuxurySoloWomensTravel/WomenOnlyTours/WomenOnlyTours";
+// import WomenOver50 from "./pages/LuxurySoloWomensTravel/WomenOver50/WomenOver50";
+// import BestDestinations from "./pages/LuxurySoloWomensTravel/BestDestinations/BestDestinations";
 
 
 
@@ -736,6 +741,11 @@ function App() {
           <Route path="/best-cruise-travel-agent-florida" element={<BestCruiseTravelAgentFlorida />} />
           <Route path="/how-to-find-reputable-travel-agent-florida" element={<HowToFindReputableTravelAgentFlorida />} />
           <Route path="/does-it-cost-more-to-book-through-a-travel-agent" element={<DoesItCostMoreToBookThroughATravelAgent />} />
+          <Route path="/luxury-solo-womens-travel" element={<LuxurySoloWomensTravel />} />
+          <Route path="/luxury-solo-womens-travel/solo-luxury-cruises" element={<SoloLuxuryCruises />} />
+          {/* <Route path="/luxury-solo-womens-travel/women-only-tours" element={<WomenOnlyTours />} />
+          <Route path="/luxury-solo-womens-travel/women-over-50" element={<WomenOver50 />} />
+          <Route path="/luxury-solo-womens-travel/best-destinations" element={<BestDestinations />} /> */}
 
         </Routes>
       </BrowserRouter>
