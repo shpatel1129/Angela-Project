@@ -9,7 +9,7 @@ import ComparisonHero from "../../components/ui/ComparisonHero";
 import ProsConsCards from "../../components/ui/ProsConsCards";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import GenericChecklistCards from "../../components/ui/GenericChecklistCards";
-import DynamicCulinaryShowcase from "../../components/ui/DynamicCulinaryShowcase";
+import CulinaryMenuShowcase from "../../components/ui/CulinaryMenuShowcase";
 import ValueShowcase from "../../components/ui/ValueShowcase";
 import AsymmetricStoryIntro from "../../components/ui/AsymmetricStoryIntro";
 import HighlightsSplit from "../../components/ui/HighlightsSplit";
@@ -50,15 +50,15 @@ const schemaData = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#webpage",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#webpage",
       "name": "Riverside Luxury Cruises Review (2026) | Is Riverside Worth It?",
-      "url": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss",
+      "url": "https://www.tripsandships.com/riverside-luxury-cruises-reviews",
       "description":
         "Read our Riverside Luxury Cruises review covering ships, suites, dining, itineraries, service, inclusions, pricing, and who should sail. Discover if Riverside Luxury Cruises is the right luxury river cruise for your next European vacation."
     },
     {
       "@type": "Article",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#article",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#article",
       "headline": "Riverside Luxury Cruises Review | Luxury River Cruise Guide",
       "description":
         "A complete guide to Riverside Luxury Cruises, covering spacious all-suite accommodations, gourmet dining, personalized service, European itineraries, shore excursions, wellness, and more.",
@@ -74,7 +74,7 @@ const schemaData = {
     },
     {
       "@type": "Review",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#review",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#review",
       "itemReviewed": {
         "@type": "TouristTrip",
         "name": "Riverside Luxury Cruises"
@@ -95,7 +95,7 @@ const schemaData = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#breadcrumb",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -113,13 +113,13 @@ const schemaData = {
           "@type": "ListItem",
           "position": 3,
           "name": "Riverside Luxury Cruises Reviews",
-          "item": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss"
+          "item": "https://www.tripsandships.com/riverside-luxury-cruises-reviews"
         }
       ]
     },
     {
       "@type": "TouristTrip",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#trip",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#trip",
       "name": "Riverside Luxury Cruises European River Cruise Experience",
       "description":
         "Boutique luxury river cruising with spacious all-suite accommodations, gourmet dining, personalized service, and immersive European itineraries on the Danube, Rhine, Main, and Moselle Rivers.",
@@ -130,7 +130,7 @@ const schemaData = {
     },
     {
       "@type": "Service",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#service",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#service",
       "serviceType": "Luxury River Cruise Vacation Planning",
       "provider": {
         "@type": "TravelAgency",
@@ -142,7 +142,7 @@ const schemaData = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#itemlist",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#itemlist",
       "name": "Riverside Luxury Cruises Review — What This Guide Covers",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "What Is Riverside Luxury Cruises?" },
@@ -161,7 +161,7 @@ const schemaData = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviewss/#faq",
+      "@id": "https://www.tripsandships.com/riverside-luxury-cruises-reviews/#faq",
       "mainEntity": data.faqs.map((f) => ({
         "@type": "Question",
         "name": f.question,
@@ -188,6 +188,10 @@ const RiversideLuxuryCruisesReviews = () => {
         <meta
           name="description"
           content="Read our Riverside Luxury Cruises review covering ships, suites, dining, itineraries, service, inclusions, pricing, and who should sail. Discover if Riverside Luxury Cruises is the right luxury river cruise for your next European vacation."
+        />
+        <link
+          rel="canonical"
+          href="https://www.tripsandships.com/riverside-luxury-cruises-reviews"
         />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
@@ -239,14 +243,17 @@ const RiversideLuxuryCruisesReviews = () => {
       />
 
       {/* ── 5. DINING EXPERIENCE ── */}
-      <DynamicCulinaryShowcase
+      <CulinaryMenuShowcase
         title={data.diningExperience.title}
         subtitle={data.diningExperience.subtitle}
         items={data.diningExperience.items}
         images={[
           // "src/assets/RiversideLuxuryCruises/riverside-gourmet-dining.jpg",
+          undefined,
           // "src/assets/RiversideLuxuryCruises/riverside-evening-lounge.jpg",
-          // "src/assets/RiversideLuxuryCruises/riverside-danube-vienna.jpg"
+          undefined,
+          // "src/assets/RiversideLuxuryCruises/riverside-danube-vienna.jpg",
+          undefined
         ]}
       />
 

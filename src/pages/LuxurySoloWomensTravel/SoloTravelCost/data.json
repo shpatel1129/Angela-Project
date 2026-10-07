@@ -1,0 +1,693 @@
+{
+  "meta": {
+    "title": "How Much Does Luxury Solo Travel Cost? | Trips & Ships",
+    "metaTitle": "How Much Does Luxury Solo Travel Cost? | Trips & Ships",
+    "description": "How much does luxury solo travel cost? Explore budget ranges, single supplements, cruise, river cruise and safari pricing factors, plus how to plan your trip.",
+    "canonicalUrl": "https://tripsandships.com/luxury-solo-womens-travel/solo-travel-cost/",
+    "keywords": [
+      "How much does luxury solo travel cost",
+      "luxury solo travel cost",
+      "solo travel cost",
+      "how much does solo travel cost",
+      "luxury travel for solo women",
+      "luxury solo vacation cost",
+      "solo travel budget",
+      "luxury solo travel budget",
+      "solo travel pricing",
+      "luxury travel single supplement",
+      "solo cruise cost",
+      "solo river cruise cost",
+      "luxury safari cost",
+      "African safari cost for solo travelers",
+      "solo travel over 50 cost",
+      "luxury women-only travel cost",
+      "cruises without single supplement"
+    ]
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Luxury Solo Women's Travel",
+            "item": "https://tripsandships.com/luxury-solo-womens-travel/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How Much Does Luxury Solo Travel Cost?",
+            "item": "https://tripsandships.com/luxury-solo-womens-travel/solo-travel-cost/"
+          }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://tripsandships.com/",
+        "logo": "https://tripsandships.com/assets/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-TRIPS-SHIPS",
+          "contactType": "Customer Service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "Article",
+        "headline": "How Much Does Luxury Solo Travel Cost?",
+        "description": "How much does luxury solo travel cost? Explore budget ranges, single supplements, cruise, river cruise and safari pricing factors, plus how to plan your trip.",
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO & Luxury Travel Specialist",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://tripsandships.com/"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://tripsandships.com/luxury-solo-womens-travel/solo-travel-cost/"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does luxury solo travel cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no single price. The Trips & Ships planning framework uses four approximate budget ranges: $5,000–$7,500, $7,500–$15,000, $15,000–$25,000, and $25,000+. Actual pricing depends on the destination, itinerary, travel dates, accommodation, inclusions, and solo pricing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does solo travel sometimes cost more?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some travel services are priced based on two people sharing a room, cabin, vehicle, or other service. A solo traveler may therefore pay a higher per-person cost or a single supplement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a single supplement?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A single supplement is an additional charge that may apply when one traveler occupies accommodation or travel space normally priced for two people sharing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can solo travelers avoid single supplements?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sometimes. Certain suppliers may offer solo cabins, reduced supplements, or specific promotions for individual departures. Availability varies and should be verified before booking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is luxury solo travel more expensive than traveling with a partner?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be, particularly when accommodation, private transportation, guides, or other services are priced for two people. However, the difference depends on the type of journey and any applicable solo promotions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are luxury cruises good value for solo travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They can be. A cruise may combine accommodation, transportation, dining, onboard experiences, and excursions in one itinerary. Solo travelers should compare the complete cost and inclusions rather than only the advertised fare."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much should I budget for a luxury African safari?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no universal price. Safari cost depends on destination, lodge, duration, season, group size, transportation, guiding, activities, and whether the journey is private or shared."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a women-only tour more affordable than private solo travel?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be, but there is no universal rule. Group size, itinerary, accommodation, inclusions, and departure date all affect pricing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does a higher travel budget always mean a better trip?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The best journey is the one that matches your priorities. A well-designed itinerary at a lower budget can be more appropriate than a more expensive trip that does not fit your interests."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Trips & Ships help me find solo travel offers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Trips & Ships can evaluate available options and current supplier promotions. Any specific offer, pricing, or reduced single supplement should be verified before being presented as current."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What hidden costs should solo travelers watch out for on luxury vacations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Solo travelers should check for single occupancy stateroom surcharges, private airport transfer fees, discretionary gratuities, port charges, optional bespoke excursions, and premium dining or spa reservations. Choosing all-inclusive luxury cruise lines or fully escorted small-group tours eliminates unexpected out-of-pocket expenses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When is the best time to book luxury solo travel to get the best value?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The best time to secure lower rates for solo travel is 9 to 12 months in advance to reserve limited dedicated solo cabins and early-booking waived supplement promotions. Alternatively, traveling during shoulder seasons (such as spring and autumn in Europe) offers significantly reduced single supplements across luxury ocean lines, river cruises, and safari lodges."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "SOLO TRAVEL INVESTMENT GUIDE",
+    "title": "How Much Does Luxury Solo Travel Cost?",
+    "subtitle": "A transparent breakdown of budget ranges, single supplements, inclusions, and experience-driven travel value.",
+    "lead": "Luxury solo travel can range from a carefully planned independent journey to a premium cruise, river cruise, safari, or escorted small-group experience. The total cost depends on the destination, length of the trip, accommodation level, transportation, activities, travel style, and—particularly for solo travelers—whether a single supplement applies.",
+    "sublead": "For planning purposes, the Trips & Ships solo travel matching experience uses four approximate per-person budget ranges:",
+    "ranges": [
+      "$5,000–$7,500",
+      "$7,500–$15,000",
+      "$15,000–$25,000",
+      "$25,000+"
+    ],
+    "conclusion": "These are planning ranges rather than fixed package prices. The actual cost of a luxury solo journey depends on the specific itinerary, dates, supplier, inclusions, and availability.",
+    "primaryCta": {
+      "text": "Plan Your Luxury Solo Journey",
+      "link": "/contact"
+    },
+    "secondaryCta": {
+      "text": "Cruises Without Single Supplements",
+      "link": "/luxury-solo-womens-travel/single-supplement-cruises/"
+    }
+  },
+  "averageCost": {
+    "eyebrow": "UNDERSTANDING THE VALUATION",
+    "title": "What Is the Average Cost of Luxury Solo Travel?",
+    "paragraphs": [
+      "There is no single average price that accurately represents luxury solo travel.",
+      "A luxury cruise, European private journey, river cruise, and African safari can have very different pricing structures. Even two trips to the same destination can vary significantly depending on the hotel, cabin or room category, transportation, guides, activities, and travel dates.",
+      "For solo travelers, one additional consideration is particularly important:",
+      "You are often paying for an experience designed around one traveler rather than splitting certain costs with a companion.",
+      "That is why comparing the total value of an itinerary is more useful than looking only at the advertised starting price."
+    ]
+  },
+  "budgetRanges": {
+    "title": "Luxury Solo Travel Budget Ranges",
+    "subtitle": "Explore what is possible across four foundational planning investment tiers.",
+    "tiers": [
+      {
+        "range": "$5,000–$7,500",
+        "title": "Select Luxury & Focused Escapes",
+        "description": "This range can be a starting point for certain shorter or more selectively designed luxury journeys, depending on destination, travel dates, accommodation, and inclusions.",
+        "optionsTitle": "Potential options may include:",
+        "options": [
+          "Selected luxury cruises",
+          "Shorter European journeys",
+          "Some river cruise itineraries",
+          "Carefully planned luxury hotel stays",
+          "Selected small-group experiences"
+        ],
+        "footerNote": "Availability and pricing vary, and a single supplement can affect the final cost."
+      },
+      {
+        "range": "$7,500–$15,000",
+        "title": "Expanded Flexibility & Premium Journeys",
+        "description": "This provides greater flexibility for many luxury travelers.",
+        "optionsTitle": "Depending on the destination and trip length, possibilities may include:",
+        "options": [
+          "Luxury ocean cruises",
+          "Premium river cruises",
+          "European escorted journeys",
+          "Luxury small-group tours",
+          "Multi-destination itineraries",
+          "Selected safari experiences"
+        ],
+        "footerNote": "The specific itinerary and level of inclusions remain important."
+      },
+      {
+        "range": "$15,000–$25,000",
+        "title": "Highly Personalized & Comprehensive Travel",
+        "description": "At this level, travelers may have greater access to highly personalized and more comprehensive experiences.",
+        "optionsTitle": "Potential possibilities can include:",
+        "options": [
+          "Longer luxury cruises",
+          "Private or highly customized journeys",
+          "Premium African safari itineraries",
+          "Luxury multi-country travel",
+          "High-end guided experiences",
+          "More extensive private transportation"
+        ],
+        "footerNote": "The final price depends heavily on destination, duration, accommodation, and the amount of private service included."
+      },
+      {
+        "range": "$25,000+",
+        "title": "Bespoke, Ultra-Luxury & Extended Itineraries",
+        "description": "At this level, luxury travel can become highly personalized.",
+        "optionsTitle": "Depending on the itinerary, this budget may support:",
+        "options": [
+          "Extended private journeys",
+          "Premium safari experiences",
+          "Multiple luxury destinations",
+          "Private guides and transfers",
+          "High-end accommodations",
+          "Bespoke itineraries",
+          "Complex multi-country travel"
+        ],
+        "footerNote": "A higher budget does not automatically mean a better trip. The goal is to match the investment with the experience you actually want."
+      }
+    ]
+  },
+  "whyCostMore": {
+    "title": "Why Does Solo Luxury Travel Cost More?",
+    "subtitle": "One of the biggest reasons is that some travel costs are based on occupancy. A hotel room, private guide, vehicle, or other service may cost approximately the same whether one person or two people use it. When two people share the cost, the per-person price can be lower. A solo traveler may therefore pay more for the same underlying service.",
+    "relevantHeading": "This is particularly relevant when comparing:",
+    "services": [
+      {
+        "title": "Hotel Rooms",
+        "description": "Priced by room rather than guest count, making single occupancy bear the full room rate.",
+        "icon": "Home"
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Fixed vehicle rates regardless of whether one or four passengers are seated.",
+        "icon": "Car"
+      },
+      {
+        "title": "Private Guides",
+        "description": "Daily professional guiding fees dedicated entirely to your personal exploration.",
+        "icon": "User"
+      },
+      {
+        "title": "Safari Vehicles",
+        "description": "Custom 4x4 safari vehicles and dedicated rangers reserved for your safari drives.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Villas",
+        "description": "Private estates and standalone residences structured around whole-property bookings.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Private Tours",
+        "description": "Bespoke itineraries and access privileges dedicated exclusively to one traveler.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Cruise Cabins",
+        "description": "Double-occupancy stateroom revenue formulas that assess single supplements.",
+        "icon": "Ship"
+      }
+    ],
+    "conclusion": "This is one reason single supplements are such an important consideration when planning luxury solo travel."
+  },
+  "singleSupplementSection": {
+    "title": "What Is a Single Supplement?",
+    "lead": "A single supplement is an additional amount charged when one traveler occupies accommodation or travel space that is normally priced based on two people sharing.",
+    "placesLead": "It can appear in:",
+    "places": [
+      "Hotels",
+      "Tours",
+      "River cruises",
+      "Ocean cruises",
+      "Safaris",
+      "Escorted journeys"
+    ],
+    "supplierNote": "The supplement varies significantly between suppliers and individual departures. It should never be assumed that a particular cruise line, tour operator, or safari company always charges the same amount.",
+    "interlinkText": "Read more about",
+    "interlinkLabel": "cruises without single supplements",
+    "interlinkUrl": "/luxury-solo-womens-travel/single-supplement-cruises/",
+    "howMuchTitle": "How Much Does a Single Supplement Add?",
+    "howMuchSubtitle": "There is no universal percentage or fixed amount. The supplement can depend on:",
+    "factors": [
+      "Supplier",
+      "Accommodation category",
+      "Departure date",
+      "Destination",
+      "Trip length",
+      "Demand",
+      "Cabin or room availability",
+      "Type of itinerary",
+      "Promotional pricing"
+    ],
+    "promotionNote": "Some travel offers may reduce or waive a single supplement for specific departures. However, these promotions are not necessarily available year-round. Trips & Ships should verify current supplier pricing and promotions before presenting a specific solo offer."
+  },
+  "experiencesPricing": {
+    "title": "Pricing Across Luxury Travel Experiences",
+    "subtitle": "How costs, inclusions, and single supplements vary across ocean cruises, river voyages, and African safaris.",
+    "experiences": [
+      {
+        "title": "Are Cruises Expensive for Solo Travelers?",
+        "lead": "Luxury cruises can be an attractive option for solo women because one booking can combine accommodation, transportation between destinations, dining, onboard experiences, and excursions. However, solo cruise pricing can vary considerably.",
+        "comparisonHeading": "When comparing a cruise, look at:",
+        "points": [
+          "Cruise fare",
+          "Solo stateroom availability",
+          "Single supplement",
+          "Cabin category",
+          "Included dining",
+          "Included beverages or services",
+          "Shore excursions",
+          "Gratuities",
+          "Port charges",
+          "Pre- and post-cruise hotels",
+          "Transfers"
+        ],
+        "conclusion": "A cruise with a lower advertised fare may not necessarily provide the best overall value for a solo traveler.",
+        "linkText": "Explore our guide to the Best Luxury Cruises for Solo Women →",
+        "linkUrl": "/luxury-solo-womens-travel/solo-luxury-cruises/"
+      },
+      {
+        "title": "How Much Does a Luxury River Cruise Cost for a Solo Traveler?",
+        "lead": "River cruise pricing varies according to the cruise line, itinerary, cabin category, departure date, and inclusions.",
+        "comparisonHeading": "Solo travelers should compare:",
+        "points": [
+          "Base cruise fare",
+          "Single supplement",
+          "Solo cabin availability",
+          "Excursions",
+          "Dining",
+          "Transfers",
+          "Pre- and post-cruise stays",
+          "Included services"
+        ],
+        "conclusion": "River cruising can be particularly appealing because travelers can visit multiple destinations without repeatedly changing hotels.",
+        "linkText": "Read our guide to the Best River Cruises for Solo Travelers →",
+        "linkUrl": "/luxury-solo-womens-travel/solo-river-cruises/"
+      },
+      {
+        "title": "How Much Does a Luxury African Safari Cost for a Solo Woman?",
+        "lead": "Safari pricing can vary significantly.",
+        "comparisonHeading": "Important factors include:",
+        "points": [
+          "Country and region",
+          "Lodge or camp",
+          "Number of nights",
+          "Private versus shared safari",
+          "Group size",
+          "Internal flights",
+          "Transfers",
+          "Guide arrangements",
+          "Activities",
+          "Season",
+          "Included meals and services"
+        ],
+        "conclusion": "A solo traveler should also determine whether a single supplement applies. A private safari can offer exceptional flexibility but may have a higher per-person cost because certain resources are dedicated to one traveler. A small-group or scheduled departure may provide a different cost structure while also offering companionship.",
+        "linkText": "Explore African Safaris for Solo Women →",
+        "linkUrl": "/luxury-solo-womens-travel/solo-african-safaris/"
+      }
+    ]
+  },
+  "inclusionsAndAdditional": {
+    "inclusionsTitle": "What Is Included in a Luxury Solo Travel Price?",
+    "inclusionsSubtitle": "Never compare luxury travel based only on the headline price. Depending on the trip, the price may include some combination of:",
+    "inclusions": [
+      "Accommodation",
+      "Meals",
+      "Transportation",
+      "Transfers",
+      "Guided excursions",
+      "Cruise fare",
+      "Shore excursions",
+      "Safari game drives",
+      "Local guides",
+      "Selected activities",
+      "Taxes and fees"
+    ],
+    "inclusionsNote": "Other costs may be additional. Before booking, ask for a clear explanation of what is included and what you should budget for separately.",
+    "additionalTitle": "What Additional Costs Should Solo Travelers Consider?",
+    "additionalSubtitle": "Your overall travel budget may also need to account for:",
+    "additionalCosts": [
+      {
+        "title": "Flights",
+        "description": "International and domestic airfare may be separate from the main itinerary."
+      },
+      {
+        "title": "Travel Insurance",
+        "description": "Comprehensive travel insurance can be an important part of planning a significant luxury journey."
+      },
+      {
+        "title": "Transfers",
+        "description": "Private airport, hotel, port, or lodge transfers may add to the total cost."
+      },
+      {
+        "title": "Excursions",
+        "description": "Some experiences may be included while others are optional."
+      },
+      {
+        "title": "Pre- and Post-Trip Hotels",
+        "description": "You may choose to arrive early or extend your stay after the main itinerary."
+      },
+      {
+        "title": "Dining",
+        "description": "Some luxury programs include extensive dining, while others have additional restaurants or experiences at extra cost."
+      },
+      {
+        "title": "Shopping and Personal Expenses",
+        "description": "Allow room in your budget for purchases and personal activities."
+      }
+    ]
+  },
+  "doesSoloCostMore": {
+    "title": "Does Traveling Solo Always Cost More?",
+    "paragraphs": [
+      "Not necessarily.",
+      "Solo travelers can sometimes find opportunities that make the overall cost more attractive.",
+      "These may include: Reduced single supplements, Solo staterooms, Single-occupancy promotions, Scheduled small-group departures, Special solo offers, and Shoulder-season travel.",
+      "Availability varies, and promotional pricing should always be verified before publication or booking.",
+      "The Trips & Ships approach is to look at the complete value of the journey, not simply whether an offer has a reduced supplement."
+    ],
+    "opportunities": [
+      "Reduced single supplements",
+      "Solo staterooms",
+      "Single-occupancy promotions",
+      "Scheduled small-group departures",
+      "Special solo offers",
+      "Shoulder-season travel"
+    ]
+  },
+  "advisorValue": {
+    "title": "How Can a Travel Advisor Help Reduce Solo Travel Costs?",
+    "paragraphs": [
+      "An experienced luxury travel advisor can help identify options that may provide better value for your budget.",
+      "This can include comparing: Different departure dates, Alternative cruise lines, Cabin or room categories, Small-group versus private travel, Different destinations, Single supplement policies, Included services, and Current solo promotions.",
+      "The advisor's role is not simply to find the cheapest option. It is to help you determine where your travel investment creates the experience you value most."
+    ],
+    "comparisonPoints": [
+      "Different departure dates",
+      "Alternative cruise lines",
+      "Cabin or room categories",
+      "Small-group versus private travel",
+      "Different destinations",
+      "Single supplement policies",
+      "Included services",
+      "Current solo promotions"
+    ]
+  },
+  "bestTripForBudget": {
+    "title": "What Is the Best Luxury Solo Trip for Your Budget?",
+    "subtitle": "Your budget can help narrow the possibilities, but it should not be the only consideration.",
+    "cards": [
+      {
+        "title": "If You Have a $5,000–$7,500 Budget",
+        "description": "Focus on carefully selected itineraries where the overall experience and inclusions fit your budget.",
+        "icon": "DollarSign"
+      },
+      {
+        "title": "If You Have a $7,500–$15,000 Budget",
+        "description": "You may have greater flexibility across luxury cruises, river journeys, escorted travel, and selected land-based experiences.",
+        "icon": "Compass"
+      },
+      {
+        "title": "If You Have a $15,000–$25,000 Budget",
+        "description": "You can explore more extensive itineraries, higher levels of personalization, and premium experiences.",
+        "icon": "Award"
+      },
+      {
+        "title": "If You Have a $25,000+ Budget",
+        "description": "You may have the flexibility to consider highly customized journeys, private services, extended safaris, and multi-destination itineraries.",
+        "icon": "Sparkles"
+      }
+    ],
+    "note": "These are planning categories, not guarantees of what a particular trip will cost."
+  },
+  "independentVsGroupTable": {
+    "title": "Solo Travel Cost: Independent vs. Group",
+    "headers": ["Travel Style", "Typical Cost Considerations"],
+    "rows": [
+      ["Independent luxury travel", "Hotels, guides, transfers and activities are often individually arranged"],
+      ["Luxury ocean cruise", "Cruise fare, cabin category, solo pricing and excursions"],
+      ["River cruise", "Cruise fare, cabin, single supplement and included services"],
+      ["Women-only tour", "Group itinerary, accommodation, guides and included experiences"],
+      ["Small-group safari", "Lodge, shared activities, transfers and solo pricing"],
+      ["Private safari", "Dedicated services and vehicle can increase the per-person cost"]
+    ],
+    "conclusion": "The most appropriate option depends on your priorities, not simply the lowest price."
+  },
+  "isItWorthIt": {
+    "title": "Is Luxury Solo Travel Worth the Cost?",
+    "lead": "For many travelers, the value of luxury solo travel comes from more than accommodation.",
+    "benefitsTitle": "It can provide:",
+    "benefits": [
+      "Greater comfort",
+      "Professional planning",
+      "Expert local knowledge",
+      "Better logistics",
+      "Meaningful experiences",
+      "Time savings",
+      "Personalized service",
+      "The freedom to travel without waiting for someone else"
+    ]  },
+  "howTripsAndShipsHelps": {
+    "title": "How Trips & Ships Helps You Plan Around Your Budget",
+    "subtitle": "At Trips & Ships, we can help you identify the right travel experience based on your budget, interests, preferred level of companionship, and travel timeframe. The goal is to avoid recommending a generic package simply because it fits a particular price range. We can help compare:",
+    "comparisonItems": [
+      "Ocean and river cruises",
+      "Women-only tours",
+      "Private journeys",
+      "Small-group travel",
+      "African safaris",
+      "Expedition experiences",
+      "Solo pricing",
+      "Single supplements",
+      "Current promotions"
+    ],
+    "conclusion": "Your budget is the starting point—not the entire definition of your journey."
+  },
+  "discoveryQuestions": {
+    "title": "Where Will Your Next Chapter Take You?",
+    "subtitle": "Trips & Ships' solo travel planning approach can help you think about these core elements:",
+    "questions": [
+      {
+        "question": "What kind of travel excites you?",
+        "options": [
+          "Luxury ocean or river cruise",
+          "Escorted small-group adventure",
+          "Private independent journey",
+          "Safari or expedition"
+        ]
+      },
+      {
+        "question": "How much companionship would you like?",
+        "options": [
+          "Some social time, plenty of independence",
+          "A group of like-minded women",
+          "Mostly private experiences"
+        ]
+      },
+      {
+        "question": "What is your approximate per-person budget?",
+        "options": [
+          "$5,000–$7,500",
+          "$7,500–$15,000",
+          "$15,000–$25,000",
+          "$25,000+"
+        ]
+      },
+      {
+        "question": "When would you like to travel?",
+        "options": [
+          "Within six months",
+          "Within 6–12 months",
+          "More than a year from now",
+          "Still exploring"
+        ]
+      }
+    ],
+    "conclusion": "These questions can help identify the type of journey that may be the best starting point for your consultation."
+  },
+  "midPageCta": {
+    "title": "Plan Your Luxury Solo Journey",
+    "subtitle": "You don't need someone to go with you. You need the right experience waiting for you.",
+    "ctaText": "Plan Your Luxury Solo Journey",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "How much does luxury solo travel cost?",
+      "answer": "There is no single price. The Trips & Ships planning framework uses four approximate budget ranges: $5,000–$7,500, $7,500–$15,000, $15,000–$25,000, and $25,000+. Actual pricing depends on the destination, itinerary, travel dates, accommodation, inclusions, and solo pricing."
+    },
+    {
+      "question": "Why does solo travel sometimes cost more?",
+      "answer": "Some travel services are priced based on two people sharing a room, cabin, vehicle, or other service. A solo traveler may therefore pay a higher per-person cost or a single supplement."
+    },
+    {
+      "question": "What is a single supplement?",
+      "answer": "A single supplement is an additional charge that may apply when one traveler occupies accommodation or travel space normally priced for two people sharing."
+    },
+    {
+      "question": "Can solo travelers avoid single supplements?",
+      "answer": "Sometimes. Certain suppliers may offer solo cabins, reduced supplements, or specific promotions for individual departures. Availability varies and should be verified before booking."
+    },
+    {
+      "question": "Is luxury solo travel more expensive than traveling with a partner?",
+      "answer": "It can be, particularly when accommodation, private transportation, guides, or other services are priced for two people. However, the difference depends on the type of journey and any applicable solo promotions."
+    },
+    {
+      "question": "Are luxury cruises good value for solo travelers?",
+      "answer": "They can be. A cruise may combine accommodation, transportation, dining, onboard experiences, and excursions in one itinerary. Solo travelers should compare the complete cost and inclusions rather than only the advertised fare."
+    },
+    {
+      "question": "How much should I budget for a luxury African safari?",
+      "answer": "There is no universal price. Safari cost depends on destination, lodge, duration, season, group size, transportation, guiding, activities, and whether the journey is private or shared."
+    },
+    {
+      "question": "Is a women-only tour more affordable than private solo travel?",
+      "answer": "It can be, but there is no universal rule. Group size, itinerary, accommodation, inclusions, and departure date all affect pricing."
+    },
+    {
+      "question": "Does a higher travel budget always mean a better trip?",
+      "answer": "No. The best journey is the one that matches your priorities. A well-designed itinerary at a lower budget can be more appropriate than a more expensive trip that does not fit your interests."
+    },
+    {
+      "question": "Can Trips & Ships help me find solo travel offers?",
+      "answer": "Yes. Trips & Ships can evaluate available options and current supplier promotions. Any specific offer, pricing, or reduced single supplement should be verified before being presented as current."
+    },
+    {
+      "question": "What hidden costs should solo travelers watch out for on luxury vacations?",
+      "answer": "Solo travelers should check for single occupancy stateroom surcharges, private airport transfer fees, discretionary gratuities, port charges, optional bespoke excursions, and premium dining or spa reservations. Choosing all-inclusive luxury cruise lines or fully escorted small-group tours eliminates unexpected out-of-pocket expenses."
+    },
+    {
+      "question": "When is the best time to book luxury solo travel to get the best value?",
+      "answer": "The best time to secure lower rates for solo travel is 9 to 12 months in advance to reserve limited dedicated solo cabins and early-booking waived supplement promotions. Alternatively, traveling during shoulder seasons (such as spring and autumn in Europe) offers significantly reduced single supplements across luxury ocean lines, river cruises, and safari lodges."
+    }
+  ],
+
+  "author": {
+    "name": "Angela Hughes",
+    "role": "CEO & Luxury Travel Specialist, Trips & Ships Luxury Travel",
+    "bio": "Angela Hughes brings extensive professional travel experience to the planning of luxury journeys for clients seeking expert guidance, thoughtful recommendations, and personalized service. Her experience helps travelers evaluate destinations, suppliers, itineraries, pricing structures, and travel styles based on their individual preferences rather than a one-size-fits-all approach.",
+    "ctaText": "Plan Your Luxury Solo Journey",
+    "ctaLink": "/contact"
+  }
+}

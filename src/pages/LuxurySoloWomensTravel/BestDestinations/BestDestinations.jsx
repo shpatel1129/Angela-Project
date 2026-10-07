@@ -74,7 +74,7 @@ const BestDestinations = () => {
 
         {/* Schema.org Structured Data */}
         <script type="application/ld+json">
-          {JSON.stringify(pageData.meta.schema)}
+          {JSON.stringify(pageData.schema)}
         </script>
       </Helmet>
 

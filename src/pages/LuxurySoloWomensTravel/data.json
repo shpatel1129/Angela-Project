@@ -155,6 +155,22 @@
               "@type": "Answer",
               "text": "Start by considering how much independence and companionship you want, your preferred destinations and experiences, your travel timeframe, and your budget. A travel advisor can then help identify suitable options."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "What is dining like for a woman traveling solo on luxury cruises and tours?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dining on luxury cruises and small-group journeys is designed to be flexible and welcoming for solo travelers. Luxury cruise lines feature open-seating dining where you can choose a quiet table for one, join shared tables hosted by officers or fellow guests, or enjoy in-suite white-glove dining. On escorted women-only and boutique group journeys, curated dinners and wine tastings provide seamless social ease without any awkwardness."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can solo female travelers avoid or reduce single supplement fees?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Solo women travelers can minimize or eliminate single supplements by reserving dedicated solo staterooms, booking during shoulder seasons, selecting promotional sailings with 0% to 25% reduced single supplements, or choosing small-group tours with guaranteed single accommodations. A luxury travel advisor can track supplier promotions and secure exclusive waived-supplement departures."
+            }
           }
         ]
       }
@@ -665,6 +681,14 @@
     {
       "question": "How do I choose the right luxury solo trip?",
       "answer": "Start by considering how much independence and companionship you want, your preferred destinations and experiences, your travel timeframe, and your budget. A travel advisor can then help identify suitable options."
+    },
+    {
+      "question": "What is dining like for a woman traveling solo on luxury cruises and tours?",
+      "answer": "Dining on luxury cruises and small-group journeys is designed to be flexible and welcoming for solo travelers. Luxury cruise lines feature open-seating dining where you can choose a quiet table for one, join shared tables hosted by officers or fellow guests, or enjoy in-suite white-glove dining. On escorted women-only and boutique group journeys, curated dinners and wine tastings provide seamless social ease without any awkwardness."
+    },
+    {
+      "question": "How can solo female travelers avoid or reduce single supplement fees?",
+      "answer": "Solo women travelers can minimize or eliminate single supplements by reserving dedicated solo staterooms, booking during shoulder seasons, selecting promotional sailings with 0% to 25% reduced single supplements, or choosing small-group tours with guaranteed single accommodations. A luxury travel advisor can track supplier promotions and secure exclusive waived-supplement departures."
     }
   ],
   "finalConversion": {

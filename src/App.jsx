@@ -205,6 +205,11 @@ import SeabournVsRitzCarltonYacht from "./pages/Seabourn/SeabournVsRitzCarltonYa
 import BookSeabournDirectVsTravelAdvisor from "./pages/Seabourn/BookSeabournDirectVsTravelAdvisor/BookSeabournDirectVsTravelAdvisor";
 import LuxurySoloWomensTravel from "./pages/LuxurySoloWomensTravel/LuxurySoloWomensTravel";
 import SoloLuxuryCruises from "./pages/LuxurySoloWomensTravel/SoloLuxuryCruises/SoloLuxuryCruises";
+// import SingleSupplementCruises from "./pages/LuxurySoloWomensTravel/SingleSupplementCruises/SingleSupplementCruises";
+import SoloTravelCost from "./pages/LuxurySoloWomensTravel/SoloTravelCost/SoloTravelCost";
+import SoloTravelOffers from "./pages/LuxurySoloWomensTravel/SoloTravelOffers/SoloTravelOffers";
+// import SoloVsGroupTravel from "./pages/LuxurySoloWomensTravel/SoloVsGroupTravel/SoloVsGroupTravel";
+// import SoloAfricanSafaris from "./pages/LuxurySoloWomensTravel/SoloAfricanSafaris/SoloAfricanSafaris";
 // import WomenOnlyTours from "./pages/LuxurySoloWomensTravel/WomenOnlyTours/WomenOnlyTours";
 // import WomenOver50 from "./pages/LuxurySoloWomensTravel/WomenOver50/WomenOver50";
 // import BestDestinations from "./pages/LuxurySoloWomensTravel/BestDestinations/BestDestinations";
@@ -743,6 +748,11 @@ function App() {
           <Route path="/does-it-cost-more-to-book-through-a-travel-agent" element={<DoesItCostMoreToBookThroughATravelAgent />} />
           <Route path="/luxury-solo-womens-travel" element={<LuxurySoloWomensTravel />} />
           <Route path="/luxury-solo-womens-travel/solo-luxury-cruises" element={<SoloLuxuryCruises />} />
+          {/* <Route path="/luxury-solo-womens-travel/single-supplement-cruises" element={<SingleSupplementCruises />} /> */}
+          <Route path="/luxury-solo-womens-travel/solo-travel-cost" element={<SoloTravelCost />} />
+          <Route path="/luxury-solo-womens-travel/offers" element={<SoloTravelOffers />} />
+          {/* <Route path="/luxury-solo-womens-travel/solo-vs-group-travel" element={<SoloVsGroupTravel />} />
+          <Route path="/luxury-solo-womens-travel/solo-african-safaris" element={<SoloAfricanSafaris />} /> */}
           {/* <Route path="/luxury-solo-womens-travel/women-only-tours" element={<WomenOnlyTours />} />
           <Route path="/luxury-solo-womens-travel/women-over-50" element={<WomenOver50 />} />
           <Route path="/luxury-solo-womens-travel/best-destinations" element={<BestDestinations />} /> */}

@@ -17,7 +17,6 @@ import EditorialIntroSplit from '@/components/ui/EditorialIntroSplit';
 import ShipPhilosophyFaceoff from '@/components/ui/ShipPhilosophyFaceoff';
 import HighlightsSplit from '@/components/ui/HighlightsSplit';
 import CurvilinearGrid from '@/components/ui/CurvilinearGrid';
-import InteractivePillarHubGrid from '@/components/ui/InteractivePillarHubGrid';
 import ExpertCredentials from '@/components/ui/ExpertCredentials';
 import FAQAccordion from '@/components/ui/FAQAccordion';
 import CenterCTA from '@/components/ui/CenterCTA';
@@ -103,17 +102,6 @@ const SoloLuxuryCruises = () => {
     }))
   };
 
-  // 7. Related Pillar Guides
-  const relatedHubGuides = pageData.relatedGuides.guides.map((guide) => ({
-    title: guide.title,
-    category: guide.category,
-    description: guide.description,
-    // image: null,
-    alt: guide.title,
-    badgeCount: guide.badgeCount,
-    links: guide.links,
-    mainUrl: guide.mainUrl
-  }));
 
   return (
     <div className="bg-white min-h-screen font-sans text-slate-800">
@@ -318,16 +306,6 @@ const SoloLuxuryCruises = () => {
 
         {/* ─── 12. FREQUENTLY ASKED QUESTIONS (FAQAccordion Component) ─── */}
         <FAQAccordion data={faqData} />
-
-        {/* ─── 15. RELATED LUXURY SOLO TRAVEL GUIDES (InteractivePillarHubGrid Component) ─── */}
-        <div className="[&_.grid]:!flex [&_.grid]:flex-wrap [&_.grid]:justify-center [&_.grid>div]:w-full md:[&_.grid>div]:w-[calc(50%-1rem)] lg:[&_.grid>div]:w-[calc(33.333%-1.333rem)]">
-          <InteractivePillarHubGrid
-            title={pageData.relatedGuides.title}
-            subtitle={pageData.relatedGuides.subtitle}
-            items={relatedHubGuides}
-            variant="destination"
-          />
-        </div>
 
         
         {/* ─── 14. FINAL CONVERSION BANNER (CenterCTA Component) ─── */}

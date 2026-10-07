@@ -24,10 +24,35 @@
       "solo travel destinations for women",
       "luxury vacations for solo women",
       "best luxury travel destinations for women"
-    ],
-    "schema": [
+    ]
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
       {
-        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Luxury Solo Women's Travel",
+            "item": "https://tripsandships.com/luxury-solo-womens-travel/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Best Destinations for Solo Women",
+            "item": "https://tripsandships.com/luxury-solo-womens-travel/best-destinations/"
+          }
+        ]
+      },
+      {
         "@type": "Article",
         "headline": "Best Destinations for Solo Women: Luxury Places to Travel on Your Own",
         "description": "Discover the best destinations for solo women, from European escapes and luxury cruises to Japan, New Zealand and African safaris. Find your ideal luxury journey.",
@@ -42,13 +67,9 @@
           "name": "Trips & Ships Luxury Travel",
           "url": "https://tripsandships.com"
         },
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://tripsandships.com/luxury-solo-womens-travel/best-destinations/"
-        }
+        "mainEntityOfPage": "https://tripsandships.com/luxury-solo-womens-travel/best-destinations/"
       },
       {
-        "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
           {

@@ -1681,6 +1681,46 @@ const Nav = () => {
               </NavLink>
 
               {/* <NavLink
+                to="/luxury-solo-womens-travel/single-supplement-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Cruises Without Single Supplements
+              </NavLink> */}
+
+              <NavLink
+                to="/luxury-solo-womens-travel/solo-travel-cost"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                How Much Does Luxury Solo Travel Cost?
+              </NavLink>
+
+              <NavLink
+                to="/luxury-solo-womens-travel/offers"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Luxury Solo Travel Offers
+              </NavLink>
+
+              {/* <NavLink
+                to="/luxury-solo-womens-travel/solo-vs-group-travel"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Solo Travel vs. Women-Only Group Travel
+              </NavLink>
+
+              <NavLink
+                to="/luxury-solo-womens-travel/solo-african-safaris"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                African Safaris for Solo Women
+              </NavLink> */}
+
+              {/* <NavLink
                 to="/luxury-solo-womens-travel/women-only-tours"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -3370,6 +3410,46 @@ const Nav = () => {
             >
               Best Luxury Cruises for Solo Women
             </NavLink>
+
+            {/* <NavLink
+              to="/luxury-solo-womens-travel/single-supplement-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Cruises Without Single Supplements
+            </NavLink> */}
+
+            <NavLink
+              to="/luxury-solo-womens-travel/solo-travel-cost"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              How Much Does Luxury Solo Travel Cost?
+            </NavLink>
+
+            <NavLink
+              to="/luxury-solo-womens-travel/offers"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Luxury Solo Travel Offers
+            </NavLink>
+
+            {/* <NavLink
+              to="/luxury-solo-womens-travel/solo-vs-group-travel"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Solo Travel vs. Women-Only Group Travel
+            </NavLink>
+
+            <NavLink
+              to="/luxury-solo-womens-travel/solo-african-safaris"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              African Safaris for Solo Women
+            </NavLink> */}
 
             {/* <NavLink
               to="/luxury-solo-womens-travel/women-only-tours"

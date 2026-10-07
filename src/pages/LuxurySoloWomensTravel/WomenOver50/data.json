@@ -392,13 +392,43 @@
   "comparisonTable": {
     "title": "Solo Travel vs. Women-Only Group Travel",
     "subtitle": "You do not have to choose between being completely independent and traveling with a group. Both options can work for women over 50.",
-    "headers": ["Travel Style", "Best For", "Social Interaction", "Flexibility"],
+    "headers": [
+      "Travel Style",
+      "Best For",
+      "Social Interaction",
+      "Flexibility"
+    ],
     "rows": [
-      ["Independent Solo Travel", "Maximum independence", "Self-directed", "High"],
-      ["Luxury Cruise", "Independence with built-in activities", "Easy opportunities", "Moderate"],
-      ["River Cruise", "Culture and intimate group atmosphere", "Moderate to high", "Moderate"],
-      ["Women-Only Tour", "Companionship and shared experiences", "High", "Based on itinerary"],
-      ["Private Custom Journey", "Personalized luxury", "Flexible", "Very high"]
+      [
+        "Independent Solo Travel",
+        "Maximum independence",
+        "Self-directed",
+        "High"
+      ],
+      [
+        "Luxury Cruise",
+        "Independence with built-in activities",
+        "Easy opportunities",
+        "Moderate"
+      ],
+      [
+        "River Cruise",
+        "Culture and intimate group atmosphere",
+        "Moderate to high",
+        "Moderate"
+      ],
+      [
+        "Women-Only Tour",
+        "Companionship and shared experiences",
+        "High",
+        "Based on itinerary"
+      ],
+      [
+        "Private Custom Journey",
+        "Personalized luxury",
+        "Flexible",
+        "Very high"
+      ]
     ],
     "conclusion": "The right choice depends on how you want to spend your time."
   },
