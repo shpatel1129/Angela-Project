@@ -107,7 +107,7 @@ const schemaData = {
           "@type": "ListItem",
           "position": 2,
           "name": "River Cruise Guides",
-          "item": "https://www.tripsandships.com/riverside-luxury-cruises"
+          "item": "https://www.tripsandships.com/riverside-luxury-cruises-ultimate-guide"
         },
         {
           "@type": "ListItem",
@@ -205,8 +205,8 @@ const RiversideLuxuryCruisesReviews = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.description}
-        secondaryCtaText={data.hero.primaryCtaText}
-        secondaryCtaLink={data.hero.primaryCtaLink}
+        primaryCtaText={data.hero.primaryCtaText}
+        primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
       />
 
       {/* ── 2. QUICK REVIEW (RATING & PROS/CONS) ── */}

@@ -121,7 +121,7 @@ const schemaData = {
                     "@type": "ListItem",
                     position: 2,
                     name: "River Cruise Guides",
-                    item: "https://www.tripsandships.com/river-cruise-guides",
+                    item: "https://www.tripsandships.com/riverside-luxury-cruises-ultimate-guide",
                 },
                 {
                     "@type": "ListItem",

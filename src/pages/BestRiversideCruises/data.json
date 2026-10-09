@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "title": "Best Riverside Cruises | Top Luxury River Cruise Itineraries in Europe",
+    "metaTitle": "Best Riverside Cruises | Luxury European River Cruise Guide",
+    "description": "Discover the best Riverside Luxury Cruises on the Danube, Rhine, and Rhône Rivers. Compare itineraries, destinations, ships, and find the perfect luxury European river cruise.",
+    "canonicalUrl": "https://www.tripsandships.com/best-riverside-cruises"
+  },
+  "hero": {
+    "badge": "LUXURY EUROPEAN RIVER CRUISE GUIDE",
+    "title": "Best Riverside Cruises",
+    "subtitle": "Discover Europe's Top Luxury River Itineraries Across the Danube, Rhine, Rhône, and Seasonal Sailings",
+    "description": "Europe's rivers are home to some of the world's most spectacular destinations, and Riverside Luxury Cruises offers an elegant way to experience them. From fairy-tale castles along the Rhine to the vineyards of southern France and the imperial cities of the Danube, Riverside combines boutique luxury with immersive cultural exploration.\n\nWith a small fleet of beautifully appointed ships, Riverside focuses on spacious suites, exceptional dining, personalized service, and thoughtfully designed itineraries. Choosing the right itinerary is one of the most important decisions you'll make.\n\nThis guide highlights the best Riverside cruises, what makes each route unique, and which itinerary is best for your travel style—whether you're planning your first river cruise or returning to Europe for another unforgettable journey.",
+    "primaryCtaText": "Start Planning Your Riverside Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickOverview": {
+    "title": "Quick Overview",
+    "subtitle": "A fast look at each Riverside itinerary, who it's best for, and the highlights that make it stand out.",
+    "cards": [
+      {
+        "title": "Danube Cruises",
+        "description": "Vienna, Budapest, and the Wachau Valley combine imperial history with stunning river scenery.",
+        "icon": "Landmark",
+        "tagline": "First-Time River Cruisers",
+        "highlights": ["Vienna", "Budapest", "Wachau Valley"]
+      },
+      {
+        "title": "Rhine Cruises",
+        "description": "The Rhine Gorge, Cologne, and Strasbourg make this one of Europe's most photogenic itineraries.",
+        "icon": "Mountain",
+        "tagline": "Castles & Scenic Landscapes",
+        "highlights": ["Rhine Gorge", "Cologne", "Strasbourg"]
+      },
+      {
+        "title": "Rhône Cruises",
+        "description": "Provence, Lyon, and Avignon deliver one of Europe's finest gastronomic river journeys.",
+        "icon": "Wine",
+        "tagline": "Food & Wine Lovers",
+        "highlights": ["Provence", "Lyon", "Avignon"]
+      },
+      {
+        "title": "Christmas Market Cruises",
+        "description": "Europe's festive Christmas markets come to life with mulled wine, lights, and holiday traditions.",
+        "icon": "Snowflake",
+        "tagline": "Holiday Travelers",
+        "highlights": ["Vienna", "Budapest", "Cologne", "Strasbourg"]
+      },
+      {
+        "title": "Tulip Cruises",
+        "description": "Dutch gardens and blooming tulip fields create one of Riverside's most colorful sailings.",
+        "icon": "Flower2",
+        "tagline": "Spring Travel",
+        "highlights": ["Keukenhof Gardens", "Amsterdam", "Kinderdijk"]
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "BOUTIQUE LUXURY ON EUROPE'S WATERWAYS",
+    "title": "Why Choose Riverside Luxury Cruises?",
+    "subtitle": "An intimate experience where comfort and service come first",
+    "paragraphs": [
+      "Unlike larger cruise companies, Riverside focuses on delivering an intimate experience where comfort and service come first.",
+      "Every voyage is designed to help guests slow down and fully enjoy Europe's most beautiful waterways with genuine boutique hospitality."
+    ],
+    "highlights": [
+      "Spacious luxury suites",
+      "Gourmet dining",
+      "Personalized service",
+      "Elegant contemporary ships",
+      "Scenic European itineraries",
+      "Relaxed onboard atmosphere",
+      "Exceptional hospitality"
+    ],
+    "image1Placeholder": "Riverside Ship Exterior",
+    "image2Placeholder": "Riverside Luxury Suite",
+    "ctaText": "Start Planning Your Riverside Cruise",
+    "ctaLink": "/contact"
+  },
+  "destinationsItineraries": {
+    "title": "Best Riverside Cruise Itineraries",
+    "eyebrow": "SIGNATURE EUROPEAN WATERWAYS",
+    "subtitle": "Riverside sails through some of Europe's most spectacular regions. Each itinerary reflects the unique culture, history, cuisine, and landscapes of the river it follows.",
+    "items": [
+      {
+        "title": "Best Danube Cruises",
+        "category": "Recommended Ship: Riverside Mozart",
+        "description": "The Danube is one of Europe's most iconic rivers and an excellent introduction to luxury river cruising, with imperial history, magnificent architecture, classical music, charming villages, and stunning river scenery. Ideal for first-time river cruisers and history lovers alike.",
+        "features": [
+          "Budapest",
+          "Vienna",
+          "Bratislava",
+          "Melk Abbey",
+          "Wachau Valley",
+          "Passau"
+        ]
+      },
+      {
+        "title": "Best Rhine Cruises",
+        "category": "Recommended Ship: Riverside Ravel",
+        "description": "The Rhine is famous for its romantic landscapes, medieval castles, vineyards, and picturesque towns, with scenic cruising through the UNESCO-listed Upper Middle Rhine Valley—often considered one of Europe's most beautiful river experiences.",
+        "features": [
+          "Amsterdam",
+          "Cologne",
+          "Koblenz",
+          "Rhine Gorge",
+          "Rüdesheim",
+          "Strasbourg",
+          "Basel"
+        ]
+      },
+      {
+        "title": "Best Rhône Cruises",
+        "category": "Recommended Ship: Riverside Debussy",
+        "description": "Southern France offers an entirely different river cruise experience centered around food, wine, history, and Provençal culture. Travelers enjoy Roman ruins, lavender landscapes, vineyards, charming villages, and exceptional cuisine throughout Provence.",
+        "features": [
+          "Lyon",
+          "Avignon",
+          "Arles",
+          "Viviers",
+          "Chalon-sur-Saône",
+          "Tournon-sur-Rhône"
+        ]
+      },
+      {
+        "title": "Best Christmas Market Cruises",
+        "category": "Festive Onboard Experience",
+        "description": "During the holiday season, Riverside transforms its ships into festive retreats while visiting some of Europe's most famous Christmas markets. Guests can browse traditional holiday markets, enjoy seasonal cuisine, sip mulled wine, and experience centuries-old Christmas traditions.",
+        "features": [
+          "Vienna",
+          "Budapest",
+          "Cologne",
+          "Strasbourg",
+          "Nuremberg",
+          "Passau"
+        ]
+      },
+      {
+        "title": "Best Tulip Cruises",
+        "category": "Photogenic Itineraries",
+        "description": "Spring is one of the most beautiful times to cruise through the Netherlands and Belgium. Colorful tulip fields, blooming gardens, and charming Dutch towns make this one of Riverside's most photogenic itineraries.",
+        "features": [
+          "Amsterdam",
+          "Keukenhof Gardens",
+          "Rotterdam",
+          "Kinderdijk",
+          "Antwerp",
+          "Historic canals"
+        ]
+      }
+    ]
+  },
+  "whichCruiseBest": {
+    "title": "Which Riverside Cruise Is Best for You?",
+    "subtitle": "The best Riverside cruise depends on the travel style and experiences you value most. Match your interests to the perfect itinerary:",
+    "cards": [
+      {
+        "title": "01. First-Time River Cruisers",
+        "description": "Choose the Danube. It offers iconic cities, stunning scenery, and an excellent introduction to European river cruising.",
+        "icon": "Landmark",
+        "tag": "Danube Cruise"
+      },
+      {
+        "title": "02. Food & Wine Enthusiasts",
+        "description": "Choose the Rhône. The culinary traditions, vineyards, and regional specialties make it one of Europe's finest gastronomic journeys.",
+        "icon": "Wine",
+        "tag": "Rhône Cruise"
+      },
+      {
+        "title": "03. Castle & History Lovers",
+        "description": "Choose the Rhine. The legendary castles, medieval villages, and historic cities create unforgettable scenery.",
+        "icon": "Mountain",
+        "tag": "Rhine Cruise"
+      },
+      {
+        "title": "04. Holiday Travelers",
+        "description": "Choose a Christmas Market Cruise. These seasonal sailings combine festive traditions with Riverside's luxury experience.",
+        "icon": "Snowflake",
+        "tag": "Holiday Cruise"
+      },
+      {
+        "title": "05. Spring Travelers",
+        "description": "Choose a Tulip Cruise. The blooming flowers and charming Dutch landscapes create an unforgettable seasonal vacation.",
+        "icon": "Flower2",
+        "tag": "Spring Cruise"
+      }
+    ]
+  },
+  "whatMakesDifferent": {
+    "title": "What Makes Riverside Different?",
+    "subtitle": "Compared with many other luxury river cruise lines, Riverside emphasizes a different set of priorities.",
+    "cards": [
+      {
+        "title": "Boutique Experience & Priorities",
+        "items": [
+          "Larger accommodations",
+          "Boutique atmosphere",
+          "Personalized service",
+          "Elegant interiors",
+          "Relaxed luxury",
+          "Fewer guests",
+          "Exceptional cuisine"
+        ]
+      },
+      {
+        "title": "Boutique Hotel Philosophy",
+        "items": [
+          "The result is an experience that feels more like staying at a luxury boutique hotel than a traditional cruise.",
+          "Boutique • Personalized • Elegant",
+          "Focus on comfort rather than crowds",
+          "Unmatched crew-to-guest attention",
+          "All-suite accommodations across the fleet",
+          "Daily culinary evolution reflecting local ports"
+        ]
+      }
+    ]
+  },
+  "fleetSelection": {
+    "title": "Which Ship Should You Choose?",
+    "subtitle": "Riverside's boutique fleet of three ships is closely matched to its signature rivers, each offering the same commitment to luxury.",
+    "items": [
+      {
+        "title": "Riverside Mozart — Best for the Danube",
+        "description": "Riverside's recommended ship for Danube itineraries, ideal for first-time guests and couples seeking spacious suites.",
+        "features": [
+          "Danube itineraries",
+          "Spacious suites",
+          "First-time guests",
+          "Couples",
+          "Double-width design with generous public spaces",
+          "Multiple dining venues and indoor pool"
+        ]
+      },
+      {
+        "title": "Riverside Ravel — Best for the Rhine",
+        "description": "Riverside's recommended ship for Rhine itineraries, sailing past castles and some of Europe's most scenic river landscapes.",
+        "features": [
+          "Rhine itineraries",
+          "Castles & fortress views",
+          "Scenic cruising",
+          "Romantic vacations",
+          "Contemporary elegant design",
+          "Butler service in all suite categories"
+        ]
+      },
+      {
+        "title": "Riverside Debussy — Best for the Rhône",
+        "description": "Riverside's recommended ship for the Rhône River, built around French wine country and gourmet cuisine.",
+        "features": [
+          "Rhône River",
+          "French wine country",
+          "Gourmet cuisine",
+          "Provence & southern France",
+          "Intimate boutique atmosphere",
+          "Floor-to-ceiling panoramic windows"
+        ]
+      }
+    ]
+  },
+  "isWorthPrice": {
+    "title": "Is Riverside Worth the Price?",
+    "prosTitle": "Guests Consistently Praise:",
+    "consTitle": "The Riverside Value Proposition:",
+    "bestFor": [
+      "Luxury accommodations",
+      "Fine dining",
+      "Boutique hospitality",
+      "Scenic European travel",
+      "Personalized service"
+    ],
+    "notBestFor": [
+      "Rather than focusing on onboard entertainment, Riverside invests in spacious suites, exceptional cuisine, and unforgettable destinations.",
+      "For travelers who appreciate luxury accommodations, fine dining, boutique hospitality, scenic European travel, and personalized service, Riverside offers excellent value."
+    ],
+    "bottomNote": "Rather than focusing on onboard entertainment, Riverside invests in spacious suites, exceptional cuisine, and unforgettable destinations. For travelers who appreciate luxury accommodations, fine dining, boutique hospitality, scenic European travel, and personalized service, Riverside offers excellent value."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Itinerary Planning",
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "A luxury travel advisor can help you compare itineraries, choose the right ship, and select the best suite, while coordinating flights, hotels, transfers, and excursions—so the itinerary you choose fits your interests and travel style.",
+    "description": "A luxury travel advisor can help you compare itineraries, choose the right ship, and select the best suite, while coordinating flights, hotels, transfers, and excursions—so the itinerary you choose fits your interests and travel style.",
+    "items": [
+      {
+        "title": "Compare Itineraries",
+        "description": "Evaluate inclusions and route differences across Europe's rivers.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Choose the Right Ship",
+        "description": "Match your travel style with Mozart, Ravel, or Debussy.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Select the Best Suite",
+        "description": "Get expert recommendations on cabin layout and location.",
+        "icon": "Home"
+      },
+      {
+        "title": "Coordinate Flights",
+        "description": "Seamless booking of international airfare tailored to cruise dates.",
+        "icon": "Plane"
+      },
+      {
+        "title": "Arrange Hotels",
+        "description": "Hand-picked luxury pre- and post-cruise hotel stays.",
+        "icon": "Building"
+      },
+      {
+        "title": "Plan Private Transfers",
+        "description": "Stress-free airport-to-ship transfers and luggage coordination.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Recommend Excursions",
+        "description": "Curated guidance on included tours and bespoke private excursions.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Explain Promotions",
+        "description": "Unlock special perks, agency amenities, and bundled savings.",
+        "icon": "Award"
+      },
+      {
+        "title": "Provide Ongoing Travel Support",
+        "description": "Dedicated advisor support before, during, and after your sailing.",
+        "icon": "Globe"
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "Luxury Travel Expertise",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Personalized advice backed by 40+ years in the luxury travel industry",
+    "experienceBadge": "40+ Years Experience",
+    "paragraphs": [
+      "With more than 40 years of luxury travel industry experience and visits to over 121 countries, Angela Hughes provides expert guidance for travelers seeking the world's most refined cruise journeys.",
+      "Her deep knowledge of European river cruising ensures you receive personalized suite selections, itinerary advice, and VIP service every step of the way."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "River cruising should be effortless, intimate, and deeply enriching. Riverside Luxury Cruises delivers an exceptional blend of boutique luxury, generous suites, and authentic European charm.",
+    "quoteSubtitle": "— Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "ctaText": "Start Planning Your Riverside Cruise",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Which Riverside cruise is best for first-time travelers?",
+      "answer": "The Danube itinerary is widely considered the best introduction to luxury river cruising."
+    },
+    {
+      "question": "Which Riverside cruise has the best scenery?",
+      "answer": "The Rhine is famous for its dramatic castles, vineyards, and the UNESCO-listed Rhine Gorge."
+    },
+    {
+      "question": "Which Riverside itinerary is best for food lovers?",
+      "answer": "The Rhône River offers exceptional culinary and wine experiences throughout southern France."
+    },
+    {
+      "question": "Which ship sails the Danube?",
+      "answer": "Riverside Mozart primarily sails Danube itineraries."
+    },
+    {
+      "question": "Which Riverside cruise is best during Christmas?",
+      "answer": "Christmas Market cruises through Germany, Austria, and Hungary are among the most popular seasonal sailings."
+    },
+    {
+      "question": "Which cruise is best for spring?",
+      "answer": "Tulip Cruises through the Netherlands and Belgium showcase spectacular spring blooms."
+    },
+    {
+      "question": "Are Riverside cruises all-inclusive?",
+      "answer": "Most cruises include luxury accommodations, gourmet dining, beverages with meals, Wi-Fi, and selected excursions. Exact inclusions vary by itinerary."
+    },
+    {
+      "question": "Is Riverside suitable for experienced luxury travelers?",
+      "answer": "Absolutely. Riverside's boutique atmosphere, spacious suites, and personalized service appeal to seasoned luxury travelers."
+    },
+    {
+      "question": "How many ships does Riverside operate?",
+      "answer": "Riverside currently operates a boutique fleet of three luxury river ships."
+    },
+    {
+      "question": "Should I use a travel advisor when booking Riverside?",
+      "answer": "Yes. A luxury travel advisor can compare itineraries, explain promotions, recommend the best suite, and coordinate every aspect of your vacation."
+    },
+    {
+      "question": "Does Riverside Luxury Cruises provide butler service?",
+      "answer": "Yes. Riverside Luxury Cruises offers butler service in all suites across their entire fleet, providing guests with an exceptional level of personalized assistance."
+    },
+    {
+      "question": "What is the dress code onboard Riverside ships?",
+      "answer": "The dress code onboard is casual/smart-casual during the day and elegant-casual in the evening. Formal nights are generally not required."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Which Riverside Cruise is Best?",
+    "paragraphs": [
+      "The best Riverside cruise depends on the experience you're looking for. Choose the Danube for iconic cities, imperial history, and a perfect first river cruise. Choose the Rhine for castles, vineyards, and breathtaking scenery.",
+      "Choose the Rhône for gourmet cuisine, wine, and the charm of southern France. Choose a Christmas Market Cruise for festive traditions and seasonal magic, or a Tulip Cruise for colorful spring landscapes and Dutch culture. No matter which itinerary you select, Riverside delivers spacious accommodations, refined dining, and personalized service in an elegant boutique setting.",
+      "At Trips & Ships Luxury Travel, we'll help you compare itineraries, choose the ideal ship and suite, and create a customized Riverside Luxury Cruises vacation tailored to your travel goals."
+    ],
+    "planningServices": [
+      "Compare itineraries",
+      "Choose the ideal ship and suite",
+      "Explain promotions",
+      "Coordinate flights",
+      "Arrange hotel stays",
+      "Organize private transfers",
+      "Recommend excursions"
+    ],
+    "ctaText": "Start Planning Your Riverside Cruise",
+    "ctaLink": "/contact"
+  }
+}

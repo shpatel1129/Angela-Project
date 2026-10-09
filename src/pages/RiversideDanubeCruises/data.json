@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "title": "Riverside Danube Cruises | Luxury Danube River Cruise Guide",
+    "metaTitle": "Riverside Danube Cruises | Luxury River Cruises Through Europe",
+    "description": "Discover Riverside Danube Cruises featuring luxury suites, gourmet dining, and unforgettable journeys through Budapest, Vienna, Bratislava, and the Wachau Valley. Learn what to expect before you book.",
+    "canonicalUrl": "https://www.tripsandships.com/riverside-danube-cruises"
+  },
+  "hero": {
+    "badge": "LUXURY DANUBE RIVER CRUISE GUIDE",
+    "title": "Riverside Danube Cruises",
+    "subtitle": "Experience Europe's Imperial Waterway with Boutique Luxury, Spacious Suites, and Gourmet Dining",
+    "description": "The Danube River is one of Europe's most iconic waterways, flowing through grand capitals, medieval villages, UNESCO World Heritage sites, and breathtaking wine regions. A Riverside Danube Cruise offers an elegant way to experience these destinations while enjoying the comfort of a boutique luxury hotel on the water.\n\nKnown for spacious suites, attentive service, gourmet dining, and immersive itineraries, Riverside Luxury Cruises combines relaxed sophistication with unforgettable European travel. Whether you're visiting the Danube for the first time or returning to discover new destinations, these voyages offer an exceptional balance of culture, history, cuisine, and scenic beauty.",
+    "primaryCtaText": "Start Planning Your Danube Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickOverview": {
+    "title": "Quick Overview",
+    "subtitle": "Essential facts and cruise details for planning your Riverside Danube River vacation.",
+    "cards": [
+      {
+        "title": "Best For",
+        "description": "Couples, Luxury Travelers, and First-Time River Cruisers seeking a refined boutique experience.",
+        "icon": "Users"
+      },
+      {
+        "title": "Main River",
+        "description": "The Danube River — flowing through Central Europe's most legendary imperial capitals.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Signature Ship",
+        "description": "Riverside Mozart — Europe's most spacious double-width luxury river cruise ship.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Popular Destinations",
+        "description": "Budapest, Vienna, Bratislava, Passau, Melk, and the scenic Wachau Valley.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Cruise Style",
+        "description": "Boutique Luxury with butler service in every suite and farm-to-table gourmet dining.",
+        "icon": "Award"
+      },
+      {
+        "title": "Cruise Length",
+        "description": "Typically 7 to 14 nights with flexible embarkation ports and overnight stays.",
+        "icon": "Compass"
+      }
+    ]
+  },
+  "whyCruiseDanube": {
+    "eyebrow": "CENTRAL EUROPE'S MAJESTIC WATERWAY",
+    "title": "Why Cruise the Danube?",
+    "subtitle": "Connect with Central Europe's Most Fascinating Cities and Landscapes",
+    "paragraphs": [
+      "Stretching across Central Europe, the Danube connects some of the continent's most fascinating cities and landscapes.",
+      "Every day brings a new destination, while every evening you return to the comfort of your luxury river ship."
+    ],
+    "highlights": [
+      "Imperial capitals",
+      "Historic castles",
+      "UNESCO World Heritage sites",
+      "Charming medieval towns",
+      "Scenic vineyards",
+      "Classical music heritage",
+      "Rich culinary traditions",
+      "Beautiful countryside"
+    ],
+    "image1Placeholder": "Riverside Danube Exterior",
+    "image2Placeholder": "Imperial Vienna Riverfront",
+    "ctaText": "Start Planning Your Danube Cruise",
+    "ctaLink": "/contact"
+  },
+  "whyChooseRiverside": {
+    "title": "Why Choose Riverside Luxury Cruises?",
+    "subtitle": "Riverside delivers a refined river cruise experience focused on quality rather than quantity. With only a small fleet of luxury ships, Riverside creates an intimate experience that feels far more personal than larger cruise lines.",
+    "cards": [
+      {
+        "title": "Boutique Hospitality & Refinement",
+        "items": [
+          "Spacious luxury suites",
+          "Personalized service",
+          "Gourmet dining",
+          "Elegant contemporary interiors",
+          "Relaxed onboard atmosphere",
+          "Boutique hospitality",
+          "Carefully curated itineraries"
+        ]
+      },
+      {
+        "title": "Intimate River Cruising",
+        "items": [
+          "A boutique fleet creates an experience that feels far more personal than larger cruise lines.",
+          "Boutique • Personalized • Elegant",
+          "Double-width ship design on Riverside Mozart with ample space",
+          "High crew-to-guest ratio ensuring attentive care",
+          "Dedicated butler service for all suite categories",
+          "Locally sourced ingredients and destination sommelier pairings"
+        ]
+      }
+    ]
+  },
+  "destinationsAlongDanube": {
+    "title": "Destinations Along the Danube",
+    "eyebrow": "IMPERIAL CAPITALS & HISTORIC PORTS",
+    "subtitle": "Every stop along the Danube reveals a different side of Central Europe's rich heritage — from imperial capitals to medieval river towns and UNESCO-listed wine country.",
+    "items": [
+      {
+        "title": "Budapest, Hungary",
+        "category": "The Pearl of the Danube",
+        "description": "Often called the \"Pearl of the Danube,\" Budapest is famous for its stunning Parliament building, thermal baths, grand boulevards, and historic Buda Castle.",
+        "features": [
+          "Fisherman's Bastion",
+          "Hungarian Parliament",
+          "Danube riverfront",
+          "Thermal spas",
+          "Local markets",
+          "Buda Castle"
+        ]
+      },
+      {
+        "title": "Vienna, Austria",
+        "category": "Imperial Elegance & Classical Music",
+        "description": "Austria's elegant capital offers a blend of imperial history, majestic palaces, and world-famous classical music traditions.",
+        "features": [
+          "Schönbrunn Palace",
+          "St. Stephen's Cathedral",
+          "Vienna State Opera",
+          "Historic coffee houses",
+          "Classical concerts"
+        ]
+      },
+      {
+        "title": "Bratislava, Slovakia",
+        "category": "Medieval Charm & Cobblestone Streets",
+        "description": "A charming capital featuring a medieval Old Town, historic hilltop castle, cobblestone streets, and welcoming local cafés.",
+        "features": [
+          "Medieval Old Town",
+          "Bratislava Castle",
+          "Cobblestone streets",
+          "Historic cafés",
+          "Local cuisine"
+        ]
+      },
+      {
+        "title": "Melk, Austria",
+        "category": "Gateway to the Wachau",
+        "description": "Home to one of Europe's most impressive baroque monasteries, Melk sits at the western gateway to the scenic Wachau Valley.",
+        "features": [
+          "Melk Abbey",
+          "Wachau Valley Gateway",
+          "Monastery Gardens",
+          "Scenic river views"
+        ]
+      },
+      {
+        "title": "Passau, Germany",
+        "category": "The City of Three Rivers",
+        "description": "Known as the \"City of Three Rivers\" where the Danube, Inn, and Ilz meet, Passau combines Italianate baroque architecture with rich history.",
+        "features": [
+          "St. Stephen's Cathedral",
+          "Largest Cathedral Organ",
+          "Historic Old Town",
+          "River promenades",
+          "Local bakeries"
+        ]
+      },
+      {
+        "title": "The Beautiful Wachau Valley",
+        "category": "UNESCO World Heritage Landscape",
+        "description": "One of the most scenic sections of the Danube is Austria's UNESCO-listed Wachau Valley. Many travelers consider cruising past its castle ruins and terraced vineyards the highlight of their entire cruise.",
+        "features": [
+          "Terraced vineyards",
+          "Historic castles & ruins",
+          "Apricot orchards",
+          "Dürnstein village",
+          "Rolling hills",
+          "Spectacular river scenery"
+        ]
+      }
+    ]
+  },
+  "riversideMozart": {
+    "title": "Riverside Mozart",
+    "subtitle": "The flagship for many Danube itineraries is Riverside Mozart, one of the most spacious luxury river ships sailing Europe. Its generous size and thoughtful design create an exceptionally comfortable onboard experience.",
+    "items": [
+      {
+        "title": "Spacious Double-Width Luxury Ship",
+        "subtitle": "Unmatched Space & Boutique Elegance",
+        "description": "With custom-designed onboard venues and high staff-to-guest ratios, the Mozart offers a truly personalized luxury experience with generous public areas and all-suite accommodations.",
+        "features": [
+          "Large suites with butler service",
+          "Elegant panoramic lounges",
+          "Multiple gourmet restaurants",
+          "Wraparound sun deck & running track",
+          "Indoor swimming pool & wellness spa",
+          "Personalized boutique hospitality"
+        ]
+      }
+    ]
+  },
+  "whatsIncludedOnboard": {
+    "title": "What's Included Onboard",
+    "subtitle": "Riverside Luxury Cruises includes daily excursions and enriching onboard experiences that complement your journey along the Danube.",
+    "items": [
+      {
+        "title": "Shore Excursions",
+        "description": "Included excursions often showcase the region's rich history and culture. Optional premium excursions offer deeper exploration for travelers seeking unique experiences.",
+        "features": [
+          "Guided city tours",
+          "Palace visits",
+          "Abbey tours",
+          "Wine tastings",
+          "Local markets",
+          "Cultural performances",
+          "Scenic countryside drives"
+        ]
+      },
+      {
+        "title": "Life Onboard",
+        "description": "Between destinations, guests enjoy a relaxed and sophisticated atmosphere. Rather than nonstop entertainment, Riverside emphasizes meaningful travel and relaxation.",
+        "features": [
+          "Destination lectures",
+          "Live music",
+          "Wine tastings",
+          "Scenic cruising",
+          "Cocktail hours",
+          "Cooking demonstrations",
+          "Quiet time on the sun deck"
+        ]
+      }
+    ]
+  },
+  "accommodations": {
+    "eyebrow": "UNRIVALED SUITE PROPORTIONS",
+    "title": "Luxury Accommodations",
+    "subtitle": "Riverside's suites are among the largest in European river cruising, designed for travelers who value comfort throughout their journey.",
+    "paragraphs": [
+      "Riverside's suites are among the largest in European river cruising, designed for travelers who value comfort throughout their journey.",
+      "Every suite is a private sanctuary on the river, finished with opulent materials, lavish marble bathrooms, and dedicated butler service."
+    ],
+    "highlights": [
+      "King-size plush beds",
+      "Spacious marble bathrooms",
+      "Separate comfortable sitting areas",
+      "Luxury European linens",
+      "Premium designer bath amenities",
+      "Floor-to-ceiling river views",
+      "Individual climate control",
+      "Spacious walk-in storage & closets"
+    ],
+    "image1Placeholder": "Riverside Mozart Suite Balcony",
+    "image2Placeholder": "Riverside Suite Living Area",
+    "ctaText": "Start Planning Your Danube Cruise",
+    "ctaLink": "/contact"
+  },
+  "whoShouldChoose": {
+    "title": "Who Should Choose a Riverside Danube Cruise?",
+    "subtitle": "Its combination of iconic cities and beautiful scenery makes the Danube one of Europe's most popular river cruises.",
+    "cards": [
+      {
+        "title": "01. First-Time River Cruisers",
+        "description": "The perfect introduction to Europe by water with smooth sailing, imperial capitals, and iconic landmarks.",
+        "icon": "Ship",
+        "tag": "First-Time Cruisers"
+      },
+      {
+        "title": "02. Couples & Romance Seekers",
+        "description": "Romantic Danube sunsets, intimate dining tables, private balconies, and charming riverside promenades.",
+        "icon": "Heart",
+        "tag": "Couples"
+      },
+      {
+        "title": "03. Luxury Travelers",
+        "description": "Discerning travelers seeking generous suite square footage, fine dining, and personalized butler care.",
+        "icon": "Award",
+        "tag": "Luxury Cruising"
+      },
+      {
+        "title": "04. History & Culture Enthusiasts",
+        "description": "Explore centuries of Habsburg imperial history, baroque abbeys, and UNESCO World Heritage landscapes.",
+        "icon": "Landmark",
+        "tag": "History Lovers"
+      },
+      {
+        "title": "05. Food & Wine Lovers",
+        "description": "Indulge in Wachau Valley Grüner Veltliners, Austrian pastries, and Hungarian regional specialties.",
+        "icon": "Wine",
+        "tag": "Food & Wine"
+      },
+      {
+        "title": "06. Celebrations & Anniversaries",
+        "description": "Mark milestone birthdays, wedding anniversaries, or retirement trips in refined boutique luxury.",
+        "icon": "Star",
+        "tag": "Milestones"
+      }
+    ]
+  },
+  "diningExperience": {
+    "title": "Dining on the Danube",
+    "subtitle": "A Danube river cruise is as much a culinary journey as it is a visual one. As you sail past vineyards and historic towns, the menus onboard change to showcase the rich culinary heritage of Central Europe.",
+    "items": [
+      {
+        "title": "Central European Gourmet Dinners",
+        "description": "Multi-course evening dinners paired with regional wines and prepared with fresh seasonal ingredients sourced from daily ports.",
+        "features": [
+          "Austrian specialties & classic Wiener Schnitzel",
+          "Hungarian goulash & paprika-infused delicacies",
+          "Bavarian & German regional classics",
+          "Fresh artisan pastries & European breads",
+          "Sommelier wine pairings with every dinner",
+          "Local cheese carts & gourmet dessert selections"
+        ]
+      },
+      {
+        "title": "Artisan Lunches & Gourmet Breakfasts",
+        "description": "Start your day with made-to-order eggs, seasonal fruits, and specialty coffees, followed by relaxed gourmet lunches overlooking the Danube.",
+        "features": [
+          "Made-to-order breakfast favorites",
+          "Seasonal fresh fruits and organic juices",
+          "Bistro lunch menus with panoramic views",
+          "Al fresco dining on the sun deck weather permitting"
+        ]
+      }
+    ]
+  },
+  "seasonsGuide": {
+    "title": "Best Time to Cruise the Danube",
+    "subtitle": "Each season offers a unique perspective on the Danube, with distinct highlights and seasonal charm.",
+    "cards": [
+      {
+        "title": "Spring",
+        "description": "March – May. Blooming landscapes, mild weather, and fewer crowds make spring ideal for leisurely sightseeing.",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Summer",
+        "description": "June – August. Long daylight hours, lively riverfront festivals, and warm temperatures perfect for the sun deck.",
+        "icon": "Sun"
+      },
+      {
+        "title": "Fall",
+        "description": "September – October. Wine harvest season in the Wachau Valley, colorful autumn foliage, and comfortable weather.",
+        "icon": "Leaf"
+      },
+      {
+        "title": "Winter",
+        "description": "November – December. Magical Christmas markets in Vienna, Budapest, and Passau with festive lights and holiday traditions.",
+        "icon": "Snowflake"
+      }
+    ]
+  },
+  "isWorthIt": {
+    "title": "Is a Riverside Danube Cruise Worth It?",
+    "prosTitle": "Highlights of the Danube Journey:",
+    "consTitle": "The Riverside Distinction:",
+    "bestFor": [
+      "Budapest's grand illuminated architecture",
+      "Vienna's imperial palaces and classical concerts",
+      "Scenic Wachau Valley vineyards and castle ruins",
+      "Passau's historic three-river confluence",
+      "Exceptional service & double-width spacious suites"
+    ],
+    "notBestFor": [
+      "The Danube combines some of Europe's most famous cities with charming villages and breathtaking scenery, while Riverside enhances the journey through boutique hospitality and refined onboard experiences.",
+      "For travelers seeking a luxury European vacation with exceptional service, spacious accommodations, and immersive cultural experiences, the answer is an emphatic yes."
+    ],
+    "bottomNote": "The Danube combines some of Europe's most famous cities with charming villages and breathtaking scenery, while Riverside enhances the journey through boutique hospitality and refined onboard experiences. For travelers seeking a luxury European vacation with exceptional service, spacious accommodations, and immersive cultural experiences, the answer is yes."
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "An experienced luxury travel advisor can help you compare Danube itineraries, choose the best sailing date, select the ideal suite, and coordinate flights, hotels, transfers, and excursions — so every detail of your journey is carefully planned.",
+    "items": [
+      {
+        "title": "Compare Danube Itineraries",
+        "description": "Evaluate route options from 7-night highlights to 14-night grand Danube journeys."
+      },
+      {
+        "title": "Choose the Best Sailing Date",
+        "description": "Select the optimal season based on weather, festivals, wine harvest, or Christmas markets."
+      },
+      {
+        "title": "Select the Ideal Suite",
+        "description": "Receive expert guidance on Riverside Mozart suite categories, layouts, and ship location."
+      },
+      {
+        "title": "Arrange Flights",
+        "description": "Seamless coordination of international airfare matched with cruise embarkation times."
+      },
+      {
+        "title": "Coordinate Hotels",
+        "description": "Hand-picked luxury pre- and post-cruise hotel stays in Budapest, Vienna, or Munich."
+      },
+      {
+        "title": "Organize Private Transfers",
+        "description": "Door-to-ship luxury transfers for stress-free arrival and departure logistics."
+      },
+      {
+        "title": "Recommend Excursions",
+        "description": "Custom advice on included shore excursions and curated private tours."
+      },
+      {
+        "title": "Explain Available Promotions",
+        "description": "Unlock agency amenities, exclusive booking perks, and special promotional rates."
+      },
+      {
+        "title": "Provide Ongoing Travel Support",
+        "description": "Dedicated advisor advocacy before, during, and after your European voyage."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "Luxury Travel Expertise",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Personalized advice backed by 40+ years in the luxury travel industry",
+    "experienceBadge": "40+ Years Experience",
+    "paragraphs": [
+      "With more than 40 years of luxury travel industry experience and visits to over 121 countries, Angela Hughes provides expert guidance for travelers seeking the world's most refined cruise journeys.",
+      "Her deep knowledge of European river cruising ensures you receive personalized suite selections, itinerary advice, and VIP service every step of the way."
+    ],
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "River cruising should be effortless, intimate, and deeply enriching. Riverside Luxury Cruises delivers an exceptional blend of boutique luxury, generous suites, and authentic European charm.",
+    "quoteSubtitle": "— Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "ctaText": "Start Planning Your Danube Cruise",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Which Riverside ship sails the Danube?",
+      "answer": "Riverside Mozart is the primary ship offering Danube River itineraries."
+    },
+    {
+      "question": "What countries do Riverside Danube Cruises visit?",
+      "answer": "Depending on the itinerary, cruises may visit Hungary, Austria, Slovakia, Germany, and additional Central European destinations."
+    },
+    {
+      "question": "How long are Riverside Danube Cruises?",
+      "answer": "Most itineraries range from 7 to 14 nights."
+    },
+    {
+      "question": "Are excursions included?",
+      "answer": "Most cruises include selected guided shore excursions, with optional premium experiences available."
+    },
+    {
+      "question": "Are drinks included?",
+      "answer": "Wine, beer, soft drinks, coffee, tea, and water are generally included with meals."
+    },
+    {
+      "question": "Is Wi-Fi included?",
+      "answer": "Yes. Complimentary Wi-Fi is typically available throughout the voyage."
+    },
+    {
+      "question": "Is the Danube good for first-time river cruisers?",
+      "answer": "Absolutely. It offers iconic cities, diverse cultures, and beautiful scenery, making it one of Europe's best introductory river cruises."
+    },
+    {
+      "question": "What is the best time to cruise the Danube?",
+      "answer": "Spring, fall, and Christmas Market season are particularly popular, though every season offers unique experiences."
+    },
+    {
+      "question": "Is Riverside family friendly?",
+      "answer": "While families are welcome, Riverside primarily caters to adult travelers seeking a refined and relaxed luxury experience."
+    },
+    {
+      "question": "Should I use a travel advisor?",
+      "answer": "Yes. A luxury travel advisor can recommend the best itinerary, explain promotions, and coordinate every aspect of your Danube cruise."
+    },
+    {
+      "question": "What is the dress code onboard Riverside Mozart?",
+      "answer": "The onboard dress code is generally elegant casual during the day and smart casual in the evenings, with no formal nights required."
+    },
+    {
+      "question": "Are gratuities included in the cruise fare?",
+      "answer": "Yes, onboard gratuities for the crew and local guides are generally included in your cruise fare, ensuring a seamless luxury experience."
+    }
+  ],
+  "finalVerdict": {
+    "title": "A Journey Through Central Europe's Finest Heritage",
+    "paragraphs": [
+      "A Riverside Danube Cruise is one of the finest ways to experience Central Europe. From Budapest's grand architecture and Vienna's imperial elegance to the vineyards of the Wachau Valley and the medieval charm of Passau, every stop reveals a different side of Europe's rich heritage.",
+      "Combined with Riverside's spacious suites, exceptional cuisine, and personalized boutique service, the Danube becomes more than a river cruise — it becomes a luxurious journey through some of the continent's most unforgettable destinations.",
+      "At Trips & Ships Luxury Travel, we'll help you compare itineraries, select the perfect suite aboard Riverside Mozart, and create a personalized Danube River vacation designed around your travel style."
+    ],
+    "planningServices": [
+      "Compare Danube itineraries",
+      "Choose the best sailing date",
+      "Select the ideal suite",
+      "Arrange flights",
+      "Coordinate hotels",
+      "Organize private transfers",
+      "Recommend excursions",
+      "Explain available promotions"
+    ],
+    "ctaText": "Start Planning Your Danube Cruise",
+    "ctaLink": "/contact"
+  }
+}

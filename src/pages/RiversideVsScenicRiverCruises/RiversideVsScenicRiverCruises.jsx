@@ -99,8 +99,8 @@ const schemaData = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "River Cruises",
-          "item": "https://www.tripsandships.com/river-cruises"
+          "name": "River Cruise Guides",
+          "item": "https://www.tripsandships.com/riverside-luxury-cruises-ultimate-guide"
         },
         {
           "@type": "ListItem",
@@ -127,7 +127,7 @@ const schemaData = {
           "text": f.answer
         }
       }))
-    }
+    } 
   ]
 };
 
@@ -162,8 +162,8 @@ const RiversideVsScenic = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.description}
-        secondaryCtaText={data.hero.primaryCtaText}
-        secondaryCtaLink={data.hero.primaryCtaLink}
+        primaryCtaText={data.hero.primaryCtaText}
+        primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
       />
 
       {/* ── 2. QUICK COMPARISON TABLE ── */}
@@ -174,7 +174,7 @@ const RiversideVsScenic = () => {
       {/* ── 3. ABOUT THE CRUISE LINES (CRUISE LINES COMPARISON) ── */}
       <CruiseLinesComparison
         title={data.aboutBrands.title}
-        subtitle={data.aboutBrands.subtitle}
+        subtitle={data.aboutBrands.subtitle} 
         items={data.aboutBrands.items.map((item, idx) => ({
           ...item,
           image: [
