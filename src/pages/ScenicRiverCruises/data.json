@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "title": "Scenic River Cruises: The Complete Guide | Luxury River Cruising in Europe & Southeast Asia",
+    "metaTitle": "Scenic River Cruises Guide | Ships, Destinations, Inclusions & Reviews",
+    "description": "Discover everything you need to know about Scenic River Cruises. Explore luxury ships, destinations, all-inclusive amenities, itineraries, dining, suites, pricing, and whether Scenic is the right river cruise line for you.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises"
+  },
+  "hero": {
+    "badge": "ULTRA-LUXURY RIVER CRUISES GUIDE",
+    "title": "Scenic River Cruises: The Complete Guide",
+    "subtitle": "Truly All-Inclusive Luxury River Cruising Across Europe & Southeast Asia",
+    "description": "Scenic Luxury Cruises & Tours has earned a reputation as one of the world's leading ultra-luxury river cruise lines, known for its truly all-inclusive philosophy, elegant ships, spacious suites, personalized butler service, and immersive cultural experiences.\n\nWhether you're planning your first river cruise or comparing Scenic with other luxury brands like Riverside, Uniworld, AmaWaterways, or Tauck, this complete guide covers everything you need to know — from ships and destinations to onboard experiences, pricing, and who should choose Scenic to explore Europe's most iconic waterways and Southeast Asia's legendary rivers.",
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickOverview": {
+    "title": "Quick Overview",
+    "items": [
+      { "label": "Cruise Line", "value": "Scenic Luxury Cruises & Tours" },
+      { "label": "Cruise Style", "value": "Ultra-Luxury River Cruises" },
+      { "label": "Best For", "value": "Couples, Luxury Travelers, Food & Wine Enthusiasts" },
+      { "label": "Destinations", "value": "Europe & Southeast Asia" },
+      { "label": "Fleet", "value": "Modern Luxury River Ships" },
+      { "label": "Dining", "value": "Multiple Gourmet Dining Venues" },
+      { "label": "Butler Service", "value": "Included in Every Suite" },
+      { "label": "Overall Rating", "value": "★★★★★ 4.9/5" }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Why Choose Scenic River Cruises?",
+    "eyebrow": "ALL-INCLUSIVE LUXURY • SEAMLESS TRAVEL",
+    "paragraphs": [
+      "Scenic is designed for travelers who want a seamless luxury experience with very few additional expenses once onboard. Instead of worrying about additional charges throughout the trip, Scenic focuses on providing an effortless vacation experience from arrival through departure."
+    ],
+    "highlights": [
+      "Truly all-inclusive luxury",
+      "Butler service for every suite",
+      "Spacious accommodations",
+      "Premium beverages",
+      "Fine dining",
+      "Included excursions",
+      "Airport transfers",
+      "Luxury coaches",
+      "Personalized service"
+    ],
+    "calloutText": "Instead of worrying about additional charges throughout the trip, Scenic focuses on providing an effortless vacation experience from arrival through departure.",
+    "badgeTitle": "Truly All-Inclusive Peace of Mind",
+    "badgeDescription": "Virtually every detail — from shore excursions to butler service and premium drinks — is covered upfront.",
+    "placeholderLabel": "Luxury Scenic river cruise ship and suite"
+  },
+  "whatMakesDifferent": {
+    "eyebrow": "A HIGHER STANDARD OF INCLUSION",
+    "title": "What Makes Scenic Different?",
+    "subtitle": "Seamless Luxury With Very Few Out-of-Pocket Expenses",
+    "paragraphs": [
+      "Scenic is designed for travelers who want a seamless luxury experience with very few additional expenses once onboard. Unlike many cruise lines that offer optional upgrades, Scenic includes many premium experiences in the cruise fare, making budgeting much easier for travelers."
+    ],
+    "highlights": [
+      "Butler service",
+      "Premium beverages",
+      "Specialty dining",
+      "Complimentary Wi-Fi",
+      "Prepaid gratuities",
+      "Included daily excursions",
+      "Roundtrip airport transfers",
+      "Scenic Freechoice personalized experiences",
+      "Scenic Enrich exclusive cultural events"
+    ],
+    "image1Placeholder": "Scenic river cruise ship sailing along a European river",
+    "image2Placeholder": "All-inclusive luxury onboard public lounge",
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "destinations": {
+    "title": "Scenic Destinations & Itineraries",
+    "subtitle": "Scenic offers iconic itineraries across the world's most storied European and Southeast Asian waterways.",
+    "items": [
+      {
+        "title": "The Danube",
+        "description": "Scenic's Danube sailings glide past grand imperial capitals and quiet vineyard villages, making it one of the line's most popular classic European itineraries.",
+        "features": ["Budapest", "Vienna", "Bratislava", "Passau", "Wachau Valley"]
+      },
+      {
+        "title": "The Rhine",
+        "description": "Sailing the Rhine takes guests past storybook riverside towns, vineyard-covered hillsides, and some of Europe's most walkable historic city centers.",
+        "features": ["Amsterdam", "Cologne", "Strasbourg", "Basel", "Rüdesheim"]
+      },
+      {
+        "title": "The Rhône",
+        "description": "Scenic's Rhône itineraries lean into Provençal light, lavender-scented countryside, and some of France's most celebrated vineyards.",
+        "features": ["Lyon", "Avignon", "Arles", "Provence", "Rhône Valley Vineyards"]
+      },
+      {
+        "title": "The Seine",
+        "description": "Cruising the Seine pairs the romance of Paris with the quiet charm of Normandy, blending world-class art and history with the French countryside.",
+        "features": ["Paris", "Rouen", "Vernon & Giverny", "Normandy Beaches", "Les Andelys"]
+      },
+      {
+        "title": "The Douro",
+        "description": "Portugal's Douro Valley unfolds in terraced vineyards and sun-soaked hillsides, offering one of Europe's most scenic and intimate river journeys.",
+        "features": ["Porto", "Douro Valley", "Régua", "Pinhão", "Salamanca (Spain)"]
+      },
+      {
+        "title": "The Mekong",
+        "description": "Scenic's Southeast Asia sailings combine luxury river cruising with immersive culture along the Mekong, connecting vibrant cities with rural village life.",
+        "features": ["Ho Chi Minh City", "Cai Be", "Phnom Penh", "Angkor Wat", "Siem Reap"]
+      }
+    ]
+  },
+  "suites": {
+    "heading": "Suites & Accommodations",
+    "eyebrow": "SIGNATURE SCENIC SUN LOUNGES",
+    "paragraphs": [
+      "Scenic suites are among the finest in river cruising. Many suites feature Scenic's signature Sun Lounge, allowing guests to convert their private balcony into an all-weather conservatory at the touch of a button, enjoying fresh air and panoramic views regardless of the weather."
+    ],
+    "highlights": [
+      "Butler service in every suite",
+      "Luxury bedding & pillow menu",
+      "Marble bathrooms with premium toiletries",
+      "Walk-in showers",
+      "In-suite espresso machines",
+      "Complimentary restocked mini-bars",
+      "Large flat-screen televisions",
+      "Individual climate control"
+    ],
+    "badgeTitle": "Private All-Weather Sun Lounge",
+    "badgeDescription": "Floor-to-ceiling glass balconies convert into open-air viewing sanctuaries instantly.",
+    "placeholderLabel": "Spacious suite aboard a Scenic river cruise ship"
+  },
+  "freechoiceAndEnrich": {
+    "title": "Scenic Freechoice & Scenic Enrich",
+    "subtitle": "Two of Scenic's signature features that help guests personalize their vacation and go far beyond traditional sightseeing.",
+    "cards": [
+      {
+        "title": "Scenic Freechoice",
+        "description": "Rather than following a single excursion schedule, guests can choose activities based on their interests — this flexibility allows travelers to personalize their vacation.",
+        "bullets": [
+          "Guided walking tours through historic quarters",
+          "Regional culinary & cooking masterclasses",
+          "Exclusive museum visits & art collections",
+          "Private local wine tastings & cellar tours",
+          "Scenic e-bike cycling tours along riverbanks",
+          "Authentic encounters in local villages"
+        ],
+        "highlight": "This flexibility allows travelers to personalize every port day."
+      },
+      {
+        "title": "Scenic Enrich",
+        "description": "Scenic Enrich offers exclusive cultural events unavailable to most travelers, designed to create memorable moments beyond traditional sightseeing.",
+        "bullets": [
+          "Private palace classical music concerts",
+          "Historic castle private dinners",
+          "Classical orchestra performances in Vienna",
+          "Sacred cultural ceremonies along the river",
+          "Exclusive closed-door local community events"
+        ],
+        "highlight": "These experiences are designed to create memorable moments beyond traditional sightseeing."
+      }
+    ]
+  },
+  "dining": {
+    "title": "Dining Experience",
+    "subtitle": "An Authentic Destination-Inspired Culinary Journey",
+    "intro": "Dining is one of Scenic's strongest features. Menus are inspired by the destinations visited, providing an authentic culinary journey across multiple dining venues onboard.",
+    "highlights": [
+      "Gourmet multi-course cuisine",
+      "Daily regional specialties inspired by ports",
+      "Multi-course evening dinners",
+      "Fresh locally sourced ingredients",
+      "Complimentary premium sommelier wines",
+      "Intimate specialty restaurant venues",
+      "Exclusive Chef's Table degustation experiences"
+    ],
+    "outro": "Menus are inspired by the destinations visited, providing an authentic culinary journey."
+  },
+  "wellnessAndEntertainment": {
+    "title": "Wellness, Relaxation & Entertainment",
+    "subtitle": "Scenic river ships make it easy to maintain your wellness routine while enjoying relaxing luxury evenings.",
+    "items": [
+      {
+        "title": "Stay Active & Recharge",
+        "description": "Guests can maintain their wellness routines while traveling with thoughtfully designed fitness and relaxation spaces available onboard.",
+        "imageCaption": "Onboard Wellness & Fitness",
+        "features": [
+          "Modern fitness center equipment",
+          "Dedicated wellness and relaxation areas",
+          "Top-deck scenic walking track",
+          "Healthy, nourishing dining options",
+          "Spa treatments (salt therapy & massages)",
+          "Comfortable panoramic relaxation lounges"
+        ]
+      },
+      {
+        "title": "Elegant Evening Experiences",
+        "description": "Evenings aboard Scenic are elegant and relaxed, with entertainment designed to complement the destinations rather than overshadow them.",
+        "imageCaption": "Sophisticated Evening Socials",
+        "features": [
+          "Live piano and acoustic music in the lounge",
+          "Enriching destination lectures and history talks",
+          "Complimentary evening cocktail hours",
+          "Local cultural performances brought onboard",
+          "Sommelier-led regional wine tastings",
+          "Welcoming social lounges with panoramic river views"
+        ]
+      }
+    ]
+  },
+  "whoShouldSail": {
+    "title": "Who Should Sail Scenic?",
+    "subtitle": "Effortless, Refined, and Exceptionally Comfortable Travel",
+    "lead": "Scenic's combination of luxury, convenience, and exceptional service appeals to travelers who prefer a worry-free, all-inclusive vacation. Many guests describe the experience as effortless, refined, and exceptionally comfortable.",
+    "cards": [
+      {
+        "title": "Luxury Travelers",
+        "icon": "Gem",
+        "tag": "Five-Star Luxury",
+        "description": "Discerning travelers expecting high-end accommodations, personalized butler service, and fine dining."
+      },
+      {
+        "title": "Couples & Honeymooners",
+        "icon": "Heart",
+        "tag": "Romantic Getaways",
+        "description": "Couples seeking an intimate, romantic journey with private balconies and sunset river views."
+      },
+      {
+        "title": "Retired Travelers",
+        "icon": "Users",
+        "tag": "Paced Comfort",
+        "description": "Guests looking for a relaxed, stress-free European trip with unpack-once convenience."
+      },
+      {
+        "title": "Food & Wine Enthusiasts",
+        "icon": "Wine",
+        "tag": "Culinary Immersion",
+        "description": "Travelers who appreciate destination-driven menus, sommelier wines, and private culinary excursions."
+      },
+      {
+        "title": "First-Time River Cruisers",
+        "icon": "Ship",
+        "tag": "All-Inclusive Ease",
+        "description": "First-timers who want all logistics, excursions, drinks, and gratuities managed seamlessly."
+      },
+      {
+        "title": "Cultural Explorers",
+        "icon": "Landmark",
+        "tag": "UNESCO Discovery",
+        "description": "History and culture lovers who appreciate Scenic Enrich events inside private palaces and castles."
+      },
+      {
+        "title": "Anniversary Celebrations",
+        "icon": "Sparkles",
+        "tag": "Milestone Moments",
+        "description": "Couples celebrating milestone anniversaries with dedicated butler attention and luxury dining."
+      },
+      {
+        "title": "All-Inclusive Seekers",
+        "icon": "Compass",
+        "tag": "Predictable Budget",
+        "description": "Vacationers who dislike nickel-and-diming and want zero hidden costs throughout their voyage."
+      }
+    ]
+  },
+  "riverShips": {
+    "title": "Scenic River Ships",
+    "subtitle": "Contemporary European Space-Ships Designed for Comfort",
+    "intro": "Scenic's fleet features modern river ships designed with contemporary luxury in mind, combining elegant design, spacious accommodations, and exceptional onboard amenities for a refined river cruising experience.",
+    "features": [
+      {
+        "title": "Spacious Suites with Sun Lounges",
+        "description": "Generous square footage and innovative all-weather glass balconies that bring the outdoors inside."
+      },
+      {
+        "title": "Multiple Distinct Dining Venues",
+        "description": "From Crystal Dining to Portobello/L'Amour Italian/French specialty restaurants and River Café."
+      },
+      {
+        "title": "Observation & Wellness Decks",
+        "description": "Panoramic Sun Decks with walking tracks, vitality pools, wellness salt therapy, and fitness centers."
+      }
+    ],
+    "outro": "Every Scenic river ship emphasizes comfort, generous space, and panoramic river views, creating a luxurious environment for exploring Europe's most beautiful waterways."
+  },
+  "scenicVsCompetitors": {
+    "title": "Scenic vs. Other Luxury River Cruise Lines",
+    "subtitle": "Key Areas Where Scenic Sets the Benchmark in Luxury River Travel",
+    "pillars": [
+      {
+        "icon": "compass",
+        "title": "Truly All-Inclusive Experience",
+        "description": "Many premium services — from butler service to top-shelf beverages, transfers, and excursions — are already included upfront."
+      },
+      {
+        "icon": "star",
+        "title": "Butler Service for Every Suite",
+        "description": "Every single suite category onboard receives dedicated butler service, from garment pressing to in-suite morning beverage service."
+      },
+      {
+        "icon": "compass",
+        "title": "Scenic Freechoice Excursions",
+        "description": "Guests enjoy complete daily flexibility to choose from active, cultural, or culinary shore excursions tailored to their pace."
+      },
+      {
+        "icon": "star",
+        "title": "Scenic Enrich Exclusive Events",
+        "description": "Once-in-a-lifetime private cultural events such as classical concerts in private Austrian palaces and medieval castle banquets."
+      },
+      {
+        "icon": "ship",
+        "title": "Modern Contemporary Fleet",
+        "description": "State-of-the-art Space-Ships featuring floor-to-ceiling glass Sun Lounges and spacious contemporary interiors."
+      }
+    ]
+  },
+  "isWorthIt": {
+    "heading": "Is Scenic Worth the Price?",
+    "eyebrow": "ALL-INCLUSIVE VALUE PROPOSITION",
+    "paragraphs": [
+      "Although Scenic commands premium pricing, many travelers find excellent value because so many services are already included — excursions, drinks, butler service, gratuities, and airport transfers.",
+      "Guests enjoy a more predictable vacation budget, making Scenic an outstanding value for travelers seeking convenience and luxury."
+    ],
+    "highlights": [
+      "All shore excursions included",
+      "Unlimited premium beverages & fine wines",
+      "Butler service for every guest",
+      "All onboard and onshore gratuities included",
+      "Complimentary airport transfers",
+      "Scenic Freechoice & Enrich events at no surcharge"
+    ],
+    "badgeTitle": "All-Inclusive • Elegant",
+    "badgeDescription": "A completely predictable vacation budget with zero surprises at checkout.",
+    "placeholderLabel": "Elegant evening lounge aboard a Scenic river cruise ship",
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Booking with an experienced luxury travel advisor can enhance your Scenic experience by helping you compare itineraries, choose the right ship, select the ideal suite, explain Scenic Freechoice options, coordinate airfare, arrange hotels, and organize private transfers.",
+    "lead": "Booking with an experienced luxury travel advisor can enhance your Scenic experience by helping you compare itineraries, choose the right ship, select the ideal suite, explain Scenic Freechoice options, coordinate airfare, arrange hotels, and organize private transfers — an advisor can also help determine whether Scenic is the best fit compared with other luxury river cruise lines.",
+    "alert": "Professional guidance helps ensure you choose the itinerary that best matches your travel style.",
+    "items": [
+      {
+        "title": "Compare Scenic Itineraries",
+        "description": "Evaluate rivers, seasonality, and duration to choose the perfect European or Mekong voyage."
+      },
+      {
+        "title": "Choose the Right Ship",
+        "description": "Select between European Space-Ships and Mekong vessels according to your preferences."
+      },
+      {
+        "title": "Select the Ideal Suite",
+        "description": "Secure the best cabin location, deck, and Sun Lounge configuration."
+      },
+      {
+        "title": "Explain Scenic Freechoice",
+        "description": "Navigate excursion options, fitness ratings, and exclusive Scenic Enrich opportunities."
+      },
+      {
+        "title": "Coordinate Airfare",
+        "description": "Arrange seamless premium transatlantic and regional flights that coordinate with ship transfers."
+      },
+      {
+        "title": "Arrange Boutique Hotels",
+        "description": "Curate luxury pre- and post-cruise hotel stays in gateway cities like Paris, Amsterdam, or Budapest."
+      },
+      {
+        "title": "Organize Private Transfers",
+        "description": "Plan effortless private door-to-ship and airport connections throughout your trip."
+      },
+      {
+        "title": "Recommend Pre- & Post-Cruise Extensions",
+        "description": "Add land extensions, private guides, and exclusive local culinary experiences."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel | 40+ Years Experience",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Traveled to more than 121 countries",
+    "experienceBadge": "40+ YEARS EXPERTISE",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Scenic's truly all-inclusive philosophy changes the entire feel of river cruising. When you never have to think about the bill, you can fully surrender to the journey.",
+    "quoteSubtitle": "Angela Hughes — Luxury River Cruise Specialist",
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Is Scenic an all-inclusive river cruise line?",
+      "answer": "Yes. Scenic includes many premium amenities, such as butler service, beverages, gratuities, excursions, and airport transfers, creating a comprehensive luxury experience."
+    },
+    {
+      "question": "Which rivers does Scenic sail?",
+      "answer": "Scenic operates on the Danube, Rhine, Rhône, Seine, Douro, and Mekong rivers."
+    },
+    {
+      "question": "Is Scenic good for first-time river cruisers?",
+      "answer": "Absolutely. Its all-inclusive approach and attentive service make it an excellent choice for travelers new to river cruising."
+    },
+    {
+      "question": "Are drinks included?",
+      "answer": "Yes. Premium beverages are generally included throughout the cruise."
+    },
+    {
+      "question": "Is butler service included?",
+      "answer": "Yes. Butler service is available for every suite."
+    },
+    {
+      "question": "What is Scenic Freechoice?",
+      "answer": "Scenic Freechoice allows guests to select excursions based on their interests rather than following a single scheduled tour."
+    },
+    {
+      "question": "What is Scenic Enrich?",
+      "answer": "Scenic Enrich consists of exclusive cultural events and experiences created specifically for Scenic guests."
+    },
+    {
+      "question": "Is Scenic suitable for couples?",
+      "answer": "Yes. Scenic is especially popular with couples seeking a luxurious, romantic river cruise."
+    },
+    {
+      "question": "How does Scenic compare with Riverside?",
+      "answer": "Scenic is known for its comprehensive all-inclusive experience, while Riverside emphasizes boutique luxury, spacious suites, and personalized hospitality. The best choice depends on your travel preferences."
+    },
+    {
+      "question": "Should I book through a travel advisor?",
+      "answer": "Yes. A luxury travel advisor can compare itineraries, recommend the best suite, explain promotions, and coordinate every aspect of your vacation."
+    },
+    {
+      "question": "What is the dress code onboard Scenic river cruises?",
+      "answer": "The onboard dress code is casual and comfortable during the day, and smart casual in the evenings. There are no formal nights, so formal wear like suits and evening gowns are not required."
+    },
+    {
+      "question": "Are laundry services available on Scenic ships?",
+      "answer": "Yes. Scenic offers onboard laundry services. Depending on your suite category, complimentary laundry service (ranging from a limited number of items to unlimited daily laundry) is provided by your butler."
+    }
+  ],
+  "finalVerdict": {
+    "title": "One of the Most Comprehensive Ultra-Luxury River Cruise Experiences",
+    "subtitle": "FINAL VERDICT & PLANNING SERVICES",
+    "paragraphs": [
+      "Scenic River Cruises delivers one of the most comprehensive luxury river cruise experiences available today. Its combination of elegant ships, personalized butler service, gourmet dining, enriching excursions, and truly all-inclusive pricing makes it an outstanding option for travelers who want to explore Europe or Southeast Asia in exceptional comfort.",
+      "Whether you're cruising the Danube, Rhine, Rhône, Seine, Douro, or Mekong, Scenic provides a sophisticated and immersive journey that combines world-class hospitality with unforgettable destinations.",
+      "At Trips & Ships Luxury Travel, we'll help you compare Scenic with other leading luxury river cruise lines, recommend the perfect itinerary, choose the ideal suite, and create a customized river cruise tailored to your travel style."
+    ],
+    "planningServices": [
+      "Compare Scenic with other luxury river cruise lines",
+      "Recommend the right itinerary",
+      "Select the ideal suite",
+      "Arrange flights",
+      "Coordinate hotels",
+      "Plan private transfers",
+      "Recommend excursions",
+      "Explain available promotions"
+    ],
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  }
+}

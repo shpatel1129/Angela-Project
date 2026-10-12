@@ -1,0 +1,374 @@
+{
+  "hero": {
+    "badge": "All-Inclusive Luxury Guide",
+    "title": "What Is Included on \na Scenic River Cruise?",
+    "subtitle": "Truly All-Inclusive Luxury River Cruising",
+    "description": [
+      "One of the biggest reasons travelers choose Scenic River Cruises is its truly all-inclusive luxury experience. Unlike many cruise lines that charge extra for beverages, gratuities, excursions, or airport transfers, Scenic includes most of these amenities in the upfront cruise fare.",
+      "This means you can relax and enjoy your vacation without constantly thinking about additional costs. If you're wondering exactly what's included — and what may cost extra — this guide covers everything you need to know before booking your Scenic River Cruise."
+    ],
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "All-Inclusive Luxury • Seamless Travel",
+    "heading": "Quick Answer",
+    "description": "A Scenic River Cruise typically includes the following amenities in the upfront fare.",
+    "highlights": [
+      "Luxury suite accommodations",
+      "Butler service for every suite",
+      "Gourmet dining",
+      "Premium alcoholic and non-alcoholic beverages",
+      "Scenic Freechoice excursions",
+      "Scenic Enrich exclusive experiences",
+      "Airport transfers",
+      "Wi-Fi",
+      "Gratuities",
+      "Daily entertainment",
+      "Fitness facilities",
+      "Luxury coach transportation during included excursions"
+    ],
+    "badgeTitle": "All-Inclusive Standard",
+    "badgeDescription": "Scenic is widely regarded as one of the most comprehensive all-inclusive luxury river cruise lines available today.",
+    "placeholderLabel": "All-Inclusive Luxury • Seamless Travel"
+  },
+  "inclusionsGlance": {
+    "eyebrow": "TRANSPARENT LUXURY BREAKDOWN",
+    "title": "What's Included at a Glance",
+    "subtitle": "A complete overview of standard upfront inclusions versus optional personal expenses.",
+    "inclusionsTitle": "Included Features",
+    "exclusionsTitle": "What's Not Usually Included",
+    "inclusions": [
+      { "name": "Luxury Suite", "description": "Spacious stateroom accommodations with Scenic Sun Lounge" },
+      { "name": "Butler Service", "description": "Dedicated butler service included for every single suite" },
+      { "name": "Gourmet Dining", "description": "All meals featuring fresh destination-inspired regional menus" },
+      { "name": "Breakfast, Lunch & Dinner", "description": "Multi-course meals, artisan breads, and cooked-to-order dishes" },
+      { "name": "Premium Beverages", "description": "Fine wines, beers, cocktails, and top-shelf spirits all day" },
+      { "name": "Coffee & Tea", "description": "Barista specialty coffees, artisan teas, and in-suite machines" },
+      { "name": "Wi-Fi", "description": "Complimentary ship-wide internet access throughout your sailing" },
+      { "name": "Gratuities", "description": "All onboard and ashore tipping fully prepaid and covered" },
+      { "name": "Scenic Freechoice Excursions", "description": "Curated daily shore tours tailored to your personal pace" },
+      { "name": "Scenic Enrich Experiences", "description": "Exclusive after-hours concerts and private cultural receptions" },
+      { "name": "Airport Transfers", "description": "Complimentary arrival and departure transfers on qualifying dates" },
+      { "name": "Fitness Center", "description": "Fully equipped fitness room and scenic walking track on the sun deck" },
+      { "name": "Daily Entertainment", "description": "Enriching lectures, live piano music, and authentic regional shows" }
+    ],
+    "exclusions": [
+      { "name": "Travel insurance", "description": "Comprehensive trip cancellation and medical protection" },
+      { "name": "Spa treatments", "description": "Massages, salon services, and specialty wellness therapies" },
+      { "name": "Personal shopping", "description": "Onboard boutique purchases and personal souvenir shopping" },
+      { "name": "Premium shore excursions beyond the included program", "description": "Rare private helicopter/aviation or bespoke independent bookings" },
+      { "name": "Independent sightseeing expenses", "description": "Personal meals and entrance fees incurred during independent exploration" },
+      { "name": "Passport and visa fees", "description": "Government visa and document acquisition fees" }
+    ]
+  },
+  "suites": {
+    "title": "Luxury Suite Accommodations",
+    "paragraphs": [
+      "Every Scenic River Cruise includes elegant accommodations designed for comfort and relaxation. Scenic suites are among the most spacious and comfortable in European river cruising."
+    ],
+    "items": [
+      { "title": "Suite Feature 01", "value": "Scenic Sun Lounge" },
+      { "title": "Suite Feature 02", "value": "King-size Scenic Slumber Bed" },
+      { "title": "Suite Feature 03", "value": "Marble bathroom" },
+      { "title": "Suite Feature 04", "value": "Rain shower" },
+      { "title": "Suite Feature 05", "value": "Premium bath amenities" },
+      { "title": "Suite Feature 06", "value": "Flat-screen television" },
+      { "title": "Suite Feature 07", "value": "Mini-bar" },
+      { "title": "Suite Feature 08", "value": "Climate control" },
+      { "title": "Suite Feature 09", "value": "Luxury linens" },
+      { "title": "Suite Feature 10", "value": "Complimentary bottled water" }
+    ]
+  },
+  "butlerService": {
+    "eyebrow": "COMPLIMENTARY FOR EVERY SUITE",
+    "heading": "Butler Service",
+    "description": "One of Scenic's signature luxury features is complimentary butler service for every suite. This personalized service helps create a seamless luxury experience from embarkation to disembarkation.",
+    "services": [
+      {
+        "number": "01",
+        "title": "Morning Comfort & Dining Assistance",
+        "description": "Start every morning seamlessly with tailored in-suite refreshments and personalized dining coordination.",
+        "highlight": "Attentive, discrete service designed to elevate every moment aboard.",
+        "items": [
+          "Morning coffee or tea delivery",
+          "In-suite breakfast",
+          "Restaurant reservations",
+          "Beverage service"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Wardrobe Care & Daily Concierge",
+        "description": "Relax while your butler oversees all personal wardrobe details, itinerary scheduling, and special requests.",
+        "highlight": "Complete peace of mind so you can focus entirely on enjoying your cruise.",
+        "items": [
+          "Laundry arrangements",
+          "Shoe shining",
+          "Special requests",
+          "Daily itinerary assistance"
+        ]
+      }
+    ]
+  },
+  "dining": {
+    "title": "Gourmet Dining",
+    "subtitle": "All meals are included throughout your cruise, with dining that emphasizes fresh ingredients inspired by the destinations visited.",
+    "items": [
+      {
+        "title": "Breakfast",
+        "features": [
+          "Fresh pastries",
+          "Eggs cooked to order",
+          "Seasonal fruit",
+          "Artisan breads",
+          "Fresh juices",
+          "Specialty coffee"
+        ]
+      },
+      {
+        "title": "Lunch",
+        "features": [
+          "Soups",
+          "Salads",
+          "Seafood",
+          "Regional cuisine",
+          "Desserts"
+        ]
+      },
+      {
+        "title": "Dinner",
+        "features": [
+          "Multi-course gourmet meals",
+          "Local specialties",
+          "Premium wines",
+          "Chef-crafted menus",
+          "Vegetarian options"
+        ]
+      }
+    ]
+  },
+  "beverages": {
+    "title": "Premium Beverages",
+    "expertNote": "Unlike many cruise lines, Scenic includes premium beverages throughout your voyage. Whether you're enjoying dinner, relaxing in the lounge, or celebrating a special occasion, drinks are generally included without additional charges.",
+    "inclusions": [
+      "Wine",
+      "Beer",
+      "Premium spirits",
+      "Cocktails",
+      "Soft drinks",
+      "Specialty coffee",
+      "Tea",
+      "Bottled water"
+    ]
+  },
+  "inlineCta1": {
+    "title": "Confused About What's Included?",
+    "description": "Let us help you break down Scenic's all-inclusive packages, beverage options, and excursion choices to plan your ideal cruise.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  },
+  "shoreExcursions": {
+    "title": "Scenic Freechoice & Scenic Enrich",
+    "subtitle": "Two signature programs that let guests personalize their vacation and go beyond traditional sightseeing.",
+    "personas": [
+      {
+        "title": "Scenic Freechoice",
+        "icon": "Compass",
+        "description": "Scenic's Freechoice program allows guests to personalize their vacation by selecting excursions that match their interests, letting every traveler experience each destination differently.",
+        "traits": [
+          "Walking tours",
+          "Wine tastings",
+          "Cycling adventures",
+          "Culinary experiences",
+          "Museum visits",
+          "Castle tours",
+          "Local market visits",
+          "Nature excursions"
+        ]
+      },
+      {
+        "title": "Scenic Enrich",
+        "icon": "Gem",
+        "description": "Scenic Enrich provides exclusive cultural experiences that are unavailable to most travelers — a highlight for many guests on many itineraries.",
+        "traits": [
+          "Private palace concerts",
+          "Historic castle receptions",
+          "Classical music performances",
+          "Cultural ceremonies",
+          "Exclusive evening events"
+        ]
+      }
+    ]
+  },
+  "wellnessAndEntertainment": {
+    "title": "Entertainment & Enrichment",
+    "subtitle": "Scenic offers elegant, destination-focused entertainment alongside wellness facilities that help guests stay active and relaxed throughout their river cruise.",
+    "cards": [
+      {
+        "title": "Entertainment & Enrichment: Elegant Destination-Focused Evenings",
+        "items": [
+          "Evenings aboard Scenic are elegant and destination-focused, offering enriching experiences that showcase the culture, history, and traditions of the regions you visit.",
+          "Live piano music",
+          "Local performers",
+          "Destination lectures",
+          "Cocktail receptions",
+          "Cultural presentations",
+          "Wine tastings"
+        ]
+      },
+      {
+        "title": "Wellness & Fitness: Stay Active While You Cruise",
+        "items": [
+          "Guests also enjoy access to wellness facilities designed to help them stay active and maintain healthy routines while exploring Europe's rivers.",
+          "Fitness center",
+          "Walking deck",
+          "Wellness programs",
+          "Healthy dining options",
+          "Spa treatments (additional charge on select ships)"
+        ]
+      }
+    ]
+  },
+  "allInclusiveValue": {
+    "title": "Is Scenic Really All-Inclusive?",
+    "subtitle": "Transparent Luxury & Genuine Value",
+    "paragraphs": [
+      "Compared with many luxury river cruise lines, yes. Scenic includes significantly more than most competitors by bundling butler service, excursions, beverages, gratuities, transfers, and premium dining into one fare. This makes budgeting easier and allows travelers to focus on enjoying the journey instead of managing onboard expenses.",
+      "Although Scenic's upfront fares are higher than some competitors, many travelers feel the value is excellent because so many premium services are already included. Rather than paying separately for drinks, tips, excursions, transfers, and butler service, most guests can simply relax and enjoy the experience."
+    ],
+    "items": [
+      {
+        "title": "True All-Inclusive Fares",
+        "icon": "check",
+        "desc": "Transfers, gratuities, top-shelf beverages, and excursions bundled transparently from day one."
+      },
+      {
+        "title": "Predictable Luxury Budgeting",
+        "icon": "dollar",
+        "desc": "Zero stress over unexpected add-on folios at checkout, letting you savor every destination."
+      },
+      {
+        "title": "Unrivaled Shipboard Service",
+        "icon": "user",
+        "desc": "Dedicated butler attention for all cabins and attentive European hospitality on every river."
+      }
+    ]
+  },
+  "inlineCta2": {
+    "title": "Ready to Experience All-Inclusive Luxury?",
+    "description": "Take advantage of exclusive travel advisor promotions, complimentary cabin upgrades, and expert advice on Scenic's included packages.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact",
+    "theme": "light"
+  },
+  "travelAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Personalized Itinerary Planning to Maximize the Value of Your Scenic Cruise. An advisor ensures you maximize the value of your Scenic River Cruise.",
+    "items": [
+      { "title": "Compare Itineraries", "description": "Compare Scenic itineraries to find the ideal match for your travel style." },
+      { "title": "Suite Selection", "description": "Choose the best suite category and prime shipboard location." },
+      { "title": "Explain Inclusions", "description": "Explain exactly what's included and navigate specialty policies." },
+      { "title": "Current Promotions", "description": "Identify exclusive promotions, cabin upgrades, and agency amenities." },
+      { "title": "Arrange Airfare", "description": "Coordinate premium flight arrangements and connection schedules." },
+      { "title": "Hotel Logistics", "description": "Book luxury pre- and post-cruise boutique hotels." },
+      { "title": "Extended Stays", "description": "Recommend customized pre- and post-cruise destination itineraries." },
+      { "title": "Custom Experiences", "description": "Plan private VIP transfers and exclusive bespoke shore tours." }
+    ]
+  },
+  "angelaHughes": {
+    "title": "Angela Hughes Authority & Credentials",
+    "authorName": "Angela Hughes",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "bio": "CEO of Trips & Ships Luxury Travel, luxury travel expert with over 40 years of experience and personal travels across 121+ countries.",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything travelers need to know about what's included on a Scenic River Cruise.",
+    "questions": [
+      {
+        "question": "Are drinks included on Scenic River Cruises?",
+        "answer": "Yes. Premium wines, beer, spirits, cocktails, coffee, tea, soft drinks, and bottled water are generally included throughout your cruise."
+      },
+      {
+        "question": "Is butler service included?",
+        "answer": "Yes. Every Scenic suite includes personalized butler service."
+      },
+      {
+        "question": "Are excursions included?",
+        "answer": "Yes. Scenic Freechoice excursions and Scenic Enrich experiences are included on most itineraries."
+      },
+      {
+        "question": "Is Wi-Fi included?",
+        "answer": "Yes. Complimentary Wi-Fi is available throughout the ship."
+      },
+      {
+        "question": "Are gratuities included?",
+        "answer": "Yes. Onboard gratuities are included in your cruise fare."
+      },
+      {
+        "question": "Are airport transfers included?",
+        "answer": "Yes, on eligible itineraries and qualifying flight arrangements."
+      },
+      {
+        "question": "Are specialty restaurants included?",
+        "answer": "Yes. Scenic includes gourmet dining and specialty culinary experiences available on your ship."
+      },
+      {
+        "question": "Do I need to pay extra onboard?",
+        "answer": "Most major expenses are already included, though optional spa treatments, premium shopping, and certain specialty experiences may cost extra."
+      },
+      {
+        "question": "Is Scenic more inclusive than other river cruise lines?",
+        "answer": "Scenic is considered one of the most all-inclusive luxury river cruise lines, with more amenities included than many competitors."
+      },
+      {
+        "question": "Are laundry services included?",
+        "answer": "Yes. Complimentary laundry service is included for select suite categories (such as Royal Suites and Balcony Suites) on Scenic River Cruises, and laundry arrangements can be handled directly by your butler."
+      },
+      {
+        "question": "Are bicycles or e-bikes included for exploring ports?",
+        "answer": "Yes. Scenic space-ships carry a fleet of complimentary electronically-assisted bicycles (e-bikes) for guests to use either on guided excursions or for independent exploration."
+      },
+      {
+        "question": "Should I use a travel advisor?",
+        "answer": "Yes. A luxury travel advisor can explain inclusions, compare itineraries, recommend the best suite, and ensure you receive the best available value."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Truly All-Inclusive Luxury River Cruising",
+        "paragraphs": [
+          "One of Scenic River Cruises' greatest strengths is its commitment to truly all-inclusive luxury. From butler service and gourmet dining to premium beverages, guided excursions, airport transfers, and gratuities, nearly every aspect of your vacation is thoughtfully included.",
+          "For travelers who value convenience, personalized service, and predictable vacation costs, Scenic offers one of the most comprehensive luxury river cruise experiences available.",
+          "At Trips & Ships Luxury Travel, we'll help you compare Scenic itineraries, explain what's included with each sailing, recommend the ideal suite, and create a customized luxury river cruise tailored to your travel style.",
+          "Our luxury planning services include: Compare Scenic itineraries, Explain exactly what's included, Recommend the ideal suite, Arrange flights, Coordinate hotels, Plan private transfers, Recommend excursions, Explain available promotions."
+        ]
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Start Planning Your Scenic River Cruise",
+    "description": "Ready to experience truly all-inclusive luxury on Europe's waterways? Reach out today to create your personalized river cruise journey.",
+    "buttonText": "Start Planning Your Scenic Cruise",
+    "buttonLink": "/contact",
+    "theme": "light"
+  }
+}

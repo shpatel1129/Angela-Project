@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "title": "Riverside Rhône Cruises | Luxury Rhône River Cruises in France",
+    "metaTitle": "Riverside Rhône Cruises | Luxury River Cruises Through Provence",
+    "description": "Explore Riverside Rhône Cruises through Lyon, Avignon, Arles, and Provence. Discover gourmet cuisine, world-class wines, luxury suites, and boutique river cruising in southern France.",
+    "canonicalUrl": "https://www.tripsandships.com/riverside-rhone-cruises"
+  },
+  "hero": {
+    "badge": "LUXURY RHÔNE RIVER CRUISE GUIDE",
+    "title": "Riverside Rhône Cruises",
+    "subtitle": "Discover Southern France Through Lyon, Avignon, Arles, and Provence with Boutique Luxury",
+    "description": "A Riverside Rhône Cruise is the perfect journey for travelers who love fine wine, exceptional cuisine, charming villages, and the relaxed elegance of southern France. Flowing through the heart of Provence and Burgundy, the Rhône River connects historic cities, Roman landmarks, world-famous vineyards, and picturesque countryside.\n\nWith Riverside Luxury Cruises, you'll experience these remarkable destinations aboard a boutique luxury ship featuring spacious suites, personalized service, gourmet dining, and thoughtfully curated itineraries. Every day offers a new cultural discovery, while every evening invites you to relax in elegant surroundings with panoramic river views. Whether you're a first-time visitor to France or a seasoned traveler returning to explore Provence, a Riverside Rhône Cruise delivers an unforgettable luxury vacation.",
+    "primaryCtaText": "Start Planning Your Rhône Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickOverview": {
+    "title": "Quick Overview",
+    "subtitle": "Key highlights and essential cruise details for planning your Riverside Rhône River voyage.",
+    "cards": [
+      {
+        "title": "Best For",
+        "description": "Food & Wine Lovers, Couples, and Luxury Travelers seeking relaxed elegance.",
+        "icon": "Users"
+      },
+      {
+        "title": "Main River",
+        "description": "The Rhône River — flowing through the heart of Provence and Burgundy.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Featured Ship",
+        "description": "Riverside Debussy — an intimate luxury river ship designed for refined cruising.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Popular Destinations",
+        "description": "Lyon, Avignon, Arles, Viviers, and Tournon-sur-Rhône.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Cruise Style",
+        "description": "Boutique Luxury featuring gourmet dining, fine wines, and spacious suites.",
+        "icon": "Award"
+      },
+      {
+        "title": "Cruise Length",
+        "description": "Typically 7–10 nights with immersive daytime calls and scenic cruising.",
+        "icon": "Compass"
+      }
+    ]
+  },
+  "whyCruiseRhone": {
+    "eyebrow": "SOUTHERN FRANCE'S MOST ENCHANTING WATERWAY",
+    "title": "Why Cruise the Rhône River?",
+    "subtitle": "Experience Provence and Burgundy Without Constantly Changing Hotels",
+    "paragraphs": [
+      "The Rhône offers one of Europe's richest combinations of culture, history, gastronomy, and scenic beauty.",
+      "Unlike bus tours or independent travel, a Rhône river cruise allows you to experience multiple regions without constantly unpacking and changing hotels."
+    ],
+    "highlights": [
+      "Provence's charming villages",
+      "UNESCO World Heritage Sites",
+      "World-famous vineyards",
+      "Roman ruins",
+      "Lavender fields (seasonal)",
+      "Gourmet French cuisine",
+      "Historic cities",
+      "Scenic countryside"
+    ],
+    "image1Placeholder": "Riverside Rhône Provence Scenery",
+    "image2Placeholder": "Historic Avignon & Rhône River",
+    "ctaText": "Start Planning Your Rhône Cruise",
+    "ctaLink": "/contact"
+  },
+  "whyChooseRiverside": {
+    "title": "Why Choose Riverside Luxury Cruises?",
+    "subtitle": "Riverside delivers a boutique river cruise experience centered on elegance and personalized hospitality. With only a small fleet of ships, Riverside focuses on quality over quantity, creating an intimate and refined travel experience.",
+    "cards": [
+      {
+        "title": "Boutique Elegance & Service",
+        "items": [
+          "Spacious luxury suites",
+          "Gourmet dining inspired by regional cuisine",
+          "Attentive, personalized service",
+          "Elegant contemporary interiors",
+          "Relaxed onboard atmosphere",
+          "Carefully planned itineraries",
+          "Boutique hotel-style experience"
+        ]
+      },
+      {
+        "title": "Intimate & Refined Hospitality",
+        "items": [
+          "A boutique fleet creates an experience that feels far more personal than larger cruise lines.",
+          "Boutique • Personalized • Elegant",
+          "High crew-to-guest ratio ensuring attentive care",
+          "Uncrowded observation lounges and sun decks",
+          "Curated regional wine selections with every meal",
+          "Intimate docking in the heart of historic French river ports"
+        ]
+      }
+    ]
+  },
+  "destinationsAlongRhone": {
+    "title": "Destinations Along the Rhône",
+    "subtitle": "Every stop along the Rhône reveals a different side of southern France — from the culinary capital of Lyon to the Roman ruins of Arles and the vineyards of Tournon.",
+    "items": [
+      {
+        "id": "lyon",
+        "title": "Lyon, France",
+        "badge": "Lyon",
+        "description": "Often considered the culinary capital of France, Lyon is famous for its gastronomy, Renaissance architecture, and vibrant markets — a dream destination for food lovers.",
+        "features": [
+          "Vieux Lyon (Old Town)",
+          "Basilica of Notre-Dame de Fourvière",
+          "Les Halles Paul Bocuse",
+          "Local bouchon restaurants",
+          "Silk weaving history"
+        ]
+      },
+      {
+        "id": "avignon",
+        "title": "Avignon, France",
+        "badge": "Avignon",
+        "description": "One of Provence's most historic cities, Avignon's rich history and charming atmosphere make it one of the Rhône's most popular ports.",
+        "features": [
+          "Palais des Papes (Palace of the Popes)",
+          "Pont Saint-Bénézet",
+          "Medieval city walls",
+          "Local markets",
+          "Provençal cafés"
+        ]
+      },
+      {
+        "id": "arles",
+        "title": "Arles, France",
+        "badge": "Arles",
+        "description": "A UNESCO World Heritage Site, Arles blends Roman history with artistic heritage, and inspired many of Vincent van Gogh's most celebrated paintings.",
+        "features": [
+          "Roman Amphitheater",
+          "Ancient Theatre",
+          "Van Gogh walking trail",
+          "Historic squares",
+          "Outdoor cafés"
+        ]
+      },
+      {
+        "id": "viviers",
+        "title": "Viviers, France",
+        "badge": "Viviers",
+        "description": "One of France's best-preserved medieval towns, Viviers' slower pace offers a glimpse into traditional southern France.",
+        "features": [
+          "Narrow cobblestone streets",
+          "Gothic cathedral",
+          "Historic mansions",
+          "Peaceful riverfront",
+          "Authentic Provençal atmosphere"
+        ]
+      },
+      {
+        "id": "tournon",
+        "title": "Tournon-sur-Rhône, France",
+        "badge": "Tournon",
+        "description": "Known for its vineyards and riverside charm, Tournon is often considered a highlight of the itinerary for wine enthusiasts.",
+        "features": [
+          "Château de Tournon",
+          "Rhône Valley wines",
+          "Scenic walking paths",
+          "Historic architecture",
+          "Local wine cellars"
+        ]
+      }
+    ]
+  },
+  "provence": {
+    "title": "Provence: The Heart of Southern France",
+    "subtitle": "Many Riverside Rhône itineraries travel through Provence, one of France's most beloved regions. The relaxed lifestyle and beautiful scenery make it unforgettable.",
+    "cards": [
+      {
+        "title": "Lavender Fields",
+        "description": "Rolling purple fields blooming across the Provençal plateaus in summer, filling the air with fragrant blossoms.",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Olive Groves",
+        "description": "Centuries-old groves producing prized virgin olive oils and defining the sun-drenched Mediterranean landscape.",
+        "icon": "Leaf"
+      },
+      {
+        "title": "Vineyards",
+        "description": "World-renowned hillside appellations producing bold Syrah, Grenache, and crisp Provençal rosés.",
+        "icon": "Grape"
+      },
+      {
+        "title": "Sunflower Fields",
+        "description": "Vibrant golden landscapes that served as the muse for legendary artists like Vincent van Gogh.",
+        "icon": "Sun"
+      },
+      {
+        "title": "Historic Villages",
+        "description": "Charming hilltop hamlets with cobblestone alleys, shaded squares, and medieval stone walls.",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Outdoor Markets",
+        "description": "Bustling morning markets offering fresh goat cheeses, herbs de Provence, tapenades, and artisan bread.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Artisan Shops",
+        "description": "Boutiques showcasing authentic local crafts, handcrafted soaps, fine ceramics, and woven textiles.",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "riversideDebussy": {
+    "title": "Riverside Debussy",
+    "subtitle": "THE FEATURED SHIP ON THE RHÔNE",
+    "items": [
+      {
+        "title": "Boutique Atmosphere Aboard Riverside Debussy",
+        "description": "Many Rhône itineraries are operated by Riverside Debussy, a luxury river ship designed for elegant and intimate cruising. Its boutique atmosphere is ideal for travelers seeking comfort and sophistication. With thoughtfully designed onboard venues and attentive concierge service, the Debussy offers a truly personalized luxury experience.",
+        "highlights": [
+          "Spacious suites",
+          "Fine dining venues",
+          "Panoramic observation lounge",
+          "Sun deck",
+          "Wellness facilities",
+          "Personalized concierge service"
+        ]
+      }
+    ]
+  },
+  "whatsIncludedOnboard": {
+    "title": "Included Shore Excursions & Life Onboard",
+    "subtitle": "Most Riverside Rhône itineraries include guided sightseeing and enriching onboard moments that complement your journey through southern France.",
+    "items": [
+      {
+        "title": "Included Shore Excursions",
+        "description": "Guided sightseeing showcases the region's Roman history, culture, and cuisine. Optional premium tours provide opportunities for deeper exploration.",
+        "imageCaption": "Curated French Shore Sightseeing",
+        "features": [
+          "Walking tours",
+          "Historic landmarks",
+          "Roman ruins",
+          "Local markets",
+          "Museum visits",
+          "Cultural experiences",
+          "Wine-focused excursions"
+        ]
+      },
+      {
+        "title": "Life Onboard",
+        "description": "While sailing through southern France, the onboard atmosphere emphasizes relaxation rather than nonstop entertainment.",
+        "imageCaption": "Relaxed Elegance Onboard",
+        "features": [
+          "Live music",
+          "Destination presentations",
+          "Scenic cruising",
+          "Wine tastings",
+          "Relaxing lounges",
+          "Sun deck views",
+          "Quiet reading spaces"
+        ]
+      }
+    ]
+  },
+  "accommodations": {
+    "heading": "Luxury Accommodations",
+    "eyebrow": "Spacious Retreats Onboard Riverside Debussy",
+    "paragraphs": [
+      "Riverside suites provide generous space rarely found on European river cruises. Every suite is designed to create a relaxing retreat after a day of exploring."
+    ],
+    "highlights": [
+      "King-size beds",
+      "Marble bathrooms",
+      "Sitting areas",
+      "Premium bath amenities",
+      "Luxury linens",
+      "River-view windows",
+      "Climate control",
+      "Thoughtful storage"
+    ],
+    "placeholderLabel": "RIVERSIDE DEBUSSY LUXURY SUITES",
+    "badgeTitle": "Boutique Elegance",
+    "badgeDescription": "Generously proportioned suites with personalized butler service and river views."
+  },
+  "whoShouldChoose": {
+    "title": "Who Should Choose a Riverside Rhône Cruise?",
+    "subtitle": "If your dream vacation includes exceptional cuisine, beautiful scenery, and authentic French culture, the Rhône is an excellent choice.",
+    "cards": [
+      {
+        "title": "Food Lovers",
+        "description": "Travelers eager to experience Lyon's world-famous gastronomic scene and authentic Provençal markets.",
+        "tag": "Gastronomy",
+        "icon": "Utensils"
+      },
+      {
+        "title": "Wine Enthusiasts",
+        "description": "Oenophiles looking forward to tasting world-renowned Rhône Valley vintages, Hermitage, and Châteauneuf-du-Pape.",
+        "tag": "Wine & Terroir",
+        "icon": "Wine"
+      },
+      {
+        "title": "Couples",
+        "description": "Partners seeking a romantic, intimate getaway surrounded by picturesque French landscapes and candlelit dinners.",
+        "tag": "Romantic Getaway",
+        "icon": "Heart"
+      },
+      {
+        "title": "Luxury Travelers",
+        "description": "Discerning voyagers who appreciate personalized butler service, lavish suites, and refined boutique cruising.",
+        "tag": "High-End Comfort",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Art Lovers",
+        "description": "Admirers of Van Gogh, Cézanne, and French artistic heritage walking the storied streets of Arles and Avignon.",
+        "tag": "Art & Heritage",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "History Enthusiasts",
+        "description": "Explorers captivated by Roman amphitheaters, Papal palaces, Gothic cathedrals, and medieval fortresses.",
+        "tag": "Roman & Medieval History",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Slow Travelers",
+        "description": "Travelers who relish unhurried afternoons, riverside strolls, sun deck panoramas, and café culture.",
+        "tag": "Relaxed Exploration",
+        "icon": "Clock"
+      },
+      {
+        "title": "Anniversary Celebrations",
+        "description": "Guests commemorating milestones with Champagne toasts, gourmet dining, and unforgettable sunset sails.",
+        "tag": "Special Occasions",
+        "icon": "Award"
+      }
+    ]
+  },
+  "diningExperience": {
+    "title": "Gourmet Dining & Wine Experiences",
+    "subtitle": "Fresh Seasonal Ingredients • Rhône Valley Appellations",
+    "items": [
+      {
+        "title": "Gourmet Dining",
+        "shortDesc": "Dining is one of the defining experiences of a Rhône cruise.",
+        "description": "Dining is one of the defining experiences of a Rhône cruise. Every meal reflects the culinary traditions of the destinations visited, prepared with fresh seasonal ingredients and regional recipes.",
+        "highlights": [
+          "French regional cuisine",
+          "Fresh seafood",
+          "Local cheeses",
+          "Seasonal produce",
+          "Artisan breads",
+          "Gourmet desserts",
+          "Rhône Valley wines",
+          "Chef-inspired tasting menus"
+        ]
+      },
+      {
+        "title": "Wine Experiences",
+        "shortDesc": "The Rhône Valley is one of France's premier wine regions.",
+        "description": "The Rhône Valley is one of France's premier wine regions. Whether you're a wine connoisseur or simply enjoy discovering local flavors, these experiences add another dimension to the journey.",
+        "highlights": [
+          "Vineyard visits",
+          "Wine tastings",
+          "Local wineries",
+          "Regional food pairings",
+          "Visits to renowned appellations"
+        ]
+      }
+    ]
+  },
+  "seasonsGuide": {
+    "title": "Best Time to Cruise the Rhône",
+    "subtitle": "Each season showcases a different side of southern France.",
+    "cards": [
+      {
+        "title": "Spring",
+        "description": "March – May. Fresh blooms, mild temperatures, and uncrowded historical sites throughout Provence and Burgundy.",
+        "icon": "Flower2",
+        "bullets": [
+          "Blooming landscapes",
+          "Pleasant temperatures",
+          "Fewer crowds"
+        ]
+      },
+      {
+        "title": "Summer",
+        "description": "June – August. Long sunny days, vibrant lavender fields, bustling outdoor bistros, and festive Provençal evenings.",
+        "icon": "Sun",
+        "bullets": [
+          "Lavender season",
+          "Outdoor cafés",
+          "Warm weather"
+        ]
+      },
+      {
+        "title": "Fall",
+        "description": "September – October. The excitement of the annual grape harvest, vineyard foliage, and golden autumn light.",
+        "icon": "Leaf",
+        "bullets": [
+          "Wine harvest",
+          "Vineyard tours",
+          "Comfortable temperatures"
+        ]
+      }
+    ]
+  },
+  "isWorthIt": {
+    "title": "Is a Riverside Rhône Cruise Worth It?",
+    "subtitle": "A Resounding Yes for Food, Wine, and Culture Enthusiasts",
+    "features": [
+      {
+        "title": "An Unrivaled Cultural & Culinary Blend",
+        "description": "For travelers who value gourmet dining, fine wine, charming villages, and boutique luxury, the answer is a resounding yes."
+      },
+      {
+        "title": "A More Relaxed, Savoring Pace",
+        "description": "The Rhône offers a more relaxed pace than many other European itineraries, allowing guests to savor each destination while enjoying Riverside's exceptional hospitality and spacious accommodations."
+      },
+      {
+        "title": "Understated & Elegant Boutique Cruising",
+        "description": "With smaller passenger counts, Riverside Debussy delivers attentive butler service, uncrowded observation decks, and docking directly in historic city centers."
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "An experienced luxury travel advisor can help you compare Rhône itineraries, choose the best suite, coordinate flights, arrange hotels, plan wine experiences, and organize private transfers — so every aspect of your French river cruise is tailored to your interests.",
+    "items": [
+      {
+        "title": "Compare Rhône Itineraries",
+        "description": "Navigate routes, sailing dates, and port durations to find the sailing that best matches your personal travel preferences."
+      },
+      {
+        "title": "Choose the Best Suite",
+        "description": "Select the ideal suite category and ship location for optimal views, tranquility, and French river cruise comfort."
+      },
+      {
+        "title": "Coordinate Flights",
+        "description": "Seamlessly arrange international flights, connections, and arrival timing to align smoothly with your cruise embarkation."
+      },
+      {
+        "title": "Arrange Hotels",
+        "description": "Book hand-picked boutique and luxury hotels in Lyon, Paris, or the French Riviera before or after your cruise."
+      },
+      {
+        "title": "Plan Wine Experiences",
+        "description": "Secure exclusive private vineyard visits, sommelier masterclasses, and curated cellar tours across Burgundy and Provence."
+      },
+      {
+        "title": "Organize Private Transfers",
+        "description": "Ensure effortless door-to-door transportation between airports, rail stations, luxury hotels, and ship berths."
+      },
+      {
+        "title": "Recommend Excursions",
+        "description": "Receive insider guidance on top-tier walking tours, culinary tastings, and unique cultural highlights in every port."
+      },
+      {
+        "title": "Explain Promotions",
+        "description": "Maximize your investment with exclusive agency perks, onboard credits, early-booking incentives, and suite promotions."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel • 40+ Years in Luxury River Cruising",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Luxury Travel Expert with travel to 121+ countries and over 4 decades designing bespoke luxury voyages.",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "A Rhône River cruise through southern France is pure magic—connecting world-class gastronomy in Lyon with Roman marvels in Arles and legendary vineyards across Provence.",
+    "quoteSubtitle": "Personalized French River Cruise Guidance",
+    "ctaText": "Plan Your Rhône Cruise With Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Which Riverside ship sails the Rhône?",
+      "answer": "Riverside Debussy is commonly featured on Rhône River itineraries."
+    },
+    {
+      "question": "Which cities are included on a Rhône cruise?",
+      "answer": "Popular ports include Lyon, Avignon, Arles, Viviers, and Tournon-sur-Rhône."
+    },
+    {
+      "question": "Are wine tastings included?",
+      "answer": "Many itineraries include wine-focused experiences, while premium tastings may be available as optional excursions."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Yes. Gourmet breakfast, lunch, and dinner are typically included throughout the voyage."
+    },
+    {
+      "question": "Are drinks included?",
+      "answer": "Wine, beer, soft drinks, coffee, tea, and water are generally included with meals."
+    },
+    {
+      "question": "Is Wi-Fi included?",
+      "answer": "Yes. Complimentary Wi-Fi is typically available onboard."
+    },
+    {
+      "question": "What is the best season for a Rhône cruise?",
+      "answer": "Spring, summer, and fall are all excellent, with lavender blooming in early summer and wine harvest taking place in the fall."
+    },
+    {
+      "question": "Is the Rhône good for first-time river cruisers?",
+      "answer": "Yes, particularly for travelers interested in French culture, cuisine, and wine."
+    },
+    {
+      "question": "Is Riverside suitable for couples?",
+      "answer": "Absolutely. The intimate atmosphere and elegant accommodations make it one of the most romantic river cruise experiences in Europe."
+    },
+    {
+      "question": "Should I use a travel advisor?",
+      "answer": "Yes. A luxury travel advisor can help you compare itineraries, recommend the best suite, and coordinate every aspect of your vacation."
+    },
+    {
+      "question": "What is the dress code onboard Riverside Debussy?",
+      "answer": "The dress code onboard is elegant casual during the day and smart casual in the evening. There are no formal dress nights required."
+    },
+    {
+      "question": "Are gratuities included on a Riverside Rhône cruise?",
+      "answer": "Yes, all onboard gratuities for the ship's crew and the guides during included shore excursions are included in your cruise fare."
+    }
+  ],
+  "finalVerdict": {
+    "title": "An Immersive Journey Through Southern France",
+    "paragraphs": [
+      "A Riverside Rhône Cruise is one of the finest ways to experience southern France. From Lyon's legendary restaurants and Avignon's medieval history to Arles' artistic heritage and the vineyards of the Rhône Valley, every destination celebrates the region's extraordinary culture and cuisine.",
+      "Combined with Riverside's spacious suites, gourmet dining, and personalized service, the Rhône becomes more than a river cruise—it becomes an immersive luxury journey through one of Europe's most enchanting regions.",
+      "At Trips & Ships Luxury Travel, we'll help you compare Rhône itineraries, select the perfect suite aboard Riverside Debussy, and create a customized French river cruise tailored to your travel style."
+    ],
+    "planningServices": [
+      "Compare Rhône itineraries",
+      "Choose the best suite",
+      "Coordinate flights",
+      "Arrange hotels",
+      "Plan wine experiences",
+      "Organize private transfers",
+      "Recommend excursions",
+      "Explain promotions"
+    ],
+    "ctaText": "Start Planning Your Riverside Cruise",
+    "ctaLink": "/contact"
+  }
+}

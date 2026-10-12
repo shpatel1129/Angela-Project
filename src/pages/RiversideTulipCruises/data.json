@@ -1,0 +1,551 @@
+{
+  "meta": {
+    "title": "Riverside Tulip Cruises | Luxury Spring River Cruises in Holland & Belgium",
+    "metaTitle": "Riverside Tulip Cruises | Luxury Holland & Belgium River Cruises",
+    "description": "Experience spring in the Netherlands and Belgium on a Riverside Tulip Cruise. Visit Amsterdam, Keukenhof Gardens, Kinderdijk, Antwerp, and colorful tulip fields while enjoying boutique luxury river cruising.",
+    "canonicalUrl": "https://www.tripsandships.com/riverside-tulip-cruises"
+  },
+  "hero": {
+    "badge": "LUXURY SPRING RIVER CRUISES IN HOLLAND & BELGIUM",
+    "title": "Riverside Tulip Cruises",
+    "subtitle": "Experience Spring in the Netherlands & Belgium with Boutique Luxury, Spacious Suites, and Blooming Flower Fields",
+    "description": "Every spring, the Netherlands transforms into one of the world's most colorful destinations as millions of tulips bloom across fields, gardens, and countryside. A Riverside Tulip Cruise offers the perfect opportunity to experience this spectacular season while enjoying the comfort, elegance, and personalized service of a luxury boutique river cruise.\n\nSailing through the waterways of the Netherlands and Belgium, Riverside combines breathtaking scenery with charming cities, historic windmills, world-famous gardens, and exceptional cuisine. Rather than rushing from one destination to another, you'll wake up each morning in a new location, ready to discover another highlight of Northern Europe. Whether you're passionate about flowers, photography, history, or simply looking for an unforgettable spring vacation, Riverside Tulip Cruises provide one of Europe's most beautiful seasonal travel experiences.",
+    "primaryCtaText": "Start Planning Your Tulip Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickOverview": {
+    "title": "Quick Overview",
+    "subtitle": "Essential highlights and details for planning your luxury Dutch and Belgian spring river cruise.",
+    "cards": [
+      {
+        "title": "Best For",
+        "description": "Spring Travelers, Garden Lovers, Couples, and Photographers seeking seasonal beauty.",
+        "icon": "Users"
+      },
+      {
+        "title": "Season",
+        "description": "March through May — Europe's peak spring bloom and floral festival season.",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Countries Visited",
+        "description": "The Netherlands & Belgium — historic waterways, canals, and windmill landscapes.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Popular Destinations",
+        "description": "Amsterdam, Keukenhof Gardens, Kinderdijk, Rotterdam, Antwerp, and Delft.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Cruise Length",
+        "description": "Typically 7–10 nights with relaxed daytime calls and scenic countryside cruising.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Cruise Style",
+        "description": "Boutique Luxury featuring gourmet seasonal dining and butler service in every suite.",
+        "icon": "Award"
+      }
+    ]
+  },
+  "whyChooseTulipCruise": {
+    "eyebrow": "NORTHERN EUROPE'S MOST COLORFUL SEASON",
+    "title": "Why Choose a Tulip Cruise?",
+    "subtitle": "Experience Europe's Floral Splendor Without Unpacking More Than Once",
+    "paragraphs": [
+      "Spring is one of the most beautiful times to visit Europe. A river cruise allows you to visit multiple destinations while unpacking only once, waking each morning to a new highlight of the Netherlands and Belgium."
+    ],
+    "highlights": [
+      "Millions of blooming tulips",
+      "World-famous gardens",
+      "Historic Dutch cities",
+      "Scenic canals",
+      "Windmills",
+      "Flower festivals",
+      "Charming villages",
+      "Mild spring weather"
+    ],
+    "image1Placeholder": "Dutch Tulip Fields in Full Bloom",
+    "image2Placeholder": "Amsterdam Canal and Historic Bridges",
+    "ctaText": "Start Planning Your Tulip Cruise",
+    "ctaLink": "/contact"
+  },
+  "whyChooseRiverside": {
+    "title": "Why Choose Riverside Luxury Cruises?",
+    "subtitle": "Riverside offers a refined boutique experience that perfectly complements the relaxed beauty of spring in Holland and Belgium. With fewer guests onboard than many larger cruise lines, Riverside creates an intimate and peaceful travel experience.",
+    "cards": [
+      {
+        "title": "Boutique Luxury & Service",
+        "items": [
+          "Spacious luxury suites",
+          "Personalized service",
+          "Gourmet dining",
+          "Elegant contemporary interiors",
+          "Relaxed atmosphere",
+          "Carefully curated itineraries",
+          "Boutique hospitality"
+        ]
+      },
+      {
+        "title": "Intimate Spring Cruising",
+        "items": [
+          "A boutique fleet creates an intimate, personal experience that feels far different than larger cruise lines.",
+          "Boutique • Elegant • Intimate",
+          "Uncrowded observation lounges and sun decks for watching tulip fields drift by",
+          "Dedicated butler service in every suite",
+          "Locally sourced spring cuisine paired with regional wines and Belgian treats",
+          "Complimentary bicycles onboard for cycling through Dutch bulb fields"
+        ]
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Highlights of a Riverside Tulip Cruise",
+    "subtitle": "Every stop along a Riverside Tulip Cruise reveals its own interpretation of spring — from Amsterdam's canals to the endless blooms of Keukenhof Gardens.",
+    "items": [
+      {
+        "id": "amsterdam",
+        "title": "Amsterdam, Netherlands",
+        "badge": "Amsterdam",
+        "description": "One of Europe's most fascinating capitals, Amsterdam combines history, art, and beautiful canals. Amsterdam is often the beginning or ending point for Riverside Tulip Cruises.",
+        "features": [
+          "Canal cruises",
+          "Rijksmuseum",
+          "Anne Frank House",
+          "Jordaan District",
+          "Flower Market",
+          "Historic architecture"
+        ]
+      },
+      {
+        "id": "keukenhof",
+        "title": "Keukenhof Gardens",
+        "badge": "Keukenhof",
+        "description": "The highlight of nearly every spring itinerary is a visit to Keukenhof, one of the world's largest and most famous flower gardens. Keukenhof is open only for a few weeks each spring, making these cruises especially popular.",
+        "features": [
+          "Over seven million blooming flowers",
+          "Tulips",
+          "Hyacinths",
+          "Daffodils",
+          "Orchids",
+          "Beautiful walking paths",
+          "Sculptures",
+          "Garden pavilions"
+        ]
+      },
+      {
+        "id": "kinderdijk",
+        "title": "Kinderdijk",
+        "badge": "Kinderdijk",
+        "description": "A UNESCO World Heritage Site, Kinderdijk is famous for its historic windmills, offering one of the most iconic views in the Netherlands.",
+        "features": [
+          "Traditional Dutch landscapes",
+          "Windmill tours",
+          "Scenic cycling routes",
+          "Walking paths",
+          "Beautiful waterways"
+        ]
+      },
+      {
+        "id": "rotterdam",
+        "title": "Rotterdam",
+        "badge": "Rotterdam",
+        "description": "A vibrant modern city known for innovative architecture and maritime history, Rotterdam provides an exciting contrast to Holland's historic towns.",
+        "features": [
+          "Cube Houses",
+          "Erasmus Bridge",
+          "Markthal",
+          "Modern museums",
+          "Harbor views"
+        ]
+      },
+      {
+        "id": "antwerp",
+        "title": "Antwerp, Belgium",
+        "badge": "Antwerp",
+        "description": "Belgium's second-largest city offers outstanding history, shopping, and cuisine for guests to explore.",
+        "features": [
+          "Cathedral of Our Lady",
+          "Diamond District",
+          "Medieval streets",
+          "Belgian chocolate shops",
+          "Local cafés"
+        ]
+      },
+      {
+        "id": "delft",
+        "title": "Delft",
+        "badge": "Delft",
+        "description": "Depending on the itinerary, guests may visit Delft, famous for its artisan traditions and historic charm.",
+        "features": [
+          "Delft Blue pottery",
+          "Historic canals",
+          "Market Square",
+          "Royal history",
+          "Artisan workshops"
+        ]
+      }
+    ]
+  },
+  "tulipFieldsInBloom": {
+    "title": "Tulip Fields in Bloom",
+    "subtitle": "One of the unforgettable moments of a Riverside Tulip Cruise is sailing through landscapes filled with colorful flower fields, creating incredible opportunities for photography.",
+    "cards": [
+      {
+        "title": "Endless Tulip Fields",
+        "description": "Vibrant ribbons of red, yellow, pink, and purple stretching across the Dutch lowlands.",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Hyacinths",
+        "description": "Intensely fragrant purple, blue, and white blooms adding scent and depth to the landscape.",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Daffodils",
+        "description": "Bright golden heralds of early spring dancing along the riverbanks and meadows.",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Traditional Dutch Farms",
+        "description": "Picturesque polders dotted with historic farmhouse architecture and grazing livestock.",
+        "icon": "Home"
+      },
+      {
+        "title": "Windmills",
+        "description": "Historic wind-powered pumping mills standing proud against open spring skies.",
+        "icon": "Wind"
+      },
+      {
+        "title": "Scenic Countryside",
+        "description": "Tranquil waterways winding through lush green pastures and blooming floral rows.",
+        "icon": "Waves"
+      },
+      {
+        "title": "Photography Opportunities",
+        "description": "World-class lighting, vivid contrasts, and iconic European panoramas at every turn.",
+        "icon": "Camera"
+      },
+      {
+        "title": "Mild Spring Sunshine",
+        "description": "Pleasant, crisp spring weather ideal for open-deck cruising and gentle bicycle rides.",
+        "icon": "Sun"
+      }
+    ]
+  },
+  "gourmetDining": {
+    "title": "Gourmet Dining",
+    "subtitle": "THE SPRING CULINARY EXPERIENCE",
+    "items": [
+      {
+        "title": "Fresh Regional Flavors of Holland & Belgium",
+        "description": "Dining highlights the fresh flavors of the Netherlands and Belgium. Every meal is prepared with the same attention to quality found throughout the Riverside experience. Every meal is prepared with the same attention to quality found throughout the Riverside experience.",
+        "highlights": [
+          "Fresh seafood",
+          "Dutch cheeses",
+          "Belgian specialties",
+          "Artisan breads",
+          "Seasonal vegetables",
+          "Gourmet desserts",
+          "Regional wines",
+          "International cuisine"
+        ]
+      }
+    ]
+  },
+  "whatsIncludedOnboard": {
+    "title": "Included Shore Excursions & Life Onboard",
+    "subtitle": "Most itineraries include guided experiences that showcase the region's gardens and history, complemented by a relaxed, elegant atmosphere onboard.",
+    "items": [
+      {
+        "title": "Included Shore Excursions",
+        "description": "Most itineraries include guided experiences such as garden visits, walking tours, and historic city centers. Optional premium excursions provide additional opportunities to explore.",
+        "imageCaption": "Curated Spring Shore Experiences",
+        "features": [
+          "Keukenhof Gardens",
+          "Walking tours",
+          "Canal districts",
+          "Windmill visits",
+          "Museum tours",
+          "Historic city centers",
+          "Local cultural experiences"
+        ]
+      },
+      {
+        "title": "Life Onboard",
+        "description": "While cruising through Holland and Belgium, the onboard experience emphasizes comfort and quiet luxury. The onboard atmosphere emphasizes comfort and quiet luxury.",
+        "imageCaption": "Refined River Relaxation",
+        "features": [
+          "Panoramic river views",
+          "Destination presentations",
+          "Live music",
+          "Cocktail hours",
+          "Scenic cruising",
+          "Comfortable observation lounges",
+          "Relaxed social atmosphere"
+        ]
+      }
+    ]
+  },
+  "accommodations": {
+    "heading": "Riverside Luxury Accommodations",
+    "eyebrow": "Comfortable Retreats in Bloom",
+    "paragraphs": [
+      "After a day exploring gardens and historic cities, return to your elegant Riverside suite. The spacious accommodations provide a relaxing retreat throughout your journey."
+    ],
+    "highlights": [
+      "King-size beds",
+      "Marble bathrooms",
+      "Luxury linens",
+      "Spacious sitting areas",
+      "Premium bath amenities",
+      "River-view windows",
+      "Climate control"
+    ],
+    "placeholderLabel": "RIVERSIDE SPRING SUITES",
+    "badgeTitle": "Boutique Elegance",
+    "badgeDescription": "Spacious suites with personalized butler service and panoramic spring river views."
+  },
+  "whoShouldChoose": {
+    "title": "Who Should Choose a Riverside Tulip Cruise?",
+    "subtitle": "Its relaxed pace and spectacular scenery make it one of Riverside's most popular seasonal itineraries.",
+    "cards": [
+      {
+        "title": "Garden Lovers",
+        "description": "Passionate flower enthusiasts eager to witness the world-famous floral spectacles of Keukenhof.",
+        "tag": "Floral Splendor",
+        "icon": "Flower2"
+      },
+      {
+        "title": "Photography Enthusiasts",
+        "description": "Photographers drawn to colorful countryside vistas, reflective canals, and historic windmills.",
+        "tag": "Scenic Backdrops",
+        "icon": "Camera"
+      },
+      {
+        "title": "Couples",
+        "description": "Partners looking for an intimate, peaceful spring getaway filled with romantic strolls and fine dining.",
+        "tag": "Romantic Getaway",
+        "icon": "Heart"
+      },
+      {
+        "title": "Luxury Travelers",
+        "description": "Discerning guests who expect butler service, gourmet seasonal gastronomy, and lavish suites.",
+        "tag": "Boutique Comfort",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "First-Time Visitors to the Netherlands",
+        "description": "Travelers seeking a stress-free introduction to Dutch culture, architecture, and art.",
+        "tag": "Classic Highlights",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Art Lovers",
+        "description": "Museumgoers visiting Amsterdam's Rijksmuseum, Van Gogh Museum, and Flemish masterworks in Antwerp.",
+        "tag": "Dutch Masters & Culture",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Spring Vacation Travelers",
+        "description": "Voyagers ready to welcome warmer weather and fresh blooms after winter.",
+        "tag": "Seasonal Rejuvenation",
+        "icon": "Sun"
+      },
+      {
+        "title": "Multi-Generational Adult Families",
+        "description": "Families traveling together to share the joy of springtime gardens and relaxed cultural exploration.",
+        "tag": "Shared Memories",
+        "icon": "Users"
+      }
+    ]
+  },
+  "bestTimeToGo": {
+    "title": "Best Time to Go",
+    "subtitle": "Tulip Cruises typically operate from late March through early May, when the flowers are at their peak. Because bloom times vary slightly with weather conditions, no two seasons are exactly alike.",
+    "cards": [
+      {
+        "title": "Late March",
+        "description": "Early season departures offering fresh early blooms and uncrowded historical centers.",
+        "icon": "Sparkles",
+        "bullets": [
+          "Early blooms",
+          "Fewer crowds",
+          "Cooler temperatures"
+        ]
+      },
+      {
+        "title": "April",
+        "description": "Peak tulip season with full-bloom conditions across fields and Keukenhof Gardens.",
+        "icon": "Sun",
+        "bullets": [
+          "Keukenhof in full bloom",
+          "Best photography opportunities",
+          "Vibrant countryside color"
+        ]
+      },
+      {
+        "title": "Early May",
+        "description": "Late season sailings with warmer spring breezes, green landscapes, and late-season flora.",
+        "icon": "Star",
+        "bullets": [
+          "Beautiful spring landscapes",
+          "Comfortable weather",
+          "Late-season flowers"
+        ]
+      }
+    ]
+  },
+  "isWorthIt": {
+    "title": "Is a Riverside Tulip Cruise Worth It?",
+    "subtitle": "Exceptional Value for One of Europe's Premier Spring Experiences",
+    "features": [
+      {
+        "title": "An Unforgettable Luxury Vacation",
+        "description": "Absolutely. For travelers seeking one of Europe's most beautiful seasonal experiences, a Riverside Tulip Cruise offers exceptional value."
+      },
+      {
+        "title": "The Perfect Spring Combination",
+        "description": "The combination of blooming flower fields, charming Dutch towns, elegant accommodations, gourmet dining, and personalized service creates an unforgettable luxury vacation."
+      },
+      {
+        "title": "Scenic • Elegant Atmosphere",
+        "description": "Unpack once while waking up in a new iconic destination each morning, surrounded by the comfort and culinary excellence of a boutique luxury vessel."
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "A luxury travel advisor can help you choose the best sailing dates for peak blooms, compare itineraries, select the ideal suite, coordinate airfare, arrange pre- and post-cruise hotels, and organize private transfers — so every aspect of your spring trip is stress-free from beginning to end.",
+    "items": [
+      {
+        "title": "Choose the Best Sailing Dates for Peak Blooms",
+        "description": "Coordinate your voyage timing to align with the historical bloom peak at Keukenhof Gardens."
+      },
+      {
+        "title": "Compare Itineraries",
+        "description": "Review routes across the Netherlands and Belgium to find the ports and pacing that suit you best."
+      },
+      {
+        "title": "Select the Ideal Suite",
+        "description": "Secure the right suite configuration and location for panoramic water views and optimal quiet."
+      },
+      {
+        "title": "Coordinate Airfare",
+        "description": "Arrange seamless international flights with ideal arrival and departure buffers for spring cruising."
+      },
+      {
+        "title": "Arrange Pre- and Post-Cruise Hotels",
+        "description": "Book hand-picked boutique or luxury hotels in Amsterdam, Brussels, or Bruges to extend your vacation."
+      },
+      {
+        "title": "Organize Private Transfers",
+        "description": "Ensure effortless ground transportation between airports, stations, luxury hotels, and cruise docks."
+      },
+      {
+        "title": "Recommend Sightseeing Experiences",
+        "description": "Gain VIP access and expert suggestions for private canal cruises, museum tickets, and guided tours."
+      },
+      {
+        "title": "Explain Promotions and Special Offers",
+        "description": "Maximize your investment with agency amenities, cabin upgrades, and early booking incentives."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel • 40+ Years in Luxury River Cruising",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Luxury Travel Expert with travel to 121+ countries and over 4 decades designing bespoke luxury voyages.",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Spring in the Netherlands and Belgium is one of Europe's true marvels—colorful polders, historic windmills, and Keukenhof in full bloom, enjoyed with the refined luxury of Riverside.",
+    "quoteSubtitle": "Personalized European River Cruise Guidance",
+    "ctaText": "Plan Your Tulip Cruise With Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "When do Riverside Tulip Cruises operate?",
+      "answer": "Most sailings take place between late March and early May during the Dutch tulip season."
+    },
+    {
+      "question": "Will I visit Keukenhof Gardens?",
+      "answer": "Many Tulip Cruise itineraries include a visit to Keukenhof, depending on the specific sailing."
+    },
+    {
+      "question": "Which countries are included?",
+      "answer": "Most itineraries visit the Netherlands and Belgium."
+    },
+    {
+      "question": "How long are Tulip Cruises?",
+      "answer": "Most cruises range from 7 to 10 nights."
+    },
+    {
+      "question": "Are shore excursions included?",
+      "answer": "Yes. Selected guided excursions are typically included, with optional premium experiences available."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Yes. Gourmet breakfast, lunch, and dinner are generally included throughout the cruise."
+    },
+    {
+      "question": "Are drinks included?",
+      "answer": "Wine, beer, soft drinks, coffee, tea, and water are usually included with meals."
+    },
+    {
+      "question": "Is this cruise good for photographers?",
+      "answer": "Absolutely. The colorful flower fields, historic canals, windmills, and charming villages make it one of Europe's most photogenic river cruises."
+    },
+    {
+      "question": "Which Riverside ship operates Tulip Cruises?",
+      "answer": "Depending on the itinerary and season, select Riverside ships may operate spring sailings through Holland and Belgium."
+    },
+    {
+      "question": "Should I book through a travel advisor?",
+      "answer": "Yes. A luxury travel advisor can help you choose the best departure date for peak blooms and coordinate every detail of your vacation."
+    },
+    {
+      "question": "Is there a dress code onboard Riverside Tulip Cruises?",
+      "answer": "The dress code onboard is elegant casual. Comfortable walking clothes and layers are recommended for shore excursions, while smart casual attire is perfect for evening dining."
+    },
+    {
+      "question": "Are bicycles available for guest use during the cruise?",
+      "answer": "Yes, Riverside ships typically carry complimentary bicycles and e-bikes, allowing guests to explore the scenic Dutch and Belgian cycling paths at their own pace."
+    }
+  ],
+  "finalVerdict": {
+    "title": "One of Europe's Most Breathtaking Spring Vacations",
+    "paragraphs": [
+      "A Riverside Tulip Cruise is one of Europe's most breathtaking spring vacations. From the spectacular blooms of Keukenhof Gardens and the iconic windmills of Kinderdijk to the canals of Amsterdam and the charm of Antwerp, every destination showcases the beauty of the season.",
+      "Combined with Riverside's spacious suites, gourmet cuisine, and personalized boutique service, these spring sailings offer a luxurious and unforgettable way to experience Holland and Belgium.",
+      "At Trips & Ships Luxury Travel, we'll help you choose the ideal departure during peak tulip season, select the perfect suite, and create a customized luxury river cruise designed around your travel goals."
+    ],
+    "planningServices": [
+      "Choose the best sailing dates for peak blooms",
+      "Compare itineraries",
+      "Select the ideal suite",
+      "Coordinate airfare",
+      "Arrange pre- and post-cruise hotels",
+      "Organize private transfers",
+      "Recommend sightseeing experiences",
+      "Explain promotions and special offers"
+    ],
+    "ctaText": "Start Planning Your Riverside Cruise",
+    "ctaLink": "/contact"
+  }
+}

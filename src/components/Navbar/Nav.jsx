@@ -1043,7 +1043,7 @@ const Nav = () => {
               </NavLink>
 
 
-              <NavLink
+              {/* <NavLink
                 to="/scenic-river-cruises"
                 end
                 className="nav-dropdown-single"
@@ -1067,7 +1067,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 What Is Included Scenic River Cruise
-              </NavLink>
+              </NavLink> */}
 
               <NavLink
                 to="/scenic-river-cruises/cost"
@@ -2770,7 +2770,7 @@ const Nav = () => {
             </NavLink>
 
 
-            <NavLink
+            {/* <NavLink
               to="/scenic-river-cruises"
               end
               className="nav-dropdown-single"
@@ -2793,7 +2793,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               What Is Included Scenic River Cruise
-            </NavLink>
+            </NavLink> */}
 
 
             <NavLink

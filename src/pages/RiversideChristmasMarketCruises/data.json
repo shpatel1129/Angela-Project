@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "title": "Riverside Christmas Market Cruises | Luxury European Holiday River Cruises",
+    "metaTitle": "Riverside Christmas Market Cruises | Luxury Holiday River Cruises",
+    "description": "Experience Europe's most magical Christmas markets on a Riverside Luxury Cruise. Visit Vienna, Budapest, Strasbourg, Cologne, Nuremberg, and more while enjoying boutique luxury, gourmet dining, and festive holiday traditions.",
+    "canonicalUrl": "https://www.tripsandships.com/riverside-christmas-market-cruises"
+  },
+  "hero": {
+    "badge": "LUXURY EUROPEAN HOLIDAY RIVER CRUISES",
+    "title": "Riverside Christmas Market Cruises",
+    "subtitle": "Experience Europe's Most Magical Holiday Markets with Boutique Luxury, Spacious Suites, and Gourmet Dining",
+    "description": "Few vacations capture the magic of the holiday season quite like a Riverside Christmas Market Cruise. Picture snow-dusted medieval towns, festive lights reflecting on the river, the aroma of roasted chestnuts and mulled wine filling historic squares, and beautifully decorated Christmas markets just steps from your ship.\n\nAboard Riverside Luxury Cruises, you'll experience Europe's most beloved holiday traditions while enjoying spacious suites, exceptional cuisine, personalized service, and the relaxed elegance of boutique river cruising. Whether you're celebrating a special holiday, planning a romantic winter escape, or checking a bucket-list experience off your travel list, a Riverside Christmas Market Cruise offers one of the most enchanting ways to explore Europe.",
+    "primaryCtaText": "Start Planning Your Christmas Market Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickOverview": {
+    "title": "Quick Overview",
+    "subtitle": "Essential details and highlights for planning your European Christmas Market river cruise.",
+    "cards": [
+      {
+        "title": "Best For",
+        "description": "Holiday Travelers, Couples, Families, and Christmas Lovers seeking a festive luxury vacation.",
+        "icon": "Users"
+      },
+      {
+        "title": "Season",
+        "description": "Late November through December when Europe's historic Christmas markets are open.",
+        "icon": "Snowflake"
+      },
+      {
+        "title": "Popular Rivers",
+        "description": "The Danube and Rhine Rivers — Europe's most celebrated holiday waterways.",
+        "icon": "Ship"
+      },
+      {
+        "title": "Featured Ships",
+        "description": "Riverside Mozart and Riverside Ravel — intimate boutique luxury vessels.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Cruise Length",
+        "description": "Typically 5–10 nights featuring overnight stays and scenic daytime market visits.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Cruise Style",
+        "description": "Boutique Luxury with all-suite accommodations, personalized service, and holiday dining.",
+        "icon": "Award"
+      }
+    ]
+  },
+  "whyTakeCruise": {
+    "eyebrow": "EUROPE'S TIMELESS HOLIDAY TRADITIONS",
+    "title": "Why Take a Christmas Market Cruise?",
+    "subtitle": "Experience Europe's Holiday Traditions Without Constantly Changing Hotels",
+    "paragraphs": [
+      "European Christmas markets have been celebrated for centuries, transforming historic city centers into festive villages filled with handcrafted gifts, seasonal treats, and holiday music.",
+      "A Riverside Christmas Market Cruise lets you experience many of them without ever changing hotels."
+    ],
+    "highlights": [
+      "Visit multiple Christmas markets on one vacation",
+      "Wake up in a new city almost every day",
+      "Enjoy luxury accommodations throughout your journey",
+      "Experience Europe's holiday traditions without changing hotels",
+      "Relax between destinations while scenic winter landscapes drift by"
+    ],
+    "image1Placeholder": "Riverside Festive Ship Along River",
+    "image2Placeholder": "European Christmas Market Stalls",
+    "ctaText": "Start Planning Your Christmas Market Cruise",
+    "ctaLink": "/contact"
+  },
+  "whyChooseRiverside": {
+    "title": "Why Choose Riverside Luxury Cruises?",
+    "subtitle": "Riverside combines festive holiday experiences with exceptional boutique luxury. Instead of large crowds onboard, Riverside focuses on personalized hospitality and thoughtful service.",
+    "cards": [
+      {
+        "title": "Boutique Luxury & Service",
+        "items": [
+          "Spacious luxury suites",
+          "Gourmet holiday-inspired cuisine",
+          "Personalized service",
+          "Elegant holiday décor onboard",
+          "Relaxed atmosphere",
+          "Beautiful river views",
+          "Intimate guest experience"
+        ]
+      },
+      {
+        "title": "Festive & Intimate Hospitality",
+        "items": [
+          "A boutique fleet creates a holiday experience that feels far more personal than larger cruise lines.",
+          "Boutique • Festive • Elegant",
+          "Uncrowded observation lounges and cozy holiday spaces",
+          "Dedicated butler and concierge service in every suite",
+          "Warm seasonal hospitality and destination-inspired traditions",
+          "Prime docking locations near European city centers"
+        ]
+      }
+    ]
+  },
+  "destinations": {
+    "title": "The Best Christmas Market Destinations",
+    "subtitle": "Every stop along a Riverside Christmas Market Cruise reveals its own interpretation of the season — from Vienna's imperial elegance to Strasbourg's centuries-old traditions.",
+    "items": [
+      {
+        "id": "vienna",
+        "title": "Vienna, Austria",
+        "badge": "Vienna",
+        "description": "Vienna is home to some of Europe's most elegant Christmas markets. The city's imperial architecture becomes even more magical during the holiday season.",
+        "features": [
+          "Rathaus Christmas Market",
+          "Schönbrunn Palace Market",
+          "Holiday concerts",
+          "Traditional ornaments",
+          "Austrian pastries"
+        ]
+      },
+      {
+        "id": "budapest",
+        "title": "Budapest, Hungary",
+        "badge": "Budapest",
+        "description": "Budapest combines festive markets with spectacular nighttime views, its riverside skyline glowing beneath the holiday lights.",
+        "features": [
+          "Vörösmarty Square Christmas Market",
+          "St. Stephen's Basilica Market",
+          "Hungarian holiday foods",
+          "Mulled wine",
+          "Seasonal performances"
+        ]
+      },
+      {
+        "id": "nuremberg",
+        "title": "Nuremberg, Germany",
+        "badge": "Nuremberg",
+        "description": "One of Europe's most famous Christmas markets, Nuremberg is a beloved stop for travelers seeking timeless German holiday traditions.",
+        "features": [
+          "Nürnberger Christkindlesmarkt",
+          "Handmade ornaments",
+          "Gingerbread",
+          "Wooden toys",
+          "Traditional German crafts"
+        ]
+      },
+      {
+        "id": "cologne",
+        "title": "Cologne, Germany",
+        "badge": "Cologne",
+        "description": "Cologne hosts several unique Christmas markets. The illuminated Cologne Cathedral creates an unforgettable holiday backdrop.",
+        "features": [
+          "Cathedral Christmas Market",
+          "Harbor Christmas Market",
+          "Angel Market",
+          "Local foods",
+          "Holiday shopping"
+        ]
+      },
+      {
+        "id": "strasbourg",
+        "title": "Strasbourg, France",
+        "badge": "Strasbourg",
+        "description": "Known as the \"Capital of Christmas,\" Strasbourg hosts one of Europe's oldest and most celebrated Christmas markets.",
+        "features": [
+          "Petite France",
+          "Christmas lights",
+          "Alsatian cuisine",
+          "Handmade gifts",
+          "Festive decorations throughout the city"
+        ]
+      },
+      {
+        "id": "passau",
+        "title": "Passau, Germany",
+        "badge": "Passau",
+        "description": "This charming Bavarian town offers a slower, cozier introduction to Germany's holiday traditions, historic Old Town, and artisan gifts.",
+        "features": [
+          "Traditional Christmas Market",
+          "Historic Old Town",
+          "Local artisan gifts",
+          "Festive music",
+          "Cozy cafés"
+        ]
+      }
+    ]
+  },
+  "holidayExperiences": {
+    "title": "Holiday Experiences You'll Enjoy",
+    "subtitle": "A Riverside Christmas Market Cruise offers much more than shopping — every destination offers its own unique interpretation of Christmas.",
+    "cards": [
+      {
+        "title": "Carol Performances",
+        "description": "Enchanting choral singing echoing through historic town squares and cathedral arches.",
+        "icon": "Music"
+      },
+      {
+        "title": "Historic Churches",
+        "description": "Awe-inspiring Gothic and Baroque sanctuaries adorned with seasonal nativity displays.",
+        "icon": "Church"
+      },
+      {
+        "title": "Holiday Concerts",
+        "description": "Classical symphonies and advent recitals in iconic concert halls and palace venues.",
+        "icon": "Music"
+      },
+      {
+        "title": "Seasonal Food Tastings",
+        "description": "Savoring authentic roasted chestnuts, gingerbread, hot raclette, and hearty holiday stews.",
+        "icon": "Utensils"
+      },
+      {
+        "title": "Local Christmas Traditions",
+        "description": "Centuries-old regional folklore, handcrafted ornaments, and authentic artisan crafts.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Festive City Tours",
+        "description": "Guided walking tours revealing cobblestone alleys illuminated by thousands of twinkling lights.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Holiday Decorations",
+        "description": "Elaborately decorated storefronts, towering Christmas trees, and illuminated bridges.",
+        "icon": "Snowflake"
+      },
+      {
+        "title": "Winter River Scenery",
+        "description": "Snow-dusted riverbanks, misty castle hillsides, and tranquil winter waterway vistas.",
+        "icon": "Waves"
+      }
+    ]
+  },
+  "riversideMozartRavel": {
+    "title": "Riverside Mozart & Riverside Ravel",
+    "subtitle": "THE FEATURED HOLIDAY FLEET",
+    "items": [
+      {
+        "title": "Riverside Mozart & Riverside Ravel",
+        "description": "Depending on the itinerary, Riverside's Christmas Market sailings are offered aboard Riverside Mozart or Riverside Ravel, both designed for elegant, boutique holiday cruising through Europe's festive rivers. After a day exploring festive markets, guests return to an elegant ship decorated for the season — peaceful, sophisticated, and wonderfully festive.",
+        "highlights": [
+          "Spacious suites",
+          "Gourmet holiday dining venues",
+          "Panoramic observation lounge",
+          "Festive onboard décor",
+          "Cozy lounges",
+          "Personalized concierge service"
+        ]
+      }
+    ]
+  },
+  "whatsIncludedOnboard": {
+    "title": "Included Shore Excursions & Life Onboard",
+    "subtitle": "Many itineraries include guided experiences that showcase the region's holiday traditions, complemented by a festive, peaceful atmosphere onboard.",
+    "items": [
+      {
+        "title": "Included Shore Excursions",
+        "description": "Guided experiences highlight the region's Christmas Market traditions, historic architecture, and holiday culture. Optional premium excursions provide opportunities for more in-depth exploration.",
+        "imageCaption": "Guided European Holiday Excursions",
+        "features": [
+          "Christmas Market walking tours",
+          "Historic city tours",
+          "Cathedral visits",
+          "Holiday food tastings",
+          "Local cultural experiences",
+          "Scenic sightseeing"
+        ]
+      },
+      {
+        "title": "Life Onboard",
+        "description": "Between ports, the onboard atmosphere perfectly complements the magic of Europe's Christmas season. The atmosphere is peaceful, sophisticated, and wonderfully festive.",
+        "imageCaption": "Cozy Holiday Elegance Onboard",
+        "features": [
+          "Holiday music",
+          "Scenic cruising",
+          "Festive cocktails",
+          "Destination talks",
+          "Live entertainment",
+          "Comfortable observation lounges",
+          "Seasonal celebrations"
+        ]
+      }
+    ]
+  },
+  "accommodations": {
+    "heading": "Luxury Accommodations",
+    "eyebrow": "Festive Comfort Onboard Europe's Rivers",
+    "paragraphs": [
+      "Riverside's spacious suites provide the perfect place to relax after a day of sightseeing. The generous accommodations are among the finest available on European rivers."
+    ],
+    "highlights": [
+      "King-size beds",
+      "Marble bathrooms",
+      "Premium linens",
+      "Comfortable sitting areas",
+      "River views",
+      "Luxury bath amenities",
+      "Climate control",
+      "Elegant furnishings"
+    ],
+    "placeholderLabel": "RIVERSIDE HOLIDAY SUITES",
+    "badgeTitle": "Boutique Elegance",
+    "badgeDescription": "Spacious suites with personalized butler service and panoramic winter river views."
+  },
+  "whoShouldChoose": {
+    "title": "Who Should Choose a Riverside Christmas Market Cruise?",
+    "subtitle": "The festive atmosphere appeals to travelers of all ages who appreciate European traditions.",
+    "cards": [
+      {
+        "title": "Couples",
+        "description": "Partners seeking a romantic winter wonderland vacation with candlelit dinners and festive charm.",
+        "tag": "Romantic Holiday",
+        "icon": "Heart"
+      },
+      {
+        "title": "Holiday Travelers",
+        "description": "Voyagers eager to celebrate the Christmas season surrounded by authentic European holiday heritage.",
+        "tag": "Festive Tradition",
+        "icon": "Snowflake"
+      },
+      {
+        "title": "Christmas Enthusiasts",
+        "description": "Travelers who adore holiday décor, festive markets, artisan crafts, and cheerful seasonal music.",
+        "tag": "Authentic Markets",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Luxury Travelers",
+        "description": "Discerning guests who expect butler service, gourmet seasonal gastronomy, and lavish suites.",
+        "tag": "Boutique Comfort",
+        "icon": "Award"
+      },
+      {
+        "title": "Photography Lovers",
+        "description": "Creatives excited to capture fairy-tale market stalls, glowing cathedrals, and illuminated waterways.",
+        "tag": "Illuminated Sights",
+        "icon": "Camera"
+      },
+      {
+        "title": "Family Celebrations",
+        "description": "Multi-generational families coming together for an unforgettable holiday journey across Europe.",
+        "tag": "Seasonal Memories",
+        "icon": "Users"
+      },
+      {
+        "title": "Anniversary Trips",
+        "description": "Couples commemorating milestones with spiced glühwein toasts and unforgettable river views.",
+        "tag": "Milestone Getaways",
+        "icon": "Star"
+      },
+      {
+        "title": "Bucket-List Vacations",
+        "description": "Travelers fulfilling lifelong dreams of experiencing Europe's most famous Christmas markets in person.",
+        "tag": "Iconic Experience",
+        "icon": "Globe"
+      }
+    ]
+  },
+  "diningExperience": {
+    "title": "Holiday Dining & Riverside Luxury During the Holidays",
+    "subtitle": "Seasonal European Cuisine • Festive Traditions",
+    "items": [
+      {
+        "title": "Holiday Dining",
+        "shortDesc": "Christmas cruises feature seasonal European cuisine inspired by the destinations visited.",
+        "description": "Christmas cruises feature seasonal European cuisine inspired by the destinations visited. Dining becomes part of the holiday celebration itself with festive flavors and local treats.",
+        "highlights": [
+          "Roast meats",
+          "Traditional pastries",
+          "Christmas cookies",
+          "Regional cheeses",
+          "Mulled wine",
+          "Holiday desserts",
+          "Gourmet dinners",
+          "Local specialties"
+        ]
+      },
+      {
+        "title": "Riverside Luxury During the Holidays",
+        "shortDesc": "After a day exploring festive markets, guests return to an elegant ship decorated for the season.",
+        "description": "After a day exploring festive markets, guests return to an elegant ship decorated for the season. The atmosphere is peaceful, sophisticated, and wonderfully festive.",
+        "highlights": [
+          "Holiday décor",
+          "Seasonal menus",
+          "Festive desserts",
+          "Warm hospitality",
+          "Comfortable lounges",
+          "Evening entertainment",
+          "Scenic winter cruising"
+        ]
+      }
+    ]
+  },
+  "bestTimeToGo": {
+    "title": "Best Time to Go",
+    "subtitle": "Christmas Market cruises generally operate from late November through December, when Europe's markets are in full celebration. Booking early is recommended, as holiday sailings are among the most popular of the year.",
+    "cards": [
+      {
+        "title": "Early December",
+        "description": "Late November to Early December. Smaller crowds, relaxed market browsing, and early holiday spirit.",
+        "icon": "Snowflake",
+        "bullets": [
+          "Smaller crowds",
+          "Quieter markets",
+          "Easier reservations",
+          "Charming winter atmosphere"
+        ]
+      },
+      {
+        "title": "Mid-December",
+        "description": "Mid-December. Peak holiday atmosphere with full festivities, citywide illuminations, and lively energy.",
+        "icon": "Sparkles",
+        "bullets": [
+          "Peak holiday atmosphere",
+          "Markets in full swing",
+          "Festive citywide decorations",
+          "Lively holiday energy"
+        ]
+      },
+      {
+        "title": "Pre-Christmas",
+        "description": "Late December. Closest departures to Christmas itself with peak festive enchantment and celebration.",
+        "icon": "Star",
+        "bullets": [
+          "Most festive departures",
+          "Closest to the holiday itself",
+          "Magical seasonal ambiance",
+          "Popular with returning guests"
+        ]
+      }
+    ]
+  },
+  "isWorthIt": {
+    "title": "Is a Riverside Christmas Market Cruise Worth It?",
+    "subtitle": "A Resounding Yes for Holiday Travelers and Culture Lovers",
+    "features": [
+      {
+        "title": "An Unforgettable Seasonal Vacation",
+        "description": "Absolutely. Combining luxurious accommodations with some of Europe's most iconic holiday traditions creates an unforgettable seasonal vacation."
+      },
+      {
+        "title": "Festive Markets & Boutique Luxury",
+        "description": "From sipping mulled wine beneath cathedral lights to browsing artisan markets and returning each evening to an elegant boutique ship, Riverside offers one of the finest Christmas travel experiences available."
+      },
+      {
+        "title": "Festive • Elegant Atmosphere",
+        "description": "The intimate ship size, warm hospitality, and central docking allow guests to immerse themselves in holiday magic without the hassle of packing and unpacking."
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "A luxury travel advisor can help you choose the best Christmas itinerary, compare Danube and Rhine holiday sailings, recommend the ideal suite, coordinate flights, arrange pre- and post-cruise hotels, and organize private transfers — so every aspect of your holiday trip is stress-free from beginning to end.",
+    "items": [
+      {
+        "title": "Choose the Best Christmas Itinerary",
+        "description": "Navigate sailing dates, markets, and seasonal festivities to select the ideal holiday voyage."
+      },
+      {
+        "title": "Compare Danube and Rhine Holiday Sailings",
+        "description": "Determine whether the imperial markets of Austria and Hungary or the fairytale towns of Germany and France best match your style."
+      },
+      {
+        "title": "Recommend the Ideal Suite",
+        "description": "Select the perfect suite category for peaceful comfort, cozy amenities, and stunning river views."
+      },
+      {
+        "title": "Coordinate Flights",
+        "description": "Ensure seamless flight arrangements and transfers timed perfectly for winter travel schedules."
+      },
+      {
+        "title": "Arrange Pre- and Post-Cruise Hotels",
+        "description": "Book luxury hotels in Munich, Vienna, Frankfurt, or Paris to extend your holiday celebration."
+      },
+      {
+        "title": "Organize Private Transfers",
+        "description": "Provide smooth, comfortable door-to-door transportation between airports, train stations, and docks."
+      },
+      {
+        "title": "Explain Holiday Promotions",
+        "description": "Take advantage of special early-booking offers, agency perks, and seasonal promotions."
+      },
+      {
+        "title": "Plan a Seamless Vacation",
+        "description": "Professional guidance ensures your holiday trip is completely stress-free from beginning to end."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel • 40+ Years in Luxury River Cruising",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Luxury Travel Expert with travel to 121+ countries and over 4 decades designing bespoke luxury voyages.",
+    "experienceBadge": "40+ YEARS EXPERIENCE",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Europe's Christmas markets along the Danube and Rhine are pure enchantment—illuminated cathedrals, the aroma of gingerbread and spiced glühwein, and the comfort of returning each night to a boutique luxury ship.",
+    "quoteSubtitle": "Personalized European River Cruise Guidance",
+    "ctaText": "Plan Your Christmas Market Cruise With Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "When do Riverside Christmas Market Cruises operate?",
+      "answer": "Most holiday cruises sail between late November and December while Europe's Christmas markets are open."
+    },
+    {
+      "question": "Which rivers host Christmas Market cruises?",
+      "answer": "The Danube and Rhine are the most popular rivers for Christmas Market itineraries."
+    },
+    {
+      "question": "Which ship sails Christmas Market cruises?",
+      "answer": "Depending on the itinerary, holiday sailings may be offered aboard Riverside Mozart or Riverside Ravel."
+    },
+    {
+      "question": "Are Christmas Market visits included?",
+      "answer": "Many itineraries include guided visits to famous Christmas markets as part of the included shore excursions."
+    },
+    {
+      "question": "Are meals included?",
+      "answer": "Yes. Gourmet breakfast, lunch, and dinner are typically included throughout the cruise."
+    },
+    {
+      "question": "Are drinks included?",
+      "answer": "Wine, beer, soft drinks, coffee, tea, and water are generally included with meals."
+    },
+    {
+      "question": "Is this a good cruise for first-time visitors to Europe?",
+      "answer": "Yes. Christmas Market cruises provide an excellent introduction to Central Europe's history, culture, and holiday traditions."
+    },
+    {
+      "question": "Should I book early?",
+      "answer": "Absolutely. Christmas Market cruises are among Riverside's most popular departures and often sell out well in advance."
+    },
+    {
+      "question": "Is Riverside suitable for couples?",
+      "answer": "Yes. The intimate atmosphere, elegant accommodations, and festive destinations make these cruises especially popular with couples."
+    },
+    {
+      "question": "Should I book through a travel advisor?",
+      "answer": "Yes. A luxury travel advisor can help you compare holiday itineraries, recommend the best suite, and coordinate every detail of your trip."
+    },
+    {
+      "question": "What is the dress code onboard Riverside during holiday cruises?",
+      "answer": "The dress code is elegant casual by day and smart casual in the evenings, with no formal wear required. We recommend warm, comfortable layers for visiting the outdoor markets."
+    },
+    {
+      "question": "Are gratuities included on Riverside Christmas Market Cruises?",
+      "answer": "Yes, all onboard gratuities for the ship's crew and tips for local guides during included shore excursions are included in your cruise fare."
+    }
+  ],
+  "finalVerdict": {
+    "title": "One of the Most Magical Ways to Celebrate the Season",
+    "paragraphs": [
+      "A Riverside Christmas Market Cruise is one of the most magical ways to celebrate the holiday season. From Vienna's elegant squares and Budapest's festive lights to Strasbourg's centuries-old Christmas traditions and Cologne's famous cathedral markets, every stop offers unforgettable seasonal charm.",
+      "Combined with Riverside's spacious suites, gourmet dining, and personalized service, these cruises create a holiday experience that is both luxurious and memorable.",
+      "At Trips & Ships Luxury Travel, we'll help you compare Christmas Market itineraries, choose the perfect suite, and plan a festive European river cruise you'll treasure for years to come."
+    ],
+    "planningServices": [
+      "Compare Christmas itineraries",
+      "Choose the best suite",
+      "Coordinate flights",
+      "Arrange hotels",
+      "Plan holiday excursions",
+      "Organize private transfers",
+      "Recommend markets to visit",
+      "Explain promotions"
+    ],
+    "ctaText": "Start Planning Your Riverside Cruise",
+    "ctaLink": "/contact"
+  }
+}
