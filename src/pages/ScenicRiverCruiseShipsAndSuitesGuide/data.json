@@ -1,0 +1,518 @@
+{
+  "hero": {
+    "badge": "Fleet & Suites Guide",
+    "title": "Scenic River Cruise Ships & Suites Guide",
+    "subtitle": "Compare Every Space-Ship, Suite Category & Deck Plan Across Europe's Rivers",
+    "description": "Choosing the right Scenic River Cruise ship and suite is one of the biggest decisions you'll make when planning your vacation. While Scenic's fleet shares the same commitment to luxury, each ship has its own atmosphere, itinerary, and suite options that can shape your overall experience.\n\nWhether you're planning a Danube, Rhine, Rhône, Douro, or Seine cruise, this guide explains the Scenic fleet, compares suite categories, highlights the best cabins, and helps you decide which ship is the right fit for your travel style.",
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "60-Second Overview",
+    "heading": "Scenic Ships & Suites: The Quick Answer",
+    "paragraphs": [
+      "If you're looking for the quick answer:",
+      "For most travelers, choosing the right itinerary matters more than choosing a specific ship—but your suite category can make just as big a difference to your experience onboard."
+    ],
+    "highlights": [
+      "Best Overall Ship: Depends on the itinerary rather than the ship itself—Scenic maintains a consistent luxury standard across the fleet",
+      "Best Suite: Royal Owner's Suite for maximum space and exclusive amenities",
+      "Best Value: Balcony Suites offer an excellent balance of comfort and price",
+      "Best for First-Time Guests: Any Scenic Space-Ship on the Rhine or Danube",
+      "Luxury Level: Five-star",
+      "Service: Butler service included for every suite"
+    ],
+    "ctaText": "Plan Your Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "fleetAtAGlance": {
+    "title": "Scenic Fleet at a Glance",
+    "subtitle": "Scenic's modern Space-Ships sail some of Europe's most iconic rivers. Although the décor and artwork vary slightly, guests enjoy a consistent luxury experience across the fleet.",
+    "ships": [
+      {
+        "title": "Scenic Jasper",
+        "icon": "Ship",
+        "description": "State-of-the-art Space-Ship featuring private butler service, Sun Lounge balconies, and gourmet multi-venue dining."
+      },
+      {
+        "title": "Scenic Opal",
+        "icon": "Ship",
+        "description": "Sister ship to Jasper, purpose-built for European waterways with innovative engineering and luxury suites."
+      },
+      {
+        "title": "Scenic Amber",
+        "icon": "Ship",
+        "description": "Sailing the Rhine, Main, and Danube with bespoke interiors, wellness facilities, and expansive river vistas."
+      },
+      {
+        "title": "Scenic Crystal",
+        "icon": "Ship",
+        "description": "Renowned for intimacy and relaxed elegance, delivering all-inclusive luxury across Europe's grand rivers."
+      },
+      {
+        "title": "Scenic Diamond",
+        "icon": "Ship",
+        "description": "Customized for France's Bordeaux region, featuring the Culinary Arts kitchen and dedicated tasting experiences."
+      },
+      {
+        "title": "Scenic Sapphire",
+        "icon": "Ship",
+        "description": "Custom-designed for the Rhône and Saône rivers in southern France, complete with Scenic Culinaire cooking academy."
+      },
+      {
+        "title": "Scenic Pearl",
+        "icon": "Ship",
+        "description": "Elegant Space-Ship cruising Europe's major waterways with refined public lounges and five-star suite appointments."
+      },
+      {
+        "title": "Scenic Ruby",
+        "icon": "Ship",
+        "description": "Intimate luxury vessel navigating historic rivers, combining contemporary design with attentive personal service."
+      },
+      {
+        "title": "Scenic Jewel",
+        "icon": "Ship",
+        "description": "Flagship Space-Ship offering signature Sun Lounges, butler hospitality, and panoramic open-air sun deck views."
+      },
+      {
+        "title": "Scenic Azure",
+        "icon": "Ship",
+        "description": "Custom-built for Portugal's Douro River, specifically engineered with shorter hull dimensions to navigate local locks."
+      },
+      {
+        "title": "Scenic Gem",
+        "icon": "Ship",
+        "description": "Purpose-built for the Seine River in northern France, uniquely designed to cruise directly into the heart of Honfleur."
+      },
+      {
+        "title": "Scenic Jade",
+        "icon": "Ship",
+        "description": "Ultra-modern European Space-Ship featuring high crew-to-guest ratios and truly all-inclusive luxury amenities."
+      }
+    ]
+  },
+  "whichShipIsBest": {
+    "eyebrow": "Fleet Consistency",
+    "title": "Which Scenic Ship Is Best?",
+    "paragraphs": [
+      "Unlike many ocean cruise lines where ships vary significantly, Scenic focuses on delivering the same luxury standard throughout its river fleet.",
+      "The biggest differences are usually river itinerary, sailing region, seasonal experiences, deck layout, and public space décor. For most travelers, choosing the right itinerary is more important than choosing a specific ship."
+    ],
+    "highlights": [
+      "River itinerary",
+      "Sailing region",
+      "Seasonal experiences",
+      "Deck layout",
+      "Public space décor"
+    ],
+    "badgeTitle": "Consistent Luxury",
+    "badgeDescription": "Scenic maintains a consistent five-star standard across all Space-Ships worldwide."
+  },
+  "shipsByDestination": {
+    "title": "Scenic River Cruise Ships by Destination",
+    "description": "Each river offers a distinct atmosphere and set of experiences. Here's what to expect from Scenic's most popular itineraries.",
+    "rivers": [
+      {
+        "name": "Rhine River",
+        "description": "Ideal for first-time river cruisers who want castles, vineyards, Christmas Markets, and a Switzerland & Netherlands itinerary.",
+        "bestFor": "First-time cruisers, medieval castles, vineyards, and festive seasonal markets.",
+        "highlights": ["Amsterdam", "Cologne", "Strasbourg", "Basel"]
+      },
+      {
+        "name": "Danube River",
+        "description": "Perfect for travelers interested in historic cities, imperial architecture, music, and UNESCO World Heritage sites.",
+        "bestFor": "History enthusiasts, grand classical architecture, classical concerts, and central European culture.",
+        "highlights": ["Budapest", "Vienna", "Bratislava", "Passau"]
+      },
+      {
+        "name": "Rhône River",
+        "description": "Known for wine regions, Provence, French cuisine, and lavender landscapes through the heart of southern France.",
+        "bestFor": "Epicureans, fine wine connoisseurs, culinary enthusiasts, and Roman ruins.",
+        "highlights": ["Wine regions", "Provence", "French cuisine", "Lavender landscapes"]
+      },
+      {
+        "name": "Douro River",
+        "description": "Best for Portugal, wine lovers, scenic vineyards, and boutique experiences sailing from Porto into the Spanish border.",
+        "bestFor": "Boutique cruising, Port wine estates, terraced valley scenery, and Iberian culture.",
+        "highlights": ["Portugal", "Wine lovers", "Scenic vineyards", "Boutique experiences"]
+      },
+      {
+        "name": "Seine River",
+        "description": "Ideal for Paris, Normandy, history, and art lovers cruising between the City of Light and the Atlantic coast.",
+        "bestFor": "Monet's gardens, D-Day historical beaches, Normandy countryside, and Parisian elegance.",
+        "highlights": ["Paris", "Normandy", "History", "Art lovers"]
+      }
+    ]
+  },
+  "inlineCta1": {
+    "title": "Not Sure Which Itinerary Fits You Best?",
+    "description": "Let us help you compare Scenic's rivers, ships, and suite categories to plan the ideal cruise.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  },
+  "suiteCategories": {
+    "title": "Scenic Suite Categories Explained",
+    "subtitle": "Choosing the right suite is often more important than choosing the ship.",
+    "features": [
+      {
+        "title": "Standard Suite",
+        "description": "Best for budget-conscious luxury travelers and guests who plan to spend most of their time exploring destinations rather than in their cabin.",
+        "tags": [
+          "Comfortable Accommodations",
+          "Luxury Bedding",
+          "Elegant Bathroom",
+          "Butler Service",
+          "Complimentary Wi-Fi"
+        ],
+        "highlight": "Full 5-star butler service included even in entry category"
+      },
+      {
+        "title": "Balcony Suite (Scenic Sun Lounge)",
+        "description": "One of Scenic's signature accommodations, and the most popular suite category on the fleet, featuring private all-weather enclosed balconies.",
+        "tags": [
+          "Scenic Sun Lounge",
+          "Floor-to-Ceiling Windows",
+          "Private Sitting Area",
+          "Luxury Bathroom",
+          "Butler Service"
+        ],
+        "highlight": "Most popular choice combining comfort, views, and value"
+      },
+      {
+        "title": "Junior Suite",
+        "description": "Offers additional living space—ideal for longer cruises, couples, and anniversary trips looking for enhanced room to unwind.",
+        "tags": [
+          "Larger Seating Area",
+          "More Storage Space",
+          "Premium Mid-Ship Location",
+          "Upgraded Butler Care",
+          "Expanded Vanity"
+        ],
+        "highlight": "Ideal for 10+ night voyages and milestone celebrations"
+      },
+      {
+        "title": "Royal Balcony Suite",
+        "description": "A premium luxury option, excellent for milestone celebrations, offering spacious indoor living quarters and bespoke butler amenities.",
+        "tags": [
+          "Larger Suite Footprint",
+          "Expanded Living Area",
+          "Enhanced Butler Service",
+          "Premium Furnishings",
+          "Additional VIP Amenities"
+        ],
+        "highlight": "High-end luxury with generous square footage"
+      },
+      {
+        "title": "Royal Owner's Suite",
+        "description": "The most luxurious accommodation onboard—perfect for travelers who want the highest level of comfort, panoramic vistas, and elite treatment.",
+        "tags": [
+          "Separate Living Room",
+          "Spacious Bedroom",
+          "Luxury Bathroom",
+          "Premium Location",
+          "Personalized Service",
+          "Butler Assistance",
+          "Panoramic River Views"
+        ],
+        "highlight": "Ultimate river cruise accommodation with panoramic views"
+      }
+    ]
+  },
+  "sunLounge": {
+    "eyebrow": "Signature Innovation",
+    "title": "What Is the Scenic Sun Lounge?",
+    "paragraphs": [
+      "Unlike a traditional balcony, Scenic's signature Sun Lounge uses floor-to-ceiling windows that can be lowered at the touch of a button.",
+      "It's one of Scenic's most recognizable design features, converting your private sitting area into an open-air balcony in seconds while preserving interior climate control whenever desired."
+    ],
+    "highlights": [
+      "Comfortable in all weather",
+      "Larger usable living space",
+      "Better privacy",
+      "Excellent river views",
+      "Climate-controlled environment"
+    ],
+    "badgeTitle": "Signature Feature",
+    "badgeDescription": "Scenic Sun Lounge: Enclosed glass balcony transforming at the touch of a button."
+  },
+  "bestValueSuite": {
+    "title": "Which Suite Offers the Best Value?",
+    "subtitle": "Best Overall Value: the Balcony Suite. Most travelers feel this category provides the best balance between luxury and price, thanks to the combination of the Scenic Sun Lounge, butler service, and spacious layout.",
+    "imageOverlayText": "Balcony Suite: The Sweet Spot of Luxury",
+    "items": [
+      {
+        "title": "Scenic Sun Lounge",
+        "description": "Transform your private living space into an open-air balcony at the push of a button regardless of outside weather.",
+        "icon": "Sparkles",
+        "impact": "Signature Innovation"
+      },
+      {
+        "title": "Dedicated Butler Service",
+        "description": "Complimentary morning coffee, shoe shine, garment pressing, and concierge attention included with every booking.",
+        "icon": "Award",
+        "impact": "Included for All"
+      },
+      {
+        "title": "Spacious Layout",
+        "description": "Thoughtfully proportioned suites with separate sitting areas, walk-in showers, and ample luggage storage.",
+        "icon": "Home",
+        "impact": "Optimal Comfort"
+      },
+      {
+        "title": "Luxury Amenities",
+        "description": "Egyptian cotton linens, pillow menu, complimentary minibar restocked daily, and luxury bath products.",
+        "icon": "Gem",
+        "impact": "All-Inclusive Care"
+      },
+      {
+        "title": "Excellent River Views",
+        "description": "Unobstructed floor-to-ceiling panoramas of historic castles, vineyards, and medieval towns as you sail.",
+        "icon": "Eye",
+        "impact": "Panoramic Vistas"
+      }
+    ]
+  },
+  "whichSuiteToChoose": {
+    "title": "Which Suite Should You Choose?",
+    "subtitle": "Scenic offers a variety of suite categories to suit different travel styles, budgets, and occasions. Use this guide to find the best option for your next luxury river cruise.",
+    "items": [
+      {
+        "title": "Standard Suite",
+        "description": "Budget matters most, you're rarely in your cabin, and you want full 5-star inclusions at entry-level pricing. Choose if: Budget matters most • You're rarely in your cabin • This is your first river cruise.",
+        "bullets": [
+          "Budget matters most",
+          "You're rarely in your cabin",
+          "This is your first river cruise"
+        ]
+      },
+      {
+        "title": "Balcony Suite",
+        "description": "You value privacy, natural light, and watching Europe's landscapes glide by from your private glass lounge. Choose if: You enjoy relaxing in your room • You want river views • You appreciate natural light.",
+        "bullets": [
+          "You enjoy relaxing in your room",
+          "You want river views",
+          "You appreciate natural light"
+        ]
+      },
+      {
+        "title": "Junior Suite",
+        "description": "You want expanded space, extra seating, and premium mid-ship positioning for an extended river voyage. Choose if: You're celebrating a special occasion • You're sailing for 10+ nights • You prefer additional space.",
+        "bullets": [
+          "You're celebrating a special occasion",
+          "You're sailing for 10+ nights",
+          "You prefer additional space"
+        ]
+      },
+      {
+        "title": "Royal Suite",
+        "description": "Milestone anniversaries and travelers demanding top-tier space, separate living quarters, and royal pampering. Choose if: Luxury is your priority • You're celebrating a milestone • You enjoy premium accommodations.",
+        "bullets": [
+          "Luxury is your priority",
+          "You're celebrating a milestone",
+          "You enjoy premium accommodations"
+        ]
+      }
+    ]
+  },
+  "inlineCta2": {
+    "title": "Ready to Choose Your Ship and Suite?",
+    "description": "Take advantage of exclusive travel advisor promotions, complimentary cabin upgrades, and expert itinerary advice today.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  },
+  "comparisonData": {
+    "title": "Scenic Ships vs. Other Luxury River Cruise Lines",
+    "headers": ["Cruise Line", "Key Fleet & Cabin Strength"],
+    "rows": [
+      ["Scenic", "Butler service & Sun Lounge suites"],
+      ["Riverside", "Larger suites & boutique feel"],
+      ["Viking", "Scandinavian simplicity"],
+      ["AmaWaterways", "Active excursions"],
+      ["Uniworld", "Unique décor"],
+      ["Tauck", "Guided land experiences"]
+    ]
+  },
+  "mistakes": {
+    "title": "Common Mistakes When Choosing a Suite",
+    "subtitle": "Many first-time guests run into the same avoidable pitfalls. Working with a luxury travel advisor can help you avoid these common booking mistakes.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Choose Based Only on Price",
+        "description": "Selecting the lowest price point often means forfeiting the signature Scenic Sun Lounge and river view experience that defines the voyage."
+      },
+      {
+        "number": "02",
+        "title": "Ignore Itinerary",
+        "description": "Different rivers feature different lock schedules, water levels, and scenic cruising hours—aligning suite type with itinerary pace is critical."
+      },
+      {
+        "number": "03",
+        "title": "Book Late and Lose the Best Suite Selection",
+        "description": "With only 60 to 80 suites per vessel, top-tier categories and desirable mid-deck locations routinely sell out 9 to 18 months ahead."
+      },
+      {
+        "number": "04",
+        "title": "Don't Compare Deck Locations",
+        "description": "Cabins near the engines, laundry rooms, or under the fitness center can experience noise that a simple deck comparison easily prevents."
+      },
+      {
+        "number": "05",
+        "title": "Overlook Current Promotions",
+        "description": "Booking direct often misses unadvertised luxury travel advisor promotions, complimentary upgrades, and onboard credit opportunities."
+      }
+    ]
+  },
+  "bestForFirstTimers": {
+    "eyebrow": "First-Time Cruisers",
+    "title": "Which Scenic Ship Is Best for First-Time Cruisers?",
+    "subtitle": "Most first-time guests find that starting on Europe's most celebrated rivers delivers the smoothest and most awe-inspiring river cruise experience. These itineraries offer iconic European destinations, fairy-tale castles, gentle lock transitions, and a comfortable introduction to river cruising.",
+    "badgeTitle": "Recommended for Beginners",
+    "features": [
+      {
+        "title": "Rhine Itineraries",
+        "description": "Ideal for first-time cruisers who want fairy-tale castles, steep vineyards, festive Christmas Markets, and a classic Amsterdam to Basel itinerary."
+      },
+      {
+        "title": "Danube Itineraries",
+        "description": "Connecting grand European imperial capitals like Vienna, Budapest, and Bratislava with effortless city-center docking and classical culture."
+      },
+      {
+        "title": "Balcony Suites",
+        "description": "Scenic Sun Lounge accommodations offering the ideal balance of space, private all-weather river vistas, natural light, and butler service."
+      },
+      {
+        "title": "7–10 Night Cruises",
+        "description": "The perfect voyage duration to experience all-inclusive luxury river travel and iconic ports without feeling rushed or overwhelmed."
+      }
+    ]
+  },
+  "advisorValue": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Choosing the right ship is only part of planning. Expert advice can help you maximize the value of your vacation, coordinate flights and hotels, and avoid costly booking errors.",
+    "items": [
+      {
+        "title": "Compare Scenic Ships",
+        "description": "Navigate fleet differences, vessel ages, and design nuances across Europe's rivers."
+      },
+      {
+        "title": "Recommend the Best Suite",
+        "description": "Analyze deck plans to secure quiet locations, optimal vistas, and maximum comfort."
+      },
+      {
+        "title": "Explain Promotions",
+        "description": "Clarify complex early-bird savings, solo supplements, and seasonal discount structures."
+      },
+      {
+        "title": "Compare Against Competitors",
+        "description": "Objectively weigh Scenic against Viking, Riverside, AmaWaterways, Uniworld, and Tauck."
+      },
+      {
+        "title": "Coordinate Flights & Hotels",
+        "description": "Seamlessly arrange business class airfare, pre/post luxury hotels, and private car transfers."
+      },
+      {
+        "title": "Match Style & Budget",
+        "description": "Ensure your itinerary, pace, and suite align precisely with your personal travel aspirations."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "title": "Angela Hughes Luxury Authority",
+    "authorName": "Angela Hughes",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "bio": "Angela Hughes has explored over 121 countries and spent more than four decades designing luxury travel experiences. She is widely recognized across the travel industry as a leading river cruise authority, global speaker, and luxury travel agency CEO.",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Plan Your Scenic Cruise With Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything travelers need to know about Scenic's ships and suites before booking.",
+    "questions": [
+      {
+        "question": "Which Scenic River Cruise ship is the best?",
+        "answer": "There isn't a single \"best\" ship. Scenic maintains a consistent luxury standard across its fleet, so your itinerary and destination are usually more important than the specific vessel."
+      },
+      {
+        "question": "What is the Scenic Sun Lounge?",
+        "answer": "It's Scenic's signature enclosed balcony featuring floor-to-ceiling windows that can be lowered electronically, allowing guests to enjoy river views in any weather."
+      },
+      {
+        "question": "Does every Scenic suite include butler service?",
+        "answer": "Yes. Personalized butler service is available for every suite category, from Standard Suites to Royal Owner's Suites."
+      },
+      {
+        "question": "Which Scenic suite offers the best value?",
+        "answer": "Many travelers consider the Balcony Suite with Scenic Sun Lounge to offer the best balance of luxury, views, and price."
+      },
+      {
+        "question": "What is the most luxurious suite on Scenic?",
+        "answer": "The Royal Owner's Suite is typically the largest and most luxurious accommodation available onboard, featuring separate living and sleeping areas."
+      },
+      {
+        "question": "Are Scenic ships all the same?",
+        "answer": "While the overall luxury experience is consistent, ships vary slightly in décor, artwork, size restrictions for specific waterways (like Douro and Seine), and itineraries."
+      },
+      {
+        "question": "Which Scenic ship sails the Danube?",
+        "answer": "Several Scenic Space-Ships operate Danube itineraries, including Scenic Jasper, Scenic Amber, Scenic Opal, and Scenic Jewel, depending on the season and schedule."
+      },
+      {
+        "question": "Which Scenic ship sails the Rhine?",
+        "answer": "Multiple Scenic ships cruise the Rhine throughout the year, especially during spring, summer, and Christmas Market seasons, including Scenic Crystal, Scenic Jade, and Scenic Pearl."
+      },
+      {
+        "question": "Should I choose my ship or my itinerary first?",
+        "answer": "For Scenic, choosing the right itinerary usually has a greater impact on your vacation than selecting a specific ship, since ship amenities are standardized."
+      },
+      {
+        "question": "Are Scenic ships adults-only?",
+        "answer": "Scenic primarily caters to adult travelers looking for a refined, peaceful luxury environment, though age policies may vary by itinerary."
+      },
+      {
+        "question": "How far in advance should I book the best suites?",
+        "answer": "Booking 9–18 months in advance typically provides the best selection, especially for Balcony Suites and Royal Suites on popular spring and autumn departures."
+      },
+      {
+        "question": "Should I book a Scenic River Cruise through a travel advisor?",
+        "answer": "Yes. A luxury travel advisor can recommend the best ship, compare suite categories, explain promotions, arrange flights, and help you choose the itinerary that best fits your travel style at no additional cost."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Consistent Luxury, Personalized to You",
+        "paragraphs": [
+          "Scenic's fleet is designed around consistency, luxury, and personalized service. Rather than focusing on one \"best\" ship, Scenic delivers a similar high-end experience across its Space-Ships, allowing travelers to choose based on destination and itinerary.",
+          "For most guests, the Balcony Suite provides the best combination of comfort, river views, and value, while those seeking the ultimate luxury experience will appreciate the spacious Royal Owner's Suite.",
+          "At Trips & Ships Luxury Travel, we'll help you compare ships, itineraries, and suite categories to find the best option for your travel style and budget.",
+          "Our luxury planning services include: Compare Scenic ships and itineraries, Recommend the best suite for your budget, Explain promotions and limited-time offers, Arrange flights and hotels, Coordinate private transfers, Compare Scenic with other luxury lines, Identify available promotions, Help you avoid common booking mistakes."
+        ]
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to Explore Europe on a Scenic Space-Ship?",
+    "description": "Connect with Angela Hughes and our luxury river cruise team to find the perfect ship, suite, and itinerary for your upcoming voyage.",
+    "buttonText": "Start Planning Your Scenic Cruise",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  }
+}

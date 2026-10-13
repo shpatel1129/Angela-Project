@@ -1043,7 +1043,7 @@ const Nav = () => {
               </NavLink>
 
 
-              {/* <NavLink
+              <NavLink
                 to="/scenic-river-cruises"
                 end
                 className="nav-dropdown-single"
@@ -1067,7 +1067,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 What Is Included Scenic River Cruise
-              </NavLink> */}
+              </NavLink>
 
               <NavLink
                 to="/scenic-river-cruises/cost"
@@ -1077,7 +1077,7 @@ const Nav = () => {
                 How Much Does Scenic River Cruise Cost
               </NavLink>
 
-              <NavLink
+              {/* <NavLink
                 to="/scenic-river-cruises/is-scenic-worth-it"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -1091,7 +1091,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 Scenic River Cruise Ships and Suites Guide
-              </NavLink>
+              </NavLink> */}
 
               <NavLink
                 to="/scenic-river-cruises/cabin-categories"
@@ -2770,7 +2770,7 @@ const Nav = () => {
             </NavLink>
 
 
-            {/* <NavLink
+            <NavLink
               to="/scenic-river-cruises"
               end
               className="nav-dropdown-single"
@@ -2793,7 +2793,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               What Is Included Scenic River Cruise
-            </NavLink> */}
+            </NavLink>
 
 
             <NavLink
@@ -2804,7 +2804,7 @@ const Nav = () => {
               How Much Does Scenic River Cruise Cost
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/scenic-river-cruises/is-scenic-worth-it"
               className="nav-dropdown-single"
               onClick={toggleMenu}
@@ -2818,7 +2818,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Scenic River Cruise Ships and Suites Guide
-            </NavLink>
+            </NavLink> */}
 
 
             <NavLink

@@ -9,7 +9,7 @@ import ComparisonHero from "../../components/ui/ComparisonHero";
 import ReviewSnapshotGrid from "../../components/ui/ReviewSnapshotGrid";
 import AsymmetricStoryIntro from "../../components/ui/AsymmetricStoryIntro";
 import BrandPillarsShowcase from "../../components/ui/BrandPillarsShowcase";
-import BalconyTypesShowcase from "../../components/ui/BalconyTypesShowcase";
+import SignatureFeatures from "../../components/ui/SignatureFeatures";
 import ValueShowcase from "../../components/ui/ValueShowcase";
 import LuxuryFeatureShowcase from "../../components/ui/LuxuryFeatureShowcase";
 import CenterCTA from "../../components/ui/CenterCTA";
@@ -23,14 +23,23 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-   // import SuiteImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-suite.jpg";
-   // import DiningImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-dining.jpg";
-   // import DanubeImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-danube.jpg";
-   // import MekongImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-mekong.jpg";
-   // import LoungeImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-lounge.jpg";
-   // import CTAImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Asset Images
+import ScenicRiverCruisesReviewHero from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-honest-review-hero.webp";
+import WhatMakesScenicDifferent1 from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-all-inclusive-luxury-difference.webp";
+import WhatMakesScenicDifferent2 from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-all-inclusive-inclusions-experience.webp";
+import LuxurySuites1 from "../../assets/ScenicRiverCruisesReview/scenic-sun-lounge-balcony-suite-review.webp";
+import LuxurySuites2 from "../../assets/ScenicRiverCruisesReview/scenic-space-ship-butler-service-luxury-suite-review.webp";
+import PersonalizedServiceImage from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-personalized-butler-crew-service.webp";
+import ExcursionsImage from "../../assets/ScenicRiverCruisesReview/scenic-freechoice-enrich-luxury-shore-excursions.webp";
+import GourmetDiningExperienceImage from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-gourmet-fine-dining-experience.webp";
+import ScenicBalconySuiteImage from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-balcony-suite-accommodations.webp";
+import GourmetDiningImage from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-culinary-dishes-wine-pairing.webp";
+import DanubeRiverImage from "../../assets/ScenicRiverCruisesReview/scenic-danube-river-cruise-review-destinations.webp";
+import MekongRiverImage from "../../assets/ScenicRiverCruisesReview/scenic-mekong-river-cruise-luxury-journey.webp";
+import ScenicPanoramaLoungeImage from "../../assets/ScenicRiverCruisesReview/scenic-space-ship-panorama-lounge-observation-deck.webp";
+import IsScenicWorthTheMoneyImage from "../../assets/ScenicRiverCruisesReview/is-scenic-river-cruise-worth-the-money-pricing-review.webp";
+import CulinaryCtaImage from "../../assets/ScenicRiverCruisesReview/scenic-award-winning-culinary-journeys-review-cta.webp";
+import PremierLuxuryCtaImage from "../../assets/ScenicRiverCruisesReview/scenic-premier-all-inclusive-luxury-final-verdict-cta.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -184,10 +193,7 @@ const ScenicRiverCruisesReview = () => {
           description={data.hero.description}
           primaryCtaText={data.hero.primaryCtaText}
           primaryCtaLink={data.hero.primaryCtaLink}
-          backgroundImage={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-hero.jpg"
-            undefined
-          }
+          backgroundImage={ScenicRiverCruisesReviewHero}
         />
       </div>
 
@@ -210,14 +216,8 @@ const ScenicRiverCruisesReview = () => {
           image2Placeholder={data.whatMakesDifferent.image2Placeholder}
           ctaText={data.whatMakesDifferent.ctaText}
           ctaLink={data.whatMakesDifferent.ctaLink}
-          image1={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-dining.jpg"
-            undefined
-          }
-          image2={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-lounge.jpg"
-            undefined
-          }
+          image1={WhatMakesScenicDifferent1}
+          image2={WhatMakesScenicDifferent2}
         />
       </div>
 
@@ -234,28 +234,42 @@ const ScenicRiverCruisesReview = () => {
 
       {/* ── 5. OUR HONEST REVIEW: LUXURY SUITES ── */}
       <div id="luxury-suites">
-        <BalconyTypesShowcase
+        <SignatureFeatures
           data={{
             title: data.suites.heading,
-            intro: data.suites.paragraphs[0],
-            types: [
+            subtitle: data.suites.eyebrow,
+            features: [
               {
-                name: "Scenic Sun Lounge Balcony Suite",
-                tagline: data.suites.badgeTitle,
-                rating: 5,
+                id: "sun-lounge-suite",
+                title: "Scenic Sun Lounge Balcony Suite",
                 description: data.suites.paragraphs[0],
-                features: data.suites.highlights,
-                bestFor: data.suites.badgeDescription
+                icon: "Sun",
+                bullets: [
+                  "Private glass Sun Lounge balcony transforms into an open-air veranda",
+                  "Spacious hotel-like floor plans with premium soundproofing",
+                  "Scenic Slumber Bedding with customizable luxury pillow menu",
+                  "Marble en-suite bathroom with plush bathrobes and toiletries"
+                ],
+                image: "suite1"
               },
               {
-                name: "Space-Ship Butler Service & Stateroom Comforts",
-                tagline: "Dedicated Luxury Attention & In-Suite Conveniences",
-                rating: 5,
-                description: data.suites.paragraphs[0],
-                features: data.suites.highlights,
-                bestFor: `${data.suites.badgeTitle} — ${data.suites.badgeDescription}`
+                id: "butler-service-suite",
+                title: "Space-Ship Butler Service & Stateroom Comforts",
+                description: `${data.suites.badgeTitle}: ${data.suites.badgeDescription}`,
+                icon: "Anchor",
+                bullets: [
+                  "Personalized butler service included across all suite tiers",
+                  "Complimentary restocked in-suite mini-bar daily",
+                  "In-suite Illy espresso machines and fine tea service",
+                  "Complimentary garment pressing, shoe shine, and beverage delivery"
+                ],
+                image: "suite2"
               }
             ]
+          }}
+          images={{
+            suite1: LuxurySuites1,
+            suite2: LuxurySuites2
           }}
         />
       </div>
@@ -268,8 +282,8 @@ const ScenicRiverCruisesReview = () => {
           items={data.serviceAndExcursions.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-danube.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-mekong.jpg"
+              PersonalizedServiceImage,
+              ExcursionsImage
             ][idx]
           }))}
         />
@@ -285,9 +299,7 @@ const ScenicRiverCruisesReview = () => {
               title: data.dining.placeholderLabel,
               description: data.dining.intro,
               features: data.dining.highlights,
-              image:
-                // "src/assets/ScenicRiverCruisesGuide/scenic-guide-dining.jpg"
-                undefined
+              image: GourmetDiningExperienceImage
             }
           ]}
         />
@@ -300,6 +312,7 @@ const ScenicRiverCruisesReview = () => {
           description={data.inlineCta.description}
           buttonText={data.inlineCta.buttonText}
           buttonLink={data.inlineCta.buttonLink}
+          image={CulinaryCtaImage}
           theme="dark"
         />
       </div>
@@ -334,11 +347,11 @@ const ScenicRiverCruisesReview = () => {
           items={data.gallery.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-suite.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-dining.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-danube.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-mekong.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-lounge.jpg"
+              ScenicBalconySuiteImage,
+              GourmetDiningImage,
+              DanubeRiverImage,
+              MekongRiverImage,
+              ScenicPanoramaLoungeImage
             ][idx]
           }))}
         />
@@ -370,10 +383,7 @@ const ScenicRiverCruisesReview = () => {
           badgeTitle={data.isWorthIt.badgeTitle}
           badgeDescription={data.isWorthIt.badgeDescription}
           placeholderLabel={data.isWorthIt.badgeTitle}
-          image={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-lounge.jpg"
-            undefined
-          }
+          image={IsScenicWorthTheMoneyImage}
         />
       </div>
 
@@ -433,6 +443,7 @@ const ScenicRiverCruisesReview = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
+          image={PremierLuxuryCtaImage}
           theme="dark"
         />
       </div>

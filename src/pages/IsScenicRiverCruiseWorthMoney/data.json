@@ -1,0 +1,400 @@
+{
+  "hero": {
+    "badge": "2026 LUXURY CRUISE VALUE GUIDE",
+    "title": "Is a Scenic River Cruise Worth the Money?",
+    "subtitle": "An Honest Evaluation of All-Inclusive Value, Pricing, and Inclusions",
+    "description": "If you're researching Scenic River Cruises, you've probably noticed that it's one of the more expensive luxury river cruise lines. A typical European sailing can cost several thousand dollars per person, leading many travelers to ask: is Scenic really worth the extra money? The short answer is yes—for the right traveler. Scenic delivers one of the most comprehensive all-inclusive luxury river cruise experiences available. Instead of paying separately for drinks, gratuities, excursions, airport transfers, and butler service, most of these amenities are included in your cruise fare. However, Scenic isn't the perfect choice for everyone. This guide explains who gets the best value from Scenic, where your money goes, and how it compares with other luxury river cruise brands.",
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "60-Second Summary",
+    "heading": "Is Scenic Worth the Money? The Quick Answer",
+    "paragraphs": [
+      "Is Scenic River Cruises worth it? Yes—if you want an all-inclusive luxury river cruise with premium service, elegant ships, gourmet dining, and very few onboard surprises.",
+      "If you're simply looking for the cheapest way to cruise Europe's rivers, Scenic may not be the best value for your travel style. But for luxury travelers who value predictable vacation costs and five-star inclusions, the upfront investment pays dividends throughout the voyage."
+    ],
+    "highlights": [
+      "Prefer luxury over budget travel",
+      "Enjoy fine dining and premium beverages",
+      "Value included excursions",
+      "Want butler service",
+      "Prefer predictable vacation costs",
+      "Like personalized service"
+    ],
+    "ctaText": "Check Scenic Itineraries",
+    "ctaLink": "/contact"
+  },
+  "glance": {
+    "title": "Scenic at a Glance",
+    "subtitle": "Expert category-by-category ratings across all core dimensions of the Scenic river cruising experience.",
+    "items": [
+      {
+        "category": "Luxury",
+        "rating": 5,
+        "description": "All-inclusive 5-star service & amenities"
+      },
+      {
+        "category": "Dining",
+        "rating": 5,
+        "description": "Gourmet regional specialties & multi-course dinners"
+      },
+      {
+        "category": "Suites",
+        "rating": 5,
+        "description": "Spacious suites with signature Sun Lounges"
+      },
+      {
+        "category": "Service",
+        "rating": 5,
+        "description": "Personalized butler service across all suite categories"
+      },
+      {
+        "category": "Excursions",
+        "rating": 5,
+        "description": "Included Scenic Freechoice & exclusive Scenic Enrich"
+      },
+      {
+        "category": "Value for Luxury Travelers",
+        "rating": 5,
+        "description": "Exceptional upfront value with minimal onboard extras"
+      },
+      {
+        "category": "Value for Budget Travelers",
+        "rating": 3,
+        "description": "Higher upfront starting price than mass-market lines"
+      },
+      {
+        "category": "Overall Rating",
+        "rating": 5,
+        "description": "Benchmark all-inclusive luxury river cruising"
+      }
+    ]
+  },
+  "whyMoreExpensive": {
+    "eyebrow": "Total Cost vs. Sticker Price",
+    "heading": "Why Is Scenic More Expensive?",
+    "paragraphs": [
+      "Many travelers compare only the advertised cruise fare. That's a mistake. Scenic includes many premium services that other cruise lines may charge extra for. When comparing cruise lines, it's important to compare the total vacation cost, not just the initial fare.",
+      "Your fare generally includes butler service, gourmet dining, premium beverages, excursions, gratuities, and more. Comparing the total vacation cost—not just the sticker price—is the fairest way to judge whether Scenic is worth it."
+    ],
+    "highlights": [
+      "Butler service",
+      "Gourmet dining",
+      "Premium alcoholic beverages",
+      "Specialty coffee",
+      "Scenic Freechoice excursions",
+      "Scenic Enrich experiences",
+      "Airport transfers (eligible itineraries)",
+      "Wi-Fi",
+      "Gratuities"
+    ],
+    "placeholderLabel": "GOURMET DINING & LUXURY INCLUSIONS",
+    "badgeTitle": "Total Vacation Value",
+    "badgeDescription": "Comparing total costs rather than sticker prices reveals Scenic's genuine all-inclusive economy."
+  },
+  "valueFactors": {
+    "title": "What Value Do You Actually Receive?",
+    "subtitle": "Beyond the advertised fare, here's where Scenic's pricing actually delivers for guests.",
+    "features": [
+      {
+        "title": "1. Butler Service in Every Suite",
+        "description": "Unlike many river cruise lines where butler service is reserved for top-tier accommodations, Scenic provides personalized butler service across its suite categories. For travelers who appreciate attentive service, this adds meaningful value.",
+        "icon": "Home",
+        "bullets": [
+          "Morning beverage delivery",
+          "In-suite breakfast",
+          "Laundry coordination",
+          "Dining reservations",
+          "Daily itinerary assistance"
+        ]
+      },
+      {
+        "title": "2. Gourmet Dining Without Extra Charges",
+        "description": "Dining is one of Scenic's strongest features. Many comparable land vacations would incur additional dining costs, but on Scenic, gourmet dining is simply part of the fare.",
+        "icon": "Wine",
+        "bullets": [
+          "Multi-course dinners",
+          "Regional specialties",
+          "Premium wines",
+          "Fresh local ingredients",
+          "Chef-prepared cuisine",
+          "Elegant service"
+        ]
+      },
+      {
+        "title": "3. Excursions Are Included",
+        "description": "Guided tours can quickly add hundreds of dollars to a European vacation. Scenic includes a wide range of excursions, reducing the need for separate tour bookings.",
+        "icon": "MapPin",
+        "bullets": [
+          "Walking tours",
+          "Cultural experiences",
+          "Wine tastings",
+          "Museum visits",
+          "Cycling excursions",
+          "Scenic Freechoice options"
+        ]
+      },
+      {
+        "title": "4. Few Surprise Expenses",
+        "description": "Many travelers appreciate knowing most of their vacation costs upfront. With Scenic, you typically don't need to budget separately for these items.",
+        "icon": "ShieldCheck",
+        "bullets": [
+          "Drinks",
+          "Tips",
+          "Wi-Fi",
+          "Excursions",
+          "Butler service",
+          "Airport transfers (eligible itineraries)"
+        ]
+      }
+    ]
+  },
+  "inlineCta1": {
+    "title": "Wondering If Scenic Fits Your Travel Style?",
+    "description": "Let us help you compare itineraries, suites, and inclusions to see if Scenic delivers the value you're looking for.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  },
+  "realValueExample": {
+    "title": "Real Value Example: 7-Night Rhine River Cruise",
+    "description": "If booked independently, here's what you might pay separately for these same amenities. The combined value of these inclusions can easily exceed $1,000–$2,000 per couple, depending on your itinerary and travel style.",
+    "headers": ["Expense", "Estimated Cost"],
+    "rows": [
+      ["Premium drinks", "$350–$500"],
+      ["Excursions", "$400–$800"],
+      ["Gratuities", "$150–$250"],
+      ["Airport transfers", "$100–$250"],
+      ["Butler-level services", "Included with Scenic"]
+    ]
+  },
+  "gallery": {
+    "title": "Where Value Meets Luxury",
+    "subtitle": "Explore the suites, dining venues, and spaces that define Scenic's five-star reputation.",
+    "items": [
+      {
+        "title": "Luxury Suites",
+        "description": "Spacious suites with Scenic Sun Lounges, butler service, pillow menus, and Egyptian cotton linens."
+      },
+      {
+        "title": "All-Inclusive Dining",
+        "description": "Multi-course dinners, regional wine pairings, informal café bites, and in-suite dining without surcharges."
+      },
+      {
+        "title": "Scenic Space-Ships",
+        "description": "State-of-the-art European river vessels engineered for panoramic viewing, wellness, and quiet cruising."
+      }
+    ]
+  },
+  "prosAndCons": {
+    "title": "Scenic Pros & Cons",
+    "prosTitle": "Scenic Pros",
+    "consTitle": "Scenic Cons",
+    "bestFor": [
+      "Truly All-Inclusive Luxury: Scenic is among the most inclusive luxury river cruise lines available.",
+      "Outstanding Service: Guests consistently praise the crew for professionalism and personalized attention.",
+      "Spacious Suites: Modern accommodations with elegant design and Scenic's signature Sun Lounge.",
+      "Exceptional Dining: High-quality cuisine inspired by the regions visited.",
+      "Flexible Excursions: Scenic Freechoice allows travelers to personalize each port visit.",
+      "Exclusive Cultural Experiences: Scenic Enrich events provide memorable experiences beyond traditional sightseeing."
+    ],
+    "notBestFor": [
+      "Premium Pricing: The upfront cost is higher than many competitors.",
+      "Quiet Evenings: Entertainment focuses on relaxation rather than nightlife.",
+      "Adult-Oriented Atmosphere: Families with young children may prefer another vacation style.",
+      "Limited Dining Venues: River ships naturally offer fewer restaurants than large ocean cruise ships."
+    ],
+    "bottomNote": "No cruise line is ideal for every traveler, but understanding these pros and cons will help you decide if Scenic fits your priorities."
+  },
+  "whoGetsBestValue": {
+    "title": "Who Gets the Best Value?",
+    "prosTitle": "Scenic Is an Excellent Choice For...",
+    "consTitle": "You Might Prefer Another Cruise Line If You...",
+    "bestFor": [
+      "Couples",
+      "Luxury travelers",
+      "Retirees",
+      "Anniversary celebrations",
+      "Food and wine lovers",
+      "First-time luxury river cruisers",
+      "Travelers celebrating milestone occasions",
+      "Guests who dislike unexpected onboard charges"
+    ],
+    "notBestFor": [
+      "Want the lowest possible cruise fare",
+      "Prefer large-ship entertainment",
+      "Need extensive family programming",
+      "Plan to spend very little time onboard",
+      "Prioritize budget over luxury"
+    ],
+    "bottomNote": "Scenic is an excellent choice for many travelers—but not everyone. Here's how to tell if it's the right fit for you."
+  },
+  "costComparison": {
+    "title": "Scenic vs. Other Luxury River Cruise Lines",
+    "headers": ["Cruise Line", "Best For"],
+    "rows": [
+      ["Scenic", "Truly all-inclusive luxury"],
+      ["Riverside", "Boutique luxury & spacious suites"],
+      ["Viking", "Destination-focused value"],
+      ["AmaWaterways", "Active travelers & wellness"],
+      ["Tauck", "Inclusive guided journeys"],
+      ["Uniworld", "Boutique elegance & décor"]
+    ]
+  },
+  "inlineCta2": {
+    "title": "Thinking About Booking Scenic?",
+    "description": "Take advantage of exclusive travel advisor promotions, complimentary cabin upgrades, and expert itinerary advice today.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  },
+  "scenicVsViking": {
+    "title": "Is Scenic Better Than Viking?",
+    "brandA": {
+      "name": "Choose Scenic if you want:",
+      "features": [
+        "Butler service across all suite categories",
+        "More premium all-inclusive amenities",
+        "Luxury-focused experience with elevated finishes",
+        "Personalized, attentive service",
+        "Premium beverages and spirits included"
+      ]
+    },
+    "brandB": {
+      "name": "Choose Viking if you want:",
+      "features": [
+        "Lower starting upfront prices",
+        "Simple Scandinavian design aesthetic",
+        "Strong destination-focused itineraries",
+        "Excellent value for budget-conscious cruisers"
+      ]
+    }
+  },
+  "travelAdvisor": {
+    "title": "Why Booking Through a Luxury Travel Advisor Adds Value",
+    "subtitle": "Professional guidance helps ensure you choose the itinerary that provides the best overall value while saving time and money.",
+    "items": [
+      {
+        "title": "Itinerary Comparison",
+        "description": "Compare Scenic itineraries to identify the best river, season, and route for your goals."
+      },
+      {
+        "title": "Suite Recommendation",
+        "description": "Recommend the right suite category for your budget and travel style."
+      },
+      {
+        "title": "Explain Promotions",
+        "description": "Explain promotions, limited-time offers, and value-added amenities."
+      },
+      {
+        "title": "Airfare & Hotels",
+        "description": "Coordinate premium airfare, boutique hotels, and private transfers before and after your cruise."
+      },
+      {
+        "title": "Cross-Line Comparison",
+        "description": "Compare Scenic with Riverside, Viking, AmaWaterways, and Uniworld."
+      },
+      {
+        "title": "Budget Matching",
+        "description": "Match the cruise to your travel style and budget so you never overpay."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "title": "Angela Hughes Luxury Authority",
+    "authorName": "Angela Hughes",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "bio": "CEO of Trips & Ships Luxury Travel, luxury travel expert with over 40 years of experience and personal travels across 121+ countries.",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "ctaText": "Plan Your Scenic Cruise With Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything travelers need to know before deciding whether Scenic is worth the money.",
+    "questions": [
+      {
+        "question": "Is Scenic River Cruises worth the money?",
+        "answer": "Yes. Scenic offers excellent value for travelers who want a luxury, all-inclusive experience with butler service, premium dining, excursions, and drinks included."
+      },
+      {
+        "question": "Why is Scenic more expensive than other river cruise lines?",
+        "answer": "Scenic includes many amenities—such as gratuities, premium beverages, butler service, airport transfers (on eligible itineraries), and guided excursions—that other cruise lines may charge extra for."
+      },
+      {
+        "question": "Is Scenic better than Viking River Cruises?",
+        "answer": "Scenic generally offers more luxury inclusions and personalized service, while Viking often appeals to travelers seeking a lower starting price and destination-focused itineraries."
+      },
+      {
+        "question": "Are drinks included on Scenic River Cruises?",
+        "answer": "Yes. Premium wines, beer, spirits, cocktails, soft drinks, coffee, tea, and bottled water are typically included."
+      },
+      {
+        "question": "Are shore excursions included?",
+        "answer": "Yes. Scenic Freechoice excursions and Scenic Enrich cultural experiences are included on most itineraries."
+      },
+      {
+        "question": "Is Scenic a good choice for first-time river cruisers?",
+        "answer": "Absolutely. Its all-inclusive approach makes planning easier and reduces unexpected costs during the trip."
+      },
+      {
+        "question": "Does Scenic include gratuities?",
+        "answer": "Yes. Onboard gratuities are generally included in the cruise fare."
+      },
+      {
+        "question": "What costs extra on a Scenic River Cruise?",
+        "answer": "Optional spa treatments, travel insurance, personal shopping, some premium experiences, and airfare (unless part of a package) may cost extra."
+      },
+      {
+        "question": "Is Scenic River Cruises good value compared with other luxury brands?",
+        "answer": "Many travelers believe so because Scenic combines luxury accommodations, personalized service, premium beverages, excursions, and gratuities into one comprehensive fare."
+      },
+      {
+        "question": "Should I book Scenic through a travel advisor?",
+        "answer": "Yes. A luxury travel advisor can compare itineraries, explain promotions, recommend the best suite, and coordinate flights, hotels, and transfers."
+      },
+      {
+        "question": "What is the biggest advantage of Scenic River Cruises?",
+        "answer": "Its truly all-inclusive luxury experience. The combination of butler service, gourmet dining, premium beverages, included excursions, and exceptional service provides a seamless vacation with fewer unexpected expenses."
+      },
+      {
+        "question": "Who should book a Scenic River Cruise?",
+        "answer": "Scenic is ideal for couples, retirees, luxury travelers, food and wine enthusiasts, and anyone seeking a premium river cruise experience."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Effortless Luxury, Worth the Investment",
+        "paragraphs": [
+          "For travelers seeking a premium, all-inclusive river cruise with exceptional service, luxury accommodations, gourmet dining, and immersive cultural experiences, yes—Scenic is worth the investment.",
+          "Rather than offering the lowest upfront price, Scenic focuses on delivering an effortless luxury experience where many of the expenses that typically add up during a vacation are already included.",
+          "If your goal is to enjoy Europe's rivers with personalized service, elegant surroundings, and minimal onboard surprises, Scenic remains one of the strongest choices in the luxury river cruise market.",
+          "Our luxury planning services include: Compare Scenic itineraries and pricing, Recommend the best suite for your budget, Explain promotions and limited-time offers, Arrange flights and hotels, Coordinate private transfers, Compare Scenic with other luxury lines, Identify available promotions, Help you avoid paying for features you don't need."
+        ]
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Start Planning Your Scenic River Cruise",
+    "description": "Ready to explore Europe in truly all-inclusive luxury? Speak with our luxury travel advisors to find the best rates, cabin categories, and available promotions for your dream Scenic itinerary.",
+    "buttonText": "Start Planning Your Scenic Cruise",
+    "buttonLink": "/contact",
+    "theme": "dark"
+  }
+}

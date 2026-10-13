@@ -21,15 +21,17 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-// import HeroImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-hero.jpg";
-// import SuiteImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-suite.jpg";
-// import ButlerImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-butler.jpg";
-// import DiningImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-dining.jpg";
-// import WineImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-wine.jpg";
-// import ExcursionImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-excursion.jpg";
-// import CTAImage from "../../assets/ScenicRiverCruisesIncludedGuide/scenic-included-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Asset Images
+import HeroImage from "../../assets/WhatIncludedScenicRiverCruise/what-is-included-on-a-scenic-river-cruise-hero.webp";
+import QuickAnswerImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-river-cruise-all-inclusive-amenities-quick-answer.webp";
+import MorningComfortImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-butler-service-morning-coffee-dining-assistance.webp";
+import WardrobeCareImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-butler-service-wardrobe-care-daily-concierge.webp";
+import BreakfastImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-river-cruise-included-gourmet-breakfast.webp";
+import LunchImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-river-cruise-included-regional-gourmet-lunch.webp";
+import DinnerImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-river-cruise-included-multi-course-dinner.webp";
+import PremiumBeveragesImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-river-cruises-included-premium-beverages-wine.webp";
+import InlineCtaImage from "../../assets/WhatIncludedScenicRiverCruise/scenic-all-inclusive-packages-inclusions-consultation-cta.webp";
+import FinalCtaImage from "../../assets/WhatIncludedScenicRiverCruise/start-planning-your-scenic-river-cruise-voyage.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -257,6 +259,7 @@ const WhatsIncludedScenicRiverCruise = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
+        backgroundImage={HeroImage}
       />
 
       {/* ── 2. QUICK ANSWER ─────────────────────────────────────────── */}
@@ -268,6 +271,7 @@ const WhatsIncludedScenicRiverCruise = () => {
         badgeTitle={data.quickAnswer.badgeTitle}
         badgeDescription={data.quickAnswer.badgeDescription}
         placeholderLabel={data.quickAnswer.placeholderLabel}
+        image={QuickAnswerImage}
       />
 
       {/* ── 3. WHAT'S INCLUDED AT A GLANCE ──────────────────────────── */}
@@ -289,13 +293,19 @@ const WhatsIncludedScenicRiverCruise = () => {
       />
 
       {/* ── 5. BUTLER SERVICE ───────────────────────────────────────── */}
-      <ButlerServiceDetails data={data.butlerService} />
+      <ButlerServiceDetails
+        data={data.butlerService}
+        images={[MorningComfortImage, WardrobeCareImage]}
+      />
 
       {/* ── 6. GOURMET DINING ───────────────────────────────────────── */}
       <ThreeColumnGrid
         title={data.dining.title}
         subtitle={data.dining.subtitle}
-        items={data.dining.items}
+        items={data.dining.items.map((item, idx) => ({
+          ...item,
+          image: [BreakfastImage, LunchImage, DinnerImage][idx]
+        }))}
       />
 
       {/* ── 7. PREMIUM BEVERAGES ────────────────────────────────────── */}
@@ -303,6 +313,7 @@ const WhatsIncludedScenicRiverCruise = () => {
         title={data.beverages.title}
         expertNote={data.beverages.expertNote}
         inclusions={data.beverages.inclusions}
+        image={PremiumBeveragesImage}
       />
 
       {/* ── 8. INLINE CTA 1 ─────────────────────────────────────────── */}
@@ -311,7 +322,8 @@ const WhatsIncludedScenicRiverCruise = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
-        theme={data.inlineCta1.theme}
+        image={InlineCtaImage}
+        theme="dark"
       />
 
       {/* ── 9. SCENIC FREECHOICE & SCENIC ENRICH ─────────────────────── */}
@@ -368,7 +380,8 @@ const WhatsIncludedScenicRiverCruise = () => {
         description={data.finalCta.description}
         buttonText={data.finalCta.buttonText}
         buttonLink={data.finalCta.buttonLink}
-        theme={data.finalCta.theme}
+        image={FinalCtaImage}
+        theme="dark"
       />
     </div>
   );

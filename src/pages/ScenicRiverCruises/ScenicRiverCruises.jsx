@@ -10,7 +10,7 @@ import BentoQuickFacts from "../../components/ui/BentoQuickFacts";
 import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import AsymmetricStoryIntro from "../../components/ui/AsymmetricStoryIntro";
 import CinematicDestinations from "../../components/ui/CinematicDestinations";
-import BalconyTypesShowcase from "../../components/ui/BalconyTypesShowcase";
+import SignatureFeatures from "../../components/ui/SignatureFeatures";
 import TravelerPersonaCards from "../../components/ui/TravelerPersonaCards";
 import LuxuryFeatureShowcase from "../../components/ui/LuxuryFeatureShowcase";
 import ValueShowcase from "../../components/ui/ValueShowcase";
@@ -24,23 +24,25 @@ import FAQAccordion from "../../components/ui/FAQAccordion";
 import ConclusionSection from "../../components/ui/ConclusionSection"; 
 import CenterCTA from "../../components/ui/CenterCTA";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-   // import HeroImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-hero.jpg";
-   // import ShipsImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-ship.jpg";
-   // import SuiteImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-suite.jpg";
-   // import DiningImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-dining.jpg";
-   // import DiningPlateImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-plate.jpg";
-   // import WineImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-wine.jpg";
-   // import DanubeImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-danube.jpg";
-   // import RhineImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-rhine.jpg";
-   // import RhoneImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-rhone.jpg";
-   // import SeineImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-seine.jpg";
-   // import DouroImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-douro.jpg";
-   // import MekongImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-mekong.jpg";
-   // import LoungeImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-lounge.jpg";
-   // import WorthItImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-evening.jpg";
-   // import CTAImage from "../../assets/ScenicRiverCruisesGuide/scenic-guide-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Image Assets
+import ScenicRiverCruisesHero from "../../assets/ScenicRiverCruises/scenic-river-cruises-ultra-luxury-europe-hero.webp";
+import WhyChooseScenicImage from "../../assets/ScenicRiverCruises/why-choose-scenic-all-inclusive-luxury-river-cruises.webp";
+import WhatMakesScenicDifferent1Image from "../../assets/ScenicRiverCruises/scenic-space-ship-river-cruise-experience.webp";
+import WhatMakesScenicDifferent2Image from "../../assets/ScenicRiverCruises/scenic-luxury-river-cruise-onboard-lounge.webp";
+import DanubeImage from "../../assets/ScenicRiverCruises/scenic-danube-river-cruise-budapest-vienna.webp";
+import RhineImage from "../../assets/ScenicRiverCruises/scenic-rhine-river-cruise-castles-vineyards.webp";
+import RhoneImage from "../../assets/ScenicRiverCruises/scenic-rhone-river-cruise-provence-france.webp";
+import SeineImage from "../../assets/ScenicRiverCruises/scenic-seine-river-cruise-paris-normandy.webp";
+import DouroImage from "../../assets/ScenicRiverCruises/scenic-douro-river-cruise-portugal-valley.webp";
+import MekongImage from "../../assets/ScenicRiverCruises/scenic-mekong-river-cruise-vietnam-cambodia.webp";
+import SuitesAccommodations1Image from "../../assets/ScenicRiverCruises/scenic-sun-lounge-balcony-suite-accommodations.webp";
+import SuitesAccommodations2Image from "../../assets/ScenicRiverCruises/scenic-space-ship-butler-service-luxury-suite.webp";
+import DiningExperienceImage from "../../assets/ScenicRiverCruises/scenic-gourmet-fine-dining-culinary-experience.webp";
+import StayActiveAndRechargeImage from "../../assets/ScenicRiverCruises/scenic-river-cruises-wellness-fitness-spa.webp";
+import ElegantEveningExperiencesImage from "../../assets/ScenicRiverCruises/scenic-river-cruises-elegant-evening-entertainment.webp";
+import ScenicRiverShipsImage from "../../assets/ScenicRiverCruises/scenic-space-ships-luxury-fleet-overview.webp";
+import ComprehensiveExperienceImage from "../../assets/ScenicRiverCruises/scenic-ultra-luxury-river-cruising-expert-booking-cta.webp";
+
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -187,6 +189,7 @@ const ScenicRiverCruisesGuide = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={ScenicRiverCruisesHero}
       />
 
       {/* ── 2. QUICK OVERVIEW ── */}
@@ -207,10 +210,7 @@ const ScenicRiverCruisesGuide = () => {
           badgeTitle={data.whyChoose.badgeTitle}
           badgeDescription={data.whyChoose.badgeDescription}
           placeholderLabel={data.whyChoose.placeholderLabel}
-          image={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-ship.jpg"
-            undefined
-          }
+          image={WhyChooseScenicImage}
         />
       </div>
 
@@ -226,14 +226,8 @@ const ScenicRiverCruisesGuide = () => {
           image2Placeholder={data.whatMakesDifferent.image2Placeholder}
           ctaText={data.whatMakesDifferent.ctaText}
           ctaLink={data.whatMakesDifferent.ctaLink}
-          image1={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-hero.jpg"
-            undefined
-          }
-          image2={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-lounge.jpg"
-            undefined
-          }
+          image1={WhatMakesScenicDifferent1Image}
+          image2={WhatMakesScenicDifferent2Image}
         />
       </div>
 
@@ -245,12 +239,12 @@ const ScenicRiverCruisesGuide = () => {
           items={data.destinations.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-danube.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-rhine.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-rhone.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-seine.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-douro.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-mekong.jpg"
+              DanubeImage,
+              RhineImage,
+              RhoneImage,
+              SeineImage,
+              DouroImage,
+              MekongImage
             ][idx]
           }))}
         />
@@ -258,28 +252,32 @@ const ScenicRiverCruisesGuide = () => {
 
       {/* ── 6. SUITES & ACCOMMODATIONS ── */}
       <div id="suites-and-accommodations">
-        <BalconyTypesShowcase
+        <SignatureFeatures
           data={{
             title: data.suites.heading,
-            intro: data.suites.paragraphs[0],
-            types: [
+            subtitle: data.suites.eyebrow,
+            features: [
               {
-                name: "Scenic Sun Lounge Balcony Suite",
-                tagline: data.suites.badgeTitle,
-                rating: 5,
+                id: "sun-lounge",
+                icon: "Sun",
+                title: "Scenic Sun Lounge Balcony Suite",
                 description: data.suites.paragraphs[0],
-                features: data.suites.highlights,
-                bestFor: data.suites.badgeDescription
+                bullets: data.suites.highlights.slice(0, 4),
+                image: "sunLounge"
               },
               {
-                name: "Space-Ship Butler Service & Stateroom Comforts",
-                tagline: "Dedicated Luxury Attention & In-Suite Conveniences",
-                rating: 5,
-                description: data.suites.paragraphs[0],
-                features: data.suites.highlights,
-                bestFor: `${data.suites.badgeTitle} — ${data.suites.badgeDescription}`
+                id: "butler-service",
+                icon: "Layers",
+                title: "Space-Ship Butler Service & Stateroom Comforts",
+                description: `${data.suites.badgeTitle} — ${data.suites.badgeDescription}`,
+                bullets: data.suites.highlights.slice(4),
+                image: "butlerService"
               }
             ]
+          }}
+          images={{
+            sunLounge: SuitesAccommodations1Image,
+            butlerService: SuitesAccommodations2Image
           }}
         />
       </div>
@@ -311,9 +309,7 @@ const ScenicRiverCruisesGuide = () => {
               title: "Gourmet Destination-Inspired Menus",
               description: data.dining.intro,
               features: data.dining.highlights,
-              image:
-                // "src/assets/ScenicRiverCruisesGuide/scenic-guide-dining.jpg"
-                undefined
+              image: DiningExperienceImage
             }
           ]}
         />
@@ -327,8 +323,8 @@ const ScenicRiverCruisesGuide = () => {
           items={data.wellnessAndEntertainment.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-plate.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-wine.jpg"
+              StayActiveAndRechargeImage,
+              ElegantEveningExperiencesImage
             ][idx]
           }))}
         />
@@ -339,19 +335,7 @@ const ScenicRiverCruisesGuide = () => {
         <TravelerTypeGrid
           title={data.whoShouldSail.title}
           subtitle={data.whoShouldSail.lead}
-          items={data.whoShouldSail.cards.map((card, idx) => ({
-            ...card,
-            image: [
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-suite.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-danube.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-rhine.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-wine.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-ship.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-rhone.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-evening.jpg",
-              // "src/assets/ScenicRiverCruisesGuide/scenic-guide-seine.jpg"
-            ][idx]
-          }))}
+          items={data.whoShouldSail.cards}
         />
       </div>
 
@@ -361,10 +345,7 @@ const ScenicRiverCruisesGuide = () => {
           title={data.riverShips.title}
           subtitle={data.riverShips.intro}
           features={data.riverShips.features}
-          image={
-            // "src/assets/ScenicRiverCruisesGuide/scenic-guide-ship-exterior.jpg"
-            undefined
-          }
+          image={ScenicRiverShipsImage}
         />
       </div>
 
@@ -482,6 +463,7 @@ const ScenicRiverCruisesGuide = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
+          image={ComprehensiveExperienceImage}
           theme="dark"
         />
       </div>
