@@ -1077,7 +1077,7 @@ const Nav = () => {
                 How Much Does Scenic River Cruise Cost
               </NavLink>
 
-              {/* <NavLink
+              <NavLink
                 to="/scenic-river-cruises/is-scenic-worth-it"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -1091,7 +1091,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 Scenic River Cruise Ships and Suites Guide
-              </NavLink> */}
+              </NavLink>
 
               <NavLink
                 to="/scenic-river-cruises/cabin-categories"
@@ -1109,7 +1109,7 @@ const Nav = () => {
                 Scenic River Cruises Best Cabins
               </NavLink>
 
-              <NavLink
+              {/* <NavLink
                 to="/scenic-river-cruises/best-itineraries"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -1131,7 +1131,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 Scenic River Cruises Food & Dining Review
-              </NavLink>
+              </NavLink> */}
 
               <NavLink
                 to="/scenic-river-cruises/dress-code-packing"
@@ -2804,7 +2804,7 @@ const Nav = () => {
               How Much Does Scenic River Cruise Cost
             </NavLink>
 
-            {/* <NavLink
+            <NavLink
               to="/scenic-river-cruises/is-scenic-worth-it"
               className="nav-dropdown-single"
               onClick={toggleMenu}
@@ -2818,7 +2818,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Scenic River Cruise Ships and Suites Guide
-            </NavLink> */}
+            </NavLink>
 
 
             <NavLink
@@ -2838,7 +2838,7 @@ const Nav = () => {
             </NavLink>
 
 
-            <NavLink
+            {/* <NavLink
               to="/scenic-river-cruises/best-itineraries"
               className="nav-dropdown-single"
               onClick={toggleMenu}
@@ -2861,7 +2861,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Scenic River Cruises Food & Dining Review
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/scenic-river-cruises/dress-code-packing"

@@ -19,7 +19,7 @@ import ContainedShowdown from "../../components/ui/ContainedShowdown";
 import AuthorityGrid from "../../components/ui/AuthorityGrid";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
-import ConclusionSection from "../../components/ui/ConclusionSection";
+import CurvilinearGrid from "../../components/ui/CurvilinearGrid";
 
 // Asset Images
 import HeroImage from "../../assets/IsSceniRiverCruiseWorthMoney/is-a-scenic-river-cruise-worth-the-money-hero.webp";
@@ -247,6 +247,7 @@ const IsScenicRiverCruiseWorthTheMoney = () => {
           name="description"
           content="Is Scenic River Cruises worth the premium price? Discover the pros, cons, value, what's included, hidden costs, and who should (or shouldn't) book a Scenic River Cruise."
         />
+        <link rel="canonical" href="https://www.tripsandships.com/scenic-river-cruises/is-scenic-worth-it" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -401,7 +402,12 @@ const IsScenicRiverCruiseWorthTheMoney = () => {
       <FAQAccordion data={data.faqs} />
 
       {/* ── 17. FINAL VERDICT ───────────────────────────────────────── */}
-      <ConclusionSection sections={data.verdict.sections} />
+      <CurvilinearGrid
+        title={data.verdict.title}
+        subtitle={data.verdict.subtitle}
+        paragraphs={data.verdict.paragraphs}
+        items={data.verdict.items}
+      />
 
       {/* ── 18. FINAL PLANNING CTA ──────────────────────────────────── */}
       <CenterCTA

@@ -19,7 +19,7 @@ import CurvilinearGrid from "../../components/ui/CurvilinearGrid";
 import AuthorityGrid from "../../components/ui/AuthorityGrid";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
-import ConclusionSection from "../../components/ui/ConclusionSection";
+import ExpertPlanning from "../../components/ui/ExpertPlanning";
 
 // Asset Images
 import HeroImage from "../../assets/WhatIncludedScenicRiverCruise/what-is-included-on-a-scenic-river-cruise-hero.webp";
@@ -246,6 +246,7 @@ const WhatsIncludedScenicRiverCruise = () => {
           name="description"
           content="Discover what's included on a Scenic River Cruise, from butler service and gourmet dining to premium drinks, excursions, airport transfers, gratuities, and luxury amenities."
         />
+        <link rel="canonical" href="https://www.tripsandships.com/scenic-river-cruises/what-is-included" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -372,7 +373,11 @@ const WhatsIncludedScenicRiverCruise = () => {
       <FAQAccordion data={data.faqs} />
 
       {/* ── 16. FINAL VERDICT ───────────────────────────────────────── */}
-      <ConclusionSection sections={data.verdict.sections} />
+      <ExpertPlanning
+        title={data.verdict.title}
+        subtitle={data.verdict.subtitle}
+        sections={data.verdict.sections}
+      />
 
       {/* ── 17. FINAL PLANNING CTA ──────────────────────────────────── */}
       <CenterCTA

@@ -20,7 +20,7 @@ import ProsConsCards from "../../components/ui/ProsConsCards";
 import AuthorityGrid from "../../components/ui/AuthorityGrid";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
-import ConclusionSection from "../../components/ui/ConclusionSection";
+import ExpertPlanning from "../../components/ui/ExpertPlanning";
 
 // Asset Images
 import HeroImage from "../../assets/HowMuchDoesScenicRiverCruiseCost/how-much-does-a-scenic-river-cruise-cost-pricing-hero.webp";
@@ -243,6 +243,7 @@ const ScenicRiverCruiseCost = () => {
           name="description"
           content="Wondering how much a Scenic River Cruise costs? Discover average prices by itinerary, suite type, season, and destination, plus what's included and how to save on your luxury river cruise."
         />
+        <link rel="canonical" href="https://www.tripsandships.com/scenic-river-cruises/cost" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -384,7 +385,11 @@ const ScenicRiverCruiseCost = () => {
       <FAQAccordion data={data.faqs} />
 
       {/* ── 18. FINAL VERDICT ───────────────────────────────────────── */}
-      <ConclusionSection sections={data.verdict.sections} />
+      <ExpertPlanning
+        title={data.verdict.title}
+        subtitle={data.verdict.subtitle}
+        sections={data.verdict.sections}
+      />
 
       {/* ── 19. FINAL PLANNING CTA ──────────────────────────────────── */}
       <CenterCTA

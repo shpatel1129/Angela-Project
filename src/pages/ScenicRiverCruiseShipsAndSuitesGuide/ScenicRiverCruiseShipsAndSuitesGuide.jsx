@@ -20,18 +20,21 @@ import AuthorityGrid from "../../components/ui/AuthorityGrid";
 import EditorialFeatureShowcase from "../../components/ui/EditorialFeatureShowcase";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
-import ConclusionSection from "../../components/ui/ConclusionSection";
+import CurvilinearGrid from "../../components/ui/CurvilinearGrid";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-// import HeroImage from "../../assets/ScenicShipsSuites/scenic-ships-hero.jpg";
-// import SuiteImage from "../../assets/ScenicShipsSuites/scenic-ships-suite.jpg";
-// import SunLoungeImage from "../../assets/ScenicShipsSuites/scenic-ships-sun-lounge.jpg";
-// import ShipExteriorImage from "../../assets/ScenicShipsSuites/scenic-ships-exterior.jpg";
-// import StandardSuiteImage from "../../assets/ScenicShipsSuites/standard-suite.jpg";
-// import BalconySuiteImage from "../../assets/ScenicShipsSuites/balcony-suite.jpg";
-// import JuniorSuiteImage from "../../assets/ScenicShipsSuites/junior-suite.jpg";
-// import RoyalSuiteImage from "../../assets/ScenicShipsSuites/royal-suite.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Asset Images
+import HeroImage from "../../assets/ScenicRiverCruiseShipsSuites/start-planning-scenic-space-ship-cruise-voyage-cta.webp";
+import QuickAnswerImage from "../../assets/ScenicRiverCruiseShipsSuites/scenic-river-cruise-ships-and-suites-quick-answer.webp";
+import WhichShipIsBestImage from "../../assets/ScenicRiverCruiseShipsSuites/which-scenic-space-ship-is-best-fleet-comparison.webp";
+import SunLoungeImage from "../../assets/ScenicRiverCruiseShipsSuites/what-is-the-scenic-sun-lounge-balcony-feature.webp";
+import StandardSuiteImage from "../../assets/ScenicRiverCruiseShipsSuites/scenic-river-cruise-standard-suite-accommodations.webp";
+import BalconySuiteImage from "../../assets/ScenicRiverCruiseShipsSuites/scenic-river-cruise-balcony-suite-sun-lounge.webp";
+import JuniorSuiteImage from "../../assets/ScenicRiverCruiseShipsSuites/scenic-river-cruise-junior-suite-luxury-space.webp";
+import RoyalSuiteImage from "../../assets/ScenicRiverCruiseShipsSuites/scenic-river-cruise-royal-suite-luxury-amenities.webp";
+import ReadyToChooseImage from "../../assets/ScenicRiverCruiseShipsSuites/ready-to-choose-scenic-ship-suite-advisor-cta.webp";
+import BestForFirstTimersImage from "../../assets/ScenicRiverCruiseShipsSuites/which-scenic-ship-is-best-for-first-time-cruisers.webp";
+import FinalCtaImage from "../../assets/ScenicRiverCruiseShipsSuites/scenic-river-cruise-ships-suites-complete-guide-hero.webp";
+import ItineraryFitsImage from "../../assets/ScenicRiverCruiseShipsSuites/which-scenic-river-cruise-itinerary-fits-you-best-cta.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -236,13 +239,14 @@ const schemaData = {
 const ScenicRiverCruiseShipsSuites = () => {
   return (
     <div className="bg-white">
-      <Helmet>
+      <Helmet> 
         <title>Scenic River Cruise Ships & Suites Guide | Compare Every Ship & Suite</title>
         <meta name="title" content="Scenic River Cruise Ships & Suites | Complete Luxury Guide" />
         <meta
           name="description"
           content="Explore every Scenic River Cruise ship and suite category. Compare Scenic's Space-Ships, Royal Suites, balcony suites, amenities, deck plans, and find the best cabin for your luxury river cruise."
         />
+        <link rel="canonical" href="https://www.tripsandships.com/scenic-river-cruises/ships-suites" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -256,6 +260,7 @@ const ScenicRiverCruiseShipsSuites = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
+        backgroundImage={HeroImage}
       />
 
       {/* ── 2. 60-SECOND QUICK ANSWER ───────────────────────────────── */}
@@ -266,6 +271,7 @@ const ScenicRiverCruiseShipsSuites = () => {
         highlights={data.quickAnswer.highlights}
         ctaText={data.quickAnswer.ctaText}
         ctaLink={data.quickAnswer.ctaLink}
+        image1={QuickAnswerImage}
       />
 
       {/* ── 3. SCENIC FLEET AT A GLANCE ─────────────────────────────── */}
@@ -284,6 +290,7 @@ const ScenicRiverCruiseShipsSuites = () => {
         badgeTitle={data.whichShipIsBest.badgeTitle}
         badgeDescription={data.whichShipIsBest.badgeDescription}
         placeholderLabel="SCENIC SPACE-SHIP FLEET"
+        image={WhichShipIsBestImage}
       />
 
       {/* ── 5. SCENIC SHIPS BY DESTINATION ──────────────────────────── */}
@@ -299,7 +306,8 @@ const ScenicRiverCruiseShipsSuites = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
-        theme={data.inlineCta1.theme}
+        image={ItineraryFitsImage}
+        theme="dark"
       />
 
       {/* ── 7. SCENIC SUITE CATEGORIES EXPLAINED ────────────────────── */}
@@ -319,6 +327,7 @@ const ScenicRiverCruiseShipsSuites = () => {
         badgeTitle={data.sunLounge.badgeTitle}
         badgeDescription={data.sunLounge.badgeDescription}
         placeholderLabel="SCENIC SUN LOUNGE"
+        image={SunLoungeImage}
       />
 
       {/* ── 9. WHICH SUITE OFFERS THE BEST VALUE? ───────────────────── */}
@@ -335,7 +344,7 @@ const ScenicRiverCruiseShipsSuites = () => {
         subtitle={data.whichSuiteToChoose.subtitle}
         items={data.whichSuiteToChoose.items.map((item, idx) => ({
           ...item,
-          // image: [StandardSuiteImage, BalconySuiteImage, JuniorSuiteImage, RoyalSuiteImage][idx],
+          image: [StandardSuiteImage, BalconySuiteImage, JuniorSuiteImage, RoyalSuiteImage][idx],
         }))}
       />
 
@@ -345,7 +354,8 @@ const ScenicRiverCruiseShipsSuites = () => {
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
-        theme={data.inlineCta2.theme}
+        image={ReadyToChooseImage}
+        theme="dark"
       />
 
       {/* ── 12. SCENIC SHIPS VS OTHER LUXURY LINES ──────────────────── */}
@@ -366,7 +376,7 @@ const ScenicRiverCruiseShipsSuites = () => {
         title={data.bestForFirstTimers.title}
         subtitle={data.bestForFirstTimers.subtitle}
         features={data.bestForFirstTimers.features}
-        // image={ShipExteriorImage}
+        image={BestForFirstTimersImage}
         bgClass="bg-white"
       />
 
@@ -394,7 +404,12 @@ const ScenicRiverCruiseShipsSuites = () => {
       <FAQAccordion data={data.faqs} />
 
       {/* ── 18. FINAL VERDICT ───────────────────────────────────────── */}
-      <ConclusionSection sections={data.verdict.sections} />
+      <CurvilinearGrid
+        title={data.verdict.title}
+        subtitle={data.verdict.subtitle}
+        paragraphs={data.verdict.paragraphs}
+        items={data.verdict.items}
+      />
 
       {/* ── 19. FINAL PLANNING CTA ──────────────────────────────────── */}
       <CenterCTA
@@ -402,7 +417,8 @@ const ScenicRiverCruiseShipsSuites = () => {
         description={data.finalCta.description}
         buttonText={data.finalCta.buttonText}
         buttonLink={data.finalCta.buttonLink}
-        theme={data.finalCta.theme}
+        image={FinalCtaImage}
+        theme="dark"
       />
     </div>
   );

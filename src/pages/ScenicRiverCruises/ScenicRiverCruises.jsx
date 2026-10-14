@@ -21,8 +21,9 @@ import CurvilinearGrid from "../../components/ui/CurvilinearGrid";
 import AuthorityGrid from "../../components/ui/AuthorityGrid";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
-import ConclusionSection from "../../components/ui/ConclusionSection"; 
+import ExpertPlanning from "../../components/ui/ExpertPlanning";
 import CenterCTA from "../../components/ui/CenterCTA";
+import InteractivePillarHubGrid from "../../components/ui/InteractivePillarHubGrid";
 
 // Image Assets
 import ScenicRiverCruisesHero from "../../assets/ScenicRiverCruises/scenic-river-cruises-ultra-luxury-europe-hero.webp";
@@ -168,6 +169,109 @@ const schemaData = {
 };
 
 const ScenicRiverCruisesGuide = () => {
+  // Scenic Curated Guides Hub 1: Ships, Suites, Dining & Destinations
+  const scenicFleetAndDestinationsGuides = [
+    {
+      title: "Scenic Space-Ships & Suite Profiles",
+      category: "Fleet & Suites",
+      description: "Explore the custom-designed European Space-Ships, innovative Sun Lounge balconies, suite categories, and personalized butler services.",
+      image: ScenicRiverShipsImage,
+      alt: "Scenic Space-Ships fleet and luxury suite accommodation guide",
+      badgeCount: 5,
+      links: [
+        { label: "Ships & Suites Overview", url: "/scenic-river-cruises/ships-suites" },
+        { label: "Space-Ships & Sun Lounges", url: "/scenic-river-cruises/space-ships-sun-lounges" },
+        { label: "Cabin Categories Explained", url: "/scenic-river-cruises/cabin-categories" },
+        { label: "Best Cabins & Suites to Book", url: "/scenic-river-cruises/best-cabins" },
+        { label: "Space-Ship Butler Service", url: "/scenic-river-cruises/butler-service" }
+      ],
+      mainUrl: "/scenic-river-cruises/ships-suites"
+    },
+    {
+      title: "Dining, Inclusions & Onboard Life",
+      category: "Onboard Luxury",
+      description: "Discover gourmet dining venues, what is truly included, Freechoice excursions, private Enrich galas, and dress code guidance.",
+      image: DiningExperienceImage,
+      alt: "Scenic River Cruises fine dining, excursions, and all-inclusive onboard lifestyle",
+      badgeCount: 4,
+      links: [
+        { label: "Gourmet Food & Dining Review", url: "/scenic-river-cruises/food-dining" },
+        { label: "Freechoice & Enrich Excursions", url: "/scenic-river-cruises/freechoice-enrich" },
+        { label: "What Is Truly Included?", url: "/scenic-river-cruises/what-is-included" },
+        { label: "Dress Code & Packing Guide", url: "/scenic-river-cruises/dress-code-packing" }
+      ],
+      mainUrl: "/scenic-river-cruises/what-is-included"
+    },
+    {
+      title: "European & Southeast Asia Rivers",
+      category: "Destinations & Rivers",
+      description: "Comprehensive guides to sailing the Danube, Rhine, Seine, Rhône, Bordeaux, Douro Valley, and the exotic Mekong River.",
+      image: DanubeImage,
+      alt: "Scenic luxury river cruise destinations across Europe and Southeast Asia",
+      badgeCount: 7,
+      links: [
+        { label: "Danube River Cruises", url: "/scenic-river-cruises/danube" },
+        { label: "Rhine River Cruises", url: "/scenic-river-cruises/rhine" },
+        { label: "Seine River Cruises (Paris & Normandy)", url: "/scenic-river-cruises/seine" },
+        { label: "Rhône & Saône River Cruises", url: "/scenic-river-cruises/rhone-saone" },
+        { label: "Bordeaux River Cruises", url: "/scenic-river-cruises/bordeaux" },
+        { label: "Douro River Cruises (Portugal)", url: "/scenic-river-cruises/douro" },
+        { label: "Mekong River Cruises (Vietnam & Cambodia)", url: "/scenic-river-cruises/mekong" }
+      ],
+      mainUrl: "/scenic-river-cruises/danube"
+    }
+  ];
+
+  // Scenic Curated Guides Hub 2: Comparisons, Traveler Profiles & Planning
+  const scenicPlanningAndComparisonsGuides = [
+    {
+      title: "Luxury River Cruise Comparisons",
+      category: "Line Comparisons",
+      description: "Detailed, head-to-head comparisons evaluating Scenic against Avalon Waterways, Riverside Luxury Cruises, Tauck, and Celebrity.",
+      image: WhyChooseScenicImage,
+      alt: "Scenic River Cruises compared with Tauck Avalon Riverside and Celebrity",
+      badgeCount: 4,
+      links: [
+        { label: "Scenic vs. Avalon Waterways", url: "/scenic-river-cruises/scenic-vs-avalon" },
+        { label: "Scenic vs. Riverside Luxury Cruises", url: "/scenic-river-cruises/scenic-vs-riverside" },
+        { label: "Scenic vs. Tauck River Cruises", url: "/scenic-river-cruises/scenic-vs-tauck" },
+        { label: "Scenic vs. Celebrity Cruises", url: "/scenic-river-cruises/scenic-vs-celebrity" }
+      ],
+      mainUrl: "/scenic-river-cruises/scenic-vs-tauck"
+    },
+    {
+      title: "Traveler Profiles & Seasonal Voyages",
+      category: "Traveler Insights",
+      description: "Tailored advice for first-time river cruisers, solo travelers, multigenerational families, and magical Christmas Market sailings.",
+      image: WhatMakesScenicDifferent1Image,
+      alt: "Scenic river cruise traveler guides for solo travelers families and first-timers",
+      badgeCount: 4,
+      links: [
+        { label: "First-Timer's Complete Guide", url: "/scenic-river-cruises/first-time-guide" },
+        { label: "Scenic for Solo Travelers", url: "/scenic-river-cruises/solo-travel" },
+        { label: "Family & Multigenerational Cruising", url: "/scenic-river-cruises/family-multigenerational" },
+        { label: "Christmas Markets River Cruises", url: "/scenic-river-cruises/christmas-markets" }
+      ],
+      mainUrl: "/scenic-river-cruises/first-time-guide"
+    },
+    {
+      title: "Costs, Reviews & Expert Vacation Planning",
+      category: "Planning & Pricing",
+      description: "Honest cruise reviews, true all-inclusive pricing breakdowns, itinerary recommendations, airfare transfers, and luxury booking tips.",
+      image: SuitesAccommodations2Image,
+      alt: "Scenic cruise cost reviews best itineraries and vacation planning",
+      badgeCount: 5,
+      links: [
+        { label: "Scenic River Cruises Review", url: "/scenic-river-cruises/review" },
+        { label: "How Much Does Scenic Cost?", url: "/scenic-river-cruises/cost" },
+        { label: "Is a Scenic River Cruise Worth It?", url: "/scenic-river-cruises/is-scenic-worth-it" },
+        { label: "Best Scenic River Itineraries", url: "/scenic-river-cruises/best-itineraries" },
+        { label: "Airfare & Seamless Transfers Guide", url: "/scenic-river-cruises/airfare-transfers" }
+      ],
+      mainUrl: "/scenic-river-cruises/review"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-navy-950">
       <Helmet>
@@ -279,6 +383,16 @@ const ScenicRiverCruisesGuide = () => {
             sunLounge: SuitesAccommodations1Image,
             butlerService: SuitesAccommodations2Image
           }}
+        />
+      </div>
+
+      {/* ── CURATED FLEET, SUITES & DESTINATIONS GUIDES (InteractivePillarHubGrid Component) ── */}
+      <div id="scenic-fleet-destinations-hub" className="[&_.grid]:!flex [&_.grid]:flex-wrap [&_.grid]:justify-center [&_.grid>div]:w-full md:[&_.grid>div]:w-[calc(50%-1rem)] lg:[&_.grid>div]:w-[calc(33.333%-1.333rem)]">
+        <InteractivePillarHubGrid
+          title="Explore Scenic Space-Ships, Suites & Destinations"
+          subtitle="Hover over any card below to slide open the guide drawer, access dedicated ship reviews, suite layouts, and worldwide river itineraries."
+          items={scenicFleetAndDestinationsGuides}
+          variant="destination"
         />
       </div>
 
@@ -416,6 +530,16 @@ const ScenicRiverCruisesGuide = () => {
         />
       </div>
 
+      {/* ── CURATED SCENIC GUIDES & INTERLINKING HUB (InteractivePillarHubGrid Component) ── */}
+      <div id="scenic-planning-comparisons-hub" className="[&_.grid]:!flex [&_.grid]:flex-wrap [&_.grid]:justify-center [&_.grid>div]:w-full md:[&_.grid>div]:w-[calc(50%-1rem)] lg:[&_.grid>div]:w-[calc(33.333%-1.333rem)]">
+        <InteractivePillarHubGrid
+          title="Explore Our Curated Scenic Guides & Planning Resources"
+          subtitle="Hover over any card below to slide open the guide drawer, access dedicated ship reviews, compare luxury lines, and plan your voyage."
+          items={scenicPlanningAndComparisonsGuides}
+          variant="destination"
+        />
+      </div>
+
       {/* ── 15. ANGELA HUGHES AUTHORITY BOX ── */}
       <div id="Asc-expert-insight">
         <ExpertCredentials
@@ -447,16 +571,10 @@ const ScenicRiverCruisesGuide = () => {
 
       {/* ── 17. FINAL VERDICT & CTA ── */}
       <div id="final-verdict">
-        <ConclusionSection
-          sections={[
-            {
-              heading: data.finalVerdict.title,
-              paragraphs: [
-                ...data.finalVerdict.paragraphs,
-                `Our luxury planning services include: ${data.finalVerdict.planningServices.join(", ")}.`
-              ]
-            }
-          ]}
+        <ExpertPlanning
+          title={data.finalVerdict.title}
+          subtitle={data.finalVerdict.subtitle}
+          sections={data.finalVerdict.sections}
         />
         <CenterCTA
           title={data.finalVerdict.title}

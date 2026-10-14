@@ -378,14 +378,42 @@
     ]
   },
   "verdict": {
-    "sections": [
+    "title": "Effortless Luxury, Worth the Investment",
+    "subtitle": "OUR VERDICT & VALUE TAKEAWAY",
+    "paragraphs": [
+      "For travelers seeking a premium, all-inclusive river cruise with exceptional service, luxury accommodations, gourmet dining, and immersive cultural experiences, yes—Scenic is worth the investment.",
+      "Rather than offering the lowest upfront price, Scenic focuses on delivering an effortless luxury experience where many of the expenses that typically add up during a vacation are already included.",
+      "If your goal is to enjoy Europe's rivers with personalized service, elegant surroundings, and minimal onboard surprises, Scenic remains one of the strongest choices in the luxury river cruise market."
+    ],
+    "items": [
       {
-        "heading": "Effortless Luxury, Worth the Investment",
-        "paragraphs": [
-          "For travelers seeking a premium, all-inclusive river cruise with exceptional service, luxury accommodations, gourmet dining, and immersive cultural experiences, yes—Scenic is worth the investment.",
-          "Rather than offering the lowest upfront price, Scenic focuses on delivering an effortless luxury experience where many of the expenses that typically add up during a vacation are already included.",
-          "If your goal is to enjoy Europe's rivers with personalized service, elegant surroundings, and minimal onboard surprises, Scenic remains one of the strongest choices in the luxury river cruise market.",
-          "Our luxury planning services include: Compare Scenic itineraries and pricing, Recommend the best suite for your budget, Explain promotions and limited-time offers, Arrange flights and hotels, Coordinate private transfers, Compare Scenic with other luxury lines, Identify available promotions, Help you avoid paying for features you don't need."
+        "icon": "ship",
+        "title": "Itinerary & Value Benchmarking",
+        "description": "Objectively compare Scenic's truly all-inclusive model against Viking, AmaWaterways, and other luxury lines.",
+        "features": [
+          "Compare Scenic itineraries and pricing",
+          "Compare Scenic with other luxury lines",
+          "Recommend the best suite for your budget"
+        ]
+      },
+      {
+        "icon": "dollar",
+        "title": "Promotion & Investment Optimization",
+        "description": "Maximize your vacation investment with expert insight on promotions, cabin categories, and value protection.",
+        "features": [
+          "Explain promotions and limited-time offers",
+          "Identify available promotions and upgrades",
+          "Help you avoid paying for features you don't need"
+        ]
+      },
+      {
+        "icon": "compass",
+        "title": "Turnkey Concierge Logistics",
+        "description": "Seamlessly coordinate every detail from international airfare to private chauffeur transfers.",
+        "features": [
+          "Arrange flights and luxury hotels",
+          "Coordinate private transfers",
+          "Provide personalized guidance from booking to boarding"
         ]
       }
     ]

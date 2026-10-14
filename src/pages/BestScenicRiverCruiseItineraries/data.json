@@ -1,0 +1,457 @@
+{
+  "hero": {
+    "badge": "2026 EUROPEAN ITINERARY GUIDE",
+    "title": "Best Scenic River Cruise\nItineraries",
+    "subtitle": "Explore Europe's Most Iconic Rivers in True All-Inclusive Luxury",
+    "description": [
+      "One of the biggest reasons travelers choose Scenic River Cruises is the opportunity to explore Europe's most iconic rivers in true all-inclusive luxury. From sailing past fairy-tale castles on the Rhine to enjoying wine tastings in Portugal's Douro Valley, every Scenic itinerary offers a unique blend of culture, history, cuisine, and breathtaking scenery.",
+      "But with so many routes available, many travelers ask: which Scenic River Cruise itinerary is the best? The answer depends on your travel style. Some itineraries are perfect for first-time river cruisers, while others appeal to food lovers, wine enthusiasts, history buffs, or travelers celebrating a special occasion. This guide compares the most popular Scenic River Cruise itineraries, explains who each route is best suited for, and helps you choose the right journey for your next luxury vacation."
+    ],
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "Quick Answer",
+    "heading": "Best Scenic River Cruise Itineraries: The Quick Answer",
+    "paragraphs": [
+      "If you're short on time, here are the top Scenic itineraries based on traveler preferences and vacation goals.",
+      "Our Recommendation: If this is your first Scenic River Cruise, start with either the Rhine or Danube. These itineraries showcase Europe's most famous cities, picturesque landscapes, and Scenic's signature all-inclusive experience."
+    ],
+    "highlights": [
+      "Best Overall Scenic Itinerary: Rhine River Cruise",
+      "Best for First-Time River Cruisers: Danube River Cruise",
+      "Best for Wine Lovers: Douro River Cruise",
+      "Best for Castles & Scenery: Rhine River Cruise",
+      "Best for Food & Culture: Rhône River Cruise",
+      "Best Seasonal Cruise: Christmas Market Cruise",
+      "Best Spring Cruise: Tulip Cruise"
+    ],
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "quickComparisonTable": {
+    "title": "Quick Comparison of Scenic's Best Itineraries",
+    "headers": ["Itinerary", "Best For", "Duration", "Luxury Rating"],
+    "rows": [
+      ["Rhine River", "First-time cruisers, castles, scenery", "7–15 nights", "⭐⭐⭐⭐⭐"],
+      ["Danube River", "Historic cities & culture", "7–15 nights", "⭐⭐⭐⭐⭐"],
+      ["Douro River", "Wine lovers", "8–11 nights", "⭐⭐⭐⭐⭐"],
+      ["Rhône River", "Food & Provence", "8–11 nights", "⭐⭐⭐⭐⭐"],
+      ["Seine River", "Paris & Normandy", "8–11 nights", "⭐⭐⭐⭐⭐"],
+      ["Christmas Markets", "Holiday travel", "7–11 nights", "⭐⭐⭐⭐⭐"],
+      ["Tulip Cruises", "Spring flowers", "8–10 nights", "⭐⭐⭐⭐⭐"]
+    ]
+  },
+  "bestOverallRhine": {
+    "eyebrow": "Best Overall",
+    "title": "Best Overall: Rhine River Cruise",
+    "paragraphs": [
+      "The Rhine River is Scenic's most popular itinerary—and for good reason. Sailing past medieval castles, charming villages, and vineyards, it is our top overall pick.",
+      "Best for first-time river cruisers, couples, history lovers, photography enthusiasts, and travelers wanting iconic European scenery. Popular ports include Amsterdam, Cologne, Koblenz, Strasbourg, and Basel."
+    ],
+    "highlights": [
+      "Medieval castles",
+      "Charming villages",
+      "Vineyards",
+      "Scenic river valleys",
+      "UNESCO World Heritage sites",
+      "Historic cities"
+    ],
+    "badgeTitle": "Most Popular",
+    "badgeDescription": "Rhine River • Iconic European Itinerary",
+    "placeholderLabel": "SCENIC RHINE RIVER CRUISE"
+  },
+  "inlineCta1": {
+    "title": "Not Sure Which Itinerary Fits You Best?",
+    "description": "Let us help you compare Scenic's rivers and seasonal departures to plan the ideal cruise.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "itinerariesByRiver": {
+    "title": "Scenic Itineraries by River",
+    "subtitle": "Each river offers a distinct atmosphere and set of experiences. Here's what to expect from Scenic's most popular itineraries.",
+    "cards": [
+      {
+        "title": "Rhine River",
+        "icon": "MapPin",
+        "description": "Scenic's most popular itinerary—and for good reason. Sailing past medieval castles, charming villages, and vineyards, it's ideal for first-time river cruisers, couples, and history lovers.",
+        "bullets": [
+          "Popular ports: Amsterdam, Cologne, Koblenz, Strasbourg, Basel",
+          "Best for: First-time river cruisers, couples, history lovers, photography enthusiasts"
+        ]
+      },
+      {
+        "title": "Danube River",
+        "icon": "Landmark",
+        "description": "If you've never taken a river cruise before, the Danube is hard to beat, with imperial architecture, classical music, and grand European cities.",
+        "bullets": [
+          "Popular ports: Vienna, Budapest, Bratislava, Passau",
+          "Best for: European history, Christmas Markets, food lovers, first-time luxury travelers"
+        ]
+      },
+      {
+        "title": "Douro River",
+        "icon": "Wine",
+        "description": "Portugal's Douro Valley is one of Europe's most beautiful wine regions, with terraced vineyards and authentic Portuguese villages.",
+        "bullets": [
+          "Expect: Terraced vineyards, Port wine tastings, family-owned wineries, scenic valleys, authentic Portuguese villages",
+          "Best for: Wine enthusiasts, couples, slow-paced travel, boutique experiences"
+        ]
+      },
+      {
+        "title": "Rhône River",
+        "icon": "Sparkles",
+        "description": "France's Rhône River combines world-famous cuisine with stunning Provençal scenery—perfect for culinary and wine travelers.",
+        "bullets": [
+          "Highlights: Provence, Lyon, Avignon, Châteauneuf-du-Pape, lavender fields, gourmet dining",
+          "Best for: Culinary travelers, wine lovers, French culture, luxury vacations"
+        ]
+      },
+      {
+        "title": "Seine River",
+        "icon": "Eye",
+        "description": "The Seine offers a wonderful combination of Parisian elegance and historic landmarks, ideal for travelers interested in art, architecture, and World War II history.",
+        "bullets": [
+          "Popular attractions: Paris, Monet's Gardens, Normandy, historic cathedrals, museums, French villages",
+          "Best for: Art enthusiasts, history buffs, French culture, milestone romantic journeys"
+        ]
+      },
+      {
+        "title": "Christmas Markets",
+        "icon": "Calendar",
+        "description": "Scenic's Christmas Market cruises are among the most sought-after departures, sailing the Rhine and Danube during the festive season. Because these sailings sell out quickly, booking well in advance is highly recommended.",
+        "bullets": [
+          "You'll experience: Festive villages, Christmas lights, traditional markets, seasonal foods, mulled wine, holiday concerts",
+          "Best for: Holiday travelers, winter romance, festive family trips"
+        ]
+      },
+      {
+        "title": "Tulip Cruises",
+        "icon": "Compass",
+        "description": "Tulip cruises operate during the famous Dutch flower season—perfect for photographers and spring travelers.",
+        "bullets": [
+          "Highlights: Keukenhof Gardens, Amsterdam, windmills, flower fields, canal towns",
+          "Best for: Spring travel, garden enthusiasts, photographers"
+        ]
+      }
+    ]
+  },
+  "bestValue": {
+    "title": "Which Itinerary Offers the Best Value?",
+    "subtitle": "Best Overall Value: the Rhine and Danube.",
+    "description": "While every itinerary includes Scenic's all-inclusive luxury experience, many travelers feel the Rhine and Danube offer the greatest overall value due to their combination of iconic destinations, cultural experiences, and scenic cruising.",
+    "items": [
+      {
+        "title": "Iconic Destinations",
+        "icon": "MapPin",
+        "description": "Access multiple world-famous capital cities and historic ports in a single, perfectly sequenced journey.",
+        "impact": "Maximum Destination Diversity"
+      },
+      {
+        "title": "Cultural Experiences",
+        "icon": "Landmark",
+        "description": "Private classical concerts in imperial palaces and exclusive behind-the-scenes tours included at no extra cost.",
+        "impact": "Scenic Enrich Access"
+      },
+      {
+        "title": "Scenic Cruising",
+        "icon": "Ship",
+        "description": "Daylight sailing through the UNESCO-listed Rhine Gorge with over 40 hilltop castles and dramatic river bends.",
+        "impact": "Unrivaled Scenery"
+      },
+      {
+        "title": "All-Inclusive Luxury",
+        "icon": "Award",
+        "description": "Every excursion, premium top-shelf drink, dining venue, butler service, and gratuity is included upfront.",
+        "impact": "Zero Surprise Expenses"
+      },
+      {
+        "title": "UNESCO World Heritage Sites",
+        "icon": "Compass",
+        "description": "Immersive guided access to world-renowned heritage monuments throughout Germany, Austria, and Hungary.",
+        "impact": "World Heritage Access"
+      }
+    ]
+  },
+  "chooseItinerary": {
+    "title": "Which Itinerary Should You Choose?",
+    "subtitle": "Scenic offers a variety of itineraries to suit different travel styles, budgets, and occasions. Use this guide to find the best route for your next luxury river cruise.",
+    "items": [
+      {
+        "category": "CHOOSE IF",
+        "title": "Rhine River Cruise",
+        "description": "Ideal if you love fairy-tale castles, steep hillside vineyards, and picture-perfect medieval towns.",
+        "features": [
+          "You love castles",
+          "Scenic landscapes",
+          "Charming villages",
+          "First-time European cruising"
+        ]
+      },
+      {
+        "category": "CHOOSE IF",
+        "title": "Danube River Cruise",
+        "description": "Ideal for lovers of classical music, imperial Habsburg history, and stunning riverside capitals.",
+        "features": [
+          "You enjoy history",
+          "Music & classical concerts",
+          "Grand European cities",
+          "Christmas Markets"
+        ]
+      },
+      {
+        "category": "CHOOSE IF",
+        "title": "Rhône River Cruise",
+        "description": "Ideal for culinary connoisseurs desiring Michelin-inspired French gastronomy and Provençal scenery.",
+        "features": [
+          "You love food",
+          "French wine & vineyards",
+          "Provence & lavender fields"
+        ]
+      },
+      {
+        "category": "CHOOSE IF",
+        "title": "Douro River Cruise",
+        "description": "Ideal for travelers seeking quiet, boutique luxury, warm sunshine, and world-class Port wine estates.",
+        "features": [
+          "You enjoy wine",
+          "Boutique destinations",
+          "Portugal culture & climate"
+        ]
+      },
+      {
+        "category": "CHOOSE IF",
+        "title": "Seine River Cruise",
+        "description": "Ideal for art lovers, museum enthusiasts, and travelers visiting Normandy's historic beaches.",
+        "features": [
+          "Paris is on your bucket list",
+          "You enjoy art and museums",
+          "You're interested in Normandy"
+        ]
+      },
+      {
+        "category": "CHOOSE IF",
+        "title": "Christmas Markets",
+        "description": "Ideal for experiencing European holiday magic, festive town squares, and traditional winter cheer.",
+        "features": [
+          "You love holiday travel",
+          "Seasonal experiences",
+          "Festive traditions & mulled wine"
+        ]
+      },
+      {
+        "category": "CHOOSE IF",
+        "title": "Tulip Cruises",
+        "description": "Ideal for photographers and flower enthusiasts visiting the Netherlands and Belgium in springtime.",
+        "features": [
+          "You're visiting Europe in spring",
+          "You enjoy gardens & Keukenhof",
+          "Photography & blooming canals"
+        ]
+      }
+    ]
+  },
+  "inlineCta2": {
+    "title": "Ready to Choose Your Itinerary?",
+    "description": "Take advantage of exclusive travel advisor promotions, complimentary cabin upgrades, and expert itinerary advice today.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "comparisonWithOthers": {
+    "title": "Scenic vs. Other River Cruise Itineraries",
+    "subtitle": "Each cruise line brings a different strength to the table—here's how Scenic compares.",
+    "headers": ["Cruise Line", "Best For"],
+    "rows": [
+      ["Scenic", "All-inclusive luxury"],
+      ["Viking", "Destination-focused itineraries"],
+      ["AmaWaterways", "Active excursions"],
+      ["Riverside", "Boutique luxury"],
+      ["Uniworld", "Elegant themed experiences"],
+      ["Tauck", "Land and river combinations"]
+    ]
+  },
+  "commonMistakes": {
+    "title": "Common Mistakes When Choosing an Itinerary",
+    "items": [
+      {
+        "number": "01",
+        "title": "Choosing based only on price",
+        "description": "Overlooking what's included vs. extra charges like excursions and drinks can distort the true vacation value."
+      },
+      {
+        "number": "02",
+        "title": "Ignoring seasonal differences",
+        "description": "Failing to account for seasonal variations across Europe's waterways and regional port highlights."
+      },
+      {
+        "number": "03",
+        "title": "Booking without considering weather",
+        "description": "Water levels, temperature, and seasonal crowds dramatically influence your onboard and shore experience."
+      },
+      {
+        "number": "04",
+        "title": "Underestimating the value of included excursions",
+        "description": "Scenic Freechoice and Enrich events provide bespoke access that saves significant planning and expense."
+      },
+      {
+        "number": "05",
+        "title": "Waiting too long to reserve popular departures",
+        "description": "High-demand departures like Christmas Markets or Tulip season routinely sell out 10 to 14 months in advance."
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Personalized Itinerary Guidance & VIP Access",
+    "paragraphs": [
+      "Choosing the right itinerary is about more than selecting a river. Professional guidance ensures you maximize the value of your vacation by comparing routes, explaining what's included, and coordinating every detail."
+    ],
+    "items": [
+      {
+        "title": "Compare Scenic Itineraries",
+        "description": "Professional guidance comparing river characteristics, port times, and sailing pacing.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Explain What's Included",
+        "description": "Clear clarity on Freechoice excursions, private transfers, and butler service inclusions.",
+        "icon": "check"
+      },
+      {
+        "title": "Recommend Best Travel Seasons",
+        "description": "Target optimal river water levels, pleasant temperatures, and blooming or festive seasons.",
+        "icon": "Activity"
+      },
+      {
+        "title": "Select Right Suite Category",
+        "description": "Expert guidance selecting the ideal deck location and suite layout for your travel style.",
+        "icon": "ship"
+      },
+      {
+        "title": "Coordinate Flights & Hotels",
+        "description": "Seamless door-to-door coordination with pre- and post-cruise luxury hotel stays and airfare.",
+        "icon": "map"
+      },
+      {
+        "title": "Identify Available Promotions",
+        "description": "Unlock exclusive advisor upgrades, shipboard credits, and private partner savings.",
+        "icon": "dollar"
+      }
+    ]
+  },
+  "expertAuthority": {
+    "authorName": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Recognized Global Luxury Travel Expert",
+    "experienceBadge": "40+ Years Experience",
+    "ctaText": "Plan Your Scenic Cruise With Angela",
+    "ctaLink": "/contact",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything travelers need to know about Scenic's itineraries before booking.",
+    "faqs": [
+      {
+        "question": "Which Scenic River Cruise itinerary is the best?",
+        "answer": "The Rhine River Cruise is widely considered Scenic's best overall itinerary because it combines castles, vineyards, charming villages, and historic cities."
+      },
+      {
+        "question": "Which Scenic itinerary is best for first-time travelers?",
+        "answer": "The Danube and Rhine are both excellent choices for first-time river cruisers thanks to their iconic destinations and diverse experiences."
+      },
+      {
+        "question": "What is Scenic's most popular river cruise?",
+        "answer": "The Rhine River and Danube River itineraries are among Scenic's most popular European cruises."
+      },
+      {
+        "question": "Which Scenic cruise is best for wine lovers?",
+        "answer": "The Douro River Cruise through Portugal is ideal for wine enthusiasts, offering vineyard visits and Port wine tastings."
+      },
+      {
+        "question": "Which Scenic itinerary is best for Christmas?",
+        "answer": "Scenic's Christmas Market cruises along the Rhine and Danube are among the most popular seasonal itineraries."
+      },
+      {
+        "question": "Which Scenic cruise is best for couples?",
+        "answer": "Many couples enjoy the Rhine, Rhône, and Douro itineraries for their romantic scenery, fine dining, and intimate atmosphere."
+      },
+      {
+        "question": "What is the best Scenic cruise for food lovers?",
+        "answer": "The Rhône River Cruise is known for its gourmet cuisine, French wines, and culinary experiences."
+      },
+      {
+        "question": "When is the best time to take a Scenic River Cruise?",
+        "answer": "Spring and fall are popular for pleasant weather, while December is ideal for Christmas Market cruises and spring is perfect for Tulip cruises."
+      },
+      {
+        "question": "Are Scenic excursions included?",
+        "answer": "Yes. Scenic includes Scenic Freechoice excursions and Scenic Enrich experiences on most itineraries."
+      },
+      {
+        "question": "How long are most Scenic River Cruises?",
+        "answer": "Most itineraries range from 7 to 15 nights, with some Grand Journeys lasting even longer."
+      },
+      {
+        "question": "Should I choose my itinerary or ship first?",
+        "answer": "Your itinerary usually has a greater impact on your overall experience than the specific Scenic ship, as the fleet maintains a consistent luxury standard."
+      },
+      {
+        "question": "Should I book a Scenic itinerary through a travel advisor?",
+        "answer": "Yes. A luxury travel advisor can compare itineraries, recommend the best sailing for your interests, explain promotions, and coordinate your complete vacation."
+      }
+    ]
+  },
+  "verdict": {
+    "title": "An Impressive Collection of Luxury Itineraries",
+    "subtitle": "Final Verdict",
+    "sections": [
+      {
+        "heading": "Premier European River Journeys",
+        "paragraphs": [
+          "Scenic offers one of the most impressive collections of luxury river cruise itineraries in Europe. Whether you're exploring medieval castles on the Rhine, tasting world-class wines in Portugal's Douro Valley, wandering Christmas Markets along the Danube, or enjoying gourmet cuisine in Provence, every itinerary combines immersive destinations with Scenic's signature all-inclusive service.",
+          "For first-time guests, the Rhine and Danube remain the best overall choices. Returning travelers may enjoy exploring the Rhône, Douro, Seine, or one of Scenic's seasonal holiday itineraries.",
+          "At Trips & Ships Luxury Travel, we'll help you compare itineraries and departures to find the best option for your travel style and budget."
+        ],
+        "conclusion": "Professional guidance ensures you select the optimal route, suite, and seasonal departure."
+      },
+      {
+        "heading": "Our Luxury Planning Services Include",
+        "paragraphs": [
+          "When you book with Trips & Ships Luxury Travel, our dedicated advisors coordinate every aspect of your voyage with personalized care:"
+        ],
+        "list": [
+          "Compare Scenic itineraries",
+          "Recommend the best travel season",
+          "Explain promotions and included excursions",
+          "Select the right suite category",
+          "Arrange flights and hotels",
+          "Coordinate private transfers",
+          "Compare Scenic with other luxury lines",
+          "Help you avoid common booking mistakes"
+        ],
+        "conclusion": "Full end-to-end itinerary customization at no extra booking fee."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Start Planning Your Scenic River Cruise",
+    "description": "Speak with our luxury travel advisors to design your perfect European river cruise itinerary.",
+    "buttonText": "Start Planning Your Scenic Cruise",
+    "buttonLink": "/contact"
+  }
+}

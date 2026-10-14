@@ -428,15 +428,34 @@
     ]
   },
   "verdict": {
+    "title": "Luxury Pricing, Predictable Value",
+    "subtitle": "Final Verdict",
     "sections": [
       {
-        "heading": "Luxury Pricing, Predictable Value",
+        "heading": "Extensive All-Inclusive Value",
         "paragraphs": [
           "Scenic River Cruises sits firmly in the luxury river cruise market, with pricing that reflects its extensive all-inclusive experience.",
           "While the upfront fare may be higher than some competitors, the inclusion of butler service, premium beverages, guided excursions, gratuities, and other amenities can make the overall value compelling for travelers who want a seamless, worry-free vacation.",
-          "At Trips & Ships Luxury Travel, we'll help you compare itineraries, travel seasons, and suite categories to find the best option for your budget and travel goals.",
-          "Our luxury planning services include: Compare Scenic itineraries and pricing, Recommend the best suite for your budget, Explain promotions and limited-time offers, Arrange flights and hotels, Coordinate private transfers, Compare Scenic with other luxury lines, Identify available promotions, Help you avoid paying for features you don't need."
-        ]
+          "At Trips & Ships Luxury Travel, we'll help you compare itineraries, travel seasons, and suite categories to find the best option for your budget and travel goals."
+        ],
+        "conclusion": "Truly all-inclusive luxury pricing guarantees transparent vacation costs with no unexpected shipboard expenses."
+      },
+      {
+        "heading": "Our Luxury Planning Services Include",
+        "paragraphs": [
+          "When you book with Trips & Ships Luxury Travel, our dedicated advisors coordinate every aspect of your cruise with personalized care:"
+        ],
+        "list": [
+          "Compare Scenic itineraries and pricing",
+          "Recommend the best suite for your budget",
+          "Explain promotions and limited-time offers",
+          "Arrange flights and hotels",
+          "Coordinate private transfers",
+          "Compare Scenic with other luxury lines",
+          "Identify available promotions",
+          "Help you avoid paying for features you don't need"
+        ],
+        "conclusion": "Complimentary personalized luxury itinerary matching and VIP advisor service."
       }
     ]
   },

@@ -21,7 +21,7 @@ import EditorialIntroSection from "../../components/ui/EditorialIntroSection";
 import AuthorityGrid from "../../components/ui/AuthorityGrid";
 import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
-import ConclusionSection from "../../components/ui/ConclusionSection";
+import ExpertPlanning from "../../components/ui/ExpertPlanning";
 
 // Asset Images
 import ScenicRiverCruisesReviewHero from "../../assets/ScenicRiverCruisesReview/scenic-river-cruises-honest-review-hero.webp";
@@ -178,6 +178,7 @@ const ScenicRiverCruisesReview = () => {
         <title>{data.meta.title}</title>
         <meta name="title" content={data.meta.metaTitle} />
         <meta name="description" content={data.meta.description} />
+        <link rel="canonical" href="https://www.tripsandships.com/scenic-river-cruises/review" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
@@ -427,16 +428,10 @@ const ScenicRiverCruisesReview = () => {
 
       {/* ── 17. FINAL VERDICT & CTA ── */}
       <div id="final-verdict">
-        <ConclusionSection
-          sections={[
-            {
-              heading: data.finalVerdict.title,
-              paragraphs: [
-                ...data.finalVerdict.paragraphs,
-                `Our luxury planning services include: ${data.finalVerdict.planningServices.join(", ")}.`
-              ]
-            }
-          ]}
+        <ExpertPlanning
+          title={data.finalVerdict.title}
+          subtitle={data.finalVerdict.eyebrow}
+          sections={data.finalVerdict.sections}
         />
         <CenterCTA
           title={data.finalVerdict.title}

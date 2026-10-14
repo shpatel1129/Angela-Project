@@ -242,17 +242,17 @@
       {
         "title": "True All-Inclusive Fares",
         "icon": "check",
-        "desc": "Transfers, gratuities, top-shelf beverages, and excursions bundled transparently from day one."
+        "description": "Transfers, gratuities, top-shelf beverages, and excursions bundled transparently from day one."
       },
       {
         "title": "Predictable Luxury Budgeting",
         "icon": "dollar",
-        "desc": "Zero stress over unexpected add-on folios at checkout, letting you savor every destination."
+        "description": "Zero stress over unexpected add-on folios at checkout, letting you savor every destination."
       },
       {
         "title": "Unrivaled Shipboard Service",
         "icon": "user",
-        "desc": "Dedicated butler attention for all cabins and attentive European hospitality on every river."
+        "description": "Dedicated butler attention for all cabins and attentive European hospitality on every river."
       }
     ]
   },
@@ -352,15 +352,34 @@
     ]
   },
   "verdict": {
+    "title": "Truly All-Inclusive Luxury River Cruising",
+    "subtitle": "Final Verdict",
     "sections": [
       {
-        "heading": "Truly All-Inclusive Luxury River Cruising",
+        "heading": "Comprehensive Luxury Inclusions",
         "paragraphs": [
           "One of Scenic River Cruises' greatest strengths is its commitment to truly all-inclusive luxury. From butler service and gourmet dining to premium beverages, guided excursions, airport transfers, and gratuities, nearly every aspect of your vacation is thoughtfully included.",
           "For travelers who value convenience, personalized service, and predictable vacation costs, Scenic offers one of the most comprehensive luxury river cruise experiences available.",
-          "At Trips & Ships Luxury Travel, we'll help you compare Scenic itineraries, explain what's included with each sailing, recommend the ideal suite, and create a customized luxury river cruise tailored to your travel style.",
-          "Our luxury planning services include: Compare Scenic itineraries, Explain exactly what's included, Recommend the ideal suite, Arrange flights, Coordinate hotels, Plan private transfers, Recommend excursions, Explain available promotions."
-        ]
+          "At Trips & Ships Luxury Travel, we'll help you compare Scenic itineraries, explain what's included with each sailing, recommend the ideal suite, and create a customized luxury river cruise tailored to your travel style."
+        ],
+        "conclusion": "Truly all-inclusive luxury pricing guarantees transparent vacation costs with no unexpected shipboard expenses."
+      },
+      {
+        "heading": "Our Luxury Planning Services Include",
+        "paragraphs": [
+          "When you book with Trips & Ships Luxury Travel, our dedicated advisors coordinate every aspect of your voyage with personalized care:"
+        ],
+        "list": [
+          "Compare Scenic itineraries",
+          "Explain exactly what's included",
+          "Recommend the ideal suite",
+          "Arrange flights",
+          "Coordinate hotels",
+          "Plan private transfers",
+          "Recommend excursions",
+          "Explain available promotions"
+        ],
+        "conclusion": "Complimentary personalized luxury itinerary matching and VIP advisor service."
       }
     ]
   },

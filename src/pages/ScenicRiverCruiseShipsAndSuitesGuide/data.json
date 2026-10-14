@@ -496,14 +496,42 @@
     ]
   },
   "verdict": {
-    "sections": [
+    "title": "Consistent Luxury, Personalized to You",
+    "subtitle": "OUR VERDICT & PLANNING STANDARD",
+    "paragraphs": [
+      "Scenic's fleet is designed around consistency, luxury, and personalized service. Rather than focusing on one \"best\" ship, Scenic delivers a similar high-end experience across its Space-Ships, allowing travelers to choose based on destination and itinerary.",
+      "For most guests, the Balcony Suite provides the best combination of comfort, river views, and value, while those seeking the ultimate luxury experience will appreciate the spacious Royal Owner's Suite.",
+      "At Trips & Ships Luxury Travel, we'll help you compare ships, itineraries, and suite categories to find the best option for your travel style and budget."
+    ],
+    "items": [
       {
-        "heading": "Consistent Luxury, Personalized to You",
-        "paragraphs": [
-          "Scenic's fleet is designed around consistency, luxury, and personalized service. Rather than focusing on one \"best\" ship, Scenic delivers a similar high-end experience across its Space-Ships, allowing travelers to choose based on destination and itinerary.",
-          "For most guests, the Balcony Suite provides the best combination of comfort, river views, and value, while those seeking the ultimate luxury experience will appreciate the spacious Royal Owner's Suite.",
-          "At Trips & Ships Luxury Travel, we'll help you compare ships, itineraries, and suite categories to find the best option for your travel style and budget.",
-          "Our luxury planning services include: Compare Scenic ships and itineraries, Recommend the best suite for your budget, Explain promotions and limited-time offers, Arrange flights and hotels, Coordinate private transfers, Compare Scenic with other luxury lines, Identify available promotions, Help you avoid common booking mistakes."
+        "icon": "ship",
+        "title": "Ship & Itinerary Matching",
+        "description": "Evaluate Space-Ship layouts and seasonal waterways to match the ideal vessel and river route to your travel style.",
+        "features": [
+          "Compare Scenic ships and itineraries",
+          "Compare Scenic with other luxury lines",
+          "Match ship amenities to your travel style"
+        ]
+      },
+      {
+        "icon": "dollar",
+        "title": "Suite & Promotion Optimization",
+        "description": "Unlock insider access to early-bird savings, cabin upgrades, and exclusive luxury promotions.",
+        "features": [
+          "Recommend the best suite for your budget",
+          "Explain promotions and limited-time offers",
+          "Identify available promotions and upgrades"
+        ]
+      },
+      {
+        "icon": "compass",
+        "title": "Complete Concierge Planning",
+        "description": "From seamless flight coordination to doorstep transfers, your journey is meticulously managed.",
+        "features": [
+          "Arrange flights and hotels",
+          "Coordinate private transfers",
+          "Help you avoid common booking mistakes"
         ]
       }
     ]
