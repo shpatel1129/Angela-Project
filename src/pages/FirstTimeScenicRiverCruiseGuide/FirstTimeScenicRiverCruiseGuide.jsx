@@ -22,21 +22,16 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ExpertPlanning from "../../components/ui/ExpertPlanning";
 
-// Asset Images (Commented out)
-// import ScenicRiverCruisesHero from "../../assets/ScenicRiverCruises/scenic-river-cruises-ultra-luxury-europe-hero.webp";
-// import WhyChooseScenicImage from "../../assets/ScenicRiverCruises/why-choose-scenic-all-inclusive-luxury-river-cruises.webp";
-// import WhatMakesScenicDifferent1Image from "../../assets/ScenicRiverCruises/scenic-space-ship-river-cruise-experience.webp";
-// import WhatMakesScenicDifferent2Image from "../../assets/ScenicRiverCruises/scenic-luxury-river-cruise-onboard-lounge.webp";
-// import DanubeImage from "../../assets/ScenicRiverCruises/scenic-danube-river-cruise-budapest-vienna.webp";
-// import RhineImage from "../../assets/ScenicRiverCruises/scenic-rhine-river-cruise-castles-vineyards.webp";
-// import RhoneImage from "../../assets/ScenicRiverCruises/scenic-rhone-river-cruise-provence-france.webp";
-// import DouroImage from "../../assets/ScenicRiverCruises/scenic-douro-river-cruise-portugal-valley.webp";
-// import SuitesAccommodations1Image from "../../assets/ScenicRiverCruises/scenic-sun-lounge-balcony-suite-accommodations.webp";
-// import SuitesAccommodations2Image from "../../assets/ScenicRiverCruises/scenic-space-ship-butler-service-luxury-suite.webp";
-// import DiningExperienceImage from "../../assets/ScenicRiverCruises/scenic-gourmet-fine-dining-culinary-experience.webp";
-// import ElegantEveningExperiencesImage from "../../assets/ScenicRiverCruises/scenic-river-cruises-elegant-evening-entertainment.webp";
-// import ScenicRiverShipsImage from "../../assets/ScenicRiverCruises/scenic-space-ships-luxury-fleet-overview.webp";
-// import ComprehensiveExperienceImage from "../../assets/ScenicRiverCruises/scenic-ultra-luxury-river-cruising-expert-booking-cta.webp";
+// Images from assets/FirstTimeScenicRiverCruiseGuide
+import HeroImage from "../../assets/FirstTimeScenicRiverCruiseGuide/first-time-scenic-river-cruise-guide-hero.webp";
+import QuickAnswerImage1 from "../../assets/FirstTimeScenicRiverCruiseGuide/is-scenic-good-for-first-time-river-cruisers-quick-answer.webp";
+import QuickAnswerImage2 from "../../assets/FirstTimeScenicRiverCruiseGuide/first-time-scenic-river-cruise-all-inclusive-dining-butler.webp";
+import WhyChooseScenicImage from "../../assets/FirstTimeScenicRiverCruiseGuide/why-choose-scenic-for-your-first-river-cruise.webp";
+import ReadyToBookImage from "../../assets/FirstTimeScenicRiverCruiseGuide/ready-to-book-your-first-scenic-cruise-advisor-cta.webp";
+import BalconySuiteImage from "../../assets/FirstTimeScenicRiverCruiseGuide/scenic-river-cruise-balcony-suite-sun-lounge.webp";
+import HowFormalImage from "../../assets/FirstTimeScenicRiverCruiseGuide/how-formal-is-scenic-river-cruising-dress-code.webp";
+import BookingYourFirstCruiseImage from "../../assets/FirstTimeScenicRiverCruiseGuide/booking-your-first-scenic-cruise-planning-cta.jpg";
+import FinalVerdictImage from "../../assets/FirstTimeScenicRiverCruiseGuide/a-confident-start-to-scenic-river-cruising-final-cta.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -158,7 +153,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
   // Which cabin recommendation features
   const cabinItems = data.whichCabin.items.map((item) => ({
     ...item,
-    // image: undefined,
+    image: BalconySuiteImage,
   }));
 
   return (
@@ -182,7 +177,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
-        // backgroundImage={ScenicRiverCruisesHero}
+        backgroundImage={HeroImage}
       />
 
       {/* ── 2. QUICK ANSWER (AI OVERVIEW) ── */}
@@ -192,8 +187,8 @@ const FirstTimeScenicRiverCruiseGuide = () => {
           heading={data.quickAnswer.title}
           paragraphs={data.quickAnswer.paragraphs}
           highlights={data.quickAnswer.highlights}
-          // image1={WhyChooseScenicImage}
-          // image2={ScenicRiverShipsImage}
+          image1={QuickAnswerImage1}
+          image2={QuickAnswerImage2}
           ctaText={data.quickAnswer.ctaText}
           ctaLink={data.quickAnswer.ctaLink}
         />
@@ -208,7 +203,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
           highlights={data.whyChooseScenic.highlights}
           badgeTitle={data.whyChooseScenic.badgeTitle}
           badgeDescription={data.whyChooseScenic.badgeDescription}
-          // image={ScenicRiverShipsImage}
+          image={WhyChooseScenicImage}
         />
       </div>
 
@@ -228,7 +223,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
-        // image={WhatMakesScenicDifferent1Image}
+        image={ReadyToBookImage}
         theme="dark"
       />
 
@@ -282,7 +277,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
           highlights={data.howFormal.highlights}
           badgeTitle={data.howFormal.badgeTitle}
           badgeDescription={data.howFormal.badgeDescription}
-          // image={ElegantEveningExperiencesImage}
+          image={HowFormalImage}
         />
       </div>
 
@@ -292,8 +287,8 @@ const FirstTimeScenicRiverCruiseGuide = () => {
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
-        // image={WhatMakesScenicDifferent2Image}
-        theme="light"
+        image={BookingYourFirstCruiseImage}
+        theme="dark"
       />
 
       {/* ── 10. WHO IS SCENIC BEST FOR? ── */}
@@ -372,7 +367,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
-          // image={ComprehensiveExperienceImage}
+          image={FinalVerdictImage}
           theme="dark"
         />
       </div>

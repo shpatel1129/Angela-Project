@@ -1,0 +1,551 @@
+{
+  "meta": {
+    "title": "Scenic Solo River Cruises & Single Supplement Guide (2026)",
+    "metaTitle": "Scenic Solo River Cruises | Single Supplement Guide",
+    "description": "Thinking about taking a Scenic River Cruise alone? Learn about solo travel, single supplements, cabin options, safety, costs, and tips for booking the best Scenic solo cruise.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/solo-travel"
+  },
+  "hero": {
+    "badge": "Scenic Solo Travel & Single Supplement Guide",
+    "title": "Scenic Solo River Cruises & Single Supplement Guide",
+    "subtitle": "Independent Luxury River Cruising in Europe",
+    "description": "Traveling solo has become one of the fastest-growing trends in luxury travel, and river cruising offers one of the easiest and safest ways to explore Europe independently.",
+    "primaryCtaText": "Start Planning Your Solo Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "60-Second Quick Answer",
+    "title": "Solo Travel: The Quick Answer",
+    "paragraphs": [
+      "If you're short on time — Scenic is an excellent choice for solo travelers",
+      "Single supplements usually apply, although Scenic occasionally offers reduced or waived single supplement promotions on select sailings. Our Recommendation: Book early and work with a luxury travel advisor to find itineraries with the lowest single supplement or special solo traveler offers."
+    ],
+    "highlights": [
+      "Small luxury ships",
+      "Friendly, social atmosphere",
+      "Included excursions",
+      "Butler service",
+      "Safe European destinations",
+      "Flexible dining"
+    ],
+    "ctaText": "Start Planning Your Solo Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "isScenicGoodSolo": {
+    "eyebrow": "Intimate Ship Experience",
+    "heading": "Is Scenic Good for Solo Travelers?",
+    "paragraphs": [
+      "Absolutely. Unlike large ocean cruise ships carrying thousands of guests, Scenic's boutique-sized Space-Ships typically welcome around 150 guests. This creates a more intimate atmosphere where it's easy to meet fellow travelers while still enjoying your independence.",
+      "Whether you prefer joining group activities or enjoying quiet time with a book and a river view, Scenic offers plenty of flexibility."
+    ],
+    "highlights": [
+      "Personalized butler service",
+      "Smaller group excursions",
+      "Relaxed onboard atmosphere",
+      "Flexible dining",
+      "Friendly crew who quickly learn your preferences",
+      "Comfortable public lounges for socializing or relaxing"
+    ],
+    "badgeTitle": "Scenic Boutique Space-Ships",
+    "badgeDescription": "Intimate ships with around 150 guests creating a welcoming, stress-free social atmosphere."
+  },
+  "singleSupplement": {
+    "title": "What Is a Single Supplement?",
+    "subtitle": "Understanding How Solo Pricing Works on Luxury River Cruises",
+    "inclusions": [
+      "Itinerary selection and route popularity",
+      "Travel season (peak summer vs. shoulder months)",
+      "Cabin category and suite tier",
+      "Promotional offers and solo waivers",
+      "Live stateroom availability"
+    ],
+    "expertNote": "A single supplement is an additional charge applied when one person occupies a cabin designed for two guests. River cruise cabins are generally priced based on double occupancy, so solo travelers often pay more than half the cruise fare. Scenic occasionally offers reduced or waived single supplements on select sailings, making solo travel more affordable."
+  },
+  "howToSaveMoney": {
+    "title": "How to Save Money as a Solo Traveler",
+    "subtitle": "Smart Booking Strategies to Minimize Single Supplements",
+    "cards": [
+      {
+        "title": "Book Early",
+        "items": [
+          "The best promotions and cabin availability are often available well in advance.",
+          "Secure preferred cabin categories before single allotments sell out",
+          "Lock in early booking bonuses and special solo fares"
+        ]
+      },
+      {
+        "title": "Watch for Single Supplement Promotions",
+        "items": [
+          "These promotions are especially valuable on select departures.",
+          "Reduced single supplements on designated dates",
+          "Waived supplements on promotional voyages",
+          "Limited-time solo traveler promotional offers"
+        ]
+      },
+      {
+        "title": "Consider Shoulder Season",
+        "items": [
+          "Traveling during spring or fall may provide better pricing and more promotional availability than peak summer departures.",
+          "Enjoy fewer crowds at historic European landmarks",
+          "Experience pleasant temperatures for walking and cycling excursions"
+        ]
+      },
+      {
+        "title": "Work With a Luxury Travel Advisor",
+        "items": [
+          "A travel advisor can help find and compare available departures to secure the best value.",
+          "Identify exclusive solo traveler offers and waivers",
+          "Recommend best-value itineraries and departure dates",
+          "Provide personalized cabin recommendations and track promotions"
+        ]
+      }
+    ]
+  },
+  "inlineCta1": {
+    "title": "Wondering About Single Supplements?",
+    "description": "Let us help you find reduced or waived single supplement offers on select Scenic sailings.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "soloItineraries": {
+    "title": "Best Scenic Itineraries for Solo Travelers",
+    "subtitle": "These river cruise routes offer exceptional experiences and welcoming environments for independent guests.",
+    "cards": [
+      {
+        "icon": "Compass",
+        "title": "Rhine River — Best Overall",
+        "bestFor": "Iconic scenery, historic castles, charming villages & easy-paced sightseeing",
+        "description": "Why? Iconic scenery, popular itinerary, excellent mix of guests, charming villages, castles, and easy-paced sightseeing.",
+        "bullets": [
+          "Iconic scenery and historic castles",
+          "Extremely popular itinerary",
+          "Excellent mix of guests",
+          "Charming villages and easy-paced sightseeing"
+        ],
+        "highlights": [
+          "Iconic scenery and historic castles",
+          "Extremely popular itinerary",
+          "Excellent mix of guests",
+          "Charming villages and easy-paced sightseeing"
+        ],
+        "features": [
+          "Iconic scenery and historic castles",
+          "Extremely popular itinerary",
+          "Excellent mix of guests",
+          "Charming villages and easy-paced sightseeing"
+        ]
+      },
+      {
+        "icon": "Ship",
+        "title": "Danube River — Perfect for Culture",
+        "bestFor": "History lovers, first-time visitors to Europe, cultural experiences & classical music",
+        "description": "Perfect for: History lovers, first-time visitors to Europe, cultural experiences, and classical music.",
+        "bullets": [
+          "History lovers",
+          "First-time visitors to Europe",
+          "Cultural experiences",
+          "Classical music"
+        ],
+        "highlights": [
+          "History lovers",
+          "First-time visitors to Europe",
+          "Cultural experiences",
+          "Classical music"
+        ],
+        "features": [
+          "History lovers",
+          "First-time visitors to Europe",
+          "Cultural experiences",
+          "Classical music"
+        ]
+      },
+      {
+        "icon": "Wine",
+        "title": "Rhône River — Ideal for Food & Wine",
+        "bestFor": "Food lovers, wine enthusiasts & French culinary heritage",
+        "description": "Ideal for: Food lovers, wine enthusiasts, and French culture.",
+        "bullets": [
+          "Food lovers",
+          "Wine enthusiasts",
+          "French culture"
+        ],
+        "highlights": [
+          "Food lovers",
+          "Wine enthusiasts",
+          "French culture"
+        ],
+        "features": [
+          "Food lovers",
+          "Wine enthusiasts",
+          "French culture"
+        ]
+      },
+      {
+        "icon": "Leaf",
+        "title": "Douro River — Best for Relaxation",
+        "bestFor": "Relaxation, boutique experiences & tranquil valley landscapes",
+        "description": "Best for: Relaxation, boutique experiences, and scenic landscapes.",
+        "bullets": [
+          "Relaxation",
+          "Boutique experiences",
+          "Scenic landscapes"
+        ],
+        "highlights": [
+          "Relaxation",
+          "Boutique experiences",
+          "Scenic landscapes"
+        ],
+        "features": [
+          "Relaxation",
+          "Boutique experiences",
+          "Scenic landscapes"
+        ]
+      }
+    ]
+  },
+  "diningAndExcursions": {
+    "title": "Dining & Excursions for Solo Travelers",
+    "prosTitle": "Dining as a Solo Traveler",
+    "consTitle": "Included Excursions Make Solo Travel Easy",
+    "bestFor": [
+      "One of the biggest concerns for first-time solo cruisers is dining alone. Fortunately, Scenic creates a welcoming atmosphere.",
+      "Flexible dining times and open seating arrangements",
+      "Friendly, attentive staff who remember your preferences",
+      "Easy opportunities to dine with fellow guests",
+      "Comfortable tables for solo diners who prefer privacy",
+      "Relaxed, unforced conversations at every meal"
+    ],
+    "notBestFor": [
+      "Because Scenic includes many daily excursions, you don't need to worry about arranging independent sightseeing.",
+      "Guided walking tours and historic city center strolls",
+      "Curated wine tastings and regional culinary immersions",
+      "Exclusive castle visits, palaces, and historic landmarks",
+      "Museum admissions and expert local commentary",
+      "Scenic drives through vineyards and picturesque countryside"
+    ],
+    "bottomNote": "Many solo travelers report making lasting friendships during meals and shared daily excursions.",
+    "type": "compare",
+    "bgClass": "bg-slate-50"
+  },
+  "cabinChoice": {
+    "title": "Which Cabin Should Solo Travelers Choose?",
+    "subtitle": "Balcony Suite with Scenic Sun Lounge vs. Standard Suite",
+    "oceanview": {
+      "title": "Standard Suite",
+      "bestFor": "If your budget is more important than extra space, a Standard Suite can also be a comfortable choice for solo travelers.",
+      "advantages": [
+        "Budget-friendly option for solo travelers",
+        "Comfortable queen or twin luxury bed",
+        "Dedicated butler service included for every suite",
+        "Ample wardrobe and luggage storage for solo packing",
+        "Full access to all onboard public spaces, lounges, and fine dining"
+      ]
+    },
+    "balcony": {
+      "title": "Balcony Suite with Scenic Sun Lounge",
+      "bestFor": "Many solo travelers choose a Balcony Suite because it offers the optimal balance of space, private butler service, and daily serenity.",
+      "advantages": [
+        "Scenic Sun Lounge converts your private balcony into an all-weather glass conservatory",
+        "Comfortable seating area to relax and watch castles drift past",
+        "Beautiful floor-to-ceiling panoramic river views",
+        "Plenty of natural light creating a bright, uplifting personal sanctuary",
+        "Excellent overall value combining spaciousness and private luxury"
+      ]
+    }
+  },
+  "inlineCta2": {
+    "title": "Included Excursions Make Solo Travel Easy",
+    "description": "Because Scenic includes many daily excursions—walking tours, wine tastings, castle visits, museums, scenic drives, and local cultural performances—you don't need to worry about arranging independent sightseeing, and you'll have natural opportunities to meet fellow travelers.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "isScenicSafe": {
+    "title": "Is Scenic Safe for Solo Travelers?",
+    "subtitle": "Scenic is considered one of the safest ways to explore Europe independently. Many guests feel far more comfortable traveling solo on an all-inclusive river cruise than coordinating multiple hotels, trains, and transfers independently.",
+    "points": [
+      "Guided excursions led by certified, vetted local guides",
+      "Organized transportation directly between ship and excursion sites",
+      "Secure ship access with 24/7 dedicated security personnel",
+      "Experienced, attentive crew monitoring guest safety around the clock",
+      "English-speaking staff available across all ships and services",
+      "Carefully planned itineraries navigating safe European destinations"
+    ]
+  },
+  "whoShouldGo": {
+    "title": "Who Should Take a Solo Scenic Cruise?",
+    "subtitle": "If you value cultural experiences, personalized service, and a relaxed pace, Scenic is an excellent choice.",
+    "personas": [
+      {
+        "icon": "Users",
+        "title": "Retirees",
+        "description": "Travelers with the time and curiosity to explore European waterways at a relaxed, unhurried pace.",
+        "traits": [
+          "In-depth cultural immersion",
+          "Gentle walking and sightseeing paces",
+          "Dedicated butler service"
+        ]
+      },
+      {
+        "icon": "Home",
+        "title": "Empty Nesters",
+        "description": "Guests rediscovering the joy of independent travel with boutique accommodations and zero logistical stress.",
+        "traits": [
+          "Complete freedom of daily schedule",
+          "Welcoming social atmosphere",
+          "Comfortable private suites"
+        ]
+      },
+      {
+        "icon": "Heart",
+        "title": "Widows and Widowers",
+        "description": "Solo travelers seeking a warm, supportive, and dignified atmosphere without ever feeling out of place.",
+        "traits": [
+          "Safe, secure travel environment",
+          "Natural table sharing and companionship",
+          "Inclusive guided daily outings"
+        ]
+      },
+      {
+        "icon": "Award",
+        "title": "Professionals",
+        "description": "Executives and professionals taking a dedicated luxury sabbatical with all details handled seamlessly.",
+        "traits": [
+          "All-inclusive effortless travel",
+          "Peaceful onboard work & reading spaces",
+          "High-touch personalized service"
+        ]
+      },
+      {
+        "icon": "Gem",
+        "title": "Luxury Travelers",
+        "description": "Discerning travelers who appreciate fine dining, curated regional wines, and boutique five-star ships.",
+        "traits": [
+          "Top-tier luxury inclusions",
+          "Boutique ship size (~150 guests)",
+          "Attentive butler service for all suites"
+        ]
+      },
+      {
+        "icon": "Wine",
+        "title": "Food & Wine Enthusiasts",
+        "description": "Epicureans eager to sample local vintages, attend chef-led tastings, and savor multi-course paired dinners.",
+        "traits": [
+          "Exclusive culinary excursions",
+          "Complimentary premium regional wines",
+          "Local market visits with the chef"
+        ]
+      },
+      {
+        "icon": "Camera",
+        "title": "First-Time Solo International Travelers",
+        "description": "First-timers wanting Europe's highlights with the safety, comfort, and camaraderie of an organized cruise.",
+        "traits": [
+          "English-speaking onboard staff",
+          "Included airport and dock transfers",
+          "Zero navigation or transport stress"
+        ]
+      }
+    ]
+  },
+  "commonMistakes": {
+    "title": "Common Solo Travel Mistakes",
+    "subtitle": "Planning ahead can help you maximize value and minimize stress. Avoid these common errors.",
+    "items": [
+      {
+        "title": "Waiting Too Long to Book",
+        "description": "Waiting too long to book reduced single supplement offers, which sell out fast."
+      },
+      {
+        "title": "Assuming Flat Pricing",
+        "description": "Assuming every departure date has the same single supplement pricing."
+      },
+      {
+        "title": "Choosing Solely on Lowest Fare",
+        "description": "Choosing solely based on the lowest fare without considering cabin category or itinerary pace."
+      },
+      {
+        "title": "Skipping Travel Insurance",
+        "description": "Skipping comprehensive travel insurance when traveling internationally on your own."
+      },
+      {
+        "title": "Same-Day Arrival",
+        "description": "Not arriving at least one day before embarkation to protect against international flight delays."
+      },
+      {
+        "title": "Forgetting to Compare Itineraries",
+        "description": "Forgetting to compare different rivers and seasonal sailing conditions across destinations."
+      }
+    ]
+  },
+  "inlineCta3": {
+    "title": "Ready to Explore the World Independently?",
+    "description": "Let us help you find the best single supplement promotions, select the ideal cabin, and coordinate a seamless luxury river cruise.",
+    "buttonText": "Plan Your Solo Scenic Cruise",
+    "buttonLink": "/contact"
+  },
+  "cruiseLineComparison": {
+    "title": "Scenic vs. Other River Cruise Lines for Solo Travelers",
+    "subtitle": "Scenic stands out for its personalized service and intimate onboard atmosphere, though solo travelers should compare current promotions across cruise lines.",
+    "headers": [
+      "Cruise Line",
+      "Solo Traveler Experience"
+    ],
+    "rows": [
+      [
+        "Scenic",
+        "Small luxury ships, butler service, occasional solo promotions"
+      ],
+      [
+        "Viking",
+        "Popular with solo travelers, limited solo offers"
+      ],
+      [
+        "AmaWaterways",
+        "Frequent solo promotions on select sailings"
+      ],
+      [
+        "Riverside",
+        "Boutique luxury atmosphere"
+      ],
+      [
+        "Uniworld",
+        "Elegant ships and immersive cultural experiences"
+      ],
+      [
+        "Tauck",
+        "Inclusive guided travel with smaller groups"
+      ]
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Solo travelers often benefit even more from professional guidance. A luxury travel advisor can help you find reduced single supplement offers, recommend the best itinerary, compare cabin categories, coordinate flights and hotels, arrange airport transfers, explain cancellation policies, and match you with the best departure dates. This can save both money and time while reducing travel stress.",
+    "items": [
+      {
+        "title": "Find Reduced Supplement Offers",
+        "description": "Track down hidden or time-sensitive waived single supplement promotions across sailings."
+      },
+      {
+        "title": "Recommend the Best Itinerary",
+        "description": "Match your personal travel style to the ideal river, season, and route pacing."
+      },
+      {
+        "title": "Compare Cabin Categories",
+        "description": "Evaluate Sun Lounge Balcony Suites vs. Standard Suites to maximize overall value."
+      },
+      {
+        "title": "Coordinate Flights and Hotels",
+        "description": "Book pre-cruise hotel stays and seamless flight schedules to avoid airport stress."
+      },
+      {
+        "title": "Arrange Airport Transfers",
+        "description": "Ensure door-to-ship transfers are verified and scheduled without hiccups."
+      },
+      {
+        "title": "Explain Cancellation Policies",
+        "description": "Clarify cancellation policies, insurance coverage, and advocate if plans change."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "Luxury Travel Expertise",
+    "authorityBoxTitle": "Angela Hughes Authority Credentials",
+    "authoritySubtitle": "Over 40 Years of Industry Excellence & 121+ Countries Explored",
+    "experienceBadge": "40+ Years Experience",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Solo river cruising is one of the most rewarding ways to experience Europe. You enjoy total personal freedom paired with the safety, comfort, and effortless camaraderie of a boutique ship.",
+    "quoteSubtitle": "Personalized solo river cruise planning backed by 40+ years of firsthand luxury travel expertise.",
+    "ctaText": "Contact Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Is Scenic good for solo travelers?",
+      "answer": "Yes. Scenic's small ships, personalized service, and included excursions make it an excellent option for solo travelers."
+    },
+    {
+      "question": "Does Scenic charge a single supplement?",
+      "answer": "Usually yes. Most solo travelers pay a single supplement because cabins are designed for double occupancy."
+    },
+    {
+      "question": "Does Scenic ever waive the single supplement?",
+      "answer": "Scenic occasionally offers reduced or waived single supplements on select sailings and promotional departures."
+    },
+    {
+      "question": "Which Scenic itinerary is best for solo travelers?",
+      "answer": "The Rhine and Danube are excellent choices thanks to their popular itineraries, cultural attractions, and welcoming onboard atmosphere."
+    },
+    {
+      "question": "Will I feel awkward dining alone?",
+      "answer": "No. Scenic offers flexible dining and many solo travelers naturally meet others during meals and excursions."
+    },
+    {
+      "question": "Is Scenic safe for solo travelers?",
+      "answer": "Yes. Guided excursions, organized transportation, secure ships, and experienced staff provide a comfortable and safe travel experience."
+    },
+    {
+      "question": "Which cabin should a solo traveler choose?",
+      "answer": "A Balcony Suite offers excellent comfort and Scenic's signature Sun Lounge, while a Standard Suite is a more budget-friendly option."
+    },
+    {
+      "question": "Can a travel advisor help me find solo promotions?",
+      "answer": "Yes. Luxury travel advisors often know about reduced single supplement offers and can help you compare available departures."
+    },
+    {
+      "question": "Should I arrive before embarkation day?",
+      "answer": "Yes. Arriving at least one day early helps reduce stress caused by international flight delays."
+    },
+    {
+      "question": "Are excursions included for solo travelers?",
+      "answer": "Yes. Scenic's included Scenic Freechoice excursions and Scenic Enrich experiences are available to all guests."
+    },
+    {
+      "question": "Is Scenic better than an ocean cruise for solo travelers?",
+      "answer": "Many travelers prefer Scenic because of its smaller ships, easier social atmosphere, and destination-focused experiences."
+    },
+    {
+      "question": "Should I book my Scenic solo cruise through a travel advisor?",
+      "answer": "Yes. A travel advisor can help you compare itineraries, identify solo promotions, coordinate travel arrangements, and maximize the value of your cruise."
+    }
+  ],
+  "finalVerdict": {
+    "title": "A Comfortable, Enriching Way to Travel Alone",
+    "subtitle": "Final Verdict",
+    "paragraphs": [
+      "Scenic is one of the best luxury river cruise lines for solo travelers seeking comfort, safety, and enriching experiences. While single supplements can increase the overall cost, the cruise line's intimate ships, exceptional service, and included excursions make traveling alone both enjoyable and rewarding.",
+      "If you're planning your first solo river cruise, the Rhine or Danube itineraries paired with a Balcony Suite provide an excellent introduction to Scenic's luxury experience.",
+      "Booking early and working with a knowledgeable travel advisor can also help you secure the best value. At Trips & Ships Luxury Travel, we'll help you plan every detail of your solo Scenic cruise."
+    ],
+    "sections": [
+      {
+        "heading": "Our luxury planning services include",
+        "bullets": [
+          "Find reduced single supplement offers",
+          "Recommend the best itinerary",
+          "Compare cabin categories",
+          "Coordinate flights and hotels",
+          "Arrange airport transfers",
+          "Explain cancellation policies",
+          "Match you with the best departure dates",
+          "Compare Scenic with other luxury lines"
+        ]
+      }
+    ],
+    "ctaText": "Start Planning Your Solo Scenic Cruise",
+    "ctaLink": "/contact"
+  }
+}

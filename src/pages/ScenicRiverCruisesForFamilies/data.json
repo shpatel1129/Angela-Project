@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "title": "Scenic River Cruises for Families & Multigenerational Groups (2026)",
+    "metaTitle": "Scenic River Cruises for Families | Multigenerational Travel Guide",
+    "description": "Planning a Scenic River Cruise with family? Discover whether Scenic is right for multigenerational travel, including grandparents, adult children, and family celebrations.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/family-multigenerational"
+  },
+  "hero": {
+    "badge": "Family & Multigenerational Travel Guide",
+    "title": "Scenic River Cruises for Families & Multigenerational Groups",
+    "subtitle": "A Luxury Way for Families to Travel Together in Europe",
+    "description": "A luxury river cruise offers a unique way for families to travel together. Instead of constantly packing and unpacking, navigating airports, or coordinating multiple hotels, everyone travels on one elegant ship while exploring Europe's most iconic destinations.",
+    "primaryCtaText": "Start Planning Your Family Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "60-Second Quick Answer",
+    "title": "Family Travel: The Quick Answer",
+    "paragraphs": [
+      "If you're short on time — Scenic is an excellent choice for multigenerational families, especially for milestone celebrations and shared European exploration.",
+      "Spacious luxury suites, included excursions, gourmet dining, butler service, and easy transportation between destinations round out the experience. Our Recommendation: Scenic is generally better suited to teenagers and adults than very young children, since the onboard experience focuses on culture, sightseeing, and relaxation."
+    ],
+    "highlights": [
+      "Grandparents traveling with adult children",
+      "Family reunions",
+      "Anniversary celebrations",
+      "Retirement trips",
+      "Milestone birthdays",
+      "Empty nesters traveling together"
+    ],
+    "ctaText": "Start Planning Your Family Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "isScenicGoodFamilies": {
+    "eyebrow": "Family Travel Style",
+    "heading": "Is Scenic a Good Choice for Families?",
+    "paragraphs": [
+      "Yes — but it depends on your family's travel style.",
+      "Families looking for meaningful, destination-focused travel often find Scenic to be one of the best luxury vacations available."
+    ],
+    "highlights": [
+      "Cultural experiences",
+      "Luxury accommodations",
+      "Fine dining",
+      "European history",
+      "Smaller ships",
+      "Relaxed sightseeing & quality time together"
+    ],
+    "badgeTitle": "Scenic Luxury Space-Ships",
+    "badgeDescription": "Meaningful, destination-focused luxury travel tailored for families who appreciate culture, historic cities, and shared luxury amenities."
+  },
+  "whyFamiliesLove": {
+    "title": "Why Families Love River Cruising",
+    "subtitle": "Unlike traditional vacations where family members constantly separate for activities, river cruising naturally keeps everyone together. Benefits include:",
+    "inclusions": [
+      "One unpacking experience",
+      "Daily new destinations",
+      "Easy boarding and disembarkation",
+      "Walkable European cities",
+      "Organized excursions",
+      "No long coach transfers between hotels"
+    ],
+    "expertNote": "Unlike traditional vacations where family members constantly separate for activities, river cruising naturally keeps everyone together. It removes much of the stress associated with planning a complex family vacation."
+  },
+  "inlineCta1": {
+    "title": "Planning a Family Reunion or Celebration?",
+    "description": "Let us help you coordinate nearby cabins and find the best sailing for your multigenerational group.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "bestFamilyGroups": {
+    "title": "Best Multigenerational Family Groups",
+    "subtitle": "Scenic works especially well for:",
+    "personas": [
+      {
+        "icon": "Heart",
+        "title": "Grandparents & Adult Children",
+        "description": "One of Scenic's fastest-growing guest segments. Many families celebrate retirement, anniversaries, family reunions, and birthday milestones together."
+      },
+      {
+        "icon": "Users",
+        "title": "Three-Generation Families",
+        "description": "Grandparents, parents, and teenagers can each enjoy different excursion options during the day, then come together for evenings onboard."
+      },
+      {
+        "icon": "Home",
+        "title": "Empty Nesters Traveling Together",
+        "description": "Many siblings and their spouses choose Scenic for annual family vacations throughout Europe."
+      }
+    ]
+  },
+  "familyItineraries": {
+    "title": "Best Scenic Itineraries for Families",
+    "subtitle": "These river cruise routes offer exceptional experiences and shared memories for multigenerational groups.",
+    "cards": [
+      {
+        "id": "rhine-river",
+        "title": "Rhine River — Best Overall",
+        "badge": "Rhine River",
+        "bestFor": "Castles, medieval villages & easy-paced sightseeing for all ages across 4 countries",
+        "description": "A perfect introduction to Europe, with castles, medieval villages, and river scenery through Switzerland, Germany, France, and the Netherlands.",
+        "highlights": [
+          "Castles and medieval villages",
+          "River scenery",
+          "Switzerland, Germany, France & the Netherlands",
+          "Easy-paced sightseeing for all ages"
+        ]
+      },
+      {
+        "id": "danube-river",
+        "title": "Danube River — Excellent for Culture",
+        "badge": "Danube River",
+        "bestFor": "History, music & architectural heritage across iconic European capitals",
+        "description": "Ideal for families interested in European culture, with history, music, and architecture across Budapest, Vienna, and Bratislava.",
+        "highlights": [
+          "History",
+          "Music",
+          "Architecture",
+          "Budapest, Vienna & Bratislava"
+        ]
+      },
+      {
+        "id": "rhone-river",
+        "title": "Rhône River — Perfect for Food Lovers",
+        "badge": "Rhône River",
+        "bestFor": "Culinary discovery, wine regions & picturesque French countryside",
+        "description": "Perfect for families of food lovers, with the flavors of Provence, wine regions, and charming French villages.",
+        "highlights": [
+          "Food lovers",
+          "Provence",
+          "Wine regions",
+          "French villages"
+        ]
+      },
+      {
+        "id": "douro-river",
+        "title": "Douro River — Best for a Relaxed Pace",
+        "badge": "Douro River",
+        "bestFor": "Relaxed pace amid Portugal's sun-drenched vineyards & scenic landscapes",
+        "description": "Best for families seeking a relaxed pace amid Portugal's vineyards and scenic landscapes.",
+        "highlights": [
+          "Relaxed pace",
+          "Portugal",
+          "Vineyards",
+          "Scenic landscapes"
+        ]
+      }
+    ]
+  },
+  "activitiesAndDining": {
+    "title": "Activities & Dining for Families",
+    "subtitle": "Depending on the itinerary, shared experiences often become the highlights of the trip.",
+    "type": "compare",
+    "bgClass": "bg-ice-50",
+    "prosTitle": "Activities Everyone Can Enjoy",
+    "consTitle": "Dining for Families",
+    "bestFor": [
+      "Castle tours & wine estates",
+      "Local markets & guided walking tours",
+      "Museums & historic churches",
+      "Cultural performances",
+      "Scenic Freechoice excursions",
+      "Scenic Enrich exclusive events"
+    ],
+    "notBestFor": [
+      "Breakfast",
+      "Lunch",
+      "Dinner",
+      "Premium beverages",
+      "Regional cuisine",
+      "Flexible dining"
+    ],
+    "bottomNote": "Depending on the itinerary, families may enjoy a wide range of experiences together. These shared experiences often become the highlights of the trip. Dining is one of Scenic's strongest features for family travel. Meals become opportunities to gather, relax, and discuss the day's adventures. Dietary requests can usually be accommodated with advance notice."
+  },
+  "inlineCta2": {
+    "eyebrow": "Celebrations, Simplified",
+    "title": "Family Celebrations Onboard",
+    "description": "Scenic is a wonderful setting for celebrating anniversary vacations, retirement trips, birthday celebrations, graduation gifts, family reunions, and holiday travel. The onboard staff often helps recognize special occasions.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "suiteOptions": {
+    "title": "Suite Options for Families",
+    "subtitles": [
+      "Although Scenic river ships don't offer large family suites like many ocean cruise ships, families often reserve:"
+    ],
+    "features": [
+      "Adjacent suites",
+      "Nearby cabins",
+      "Multiple Balcony Suites"
+    ],
+    "summary": "A luxury travel advisor can help coordinate the best cabin locations for larger groups."
+  },
+  "isScenicGoodForChildren": {
+    "title": "Is Scenic Good for Children?",
+    "subtitle": "It depends on age. Because Scenic focuses on destination experiences rather than onboard attractions, older children generally appreciate the experience much more.",
+    "type": "pros-cons",
+    "bgClass": "bg-white",
+    "prosTitle": "Best for:",
+    "consTitle": "Less suitable for:",
+    "bestFor": [
+      "Teenagers",
+      "Young adults",
+      "College-age travelers",
+      "Adult children"
+    ],
+    "notBestFor": [
+      "Toddlers",
+      "Preschoolers",
+      "Young children seeking constant entertainment"
+    ],
+    "bottomNote": "Because Scenic focuses on destination experiences rather than onboard attractions, older children generally appreciate the experience much more."
+  },
+  "commonMistakes": {
+    "title": "Common Family Planning Mistakes",
+    "subtitle": "Planning early gives families more flexibility and better cabin availability. Avoid these common errors.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Booking Cabins Far Apart",
+        "description": "Waiting to book often results in family members spread across different decks. Coordinating adjacent or nearby suites early preserves your group experience."
+      },
+      {
+        "number": "02",
+        "title": "Waiting Too Long to Reserve Multiple Suites",
+        "description": "Scenic ships carry fewer than 200 guests. Securing multiple suites on the same departure requires advance planning before popular routes sell out."
+      },
+      {
+        "number": "03",
+        "title": "Assuming Everyone Wants the Same Excursions",
+        "description": "Different generations have different pacing and interests. Scenic Freechoice allows family members to choose personalized daily excursions and reunite for dinner."
+      },
+      {
+        "number": "04",
+        "title": "Forgetting Travel Insurance",
+        "description": "With multigenerational travel, unexpected health or schedule changes can affect anyone in the party. Comprehensive travel insurance protects your investment."
+      },
+      {
+        "number": "05",
+        "title": "Arriving on Embarkation Day After Long International Flights",
+        "description": "International flight delays or lost luggage can jeopardize boarding. Arriving at least one day early lets everyone rest and adjust to European time zones."
+      },
+      {
+        "number": "06",
+        "title": "Not Discussing Mobility Needs Before Booking",
+        "description": "Historic European cobblestones and shore excursions vary in physical demand. Reviewing mobility and fitness requirements beforehand ensures comfort for everyone."
+      }
+    ]
+  },
+  "inlineCta3": {
+    "eyebrow": "Family Travel, Elevated",
+    "title": "Ready to Plan an Unforgettable Family Trip?",
+    "description": "Let us help you coordinate cabins, compare itineraries, and plan a seamless multigenerational luxury river cruise.",
+    "buttonText": "Plan Your Family Scenic Cruise",
+    "buttonLink": "/contact"
+  },
+  "cruiseLineComparison": {
+    "title": "Scenic River Cruises vs. Large Ocean Cruises for Families",
+    "subtitle": "Families looking for meaningful travel experiences often prefer Scenic, while those seeking nonstop onboard entertainment may find a large ocean cruise more suitable.",
+    "headers": ["Scenic River Cruises", "Large Ocean Cruises"],
+    "rows": [
+      ["Small luxury ships", "Thousands of passengers"],
+      ["Cultural experiences", "Entertainment-focused"],
+      ["Walkable destinations", "More sea days"],
+      ["Quiet atmosphere", "High-energy environment"],
+      ["Personalized service", "Large-scale amenities"],
+      ["Family conversations", "Water parks & attractions"]
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Family travel involves coordinating many moving parts. A luxury travel advisor can help you coordinate every detail seamlessly.",
+    "items": [
+      {
+        "icon": "Home",
+        "title": "Reserve Nearby Cabins",
+        "description": "Lock in adjacent suites and preferred deck locations so your family stays connected throughout the cruise."
+      },
+      {
+        "icon": "Plane",
+        "title": "Coordinate Flights",
+        "description": "Manage multi-city flights and arriving schedules for family members traveling from different departure airports."
+      },
+      {
+        "icon": "Ship",
+        "title": "Arrange Airport Transfers",
+        "description": "Seamless private or group transfers between international airports, luxury hotels, and the Scenic ship."
+      },
+      {
+        "icon": "MapPin",
+        "title": "Plan Pre- & Post-Cruise Hotels",
+        "description": "Curate premier luxury hotels in gateway cities like Amsterdam, Basel, Budapest, or Paris before or after sailing."
+      },
+      {
+        "icon": "Compass",
+        "title": "Recommend the Best Itineraries",
+        "description": "Match your family's unique age range, mobility, and interests with the perfect European river and departure date."
+      },
+      {
+        "icon": "PartyPopper",
+        "title": "Organize Celebration Details",
+        "description": "Coordinate onboard celebrations for anniversaries, milestone birthdays, retirement, or family reunions."
+      },
+      {
+        "icon": "Wallet",
+        "title": "Compare Scenic with Other Luxury Lines",
+        "description": "Provide unbiased expert comparisons across luxury cruise lines to ensure the best fit for your family."
+      },
+      {
+        "icon": "Users",
+        "title": "Manage Group Reservations",
+        "description": "Handle payments, documentation, dietary preferences, and logistics across multiple family cabins."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "LUXURY TRAVEL EXPERTISE",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Traveled to more than 121 countries",
+    "experienceBadge": "40+ YEARS EXPERTISE",
+    "quote": "Family travel involves coordinating many moving parts. Having one expert coordinate everything makes planning much easier.",
+    "quoteSubtitle": "Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "ctaText": "Start Planning Your Family Scenic Cruise",
+    "ctaLink": "/contact",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is Scenic good for families?",
+      "answer": "Yes. Scenic is an excellent choice for families who enjoy cultural experiences, luxury travel, and exploring Europe together."
+    },
+    {
+      "question": "Is Scenic suitable for young children?",
+      "answer": "Scenic is generally better suited to teenagers and adults than toddlers or young children because it focuses on sightseeing and cultural experiences rather than children's entertainment."
+    },
+    {
+      "question": "What is the best Scenic itinerary for families?",
+      "answer": "The Rhine and Danube itineraries are popular choices thanks to their castles, historic cities, scenic landscapes, and family-friendly sightseeing opportunities."
+    },
+    {
+      "question": "Can families book adjoining cabins?",
+      "answer": "While Scenic does not offer many connecting cabins, nearby suites and coordinated cabin locations can often be arranged."
+    },
+    {
+      "question": "Are excursions included?",
+      "answer": "Yes. Scenic includes Scenic Freechoice excursions and Scenic Enrich experiences for all guests."
+    },
+    {
+      "question": "Is dining included?",
+      "answer": "Yes. Breakfast, lunch, dinner, premium beverages, and many onboard dining experiences are included."
+    },
+    {
+      "question": "Can Scenic accommodate special dietary needs?",
+      "answer": "Yes. Vegetarian, vegan, gluten-free, and allergy-related requests can usually be accommodated with advance notice."
+    },
+    {
+      "question": "Is Scenic good for grandparents traveling with grandchildren?",
+      "answer": "Yes, particularly with older grandchildren and teenagers who appreciate history, culture, and sightseeing."
+    },
+    {
+      "question": "Is Scenic suitable for family reunions?",
+      "answer": "Absolutely. Scenic is an excellent option for family reunions, anniversary celebrations, retirement trips, and milestone birthdays."
+    },
+    {
+      "question": "Should families arrive before embarkation day?",
+      "answer": "Yes. Arriving at least one day early helps reduce stress and gives everyone time to recover from international travel."
+    },
+    {
+      "question": "Can a travel advisor coordinate a family group booking?",
+      "answer": "Yes. A luxury travel advisor can reserve nearby cabins, coordinate flights, transfers, hotels, and help organize your entire family vacation."
+    },
+    {
+      "question": "Is Scenic better than an ocean cruise for multigenerational travel?",
+      "answer": "For families seeking a quieter, destination-focused vacation with personalized service and shared cultural experiences, Scenic is often an excellent choice. Families looking for water parks, children's clubs, and large-scale entertainment may prefer an ocean cruise instead."
+    }
+  ],
+  "finalVerdict": {
+    "title": "A Meaningful Way to Travel Together as a Family",
+    "paragraphs": [
+      "Scenic River Cruises offers one of the finest luxury travel experiences for multigenerational families who value culture, comfort, and quality time together. While it isn't designed as a children's entertainment cruise, it excels at bringing grandparents, parents, adult children, and teenagers together to explore Europe in an elegant, stress-free environment.",
+      "If your family is celebrating a milestone or simply wants to create unforgettable memories together, Scenic's all-inclusive luxury, personalized service, and immersive itineraries make it an exceptional choice. Booking early and working with a knowledgeable travel advisor can also help you secure the best cabin availability. At Trips & Ships Luxury Travel, we'll help you plan every detail of your family Scenic cruise."
+    ],
+    "sections": [
+      {
+        "title": "Our luxury planning services include:",
+        "bullets": [
+          "Reserve nearby cabins for your group",
+          "Recommend the best itinerary",
+          "Compare cabin categories",
+          "Coordinate flights and hotels",
+          "Arrange airport transfers",
+          "Explain cancellation policies",
+          "Match you with the best departure dates",
+          "Compare Scenic with other luxury lines"
+        ]
+      }
+    ],
+    "ctaText": "Start Planning Your Family Scenic Cruise",
+    "ctaLink": "/contact"
+  }
+}

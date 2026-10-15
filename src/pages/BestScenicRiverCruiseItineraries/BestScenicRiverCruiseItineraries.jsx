@@ -20,12 +20,15 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import ExpertPlanning from "../../components/ui/ExpertPlanning";
 
-/* ── Placeholder image imports (uncomment when assets are ready) ─────
-import HeroImage from "../../assets/ScenicItineraries/scenic-itineraries-hero.webp";
-import RhineImage from "../../assets/ScenicItineraries/scenic-rhine.webp";
-import DanubeImage from "../../assets/ScenicItineraries/scenic-danube.webp";
-import ShipExteriorImage from "../../assets/ScenicItineraries/scenic-ship-exterior.webp";
-─────────────────────────────────────────────────────────────────── */
+// Images
+import HeroImage from "../../assets/BestScenicRiverCruiseItineraries/best-scenic-river-cruise-itineraries-rhine-valley-hero.webp";
+import QuickAnswerImage1 from "../../assets/BestScenicRiverCruiseItineraries/best-scenic-river-cruise-itineraries-danube-river-budapest.webp";
+import QuickAnswerImage2 from "../../assets/BestScenicRiverCruiseItineraries/scenic-river-cruise-itineraries-heidelberg-freechoice-excursion.webp";
+import RhineImage from "../../assets/BestScenicRiverCruiseItineraries/best-scenic-rhine-river-cruise-itinerary-breisach-cathedral.webp";
+import InlineCtaImage from "../../assets/BestScenicRiverCruiseItineraries/not-sure-which-scenic-itinerary-fits-you-best-douro-valley-cta.webp";
+import BestValueImage from "../../assets/BestScenicRiverCruiseItineraries/best-scenic-river-cruise-itinerary-value-strasbourg-rhine.webp";
+import ReadyToChooseImage from "../../assets/BestScenicRiverCruiseItineraries/ready-to-choose-scenic-river-cruise-itinerary-rhone-avignon-cta.webp";
+import FinalCtaImage from "../../assets/BestScenicRiverCruiseItineraries/ready-to-plan-scenic-river-cruise-luxury-pool-bar-cta.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -249,7 +252,7 @@ const BestScenicRiverCruiseItineraries = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
-        // backgroundImage={HeroImage}
+        backgroundImage={HeroImage}
       />
 
       {/* 2. QUICK ANSWER */}
@@ -260,8 +263,8 @@ const BestScenicRiverCruiseItineraries = () => {
         highlights={data.quickAnswer.highlights}
         image1Placeholder="SCENIC RHINE & DANUBE"
         image2Placeholder="SCENIC LUXURY SUITE & BALCONY"
-        // image1={QuickAnswerImage1}
-        // image2={QuickAnswerImage2}
+        image1={QuickAnswerImage1}
+        image2={QuickAnswerImage2}
         ctaText={data.quickAnswer.ctaText}
         ctaLink={data.quickAnswer.ctaLink}
       />
@@ -278,7 +281,7 @@ const BestScenicRiverCruiseItineraries = () => {
         badgeTitle={data.bestOverallRhine.badgeTitle}
         badgeDescription={data.bestOverallRhine.badgeDescription}
         placeholderLabel={data.bestOverallRhine.placeholderLabel}
-        // image={RhineImage}
+        image={RhineImage}
       />
 
       {/* 5. INLINE CTA 1 */}
@@ -287,6 +290,7 @@ const BestScenicRiverCruiseItineraries = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
+        image={InlineCtaImage}
         theme="dark"
       />
 
@@ -305,7 +309,7 @@ const BestScenicRiverCruiseItineraries = () => {
         subtitle={data.bestValue.subtitle}
         items={data.bestValue.items}
         imageOverlayText="Rhine & Danube: Greatest Overall Itinerary Value"
-        // image={RhineImage}
+        image={BestValueImage}
       />
 
       {/* 8. WHICH ITINERARY SHOULD YOU CHOOSE? */}
@@ -321,7 +325,8 @@ const BestScenicRiverCruiseItineraries = () => {
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
-        theme="light"
+        image={ReadyToChooseImage}
+        theme="dark"
       />
 
       {/* 10. SCENIC VS OTHER RIVER CRUISE ITINERARIES */}
@@ -376,7 +381,7 @@ const BestScenicRiverCruiseItineraries = () => {
         buttonText={data.finalCta.buttonText}
         buttonLink={data.finalCta.buttonLink}
         theme="dark"
-        // image={ShipExteriorImage}
+        image={FinalCtaImage}
       />
     </div>
   );

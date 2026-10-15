@@ -1109,7 +1109,7 @@ const Nav = () => {
                 Scenic River Cruises Best Cabins
               </NavLink>
 
-              {/* <NavLink
+              <NavLink
                 to="/scenic-river-cruises/best-itineraries"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -1131,7 +1131,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 Scenic River Cruises Food & Dining Review
-              </NavLink> */}
+              </NavLink>
 
               <NavLink
                 to="/scenic-river-cruises/dress-code-packing"
@@ -1151,7 +1151,7 @@ const Nav = () => {
               </NavLink>
 
 
-              <NavLink
+              {/* <NavLink
                 to="/scenic-river-cruises/solo-travel"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
@@ -1183,7 +1183,7 @@ const Nav = () => {
                 onClick={toggleMenu}
               >
                 Scenic River Cruises Freechoice & Enrich
-              </NavLink>
+              </NavLink> */}
 
               <NavLink
                 to="/scenic-river-cruises/butler-service"
@@ -2838,7 +2838,7 @@ const Nav = () => {
             </NavLink>
 
 
-            {/* <NavLink
+            <NavLink
               to="/scenic-river-cruises/best-itineraries"
               className="nav-dropdown-single"
               onClick={toggleMenu}
@@ -2861,7 +2861,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Scenic River Cruises Food & Dining Review
-            </NavLink> */}
+            </NavLink>
 
             <NavLink
               to="/scenic-river-cruises/dress-code-packing"
@@ -2879,7 +2879,7 @@ const Nav = () => {
               Scenic River Cruises Airfare & Transfers
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/scenic-river-cruises/solo-travel"
               className="nav-dropdown-single"
               onClick={toggleMenu}
@@ -2911,7 +2911,7 @@ const Nav = () => {
               onClick={toggleMenu}
             >
               Scenic River Cruises Freechoice & Enrich
-            </NavLink>
+            </NavLink> */}
 
 
             <NavLink

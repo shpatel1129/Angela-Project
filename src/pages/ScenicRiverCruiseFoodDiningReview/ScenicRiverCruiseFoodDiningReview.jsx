@@ -22,18 +22,21 @@ import LuxuryIntroSection from "../../components/ui/LuxuryIntroSection";
 import CardGrid from "../../components/ui/CardGrid";
 import ExpertAuthorityChecklist from "../../components/ui/ExpertAuthorityChecklist";
 
-// Assets
-// import ScenicDiningImage from "../../assets/ScenicRiverCruises/scenic-gourmet-fine-dining-culinary-experience.webp";
-// import ScenicLoungeImage from "../../assets/ScenicRiverCruises/scenic-luxury-river-cruise-onboard-lounge.webp";
-// import ScenicBookingCTAImage from "../../assets/ScenicRiverCruises/scenic-ultra-luxury-river-cruising-expert-booking-cta.webp";
-
-// Asset Images (Commented out)
-// import HeroImage from "../../assets/ScenicFoodDining/scenic-dining-hero.jpg";
-// import DiningRoomImage from "../../assets/ScenicFoodDining/scenic-crystal-dining.jpg";
-// import PortobellosImage from "../../assets/ScenicFoodDining/scenic-portobellos.jpg";
-// import RiverCafeImage from "../../assets/ScenicFoodDining/scenic-river-cafe.jpg";
-// import WineImage from "../../assets/ScenicFoodDining/scenic-wine-pairing.jpg";
-// import AboutImage from "../../assets/AboutAngela.jpeg";
+// Images from assets/ScenicRiverCruiseFoodDiningReview
+import HeroImage from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-food-and-dining-review-hero.webp";
+import QuickAnswerImage1 from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-overall-dining-rating-quick-answer.webp";
+import QuickAnswerImage2 from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-gourmet-dining-experience.jpg";
+import OverallDiningExperienceImage from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-overall-dining-experience-boutique.webp";
+import CuriousWhatElseImage from "../../assets/ScenicRiverCruiseFoodDiningReview/curious-what-else-is-included-scenic-dining-cta.webp";
+import BreakfastImage from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-included-gourmet-breakfast.webp";
+import LunchImage from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-regional-lunch-dining.webp";
+import DinnerImage from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-multi-course-dinner-wine-pairing.webp";
+import AreDrinksIncludedImage from "../../assets/ScenicRiverCruiseFoodDiningReview/are-drinks-included-scenic-river-cruises-wine-spirits.webp";
+import ReadyToTasteImage from "../../assets/ScenicRiverCruiseFoodDiningReview/ready-to-taste-your-way-through-europe-scenic-cta.webp";
+import DiningServiceImage from "../../assets/ScenicRiverCruiseFoodDiningReview/scenic-river-cruise-personalized-dining-service-butler.webp";
+import UnpackOnceImage from "../../assets/ScenicRiverCruiseFoodDiningReview/unpack-once-dine-excellently-everyday-scenic-cta.webp";
+import IsScenicDiningWorthItImage from "../../assets/ScenicRiverCruiseFoodDiningReview/is-scenic-dining-worth-it-culinary-value-review.webp";
+import FinestDiningAfloatImage from "../../assets/ScenicRiverCruiseFoodDiningReview/one-of-the-finest-dining-experiences-afloat-scenic-cta.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -145,6 +148,14 @@ const schemaData = {
 };
 
 const ScenicRiverCruiseFoodDining = () => {
+  const mealItems = data.mealsOfDay.items.map((item) => {
+    let image;
+    if (item.title === "Breakfast") image = BreakfastImage;
+    else if (item.title === "Lunch") image = LunchImage;
+    else if (item.title === "Dinner") image = DinnerImage;
+    return { ...item, image };
+  });
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-navy-950">
       <Helmet>
@@ -166,7 +177,7 @@ const ScenicRiverCruiseFoodDining = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
-        // backgroundImage={HeroImage}
+        backgroundImage={HeroImage}
       />
 
       {/* ── 2. QUICK ANSWER ── */}
@@ -178,8 +189,8 @@ const ScenicRiverCruiseFoodDining = () => {
           highlights={data.quickAnswer.highlights}
           ctaText={data.quickAnswer.ctaText}
           ctaLink={data.quickAnswer.ctaLink}
-          // image1={DiningRoomImage}
-          // image2={PortobellosImage}
+          image1={QuickAnswerImage1}
+          image2={QuickAnswerImage2}
         />
       </div>
 
@@ -192,7 +203,7 @@ const ScenicRiverCruiseFoodDining = () => {
           highlights={data.overallExperience.highlights}
           badgeTitle={data.overallExperience.badgeTitle}
           badgeDescription={data.overallExperience.badgeDescription}
-          // image={DiningRoomImage}
+          image={OverallDiningExperienceImage}
         />
       </div>
 
@@ -202,7 +213,7 @@ const ScenicRiverCruiseFoodDining = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
-        // image={RiverCafeImage}
+        image={CuriousWhatElseImage}
         theme="dark"
       />
 
@@ -221,7 +232,7 @@ const ScenicRiverCruiseFoodDining = () => {
         <ThreeColumnGrid
           title={data.mealsOfDay.title}
           subtitle={data.mealsOfDay.subtitle}
-          items={data.mealsOfDay.items}
+          items={mealItems}
         />
       </div>
 
@@ -231,7 +242,7 @@ const ScenicRiverCruiseFoodDining = () => {
           title={data.drinksIncluded.title}
           inclusions={data.drinksIncluded.inclusions}
           expertNote={data.drinksIncluded.expertNote}
-          // image={WineImage}
+          image={AreDrinksIncludedImage}
         />
       </div>
 
@@ -241,8 +252,8 @@ const ScenicRiverCruiseFoodDining = () => {
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
-        // image={PortobellosImage}
-        theme="light"
+        image={ReadyToTasteImage}
+        theme="dark"
       />
 
       {/* ── 7. DIETARY REQUIREMENTS ── */}
@@ -268,7 +279,7 @@ const ScenicRiverCruiseFoodDining = () => {
         <EditorialFeatureShowcase
           title={data.diningService.title}
           subtitle={data.diningService.subtitle}
-          // image={ScenicDiningImage}
+          image={DiningServiceImage}
           features={data.diningService.features}
         />
       </div>
@@ -284,7 +295,7 @@ const ScenicRiverCruiseFoodDining = () => {
         description={data.inlineCta3.description}
         buttonText={data.inlineCta3.buttonText}
         buttonLink={data.inlineCta3.buttonLink}
-        // image={HeroImage}
+        image={UnpackOnceImage}
         theme="dark"
       />
 
@@ -299,7 +310,7 @@ const ScenicRiverCruiseFoodDining = () => {
           heading={data.isDiningWorthIt.title}
           description={data.isDiningWorthIt.paragraphs.join('\n\n')}
           highlights={data.isDiningWorthIt.highlights}
-          // image={ScenicLoungeImage}
+          image={IsScenicDiningWorthItImage}
         />
       </div>
 
@@ -355,7 +366,7 @@ const ScenicRiverCruiseFoodDining = () => {
           description={data.finalVerdict.paragraphs[1]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
-          // image={ScenicBookingCTAImage}
+          image={FinestDiningAfloatImage}
           theme="dark"
         />
       </div>

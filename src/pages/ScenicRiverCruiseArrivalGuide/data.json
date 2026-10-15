@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "title": "Scenic River Cruise Airfare, Transfers & Arrival Guide | Flights & Transportation",
+    "metaTitle": "Scenic River Cruise Flights & Transfers | Complete Arrival Guide",
+    "description": "Planning your Scenic River Cruise? Learn about airfare, airport transfers, arrival times, pre-cruise hotels, embarkation, luggage, and expert travel tips for a stress-free vacation.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/airfare-transfers"
+  },
+  "hero": {
+    "badge": "Scenic Airfare, Transfers & Arrival Guide",
+    "title": "Scenic River Cruise Airfare, Transfers & Arrival Guide",
+    "subtitle": "Flights, Transportation & Smooth Embarkation",
+    "description": "Planning your flights and arrival is one of the most important parts of a successful Scenic River Cruise.",
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "Quick Answer",
+    "title": "Airfare & Transfers: The 60-Second Answer",
+    "paragraphs": [
+      "If you're short on time here's what to know before you book your flights and arrival arrangements.",
+      "Our Recommendation: Book your flights early, arrive the day before your cruise, and consider working with a luxury travel advisor to coordinate flights, hotels, and transfers."
+    ],
+    "highlights": [
+      "Airfare usually isn't included in the cruise fare",
+      "Airport transfers are often included on eligible itineraries",
+      "Arrive at least one day before embarkation",
+      "Scenic staff assist with luggage at embarkation",
+      "Book flights early for the best fares",
+      "Travel insurance is strongly recommended"
+    ],
+    "ctaText": "Speak with Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "airfareInclusions": {
+    "title": "Does Scenic Include Airfare?",
+    "subtitle": "In most cases, airfare is not automatically included in the standard Scenic River Cruise fare.",
+    "inclusions": [
+      "Promotional airfare offers",
+      "Reduced airfare packages",
+      "Business-class upgrade promotions",
+      "Customized vacation packages that include flights",
+      "Fly Free promotions on select itineraries",
+      "Flexible routing options with major airlines",
+      "Convenient pre- and post-cruise flight connections"
+    ],
+    "expertNote": "In most cases, airfare is not automatically included in the standard Scenic River Cruise fare. Because offers change throughout the year, it's worth comparing current promotions before booking."
+  },
+  "airportTransfers": {
+    "eyebrow": "Airport Transfers",
+    "title": "Are Airport Transfers Included?",
+    "paragraphs": [
+      "One of Scenic's luxury benefits is that airport transfers are often included on eligible itineraries. Transfers are designed to ensure seamless transit from arrival to boarding.",
+      "Eligibility depends on your booking conditions, itinerary, and how your flights were arranged. Always review your confirmation documents for exact details."
+    ],
+    "highlights": [
+      "Between the airport and your ship",
+      "Between the airport and your hotel (if arranged through Scenic)",
+      "At the beginning and end of your cruise"
+    ],
+    "badgeTitle": "Door-to-Ship Transfers",
+    "badgeDescription": "Seamless luxury airport transfers included on eligible itineraries."
+  },
+  "inlineCta1": {
+    "title": "Not Sure How to Book Your Flights?",
+    "description": "Let us help you compare airfare options, confirm transfer eligibility, and plan your ideal arrival for your Scenic itinerary.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "bookingFlights": {
+    "title": "Should You Book Flights Through Scenic?",
+    "subtitle": "There are advantages to both options here's how they compare.",
+    "items": [
+      {
+        "category": "All-in-One Coordination",
+        "title": "Booking Through Scenic",
+        "description": "Booking your flights through Scenic can simplify the entire trip, especially for guests who prefer a single point of contact for their travel arrangements.",
+        "features": [
+          "Coordinated flight schedules matched to embarkation",
+          "Easier transfer arrangements directly from airport to ship",
+          "One point of contact for air and cruise arrangements",
+          "Simplified travel planning with integrated itineraries"
+        ],
+        "highlight": "Best for travelers seeking effortless, single-source coordination"
+      },
+      {
+        "category": "Schedule Flexibility",
+        "title": "Booking Flights Independently",
+        "description": "Some guests prefer to book their own flights for more control over airline choice and loyalty benefits. If booking independently, allow plenty of time between your flight and embarkation.",
+        "features": [
+          "Greater airline and alliance choice",
+          "Frequent flyer and loyalty program benefits",
+          "Flexible departure times and custom routing",
+          "Opportunity to use credit card reward points or miles"
+        ],
+        "highlight": "Best for travelers with airline loyalty status or custom schedules"
+      }
+    ]
+  },
+  "hotelsAndLuggage": {
+    "title": "Pre-Cruise Hotels & Luggage Handling",
+    "subtitle": "Arrival Essentials",
+    "cards": [
+      {
+        "title": "Should You Stay in a Hotel Before Your Cruise?",
+        "items": [
+          "Yes especially recommended for long-haul international flights",
+          "Recover comfortably from jet lag before embarkation begins",
+          "Significantly reduce travel stress and missed connection risks",
+          "Extra time to explore your European embarkation city at leisure",
+          "Many travelers also extend their vacation with post-cruise hotel stays"
+        ]
+      },
+      {
+        "title": "Luggage Handling & Valuables",
+        "items": [
+          "Scenic staff assist with luggage during embarkation and disembarkation",
+          "Enjoy less heavy lifting and hassle-free transit to your stateroom",
+          "Smooth, seamless arrival and departure experience at every port",
+          "Keep valuables, medications, passports, and travel documents in your carry-on",
+          "Label all luggage pieces clearly with Scenic baggage tags"
+        ]
+      }
+    ]
+  },
+  "whenToArrive": {
+    "theme": "white",
+    "imagePosition": "left",
+    "title": "When Should You Arrive?",
+    "subtitles": [
+      "Our recommendation: Arrive at least one day before embarkation to protect against international flight disruptions."
+    ],
+    "features": [
+      "Weather delays and severe weather disruptions",
+      "Airline schedule changes and flight cancellations",
+      "Missed tight flight connections at hub airports",
+      "Lengthy customs and European immigration queues",
+      "Delayed or misplaced checked luggage"
+    ],
+    "summary": "Arriving early reduces stress and gives you time to explore your embarkation city. To minimize the impact of delays, book nonstop flights when possible, purchase comprehensive travel insurance, and keep Scenic's emergency contact information accessible.",
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  },
+  "embarkationVsDeparture": {
+    "title": "Embarkation Day vs. Departure Day",
+    "subtitle": "Here's what to expect at the start and end of your Scenic River Cruise.",
+    "headers": ["Embarkation Day", "Departure Day"],
+    "rows": [
+      ["Arrive at the ship or designated meeting point", "Breakfast is typically served"],
+      ["Check in with Scenic staff", "Luggage assistance is provided"],
+      ["Luggage is collected and delivered to your suite", "Included transfers operate according to your itinerary"],
+      ["Receive your cruise information and ship orientation", "Guests continue to the airport or post-cruise accommodations"],
+      ["Relax before departure", "Avoid booking flights too early in the morning"]
+    ]
+  },
+  "embarkationCities": {
+    "title": "Popular Embarkation Cities",
+    "subtitle": "Depending on your itinerary, Scenic cruises often begin or end in these cities destinations worth exploring in their own right.",
+    "cards": [
+      {
+        "title": "Amsterdam",
+        "description": "Historic canal rings, world-class art museums, and picturesque merchant houses make Amsterdam a vibrant gateway for Rhine sailings.",
+        "features": [
+          "Canal-lined streets and historic waterways",
+          "World-class museums including the Rijksmuseum"
+        ]
+      },
+      {
+        "title": "Basel",
+        "description": "Located where Switzerland, France, and Germany meet, Basel offers ancient history, modern architecture, and scenic Rhine vistas.",
+        "features": [
+          "Gateway to the majestic Swiss Alps",
+          "Vibrant international art and museum scene"
+        ]
+      },
+      {
+        "title": "Budapest",
+        "description": "The Queen of the Danube features grand thermal baths, the illuminated Parliament Building, and castle district panoramas.",
+        "features": [
+          "Historic mineral-rich thermal bathhouses",
+          "Stunning panoramic Danube river views"
+        ]
+      },
+      {
+        "title": "Vienna",
+        "description": "The capital of classical music, Vienna enchants with grand imperial palaces, historic coffeehouses, and baroque architecture.",
+        "features": [
+          "Imperial Habsburg palaces and gardens",
+          "Rich classical musical heritage and opera"
+        ]
+      },
+      {
+        "title": "Paris",
+        "description": "The City of Light serves as the romantic embarkation point for Seine River cruises through Normandy to the Atlantic coast.",
+        "features": [
+          "World-famous iconic monuments and landmarks",
+          "World-renowned gastronomy and haute cuisine"
+        ]
+      },
+      {
+        "title": "Porto",
+        "description": "Portugal's northern gem welcomes Douro cruisers with colorful tiered houses, medieval streets, and historic wine cellars.",
+        "features": [
+          "Riverside Ribeira UNESCO World Heritage district",
+          "Historic home of Port wine lodges and tastings"
+        ]
+      }
+    ]
+  },
+  "inlineCta2": {
+    "title": "Getting Around During Your Cruise",
+    "description": "Most included excursions use luxury motor coaches, comfortable minibuses, walking tours, and Scenic's private transportation where applicable coordinated to match your daily itinerary.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "transitAndDelays": {
+    "title": "Transit During Your Cruise & Flight Delay Protocols",
+    "prosTitle": "Transportation During Your Cruise",
+    "consTitle": "What Happens if Your Flight Is Delayed?",
+    "bestFor": [
+      "Luxury motor coaches for seamless regional excursions",
+      "Comfortable air-conditioned minibuses for boutique tours",
+      "Guided walking tours in historic town centers",
+      "Scenic's private transportation where applicable"
+    ],
+    "notBestFor": [
+      "Book nonstop flights when possible to minimize connections",
+      "Arrive at least one day early to avoid embarkation stress",
+      "Purchase comprehensive travel insurance with flight protection",
+      "Keep Scenic's emergency contact information easily accessible"
+    ],
+    "bottomNote": "Transfers and excursions are coordinated to match your daily itinerary. Inform Scenic or your travel advisor immediately if flight disruptions occur."
+  },
+  "airfareTransferTips": {
+    "title": "Airfare & Transfer Tips",
+    "subtitle": "Expert advice to ensure seamless arrivals, luggage handling, and complete peace of mind.",
+    "points": [
+      "Book flights early for the best fares and routing options",
+      "Compare Scenic promotions before purchasing airfare independently",
+      "Arrive one day early to absorb unexpected travel delays",
+      "Keep important documents, passports, and medications in your carry-on",
+      "Label all luggage clearly with Scenic destination tags",
+      "Confirm transfer details and meeting locations before departure",
+      "Consider comprehensive travel insurance for added peace of mind"
+    ]
+  },
+  "commonMistakes": {
+    "title": "Common Travel Mistakes",
+    "subtitle": "Many first-time Scenic guests make these mistakes. Working with a luxury travel advisor can help you avoid them.",
+    "items": [
+      {
+        "title": "Flying in on Embarkation Day",
+        "description": "Tight same-day arrivals leave zero margin for flight delays, tarmac holds, or missed international connections."
+      },
+      {
+        "title": "Booking Flights with Multiple Tight Connections",
+        "description": "Selecting the cheapest ticket with short layovers significantly increases the risk of missed connections and lost luggage."
+      },
+      {
+        "title": "Forgetting Comprehensive Travel Insurance",
+        "description": "Traveling abroad without coverage leaves you vulnerable to unforeseen medical issues, cancellation costs, and delay expenses."
+      },
+      {
+        "title": "Assuming Transfers Are Automatically Included",
+        "description": "Failing to check specific fare inclusions and eligibility rules may lead to unexpected out-of-pocket taxi or rail costs."
+      },
+      {
+        "title": "Packing Passports in Checked Luggage",
+        "description": "Always keep passports, boarding documents, and vital medications in your carry-on bag at all times during travel."
+      },
+      {
+        "title": "Booking Very Early Morning Return Flights",
+        "description": "Scheduling flights before 11:00 AM on disembarkation day causes unnecessary morning stress and risk of missed flights."
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book Through a Luxury Travel Advisor?",
+    "subtitle": "Personalized Trip Preparation",
+    "description": "Coordinating flights, hotels, transfers, and cruise details can quickly become complicated. A luxury travel advisor can compare airfare options, explain Scenic transfer policies, arrange pre- and post-cruise hotels, coordinate airport transfers, recommend ideal flight schedules, monitor promotions, and provide assistance if travel plans change.",
+    "items": [
+      {
+        "title": "Compare Airfare Options",
+        "description": "Evaluate commercial airline fares against Scenic air promotions and business-class upgrades to find the highest value."
+      },
+      {
+        "title": "Explain Scenic Transfer Policies",
+        "description": "Verify transfer eligibility, luggage handling procedures, and airport meeting points before departure."
+      },
+      {
+        "title": "Arrange Pre- & Post-Cruise Hotels",
+        "description": "Coordinate luxury 5-star accommodations before and after your cruise for seamless transitions and jet lag recovery."
+      },
+      {
+        "title": "Coordinate Airport Transfers",
+        "description": "Ensure private or included door-to-ship transfers align perfectly with your exact flight schedule."
+      },
+      {
+        "title": "Recommend Ideal Flight Schedules",
+        "description": "Select sensible flight times that prevent rushed embarkations and tight airport connections."
+      },
+      {
+        "title": "Monitor Promotions & Support",
+        "description": "Track ongoing air promotions and provide personalized, immediate assistance if travel plans change."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "Luxury Travel Expertise",
+    "authorityBoxTitle": "Angela Hughes Authority Credentials",
+    "authoritySubtitle": "Over 40 Years of Industry Excellence & 121+ Countries Explored",
+    "experienceBadge": "40+ Years Experience",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Coordinating international flights, transfers, and embarkation requires careful timing. When planned thoughtfully, your journey begins with complete ease and zero stress.",
+    "quoteSubtitle": "Personalized flight, transfer, and cruise coordination backed by 40+ years of firsthand luxury travel expertise.",
+    "ctaText": "Contact Angela Hughes",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "Is airfare included with Scenic River Cruises?",
+      "answer": "Usually no. Airfare is generally separate unless included in a special promotion or customized vacation package."
+    },
+    {
+      "question": "Are airport transfers included?",
+      "answer": "Many Scenic itineraries include airport transfers under certain booking conditions. Check your confirmation documents for eligibility."
+    },
+    {
+      "question": "Should I arrive the day before my cruise?",
+      "answer": "Yes. Arriving one day before embarkation helps avoid stress caused by flight delays or missed connections."
+    },
+    {
+      "question": "Can Scenic book my flights?",
+      "answer": "Scenic may assist with air arrangements as part of selected packages or promotions. Your travel advisor can also help coordinate flights."
+    },
+    {
+      "question": "What happens if my flight is delayed?",
+      "answer": "Contact Scenic or your travel advisor immediately. Travel insurance and arriving early are the best ways to minimize disruption."
+    },
+    {
+      "question": "Are luggage transfers included?",
+      "answer": "Yes. Scenic staff typically assist with luggage during embarkation and disembarkation."
+    },
+    {
+      "question": "Should I stay in a hotel before my cruise?",
+      "answer": "Most experienced travelers recommend staying at least one night before embarkation, particularly after international flights."
+    },
+    {
+      "question": "When should I book my flights?",
+      "answer": "Booking several months in advance often provides the best combination of pricing and flight availability."
+    },
+    {
+      "question": "Can I book my own airfare?",
+      "answer": "Yes. Many guests choose to book independently using airline loyalty programs or preferred carriers."
+    },
+    {
+      "question": "Should I purchase travel insurance?",
+      "answer": "Yes. Travel insurance is strongly recommended to protect against unexpected delays, cancellations, medical emergencies, and lost luggage."
+    },
+    {
+      "question": "How early should I book my return flight?",
+      "answer": "Avoid scheduling very early departures. Allow sufficient time after disembarkation for transfers, airport security, and check-in."
+    },
+    {
+      "question": "Should I use a travel advisor for flights and transfers?",
+      "answer": "Yes. A luxury travel advisor can coordinate flights, hotels, airport transfers, and your Scenic cruise into one seamless itinerary."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Plan Your Arrival for a Smooth Start",
+    "subtitle": "Final Verdict",
+    "paragraphs": [
+      "Planning your airfare and arrival carefully is one of the easiest ways to ensure your Scenic River Cruise begins smoothly. While airfare is generally booked separately, Scenic often includes airport transfers on eligible bookings and provides excellent support throughout the embarkation process.",
+      "For the most relaxed experience, arrive at least one day before your cruise and confirm your transfer arrangements in advance. At Trips & Ships Luxury Travel, we'll work with you as a trusted advisor who can coordinate every detail of your journey, from flights and transfers to hotels and embarkation."
+    ],
+    "sections": [
+      {
+        "heading": "Our Luxury Planning Services Include",
+        "bullets": [
+          "Compare airfare options",
+          "Explain Scenic transfer policies",
+          "Arrange pre- and post-cruise hotels",
+          "Coordinate airport transfers",
+          "Recommend ideal flight schedules",
+          "Monitor promotions",
+          "Compare Scenic with other luxury lines",
+          "Provide assistance if travel plans change"
+        ]
+      }
+    ],
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "meta": {
+    "title": "Scenic Freechoice Excursions & Scenic Enrich Experiences",
+    "metaTitle": "Scenic Freechoice & Enrich | Excursions & Experiences Guide",
+    "description": "Discover Scenic Freechoice excursions and Scenic Enrich experiences. Learn how Scenic excursions work, what's included, the best activities, and how to choose experiences on your river cruise.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/freechoice-enrich/"
+  },
+  "hero": {
+    "title": "Scenic Freechoice Excursions & Scenic Enrich Experiences",
+    "subtitle": "Personalized Shore Sightseeing & Exclusive Cultural Access in Europe",
+    "description": "One of the biggest advantages of a Scenic River Cruise is that the experience doesn't end when the ship reaches port. Scenic is designed around destination immersion, giving travelers opportunities to explore cities, villages, historic landmarks, food and wine regions, and cultural attractions through a choice of included activities.",
+    "badge": "Scenic Excursion Guide 2026",
+    "primaryCtaText": "Start Planning Your Scenic Cruise",
+    "primaryCtaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "The Quick Answer",
+    "title": "Scenic Freechoice vs Scenic Enrich: The Quick Answer",
+    "paragraphs": [
+      "Scenic Freechoice gives you a selection of included excursions and activities, allowing you to personalize your day. Scenic Enrich focuses on exclusive experiences designed specifically for Scenic guests.",
+      "The easiest way to remember it: Freechoice = choose your experience. Enrich = experience something you couldn't easily arrange yourself."
+    ],
+    "highlights": [
+      "Freechoice: Choose your preferred activity in every port",
+      "Enrich: Exclusive destination events & private access",
+      "Both programs are included on eligible European itineraries",
+      "Combine personalized choices with private cultural access"
+    ],
+    "ctaText": "Explore Scenic Itineraries",
+    "ctaLink": "/contact"
+  },
+  "quickAnswerTable": {
+    "title": "Freechoice vs Enrich Quick Comparison",
+    "headers": ["Feature", "Scenic Freechoice", "Scenic Enrich"],
+    "rows": [
+      ["Main Purpose", "Choose your preferred activity", "Exclusive destination experience"],
+      ["Experience Style", "Variety and flexibility", "Special-access cultural experiences"],
+      ["Best For", "Travelers who want choices", "Travelers seeking something unique"],
+      ["Included?", "Included experiences on eligible itineraries", "Included exclusive experiences on eligible itineraries"],
+      ["Examples", "Walking tours, museums, food & wine", "Private cultural events, performances, special venues"]
+    ]
+  },
+  "whatIsFreechoice": {
+    "eyebrow": "Personalize Every Port Day",
+    "heading": "What Is Scenic Freechoice?",
+    "paragraphs": [
+      "Scenic Freechoice is Scenic's system for giving guests a selection of activities and excursions. Instead of requiring everyone to follow exactly the same shore excursion, guests can often choose an experience that better matches their interests and activity level.",
+      "The exact choices vary by itinerary and departure, with expert local guides leading many included activities."
+    ],
+    "highlights": [
+      "History",
+      "Architecture",
+      "Art",
+      "Food",
+      "Wine",
+      "Local culture",
+      "Active exploration",
+      "Walking",
+      "Scenic sightseeing"
+    ],
+    "badgeTitle": "Personalize Every Port Day",
+    "badgeDescription": "Tailor your shore sightseeing to match your personal pace, interests, and energy levels."
+  },
+  "howFreechoiceWorks": {
+    "title": "How Does Scenic Freechoice Work?",
+    "subtitle": "Simple By Design — A Personalized Vacation, Even in a Group",
+    "steps": [
+      {
+        "title": "Review Available Activities",
+        "description": "Review your available activities for your itinerary before and during your sailing, choosing from a curated selection in each destination."
+      },
+      {
+        "title": "Consider Your Travel Style",
+        "description": "Consider your travel style — relaxed, food-focused, active, or cultural — and pick what fits your mood and energy level each day."
+      },
+      {
+        "title": "Select Your Preferred Experience",
+        "description": "Select the experience that appeals most to you on each port day. Scenic takes care of all reservations, tickets, and expert local guides."
+      },
+      {
+        "title": "Enjoy Destination Immersion & Flexibility",
+        "description": "Enjoy your destination while Scenic handles the logistics. This flexibility is particularly valuable when traveling with a spouse, family, or multigenerational group because not everyone has to have exactly the same interests."
+      }
+    ]
+  },
+  "inlineCta1": {
+    "title": "Not Sure Which Excursions Are Right for You?",
+    "description": "Let us help you match your Scenic itinerary to the Freechoice and Enrich experiences that fit your travel style.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "whatIsEnrich": {
+    "title": "What Is Scenic Enrich?",
+    "inclusions": [
+      "Private cultural venues",
+      "Exclusive performances",
+      "Historic locations",
+      "Special evening events",
+      "Local traditions",
+      "Unique access that isn't part of a typical sightseeing tour"
+    ],
+    "expertNote": "Exclusive to Scenic Guests. The goal isn't simply to see a destination. It's to experience it in a way that feels special, personal, and difficult to replicate independently."
+  },
+  "freechoiceExamples": {
+    "title": "Scenic Freechoice Examples",
+    "subtitle": "The exact excursions vary by itinerary, but Scenic Freechoice covers a broad range of interests tailored to every traveler.",
+    "categories": [
+      {
+        "title": "History & Culture",
+        "description": "Perfect for travelers interested in Europe's past, architecture, and enduring artistic heritage.",
+        "bestFor": "History buffs, architecture enthusiasts, and cultural explorers",
+        "highlights": [
+          "Historic city tours led by expert local guides",
+          "Centuries-old castles & majestic palaces",
+          "Cathedrals and historic churches",
+          "World-class art & history museums",
+          "UNESCO World Heritage-listed sites"
+        ]
+      },
+      {
+        "title": "Food & Wine",
+        "description": "Ideal for culinary travelers seeking authentic regional flavors, vineyard cellar tastings, and market tours.",
+        "bestFor": "Foodies, wine connoisseurs, and culinary enthusiasts",
+        "highlights": [
+          "Private wine tastings in premier river valley cellars",
+          "Regional food experiences and specialty tastings",
+          "Culinary demonstrations and cooking masterclasses",
+          "Guided local market tours with Scenic chefs",
+          "Historic winery estate tours and vineyard walks"
+        ]
+      },
+      {
+        "title": "Active Experiences",
+        "description": "Some itineraries provide more active options for travelers who want to move beyond traditional sightseeing.",
+        "bestFor": "Energetic guests who enjoy walking, cycling, and outdoor recreation",
+        "highlights": [
+          "Guided walking tours at varied brisk paces",
+          "Scenic e-bike and cycling excursions along the river",
+          "Scenic nature hikes and hill climbs with panoramic views",
+          "Active exploration of countryside trails and medieval ramparts"
+        ]
+      },
+      {
+        "title": "Scenic Sightseeing",
+        "description": "Not every traveler wants a strenuous excursion. Scenic offers gentle, comfortable ways to appreciate every destination.",
+        "bestFor": "Guests seeking relaxed, leisurely exploration without strenuous walking",
+        "highlights": [
+          "Panoramic coach tours with photo stops",
+          "Scenic drives through picturesque river valleys",
+          "Guided leisurely sightseeing with minimal stairs",
+          "Charming village and town strolls at your own pace"
+        ]
+      }
+    ]
+  },
+  "enrichExamples": {
+    "title": "Scenic Enrich Examples",
+    "subtitle": "Scenic Enrich experiences are designed around the destination rather than a standard sightseeing checklist. Note: Enrich experiences vary by itinerary and departure.",
+    "cards": [
+      {
+        "icon": "Music",
+        "title": "Exclusive Performances",
+        "description": "Enjoy cultural performances in distinctive settings.",
+        "bullets": [
+          "Private classical concerts in opulent palaces",
+          "Intimate performances exclusive to Scenic guests"
+        ]
+      },
+      {
+        "icon": "Building2",
+        "title": "Historic Venues",
+        "description": "Visit locations that provide a deeper connection to the destination.",
+        "bullets": [
+          "Private palace and castle receptions",
+          "Centuries-old historic landmarks after public hours"
+        ]
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Private Cultural Experiences",
+        "description": "Experience local traditions in a more intimate environment.",
+        "bullets": [
+          "Behind-the-scenes artisan access",
+          "Direct immersion into regional heritage and customs"
+        ]
+      },
+      {
+        "icon": "Star",
+        "title": "Special Evening Events",
+        "description": "Some Enrich experiences are particularly memorable because they take place outside the normal tourist schedule.",
+        "bullets": [
+          "After-hours access to world-famous sites",
+          "Exclusive evening destination celebrations"
+        ]
+      }
+    ]
+  },
+  "areTheyIncluded": {
+    "title": "Are Freechoice & Enrich Included?",
+    "prosTitle": "Are Scenic Freechoice Excursions Included?",
+    "consTitle": "Are Scenic Enrich Experiences Included?",
+    "bestFor": [
+      "Yes, Scenic's river cruise program promotes included excursion choices as part of its all-inclusive offering.",
+      "Scenic's published materials specifically describe Scenic Freechoice activities and Scenic Enrich events as included elements.",
+      "Important Note: The exact number and type of experiences vary by itinerary.",
+      "Don't assume that an excursion available on one Rhine sailing will necessarily be available on every Rhine departure."
+    ],
+    "notBestFor": [
+      "Scenic markets Enrich as part of its included luxury river cruise experience, with exclusive events available depending on the itinerary.",
+      "The important distinction is that Enrich is not simply another optional shore excursion.",
+      "It is designed as a special, exclusive experience for Scenic guests.",
+      "Always check the current itinerary because experiences can change."
+    ],
+    "bottomNote": "Included on eligible itineraries — always review the excursion schedule for your specific sailing date.",
+    "type": "compare",
+    "bgClass": "bg-white"
+  },
+  "inlineCta2": {
+    "title": "Combine Freechoice and Enrich on Your Cruise",
+    "description": "A great Scenic itinerary combines both — personalized activities and exclusive Enrich experiences created just for Scenic guests.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "traditionalVsFreechoice": {
+    "title": "Scenic Freechoice vs Traditional Shore Excursions",
+    "headers": ["Traditional Cruise Excursion", "Scenic Freechoice"],
+    "rows": [
+      ["Often one primary group option", "Multiple choices tailored to varied interests"],
+      ["Larger group structure possible", "More personalized, small-group feel"],
+      ["May have additional fees", "Included excursion options at no extra charge"],
+      ["Standard sightseeing", "Variety of active, culinary, and cultural styles"],
+      ["Less flexibility", "Greater choice and daily personalization"]
+    ]
+  },
+  "freechoiceVsEnrich": {
+    "title": "Scenic Freechoice vs Scenic Enrich: Which Is Better?",
+    "subtitle": "This is one of the most important distinctions to understand.",
+    "sailing": {
+      "label": "Choose Freechoice When You Want Flexibility",
+      "philosophy": "Personalized Shore Sightseeing",
+      "points": [
+        "You want personal choice: 'I'd rather visit a winery than take a traditional city tour.'",
+        "You prefer active exploration or a more relaxed pace depending on how you feel that day.",
+        "Freechoice is about personalization — choosing the experience that matches your interests on any given day."
+      ]
+    },
+    "allSuite": {
+      "label": "Look Forward to Enrich When You Want Exclusive Access",
+      "philosophy": "Exclusive Destination Experiences",
+      "points": [
+        "You want exclusive access: 'I want to experience something that goes beyond a standard tourist excursion.'",
+        "Private evening concerts in historic palaces, private castle access, and exclusive cultural events.",
+        "Enrich is about exclusivity — special experiences created specifically for Scenic guests."
+      ]
+    },
+    "verdict": "Which is better? Neither is necessarily better — they serve different purposes. A great Scenic itinerary combines both: you choose experiences that match your interests while also enjoying special experiences created specifically for Scenic guests."
+  },
+  "firstTimeTravelers": {
+    "title": "Best Scenic Excursions for First-Time Travelers",
+    "subtitle": "If this is your first Scenic cruise, prioritize experiences that give you a strong introduction to the destination.",
+    "points": [
+      "Historic City Tours — Great for understanding the destination and orientation.",
+      "Food & Wine Experiences — Ideal for experiencing local culture through authentic regional cuisine.",
+      "Castle & Palace Visits — Particularly memorable and iconic on Rhine and Danube itineraries.",
+      "Scenic Enrich Experiences — Take advantage of exclusive experiences you couldn't easily arrange independently.",
+      "Active Excursions — A good option if you want to balance sightseeing with exercise and fresh air."
+    ]
+  },
+  "travelStyles": {
+    "title": "Best Excursions by Travel Style",
+    "subtitle": "Tailored Options for Every Traveler",
+    "personas": [
+      {
+        "icon": "Heart",
+        "title": "Best Excursions for Couples",
+        "description": "Couples often enjoy experiences they'll remember together, rather than trying to see everything.",
+        "traits": [
+          "Wine experiences & vineyard tastings",
+          "Culinary activities & local food markets",
+          "Historic villages & romantic scenic walks",
+          "Private-feeling cultural experiences",
+          "Scenic Enrich exclusive evening events"
+        ]
+      },
+      {
+        "icon": "Landmark",
+        "title": "Best Excursions for Families",
+        "description": "Multigenerational groups should consider different activity levels, then meet back onboard for dinner.",
+        "traits": [
+          "Grandparents: relaxed panoramic city tours",
+          "Parents: regional food and wine excursions",
+          "Teenagers: active cycling and walking tours",
+          "Evening re-connection onboard for luxury dinner"
+        ]
+      },
+      {
+        "icon": "Gem",
+        "title": "Best Excursions for Solo Travelers",
+        "description": "Solo travelers can use Freechoice excursions as an easy way to meet fellow guests, enjoying independent time with plenty of opportunities to socialize.",
+        "traits": [
+          "Guided walking tours with fellow cruisers",
+          "Intimate food & regional wine tastings",
+          "Cultural activities & historic site visits",
+          "Small-group excursions with expert guides",
+          "Scenic Enrich group evening events"
+        ]
+      }
+    ]
+  },
+  "inlineCta3": {
+    "title": "How Active Do You Want Your Cruise to Be?",
+    "description": "From relaxed panoramic tours to cycling and hiking, Scenic offers excursions for every activity level.",
+    "buttonText": "Plan Your Scenic Cruise",
+    "buttonLink": "/contact"
+  },
+  "activityLevels": {
+    "eyebrow": "Move at Your Own Pace",
+    "heading": "How Active Are Scenic Excursions?",
+    "paragraphs": [
+      "It varies considerably. Some experiences are relaxed. Others require more effort. Read the activity description carefully before selecting an excursion — this is particularly important for travelers with mobility concerns.",
+      "Can you skip an excursion? Absolutely. You don't need to participate in every activity. A river cruise should also give you time to enjoy your suite, the river views, the wellness facilities, the lounges, and the dining venues."
+    ],
+    "highlights": [
+      "Extended walking on city tours",
+      "Stairs in historic castles & cathedrals",
+      "Uneven surfaces & cobblestone streets",
+      "Scenic e-bike cycling routes",
+      "Hiking trails & vineyard paths",
+      "Steep inclines in medieval hill towns",
+      "Cobblestone streets throughout historic quarters"
+    ],
+    "badgeTitle": "Stay Onboard If You Prefer",
+    "badgeDescription": "Sometimes the best excursion is simply staying onboard and watching Europe pass by.",
+    "features": [
+      {
+        "title": "Extended Walking",
+        "description": "Extended walking on city tours and historical quarters throughout Europe."
+      },
+      {
+        "title": "Stairs & Historic Sites",
+        "description": "Multiple flights of stairs in historic castles, palaces, and cathedrals."
+      },
+      {
+        "title": "Uneven Surfaces & Cobblestones",
+        "description": "Historic cobblestone streets throughout medieval city quarters."
+      },
+      {
+        "title": "Scenic E-Bike Cycling Routes",
+        "description": "Guided e-bike cycling routes along scenic river banks."
+      },
+      {
+        "title": "Hiking Trails & Steep Inclines",
+        "description": "Vineyard paths, nature trails, and steep inclines in hill towns."
+      },
+      {
+        "title": "Can You Skip an Excursion?",
+        "description": "Can you skip an excursion? Absolutely. You don't need to participate in every activity. A river cruise should also give you time to enjoy your suite, the river views, the wellness facilities, the lounges, and the dining venues."
+      },
+      {
+        "title": "Stay Onboard If You Prefer",
+        "description": "Sometimes the best excursion is simply staying onboard and watching Europe pass by."
+      }
+    ]
+  },
+  "skipAndValue": {
+    "title": "Excursion Flexibility & Value",
+    "subtitle": "Whether you participate in two excursions a day or relax on the sun deck, Scenic puts the choice entirely in your hands.",
+    "features": [
+      {
+        "title": "Can You Skip an Excursion?",
+        "description": "Absolutely. You don't need to participate in every activity. A river cruise should also give you time to unwind, recharge, and savor the journey.",
+        "tags": [
+          "Your Suite & Balcony",
+          "Panoramic River Views",
+          "Wellness & Fitness Facilities",
+          "Scenic Lounges & Bars",
+          "Fine Dining Venues",
+          "The Ship Itself"
+        ],
+        "highlight": "Sometimes the best excursion is simply staying onboard and watching Europe pass by."
+      },
+      {
+        "title": "Why Scenic Excursions Matter",
+        "description": "The real value of a river cruise isn't simply transportation between cities. It transforms 'I visited six European cities' into 'I tasted wine in a historic region, explored medieval villages, visited remarkable cultural sites, and experienced local traditions.'",
+        "tags": [
+          "Destination Immersion",
+          "Authentic Culture",
+          "Centuries of History",
+          "Local Traditions"
+        ],
+        "highlight": "That's the difference between standard sightseeing and destination immersion."
+      }
+    ]
+  },
+  "commonMistakes": {
+    "title": "Common Scenic Excursion Mistakes",
+    "items": [
+      {
+        "title": "Trying to Do Everything",
+        "description": "River cruising should include relaxation. Packing every minute with excursions leaves you exhausted rather than refreshed."
+      },
+      {
+        "title": "Choosing Only Based on the Title",
+        "description": "Always read full activity details and pace levels rather than judging an excursion solely by an enticing name."
+      },
+      {
+        "title": "Ignoring Walking Requirements",
+        "description": "Historic European cities have cobblestones, inclines, and extensive walking. Choose options matched to your physical comfort."
+      },
+      {
+        "title": "Forgetting Your Personal Interests",
+        "description": "Don't just pick what others in the group select. Freechoice exists specifically so you can follow your own passions."
+      },
+      {
+        "title": "Missing Enrich Opportunities",
+        "description": "Enrich events are signature exclusive experiences that cannot easily be arranged on your own. Prioritize them on your schedule."
+      }
+    ]
+  },
+  "chooseFramework": {
+    "title": "How to Choose the Right Scenic Excursions",
+    "subtitle": "Excursion Decision Framework",
+    "cards": [
+      {
+        "title": "If You Love History",
+        "items": [
+          "Castles & historic palaces",
+          "UNESCO museums & archeological sites",
+          "Guided historic walking tours"
+        ]
+      },
+      {
+        "title": "If You Love Food & Wine",
+        "items": [
+          "Local market visits with chef",
+          "Regional culinary tastings & demonstrations",
+          "Historic estate winery tours & cellar tastings"
+        ]
+      },
+      {
+        "title": "If You Love Nature & Outdoors",
+        "items": [
+          "Scenic guided walking tours",
+          "E-bike & cycling countryside routes",
+          "Vineyard & hill trail hikes"
+        ]
+      },
+      {
+        "title": "If You Want Pure Luxury",
+        "items": [
+          "Scenic Enrich signature events",
+          "Private palace concerts & receptions",
+          "Exclusive after-hours cultural access"
+        ]
+      },
+      {
+        "title": "If You Want Complete Relaxation",
+        "items": [
+          "Panoramic sightseeing by coach",
+          "Slower-paced gentle walking tours",
+          "Leisurely onboard river viewing"
+        ]
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "title": "Why a Travel Advisor Can Help",
+    "subtitle": "A knowledgeable luxury travel advisor can help you evaluate an itinerary based on more than just the destinations — look at the experiences, activity levels, and seamless travel logistics.",
+    "items": [
+      {
+        "icon": "Compass",
+        "title": "Itinerary Selection",
+        "description": "Which itineraries offer the specific cultural and culinary experiences you want most."
+      },
+      {
+        "icon": "Footprints",
+        "title": "Mobility & Activity",
+        "description": "Which excursions may involve significant walking, cobblestones, or steep inclines."
+      },
+      {
+        "icon": "Calendar",
+        "title": "Optimal Timing",
+        "description": "Which sailing departures and seasonal conditions are best suited for your travel style."
+      },
+      {
+        "icon": "Ship",
+        "title": "Suite Strategy",
+        "description": "Which cabin and suite category makes sense for your preferences and budget."
+      },
+      {
+        "icon": "Plane",
+        "title": "Flight Coordination",
+        "description": "How to seamlessly coordinate international flights, transfers, and arrival logistics."
+      },
+      {
+        "icon": "Home",
+        "title": "Pre & Post Extensions",
+        "description": "How to add enriching pre- and post-cruise stays in Europe's most iconic gateway cities."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO of Trips & Ships Luxury Travel",
+    "badge": "Luxury Travel Authority",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "authoritySubtitle": "Global Luxury Travel Expert & River Cruise Specialist",
+    "experienceBadge": "40+ Years Experience",
+    "credentials": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ],
+    "quote": "Don't evaluate an itinerary solely by its ports — look at the experiences. The right combination of Freechoice and Enrich turns a standard cruise into an unforgettable personal journey.",
+    "quoteSubtitle": "Angela Hughes, Luxury River Cruise Specialist",
+    "ctaText": "Start Planning with Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": [
+    {
+      "question": "What is Scenic Freechoice?",
+      "answer": "Scenic Freechoice is Scenic's selection of included excursion options that allows guests to personalize their sightseeing and activities."
+    },
+    {
+      "question": "What is Scenic Enrich?",
+      "answer": "Scenic Enrich refers to exclusive experiences created specifically for Scenic guests, designed to provide distinctive cultural and destination experiences."
+    },
+    {
+      "question": "Are Scenic Freechoice excursions included?",
+      "answer": "Scenic promotes Freechoice activities as part of its all-inclusive river cruise offering. Exact activities vary by itinerary."
+    },
+    {
+      "question": "Are Scenic Enrich experiences included?",
+      "answer": "Scenic describes Enrich events as included exclusive experiences on its river cruises, with availability varying by itinerary."
+    },
+    {
+      "question": "Can I choose between different Scenic excursions?",
+      "answer": "Yes. That's the purpose of Freechoice. Available choices depend on the specific itinerary and sailing."
+    },
+    {
+      "question": "Do all Scenic cruises have the same excursions?",
+      "answer": "No. Excursions and Enrich experiences vary according to the destination and itinerary."
+    },
+    {
+      "question": "Are Scenic excursions suitable for seniors?",
+      "answer": "Yes. Scenic offers different types of experiences, but travelers should check the walking and mobility requirements of each activity."
+    },
+    {
+      "question": "Are Scenic excursions good for families?",
+      "answer": "Yes. Freechoice can be particularly useful for multigenerational families because different travelers can choose activities that match their interests and abilities."
+    },
+    {
+      "question": "What is the difference between Freechoice and Enrich?",
+      "answer": "Freechoice emphasizes choice and personalization, while Enrich emphasizes exclusive experiences."
+    },
+    {
+      "question": "Do I have to participate in excursions?",
+      "answer": "No. Guests can choose to relax onboard instead of participating in an excursion."
+    },
+    {
+      "question": "Are Scenic excursions guided?",
+      "answer": "Many Scenic excursions use expert local guides, depending on the experience and destination. Scenic specifically highlights expert local guides as part of its river cruise experience."
+    },
+    {
+      "question": "Which Scenic excursions are best for first-time cruisers?",
+      "answer": "Historic city tours, cultural experiences, food and wine activities, and Scenic Enrich events are excellent starting points."
+    },
+    {
+      "question": "Should I choose an active excursion?",
+      "answer": "If you enjoy walking, cycling, or exploring independently, active options can add another dimension to your cruise. Always check the specific activity requirements first."
+    },
+    {
+      "question": "Can a travel advisor help me choose Scenic excursions?",
+      "answer": "Yes. An experienced advisor can help match your itinerary and excursion choices to your interests, mobility, and travel style."
+    },
+    {
+      "question": "Are Scenic Freechoice and Enrich unique to Scenic?",
+      "answer": "The specific Scenic programs and branding are part of Scenic's product offering. Their combination of included excursion choices and exclusive Enrich experiences is a major part of how Scenic differentiates its river cruises."
+    }
+  ],
+  "finalVerdict": {
+    "title": "Look at the Experiences, Not Just the Ports",
+    "paragraphs": [
+      "Scenic Freechoice and Scenic Enrich are two of the strongest components of the Scenic River Cruise experience. Freechoice gives travelers flexibility to select activities based on their interests, while Enrich adds exclusive cultural experiences that go beyond conventional sightseeing.",
+      "Scenic's published materials describe both as important elements of its all-inclusive river cruise offering. For travelers considering Scenic, don't evaluate an itinerary solely by its ports.",
+      "The right combination of Freechoice excursions and Enrich events can turn an already luxurious river cruise into a much more personal and memorable journey. At Trips & Ships Luxury Travel, we'll help you plan every detail of your Scenic cruise."
+    ],
+    "highlights": [
+      "Compare Scenic itineraries by experiences, not just ports",
+      "Match Freechoice excursions to your personal interests",
+      "Highlight exclusive Scenic Enrich opportunities",
+      "Secure preferred suite categories",
+      "Coordinate airfare and private transfers",
+      "Arrange pre- and post-cruise luxury hotel stays",
+      "Explain Scenic promotions and added values",
+      "Handle travel logistics from start to finish"
+    ],
+    "ctaText": "Start Planning Your Scenic Cruise",
+    "ctaLink": "/contact"
+  }
+}
