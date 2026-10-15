@@ -22,6 +22,10 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import LuxuryIntroSection from "../../components/ui/LuxuryIntroSection";
 
+// Assets
+import GettingAroundCTAImage from "../../assets/ScenicRiverCruiseArrivalGuide/getting-around-scenic-river-cruise-excursions-transportation-cta.webp";
+import StartPlanningCTAImage from "../../assets/ScenicRiverCruiseArrivalGuide/start-planning-scenic-river-cruise-airfare-transfers-cta.webp";
+
 // Asset Images (Commented out per request)
 // import AboutImage from "../../assets/AboutAngela.jpeg";
 // import HeroImage from "../../assets/ScenicAirfareTransfers/scenic-airfare-hero.jpg";
@@ -351,11 +355,12 @@ export default function ScenicRiverCruiseArrivalGuide() {
 
       {/* ── Section 11: Inline CTA 2 ──────────────────────────────── */}
       <CenterCTA
-        theme="light"
+        theme="dark"
         title={data.inlineCta2.title}
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
+        image={GettingAroundCTAImage}
       />
 
       {/* ── Section 12: Transit & Flight Delay Protocols ──────────── */}
@@ -426,6 +431,7 @@ export default function ScenicRiverCruiseArrivalGuide() {
         description="Ready to plan your unforgettable Scenic River Cruise? Let Angela Hughes and the Trips & Ships Luxury Travel team coordinate your flights, transfers, and cruise itinerary."
         buttonText="Contact Angela Hughes"
         buttonLink={data.finalVerdict.ctaLink}
+        image={StartPlanningCTAImage}
       />
     </div>
   );
