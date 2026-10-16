@@ -21,19 +21,23 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import LuxuryIntroSection from "../../components/ui/LuxuryIntroSection";
 
-// Asset Images (Commented out per request)
-// import AboutImage from "../../assets/AboutAngela3.jpeg";
-// import HeroImage from "../../assets/ScenicChristmasMarkets/scenic-christmas-hero.jpg";
-// import DiningImage from "../../assets/ScenicChristmasMarkets/scenic-christmas-dining.jpg";
-// import MarketImage from "../../assets/ScenicChristmasMarkets/scenic-christmas-market.jpg";
-// import ExcursionImage from "../../assets/ScenicChristmasMarkets/scenic-christmas-excursion.jpg";
+// Asset Images
+import HeroImage from "../../assets/ScenicChristmasMarketRiverCruises/scenic-christmas-market-river-cruises-strasbourg-winter-hero.webp";
+import QuickAnswer1 from "../../assets/ScenicChristmasMarketRiverCruises/scenic-christmas-market-cruises-mulled-wine-gluhwein-quick-answer.webp";
+import QuickAnswer2 from "../../assets/ScenicChristmasMarketRiverCruises/vienna-rathausplatz-christmas-market-danube-cruise-quick-answer.webp";
+import WhyChooseScenicImage from "../../assets/ScenicChristmasMarketRiverCruises/why-choose-scenic-christmas-market-river-cruise-couple-shopping.webp";
+import DreamingMarketsImage from "../../assets/ScenicChristmasMarketRiverCruises/dreaming-of-europe-christmas-markets-regensburg-bavaria-cta.webp";
+import MarketSpecialImage from "../../assets/ScenicChristmasMarketRiverCruises/what-makes-european-christmas-markets-special-amsterdam-canal.webp";
+import PrepareWinterImage from "../../assets/ScenicChristmasMarketRiverCruises/prepare-for-european-winter-nuremberg-christmas-market-cta.webp";
+import ReadyMarketsImage from "../../assets/ScenicChristmasMarketRiverCruises/ready-to-experience-europe-christmas-markets-lebkuchen-cta.webp";
+import FinalVerdictImage from "../../assets/ScenicChristmasMarketRiverCruises/unforgettable-scenic-christmas-market-river-cruise-verdict.webp";
 
 // Itinerary Images (Commented out per request)
 // import RhineImg from "../../assets/ScenicRiverCruises/scenic-rhine-river-cruise-castles-vineyards.webp";
 // import DanubeImg from "../../assets/ScenicRiverCruises/scenic-danube-river-cruise-budapest-vienna.webp";
 
 // const itineraryImages = {
-//   "Rhine Christmas Market Cruise — Best Overall": RhineImg,
+//   "Rhine Christmas Market Cruise Best Overall": RhineImg,
 //   "Danube Christmas Market Cruise": DanubeImg,
 // };
 
@@ -115,7 +119,7 @@ const schemaData = {
     {
       "@type": "ItemList",
       "@id": "https://www.tripsandships.com/scenic-river-cruises/christmas-markets/#itemlist",
-      name: "Scenic Christmas Market River Cruises — What This Guide Covers",
+      name: "Scenic Christmas Market River Cruises What This Guide Covers",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Quick Answer" },
         { "@type": "ListItem", position: 2, name: "Why Choose a Scenic Christmas Market Cruise?" },
@@ -177,6 +181,7 @@ const ScenicChristmasMarketRiverCruises = () => {
         badge={data.hero.badge}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
+        backgroundImage={HeroImage}
       />
 
       {/* ── Section 2: Quick Answer ───────────────────────────────── */}
@@ -187,6 +192,8 @@ const ScenicChristmasMarketRiverCruises = () => {
         highlights={data.quickAnswer.highlights}
         ctaText={data.quickAnswer.ctaText}
         ctaLink={data.quickAnswer.ctaLink}
+        image1={QuickAnswer1}
+        image2={QuickAnswer2}
       />
 
       {/* ── Section 3: Why Choose a Scenic Christmas Market Cruise? ─ */}
@@ -194,6 +201,7 @@ const ScenicChristmasMarketRiverCruises = () => {
         title={data.whyChooseScenic.title}
         inclusions={data.whyChooseScenic.inclusions}
         expertNote={data.whyChooseScenic.expertNote}
+        image={WhyChooseScenicImage}
       />
 
       {/* ── Section 4: Inline CTA 1 ───────────────────────────────── */}
@@ -203,6 +211,7 @@ const ScenicChristmasMarketRiverCruises = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
+        image={DreamingMarketsImage}
       />
 
       {/* ── Section 5: Best Scenic Christmas Market Itineraries ───── */}
@@ -220,6 +229,7 @@ const ScenicChristmasMarketRiverCruises = () => {
         highlights={data.marketHighlights.highlights}
         badgeTitle={data.marketHighlights.badgeTitle}
         badgeDescription={data.marketHighlights.badgeDescription}
+        image={MarketSpecialImage}
       />
 
       {/* ── Section 7: Scenic Enrich & Scenic Freechoice ──────────── */}
@@ -236,11 +246,12 @@ const ScenicChristmasMarketRiverCruises = () => {
 
       {/* ── Section 8: Inline CTA 2 ──────────────────────────────── */}
       <CenterCTA
-        theme="light"
+        theme="dark"
         title={data.inlineCta2.title}
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
+        image={PrepareWinterImage}
       />
 
       {/* ── Section 9: Christmas Dining Onboard ───────────────────── */}
@@ -277,6 +288,7 @@ const ScenicChristmasMarketRiverCruises = () => {
         description={data.inlineCta3.description}
         buttonText={data.inlineCta3.buttonText}
         buttonLink={data.inlineCta3.buttonLink}
+        image={ReadyMarketsImage}
       />
 
       {/* ── Section 14: Scenic vs Other Christmas Market River Cruises */}
@@ -321,13 +333,14 @@ const ScenicChristmasMarketRiverCruises = () => {
         heading={data.finalVerdict.title}
         description={data.finalVerdict.paragraphs.join("\n\n")}
         highlights={data.finalVerdict.sections[0].bullets}
+        image={FinalVerdictImage}
       />
 
       {/* ── Section 19: Final Center CTA ──────────────────────────── */}
       <CenterCTA
         theme="dark"
         title={data.finalVerdict.ctaText}
-        description="At Trips & Ships Luxury Travel, we'll help you plan every detail of your holiday Scenic cruise — from reserving preferred suites to coordinating flights and festive hotel stays."
+        description="At Trips & Ships Luxury Travel, we'll help you plan every detail of your holiday Scenic cruise from reserving preferred suites to coordinating flights and festive hotel stays."
         buttonText="Contact Angela Hughes"
         buttonLink={data.finalVerdict.ctaLink}
       />

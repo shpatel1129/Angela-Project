@@ -27,7 +27,7 @@ import GettingAroundCTAImage from "../../assets/ScenicRiverCruiseArrivalGuide/ge
 import StartPlanningCTAImage from "../../assets/ScenicRiverCruiseArrivalGuide/start-planning-scenic-river-cruise-airfare-transfers-cta.webp";
 
 // Asset Images (Commented out per request)
-// import AboutImage from "../../assets/AboutAngela.jpeg";
+// import AboutImage from "../../assets/AboutAngla.jpeg";
 // import HeroImage from "../../assets/ScenicAirfareTransfers/scenic-airfare-hero.jpg";
 // import TransferImage from "../../assets/ScenicAirfareTransfers/scenic-airport-transfer.jpg";
 // import EmbarkationImage from "../../assets/ScenicAirfareTransfers/scenic-embarkation.jpg";

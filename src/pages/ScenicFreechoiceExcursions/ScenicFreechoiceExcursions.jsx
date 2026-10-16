@@ -25,24 +25,31 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import LuxuryIntroSection from "../../components/ui/LuxuryIntroSection";
 
-// Asset Images (Commented out per request)
-// import AboutImage from "../../assets/AboutAngela.jpeg";
-// import HeroImage from "../../assets/ScenicFreechoiceEnrich/scenic-excursion-hero.jpg";
-// import FreechoiceImage from "../../assets/ScenicFreechoiceEnrich/scenic-freechoice.jpg";
-// import EnrichImage from "../../assets/ScenicFreechoiceEnrich/scenic-enrich.jpg";
-// import ActivityImage from "../../assets/ScenicFreechoiceEnrich/scenic-activity.jpg";
-// Category Images (Commented out per request)
-// import HistoryImg from "../../assets/ScenicFreechoiceEnrich/history-culture.jpg";
-// import FoodWineImg from "../../assets/ScenicFreechoiceEnrich/food-wine.jpg";
-// import ActiveImg from "../../assets/ScenicFreechoiceEnrich/active.jpg";
-// import SightseeingImg from "../../assets/ScenicFreechoiceEnrich/sightseeing.jpg";
+// Asset Images
+import HeroImage from "../../assets/ScenicFreechoiceExcursions/scenic-jewel-river-cruise-ship-cochem-castle-moselle.webp";
+import QuickAnswer1 from "../../assets/ScenicFreechoiceExcursions/scenic-river-cruise-ship-rhone-river-lyon-aerial.webp";
+import QuickAnswer2 from "../../assets/ScenicFreechoiceExcursions/scenic-gem-river-cruises-seine-river-normandy.webp";
+import WhatIsFreechoiceImage from "../../assets/ScenicFreechoiceExcursions/scenic-freechoice-excursion-salamanca-cloister-courtyard.webp";
+import NotSureExcursionsImage from "../../assets/ScenicFreechoiceExcursions/scenic-river-cruise-sun-deck-pool-sunset-cta.webp";
+import WhatIsEnrichImage from "../../assets/ScenicFreechoiceExcursions/scenic-enrich-exclusive-baroque-church-porto-gilded-interior.webp";
+import HistoryImg from "../../assets/ScenicFreechoiceExcursions/scenic-freechoice-history-culture-baroque-cathedral-tour.webp";
+import FoodWineImg from "../../assets/ScenicFreechoiceExcursions/scenic-freechoice-food-wine-gourmet-buffet-dining.webp";
+import ActiveImg from "../../assets/ScenicFreechoiceExcursions/scenic-freechoice-active-ebike-cycling-durnstein-danube.webp";
+import SightseeingImg from "../../assets/ScenicFreechoiceExcursions/scenic-freechoice-sightseeing-melk-abbey-austria.webp";
+import CombineFreechoiceEnrichImage from "../../assets/ScenicFreechoiceExcursions/combine-freechoice-enrich-weltenburg-abbey-danube-gorge-cta.webp";
+import FreechoiceFlexibilityImage from "../../assets/ScenicFreechoiceExcursions/scenic-freechoice-flexibility-excursion-salamanca.webp";
+import EnrichAccessImage from "../../assets/ScenicFreechoiceExcursions/scenic-enrich-exclusive-palace-classical-concert-vienna.webp";
+import HowActiveCruiseImage from "../../assets/ScenicFreechoiceExcursions/how-active-scenic-cruise-heidelberg-castle-bridge-cta.webp";
+import HowActiveExcursionsImage from "../../assets/ScenicFreechoiceExcursions/how-active-scenic-excursions-guided-walking-tour-zollverein.webp";
+import FinalVerdictImage from "../../assets/ScenicFreechoiceExcursions/scenic-river-cruise-verdict-xanten-klever-tor-gate.webp";
+import StartPlanningImage from "../../assets/ScenicFreechoiceExcursions/start-planning-scenic-opal-river-cruise-sunset-cta.webp";
 
-// const categoryImages = {
-//   "History & Culture": HistoryImg,
-//   "Food & Wine": FoodWineImg,
-//   "Active Experiences": ActiveImg,
-//   "Scenic Sightseeing": SightseeingImg,
-// };
+const categoryImages = {
+  "History & Culture": HistoryImg,
+  "Food & Wine": FoodWineImg,
+  "Active Experiences": ActiveImg,
+  "Scenic Sightseeing": SightseeingImg,
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -128,7 +135,7 @@ const schemaData = {
     {
       "@type": "ItemList",
       "@id": "https://www.tripsandships.com/scenic-river-cruises/freechoice-enrich/#itemlist",
-      name: "Scenic Freechoice & Scenic Enrich — What This Guide Covers",
+      name: "Scenic Freechoice & Scenic Enrich  What This Guide Covers",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Quick Answer" },
         { "@type": "ListItem", position: 2, name: "What Is Scenic Freechoice?" },
@@ -168,7 +175,7 @@ const ScenicFreechoiceExcursions = () => {
     duration: item.bestFor || "Scenic Freechoice",
     description: item.description,
     highlights: item.highlights,
-    // image: categoryImages[item.title],
+    image: categoryImages[item.title],
   }));
 
   return (
@@ -193,6 +200,7 @@ const ScenicFreechoiceExcursions = () => {
         badge={data.hero.badge}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
+        backgroundImage={HeroImage}
       />
 
       {/* ── Section 2: Quick Answer Intro ─────────────────────────── */}
@@ -203,6 +211,8 @@ const ScenicFreechoiceExcursions = () => {
         highlights={data.quickAnswer.highlights}
         ctaText={data.quickAnswer.ctaText}
         ctaLink={data.quickAnswer.ctaLink}
+        image1={QuickAnswer1}
+        image2={QuickAnswer2}
       />
 
       {/* ── Section 2b: Quick Answer Table ────────────────────────── */}
@@ -216,6 +226,7 @@ const ScenicFreechoiceExcursions = () => {
         highlights={data.whatIsFreechoice.highlights}
         badgeTitle={data.whatIsFreechoice.badgeTitle}
         badgeDescription={data.whatIsFreechoice.badgeDescription}
+        image={WhatIsFreechoiceImage}
       />
 
       {/* ── Section 4: How Does Scenic Freechoice Work? ───────────── */}
@@ -232,6 +243,7 @@ const ScenicFreechoiceExcursions = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
+        image={NotSureExcursionsImage}
       />
 
       {/* ── Section 6: What Is Scenic Enrich? ─────────────────────── */}
@@ -239,6 +251,7 @@ const ScenicFreechoiceExcursions = () => {
         title={data.whatIsEnrich.title}
         inclusions={data.whatIsEnrich.inclusions}
         expertNote={data.whatIsEnrich.expertNote}
+        image={WhatIsEnrichImage}
       />
 
       {/* ── Section 7: Scenic Freechoice Examples ─────────────────── */}
@@ -270,11 +283,12 @@ const ScenicFreechoiceExcursions = () => {
 
       {/* ── Section 10: Inline CTA 2 ──────────────────────────────── */}
       <CenterCTA
-        theme="light"
+        theme="dark"
         title={data.inlineCta2.title}
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
+        image={CombineFreechoiceEnrichImage}
       />
 
       {/* ── Section 11: Freechoice vs Traditional Shore Excursions ── */}
@@ -283,6 +297,8 @@ const ScenicFreechoiceExcursions = () => {
       {/* ── Section 12: Scenic Freechoice vs Scenic Enrich ────────── */}
       <DualPhilosophyShowcase
         data={data.freechoiceVsEnrich}
+        imageSailing={FreechoiceFlexibilityImage}
+        imageAllSuite={EnrichAccessImage}
       />
 
       {/* ── Section 13: Best Scenic Excursions for First-Time Travelers ── */}
@@ -306,6 +322,7 @@ const ScenicFreechoiceExcursions = () => {
         description={data.inlineCta3.description}
         buttonText={data.inlineCta3.buttonText}
         buttonLink={data.inlineCta3.buttonLink}
+        image={HowActiveCruiseImage}
       />
 
       {/* ── Section 16: How Active Are Scenic Excursions? ─────────── */}
@@ -314,7 +331,7 @@ const ScenicFreechoiceExcursions = () => {
         subtitle={data.activityLevels.paragraphs[0]}
         features={data.activityLevels.features}
         bgClass="bg-stone-50"
-        // image={ActivityImage}
+        image={HowActiveExcursionsImage}
       />
 
       {/* ── Section 17: Excursion Flexibility & Value ─────────────── */}
@@ -374,15 +391,17 @@ const ScenicFreechoiceExcursions = () => {
         heading={data.finalVerdict.title}
         description={data.finalVerdict.paragraphs.join("\n\n")}
         highlights={data.finalVerdict.highlights}
+        image={FinalVerdictImage}
       />
 
       {/* ── Section 24: Final Center CTA ──────────────────────────── */}
       <CenterCTA
         theme="dark"
         title={data.finalVerdict.ctaText}
-        description="At Trips & Ships Luxury Travel, we'll help you plan every detail of your Scenic cruise — from matching Freechoice excursions to your travel style to securing exclusive Enrich opportunities and luxury suites."
+        description="At Trips & Ships Luxury Travel, we'll help you plan every detail of your Scenic cruise  from matching Freechoice excursions to your travel style to securing exclusive Enrich opportunities and luxury suites."
         buttonText="Contact Angela Hughes"
         buttonLink={data.finalVerdict.ctaLink}
+        image={StartPlanningImage}
       />
     </div>
   );

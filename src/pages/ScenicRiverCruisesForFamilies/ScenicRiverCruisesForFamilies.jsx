@@ -20,25 +20,18 @@ import ExpertCredentials from "../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../components/ui/FAQAccordion";
 import LuxuryIntroSection from "../../components/ui/LuxuryIntroSection";
 
-// Asset Images (Commented out per request)
-// import AboutImage from "../../assets/AboutAngela.jpeg";
-// import HeroImage from "../../assets/ScenicFamilyTravel/scenic-family-hero.jpg";
-// import FamilyDiningImage from "../../assets/ScenicFamilyTravel/scenic-family-dining.jpg";
-// import SuiteImage from "../../assets/ScenicFamilyTravel/scenic-family-suites.jpg";
-// import ExcursionImage from "../../assets/ScenicFamilyTravel/scenic-family-excursion.jpg";
-
-// Itinerary Images (Commented out per request)
-// import RhineImg from "../../assets/ScenicRiverCruises/scenic-rhine-river-cruise-castles-vineyards.webp";
-// import DanubeImg from "../../assets/ScenicRiverCruises/scenic-danube-river-cruise-budapest-vienna.webp";
-// import RhoneImg from "../../assets/ScenicRiverCruises/scenic-rhone-river-cruise-provence-france.webp";
-// import DouroImg from "../../assets/ScenicRiverCruises/scenic-douro-river-cruise-portugal-valley.webp";
-
-// const itineraryImages = {
-//   "Rhine River — Best Overall": RhineImg,
-//   "Danube River — Excellent for Culture": DanubeImg,
-//   "Rhône River — Perfect for Food Lovers": RhoneImg,
-//   "Douro River — Best for a Relaxed Pace": DouroImg,
-// };
+// Asset Images
+import HeroImage from "../../assets/ScenicRiverCruisesFamilies/scenic-river-cruises-families-budapest-danube-castle-hero.webp";
+import QuickAnswer1 from "../../assets/ScenicRiverCruisesFamilies/scenic-family-river-cruise-sun-deck-vitality-pool-quick-answer.webp";
+import QuickAnswer2 from "../../assets/ScenicRiverCruisesFamilies/scenic-family-cruise-guests-danube-budapest-parliament-quick-answer.webp";
+import IsScenicGoodFamiliesImage from "../../assets/ScenicRiverCruisesFamilies/is-scenic-good-for-families-sun-deck-pool-bar.webp";
+import WhyFamiliesLoveImage from "../../assets/ScenicRiverCruisesFamilies/why-families-love-scenic-river-cruising-sun-deck-jacuzzi.webp";
+import PlanningReunionImage from "../../assets/ScenicRiverCruisesFamilies/planning-family-reunion-scenic-cruise-rhine-deck-cta.webp";
+import FamilyCelebrationsImage from "../../assets/ScenicRiverCruisesFamilies/scenic-pearl-family-celebrations-onboard-terrace-cta.webp";
+import SuiteOptionsImage from "../../assets/ScenicRiverCruisesFamilies/scenic-family-cruise-luxury-suite-scenic-jasper.webp";
+import ReadyToPlanImage from "../../assets/ScenicRiverCruisesFamilies/ready-to-plan-family-trip-scenic-spirit-sunset-cta.webp";
+import MeaningfulWayImage from "../../assets/ScenicRiverCruisesFamilies/meaningful-family-travel-scenic-danube-budapest-verdict.webp";
+import StartPlanningImage from "../../assets/ScenicRiverCruisesFamilies/start-planning-scenic-family-cruise-butler-service-cta.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -180,6 +173,7 @@ const ScenicRiverCruisesForFamilies = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.description}
         badge={data.hero.badge}
+        backgroundImage={HeroImage}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
       />
@@ -190,6 +184,8 @@ const ScenicRiverCruisesForFamilies = () => {
         heading={data.quickAnswer.title}
         paragraphs={data.quickAnswer.paragraphs}
         highlights={data.quickAnswer.highlights}
+        image1={QuickAnswer1}
+        image2={QuickAnswer2}
         ctaText={data.quickAnswer.ctaText}
         ctaLink={data.quickAnswer.ctaLink}
       />
@@ -200,6 +196,7 @@ const ScenicRiverCruisesForFamilies = () => {
         heading={data.isScenicGoodFamilies.heading}
         paragraphs={data.isScenicGoodFamilies.paragraphs}
         highlights={data.isScenicGoodFamilies.highlights}
+        image={IsScenicGoodFamiliesImage}
         badgeTitle={data.isScenicGoodFamilies.badgeTitle}
         badgeDescription={data.isScenicGoodFamilies.badgeDescription}
       />
@@ -209,6 +206,7 @@ const ScenicRiverCruisesForFamilies = () => {
         title={data.whyFamiliesLove.title}
         inclusions={data.whyFamiliesLove.inclusions}
         expertNote={data.whyFamiliesLove.expertNote}
+        image={WhyFamiliesLoveImage}
       />
 
       {/* ── Section 5: Inline CTA 1 ───────────────────────────────── */}
@@ -216,6 +214,7 @@ const ScenicRiverCruisesForFamilies = () => {
         theme="dark"
         title={data.inlineCta1.title}
         description={data.inlineCta1.description}
+        image={PlanningReunionImage}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
       />
@@ -248,9 +247,10 @@ const ScenicRiverCruisesForFamilies = () => {
 
       {/* ── Section 9: Inline CTA 2 ──────────────────────────────── */}
       <CenterCTA
-        theme="light"
+        theme="dark"
         title={data.inlineCta2.title}
         description={data.inlineCta2.description}
+        image={FamilyCelebrationsImage}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
       />
@@ -263,6 +263,7 @@ const ScenicRiverCruisesForFamilies = () => {
         subtitles={data.suiteOptions.subtitles}
         features={data.suiteOptions.features}
         summary={data.suiteOptions.summary}
+        image={SuiteOptionsImage}
       />
 
       {/* ── Section 11: Is Scenic Good for Children? ──────────────── */}
@@ -285,6 +286,7 @@ const ScenicRiverCruisesForFamilies = () => {
         theme="dark"
         title={data.inlineCta3.title}
         description={data.inlineCta3.description}
+        image={ReadyToPlanImage}
         buttonText={data.inlineCta3.buttonText}
         buttonLink={data.inlineCta3.buttonLink}
       />
@@ -331,6 +333,7 @@ const ScenicRiverCruisesForFamilies = () => {
         heading={data.finalVerdict.title}
         description={data.finalVerdict.paragraphs.join("\n\n")}
         highlights={data.finalVerdict.sections[0].bullets}
+        image={MeaningfulWayImage}
       />
 
       {/* ── Section 19: Final Center CTA ──────────────────────────── */}
@@ -338,6 +341,7 @@ const ScenicRiverCruisesForFamilies = () => {
         theme="dark"
         title={data.finalVerdict.ctaText}
         description="At Trips & Ships Luxury Travel, we'll help you plan every detail of your family Scenic cruise — from reserving adjacent suites to coordinating flights, transfers, and private group excursions."
+        image={StartPlanningImage}
         buttonText="Contact Angela Hughes"
         buttonLink={data.finalVerdict.ctaLink}
       />
