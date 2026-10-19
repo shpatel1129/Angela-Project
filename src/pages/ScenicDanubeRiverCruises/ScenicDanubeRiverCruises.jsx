@@ -46,8 +46,8 @@ import AboutImage from "../../assets/AboutAngela.jpeg";
 // import FinalImage from "../../assets/ScenicDanube/scenic-danube-final.jpg";
 
 import { Helmet } from "react-helmet-async";
-import "../RiversideLuxuryCruisesReviews/RiversideLuxuryCruisesReviews.css";
-import "../RiversideLuxuryCruises/RiversideLuxuryCruises.css";
+import "../riversidecruises/RiversideLuxuryCruisesReviews/RiversideLuxuryCruisesReviews.css";
+import "../riversidecruises/RiversideLuxuryCruises/RiversideLuxuryCruises.css";
 import "../ScenicRiverCruises/ScenicRiverCruises.css";
 import "../UniversityGroupTravelPlanning/UniversityGroupTravelPlanning.css";
 import "../VikingCruises/VikingCruises.css";
