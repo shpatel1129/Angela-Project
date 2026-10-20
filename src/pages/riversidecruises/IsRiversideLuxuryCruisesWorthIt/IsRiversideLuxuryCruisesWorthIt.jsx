@@ -20,6 +20,21 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/hero-riverside-worth-it.webp";
+import LoungeDeckImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-lounge-deck.webp";
+import DiningGourmetImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-gourmet-dining.webp";
+import DiningWineLoungeImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-wine-lounge.webp";
+import ServiceHospitalityImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-crew-service.webp";
+import DanubeRiverImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-danube.webp";
+import RhineRiverImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-rhine.webp";
+import RhoneRiverImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-rhone.webp";
+import MainRiverImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-main.webp";
+import MoselleRiverImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-moselle.webp";
+import SuiteBedroomImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-suite-balcony.webp";
+import SuiteLivingAreaImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-suite-living-area.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/IsRiversideLuxuryCruisesWorthIt/riverside-final-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -148,7 +163,7 @@ const schemaData = {
     {
       "@type": "ItemList",
       "@id": "https://www.tripsandships.com/is-riverside-worth-it/#itemlist",
-      "name": "Is Riverside Luxury Cruises Worth It? — What This Guide Covers",
+      "name": "Is Riverside Luxury Cruises Worth It? What This Guide Covers",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Quick Answer" },
         { "@type": "ListItem", "position": 2, "name": "What Makes Riverside Different?" },
@@ -198,9 +213,27 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
         badge={data.hero.badge}
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        description={data.hero.description}
+        description={
+          (Array.isArray(data.hero.description)
+            ? data.hero.description
+            : typeof data.hero.description === "string"
+            ? data.hero.description.includes("\n\n")
+              ? data.hero.description.split("\n\n")
+              : data.hero.description.split(/(?<=\.)(?=\s*“)/)
+            : []
+          ).map((paragraph, index) => (
+            <span
+              key={index}
+              className={index > 0 ? "block mt-4" : "block"}
+            >
+              {paragraph.trim()}
+            </span>
+          ))
+        }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="Is Riverside Luxury Cruises Worth It - Review"
       />
 
       {/* ── 2. QUICK ANSWER ── */}
@@ -226,10 +259,7 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
         placeholderLabel={data.whatMakesDifferent.placeholderLabel}
         badgeTitle={data.whatMakesDifferent.badgeTitle}
         badgeDescription={data.whatMakesDifferent.badgeDescription}
-        image={
-          // "src/assets/IsRiversideWorthIt/riverside-lounge-deck.jpg"
-          undefined
-        }
+        image={LoungeDeckImage}
       />
 
       {/* ── 4. WHAT IS INCLUDED? ── */}
@@ -245,10 +275,8 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
         subtitle={data.diningExperience.subtitle}
         items={data.diningExperience.items}
         images={[
-          // "src/assets/IsRiversideWorthIt/riverside-gourmet-dining.jpg",
-          undefined,
-          // "src/assets/IsRiversideWorthIt/riverside-evening-lounge.jpg",
-          undefined
+          DiningGourmetImage,
+          DiningWineLoungeImage
         ]}
       />
 
@@ -256,11 +284,11 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
       <ValueShowcase
         title={data.personalizedService.title}
         subtitle={data.personalizedService.subtitle}
-        items={data.personalizedService.items.map((item) => ({
+        items={data.personalizedService.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/IsRiversideWorthIt/riverside-crew-service.jpg"
-          ][0]
+            ServiceHospitalityImage
+          ][idx]
         }))}
       />
 
@@ -271,11 +299,11 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
         items={data.destinationsItineraries.cards.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/IsRiversideWorthIt/riverside-danube.jpg",
-            // "src/assets/IsRiversideWorthIt/riverside-rhine.jpg",
-            // "src/assets/IsRiversideWorthIt/riverside-rhone.jpg",
-            // "src/assets/IsRiversideWorthIt/riverside-main.jpg",
-            // "src/assets/IsRiversideWorthIt/riverside-moselle.jpg"
+            DanubeRiverImage,
+            RhineRiverImage,
+            RhoneRiverImage,
+            MainRiverImage,
+            MoselleRiverImage
           ][idx]
         }))}
       />
@@ -299,14 +327,8 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
         image2Placeholder={data.accommodations.image2Placeholder}
         ctaText={data.accommodations.ctaText}
         ctaLink={data.accommodations.ctaLink}
-        image1={
-          // "src/assets/IsRiversideWorthIt/riverside-suite-balcony.jpg"
-          undefined
-        }
-        image2={
-          // "src/assets/IsRiversideWorthIt/riverside-suite-living-area.jpg"
-          undefined
-        }
+        image1={SuiteBedroomImage}
+        image2={SuiteLivingAreaImage}
       />
 
       {/* ── 10. PROS & CONS OF RIVERSIDE LUXURY CRUISES ── */}
@@ -395,6 +417,7 @@ const IsRiversideLuxuryCruisesWorthIt = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

@@ -20,6 +20,16 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-debussy-grand-foyer-elegant-staircase.webp";
+import OverviewImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-ravel-observation-lounge.webp";
+import DiningGourmetImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-debussy-observation-lounge-comfortable-seating.webp";
+import DiningWineLoungeImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-ravel-wine-lounge.webp";
+import ServiceHospitalityImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-ravel-crew-service.webp";
+import SuiteBedroomImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-debussy-marble-ensuite-bathroom-luxury-amenities.webp";
+import SuiteLivingAreaImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-debussy-luxury-yacht-cruising-calm-river.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/RiversideRavelReview/riverside-ravel-rhine-castle-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -148,7 +158,7 @@ const schemaData = {
     {
       "@type": "ItemList",
       "@id": "https://www.tripsandships.com/riverside-ravel-review/#itemlist",
-      "name": "Riverside Ravel Review — What This Guide Covers",
+      "name": "Riverside Ravel Review What This Guide Covers",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Overview of Riverside Ravel" },
         { "@type": "ListItem", "position": 2, "name": "Suites & Accommodations" },
@@ -198,9 +208,27 @@ const RiversideRavelReview = () => {
         badge={data.hero.badge}
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        description={data.hero.description}
+        description={
+                  (Array.isArray(data.hero.description)
+                    ? data.hero.description
+                    : typeof data.hero.description === "string"
+                    ? data.hero.description.includes("\n\n")
+                      ? data.hero.description.split("\n\n")
+                      : data.hero.description.split(/(?<=\.)(?=\s*“)/)
+                    : []
+                  ).map((paragraph, index) => (
+                    <span
+                      key={index}
+                      className={index > 0 ? "block mt-4" : "block"}
+                    >
+                      {paragraph.trim()}
+                    </span>
+                  ))
+                }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="Riverside Ravel Luxury Rhine River Cruise"
       />
 
       {/* ── 2. QUICK REVIEW (RATING & TABLE) ── */}
@@ -217,10 +245,7 @@ const RiversideRavelReview = () => {
         placeholderLabel={data.overview.placeholderLabel}
         badgeTitle={data.overview.badgeTitle}
         badgeDescription={data.overview.badgeDescription}
-        image={
-          // "src/assets/RiversideRavelReview/riverside-ravel-observation-lounge.jpg"
-          undefined
-        }
+        image={OverviewImage}
       />
 
       {/* ── 4. LIFE ONBOARD & SHORE EXCURSIONS ── */}
@@ -236,10 +261,8 @@ const RiversideRavelReview = () => {
         subtitle={data.diningExperience.subtitle}
         items={data.diningExperience.items}
         images={[
-          // "src/assets/RiversideRavelReview/riverside-ravel-gourmet-dining.jpg",
-          undefined,
-          // "src/assets/RiversideRavelReview/riverside-ravel-evening-lounge.jpg",
-          undefined
+          DiningGourmetImage,
+          DiningWineLoungeImage
         ]}
       />
 
@@ -247,11 +270,11 @@ const RiversideRavelReview = () => {
       <ValueShowcase
         title={data.serviceHospitality.title}
         subtitle={data.serviceHospitality.subtitle}
-        items={data.serviceHospitality.items.map((item) => ({
+        items={data.serviceHospitality.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/RiversideRavelReview/riverside-ravel-crew-service.jpg"
-          ][0]
+            ServiceHospitalityImage
+          ][idx]
         }))}
       />
 
@@ -282,14 +305,8 @@ const RiversideRavelReview = () => {
         image2Placeholder={data.accommodations.image2Placeholder}
         ctaText={data.accommodations.ctaText}
         ctaLink={data.accommodations.ctaLink}
-        image1={
-          // "src/assets/RiversideRavelReview/riverside-ravel-suite-balcony.jpg"
-          undefined
-        }
-        image2={
-          // "src/assets/RiversideRavelReview/riverside-ravel-suite-living-area.jpg"
-          undefined
-        }
+        image1={SuiteBedroomImage}
+        image2={SuiteLivingAreaImage}
       />
 
       {/* ── 10. WHO SHOULD SAIL RIVERSIDE RAVEL ── */}
@@ -367,6 +384,7 @@ const RiversideRavelReview = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

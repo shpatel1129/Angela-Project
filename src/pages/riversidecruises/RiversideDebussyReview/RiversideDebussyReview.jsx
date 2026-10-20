@@ -20,6 +20,16 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/RiversideDebussyReview/hero-riverside-debussy.webp";
+import OverviewImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-observation-lounge.webp";
+import DiningGourmetImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-gourmet-dining.webp";
+import DiningWineLoungeImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-wine-lounge.webp";
+import ServiceHospitalityImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-crew-service.webp";
+import SuiteBedroomImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-suite-balcony.webp";
+import SuiteLivingAreaImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-suite-living-area.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/RiversideDebussyReview/riverside-debussy-evening-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -217,6 +227,8 @@ const RiversideDebussyReview = () => {
         }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="Riverside Debussy Luxury Rhône River Cruise"
       />
 
       {/* ── 2. QUICK REVIEW (RATING & TABLE) ── */}
@@ -233,10 +245,7 @@ const RiversideDebussyReview = () => {
         placeholderLabel={data.overview.placeholderLabel}
         badgeTitle={data.overview.badgeTitle}
         badgeDescription={data.overview.badgeDescription}
-        image={
-          // "src/assets/RiversideDebussyReview/riverside-debussy-observation-lounge.jpg"
-          undefined
-        }
+        image={OverviewImage}
       />
 
       {/* ── 4. LIFE ONBOARD & SHORE EXCURSIONS ── */}
@@ -252,10 +261,8 @@ const RiversideDebussyReview = () => {
         subtitle={data.diningExperience.subtitle}
         items={data.diningExperience.items}
         images={[
-          // "src/assets/RiversideDebussyReview/riverside-debussy-gourmet-dining.jpg",
-          undefined,
-          // "src/assets/RiversideDebussyReview/riverside-debussy-evening-lounge.jpg",
-          undefined
+          DiningGourmetImage,
+          DiningWineLoungeImage
         ]}
       />
 
@@ -263,11 +270,11 @@ const RiversideDebussyReview = () => {
       <ValueShowcase
         title={data.serviceHospitality.title}
         subtitle={data.serviceHospitality.subtitle}
-        items={data.serviceHospitality.items.map((item) => ({
+        items={data.serviceHospitality.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/RiversideDebussyReview/riverside-debussy-crew-service.jpg"
-          ][0]
+            ServiceHospitalityImage
+          ][idx]
         }))}
       />
 
@@ -298,14 +305,8 @@ const RiversideDebussyReview = () => {
         image2Placeholder={data.accommodations.image2Placeholder}
         ctaText={data.accommodations.ctaText}
         ctaLink={data.accommodations.ctaLink}
-        image1={
-          // "src/assets/RiversideDebussyReview/riverside-debussy-suite-balcony.jpg"
-          undefined
-        }
-        image2={
-          // "src/assets/RiversideDebussyReview/riverside-debussy-suite-living-area.jpg"
-          undefined
-        }
+        image1={SuiteBedroomImage}
+        image2={SuiteLivingAreaImage}
       />
 
       {/* ── 10. WHO SHOULD SAIL RIVERSIDE DEBUSSY ── */}
@@ -383,6 +384,7 @@ const RiversideDebussyReview = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

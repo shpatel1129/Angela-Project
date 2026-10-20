@@ -20,6 +20,20 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/hero-what-is-included.webp";
+import SuiteBedroomImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-suite-balcony.webp";
+import SuiteLivingAreaImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-suite-living-area.webp";
+import BeveragesIncludedImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-beverages-included.webp";
+import DanubeRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-danube-vienna.webp";
+import RhineRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-rhine-vineyards.webp";
+import RhoneRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-rhone-provence.webp";
+import MoselleRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-moselle-vineyards.webp";
+import ServiceHospitalityImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-crew-service.webp";
+import DiningBreakfastLunchImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-gourmet-dining.webp";
+import DiningDinnerImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-dinner-dining.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-final-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -182,6 +196,8 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="What Is Included on Riverside Luxury Cruises Guide"
       />
 
       {/* ── 2. QUICK ANSWER ── */}
@@ -209,14 +225,8 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
         image2Placeholder={data.accommodations.image2Placeholder}
         ctaText={data.accommodations.ctaText}
         ctaLink={data.accommodations.ctaLink}
-        image1={
-          // "src/assets/WhatIsIncludedOnRiverside/riverside-suite-balcony.jpg"
-          undefined
-        }
-        image2={
-          // "src/assets/WhatIsIncludedOnRiverside/riverside-suite-living-area.jpg"
-          undefined
-        }
+        image1={SuiteBedroomImage}
+        image2={SuiteLivingAreaImage}
       />
 
       {/* ── 4. WHAT'S INCLUDED ONBOARD (WI-FI & WELLNESS) ── */}
@@ -230,11 +240,11 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
       <ValueShowcase
         title={data.beveragesIncluded.title}
         subtitle={data.beveragesIncluded.subtitle}
-        items={data.beveragesIncluded.items.map((item) => ({
+        items={data.beveragesIncluded.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/WhatIsIncludedOnRiverside/riverside-evening-lounge.jpg"
-          ][0]
+            BeveragesIncludedImage
+          ][idx]
         }))}
       />
 
@@ -253,10 +263,10 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
         items={data.destinationsExplored.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/WhatIsIncludedOnRiverside/riverside-danube-vienna.jpg",
-            // "src/assets/WhatIsIncludedOnRiverside/riverside-rhine-vineyards.jpg",
-            // "src/assets/WhatIsIncludedOnRiverside/riverside-rhone-provence.jpg",
-            // "src/assets/WhatIsIncludedOnRiverside/riverside-moselle-vineyards.jpg"
+            DanubeRiverImage,
+            RhineRiverImage,
+            RhoneRiverImage,
+            MoselleRiverImage
           ][idx]
         }))}
       />
@@ -265,11 +275,11 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
       <LuxuryFeatureShowcase
         title={data.personalizedService.title}
         subtitle={data.personalizedService.subtitle}
-        items={data.personalizedService.items.map((item) => ({
+        items={data.personalizedService.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/WhatIsIncludedOnRiverside/riverside-crew-service.jpg"
-          ][0]
+            ServiceHospitalityImage
+          ][idx]
         }))}
       />
 
@@ -286,10 +296,8 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
         subtitle={data.gourmetDining.subtitle}
         items={data.gourmetDining.items}
         images={[
-          // "src/assets/WhatIsIncludedOnRiverside/riverside-gourmet-dining.jpg",
-          undefined,
-          // "src/assets/WhatIsIncludedOnRiverside/riverside-lounge-deck.jpg",
-          undefined
+          DiningBreakfastLunchImage,
+          DiningDinnerImage
         ]}
       />
 
@@ -367,6 +375,7 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

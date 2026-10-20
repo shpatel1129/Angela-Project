@@ -20,6 +20,16 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/RiversideMozartReview/hero-riverside-mozart-flagship.webp";
+import OverviewImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-observation-lounge.webp";
+import WatersideDiningImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-waterside-restaurant-dining.webp";
+import BistroDiningImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-bistro-cafe-espresso.webp";
+import ServiceHospitalityImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-crew-service-hospitality.webp";
+import SuiteBedroomImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-suite-bedroom.webp";
+import SuiteLivingAreaImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-penthouse-living-salon.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/RiversideMozartReview/riverside-mozart-cove-piano-lounge-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -217,6 +227,8 @@ const RiversideMozartReview = () => {
         }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="Riverside Mozart Flagship Luxury Danube Cruise"
       />
 
       {/* ── 2. QUICK REVIEW (RATING & TABLE) ── */}
@@ -233,10 +245,7 @@ const RiversideMozartReview = () => {
         placeholderLabel={data.overview.placeholderLabel}
         badgeTitle={data.overview.badgeTitle}
         badgeDescription={data.overview.badgeDescription}
-        image={
-          // "src/assets/RiversideMozartReview/riverside-mozart-observation-lounge.jpg"
-          undefined
-        }
+        image={OverviewImage}
       />
 
       {/* ── 4. LIFE ONBOARD & SHORE EXCURSIONS ── */}
@@ -252,10 +261,8 @@ const RiversideMozartReview = () => {
         subtitle={data.diningExperience.subtitle}
         items={data.diningExperience.items}
         images={[
-          // "src/assets/RiversideMozartReview/riverside-mozart-gourmet-dining.jpg",
-          undefined,
-          // "src/assets/RiversideMozartReview/riverside-mozart-evening-lounge.jpg",
-          undefined
+          WatersideDiningImage,
+          BistroDiningImage
         ]}
       />
 
@@ -263,11 +270,11 @@ const RiversideMozartReview = () => {
       <ValueShowcase
         title={data.serviceHospitality.title}
         subtitle={data.serviceHospitality.subtitle}
-        items={data.serviceHospitality.items.map((item) => ({
+        items={data.serviceHospitality.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/RiversideMozartReview/riverside-mozart-crew-service.jpg"
-          ][0]
+            ServiceHospitalityImage
+          ][idx]
         }))}
       />
 
@@ -298,14 +305,8 @@ const RiversideMozartReview = () => {
         image2Placeholder={data.accommodations.image2Placeholder}
         ctaText={data.accommodations.ctaText}
         ctaLink={data.accommodations.ctaLink}
-        image1={
-          // "src/assets/RiversideMozartReview/riverside-mozart-suite-balcony.jpg"
-          undefined
-        }
-        image2={
-          // "src/assets/RiversideMozartReview/riverside-mozart-suite-living-area.jpg"
-          undefined
-        }
+        image1={SuiteBedroomImage}
+        image2={SuiteLivingAreaImage}
       />
 
       {/* ── 10. WHO SHOULD SAIL RIVERSIDE MOZART ── */}
@@ -383,6 +384,7 @@ const RiversideMozartReview = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

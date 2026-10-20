@@ -19,6 +19,21 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/hero-riverside-vs-avalon.webp";
+import AboutRiversideImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/about-riverside-luxury-cruises.webp";
+import AboutAvalonImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/about-avalon-waterways-luxury-river-cruises.webp";
+import RiversideFleetImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/riverside-fleet-overview.webp";
+import AvalonFleetImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/avalon-waterways-luxury-river-cruise-ship.webp";
+import RiversideDiningImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/riverside-gourmet-dining.webp";
+import AvalonDiningImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/avalon-waterways-luxury-river-cruise-dining.png";
+import RiversideServiceImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/riverside-butler-service.webp";
+import AvalonWellnessImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/avalon-waterways-onboard-wellness-amenities.webp";
+import AvalonDestinationsImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/avalon-waterways-european-river-cruise-destinations.webp";
+import RiversideSuiteImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/riverside-luxury-panorama-suite.webp";
+import AvalonSuiteImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/avalon-waterways-panorama-suite-river-view.png";
+import FinalCTAImage from "../../../assets/riversidecruises/RiversideVsAvalonWaterways/riverside-evening-cruise-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -172,6 +187,8 @@ const RiversideVsAvalon = () => {
         }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="Riverside vs Avalon Waterways"
       />
 
       {/* ── 2. QUICK COMPARISON TABLE ── */}
@@ -186,8 +203,8 @@ const RiversideVsAvalon = () => {
         items={data.aboutBrands.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/RiversidevsAvalon/riverside-overview.jpg",
-            // "src/assets/RiversidevsAvalon/avalon-overview.jpg"
+            AboutRiversideImage,
+            AboutAvalonImage
           ][idx]
         }))}
       />
@@ -210,8 +227,8 @@ const RiversideVsAvalon = () => {
         subtitle={data.fleetComparison.subtitle}
         features={data.fleetComparison.features}
         images={[
-          // "src/assets/RiversidevsAvalon/riverside-fleet.jpg",
-          // "src/assets/RiversidevsAvalon/avalon-fleet.jpg"
+          RiversideFleetImage,
+          AvalonFleetImage
         ]}
       />
 
@@ -221,10 +238,8 @@ const RiversideVsAvalon = () => {
         subtitle={data.diningExperience.subtitle}
         items={data.diningExperience.items}
         images={[
-          // "src/assets/RiversidevsAvalon/riverside-dining.jpg",
-          undefined,
-          // "src/assets/RiversidevsAvalon/avalon-dining.jpg"
-          undefined
+          RiversideDiningImage,
+          AvalonDiningImage
         ]}
       />
 
@@ -235,9 +250,9 @@ const RiversideVsAvalon = () => {
         items={data.editorialHighlights.items.map((item, idx) => ({
           ...item,
           image: [
-            // "src/assets/RiversidevsAvalon/riverside-service.jpg",
-            // "src/assets/RiversidevsAvalon/avalon-wellness.jpg",
-            // "src/assets/RiversidevsAvalon/avalon-destinations.jpg"
+            RiversideServiceImage,
+            AvalonWellnessImage,
+            AvalonDestinationsImage
           ][idx]
         }))}
       />
@@ -253,14 +268,8 @@ const RiversideVsAvalon = () => {
         image2Placeholder={data.accommodations.image2Placeholder}
         ctaText={data.accommodations.ctaText}
         ctaLink={data.accommodations.ctaLink}
-        image1={
-          // "src/assets/RiversidevsAvalon/riverside-suite.jpg"
-          undefined
-        }
-        image2={
-          // "src/assets/RiversidevsAvalon/avalon-suite.jpg"
-          undefined
-        }
+        image1={RiversideSuiteImage}
+        image2={AvalonSuiteImage}
       />
 
       {/* ── 9. SHORE EXCURSIONS ── */}
@@ -354,6 +363,7 @@ const RiversideVsAvalon = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

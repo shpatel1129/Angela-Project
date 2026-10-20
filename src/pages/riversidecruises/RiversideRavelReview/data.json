@@ -16,7 +16,7 @@
     "secondaryCtaLink": "#quick-review"
   },
   "quickReviewTable": {
-    "title": "Quick Review — 4.8 / 5 Overall Rating",
+    "title": "Quick Review 4.8 / 5 Overall Rating",
     "headers": [
       "Category",
       "Rating"
@@ -57,7 +57,7 @@
     "title": "Overview of Riverside Ravel",
     "paragraphs": [
       "Riverside Ravel was designed for travelers who appreciate understated luxury, personalized service, and immersive European travel. Unlike larger cruise ships, it focuses on personalized hospitality and destination-rich travel, with an intimate size that creates a peaceful environment for guests to fully enjoy the journey.",
-      "The ship balances understated luxury with a warm, welcoming environment—guests enjoy a slower pace of travel, scenic cruising, and personalized service from a dedicated crew."
+      "The ship balances understated luxury with a warm, welcoming environment guests enjoy a slower pace of travel, scenic cruising, and personalized service from a dedicated crew."
     ],
     "highlights": [
       "Spacious suites",
@@ -345,7 +345,7 @@
       "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
     ],
     "quote": "River cruising should be effortless, intimate, and deeply enriching. Riverside Ravel delivers an exceptional blend of boutique luxury and authentic European charm.",
-    "quoteSubtitle": "— Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "quoteSubtitle": "Angela Hughes, CEO Trips & Ships Luxury Travel",
     "ctaText": "Start Planning Your Riverside Cruise",
     "ctaLink": "/contact"
   },
