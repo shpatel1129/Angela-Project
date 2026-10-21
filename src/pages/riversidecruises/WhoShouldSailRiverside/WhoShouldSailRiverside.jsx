@@ -22,18 +22,16 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-   // import HeroImage1 from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-couple-suite-balcony.jpg";
-   // import HeroImage2 from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-couple-dining.jpg";
-   // import HeroImage3 from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-onboard-lounge.jpg";
-   // import RiversideSuite from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-suite-living-area.jpg";
-   // import RiversideFamily from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-family-onboard.jpg";
-   // import RiversideCulture from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-cultural-excursion.jpg";
-   // import RiversideCastle from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-rhine-castle-view.jpg";
-   // import RiversideCrew from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-crew-service.jpg";
-   // import RiversideEvening from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-evening-lounge.jpg";
-   // import RiversideShip from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Page Images
+import HeroImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-mozart-waterside-outdoor-promenade-stroll-waterside-ambiance.webp";
+import CouplesImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-luxury-cruise-couple-private-french-balcony-river-view.webp";
+import FoodAndWineImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-luxury-cruise-couple-candlelight-dinner-gourmet-course.webp";
+import CultureImage1 from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-debussy-panoramic-aerial-view-historic-waterway-scenic-perspective.webp";
+import CultureImage2 from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-scenic-port-tournon-sur-rhone-medieval-view.webp";
+import ScenicCruisingImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-luxury-fleet-waterside-terrace-river-navigation-panoramic-view.webp";
+import PersonalizedServiceImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-debussy-butler-butler-served-afternoon-refreshments-panoramic-view.webp";
+import WorthItImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-debussy-palm-court-evening-piano-music-lounge.webp";
+import CTAImage from "../../../assets/riversidecruises/WhoShouldSailRiverside/riverside-debussy-evening-illuminated-river-cruise-vessel-evening-ambiance.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -142,7 +140,7 @@ const schemaData = {
     {
       "@type": "ItemList",
       "@id": "https://www.tripsandships.com/who-should-sail-riverside/#itemlist",
-      name: "Who Should Sail Riverside? — What This Guide Covers",
+      name: "Who Should Sail Riverside? What This Guide Covers",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Quick Answer" },
         { "@type": "ListItem", position: 2, name: "Riverside Is Perfect for Couples" },
@@ -192,6 +190,7 @@ const WhoShouldSailRiverside = () => {
         title={data.hero.title}
         subtitle={data.hero.subtitle}
         description={data.hero.description}
+        backgroundImage={HeroImage}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
       />
@@ -229,10 +228,7 @@ const WhoShouldSailRiverside = () => {
           badgeTitle={data.couples.badgeTitle}
           badgeDescription={data.couples.badgeDescription}
           placeholderLabel={data.couples.placeholderLabel}
-          image={
-            // "src/assets/WhoShouldSailRiverside/riverside-suite-living-area.jpg"
-            undefined
-          }
+          image={CouplesImage}
         />
       </div>
 
@@ -259,10 +255,7 @@ const WhoShouldSailRiverside = () => {
           title={data.foodAndWine.title}
           subtitle={data.foodAndWine.subtitle}
           features={data.foodAndWine.features}
-          image={
-            // "src/assets/WhoShouldSailRiverside/riverside-couple-dining.jpg"
-            undefined
-          }
+          image={FoodAndWineImage}
         />
       </div>
 
@@ -278,14 +271,8 @@ const WhoShouldSailRiverside = () => {
           image2Placeholder={data.culturalTravelers.image2Placeholder}
           ctaText={data.culturalTravelers.ctaText}
           ctaLink={data.culturalTravelers.ctaLink}
-          image1={
-            // "src/assets/WhoShouldSailRiverside/riverside-cultural-excursion.jpg"
-            undefined
-          }
-          image2={
-            // "src/assets/WhoShouldSailRiverside/riverside-rhine-castle-view.jpg"
-            undefined
-          }
+          image1={CultureImage1}
+          image2={CultureImage2}
         />
       </div>
 
@@ -323,8 +310,8 @@ const WhoShouldSailRiverside = () => {
           items={data.scenicAndPersonalized.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/WhoShouldSailRiverside/riverside-onboard-lounge.jpg",
-              // "src/assets/WhoShouldSailRiverside/riverside-crew-service.jpg"
+              ScenicCruisingImage,
+              PersonalizedServiceImage
             ][idx]
           }))}
         />
@@ -352,10 +339,7 @@ const WhoShouldSailRiverside = () => {
           badgeTitle={data.isWorthIt.badgeTitle}
           badgeDescription={data.isWorthIt.badgeDescription}
           placeholderLabel={data.isWorthIt.placeholderLabel}
-          image={
-            // "src/assets/WhoShouldSailRiverside/riverside-evening-lounge.jpg"
-            undefined
-          }
+          image={WorthItImage}
         />
       </div>
 
@@ -416,6 +400,7 @@ const WhoShouldSailRiverside = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
+          image={CTAImage}
           theme="dark"
         />
       </div>

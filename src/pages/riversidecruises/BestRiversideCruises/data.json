@@ -9,7 +9,7 @@
     "badge": "LUXURY EUROPEAN RIVER CRUISE GUIDE",
     "title": "Best Riverside Cruises",
     "subtitle": "Discover Europe's Top Luxury River Itineraries Across the Danube, Rhine, Rhône, and Seasonal Sailings",
-    "description": "Europe's rivers are home to some of the world's most spectacular destinations, and Riverside Luxury Cruises offers an elegant way to experience them. From fairy-tale castles along the Rhine to the vineyards of southern France and the imperial cities of the Danube, Riverside combines boutique luxury with immersive cultural exploration.\n\nWith a small fleet of beautifully appointed ships, Riverside focuses on spacious suites, exceptional dining, personalized service, and thoughtfully designed itineraries. Choosing the right itinerary is one of the most important decisions you'll make.\n\nThis guide highlights the best Riverside cruises, what makes each route unique, and which itinerary is best for your travel style—whether you're planning your first river cruise or returning to Europe for another unforgettable journey.",
+    "description": "Europe's rivers are home to some of the world's most spectacular destinations, and Riverside Luxury Cruises offers an elegant way to experience them. From fairy-tale castles along the Rhine to the vineyards of southern France and the imperial cities of the Danube, Riverside combines boutique luxury with immersive cultural exploration.\n\nWith a small fleet of beautifully appointed ships, Riverside focuses on spacious suites, exceptional dining, personalized service, and thoughtfully designed itineraries. Choosing the right itinerary is one of the most important decisions you'll make.\n\nThis guide highlights the best Riverside cruises, what makes each route unique, and which itinerary is best for your travel style whether you're planning your first river cruise or returning to Europe for another unforgettable journey.",
     "primaryCtaText": "Start Planning Your Riverside Cruise",
     "primaryCtaLink": "/contact"
   },
@@ -97,7 +97,7 @@
       {
         "title": "Best Rhine Cruises",
         "category": "Recommended Ship: Riverside Ravel",
-        "description": "The Rhine is famous for its romantic landscapes, medieval castles, vineyards, and picturesque towns, with scenic cruising through the UNESCO-listed Upper Middle Rhine Valley—often considered one of Europe's most beautiful river experiences.",
+        "description": "The Rhine is famous for its romantic landscapes, medieval castles, vineyards, and picturesque towns, with scenic cruising through the UNESCO-listed Upper Middle Rhine Valley often considered one of Europe's most beautiful river experiences.",
         "features": [
           "Amsterdam",
           "Cologne",
@@ -219,7 +219,7 @@
     "subtitle": "Riverside's boutique fleet of three ships is closely matched to its signature rivers, each offering the same commitment to luxury.",
     "items": [
       {
-        "title": "Riverside Mozart — Best for the Danube",
+        "title": "Riverside Mozart Best for the Danube",
         "description": "Riverside's recommended ship for Danube itineraries, ideal for first-time guests and couples seeking spacious suites.",
         "features": [
           "Danube itineraries",
@@ -231,7 +231,7 @@
         ]
       },
       {
-        "title": "Riverside Ravel — Best for the Rhine",
+        "title": "Riverside Ravel Best for the Rhine",
         "description": "Riverside's recommended ship for Rhine itineraries, sailing past castles and some of Europe's most scenic river landscapes.",
         "features": [
           "Rhine itineraries",
@@ -243,7 +243,7 @@
         ]
       },
       {
-        "title": "Riverside Debussy — Best for the Rhône",
+        "title": "Riverside Debussy Best for the Rhône",
         "description": "Riverside's recommended ship for the Rhône River, built around French wine country and gourmet cuisine.",
         "features": [
           "Rhône River",
@@ -276,8 +276,8 @@
   "whyBookAdvisor": {
     "eyebrow": "Personalized Itinerary Planning",
     "title": "Why Book Through a Luxury Travel Advisor?",
-    "subtitle": "A luxury travel advisor can help you compare itineraries, choose the right ship, and select the best suite, while coordinating flights, hotels, transfers, and excursions—so the itinerary you choose fits your interests and travel style.",
-    "description": "A luxury travel advisor can help you compare itineraries, choose the right ship, and select the best suite, while coordinating flights, hotels, transfers, and excursions—so the itinerary you choose fits your interests and travel style.",
+    "subtitle": "A luxury travel advisor can help you compare itineraries, choose the right ship, and select the best suite, while coordinating flights, hotels, transfers, and excursions so the itinerary you choose fits your interests and travel style.",
+    "description": "A luxury travel advisor can help you compare itineraries, choose the right ship, and select the best suite, while coordinating flights, hotels, transfers, and excursions so the itinerary you choose fits your interests and travel style.",
     "items": [
       {
         "title": "Compare Itineraries",
@@ -351,7 +351,7 @@
       "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
     ],
     "quote": "River cruising should be effortless, intimate, and deeply enriching. Riverside Luxury Cruises delivers an exceptional blend of boutique luxury, generous suites, and authentic European charm.",
-    "quoteSubtitle": "— Angela Hughes, CEO Trips & Ships Luxury Travel",
+    "quoteSubtitle": "Angela Hughes, CEO Trips & Ships Luxury Travel",
     "ctaText": "Start Planning Your Riverside Cruise",
     "ctaLink": "/contact"
   },

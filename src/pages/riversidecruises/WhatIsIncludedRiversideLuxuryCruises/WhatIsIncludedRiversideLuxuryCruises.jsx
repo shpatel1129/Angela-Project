@@ -21,8 +21,8 @@ import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
 // Image Assets
-import HeroImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/hero-what-is-included.webp";
-import SuiteBedroomImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-suite-balcony.webp";
+import HeroImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-debussy-waterside-terrace-river-navigation-luxurious-setting.webp";
+import SuiteBedroomImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-debussy-observation-lounge-comfortable-seating-panoramic-view.webp";
 import SuiteLivingAreaImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-suite-living-area.webp";
 import BeveragesIncludedImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-beverages-included.webp";
 import DanubeRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-danube-vienna.webp";
@@ -30,7 +30,7 @@ import RhineRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRive
 import RhoneRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-rhone-provence.webp";
 import MoselleRiverImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-moselle-vineyards.webp";
 import ServiceHospitalityImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-crew-service.webp";
-import DiningBreakfastLunchImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-gourmet-dining.webp";
+import DiningBreakfastLunchImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-debussy-observation-deck-panoramic-riverfront-luxurious-setting.webp";
 import DiningDinnerImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-dinner-dining.webp";
 import FinalCTAImage from "../../../assets/riversidecruises/WhatIsIncludedRiversideLuxuryCruises/riverside-final-cta.webp";
 
@@ -141,7 +141,7 @@ const schemaData = {
     {
       "@type": "ItemList",
       "@id": "https://www.tripsandships.com/what-is-included-on-riverside/#itemlist",
-      "name": "What Is Included on Riverside Luxury Cruises? — What This Guide Covers",
+      "name": "What Is Included on Riverside Luxury Cruises? What This Guide Covers",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Quick Answer" },
         { "@type": "ListItem", "position": 2, "name": "Luxury Suite Accommodations" },
@@ -193,7 +193,23 @@ const WhatIsIncludedRiversideLuxuryCruises = () => {
         badge={data.hero.badge}
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        description={data.hero.description}
+         description={
+          (Array.isArray(data.hero.description)
+            ? data.hero.description
+            : typeof data.hero.description === "string"
+            ? data.hero.description.includes("\n\n")
+              ? data.hero.description.split("\n\n")
+              : data.hero.description.split(/(?<=\.)(?=\s*“)/)
+            : []
+          ).map((paragraph, index) => (
+            <span
+              key={index}
+              className={index > 0 ? "block mt-4" : "block"}
+            >
+              {paragraph.trim()}
+            </span>
+          ))
+        }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
         backgroundImage={HeroImage}

@@ -9,21 +9,22 @@
     "badge": "HONEST LUXURY RIVER CRUISE REVIEW",
     "title": "Honest Riverside Cruise Review",
     "subtitle": "A Comprehensive, First-Hand Look at Suites, Gourmet Dining, Service & European Itineraries",
-    "description": "If you're considering a Riverside Luxury Cruise, chances are you're looking for more than just another European vacation — you want exceptional service, elegant accommodations, outstanding cuisine, and an experience that truly feels luxurious.\n\nRiverside Luxury Cruises has quickly earned attention for its boutique approach to river cruising, offering spacious suites, thoughtfully designed ships, and carefully curated itineraries along some of Europe's most beautiful rivers. But is Riverside really worth the premium price? This honest review looks beyond the marketing to explore what Riverside does exceptionally well, where it may not be the right fit, and which travelers are most likely to enjoy the experience.",
+    "description": "If you're considering a Riverside Luxury Cruise, chances are you're looking for more than just another European vacation you want exceptional service, elegant accommodations, outstanding cuisine, and an experience that truly feels luxurious.\n\nRiverside Luxury Cruises has quickly earned attention for its boutique approach to river cruising, offering spacious suites, thoughtfully designed ships, and carefully curated itineraries along some of Europe's most beautiful rivers. But is Riverside really worth the premium price? This honest review looks beyond the marketing to explore what Riverside does exceptionally well, where it may not be the right fit, and which travelers are most likely to enjoy the experience.",
     "primaryCtaText": "Start Planning Your Riverside Cruise",
     "primaryCtaLink": "/contact"
   },
   "quickVerdict": {
     "title": "Quick Verdict",
     "overallRating": "★★★★★",
+    "subtitle": "Expert assessment across all core onboard dimensions of the Riverside experience.",
     "categories": [
-      { "name": "Luxury Accommodations", "rating": 5 },
-      { "name": "Dining", "rating": 5 },
-      { "name": "Service", "rating": 5 },
-      { "name": "Itineraries", "rating": 5 },
-      { "name": "Value", "rating": 4 },
-      { "name": "Entertainment", "rating": 4 },
-      { "name": "Overall Experience", "rating": 5 }
+      { "name": "Luxury Accommodations", "rating": 5, "description": "Some of the largest boutique suites in European river cruising" },
+      { "name": "Dining", "rating": 5, "description": "Destination-inspired regional cuisine and fine multi-course meals" },
+      { "name": "Service", "rating": 5, "description": "Attentive, personalized European butler and crew hospitality" },
+      { "name": "Itineraries", "rating": 5, "description": "Carefully curated sailings along the Danube, Rhine, and Rhône" },
+      { "name": "Value", "rating": 4, "description": "Strong upfront luxury inclusions and generous living space" },
+      { "name": "Entertainment", "rating": 4, "description": "Intentionally relaxing, enriched with local cultural enrichment" },
+      { "name": "Overall Experience", "rating": 5, "description": "Top-tier boutique luxury redefined for discerning river travelers" }
     ],
     "bestFor": [
       "Boutique Luxury & Peaceful Atmosphere",
@@ -61,7 +62,7 @@
   },
   "lifeOnboard": {
     "title": "Life Onboard",
-    "subtitle": "Our Rating: ★★★★☆ — Riverside is intentionally relaxing. If you're looking for Broadway-style entertainment or casinos, this isn't the cruise line for you — instead, the focus is on meaningful travel experiences.",
+    "subtitle": "Our Rating: ★★★★☆ Riverside is intentionally relaxing. If you're looking for Broadway-style entertainment or casinos, this isn't the cruise line for you instead, the focus is on meaningful travel experiences.",
     "cards": [
       {
         "title": "Scenic Cruising",
@@ -104,7 +105,7 @@
     "heading": "Suites & Accommodations",
     "eyebrow": "Our Rating: ★★★★★",
     "paragraphs": [
-      "One of Riverside's biggest strengths is its accommodations. The suites are among the largest available on European rivers — unlike many river cruise cabins that feel compact, Riverside's accommodations offer enough space to truly relax."
+      "One of Riverside's biggest strengths is its accommodations. The suites are among the largest available on European rivers unlike many river cruise cabins that feel compact, Riverside's accommodations offer enough space to truly relax."
     ],
     "highlights": [
       "King-size beds",
@@ -126,7 +127,7 @@
     "items": [
       {
         "title": "Service",
-        "description": "Service is one of the areas where Riverside truly excels. Because the ships carry relatively few guests, crew members often learn guest preferences during the voyage — that personal touch creates a warm and welcoming atmosphere.",
+        "description": "Service is one of the areas where Riverside truly excels. Because the ships carry relatively few guests, crew members often learn guest preferences during the voyage that personal touch creates a warm and welcoming atmosphere.",
         "imageCaption": "Our Rating: ★★★★★",
         "features": [
           "Friendly hospitality",
@@ -172,7 +173,7 @@
   },
   "destinations": {
     "title": "Destinations & Itineraries",
-    "subtitle": "Riverside focuses on some of Europe's most iconic rivers, balancing famous landmarks with charming smaller towns. Seasonal cruises — including Christmas Markets, Tulip Cruises, and wine-themed itineraries — are also available.",
+    "subtitle": "Riverside focuses on some of Europe's most iconic rivers, balancing famous landmarks with charming smaller towns. Seasonal cruises including Christmas Markets, Tulip Cruises, and wine-themed itineraries are also available.",
     "items": [
       {
         "id": "danube",
@@ -364,7 +365,7 @@
   },
   "whyBookAdvisor": {
     "title": "Why Book Through a Luxury Travel Advisor?",
-    "subtitle": "Booking with an experienced luxury travel advisor can enhance your Riverside experience by helping you compare itineraries, choose the best sailing season, select the ideal suite, arrange flights, coordinate hotels, and plan private transfers — an advisor can also help determine whether Riverside is the best fit compared with other luxury river cruise lines.",
+    "subtitle": "Booking with an experienced luxury travel advisor can enhance your Riverside experience by helping you compare itineraries, choose the best sailing season, select the ideal suite, arrange flights, coordinate hotels, and plan private transfers an advisor can also help determine whether Riverside is the best fit compared with other luxury river cruise lines.",
     "items": [
       {
         "title": "Compare itineraries",

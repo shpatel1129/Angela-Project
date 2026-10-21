@@ -9,23 +9,37 @@ import ComparisonHero from "../../../components/ui/ComparisonHero";
 import ProsConsCards from "../../../components/ui/ProsConsCards";
 import CardGrid from "../../../components/ui/CardGrid";
 import TravelerTypeGrid from "../../../components/ui/TravelerTypeGrid";
-import BrandPillarsShowcase from "../../../components/ui/BrandPillarsShowcase";
+import ScenicGallery from "../../../components/ui/ScenicGallery";
 import EditorialFeatureShowcase from "../../../components/ui/EditorialFeatureShowcase";
 import AuthorityGrid from "../../../components/ui/AuthorityGrid";
 import ExpertCredentials from "../../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
+import ItineraryCards from "../../../components/ui/ItineraryCards";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-   // import HeroImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-hero.jpg";
-   // import SuiteImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-suite.jpg";
-   // import DiningImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-dining.jpg";
-   // import ShipsImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-ship.jpg";
-   // import LoungeImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-lounge.jpg";
-   // import WorthItImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-evening-lounge.jpg";
-   // import CTAImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Page Images
+import HeroImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-debussy-drone-photograph-luxury-yacht-navigation-panoramic-view.webp";
+
+// Section 3: Advantages Images
+import AdvantageSuitesImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-debussy-sun-deck-loungers-shaded-canopy-evening-ambiance.webp";
+import AdvantageBoutiqueImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-luxury-fleet-observation-lounge-comfortable-seating.webp";
+import AdvantageServiceImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-debussy-butler-dedicated-suite-butler-attention-panoramic-view.webp";
+import AdvantageDiningImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-mozart-gourmet-dining-fine-dining-multi-course-dinner-panoramic-view.webp";
+import AdvantageItinerariesImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-luxury-cruise-couple-private-balcony-scenic-passage.webp";
+import AdvantageShipsImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-debussy-panoramic-river-cruise-ship-exterior-panoramic-view.webp";
+import AdvantageRelaxedImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-mozart-sun-deck-loungers-shaded-canopy-panoramic-view.webp";
+
+// Section 6: Brand Comparison Images
+import ComparisonAccommodationsImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-mozart-master-suite-king-bedroom-french-balcony-panoramic-view.webp";
+import ComparisonHospitalityImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-debussy-butler-private-concierge-champagne-presentation-panoramic-view.webp";
+import ComparisonDesignImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-mozart-palm-court-panoramic-glass-lounge.webp";
+import ComparisonRelaxedLuxuryImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-mozart-observation-deck-panoramic-riverfront-panoramic-view.webp";
+import ComparisonDiningImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-luxury-cruise-couple-candlelight-dinner-gourmet-course.webp";
+
+// Section 7: Is It Worth It & Section 12: CTA Images
+import WorthItImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-luxury-cruise-couple-elegant-evening-gala-celebration.webp";
+import CTAImage from "../../../assets/riversidecruises/RiversideLuxuryCruisesProsandCons/riverside-mozart-evening-illuminated-river-cruise-vessel-panoramic-view.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -212,6 +226,7 @@ const RiversideLuxuryCruisesProsAndCons = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
       />
 
       {/* ── 2. QUICK OVERVIEW (PROS VS CONS) ── */}
@@ -228,12 +243,23 @@ const RiversideLuxuryCruisesProsAndCons = () => {
 
       {/* ── 3. THE BIGGEST ADVANTAGES ── */}
       <div id="biggest-advantages">
-        <CardGrid
+        <ItineraryCards
           title={data.biggestAdvantages.title}
-          subtitle={data.biggestAdvantages.subtitle}
-          cards={data.biggestAdvantages.cards}
-          columns={3}
-          stagger={false}
+          items={data.biggestAdvantages.cards.map((card, idx) => ({
+            title: card.title,
+            description: card.description,
+            duration: card.badge,
+            highlights: card.bullets,
+            image: [
+              AdvantageSuitesImage,
+              AdvantageBoutiqueImage,
+              AdvantageServiceImage,
+              AdvantageDiningImage,
+              AdvantageItinerariesImage,
+              AdvantageShipsImage,
+              AdvantageRelaxedImage
+            ][idx]
+          }))}
         />
       </div>
 
@@ -253,22 +279,27 @@ const RiversideLuxuryCruisesProsAndCons = () => {
         <TravelerTypeGrid
           title={data.whoWillLoveRiverside.title}
           subtitle={data.whoWillLoveRiverside.subtitle}
-          items={data.whoWillLoveRiverside.cards.map((item, idx) => ({
-            ...item,
-            image: [
-              // "src/assets/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-suite.jpg",
-              // "src/assets/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-dining.jpg",
-              // "src/assets/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-ship.jpg",
-              // "src/assets/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-lounge.jpg",
-              // "src/assets/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-evening-lounge.jpg"
-            ][idx]
-          }))}
+          items={data.whoWillLoveRiverside.cards}
         />
       </div>
 
       {/* ── 6. RIVERSIDE VS. OTHER LUXURY RIVER CRUISE LINES ── */}
       <div id="riverside-vs-other-luxury-river-cruise-lines">
-        <BrandPillarsShowcase data={data.brandComparison} />
+        <ScenicGallery
+          title={data.brandComparison.title}
+          subtitle={data.brandComparison.subtitle}
+          items={data.brandComparison.pillars.map((pillar, idx) => ({
+            title: pillar.title,
+            description: pillar.description,
+            image: [
+              ComparisonAccommodationsImage,
+              ComparisonHospitalityImage,
+              ComparisonDesignImage,
+              ComparisonRelaxedLuxuryImage,
+              ComparisonDiningImage
+            ][idx]
+          }))}
+        />
       </div>
 
       {/* ── 7. IS RIVERSIDE LUXURY CRUISES WORTH IT? ── */}
@@ -277,10 +308,7 @@ const RiversideLuxuryCruisesProsAndCons = () => {
           title={data.isWorthIt.title}
           subtitle={data.isWorthIt.subtitle}
           features={data.isWorthIt.features}
-          image={
-            // "src/assets/RiversideLuxuryCruisesProsAndCons/riverside-pros-cons-evening-lounge.jpg"
-            undefined
-          }
+          image={WorthItImage}
         />
       </div>
 
@@ -351,6 +379,7 @@ const RiversideLuxuryCruisesProsAndCons = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
+          image={CTAImage}
           theme="dark"
         />
       </div>

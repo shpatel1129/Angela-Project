@@ -6,7 +6,7 @@ import data from "./data.json";
 
 // UI Components
 import ComparisonHero from "../../../components/ui/ComparisonHero";
-import ReviewSnapshotGrid from "../../../components/ui/ReviewSnapshotGrid";
+import LuxuryScorecardVisual from "../../../components/ui/LuxuryScorecardVisual";
 import AsymmetricStoryIntro from "../../../components/ui/AsymmetricStoryIntro";
 import CardGrid from "../../../components/ui/CardGrid";
 import EditorialIntroSection from "../../../components/ui/EditorialIntroSection";
@@ -22,20 +22,20 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-   // import HeroImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-hero.jpg";
-   // import ShipsImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-ship.jpg";
-   // import SuiteImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-suite.jpg";
-   // import DiningImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-dining.jpg";
-   // import DiningPlateImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-plate.jpg";
-   // import WineImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-wine.jpg";
-   // import DanubeImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-danube.jpg";
-   // import RhineImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-rhine.jpg";
-   // import RhoneImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-rhone.jpg";
-   // import LoungeImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-lounge.jpg";
-   // import WorthItImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-evening.jpg";
-   // import CTAImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-review-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Page Images
+import HeroImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-drone-photograph-luxury-yacht-navigation-scenic-perspective.webp";
+import ScorecardImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-observation-lounge-comfortable-seating-panoramic-view.webp";
+import StoryIntroImage1 from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-panoramic-river-cruise-ship-exterior-scenic-perspective.webp";
+import StoryIntroImage2 from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-luxury-cruise-couple-cocktail-hour-palm-court-lounge.webp";
+import SuitesImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-mozart-master-suite-king-bedroom-french-balcony-golden-hour-glow.webp";
+import ServiceImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-butler-in-suite-butler-breakfast-service.webp";
+import ExcursionsImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-panoramic-aerial-view-historic-waterway-panoramic-view.webp";
+import DiningImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-waterside-terrace-river-navigation-panoramic-view.webp";
+import DanubeImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-mozart-panoramic-river-cruise-ship-exterior-waterside-ambiance.webp";
+import RhineImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-luxury-cruise-couple-panoramic-river-reflection-view.webp";
+import RhoneImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-aerial-drone-scenic-river-cruise-navigation-golden-hour-glow.webp";
+import WorthItImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-luxury-cruise-couple-sunset-champagne-toast-balcony-panoramic-view.webp";
+import CTAImage from "../../../assets/riversidecruises/HonestRiversideCruiseReview/riverside-debussy-evening-illuminated-river-cruise-vessel-panoramic-view.webp";
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -194,11 +194,21 @@ const HonestRiversideCruiseReview = () => {
         description={data.hero.description}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
       />
 
       {/* ── 2. QUICK VERDICT ── */}
       <div id="quick-verdict">
-        <ReviewSnapshotGrid data={data.quickVerdict} />
+        <LuxuryScorecardVisual
+          title={data.quickVerdict.title}
+          subtitle={data.quickVerdict.subtitle}
+          image={ScorecardImage}
+          items={data.quickVerdict.categories.map((cat) => ({
+            category: cat.name,
+            rating: cat.rating,
+            description: cat.description,
+          }))}
+        />
       </div>
 
       {/* ── 3. WHAT MAKES RIVERSIDE DIFFERENT? ── */}
@@ -213,14 +223,8 @@ const HonestRiversideCruiseReview = () => {
           image2Placeholder={data.whatMakesRiversideDifferent.image2Placeholder}
           ctaText={data.whatMakesRiversideDifferent.ctaText}
           ctaLink={data.whatMakesRiversideDifferent.ctaLink}
-          image1={
-            // "src/assets/HonestRiversideCruiseReview/riverside-review-hero.jpg"
-            undefined
-          }
-          image2={
-            // "src/assets/HonestRiversideCruiseReview/riverside-review-lounge.jpg"
-            undefined
-          }
+          image1={StoryIntroImage1}
+          image2={StoryIntroImage2}
         />
       </div>
 
@@ -245,10 +249,7 @@ const HonestRiversideCruiseReview = () => {
           placeholderLabel={data.accommodations.placeholderLabel}
           badgeTitle={data.accommodations.badgeTitle}
           badgeDescription={data.accommodations.badgeDescription}
-          image={
-            // "src/assets/HonestRiversideCruiseReview/riverside-review-suite.jpg"
-            undefined
-          }
+          image={SuitesImage}
         />
       </div>
 
@@ -260,8 +261,8 @@ const HonestRiversideCruiseReview = () => {
           items={data.serviceAndExcursions.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-ship.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-lounge.jpg"
+              ServiceImage,
+              ExcursionsImage
             ][idx]
           }))}
         />
@@ -274,9 +275,7 @@ const HonestRiversideCruiseReview = () => {
           subtitle={data.diningExperience.subtitle}
           items={data.diningExperience.items.map((item) => ({
             ...item,
-            image: [
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-dining.jpg"
-            ][0]
+            image: DiningImage
           }))}
         />
       </div>
@@ -289,9 +288,9 @@ const HonestRiversideCruiseReview = () => {
           items={data.destinations.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-danube.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-rhine.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-rhone.jpg"
+              DanubeImage,
+              RhineImage,
+              RhoneImage
             ][idx]
           }))}
         />
@@ -313,19 +312,7 @@ const HonestRiversideCruiseReview = () => {
         <TravelerTypeGrid
           title={data.whoWillLoveRiverside.title}
           subtitle={data.whoWillLoveRiverside.subtitle}
-          items={data.whoWillLoveRiverside.cards.map((item, idx) => ({
-            ...item,
-            image: [
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-suite.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-dining.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-danube.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-wine.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-rhine.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-rhone.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-plate.jpg",
-              // "src/assets/HonestRiversideCruiseReview/riverside-review-evening.jpg"
-            ][idx]
-          }))}
+          items={data.whoWillLoveRiverside.cards}
         />
       </div>
 
@@ -347,10 +334,7 @@ const HonestRiversideCruiseReview = () => {
           title={data.isWorthIt.title}
           subtitle={data.isWorthIt.subtitle}
           features={data.isWorthIt.features}
-          image={
-            // "src/assets/HonestRiversideCruiseReview/riverside-review-evening.jpg"
-            undefined
-          }
+          image={WorthItImage}
         />
       </div>
 
@@ -422,6 +406,7 @@ const HonestRiversideCruiseReview = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
+          image={CTAImage}
           theme="dark"
         />
       </div>

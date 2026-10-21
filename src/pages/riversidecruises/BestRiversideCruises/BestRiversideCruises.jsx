@@ -19,6 +19,19 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
+// Image Assets
+import HeroImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-debussy-aerial-drone-scenic-river-cruise-navigation-evening-ambiance.webp";
+import ShipExteriorImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-ship-exterior.webp";
+import LuxurySuiteImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-luxury-suite.webp";
+import DanubeRiverImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-danube-mozart.webp";
+import RhineRiverImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-rhine-ravel.webp";
+// import RhoneRiverImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-rhone-debussy.webp";
+import ChristmasMarketImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-christmas-market-traditional-wood-carver-folk-crafts.webp";
+import MozartShipImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-mozart-danube.webp";
+import RavelShipImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-debussy-palm-court-afternoon-tea-social-hour.webp";
+import DebussyShipImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-debussy-luxury-yacht-cruising-calm-river.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/BestRiversideCruises/riverside-final-cta.webp";
+
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
   "@context": "https://schema.org",
@@ -192,9 +205,27 @@ const BestRiversideCruises = () => {
         badge={data.hero.badge}
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        description={data.hero.description}
+       description={
+          (Array.isArray(data.hero.description)
+            ? data.hero.description
+            : typeof data.hero.description === "string"
+            ? data.hero.description.includes("\n\n")
+              ? data.hero.description.split("\n\n")
+              : data.hero.description.split(/(?<=\.)(?=\s*“)/)
+            : []
+          ).map((paragraph, index) => (
+            <span
+              key={index}
+              className={index > 0 ? "block mt-4" : "block"}
+            >
+              {paragraph.trim()}
+            </span>
+          ))
+        }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        backgroundImage={HeroImage}
+        imageAlt="Best Riverside Luxury Cruises in Europe"
       />
 
       {/* ── 2. QUICK OVERVIEW ── */}
@@ -223,14 +254,8 @@ const BestRiversideCruises = () => {
           image2Placeholder={data.whyChoose.image2Placeholder}
           ctaText={data.whyChoose.ctaText}
           ctaLink={data.whyChoose.ctaLink}
-          image1={
-            // "src/assets/BestRiversideCruises/riverside-danube-vienna-hero.jpg"
-            undefined
-          }
-          image2={
-            // "src/assets/BestRiversideCruises/riverside-rhine-castle-hero.jpg"
-            undefined
-          }
+          image1={ShipExteriorImage}
+          image2={LuxurySuiteImage}
         />
       </div>
 
@@ -242,11 +267,11 @@ const BestRiversideCruises = () => {
           items={data.destinationsItineraries.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/BestRiversideCruises/riverside-danube-budapest.jpg",
-              // "src/assets/BestRiversideCruises/riverside-rhine-vineyards.jpg",
-              // "src/assets/BestRiversideCruises/riverside-rhone-provence.jpg",
-              // "src/assets/BestRiversideCruises/riverside-christmas-market.jpg",
-              // "src/assets/BestRiversideCruises/riverside-tulip-season-netherlands.jpg"
+              undefined,
+              RhineRiverImage,
+              undefined,
+              ChristmasMarketImage,
+              undefined // Placeholder: No matching tulip image in RiversideLuxuryCruisesImages
             ][idx]
           }))}
         />
@@ -286,10 +311,9 @@ const BestRiversideCruises = () => {
           subtitle={data.fleetSelection.subtitle}
           items={data.fleetSelection.items}
           images={[
-            // "src/assets/BestRiversideCruises/riverside-mozart-danube.jpg",
-            undefined,
-            // "src/assets/BestRiversideCruises/riverside-ravel-rhine.jpg",
-            undefined
+            MozartShipImage,
+            RavelShipImage,
+            DebussyShipImage
           ]}
         />
       </div>
@@ -367,6 +391,7 @@ const BestRiversideCruises = () => {
         description={data.finalVerdict.paragraphs[0]}
         buttonText={data.finalVerdict.ctaText}
         buttonLink={data.finalVerdict.ctaLink}
+        image={FinalCTAImage}
         theme="dark"
       />
     </div>

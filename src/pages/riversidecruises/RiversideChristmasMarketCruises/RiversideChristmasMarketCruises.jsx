@@ -22,21 +22,24 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ConclusionSection from "../../../components/ui/ConclusionSection";
 import CenterCTA from "../../../components/ui/CenterCTA";
 
-/* ── Placeholder image imports (kept commented out) ─────────────────
-   // import HeroImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-hero.jpg";
-   // import ShipsImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-mozart-ravel-holiday.jpg";
-   // import ViennaImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-vienna.jpg";
-   // import BudapestImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-budapest.jpg";
-   // import NurembergImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-nuremberg.jpg";
-   // import CologneImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-cologne.jpg";
-   // import StrasbourgImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-strasbourg.jpg";
-   // import PassauImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-passau.jpg";
-   // import SuiteImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-suite.jpg";
-   // import DiningImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-dining.jpg";
-   // import ExcursionImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-stalls.jpg";
-   // import WorthItImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-evening-lounge.jpg";
-   // import CTAImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-ship-exterior.jpg";
-─────────────────────────────────────────────────────────────────── */
+// Image Assets
+// import HeroImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-charming-winter-wonderland-river-cruise.webp";
+import DockExcursionImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-glowing-star-lanterns-holiday-walkway.webp";
+import MarketChaletsImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-festive-ribbon-tied-artisan-gifts.webp";
+// import ViennaImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-historic-town-hall-holiday-illumination.webp";
+import BudapestImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-charming-illuminated-riverfront-promenade.webp";
+import NurembergImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-traditional-spiced-lebkuchen-delicacies.webp";
+// import CologneImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-historic-cathedral-backdrop-market-stalls.webp";
+// import StrasbourgImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-charming-timbered-house-market-square.webp";
+// import PassauImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-traditional-bavarian-style-holiday-fair.webp";
+// import ExcursionImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-scenic-holiday-riverbank-winter-stroll.webp";
+// import MulledWineImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-steaming-spiced-mulled-wine-gluhwein.webp";
+import DiningImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-historic-medieval-castle-market-view.webp";
+import EveningLoungeImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-quaint-cobblestone-market-lane-decor.webp";
+import WorthItImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-crisp-winter-air-festive-gathering.webp";
+import FinalCTAImage from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-christmas-market-traditional-handcrafted-wooden-music-boxes.webp";
+import RiversideMorzt from "../../../assets/riversidecruises/RiversideChristmasMarketCruises/riverside-mozart-evening-illuminated-river-cruise-vessel-waterside-ambiance.webp";
+
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -235,9 +238,27 @@ const RiversideChristmasMarketCruises = () => {
         badge={data.hero.badge}
         title={data.hero.title}
         subtitle={data.hero.subtitle}
-        description={data.hero.description}
+        description={
+          (Array.isArray(data.hero.description)
+            ? data.hero.description
+            : typeof data.hero.description === "string"
+            ? data.hero.description.includes("\n\n")
+              ? data.hero.description.split("\n\n")
+              : data.hero.description.split(/(?<=\.)(?=\s*“)/)
+            : []
+          ).map((paragraph, index) => (
+            <span
+              key={index}
+              className={index > 0 ? "block mt-4" : "block"}
+            >
+              {paragraph.trim()}
+            </span>
+          ))
+        }
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink || "/contact"}
+        // backgroundImage={HeroImage}
+        imageAlt="Riverside European Christmas Market Cruises"
       />
 
       {/* ── 2. QUICK OVERVIEW ── */}
@@ -263,14 +284,8 @@ const RiversideChristmasMarketCruises = () => {
           image2Placeholder={data.whyTakeCruise.image2Placeholder}
           ctaText={data.whyTakeCruise.ctaText}
           ctaLink={data.whyTakeCruise.ctaLink}
-          image1={
-            // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-market-hero.jpg"
-            undefined
-          }
-          image2={
-            // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-vienna.jpg"
-            undefined
-          }
+          image1={DockExcursionImage}
+          image2={MarketChaletsImage}
         />
       </div>
 
@@ -291,12 +306,12 @@ const RiversideChristmasMarketCruises = () => {
           items={data.destinations.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-vienna.jpg",
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-budapest.jpg",
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-nuremberg.jpg",
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-cologne.jpg",
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-strasbourg.jpg",
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-passau.jpg"
+              undefined,
+              BudapestImage,
+              NurembergImage,
+              undefined,
+              undefined,
+              undefined
             ][idx]
           }))}
         />
@@ -321,7 +336,7 @@ const RiversideChristmasMarketCruises = () => {
           items={data.riversideMozartRavel.items.map((item) => ({
             ...item,
             image: [
-              // "src/assets/RiversideChristmasMarketCruises/riverside-mozart-ravel-holiday.jpg"
+              RiversideMorzt
             ][0]
           }))}
         />
@@ -335,8 +350,8 @@ const RiversideChristmasMarketCruises = () => {
           items={data.whatsIncludedOnboard.items.map((item, idx) => ({
             ...item,
             image: [
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-market-stalls.jpg",
-              // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-evening-lounge.jpg"
+              // ExcursionImage,
+              // MulledWineImage
             ][idx]
           }))}
         />
@@ -387,10 +402,8 @@ const RiversideChristmasMarketCruises = () => {
           subtitle={data.diningExperience.subtitle}
           items={data.diningExperience.items}
           images={[
-            // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-dining.jpg",
-            undefined,
-            // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-evening-lounge.jpg",
-            undefined
+            DiningImage,
+            EveningLoungeImage
           ]}
         />
       </div>
@@ -412,10 +425,7 @@ const RiversideChristmasMarketCruises = () => {
           title={data.isWorthIt.title}
           subtitle={data.isWorthIt.subtitle}
           features={data.isWorthIt.features}
-          image={
-            // "src/assets/RiversideChristmasMarketCruises/riverside-christmas-evening-lounge.jpg"
-            undefined
-          }
+          image={WorthItImage}
         />
       </div>
 
@@ -475,6 +485,7 @@ const RiversideChristmasMarketCruises = () => {
           description={data.finalVerdict.paragraphs[0]}
           buttonText={data.finalVerdict.ctaText}
           buttonLink={data.finalVerdict.ctaLink}
+          image={FinalCTAImage}
           theme="dark"
         />
       </div>
