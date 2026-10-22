@@ -10,7 +10,7 @@ import Nav from "@/components/Navbar/Nav";
 import ComparisonHero from '@/components/ui/ComparisonHero';
 import CardGrid from '@/components/ui/CardGrid';
 import StepByStepGuide from '@/components/ui/StepByStepGuide';
-import TravelerProfileTabs from '@/components/ui/TravelerProfileTabs';
+import ItineraryCards from '@/components/ui/ItineraryCards';
 import DetailedInclusionsList from '@/components/ui/DetailedInclusionsList';
 import ExpertRulesGrid from '@/components/ui/ExpertRulesGrid';
 import EditorialIntroSplit from '@/components/ui/EditorialIntroSplit';
@@ -24,6 +24,16 @@ import ExpertCredentials from '@/components/ui/ExpertCredentials';
 
 // Dynamic CMS Offers Showcase & Admin Panel
 import DynamicOffersShowcase from './DynamicOffersShowcase';
+
+// Assets from LuxurySoloTravelOffers
+import LobbyWelcomeImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelOffers/luxury-lobby-welcome-waterfront.webp";
+import CruiseOfferImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelOffers/serene-breakfast-tropical-views.webp";
+import RiverCruiseOfferImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelOffers/riverside-tour-through-historic-streets.webp";
+import WomenOnlyOfferImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelOffers/moroccan-courtyard-mosaic-workshop.webp";
+import SafariOfferImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelOffers/safari-spectacle-elephants-across-wetlands-panoramic-view.webp";
+import PlanningConsultationImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/cherry-blossoms-sacred-views.webp";
+import MediterraneanEscapeImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/mediterranean-cliffside-escape.webp";
+import ViennaStrollImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/elegant-vienna-street-stroll.webp";
 
 const SoloTravelOffers = () => {
 
@@ -40,18 +50,20 @@ const SoloTravelOffers = () => {
     description: step.description
   }));
 
-  // 3. Experience Showcases for TravelerProfileTabs (Interactive Pill Tab-based Showcase with Images)
-  // Recommended Visuals: Solo woman on luxury cruise, Luxury river cruise Europe, Women-only small group, Solo woman African safari lodge
-  // import cruiseImage from '@/assets/...'; // (Image imports commented out as per project standards)
-  const experienceTabProfiles = pageData.experienceOffers.sections.map((sec, idx) => ({
-    name: sec.name,
-    tagline: `EXPERIENCE TIER 0${idx + 1}`,
-    quote: sec.description,
-    recommendation: sec.bestFor,
-    reason: sec.interlinkText,
-    whyFits: sec.highlights,
-    image: null, // Image prop commented out / handled gracefully by MasterImage placeholder
-    placeholderLabel: `${sec.name.toUpperCase()} — VERIFIED SOLO TRAVEL`
+  // 3. Experience Showcases for ItineraryCards
+  const experienceTabImages = [
+    CruiseOfferImg,
+    RiverCruiseOfferImg,
+    WomenOnlyOfferImg,
+    SafariOfferImg
+  ];
+
+  const experienceCards = pageData.experienceOffers.sections.map((sec, idx) => ({
+    title: sec.name,
+    duration: ["Ocean Cruises", "River Cruises", "Women-Only Tours", "African Safaris"][idx],
+    description: `${sec.description} ${sec.bestFor}:`,
+    highlights: sec.highlights,
+    image: experienceTabImages[idx]
   }));
 
   // 4. Reduced Single Supplement Details for DetailedInclusionsList
@@ -84,7 +96,7 @@ const SoloTravelOffers = () => {
   // 8. 4 Discovery Questions for FeatureGrid
   const discoveryFeatures = pageData.howToFindRightOffer.questions.map((q) => ({
     title: q.question,
-    description: `${q.options.join(' • ')} — ${q.guidance}`,
+    description: `${q.options.join(' • ')} ${q.guidance}`,
     icon: "Compass"
   }));
 
@@ -130,6 +142,8 @@ const SoloTravelOffers = () => {
           pageData.hero.sublead,
           pageData.hero.conclusion
         ]}
+        backgroundImage={LobbyWelcomeImg}
+        imageAlt={pageData.hero.title}
         primaryCtaText={pageData.hero.primaryCta.text}
         primaryCtaLink={pageData.hero.primaryCta.link || null}
         secondaryCtaText={pageData.hero.secondaryCta.text}
@@ -175,12 +189,11 @@ const SoloTravelOffers = () => {
           sectionNotice={pageData.cmsStructureAndRules.sectionNotice}
         />
 
-        {/* ─── 5. EXPERIENCE-SPECIFIC SOLO TRAVEL OFFERS (TravelerProfileTabs Interactive Pill Tab-Based Component) ─── */}
+        {/* ─── 5. EXPERIENCE-SPECIFIC SOLO TRAVEL OFFERS (ItineraryCards Component) ─── */}
         <div className="relative">
-          <TravelerProfileTabs
+          <ItineraryCards
             title={pageData.experienceOffers.title}
-            subtitle={pageData.experienceOffers.subtitle}
-            profiles={experienceTabProfiles}
+            items={experienceCards}
           />
           {/* Interlink Hubs Box for Experience Guides */}
           <div className="max-w-4xl mx-auto px-6 -mt-8 mb-16 text-center relative z-20">
@@ -239,6 +252,7 @@ const SoloTravelOffers = () => {
             eyebrow="TERMS & CLARITY"
             heading={pageData.noSingleSupplementMeaning.title}
             paragraphs={noSupplementParagraphs}
+            primaryImage={ViennaStrollImg}
             ctaText="Explore Verified Offers"
             ctaLink="#offers-feed"
           />
@@ -306,10 +320,15 @@ const SoloTravelOffers = () => {
         <CenterCTA
           title={pageData.finalCta.title}
           subtitle={pageData.finalCta.subtitle}
+          description={pageData.finalCta.subtitle}
+          buttonText={pageData.finalCta.ctaText}
+          buttonLink={pageData.finalCta.ctaLink}
           primaryText={pageData.finalCta.ctaText}
           primaryHref={pageData.finalCta.ctaLink}
           secondaryText="Browse Live Verified Offers"
           secondaryHref="#offers-feed"
+          image={MediterraneanEscapeImg}
+          theme="dark"
         />
 
         {/* ─── 12. WHY WORK WITH TRIPS & SHIPS? (CurvilinearGrid Component) ─── */}
@@ -349,10 +368,15 @@ const SoloTravelOffers = () => {
         <CenterCTA
           title="Start Planning Your Luxury Solo Adventure"
           subtitle="Explore verified promotions or consult directly with Angela Hughes to customize your independent journey."
+          description="Explore verified promotions or consult directly with Angela Hughes to customize your independent journey."
+          buttonText="Explore My Solo Travel Options"
+          buttonLink="/contact"
           primaryText="Explore My Solo Travel Options"
           primaryHref="/contact"
           secondaryText="Explore Pillar Hub"
           secondaryHref="/luxury-solo-womens-travel/"
+          image={PlanningConsultationImg}
+          theme="dark"
         />
 
       </div>

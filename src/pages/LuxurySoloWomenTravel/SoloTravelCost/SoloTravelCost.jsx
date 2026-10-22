@@ -12,7 +12,7 @@ import EditorialIntroSection from '@/components/ui/EditorialIntroSection';
 import ValueBreakdownSplit from '@/components/ui/ValueBreakdownSplit';
 import CurvilinearGrid from '@/components/ui/CurvilinearGrid';
 import DetailedInclusionsList from '@/components/ui/DetailedInclusionsList';
-import AlternatingRiverShowcase from '@/components/ui/AlternatingRiverShowcase';
+import ThreeColumnGrid from '@/components/ui/ThreeColumnGrid';
 import InclusionCheckerGrid from '@/components/ui/InclusionCheckerGrid';
 import EditorialIntroSplit from '@/components/ui/EditorialIntroSplit';
 import CardGrid from '@/components/ui/CardGrid';
@@ -23,6 +23,17 @@ import FeatureGrid from '@/components/ui/FeatureGrid';
 import CenterCTA from '@/components/ui/CenterCTA';
 import FAQAccordion from '@/components/ui/FAQAccordion';
 import ExpertCredentials from '@/components/ui/ExpertCredentials';
+
+// Assets from HowMuchDoesLuxurySoloTravelCost
+import HeroCostBreakfastImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/luxury-cruise-fjord-breakfast.webp";
+import AlpineJourneyTrainImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/alpine-journey-panoramic-train.webp";
+import RiverValleyRetreatImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/luxury-river-valley-retreat.webp";
+import GlacialFjordCruiseImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/cruising-through-glacial-fjord.webp";
+import VineyardRiverEscapeImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/sunlit-riverside-vineyard-escape-panoramic-view.webp";
+import GoldenSafariElephantsImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/golden-safari-morning-elephants.webp";
+import GuidedJapaneseGardenImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/guided-conversations-japanese-temple-garden.webp";
+import SafariJeepGiraffeImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/safari-jeep-giraffe-encounter.webp";
+import RiversideParliamentImg from "@/assets/LuxurySoloWomenTravel/HowMuchDoesLuxurySoloTravelCost/riverside-cruise-parliament.webp";
 
 const SoloTravelCost = () => {
 
@@ -64,12 +75,20 @@ const SoloTravelCost = () => {
     }
   ];
 
-  // 4. Experience Type Showcases for AlternatingRiverShowcase
-  const experienceRivers = pageData.experiencesPricing.experiences.map((exp) => ({
-    name: exp.title,
-    description: `${exp.lead} ${exp.conclusion}`,
-    bestFor: exp.comparisonHeading,
-    highlights: exp.points
+  // 4. Experience Type Showcases for ThreeColumnGrid
+  const experienceImages = [
+    GlacialFjordCruiseImg,
+    VineyardRiverEscapeImg,
+    GoldenSafariElephantsImg
+  ];
+
+  const experienceItems = pageData.experiencesPricing.experiences.map((exp, idx) => ({
+    category: ["Solo Ocean Cruises", "Solo River Cruises", "Solo African Safaris"][idx],
+    title: exp.title,
+    description: exp.lead,
+    features: exp.points,
+    highlight: exp.conclusion,
+    image: experienceImages[idx]
   }));
 
   // 4b. Inclusions & Exclusions for InclusionCheckerGrid
@@ -147,6 +166,8 @@ const SoloTravelCost = () => {
           `${pageData.hero.sublead} ${pageData.hero.ranges.join(', ')}.`,
           pageData.hero.conclusion
         ]}
+        backgroundImage={HeroCostBreakfastImg}
+        imageAlt={pageData.hero.title}
         primaryCtaText={pageData.hero.primaryCta.text}
         primaryCtaLink={pageData.hero.primaryCta.link}
         secondaryCtaText={pageData.hero.secondaryCta.text}
@@ -160,6 +181,7 @@ const SoloTravelCost = () => {
             eyebrow={pageData.averageCost.eyebrow}
             heading={pageData.averageCost.title}
             paragraphs={pageData.averageCost.paragraphs}
+            image={AlpineJourneyTrainImg}
             badgeTitle="Total Value Assessment"
             badgeDescription="Why comparing end-to-end inclusions is more meaningful than baseline advertised rates."
             placeholderLabel="AVERAGE COST OF LUXURY SOLO TRAVEL"
@@ -175,6 +197,7 @@ const SoloTravelCost = () => {
             extrasTitle="Comprehensive & Bespoke Tiers"
             included={budgetTiersIncluded}
             extras={budgetTiersExtras}
+            image={RiverValleyRetreatImg}
           />
         </div>
 
@@ -225,12 +248,12 @@ const SoloTravelCost = () => {
           </div>
         </div>
 
-        {/* ─── 6. PRICING ACROSS LUXURY EXPERIENCES (AlternatingRiverShowcase Component) ─── */}
+        {/* ─── 6. PRICING ACROSS LUXURY EXPERIENCES (ThreeColumnGrid Component) ─── */}
         <div className="relative">
-          <AlternatingRiverShowcase
+          <ThreeColumnGrid
             title={pageData.experiencesPricing.title}
-            description={pageData.experiencesPricing.subtitle}
-            rivers={experienceRivers}
+            subtitle={pageData.experiencesPricing.subtitle}
+            items={experienceItems}
           />
           {/* Interlink Hubs Box for Experiences */}
           <div className="max-w-4xl mx-auto px-6 mt-6 mb-16 text-center relative z-20">
@@ -278,6 +301,8 @@ const SoloTravelCost = () => {
             eyebrow="ADVISORY PERSPECTIVE"
             heading={pageData.doesSoloCostMore.title}
             paragraphs={doesCostMoreParagraphs}
+            primaryImage={GuidedJapaneseGardenImg}
+            secondaryImage={SafariJeepGiraffeImg}
             ctaText="Plan With A Travel Advisor"
             ctaLink="/contact"
           />
@@ -360,11 +385,11 @@ const SoloTravelCost = () => {
         {/* ─── 18. FINAL CONVERSION SECTION (CenterCTA Component) ─── */}
         <CenterCTA
           title="Plan Your Luxury Solo Journey"
-          subtitle="You don't need someone to go with you. You need the right experience waiting for you. Get in touch with our luxury travel advisors today."
-          primaryText="Plan Your Luxury Solo Journey"
-          primaryHref="/contact"
-          secondaryText="Explore Luxury Solo Pillar Hub"
-          secondaryHref="/luxury-solo-womens-travel/"
+          description="You don't need someone to go with you. You need the right experience waiting for you. Get in touch with our luxury travel advisors today."
+          buttonText="Plan Your Luxury Solo Journey"
+          buttonLink="/contact"
+          image={RiversideParliamentImg}
+          theme="dark"
         />
       </div>
     </div>

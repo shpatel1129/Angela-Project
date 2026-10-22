@@ -205,11 +205,11 @@ import SeabournOceanVsExpedition from "./pages/Seabourn/SeabournOceanVsExpeditio
 import SeabournVsCelebrityRetreat from "./pages/Seabourn/SeabournVsCelebrityRetreat/SeabournVsCelebrityRetreat";
 import SeabournVsRitzCarltonYacht from "./pages/Seabourn/SeabournVsRitzCarltonYacht/SeabournVsRitzCarltonYacht";
 import BookSeabournDirectVsTravelAdvisor from "./pages/Seabourn/BookSeabournDirectVsTravelAdvisor/BookSeabournDirectVsTravelAdvisor";
-import LuxurySoloWomensTravel from "./pages/LuxurySoloWomensTravel/LuxurySoloWomensTravel";
-import SoloLuxuryCruises from "./pages/LuxurySoloWomensTravel/SoloLuxuryCruises/SoloLuxuryCruises";
+import LuxurySoloWomensTravel from "./pages/LuxurySoloWomenTravel/LuxurySoloWomensTravel/LuxurySoloWomensTravel";
+import SoloLuxuryCruises from "./pages/LuxurySoloWomenTravel/SoloLuxuryCruises/SoloLuxuryCruises";
 // import SingleSupplementCruises from "./pages/LuxurySoloWomensTravel/SingleSupplementCruises/SingleSupplementCruises";
-import SoloTravelCost from "./pages/LuxurySoloWomensTravel/SoloTravelCost/SoloTravelCost";
-import SoloTravelOffers from "./pages/LuxurySoloWomensTravel/SoloTravelOffers/SoloTravelOffers";
+import SoloTravelCost from "./pages/LuxurySoloWomenTravel/SoloTravelCost/SoloTravelCost";
+import SoloTravelOffers from "./pages/LuxurySoloWomenTravel/SoloTravelOffers/SoloTravelOffers";
 // import SoloVsGroupTravel from "./pages/LuxurySoloWomensTravel/SoloVsGroupTravel/SoloVsGroupTravel";
 // import SoloAfricanSafaris from "./pages/LuxurySoloWomensTravel/SoloAfricanSafaris/SoloAfricanSafaris";
 // import WomenOnlyTours from "./pages/LuxurySoloWomensTravel/WomenOnlyTours/WomenOnlyTours";

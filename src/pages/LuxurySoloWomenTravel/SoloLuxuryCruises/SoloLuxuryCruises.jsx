@@ -8,10 +8,10 @@ import Nav from "@/components/Navbar/Nav";
 
 // Shared Existing UI System Components
 import ComparisonHero from '@/components/ui/ComparisonHero';
-import AsymmetricStoryIntro from '@/components/ui/AsymmetricStoryIntro';
+import ThreeColumnGrid from '@/components/ui/ThreeColumnGrid';
 import FeatureGrid from '@/components/ui/FeatureGrid';
 import CardGrid from '@/components/ui/CardGrid';
-import TravelerProfileTabs from '@/components/ui/TravelerProfileTabs';
+import LuxuryZigZagShowcase from '@/components/ui/LuxuryZigZagShowcase';
 import ValueBreakdownSplit from '@/components/ui/ValueBreakdownSplit';
 import EditorialIntroSplit from '@/components/ui/EditorialIntroSplit';
 import ShipPhilosophyFaceoff from '@/components/ui/ShipPhilosophyFaceoff';
@@ -21,26 +21,47 @@ import ExpertCredentials from '@/components/ui/ExpertCredentials';
 import FAQAccordion from '@/components/ui/FAQAccordion';
 import CenterCTA from '@/components/ui/CenterCTA';
 
-// Assets (Commented out per project preference)
-// import SoloHeroImg from "../../../assets/Seabourn/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg";
-// import SoloCruiseImg from "../../../assets/Seabourn/SeabournCruises/seabourn-solo-travelers-luxury-single-cruising.jpg";
-// import SoloOverviewImg from "../../../assets/Seabourn/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg";
-// import SoloSuitesImg from "../../../assets/Seabourn/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg";
-// import AboutImage from "../../../assets/AboutAngela.jpeg";
+// Assets for SoloLuxuryCruises
+import HeroGlacialFjordImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/cruising-through-glacial-fjord.webp";
+import MultipleDestinationsImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/riverside-cruise-parliament-panoramic-view.webp";
+import EffortlessLuxuryImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/serene-breakfast-tropical-views.webp";
+import NaturalConnectionsImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/riverside-cruise-coffee-friends.webp";
+import SingleSupplementsSuiteImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/luxury-cruise-fjord-breakfast.webp";
+import SocialVibeImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/river-cruise-friends-laughing-together.webp";
+import SocialExcursionImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/women-exploring-sunlit-coastal-village.webp";
+import OceanVoyageImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/cruise-deck-serenity-cliffs.webp";
+import RiverWaterwayImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/sunlit-riverside-vineyard-escape-panoramic-view.webp";
+import WomenWhoWanderImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/friends-enjoying-scenic-river-cruise.webp";
+import WomenOver50Img from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/relaxing-cruise-through-alpine-fjords.webp";
+import FinalConversionImg from "@/assets/LuxurySoloWomenTravel/SoloLuxuryCruises/riverside-cruise-parliament.webp";
 
 const SoloLuxuryCruises = () => {
 
-  // 1. Luxury Cruise Lines for TravelerProfileTabs
-  const cruiseLineProfiles = pageData.cruiseLines.lines.map((line) => ({
-    name: line.name,
-    tagline: line.tagline,
-    quote: line.quote,
-    recommendation: line.recommendation,
-    reason: line.reason,
-    whyFits: line.whyFits,
+  // 0. Why Choose Cards for ThreeColumnGrid
+  const whyChooseImages = [
+    MultipleDestinationsImg,
+    EffortlessLuxuryImg,
+    NaturalConnectionsImg
+  ];
+
+  const whyChooseCards = pageData.whyChoose.highlights.map((highlight, idx) => {
+    const [title, ...descParts] = highlight.split(':');
+    return {
+      title: title.trim(),
+      category: ["SEAMLESS ITINERARIES", "EFFORTLESS LUXURY", "NATURAL CONNECTIONS"][idx],
+      description: descParts.join(':').trim(),
+      image: whyChooseImages[idx]
+    };
+  });
+
+  // 1. Luxury Cruise Lines for LuxuryZigZagShowcase
+  const cruiseLineItems = pageData.cruiseLines.lines.map((line) => ({
+    title: line.name,
+    category: line.tagline,
+    description: `${line.quote} ${line.reason}`,
+    bestFor: `${line.recommendation} Key Highlights: ${line.whyFits.join(' • ')}`,
+    placeholderLabel: `${line.name.toUpperCase()} VERIFIED SOLO CRUISE`,
     // image: null,
-    alt: `${line.name} - Luxury Solo Cruise Line`,
-    placeholderLabel: `${line.name.toUpperCase()}`
   }));
 
   // 2. How to Choose Cards for CardGrid
@@ -77,7 +98,7 @@ const SoloLuxuryCruises = () => {
     {
       title: "Tailored Experiences Over Age Labels",
       description: pageData.womenOver50.lead,
-      // image: null,
+      image: WomenOver50Img,
       alt: "Solo Travel for Women Over 50",
       icon: "Sparkles",
       bulletPoints: pageData.womenOver50.interests
@@ -128,7 +149,8 @@ const SoloLuxuryCruises = () => {
           pageData.hero.sublead,
           pageData.hero.conclusion
         ]}
-        // backgroundImage={SoloHeroImg}
+        backgroundImage={HeroGlacialFjordImg}
+        imageAlt={pageData.hero.title}
         primaryCtaText={pageData.hero.primaryCta.text}
         primaryCtaLink={pageData.hero.primaryCta.link}
         secondaryCtaText={pageData.hero.secondaryCta.text}
@@ -136,21 +158,41 @@ const SoloLuxuryCruises = () => {
       />
 
       <div id="content">
-        {/* ─── 2. WHY CHOOSE A LUXURY CRUISE AS A SOLO TRAVELER (AsymmetricStoryIntro Component) ─── */}
-        <AsymmetricStoryIntro
-          eyebrow={pageData.whyChoose.eyebrow}
-          heading={pageData.whyChoose.title}
-          paragraphs={[
-            pageData.whyChoose.lead,
-            pageData.whyChoose.sublead,
-            pageData.whyChoose.conclusion
-          ]}
-          highlights={pageData.whyChoose.highlights}
-          // image1={SoloOverviewImg}
-          // image2={SoloSuitesImg}
-          ctaText="Find My Luxury Solo Cruise"
-          ctaLink="/contact"
-        />
+        {/* ─── 2. WHY CHOOSE A LUXURY CRUISE AS A SOLO TRAVELER (ThreeColumnGrid Component) ─── */}
+        <div className="relative">
+          {pageData.whyChoose.eyebrow && (
+            <div className="max-w-4xl mx-auto px-6 pt-16 text-center">
+              <div className="flex items-center justify-center gap-3 mb-2">
+                <div className="w-8 h-px bg-gold-500"></div>
+                <span className="font-sans text-xs font-bold uppercase tracking-[0.25em] text-gold-600">
+                  {pageData.whyChoose.eyebrow}
+                </span>
+                <div className="w-8 h-px bg-gold-500"></div>
+              </div>
+            </div>
+          )}
+
+          <ThreeColumnGrid
+            title={pageData.whyChoose.title}
+            subtitle={`${pageData.whyChoose.lead} ${pageData.whyChoose.sublead}`}
+            items={whyChooseCards}
+          />
+
+          {/* Conclusion Callout & CTA */}
+          <div className="max-w-4xl mx-auto px-6 -mt-6 mb-16 text-center relative z-20">
+            <div className="p-8 bg-slate-50 rounded-2xl border border-slate-200/80 shadow-sm">
+              <p className="font-sans text-base sm:text-lg text-slate-700 leading-relaxed italic mb-6">
+                "{pageData.whyChoose.conclusion}"
+              </p>
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center px-8 py-3.5 bg-navy-950 text-white font-sans text-xs sm:text-sm font-bold tracking-widest uppercase hover:bg-navy-900 transition-all rounded-full shadow-md hover:scale-105"
+              >
+                Find My Luxury Solo Cruise &rarr;
+              </Link>
+            </div>
+          </div>
+        </div>
 
         {/* ─── 3. WHAT SHOULD SOLO WOMEN LOOK FOR IN A LUXURY CRUISE? (FeatureGrid Component) ─── */}
         <FeatureGrid
@@ -159,14 +201,23 @@ const SoloLuxuryCruises = () => {
           features={pageData.whatToLookFor.features}
         />
 
-        {/* ─── 4. LUXURY CRUISE LINES TO CONSIDER (TravelerProfileTabs Component) ─── */}
+        {/* ─── 4. LUXURY CRUISE LINES TO CONSIDER (LuxuryZigZagShowcase Component) ─── */}
         <div className="relative">
-          <TravelerProfileTabs
+          <LuxuryZigZagShowcase
             title={pageData.cruiseLines.title}
             subtitle={pageData.cruiseLines.subtitle}
-            profiles={cruiseLineProfiles}
+            items={cruiseLineItems}
           />
-         
+          {/* Cruise Lines Policy & Verification Notice */}
+          {pageData.cruiseLines.notice && (
+            <div className="max-w-4xl mx-auto px-6 -mt-8 mb-16 text-center relative z-20">
+              <div className="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm">
+                <p className="font-sans text-xs sm:text-sm text-slate-600 leading-relaxed italic">
+                  {pageData.cruiseLines.notice}
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* ─── 5. HOW SINGLE SUPPLEMENTS AFFECT SOLO CRUISE PRICING (ValueBreakdownSplit Component) ─── */}
@@ -177,7 +228,7 @@ const SoloLuxuryCruises = () => {
           extrasTitle={pageData.singleSupplements.reducedSupplementsTitle}
           included={pageData.singleSupplements.pricingFactors}
           extras={pageData.singleSupplements.reducedSupplementsLimitations}
-          // image={SoloSuitesImg}
+          image={SingleSupplementsSuiteImg}
         />
 
         {/* Single Supplement Value Callout & CTA */}
@@ -208,8 +259,8 @@ const SoloLuxuryCruises = () => {
             pageData.socialVibe.balanceLead,
             pageData.socialVibe.balanceText
           ]}
-          // primaryImage={SoloCruiseImg}
-          // secondaryImage={SoloOverviewImg}
+          primaryImage={SocialVibeImg}
+          secondaryImage={SocialExcursionImg}
         />
 
         {/* ─── 7. HOW TO CHOOSE THE RIGHT LUXURY CRUISE AS A SOLO WOMAN (CardGrid Component) ─── */}
@@ -225,10 +276,10 @@ const SoloLuxuryCruises = () => {
         <div className="relative">
           <ShipPhilosophyFaceoff
             data={faceoffData}
-            // regentImage={SoloCruiseImg}
+            regentImage={OceanVoyageImg}
             regentImageAlt="Luxury Ocean Cruise for Solo Travelers"
             regentImagePos="object-center"
-            // vikingImage={SoloOverviewImg}
+            vikingImage={RiverWaterwayImg}
             vikingImageAlt="Luxury River Cruise for Solo Travelers"
             vikingImagePos="object-center"
           />
@@ -253,7 +304,7 @@ const SoloLuxuryCruises = () => {
           description={pageData.womenWhoWanderPromo.description}
           buttonText={pageData.womenWhoWanderPromo.ctaText}
           buttonLink={pageData.womenWhoWanderPromo.ctaLink}
-          // image={SoloOverviewImg}
+          image={WomenWhoWanderImg}
           theme="dark"
         />
 
@@ -314,7 +365,7 @@ const SoloLuxuryCruises = () => {
           description={pageData.finalConversion.description}
           buttonText={pageData.finalConversion.ctaText}
           buttonLink={pageData.finalConversion.ctaLink}
-          // image={SoloCruiseImg}
+          image={FinalConversionImg}
           theme="dark"
         />
       </div>

@@ -25,18 +25,26 @@ import FAQAccordion from '@/components/ui/FAQAccordion';
 import CenterCTA from '@/components/ui/CenterCTA';
 
 // Assets
-// import AboutImage from "../../assets/AboutAngela.jpeg";
-// import SoloHeroImg from "../../assets/Seabourn/SeabournCruises/seabourn-luxury-cruise-ship-ocean-hero.jpg";
-// import SoloOverviewImg from "../../assets/Seabourn/SeabournCruises/seabourn-ultra-luxury-yacht-ship-overview.jpg";
-// import SoloSuitesImg from "../../assets/Seabourn/SeabournCruises/seabourn-all-suite-oceanfront-veranda-accommodations.jpg";
-// import SoloCruiseImg from "../../assets/Seabourn/SeabournCruises/seabourn-solo-travelers-luxury-single-cruising.jpg";
-// import SoloRiverImg from "../../assets/Seabourn/SeabournCruises/seabourn-worldwide-destination-focused-itineraries.jpg";
-// import SoloGroupImg from "../../assets/Seabourn/SeabournCruises/seabourn-cultural-travelers-heritage-exploration.jpg";
-// import SoloOver50Img from "../../assets/Seabourn/SeabournCruises/seabourn-mindful-living-wellness-spa-relaxation.jpg";
-// import SoloSafariImg from "../../assets/Seabourn/SeabournCruises/seabourn-purpose-built-ultra-luxury-expedition-cruises.jpg";
-// import SoloOnboardLifeImg from "../../assets/Seabourn/SeabournCruises/seabourn-onboard-luxury-lifestyle-all-inclusive-amenities.jpg";
-// import SoloShoreImg from "../../assets/Seabourn/SeabournCruises/seabourn-curated-shore-excursions-unesco-tours.jpg";
-// import SoloCtaImg from "../../assets/Seabourn/SeabournCruises/seabourn-luxury-vacation-planning-expert-quote-cta.jpg";
+import AboutImage from "@/assets/AboutAngela.jpeg";
+
+// Luxury Solo Women Travel Assets
+import CherryBlossomsImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/cherry-blossoms-sacred-views.webp";
+import CruiseDeckSerenityImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/cruise-deck-serenity-cliffs.webp";
+import ViennaStreetStrollImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/elegant-vienna-street-stroll.webp";
+import FriendsScenicCruiseImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/friends-enjoying-scenic-river-cruise.webp";
+import MediterraneanEscapeImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/mediterranean-cliffside-escape.webp";
+import MoroccanCourtyardImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/moroccan-courtyard-cultural-exchange.webp";
+import AlpineFjordsCruiseImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/relaxing-cruise-through-alpine-fjords.webp";
+import RiverFriendsLaughingImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/river-cruise-friends-laughing-together.webp";
+import RiverCoffeeFriendsImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/riverside-cruise-coffee-friends.webp";
+import RiverParliamentPanoramicImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/riverside-cruise-parliament-panoramic-view.webp";
+import RiverParliamentImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/riverside-cruise-parliament.webp";
+import SafariAdventureElephantsImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/safari-adventure-elephants.webp";
+import SafariAirstripArrivalImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/safari-airstrip-arrival.webp";
+import SafariLodgeElephantViewImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/serene-safari-lodge-elephant-view.webp";
+import SafariLodgeWildlifeViewImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/serene-safari-lodge-wildlife-view.webp";
+import FriendsVineyardsCruiseImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/three-friends-cruising-through-vineyards.webp";
+import CoastalVillageExploreImg from "@/assets/LuxurySoloWomenTravel/LuxurySoloTravelWomenExploreWorld/women-exploring-sunlit-coastal-village.webp";
 
 const LuxurySoloWomensTravel = () => {
 
@@ -45,7 +53,7 @@ const LuxurySoloWomensTravel = () => {
     title: card.title,
     description: card.description,
     icon: card.icon,
-    // image: [SoloCruiseImg, SoloRiverImg, SoloSuitesImg, SoloGroupImg, SoloOverviewImg][idx] || null,
+    image: null,
     alt: card.title,
     placeholderLabel: card.title
   }));
@@ -54,7 +62,7 @@ const LuxurySoloWomensTravel = () => {
   const womenOnlyHighlights = pageData.womenOnlyTours.items.map((item, idx) => ({
     title: item.title,
     description: item.desc,
-    // image: [SoloGroupImg, SoloShoreImg, SoloOverviewImg][idx] || null,
+    image: [FriendsScenicCruiseImg, RiverFriendsLaughingImg, null][idx] || null,
     alt: item.title,
     icon: "Heart",
     bulletPoints: item.best
@@ -68,7 +76,7 @@ const LuxurySoloWomensTravel = () => {
     recommendation: dest.recommendation,
     reason: dest.reason,
     whyFits: dest.whyFits,
-    // image: [SoloRiverImg, SoloCruiseImg, SoloSuitesImg, SoloSafariImg, SoloOverviewImg, SoloGroupImg][idx] || null,
+    image: [RiverParliamentImg, null, null, SafariAdventureElephantsImg, null, null][idx] || null,
     alt: `${dest.name} - Luxury Solo Female Destination`,
     placeholderLabel: `${dest.name.toUpperCase()} DESTINATION`
   }));
@@ -79,7 +87,7 @@ const LuxurySoloWomensTravel = () => {
     description: river.description,
     bestFor: river.bestFor,
     highlights: river.highlights,
-    // image: [SoloRiverImg, SoloShoreImg][idx]
+    image: [RiverParliamentPanoramicImg, FriendsVineyardsCruiseImg][idx]
   }));
 
   // 5. African Safaris for LuxuryZigZagShowcase
@@ -88,7 +96,7 @@ const LuxurySoloWomensTravel = () => {
     title: item.title,
     description: item.description,
     bestFor: item.bestFor,
-    // image: [SoloSafariImg, SoloShoreImg][idx],
+    image: [SafariLodgeElephantViewImg, SafariAirstripArrivalImg][idx],
     alt: `${item.title} - Luxury African Safari for Solo Women`,
     placeholderLabel: `${item.title.toUpperCase()}`
   }));
@@ -98,7 +106,7 @@ const LuxurySoloWomensTravel = () => {
     title: feature.title,
     description: feature.description,
     icon: "Compass",
-    // image: [SoloCruiseImg, SoloRiverImg, SoloGroupImg, SoloSuitesImg, SoloSafariImg, SoloOverviewImg, SoloOver50Img, SoloOnboardLifeImg][idx] || null,
+    image: null,
     alt: feature.title,
     placeholderLabel: feature.title
   }));
@@ -108,7 +116,7 @@ const LuxurySoloWomensTravel = () => {
     title: guide.title,
     category: guide.category,
     description: guide.description,
-    // image: [SoloCruiseImg, SoloGroupImg, SoloOver50Img][idx] || null,
+    image: [AlpineFjordsCruiseImg, CoastalVillageExploreImg, MoroccanCourtyardImg][idx] || null,
     alt: guide.title,
     badgeCount: guide.badgeCount,
     links: guide.links,
@@ -150,7 +158,7 @@ const LuxurySoloWomensTravel = () => {
           pageData.hero.sublead,
           pageData.hero.conclusion
         ]}
-        // backgroundImage={SoloHeroImg}
+        backgroundImage={CruiseDeckSerenityImg}
         primaryCtaText={pageData.hero.primaryCta.text}
         primaryCtaLink={pageData.hero.primaryCta.link}
         secondaryCtaText={pageData.hero.secondaryCta.text}
@@ -172,7 +180,7 @@ const LuxurySoloWomensTravel = () => {
           badgeTitle="Empowerment & Support"
           badgeDescription="Combining true independence with white-glove luxury logistics."
           placeholderLabel="WHY MORE WOMEN CHOOSE SOLO TRAVEL"
-        // image={SoloOverviewImg}
+          image={ViennaStreetStrollImg}
         />
 
         {/* ─── CURATED SOLO GUIDES HUB (InteractivePillarHubGrid Component) ─── */}
@@ -196,7 +204,7 @@ const LuxurySoloWomensTravel = () => {
         <EditorialFeatureShowcase
           title={pageData.luxuryCruises.title}
           subtitle={`${pageData.luxuryCruises.intro} ${pageData.luxuryCruises.evaluating}`}
-          // image={SoloCruiseImg}
+          image={MediterraneanEscapeImg}
           features={pageData.luxuryCruises.features}
         />
 
@@ -268,8 +276,8 @@ const LuxurySoloWomensTravel = () => {
             pageData.womenOver50.safetyComfort,
             `${pageData.womenOver50.diverseTypes} ${pageData.womenOver50.verdict}`
           ]}
-        // primaryImage={SoloOver50Img}
-        // secondaryImage={SoloOnboardLifeImg}
+          primaryImage={CherryBlossomsImg}
+          secondaryImage={RiverCoffeeFriendsImg}
         />
 
         {/* Women Over 50 Interlink & Action CTA */}
@@ -339,7 +347,7 @@ const LuxurySoloWomensTravel = () => {
           extrasTitle={pageData.singleSupplement.extrasTitle}
           included={pageData.singleSupplement.included}
           extras={pageData.singleSupplement.extras}
-        // image={SoloSuitesImg}
+          image={undefined}
         />
 
         {/* Single Supplements Interlink & Action CTA */}
@@ -437,10 +445,10 @@ const LuxurySoloWomensTravel = () => {
         {/* ─── 11. SOLO TRAVEL VS. WOMEN-ONLY GROUP TRAVEL (ShipPhilosophyFaceoff Component) ─── */}
         <ShipPhilosophyFaceoff
           data={pageData.soloVsGroup.faceoff}
-          // regentImage={SoloCruiseImg}
+          regentImage={undefined}
           regentImageAlt="Solo Travel Style - Complete Independence"
           regentImagePos="object-center"
-          // vikingImage={SoloGroupImg}
+          vikingImage={undefined}
           vikingImageAlt="Women-Only Group Travel - Shared Sisterhood"
           vikingImagePos="object-center"
         />
@@ -518,7 +526,7 @@ const LuxurySoloWomensTravel = () => {
           description={pageData.womenWhoWander.description}
           buttonText={pageData.womenWhoWander.ctaText}
           buttonLink={pageData.womenWhoWander.ctaLink}
-          // image={SoloGroupImg}
+          image={undefined}
           theme="dark"
         />
 
@@ -532,7 +540,7 @@ const LuxurySoloWomensTravel = () => {
           authoritySubtitle={pageData.expert.authoritySubtitle}
           bio={pageData.expert.bio}
           credentials={pageData.expert.credentials}
-          // image={AboutImage}
+          image={AboutImage}
           ctaText="Plan Your Solo Journey With Angela"
           ctaLink="/contact"
         />
@@ -546,7 +554,7 @@ const LuxurySoloWomensTravel = () => {
           description={pageData.finalConversion.description}
           buttonText={pageData.finalConversion.ctaText}
           buttonLink={pageData.finalConversion.ctaLink}
-          // image={SoloCtaImg}
+          image={SafariLodgeWildlifeViewImg}
           theme="dark"
         />
       </div>
