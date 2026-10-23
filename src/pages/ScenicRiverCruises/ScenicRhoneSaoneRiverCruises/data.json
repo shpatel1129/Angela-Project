@@ -1,0 +1,987 @@
+{
+  "meta": {
+    "title": "Scenic Rhône & Saône River Cruises: Burgundy to Provence | Complete Guide",
+    "metaTitle": "Scenic Rhône & Saône River Cruises | Burgundy, Provence & French Gastronomy",
+    "metaDescription": "Explore Scenic Rhône & Saône river cruises from Burgundy to Provence. Discover Lyon, Avignon, Arles, Beaune, wine regions, excursions, cabins, costs and best itineraries.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone/#webpage",
+          "name": "Scenic Rhône & Saône River Cruises (2026) | Burgundy, Provence & Guide",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone",
+          "description": "Explore Scenic Rhône and Saône River Cruises through Burgundy and Provence. Discover Lyon, Avignon, Arles, vineyards, French cuisine, excursions, cabins, costs and the best time to sail."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone/#article",
+          "headline": "Scenic Rhône & Saône River Cruises: Burgundy, Provence & the Complete Guide",
+          "description": "A complete guide to Scenic Rhône & Saône River Cruises, including Lyon, Burgundy, Beaune, Avignon, Arles, Provence, French wine and cuisine, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Rhône & Saône River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone/#itemlist",
+          "name": "Scenic Rhône & Saône River Cruises — What This Guide Covers",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Quick Answer"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Why Choose a Scenic Rhône & Saône River Cruise?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Where Do Scenic Rhône & Saône Cruises Go?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Best Scenic Rhône & Saône River Cruise Itineraries"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Best Time for a Scenic Rhône & Saône River Cruise"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Scenic Rhône & Saône Excursions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Scenic Rhône & Saône Cruise for Art Lovers"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Cabins & Butler Service"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Food, Wine & History"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Couples & Families"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "name": "Cost & What's Included"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "name": "Common Booking Mistakes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "name": "Why Book Through a Luxury Travel Advisor?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "name": "Final Verdict"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhone-saone/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best Scenic Rhône and Saône River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An itinerary combining Burgundy and Provence is an excellent choice for first-time travelers because it provides a broad introduction to French food, wine, history, and countryside."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What destinations are included on a Scenic Rhône and Saône cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Depending on the itinerary, destinations can include Lyon, Burgundy, Beaune, Mâcon, Vienne, Avignon, Arles, and other locations in southeastern France."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic cruise the Rhône River?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Scenic offers river cruise itineraries focused on the Rhône and surrounding destinations in southern France."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic cruise the Saône River?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Selected Scenic itineraries combine the Saône with the Rhône to connect Burgundy and Provence."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Rhône and Saône cruise good for wine lovers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Burgundy and the Rhône Valley are major attractions for wine enthusiasts, making this one of the strongest European river cruise regions for wine-focused travel."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Rhône cruise good for food lovers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Lyon, Burgundy, and Provence each have distinctive culinary traditions, making food an important part of the experience."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time for a Scenic Rhône River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spring, summer, and fall each offer different advantages. Fall can be especially appealing to wine travelers, while spring and summer are attractive for landscapes and outdoor sightseeing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Rhône cruise visit Provence?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Many Scenic Rhône itineraries explore Provence, although exact destinations vary by sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic visit Avignon?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Avignon is an important destination on many Rhône itineraries, but travelers should confirm the exact port schedule for their sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Rhône cruise visit Arles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some itineraries include Arles and its historic and artistic attractions. Check the specific itinerary before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Rhône and Saône cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Burgundy wine, Provençal scenery, French cuisine, historic cities, and luxury accommodations make this an excellent itinerary for couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Rhône and Saône cruise suitable for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Multigenerational families can combine history, food, cultural experiences, and different levels of excursions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are excursions included on Scenic Rhône cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic includes a selection of destination experiences, including Freechoice activities and eligible Scenic Enrich experiences. Exact offerings vary by sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which cabin is best on a Scenic Rhône and Saône cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best suite depends on your preferences and budget. Travelers who enjoy scenic sailing may particularly value a suite with a Sun Lounge or dedicated river-view space."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I arrive early for a Scenic Rhône and Saône cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. International travelers should strongly consider arriving at least one day before embarkation, particularly if the cruise begins in Lyon."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Rhône & Saône River Cruises",
+    "subtitle": "Burgundy to Provence & French Gastronomy in All-Inclusive Luxury",
+    "intro": "A Scenic Rhône & Saône River Cruise takes you through the heart of southern and eastern France, connecting the wine country of Burgundy, the gastronomy of Lyon, and the sun-drenched landscapes and Roman history of Provence.",
+    "extendedText": "A Scenic Rhône & Saône River Cruise takes you through the heart of southern and eastern France, connecting the wine country of Burgundy, the gastronomy of Lyon, and the sun-drenched landscapes and Roman history of Provence. For luxury travelers, the Rhône and Saône offer an immersive journey into French culture, world-class gastronomy, premier cru wine tastings, and extraordinary UNESCO World Heritage sites — all without the hassle of packing, unpacking, or navigating regional trains.",
+    "ctaText": "Start Planning Your Scenic Rhône Cruise",
+    "ctaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "The Quick Answer",
+    "title": "Is a Scenic Rhône & Saône River Cruise Worth It? The Quick Answer",
+    "intro": "Yes — particularly for travelers who appreciate food, wine, historic architecture, and the distinctive character of French regional cultures. While the Danube connects European capitals and the Rhine is known for castles and multiple countries, the Rhône and Saône focus intensely on France.",
+    "emphasis": [
+      "Couples",
+      "Luxury travelers",
+      "Foodies",
+      "Wine enthusiasts",
+      "Art lovers",
+      "History travelers",
+      "First-time river cruisers",
+      "Multigenerational travelers",
+      "Travelers who want to explore Burgundy and Provence"
+    ],
+    "outro": "Highlights include the Roman heritage of Arles and Avignon, the wine villages of Burgundy, the culinary capital of Lyon, and the Impressionist light of Provence. For many travelers, the biggest advantage is depth: exploring France at a relaxed, unhurried pace from the comfort of a 5-star Scenic Space-Ship."
+  },
+  "whyChoose": {
+    "eyebrow": "The Scenic Advantage",
+    "title": "Why Choose a Scenic Rhône & Saône River Cruise?",
+    "intro": "The combination of the Saône and Rhône allows you to travel between two very different Frances — the rolling vineyards and medieval monasteries of Burgundy and the olive groves, lavender hills, and Roman monuments of Provence, with Lyon at the crossroads.",
+    "imageLabel": "Burgundy & Provence Seamlessly",
+    "callout": "A culinary capital and sun-drenched southern landscapes linked by two majestic French rivers.",
+    "features": [
+      "Lyon",
+      "Burgundy vineyards",
+      "Beaune",
+      "The Saône Valley",
+      "Avignon",
+      "Arles",
+      "Provence",
+      "French wine & cuisine"
+    ]
+  },
+  "destinations": {
+    "title": "Where Do Scenic Rhône & Saône River Cruises Go?",
+    "intro": "Ports vary by itinerary, but key destinations typically include:",
+    "items": [
+      {
+        "key": "lyon",
+        "title": "Lyon",
+        "items": [
+          "French gastronomy & Old Lyon",
+          "Renaissance architecture",
+          "An excellent starting or ending point"
+        ]
+      },
+      {
+        "key": "burgundy",
+        "title": "Burgundy",
+        "items": [
+          "Vineyards & wine estates",
+          "Historic villages",
+          "Synonymous with French wine and gastronomy"
+        ]
+      },
+      {
+        "key": "beaune",
+        "title": "Beaune",
+        "items": [
+          "Burgundy's best-known wine destination",
+          "Historic center & architecture",
+          "A deeper look at Burgundy wine culture"
+        ]
+      },
+      {
+        "key": "vienne",
+        "title": "Vienne",
+        "items": [
+          "Roman heritage & archaeological sites",
+          "Historic churches",
+          "A fascinating connection to France's Roman past"
+        ]
+      },
+      {
+        "key": "avignon",
+        "title": "Avignon",
+        "items": [
+          "Palais des Papes & Pont d'Avignon",
+          "Medieval architecture",
+          "One of the major highlights of a Rhône cruise"
+        ]
+      },
+      {
+        "key": "arles",
+        "title": "Arles",
+        "items": [
+          "Roman history & Provençal culture",
+          "Vincent van Gogh connections",
+          "Compelling for art and history travelers"
+        ]
+      },
+      {
+        "key": "provence",
+        "title": "Provence",
+        "items": [
+          "Lavender landscapes & countryside",
+          "Provençal cuisine & wine",
+          "The emotional highlight for many travelers"
+        ]
+      }
+    ]
+  },
+  "cta1": {
+    "title": "Not Sure Which Rhône & Saône Itinerary Is Right for You?",
+    "text": "Let us help you compare Scenic Rhône sailings, suite categories, and find the perfect departure for your travel style.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time for a Scenic Rhône & Saône River Cruise",
+    "intro": "The best time depends on what you want from your trip. Spring brings blooming orchards and comfortable walking weather; summer provides long sunny Mediterranean days and lavender in Provence; autumn offers grape harvest in Burgundy and truffle season; and winter features festive holiday celebrations in Lyon.",
+    "items": [
+      {
+        "key": "spring",
+        "icon": "Flower2",
+        "eyebrow": "March–May",
+        "title": "Spring",
+        "intro": "Spring can be excellent for:",
+        "items": [
+          "Flowers & gardens",
+          "Green countryside",
+          "Comfortable sightseeing"
+        ],
+        "outro": "It's a good choice for travelers who prefer moderate temperatures.",
+        "accent": "adg-accent-teal"
+      },
+      {
+        "key": "summer",
+        "icon": "Sun",
+        "eyebrow": "June–August",
+        "title": "Summer",
+        "intro": "Summer is popular for good reason. You can expect:",
+        "items": [
+          "Longer days",
+          "Vibrant landscapes",
+          "Outdoor sightseeing & dining"
+        ],
+        "outro": "Provence can be particularly appealing during the summer months.",
+        "accent": "adg-accent-navy"
+      },
+      {
+        "key": "fall",
+        "icon": "Leaf",
+        "eyebrow": "September–November",
+        "title": "Fall",
+        "intro": "Fall is an excellent season for food and wine travelers. Highlights can include:",
+        "items": [
+          "Harvest season",
+          "Wine experiences",
+          "Autumn landscapes & seasonal cuisine"
+        ],
+        "outro": "If wine is your primary interest, consider carefully researching the exact dates of your sailing.",
+        "accent": "adg-accent-rose"
+      },
+      {
+        "key": "winter",
+        "icon": "Snowflake",
+        "eyebrow": "December–February",
+        "title": "Winter",
+        "intro": "Winter provides a quieter experience, offering:",
+        "items": [
+          "Fewer crowds",
+          "Holiday-themed French travel",
+          "A calmer pace"
+        ],
+        "outro": "Winter doesn't showcase Provence in quite the same way as spring and summer, but can still be attractive for travelers who prefer festive experiences.",
+        "accent": "adg-accent-teal"
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Rhône & Saône River Cruise Itineraries",
+    "intro": "There isn't one itinerary that's perfect for everyone — your priorities should determine your choice. Explore the core routes sailing between Lyon, Burgundy, and Provence:",
+    "items": [
+      {
+        "id": "burgundy-provence",
+        "title": "Burgundy & Provence Itinerary",
+        "badge": "Best Overall",
+        "icon": "Compass",
+        "desc": "For first-time travelers, an itinerary connecting the Burgundy region with Provence provides the broadest experience, combining Lyon, Burgundy, vineyards, the Rhône Valley, Avignon, and Provence.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Travelers who want a comprehensive experience",
+              "French food, wine, culture & countryside",
+              "First-time travelers to the region"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rhone-valley",
+        "title": "Rhône Valley-Focused Cruise",
+        "badge": "Provence & South",
+        "icon": "Sun",
+        "desc": "If your interests lean more toward Provence and southern France, look for an itinerary that provides greater time along the Rhône.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Provence lovers",
+              "Art travelers",
+              "History and food & wine enthusiasts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "burgundy-focused",
+        "title": "Burgundy-Focused Experience",
+        "badge": "Wine Focus",
+        "icon": "Wine",
+        "desc": "If wine is your primary reason for traveling, focus on itineraries and excursions that provide substantial time in Burgundy.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Wine enthusiasts",
+              "Food travelers",
+              "Travelers interested in French countryside"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "firstTimeCruisers": {
+    "title": "Scenic Rhône & Saône Cruise for First-Time River Cruisers",
+    "intro": "The Rhône and Saône can be an excellent introduction to river cruising because the destination focus is intuitive and deeply rewarding:",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Burgundy",
+        "subtitle": "World-Renowned Wine Country & Medieval Heritage"
+      },
+      {
+        "num": "02",
+        "title": "Lyon & The Rhône Valley",
+        "subtitle": "Culinary Capital & Dramatic Terraced Vineyards"
+      },
+      {
+        "num": "03",
+        "title": "Provence",
+        "subtitle": "Roman Monuments, Avignon & Mediterranean Sun"
+      }
+    ],
+    "outro": "Unlike a multi-country itinerary where you may feel rushed across borders, the Rhône and Saône allow you to focus on France in a deeply meaningful, relaxed way."
+  },
+  "excursions": {
+    "eyebrow": "Onboard & Ashore",
+    "title": "Scenic Rhône & Saône River Cruise Excursions",
+    "intro": "Excursions can be one of the biggest reasons to choose this itinerary. Scenic's Freechoice program allows travelers to select from available experiences, while Scenic Enrich offers specially curated experiences on eligible sailings.",
+    "items": [
+      {
+        "icon": "Utensils",
+        "title": "Food",
+        "desc": "Explore regional French culinary traditions."
+      },
+      {
+        "icon": "Wine",
+        "title": "Wine",
+        "desc": "Visit vineyards, wine-producing regions, and tasting experiences."
+      },
+      {
+        "icon": "Landmark",
+        "title": "History",
+        "desc": "Explore Roman, medieval, and religious heritage."
+      },
+      {
+        "icon": "Palette",
+        "title": "Art",
+        "desc": "Discover destinations associated with French artists and artistic movements."
+      },
+      {
+        "icon": "Building2",
+        "title": "Architecture",
+        "desc": "Visit historic cities, churches, palaces, and villages."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Freechoice & Enrich",
+        "desc": "Scenic's Freechoice program allows travelers to select from available experiences, while Scenic Enrich offers specially curated experiences on eligible sailings."
+      }
+    ]
+  },
+  "artLovers": {
+    "eyebrow": "Art & History",
+    "title": "Scenic Rhône & Saône Cruise for Art Lovers",
+    "lead": "The itinerary offers several strong connections to art. Arles is particularly important because of its association with Vincent van Gogh, and the landscapes and light of Provence also provide a strong artistic connection.",
+    "sightings": [
+      "Vineyard-covered hillsides",
+      "Provençal light & landscapes",
+      "Riverside villages",
+      "Rhône Valley countryside"
+    ],
+    "conclusion": "Exploring Van Gogh's Arles, Roman amphitheaters, Renaissance palaces, and Cezanne's Provence countryside makes this voyage feel like a floating French cultural retreat."
+  },
+  "cta2": {
+    "title": "First Time on a River Cruise?",
+    "text": "The Rhône and Saône give you Lyon, Burgundy, the Rhône Valley, and Provence — all in one trip. You can think of the journey simply as Burgundy wine country → Rhône Valley → Provence, rather than a complicated multi-country itinerary.",
+    "buttonText": "Contact Angela Hughes",
+    "link": "/contact"
+  },
+  "cabinsAndButler": {
+    "cabins": {
+      "title": "Scenic Rhône & Saône River Cruise Cabins & Suites",
+      "text": "Your suite can significantly affect your experience. When comparing cabins, consider:",
+      "features": [
+        "Deck selection & panoramic river views",
+        "Suite dimensions & private walk-in bathrooms",
+        "All-weather Sun Lounge glass enclosure balcony",
+        "Personalized Butler Service for every stateroom",
+        "Complimentary minibar restocked daily",
+        "Luxury Egyptian cotton linens & pillow menu"
+      ],
+      "outro": "Consider whether waking up to terraced Rhône vineyards or castle-topped cliffs through your Sun Lounge balcony is a priority."
+    },
+    "butler": {
+      "title": "Scenic Butler Service on the Rhône",
+      "text": "Every stateroom on Scenic Space-Ships includes dedicated butler service, providing an elevated standard of personal hospitality throughout your cruise.",
+      "features": [
+        "Unpacking & garment pressing assistance",
+        "Shoe shining & wardrobe care",
+        "Morning tea & beverage delivery to your stateroom",
+        "Specialty dining & Table La Rive reservations",
+        "Shore excursion arrangements & destination advice",
+        "Evening turndown & suite refreshment"
+      ],
+      "outro": "The butler service ensures a relaxed, effortless voyage through the heart of southern and eastern France."
+    }
+  },
+  "diningAndHistory": {
+    "foodAndWine": {
+      "title": "Scenic Rhône & Saône for Food Lovers",
+      "text": "Food is a major highlight. Lyon has a legendary culinary reputation, while Burgundy and Provence offer distinct, celebrated regional gastronomic traditions.",
+      "highlights": [
+        "Fresh French pastries & morning baguettes",
+        "Regional cheeses: Comté, Saint-Marcellin & goat cheeses",
+        "Classic Lyonnais bouchon specialties & charcuterie",
+        "Michelin-inspired dining & Scenic Culinaire cooking classes",
+        "Provence olive oils, tapenades, and Mediterranean herbs"
+      ],
+      "outro": "Dining aboard Scenic is paired with local ingredients sourced along the riverbanks, complemented by Scenic Culinaire cooking classes on select Space-Ships."
+    },
+    "historyAndArchitecture": {
+      "title": "Roman & Medieval Architecture in Provence",
+      "text": "Few regions in Europe rival the Rhône for the concentration and preservation of ancient Roman monuments and medieval fortifications.",
+      "highlights": [
+        "Avignon's magnificent Palais des Papes (Papal Palace)",
+        "Arles Roman Amphitheatre & Théâtre Antique",
+        "Pont du Gard ancient Roman aqueduct masterpiece",
+        "Château de Grignan Renaissance palace in Provence",
+        "Medieval stone villages of Viviers & Tournus Abbey"
+      ],
+      "outro": "Expert local historians accompany every excursion, bringing centuries of French and Roman history to life."
+    }
+  },
+  "artLoversDeep": {
+    "title": "Scenic Rhône & Saône for Wine Lovers",
+    "intro": "If you're choosing this cruise primarily for wine, you're looking at the right region. The itinerary can introduce travelers to some of France's most famous wine-producing areas. Burgundy is particularly important for wine enthusiasts. Rather than simply visiting a tasting room, a well-designed itinerary can help put the wine into context:",
+    "pathway": [
+      "vineyard",
+      "village",
+      "grape",
+      "culture"
+    ],
+    "quote": "Sailing through the Rhône Valley allows you to see the steep, terraced vineyards of Côte-Rôtie and Hermitage directly from the ship's sundeck while tasting the wines produced from those exact slopes.",
+    "experiences": [
+      "Burgundy Premier & Grand Cru Chardonnay and Pinot Noir in Beaune",
+      "Northern Rhône Syrah and Viognier along the steep slopes of Tain-l'Hermitage",
+      "Châteauneuf-du-Pape legendary Grenache blends in southern Provence",
+      "Sommelier-led masterclasses and wine pairing degustations onboard Scenic Sapphire"
+    ]
+  },
+  "sunLounge": {
+    "title": "Scenic Sun Lounge Experience",
+    "intro": "Scenic's Sun Lounge concept can make scenic sailing more enjoyable. With the touch of a button, your glass-enclosed balcony transforms into an open-air veranda.",
+    "highlights": [
+      "Steep hillside vineyards & terraced wine slopes",
+      "French medieval villages & terracotta rooftops",
+      "Historic riverside towns & ancient stone abbeys",
+      "Rural pastoral countryside & peaceful lock passages"
+    ],
+    "outro": "Instead of treating sailing time as time between ports, consider it part of the destination experience — watching France glide past while relaxing in climate-controlled luxury."
+  },
+  "familiesAndCouples": {
+    "families": {
+      "title": "Scenic Rhône & Saône Cruises for Families & Multigenerational Groups",
+      "intro": "The itinerary can work well for families traveling across generations — the key is choosing excursions that offer different activity levels.",
+      "generations": [
+        {
+          "role": "Older travelers may enjoy:",
+          "features": [
+            "History",
+            "Food",
+            "Wine",
+            "Architecture",
+            "Scenic sailing"
+          ]
+        },
+        {
+          "role": "Parents may appreciate:",
+          "features": [
+            "Culture",
+            "Museums",
+            "Relaxation",
+            "Fine dining",
+            "Boutique shopping"
+          ]
+        },
+        {
+          "role": "Teens or adult children may like:",
+          "features": [
+            "Active excursions",
+            "E-biking",
+            "Kayaking",
+            "Photography",
+            "Roman ruins"
+          ]
+        }
+      ],
+      "quote": "A Rhône river cruise offers shared memories without the stress of managing multi-car caravans or hotel check-ins across southern France."
+    },
+    "couples": {
+      "title": "Scenic Rhône & Saône Cruise for Couples",
+      "intro": "This is one of the strongest Scenic itineraries for couples seeking romance, wine, and scenic relaxation.",
+      "experiences": [
+        "Candlelit dinners and premier cru wine pairings",
+        "Scenic sailing through Provence sunsets and golden vineyards",
+        "Private Sun Lounge moments watching riverside castles glide by",
+        "Strolling hand-in-hand through historic cobblestone villages",
+        "Pre- or post-cruise extensions in Lyon, Paris, or the French Riviera"
+      ],
+      "quote": "Couples can extend their journey with additional nights in Lyon, Paris, or Provence to make the vacation feel even more special."
+    }
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Rhône & Saône River Cruise Cost?",
+    "intro": "Pricing depends on seasonality, suite category, and inclusions.",
+    "calloutTitle": "Evaluate Total Inclusions",
+    "calloutText": "When comparing Scenic with other luxury French river cruises, evaluate the total value and inclusions, not simply the starting cruise price.",
+    "factors": [
+      "Travel dates",
+      "Cruise length",
+      "Suite category",
+      "Ship",
+      "Availability",
+      "Itinerary",
+      "Promotions",
+      "Airfare",
+      "Hotels & transfers"
+    ],
+    "guideTitle": "How Much Does a Scenic River Cruise Cost?",
+    "guideDesc": "Compare what's included in Scenic's all-inclusive pricing versus lines that charge extra for premium drinks, daily excursions, and gratuities."
+  },
+  "cta3": {
+    "title": "Want More on Scenic Cabins?",
+    "text": "Read our guides to Scenic Space-Ships, private Sun Lounge balconies, suite categories, and personalized butler service.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Rhône & Saône Cruise?",
+    "intro": "Scenic's all-inclusive approach covers a comprehensive range of onboard and destination experiences.",
+    "subIntro": "Depending on your specific cruise, inclusions typically cover stateroom beverages, dining across multiple venues, guided excursions, transfers, and butler service.",
+    "items": [
+      "Accommodation",
+      "Meals",
+      "Selected beverages",
+      "Wi-Fi",
+      "Scenic Freechoice experiences",
+      "Scenic Enrich experiences",
+      "Entertainment",
+      "Personalized service"
+    ],
+    "calloutTitle": "Verify Exact Sailing Inclusions",
+    "calloutText": "Exact inclusions vary by itinerary, season, and stateroom category. Your luxury travel advisor will verify your sailing details before making a final decision."
+  },
+  "comparison": {
+    "title": "Scenic Rhône & Saône vs Other Luxury River Cruises",
+    "intro": "There isn't one universally best cruise line — the right choice depends on itinerary, ship, suite, dining, excursions, service style, inclusions, and budget.",
+    "table": [
+      {
+        "line": "Scenic",
+        "appeal": "All-inclusive luxury and personalized service"
+      },
+      {
+        "line": "Riverside",
+        "appeal": "Spacious luxury suites"
+      },
+      {
+        "line": "Uniworld",
+        "appeal": "Boutique design and distinctive interiors"
+      },
+      {
+        "line": "Tauck",
+        "appeal": "Highly inclusive guided travel"
+      },
+      {
+        "line": "AmaWaterways",
+        "appeal": "Active excursions and destination experiences"
+      },
+      {
+        "line": "Avalon",
+        "appeal": "Open-air balcony concept"
+      },
+      {
+        "line": "Viking",
+        "appeal": "Extensive European river network"
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Rhône & Saône Cruise Mistakes",
+    "intro": "Avoid these common errors when planning your Scenic Rhône & Saône River Cruise to ensure a seamless and rewarding vacation.",
+    "items": [
+      "Choosing the cruise without checking the season",
+      "Booking solely for the headline destinations",
+      "Ignoring wine-focused experiences",
+      "Choosing a cabin without checking its position",
+      "Arriving in Lyon on embarkation day",
+      "Not extending the trip"
+    ]
+  },
+  "duration": {
+    "title": "How Many Days Do You Need for a Rhône & Saône River Cruise?",
+    "intro": "A longer trip allows you to enjoy the cruise without rushing the surrounding destinations.",
+    "shorter": {
+      "title": "Before the Cruise: Lyon Pre-Stay (1–2 Nights)",
+      "items": [
+        "1–2 nights in Lyon before embarkation",
+        "Recovering comfortably from transatlantic jet lag",
+        "Protecting your voyage against airline flight delays",
+        "Exploring Les Halles de Lyon Paul Bocuse food market",
+        "Acclimating to local French cafe culture"
+      ]
+    },
+    "longer": {
+      "title": "After the Cruise: Provence or Paris Extension (2–4 Nights)",
+      "items": [
+        "2–3 extra nights in Nice, Cannes, or the French Riviera",
+        "High-speed TGV connection to Paris for museum exploring",
+        "Relaxing at a country vineyard estate in the Luberon",
+        "Unwinding before a transatlantic journey home",
+        "Deep-dive visits to coastal Roman ruins and Mediterranean towns"
+      ]
+    },
+    "tip": "Tip: Adding a pre-cruise stay in Lyon significantly enhances the overall experience and provides a stress-free buffer against international flight disruptions."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Trip Preparation",
+    "title": "Why Book a Scenic Rhône & Saône Cruise Through a Luxury Travel Advisor?",
+    "quoteTitle": "The Right Itinerary Depends on Why You Want to Visit France",
+    "quoteBody": "A traveler primarily interested in wine may need a different itinerary from someone focused on Provence, art, food, Roman history, or family travel. A luxury travel specialist can help you match your goals to the right sailing, suite category, and pre-cruise arrangements.",
+    "quoteAuthor": "Angela Hughes",
+    "quoteRole": "Luxury Travel Specialist",
+    "alert": "Scenic itineraries, suite categories, and seasonal inclusions can be nuanced — a dedicated specialist ensures no detail is overlooked.",
+    "benefits": [
+      {
+        "title": "Itinerary Selection",
+        "description": "Matching your travel dates and interests with the best Rhône and Saône itinerary."
+      },
+      {
+        "title": "Suite Guidance",
+        "description": "Choosing the right stateroom category and deck location on Scenic Sapphire."
+      },
+      {
+        "title": "Pre- & Post-Cruise Planning",
+        "description": "Arranging Lyon hotels, transfers, and private tours before or after your sailing."
+      },
+      {
+        "title": "Timing Advice",
+        "description": "Recommending the best month to travel based on crowds, weather, and harvest season."
+      },
+      {
+        "title": "Promotion Verification",
+        "description": "Ensuring you receive any applicable Scenic promotions, loyalty credits, or amenities."
+      },
+      {
+        "title": "Wine & Food Focus",
+        "description": "Advising on vineyard excursion options in Burgundy, Hermitage, and Châteauneuf-du-Pape."
+      },
+      {
+        "title": "Flight Coordination",
+        "description": "Coordinating transatlantic air travel to protect against tight connections and delays."
+      },
+      {
+        "title": "Advocacy & Support",
+        "description": "Providing direct support and personalized advocacy before, during, and after your trip."
+      }
+    ]
+  },
+  "credentials": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "countries": "121+ Countries Visited • 40+ Years Experience",
+    "items": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the luxury travel industry",
+      "Traveled to more than 121 countries",
+      "Extensive personal experience on European river cruises",
+      "Specialist in Scenic Luxury Cruises & Space-Ships",
+      "Expertise in custom French extensions, wine travel, and luxury planning"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Scenic Rhône & Saône River Cruises before booking.",
+    "items": [
+      {
+        "q": "What is the best Scenic Rhône and Saône River Cruise?",
+        "a": "An itinerary combining Burgundy and Provence is an excellent choice for first-time travelers because it provides a broad introduction to French food, wine, history, and countryside."
+      },
+      {
+        "q": "What destinations are included on a Scenic Rhône and Saône cruise?",
+        "a": "Depending on the itinerary, destinations can include Lyon, Burgundy, Beaune, Mâcon, Vienne, Avignon, Arles, and other locations in southeastern France."
+      },
+      {
+        "q": "Does Scenic cruise the Rhône River?",
+        "a": "Yes. Scenic offers river cruise itineraries focused on the Rhône and surrounding destinations in southern France."
+      },
+      {
+        "q": "Does Scenic cruise the Saône River?",
+        "a": "Yes. Selected Scenic itineraries combine the Saône with the Rhône to connect Burgundy and Provence."
+      },
+      {
+        "q": "Is the Rhône and Saône cruise good for wine lovers?",
+        "a": "Yes. Burgundy and the Rhône Valley are major attractions for wine enthusiasts, making this one of the strongest European river cruise regions for wine-focused travel."
+      },
+      {
+        "q": "Is a Scenic Rhône cruise good for food lovers?",
+        "a": "Yes. Lyon, Burgundy, and Provence each have distinctive culinary traditions, making food an important part of the experience."
+      },
+      {
+        "q": "What is the best time for a Scenic Rhône River Cruise?",
+        "a": "Spring, summer, and fall each offer different advantages. Fall can be especially appealing to wine travelers, while spring and summer are attractive for landscapes and outdoor sightseeing."
+      },
+      {
+        "q": "Does a Scenic Rhône cruise visit Provence?",
+        "a": "Many Scenic Rhône itineraries explore Provence, although exact destinations vary by sailing."
+      },
+      {
+        "q": "Does Scenic visit Avignon?",
+        "a": "Avignon is an important destination on many Rhône itineraries, but travelers should confirm the exact port schedule for their sailing."
+      },
+      {
+        "q": "Does a Scenic Rhône cruise visit Arles?",
+        "a": "Some itineraries include Arles and its historic and artistic attractions. Check the specific itinerary before booking."
+      },
+      {
+        "q": "Is a Scenic Rhône and Saône cruise good for couples?",
+        "a": "Yes. Burgundy wine, Provençal scenery, French cuisine, historic cities, and luxury accommodations make this an excellent itinerary for couples."
+      },
+      {
+        "q": "Is the Rhône and Saône cruise suitable for families?",
+        "a": "Yes. Multigenerational families can combine history, food, cultural experiences, and different levels of excursions."
+      },
+      {
+        "q": "Are excursions included on Scenic Rhône cruises?",
+        "a": "Scenic includes a selection of destination experiences, including Freechoice activities and eligible Scenic Enrich experiences. Exact offerings vary by sailing."
+      },
+      {
+        "q": "Which cabin is best on a Scenic Rhône and Saône cruise?",
+        "a": "The best suite depends on your preferences and budget. Travelers who enjoy scenic sailing may particularly value a suite with a Sun Lounge or dedicated river-view space."
+      },
+      {
+        "q": "Should I arrive early for a Scenic Rhône and Saône cruise?",
+        "a": "Yes. International travelers should strongly consider arriving at least one day before embarkation, particularly if the cruise begins in Lyon."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Burgundy to Provence — A Journey Through French Lifestyle",
+    "intro": "Scenic Rhône & Saône River Cruises are an exceptional choice for travelers who want to experience France through food, wine, history, art, and countryside.",
+    "extendedParagraphs": [
+      "Instead of rushing through multiple countries, the Rhône and Saône invite you to slow down and savor the essence of the French art de vivre.",
+      "From tasting grand cru Chablis and Roman vintages in Burgundy to wandering Roman amphitheaters and lavender fields in Provence, every day brings rich cultural immersion.",
+      "With Scenic's all-inclusive luxury, private Sun Lounge balconies, and personal butler service aboard Scenic Sapphire, this voyage stands as one of the finest European river cruising experiences available."
+    ],
+    "services": [
+      "Bespoke itinerary matching for your travel style",
+      "Stateroom & suite selection guidance on Scenic Sapphire",
+      "Custom Lyon and Provence pre- and post-cruise hotel arrangements",
+      "Private transfers and transatlantic flight coordination",
+      "Sommelier-led vineyard tour recommendations",
+      "VIP advisor advocacy and complimentary quote assistance"
+    ]
+  },
+  "closingCta": {
+    "title": "Start Planning Your Scenic Rhône Cruise",
+    "text": "Let our 40+ years of luxury travel expertise help you select the ideal Scenic Rhône & Saône sailing, stateroom category, and custom pre- or post-cruise extension.",
+    "buttonText": "Contact Angela Hughes",
+    "link": "/contact"
+  }
+}

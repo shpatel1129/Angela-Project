@@ -1,0 +1,962 @@
+{
+  "meta": {
+    "title": "Scenic Danube River Cruises | Itineraries, Ports & Guide",
+    "metaTitle": "Scenic Danube River Cruises | Best Itineraries & Travel Guide",
+    "metaDescription": "Explore Scenic Danube River Cruises with our guide to Budapest, Vienna, Bratislava, Salzburg, castles, excursions, Christmas markets, cabins, costs, and the best time to sail.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/danube",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/danube/#webpage",
+          "name": "Scenic Danube River Cruises (2026) | Itineraries, Ports & Guide",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/danube",
+          "description": "Explore Scenic Danube River Cruises with our guide to Budapest, Vienna, Bratislava, Salzburg, castles, excursions, Christmas markets, cabins, costs, and the best time to sail."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/danube/#article",
+          "headline": "Scenic Danube River Cruises: The Complete Guide",
+          "description": "A complete guide to Scenic Danube River Cruises, including where they go, the best itineraries, when to travel, excursions, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/danube/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Danube River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/danube"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/danube/#itemlist",
+          "name": "Scenic Danube River Cruises — What This Guide Covers",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Quick Answer"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Why Choose a Scenic Danube River Cruise?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Where Does a Scenic Danube River Cruise Go?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Best Scenic Danube River Cruise Itineraries"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Best Time for a Scenic Danube River Cruise"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Scenic Danube Excursions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Scenic Danube Castles, Abbeys & Historic Sites"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Cabins & Butler Service"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Food, Wine & Christmas Markets"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Couples & Families"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "name": "Cost & What's Included"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "name": "Common Booking Mistakes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "name": "Why Book Through a Luxury Travel Advisor?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "name": "Final Verdict"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/danube/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best Scenic Danube River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For first-time travelers, an itinerary combining Budapest, Vienna, Bratislava, and Austrian destinations can provide an excellent introduction to the Danube."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What countries can you visit on a Scenic Danube cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Depending on the itinerary, Scenic Danube cruises can visit destinations in Hungary, Austria, Slovakia, Germany, and other Central European regions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Scenic good for a Danube River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic is a strong choice for travelers looking for an all-inclusive luxury river cruise with personalized service, destination experiences, and upscale accommodations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best month to cruise the Danube?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spring and fall are excellent for comfortable sightseeing. Summer offers long days, while winter is ideal for Christmas Market cruises."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Danube good for first-time river cruisers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The combination of major capitals, historic towns, scenic landscapes, and cultural experiences makes the Danube particularly accessible to first-time river cruisers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the highlights of a Scenic Danube cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Popular highlights include Budapest, Vienna, Bratislava, the Wachau Valley, historic Austrian towns, vineyards, abbeys, and seasonal Christmas markets."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic visit Budapest?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Many Scenic Danube itineraries include Budapest, although exact ports depend on the specific sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic visit Vienna?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vienna is a major destination on many Scenic Danube itineraries. Always check the individual sailing for exact port information."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Danube cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The combination of historic cities, wine regions, scenic sailing, cultural experiences, and luxury accommodations makes the Danube popular with couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Danube cruise good for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Multigenerational travelers can combine sightseeing, cultural experiences, excursions, and relaxed time onboard."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Danube Christmas Market cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Scenic offers European Christmas Market itineraries, including Danube-focused sailings."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are Scenic Danube excursions included?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic's cruise experience includes a selection of destination experiences, including Freechoice activities and eligible Scenic Enrich experiences. Exact options depend on the itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which Scenic Danube cabin is best?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best cabin depends on your priorities. Travelers who enjoy scenic sailing may prefer a suite with a Sun Lounge or other dedicated river-view space."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Butler Service on Danube cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Butler Service is available with eligible Scenic suite categories. Confirm the service associated with your specific suite before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I arrive early for a Scenic Danube cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Arriving at least one day early is generally a smart strategy for international travelers because it provides protection against travel delays and gives you time to explore your embarkation city."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Danube River Cruises",
+    "subtitle": "A Scenic Danube River Cruise is one of the most rewarding ways to experience Central Europe. The Danube connects some of Europe's most fascinating capitals and cultural destinations, while also passing through historic villages, rolling countryside, castles, vineyards, and spectacular river landscapes.",
+    "extendedText": "For luxury travelers, Scenic combines this destination variety with an all-inclusive river cruise experience, spacious suites, personalized service, and destination-focused excursions. Depending on your itinerary, a Scenic Danube cruise can introduce you to Budapest, Vienna, Bratislava, Salzburg, the Wachau Valley, historic Austrian towns, Central European castles, Christmas markets, wine regions, and UNESCO-listed landscapes — with a hotel that travels with you rather than requiring you to repeatedly pack and unpack.",
+    "ctaText": "Start Planning Your Scenic Danube Cruise",
+    "ctaLink": "/contact"
+  },
+  "quickAnswer": {
+    "title": "Is a Scenic Danube River Cruise Worth It? The Quick Answer",
+    "intro": "For travelers interested in Central European history, architecture, food, wine, music, and culture, the Danube is one of the strongest Scenic river cruise destinations. It's especially well suited to:",
+    "emphasis": [
+      "First-time river cruisers",
+      "Couples",
+      "Luxury travelers",
+      "Multigenerational families",
+      "History and architecture enthusiasts",
+      "Food and wine travelers",
+      "Christmas Market travelers",
+      "Travelers visiting Central Europe for the first time"
+    ],
+    "outro": "Danube highlights include Budapest, Vienna, Bratislava, the Wachau Valley, Christmas markets, historic churches and cathedrals, and medieval towns."
+  },
+  "whyChoose": {
+    "title": "Why Choose a Scenic Danube River Cruise?",
+    "intro": "The Danube is especially attractive because it combines major European capitals with smaller destinations. You can spend one day exploring Vienna's imperial architecture and another walking through a much smaller riverside town — two different perspectives on Central Europe in a single cruise:",
+    "features": [
+      "Imperial capitals",
+      "Central European culture",
+      "Small historic towns",
+      "Castles & abbeys",
+      "Vineyards",
+      "Classical music & architecture",
+      "Cultural excursions",
+      "Scenic sailing"
+    ],
+    "callout": "Grand European cities and intimate historic destinations — because the ship travels with you, there's no need to repeatedly check into hotels.",
+    "imageLabel": "One Ship, Many Destinations"
+  },
+  "destinations": {
+    "title": "Where Does a Scenic Danube River Cruise Go?",
+    "intro": "Exact ports vary by itinerary and sailing date, but some of the most recognizable Scenic Danube destinations include:",
+    "items": [
+      {
+        "key": "budapest",
+        "title": "Budapest",
+        "items": [
+          "Buda Castle, Parliament & Chain Bridge",
+          "Historic thermal baths",
+          "Split by the river into Buda & Pest"
+        ]
+      },
+      {
+        "key": "vienna",
+        "title": "Vienna",
+        "items": [
+          "Imperial history & classical music",
+          "Palaces, museums & coffeehouses",
+          "One of the biggest highlights of the cruise"
+        ]
+      },
+      {
+        "key": "bratislava",
+        "title": "Bratislava",
+        "items": [
+          "Compact, walkable historic center",
+          "Historic streets & castle views",
+          "A different pace from the larger capitals"
+        ]
+      },
+      {
+        "key": "wachau-valley",
+        "title": "Wachau Valley",
+        "items": [
+          "Vineyards & rolling hills",
+          "Historic abbeys & riverside towns",
+          "One of the scenic highlights of the Danube"
+        ]
+      },
+      {
+        "key": "durnstein",
+        "title": "Dürnstein",
+        "items": [
+          "Medieval architecture",
+          "Vineyard-covered hillsides",
+          "A postcard-perfect river town"
+        ]
+      },
+      {
+        "key": "melk",
+        "title": "Melk",
+        "items": [
+          "Home to Melk Abbey",
+          "Baroque architecture & landscape views",
+          "One of Austria's most recognizable landmarks"
+        ]
+      },
+      {
+        "key": "salzburg",
+        "title": "Salzburg",
+        "items": [
+          "Classical music & film history",
+          "Alpine scenery & Austrian cuisine",
+          "Available via included or optional excursions"
+        ]
+      }
+    ]
+  },
+  "cta1": {
+    "title": "Not Sure Which Danube Itinerary Is Right for You?",
+    "text": "Let us help you compare Scenic Danube sailings and find the perfect fit for your trip.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time for a Scenic Danube River Cruise",
+    "intro": "There isn't one perfect month for everyone.",
+    "items": [
+      {
+        "key": "spring",
+        "category": "March–May",
+        "title": "Spring",
+        "description": "Spring offers fresh greenery, pleasant sightseeing conditions, longer days, and seasonal flowers. It's a good choice for travelers who prefer moderate temperatures.",
+        "features": [
+          "Fresh greenery",
+          "Pleasant sightseeing conditions",
+          "Longer days",
+          "Seasonal flowers"
+        ],
+        "outro": "It's a good choice for travelers who prefer moderate temperatures."
+      },
+      {
+        "key": "summer",
+        "category": "June–August",
+        "title": "Summer",
+        "description": "Summer offers longer daylight, green landscapes, and lively outdoor sightseeing. Summer is popular, however, so premium suites and preferred dates can require advance booking.",
+        "features": [
+          "Longer daylight",
+          "Green landscapes",
+          "Outdoor sightseeing"
+        ],
+        "outro": "Summer is popular, however, so premium suites and preferred dates can require advance booking."
+      },
+      {
+        "key": "fall",
+        "category": "September–November",
+        "title": "Fall",
+        "description": "Autumn can be particularly appealing for changing foliage, wine experiences, and comfortable temperatures. The Wachau Valley is especially attractive during the fall season.",
+        "features": [
+          "Changing foliage",
+          "Wine experiences",
+          "Comfortable temperatures"
+        ],
+        "outro": "The Wachau Valley is especially attractive during the fall season."
+      },
+      {
+        "key": "winter",
+        "category": "December–February",
+        "title": "Winter",
+        "description": "Winter is primarily about Christmas markets, holiday decorations, and festive food and drinks. A Danube Christmas Market cruise can be one of the most atmospheric ways to experience Central Europe during the holidays.",
+        "features": [
+          "Christmas markets",
+          "Holiday decorations",
+          "Festive food and drinks"
+        ],
+        "outro": "A Danube Christmas Market cruise can be one of the most atmospheric ways to experience Central Europe during the holidays."
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Danube River Cruise Itineraries",
+    "intro": "The best itinerary depends on what you want to experience.",
+    "items": [
+      {
+        "id": "budapest-vienna",
+        "title": "Budapest to Vienna (or Vienna to Budapest)",
+        "badge": "Best Overall",
+        "category": "Classic Danube Introduction",
+        "description": "An itinerary centered around Budapest and Vienna provides an excellent introduction to the Danube, combining Hungary, Austria, historic cities, river scenery, and cultural experiences. This is a good option if your vacation time is limited.",
+        "bestFor": [
+          "First-time travelers",
+          "Limited vacation time",
+          "The classic Danube introduction"
+        ]
+      },
+      {
+        "id": "central-european",
+        "title": "Central European Danube Itinerary",
+        "badge": "Broader Region",
+        "category": "Deeper Regional Exploration",
+        "description": "Longer itineraries can provide a broader perspective of the region, potentially combining Budapest, Bratislava, Vienna, the Wachau Valley, Austrian towns, and additional Central European destinations.",
+        "bestFor": [
+          "Travelers who want more than two major cities",
+          "A deeper regional exploration",
+          "A slower, more immersive pace"
+        ]
+      },
+      {
+        "id": "christmas-market",
+        "title": "Danube Christmas Market Cruise",
+        "badge": "Christmas Markets",
+        "category": "Festive Holiday Getaway",
+        "description": "The Danube becomes especially appealing during the holiday season, with Christmas markets featuring decorations, lights, handmade gifts, mulled wine, and regional food across Vienna, Budapest, Bratislava, and other Central European destinations.",
+        "bestFor": [
+          "Couples and families",
+          "Travelers who enjoy European Christmas traditions",
+          "A festive, luxury holiday getaway"
+        ]
+      }
+    ]
+  },
+  "castles": {
+    "title": "Scenic Danube Castles, Abbeys & Historic Sites",
+    "lead": "The Danube isn't only about major cities. Some of its most memorable experiences come from smaller destinations. This changing landscape is one of the reasons a balcony or Sun Lounge can be particularly valuable — as the ship sails, you'll see:",
+    "items": [
+      "Historic castles",
+      "Abbeys",
+      "Medieval towns",
+      "Vineyards & river valleys"
+    ],
+    "conclusion": "This is where a Scenic Sun Lounge can be particularly valuable — you can enjoy the scenery without leaving your suite, especially through the Wachau Valley.",
+    "badge": "The Wachau Valley • A Front-Row Seat"
+  },
+  "excursions": {
+    "eyebrow": "Onboard & Ashore",
+    "title": "Scenic Danube River Cruise Excursions",
+    "intro": "Excursions are an important part of the experience. Scenic's Freechoice experiences allow guests to choose among available activities, while Scenic Enrich provides exclusive experiences on eligible itineraries.",
+    "items": [
+      {
+        "icon": "Landmark",
+        "title": "Historic Walking Tours",
+        "description": "Explore historic city centers and landmarks."
+      },
+      {
+        "icon": "Building2",
+        "title": "Architecture & Culture",
+        "description": "Discover palaces, churches, museums, and historic buildings."
+      },
+      {
+        "icon": "Utensils",
+        "title": "Food & Wine",
+        "description": "Experience regional cuisine and wine-producing areas."
+      },
+      {
+        "icon": "Music",
+        "title": "Music",
+        "description": "Vienna and Salzburg can be particularly appealing to classical music enthusiasts."
+      },
+      {
+        "icon": "Compass",
+        "title": "Active Experiences",
+        "description": "Some itineraries offer walking or cycling opportunities for more active travelers."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Freechoice & Enrich",
+        "description": "Scenic's Freechoice experiences let guests choose among available activities, while Scenic Enrich provides exclusive experiences on eligible itineraries."
+      }
+    ]
+  },
+  "cta2": {
+    "eyebrow": "A Balanced Introduction",
+    "title": "First Time on a River Cruise?",
+    "text": "The Danube gives you major capitals, small towns, countryside, castles, and cultural experiences — all in one trip. You can experience Budapest, Bratislava, and Vienna without constantly moving between hotels.",
+    "buttonText": "Contact Angela Hughes",
+    "badge": "40+ Years Experience",
+    "link": "/contact"
+  },
+  "cabinsAndButler": {
+    "cabins": {
+      "title": "Scenic Danube Cruise Cabins & Suites",
+      "text": "Your cabin choice matters more on a Scenic river cruise than many first-time travelers expect. Consider:",
+      "features": [
+        "Deck",
+        "Suite size",
+        "River views",
+        "Sun Lounge configuration",
+        "Butler Service",
+        "Location & budget"
+      ],
+      "outro": "If you love watching the landscape, consider a suite with a dedicated viewing area — it can be particularly worthwhile through the Wachau Valley.",
+      "links": [
+        {
+          "title": "Scenic Space-Ships & Sun Lounge Balconies Explained",
+          "url": "/scenic-river-cruises/space-ships-sun-lounges"
+        },
+        {
+          "title": "Scenic River Cruise Cabin Categories Explained",
+          "url": "/scenic-river-cruises/cabin-categories"
+        },
+        {
+          "title": "Best Scenic River Cruise Cabins & Cabins to Avoid",
+          "url": "/scenic-river-cruises/best-cabins"
+        }
+      ]
+    },
+    "butler": {
+      "title": "Scenic Butler Service on the Danube",
+      "text": "Butler Service is available with eligible Scenic suite categories. For travelers who value highly personalized service, this can be an important reason to consider a higher suite category. Depending on the service and suite, your Butler may assist with:",
+      "features": [
+        "In-suite service",
+        "Breakfast arrangements",
+        "Packing and unpacking assistance",
+        "Special requests",
+        "Personalized attention"
+      ],
+      "outro": "For travelers seeking a highly personalized luxury experience, this can be an important consideration when comparing suite categories."
+    }
+  },
+  "diningAndChristmas": {
+    "foodAndWine": {
+      "title": "Scenic Danube Food & Wine",
+      "text": "The Danube crosses several countries and culinary traditions.",
+      "countriesTitle": "Travelers can experience flavors influenced by:",
+      "countries": [
+        {
+          "label": "Hungary",
+          "emoji": "🇭🇺"
+        },
+        {
+          "label": "Austria",
+          "emoji": "🇦🇹"
+        },
+        {
+          "label": "Slovakia",
+          "emoji": "🇸🇰"
+        }
+      ],
+      "note": "and other Central European destinations depending on the itinerary.",
+      "highlightsTitle": "Onboard and onshore culinary highlights:",
+      "highlights": [
+        "Wachau Valley wine tastings",
+        "Local food and market tours",
+        "Onboard regional dining menus"
+      ],
+      "outro": "Wine lovers should pay particular attention to itineraries that spend time in Austria's Wachau Valley."
+    },
+    "christmasMarkets": {
+      "title": "Scenic Danube Christmas Market Cruises",
+      "text": "A Christmas Market cruise on the Danube can feel completely different from a summer sailing.",
+      "listTitle": "Historic city centers become filled with:",
+      "highlights": [
+        "Christmas stalls",
+        "Illuminations",
+        "Seasonal sweets",
+        "Mulled wine",
+        "Traditional gifts"
+      ],
+      "outro": "Vienna is particularly famous for its Christmas markets, but smaller destinations can also offer a more intimate holiday atmosphere.",
+      "links": [
+        {
+          "title": "Scenic Christmas Market River Cruises",
+          "url": "/scenic-river-cruises/christmas-markets"
+        }
+      ]
+    }
+  },
+  "familiesAndCouples": {
+    "families": {
+      "title": "Scenic Danube Cruises for Families & Multigenerational Groups",
+      "generations": [
+        {
+          "role": "Grandparents may enjoy:",
+          "features": [
+            "History",
+            "Architecture",
+            "Scenic sailing",
+            "Comfortable accommodations"
+          ]
+        },
+        {
+          "role": "Parents may appreciate:",
+          "features": [
+            "Convenient transportation",
+            "Organized excursions",
+            "Dining",
+            "Service"
+          ]
+        },
+        {
+          "role": "Younger travelers can experience:",
+          "features": [
+            "Castles",
+            "Museums",
+            "Historic cities",
+            "Food",
+            "Active excursions"
+          ]
+        }
+      ],
+      "quote": "The ship becomes the shared base for the entire family — a comfortable, scenic home that moves with you through Central Europe."
+    },
+    "couples": {
+      "title": "Scenic Danube Cruises for Couples",
+      "romanticTitle": "Romantic experiences can include:",
+      "experiences": [
+        "Evening sailing",
+        "Vienna's architecture",
+        "Wine tasting",
+        "Historic towns",
+        "Christmas markets",
+        "Private time in your suite"
+      ],
+      "quote": "A Sun Lounge can also provide a quiet place to enjoy the scenery together."
+    }
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Danube River Cruise Cost?",
+    "intro": "The cost of a Scenic Danube cruise depends on:",
+    "factors": [
+      "Sailing date",
+      "Length",
+      "Suite category",
+      "Ship",
+      "Availability",
+      "Itinerary",
+      "Promotions",
+      "Airfare",
+      "Pre- and post-cruise arrangements"
+    ],
+    "calloutTitle": "Evaluate overall inclusions, not just the headline cruise fare.",
+    "calloutText": "Scenic should be evaluated based on its overall inclusions, rather than simply comparing the advertised cruise price.",
+    "relatedGuide": {
+      "label": "How Much Does a Scenic River Cruise Cost?",
+      "url": "/scenic-river-cruises/cost"
+    }
+  },
+  "cta3": {
+    "title": "Want More on Scenic Cabins?",
+    "text": "Read our guides to Scenic Space-Ships & Sun Lounge balconies and cabin categories.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Danube Cruise?",
+    "intro": "Scenic's river cruise experience is built around an all-inclusive model.",
+    "subIntro": "Depending on the specific itinerary and booking, inclusions can include:",
+    "items": [
+      "Accommodation",
+      "Meals",
+      "Selected beverages",
+      "Wi-Fi",
+      "Scenic Freechoice experiences",
+      "Scenic Enrich experiences",
+      "Entertainment",
+      "Personalized service"
+    ],
+    "calloutTitle": "Verify Inclusions",
+    "calloutText": "Always confirm the exact inclusions for your sailing before booking.",
+    "relatedGuide": {
+      "label": "What Is Included on a Scenic River Cruise?",
+      "url": "/scenic-river-cruises/what-is-included"
+    }
+  },
+  "comparison": {
+    "title": "Scenic Danube vs Other Luxury River Cruises",
+    "intro": "The best cruise line depends on your travel style, preferred accommodations, itinerary, and budget.",
+    "table": [
+      {
+        "line": "Scenic",
+        "appeal": "All-inclusive luxury and personalized service"
+      },
+      {
+        "line": "Riverside",
+        "appeal": "Spacious luxury suites"
+      },
+      {
+        "line": "Uniworld",
+        "appeal": "Boutique design and distinctive interiors"
+      },
+      {
+        "line": "Tauck",
+        "appeal": "Highly inclusive guided travel"
+      },
+      {
+        "line": "AmaWaterways",
+        "appeal": "Active excursions and destination experiences"
+      },
+      {
+        "line": "Avalon",
+        "appeal": "Open-air balcony concept and flexible sightseeing"
+      },
+      {
+        "line": "Viking",
+        "appeal": "Large network of European river itineraries"
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Danube Cruise Mistakes",
+    "intro": "Avoid these common errors when planning your Scenic Danube River Cruise.",
+    "items": [
+      "Choosing an itinerary without checking every port",
+      "Treating Vienna as just another port",
+      "Booking flights too close to embarkation",
+      "Choosing a cabin without checking the deck plan",
+      "Forgetting about the sailing itself",
+      "Waiting too long to book Christmas Market cruises"
+    ]
+  },
+  "duration": {
+    "title": "How Many Days Do You Need for a Scenic Danube Cruise?",
+    "lead": "The ideal length depends on how much of Central Europe you want to experience.",
+    "shorter": {
+      "title": "Shorter Cruise Options",
+      "subtitle": "Good for:",
+      "items": [
+        "First-time river cruisers",
+        "Travelers with limited vacation time",
+        "Budapest and Vienna combinations"
+      ]
+    },
+    "longer": {
+      "title": "Longer Cruise Options",
+      "subtitle": "Better for:",
+      "items": [
+        "Deeper regional exploration",
+        "Multiple countries",
+        "More excursions",
+        "A slower travel pace"
+      ]
+    },
+    "tip": "If you're flying internationally, consider adding at least one or two nights before or after your cruise."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Trip Preparation",
+    "title": "Why Book a Scenic Danube Cruise Through a Luxury Travel Advisor?",
+    "quoteTitle": "Choosing the Right Danube Itinerary Is More Than Picking a Date",
+    "quoteBody": "Choosing the right Danube itinerary can be more complicated than simply selecting a departure date. A luxury travel advisor can also help determine whether Scenic is the right fit compared with Riverside, Uniworld, Tauck, AmaWaterways, Avalon, or Viking.",
+    "alert": "Booking early through an advisor can help maximize both availability and value.",
+    "intro": "A luxury travel advisor can help compare:",
+    "benefits": [
+      {
+        "title": "Scenic Space-Ships",
+        "description": "Space-Ships fleet analysis and cabin layouts"
+      },
+      {
+        "title": "Suite categories",
+        "description": "Balconies, Sun Lounges and Butler-serviced suites"
+      },
+      {
+        "title": "Deck locations",
+        "description": "Optimal quiet decks away from engines and galleys"
+      },
+      {
+        "title": "Itineraries",
+        "description": "Classic Danube vs Central European & Christmas sailings"
+      },
+      {
+        "title": "Excursions",
+        "description": "Freechoice active, cultural and exclusive Enrich events"
+      },
+      {
+        "title": "Pre-cruise hotels",
+        "description": "Hand-picked luxury hotels in Budapest and Vienna"
+      },
+      {
+        "title": "Post-cruise extensions",
+        "description": "Seamless rail and transfer arrangements across Europe"
+      },
+      {
+        "title": "Flights & transfers",
+        "description": "Business class routes and coordinated private transfers"
+      }
+    ]
+  },
+  "credentials": {
+    "eyebrow": "Luxury Travel Expertise",
+    "title": "Angela Hughes Luxury Authority",
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "experience": "40+ Years Experience",
+    "countries": "Traveled to more than 121 countries",
+    "credentialsTitle": "Angela Hughes Authority Box",
+    "items": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the travel industry",
+      "Traveled to more than 121 countries",
+      "Founder of Luxury Travel University",
+      "Global luxury travel speaker and trainer",
+      "Weekly industry columnist",
+      "Travel Leaders Network Advisory Board member",
+      "2024 Luxury Travel Influencer of the Year",
+      "Named one of the Most Influential Women in Travel in 2026 by TravelPulse",
+      "Featured in major travel publications globally",
+      "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Scenic Danube River Cruises before booking.",
+    "items": [
+      {
+        "q": "What is the best Scenic Danube River Cruise?",
+        "a": "For first-time travelers, an itinerary combining Budapest, Vienna, Bratislava, and Austrian destinations can provide an excellent introduction to the Danube."
+      },
+      {
+        "q": "What countries can you visit on a Scenic Danube cruise?",
+        "a": "Depending on the itinerary, Scenic Danube cruises can visit destinations in Hungary, Austria, Slovakia, Germany, and other Central European regions."
+      },
+      {
+        "q": "Is Scenic good for a Danube River Cruise?",
+        "a": "Scenic is a strong choice for travelers looking for an all-inclusive luxury river cruise with personalized service, destination experiences, and upscale accommodations."
+      },
+      {
+        "q": "What is the best month to cruise the Danube?",
+        "a": "Spring and fall are excellent for comfortable sightseeing. Summer offers long days, while winter is ideal for Christmas Market cruises."
+      },
+      {
+        "q": "Is the Danube good for first-time river cruisers?",
+        "a": "Yes. The combination of major capitals, historic towns, scenic landscapes, and cultural experiences makes the Danube particularly accessible to first-time river cruisers."
+      },
+      {
+        "q": "What are the highlights of a Scenic Danube cruise?",
+        "a": "Popular highlights include Budapest, Vienna, Bratislava, the Wachau Valley, historic Austrian towns, vineyards, abbeys, and seasonal Christmas markets."
+      },
+      {
+        "q": "Does Scenic visit Budapest?",
+        "a": "Many Scenic Danube itineraries include Budapest, although exact ports depend on the specific sailing."
+      },
+      {
+        "q": "Does Scenic visit Vienna?",
+        "a": "Vienna is a major destination on many Scenic Danube itineraries. Always check the individual sailing for exact port information."
+      },
+      {
+        "q": "Is a Scenic Danube cruise good for couples?",
+        "a": "Yes. The combination of historic cities, wine regions, scenic sailing, cultural experiences, and luxury accommodations makes the Danube popular with couples."
+      },
+      {
+        "q": "Is a Scenic Danube cruise good for families?",
+        "a": "Yes. Multigenerational travelers can combine sightseeing, cultural experiences, excursions, and relaxed time onboard."
+      },
+      {
+        "q": "Does Scenic offer Danube Christmas Market cruises?",
+        "a": "Yes. Scenic offers European Christmas Market itineraries, including Danube-focused sailings."
+      },
+      {
+        "q": "Are Scenic Danube excursions included?",
+        "a": "Scenic's cruise experience includes a selection of destination experiences, including Freechoice activities and eligible Scenic Enrich experiences. Exact options depend on the itinerary."
+      },
+      {
+        "q": "Which Scenic Danube cabin is best?",
+        "a": "The best cabin depends on your priorities. Travelers who enjoy scenic sailing may prefer a suite with a Sun Lounge or other dedicated river-view space."
+      },
+      {
+        "q": "Does Scenic offer Butler Service on Danube cruises?",
+        "a": "Butler Service is available with eligible Scenic suite categories. Confirm the service associated with your specific suite before booking."
+      },
+      {
+        "q": "Should I arrive early for a Scenic Danube cruise?",
+        "a": "Arriving at least one day early is generally a smart strategy for international travelers because it provides protection against travel delays and gives you time to explore your embarkation city."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "eyebrow": "Final Verdict",
+    "title": "Central Europe's Imperial Capitals in Comfort and Style",
+    "intro": "Scenic Danube River Cruises offer one of the most comprehensive ways to experience Central Europe in luxury. The itinerary can combine Budapest, Vienna, Bratislava, the Wachau Valley, historic abbeys, medieval towns, and Christmas markets with the convenience of unpacking only once.",
+    "extendedParagraphs": [
+      "For first-time river cruisers, couples, families, and experienced luxury travelers, the Danube offers an exceptional balance of culture, scenery, history, food, wine, and relaxation."    ],
+    "ctaText": "Start Planning Your Scenic Danube Cruise",
+    "ctaLink": "/contact",
+    "servicesTitle": "Our luxury planning services include:",
+    "services": [
+      "Compare Scenic Danube itineraries and ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain Scenic promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic with other luxury river cruise lines"
+    ]
+  },
+  "closingCta": {
+    "title": "Ready to Experience the Imperial Danube in Scenic Luxury?",
+    "text": "Speak directly with Angela Hughes to customize your Danube river cruise, select the ideal suite, and arrange exclusive VIP amenities.",
+    "buttonText": "Schedule Your Danube Consultation",
+    "link": "/contact"
+  }
+}

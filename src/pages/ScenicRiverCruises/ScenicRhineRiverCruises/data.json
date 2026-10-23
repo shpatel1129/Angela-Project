@@ -1,0 +1,888 @@
+{
+  "meta": {
+    "title": "Scenic Rhine River Cruises | Itineraries, Ports & Travel Guide",
+    "metaTitle": "Scenic Rhine River Cruises | Best Itineraries & Cruise Guide",
+    "metaDescription": "Explore Scenic Rhine River Cruises with our complete guide to itineraries, destinations, castles, Christmas markets, cabins, excursions, costs, and the best time to sail.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/rhine",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhine/#webpage",
+          "name": "Scenic Rhine River Cruises (2026) | Itineraries, Ports & Travel Guide",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/rhine",
+          "description": "Explore Scenic Rhine River Cruises with our complete guide to itineraries, destinations, castles, Christmas markets, cabins, excursions, costs, and the best time to sail."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhine/#article",
+          "headline": "Scenic Rhine River Cruises: The Complete Guide",
+          "description": "A complete guide to Scenic Rhine River Cruises, including where they go, the best itineraries, when to travel, excursions, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhine/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Rhine River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/rhine"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhine/#itemlist",
+          "name": "Scenic Rhine River Cruises — What This Guide Covers",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Quick Answer" },
+            { "@type": "ListItem", "position": 2, "name": "Why Choose a Scenic Rhine River Cruise?" },
+            { "@type": "ListItem", "position": 3, "name": "Where Does a Scenic Rhine River Cruise Go?" },
+            { "@type": "ListItem", "position": 4, "name": "Best Scenic Rhine River Cruise Itineraries" },
+            { "@type": "ListItem", "position": 5, "name": "Best Time to Take a Scenic Rhine River Cruise" },
+            { "@type": "ListItem", "position": 6, "name": "Scenic Rhine Excursions" },
+            { "@type": "ListItem", "position": 7, "name": "Scenic Rhine Cruise Castles" },
+            { "@type": "ListItem", "position": 8, "name": "Cabins & Butler Service" },
+            { "@type": "ListItem", "position": 9, "name": "Food, Wine & Christmas Markets" },
+            { "@type": "ListItem", "position": 10, "name": "Families & Couples" },
+            { "@type": "ListItem", "position": 11, "name": "Cost & What's Included" },
+            { "@type": "ListItem", "position": 12, "name": "Common Booking Mistakes" },
+            { "@type": "ListItem", "position": 13, "name": "Why Book Through a Luxury Travel Advisor?" },
+            { "@type": "ListItem", "position": 14, "name": "Final Verdict" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/rhine/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best Scenic Rhine River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For first-time travelers, an itinerary connecting Amsterdam and Basel can provide an excellent overview of the Rhine region. The best choice ultimately depends on the specific ports, duration, and experiences included."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What countries can you visit on a Scenic Rhine River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Depending on the itinerary, Rhine cruises can include destinations in the Netherlands, Germany, France, and Switzerland."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Scenic good for a Rhine River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Scenic is particularly well suited to travelers looking for an all-inclusive luxury river cruise with personalized service and included destination experiences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time to cruise the Rhine?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spring, summer, and fall are excellent for general sightseeing. Winter is particularly appealing for Christmas Market cruises."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Rhine River Cruise good for first-time river cruisers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The Rhine offers a strong combination of major cities, villages, castles, countryside, and cultural experiences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the highlights of a Scenic Rhine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Popular highlights include Cologne, Rhine Gorge castles, Rüdesheim, Strasbourg, vineyards, medieval towns, and Christmas markets."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I see castles from a Scenic Rhine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Castle scenery is one of the defining highlights of cruising through the Rhine Gorge."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Rhine cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The combination of castles, vineyards, historic cities, food, wine, and luxury accommodations makes the Rhine particularly appealing for couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Scenic Rhine cruise good for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, especially for multigenerational families with teenagers and adult children who enjoy history, culture, food, and sightseeing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are Scenic Rhine excursions included?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic includes a selection of destination experiences as part of its river cruise offering, including Freechoice activities and eligible Scenic Enrich experiences. Exact options vary by itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Rhine Christmas Market cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Scenic operates seasonal European river cruises focused on Christmas markets, with Rhine itineraries among the popular options."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which Scenic Rhine cabin is best?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best cabin depends on your priorities. Travelers who want to spend substantial time watching the scenery should consider suites with a Sun Lounge or balcony-style viewing area."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic have Butler Service on the Rhine?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Butler Service is available with eligible Scenic suite categories. The exact service depends on the ship and suite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How far in advance should I book a Scenic Rhine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For popular departures, premium suites, and Christmas Market cruises, booking well in advance is recommended."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I add time before or after my Scenic Rhine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Adding time in Amsterdam, Basel, or another destination can turn your river cruise into a more comprehensive European vacation and provides protection against travel delays."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Rhine River Cruises",
+    "subtitle": "Historic Cities, Medieval Villages, Vineyards & Castles in All-Inclusive Luxury",
+    "badgeText": "2026 RHINE RIVER CRUISE GUIDE",
+    "paragraphs": [
+      "The Rhine is one of Europe's most iconic rivers — and one of the best ways to experience it is from a luxury river cruise. A Scenic Rhine River Cruise combines historic cities, medieval villages, vineyards, castles, and spectacular river scenery with Scenic's all-inclusive luxury cruise experience.",
+      "Depending on the itinerary, you can wake up in one European city and spend the afternoon exploring another without packing and unpacking your suitcase. For travelers considering Scenic, the Rhine is particularly attractive because it offers a remarkable variety of experiences in a relatively compact region. This guide explains where Scenic Rhine cruises go, which itineraries are best, what you'll see, when to travel, which excursions to consider, and how to choose the right Scenic Rhine sailing."
+    ],
+    "primaryButton": {
+      "label": "Start Planning Your Scenic Rhine Cruise",
+      "href": "/contact"
+    },
+    "secondaryButton": {
+      "label": "Explore Itineraries",
+      "href": "#best-itineraries"
+    }
+  },
+  "quickAnswer": {
+    "eyebrow": "EXPERT OVERVIEW",
+    "title": "Is a Scenic Rhine River Cruise Worth It? The Quick Answer",
+    "storyParagraphs": [
+      "For luxury travelers who value European scenery, culture, food, wine, and convenient destination-to-destination travel, the Rhine is one of Scenic's strongest itineraries.",
+      "Rhine highlights include medieval castles, Rhine Valley vineyards, historic villages, Cologne Cathedral, Christmas markets, Strasbourg, German Rhine towns, and Basel."
+    ],
+    "highlightTitle": "Especially Well Suited To:",
+    "highlightList": [
+      "First-time river cruisers",
+      "Couples",
+      "Luxury travelers",
+      "Multigenerational families",
+      "Food and wine travelers",
+      "History enthusiasts",
+      "Christmas Market travelers",
+      "Travelers who want to visit several destinations in one trip"
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "UNMATCHED DIVERSITY",
+    "heading": "Why Choose a Scenic Rhine River Cruise?",
+    "paragraphs": [
+      "The Rhine offers something that many European river itineraries struggle to match: variety. A single cruise combines cultural powerhouses and storybook castles.",
+      "Because the ship travels with you, there's no need to repeatedly check into hotels. You unpack once while watching fairy-tale landscapes drift past your panoramic suite."
+    ],
+    "badgeTitle": "One Ship, Many Destinations",
+    "badgeDescription": "A single voyage effortlessly connects multiple countries, major cultural capitals, and quiet riverside villages.",
+    "highlights": [
+      "Multiple countries",
+      "Major European cities",
+      "Small historic towns",
+      "Castles",
+      "Vineyards",
+      "Culinary experiences",
+      "Cultural excursions",
+      "Scenic sailing"
+    ]
+  },
+  "destinations": {
+    "title": "Where Does a Scenic Rhine River Cruise Go?",
+    "subtitle": "Exact ports depend on your selected itinerary. Common Rhine destinations include world-renowned cultural capitals and medieval gems.",
+    "cards": [
+      {
+        "title": "Amsterdam",
+        "description": "The picturesque Dutch capital of historic canal rings, world-class art museums, and historic architecture.",
+        "bullets": [
+          "Historic canals & museums",
+          "Arrive early to explore first"
+        ],
+        "icon": "Compass"
+      },
+      {
+        "title": "Cologne",
+        "description": "One of Germany's most recognizable and historic cultural centers along the lower Rhine.",
+        "bullets": [
+          "Home to Cologne Cathedral",
+          "One of Germany's most recognizable cities"
+        ],
+        "icon": "Landmark"
+      },
+      {
+        "title": "Koblenz",
+        "description": "A historic strategic river hub positioned where the legendary Rhine and Moselle rivers converge.",
+        "bullets": [
+          "Where the Rhine and Moselle meet",
+          "Gateway to the Rhine Valley"
+        ],
+        "icon": "MapPin"
+      },
+      {
+        "title": "Rüdesheim",
+        "description": "A classic storybook German wine town famous for vibrant taverns and steep Riesling vineyards.",
+        "bullets": [
+          "Classic Rhine wine town",
+          "Charming in the evening"
+        ],
+        "icon": "Wine"
+      },
+      {
+        "title": "Rhine Gorge",
+        "description": "A breathtaking UNESCO World Heritage corridor flanked by dozens of medieval hilltop castles.",
+        "bullets": [
+          "Hilltop castles & vineyards",
+          "The visual highlight of the cruise"
+        ],
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Strasbourg",
+        "description": "The capital of Alsace, seamlessly fusing French elegance with medieval German heritage.",
+        "bullets": [
+          "French-German heritage",
+          "Petite France & the Cathedral"
+        ],
+        "icon": "Building2"
+      },
+      {
+        "title": "Basel",
+        "description": "Switzerland's cultural gateway where Switzerland, France, and Germany meet at the foot of the Alps.",
+        "bullets": [
+          "Where Switzerland, France & Germany meet",
+          "Gateway to the Swiss Alps"
+        ],
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "inlineCta1": {
+    "title": "Not Sure Which Rhine Itinerary Is Right for You?",
+    "description": "Let us help you compare Scenic Rhine sailings, ships, and dates to find the perfect fit for your European journey.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time to Take a Scenic Rhine River Cruise",
+    "subtitle": "The best time depends on what you want from the trip — from blossoming spring flora to illuminated winter markets.",
+    "items": [
+      {
+        "title": "Spring",
+        "category": "March–May",
+        "description": "Spring can be especially appealing for travelers who don't enjoy summer heat. Fresh landscapes emerge with crisp, comfortable sightseeing weather.",
+        "features": [
+          "Flowers and blooming gardens",
+          "Fresh green landscapes",
+          "Comfortable sightseeing temperatures"
+        ]
+      },
+      {
+        "title": "Summer",
+        "category": "June–August",
+        "description": "Summer is the most popular season for vibrant outdoor cafe culture and energetic riverfronts. Because demand is high, early booking is recommended.",
+        "features": [
+          "Longer daylight hours",
+          "Lush emerald green landscapes",
+          "Ideal for outdoor sightseeing & biking"
+        ]
+      },
+      {
+        "title": "Fall",
+        "category": "September–November",
+        "description": "The Rhine Valley can be particularly beautiful during the fall grape harvest, with golden vineyards and comfortable daytime temperatures.",
+        "features": [
+          "Vibrant autumn foliage scenery",
+          "Active wine harvest regions",
+          "Comfortable, crowd-free temperatures"
+        ]
+      },
+      {
+        "title": "Winter",
+        "category": "December–February",
+        "description": "Winter is ideal for travelers specifically interested in fairy-tale Christmas Market cruises, glowing historic town squares, and festive holiday cheer.",
+        "features": [
+          "Historic Christmas market stalls",
+          "Magical holiday atmosphere & lights",
+          "Festive seasonal dining & mulled wine"
+        ]
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Rhine River Cruise Itineraries",
+    "subtitle": "There isn't one single 'best' itinerary. The right choice depends on how much time you have and what you want to see.",
+    "items": [
+      {
+        "category": "Best Overall",
+        "title": "Amsterdam to Basel",
+        "description": "For first-time Rhine travelers, an itinerary connecting Amsterdam and Basel can provide an excellent overview of the region, moving through the Netherlands, Germany, the Rhine Gorge, France, and Switzerland.",
+        "bestFor": [
+          "First-time visitors seeking the complete classic Rhine experience",
+          "Travelers who want to see the widest variety of European countries",
+          "A seamless cruise between iconic canal capitals and the Swiss Alps"
+        ]
+      },
+      {
+        "category": "Scenery Focus",
+        "title": "Rhine Gorge-Focused Itinerary",
+        "description": "If castles and scenery are your priority, choose an itinerary that provides substantial sailing through the Rhine Valley, allowing more time to enjoy the castles, vineyards, villages, and river scenery.",
+        "bestFor": [
+          "Scenery enthusiasts and castle photography",
+          "Travelers who prioritize daytime castle-watching from their suite",
+          "A more relaxed, scenery-focused sailing pace through the valley"
+        ]
+      },
+      {
+        "category": "Christmas Markets",
+        "title": "Christmas Market Rhine Cruise",
+        "description": "During the holiday season, the Rhine transforms. Historic city centers fill with Christmas markets, lights, mulled wine, handmade gifts, and regional food — a particularly attractive option for a luxury holiday experience.",
+        "bestFor": [
+          "Couples seeking a romantic, fairy-tale holiday getaway",
+          "Travelers who love authentic centuries-old European Christmas traditions",
+          "Sampling regional seasonal delicacies and world-famous glühwein"
+        ]
+      }
+    ]
+  },
+  "excursions": {
+    "eyebrow": "Onboard & Ashore",
+    "title": "Scenic Rhine Excursions",
+    "subtitle": "One of the strengths of a Scenic Rhine itinerary is the variety of shore experiences. Scenic's Freechoice program allows guests to select from available experiences, while Scenic Enrich provides exclusive destination-focused experiences on eligible itineraries.",
+    "rules": [
+      {
+        "title": "Historic Walking Tours",
+        "description": "Explore medieval cobblestone streets, Gothic cathedrals, and historic Roman-era city centers with expert local guides."
+      },
+      {
+        "title": "Castle Visits",
+        "description": "Discover centuries of feudal legends inside hillside fortresses overlooking the dramatic bends of the Rhine."
+      },
+      {
+        "title": "Food Experiences",
+        "description": "Taste handcrafted local specialties, artisanal cheeses, pastries, and regional German and Alsatian cuisine."
+      },
+      {
+        "title": "Wine Experiences",
+        "description": "Explore the Rhine's famous steep-terrace vineyards with private tastings of crisp Rieslings and regional vintages."
+      },
+      {
+        "title": "Museums & Culture",
+        "description": "Visit world-class museums, art galleries, historic churches, and architectural landmarks with priority access."
+      },
+      {
+        "title": "Active Experiences",
+        "description": "Engage with the countryside through guided cycling along river trails with Scenic's onboard e-bikes and walking hikes."
+      }
+    ]
+  },
+  "castles": {
+    "title": "Scenic Rhine Cruise Castles",
+    "expertNote": "The Rhine's castles are among its biggest attractions. The river corridor is lined with historic fortifications and hilltop ruins. For many travelers, the best way to experience them is simply to find a comfortable seat onboard and watch them pass — as the ship sails, you'll see hilltop castles, vineyards, forested hills, and riverside villages. This is where a Scenic Sun Lounge can be particularly valuable — you can enjoy the scenery without leaving your suite.",
+    "inclusions": [
+      {
+        "title": "Hilltop Castles",
+        "description": "Dozens of historic fortresses, toll towers, and medieval strongholds perched dramatic above the river."
+      },
+      {
+        "title": "Vineyards",
+        "description": "Steep slate slopes carved into terraced vineyards that have produced legendary wines since Roman times."
+      },
+      {
+        "title": "Forested Hills",
+        "description": "Towering natural green peaks and dramatic cliffs framing the UNESCO-protected Upper Middle Rhine Gorge."
+      },
+      {
+        "title": "Riverside Villages",
+        "description": "Charming half-timbered hamlets with church steeples nestled gently along the tranquil river banks."
+      }
+    ],
+    "badge": "The Rhine Gorge • A Front-Row Seat"
+  },
+  "inlineCta2": {
+    "eyebrow": "A Balanced Introduction",
+    "title": "First Time on a River Cruise?",
+    "description": "The Rhine gives you major cities, small towns, countryside, castles, and cultural experiences — all in one trip. You don't have to choose between an urban vacation and a countryside escape.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "cabinsAndButler": {
+    "title": "Cabins & Butler Service on the Rhine",
+    "subtitle": "Selecting the ideal stateroom configuration and personalized concierge service for your European voyage.",
+    "oceanview": {
+      "title": "Scenic Rhine River Cruise Cabins",
+      "bestFor": "Choosing the right cabin can significantly affect your experience. If you expect to spend substantial time watching the Rhine, upgrading to a suite with a more usable balcony/Sun Lounge can be worthwhile.",
+      "advantages": [
+        "Suite size and interior square footage options",
+        "Deck elevation (Diamond Deck vs Sapphire Deck)",
+        "Unobstructed panoramic river sightlines",
+        "Exclusive glass-enclosed Sun Lounge configuration",
+        "Butler Service inclusions on eligible suites",
+        "Location on the ship (forward, midship, or aft)"
+      ]
+    },
+    "balcony": {
+      "title": "Scenic Butler Service on the Rhine",
+      "bestFor": "Eligible Scenic suites include Butler Service, providing personalized white-glove assistance that elevates your sailing from comfortable to extraordinary.",
+      "advantages": [
+        "In-suite beverage and cocktail service",
+        "Daily breakfast arrangements delivered to your suite",
+        "Expert packing and unpacking assistance",
+        "Special shore excursion and dining reservations",
+        "Personalized attention to every travel detail"
+      ]
+    }
+  },
+  "foodWineChristmas": {
+    "title": "Food, Wine & Christmas Markets on the Rhine",
+    "subtitle": "From Michelin-caliber regional gastronomy to fairy-tale winter wonderlands along the riverbanks.",
+    "cards": [
+      {
+        "title": "Scenic Rhine Cruise Food & Wine",
+        "items": [
+          "The Rhine is an excellent itinerary for travelers who enjoy food and wine.",
+          "Experience regional culinary flavors across Germany, France, Switzerland, and Alsace.",
+          "Excursions focused on world-class Riesling wine tastings and local cellar tours.",
+          "Indulge in authentic regional cuisine and handcrafted local culinary specialties.",
+          "Immerse in centuries-old European culinary traditions and market tastings.",
+          "Onboard, Scenic combines destination-inspired cuisine with luxury dining."
+        ]
+      },
+      {
+        "title": "Scenic Rhine Christmas Market Cruises",
+        "items": [
+          "The Rhine is one of Europe's most popular Christmas Market river cruise regions.",
+          "Visit iconic German markets in Cologne, Rüdesheim, and surrounding historic towns.",
+          "Explore the fairy-tale 'Capital of Christmas' in Strasbourg, France.",
+          "Enjoy illuminated town squares, glowing cathedrals, and festive wooden chalets.",
+          "Savor hot spiced Glühwein, roasted chestnuts, and traditional gingerbread.",
+          "Christmas Market cruises are particularly popular, so advance planning is recommended."
+        ]
+      }
+    ]
+  },
+  "familiesAndCouples": {
+    "title": "Scenic Rhine Cruises for Families & Couples",
+    "subtitle": "The Rhine works beautifully for a range of travel styles, from multigenerational trips to romantic getaways.",
+    "categoriesCard": {
+      "title": "Multigenerational Families",
+      "subtitle": "Everyone Experiences Europe Together",
+      "footer": "Older children and teenagers particularly enjoy interactive castles, medieval walled towns, local food tastings, historical museums, and active guided biking excursions."
+    },
+    "inclusionsCard": {
+      "title": "Couples & Romantic Getaways",
+      "subtitle": "An Excellent Romantic Itinerary",
+      "footer": "Couples can savor romantic wine villages, fairy-tale castle scenery, historic cities, French cuisine, Christmas markets, and private sunset sailing from their Sun Lounge."
+    },
+    "categories": [
+      "Hillside castles & medieval fortifications",
+      "Storybook medieval cobblestone towns",
+      "Interactive regional food experiences",
+      "World-class historical museums",
+      "Active cycling and guided countryside walks"
+    ],
+    "inclusions": [
+      "Quaint wine villages & private cellar tastings",
+      "Rhine Gorge fairy-tale fortress vistas",
+      "Historic European cities & architecture",
+      "Gourmet French & German culinary dining",
+      "Magical glowing Christmas holiday markets",
+      "Intimate sunset river views from your suite"
+    ]
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Rhine River Cruise Cost?",
+    "subtitle": "The price of a Scenic Rhine cruise depends on multiple variables. Don't compare cruise prices based solely on the headline fare — Scenic's all-inclusive positioning means dining, premium drinks, excursions, and butler service are already covered.",
+    "items": [
+      {
+        "title": "Travel Dates & Season",
+        "description": "Peak summer and festive December market sailings command higher rates than shoulder spring and autumn dates."
+      },
+      {
+        "title": "Cruise Duration",
+        "description": "Standard 8-day voyages vs 15-day extended combinations connecting the Rhine, Main, and Danube rivers."
+      },
+      {
+        "title": "Suite Category",
+        "description": "Standard staterooms vs Balcony Sun Lounge suites, Junior Suites, and Royal Panorama staterooms."
+      },
+      {
+        "title": "Specific Itinerary",
+        "description": "Amsterdam-to-Basel classics vs specialized Rhine Gorge or Moselle Valley branch routes."
+      },
+      {
+        "title": "Space-Ship Selection",
+        "description": "Specific vessels operating the route, each offering distinct wellness features and suite counts."
+      },
+      {
+        "title": "Cabin Availability",
+        "description": "Early booking provides access to prime midship staterooms before high-demand categories sell out."
+      },
+      {
+        "title": "Current Promotions",
+        "description": "Special agency-exclusive air credits, complimentary suite upgrades, or seasonal savings."
+      },
+      {
+        "title": "Airfare Logistics",
+        "description": "Open-jaw flights arriving into Amsterdam (AMS) and departing from Zurich (ZRH) or Basel (BSL)."
+      },
+      {
+        "title": "Pre- & Post-Cruise Hotels",
+        "description": "Adding luxury hotel stays in Amsterdam or Switzerland to turn the cruise into a comprehensive vacation."
+      }
+    ]
+  },
+  "inlineCta3": {
+    "title": "Want More on Scenic Cabins?",
+    "description": "Read our comprehensive guides to Scenic Space-Ships, Sun Lounge balconies, and cabin categories before you book.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Rhine Cruise?",
+    "intro": [
+      "Scenic's river cruise experience is designed around a truly all-inclusive luxury model.",
+      "Exact inclusions can vary by itinerary and suite category, so verify your specific booking details with our advisors."
+    ],
+    "items": [
+      {
+        "title": "Luxurious Suite Accommodations & Butler Service",
+        "paragraphs": [
+          "Luxury accommodations featuring Scenic's signature Slumber Beds, private Sun Lounge balconies, and personalized Butler Service for eligible suites."
+        ],
+        "lists": [
+          {
+            "title": "Stateroom Amenities",
+            "items": [
+              "Sun Lounge balcony",
+              "Egyptian cotton linens",
+              "Pillow menu",
+              "In-suite mini-bar restocked daily"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "All Gourmet Dining, Premium Drinks & Daily Excursions",
+        "paragraphs": [
+          "All meals across multiple dining venues, unlimited premium beverages, all Scenic Freechoice excursions, and exclusive Scenic Enrich cultural events."
+        ],
+        "lists": [
+          {
+            "title": "Included Experiences",
+            "items": [
+              "Crystal Dining room",
+              "Portobellos Italian",
+              "Top-shelf spirits & fine wines",
+              "Freechoice tours & e-bikes",
+              "Enrich private events",
+              "All gratuities & transfers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Scenic Rhine vs Other Rhine River Cruises",
+    "subtitle": "The 'best' cruise line depends on your priorities. If you value an all-inclusive luxury experience and personalized service, Scenic deserves serious consideration.",
+    "headers": ["Cruise Line", "Best Known For"],
+    "rows": [
+      ["Scenic", "Luxury, all-inclusive experience, Butler Service on eligible suites"],
+      ["Riverside", "Spacious luxury suites and personalized service"],
+      ["Uniworld", "Boutique design and luxury atmosphere"],
+      ["Tauck", "Highly inclusive guided travel"],
+      ["AmaWaterways", "Active excursions and destination-focused cruising"],
+      ["Avalon", "Open-air balcony design and flexible sightseeing"],
+      ["Viking", "Large European river cruise network"]
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Rhine Cruise Mistakes",
+    "subtitle": "Avoid these common errors when planning your Scenic Rhine River Cruise to maximize your experience and investment.",
+    "items": [
+      {
+        "title": "Booking without looking at the full itinerary",
+        "description": "Each Rhine route features different ports, lock passages, and port times. Review the daily schedule to ensure it matches your expectations."
+      },
+      {
+        "title": "Ignoring the sailing days",
+        "description": "Some travelers focus solely on ports and miss that daytime sailing through the Rhine Gorge requires planning so you don't miss castle views."
+      },
+      {
+        "title": "Choosing a cabin without checking the deck plan",
+        "description": "Deck elevation and location (forward, midship, or under public spaces) significantly impact noise levels and panoramic river views."
+      },
+      {
+        "title": "Arriving the day of embarkation",
+        "description": "Transatlantic flight delays or lost luggage can jeopardize boarding. Always plan to arrive at least one day before embarkation."
+      },
+      {
+        "title": "Not allowing extra time in Amsterdam or Basel",
+        "description": "Both gateway cities have world-class cultural attractions that deserve two or three nights of dedicated pre- or post-cruise exploration."
+      },
+      {
+        "title": "Booking Christmas too late",
+        "description": "Rhine Christmas Market sailings have extremely high repeat guest loyalty and limited cabin capacity, routinely selling out far in advance."
+      }
+    ]
+  },
+  "daysNeededAndHotel": {
+    "title": "Trip Duration & Pre-Cruise Hotel Planning",
+    "subtitle": "How to structure your European travel days to minimize jet lag and turn your river cruise into a grand vacation.",
+    "prosTitle": "How Many Days Do You Need for a Rhine Cruise?",
+    "consTitle": "Should You Add a Pre-Cruise Hotel?",
+    "bestFor": [
+      "Before the cruise: Amsterdam or another embarkation city",
+      "After the cruise: Basel + Switzerland, or extra time in France/Germany",
+      "A typical Scenic Rhine sailing can be seamlessly extended into a grand European vacation."
+    ],
+    "notBestFor": [
+      "Reduce travel stress and protect against flight delays",
+      "Help overcome jet lag before embarking the ship",
+      "Give you extra time to explore the embarkation city",
+      "For Amsterdam departures, an additional two or three nights is highly recommended."
+    ],
+    "bottomNote": "Adding time in Amsterdam or Basel turns your river cruise into a comprehensive luxury vacation."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Trip Preparation",
+    "title": "Why Book a Scenic Rhine Cruise Through a Luxury Travel Advisor?",
+    "quoteTitle": "The Rhine Has Many Options — the Differences Aren't Always Obvious",
+    "quoteBody": "The Rhine has many cruise options, and the differences aren't always clear from the itinerary title alone. A luxury travel advisor can also help determine whether Scenic is actually the best fit compared with Riverside, Uniworld, Tauck, or another luxury river cruise line.",
+    "alert": "Booking early through an advisor can help maximize both availability and value.",
+    "benefits": [
+      {
+        "title": "Scenic ships",
+        "description": "Expert comparison of Space-Ship layouts and amenity differences across European rivers."
+      },
+      {
+        "title": "Suite categories",
+        "description": "Side-by-side evaluation of Balcony, Sun Lounge, Junior, and Royal suites."
+      },
+      {
+        "title": "Deck locations",
+        "description": "Selecting optimal Diamond vs Sapphire deck locations for quiet comfort and clear views."
+      },
+      {
+        "title": "Departure dates",
+        "description": "Pinpointing seasonal weather, water level patterns, and holiday market timings."
+      },
+      {
+        "title": "Excursions",
+        "description": "Matching your personal interests with Scenic Freechoice and exclusive Enrich experiences."
+      },
+      {
+        "title": "Pre-cruise hotels",
+        "description": "Arranging vetted luxury hotels in Amsterdam, Basel, Zurich, and Lucerne."
+      },
+      {
+        "title": "Post-cruise extensions",
+        "description": "Designing seamless post-cruise extensions through the Swiss Alps or French wine country."
+      },
+      {
+        "title": "Airfare & transfers",
+        "description": "Coordinating open-jaw flights, private chauffeur transfers, and flight disruption protection."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "countries": "Traveled to more than 121 countries",
+    "credentialsTitle": "Angela Hughes Authority Box",
+    "credentials": [
+      { "label": "CEO of Trips & Ships Luxury Travel" },
+      { "label": "Over 40 years in the travel industry" },
+      { "label": "Traveled to more than 121 countries" },
+      { "label": "Founder of Luxury Travel University" },
+      { "label": "Global luxury travel speaker and trainer" },
+      { "label": "Weekly industry columnist" },
+      { "label": "Travel Leaders Network Advisory Board member" },
+      { "label": "2024 Luxury Travel Influencer of the Year" },
+      { "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
+      { "label": "Featured in major travel publications globally" },
+      { "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Scenic Rhine River Cruises before booking.",
+    "questions": [
+      {
+        "question": "What is the best Scenic Rhine River Cruise?",
+        "answer": "For first-time travelers, an itinerary connecting Amsterdam and Basel can provide an excellent overview of the Rhine region. The best choice ultimately depends on the specific ports, duration, and experiences included."
+      },
+      {
+        "question": "What countries can you visit on a Scenic Rhine River Cruise?",
+        "answer": "Depending on the itinerary, Rhine cruises can include destinations in the Netherlands, Germany, France, and Switzerland."
+      },
+      {
+        "question": "Is Scenic good for a Rhine River Cruise?",
+        "answer": "Yes. Scenic is particularly well suited to travelers looking for an all-inclusive luxury river cruise with personalized service and included destination experiences."
+      },
+      {
+        "question": "What is the best time to cruise the Rhine?",
+        "answer": "Spring, summer, and fall are excellent for general sightseeing. Winter is particularly appealing for Christmas Market cruises."
+      },
+      {
+        "question": "Is the Rhine River Cruise good for first-time river cruisers?",
+        "answer": "Yes. The Rhine offers a strong combination of major cities, villages, castles, countryside, and cultural experiences."
+      },
+      {
+        "question": "What are the highlights of a Scenic Rhine cruise?",
+        "answer": "Popular highlights include Cologne, Rhine Gorge castles, Rüdesheim, Strasbourg, vineyards, medieval towns, and Christmas markets."
+      },
+      {
+        "question": "Can I see castles from a Scenic Rhine cruise?",
+        "answer": "Yes. Castle scenery is one of the defining highlights of cruising through the Rhine Gorge."
+      },
+      {
+        "question": "Is a Scenic Rhine cruise good for couples?",
+        "answer": "Yes. The combination of castles, vineyards, historic cities, food, wine, and luxury accommodations makes the Rhine particularly appealing for couples."
+      },
+      {
+        "question": "Is the Scenic Rhine cruise good for families?",
+        "answer": "Yes, especially for multigenerational families with teenagers and adult children who enjoy history, culture, food, and sightseeing."
+      },
+      {
+        "question": "Are Scenic Rhine excursions included?",
+        "answer": "Scenic includes a selection of destination experiences as part of its river cruise offering, including Freechoice activities and eligible Scenic Enrich experiences. Exact options vary by itinerary."
+      },
+      {
+        "question": "Does Scenic offer Rhine Christmas Market cruises?",
+        "answer": "Yes. Scenic operates seasonal European river cruises focused on Christmas markets, with Rhine itineraries among the popular options."
+      },
+      {
+        "question": "Which Scenic Rhine cabin is best?",
+        "answer": "The best cabin depends on your priorities. Travelers who want to spend substantial time watching the scenery should consider suites with a Sun Lounge or balcony-style viewing area."
+      },
+      {
+        "question": "Does Scenic have Butler Service on the Rhine?",
+        "answer": "Butler Service is available with eligible Scenic suite categories. The exact service depends on the ship and suite."
+      },
+      {
+        "question": "How far in advance should I book a Scenic Rhine cruise?",
+        "answer": "For popular departures, premium suites, and Christmas Market cruises, booking well in advance is recommended."
+      },
+      {
+        "question": "Should I add time before or after my Scenic Rhine cruise?",
+        "answer": "Yes. Adding time in Amsterdam, Basel, or another destination can turn your river cruise into a more comprehensive European vacation and provides protection against travel delays."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "eyebrow": "Final Verdict",
+    "title": "Europe's Historic Heartland in Comfort and Style",
+    "paragraphs": [
+      "Scenic Rhine River Cruises are an excellent choice for travelers who want to experience Europe's historic heartland in comfort and style. The combination of castles, vineyards, historic villages, Germany, France, Switzerland, and Christmas markets makes the Rhine one of Europe's most compelling river cruise destinations.",
+      "Scenic adds another layer with its luxury suites, personalized service, destination-focused excursions, and all-inclusive approach.",
+      "For first-time river cruisers, couples, families, and experienced luxury travelers alike, the Rhine is one of the Scenic itineraries worth putting near the top of your list. At Trips & Ships Luxury Travel, we'll help you plan every detail of your Scenic Rhine cruise."
+    ],
+    "buttonText": "Start Planning Your Scenic Rhine Cruise",
+    "buttonLink": "/contact",
+    "servicesTitle": "Our luxury planning services include:",
+    "services": [
+      "Compare Scenic Rhine itineraries and ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain Scenic promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic with other luxury river cruise lines"
+    ]
+  }
+}

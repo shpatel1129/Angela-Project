@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "title": "Scenic Space-Ships & Sun Lounge Balconies Explained (2026)",
+    "metaTitle": "Scenic Space-Ships & Sun Lounge Balconies | Cabin Guide",
+    "description": "Discover how Scenic Space-Ships and Sun Lounge balconies work, including balcony design, suite categories, privacy, river views, and which Scenic cabins are best for your trip.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges"
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#person",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO of Trips & Ships Luxury Travel",
+        "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges/#webpage",
+        "name": "Scenic Space-Ships & Sun Lounge Balconies Explained (2026)",
+        "url": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges",
+        "description": "Discover how Scenic Space-Ships and Sun Lounge balconies work, including balcony design, suite categories, privacy, river views, and which Scenic cabins are best for your trip."
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges/#article",
+        "headline": "Scenic Space-Ships & Sun Lounge Balconies Explained",
+        "description": "A complete guide to Scenic's Space-Ship design and Sun Lounge balconies, including how they work, which suites have them, and how to choose the right cabin for your trip.",
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Scenic River Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Scenic Space-Ships & Sun Lounge Balconies",
+            "item": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges/#itemlist",
+        "name": "Scenic Space-Ships & Sun Lounge Balconies — What This Guide Covers",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Quick Answer" },
+          { "@type": "ListItem", "position": 2, "name": "What Is a Scenic Space-Ship?" },
+          { "@type": "ListItem", "position": 3, "name": "What Makes the Scenic Balcony Different?" },
+          { "@type": "ListItem", "position": 4, "name": "The Best Time to Use Your Sun Lounge" },
+          { "@type": "ListItem", "position": 5, "name": "Sun Lounge vs Traditional Balcony" },
+          { "@type": "ListItem", "position": 6, "name": "Are Scenic Sun Lounge Balconies Private?" },
+          { "@type": "ListItem", "position": 7, "name": "Which Scenic Suites Have Sun Lounge Balconies?" },
+          { "@type": "ListItem", "position": 8, "name": "Is a Sun Lounge Better Than an Outdoor Balcony?" },
+          { "@type": "ListItem", "position": 9, "name": "Best Scenic Suites for River Views" },
+          { "@type": "ListItem", "position": 10, "name": "Is a Scenic Sun Lounge Worth It?" },
+          { "@type": "ListItem", "position": 11, "name": "Sun Lounges in Cold Weather & Christmas Markets" },
+          { "@type": "ListItem", "position": 12, "name": "Scenic Space-Ship vs Ocean Cruise Balcony" },
+          { "@type": "ListItem", "position": 13, "name": "Why Your Suite Location Matters" },
+          { "@type": "ListItem", "position": 14, "name": "Common Booking Mistakes" },
+          { "@type": "ListItem", "position": 15, "name": "How to Choose the Right Scenic Suite" },
+          { "@type": "ListItem", "position": 16, "name": "Why a Luxury Travel Advisor Can Help" },
+          { "@type": "ListItem", "position": 17, "name": "Final Verdict" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/space-ships-sun-lounges/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Scenic Sun Lounge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Scenic Sun Lounge is a distinctive balcony/living-space design found on eligible Scenic suites, giving guests a comfortable area to enjoy river views with greater protection from the elements than a completely exposed balcony."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do all Scenic suites have Sun Lounge balconies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Balcony and Sun Lounge configurations vary by suite category and Space-Ship."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Scenic Sun Lounge balconies private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Sun Lounge is part of your private suite, although the level of visual privacy can depend on the specific suite location and ship design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you open a Scenic Sun Lounge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The exact operation and configuration can vary by Space-Ship and suite. Check the specific ship's current specifications before booking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a Scenic Sun Lounge worth the extra cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be worthwhile if you enjoy spending time in your suite, watching the scenery, or traveling during cooler or changeable weather."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Scenic Sun Lounges good in winter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The more protected design can be particularly appealing during cooler-season sailings, including Christmas Market cruises."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Scenic suites have the best balconies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The answer depends on your priorities. Larger premium suites generally provide more space, while higher decks may provide broader sightlines."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the port or starboard side better on a Scenic River Cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There isn't one universally better side. River scenery changes continuously, and the ship's orientation changes throughout the itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Scenic balconies worth it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For travelers who enjoy watching the river and spending time in their cabin, a balcony or Sun Lounge can significantly improve the cruise experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I see castles and villages from my Scenic Sun Lounge?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. One of the major advantages of river cruising is the continuous scenery along the riverbanks, including castles, villages, vineyards, and historic cities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Scenic Space-Ships smaller than ocean cruise ships?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Scenic Space-Ships are purpose-built river vessels and are much smaller than typical ocean cruise ships."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Scenic Butler Service come with every Sun Lounge suite?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not necessarily. Butler Service depends on the specific suite category, so the two features should be evaluated separately when comparing cabins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a Scenic Sun Lounge better than a traditional balcony?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on your preferences. The Sun Lounge emphasizes comfort and flexibility, while some travelers may prefer a completely open-air balcony."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a travel advisor help me choose a Scenic balcony?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. An experienced advisor can compare ship layouts, suite categories, deck locations, balcony configurations, and service inclusions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Scenic cruise is best for balcony views?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There isn't one universal answer. Rhine, Danube, Rhône, Douro, and other itineraries all offer different scenery. The best choice depends on whether you prioritize castles, vineyards, cities, villages, or landscapes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "INNOVATIVE RIVER BALCONY DESIGN",
+    "title": "Scenic Space-Ships & Sun Lounge Balconies Explained",
+    "subtitle": "One of the most recognizable features of a Scenic Space-Ship is its innovative balcony design. Instead of a conventional balcony that simply extends outside the cabin, many Scenic suites feature a Sun Lounge — an enclosed or partially enclosed balcony area that can be incorporated into the living space of the suite.",
+    "lead": "For travelers researching Scenic River Cruises, understanding this design is important because the balcony isn't simply a cosmetic feature.",
+    "sublead": "It can affect how much usable living space you have, how you experience the river, your privacy, your ability to enjoy the scenery, and which suite category makes sense for your budget.",
+    "conclusion": "This guide explains what Scenic Space-Ships are, how Sun Lounge balconies work, which travelers benefit most from them, and how to choose the right Scenic suite.",
+    "primaryCta": {
+      "text": "Start Planning Your Scenic Cruise",
+      "link": "/contact"
+    },
+    "secondaryCta": {
+      "text": "Explore Scenic Butler Service",
+      "link": "/scenic-river-cruises/butler-service"
+    }
+  },
+  "quickAnswer": {
+    "eyebrow": "AT A GLANCE",
+    "title": "What Is a Scenic Sun Lounge? The Quick Answer",
+    "lead": "A Scenic Sun Lounge is Scenic's distinctive balcony concept that gives guests a dedicated space for enjoying the river views while allowing the area to become part of the suite's living environment.",
+    "conclusion": "Instead of sitting on a small exposed balcony, you can enjoy the scenery from a more flexible space connected to your suite. The exact configuration depends on the Space-Ship and suite category.",
+    "emphasis": [
+      "More usable living space",
+      "Excellent river views",
+      "Protection from some weather conditions",
+      "Flexible indoor/outdoor-style experience",
+      "Comfortable place to relax while sailing",
+      "A distinctive Scenic suite feature"
+    ]
+  },
+  "whatIsSpaceShip": {
+    "eyebrow": "PURPOSE-BUILT LUXURY",
+    "title": "What Is a Scenic Space-Ship?",
+    "lead": "Scenic uses the term Space-Ship for its purpose-built river cruise vessels. The design philosophy emphasizes spacious suites, contemporary interiors, large windows, river views, personalized service, luxury public areas, high-quality dining, and destination-focused travel.",
+    "callout": "Unlike a large ocean cruise ship, a Scenic Space-Ship is designed specifically for European rivers. That means the ship itself is part of the destination experience.",
+    "features": [
+      "Spacious suites",
+      "Contemporary interiors",
+      "Large windows",
+      "River views",
+      "Personalized service",
+      "Luxury public areas",
+      "High-quality dining",
+      "Destination-focused travel"
+    ],
+    "conclusion": "Traditional balconies simply extend outside the cabin (Suite → Door → Outdoor balcony → River). Scenic's Sun Lounge concept is different — the balcony area can become an extension of the suite itself (Suite → Sun Lounge → River), which makes it more useful in different weather conditions."
+  },
+  "sunLoungeOperation": {
+    "title": "How the Sun Lounge Works & Why It Matters",
+    "subtitle": "Balcony design on a river cruise fundamentally changes how you experience Europe's waterways.",
+    "howItWorksCard": {
+      "title": "How Does a Scenic Sun Lounge Work?",
+      "paragraphs": [
+        "The Sun Lounge is designed to provide a flexible connection between your suite and the outside environment.",
+        "When conditions are ideal, you can enjoy the sensation of being close to the river. When the weather isn't cooperating, the space provides more protection than a completely exposed balcony."
+      ],
+      "listTitle": "Particularly useful in:",
+      "items": [
+        "Spring",
+        "Autumn",
+        "Cooler mornings",
+        "Rainy weather",
+        "Early morning sailing",
+        "Evening cruising"
+      ]
+    },
+    "whyDesignMattersCard": {
+      "title": "Why Balcony Design Matters on a River Cruise",
+      "paragraphs": [
+        "On a river cruise, the scenery is constantly changing. You aren't simply looking at the ocean horizon."
+      ],
+      "listTitle": "You may pass:",
+      "items": [
+        "Medieval castles",
+        "Vineyards",
+        "Historic villages",
+        "Churches",
+        "Forested hills",
+        "European cities",
+        "Bridges",
+        "Riverfront architecture"
+      ],
+      "footer": "A well-designed balcony gives you a front-row seat. For many travelers, this is one of the reasons to upgrade from a basic cabin."
+    }
+  },
+  "inlineCta1": {
+    "title": "Not Sure Which Balcony Type Suits You?",
+    "description": "Let us walk you through Sun Lounge configurations across Scenic's fleet.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "bestTimeToUse": {
+    "title": "The Best Time to Use Your Sun Lounge",
+    "subtitle": "A Sun Lounge isn't only useful during daytime sailing. On a river cruise, the scenery is constantly changing — a well-designed balcony gives you a front-row seat at any hour.",
+    "moments": [
+      {
+        "id": "morning",
+        "title": "Early Morning",
+        "category": "MORNINGS",
+        "description": "Watch European villages and countryside wake up while enjoying coffee. The riverbanks are often at their quietest and most atmospheric before the day's excursions begin.",
+        "features": [
+          "Morning coffee or tea with panoramic vistas",
+          "A quiet, unhurried start to your day",
+          "Misty riverside scenery along tranquil waters"
+        ]
+      },
+      {
+        "id": "afternoon",
+        "title": "Afternoon",
+        "category": "AFTERNOON",
+        "description": "Relax after returning from an excursion. The Sun Lounge gives you a comfortable space to unwind while the scenery continues to change outside.",
+        "features": [
+          "Resting comfortably after an active shore excursion",
+          "Reading with a tranquil river view backdrop",
+          "A relaxed midday pause between port destinations"
+        ]
+      },
+      {
+        "id": "golden-hour",
+        "title": "Golden Hour",
+        "category": "GOLDEN HOUR",
+        "description": "Watch castles and vineyards change in the evening light. Golden hour is often when the Sun Lounge feels most rewarding, as the landscape takes on a different character.",
+        "features": [
+          "Sunlit castles and hillsides along the Rhine Gorge",
+          "Vineyards glowing in warm evening light",
+          "Riverside villages bathed in twilight ambiance"
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Evening",
+        "category": "EVENING",
+        "description": "Enjoy the river views before dinner. One of the best things about river cruising is that the destination literally moves past your window, even as the evening winds down.",
+        "features": [
+          "Unwinding privately before dinner or cocktail hour",
+          "Watching the river softly illuminated under evening light",
+          "Ending the day with private balcony reflections"
+        ]
+      }
+    ]
+  },
+  "balconyComparison": {
+    "title": "Scenic Sun Lounge vs Traditional Balcony",
+    "subtitle": "The exact design depends on the ship and suite category, but the general differences are consistent across the fleet.",
+    "headers": ["Feature", "Traditional Balcony", "Scenic Sun Lounge"],
+    "rows": [
+      ["Outdoor-style viewing", "Available", "Enhanced Living Space"],
+      ["Connected to suite", "Separated by Door", "Fully Integrated Extension"],
+      ["Weather protection", "Limited / Exposed", "Enhanced Glass-Enclosed System"],
+      ["Flexible living space", "Limited to Balcony", "Seamless Stateroom Extension"],
+      ["River views", "Standard", "Unobstructed Floor-to-Ceiling"],
+      ["Distinctive Scenic design", "Not Available", "Exclusive Sun Lounge Tech"],
+      ["Usable in cooler weather", "More Limited", "Better Suited Across All Seasons"]
+    ]
+  },
+  "privacy": {
+    "eyebrow": "STATEROOM SANCTUARY",
+    "title": "Are Scenic Sun Lounge Balconies Private?",
+    "lead": "Your Sun Lounge is part of your private suite space. However, privacy can vary depending on a number of factors. If privacy is especially important to you, discuss the specific cabin location with your travel advisor before booking.",
+    "conclusion": "Because river ships navigate close to riverbanks and dock in central historic ports, understanding sightlines and acoustic positioning helps you select the perfect sanctuary.",
+    "factors": [
+      "Suite location on upper Diamond Deck vs mid Sapphire Deck",
+      "Deck elevation relative to walking tracks and water level",
+      "Ship design and floorplan positioning",
+      "Proximity to nearby neighboring staterooms",
+      "River traffic and double-docking positions in busy ports",
+      "Orientation during daytime navigation vs port stays"
+    ]
+  },
+  "whichSuitesHaveBalconies": {
+    "title": "Which Scenic Suites Have Sun Lounge Balconies?",
+    "subtitle": "Sun Lounge configurations are associated with Scenic's suite categories, but not every suite is identical.",
+    "suitesCard": {
+      "title": "Look Beyond the Word \"Balcony\"",
+      "paragraphs": [
+        "Scenic offers multiple accommodation categories, and the size, layout, and balcony configuration can vary by Space-Ship.",
+        "When comparing suites, look beyond the word \"balcony.\" Always evaluate the complete living experience."
+      ],
+      "checklistTitle": "Always check:",
+      "items": [
+        "Suite size and usable square footage",
+        "Deck location (Diamond Deck vs Sapphire Deck)",
+        "Sun Lounge configuration and glass panel mechanism",
+        "Sleeping area and walk-in wardrobe dimensions",
+        "Bathroom configuration, double sinks, and luxury tubs",
+        "Butler Service inclusions and amenity tier",
+        "Bed configuration (king-size Scenic Slumber Beds)",
+        "River view angles and window proportions",
+        "Ship-specific layout and quiet positioning"
+      ]
+    },
+    "categoriesCard": {
+      "title": "Scenic Suite Categories",
+      "paragraphs": [
+        "Scenic offers a range of accommodation options, from more compact entry-level staterooms to substantially larger luxury suites.",
+        "Always verify the current deck plan for your specific sailing, as higher categories generally provide more space and enhanced amenities."
+      ],
+      "checklistTitle": "Categories you will encounter:",
+      "items": [
+        "Standard Suites (Jewel/Lower Deck with high picture windows)",
+        "Balcony Suites (Sapphire & Diamond Decks with Sun Lounge)",
+        "Junior Suites (Enhanced space with dedicated seating area)",
+        "Royal Suites (Expansive suites with separate lounge & luxury bathroom)",
+        "Royal Panorama Suites (Aft panoramic vistas over river waterways)",
+        "Owner's Penthouse Suites (Largest accommodations with private terrace)"
+      ],
+      "footer": "The higher categories generally provide more space and enhanced amenities."
+    }
+  },
+  "inlineCta2": {
+    "eyebrow": "Compare the Total Suite Experience",
+    "title": "Which Scenic Suite Is Right for You?",
+    "description": "Let us help you compare Sun Lounge configurations alongside space, location, and amenities.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "isItBetterThanOutdoor": {
+    "title": "Is a Sun Lounge Better Than an Outdoor Balcony?",
+    "subtitle": "Not necessarily. It's better to think of them as different experiences — the right choice depends on how you expect to use the space.",
+    "prosTitle": "Choose a Sun Lounge If You Value:",
+    "pros": [
+      "More flexible indoor/outdoor space",
+      "Year-round weather protection from wind and rain",
+      "Comfortable river viewing without exposure",
+      "A larger-feeling, cohesive suite living area",
+      "Using the balcony throughout the entire sailing season",
+      "Enjoying breakfast or coffee in private climate control"
+    ],
+    "consTitle": "A Traditional Balcony May Appeal More If You:",
+    "cons": [
+      "Want completely open-air outdoor seating",
+      "Prioritize the unfiltered sensation of being outdoors",
+      "See fresh outdoor breeze as your primary reason for upgrading",
+      "Rarely spend time relaxing inside your cabin"
+    ],
+    "bottomNote": "The right choice depends on how you expect to use the space throughout your cruise."
+  },
+  "bestSuitesForViews": {
+    "title": "Best Scenic Suites for River Views",
+    "subtitle": "If scenery is one of your main reasons for booking Scenic, consider these strategic cabin categories.",
+    "items": [
+      {
+        "title": "Higher Deck Suites",
+        "category": "ELEVATION",
+        "description": "Suites located on the Diamond Deck provide elevated, broader sightlines over riverbanks, vineyards, and medieval locks."
+      },
+      {
+        "title": "Forward or Midship Locations",
+        "category": "PERSPECTIVE",
+        "description": "Midship suites offer exceptional sailing stability with central access to all venues, while forward staterooms provide ahead-of-ship angles."
+      },
+      {
+        "title": "Larger Sun Lounge Suites",
+        "category": "LIVING SPACE",
+        "description": "If you expect to spend significant daytime hours relaxing in your cabin, the extra square footage transforms your room into an observation lounge."
+      },
+      {
+        "title": "Panorama-Focused Suites",
+        "category": "PANORAMIC VISTAS",
+        "description": "Royal Panorama Suites situated at the aft give you sweeping 180-degree perspectives of passing river waterways and European towns."
+      }
+    ]
+  },
+  "isItWorthIt": {
+    "title": "Is a Scenic Sun Lounge Worth It?",
+    "subtitle": "For many travelers, yes. But the value depends on how much you'll actually use it.",
+    "prosTitle": "Worth Considering If You:",
+    "pros": [
+      "Love watching river scenery continuously from your suite",
+      "Spend meaningful time relaxing in your private cabin",
+      "Enjoy morning coffee or evening wine with panoramic views",
+      "Value personal privacy over crowded public observation lounges",
+      "Travel during shoulder seasons like spring, autumn, or winter",
+      "Want more usable living space in your stateroom"
+    ],
+    "consTitle": "You May Not Need the Upgrade If You:",
+    "cons": [
+      "Spend almost all day ashore on active excursions",
+      "Rarely use your cabin other than for sleeping",
+      "Primarily socialize and view scenery from the public Sun Deck",
+      "Have a travel budget that is better spent on a longer itinerary"
+    ],
+    "bottomNote": "In that case, putting the extra money toward a longer itinerary or premium pre-cruise hotel stay may provide more value."
+  },
+  "coldWeatherAndChristmas": {
+    "title": "Sun Lounges During Cold Weather & Christmas Markets",
+    "subtitle": "How stateroom balcony design extends the comfort of shoulder-season and winter cruising.",
+    "cards": [
+      {
+        "title": "Sun Lounges During Cold Weather",
+        "items": [
+          "European river cruises can experience cool mornings, rain, wind, autumn temperatures, and spring showers.",
+          "A fully exposed balcony can become less comfortable in these conditions.",
+          "The Sun Lounge gives you a protected, climate-controlled sanctuary to enjoy the views.",
+          "Particularly attractive for Rhine cruises in spring and autumn.",
+          "Ideal for Danube cruises in crisp shoulder seasons.",
+          "Allows full enjoyment of scenic sailing days without bundling up in heavy outerwear."
+        ]
+      },
+      {
+        "title": "Scenic Sun Lounges & Christmas Market Cruises",
+        "items": [
+          "A Sun Lounge can be especially useful during magical winter river cruises.",
+          "Christmas Market sailings involve cold European winter temperatures where sitting outdoors is unfeasible.",
+          "A protected viewing area lets you watch illuminated towns and festive riverfront decorations from warmth.",
+          "Enjoy historic German and Austrian architecture glowing at dusk with hot mulled wine in hand.",
+          "Takes the chill out of winter cruising while keeping the fairy-tale landscapes right in front of you.",
+          "Balcony design is critical when comparing suites for holiday sailings."
+        ]
+      }
+    ]
+  },
+  "inlineCta3": {
+    "eyebrow": "Personalized Luxury, Elevated",
+    "title": "Ready to Book a Sun Lounge Suite?",
+    "description": "Let us help you compare Scenic suite categories and secure the right balcony for your trip.",
+    "buttonText": "Plan Your Scenic Cruise",
+    "buttonLink": "/contact"
+  },
+  "spaceShipVsOcean": {
+    "title": "Scenic Space-Ship vs Ocean Cruise Balcony",
+    "subtitle": "A river cruise balcony is less about having an outdoor room and more about having a private viewing platform for constantly changing scenery.",
+    "headers": ["Feature", "Scenic Space-Ship", "Ocean Cruise"],
+    "rows": [
+      ["Ship focus", "Designed for close-up river scenery", "Designed for open ocean views"],
+      ["Scenery", "Continuous changing landscapes on both banks", "Horizon-focused, vast ocean expanses"],
+      ["Ship size", "Compact luxury river vessel (max 160–169 guests)", "Large mega-ship (thousands of guests)"],
+      ["Itinerary style", "European towns and historic ports right outside", "More sea days between distant ports"],
+      ["Balcony views", "Villages, medieval castles, rolling vineyards", "Endless ocean and distant port docks"],
+      ["Overall focus", "Deep destination immersion and scenic sailing", "Onboard amenities and resort attractions"]
+    ]
+  },
+  "suiteLocation": {
+    "eyebrow": "STRATEGIC CABIN SELECTION",
+    "title": "Why Your Suite Location Matters",
+    "lead": "Two suites with similar specifications can feel completely different depending on location. The river scenery changes constantly, so choosing the right deck and section shapes your daily comfort.",
+    "conclusion": "Our recommendation is to look at the ship's official deck plan with an experienced river specialist before confirming your booking.",
+    "factors": [
+      {
+        "title": "Forward vs Midship",
+        "description": "Different perspectives and potential motion characteristics during navigation."
+      },
+      {
+        "title": "Lower vs Upper Deck",
+        "description": "Sapphire Deck vs Diamond Deck provides different sightlines over river locks and riverbanks."
+      },
+      {
+        "title": "Port vs Starboard",
+        "description": "The river scenery changes constantly, so neither side guarantees the best views for an entire itinerary."
+      },
+      {
+        "title": "Near Public Areas",
+        "description": "Convenient access to the lounge and dining, but potentially higher foot traffic."
+      },
+      {
+        "title": "Quiet Areas",
+        "description": "Positioned mid-corridor away from engines, elevators, and stairs for undisturbed relaxation."
+      }
+    ]
+  },
+  "commonMistakes": {
+    "title": "Common Scenic Balcony Booking Mistakes",
+    "subtitle": "Avoid these common errors when comparing Scenic suite balconies.",
+    "mistakes": [
+      "Assuming every Scenic balcony is identical across all categories",
+      "Looking only at square footage without evaluating the Sun Lounge layout",
+      "Ignoring deck location relative to walking tracks and water level",
+      "Assuming one side of the ship is always better for river views",
+      "Not reviewing the actual ship deck plan and ship-specific configuration"
+    ]
+  },
+  "howToChoose": {
+    "eyebrow": "DECISION FRAMEWORK",
+    "title": "How to Choose the Right Scenic Suite",
+    "subtitle": "A great itinerary in a comfortable suite is often better than an expensive suite on an itinerary that doesn't excite you.",
+    "rules": [
+      {
+        "title": "How much time will I spend in my suite?",
+        "description": "If the answer is \"a lot,\" prioritize a balcony or Sun Lounge upgrade for extra comfort."
+      },
+      {
+        "title": "How important are river views?",
+        "description": "If waking up to castles and vineyards is central to your dream trip, prioritize a Sun Lounge category."
+      },
+      {
+        "title": "When am I traveling?",
+        "description": "Spring, autumn, and winter make the weather protection of the Sun Lounge infinitely more valuable."
+      },
+      {
+        "title": "Do I want Butler Service?",
+        "description": "If personalized in-suite service, breakfast, and unpacking matter, compare eligible higher suite categories."
+      },
+      {
+        "title": "What is my overall travel budget?",
+        "description": "Balance cabin category with pre-cruise extensions and excursions so you maximize overall trip value."
+      }
+    ]
+  },
+  "beyondBalcony": {
+    "title": "Scenic Space-Ships Beyond the Balcony",
+    "subtitle": "The Sun Lounge is only one part of the Space-Ship experience. Together, these features create a luxury hotel atmosphere that travels with you.",
+    "callout": "The combination creates a luxury hotel atmosphere that travels with you through Europe's greatest cultural landscapes.",
+    "items": [
+      {
+        "title": "Multiple Dining Venues",
+        "description": "From Crystal Dining to Portobellos fine Italian dining and the intimate Table La Rive."
+      },
+      {
+        "title": "Panorama Lounge & Bar",
+        "description": "Spacious observation lounge featuring floor-to-ceiling glass and complimentary premium beverages."
+      },
+      {
+        "title": "Wellness & Spa Facilities",
+        "description": "Relaxation facilities including therapeutic salt therapy rooms on select European Space-Ships."
+      },
+      {
+        "title": "Fitness & Vitality Pools",
+        "description": "Onboard fitness centers, walking tracks, and heated vitality pools on the Sun Deck."
+      }
+    ]
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "PERSONALIZED TRIP PREPARATION",
+    "title": "Why a Luxury Travel Advisor Can Help",
+    "quoteTitle": "Scenic Cabin Categories Can Be Confusing",
+    "quoteBody": "This is particularly true when comparing different ships and Sun Lounge configurations. An experienced travel advisor can help you compare suites side by side before you commit — especially valuable when you're spending significantly more for a premium suite.",
+    "alert": "Booking early through an advisor can help maximize both availability and value.",
+    "benefits": [
+      {
+        "title": "Space-Ship layouts",
+        "description": "Clear explanation of ship dimensions and differences across European rivers."
+      },
+      {
+        "title": "Sun Lounge configurations",
+        "description": "Detailed advice on balcony glass mechanisms and usable suite square footage."
+      },
+      {
+        "title": "Deck locations",
+        "description": "Diamond Deck vs Sapphire Deck elevations for optimal sightlines and acoustics."
+      },
+      {
+        "title": "Suite sizes",
+        "description": "Side-by-side comparison of standard, balcony, junior, and royal penthouse suites."
+      },
+      {
+        "title": "Butler Service",
+        "description": "Confirmation of which suite categories include full butler service benefits."
+      },
+      {
+        "title": "River views",
+        "description": "Expert guidance on sightlines and bridge clearances along changing river waterways."
+      },
+      {
+        "title": "Itinerary availability",
+        "description": "Matching your preferred dates with high-demand Rhine, Danube, and Douro sailings."
+      },
+      {
+        "title": "Current promotions",
+        "description": "Access to exclusive agency pricing, complimentary perks, and early-bird upgrades."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "countries": "Traveled to more than 121 countries",
+    "credentialsTitle": "Angela Hughes Authority Box",
+    "credentials": [
+      { "label": "CEO of Trips & Ships Luxury Travel" },
+      { "label": "Over 40 years in the travel industry" },
+      { "label": "Traveled to more than 121 countries" },
+      { "label": "Founder of Luxury Travel University" },
+      { "label": "Global luxury travel speaker and trainer" },
+      { "label": "Weekly industry columnist" },
+      { "label": "Travel Leaders Network Advisory Board member" },
+      { "label": "2024 Luxury Travel Influencer of the Year" },
+      { "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
+      { "label": "Featured in major travel publications globally" },
+      { "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" }
+    ]
+  },
+  "finalVerdict": {
+    "eyebrow": "FINAL VERDICT",
+    "title": "Your Private Viewing Area on the River",
+    "paragraphs": [
+      "Scenic Space-Ships and Sun Lounge balconies are an important part of what makes Scenic's river cruise experience distinctive. The design gives travelers a comfortable way to enjoy the constantly changing scenery while making better use of their suite's living space.",
+      "For travelers who spend time watching castles, vineyards, villages, and European cities pass by, a Sun Lounge can be much more than a balcony. It's effectively your private viewing area on the river.",
+      "If you're deciding between Scenic suite categories, don't simply ask \"How big is the cabin?\" Also ask \"How do I want to experience the river?\" At Trips & Ships Luxury Travel, we'll help you plan every detail of your Scenic cruise."
+    ],
+    "servicesTitle": "Our luxury planning services include:",
+    "services": [
+      "Compare Sun Lounge configurations across Space-Ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain Scenic promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic with other luxury lines"
+    ],
+    "buttonText": "Start Planning Your Scenic Cruise",
+    "buttonLink": "/contact"
+  }
+}

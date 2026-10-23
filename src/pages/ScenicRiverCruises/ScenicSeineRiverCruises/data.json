@@ -1,0 +1,963 @@
+{
+  "meta": {
+    "title": "Scenic Seine River Cruises: Paris & Normandy | Complete Guide",
+    "metaTitle": "Scenic Seine River Cruises | Paris, Normandy & Best Itineraries",
+    "metaDescription": "Explore Scenic Seine River Cruises from Paris through Normandy. Discover Rouen, Monet's Giverny, D-Day sites, French cuisine, excursions, cabins, costs and the best time to sail.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/seine",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/seine/#webpage",
+          "name": "Scenic Seine River Cruises (2026) | Complete Guide",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/seine",
+          "description": "Explore Scenic Seine River Cruises from Paris through Normandy. Discover Rouen, Monet's Giverny, D-Day sites, French cuisine, excursions, cabins, costs and the best time to sail."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/seine/#article",
+          "headline": "Scenic Seine River Cruises: Paris, Normandy & the Complete Guide",
+          "description": "A complete guide to Scenic Seine River Cruises, including Paris, Giverny, Rouen, Normandy, D-Day history, French cuisine, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/seine/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Seine River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/seine"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/seine/#itemlist",
+          "name": "Scenic Seine River Cruises — What This Guide Covers",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Quick Answer"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Why Choose a Scenic Seine River Cruise?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Where Does a Scenic Seine River Cruise Go?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Best Scenic Seine River Cruise Itineraries"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Best Time for a Scenic Seine River Cruise"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Scenic Seine Excursions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Scenic Seine Cruise for Art Lovers"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Cabins & Butler Service"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Food, Wine & D-Day History"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Couples & Families"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "name": "Cost & What's Included"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "name": "Common Booking Mistakes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "name": "Why Book Through a Luxury Travel Advisor?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "name": "Final Verdict"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/seine/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best Scenic Seine River Cruise itinerary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For first-time travelers, an itinerary combining Paris, Normandy, Rouen, and Giverny can provide an excellent overview of the Seine region. Exact destinations vary by sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic Seine River Cruise start in Paris?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Many Scenic Seine itineraries are designed around Paris, but embarkation and disembarkation details vary by itinerary and sailing date."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic visit Normandy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic offers Seine itineraries that explore Normandy and its historic destinations. Check the individual sailing for the exact ports and excursions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Seine cruise visit Giverny?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some itineraries include access to Giverny and Monet-related experiences. Always confirm the specific itinerary before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I visit the D-Day beaches on a Scenic Seine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Certain itineraries offer Normandy excursions focused on D-Day history. The exact sites and excursion availability depend on the sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Seine River Cruise good for first-time cruisers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The Seine is relatively straightforward to understand and combines a major city with smaller French destinations and countryside."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time for a Scenic Seine River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spring and fall are particularly appealing for comfortable sightseeing. Summer offers longer days, while seasonal departures can provide a different atmosphere."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Scenic good for a Seine River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic is a strong option for travelers seeking an all-inclusive luxury experience with personalized service and destination-focused excursions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Seine cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Paris, French cuisine, wine, art, gardens, historic towns, and scenic sailing make the Seine especially attractive for couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Seine cruise good for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The itinerary offers a mix of history, culture, museums, sightseeing, and excursions that can appeal to multiple generations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are excursions included on a Scenic Seine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic includes a selection of destination experiences, including Freechoice activities and eligible Scenic Enrich experiences. The exact choices vary by itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What cabin should I choose on a Scenic Seine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best suite depends on your priorities, but travelers who enjoy scenic sailing may appreciate a suite with a Sun Lounge or another dedicated river-view area."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Butler Service on the Seine?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Butler Service is available with eligible Scenic suite categories. Confirm the exact services associated with your selected suite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does a Scenic Seine River Cruise cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Prices vary according to the itinerary, sailing date, suite category, availability, and other travel arrangements. Compare the total inclusions rather than just the starting fare."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many nights should I spend in Paris before a Scenic Seine cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For first-time visitors, two or three nights before the cruise is a strong starting point. It provides time to explore Paris and reduces the risk of missing embarkation because of a delayed international flight."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Seine River Cruises",
+    "subtitle": "Paris, Normandy & French Countryside in All-Inclusive Luxury",
+    "intro": "A Scenic Seine River Cruise offers a different kind of European river cruise experience. Instead of focusing primarily on multiple countries, a Seine itinerary takes you deep into France, connecting Paris with Normandy, historic towns, Impressionist landscapes, French cuisine, and some of the most important sites in European history.",
+    "extendedText": "A Scenic Seine River Cruise offers a different kind of European river cruise experience. Instead of focusing primarily on multiple countries, a Seine itinerary takes you deep into France, connecting Paris with Normandy, historic towns, Impressionist landscapes, French cuisine, and some of the most important sites in European history. For luxury travelers, the appeal is simple: Paris, Normandy, French culture, and river cruising in one seamless journey. Depending on the itinerary, a Scenic Seine cruise can take you from the heart of Paris toward destinations including Vernon, Giverny, Rouen, Normandy, historic French towns, the D-Day landing beaches, and Impressionist sites — and because your ship travels with you, you can explore France without repeatedly changing hotels.",
+    "ctaText": "Start Planning Your Scenic Seine Cruise",
+    "ctaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "The Quick Answer",
+    "title": "Is a Scenic Seine River Cruise Worth It? The Quick Answer",
+    "intro": "Yes — particularly if you want to combine Paris with Normandy, French history, Impressionist art, gardens, cuisine, and a relaxed luxury river cruise experience. The Seine is especially appealing to travelers who want depth rather than country-counting.",
+    "emphasis": [
+      "Couples",
+      "First-time river cruisers",
+      "Luxury travelers",
+      "Art and culture enthusiasts",
+      "History travelers",
+      "Food and wine lovers",
+      "Travelers interested in Normandy",
+      "D-Day history enthusiasts",
+      "Multigenerational families",
+      "Travelers combining Paris with a river cruise"
+    ],
+    "outro": "Seine highlights include Paris, Impressionist landscapes, Monet's gardens at Giverny, historic Rouen, Normandy's D-Day landing beaches, French gastronomy, and luxurious Scenic Space-Ship amenities. For many travelers, the biggest advantage is simplicity: you explore France without changing hotels, packing and unpacking, or navigating regional train schedules."
+  },
+  "whyChoose": {
+    "eyebrow": "The Scenic Advantage",
+    "title": "Why Choose a Scenic Seine River Cruise?",
+    "intro": "The Seine is particularly attractive because the itinerary can combine one of the world's great cities with some of France's most historically significant and culturally important destinations. You don't have to choose between a Paris vacation and a Normandy vacation — a Seine river cruise can connect the two:",
+    "imageLabel": "Paris & Normandy Seamlessly",
+    "callout": "A cosmopolitan capital and intimate French villages linked by one elegant waterway.",
+    "features": [
+      "Paris",
+      "Impressionist art",
+      "French countryside",
+      "Giverny's gardens",
+      "Historic Normandy",
+      "D-Day history",
+      "French cuisine",
+      "Scenic sailing"
+    ]
+  },
+  "destinations": {
+    "title": "Where Does a Scenic Seine River Cruise Go?",
+    "intro": "Exact ports vary by itinerary and sailing date, but some of the most recognizable Scenic Seine destinations include:",
+    "items": [
+      {
+        "key": "paris",
+        "title": "Paris",
+        "items": [
+          "Eiffel Tower, Louvre & Musée d'Orsay",
+          "Montmartre & the Seine riverfront",
+          "The perfect start or finish to your journey"
+        ]
+      },
+      {
+        "key": "vernon-giverny",
+        "title": "Vernon & Giverny",
+        "items": [
+          "Monet's former home and gardens",
+          "The landscapes that inspired Impressionism",
+          "A highlight for art and garden lovers"
+        ]
+      },
+      {
+        "key": "rouen",
+        "title": "Rouen",
+        "items": [
+          "Medieval architecture & Gothic churches",
+          "Joan of Arc history",
+          "An intimate contrast to cosmopolitan Paris"
+        ]
+      },
+      {
+        "key": "normandy",
+        "title": "Normandy",
+        "items": [
+          "French countryside & coastal scenery",
+          "Regional gastronomy",
+          "The emotional center of many Seine itineraries"
+        ]
+      },
+      {
+        "key": "dday-beaches",
+        "title": "D-Day Beaches",
+        "items": [
+          "Historic landing beaches & memorials",
+          "Cemeteries & WWII museums",
+          "One of the most meaningful excursions on the Seine"
+        ]
+      }
+    ]
+  },
+  "cta1": {
+    "title": "Not Sure Which Seine Itinerary Is Right for You?",
+    "text": "Let us help you compare Scenic Seine sailings, suite categories, and find the perfect departure for your travel style.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time for a Scenic Seine River Cruise",
+    "intro": "The best time depends on your interests. Spring brings Monet's gardens into full bloom; summer provides long sunny days along the Normandy coast; fall showcases golden vineyards and cider harvests; and winter features festive Paris holiday sparkle.",
+    "items": [
+      {
+        "key": "spring",
+        "icon": "Flower2",
+        "eyebrow": "March–May",
+        "title": "Spring",
+        "intro": "Spring is particularly appealing for:",
+        "items": [
+          "Gardens",
+          "Green landscapes",
+          "Comfortable sightseeing"
+        ],
+        "outro": "Giverny can be especially attractive during the spring and early summer season.",
+        "accent": "adg-accent-teal"
+      },
+      {
+        "key": "summer",
+        "icon": "Sun",
+        "eyebrow": "June–August",
+        "title": "Summer",
+        "intro": "Summer provides:",
+        "items": [
+          "Longer daylight",
+          "Green countryside",
+          "Excellent sightseeing conditions"
+        ],
+        "outro": "It's also a popular travel period, so preferred departures can sell quickly.",
+        "accent": "adg-accent-navy"
+      },
+      {
+        "key": "fall",
+        "icon": "Leaf",
+        "eyebrow": "September–November",
+        "title": "Fall",
+        "intro": "Autumn offers:",
+        "items": [
+          "Changing foliage",
+          "Seasonal food",
+          "Comfortable temperatures"
+        ],
+        "outro": "The French countryside can be particularly beautiful in the fall.",
+        "accent": "adg-accent-rose"
+      },
+      {
+        "key": "winter",
+        "icon": "Snowflake",
+        "eyebrow": "December–February",
+        "title": "Winter",
+        "intro": "Winter is less about countryside sightseeing, but offers:",
+        "items": [
+          "A quieter Paris experience",
+          "Festive holiday itineraries",
+          "Fewer crowds at major sites"
+        ],
+        "outro": "The Seine is less focused on classic countryside sightseeing during winter, but travelers looking for a quieter Paris experience may appreciate the season.",
+        "accent": "adg-accent-teal"
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Seine River Cruise Itinerary",
+    "intro": "The ideal Seine itinerary depends on your priorities. Explore the core routes sailing between Paris and the English Channel:",
+    "items": [
+      {
+        "id": "paris-normandy",
+        "title": "Paris to Normandy",
+        "badge": "Best Overall",
+        "icon": "Compass",
+        "desc": "For first-time travelers, an itinerary that combines Paris with Normandy provides the strongest overall introduction to the Seine, taking in the French countryside, Giverny, Rouen, Normandy, and D-Day history along the way.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "First-time travelers",
+              "The classic Paris + Normandy combination",
+              "A well-rounded introduction to the Seine"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "giverny",
+        "title": "Seine Cruise with Giverny",
+        "badge": "Art & Gardens",
+        "icon": "Palette",
+        "desc": "If you're particularly interested in art and gardens, prioritize an itinerary that provides access to Giverny, the village associated with Claude Monet and the landscapes that inspired some of his most famous work.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Art lovers",
+              "Garden enthusiasts",
+              "Photographers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "normandy-dday",
+        "title": "Seine Cruise with Normandy & D-Day",
+        "badge": "History Focus",
+        "icon": "ShieldAlert",
+        "desc": "History enthusiasts should look for an itinerary with sufficient time for Normandy excursions, including locations associated with the Allied landings of June 1944.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "WWII history travelers",
+              "Museum enthusiasts",
+              "History-focused families"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "firstTimeCruisers": {
+    "title": "Scenic Seine River Cruise for First-Time River Cruisers",
+    "intro": "The Seine is a particularly approachable first river cruise because the destination focus is easy to understand. You can think of the journey as:",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Paris",
+        "subtitle": "City of Light & World-Class Art"
+      },
+      {
+        "num": "02",
+        "title": "French Countryside",
+        "subtitle": "Scenic Riverside Towns & Monet's Giverny"
+      },
+      {
+        "num": "03",
+        "title": "Normandy",
+        "subtitle": "D-Day History, Rouen & Coastline"
+      }
+    ],
+    "outro": "Instead of wondering what to prioritize across three or four countries, you can focus on France in a meaningful way."
+  },
+  "excursions": {
+    "eyebrow": "Onboard & Ashore",
+    "title": "Scenic Seine River Cruise Excursions",
+    "intro": "Excursions are central to the experience. Scenic's Freechoice program allows guests to select among available experiences on eligible itineraries, while Scenic Enrich provides specially curated experiences on qualifying sailings.",
+    "items": [
+      {
+        "icon": "Landmark",
+        "title": "Paris Landmarks",
+        "desc": "Historic landmarks, architecture, museums, food, and cultural experiences."
+      },
+      {
+        "icon": "Flower2",
+        "title": "Giverny",
+        "desc": "Monet's home and gardens, and the landscapes that inspired Impressionism."
+      },
+      {
+        "icon": "Building2",
+        "title": "Rouen",
+        "desc": "Medieval history, Gothic architecture, and French culture."
+      },
+      {
+        "icon": "ShieldAlert",
+        "title": "Normandy & D-Day",
+        "desc": "D-Day history and Normandy's regional heritage."
+      },
+      {
+        "icon": "Compass",
+        "title": "French Countryside",
+        "desc": "Walking tours, food, wine, and cultural experiences."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Freechoice & Enrich",
+        "desc": "Scenic's Freechoice experiences let guests choose among available activities, while Scenic Enrich provides exclusive experiences on eligible itineraries."
+      }
+    ]
+  },
+  "artLovers": {
+    "eyebrow": "Art & History",
+    "title": "Scenic Seine Cruise for Art Lovers",
+    "lead": "The Seine is one of the strongest Scenic itineraries for travelers interested in art. The connection between the river and Impressionism is particularly compelling.",
+    "sightings": [
+      "Impressionist landscapes",
+      "French countryside",
+      "Riverside villages",
+      "Historic Normandy coastline"
+    ],
+    "conclusion": "For art lovers, exploring Monet, Giverny, Impressionist landscapes, Paris museums, and French architecture can feel less like a conventional cruise and more like a floating French cultural journey."
+  },
+  "cta2": {
+    "title": "First Time on a River Cruise?",
+    "text": "The Seine gives you Paris, French countryside, Giverny, Rouen, and Normandy — all in one trip. You can think of the journey simply as Paris → French countryside → Normandy, rather than a complicated multi-country itinerary.",
+    "buttonText": "Contact Angela Hughes",
+    "link": "/contact"
+  },
+  "cabinsAndButler": {
+    "cabins": {
+      "title": "Scenic Seine River Cruise Cabins & Suites",
+      "text": "Choosing the right suite matters, especially if you enjoy watching the landscape while sailing.",
+      "features": [
+        "Deck position & panoramic river views",
+        "Suite category & private balcony layout",
+        "All-weather Sun Lounge glass enclosure",
+        "Spacious suite dimensions & walk-in showers",
+        "Personalized Butler Service for every stateroom",
+        "Complimentary minibar restocked daily"
+      ],
+      "outro": "Consider how much time you'll spend in your suite versus public spaces, and whether waking up to the French countryside through your Sun Lounge balcony is a priority."
+    },
+    "butler": {
+      "title": "Scenic Butler Service on the Seine",
+      "text": "Every stateroom on Scenic Space-Ships includes butler service, providing an elevated standard of personal attention throughout your voyage.",
+      "features": [
+        "Unpacking & garment pressing assistance",
+        "Shoe shining & wardrobe care",
+        "Morning tea & coffee delivered to your suite",
+        "Specialty dining & Table La Rive reservations",
+        "Shore excursion coordination & local tips",
+        "Evening turndown & suite refreshment"
+      ],
+      "outro": "The butler service on the Seine ensures a relaxed, effortless voyage through the heart of northern France."
+    }
+  },
+  "diningAndHistory": {
+    "foodAndWine": {
+      "title": "Scenic Seine Cruise Food & Wine",
+      "text": "France is one of the world's great culinary destinations, and food naturally becomes an important part of the Seine experience.",
+      "highlights": [
+        "Fresh French pastries & morning croissants",
+        "Regional Normandy Camembert, Livarot & Neufchâtel cheeses",
+        "Handpicked French wines paired with dinner courses",
+        "Artisan baguettes & local bakery visits",
+        "Regional Normandy cider, Calvados & classic French gastronomy"
+      ],
+      "outro": "Dining aboard Scenic is paired with local ingredients sourced along the riverbanks, complemented by Scenic Culinaire cooking classes on select Space-Ships."
+    },
+    "dDayHistory": {
+      "title": "Normandy D-Day History & Memorials",
+      "text": "For many travelers, visiting the historic beaches and landing sites of Normandy is the emotional highlight of a Seine river cruise.",
+      "highlights": [
+        "Omaha Beach & Utah Beach historical tours",
+        "Normandy American Cemetery at Colleville-sur-Mer",
+        "Pointe du Hoc clifftop artillery battlefield",
+        "Arromanches artificial Mulberry Harbour remains",
+        "Pegasus Bridge & Commonwealth Memorial Sites"
+      ],
+      "outro": "Expert local historians accompany every excursion, bringing depth and solemnity to these monumental World War II landmarks."
+    }
+  },
+  "artLoversDeep": {
+    "title": "Scenic Seine Cruise for Art Lovers",
+    "intro": "The Seine is one of the strongest Scenic itineraries for travelers interested in art. The connection between the river and Impressionism is particularly compelling. For art lovers, this can feel less like a conventional cruise and more like a floating French cultural journey.",
+    "pathway": [
+      "Monet",
+      "Giverny",
+      "Impressionist landscapes",
+      "Paris museums"
+    ],
+    "quote": "Standing in Monet's water lily garden after seeing his paintings in Paris connects the art to the landscape in a way few other trips can match.",
+    "experiences": [
+      "Claude Monet's iconic house and water lily pond in Giverny",
+      "Rouen Cathedral painted more than 30 times by Monet in changing light",
+      "Auvers-sur-Oise where Vincent van Gogh spent his final prolific months",
+      "Pre- or post-cruise visits to Musée d'Orsay, Musée de l'Orangerie, and the Louvre in Paris"
+    ]
+  },
+  "sunLounge": {
+    "title": "Scenic Space-Ships & Sun Lounge Experience",
+    "intro": "Scenic's Sun Lounge concept gives travelers a comfortable way to enjoy the river scenery with the touch of a button.",
+    "highlights": [
+      "French countryside & riverside châteaux",
+      "Normandy chalk cliffs & meandering bends",
+      "Historic riverside towns & half-timbered villages",
+      "Rural orchards, pastoral hills, and lock transits"
+    ],
+    "outro": "Instead of treating sailing time as time between ports, consider it part of the destination experience — watching France glide past while relaxing in climate-controlled luxury."
+  },
+  "familiesAndCouples": {
+    "families": {
+      "title": "Scenic Seine Cruises for Families & Multigenerational Groups",      "generations": [
+        {
+          "role": "Grandparents may enjoy:",
+          "features": [
+            "History",
+            "Architecture",
+            "Food",
+            "Scenic sailing"
+          ]
+        },
+        {
+          "role": "Parents may appreciate:",
+          "features": [
+            "Culture",
+            "Museums",
+            "Relaxation",
+            "Fine dining"
+          ]
+        },
+        {
+          "role": "Teens or adult children may like:",
+          "features": [
+            "Active excursions",
+            "E-biking",
+            "Photography",
+            "Historic sites"
+          ]
+        }
+      ],
+      "quote": "A Seine river cruise offers shared memories without the stress of managing transport, reservations, or multi-room logistics across France."
+    },
+    "couples": {
+      "title": "Scenic Seine Cruise for Couples",      "experiences": [
+        "Paris romance & candlelit evenings along the river",
+        "Fine French cuisine & premier cru sommelier wine pairings",
+        "Private all-weather Sun Lounge moments with views of Normandy hills",
+        "Charming walks through Giverny gardens and Honfleur cobblestones",
+        "Uncluttered sailing time with five-star luxury amenities"
+      ],
+      "quote": "A pre- or post-cruise stay in Paris can make the trip feel substantially more special, providing the perfect romantic beginning or finale."
+    }
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Seine River Cruise Cost?",
+    "intro": "Pricing depends on seasonality, suite category, and inclusions.",
+    "calloutTitle": "Evaluate Total Inclusions",
+    "calloutText": "When comparing Scenic with other Seine river cruises, consider the total experience and inclusions, not just the advertised starting fare.",
+    "factors": [
+      "Sailing date",
+      "Duration",
+      "Suite category",
+      "Ship",
+      "Availability",
+      "Itinerary",
+      "Promotions",
+      "Airfare",
+      "Pre- and post-cruise hotels"
+    ],
+    "guideTitle": "How Much Does a Scenic River Cruise Cost?",
+    "guideDesc": "Compare what's included in Scenic's all-inclusive pricing versus lines that charge extra for drinks, excursions, and gratuities."
+  },
+  "cta3": {
+    "title": "Want More on Scenic Cabins?",
+    "text": "Read our guides to Scenic Space-Ships, private Sun Lounge balconies, suite categories, and personalized butler service.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Seine Cruise?",
+    "intro": "Scenic's all-inclusive approach covers a comprehensive range of onboard and destination experiences.",
+    "subIntro": "Depending on your specific cruise, inclusions typically cover stateroom beverages, dining across multiple venues, guided excursions, transfers, and butler service.",
+    "items": [
+      "Accommodation",
+      "Meals",
+      "Selected beverages",
+      "Wi-Fi",
+      "Scenic Freechoice experiences",
+      "Scenic Enrich experiences",
+      "Entertainment",
+      "Personalized service"
+    ],
+    "calloutTitle": "Verify Exact Sailing Inclusions",
+    "calloutText": "Exact inclusions vary by itinerary, season, and stateroom category. Your luxury travel advisor will verify your sailing details before making a final decision."
+  },
+  "comparison": {
+    "title": "Scenic Seine vs Other River Cruise Lines",
+    "intro": "The best choice depends on your preferred ship, itinerary, suite, inclusions, and travel style.",
+    "table": [
+      {
+        "line": "Scenic",
+        "appeal": "All-inclusive luxury and personalized service"
+      },
+      {
+        "line": "Riverside",
+        "appeal": "Spacious luxury suites"
+      },
+      {
+        "line": "Uniworld",
+        "appeal": "Boutique design and luxury atmosphere"
+      },
+      {
+        "line": "Tauck",
+        "appeal": "Highly inclusive guided travel"
+      },
+      {
+        "line": "AmaWaterways",
+        "appeal": "Active excursions and destination experiences"
+      },
+      {
+        "line": "Avalon",
+        "appeal": "Open-air balcony concept"
+      },
+      {
+        "line": "Viking",
+        "appeal": "Broad European river cruise network"
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Seine Cruise Mistakes",
+    "intro": "Avoid these common errors when planning your Scenic Seine River Cruise to ensure a seamless and rewarding vacation.",
+    "items": [
+      "Treating Paris as just the embarkation point",
+      "Choosing an itinerary without checking the Normandy excursions",
+      "Assuming every Seine itinerary includes Giverny",
+      "Booking the cabin based only on price",
+      "Arriving on embarkation day after an international flight",
+      "Trying to do everything in one day"
+    ]
+  },
+  "duration": {
+    "title": "How Many Days Do You Need for a Seine River Cruise?",
+    "intro": "The ideal trip length depends on how much time you want in Paris and Normandy.",
+    "shorter": {
+      "title": "Before the Cruise: Paris Pre-Stay (2–3 Nights)",
+      "items": [
+        "2–3 nights in Paris before embarkation",
+        "Recovering comfortably from international jet lag",
+        "Protecting your voyage against airline flight delays",
+        "Exploring major museums (Louvre, Orsay) at your own pace",
+        "Acclimating to local French culture and cafe life"
+      ]
+    },
+    "longer": {
+      "title": "After the Cruise: Extended Paris or Normandy (1–3 Nights)",
+      "items": [
+        "1–2 extra nights in Paris for shopping and relaxed dining",
+        "Visiting Versailles or the Champagne wine region",
+        "Deep-dive battlefield or memorial visits in Normandy",
+        "Unwinding before a transatlantic journey home",
+        "Enjoying Parisian nightlife and evening illuminations"
+      ]
+    },
+    "tip": "Tip: Adding a pre-cruise stay in Paris significantly enhances the overall experience and provides a stress-free buffer against international flight disruptions."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Trip Preparation",
+    "title": "Why Book a Scenic Seine Cruise Through a Luxury Travel Advisor?",
+    "quoteTitle": "Matching the Right Cruise to the Reason You're Traveling",
+    "quoteBody": "The biggest value of an experienced advisor isn't simply finding a cruise — it's matching the right cruise to the reason you're traveling. If you're primarily interested in D-Day history, the advisor can focus on itineraries with appropriate Normandy excursions. If you're an art lover, the focus can be on Giverny, Monet, and Paris museums.",
+    "quoteAuthor": "Angela Hughes",
+    "quoteRole": "Luxury Travel Specialist",
+    "alert": "Scenic itineraries, suite categories, and inclusions can be nuanced — a dedicated specialist ensures no detail is overlooked.",
+    "benefits": [
+      {
+        "title": "Itinerary Selection",
+        "description": "Matching your dates and interests with the best Scenic Seine itinerary."
+      },
+      {
+        "title": "Suite Guidance",
+        "description": "Choosing the right stateroom category and deck location for views and comfort."
+      },
+      {
+        "title": "Pre- & Post-Cruise Planning",
+        "description": "Arranging Paris hotels, transfers, and private tours before or after your sailing."
+      },
+      {
+        "title": "Timing Advice",
+        "description": "Recommending the best month to travel based on crowds, weather, and garden blooms."
+      },
+      {
+        "title": "Promotion Verification",
+        "description": "Ensuring you receive any applicable Scenic promotions, loyalty credits, or amenities."
+      },
+      {
+        "title": "Normandy Planning",
+        "description": "Advising on D-Day excursion options and ensuring your historical priorities are met."
+      },
+      {
+        "title": "Flight Coordination",
+        "description": "Coordinating transatlantic air travel to protect against tight connections and delays."
+      },
+      {
+        "title": "Advocacy & Support",
+        "description": "Providing direct support and personalized advocacy before, during, and after your trip."
+      }
+    ]
+  },
+  "credentials": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "countries": "121+ Countries Visited • 40+ Years Experience",
+    "items": [
+      "CEO of Trips & Ships Luxury Travel",
+      "Over 40 years in the luxury travel industry",
+      "Traveled to more than 121 countries",
+      "Extensive personal experience on European river cruises",
+      "Specialist in Scenic Luxury Cruises & Space-Ships",
+      "Expertise in custom Paris extensions and Normandy heritage travel"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Scenic Seine River Cruises before booking.",
+    "items": [
+      {
+        "q": "What is the best Scenic Seine River Cruise itinerary?",
+        "a": "For first-time travelers, an itinerary combining Paris, Normandy, Rouen, and Giverny can provide an excellent overview of the Seine region. Exact destinations vary by sailing."
+      },
+      {
+        "q": "Does Scenic Seine River Cruise start in Paris?",
+        "a": "Many Scenic Seine itineraries are designed around Paris, but embarkation and disembarkation details vary by itinerary and sailing date."
+      },
+      {
+        "q": "Does Scenic visit Normandy?",
+        "a": "Scenic offers Seine itineraries that explore Normandy and its historic destinations. Check the individual sailing for the exact ports and excursions."
+      },
+      {
+        "q": "Does a Scenic Seine cruise visit Giverny?",
+        "a": "Some itineraries include access to Giverny and Monet-related experiences. Always confirm the specific itinerary before booking."
+      },
+      {
+        "q": "Can I visit the D-Day beaches on a Scenic Seine cruise?",
+        "a": "Certain itineraries offer Normandy excursions focused on D-Day history. The exact sites and excursion availability depend on the sailing."
+      },
+      {
+        "q": "Is a Scenic Seine River Cruise good for first-time cruisers?",
+        "a": "Yes. The Seine is relatively straightforward to understand and combines a major city with smaller French destinations and countryside."
+      },
+      {
+        "q": "What is the best time for a Scenic Seine River Cruise?",
+        "a": "Spring and fall are particularly appealing for comfortable sightseeing. Summer offers longer days, while seasonal departures can provide a different atmosphere."
+      },
+      {
+        "q": "Is Scenic good for a Seine River Cruise?",
+        "a": "Scenic is a strong option for travelers seeking an all-inclusive luxury experience with personalized service and destination-focused excursions."
+      },
+      {
+        "q": "Is a Scenic Seine cruise good for couples?",
+        "a": "Yes. Paris, French cuisine, wine, art, gardens, historic towns, and scenic sailing make the Seine especially attractive for couples."
+      },
+      {
+        "q": "Is a Scenic Seine cruise good for families?",
+        "a": "Yes. The itinerary offers a mix of history, culture, museums, sightseeing, and excursions that can appeal to multiple generations."
+      },
+      {
+        "q": "Are excursions included on a Scenic Seine cruise?",
+        "a": "Scenic includes a selection of destination experiences, including Freechoice activities and eligible Scenic Enrich experiences. The exact choices vary by itinerary."
+      },
+      {
+        "q": "What cabin should I choose on a Scenic Seine cruise?",
+        "a": "The best suite depends on your priorities, but travelers who enjoy scenic sailing may appreciate a suite with a Sun Lounge or another dedicated river-view area."
+      },
+      {
+        "q": "Does Scenic offer Butler Service on the Seine?",
+        "a": "Butler Service is available with eligible Scenic suite categories. Confirm the exact services associated with your selected suite."
+      },
+      {
+        "q": "How much does a Scenic Seine River Cruise cost?",
+        "a": "Prices vary according to the itinerary, sailing date, suite category, availability, and other travel arrangements. Compare the total inclusions rather than just the starting fare."
+      },
+      {
+        "q": "How many nights should I spend in Paris before a Scenic Seine cruise?",
+        "a": "For first-time visitors, two or three nights before the cruise is a strong starting point. It provides time to explore Paris and reduces the risk of missing embarkation because of a delayed international flight."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Final Verdict: France, Deepened — Not Just Visited",
+    "intro": "Scenic Seine River Cruises are an excellent choice for travelers who want to experience France through a combination of Paris, Normandy, history, art, food, and luxury river cruising.",
+    "extendedParagraphs": [
+      "The journey provides a rare combination of world-class urban culture in Paris and peaceful, pastoral landscapes along the lower Seine.",
+      "From standing in Claude Monet's water lily garden at Giverny to walking the historic beaches of Normandy, this itinerary delivers emotional and intellectual depth that few other river journeys can equal.",
+      "With Scenic's all-inclusive Space-Ship amenities, private Sun Lounge balconies, and personalized butler service, you explore the heart of France in complete comfort."
+    ],
+    "services": [
+      "Bespoke itinerary matching for your travel style",
+      "Stateroom & suite selection guidance on Scenic Gem",
+      "Custom Paris pre- and post-cruise luxury hotel arrangements",
+      "Private transfers and transatlantic flight coordination",
+      "Specialized D-Day battlefield guide recommendations",
+      "VIP advisor advocacy and complimentary quote assistance"
+    ]
+  },
+  "closingCta": {
+    "title": "Start Planning Your Scenic Seine Cruise",
+    "text": "Let our 40+ years of luxury travel expertise help you select the ideal Scenic Seine sailing, stateroom category, and custom pre- or post-cruise Paris extension.",
+    "buttonText": "Contact Angela Hughes",
+    "link": "/contact"
+  }
+}
