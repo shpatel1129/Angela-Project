@@ -1,0 +1,710 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#person",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO of Trips & Ships Luxury Travel",
+        "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-riverside/#webpage",
+        "name": "Scenic vs Riverside Luxury Cruises | Which Is Better?",
+        "url": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-riverside",
+        "description": "Scenic vs Riverside Luxury Cruises: compare suites, ships, dining, service, inclusions, excursions, itineraries, pricing, and overall luxury to find the right river cruise for you."
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-riverside/#article",
+        "headline": "Scenic vs Riverside Luxury Cruises: Which River Cruise Is Better?",
+        "description": "A complete comparison of Scenic and Riverside Luxury Cruises, including suites, balconies, dining, service, excursions, inclusions, ships, price, and who each line is best for.",
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-riverside/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Scenic River Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Scenic vs Riverside Luxury Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-riverside"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-riverside/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Scenic better than Riverside Luxury Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic may be better for travelers who prioritize ultra-luxury, all-inclusive travel, personalized service and included experiences. Riverside can be better for travelers who prioritize spacious suites and an intimate luxury atmosphere."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Riverside more luxurious than Scenic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both operate at the luxury end of river cruising. Scenic emphasizes an ultra-luxury, highly inclusive model, while Riverside places particular emphasis on spacious accommodations, dining and personalized service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better suites, Scenic or Riverside?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both offer spacious luxury accommodations. Scenic is especially distinctive for its Sun Lounge concept and Butler Service on applicable suites, while Riverside is particularly appealing to travelers who prioritize overall suite space."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better balconies, Scenic or Riverside?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic's Sun Lounge is one of its defining suite features and provides flexible indoor/outdoor river viewing. Riverside focuses strongly on spacious suite living. The best choice depends on whether balcony flexibility or overall accommodation space matters more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is more all-inclusive, Scenic or Riverside?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic has a particularly strong all-inclusive positioning. Its current river product includes dining, premium beverages and destination experiences among its core features, although exact inclusions vary by itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better food, Scenic or Riverside?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both offer strong luxury dining. Scenic provides multiple dining settings and included premium beverages, while Riverside appeals to travelers seeking an intimate luxury dining experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both offer strong destination experiences. Scenic has its Freechoice and Scenic Enrich programs on applicable itineraries. The exact itinerary should be compared before choosing a cruise line."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for couples?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are excellent. Scenic may be preferable for couples who want a highly inclusive luxury vacation, while Riverside can be especially appealing to couples who prioritize spacious suites and an intimate atmosphere."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for a honeymoon?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Either can work exceptionally well. Compare the suite, itinerary, dining, included experiences and pre/post-cruise arrangements before booking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for first-time river cruisers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic can be particularly easy for first-time luxury cruisers because of its highly inclusive approach. Riverside is also a strong choice for travelers who want spacious accommodations and personalized service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has smaller ships, Scenic or Riverside?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic's European Space-Ships accommodate up to 163 guests. Riverside's individual ships vary, so travelers should compare the exact ship for their sailing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both emphasize personalized service. Scenic explicitly highlights its dedicated crew and \"Nth Degree\" service philosophy. Riverside is also designed around an intimate luxury experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Scenic more expensive than Riverside?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no universal price winner. Fares vary by ship, suite, itinerary, season and departure date. Compare the complete vacation cost and inclusions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for a luxury Danube cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both can be excellent choices. Scenic may appeal to travelers seeking a highly inclusive luxury experience, while Riverside can be attractive to travelers who prioritize spacious suites and intimate luxury."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I book Scenic or Riverside through a travel advisor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A luxury travel advisor can compare the exact ships, suites, itineraries, promotions, inclusions and pre- and post-cruise arrangements. This is particularly useful when the difference between two luxury brands is subtle."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "quickAnswerTableData": {
+    "title": "Quick Answer: Scenic vs Riverside",
+    "headers": ["Category", "Scenic", "Riverside Luxury Cruises"],
+    "rows": [
+      ["Overall positioning", "Ultra-luxury", "Luxury"],
+      ["All-inclusive approach", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐"],
+      ["Suites", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
+      ["Cabin space", "Excellent", "Excellent"],
+      ["Balcony experience", "Scenic Sun Lounge", "Suite-focused outdoor space"],
+      ["Personalized service", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
+      ["Dining", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
+      ["Excursions", "Strong included program", "Strong destination focus"],
+      ["Ship atmosphere", "Contemporary ultra-luxury", "Intimate luxury"],
+      ["Couples", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
+      ["First-time luxury cruisers", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
+      ["Luxury travelers", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"],
+      ["Best for", "Inclusive luxury", "Space + personalized luxury"]
+    ]
+  },
+  "scenicTraits": [
+    "Ultra-luxury positioning",
+    "Personalized service",
+    "Included beverages",
+    "Curated excursions",
+    "Scenic Enrich experiences",
+    "Spacious suites",
+    "Butler service",
+    "A contemporary luxury ship",
+    "A highly inclusive vacation"
+  ],
+  "riversideTraits": [
+    "Large, comfortable suites",
+    "Luxury service",
+    "High-end dining",
+    "An intimate atmosphere",
+    "A boutique-style experience",
+    "Destination-focused travel",
+    "A less standardized feeling than a large cruise brand"
+  ],
+  "dualPhilosophyData": {
+    "title": "What Kind of Traveler Is Each Line Best For?",
+    "subtitle": "Understanding each line's core travel philosophy helps you match your personal expectations.",
+    "sailing": {
+      "label": "Scenic River Cruises",
+      "philosophy": "Ultra-Luxury All-Inclusive Model",
+      "points": [
+        "Ultra-luxury positioning",
+        "Personalized service",
+        "Included beverages",
+        "Curated excursions",
+        "Scenic Enrich experiences",
+        "Spacious suites",
+        "Butler service",
+        "A contemporary luxury ship",
+        "A highly inclusive vacation"
+      ]
+    },
+    "allSuite": {
+      "label": "Riverside Luxury Cruises",
+      "philosophy": "Boutique Space & Intimate Living",
+      "points": [
+        "Large, comfortable suites",
+        "Luxury service",
+        "High-end dining",
+        "An intimate atmosphere",
+        "A boutique-style experience",
+        "Destination-focused travel",
+        "A less standardized feeling than a large cruise brand"
+      ]
+    },
+    "verdict": "Scenic is especially attractive for couples, luxury travelers, milestone celebrations, and travelers who don't want to keep paying extra for every component. Riverside is particularly appealing for travelers who want spacious accommodations, personalized attention, luxury dining, intimate surroundings, and a premium onboard experience."
+  },
+  "cabinGridData": {
+    "title": "Scenic vs Riverside: Suites & Staterooms",
+    "subtitle": "For luxury river cruisers, the suite can be one of the most important factors in the decision. Neither brand treats the cabin as simply somewhere to sleep.",
+    "oceanview": {
+      "title": "Scenic Suites",
+      "bestFor": "Scenic's suites are a major part of its luxury proposition. Best for travelers who want a sophisticated, highly serviced suite experience.",
+      "advantages": [
+        "Spacious living areas with contemporary luxury appointments",
+        "Signature Scenic Sun Lounge glass-enclosed balcony transformation",
+        "Queen-size Scenic Slumber Bed and nightly turndown service",
+        "Complimentary in-suite minibar restocked daily",
+        "Spacious bathrooms with luxury amenities and Butler service on applicable suites"
+      ]
+    },
+    "balcony": {
+      "title": "Riverside Suites",
+      "bestFor": "Riverside is particularly appealing if space is your primary cabin priority. Best for travelers who expect their river cruise suite to feel like a genuine residential retreat.",
+      "advantages": [
+        "Spacious suite square footage with genuine residential atmosphere",
+        "Designed for travelers who spend considerable time relaxing in their cabin",
+        "Ideal setting for couples and space + intimate luxury enthusiasts",
+        "Expansive floor-to-ceiling river view fronts and open sitting areas",
+        "Suites that feel like an integral, elevated part of luxury living"
+      ]
+    }
+  },
+  "suiteEditorialFeatures": [
+    {
+      "title": "Choose Scenic If You Value",
+      "description": "Personalized Butler service on applicable suites, the innovative push-button Scenic Sun Lounge, and a fully serviced, truly all-inclusive luxury suite environment."
+    },
+    {
+      "title": "Choose Riverside If You Value",
+      "description": "Exceptional square footage, a residential living layout, boutique-style luxury furnishings, and an intimate, unhurried atmosphere."
+    },
+    {
+      "title": "The Expert Take",
+      "description": "For a specific sailing, always compare the exact suite category and deck placement rather than simply evaluating the brand name alone."
+    }
+  ],
+  "balconyData": {
+    "title": "Scenic vs Riverside: Balcony Experience",
+    "intro": "Balcony design can dramatically affect how much you enjoy a river cruise. Scenic wins for balcony flexibility, while Riverside can be more appealing if overall suite space is your top priority.",
+    "types": [
+      {
+        "name": "Scenic Sun Lounge",
+        "tagline": "All-weather convertible glass balcony system",
+        "rating": 5,
+        "description": "Scenic's signature Sun Lounge can transform the balcony area, giving travelers an adaptable indoor/outdoor viewing space — particularly useful when the weather is cool, it's raining, or you simply want privacy.",
+        "features": [
+          "Push-button glass drop-down enclosure",
+          "All-weather usability through rain or cool mornings",
+          "Seamless extension of suite interior square footage",
+          "Full open-air river breeze whenever desired"
+        ],
+        "bestFor": "Balcony flexibility in all weather conditions"
+      },
+      {
+        "name": "Riverside Suite Living Space",
+        "tagline": "Expansive river-view panoramic French & walkout balconies",
+        "rating": 5,
+        "description": "Riverside's suite design focuses heavily on comfortable living space and river views, rather than a single signature balcony concept.",
+        "features": [
+          "Expansive floor-to-ceiling glass river viewing",
+          "Seamless integration with generous suite living areas",
+          "Intimate connection to historic European waterways",
+          "Exceptional natural light and scenic immersion"
+        ],
+        "bestFor": "Overall suite space and open residential living"
+      }
+    ]
+  },
+  "culinaryVenues": [
+    {
+      "name": "Scenic Culinary Experience",
+      "cuisine": "Multiple Fine Dining & Casual Venues",
+      "description": "Scenic offers multiple dining styles, including Crystal Dining fine dining, Portobellos authentic Italian, Table La Rive degustation, and River Café casual fare. Premium international beverages are included according to Scenic's current product information, with limited exceptions for certain fine and vintage selections.",
+      "signatureDish": "Table La Rive 6-Course Degustation",
+      "atmosphere": "Variety, Luxury & Included Premium Pours"
+    },
+    {
+      "name": "Riverside Culinary Proposition",
+      "cuisine": "Gourmet Regional & Intimate Venues",
+      "description": "Riverside puts significant emphasis on culinary quality and a premium dining experience. Its approach can be especially attractive to travelers who consider dining one of the highlights of a luxury cruise.",
+      "signatureDish": "Vintage Room Tasting Menu & Pairings",
+      "atmosphere": "Fine Dining, Intimate Service & Luxury Ambiance"
+    }
+  ],
+  "destinationFlipItems": [
+    {
+      "title": "Scenic Freechoice",
+      "description": "Scenic offers included destination experiences and its Scenic Freechoice programs on applicable itineraries, giving travelers opportunities to tailor sightseeing around different interests and activity levels.",
+      "features": [
+        "Active, moderate, and relaxed walking paces",
+        "Included e-bikes with GPS tour tracks",
+        "Expert local guides in every port"
+      ]
+    },
+    {
+      "title": "Scenic Enrich",
+      "description": "Scenic Enrich experiences are once-in-a-lifetime private cultural events inaccessible to standard travelers, such as private palace concerts in Vienna or medieval castle banquets.",
+      "features": [
+        "Exclusive private palace and castle access",
+        "Private orchestral performances after hours",
+        "Fully included into the journey"
+      ]
+    },
+    {
+      "title": "Riverside Destination Immersion",
+      "description": "Riverside's destination experience is similarly focused on discovering the cities and regions along the river. A great Riverside itinerary can easily be a better choice than a less suitable Scenic itinerary—and vice versa.",
+      "features": [
+        "Small group sizes with intimate exploration",
+        "Deep focus on culinary & cultural heritage",
+        "Compare the exact excursion schedule before booking"
+      ]
+    }
+  ],
+  "suiteInclusionsData": {
+    "title": "Scenic vs Riverside: What Is Included?",
+    "subtitle": "Evaluating Total Value Beyond Advertised Fare",
+    "avalon": {
+      "title": "Riverside Inclusions",
+      "subtitle": "Curated Luxury Package",
+      "inclusions": [
+        { "name": "Core Dining & Selected Drinks", "desc": "Superb culinary meals and curated beverage options during meal service." },
+        { "name": "Spacious Suite Amenities", "desc": "Residential suites with premium bath amenities, high-speed Wi-Fi, and personalized butler touches." },
+        { "name": "Destination Immersion Options", "desc": "Targeted excursion schedules allowing travelers to choose experiences matching their exact interests." },
+        { "name": "Boutique Wellness & Care", "desc": "Fitness facilities, spa spaces, and intimate ship amenities tailored for personal relaxation." }
+      ]
+    },
+    "scenic": {
+      "title": "Scenic Inclusions",
+      "subtitle": "Truly All-Inclusive Luxury",
+      "inclusions": [
+        { "name": "Unlimited Premium Beverages", "desc": "Fine wines, beers, premium spirits, and cocktails included all day, every day." },
+        { "name": "All Dining & Butler Service", "desc": "Multiple dining venues with no cover charges, plus Butler service on applicable suites." },
+        { "name": "All Excursions & Enrich", "desc": "Scenic Freechoice daily tours plus exclusive Scenic Enrich private palace events." },
+        { "name": "Transfers, Wi-Fi & Gratuities", "desc": "Airport transfers, high-speed internet, and all onboard and shore tipping included." }
+      ]
+    }
+  },
+  "shipPhilosophyData": {
+    "title": "Scenic vs Riverside: Ships & Fleet Comparison",
+    "regent": {
+      "title": "Scenic Space-Ships",
+      "badge": "Contemporary Ultra-Luxury Fleet",
+      "description": "Scenic's European Space-Ships accommodate up to 163 guests and are designed around a combination of spacious public areas, premium suites and personalized service.",
+      "features": [
+        "Accommodates up to 163 guests for optimal river dimensions",
+        "Fleet includes Scenic Jasper, Scenic Opal, Scenic Amber, and sister vessels",
+        "Sails major European waterways: Rhine, Main, Danube, and Moselle",
+        "Features Vitality pools, salt therapy lounges, and open sun decks",
+        "Consistent ultra-luxury standards across the entire European fleet"
+      ]
+    },
+    "viking": {
+      "title": "Riverside Luxury Fleet",
+      "badge": "Intimate Boutique Vessels",
+      "description": "Riverside has a much smaller fleet, which can be an advantage for travelers who want to understand the individual ship before booking.",
+      "features": [
+        "European fleet includes Riverside Mozart, Riverside Debussy, and Riverside Ravel",
+        "Double-width Riverside Mozart on the Danube offers extraordinary public space",
+        "Sister ships Debussy and Ravel provide intimate boutique sailing on Rhine & Rhône",
+        "High space-to-guest ratios creating an uncrowded private club atmosphere",
+        "Ideal for travelers who want to research the exact ship rather than a large fleet"
+      ]
+    }
+  },
+  "travelerProfiles": [
+    {
+      "name": "Couples & Romance",
+      "tagline": "Romantic Escapes & Anniversaries",
+      "quote": "Both are excellent for couples. Overall, Scenic has a slight edge for luxury celebrations, while Riverside has a slight edge for couples who prioritize space and relaxed exploration.",
+      "recommendation": "Scenic for Luxury Celebrations; Riverside for Space",
+      "reason": "Choose Scenic if you want more luxury, personalized service, a highly inclusive experience, fine dining, suite upgrades, and special-occasion travel. Choose Riverside if you want large cabins, open-air balcony space, relaxed sightseeing, active experiences, and destination exploration.",
+      "whyFits": [
+        "Scenic: Private balconies, butler service, and fine dining for milestone anniversaries",
+        "Riverside: Residential suite layouts with candlelit atmosphere and boutique quietness",
+        "Both lines offer exceptional wine programs and scenic European sailing itineraries"
+      ]
+    },
+    {
+      "name": "First-Time Cruisers",
+      "tagline": "First Luxury River Journey",
+      "quote": "Scenic is easier because it is particularly easy for first-time luxury travelers thanks to its highly inclusive approach. Riverside is appealing because it is particularly attractive to travelers willing to research the specific ship and suite.",
+      "recommendation": "Scenic for Simplicity; Riverside for Customization",
+      "reason": "Scenic wins for simplicity. Riverside wins for travelers who want to customize the luxury experience around the ship and suite.",
+      "whyFits": [
+        "Scenic: Zero surprise charges at checkout with all excursions and drinks covered",
+        "Riverside: Easy-to-understand 3-ship fleet with exceptional stateroom square footage",
+        "Both provide personalized English-speaking staff and attentive hospitality"
+      ]
+    },
+    {
+      "name": "Food & Wine Lovers",
+      "tagline": "Epicurean & Culinary Focus",
+      "quote": "This is too close to call universally: tie — with different strengths.",
+      "recommendation": "Tie — Different Strengths",
+      "reason": "Scenic may be better for dining variety, included beverages, multiple dining settings, and structured culinary experiences. Riverside may be better for a boutique dining atmosphere, personalized service, and dining as a central luxury highlight.",
+      "whyFits": [
+        "Scenic: Multiple dining settings including Table La Rive degustation and Portobellos",
+        "Riverside: Exceptional chef craftsmanship, Vintage Room tastings, and local market ingredients",
+        "Both feature sommelier-selected European wines matching sailing regions"
+      ]
+    },
+    {
+      "name": "Solo Travelers",
+      "tagline": "Independent Luxury Voyagers",
+      "quote": "Comparing the key elements is crucial for solo cruisers: single supplements, available solo cabins, cabin categories, group excursion structure, and dining arrangements.",
+      "recommendation": "Compare Current Solo Pricing & Single Supplements",
+      "reason": "Riverside's spacious cabins can be appealing. Scenic's personalized service can be particularly valuable to solo luxury travelers. The best choice depends heavily on the sailing and current solo pricing.",
+      "whyFits": [
+        "Scenic: Inclusive social excursions and butler support remove all travel friction",
+        "Riverside: Generous room to unwind in residential comfort during long sailings",
+        "Both offer occasional reduced single supplement promotions on select dates"
+      ]
+    },
+    {
+      "name": "Multigen Families",
+      "tagline": "Generations Traveling Together",
+      "quote": "Neither brand is primarily designed as a family cruise line, but both can work for multigenerational travel. Check minimum age requirements and specific itinerary suitability before booking.",
+      "recommendation": "Review Age Policies & Travel Priorities",
+      "reason": "Scenic is best for families who prioritize luxury, service, comfort, and premium accommodations. Riverside is best for families who prioritize activity, spacious cabins, flexible sightseeing, and destination exploration.",
+      "whyFits": [
+        "Scenic: Best for families prioritizing luxury, full service, and included excursions for everyone",
+        "Riverside: Best for families prioritizing larger staterooms and active destination exploration",
+        "Check minimum age requirements and itinerary pacing before booking"
+      ]
+    },
+    {
+      "name": "Honeymoons",
+      "tagline": "Once-in-a-Lifetime Milestone",
+      "quote": "For a honeymoon or anniversary, prioritize suite + itinerary + pre/post-cruise hotel over the brand alone.",
+      "recommendation": "Prioritize Suite + Itinerary + Hotel Stay",
+      "reason": "Scenic may appeal to couples who want a highly inclusive experience, luxury service, premium dining, and excursions already incorporated into the journey. Riverside may appeal to couples who want more intimate surroundings, spacious suites, high-end dining, and a boutique atmosphere.",
+      "whyFits": [
+        "Scenic: Included champagne, private Enrich concerts, and spa access",
+        "Riverside: Large master suites with river views and private dining moments",
+        "Angela Hughes coordinates pre- and post-cruise luxury hotel stays"
+      ]
+    }
+  ],
+  "valueBreakdownData": {
+    "title": "Scenic vs Riverside: Price & Value",
+    "subtitle": "Luxury river cruise pricing changes based on river, ship, suite, season, departure date, length, availability, promotions, pre/post-cruise stays, and included services. A higher advertised fare can sometimes represent better value if substantially more is included.",
+    "includedTitle": "Scenic Value Proposition",
+    "extrasTitle": "Riverside Value Proposition",
+    "included": [
+      { "title": "Included Premium Beverages", "description": "Fine wines, beers, and premium spirits poured freely without per-drink tabs." },
+      { "title": "Excursions & Scenic Enrich", "description": "Curated daily tours and exclusive after-hours castle concerts included in fare." },
+      { "title": "Butler Service & Service", "description": "Butler service on applicable suites and all gratuities onboard and ashore covered." },
+      { "title": "All-Inclusive Peace of Mind", "description": "Total trip cost is locked in upfront with minimal out-of-pocket expenses." }
+    ],
+    "extras": [
+      { "title": "Exceptional Suite Space", "description": "Generous stateroom square footage offering genuine residential luxury." },
+      { "title": "Intimate Ship Atmosphere", "description": "Low guest density allowing for relaxed dining and personalized staff attention." },
+      { "title": "Customizable Experience", "description": "Flexibility to choose additional destination experiences based on individual interests." },
+      { "title": "Small, Focused Fleet", "description": "Easy-to-research individual ships including the double-width Riverside Mozart." }
+    ]
+  },
+  "prosConsData": {
+    "title": "Scenic vs Riverside: Pros & Cons",
+    "prosTitle": "Scenic Pros",
+    "consTitle": "Riverside Pros",
+    "bestFor": [
+      "Ultra-luxury positioning",
+      "Highly inclusive experience",
+      "Personalized service",
+      "Butler service on applicable suites",
+      "Scenic Sun Lounge",
+      "Included premium beverages",
+      "Strong excursion program",
+      "Contemporary Space-Ships"
+    ],
+    "notBestFor": [
+      "Spacious suites",
+      "Intimate luxury atmosphere",
+      "Strong dining proposition",
+      "Personalized service",
+      "Small, easy-to-research fleet",
+      "Excellent option for luxury travelers"
+    ],
+    "bottomNote": "Scenic cons: Can command a premium fare, larger Space-Ships may not feel as intimate as smaller luxury vessels, and travelers prioritizing maximum suite space may prefer Riverside. Riverside cons: Smaller fleet means fewer ship choices, exact itinerary and inclusion comparisons are especially important, and travelers seeking the most clearly defined all-inclusive model may prefer Scenic.",
+    "type": "compare"
+  },
+  "categoryAwardsList": [
+    {
+      "category": "Overall Luxury Definition",
+      "winner": "Scenic River Cruises",
+      "description": "Scenic explicitly positions its river product as ultra-luxury and 'truly all-inclusive' with butler service and comprehensive inclusions."
+    },
+    {
+      "category": "Boutique Luxury & Suite Space",
+      "winner": "Riverside Luxury Cruises",
+      "description": "Riverside competes with a strong luxury proposition centered around suites, service, dining, and a more intimate experience."
+    },
+    {
+      "category": "Balcony Innovation",
+      "winner": "Scenic River Cruises",
+      "description": "The convertible Scenic Sun Lounge allows push-button all-weather outdoor river viewing regardless of rain or temperature."
+    },
+    {
+      "category": "Exclusive Cultural Events",
+      "winner": "Scenic River Cruises",
+      "description": "Scenic Enrich offers private after-hours concerts in historic European castles and palaces inaccessible to general travelers."
+    },
+    {
+      "category": "Fleet Research Simplicity",
+      "winner": "Riverside Luxury Cruises",
+      "description": "A small fleet of three distinct ships makes it easy to understand and select the exact ship before booking."
+    },
+    {
+      "category": "First-Time Cruising Ease",
+      "winner": "Scenic River Cruises",
+      "description": "Truly all-inclusive pricing means first-time luxury cruisers can relax with zero guesswork about hidden vacation costs."
+    }
+  ],
+  "checklistCardsData": [
+    {
+      "title": "Choose Scenic If You Want:",
+      "items": [
+        "Ultra-luxury positioning",
+        "Truly all-inclusive travel",
+        "Curated destination experiences & Scenic Enrich",
+        "Personalized Butler service on applicable suites",
+        "Scenic Sun Lounge convertible balcony",
+        "Contemporary Space-Ships sailing major European rivers"
+      ]
+    },
+    {
+      "title": "Choose Riverside If You Want:",
+      "items": [
+        "Spacious suites with residential comfort",
+        "An intimate boutique atmosphere with lower guest count",
+        "High-end gourmet dining as a central highlight",
+        "Personalized service with an intimate crew connection",
+        "Small, easy-to-research fleet (Mozart, Debussy, Ravel)",
+        "Destination-focused travel with flexible exploration"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "question": "Is Scenic better than Riverside Luxury Cruises?",
+      "answer": "Scenic may be better for travelers who prioritize ultra-luxury, all-inclusive travel, personalized service and included experiences. Riverside can be better for travelers who prioritize spacious suites and an intimate luxury atmosphere."
+    },
+    {
+      "question": "Is Riverside more luxurious than Scenic?",
+      "answer": "Both operate at the luxury end of river cruising. Scenic emphasizes an ultra-luxury, highly inclusive model, while Riverside places particular emphasis on spacious accommodations, dining and personalized service."
+    },
+    {
+      "question": "Which has better suites, Scenic or Riverside?",
+      "answer": "Both offer spacious luxury accommodations. Scenic is especially distinctive for its Sun Lounge concept and Butler Service on applicable suites, while Riverside is particularly appealing to travelers who prioritize overall suite space."
+    },
+    {
+      "question": "Which has better balconies, Scenic or Riverside?",
+      "answer": "Scenic's Sun Lounge is one of its defining suite features and provides flexible indoor/outdoor river viewing. Riverside focuses strongly on spacious suite living. The best choice depends on whether balcony flexibility or overall accommodation space matters more."
+    },
+    {
+      "question": "Which is more all-inclusive, Scenic or Riverside?",
+      "answer": "Scenic has a particularly strong all-inclusive positioning. Its current river product includes dining, premium beverages and destination experiences among its core features, although exact inclusions vary by itinerary."
+    },
+    {
+      "question": "Which has better food, Scenic or Riverside?",
+      "answer": "Both offer strong luxury dining. Scenic provides multiple dining settings and included premium beverages, while Riverside appeals to travelers seeking an intimate luxury dining experience."
+    },
+    {
+      "question": "Which has better excursions?",
+      "answer": "Both offer strong destination experiences. Scenic has its Freechoice and Scenic Enrich programs on applicable itineraries. The exact itinerary should be compared before choosing a cruise line."
+    },
+    {
+      "question": "Which is better for couples?",
+      "answer": "Both are excellent. Scenic may be preferable for couples who want a highly inclusive luxury vacation, while Riverside can be especially appealing to couples who prioritize spacious suites and an intimate atmosphere."
+    },
+    {
+      "question": "Which is better for a honeymoon?",
+      "answer": "Either can work exceptionally well. Compare the suite, itinerary, dining, included experiences and pre/post-cruise arrangements before booking."
+    },
+    {
+      "question": "Which is better for first-time river cruisers?",
+      "answer": "Scenic can be particularly easy for first-time luxury cruisers because of its highly inclusive approach. Riverside is also a strong choice for travelers who want spacious accommodations and personalized service."
+    },
+    {
+      "question": "Which has smaller ships, Scenic or Riverside?",
+      "answer": "Scenic's European Space-Ships accommodate up to 163 guests. Riverside's individual ships vary, so travelers should compare the exact ship for their sailing."
+    },
+    {
+      "question": "Which has better service?",
+      "answer": "Both emphasize personalized service. Scenic explicitly highlights its dedicated crew and \"Nth Degree\" service philosophy. Riverside is also designed around an intimate luxury experience."
+    },
+    {
+      "question": "Is Scenic more expensive than Riverside?",
+      "answer": "There is no universal price winner. Fares vary by ship, suite, itinerary, season and departure date. Compare the complete vacation cost and inclusions."
+    },
+    {
+      "question": "Which is better for a luxury Danube cruise?",
+      "answer": "Both can be excellent choices. Scenic may appeal to travelers seeking a highly inclusive luxury experience, while Riverside can be attractive to travelers who prioritize spacious suites and intimate luxury."
+    },
+    {
+      "question": "Should I book Scenic or Riverside through a travel advisor?",
+      "answer": "A luxury travel advisor can compare the exact ships, suites, itineraries, promotions, inclusions and pre- and post-cruise arrangements. This is particularly useful when the difference between two luxury brands is subtle."
+    }
+  ],
+  "trustSectionsData": [
+    {
+      "heading": "Scenic vs Riverside — There Isn't a Universal Winner",
+      "paragraphs": [
+        "Choose Scenic for luxury, inclusions, and personalized service. Choose Riverside for space, balconies, flexibility, and active exploration.",
+        "If your priority is the most luxurious overall river cruise experience, Scenic is likely the better choice. If your priority is having one of the most spacious and thoughtfully designed river cruise cabins, Riverside deserves serious consideration.",
+        "And if you're deciding between the two for a specific destination, the itinerary should be the final deciding factor. At Trips & Ships Luxury Travel, we'll help you compare the ship, suite, itinerary, and included experiences — not simply the advertised cruise price."
+      ],
+      "conclusion": "A great itinerary beats a bigger brand name every time."
+    },
+    {
+      "heading": "Why Travelers Choose Trips & Ships",
+      "paragraphs": [
+        "When you work with Trips & Ships Luxury Travel, you receive insider access, negotiated promotional perks, and dedicated personal support before, during, and after your sailing."
+      ],
+      "list": [
+        "Compare Scenic and Riverside itineraries, ships, and suite categories side by side",
+        "Secure preferred suite categories and optimal deck placements",
+        "Coordinate international business/first airfare and private transfers",
+        "Arrange 5-star pre- and post-cruise hotel stays in historic European cities"
+      ],
+      "conclusion": "Your journey designed with over 40 years of expertise."
+    },
+    {
+      "heading": "Our Luxury Planning Services Include:",
+      "paragraphs": [
+        "From initial inspiration to disembarkation, we handle every detail so your river vacation is flawless:"
+      ],
+      "list": [
+        "Compare Scenic and Riverside itineraries and ships",
+        "Secure preferred suite categories",
+        "Coordinate airfare and transfers",
+        "Arrange pre- and post-cruise hotel stays",
+        "Communicate special occasions to the cruise line",
+        "Explain current Scenic and Riverside promotions",
+        "Handle travel logistics from start to finish",
+        "Compare Scenic and Riverside with other luxury river cruise lines"
+      ]
+    }
+  ]
+}

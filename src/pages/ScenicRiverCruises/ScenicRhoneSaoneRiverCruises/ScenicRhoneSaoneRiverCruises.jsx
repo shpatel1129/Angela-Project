@@ -26,30 +26,28 @@ import FAQAccordion from "../../../components/ui/FAQAccordion";
 import ValueShowcase from "../../../components/ui/ValueShowcase";
 
 // Assets from dedicated ScenicRhoneSaoneRiverCruises folder commented out
-/*
-import AboutImage from "../../../assets/AboutAngela3.jpeg";
-import scenicRhoneHeroSapphireLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-hero-sapphire-lyon.webp";
-import scenicRhoneQaPontAvignon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-qa-pont-avignon.webp";
-import scenicRhoneQaBeauneCathedral from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-qa-beaune-cathedral.webp";
-import scenicRhoneWhySapphireDocked from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-why-sapphire-docked.webp";
-import scenicRhoneCta1LesBaux from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cta1-les-baux.webp";
-import scenicRhoneSeasonSpring from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-spring.webp";
-import scenicRhoneSeasonSummer from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-summer.webp";
-import scenicRhoneSeasonFall from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-fall.webp";
-import scenicRhoneSeasonWinter from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-winter.webp";
-import scenicRhoneItinChateauGrignan from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-itin-chateau-grignan.webp";
-import scenicRhoneItinShopWithChef from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-itin-shop-with-chef.webp";
-import scenicRhoneItinArlesVanGogh from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-itin-arles-van-gogh.webp";
-import scenicRhoneArtRoussillonPanoramic from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-art-roussillon-panoramic.webp";
-import scenicRhoneCta2StGeorgesLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cta2-st-georges-lyon.webp";
-import scenicRhoneCabinsBalconySuite from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cabins-balcony-suite.webp";
-import scenicRhoneButlerRoyalSuite from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-butler-royal-suite.webp";
-import scenicRhoneFamiliesLunch from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-families-lunch.webp";
-import scenicRhoneCouplesSundeck from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-couples-sundeck.webp";
-import scenicRhoneCta3CulinaireKitchen from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cta3-culinaire-kitchen.webp";
-import scenicRhoneVerdictSapphireLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-verdict-sapphire-lyon.webp";
-import scenicRhoneClosingVieuxLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-closing-vieux-lyon.webp";
-*/
+// import AboutImage from "../../../assets/AboutAngela3.jpeg";
+// import scenicRhoneHeroSapphireLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-hero-sapphire-lyon.webp";
+// import scenicRhoneQaPontAvignon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-qa-pont-avignon.webp";
+// import scenicRhoneQaBeauneCathedral from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-qa-beaune-cathedral.webp";
+// import scenicRhoneWhySapphireDocked from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-why-sapphire-docked.webp";
+// import scenicRhoneCta1LesBaux from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cta1-les-baux.webp";
+// import scenicRhoneSeasonSpring from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-spring.webp";
+// import scenicRhoneSeasonSummer from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-summer.webp";
+// import scenicRhoneSeasonFall from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-fall.webp";
+// import scenicRhoneSeasonWinter from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-season-winter.webp";
+// import scenicRhoneItinChateauGrignan from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-itin-chateau-grignan.webp";
+// import scenicRhoneItinShopWithChef from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-itin-shop-with-chef.webp";
+// import scenicRhoneItinArlesVanGogh from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-itin-arles-van-gogh.webp";
+// import scenicRhoneArtRoussillonPanoramic from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-art-roussillon-panoramic.webp";
+// import scenicRhoneCta2StGeorgesLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cta2-st-georges-lyon.webp";
+// import scenicRhoneCabinsBalconySuite from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cabins-balcony-suite.webp";
+// import scenicRhoneButlerRoyalSuite from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-butler-royal-suite.webp";
+// import scenicRhoneFamiliesLunch from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-families-lunch.webp";
+// import scenicRhoneCouplesSundeck from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-couples-sundeck.webp";
+// import scenicRhoneCta3CulinaireKitchen from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-cta3-culinaire-kitchen.webp";
+// import scenicRhoneVerdictSapphireLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-verdict-sapphire-lyon.webp";
+// import scenicRhoneClosingVieuxLyon from "../../../assets/ScenicRiverCruises/ScenicRhoneSaoneRiverCruises/scenic-rhone-closing-vieux-lyon.webp";
 
 const ScenicRhoneSaoneRiverCruises = () => {
   // Season items mapping for ThreeColumnGrid

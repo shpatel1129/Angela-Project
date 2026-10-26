@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "title": "Scenic Mekong River Cruises | Vietnam, Cambodia & Luxury Cruise Guide",
+    "metaTitle": "Scenic Mekong River Cruises | Vietnam, Cambodia & Luxury Travel Guide",
+    "metaDescription": "Explore Scenic Mekong River Cruises through Vietnam and Cambodia. Discover Ho Chi Minh City, Phnom Penh, the Mekong Delta, Siem Reap, temples, local culture, excursions, cabins, costs and the best time to sail.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/mekong",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/mekong/#webpage",
+          "name": "Scenic Mekong River Cruises (2026) | Vietnam, Cambodia & Luxury Cruise Guide",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/mekong",
+          "description": "Explore Scenic Mekong River Cruises through Vietnam and Cambodia. Discover Ho Chi Minh City, Phnom Penh, the Mekong Delta, Siem Reap, temples, local culture, excursions, cabins, costs and the best time to sail."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/mekong/#article",
+          "headline": "Scenic Mekong River Cruises: The Complete Guide to Vietnam & Cambodia",
+          "description": "A complete guide to Scenic Mekong River Cruises, including Ho Chi Minh City, the Mekong Delta, Phnom Penh, Siem Reap, Angkor, Vietnamese and Cambodian culture and cuisine, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/mekong/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Mekong River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/mekong"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/mekong/#itemlist",
+          "name": "Scenic Mekong River Cruises What This Guide Covers",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Quick Answer" },
+            { "@type": "ListItem", "position": 2, "name": "Why Choose a Scenic Mekong River Cruise?" },
+            { "@type": "ListItem", "position": 3, "name": "Where Do Scenic Mekong Cruises Go?" },
+            { "@type": "ListItem", "position": 4, "name": "Best Scenic Mekong River Cruise Itineraries" },
+            { "@type": "ListItem", "position": 5, "name": "Best Time for a Scenic Mekong River Cruise" },
+            { "@type": "ListItem", "position": 6, "name": "Scenic Mekong Excursions" },
+            { "@type": "ListItem", "position": 7, "name": "Scenic Mekong Cruise for History Lovers" },
+            { "@type": "ListItem", "position": 8, "name": "Cabins & Suites" },
+            { "@type": "ListItem", "position": 9, "name": "Food & Culinary Heritage" },
+            { "@type": "ListItem", "position": 10, "name": "Couples & Families" },
+            { "@type": "ListItem", "position": 11, "name": "Cost & What's Included" },
+            { "@type": "ListItem", "position": 12, "name": "Common Booking Mistakes" },
+            { "@type": "ListItem", "position": 13, "name": "Why Book Through a Luxury Travel Advisor?" },
+            { "@type": "ListItem", "position": 14, "name": "Final Verdict" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/mekong/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Mekong River Cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Scenic offers luxury Mekong journeys combining river cruising with destination experiences in Vietnam and Cambodia."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What countries does a Scenic Mekong River Cruise visit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Depending on the itinerary, Scenic Mekong journeys can include Vietnam and Cambodia."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Mekong cruise visit Ho Chi Minh City?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ho Chi Minh City is an important gateway for Mekong itineraries, although the exact itinerary and length of stay vary by departure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Mekong cruise visit Phnom Penh?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Selected Vietnam-and-Cambodia itineraries include Phnom Penh. Always check the exact sailing itinerary before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Mekong cruise include Siem Reap?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some longer Vietnam-and-Cambodia journeys incorporate Siem Reap and Angkor as part of the broader land program. Confirm the specific itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Mekong River Cruise good for first-time travelers to Vietnam and Cambodia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. A coordinated river-and-land itinerary can simplify transportation while providing guided cultural experiences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time for a Scenic Mekong River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The drier months are often attractive for sightseeing, while the wetter season can offer lush landscapes and a different atmosphere. Check regional weather conditions for your specific travel dates."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Mekong cruise good for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Families and multigenerational groups can enjoy temples, markets, food, cultural experiences, and guided excursions. Activity levels and climate should be considered."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Mekong cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The combination of luxury accommodations, cultural experiences, cuisine, river scenery, and Cambodia's historic sites makes it a strong choice for couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What should I pack for a Scenic Mekong River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pack lightweight clothing, comfortable walking shoes, sun protection, a rain layer, modest clothing for temples, and clothing suitable for warm and humid conditions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are excursions included on a Scenic Mekong River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Destination experiences and excursions are an important part of Scenic's offering, but exact inclusions vary by itinerary. Review the individual sailing before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does a Scenic Mekong River Cruise cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pricing depends on the sailing, itinerary, suite, availability, and land arrangements. Compare the complete journey rather than only the cruise fare."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I arrive early for a Scenic Mekong cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. International travelers should consider arriving at least one day early, and potentially two nights early, depending on the itinerary and flight schedule."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Mekong River Cruise physically demanding?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some excursions can involve walking, stairs, heat, humidity, or uneven surfaces. Travelers should review the activity level of each day's excursions before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Mekong River Cruise worth it?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For travelers interested in Vietnam, Cambodia, culture, food, history, and luxury travel, the Mekong can offer exceptional value as a comprehensive Southeast Asia experience."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Mekong River Cruises",
+    "subtitle": "Floating Communities, Ancient Temples & All-Inclusive Luxury in Vietnam & Cambodia",
+    "badgeText": "2026 MEKONG RIVER CRUISE GUIDE",
+    "paragraphs": [
+      "A Scenic Mekong River Cruise offers a very different experience from Scenic's European river journeys. Instead of vineyards, medieval castles, and European capitals, the Mekong introduces travelers to Vietnamese and Cambodian culture, floating communities, temples, markets, and some of Southeast Asia's most fascinating destinations.",
+      "A Mekong itinerary can combine a luxury river cruise with land experiences in Vietnam, Cambodia, Ho Chi Minh City, the Mekong Delta, Phnom Penh, Cambodian villages, Siem Reap, and Angkor. For travelers who want more than a conventional Southeast Asia tour, the Mekong offers a way to slow down and experience the region from the river. The journey is as much about people and culture as it is about destinations."
+    ],
+    "primaryButton": {
+      "label": "Start Planning Your Scenic Mekong Cruise",
+      "href": "/contact"
+    },
+    "secondaryButton": {
+      "label": "Explore Itineraries",
+      "href": "#best-itineraries"
+    }
+  },
+  "quickAnswer": {
+    "eyebrow": "EXPERT OVERVIEW",
+    "title": "Is a Scenic Mekong River Cruise Worth It? The Quick Answer",
+    "storyParagraphs": [
+      "Yes specially for travelers who want a luxury introduction to Vietnam and Cambodia while experiencing destinations and communities that are difficult to appreciate on a conventional city-based itinerary.",
+      "The strongest reasons to choose a Mekong cruise include Southeast Asian culture, luxury river travel, Vietnam, Cambodia, temples and history, local cuisine, Mekong Delta landscapes, and rural communities.",
+      "Mekong highlights include Ho Chi Minh City, the Mekong Delta, Phnom Penh, Cambodian villages, Siem Reap, Angkor, and Vietnamese and Cambodian cuisine."
+    ],
+    "highlightTitle": "Especially Well Suited To:",
+    "highlightList": [
+      "First-time Vietnam and Cambodia travelers",
+      "Couples",
+      "Luxury travelers",
+      "Cultural travelers",
+      "Food lovers",
+      "History enthusiasts",
+      "Photography travelers",
+      "Multigenerational families"
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "CULTURAL IMMERSION",
+    "heading": "Why Choose a Scenic Mekong River Cruise?",
+    "paragraphs": [
+      "The Mekong is fundamentally different from Europe's major rivers. A European river cruise often focuses on historic cities and monuments. The Mekong experience is much more about culture, people, landscapes, food, history, and everyday life.",
+      "The river provides access to rural areas and communities that can be difficult to experience when traveling only between major cities. Instead of constantly changing hotels, travelers can enjoy a luxury ship while exploring different parts of Vietnam and Cambodia."
+    ],
+    "badgeTitle": "One Ship, Through Vietnam & Cambodia",
+    "badgeDescription": "Instead of constantly changing hotels, travelers can enjoy a luxury ship while exploring different parts of Vietnam and Cambodia.",
+    "highlights": [
+      "Southeast Asian culture",
+      "Luxury river travel",
+      "Vietnam",
+      "Cambodia",
+      "Temples & history",
+      "Local cuisine",
+      "Mekong Delta landscapes",
+      "Rural communities"
+    ]
+  },
+  "destinations": {
+    "title": "Where Do Scenic Mekong River Cruises Go?",
+    "subtitle": "Exact destinations depend on the itinerary and sailing, but a Scenic Mekong journey can connect experiences and destinations around:",
+    "cards": [
+      {
+        "title": "Ho Chi Minh City",
+        "description": "An important gateway for Mekong journeys rich in culinary culture, markets, and history.",
+        "bullets": [
+          "Vietnamese cuisine & French colonial architecture",
+          "Markets, museums & historic landmarks",
+          "An important gateway for Mekong journeys"
+        ],
+        "icon": "Building2"
+      },
+      {
+        "title": "The Mekong Delta",
+        "description": "Vibrant tropical waterways, fruit orchards, and traditional riverside farming communities.",
+        "bullets": [
+          "Tropical vegetation & waterways",
+          "Agriculture, boats & riverside communities",
+          "Local markets & an intimate view of Vietnamese life"
+        ],
+        "icon": "Waves"
+      },
+      {
+        "title": "Mekong Delta Villages",
+        "description": "Authentic rural settlements and small craft workshops away from tourist centers.",
+        "bullets": [
+          "Local markets & traditional crafts",
+          "Small waterways & community traditions",
+          "Communities away from major tourist centers"
+        ],
+        "icon": "Home"
+      },
+      {
+        "title": "Phnom Penh",
+        "description": "Cambodia's capital city blending rich Khmer royal history and colonial charm.",
+        "bullets": [
+          "Cambodian history & architecture",
+          "Food, markets & museums",
+          "A key transition into the Cambodian portion of the itinerary"
+        ],
+        "icon": "Landmark"
+      },
+      {
+        "title": "Siem Reap & Angkor",
+        "description": "The defining ancient temple complexes of Angkor Wat, Bayon, and Angkor Thom.",
+        "bullets": [
+          "The temples of Angkor",
+          "A defining highlight of a Vietnam-and-Cambodia journey",
+          "An extraordinary contrast to the river experience"
+        ],
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "inlineCta1": {
+    "title": "Not Sure Which Mekong Itinerary Is Right for You?",
+    "description": "Let us help you compare Scenic Mekong sailings and find the perfect fit for your trip.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time for a Scenic Mekong River Cruise",
+    "subtitle": "The Mekong has a tropical climate, so timing is important. Always check the specific sailing dates and current regional conditions before booking.",
+    "items": [
+      {
+        "category": "Dry Season",
+        "title": "Dry Season (November to April)",
+        "description": "The drier months can provide attractive conditions for sightseeing. Strong cultural experiences and comfortable excursion conditions make the dry season a popular choice.",
+        "features": [
+          "More predictable weather",
+          "Comfortable sightseeing conditions",
+          "Good photography opportunities"
+        ],
+        "intro": "The drier months can provide attractive conditions for sightseeing. Benefits may include:",
+        "outro": "Strong cultural experiences and comfortable excursion conditions make the dry season a popular choice."
+      },
+      {
+        "category": "Wet Season",
+        "title": "Wet Season (May to October)",
+        "description": "The wet season can bring heavier rainfall and higher humidity, but the landscape becomes particularly lush. Always check specific sailing dates and conditions.",
+        "features": [
+          "Green landscapes",
+          "Higher water levels",
+          "Fewer tourists at some destinations"
+        ],
+        "intro": "The wet season can bring heavier rainfall and higher humidity, but the landscape becomes particularly lush. Travelers may appreciate:",
+        "outro": "Always check the specific sailing dates and current regional conditions before booking."
+      },
+      {
+        "category": "Shoulder Season",
+        "title": "Shoulder & Transitional Months",
+        "description": "Shoulder months offer an exceptional balance of manageable weather, active water levels, and serene river conditions without the peak season crowds.",
+        "features": [
+          "Balanced tropical temperatures",
+          "Vibrant agricultural life and harvest",
+          "Exceptional golden-hour lighting for photography"
+        ],
+        "intro": "Shoulder months provide a great balance for travelers who appreciate fewer crowds:",
+        "outro": "Consult our luxury travel advisors to identify the sweet spot for your preferred travel style."
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Mekong River Cruise Itineraries",
+    "subtitle": "There isn't one perfect Mekong itinerary. The best option depends on whether your priority is Vietnam, Cambodia, culture, food, history, Angkor, river cruising, or a longer land experience.",
+    "items": [
+      {
+        "id": "vietnam-cambodia-combo",
+        "title": "Vietnam & Cambodia Combination",
+        "badge": "Best Overall",
+        "category": "Complete Introduction",
+        "desc": "For first-time travelers, a journey combining Vietnam and Cambodia is usually the strongest introduction. It allows you to experience both countries rather than focusing exclusively on the river.",
+        "bestFor": [
+          "First-time Southeast Asia travelers",
+          "Couples",
+          "Luxury travelers",
+          "Cultural travelers"
+        ]
+      },
+      {
+        "id": "delta-focused",
+        "title": "Mekong Delta-Focused Experience",
+        "badge": "Delta Focus",
+        "category": "Immersive River Life",
+        "desc": "Travelers particularly interested in Vietnam may prefer an itinerary with greater emphasis on the Mekong Delta, floating markets, and rural community life.",
+        "bestFor": [
+          "Vietnam enthusiasts",
+          "River travelers",
+          "Rural culture enthusiasts",
+          "Photographers"
+        ]
+      },
+      {
+        "id": "siem-reap-angkor",
+        "title": "Mekong + Siem Reap & Angkor",
+        "badge": "Cultural Heritage",
+        "category": "Ancient Khmer Wonders",
+        "desc": "For many travelers, this is the most compelling combination. You experience the river and then continue into Cambodia's ancient cultural heritage and temple complexes.",
+        "bestFor": [
+          "History travelers",
+          "Architecture enthusiasts",
+          "Photographers",
+          "First-time Cambodia travelers"
+        ]
+      }
+    ]
+  },
+  "firstTimeTravelers": {
+    "title": "Scenic Mekong Cruise for First-Time Travelers",
+    "subtitle": "A Mekong river cruise can be an excellent introduction to Vietnam and Cambodia because it combines multiple forms of travel into one journey.",
+    "lead": "Instead of arranging hotels, private transfers, domestic flights, excursions, and local guides separately, you can combine much of the experience into one coordinated itinerary.",
+    "progressionTitle": "The trip can feel like a progression:",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Ho Chi Minh City",
+        "subtitle": "City & Vietnamese Culture"
+      },
+      {
+        "number": "02",
+        "title": "Mekong Delta",
+        "subtitle": "Villages & River Life"
+      },
+      {
+        "number": "03",
+        "title": "Phnom Penh & Siem Reap",
+        "subtitle": "Cambodian History & Angkor"
+      }
+    ],
+    "calloutText": "This can be particularly valuable for first-time travelers.",
+    "conclusion": "You want Southeast Asia to feel comfortable and seamless without losing its cultural character."
+  },
+  "excursions": {
+    "title": "Scenic Mekong River Cruise Excursions",
+    "subtitle": "Excursions are arguably the most important part of a Mekong journey. Scenic's destination experience philosophy is particularly relevant here because the river itself is only one part of the journey.",
+    "rules": [
+      {
+        "title": "Culture",
+        "description": "Meet local communities and learn about regional traditions."
+      },
+      {
+        "title": "History",
+        "description": "Explore historic sites, royal palaces, and museums."
+      },
+      {
+        "title": "Food",
+        "description": "Experience authentic Vietnamese and Cambodian cuisine."
+      },
+      {
+        "title": "Temples",
+        "description": "Visit Buddhist pagodas and historic religious sites."
+      },
+      {
+        "title": "Villages",
+        "description": "Explore communities along the Mekong and surrounding waterways."
+      },
+      {
+        "title": "Active Experiences",
+        "description": "Walking and other activities may be available depending on the itinerary."
+      }
+    ]
+  },
+  "inlineCta2": {
+    "eyebrow": "A Balanced Introduction",
+    "title": "First Time in Vietnam & Cambodia?",
+    "description": "The Mekong gives you Ho Chi Minh City, the Mekong Delta, Phnom Penh, and Siem Reap all in one trip. You can think of the journey simply as Ho Chi Minh City → Mekong Delta → Cambodia → Angkor, rather than a complicated multi-city itinerary.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "cabinsAndDining": {
+    "title": "Scenic Mekong River Cruise Cabins, Suites & Dining",
+    "subtitle": "All-balcony luxury accommodations and regional gastronomy on the custom-designed Scenic Spirit.",
+    "cabins": {
+      "title": "Scenic Mekong River Cruise Cabins & Suites",
+      "text": "Your cabin remains important even though the destination is the primary attraction. Consider suite size & deck, river views, balcony or outdoor space, storage, location, and service level.",
+      "outro": "The river is constantly changing, so having a comfortable place to watch the scenery can enhance the experience.",
+      "features": [
+        "Suite size & deck",
+        "River views",
+        "Balcony or outdoor space",
+        "Storage",
+        "Location",
+        "Service level"
+      ]
+    },
+    "dining": {
+      "title": "Scenic Mekong Cruise Dining",
+      "text": "Dining is an important part of the overall experience. On a Vietnam-and-Cambodia itinerary, travelers can expect the culinary experience to reflect the region while also offering familiar international options.",
+      "outro": "If food is a major priority, add independent restaurant experiences in Ho Chi Minh City, Phnom Penh, or Siem Reap.",
+      "features": [
+        "Sampling regional Vietnamese dishes",
+        "Enjoying Cambodian specialties onboard",
+        "Requesting personalized preferences",
+        "Traveling with family"
+      ]
+    }
+  },
+  "foodAndHistory": {
+    "title": "Mekong Cuisine & Cultural Heritage",
+    "subtitle": "Immersive culinary and historical encounters along the river.",
+    "food": {
+      "title": "Scenic Mekong Cruise for Food Lovers",
+      "lead": "Vietnam and Cambodia are exceptional destinations for travelers who enjoy food.",
+      "text": "A Mekong journey can introduce you to a wide range of regional cuisine.",
+      "listTitle": "Travelers can experience:",
+      "features": [
+        "Vietnamese noodles",
+        "Regional dishes",
+        "Fresh herbs",
+        "Rice-based cuisine",
+        "Tropical fruit",
+        "Cambodian specialties"
+      ],
+      "outro": "The best way to approach the culinary experience is to treat local food as part of the destination rather than simply something eaten onboard."
+    },
+    "history": {
+      "title": "Scenic Mekong Cruise for History Lovers",
+      "lead": "The Mekong region contains layers of history spanning centuries.",
+      "text": "Angkor is an obvious highlight, but the smaller cultural encounters along the river can be equally valuable.",
+      "listTitle": "Travelers can explore:",
+      "features": [
+        "Ancient civilizations",
+        "Buddhist traditions",
+        "Colonial history",
+        "Modern Vietnamese & Cambodian history",
+        "Ancient Khmer architecture"
+      ],
+      "outro": "For history-focused travelers, consider adding extra nights in Siem Reap to explore Angkor without rushing."
+    }
+  },
+  "photographyAndPacking": {
+    "title": "Photography & Packing for the Mekong",
+    "subtitle": "Essential preparation and photographic opportunities on Southeast Asia's greatest river.",
+    "cards": [
+      {
+        "title": "Scenic Mekong Cruise for Photography",
+        "items": [
+          "The Mekong is particularly rewarding for photographers.",
+          "Early morning and late afternoon can provide especially atmospheric conditions.",
+          "River life, markets, and temples offer some of the most compelling subjects along the way.",
+          "Potential subjects include: river life → markets → villages → temples → landscapes.",
+          "That makes the Mekong one of the most photogenic river journeys in Southeast Asia."
+        ]
+      },
+      {
+        "title": "What Should You Pack for a Scenic Mekong River Cruise?",
+        "items": [
+          "A Mekong journey requires a slightly different packing strategy from a European river cruise.",
+          "Lightweight, breathable clothing",
+          "Comfortable walking shoes & small day bag",
+          "Sun & insect protection",
+          "Modest clothing for temples (covering shoulders and knees)",
+          "A lightweight rain layer for tropical conditions",
+          "Check the specific dress guidance for temples and religious sites on your itinerary before you go."
+        ]
+      }
+    ]
+  },
+  "familiesAndCouples": {
+    "title": "Scenic Mekong for Families & Couples",
+    "subtitle": "Multigenerational Exploration & Romantic Southeast Asian River Journeys",
+    "families": {
+      "title": "Families & Multigenerational Groups",
+      "intro": "A Mekong itinerary can be a strong choice for families traveling across generations select excursions according to activity level and climate.",
+      "generations": [
+        {
+          "role": "Older travelers may appreciate:",
+          "features": [
+            "Coordinated transportation",
+            "Luxury accommodations",
+            "Guided experiences",
+            "A single organized itinerary"
+          ]
+        },
+        {
+          "role": "Adults may enjoy:",
+          "features": [
+            "Culture",
+            "Food",
+            "History",
+            "Luxury service"
+          ]
+        },
+        {
+          "role": "Older children & teenagers may enjoy:",
+          "features": [
+            "Temples",
+            "Markets",
+            "Boats",
+            "Photography"
+          ]
+        }
+      ],
+      "quote": "When traveling with multiple generations, select excursions according to activity level and climate rather than trying to make everyone participate in every experience."
+    },
+    "couples": {
+      "title": "Couples & Romantic Travelers",
+      "intro": "The Mekong is particularly well suited to couples seeking a more culturally immersive journey than a traditional beach vacation.",
+      "features": [
+        "Luxury accommodations",
+        "River scenery",
+        "Vietnamese cuisine",
+        "Cambodian culture",
+        "Temple visits",
+        "Private experiences",
+        "Siem Reap exploration"
+      ],
+      "quote": "The Mekong works exceptionally well for couples who want something more culturally immersive than a traditional beach vacation."
+    }
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Mekong River Cruise Cost?",
+    "subtitle": "Mekong journeys can include more land-based components than a typical European river cruise. Compare the entire journey, not just the cruise fare including hotels, airfare, transfers, and promotions.",
+    "items": [
+      {
+        "title": "Sailing Date & Seasonality",
+        "description": "High season dry months command premium fares compared to shoulder or green season departures."
+      },
+      {
+        "title": "Itinerary Length & Land Tour",
+        "description": "Journeys combining extensive land packages in Hanoi, Halong Bay, or Siem Reap have different investment levels."
+      },
+      {
+        "title": "Suite Category & Deck",
+        "description": "From Deluxe Suites to Royal Panorama Suites with private wrap-around terraces and upgraded butler services."
+      },
+      {
+        "title": "Included Land Arrangements",
+        "description": "Compare whether luxury five-star hotel stays, internal flights, and private transfers are bundled into the journey."
+      },
+      {
+        "title": "International Airfare",
+        "description": "Transpacific or European long-haul flights and premium cabin availability impact total vacation investment."
+      },
+      {
+        "title": "Guided Experiences & Freechoice",
+        "description": "Scenic includes expert-led shore excursions, cultural events, and Enrich gala experiences without hidden costs."
+      },
+      {
+        "title": "Specialty Dining & Selected Beverages",
+        "description": "All onboard meals, premium spirits, fine wines, and daily refreshments are included throughout the cruise."
+      },
+      {
+        "title": "Promotions & Early Booking",
+        "description": "Early payment discounts, airfare credits, and single traveler promotions can provide significant overall value."
+      }
+    ]
+  },
+  "inlineCta3": {
+    "title": "Want More on Scenic Cabins?",
+    "description": "Read our guides to Scenic cabin categories and the best cabins to choose.",
+    "buttonText": "Get a Custom Quote",
+    "buttonLink": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Mekong River Cruise?",
+    "intro": [
+      "Inclusions vary by itinerary, but a Scenic journey can include luxury accommodations, dining, selected beverages, and guided destination experiences.",
+      "Some Mekong journeys also incorporate hotels and land arrangements always check the exact itinerary and booking terms."
+    ],
+    "items": [
+      {
+        "title": "All-Inclusive Mekong Experience",
+        "paragraphs": [
+          "Scenic delivers a truly all-inclusive luxury experience on the Mekong, from airport transfers to curated shore excursions and fine dining.",
+          "Depending on your specific cruise and land journey, inclusions encompass:"
+        ],
+        "lists": [
+          {
+            "title": "Signature Scenic Inclusions:",
+            "items": [
+              "Luxury accommodation onboard Scenic Spirit",
+              "All meals onboard with regional and international cuisine",
+              "Selected premium beverages including wine, beer, and spirits",
+              "Wi-Fi internet access onboard",
+              "Guided destination experiences & Scenic Freechoice excursions",
+              "Scenic Enrich exclusive cultural events",
+              "Onboard entertainment, talks, and cultural performances",
+              "Personalized butler service for all suites"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Scenic Mekong vs Other Luxury River Cruises",
+    "subtitle": "For the Mekong specifically, compare the land program, hotels, guides, excursions, ship, suite, dining, and cultural experiences rather than simply comparing starting prices.",
+    "headers": ["Cruise Line", "Particularly Appealing For"],
+    "rows": [
+      ["Scenic", "Luxury, personalized service and curated destination experiences"],
+      ["Riverside", "Spacious luxury accommodations"],
+      ["AmaWaterways", "Destination experiences and active travel"],
+      ["Viking", "Broad international river cruise network"],
+      ["Avalon", "Spacious cabins and open-air balcony concepts"],
+      ["Uniworld", "Boutique design and distinctive interiors"]
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Mekong Cruise Mistakes",
+    "items": [
+      {
+        "number": "01",
+        "title": "Choosing Based Only on the Ship",
+        "description": "Selecting a cruise based exclusively on the ship rather than evaluating the complete land and river itinerary."
+      },
+      {
+        "number": "02",
+        "title": "Ignoring the Land Itinerary",
+        "description": "Overlooking the quality of pre- and post-cruise hotel arrangements and overland tours in Vietnam and Cambodia."
+      },
+      {
+        "number": "03",
+        "title": "Not Allowing Enough Time in Gateways",
+        "description": "Rushing through Ho Chi Minh City, Phnom Penh, or Siem Reap without adding extra nights for independent exploration."
+      },
+      {
+        "number": "04",
+        "title": "Underestimating the Tropical Climate",
+        "description": "Failing to account for heat and humidity during daytime temple explorations and outdoor market visits."
+      },
+      {
+        "number": "05",
+        "title": "Packing Only for the Ship",
+        "description": "Packing formal cruise wear while forgetting lightweight temple-appropriate clothing and sturdy walking shoes."
+      },
+      {
+        "number": "06",
+        "title": "Not Checking Excursion Activity Levels",
+        "description": "Not reviewing physical demands, steps, and heat factors before committing to intensive daily excursions."
+      }
+    ]
+  },
+  "daysNeededAndHotel": {
+    "title": "How Many Days Do You Need for a Scenic Mekong Cruise?",
+    "prosTitle": "Before the Cruise",
+    "consTitle": "After the Cruise",
+    "bestFor": [
+      "1–2 nights in Ho Chi Minh City or Siem Reap",
+      "Recovering from long-haul international jet lag",
+      "Protecting against airline delays and lost luggage"
+    ],
+    "notBestFor": [
+      "Extending into Hanoi, Halong Bay, or Luang Prabang",
+      "Independent dining reservations and private temple tours",
+      "A more comprehensive, unhurried Southeast Asian vacation"
+    ],
+    "bottomNote": "Gateway cities are important enough to justify extra time arriving early provides protection from flight delays and more time to experience local culture."
+  },
+  "whyBookAdvisor": {
+    "title": "Why Book a Scenic Mekong Cruise Through a Luxury Travel Advisor?",
+    "quoteTitle": "The Right Itinerary Depends on Your Priorities",
+    "quoteBody": "A luxury travel advisor can help coordinate the entire journey, which is especially useful when combining river cruising with extensive land programs in Vietnam and Cambodia.",
+    "alert": "Booking early through an advisor can help maximize both availability and value.",
+    "benefits": [
+      {
+        "title": "International Flights",
+        "description": "Optimizing long-haul flight routings, business class options, and seamless arrival logistics."
+      },
+      {
+        "title": "Gateway Luxury Hotels",
+        "description": "Selecting premier five-star properties in Ho Chi Minh City, Hanoi, and Siem Reap."
+      },
+      {
+        "title": "Scenic Cruise Selection",
+        "description": "Comparing upstream vs downstream sailings and matching departures to seasonal water levels."
+      },
+      {
+        "title": "Suite Selection",
+        "description": "Securing preferred suite categories, deck locations, and panoramic balcony views."
+      },
+      {
+        "title": "Curated Excursions",
+        "description": "Personalizing Scenic Freechoice activities and private temple experiences."
+      },
+      {
+        "title": "Private Transfers",
+        "description": "Coordinating chauffeured airport, hotel, and ship pier transfers seamlessly."
+      },
+      {
+        "title": "Travel Insurance",
+        "description": "Guiding appropriate medical, evacuation, and trip protection policies for Southeast Asia."
+      },
+      {
+        "title": "Pre- & Post-Cruise Travel",
+        "description": "Designing customized extensions to Halong Bay, Sapa, Laos, or Thailand."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "countries": "Traveled to more than 121 countries",
+    "credentials": [
+      { "label": "CEO of Trips & Ships Luxury Travel" },
+      { "label": "Over 40 years in the travel industry" },
+      { "label": "Traveled to more than 121 countries" },
+      { "label": "Founder of Luxury Travel University" },
+      { "label": "Global luxury travel speaker and trainer" },
+      { "label": "Weekly industry columnist" },
+      { "label": "Travel Leaders Network Advisory Board member" },
+      { "label": "2024 Luxury Travel Influencer of the Year" },
+      { "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
+      { "label": "Featured in major travel publications globally" },
+      { "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Scenic Mekong River Cruises before booking.",
+    "items": [
+      {
+        "question": "Does Scenic offer Mekong River Cruises?",
+        "answer": "Yes. Scenic offers luxury Mekong journeys combining river cruising with destination experiences in Vietnam and Cambodia."
+      },
+      {
+        "question": "What countries does a Scenic Mekong River Cruise visit?",
+        "answer": "Depending on the itinerary, Scenic Mekong journeys can include Vietnam and Cambodia."
+      },
+      {
+        "question": "Does a Scenic Mekong cruise visit Ho Chi Minh City?",
+        "answer": "Ho Chi Minh City is an important gateway for Mekong itineraries, although the exact itinerary and length of stay vary by departure."
+      },
+      {
+        "question": "Does a Scenic Mekong cruise visit Phnom Penh?",
+        "answer": "Selected Vietnam-and-Cambodia itineraries include Phnom Penh. Always check the exact sailing itinerary before booking."
+      },
+      {
+        "question": "Does a Scenic Mekong cruise include Siem Reap?",
+        "answer": "Some longer Vietnam-and-Cambodia journeys incorporate Siem Reap and Angkor as part of the broader land program. Confirm the specific itinerary."
+      },
+      {
+        "question": "Is a Scenic Mekong River Cruise good for first-time travelers to Vietnam and Cambodia?",
+        "answer": "Yes. A coordinated river-and-land itinerary can simplify transportation while providing guided cultural experiences."
+      },
+      {
+        "question": "What is the best time for a Scenic Mekong River Cruise?",
+        "answer": "The drier months are often attractive for sightseeing, while the wetter season can offer lush landscapes and a different atmosphere. Check regional weather conditions for your specific travel dates."
+      },
+      {
+        "question": "Is a Scenic Mekong cruise good for families?",
+        "answer": "Yes. Families and multigenerational groups can enjoy temples, markets, food, cultural experiences, and guided excursions. Activity levels and climate should be considered."
+      },
+      {
+        "question": "Is a Scenic Mekong cruise good for couples?",
+        "answer": "Yes. The combination of luxury accommodations, cultural experiences, cuisine, river scenery, and Cambodia's historic sites makes it a strong choice for couples."
+      },
+      {
+        "question": "What should I pack for a Scenic Mekong River Cruise?",
+        "answer": "Pack lightweight clothing, comfortable walking shoes, sun protection, a rain layer, modest clothing for temples, and clothing suitable for warm and humid conditions."
+      },
+      {
+        "question": "Are excursions included on a Scenic Mekong River Cruise?",
+        "answer": "Destination experiences and excursions are an important part of Scenic's offering, but exact inclusions vary by itinerary. Review the individual sailing before booking."
+      },
+      {
+        "question": "How much does a Scenic Mekong River Cruise cost?",
+        "answer": "Pricing depends on the sailing, itinerary, suite, availability, and land arrangements. Compare the complete journey rather than only the cruise fare."
+      },
+      {
+        "question": "Should I arrive early for a Scenic Mekong cruise?",
+        "answer": "Yes. International travelers should consider arriving at least one day early, and potentially two nights early, depending on the itinerary and flight schedule."
+      },
+      {
+        "question": "Is the Mekong River Cruise physically demanding?",
+        "answer": "Some excursions can involve walking, stairs, heat, humidity, or uneven surfaces. Travelers should review the activity level of each day's excursions before booking."
+      },
+      {
+        "question": "Is a Scenic Mekong River Cruise worth it?",
+        "answer": "For travelers interested in Vietnam, Cambodia, culture, food, history, and luxury travel, the Mekong can offer exceptional value as a comprehensive Southeast Asia experience."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Mekong River Cruising Slowing Down to Experience Southeast Asia",
+    "subtitle": "Scenic Mekong River Cruises are an outstanding choice for travelers who want to experience Vietnam and Cambodia through culture, scenery, food, and history.",
+    "paragraphs": [
+      "Scenic Mekong River Cruises are an outstanding choice for travelers who want to experience Vietnam and Cambodia through culture, scenery, food, and history.",
+      "The Mekong isn't primarily about collecting cities. It's about slowing down and experiencing a living river and rural communities. For cultural travelers, couples, food lovers, and luxury travelers looking for a more immersive Southeast Asian experience, the Mekong is one of the most distinctive river cruise destinations in the world. At Trips & Ships Luxury Travel, we'll help you compare the ship, suite, itinerary, and included experiences not simply the advertised cruise price."
+    ],
+    "services": [
+      "Compare Scenic Mekong itineraries and ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain Scenic promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic with other luxury river cruise lines"
+    ],
+    "buttonText": "Start Planning Your Scenic Mekong Cruise",
+    "buttonLink": "/contact"
+  }
+}

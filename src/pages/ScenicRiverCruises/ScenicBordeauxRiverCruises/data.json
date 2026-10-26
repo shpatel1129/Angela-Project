@@ -1,0 +1,983 @@
+{
+  "meta": {
+    "title": "Scenic Bordeaux River Cruises: Wine, Bordeaux & Best Itineraries | Complete Guide",
+    "metaTitle": "Scenic Bordeaux River Cruises (2026) | Wine, Bordeaux & Best Itineraries",
+    "metaDescription": "Explore Scenic Bordeaux River Cruises through France's legendary wine region. Discover Bordeaux, Saint-Émilion, Médoc, the Garonne, Dordogne, French cuisine, excursions, cabins, costs and the best time to sail.",
+    "canonicalUrl": "https://www.tripsandships.com/scenic-river-cruises/bordeaux",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/bordeaux/#webpage",
+          "name": "Scenic Bordeaux River Cruises (2026) | Wine, Bordeaux & Best Itineraries",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/bordeaux",
+          "description": "Explore Scenic Bordeaux River Cruises through France's legendary wine region. Discover Bordeaux, Saint-Émilion, Médoc, the Garonne, Dordogne, French cuisine, excursions, cabins, costs and the best time to sail."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/bordeaux/#article",
+          "headline": "Scenic Bordeaux River Cruises: The Complete Guide",
+          "description": "A complete guide to Scenic Bordeaux River Cruises, including Bordeaux, Saint-Émilion, Médoc, Blaye, Cadillac, Libourne, the Garonne and Dordogne rivers, French wine and cuisine, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/bordeaux/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Bordeaux River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/bordeaux"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/bordeaux/#itemlist",
+          "name": "Scenic Bordeaux River Cruises  What This Guide Covers",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Quick Answer"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Why Choose a Scenic Bordeaux River Cruise?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Where Do Scenic Bordeaux Cruises Go?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Best Scenic Bordeaux River Cruise Itineraries"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Best Time for a Scenic Bordeaux River Cruise"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Scenic Bordeaux Excursions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Scenic Bordeaux Cruise for Wine Lovers"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Cabins & Butler Service"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Food, History & Châteaux"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Couples & Families"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "name": "Cost & What's Included"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "name": "Common Booking Mistakes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "name": "Why Book Through a Luxury Travel Advisor?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "name": "Final Verdict"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/bordeaux/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best Scenic Bordeaux River Cruise itinerary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For first-time visitors, an itinerary combining Bordeaux with Saint-Émilion, Médoc, Blaye, Libourne, and surrounding wine country can provide a strong introduction to the region. Exact destinations vary by sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Scenic good for a Bordeaux River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic is a strong option for travelers looking for a luxury, all-inclusive river cruise with destination-focused experiences and personalized service."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Bordeaux wine cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic Bordeaux itineraries are particularly well suited to wine-focused travel, with opportunities to explore Bordeaux's famous wine-producing regions and surrounding destinations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Bordeaux cruise visit Saint-Émilion?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some Scenic Bordeaux itineraries include Saint-Émilion or experiences in the surrounding wine region. Check the exact sailing before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic visit Médoc?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Médoc is featured on selected Bordeaux itineraries and excursions. Exact availability varies by sailing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What rivers does a Scenic Bordeaux cruise use?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bordeaux itineraries can incorporate the Garonne and Dordogne rivers and the surrounding waterways of southwestern France, depending on the itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time for a Scenic Bordeaux River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spring, summer, and fall all have advantages. Wine travelers may want to consider the timing of vineyard and harvest activity, while spring and summer can be attractive for scenery and outdoor sightseeing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Bordeaux cruise good for wine lovers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Bordeaux is one of the world's most important wine regions, making this itinerary particularly attractive to travelers who want wine integrated into their vacation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Bordeaux cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Wine, French cuisine, historic villages, vineyards, châteaux, and luxury accommodations make Bordeaux particularly appealing for couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Bordeaux cruise good for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Families and multigenerational groups can combine history, food, cultural experiences, and sightseeing. Excursion activity levels should be considered when choosing the itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are wine excursions included on a Scenic Bordeaux cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic offers destination experiences as part of its all-inclusive approach, but the exact wine experiences available vary by itinerary. Review the specific sailing before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which Scenic cabin is best for a Bordeaux cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best suite depends on your priorities. Travelers who enjoy scenic sailing may prefer a suite with a Sun Lounge or another dedicated river-view area."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Butler Service on Bordeaux cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Butler Service is available with eligible Scenic suite categories. The exact service depends on the suite selected."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does a Scenic Bordeaux River Cruise cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Prices vary according to the sailing date, itinerary, suite category, availability, and other travel arrangements. Compare the complete package and inclusions rather than only the starting fare."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I arrive early for a Scenic Bordeaux River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. International travelers should consider arriving at least one day before embarkation. This gives you a buffer against flight delays and time to explore Bordeaux."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Bordeaux\nRiver Cruises",
+    "subtitle": "A Luxury River Journey Through Bordeaux Wine Country, Saint-Émilion & Médoc",
+    "description": "A Scenic Bordeaux River Cruise is one of the best ways to explore southwestern France if your ideal luxury vacation revolves around wine, gastronomy, history, countryside, and beautiful French towns. Bordeaux is more than a city  it is the gateway to one of the world's most celebrated wine regions, and a river cruise allows travelers to explore that region without repeatedly changing hotels.",
+    "extendedText": "Depending on your itinerary, a Scenic Bordeaux sailing can take you along the Garonne, Dordogne, and Gironde estuary, visiting legendary wine villages such as Saint-Émilion, prestigious estates in Médoc, historic fortresses like Blaye, and châteaux in Cadillac. On board, Scenic Space-Ships deliver an all-inclusive luxury experience with private Butler Service, all-weather Sun Lounges, and complimentary Scenic Freechoice excursions and Scenic Enrich private classical experiences.",
+    "ctaText": "Request a Custom Quote",
+    "ctaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "Scenic Bordeaux River Cruise",
+    "title": "Is a Scenic Bordeaux River Cruise Worth It? The Quick Answer",
+    "intro": "Yes  especially for travelers who love wine, food, French culture, historic towns, and relaxed luxury travel. Bordeaux is one of the strongest European river cruise choices for travelers who want their vacation to revolve around gastronomy and wine rather than visiting as many countries as possible.",
+    "outro": "It's especially appealing for wine enthusiasts, food lovers, couples, luxury travelers, first-time river cruisers, art and architecture enthusiasts, French culture travelers, multigenerational groups, and travelers celebrating a special occasion.",
+    "emphasis": [
+      "Wine enthusiasts",
+      "Food lovers",
+      "Couples",
+      "Luxury travelers",
+      "First-time river cruisers",
+      "Art and architecture enthusiasts",
+      "French culture travelers",
+      "Multigenerational groups",
+      "Travelers celebrating a special occasion"
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Bordeaux Access & Regional Variety",
+    "title": "Why Choose a Scenic Bordeaux River Cruise?",
+    "intro": "The biggest reason is access. A Bordeaux river cruise allows you to explore several famous wine-producing areas while avoiding the logistical challenge of arranging separate hotels and transportation between each destination. Instead of hotel → car → hotel → train → hotel → excursion, your experience becomes luxury ship → destination → excursion → relaxed evening sailing.",
+    "callout": "A Bordeaux river cruise can combine Bordeaux, the Garonne River, the Dordogne River, Saint-Émilion, Médoc, French wine estates, historic villages & châteaux, and French cuisine into one seamless trip.",
+    "features": [
+      "Bordeaux",
+      "The Garonne River",
+      "The Dordogne River",
+      "Saint-Émilion",
+      "Médoc",
+      "French wine estates",
+      "Historic villages & châteaux",
+      "French cuisine"
+    ],
+    "imageLabel": "SCENIC DIAMOND • BORDEAUX SPACE-SHIP"
+  },
+  "destinations": {
+    "title": "Where Do Scenic Bordeaux River Cruises Go?",
+    "intro": "Exact ports and excursions depend on the itinerary and sailing date. Bordeaux itineraries can focus on destinations and regions including:",
+    "items": [
+      {
+        "key": "bordeaux",
+        "title": "Bordeaux",
+        "items": [
+          "Historic architecture & elegant squares",
+          "Riverfront scenery & French cuisine",
+          "A beautiful introduction to southwestern France"
+        ]
+      },
+      {
+        "key": "saint-emilion",
+        "title": "Saint-Émilion",
+        "items": [
+          "Historic village surrounded by vineyards",
+          "Churches & medieval architecture",
+          "Wine culture and heritage combined with village atmosphere"
+        ]
+      },
+      {
+        "key": "medoc",
+        "title": "Médoc",
+        "items": [
+          "Prestigious wine estates & châteaux",
+          "Vineyard, château & terroir",
+          "A deeper look at Bordeaux's most famous wines"
+        ]
+      },
+      {
+        "key": "libourne",
+        "title": "Libourne",
+        "items": [
+          "Gateway to Dordogne wine country",
+          "Access to surrounding vineyards",
+          "Excursions to nearby wine and cultural experiences"
+        ]
+      },
+      {
+        "key": "blaye",
+        "title": "Blaye",
+        "items": [
+          "Historic fortress on the Gironde estuary",
+          "French history & architecture",
+          "A welcome change of pace from vineyard excursions"
+        ]
+      },
+      {
+        "key": "cadillac",
+        "title": "Cadillac",
+        "items": [
+          "French history & châteaux",
+          "Wine and countryside",
+          "Architectural and cultural experiences"
+        ]
+      },
+      {
+        "key": "garonne",
+        "title": "The Garonne River",
+        "items": [
+          "Central to the Bordeaux cruise experience",
+          "Changing landscapes between major destinations",
+          "Sailing as part of the vacation, not just transportation"
+        ]
+      },
+      {
+        "key": "dordogne",
+        "title": "The Dordogne River",
+        "items": [
+          "Additional wine-producing areas",
+          "Historic destinations",
+          "A different perspective on southwestern France"
+        ]
+      }
+    ]
+  },
+  "cta1": {
+    "title": "Not Sure Which Bordeaux Itinerary Is Right for You?",
+    "text": "Let us help you compare Scenic Bordeaux sailings and find the perfect fit for your trip.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time for a Scenic Bordeaux River Cruise",
+    "intro": "Because Bordeaux is so closely tied to vineyards and outdoor sightseeing, season selection is particularly important.",
+    "items": [
+      {
+        "key": "spring",
+        "eyebrow": "March–May",
+        "title": "Spring",
+        "intro": "Spring offers:",
+        "items": [
+          "Green vineyards",
+          "Flowers",
+          "Moderate temperatures & comfortable sightseeing"
+        ],
+        "outro": "It's an excellent choice for travelers who prioritize scenery and comfortable walking conditions."
+      },
+      {
+        "key": "summer",
+        "eyebrow": "June–August",
+        "title": "Summer",
+        "intro": "Summer brings:",
+        "items": [
+          "Longer days & outdoor dining",
+          "Lush countryside",
+          "Extended sightseeing"
+        ],
+        "outro": "It is a popular travel period, so preferred departures and suites can book early."
+      },
+      {
+        "key": "fall",
+        "eyebrow": "September–November",
+        "title": "Fall",
+        "intro": "For wine enthusiasts, fall can be especially interesting. Highlights can include:",
+        "items": [
+          "Harvest activity",
+          "Wine experiences",
+          "Autumn scenery & seasonal food"
+        ],
+        "outro": "If the wine component is the primary reason for your trip, compare sailing dates carefully with your preferred winery and vineyard experiences."
+      },
+      {
+        "key": "winter",
+        "eyebrow": "December–February",
+        "title": "Winter",
+        "intro": "Winter provides a quieter atmosphere, but isn't usually the first choice for travelers seeking the classic vineyard experience. Travelers may still appreciate:",
+        "items": [
+          "Fewer crowds",
+          "A slower pace",
+          "Quieter sightseeing"
+        ],
+        "outro": "Travelers who prefer fewer crowds and a slower pace may still appreciate the season."
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Bordeaux River Cruise Itineraries",
+    "intro": "Scenic itineraries vary, but popular options often include:",
+    "items": [
+      {
+        "id": "wine-country",
+        "title": "Bordeaux Wine Country Itinerary",
+        "badge": "Best Overall",
+        "desc": "For first-time travelers, look for an itinerary that combines Bordeaux, Saint-Émilion, Médoc, Blaye, Libourne, and surrounding wine country.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Travelers who want a broad introduction to Bordeaux wine and French culture",
+              "First-time visitors to the region",
+              "A comprehensive overview of southwestern France"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "saint-emilion",
+        "title": "Bordeaux & Saint-Émilion",
+        "badge": "Wine & Village Life",
+        "desc": "If your primary interest is wine and French village life, prioritize itineraries with significant time around Saint-Émilion.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Wine lovers",
+              "Vineyard travelers",
+              "French village enthusiasts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "medoc",
+        "title": "Bordeaux & Médoc",
+        "badge": "Estate Focus",
+        "desc": "Travelers particularly interested in Bordeaux's famous wine estates may want to prioritize itineraries with strong Médoc programming.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Serious wine travelers",
+              "Travelers wanting deeper exposure to Bordeaux wine culture"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "garonne-dordogne",
+        "title": "Garonne & Dordogne Experience",
+        "badge": "Two Rivers",
+        "desc": "An itinerary incorporating both rivers provides a broader view of southwestern France.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "First-time Bordeaux visitors",
+              "Couples",
+              "Food and wine travelers",
+              "Travelers wanting variety"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "firstTimeCruisers": {
+    "title": "Scenic Bordeaux Cruise for First-Time River Cruisers",
+    "lead": "Bordeaux can be an excellent first river cruise because the purpose of the itinerary is easy to understand. You're not trying to visit five countries  you're exploring one of Europe's most famous wine regions.",
+    "conclusion": "Checklist travel isn't the focus. That makes the cruise particularly attractive to travelers who prefer immersive travel over visiting as many countries as possible.",
+    "progressionTitle": "The journey is essentially a progression:",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Bordeaux  City & Wine Gateway",
+        "description": "Historic architecture, riverfront dining, and world-class wine culture."
+      },
+      {
+        "number": "02",
+        "title": "Vineyards  Saint-Émilion & Médoc",
+        "description": "Legendary wine estates, subterranean cellars, and premier grand cru terroirs."
+      },
+      {
+        "number": "03",
+        "title": "River Country  Garonne & Dordogne",
+        "description": "Picturesque estuary scenery, medieval bastides, and tranquil riverside sailing."
+      }
+    ]
+  },
+  "excursions": {
+    "title": "Scenic Bordeaux River Cruise Excursions",
+    "intro": "Scenic Bordeaux excursions give travelers a blend of wine, French culture, and historic architecture:",
+    "items": [
+      {
+        "title": "Wine",
+        "desc": "Visit vineyards, wine estates, and wine-producing areas across Saint-Émilion, Médoc, and Graves."
+      },
+      {
+        "title": "French Cuisine",
+        "desc": "Discover regional dishes, culinary traditions, market tastings, and local Bordeaux specialties."
+      },
+      {
+        "title": "Châteaux",
+        "desc": "Explore historic estates, grand classical facades, and aristocratic French architecture."
+      },
+      {
+        "title": "Historic Towns",
+        "desc": "Walk through Bordeaux, Saint-Émilion, Blaye, and other charming medieval destinations."
+      },
+      {
+        "title": "Culture",
+        "desc": "Learn about French history, UNESCO-listed landmarks, art, and regional traditions."
+      },
+      {
+        "title": "Freechoice & Enrich",
+        "desc": "Scenic's Freechoice program gives travelers options among available experiences, while Scenic Enrich provides specially curated experiences on qualifying sailings."
+      }
+    ]
+  },
+  "cta2": {
+    "title": "First Time on a River Cruise?",
+    "text": "Let us guide you through what to expect, from dining and cabins to daily excursions.",
+    "buttonText": "Talk to a Cruise Expert",
+    "link": "/contact"
+  },
+  "cabinsAndButler": {
+    "cabins": {
+      "title": "Scenic Bordeaux River Cruise Cabins & Suites",
+      "text": "Scenic Space-Ships operating in Bordeaux feature luxury staterooms and suites, with private all-weather Sun Lounges on Balcony and Royal Suite categories.",
+      "features": [
+        "Panoramic Sun Lounge enclosed balcony with push-button glass window",
+        "Scenic Slumber Bed with Egyptian cotton linens and luxury pillow menu",
+        "Complimentary mini-bar restocked daily with premium wine and beverages",
+        "En-suite bathroom with luxury amenities and plush bathrobes",
+        "Individual climate control and flat-screen HDTV with infotainment"
+      ],
+      "outro": "Compare cabin categories carefully with your travel advisor to secure preferred deck location and unobstructed river views."
+    },
+    "butler": {
+      "title": "Scenic Butler Service on Bordeaux Cruises",
+      "text": "Every guest on Scenic Space-Ships enjoys the dedicated attention of an onboard Butler, tailored to suite category.",
+      "features": [
+        "Early morning tea and coffee service delivered directly to your suite",
+        "Complimentary shoe shine and daily garment pressing services",
+        "Personalized assistance with shore excursion reservations and scheduling",
+        "In-suite beverage service and cocktail delivery before dinner",
+        "Full packing and unpacking assistance upon request"
+      ],
+      "outro": "Butler service elevates the entire French river journey, ensuring seamless comfort from embarkation to disembarkation."
+    }
+  },
+  "diningAndHistory": {
+    "foodAndWine": {
+      "title": "Scenic Bordeaux Cruise for Food Lovers",
+      "text": "Food and wine are inseparable in southwestern France. Bordeaux cruises provide an opportunity to explore regional gastronomy in depth.",
+      "highlights": [
+        "Regional French dining and chef-prepared five-course evening menus",
+        "Local markets & bakeries showcasing fresh baguettes and cheeses",
+        "Expert sommelier-led wine and food pairings with Bordeaux vintages",
+        "French cheeses, duck confit, oysters from Arcachon, and charcuterie",
+        "Canelés & regional desserts freshly baked on board and in port",
+        "Bespoke culinary excursions and pastry-making demonstrations"
+      ],
+      "outro": "For culinary travelers, this focus on fresh, local food makes Bordeaux one of Europe's top river cruise choices."
+    },
+    "historyAndArchitecture": {
+      "title": "French History, Fortresses & Châteaux",
+      "text": "Blaye combines history and wine, with a historic fortress along the Gironde estuary, while Cadillac offers another perspective through its châteaux and countryside.",
+      "highlights": [
+        "French history and UNESCO World Heritage fortress architecture in Blaye",
+        "Historic fortresses built by Vauban overlooking the Gironde estuary",
+        "Prestigious wine châteaux with centuries of aristocratic heritage",
+        "Riverfront 18th-century classical architecture along the Bordeaux quays",
+        "French regional traditions, medieval bastides, and village folklore"
+      ],
+      "outro": "It provides a welcome change of pace from vineyard-focused excursions, without straying from the region's wine and countryside character."
+    }
+  },
+  "wineAndSunLounge": {
+    "wine": {
+      "title": "Scenic Bordeaux for Wine Lovers",
+      "text": "If you're choosing a river cruise primarily because of wine, Bordeaux deserves serious consideration. The region gives travelers an opportunity to understand Bordeaux wine within its geographical and cultural context. Médoc and Saint-Émilion are particularly important for wine enthusiasts.",
+      "highlights": [
+        "Understand Bordeaux wine within its true geographical and terroir context",
+        "Explore legendary Left Bank Médoc grand cru estates and Right Bank Saint-Émilion cellars",
+        "Experience the complete progression: Vineyard → Château → Village → Cuisine → Wine",
+        "Enjoy sommelier guidance, tasting notes, and cellar master insights on board and ashore",
+        "Far more immersive and rewarding than a conventional self-drive tasting vacation"
+      ],
+      "outro": "That makes the destination particularly compelling for travelers who want more than a conventional tasting vacation."
+    },
+    "sunLounge": {
+      "title": "Scenic Sun Lounge on a Bordeaux Cruise",
+      "text": "Scenic's Sun Lounge concept can be particularly enjoyable when sailing through Bordeaux wine country. At the touch of a button, your glass window lowers to transform your suite into an open-air balcony.",
+      "highlights": [
+        "Vineyard-covered hillsides and gravel terraces along the riverbanks",
+        "Château rooftops and historic stone estates nestled among the vines",
+        "Riverside wine villages, ancient quays, and peaceful fishing huts",
+        "Garonne landscapes and tranquil tidal waters of southwestern France",
+        "Dordogne estuary scenery and expansive tidal wildlife ecosystems"
+      ],
+      "outro": "Enjoy the view from your suite without needing to spend all your time on an open exterior deck. The ability to watch the scenery glide by makes sailing time feel like part of the destination rather than simply transportation."
+    }
+  },
+  "familiesAndCouples": {
+    "families": {
+      "title": "Scenic Bordeaux Cruises for Families & Multigenerational Groups",
+      "intro": "A Bordeaux itinerary can also work for multigenerational travel  different family members can focus on different aspects of the destination.",
+      "generations": [
+        {
+          "role": "Grandparents may enjoy:",
+          "features": [
+            "Comfortable river navigation",
+            "Scenic sailing days",
+            "Slower-paced excursions",
+            "Historic village strolls"
+          ]
+        },
+        {
+          "role": "Adults may enjoy:",
+          "features": [
+            "Wine tastings and estate visits",
+            "Culinary excursions",
+            "French dining",
+            "Châteaux tours"
+          ]
+        },
+        {
+          "role": "Older children & teenagers may appreciate:",
+          "features": [
+            "Historic fortresses like Blaye",
+            "Bordeaux city exploration",
+            "Bike excursions",
+            "Active cultural experiences"
+          ]
+        }
+      ],
+      "quote": "A family river cruise allows everyone to share the journey while pursuing different interests during day excursions."
+    },
+    "couples": {
+      "title": "Scenic Bordeaux for Couples",
+      "intro": "Wine, French cuisine, historic villages, vineyards, châteaux, and luxury accommodations make Bordeaux particularly appealing for couples.",
+      "experiences": [
+        "Private tastings and château tours in Saint-Émilion and Médoc",
+        "Fine French dining paired with regional grand cru wines every evening",
+        "Scenic evening sailing along the Garonne and Dordogne rivers",
+        "Exploring picturesque medieval villages and quiet cobblestone streets",
+        "Private Sun Lounge suite relaxation watching vineyard hillsides glide by"
+      ],
+      "quote": "It's particularly well suited to anniversaries, milestone birthdays, honeymoons, and other celebrations."
+    }
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Bordeaux River Cruise Cost?",
+    "intro": "The total price depends on several factors influencing cruise fares, suite availability, and seasonal rates.",
+    "calloutTitle": "Total Investment Planning",
+    "calloutText": "Look at the complete value proposition  Scenic's all-inclusive pricing covers private Butler Service, all dining, unlimited premium beverages, daily Freechoice excursions, and airport transfers.",
+    "factors": [
+      "Sailing date & seasonality (Spring, Summer, Fall)",
+      "Cruise duration (7, 8, or extended multi-week combination)",
+      "Suite category (Standard, Balcony Sun Lounge, Junior Suite, Royal Suite)",
+      "Ship selection (Scenic Diamond Space-Ship)",
+      "Cabin availability and advance booking window",
+      "Specific itinerary (Garonne, Dordogne, or combination)",
+      "Current cruise line promotional incentives",
+      "International airfare and business class upgrades",
+      "Pre- and post-cruise luxury hotel stays and private transfers"
+    ]
+  },
+  "cta3": {
+    "title": "Want More on Scenic Cabins?",
+    "text": "Read our guides to Scenic Space-Ships & Sun Lounge balconies and cabin categories.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Bordeaux River Cruise?",
+    "intro": "Scenic's all-inclusive approach can include accommodation, meals, selected beverages, Wi-Fi, Scenic Freechoice experiences, Scenic Enrich experiences, entertainment, and personalized service.",
+    "subIntro": "Depending on your specific cruise, inclusions can cover every detail from morning espresso delivered by your Butler to private evening concerts in historic French châteaux.",
+    "items": [
+      "Accommodation in luxury suites with scenic river views",
+      "All gourmet meals across multiple onboard dining venues",
+      "Unlimited complimentary premium beverages and fine French wines all day",
+      "High-speed Wi-Fi access throughout the ship",
+      "Comprehensive Scenic Freechoice shore excursion program in every port",
+      "Exclusive Scenic Enrich private cultural experiences and castle access",
+      "Engaging regional entertainment and cultural enrichment lectures",
+      "Dedicated Butler Service for every guest on board",
+      "All tipping, onboard gratuities, and airport transfers in Bordeaux"
+    ],
+    "calloutTitle": "Verified All-Inclusive Luxury",
+    "calloutText": "Your luxury travel advisor will verify every detail including stateroom categories, shore excursions, airport transfers, and bespoke pre-cruise arrangements prior to booking confirmation."
+  },
+  "comparison": {
+    "title": "Scenic Bordeaux vs Other Luxury River Cruises",
+    "intro": "The best choice depends on your priorities. For Bordeaux specifically, compare the wine programming, excursions, suite, dining, and included experiences rather than simply comparing cruise fares.",
+    "table": [
+      {
+        "line": "Scenic",
+        "appeal": "All-inclusive luxury, private Butler Service, all-weather Sun Lounges, and curated wine experiences"
+      },
+      {
+        "line": "Riverside",
+        "appeal": "Spacious luxury suites and modern culinary focus on European rivers"
+      },
+      {
+        "line": "Uniworld",
+        "appeal": "Boutique design and distinctive, opulent French-inspired interiors"
+      },
+      {
+        "line": "Tauck",
+        "appeal": "Highly inclusive guided group travel with dedicated Tauck directors"
+      },
+      {
+        "line": "AmaWaterways",
+        "appeal": "Active excursions, wellness hosts, and wine-themed river cruise departures"
+      },
+      {
+        "line": "Avalon",
+        "appeal": "Open-air Panorama Suites with beds facing the wall-to-wall windows"
+      },
+      {
+        "line": "Viking",
+        "appeal": "Broad European river cruise network with Scandinavian design and cultural enrichment"
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Bordeaux Cruise Mistakes",
+    "intro": "Avoid these common errors when planning your Scenic Bordeaux River Cruise.",
+    "items": [
+      "Choosing the itinerary without checking wine excursions and specific winery access",
+      "Assuming every Bordeaux itinerary visits Saint-Émilion on every departure",
+      "Booking during the wrong season for your personal interests and preferred pace",
+      "Ignoring the cabin location relative to engine, galley, or exterior viewing decks",
+      "Arriving in Bordeaux on embarkation day without buffer for international flight delays",
+      "Not extending your stay with 1–2 nights in Bordeaux before or after the voyage"
+    ]
+  },
+  "duration": {
+    "title": "How Many Days Do You Need for a Scenic Bordeaux Cruise?",
+    "lead": "The cruise itinerary itself provides the foundation, but adding extra nights can make the experience substantially better.",
+    "shorter": {
+      "title": "Before the Cruise",
+      "subtitle": "Good for:",
+      "items": [
+        "1–2 nights in historic Bordeaux city center",
+        "Recovering from international jet lag before boarding",
+        "Protecting against airline delays and lost luggage"
+      ]
+    },
+    "longer": {
+      "title": "After the Cruise",
+      "subtitle": "Better for:",
+      "items": [
+        "Extending into Paris, Dordogne Valley, or the French Riviera",
+        "Securing Michelin-starred restaurant reservations in Bordeaux",
+        "Enjoying a more complete and unhurried French luxury vacation"
+      ]
+    },
+    "tip": "Bordeaux itself deserves additional time  arriving early provides protection from flight delays and more time to experience the city."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Trip Preparation",
+    "title": "Why Book a Scenic Bordeaux Cruise Through a Luxury Travel Advisor?",
+    "quoteTitle": "Bordeaux Is a Destination Where the Details Matter",
+    "quoteBody": "A traveler who wants wine-focused experiences may need a different itinerary from someone primarily interested in French history, food, architecture, art, family travel, or romantic travel. A luxury travel advisor can help coordinate the complete journey, which is particularly valuable if Bordeaux is part of a larger European vacation.",
+    "alert": "Booking early through an advisor can help maximize both availability and value.",
+    "benefits": [
+      {
+        "title": "Flights",
+        "description": "Coordinating commercial international airfare, business class routing, and airport arrival timing."
+      },
+      {
+        "title": "Bordeaux Hotels",
+        "description": "Hand-selecting pre- and post-cruise luxury boutique hotels in Bordeaux's historic center."
+      },
+      {
+        "title": "Scenic Cruise",
+        "description": "Securing preferred sailing dates and exclusive consortium promotions."
+      },
+      {
+        "title": "Suite Selection",
+        "description": "Navigating deck plans to choose ideal Sun Lounge suites and avoid galley/engine noise."
+      },
+      {
+        "title": "Excursions",
+        "description": "Guiding selections between Scenic Freechoice wine tastings, châteaux tours, and culinary walks."
+      },
+      {
+        "title": "Transfers",
+        "description": "Arranging seamless airport and railway station transfers to and from the ship."
+      },
+      {
+        "title": "Travel Insurance",
+        "description": "Recommending comprehensive trip cancellation and medical evacuation coverage."
+      },
+      {
+        "title": "Pre- & Post-Cruise",
+        "description": "Designing custom extensions to Paris, the Dordogne Valley, or the French Riviera."
+      }
+    ]
+  },
+  "credentials": {
+    "name": "Angela Hughes",
+    "role": "Luxury Travel Expert",
+    "countries": "121+ Countries Explored",
+    "items": [
+      {
+        "title": "40+ Years of Experience",
+        "description": "Over four decades designing bespoke luxury cruises, river voyages, and international itineraries."
+      },
+      {
+        "title": "121+ Countries Visited",
+        "description": "First-hand expertise across European waterways, châteaux, and premier wine regions."
+      },
+      {
+        "title": "Bespoke Itinerary Curation",
+        "description": "Tailoring stateroom selection, pre-cruise stays, and private shore experiences to your travel style."
+      },
+      {
+        "title": "VIP Client Care & Advocacy",
+        "description": "Direct communication with cruise executives and round-the-clock support throughout your journey."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Scenic Bordeaux River Cruises before booking.",
+    "items": [
+      {
+        "q": "What is the best Scenic Bordeaux River Cruise itinerary?",
+        "a": "For first-time visitors, an itinerary combining Bordeaux with Saint-Émilion, Médoc, Blaye, Libourne, and surrounding wine country can provide a strong introduction to the region. Exact destinations vary by sailing."
+      },
+      {
+        "q": "Is Scenic good for a Bordeaux River Cruise?",
+        "a": "Scenic is a strong option for travelers looking for a luxury, all-inclusive river cruise with destination-focused experiences and personalized service."
+      },
+      {
+        "q": "Does Scenic offer Bordeaux wine cruises?",
+        "a": "Scenic Bordeaux itineraries are particularly well suited to wine-focused travel, with opportunities to explore Bordeaux's famous wine-producing regions and surrounding destinations."
+      },
+      {
+        "q": "Does a Scenic Bordeaux cruise visit Saint-Émilion?",
+        "a": "Some Scenic Bordeaux itineraries include Saint-Émilion or experiences in the surrounding wine region. Check the exact sailing before booking."
+      },
+      {
+        "q": "Does Scenic visit Médoc?",
+        "a": "Médoc is featured on selected Bordeaux itineraries and excursions. Exact availability varies by sailing."
+      },
+      {
+        "q": "What rivers does a Scenic Bordeaux cruise use?",
+        "a": "Bordeaux itineraries can incorporate the Garonne and Dordogne rivers and the surrounding waterways of southwestern France, depending on the itinerary."
+      },
+      {
+        "q": "What is the best time for a Scenic Bordeaux River Cruise?",
+        "a": "Spring, summer, and fall all have advantages. Wine travelers may want to consider the timing of vineyard and harvest activity, while spring and summer can be attractive for scenery and outdoor sightseeing."
+      },
+      {
+        "q": "Is a Scenic Bordeaux cruise good for wine lovers?",
+        "a": "Yes. Bordeaux is one of the world's most important wine regions, making this itinerary particularly attractive to travelers who want wine integrated into their vacation."
+      },
+      {
+        "q": "Is a Scenic Bordeaux cruise good for couples?",
+        "a": "Yes. Wine, French cuisine, historic villages, vineyards, châteaux, and luxury accommodations make Bordeaux particularly appealing for couples."
+      },
+      {
+        "q": "Is a Scenic Bordeaux cruise good for families?",
+        "a": "Yes. Families and multigenerational groups can combine history, food, cultural experiences, and sightseeing. Excursion activity levels should be considered when choosing the itinerary."
+      },
+      {
+        "q": "Are wine excursions included on a Scenic Bordeaux cruise?",
+        "a": "Scenic offers destination experiences as part of its all-inclusive approach, but the exact wine experiences available vary by itinerary. Review the specific sailing before booking."
+      },
+      {
+        "q": "Which Scenic cabin is best for a Bordeaux cruise?",
+        "a": "The best suite depends on your priorities. Travelers who enjoy scenic sailing may prefer a suite with a Sun Lounge or another dedicated river-view area."
+      },
+      {
+        "q": "Does Scenic offer Butler Service on Bordeaux cruises?",
+        "a": "Butler Service is available with eligible Scenic suite categories. The exact service depends on the suite selected."
+      },
+      {
+        "q": "How much does a Scenic Bordeaux River Cruise cost?",
+        "a": "Prices vary according to the sailing date, itinerary, suite category, availability, and other travel arrangements. Compare the complete package and inclusions rather than only the starting fare."
+      },
+      {
+        "q": "Should I arrive early for a Scenic Bordeaux River Cruise?",
+        "a": "Yes. International travelers should consider arriving at least one day before embarkation. This gives you a buffer against flight delays and time to explore Bordeaux."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Bordeaux Wine Country  A Journey Through French Gastronomy",
+    "intro": "Scenic Bordeaux River Cruises are one of Europe's strongest luxury options for travelers who want wine, food, French culture, and countryside in one seamless journey.",
+    "extendedParagraphs": [
+      "The experience is fundamentally different from a Rhine or Danube cruise. Instead of trying to visit multiple countries, you're going deeper into one of France's most celebrated regions. For wine lovers, couples, food travelers, and luxury travelers who want a more immersive French experience, Bordeaux deserves a place near the top of the river cruise list.",
+      "The journey can combine Bordeaux wine country, Saint-Émilion, Médoc and French châteaux, Garonne and Dordogne sailing, Bordeaux itself, and French cuisine. At Trips & Ships Luxury Travel, we'll help you compare the ship, suite, itinerary, and included experiences  not simply the advertised cruise price."
+    ],
+    "services": [
+      "Compare Scenic Bordeaux itineraries and ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain Scenic promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic with other luxury river cruise lines"
+    ]
+  },
+  "closingCta": {
+    "title": "Start Planning Your Scenic Bordeaux Cruise",
+    "text": "Contact Angela Hughes and the Trips & Ships Luxury Travel team to craft your bespoke French wine river journey.",
+    "buttonText": "Get in Touch",
+    "link": "/contact"
+  }
+}

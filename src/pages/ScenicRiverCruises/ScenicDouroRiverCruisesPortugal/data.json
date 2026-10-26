@@ -1,0 +1,1046 @@
+{
+  "meta": {
+    "title": "Scenic Douro River Cruises Portugal: Ultimate Luxury Guide",
+    "metaTitle": "Scenic Douro River Cruises Portugal | Porto & Douro Valley Luxury Guide",
+    "metaDescription": "Explore Scenic Douro River Cruises in Portugal. Discover Porto, Pinhão, Régua, vineyards, Port wine estates, Space-Ship suites, all-inclusive luxury, and itineraries.",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.tripsandships.com/#organization",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+        },
+        {
+          "@type": "TravelAgency",
+          "@id": "https://www.tripsandships.com/#travelagency",
+          "name": "Trips & Ships Luxury Travel",
+          "url": "https://www.tripsandships.com/",
+          "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.tripsandships.com/#person",
+          "name": "Angela Hughes",
+          "jobTitle": "CEO of Trips & Ships Luxury Travel",
+          "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/douro/#webpage",
+          "name": "Scenic Douro River Cruises in Portugal (2026) | Wine, Porto & Best Itineraries",
+          "url": "https://www.tripsandships.com/scenic-river-cruises/douro",
+          "description": "Explore Scenic Douro River Cruises through Portugal's wine country. Discover Porto, the Douro Valley, Pinhão, vineyards, wineries, excursions, cabins, costs and the best time to cruise."
+        },
+        {
+          "@type": "Article",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/douro/#article",
+          "headline": "Scenic Douro River Cruises in Portugal: The Complete Guide",
+          "description": "A complete guide to Scenic Douro River Cruises, including Porto, the Douro Valley, Pinhão, Régua, Portuguese wine and cuisine, cabins, cost, and how to choose the right sailing.",
+          "author": {
+            "@type": "Person",
+            "name": "Angela Hughes"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trips & Ships Luxury Travel"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/douro/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.tripsandships.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Scenic River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Scenic Douro River Cruises",
+              "item": "https://www.tripsandships.com/scenic-river-cruises/douro"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/douro/#itemlist",
+          "name": "Scenic Douro River Cruises  What This Guide Covers",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Quick Answer"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Why Choose a Scenic Douro River Cruise?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Where Do Scenic Douro Cruises Go?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Best Scenic Douro River Cruise Itineraries"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Best Time for a Scenic Douro River Cruise"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Scenic Douro Excursions"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Scenic Douro Cruise for Wine Lovers"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Cabins & Butler Service"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Food & Port Wine Heritage"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Couples & Families"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "name": "Cost & What's Included"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "name": "Common Booking Mistakes"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "name": "Why Book Through a Luxury Travel Advisor?"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "name": "Final Verdict"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.tripsandships.com/scenic-river-cruises/douro/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the best Scenic Douro River Cruise itinerary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For first-time travelers, an itinerary combining Porto and the Douro Valley is an excellent choice because it combines the city with Portugal's wine country and river scenery."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Scenic good for a Douro River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic is a strong option for travelers looking for luxury, an all-inclusive approach, personalized service, and destination-focused experiences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Douro River Cruises in Portugal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Scenic offers river cruise experiences focused on Portugal's Douro Valley and surrounding destinations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Douro River Cruise good for wine lovers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Wine is one of the major attractions of the Douro Valley, making this itinerary particularly appealing to wine enthusiasts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Douro cruise visit Porto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Porto is an important gateway for Douro River cruises. Exact time in Porto and whether it is included as an embarkation or disembarkation destination depends on the itinerary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time for a Scenic Douro River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spring, summer, and fall each offer different advantages. Fall can be particularly attractive to wine travelers, while spring offers lush landscapes and comfortable sightseeing conditions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a Scenic Douro cruise visit Pinhão?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pinhão is an important destination in the Douro Valley and can feature on Douro itineraries. Travelers should check their exact sailing for the scheduled ports and excursions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic visit Régua?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Régua is a major center of the Douro wine region and may feature on Douro itineraries. Confirm the exact itinerary before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Scenic Douro River Cruise good for couples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Wine, Portuguese cuisine, vineyards, scenic sailing, and luxury accommodations make the Douro particularly appealing for couples."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is a Scenic Douro cruise good for families?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Multigenerational groups can enjoy cultural experiences, scenery, history, food, and selected active excursions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are wine excursions included on a Scenic Douro cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scenic provides destination experiences as part of its overall offering, but the exact wine experiences available depend on the sailing. Review your specific itinerary before booking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which Scenic cabin is best on a Douro River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The best suite depends on your priorities. Because the Douro is highly scenic, travelers who enjoy watching the landscape may place particular value on river-view space or a Sun Lounge."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Scenic offer Butler Service on Douro cruises?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Butler Service is available with eligible Scenic suite categories. Exact services depend on the suite selected."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does a Scenic Douro River Cruise cost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pricing varies according to the sailing date, itinerary, suite category, availability, and other travel arrangements. Compare the complete value rather than only the starting fare."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I arrive early for a Scenic Douro River Cruise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. International travelers should consider arriving at least one day before the cruise, with one or two nights in Porto being particularly useful."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hero": {
+    "title": "Scenic Douro River Cruises in Portugal",
+    "subtitle": "Portugal's Dramatic Douro Valley & Wine Country in All-Inclusive Luxury",
+    "intro": "A Scenic Douro River Cruise offers a luxurious way to experience one of Europe's most beautiful wine regions. Instead of connecting a long list of major cities and countries, the journey focuses on Portugal's dramatic Douro Valley, historic villages, vineyards, wine estates, and the cultural heritage of Porto.",
+    "extendedText": "A Scenic Douro itinerary can combine Porto, the Douro Valley, Pinhão, Régua, Portuguese vineyards, wine estates, historic villages, river landscapes, Portuguese cuisine, and cultural experiences. The result is less about checking destinations off a list and more about experiencing Portugal's wine country from the river.",
+    "ctaText": "Start Planning Your Scenic Douro Cruise",
+    "ctaLink": "/contact"
+  },
+  "quickAnswer": {
+    "eyebrow": "The Quick Answer",
+    "title": "Is a Scenic Douro River Cruise Worth It? The Quick Answer",
+    "intro": "Yes  particularly for travelers who want to experience Portugal through wine, scenery, food, and culture. While the Danube and Rhine often emphasize grand cities, multiple countries, and historic castles, the Douro offers something different: deep immersion into a single, dramatic wine region.",
+    "emphasis": [
+      "Couples",
+      "Wine enthusiasts",
+      "Food lovers",
+      "Luxury travelers",
+      "First-time river cruisers",
+      "Slow-travel enthusiasts",
+      "Multigenerational travelers",
+      "Travelers celebrating a special occasion"
+    ],
+    "outro": "Douro highlights include Porto, the Douro Valley, Pinhão, Régua, Portuguese vineyards, wine estates, historic villages, and Portuguese cuisine."
+  },
+  "whyChoose": {
+    "eyebrow": "The Scenic Advantage",
+    "title": "Why Choose a Scenic Douro River Cruise?",
+    "intro": "The Douro offers something that many larger European river itineraries don't: landscape immersion. As the ship travels through the Douro Valley, vineyards rise along the hillsides and the river becomes part of the destination itself. The experience is essentially Porto → Douro Valley → vineyards → wine estates → Portuguese villages → Porto:",
+    "imageLabel": "One Ship, Through Portugal's Wine Country",
+    "callout": "Instead of repeatedly packing and unpacking, travelers can use the ship as a floating luxury base while exploring Portugal's wine country.",
+    "features": [
+      "Porto",
+      "The Douro Valley",
+      "Pinhão",
+      "Régua",
+      "Portuguese vineyards",
+      "Wine estates",
+      "Historic villages",
+      "Portuguese cuisine"
+    ]
+  },
+  "destinations": {
+    "title": "Where Do Scenic Douro River Cruises Go?",
+    "intro": "Exact destinations depend on the sailing and itinerary, but a Scenic Douro journey can include destinations and experiences around:",
+    "items": [
+      {
+        "key": "porto",
+        "title": "Porto",
+        "items": [
+          "Port wine & historic architecture",
+          "The Douro waterfront & wine cellars",
+          "An excellent place to begin or extend a Douro vacation"
+        ]
+      },
+      {
+        "key": "douro-valley",
+        "title": "The Douro Valley",
+        "items": [
+          "Terraced vineyards & steep hillsides",
+          "Wine estates along the river",
+          "Rural Portuguese scenery"
+        ]
+      },
+      {
+        "key": "pinhao",
+        "title": "Pinhão",
+        "items": [
+          "One of the best-known Douro wine destinations",
+          "Access to vineyards & wine estates",
+          "The connection between landscape and wine production"
+        ]
+      },
+      {
+        "key": "regua",
+        "title": "Régua",
+        "items": [
+          "Strong connections to the region's wine industry",
+          "Access to surrounding vineyards",
+          "Cultural attractions that put Douro wine into context"
+        ]
+      },
+      {
+        "key": "wine-country",
+        "title": "Douro Wine Country",
+        "items": [
+          "Historic connection to Port wine",
+          "Vineyards, wine estates & cuisine",
+          "One continuous journey by river"
+        ]
+      }
+    ]
+  },
+  "cta1": {
+    "title": "Not Sure Which Douro Itinerary Is Right for You?",
+    "text": "Let us help you compare Scenic Douro sailings and find the perfect fit for your trip.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "bestTimeToCruise": {
+    "title": "Best Time for a Scenic Douro River Cruise",
+    "intro": "The best time to cruise depends on what you want from your trip  spring flowers, harvest season, or warm sunny weather:",
+    "items": [
+      {
+        "key": "spring",
+        "icon": "Flower2",
+        "eyebrow": "March–May",
+        "title": "Spring",
+        "intro": "Spring offers:",
+        "items": [
+          "Green landscapes & flowers",
+          "Comfortable sightseeing conditions",
+          "Lush scenery"
+        ],
+        "outro": "It can be an excellent choice for travelers who prioritize landscape and comfortable temperatures.",
+        "accent": "adg-accent-teal"
+      },
+      {
+        "key": "summer",
+        "icon": "Sun",
+        "eyebrow": "June–August",
+        "title": "Summer",
+        "intro": "Summer brings:",
+        "items": [
+          "Long days & dramatic landscapes",
+          "Outdoor experiences",
+          "Extended sightseeing"
+        ],
+        "outro": "Temperatures can be warm, particularly in the Douro Valley, so travelers should consider their tolerance for heat when choosing dates.",
+        "accent": "adg-accent-navy"
+      },
+      {
+        "key": "fall",
+        "icon": "Leaf",
+        "eyebrow": "September–November",
+        "title": "Fall",
+        "intro": "Fall can be particularly attractive to wine enthusiasts. Highlights can include:",
+        "items": [
+          "Vineyard activity",
+          "Wine experiences",
+          "Autumn scenery & seasonal food"
+        ],
+        "outro": "If wine is your primary motivation, fall deserves serious consideration.",
+        "accent": "adg-accent-rose"
+      },
+      {
+        "key": "winter",
+        "icon": "Snowflake",
+        "eyebrow": "December–February",
+        "title": "Winter",
+        "intro": "Winter offers a quieter experience, providing:",
+        "items": [
+          "Fewer crowds",
+          "A slower pace",
+          "Quieter sightseeing"
+        ],
+        "outro": "Travelers who prioritize fewer crowds and a slower pace may still find it appealing.",
+        "accent": "adg-accent-teal"
+      }
+    ]
+  },
+  "bestItineraries": {
+    "title": "Best Scenic Douro River Cruise Itineraries",
+    "intro": "There isn't one itinerary that is right for everyone. Choosing the right cruise depends on how much time you have and what you want to experience:",
+    "items": [
+      {
+        "id": "porto-douro-valley",
+        "title": "Porto & Douro Valley",
+        "badge": "Best Overall",
+        "icon": "Compass",
+        "desc": "For first-time visitors, an itinerary combining Porto with the Douro Valley is an excellent introduction. It combines the urban character of Porto with the countryside of the Douro.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "First-time Portugal travelers",
+              "Couples",
+              "Wine lovers",
+              "Luxury & food travelers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wine-focused",
+        "title": "Douro Wine-Focused Itinerary",
+        "badge": "Wine Focus",
+        "icon": "Wine",
+        "desc": "Travelers whose main priority is wine should look for sailings with strong vineyard, wine estate, and tasting experiences.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Wine enthusiasts",
+              "Vineyard travelers",
+              "Food and wine travelers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "extended-portugal",
+        "title": "Extended Portugal Experience",
+        "badge": "Beyond the Douro",
+        "icon": "Sun",
+        "desc": "If you have additional time, consider combining the cruise with a broader Portugal vacation, including Lisbon, Porto, the Douro Valley, and additional Portuguese wine regions.",
+        "columns": [
+          {
+            "label": "Best for:",
+            "items": [
+              "Travelers with extra time",
+              "A more comprehensive Portugal journey",
+              "Wine and culture travelers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "firstTimeCruisers": {
+    "title": "Scenic Douro Cruise for First-Time River Cruisers",
+    "intro": "The Douro is an excellent option if you want to experience river cruising without a multi-country itinerary. The focus is clear: Portugal + wine + scenery + culture + cuisine. That makes it easier to build a trip around your interests.",
+    "progressionTitle": "The trip can feel like a progression:",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Porto",
+        "subtitle": "City & Port Wine"
+      },
+      {
+        "num": "02",
+        "title": "Douro Valley",
+        "subtitle": "Vineyards & Wine Estates"
+      },
+      {
+        "num": "03",
+        "title": "Pinhão & Régua",
+        "subtitle": "Villages & River Scenery"
+      }
+    ],
+    "footerCallout": "A multi-country itinerary isn't the focus.",
+    "outro": "That means you spend more time experiencing a specific region instead of constantly moving between major European cities."
+  },
+  "excursions": {
+    "eyebrow": "Onboard & Ashore",
+    "title": "Scenic Douro River Cruise Excursions",
+    "intro": "Excursions are an important part of the experience. Scenic's Freechoice program gives travelers options among available experiences, while Scenic Enrich provides specially curated experiences on qualifying sailings.",
+    "items": [
+      {
+        "icon": "Wine",
+        "title": "Wine",
+        "desc": "Explore vineyards and wine-producing areas."
+      },
+      {
+        "icon": "Utensils",
+        "title": "Food",
+        "desc": "Experience Portuguese culinary traditions."
+      },
+      {
+        "icon": "Landmark",
+        "title": "History",
+        "desc": "Discover historic towns and cultural sites."
+      },
+      {
+        "icon": "Building2",
+        "title": "Architecture",
+        "desc": "Explore Portuguese buildings and historic landmarks."
+      },
+      {
+        "icon": "Palette",
+        "title": "Culture",
+        "desc": "Experience local traditions and regional heritage."
+      },
+      {
+        "icon": "Mountain",
+        "title": "Active Travel",
+        "desc": "Walking and cycling opportunities may be available on eligible itineraries."
+      }
+    ]
+  },
+  "cta2": {
+    "eyebrow": "A Balanced Introduction",
+    "title": "First Time on a River Cruise?",
+    "text": "The Douro gives you Porto, the Douro Valley, Pinhão, and Régua  all in one trip. You can think of the journey simply as Porto → vineyards → wine estates → Portuguese villages, rather than a complicated multi-country itinerary.",
+    "buttonText": "Contact Angela Hughes",
+    "link": "/contact",
+    "badge": "40+ Years Experience"
+  },
+  "cabinsAndButler": {
+    "cabins": {
+      "title": "Scenic Douro River Cruise Cabins & Suites",
+      "text": "The right suite can make a significant difference. When choosing your accommodation, consider:",
+      "features": [
+        "Deck & suite category",
+        "River views",
+        "Sun Lounge",
+        "Space",
+        "Storage",
+        "Bathroom design",
+        "Butler Service inclusion"
+      ],
+      "outro": "Because the Douro is one of the most scenic river cruise destinations in Europe, a suite with a good river view or a Sun Lounge can be especially rewarding."
+    },
+    "butler": {
+      "title": "Scenic Butler Service on the Douro",
+      "text": "Butler Service is an important part of Scenic's luxury experience. Depending on the suite category, services may include:",
+      "features": [
+        "Unpacking and packing assistance",
+        "Shoe shine service",
+        "Morning tea and coffee service",
+        "Beverage service in your suite",
+        "Dinner and excursion arrangements",
+        "General assistance throughout the sailing"
+      ],
+      "outro": "It's an additional level of personalized service that can make the journey feel more effortless."
+    }
+  },
+  "diningAndHistory": {
+    "foodAndWine": {
+      "title": "Scenic Douro Cruise for Food Lovers",
+      "lead": "Portugal is an increasingly popular destination for food travelers.",
+      "text": "The Douro adds a regional dimension to that experience.",
+      "listTitle": "Travelers can experience:",
+      "features": [
+        "Fresh Portuguese seafood",
+        "Regional meats and cheeses",
+        "Traditional pastries (including pastel de nata)",
+        "Olive oil tastings",
+        "Wine-paired dinners onboard",
+        "Local specialties in river towns"
+      ],
+      "outro": "The onboard dining often highlights Portuguese flavors alongside broader European cuisine, while onshore excursions introduce you to local markets, restaurants, and traditional quintas."
+    },
+    "historyAndArchitecture": {
+      "title": "Port Wine Heritage on the Douro",
+      "lead": "The Douro Valley is the oldest demarcated wine region in the world (established in 1756).",
+      "text": "Port wine is central to the history and identity of the region.",
+      "listTitle": "Key aspects of the Port wine experience:",
+      "features": [
+        "Tawny, Ruby, and Vintage Port tastings",
+        "Historic Port wine lodges in Vila Nova de Gaia (Porto)",
+        "Visits to traditional quintas (wine estates)",
+        "Understanding the fortification process",
+        "Vineyard walks on steep schist terraces",
+        "Pairing Port with Portuguese cheeses and chocolates"
+      ],
+      "outro": "Understanding the connection between the vineyards upriver and the wine lodges in Porto gives travelers a deeper appreciation for one of the world's great winemaking traditions."
+    }
+  },
+  "wineAndSunLounge": {
+    "wineLovers": {
+      "title": "Scenic Douro for Wine Lovers",
+      "lead": "If wine is the primary reason you're considering Portugal, the Douro should be high on your list.",
+      "desc": "The best experience isn't simply tasting wine. It's understanding where it comes from.",
+      "callout": "Pinhão and Régua are particularly important for wine enthusiasts.",
+      "contextTitle": "A well-planned Douro journey can connect:",
+      "pathway": [
+        "river",
+        "vineyard",
+        "quinta",
+        "tasting",
+        "wine cellars in Porto"
+      ],
+      "outro": "That connection helps put the wine into context rather than simply visiting a tasting room."
+    },
+    "sunLounge": {
+      "title": "Scenic Sun Lounge Experience on the Douro",
+      "lead": "Scenic's Sun Lounge concept can be especially attractive on the Douro. The river journey itself is part of the experience.",
+      "listTitle": "You can watch:",
+      "features": [
+        "Vineyards",
+        "Terraced hills",
+        "Portuguese villages",
+        "River landscapes",
+        "Wine estates"
+      ],
+      "desc": "from the comfort of your suite.",
+      "outro": "For a scenic destination like the Douro, this can be one of the most valuable features of the accommodation."
+    }
+  },
+  "familiesAndCouples": {
+    "families": {
+      "title": "Scenic Douro Cruises for Families & Multigenerational Groups",
+      "intro": "The Douro can also work well for families traveling across generations  select excursions based on activity level rather than trying to make everyone participate in every experience.",
+      "generations": [
+        {
+          "role": "Older travelers may appreciate:",
+          "features": [
+            "Relaxed river travel",
+            "Luxury service",
+            "Scenic sailing",
+            "Cultural experiences"
+          ]
+        },
+        {
+          "role": "Adults may enjoy:",
+          "features": [
+            "Wine",
+            "Food",
+            "History",
+            "Luxury accommodations"
+          ]
+        },
+        {
+          "role": "Older children and teenagers may like:",
+          "features": [
+            "Active excursions",
+            "Kayaking or biking",
+            "Scenery",
+            "New destinations"
+          ]
+        }
+      ],
+      "quote": "The Douro offers a relaxed setting where different generations can share meals, scenery, and downtime without feeling rushed.",
+      "imageLabel": "Douro Multigenerational Travel"
+    },
+    "couples": {
+      "title": "Scenic Douro Cruise for Couples",
+      "intro": "The Douro is particularly well suited to romantic travel.",
+      "experiencesTitle": "Couples can combine:",
+      "features": [
+        "Wine tasting",
+        "Vineyard scenery",
+        "Portuguese cuisine",
+        "Porto",
+        "Historic towns",
+        "Scenic sailing",
+        "Luxury accommodations"
+      ],
+      "quote": "The combination makes the Douro a strong choice for anniversaries, honeymoons, and milestone birthdays.",
+      "imageLabel": "Douro Couples Cruise"
+    }
+  },
+  "cost": {
+    "title": "How Much Does a Scenic Douro River Cruise Cost?",
+    "intro": "The cost depends on:",
+    "factors": [
+      "Sailing date",
+      "Itinerary",
+      "Cruise length",
+      "Suite category",
+      "Availability",
+      "Promotions",
+      "Airfare",
+      "Hotels & transfers"
+    ],
+    "calloutTitle": "Compare the Total Experience",
+    "calloutText": "Because Scenic operates on an all-inclusive model, comparing the headline price against other lines can be misleading. Always factor in what's included  drinks, excursions, transfers, gratuities, and butler service.",
+    "tip": "Travelers should compare the total value of what is included rather than just the starting price."
+  },
+  "cta3": {
+    "title": "Want More on Scenic Cabins?",
+    "text": "Read our guides to Scenic Space-Ships & Sun Lounge balconies and cabin categories.",
+    "buttonText": "Get a Custom Quote",
+    "link": "/contact"
+  },
+  "whatsIncluded": {
+    "title": "What Is Included on a Scenic Douro River Cruise?",
+    "intro": "Scenic's all-inclusive approach can include:",
+    "sectionIntro": "Depending on your specific cruise, inclusions can include:",
+    "items": [
+      "Accommodation",
+      "Meals",
+      "Selected beverages",
+      "Wi-Fi",
+      "Scenic Freechoice experiences",
+      "Scenic Enrich experiences",
+      "Entertainment",
+      "Personalized service"
+    ],
+    "highlightTitle": "True All-Inclusive Luxury",
+    "highlightDesc": "Once onboard, there are virtually no out-of-pocket expenses. From premium drinks to daily excursions and butler service, your journey is seamless and stress-free."
+  },
+  "comparison": {
+    "title": "Scenic Douro vs. Other Luxury River Cruises",
+    "intro": "Here is how Scenic compares to other river cruise lines on the Douro River in Portugal:",
+    "headers": [
+      "Cruise Line",
+      "Particularly Appealing For"
+    ],
+    "table": [
+      {
+        "line": "Scenic",
+        "appeal": "All-inclusive luxury and personalized service"
+      },
+      {
+        "line": "Riverside",
+        "appeal": "Spacious luxury suites"
+      },
+      {
+        "line": "Uniworld",
+        "appeal": "Boutique design and distinctive interiors"
+      },
+      {
+        "line": "Tauck",
+        "appeal": "Highly inclusive guided travel"
+      },
+      {
+        "line": "AmaWaterways",
+        "appeal": "Active excursions and destination experiences"
+      },
+      {
+        "line": "Avalon",
+        "appeal": "Open-air balcony concept"
+      },
+      {
+        "line": "Viking",
+        "appeal": "Broad European river cruise network"
+      }
+    ],
+    "rows": [
+      [
+        "Scenic",
+        "All-inclusive luxury and personalized service"
+      ],
+      [
+        "Riverside",
+        "Spacious luxury suites"
+      ],
+      [
+        "Uniworld",
+        "Boutique design and distinctive interiors"
+      ],
+      [
+        "Tauck",
+        "Highly inclusive guided travel"
+      ],
+      [
+        "AmaWaterways",
+        "Active excursions and destination experiences"
+      ],
+      [
+        "Avalon",
+        "Open-air balcony concept"
+      ],
+      [
+        "Viking",
+        "Broad European river cruise network"
+      ]
+    ]
+  },
+  "mistakes": {
+    "title": "Common Scenic Douro Cruise Mistakes to Avoid",
+    "intro": "Avoid these common pitfalls when planning your Douro River Cruise:",
+    "items": [
+      "Choosing a sailing without considering the season",
+      "Treating the cruise as only a wine trip",
+      "Not researching wine excursions",
+      "Arriving in Porto on embarkation day",
+      "Ignoring the cabin",
+      "Not adding time in Porto"
+    ]
+  },
+  "duration": {
+    "title": "How Many Days Do You Need for a Scenic Douro Cruise?",
+    "lead": "The cruise itself provides a strong introduction to Portugal's wine country, but additional nights can improve the overall experience.",
+    "before": {
+      "title": "Before the Cruise",
+      "subtitle": "Good for:",
+      "items": [
+        "1–2 nights in Porto",
+        "Recovering from jet lag",
+        "Protecting against flight delays",
+        "Exploring historic Porto and Vila Nova de Gaia wine lodges"
+      ]
+    },
+    "after": {
+      "title": "After the Cruise",
+      "subtitle": "Good for:",
+      "items": [
+        "Lisbon city extension",
+        "Sintra and Cascais day trips",
+        "Algarve coastal relaxation",
+        "Northern Portugal (Braga, Guimarães)"
+      ]
+    },
+    "tip": "Spending an extra couple of days before or after your cruise allows you to experience Portugal beyond the river valley."
+  },
+  "whyBookAdvisor": {
+    "eyebrow": "Personalized Trip Preparation",
+    "title": "Why Book a Scenic Douro Cruise Through a Luxury Travel Advisor?",
+    "quoteDeco": "“",
+    "leftTitle": "The Right Itinerary Depends on Your Priorities",
+    "leftBody": "A wine enthusiast may want a different experience from a traveler primarily interested in food, Portuguese history, architecture, photography, family travel, or romantic travel. A luxury travel advisor can help coordinate the entire journey, which is especially useful if the Douro cruise is one part of a longer Portugal or European vacation.",
+    "alertText": "Booking early through an advisor can help maximize both availability and value.",
+    "rightIntro": "A luxury travel advisor can help coordinate:",
+    "benefits": [
+      {
+        "icon": "Plane",
+        "label": "Flights"
+      },
+      {
+        "icon": "Home",
+        "label": "Porto hotels"
+      },
+      {
+        "icon": "Ship",
+        "label": "Scenic cruise"
+      },
+      {
+        "icon": "MapPin",
+        "label": "Suite selection"
+      },
+      {
+        "icon": "Compass",
+        "label": "Excursions"
+      },
+      {
+        "icon": "Calendar",
+        "label": "Transfers"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "Travel insurance"
+      },
+      {
+        "icon": "Sparkles",
+        "label": "Pre- and post-cruise travel"
+      }
+    ]
+  },
+  "credentials": {
+    "eyebrow": "Luxury Travel Expertise",
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "countries": "Traveled to more than 121 countries",
+    "authorityBoxTitle": "Angela Hughes Authority Box",
+    "items": [
+      {
+        "icon": "Award",
+        "label": "CEO of Trips & Ships Luxury Travel"
+      },
+      {
+        "icon": "Star",
+        "label": "Over 40 years in the travel industry"
+      },
+      {
+        "icon": "MapPin",
+        "label": "Traveled to more than 121 countries"
+      },
+      {
+        "icon": "Award",
+        "label": "Founder of Luxury Travel University"
+      },
+      {
+        "icon": "Users",
+        "label": "Global luxury travel speaker and trainer"
+      },
+      {
+        "icon": "Users",
+        "label": "Weekly industry columnist"
+      },
+      {
+        "icon": "Users",
+        "label": "Travel Leaders Network Advisory Board member"
+      },
+      {
+        "icon": "Award",
+        "label": "2024 Luxury Travel Influencer of the Year"
+      },
+      {
+        "icon": "Star",
+        "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse"
+      },
+      {
+        "icon": "Award",
+        "label": "Featured in major travel publications globally"
+      },
+      {
+        "icon": "Ship",
+        "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Scenic Douro River Cruises before booking.",
+    "items": [
+      {
+        "q": "What is the best Scenic Douro River Cruise itinerary?",
+        "a": "For first-time travelers, an itinerary combining Porto and the Douro Valley is an excellent choice because it combines the city with Portugal's wine country and river scenery."
+      },
+      {
+        "q": "Is Scenic good for a Douro River Cruise?",
+        "a": "Scenic is a strong option for travelers looking for luxury, an all-inclusive approach, personalized service, and destination-focused experiences."
+      },
+      {
+        "q": "Does Scenic offer Douro River Cruises in Portugal?",
+        "a": "Yes. Scenic offers river cruise experiences focused on Portugal's Douro Valley and surrounding destinations."
+      },
+      {
+        "q": "Is a Scenic Douro River Cruise good for wine lovers?",
+        "a": "Yes. Wine is one of the major attractions of the Douro Valley, making this itinerary particularly appealing to wine enthusiasts."
+      },
+      {
+        "q": "Does a Scenic Douro cruise visit Porto?",
+        "a": "Porto is an important gateway for Douro River cruises. Exact time in Porto and whether it is included as an embarkation or disembarkation destination depends on the itinerary."
+      },
+      {
+        "q": "What is the best time for a Scenic Douro River Cruise?",
+        "a": "Spring, summer, and fall each offer different advantages. Fall can be particularly attractive to wine travelers, while spring offers lush landscapes and comfortable sightseeing conditions."
+      },
+      {
+        "q": "Does a Scenic Douro cruise visit Pinhão?",
+        "a": "Pinhão is an important destination in the Douro Valley and can feature on Douro itineraries. Travelers should check their exact sailing for the scheduled ports and excursions."
+      },
+      {
+        "q": "Does Scenic visit Régua?",
+        "a": "Régua is a major center of the Douro wine region and may feature on Douro itineraries. Confirm the exact itinerary before booking."
+      },
+      {
+        "q": "Is the Scenic Douro River Cruise good for couples?",
+        "a": "Yes. Wine, Portuguese cuisine, vineyards, scenic sailing, and luxury accommodations make the Douro particularly appealing for couples."
+      },
+      {
+        "q": "Is a Scenic Douro cruise good for families?",
+        "a": "Yes. Multigenerational groups can enjoy cultural experiences, scenery, history, food, and selected active excursions."
+      },
+      {
+        "q": "Are wine excursions included on a Scenic Douro cruise?",
+        "a": "Scenic provides destination experiences as part of its overall offering, but the exact wine experiences available depend on the sailing. Review your specific itinerary before booking."
+      },
+      {
+        "q": "Which Scenic cabin is best on a Douro River Cruise?",
+        "a": "The best suite depends on your priorities. Because the Douro is highly scenic, travelers who enjoy watching the landscape may place particular value on river-view space or a Sun Lounge."
+      },
+      {
+        "q": "Does Scenic offer Butler Service on Douro cruises?",
+        "a": "Butler Service is available with eligible Scenic suite categories. Exact services depend on the suite selected."
+      },
+      {
+        "q": "How much does a Scenic Douro River Cruise cost?",
+        "a": "Pricing varies according to the sailing date, itinerary, suite category, availability, and other travel arrangements. Compare the complete value rather than only the starting fare."
+      },
+      {
+        "q": "Should I arrive early for a Scenic Douro River Cruise?",
+        "a": "Yes. International travelers should consider arriving at least one day before the cruise, with one or two nights in Porto being particularly useful."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "eyebrow": "Final Verdict",
+    "title": "Douro Wine Country  Slowing Down to Experience a Landscape",
+    "intro": "Scenic Douro River Cruises are an outstanding choice for travelers who want to experience Portugal through wine, scenery, food, and culture.",
+    "extendedText": "The Douro isn't primarily about collecting cities. It's about slowing down and experiencing a landscape. For wine lovers, couples, food travelers, and luxury travelers looking for a more immersive European experience, the Douro is one of the most distinctive river cruise destinations in Europe.\n\nThe journey can combine Douro wine country, terraced vineyards, Porto, wine estates, Portuguese cuisine, Douro River scenery, and historic towns. At Trips & Ships Luxury Travel, we'll help you compare the ship, suite, itinerary, and included experiences  not simply the advertised cruise price.",
+    "ctaText": "Start Planning Your Scenic Douro Cruise",
+    "ctaLink": "/contact",
+    "listTitle": "Our luxury planning services include:",
+    "services": [
+      "Compare Scenic Douro itineraries and ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain Scenic promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic with other luxury river cruise lines"
+    ]
+  },
+  "closingCta": {
+    "title": "Ready to Experience the Douro River in Luxury?",
+    "subtitle": "Let Angela Hughes and Trips & Ships Luxury Travel design your perfect Portuguese river cruise.",
+    "buttonText": "Contact Angela Hughes",
+    "link": "/contact"
+  }
+}
