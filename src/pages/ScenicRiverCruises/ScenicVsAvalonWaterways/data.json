@@ -78,8 +78,8 @@
     "headers": ["Category", "Scenic", "Avalon Waterways"],
     "rows": [
       ["Overall positioning", "Luxury", "Premium"],
-      ["All-inclusive approach", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐"],
-      ["Suites", "Excellent", "⭐⭐⭐⭐⭐"],
+      ["All-inclusive approach", "★★★★★", "★★★★☆"],
+      ["Suites", "Excellent", "★★★★★"],
       ["Balcony concept", "Sun Lounge", "Open-Air Balcony"],
       ["Service", "Highly personalized", "Relaxed & attentive"],
       ["Dining", "Luxury-focused", "Destination-focused"],
@@ -87,8 +87,8 @@
       ["Active options", "Available", "Strong"],
       ["Couples", "Excellent", "Excellent"],
       ["Families", "Good", "Good"],
-      ["Luxury travelers", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐"],
-      ["Value-focused travelers", "Good", "⭐⭐⭐⭐⭐"],
+      ["Luxury travelers", "★★★★★", "★★★★☆"],
+      ["Value-focused travelers", "Good", "★★★★★"],
       ["First-time cruisers", "Excellent", "Excellent"]
     ],
     "bottomLine": {

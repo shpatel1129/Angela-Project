@@ -32,6 +32,13 @@ import SuiteOptionsImage from "../../../assets/ScenicRiverCruises/ScenicRiverCru
 import ReadyToPlanImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruisesFamilies/ready-to-plan-family-trip-scenic-spirit-sunset-cta.webp";
 import MeaningfulWayImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruisesFamilies/meaningful-family-travel-scenic-danube-budapest-verdict.webp";
 import StartPlanningImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruisesFamilies/start-planning-scenic-family-cruise-butler-service-cta.webp";
+import RhineItineraryImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruisesFamilies/scenic-family-rhine-river-breisach.webp";
+import DanubeItineraryImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruisesFamilies/scenic-family-danube-river-budapest-bastion.webp";
+
+const itineraryImages = {
+  "Rhine River — Best Overall": RhineItineraryImage,
+  "Danube River — Excellent for Culture": DanubeItineraryImage,
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -150,7 +157,7 @@ const ScenicRiverCruisesForFamilies = () => {
     description: item.description,
     bestFor: item.bestFor,
     highlights: item.highlights || item.bullets,
-    // image: itineraryImages[item.title],
+    image: itineraryImages[item.title],
   }));
 
   return (

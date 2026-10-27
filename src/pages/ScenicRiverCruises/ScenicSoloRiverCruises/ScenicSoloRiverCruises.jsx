@@ -22,25 +22,31 @@ import ExpertCredentials from "../../../components/ui/ExpertCredentials";
 import FAQAccordion from "../../../components/ui/FAQAccordion";
 import LuxuryIntroSection from "../../../components/ui/LuxuryIntroSection";
 
-// Asset Images (Commented out per request)
-// import AboutImage from "../../../assets/AboutAngela.jpeg";
-// import HeroImage from "../../../assets/ScenicRiverCruises/ScenicSoloTravel/scenic-solo-hero.jpg";
-// import SoloDiningImage from "../../../assets/ScenicRiverCruises/ScenicSoloTravel/scenic-solo-dining.jpg";
-// import BalconySuiteImage from "../../../assets/ScenicRiverCruises/ScenicSoloTravel/scenic-balcony-suite.jpg";
-// import ExcursionImage from "../../../assets/ScenicRiverCruises/ScenicSoloTravel/scenic-solo-excursion.jpg";
+// Asset Images (Unique, matching images from assets/ScenicRiverCruises/ScenicSoloRiverCruises)
+import heroBgImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/hero-scenic-solo-cruise-rhine-loop.webp";
+import storyIntroImg1 from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-sundeck-pearl.webp";
+import storyIntroImg2 from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-crystal-dining-opal.webp";
+import editorialIntroImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-social-entertainment.webp";
+import inclusionsImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-inclusions-beverages.webp";
+import cta1BgImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-cta1-durnstein.webp";
+import rhineRiverImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-rhine-river-cruise.webp";
+import danubeRiverImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-danube-river-budapest.webp";
+// import rhoneRiverImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-rhone-river-france.webp";
+// import douroRiverImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-douro-river-portugal.webp";
+import cabinStandardImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-standard-suite.webp";
+import cabinBalconyImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-balcony-suite.webp";
+import cta2BgImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-cta2-bernkastel.webp";
+import cta3BgImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-cta3-douro-evening.webp";
+import angelaHughesImg from "../../../assets/AboutAngela.jpeg";
+import finalVerdictImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-verdict-palace-concert.webp";
+import finalCtaBgImg from "../../../assets/ScenicRiverCruises/ScenicSoloRiverCruises/scenic-solo-final-cta-durnstein.webp";
 
-// Itinerary Images (Commented out per request)
-// import RhineImg from "../../../assets/ScenicRiverCruises/ScenicRiverCruises/scenic-rhine-river-cruise-castles-vineyards.webp";
-// import DanubeImg from "../../../assets/ScenicRiverCruises/ScenicRiverCruises/scenic-danube-river-cruise-budapest-vienna.webp";
-// import RhoneImg from "../../../assets/ScenicRiverCruises/ScenicRiverCruises/scenic-rhone-river-cruise-provence-france.webp";
-// import DouroImg from "../../../assets/ScenicRiverCruises/ScenicRiverCruises/scenic-douro-river-cruise-portugal-valley.webp";
-
-// const itineraryImages = {
-//   "Rhine River — Best Overall": RhineImg,
-//   "Danube River — Perfect for Culture": DanubeImg,
-//   "Rhône River — Ideal for Food & Wine": RhoneImg,
-//   "Douro River — Best for Relaxation": DouroImg,
-// };
+const riverImages = {
+  "Rhine River — Best Overall": rhineRiverImg,
+  "Danube River — Perfect for Culture": danubeRiverImg,
+  // "Rhône River — Ideal for Food & Wine": rhoneRiverImg,
+  // "Douro River — Best for Relaxation": douroRiverImg,
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -248,7 +254,7 @@ const ScenicSoloRiverCruises = () => {
     description: item.description,
     bestFor: item.bestFor,
     highlights: item.highlights || item.bullets,
-    // image: itineraryImages[item.title],
+    image: riverImages[item.title],
   }));
 
   return (
@@ -271,6 +277,7 @@ const ScenicSoloRiverCruises = () => {
         subtitle={data.hero.subtitle}
         description={data.hero.description}
         badge={data.hero.badge}
+        backgroundImage={heroBgImg}
         primaryCtaText={data.hero.primaryCtaText}
         primaryCtaLink={data.hero.primaryCtaLink}
       />
@@ -281,6 +288,8 @@ const ScenicSoloRiverCruises = () => {
         heading={data.quickAnswer.title}
         paragraphs={data.quickAnswer.paragraphs}
         highlights={data.quickAnswer.highlights}
+        image1={storyIntroImg1}
+        image2={storyIntroImg2}
         ctaText={data.quickAnswer.ctaText}
         ctaLink={data.quickAnswer.ctaLink}
       />
@@ -293,6 +302,7 @@ const ScenicSoloRiverCruises = () => {
         highlights={data.isScenicGoodSolo.highlights}
         badgeTitle={data.isScenicGoodSolo.badgeTitle}
         badgeDescription={data.isScenicGoodSolo.badgeDescription}
+        image={editorialIntroImg}
       />
 
       {/* ── Section 4: What Is a Single Supplement? ───────────────── */}
@@ -300,6 +310,7 @@ const ScenicSoloRiverCruises = () => {
         title={data.singleSupplement.title}
         inclusions={data.singleSupplement.inclusions}
         expertNote={data.singleSupplement.expertNote}
+        image={inclusionsImg}
       />
 
       {/* ── Section 5: How to Save Money as a Solo Traveler ───────── */}
@@ -316,6 +327,7 @@ const ScenicSoloRiverCruises = () => {
         description={data.inlineCta1.description}
         buttonText={data.inlineCta1.buttonText}
         buttonLink={data.inlineCta1.buttonLink}
+        image={cta1BgImg}
       />
 
       {/* ── Section 7: Best Scenic Itineraries for Solo Travelers ─── */}
@@ -340,15 +352,18 @@ const ScenicSoloRiverCruises = () => {
       {/* ── Section 9: Which Cabin Should Solo Travelers Choose? ──── */}
       <CabinFeatureGrid
         data={data.cabinChoice}
+        image1={cabinStandardImg}
+        image2={cabinBalconyImg}
       />
 
       {/* ── Section 10: Inline CTA 2 ──────────────────────────────── */}
       <CenterCTA
-        theme="light"
+        theme="dark"
         title={data.inlineCta2.title}
         description={data.inlineCta2.description}
         buttonText={data.inlineCta2.buttonText}
         buttonLink={data.inlineCta2.buttonLink}
+        image={cta2BgImg}
       />
 
       {/* ── Section 11: Is Scenic Safe for Solo Travelers? ────────── */}
@@ -375,6 +390,7 @@ const ScenicSoloRiverCruises = () => {
         description={data.inlineCta3.description}
         buttonText={data.inlineCta3.buttonText}
         buttonLink={data.inlineCta3.buttonLink}
+        image={cta3BgImg}
       />
 
       {/* ── Section 15: Scenic vs. Other Cruise Lines ─────────────── */}
@@ -392,6 +408,7 @@ const ScenicSoloRiverCruises = () => {
         name={data.angelaHughes.name}
         title={data.angelaHughes.title}
         badge={data.angelaHughes.badge}
+        image={angelaHughesImg}
         authorityBoxTitle={data.angelaHughes.authorityBoxTitle}
         authoritySubtitle={data.angelaHughes.authoritySubtitle}
         experienceBadge={data.angelaHughes.experienceBadge}
@@ -417,6 +434,7 @@ const ScenicSoloRiverCruises = () => {
         heading={data.finalVerdict.title}
         description={data.finalVerdict.paragraphs.join("\n\n")}
         highlights={data.finalVerdict.sections[0].bullets}
+        image={finalVerdictImg}
       />
 
       {/* ── Section 20: Final Center CTA ──────────────────────────── */}
@@ -426,6 +444,7 @@ const ScenicSoloRiverCruises = () => {
         description="Ready to plan your unforgettable Scenic River Cruise? Let Angela Hughes and the Trips & Ships Luxury Travel team find the best single supplement promotions and coordinate your journey."
         buttonText="Contact Angela Hughes"
         buttonLink={data.finalVerdict.ctaLink}
+        image={finalCtaBgImg}
       />
     </div>
   );

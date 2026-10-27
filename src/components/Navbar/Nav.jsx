@@ -1282,7 +1282,7 @@ const Nav = () => {
               </NavLink>
 
               <NavLink
-                to="/scenic-river-cruises/scenic-vs-celebrity/"
+                to="/scenic-river-cruises/scenic-vs-celebrity"
                 className="nav-dropdown-single"
                 onClick={toggleMenu}
               >
@@ -3014,7 +3014,7 @@ const Nav = () => {
             </NavLink>
 
             <NavLink
-              to="/scenic-river-cruises/scenic-vs-celebrity/"
+              to="/scenic-river-cruises/scenic-vs-celebrity"
               className="nav-dropdown-single"
               onClick={toggleMenu}
             >

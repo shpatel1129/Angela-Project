@@ -1,0 +1,1079 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#person",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO of Trips & Ships Luxury Travel",
+        "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-celebrity/#webpage",
+        "name": "Scenic vs Celebrity River Cruises (2026): Which Is Better?",
+        "url": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-celebrity",
+        "description": "Compare Scenic vs Celebrity River Cruises for 2026. Explore luxury, suites, service, dining, inclusions, excursions, ships, pricing, families, and who each cruise line is best for."
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-celebrity/#article",
+        "headline": "Scenic vs Celebrity: Which Luxury River Cruise Is Better?",
+        "description": "A complete comparison of Scenic and Celebrity, including suites, balconies, dining, service, excursions, inclusions, ships, price, and who each line is best for.",
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-celebrity/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Scenic River Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Scenic vs Celebrity River Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-celebrity"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-celebrity/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Scenic better than Celebrity River Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic is currently the stronger choice for travelers seeking an established ultra-luxury river cruise program and comprehensive all-inclusive experience. Celebrity may be better for travelers who prioritize new ships and contemporary design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity River Cruises really luxury?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity's current river ships include suite-level butler service, modern accommodations, premium amenities, innovative public spaces and luxury-oriented design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better ships, Scenic or Celebrity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic has the advantage in established river-cruise experience. Celebrity has the advantage in newness and innovative ship design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better suites?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both offer luxury suites. Scenic is known for its Sun Lounge concept, while Celebrity offers innovative Infinite Balcony and Skylight Infinite Balcony designs on its newer river ships."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity River Cruises have butler service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity's current river-ship information states that butler service is available in every suite."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Scenic more all-inclusive than Celebrity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic has a particularly clear all-inclusive positioning and describes its river cruises as truly all-inclusive. Celebrity also includes many services and amenities, but travelers should compare the exact fare and sailing inclusions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better dining?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic has a more established luxury river dining program. Celebrity brings its contemporary culinary approach to new ships and includes innovative spaces such as the Magic Edge on Celebrity Seeker."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better excursions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic currently has the advantage in established excursion experience and program breadth. Celebrity's river program is focused on immersive European experiences and continues to develop."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for couples?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are excellent. Scenic is ideal for couples who want established ultra-luxury, while Celebrity is appealing to couples who want a modern and new river-cruise experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for families?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity may be attractive for families and multigenerational groups seeking a contemporary product. Scenic is stronger for travelers who prioritize a traditional ultra-luxury river experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for solo travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both can work well. Compare single supplements, cabin categories, excursion structure and dining arrangements for your specific sailing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity River Cruises good for someone who already cruises Celebrity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Brand familiarity is one of Celebrity River Cruises' strongest advantages for existing Celebrity ocean guests."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for a Danube river cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic currently has the advantage in established Danube river-cruise experience. Celebrity offers a compelling alternative for travelers attracted to its new ships and contemporary design."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for a Rhine river cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both can be considered, but compare the exact itinerary, ship, suite and included excursions. Scenic has extensive experience on Europe's major rivers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Scenic more expensive than Celebrity?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There is no universal answer. Prices vary by departure, suite, itinerary and inclusions. Compare the total trip cost rather than the headline cruise fare."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has the newest river ships?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's current river program is built around a new generation of purpose-built ships, including Celebrity Compass and Celebrity Seeker."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better balcony cabins?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic's Sun Lounge is an established and distinctive feature. Celebrity's Infinite Balcony and Skylight Infinite Balcony concepts provide a more technologically innovative approach."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I choose Scenic or Celebrity River Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Choose Scenic for established ultra-luxury river cruising and comprehensive inclusions. Choose Celebrity if you prefer modern design, new ships and the familiar Celebrity brand."
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "hero": {
+    "title": "Scenic vs Celebrity River Cruises \nWhich Is Better?",
+    "subtitle": "Scenic and Celebrity River Cruises represent two different approaches to luxury river cruising.",
+    "readMore": "Scenic is an established ultra-luxury river cruise brand with a mature European and Southeast Asian river program. It describes its river cruises as a truly all-inclusive, 5-star experience, with personalized service, luxury suites and curated destination experiences.\n\nCelebrity River Cruises is a newer entrant bringing the Celebrity Cruises design philosophy to Europe's rivers. Its current river program emphasizes modern ship design, spacious accommodations, open-air spaces, technology, wellness and immersive European experiences. Celebrity's river fleet currently includes ships such as Celebrity Compass and Celebrity Seeker, with additional vessels planned in its expanding program.\n\nThat creates an interesting choice: Scenic is the stronger option for travelers seeking established ultra-luxury river cruising and a highly inclusive experience. Celebrity may appeal more to travelers who want a fresh, contemporary river experience built around modern design and the familiar Celebrity brand.",
+    "primaryCta": {
+      "text": "Start Planning Your River Cruise",
+      "link": "/contact"
+    },
+    "secondaryCta": {
+      "text": "Explore Comparison",
+      "link": "#quick-answer"
+    }
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Scenic vs Celebrity",
+    "headers": [
+      "Category",
+      "Scenic",
+      "Celebrity"
+    ],
+    "rows": [
+      [
+        "Overall positioning",
+        "Ultra-luxury",
+        "Contemporary premium/luxury"
+      ],
+      [
+        "River-cruise experience",
+        "★★★★★ (Decades of European Mastery)",
+        "★★★★☆ (New Generation Program)"
+      ],
+      [
+        "Ship design",
+        "★★★★★ (Space-Ships with Vitality Pools)",
+        "★★★★★ (Sleek Architectural Spaces)"
+      ],
+      [
+        "Suite experience",
+        "★★★★★ (Sun Lounges & Butler Service)",
+        "★★★★★ (Skylight Infinite Balconies)"
+      ],
+      [
+        "Butler service",
+        "★★★★★ (Included in every suite)",
+        "★★★★★ (Dedicated suite butler care)"
+      ],
+      [
+        "All-inclusive approach",
+        "★★★★★ (Truly All-Inclusive 5-Star)",
+        "★★★★☆ (Inclusive Fare + Inclusions)"
+      ],
+      [
+        "Dining",
+        "★★★★★ (Multiple Venues & Degustation)",
+        "★★★★★ (Contemporary Menus & Magic Edge)"
+      ],
+      [
+        "Excursions",
+        "★★★★★ (Freechoice & Enrich Included)",
+        "★★★★☆ (Immersive European Discovery)"
+      ],
+      [
+        "Wellness",
+        "★★★★★ (Salt Therapy Lounges & E-Bikes)",
+        "★★★★★ (Spa, Fitness & Open-Air Decks)"
+      ],
+      [
+        "Destination experience",
+        "★★★★★ (Exclusive Castle & Palace Events)",
+        "★★★★★ (Immersive Port Programming)"
+      ],
+      [
+        "Fleet experience",
+        "★★★★★ (Mature Global River Fleet)",
+        "Developing (Celebrity Compass & Seeker)"
+      ],
+      [
+        "Couples",
+        "★★★★★ (Intimate, Romance & Butler Care)",
+        "★★★★★ (Modern Sophistication)"
+      ],
+      [
+        "Families",
+        "★★★★☆ (Adult-Oriented Luxury)",
+        "★★★★★ (Multigenerational & Edge Appeal)"
+      ],
+      [
+        "Best for",
+        "Established ultra-luxury",
+        "Modern Celebrity-style river cruising"
+      ]
+    ],
+    "calloutText": "Bottom line",
+    "bottomLine": "Choose Scenic if you want established ultra-luxury river cruising, comprehensive all-inclusive inclusions, signature Sun Lounges, and proven operational expertise across Europe. Choose Celebrity if you prefer modern design, innovative architectural features like Skylight Infinite Balconies and Magic Edge dining pods, and continuity with the beloved Celebrity ocean brand."
+  },
+  "biggestDifference": {
+    "eyebrow": "BRAND PHILOSOPHY & BACKGROUND",
+    "heading": "The Biggest Difference Between Scenic and Celebrity",
+    "paragraphs": [
+      "The biggest difference is experience and positioning. Scenic has been developing its river-cruise product for decades. Its current European and Southeast Asian programs include established itineraries across the Rhine, Main, Danube, Moselle, Seine, Rhône, Saône, Bordeaux and Douro, among others.",
+      "Celebrity is entering river cruising with a new generation of purpose-built ships designed around modern aesthetics, cutting-edge technology, and open-air connectivity."
+    ],
+    "highlights": [
+      "Scenic = Established Ultra-Luxury River Cruising with decades of proven European operational mastery",
+      "Celebrity = Modern, New-Generation River Cruising bringing contemporary ocean luxury to Europe's rivers",
+      "Scenic features signature Sun Lounge glass conservatories, butler service in all suites, and Table La Rive fine dining",
+      "Celebrity debuts innovative Skylight Infinite Balcony Suites and cantilevered Magic Edge dining pods on Celebrity Seeker"
+    ],
+    "ctaText": "Compare Brand Philosophies",
+    "ctaLink": "/contact"
+  },
+  "whoIsItFor": {
+    "title": "What Are Scenic and Celebrity Best Known For?",
+    "subtitle": "Comparing two distinct visions of luxury cruising across Europe's legendary waterways.",
+    "sailing": {
+      "label": "Scenic Luxury Cruises",
+      "philosophy": "Ultra-Luxury Truly All-Inclusive",
+      "points": [
+        "Ultra-luxury positioning with truly all-inclusive travel",
+        "Personalized butler service included across all suites",
+        "Multiple dining venues & Table La Rive degustation",
+        "Scenic Freechoice and exclusive Scenic Enrich events",
+        "Salt therapy lounges, vitality pools & onboard wellness",
+        "Unlimited premium beverages and fine wines all day",
+        "Ideal for travelers who want seamless luxury without nickel-and-diming"
+      ]
+    },
+    "allSuite": {
+      "label": "Celebrity River Cruising",
+      "philosophy": "Modern Design & Contemporary Luxury",
+      "points": [
+        "Modern ship architecture and contemporary interior styling",
+        "Innovative Skylight Infinite Balcony Suites with drop-down glass",
+        "Dedicated butler service across all suite accommodations",
+        "Cantilevered Magic Edge dining pods on Celebrity Seeker",
+        "Intimate guest counts with vibrant open-air public lounges",
+        "Familiar brand experience and loyalty continuity for ocean cruisers",
+        "Ideal for travelers who prefer modern aesthetics and new-generation ships"
+      ]
+    },
+    "scenic": {
+      "badge": "SCENIC LUXURY CRUISES",
+      "title": "Scenic River Cruises: What Makes Them Different?",
+      "text": "Scenic's river product is built around a comprehensive luxury experience. Scenic describes its river journeys as being designed so that travelers can enjoy a seamless experience with details handled 'to the Nth Degree.' Scenic is particularly attractive to travelers who want luxury without constantly thinking about what costs extra.",
+      "points": [
+        "Ultra-luxury truly all-inclusive travel",
+        "Personalized butler service in all suites",
+        "Multiple dining venues & degustation tables",
+        "Scenic Freechoice & Enrich excursions",
+        "Salt therapy lounges & onboard wellness",
+        "Unlimited premium beverages all day"
+      ]
+    },
+    "celebrity": {
+      "badge": "CELEBRITY RIVER CRUISES",
+      "title": "Celebrity River Cruises: What Makes Them Different?",
+      "text": "Celebrity is bringing the modern luxury design of its ocean fleet onto Europe's rivers. It emphasizes stylish modern design, open-air public spaces, fewer guests, spacious accommodations, and innovative balcony concepts. Celebrity Compass features Skylight Infinite Balcony Suites, while Celebrity Seeker introduces features including its Magic Edge dining pods. Best for travelers who want modern ship design and the familiar Celebrity brand experience.",
+      "points": [
+        "Modern ship design & architectural interiors",
+        "Innovative Skylight Infinite Balcony Suites",
+        "Butler service across all river suites",
+        "Intimate guest capacity & open-air lounges",
+        "Magic Edge panoramic dining pods",
+        "Brand continuity for passionate Celebrity cruisers"
+      ]
+    }
+  },
+  "cta1": {
+    "title": "Not Sure Which River Cruise Line Fits Your Travel Style?",
+    "description": "Let us help you compare Scenic and Celebrity departures, suite categories, and special offers to find your ideal match.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "cabins": {
+    "title": "Scenic vs Celebrity Suites",
+    "subtitle": "Accommodations are central to any luxury vacation, but each line takes a distinct architectural approach.",
+    "oceanview": {
+      "title": "Scenic Suites",
+      "bestFor": "Scenic's suite experience is one of its strongest differentiators, combining spacious layouts with dedicated Butler Service.",
+      "advantages": [
+        "Spacious living areas with contemporary luxury styling",
+        "Signature Scenic Sun Lounge glass-enclosed balcony transformation",
+        "Queen-size luxury bedding and nightly turndown service",
+        "Complimentary in-suite minibar restocked daily",
+        "Luxury bathrooms with fine amenities & separate living areas in higher categories",
+        "Dedicated Butler Service tailored to your suite category"
+      ]
+    },
+    "balcony": {
+      "title": "Celebrity Suites",
+      "bestFor": "Celebrity brings innovative ocean ideas to river cruising with king-size beds, river-facing accommodations, and Infinite Balconies.",
+      "advantages": [
+        "King-size luxury beds with premium linens",
+        "River-facing accommodations maximizing natural daylight",
+        "Innovative Infinite Balcony & Skylight Infinite Balcony Suites",
+        "Butler service provided across all suite accommodations",
+        "Premium bathroom amenities and plush bathrobes",
+        "Complimentary in-suite minibar and complimentary in-room breakfast"
+      ]
+    }
+  },
+  "betterSuites": {
+    "title": "Which Has Better Suites?",
+    "subtitle": "For a specific sailing, compare the exact suite category, not just the brand name.",
+    "features": [
+      {
+        "title": "Scenic Suite Edge",
+        "description": "Scenic offers a mature luxury suite product with flexible indoor/outdoor river viewing via the Scenic Sun Lounge, dedicated butler care across all categories, and spacious multi-room Royal Suites."
+      },
+      {
+        "title": "Celebrity Suite Edge",
+        "description": "Celebrity offers cutting-edge modern suite design, innovative Skylight Infinite Balcony Suites with oversized ceiling glass, king-size beds, and suite-level butler service across every suite."
+      },
+      {
+        "title": "Suite Comparison Strategy",
+        "description": "Compare square footage, bathroom layouts, and storage for your specific sailing date rather than judging purely by the brand name."
+      },
+      {
+        "title": "Butler Support Model",
+        "description": "Both brands provide suite-level butler service, making this one of the closest and most competitive suite faceoffs on European rivers."
+      }
+    ]
+  },
+  "balconies": {
+    "title": "Scenic vs Celebrity Balcony Experience",
+    "subtitle": "This may be one of the closest comparisons in modern luxury river cruising.",
+    "features": [
+      {
+        "title": "Scenic: Sun Lounge",
+        "description": "Scenic's signature balcony concept creates a flexible all-weather space where travelers can enjoy river views while remaining protected from changing weather through push-button glass transformation."
+      },
+      {
+        "title": "Celebrity: Infinite Balcony & Skylight Suites",
+        "description": "Celebrity is applying its modern balcony technology to river cruising. Celebrity describes its Skylight Infinite Balcony Suites as a new river accommodation concept incorporating an expansive ceiling window, push-button drop-down glass, and integrated living space."
+      },
+      {
+        "title": "Winner Verdict",
+        "description": "Scenic wins for the established, all-weather Sun Lounge reliability; Celebrity wins for technological innovation and open-sky natural lighting."
+      }
+    ]
+  },
+  "travelerProfiles": {
+    "title": "Which Cruise Line Fits Your Travel Style?",
+    "subtitle": "Tailored recommendations across key luxury traveler profiles.",
+    "profiles": [
+      {
+        "id": "first-time",
+        "label": "First-Time Cruisers",
+        "title": "Scenic vs Celebrity for First-Time River Cruisers",
+        "lead": "First-time river cruisers often wonder which brand provides the smoother introduction to European river cruising.",
+        "scenicRecommendation": "Scenic is currently the safer recommendation for first-time river cruisers because of its established river experience, mature excursion program and truly all-inclusive pricing.",
+        "celebrityRecommendation": "Celebrity is a great choice for travelers who already know and love Celebrity's ocean cruises and want to experience that brand's design and service style on Europe's rivers.",
+        "takeaway": "If you want proven river expertise, choose Scenic; if you want a familiar modern cruise experience, choose Celebrity.",
+        "name": "First-Time Cruisers",
+        "tagline": "Scenic vs Celebrity for First-Time River Cruisers",
+        "quote": "First-time river cruisers often wonder which brand provides the smoother introduction to European river cruising.",
+        "recommendation": "If you want proven river expertise, choose Scenic; if you want a familiar modern cruise experience, choose Celebrity.",
+        "reason": "Scenic is currently the safer recommendation for first-time river cruisers because of its established river experience, mature excursion program and truly all-inclusive pricing. Celebrity is a great choice for travelers who already know and love Celebrity's ocean cruises and want to experience that brand's design and service style on Europe's rivers.",
+        "whyFits": [
+          "Scenic Choice: Scenic is currently the safer recommendation for first-time river cruisers because of its established river experience, mature excursion program and truly all-inclusive pricing.",
+          "Celebrity Choice: Celebrity is a great choice for travelers who already know and love Celebrity's ocean cruises and want to experience that brand's design and service style on Europe's rivers.",
+          "Key Takeaway: If you want proven river expertise, choose Scenic; if you want a familiar modern cruise experience, choose Celebrity."
+        ]
+      },
+      {
+        "id": "couples",
+        "label": "Couples & Romance",
+        "title": "Scenic vs Celebrity for Couples",
+        "lead": "Both cruise lines offer exceptional romance, intimate spaces, and luxury amenities for couples traveling together.",
+        "scenicRecommendation": "Choose Scenic for established ultra-luxury, romantic suites with private balconies, personalized butler service, premium dining across multiple venues, and curated castle dinners.",
+        "celebrityRecommendation": "Choose Celebrity for contemporary ship design, stylish open-air lounges, innovative Skylight Infinite Balcony Suites, and energetic modern luxury ambiance.",
+        "takeaway": "Both lines excel for couples  Scenic provides traditional European elegance, while Celebrity provides sleek modern romance.",
+        "name": "Couples & Romance",
+        "tagline": "Scenic vs Celebrity for Couples",
+        "quote": "Both cruise lines offer exceptional romance, intimate spaces, and luxury amenities for couples traveling together.",
+        "recommendation": "Both lines excel for couples  Scenic provides traditional European elegance, while Celebrity provides sleek modern romance.",
+        "reason": "Choose Scenic for established ultra-luxury, romantic suites with private balconies, personalized butler service, premium dining across multiple venues, and curated castle dinners. Choose Celebrity for contemporary ship design, stylish open-air lounges, innovative Skylight Infinite Balcony Suites, and energetic modern luxury ambiance.",
+        "whyFits": [
+          "Scenic Choice: Choose Scenic for established ultra-luxury, romantic suites with private balconies, personalized butler service, premium dining across multiple venues, and curated castle dinners.",
+          "Celebrity Choice: Choose Celebrity for contemporary ship design, stylish open-air lounges, innovative Skylight Infinite Balcony Suites, and energetic modern luxury ambiance.",
+          "Key Takeaway: Both lines excel for couples  Scenic provides traditional European elegance, while Celebrity provides sleek modern romance."
+        ]
+      },
+      {
+        "id": "honeymoons",
+        "label": "Honeymoons & Anniversaries",
+        "title": "Scenic vs Celebrity for Honeymoons and Anniversaries",
+        "lead": "Celebrating a major milestone calls for extraordinary attention to detail, memorable dining, and seamless service.",
+        "scenicRecommendation": "Scenic excels for milestone celebrations with truly all-inclusive luxury, private evening palace concerts, champagne upon arrival, and white-glove butler pampering.",
+        "celebrityRecommendation": "Celebrity provides a glamorous modern backdrop with stunning architectural spaces, rooftop relaxation, innovative dining, and personalized suite attention.",
+        "takeaway": "Scenic is ideal for timeless European grandeur; Celebrity is ideal for couples seeking chic, contemporary celebration.",
+        "name": "Honeymoons & Anniversaries",
+        "tagline": "Scenic vs Celebrity for Honeymoons and Anniversaries",
+        "quote": "Celebrating a major milestone calls for extraordinary attention to detail, memorable dining, and seamless service.",
+        "recommendation": "Scenic is ideal for timeless European grandeur; Celebrity is ideal for couples seeking chic, contemporary celebration.",
+        "reason": "Scenic excels for milestone celebrations with truly all-inclusive luxury, private evening palace concerts, champagne upon arrival, and white-glove butler pampering. Celebrity provides a glamorous modern backdrop with stunning architectural spaces, rooftop relaxation, innovative dining, and personalized suite attention.",
+        "whyFits": [
+          "Scenic Choice: Scenic excels for milestone celebrations with truly all-inclusive luxury, private evening palace concerts, champagne upon arrival, and white-glove butler pampering.",
+          "Celebrity Choice: Celebrity provides a glamorous modern backdrop with stunning architectural spaces, rooftop relaxation, innovative dining, and personalized suite attention.",
+          "Key Takeaway: Scenic is ideal for timeless European grandeur; Celebrity is ideal for couples seeking chic, contemporary celebration."
+        ]
+      },
+      {
+        "id": "families",
+        "label": "Best for Families",
+        "title": "Scenic vs Celebrity for Families",
+        "lead": "River cruising with family requires considering cabin configurations, guest demographics, and onboard entertainment.",
+        "scenicRecommendation": "Scenic welcomes families but remains primarily an adult-oriented ultra-luxury river cruise with serene public lounges and sophisticated cultural programming.",
+        "celebrityRecommendation": "Celebrity may be more appealing for multigenerational families and adult children who appreciate contemporary ocean-style amenities, open-air socializing, and modern design.",
+        "takeaway": "For multigenerational travelers, Celebrity's contemporary energy offers an edge, while Scenic suits mature family groups seeking tranquility.",
+        "name": "Best for Families",
+        "tagline": "Scenic vs Celebrity for Families",
+        "quote": "River cruising with family requires considering cabin configurations, guest demographics, and onboard entertainment.",
+        "recommendation": "For multigenerational travelers, Celebrity's contemporary energy offers an edge, while Scenic suits mature family groups seeking tranquility.",
+        "reason": "Scenic welcomes families but remains primarily an adult-oriented ultra-luxury river cruise with serene public lounges and sophisticated cultural programming. Celebrity may be more appealing for multigenerational families and adult children who appreciate contemporary ocean-style amenities, open-air socializing, and modern design.",
+        "whyFits": [
+          "Scenic Choice: Scenic welcomes families but remains primarily an adult-oriented ultra-luxury river cruise with serene public lounges and sophisticated cultural programming.",
+          "Celebrity Choice: Celebrity may be more appealing for multigenerational families and adult children who appreciate contemporary ocean-style amenities, open-air socializing, and modern design.",
+          "Key Takeaway: For multigenerational travelers, Celebrity's contemporary energy offers an edge, while Scenic suits mature family groups seeking tranquility."
+        ]
+      },
+      {
+        "id": "solo",
+        "label": "Solo Travelers",
+        "title": "Scenic vs Celebrity for Solo Travelers",
+        "lead": "Solo travelers need to evaluate single supplements, cabin categories, and social atmosphere onboard.",
+        "scenicRecommendation": "Scenic offers single supplement promotions on select European departures, intimate dining venues, and dedicated butler care that helps solo travelers feel exceptionally cared for.",
+        "celebrityRecommendation": "Celebrity is attractive to solo travelers who prefer modern social spaces, energetic lounge atmospheres, and staying within a recognized global cruise brand.",
+        "takeaway": "Compare specific departure single supplements: Scenic provides high-touch luxury care; Celebrity provides vibrant contemporary mingling.",
+        "name": "Solo Travelers",
+        "tagline": "Scenic vs Celebrity for Solo Travelers",
+        "quote": "Solo travelers need to evaluate single supplements, cabin categories, and social atmosphere onboard.",
+        "recommendation": "Compare specific departure single supplements: Scenic provides high-touch luxury care; Celebrity provides vibrant contemporary mingling.",
+        "reason": "Scenic offers single supplement promotions on select European departures, intimate dining venues, and dedicated butler care that helps solo travelers feel exceptionally cared for. Celebrity is attractive to solo travelers who prefer modern social spaces, energetic lounge atmospheres, and staying within a recognized global cruise brand.",
+        "whyFits": [
+          "Scenic Choice: Scenic offers single supplement promotions on select European departures, intimate dining venues, and dedicated butler care that helps solo travelers feel exceptionally cared for.",
+          "Celebrity Choice: Celebrity is attractive to solo travelers who prefer modern social spaces, energetic lounge atmospheres, and staying within a recognized global cruise brand.",
+          "Key Takeaway: Compare specific departure single supplements: Scenic provides high-touch luxury care; Celebrity provides vibrant contemporary mingling."
+        ]
+      },
+      {
+        "id": "celebrity-fans",
+        "label": "Celebrity Ocean Fans",
+        "title": "Scenic vs Celebrity for Celebrity Ocean Cruise Fans",
+        "lead": "If you already enjoy Celebrity Cruises' ocean fleet, should you try Celebrity River Cruises or opt for Scenic?",
+        "scenicRecommendation": "Choose Scenic if you want dedicated river-cruise expertise, a mature ultra-luxury river program, extensive all-inclusive inclusions, and established river waterways.",
+        "celebrityRecommendation": "Choose Celebrity River if you already love the Celebrity brand, prefer modern architectural design, and want to stay within a familiar cruise family.",
+        "takeaway": "Scenic wins for river-specific expertise and inclusions; Celebrity wins for brand continuity and modern Edge-series design philosophy.",
+        "name": "Celebrity Ocean Fans",
+        "tagline": "Scenic vs Celebrity for Celebrity Ocean Cruise Fans",
+        "quote": "If you already enjoy Celebrity Cruises' ocean fleet, should you try Celebrity River Cruises or opt for Scenic?",
+        "recommendation": "Scenic wins for river-specific expertise and inclusions; Celebrity wins for brand continuity and modern Edge-series design philosophy.",
+        "reason": "Choose Scenic if you want dedicated river-cruise expertise, a mature ultra-luxury river program, extensive all-inclusive inclusions, and established river waterways. Choose Celebrity River if you already love the Celebrity brand, prefer modern architectural design, and want to stay within a familiar cruise family.",
+        "whyFits": [
+          "Scenic Choice: Choose Scenic if you want dedicated river-cruise expertise, a mature ultra-luxury river program, extensive all-inclusive inclusions, and established river waterways.",
+          "Celebrity Choice: Choose Celebrity River if you already love the Celebrity brand, prefer modern architectural design, and want to stay within a familiar cruise family.",
+          "Key Takeaway: Scenic wins for river-specific expertise and inclusions; Celebrity wins for brand continuity and modern Edge-series design philosophy."
+        ]
+      }
+    ]
+  },
+  "dining": {
+    "title": "Scenic vs Celebrity Dining",
+    "lead": "Both brands take dining seriously, but their culinary philosophies reflect their distinct maritime backgrounds.",
+    "scenic": {
+      "title": "Scenic Dining",
+      "text": "Scenic has a mature, highly developed river dining program featuring multiple distinct venues onboard, including Crystal Dining, Table La Rive 6-course degustation with sommelier wine pairings, casual River Café selections, and 24-hour in-suite dining.",
+      "points": [
+        "Multiple dining venues onboard Space-Ships",
+        "Crystal Dining room with flexible open seating",
+        "Table La Rive 6-course degustation with paired fine wines",
+        "River Café for artisan casual bites, pastries & gelatos",
+        "All meals, premium spirits and fine wines included with zero surcharges"
+      ]
+    },
+    "celebrity": {
+      "title": "Celebrity Dining",
+      "text": "Celebrity brings its contemporary culinary philosophy to Europe's rivers, highlighted by fresh regional menus, stylish open-seating venues, and innovative architectural features like the Magic Edge dining pods on Celebrity Seeker.",
+      "points": [
+        "Contemporary menus inspired by European destinations",
+        "Innovative Magic Edge cantilevered dining pods on Celebrity Seeker",
+        "Open-air lounge and terrace dining options",
+        "Suite-level in-room breakfast and specialty treats",
+        "Selected beverages and dining included in cruise fare"
+      ]
+    },
+    "verdict": {
+      "scenicEdge": "Scenic wins for its proven multi-venue degustation program and comprehensive all-inclusive dining.",
+      "celebrityEdge": "Celebrity wins for architectural culinary innovation and contemporary dining concepts."
+    }
+  },
+  "cta2": {
+    "title": "Have Specific Dietary or Dining Preferences?",
+    "description": "Let Angela Hughes coordinate personalized culinary arrangements, specialty dining reservations, and dietary requirements before you step onboard.",
+    "buttonText": "Speak with Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "service": {
+    "title": "Scenic vs Celebrity Butler Service",
+    "lead": "Service is a cornerstone of the luxury experience. Both brands provide butler service, making this an exceptionally close matchup.",
+    "scenic": {
+      "title": "Scenic Butler Service",
+      "text": "Scenic includes butler service for all guests across every suite category. Butler responsibilities include beverage service, garment pressing, shoe shining, packing and unpacking assistance, and in-suite dining coordination.",
+      "features": [
+        "Butler service included in every suite category onboard",
+        "Personalized beverage service and daily minibar replenishment",
+        "Complimentary garment pressing and shoe shine",
+        "Packing and unpacking assistance upon request",
+        "In-suite dining delivery and itinerary coordination"
+      ]
+    },
+    "celebrity": {
+      "title": "Celebrity Butler Service",
+      "text": "Celebrity's current river-ship information confirms that butler service is available in every suite, bringing the high-touch care of The Retreat from its ocean fleet onto European rivers.",
+      "features": [
+        "Butler service available across all river suites",
+        "Personalized unpacking and packing support",
+        "In-suite breakfast delivery and afternoon refreshment service",
+        "Priority shore excursion and onboard service arrangements",
+        "Attentive contemporary hospitality tailored to suite guests"
+      ]
+    },
+    "verdict": "Very close. Celebrity's inclusion of butler service in every suite is a particularly important point for travelers comparing the two brands."
+  },
+  "tourDirectors": {
+    "title": "Scenic vs Celebrity: Excursions",
+    "lead": "A river cruise is ultimately about the destinations and how deeply you connect with European culture ashore.",
+    "scenic": {
+      "title": "Scenic Excursion Model",
+      "text": "Scenic has a mature excursion model built around Scenic Freechoice (allowing travelers to choose active, cultural, or relaxed excursions daily) and Scenic Enrich (exclusive private events such as classical concerts in Viennese palaces or private castle banquets)."
+    },
+    "celebrity": {
+      "title": "Celebrity Excursion Model",
+      "text": "Celebrity's new river program focuses on immersive European experiences, bringing travelers closer to local culture, history, cuisine, and world-renowned destinations through curated shore exploration."
+    },
+    "notes": [
+      {
+        "label": "Scenic advantage",
+        "text": "More established excursion infrastructure, broader variety, and private Enrich palace events included."
+      },
+      {
+        "label": "Celebrity advantage",
+        "text": "Fresh approach to European destination experiences tailored to contemporary travelers."
+      }
+    ],
+    "winner": "Scenic has the advantage in excursion experience, variety, and private Enrich palace events. Celebrity is the compelling choice for travelers seeking a fresh, modern approach to European destination immersion."
+  },
+  "whatsIncluded": {
+    "title": "Scenic vs Celebrity: Is One More All-Inclusive?",
+    "scenicTitle": "Scenic Space-Ships",
+    "scenicText": "Scenic explicitly markets its river cruises as truly all-inclusive. Cruise fares include all meals across multiple venues, unlimited premium beverages all day long, all Freechoice excursions, private Enrich concerts, butler service in all suites, all gratuities, airport transfers, and e-bikes.",
+    "tauckTitle": "Celebrity Riverboats",
+    "tauckText": "Celebrity includes substantial elements in the river fare, covering accommodations, dining, selected beverages, and core services, with additional luxury benefits attached to suite categories. Travelers should verify exact package inclusions for their chosen departure.",
+    "inclusions": [
+      {
+        "feature": "All Meals Onboard",
+        "scenic": "Included across all venues (including degustation)",
+        "celebrity": "Included in main dining venues"
+      },
+      {
+        "feature": "Beverages & Fine Wines",
+        "scenic": "Included all day (premium spirits, wine, cocktails)",
+        "celebrity": "Included selected beverage packages"
+      },
+      {
+        "feature": "Butler Service",
+        "scenic": "Included for EVERY suite category",
+        "celebrity": "Included in all suite accommodations"
+      },
+      {
+        "feature": "Shore Excursions",
+        "scenic": "All Freechoice & Enrich events included",
+        "celebrity": "Selected curated tours included"
+      },
+      {
+        "feature": "Gratuities & Tipping",
+        "scenic": "100% included onboard and ashore",
+        "celebrity": "Included in standard river fare"
+      },
+      {
+        "feature": "Airport Transfers",
+        "scenic": "Included on cruise start and end days",
+        "celebrity": "Included with selected fare packages"
+      }
+    ],
+    "expertNote": "Winner: Scenic for the clearest established truly all-inclusive positioning with zero out-of-pocket expenses."
+  },
+  "ships": {
+    "title": "Scenic vs Celebrity: Which Has Better Ships?",
+    "scenic": {
+      "title": "Scenic Space-Ships",
+      "text": "Scenic's fleet of European Space-Ships is purpose-built for luxury river travel, featuring spacious public lounges, Salt Therapy Lounges, sun deck Vitality Pools, e-bikes, and all-weather Sun Lounges.",
+      "points": [
+        "Spacious luxury Space-Ships accommodating 160-170 guests",
+        "Signature Scenic Sun Lounge glass-enclosed balconies",
+        "Salt therapy wellness chambers & wellness spas",
+        "Top-deck Vitality Pools and walking tracks",
+        "Fleet of electrically assisted e-bikes for shore touring"
+      ]
+    },
+    "celebrity": {
+      "title": "Celebrity River Fleet",
+      "text": "Celebrity is launching a brand-new generation of purpose-built river ships, including Celebrity Compass and Celebrity Seeker, incorporating modern architectural lines, open-air venues, and high-tech features.",
+      "points": [
+        "Brand-new purpose-built vessels with contemporary aesthetics",
+        "Innovative Skylight Infinite Balcony Suites with ceiling glass",
+        "Cantilevered Magic Edge dining pods on Celebrity Seeker",
+        "Sleek rooftop lounges and sun deck social hubs",
+        "Intimate guest counts ensuring personalized onboard space"
+      ]
+    },
+    "winner": {
+      "scenicEdge": "Scenic wins for established river engineering, salt therapy wellness, and all-weather Sun Lounges.",
+      "celebrityEdge": "Celebrity wins for architectural innovation, brand-new vessels, and contemporary open-air spaces."
+    }
+  },
+  "priceAndValue": {
+    "title": "Scenic vs Celebrity: Price & Value Comparison",
+    "subtitle": "Luxury river cruise pricing changes based on river, ship, suite category, season, availability, and inclusions.",
+    "scenic": {
+      "title": "Scenic Value Formula",
+      "formula": "Truly All-Inclusive Luxury Fare",
+      "summary": "Scenic's upfront fare includes virtually every onboard and onshore expense: all dining, fine wines, premium spirits, butler service, excursions, private palace concerts, tipping, and airport transfers.",
+      "edge": "Zero surprise out-of-pocket expenses from departure to return."
+    },
+    "celebrity": {
+      "title": "Celebrity Value Formula",
+      "formula": "Modern Luxury River Fare + Inclusions",
+      "summary": "Celebrity includes accommodations, dining, selected beverages, and suite butler service, with optional add-ons depending on promotion and booking class.",
+      "edge": "Attractive introductory pricing on brand-new ships for existing Celebrity loyalty members."
+    },
+    "compareMethod": {
+      "compare": "Total trip cost ÷ total inclusions",
+      "ratherThan": "Advertised headline cruise fare"
+    }
+  },
+  "cta3": {
+    "title": "A Great Itinerary Beats a Bigger Brand Name",
+    "description": "Neither line wins universally on itineraries  the better choice depends on destination, departure date, duration, ports, and pre/post-cruise arrangements.",
+    "buttonText": "Compare River Itineraries",
+    "buttonLink": "/contact"
+  },
+  "prosAndCons": {
+    "title": "Scenic vs Celebrity: Pros & Cons",
+    "scenic": {
+      "title": "Scenic River Cruises",
+      "pros": [
+        "Established ultra-luxury river brand with decades of experience",
+        "Truly all-inclusive pricing with zero out-of-pocket costs",
+        "Butler service included across every suite category",
+        "Signature Scenic Sun Lounge all-weather balcony concept",
+        "Exclusive Scenic Enrich private palace concerts & castle dinners",
+        "Extensive European river network and proven fleet reliability"
+      ],
+      "cons": [
+        "Higher upfront advertised price point",
+        "Traditional luxury atmosphere may feel quiet for nightlife seekers",
+        "Limited dedicated facilities for young children"
+      ]
+    },
+    "celebrity": {
+      "title": "Celebrity River Cruises",
+      "pros": [
+        "Brand-new purpose-built ships with cutting-edge design",
+        "Innovative Skylight Infinite Balcony Suites with ceiling glass",
+        "Butler service provided across all suite accommodations",
+        "Unique architectural features like Magic Edge dining pods",
+        "Strong brand continuity and appeal for Celebrity ocean cruisers",
+        "Modern, energetic, and contemporary luxury atmosphere"
+      ],
+      "cons": [
+        "Newer river program with less historical river operational data",
+        "Fewer established European river routes compared to Scenic",
+        "Inclusions and pricing structures may require closer comparison"
+      ]
+    },
+    "scenicPros": [
+      "Established ultra-luxury river brand with decades of experience",
+      "Truly all-inclusive pricing with zero out-of-pocket costs",
+      "Butler service included across every suite category",
+      "Signature Scenic Sun Lounge all-weather balcony concept",
+      "Exclusive Scenic Enrich private palace concerts & castle dinners",
+      "Extensive European river network and proven fleet reliability"
+    ],
+    "scenicCons": [
+      "Higher upfront advertised price point",
+      "Traditional luxury atmosphere may feel quiet for nightlife seekers",
+      "Limited dedicated facilities for young children"
+    ],
+    "celebrityPros": [
+      "Brand-new purpose-built ships with cutting-edge design",
+      "Innovative Skylight Infinite Balcony Suites with ceiling glass",
+      "Butler service provided across all suite accommodations",
+      "Unique architectural features like Magic Edge dining pods",
+      "Strong brand continuity and appeal for Celebrity ocean cruisers",
+      "Modern, energetic, and contemporary luxury atmosphere"
+    ],
+    "celebrityCons": [
+      "Newer river program with less historical river operational data",
+      "Fewer established European river routes compared to Scenic",
+      "Inclusions and pricing structures may require closer comparison"
+    ]
+  },
+  "whoShouldChoose": {
+    "title": "Scenic vs Celebrity  Which Should You Choose?",
+    "lead": "Your decision comes down to whether you prioritize established ultra-luxury mastery or cutting-edge contemporary design.",
+    "scenicChoice": {
+      "badge": "CHOOSE SCENIC IF",
+      "title": "Choose Scenic If You Want:",
+      "points": [
+        "An established, proven ultra-luxury river cruise product",
+        "A truly all-inclusive experience with zero out-of-pocket costs",
+        "Dedicated butler service included across all suites",
+        "Signature Scenic Sun Lounge glass balconies for all-weather cruising",
+        "Exclusive Scenic Enrich private palace concerts and castle events",
+        "Mature river expertise across Rhine, Danube, France & Portugal"
+      ]
+    },
+    "celebrityChoice": {
+      "badge": "CHOOSE CELEBRITY IF",
+      "title": "Choose Celebrity If You Want:",
+      "points": [
+        "Modern architectural design and brand-new purpose-built ships",
+        "Innovative Skylight Infinite Balconies and contemporary suites",
+        "A fresh, contemporary luxury river atmosphere with open-air spaces",
+        "Exciting culinary features like Magic Edge dining pods",
+        "Suite-level butler service in modern, tech-forward staterooms",
+        "Familiar brand experience and loyalty continuity with Celebrity ocean cruises"
+      ]
+    },
+    "cards": [
+      {
+        "badge": "CHOOSE SCENIC IF",
+        "title": "Scenic River Cruises",
+        "description": "For travelers seeking proven European river-cruise mastery and truly all-inclusive peace of mind.",
+        "items": [
+          "An established, proven ultra-luxury river cruise product",
+          "A truly all-inclusive experience with zero out-of-pocket costs",
+          "Dedicated butler service included across all suites",
+          "Signature Scenic Sun Lounge glass balconies for all-weather cruising",
+          "Exclusive Scenic Enrich private palace concerts and castle events",
+          "Mature river expertise across Rhine, Danube, France & Portugal"
+        ]
+      },
+      {
+        "badge": "CHOOSE CELEBRITY IF",
+        "title": "Celebrity River Cruises",
+        "description": "For travelers seeking sleek modern architecture, brand-new ships, and ocean-brand continuity.",
+        "items": [
+          "Modern architectural design and brand-new purpose-built ships",
+          "Innovative Skylight Infinite Balconies and contemporary suites",
+          "A fresh, contemporary luxury river atmosphere with open-air spaces",
+          "Exciting culinary features like Magic Edge dining pods",
+          "Suite-level butler service in modern, tech-forward staterooms",
+          "Familiar brand experience and loyalty continuity with Celebrity ocean cruises"
+        ]
+      }
+    ]
+  },
+  "authority": {
+    "badge": "EXPERT RIVER CRUISE ADVISOR",
+    "title": "Angela Hughes Luxury Authority",
+    "bio": [
+      "Angela Hughes is an internationally recognized luxury travel expert, CEO of Trips & Ships Luxury Travel, and an award-winning travel advisor with more than 40 years of industry leadership.",
+      "Having traveled to more than 121 countries and experienced the world's most prestigious luxury river and ocean vessels firsthand, Angela provides clients with unbiased, nuanced comparisons between Scenic, Celebrity, and other leading luxury brands."
+    ],
+    "credentials": [
+      "40+ years of luxury travel planning leadership",
+      "Traveled to over 121 countries worldwide",
+      "Top-tier certified advisor with Scenic & luxury cruise lines",
+      "Specialist in suite category selection, promotions & VIP perks"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know when comparing Scenic and Celebrity river cruises.",
+    "items": [
+      {
+        "question": "Is Scenic better than Celebrity River Cruises?",
+        "answer": "Scenic is currently the stronger choice for travelers seeking an established ultra-luxury river cruise program and comprehensive all-inclusive experience. Celebrity may be better for travelers who prioritize new ships and contemporary design."
+      },
+      {
+        "question": "Is Celebrity River Cruises really luxury?",
+        "answer": "Yes. Celebrity's current river ships include suite-level butler service, modern accommodations, premium amenities, innovative public spaces and luxury-oriented design."
+      },
+      {
+        "question": "Which has better ships, Scenic or Celebrity?",
+        "answer": "Scenic has the advantage in established river-cruise experience. Celebrity has the advantage in newness and innovative ship design."
+      },
+      {
+        "question": "Which has better suites?",
+        "answer": "Both offer luxury suites. Scenic is known for its Sun Lounge concept, while Celebrity offers innovative Infinite Balcony and Skylight Infinite Balcony designs on its newer river ships."
+      },
+      {
+        "question": "Does Celebrity River Cruises have butler service?",
+        "answer": "Yes. Celebrity's current river-ship information states that butler service is available in every suite."
+      },
+      {
+        "question": "Is Scenic more all-inclusive than Celebrity?",
+        "answer": "Scenic has a particularly clear all-inclusive positioning and describes its river cruises as truly all-inclusive. Celebrity also includes many services and amenities, but travelers should compare the exact fare and sailing inclusions."
+      },
+      {
+        "question": "Which has better dining?",
+        "answer": "Scenic has a more established luxury river dining program. Celebrity brings its contemporary culinary approach to new ships and includes innovative spaces such as the Magic Edge on Celebrity Seeker."
+      },
+      {
+        "question": "Which has better excursions?",
+        "answer": "Scenic currently has the advantage in established excursion experience and program breadth. Celebrity's river program is focused on immersive European experiences and continues to develop."
+      },
+      {
+        "question": "Which is better for couples?",
+        "answer": "Both are excellent. Scenic is ideal for couples who want established ultra-luxury, while Celebrity is appealing to couples who want a modern and new river-cruise experience."
+      },
+      {
+        "question": "Which is better for families?",
+        "answer": "Celebrity may be attractive for families and multigenerational groups seeking a contemporary product. Scenic is stronger for travelers who prioritize a traditional ultra-luxury river experience."
+      },
+      {
+        "question": "Which is better for solo travelers?",
+        "answer": "Both can work well. Compare single supplements, cabin categories, excursion structure and dining arrangements for your specific sailing."
+      },
+      {
+        "question": "Is Celebrity River Cruises good for someone who already cruises Celebrity?",
+        "answer": "Yes. Brand familiarity is one of Celebrity River Cruises' strongest advantages for existing Celebrity ocean guests."
+      },
+      {
+        "question": "Which is better for a Danube river cruise?",
+        "answer": "Scenic currently has the advantage in established Danube river-cruise experience. Celebrity offers a compelling alternative for travelers attracted to its new ships and contemporary design."
+      },
+      {
+        "question": "Which is better for a Rhine river cruise?",
+        "answer": "Both can be considered, but compare the exact itinerary, ship, suite and included excursions. Scenic has extensive experience on Europe's major rivers."
+      },
+      {
+        "question": "Is Scenic more expensive than Celebrity?",
+        "answer": "There is no universal answer. Prices vary by departure, suite, itinerary and inclusions. Compare the total trip cost rather than the headline cruise fare."
+      },
+      {
+        "question": "Which has the newest river ships?",
+        "answer": "Celebrity's current river program is built around a new generation of purpose-built ships, including Celebrity Compass and Celebrity Seeker."
+      },
+      {
+        "question": "Which has better balcony cabins?",
+        "answer": "Scenic's Sun Lounge is an established and distinctive feature. Celebrity's Infinite Balcony and Skylight Infinite Balcony concepts provide a more technologically innovative approach."
+      },
+      {
+        "question": "Should I choose Scenic or Celebrity River Cruises?",
+        "answer": "Choose Scenic for established ultra-luxury river cruising and comprehensive inclusions. Choose Celebrity if you prefer modern design, new ships and the familiar Celebrity brand."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Scenic vs Celebrity  There Isn't a Universal Winner",
+    "lead": "The choice between Scenic and Celebrity isn't about finding a single 'best' cruise line  it's about matching your personal travel style to the brand that delivers your ideal European vacation.",
+    "summary": "If you prioritize established ultra-luxury, a mature river-cruise product, all-inclusive pricing with zero out-of-pocket costs, and classic European river mastery, Scenic is exceptionally hard to beat. But if you value brand-new ships, contemporary architecture, innovative Skylight balconies, and the design language of Celebrity's Edge series, Celebrity River Cruises represents an exciting new option.",
+    "decidingFactor": "And if you're deciding between the two for a specific destination, the itinerary and suite category should be the final deciding factor. At Trips & Ships Luxury Travel, we help you compare the ship, suite, itinerary, and included experiences  not simply the advertised cruise price.",
+    "planningServices": [
+      "Compare Scenic and Celebrity itineraries and ships",
+      "Secure preferred suite categories and optimal deck placements",
+      "Coordinate international flights, private transfers, and luggage care",
+      "Arrange pre- and post-cruise luxury hotel stays and private guides",
+      "Communicate special occasions, anniversaries, and dietary needs",
+      "Explain current Scenic and Celebrity promotions and savings",
+      "Handle travel logistics seamlessly from start to finish",
+      "Compare Scenic and Celebrity with other leading luxury river lines"
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to Plan Your Luxury River Cruise?",
+    "description": "Whether you choose Scenic's established Space-Ships or Celebrity's modern new-generation riverboats, Angela Hughes and the Trips & Ships Luxury Travel team will ensure every detail is handled with white-glove expertise.",
+    "buttonText": "Schedule a Consultation with Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "excursions": {
+    "title": "Scenic vs Celebrity: Which Has Better Excursions?",
+    "intro": "A comparison of shore touring philosophy, exclusivity, and activity levels across European waterways.",
+    "cards": [
+      {
+        "title": "Scenic Freechoice Shore Touring",
+        "description": "Daily customizable excursions graded Active, Moderate, and Relaxed. Full flexibility with expert local guides and headsets.",
+        "badge": "DAILY CHOICE",
+        "winner": "Scenic Edge"
+      },
+      {
+        "title": "Scenic Enrich Exclusive Palace Events",
+        "description": "Exclusive after-hours private classical concerts in Viennese palaces, castle banquets, and vineyard tastings.",
+        "badge": "EXCLUSIVE ACCESS",
+        "winner": "Scenic Signature"
+      },
+      {
+        "title": "Celebrity European Destination Immersion",
+        "description": "Contemporary cultural walking tours and local immersion tailored to modern, design-minded cruise travelers.",
+        "badge": "CONTEMPORARY SHORE",
+        "winner": "Celebrity Modern"
+      }
+    ]
+  },
+  "categoryShowdowns": [
+    {
+      "category": "Couples & Milestone Romance",
+      "winner": "Both (Tie)",
+      "description": "Scenic delivers timeless white-glove luxury and butler pampering; Celebrity delivers sleek modern design and vibrant contemporary romance.",
+      "reason": "Scenic delivers timeless white-glove luxury and butler pampering; Celebrity delivers sleek modern design and vibrant contemporary romance."
+    },
+    {
+      "category": "All-Inclusive Value",
+      "winner": "Scenic Space-Ships",
+      "description": "Truly all-inclusive formula covers every shore excursion, premium spirits and wines, butler service, tipping, and airport transfers with zero out-of-pocket costs.",
+      "reason": "Truly all-inclusive formula covers every shore excursion, premium spirits and wines, butler service, tipping, and airport transfers with zero out-of-pocket costs."
+    },
+    {
+      "category": "Innovative Architecture",
+      "winner": "Celebrity River Fleet",
+      "description": "Skylight Infinite Balconies and cantilevered Magic Edge dining pods represent cutting-edge contemporary engineering.",
+      "reason": "Skylight Infinite Balconies and cantilevered Magic Edge dining pods represent cutting-edge contemporary engineering."
+    },
+    {
+      "category": "Celebrity Ocean Cruise Fans",
+      "winner": "Celebrity River Cruises",
+      "description": "Unmatched continuity for loyal Celebrity cruisers who appreciate Edge-series styling and familiar brand hospitality.",
+      "reason": "Unmatched continuity for loyal Celebrity cruisers who appreciate Edge-series styling and familiar brand hospitality."
+    },
+    {
+      "category": "Mature River Fleet & Excursions",
+      "winner": "Scenic Space-Ships",
+      "description": "Decades of European river mastery across Danube, Rhine, France and Portugal with exclusive private Enrich palace events.",
+      "reason": "Decades of European river mastery across Danube, Rhine, France and Portugal with exclusive private Enrich palace events."
+    },
+    {
+      "category": "New-Generation River Cruising",
+      "winner": "Celebrity River Cruises",
+      "description": "Purpose-built new ships Celebrity Compass and Celebrity Seeker offer high-tech staterooms and modern open-air socialization.",
+      "reason": "Purpose-built new ships Celebrity Compass and Celebrity Seeker offer high-tech staterooms and modern open-air socialization."
+    }
+  ],
+  "angelaHughes": {
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "name": "Angela Hughes",
+    "eyebrow": "40+ YEARS LUXURY TRAVEL AUTHORITY",
+    "credentials": [
+      {
+        "label": "40+ Years of Luxury Travel Planning Leadership"
+      },
+      {
+        "label": "Traveled to over 121 Countries Worldwide"
+      },
+      {
+        "label": "Certified Specialist with Scenic & Premier River Cruise Lines"
+      },
+      {
+        "label": "Expertise in Suite Selection, Ship Comparisons & VIP Perks"
+      }
+    ]
+  }
+}

@@ -29,6 +29,17 @@ import InlineCtaImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCr
 import BestValueImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/best-scenic-river-cruise-itinerary-value-strasbourg-rhine.webp";
 import ReadyToChooseImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/ready-to-choose-scenic-river-cruise-itinerary-rhone-avignon-cta.webp";
 import FinalCtaImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/ready-to-plan-scenic-river-cruise-luxury-pool-bar-cta.webp";
+import RhineChooseItineraryImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/best-scenic-choose-itinerary-rhine-lucerne.webp";
+import DanubeChooseItineraryImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/best-scenic-choose-itinerary-danube-bratislava.webp";
+import SeineChooseItineraryImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/best-scenic-choose-itinerary-seine-normandy.webp";
+import ChristmasMarketsChooseItineraryImage from "../../../assets/ScenicRiverCruises/BestScenicRiverCruiseItineraries/best-scenic-choose-itinerary-christmas-market.webp";
+
+const chooseItineraryImages = {
+  "Rhine River Cruise": RhineChooseItineraryImage,
+  "Danube River Cruise": DanubeChooseItineraryImage,
+  "Seine River Cruise": SeineChooseItineraryImage,
+  "Christmas Markets": ChristmasMarketsChooseItineraryImage,
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -229,6 +240,11 @@ const schemaData = {
 };
 
 const BestScenicRiverCruiseItineraries = () => {
+  const formattedChooseItineraryItems = data.chooseItinerary.items.map((item) => ({
+    ...item,
+    image: chooseItineraryImages[item.title] || item.image,
+  }));
+
   return (
     <div className="w-full bg-white">
       <Helmet>
@@ -316,7 +332,7 @@ const BestScenicRiverCruiseItineraries = () => {
       <ThreeColumnGrid
         title={data.chooseItinerary.title}
         subtitle={data.chooseItinerary.subtitle}
-        items={data.chooseItinerary.items}
+        items={formattedChooseItineraryItems}
       />
 
       {/* 9. INLINE CTA 2 */}

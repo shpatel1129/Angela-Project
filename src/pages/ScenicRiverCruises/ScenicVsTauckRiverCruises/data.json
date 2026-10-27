@@ -1,0 +1,864 @@
+{
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#person",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO of Trips & Ships Luxury Travel",
+        "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck/#webpage",
+        "name": "Scenic vs Tauck River Cruises (2026): Which Is Better?",
+        "url": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck",
+        "description": "Compare Scenic vs Tauck River Cruises for 2026. Explore luxury, suites, service, dining, inclusions, excursions, ships, pricing, families, and who each cruise line is best for."
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck/#article",
+        "headline": "Scenic vs Tauck: Which Luxury River Cruise Is Better?",
+        "description": "A complete comparison of Scenic and Tauck, including suites, balconies, dining, service, excursions, inclusions, ships, price, and who each line is best for.",
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Trips & Ships Luxury Travel"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Scenic River Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Scenic vs Tauck River Cruises",
+            "item": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Scenic better than Tauck?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic may be better for travelers who prioritize luxury suites, Butler Service, onboard amenities and flexibility. Tauck may be better for travelers who prioritize destination experiences, guided touring and seamless logistics."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Tauck more luxurious than Scenic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are luxury river cruise options. Scenic emphasizes an ultra-luxury ship experience, while Tauck focuses heavily on an all-inclusive journey with destination experiences, guides and exclusive access."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is more all-inclusive, Scenic or Tauck?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are highly inclusive. Tauck currently describes its river cruises as 'Distinctively Inclusive,' with excursions, meals, beverages, gratuities, transfers and other components included in one upfront price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better suites, Scenic or Tauck?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic is particularly strong for travelers who want Sun Lounge suites and Butler Service. Tauck also offers spacious luxury accommodations, with the exact configuration depending on the ship and cabin category."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Scenic have Butler Service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Butler Service is one of Scenic's major differentiators, with services varying by suite category."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better excursions, Scenic or Tauck?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tauck may have an advantage for travelers who prioritize guided destination experiences and exclusive cultural access. Scenic may be preferable for travelers who want more choice among different activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better food?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are strong. Scenic emphasizes onboard dining variety, while Tauck places considerable emphasis on regionally inspired dining and local dining experiences ashore."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for couples?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are excellent. Scenic may appeal more to couples who prioritize the ship, suite and onboard luxury. Tauck may appeal to couples who prioritize destination experiences and seamless touring."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for families?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tauck has the advantage because its Tauck Bridges program is specifically designed around family and multigenerational travel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for solo travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both can work well. Tauck is particularly worth investigating because its current river-cruise program offers no single supplement in Category 1 on all river cruise departures."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for first-time river cruisers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are excellent. Scenic is ideal if you want a luxury ship experience with choices, while Tauck is excellent if you want highly structured, seamless touring."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Tauck more expensive than Scenic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pricing varies by itinerary, ship, cabin, season and departure date. Compare total trip cost and inclusions rather than headline fares."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has smaller river cruise ships?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both operate relatively intimate river vessels compared with ocean cruise ships. Exact passenger capacity varies by ship and itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which is better for active travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Scenic can be particularly attractive to active travelers who want choices among walking, cycling and other experiences. Tauck also offers active experiences but is particularly strong in guided touring."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I choose Scenic or Tauck for the Danube?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both are excellent options. Choose Scenic if the ship and suite are major priorities. Choose Tauck if destination experiences, guides and seamless touring are more important."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which has better European river cruise itineraries?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Neither universally wins. Compare the exact route, ports, duration, pre/post-cruise stays and excursion program for your travel dates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Scenic or Tauck better for a luxury Christmas market cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both can be excellent. Compare the specific Christmas-market itinerary, included excursions, hotel stays and holiday programming rather than choosing purely by brand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a luxury travel advisor help compare Scenic and Tauck?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A knowledgeable luxury travel advisor can compare the exact ship, suite category, itinerary, inclusions, promotions, transfers and pre/post-cruise arrangements to determine which experience best matches your priorities."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "title": "Scenic vs Tauck River Cruises (2026): Which Is Better?",
+    "metaTitle": "Scenic vs Tauck River Cruises | Luxury River Cruise Comparison",
+    "description": "Compare Scenic vs Tauck River Cruises for 2026. Explore luxury, suites, service, dining, inclusions, excursions, ships, pricing, families, and who each cruise line is best for.",
+    "canonical": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck"
+  },
+  "schema": {
+    "organization": {
+      "name": "Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/",
+      "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+    },
+    "travelAgency": {
+      "name": "Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/",
+      "description": "Luxury travel agency specializing in luxury cruises, river cruises, safaris, expeditions, and premium travel experiences."
+    },
+    "person": {
+      "name": "Angela Hughes",
+      "jobTitle": "CEO of Trips & Ships Luxury Travel",
+      "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
+    },
+    "webPage": {
+      "name": "Scenic vs Tauck River Cruises (2026): Which Is Better?",
+      "url": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck",
+      "description": "Compare Scenic vs Tauck River Cruises for 2026. Explore luxury, suites, service, dining, inclusions, excursions, ships, pricing, families, and who each cruise line is best for."
+    },
+    "article": {
+      "headline": "Scenic vs Tauck: Which Luxury River Cruise Is Better?",
+      "description": "A complete comparison of Scenic and Tauck, including suites, balconies, dining, service, excursions, inclusions, ships, price, and who each line is best for.",
+      "author": "Angela Hughes",
+      "publisher": "Trips & Ships Luxury Travel"
+    },
+    "breadcrumbs": [
+      { "position": 1, "name": "Home", "item": "https://www.tripsandships.com/" },
+      { "position": 2, "name": "Scenic River Cruises", "item": "https://www.tripsandships.com/scenic-river-cruises" },
+      { "position": 3, "name": "Scenic vs Tauck", "item": "https://www.tripsandships.com/scenic-river-cruises/scenic-vs-tauck" }
+    ],
+    "coveredTopics": [
+      "Quick Answer",
+      "The Biggest Difference",
+      "Who Is Each Line Best For?",
+      "Suites",
+      "Balcony Experience",
+      "Dining",
+      "Service & Excursions",
+      "What's Included & Price",
+      "Ships",
+      "Couples, Families & Solo Travelers",
+      "Pros & Cons",
+      "Our Verdict",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "badge": "Luxury River Cruise Comparison",
+    "title": "Scenic vs Tauck: Which Luxury River Cruise Is Better?",
+    "subtitle": "Scenic and Tauck are two of the strongest choices for travelers comparing luxury river cruises in Europe. Both emphasize high levels of inclusion, premium accommodations, attentive service, destination experiences, and a relatively intimate river-cruise environment. But they are not identical.",
+    "description": "Scenic stands out for its ultra-luxury ship experience, signature Sun Lounge suites, Butler Service, extensive onboard amenities, and choice of included experiences.",
+    "readMore": [
+      "Tauck stands out for its highly inclusive approach to touring, strong destination programming, Tauck Directors, exclusive cultural experiences, and a philosophy of taking care of virtually every detail from ship to shore. Tauck currently describes its river cruises as 'Distinctively Inclusive,' with all-included excursions, dining, beverages, gratuities, transfers and other components covered in one upfront price.",
+      "So which is better? Scenic may be the better fit for travelers who want the ship and suite to be a major part of the luxury experience. Tauck may be the better fit for travelers who place exceptional importance on destination experiences, guiding and seamless touring."
+    ],
+    "primaryCta": {
+      "text": "Start Planning Your River Cruise",
+      "link": "/contact"
+    },
+    "secondaryCta": {
+      "text": "Explore Quick Comparison",
+      "link": "#quick-answer"
+    }
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Scenic vs Tauck",
+    "headers": ["Category", "Scenic", "Tauck"],
+    "rows": [
+      ["Overall positioning", "Ultra-luxury", "Luxury / premium"],
+      ["All-inclusive experience", "★★★★★ (All-Inclusive 5-Star)", "★★★★★ (Distinctively Inclusive)"],
+      ["Suites", "★★★★★ (Space-Ships & Sun Lounges)", "★★★★★ (Spacious Luxury Suites)"],
+      ["Balcony concept", "Scenic Sun Lounge", "French balconies / suite options"],
+      ["Butler Service", "★★★★★ (Included across suites)", "Not the same model (Team service)"],
+      ["Destination experiences", "★★★★★ (Freechoice & Enrich)", "★★★★★ (All-inclusive guided touring)"],
+      ["Tour leadership", "Strong (Cruise Directors & Guides)", "★★★★★ (Up to 4 Tauck Directors)"],
+      ["Dining", "★★★★★ (Multiple onboard venues)", "★★★★★ (Regionally inspired & ashore)"],
+      ["Onboard entertainment", "★★★★☆ (Enriched cultural shows)", "★★★★☆ (Lectures & local performers)"],
+      ["Families", "Good (Primarily adult-oriented)", "★★★★★ (Tauck Bridges family cruises)"],
+      ["Couples", "★★★★★ (Intimate romance & Butlers)", "★★★★★ (Seamless touring & luxury)"],
+      ["Solo travelers", "Excellent (Selected solo savings)", "★★★★★ (No single supplement in Cat 1)"],
+      ["Luxury travelers", "★★★★★ (Ultra-luxury Space-Ships)", "★★★★★ (Seamless VIP land & river care)"],
+      ["Best for", "Ship + suite luxury", "Touring + destination depth"]
+    ],
+    "calloutText": "Bottom line",
+    "bottomLine": "Choose Scenic if you want: Ultra-luxury accommodations, Butler Service, a highly inclusive experience, extensive onboard amenities, and flexible included experiences. Choose Tauck if you want: Exceptional destination programming, highly guided touring, exclusive cultural experiences, and a seamless all-inclusive land-and-river experience."
+  },
+  "biggestDifference": {
+    "eyebrow": "Fundamental Distinction",
+    "heading": "Scenic vs Tauck: The Biggest Difference",
+    "paragraphs": [
+      "Both brands can appear remarkably similar when you compare their headline features. Both offer luxury river ships, included excursions, premium dining, complimentary beverages, Wi-Fi, transfers, gratuities, personalized service, and destination experiences.",
+      "The difference becomes clearer when you ask: Where do you want the luxury to be concentrated?",
+      "That distinction is extremely useful when choosing between the two."
+    ],
+    "highlights": [
+      "Scenic Emphasizes the Ship Experience: Suites, Butler Service, fine dining, Sun Lounge balconies, wellness facilities, entertainment, and curated Freechoice excursions.",
+      "Tauck Emphasizes the Complete Journey: The riverboat, multiple Tauck Directors, local guides, exclusive cultural experiences, dining ashore, luxury hotel stays, and seamless transfers. Tauck's current materials specifically emphasize all-included excursions, exclusive cultural experiences, local dining, multiple Tauck Directors and local experts, airport transfers, gratuities and selected hotel stays."
+    ],
+    "ctaText": "Compare Itineraries",
+    "ctaLink": "/contact"
+  },
+  "whoIsItFor": {
+    "title": "What Are Scenic and Tauck Best Known For?",
+    "subtitle": "SHIP EXPERIENCE VS COMPLETE DESTINATION JOURNEY",
+    "sailing": {
+      "label": "Scenic Luxury Cruises",
+      "philosophy": "Ultra-Luxury Ship Experience",
+      "points": [
+        "Scenic Space-Ships with ultra-luxury positioning",
+        "Spacious suites with signature Sun Lounge balconies",
+        "Personalized Butler Service across suite categories",
+        "Premium beverages and multiple fine dining venues",
+        "Scenic Freechoice and exclusive Scenic Enrich events",
+        "Onboard wellness facilities, vitality pools & e-bikes",
+        "Ideal for travelers who consider the ship itself part of the destination"
+      ]
+    },
+    "allSuite": {
+      "label": "Tauck River Cruising",
+      "philosophy": "Distinctively Inclusive Journey",
+      "points": [
+        "All shore excursions included with zero options sold",
+        "Exclusive cultural access and private castle dinners",
+        "All meals onboard plus included dining ashore at local restaurants",
+        "Complimentary beverages, all gratuities & airport transfers",
+        "Up to 4 Tauck Directors and local expert guides per sailing",
+        "Selected luxury hotel stays and seamless land extensions",
+        "Ideal for travelers who want someone else to handle every logistical detail"
+      ]
+    }
+  },
+  "cta1": {
+    "title": "Not Sure Which Line Fits Your Travel Style?",
+    "description": "Let us help you compare Scenic and Tauck sailings and find the perfect fit for your trip.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "cabins": {
+    "title": "Scenic vs Tauck Suites",
+    "subtitle": "For many luxury travelers, the suite is one of the biggest reasons to choose one brand over another.",
+    "oceanview": {
+      "title": "Scenic Suites",
+      "bestFor": "Scenic's suite experience is one of its strongest differentiators, combining spacious layouts with dedicated Butler Service.",
+      "advantages": [
+        "Spacious living areas with contemporary luxury styling",
+        "Signature Scenic Sun Lounge glass-enclosed balcony transformation",
+        "Queen-size luxury bedding and nightly turndown service",
+        "Complimentary in-suite minibar restocked daily",
+        "Luxury bathrooms with fine amenities & separate living areas in higher categories",
+        "Dedicated Butler Service tailored to your suite category"
+      ]
+    },
+    "balcony": {
+      "title": "Tauck Suites",
+      "bestFor": "Tauck offers spacious accommodations with newer riverboats designed around generous living space, contemporary amenities and an intimate atmosphere.",
+      "advantages": [
+        "Generous 300-square-foot suites on upper decks",
+        "Contemporary luxury amenities and elegant design",
+        "Smaller guest counts ensuring an intimate onboard feel",
+        "Comfortable and elegant public areas & lounges",
+        "Personalized attention from attentive crew & Tauck Directors",
+        "French balconies and expansive picture windows for river views"
+      ]
+    }
+  },
+  "betterSuites": {
+    "title": "Which Has Better Suites?",
+    "subtitle": "For a specific sailing, compare the exact suite category, not just the brand name.",
+    "features": [
+      {
+        "title": "Scenic Suite Edge: Sun Lounges & Butlers",
+        "description": "Scenic has the clear edge for travelers who specifically want Butler Service and the convertible glass Sun Lounge concept, transforming the balcony into an enclosed conservatory at the press of a button."
+      },
+      {
+        "title": "Tauck Suite Edge: Space & Destination Focus",
+        "description": "Tauck is excellent for travelers who prioritize spacious, comfortable accommodation as part of a seamless destination-focused luxury journey, with 300-square-foot suites on upper decks."
+      }
+    ]
+  },
+  "balconies": {
+    "title": "Scenic vs Tauck: Balcony Comparison",
+    "subtitle": "Convertible all-weather Sun Lounges vs expansive French balcony walkouts.",
+    "features": [
+      {
+        "title": "Scenic Sun Lounge: All-Weather Innovation",
+        "description": "Scenic's Sun Lounge is one of the brand's signature features. It allows guests to enjoy river views while maintaining protection from weather and providing additional usable living space. Best for river viewing, relaxing in your suite, cooler weather, rainy days, and travelers who spend considerable time in their cabin."
+      },
+      {
+        "title": "Tauck Balcony Options: Open-Air Panoramic Views",
+        "description": "Tauck's ships use different balcony configurations depending on the vessel and cabin category. Some cabins emphasize French-balcony-style access and views rather than Scenic's enclosed Sun Lounge concept."
+      },
+      {
+        "title": "Balcony Winner",
+        "description": "Scenic wins for balcony innovation and flexible year-round comfort across changing European weather conditions."
+      }
+    ]
+  },
+  "travelerProfiles": {
+    "title": "Which River Cruise Line Fits Your Travel Style?",
+    "subtitle": "PERSONA-BY-PERSONA BREAKDOWN",
+    "profiles": [
+      {
+        "name": "First-Time Cruisers",
+        "title": "First-Time River Cruisers",
+        "lead": "Everything is taken care of, but I still want choices vs. Everything is taken care of, and I don't want to think about logistics.",
+        "scenicHeader": "Scenic",
+        "scenicPoint": "Best for travelers who want: 'Everything is taken care of, but I still want choices.'",
+        "avalonHeader": "Tauck",
+        "avalonPoint": "Best for travelers who want: 'Everything is taken care of, and I don't want to think about logistics.'",
+        "verdict": "Winner: Tie  Depends on whether you prefer flexible choices or hands-off touring."
+      },
+      {
+        "name": "Food Lovers",
+        "title": "Culinary & Wine Enthusiasts",
+        "lead": "Fine dining variety onboard vs. authentic gastronomic immersion ashore.",
+        "scenicHeader": "Scenic",
+        "scenicPoint": "Best for multiple onboard dining options, premium beverages, fine dining, and variety.",
+        "avalonHeader": "Tauck",
+        "avalonPoint": "Best for regional cuisine, dining ashore, destination-based culinary experiences, and local restaurants.",
+        "verdict": "Winner: Scenic for onboard variety. Tauck for destination dining."
+      },
+      {
+        "name": "Couples & Anniversaries",
+        "title": "Romance & Milestone Celebrations",
+        "lead": "Intimate private suite retreats vs. enriching destination memories together.",
+        "scenicHeader": "Scenic",
+        "scenicPoint": "Choose Scenic for: Luxury ship experience, Butler Service, romantic suites, premium dining, flexible excursions, and special occasions.",
+        "avalonHeader": "Tauck",
+        "avalonPoint": "Choose Tauck for: Destination immersion, exclusive experiences, seamless touring, luxury land extensions, and less logistical planning.",
+        "verdict": "Winner: Tie. For an anniversary or honeymoon, choose based on the itinerary and suite first."
+      },
+      {
+        "name": "Families & Multigenerational",
+        "title": "Families & Multigenerational Groups",
+        "lead": "Dedicated family programming and engaging activities for all generations.",
+        "scenicHeader": "Scenic",
+        "scenicPoint": "Primarily oriented toward adults and luxury travelers rather than dedicated family programming.",
+        "avalonHeader": "Tauck",
+        "avalonPoint": "Tauck operates Tauck Bridges, its celebrated family travel program, making it particularly relevant to multigenerational travelers and families with children.",
+        "verdict": "Winner: Tauck is the definitive winner for family and multigenerational river travel."
+      },
+      {
+        "name": "Solo Travelers",
+        "title": "Independent Solo Voyagers",
+        "lead": "Supportive guided camaraderie vs. private ultra-luxury Butler retreat.",
+        "scenicHeader": "Scenic",
+        "scenicPoint": "Choose Scenic if you value Butler Service and a luxury ship environment with special solo promotions.",
+        "avalonHeader": "Tauck",
+        "avalonPoint": "Tauck currently highlights no single supplement in Category 1 on all river cruise departures, with additional solo savings available on selected cabins and departures.",
+        "verdict": "Winner: Tauck deserves a close look for solo travelers due to zero single supplement on Category 1."
+      },
+      {
+        "name": "Active Travelers",
+        "title": "Active & Outdoor Explorers",
+        "lead": "Independent e-biking and hiking flexibility vs. guided destination walks.",
+        "scenicHeader": "Scenic",
+        "scenicPoint": "Scenic can be attractive for travelers who want to mix sightseeing with activity: hiking, cycling with onboard e-bikes, walking, and cultural activities.",
+        "avalonHeader": "Tauck",
+        "avalonPoint": "Tauck also offers active experiences, but its strength is more strongly associated with guided destination exploration.",
+        "verdict": "Winner: Scenic for flexibility and activity choices."
+      }
+    ]
+  },
+  "cta2": {
+    "eyebrow": "Compare the Complete Trip",
+    "title": "Don't Compare Only the Advertised Fare",
+    "description": "Compare cruise fare + included experiences + beverages + excursions + transfers + hotel nights + suite + other costs before deciding between Scenic and Tauck.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact",
+    "badge": "40+ Years Experience"
+  },
+  "dining": {
+    "title": "Scenic vs Tauck Dining",
+    "lead": "Both brands take dining seriously  Scenic offers more onboard variety, while Tauck places strong emphasis on connecting dining to the destination.",
+    "scenic": {
+      "title": "Scenic Dining",
+      "text": "Scenic offers multiple dining environments depending on the ship, with a focus on fine dining, regional cuisine, variety, premium beverages and flexible dining experiences. Scenic can be particularly appealing to travelers who want variety onboard.",
+      "points": ["Multiple dining venues onboard", "Table La Rive 6-course degustation", "Premium beverages & fine wines", "In-suite room dining"]
+    },
+    "tauck": {
+      "title": "Tauck Dining",
+      "text": "Tauck emphasizes both onboard and destination dining. Its current river cruise materials highlight regionally inspired meals onboard as well as locally inspired dining ashore at historic castles, private vineyards, and authentic bistros.",
+      "points": ["Regionally inspired cuisine onboard", "Dining ashore at local restaurants", "Private vineyard & castle meals", "Complimentary beverages throughout"]
+    },
+    "verdict": {
+      "scenicEdge": "Scenic offers more onboard dining variety with formal degustations and relaxed venues.",
+      "tauckEdge": "Tauck excels in connecting dining directly to the local culinary culture ashore."
+    }
+  },
+  "service": {
+    "title": "Scenic vs Tauck Butler Service & Hospitality",
+    "lead": "This is a major differentiator between Scenic and Tauck.",
+    "scenic": {
+      "title": "Scenic Butler Service",
+      "text": "Scenic provides Butler Service across its suite categories, with the specific services varying according to accommodation level. Services can include things such as concierge assistance, packing and unpacking, shoe polishing, in-suite drinks, minibar service, and assistance with special requests. If Butler Service matters to you: Scenic has a clear advantage."
+    },
+    "tauck": {
+      "title": "Tauck Team-Based Care",
+      "text": "Tauck's strength is different: instead of emphasizing a personal butler model, it emphasizes a comprehensive team-based service experience involving Tauck Directors, local guides and ship staff. Tauck river cruises feature up to four Tauck Director-level staff per sailing."
+    },
+    "winner": {
+      "title": "SERVICE PHILOSOPHY VERDICT",
+      "text": "Scenic has the advantage for personal in-suite Butler Service. Tauck has the advantage for comprehensive team-based tour leadership and logistical support ashore."
+    }
+  },
+  "tourDirectors": {
+    "title": "Scenic vs Tauck: Tour Directors and Guides",
+    "lead": "Tauck has a particularly distinctive model with up to four Tauck Directors per river cruise.",
+    "tauck": {
+      "title": "Tauck Director Advantage",
+      "text": "Tauck states that its river cruises can include up to four Tauck Director-level staff, working with local guides and experts. That can be valuable for travelers who want: more personal assistance, strong logistical support, deeper destination context, and a consistent point of contact."
+    },
+    "scenic": {
+      "title": "Scenic Cruise Leadership",
+      "text": "Scenic provides dedicated cruise directors, onboard concierges, and certified local guides in every port to ensure smooth transitions and insightful exploration."
+    },
+    "winner": "Winner: Tauck for its tour-director-led destination model."
+  },
+  "excursions": {
+    "title": "Scenic vs Tauck: Which Has Better Excursions?",
+    "intro": "Choose Scenic if you want flexibility and choice; choose Tauck if you want highly guided, seamless touring.",
+    "cards": [
+      {
+        "title": "Scenic Freechoice",
+        "description": "Choose Scenic if you want: More activity choices, flexibility, a mix of active and cultural experiences, and more control over how you spend your port days.",
+        "icon": "Compass",
+        "tag": "Flexibility & Choice"
+      },
+      {
+        "title": "Tauck Guided Touring",
+        "description": "Choose Tauck if you want: Highly guided touring, strong destination storytelling, exclusive experiences, more support ashore, and a seamless group experience.",
+        "icon": "MapPin",
+        "tag": "In-Depth Guiding"
+      },
+      {
+        "title": "Excursions Verdict",
+        "description": "Tauck has an edge for travelers who consider touring the most important part of the vacation. Scenic has an edge for travelers who want more daily choice.",
+        "icon": "Award",
+        "tag": "The Verdict"
+      }
+    ]
+  },
+  "whatsIncluded": {
+    "title": "Scenic vs Tauck: Is One More All-Inclusive?",
+    "scenicTitle": "Scenic Space-Ships",
+    "tauckTitle": "Tauck Riverboats",
+    "intro": "This is one of the most important questions  and the answer is both are highly inclusive, but they structure their inclusions differently.",
+    "scenicText": "Scenic describes its river experience as all-inclusive, incorporating fine dining, premium beverages, Freechoice excursions, Enrich private events, Butler Service, airport transfers, Wi-Fi, and all gratuities into the cruise experience.",
+    "tauckText": "Tauck takes an equally strong approach. Its current river cruise materials state that all shore excursions, accommodations, meals, gratuities, transportation, transfers, and selected exclusive experiences are included in one upfront price. Tauck explicitly states that no options are sold on its river cruises.",
+    "expertNote": "Scenic: Luxury ship experience + inclusions. Tauck: Complete land-and-river journey + inclusions. Winner: It's essentially a tie  with different structures."
+  },
+  "ships": {
+    "title": "Scenic vs Tauck: Ships",
+    "scenic": {
+      "title": "Scenic Space-Ships",
+      "text": "Scenic's Space-Ships are designed around contemporary luxury, spacious suites, Sun Lounges, multiple dining venues, wellness facilities, entertainment, and personalized service.",
+      "points": [
+        "Contemporary luxury design",
+        "Spacious suites with Sun Lounges",
+        "Multiple dining venues onboard",
+        "Butler Service across categories",
+        "Wellness facilities & vitality pools",
+        "Recognizable Sun Lounge suite concept"
+      ]
+    },
+    "tauck": {
+      "title": "Tauck Riverboats",
+      "text": "Tauck's riverboats emphasize elegant design, spacious accommodations, smaller guest numbers, comfortable public areas, and personalized service.",
+      "points": [
+        "Custom-crafted around comfort & elegance",
+        "Smaller guest counts for intimate atmosphere",
+        "300 sq. ft. suites on upper decks",
+        "Comfortable public areas & lounges",
+        "Attentive crew and tour directors",
+        "Relaxed, uncrowded river cruising"
+      ]
+    },
+    "winner": {
+      "scenicEdge": "Scenic if onboard amenities and suite innovation are your priority.",
+      "tauckEdge": "Tauck if intimacy and destination-focused service are more important."
+    }
+  },
+  "priceAndValue": {
+    "title": "Scenic vs Tauck: Price & Total Vacation Value",
+    "lead": "Both brands occupy the premium end of river cruising, so neither should be compared with mainstream river cruise pricing without accounting for inclusions. The headline fare can look expensive, but the right comparison is total vacation cost  not cruise fare alone.",
+    "scenic": {
+      "title": "Scenic All-Inclusive Value",
+      "formula": "Cruise fare + Butler Service + all beverages + all Freechoice & Enrich excursions + transfers + tips + Wi-Fi",
+      "summary": "Can offer excellent value if you will take advantage of: included excursions, premium beverages, Butler Service, specialty dining, Enrich experiences, and onboard amenities."
+    },
+    "tauck": {
+      "title": "Tauck Distinctively Inclusive Value",
+      "formula": "Cruise fare + all excursions (zero sold as options) + dining ashore + hotel stays + transfers + tips + guides",
+      "summary": "Can offer excellent value if you will take advantage of: guided excursions, exclusive experiences, dining ashore, transfers, Tour Directors, included hotels, and comprehensive logistics."
+    }
+  },
+  "cta3": {
+    "title": "A Great Itinerary Beats a Bigger Brand Name",
+    "description": "Neither line wins universally on itineraries  the better choice depends on destination, departure date, duration, ports, and pre/post-cruise arrangements.",
+    "buttonText": "Contact Angela Hughes",
+    "buttonLink": "/contact"
+  },
+  "prosAndCons": {
+    "scenicPros": [
+      "Ultra-luxury positioning",
+      "Highly inclusive pricing model",
+      "Personal Butler Service in every suite",
+      "Signature Sun Lounge all-weather balconies",
+      "Strong onboard dining variety & Table La Rive",
+      "Scenic Freechoice excursion flexibility",
+      "Scenic Enrich private after-hours cultural events",
+      "Excellent onboard amenities & wellness",
+      "Strong choice for couples seeking luxury"
+    ],
+    "scenicCons": [
+      "Premium upfront pricing",
+      "May be more ship-focused than travelers who prioritize touring",
+      "Families may find Tauck more specifically designed for multigenerational travel"
+    ],
+    "tauckPros": [
+      "Highly inclusive pricing (Distinctively Inclusive)",
+      "All-inclusive excursions with zero options sold",
+      "Strong Tauck Director support (up to 4 per cruise)",
+      "Exclusive cultural experiences and castle dinners",
+      "Excellent destination programming & local guides",
+      "Included dining ashore at authentic local restaurants",
+      "Strong family offering with Tauck Bridges program",
+      "Excellent pre- and post-cruise land extensions",
+      "Strong solo-traveler policies with no single supplement in Category 1"
+    ],
+    "tauckCons": [
+      "Travelers who want more onboard activity choices may prefer Scenic",
+      "Travelers specifically seeking Butler Service may prefer Scenic",
+      "The highly structured touring style may not appeal to travelers who prefer maximum independence"
+    ]
+  },
+  "whoShouldChoose": {
+    "title": "Scenic vs Tauck: Which Should You Choose?",
+    "subtitle": "HERE'S THE SIMPLEST WAY TO DECIDE",
+    "cards": [
+      {
+        "title": "Choose Scenic If You Want:",
+        "items": [
+          "Ultra-luxury ship experience with contemporary Space-Ships",
+          "Dedicated Butler Service tailored to your suite category",
+          "Signature Sun Lounge convertible all-weather balconies",
+          "Flexible daily choice between active and cultural Freechoice tours",
+          "Extensive onboard wellness amenities, salt therapy, and dining venues",
+          "Travelers who consider the ship itself a major part of the destination"
+        ]
+      },
+      {
+        "title": "Choose Tauck If You Want:",
+        "items": [
+          "Exceptional touring with deep destination storytelling",
+          "Exclusive after-hours cultural access and private castle events",
+          "Up to 4 dedicated Tauck Directors providing comprehensive support",
+          "Included dining ashore at authentic local restaurants",
+          "Tauck Bridges family and multigenerational sailings",
+          "Zero out-of-pocket touring expenses with no optional tours sold"
+        ]
+      }
+    ]
+  },
+  "categoryShowdowns": [
+    {
+      "category": "SUITES & ACCOMMODATIONS",
+      "winner": "Scenic Edge",
+      "description": "Scenic wins for Butler Service and innovative Sun Lounge convertible balconies."
+    },
+    {
+      "category": "BALCONY INNOVATION",
+      "winner": "Scenic Space-Ships",
+      "description": "Scenic Sun Lounge offers convertible glass enclosure for year-round comfort in any weather."
+    },
+    {
+      "category": "TOUR LEADERSHIP",
+      "winner": "Tauck Directors",
+      "description": "Tauck offers up to 4 Tour Directors per sailing for unmatched logistical and destination support."
+    },
+    {
+      "category": "ONBOARD DINING VARIETY",
+      "winner": "Scenic Culinary",
+      "description": "Multiple dining venues onboard including Table La Rive 6-course degustation menu."
+    },
+    {
+      "category": "DESTINATION DINING ASHORE",
+      "winner": "Tauck Gastronomy",
+      "description": "Exceptional dining ashore at local wineries, private estates, and historic restaurants."
+    },
+    {
+      "category": "FAMILY RIVER CRUISING",
+      "winner": "Tauck Bridges",
+      "description": "Tauck Bridges program is purpose-built for children, parents, and multigenerational travel."
+    },
+    {
+      "category": "ACTIVE TRAVEL & E-BIKES",
+      "winner": "Scenic Freechoice",
+      "description": "Fleet of electronic assist e-bikes and diverse active cycling and hiking choices."
+    },
+    {
+      "category": "SOLO TRAVEL VALUE",
+      "winner": "Tauck River Cruises",
+      "description": "No single supplement in Category 1 cabins on all European river cruise departures."
+    },
+    {
+      "category": "ALL-INCLUSIVE DEPTH",
+      "winner": "Tie (Different Models)",
+      "description": "Scenic focuses on all-inclusive luxury shipboard life; Tauck on complete all-inclusive land-and-river journey."
+    }
+  ],
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "role": "CEO of Trips & Ships Luxury Travel",
+    "eyebrow": "Luxury Travel Expertise",
+    "credentials": [
+      { "icon": "Award", "label": "CEO of Trips & Ships Luxury Travel" },
+      { "icon": "Star", "label": "Over 40 years in the travel industry" },
+      { "icon": "MapPin", "label": "Traveled to more than 121 countries" },
+      { "icon": "Award", "label": "Founder of Luxury Travel University" },
+      { "icon": "Users", "label": "Global luxury travel speaker and trainer" },
+      { "icon": "Users", "label": "Weekly industry columnist" },
+      { "icon": "Users", "label": "Travel Leaders Network Advisory Board member" },
+      { "icon": "Award", "label": "2024 Luxury Travel Influencer of the Year" },
+      { "icon": "Star", "label": "Named one of the Most Influential Women in Travel in 2026 by TravelPulse" },
+      { "icon": "Award", "label": "Featured in major travel publications globally" },
+      { "icon": "Ship", "label": "Expert in luxury cruises, safaris, expeditions, river cruising, and premium travel" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Scenic vs Tauck before booking.",
+    "items": [
+      {
+        "question": "Is Scenic better than Tauck?",
+        "answer": "Scenic may be better for travelers who prioritize luxury suites, Butler Service, onboard amenities and flexibility. Tauck may be better for travelers who prioritize destination experiences, guided touring and seamless logistics."
+      },
+      {
+        "question": "Is Tauck more luxurious than Scenic?",
+        "answer": "Both are luxury river cruise options. Scenic emphasizes an ultra-luxury ship experience, while Tauck focuses heavily on an all-inclusive journey with destination experiences, guides and exclusive access."
+      },
+      {
+        "question": "Which is more all-inclusive, Scenic or Tauck?",
+        "answer": "Both are highly inclusive. Tauck currently describes its river cruises as 'Distinctively Inclusive,' with excursions, meals, beverages, gratuities, transfers and other components included in one upfront price."
+      },
+      {
+        "question": "Which has better suites, Scenic or Tauck?",
+        "answer": "Scenic is particularly strong for travelers who want Sun Lounge suites and Butler Service. Tauck also offers spacious luxury accommodations, with the exact configuration depending on the ship and cabin category."
+      },
+      {
+        "question": "Does Scenic have Butler Service?",
+        "answer": "Yes. Butler Service is one of Scenic's major differentiators, with services varying by suite category."
+      },
+      {
+        "question": "Which has better excursions, Scenic or Tauck?",
+        "answer": "Tauck may have an advantage for travelers who prioritize guided destination experiences and exclusive cultural access. Scenic may be preferable for travelers who want more choice among different activities."
+      },
+      {
+        "question": "Which has better food?",
+        "answer": "Both are strong. Scenic emphasizes onboard dining variety, while Tauck places considerable emphasis on regionally inspired dining and local dining experiences ashore."
+      },
+      {
+        "question": "Which is better for couples?",
+        "answer": "Both are excellent. Scenic may appeal more to couples who prioritize the ship, suite and onboard luxury. Tauck may appeal to couples who prioritize destination experiences and seamless touring."
+      },
+      {
+        "question": "Which is better for families?",
+        "answer": "Tauck has the advantage because its Tauck Bridges program is specifically designed around family and multigenerational travel."
+      },
+      {
+        "question": "Which is better for solo travelers?",
+        "answer": "Both can work well. Tauck is particularly worth investigating because its current river-cruise program offers no single supplement in Category 1 on all river cruise departures."
+      },
+      {
+        "question": "Which is better for first-time river cruisers?",
+        "answer": "Both are excellent. Scenic is ideal if you want a luxury ship experience with choices, while Tauck is excellent if you want highly structured, seamless touring."
+      },
+      {
+        "question": "Is Tauck more expensive than Scenic?",
+        "answer": "Pricing varies by itinerary, ship, cabin, season and departure date. Compare total trip cost and inclusions rather than headline fares."
+      },
+      {
+        "question": "Which has smaller river cruise ships?",
+        "answer": "Both operate relatively intimate river vessels compared with ocean cruise ships. Exact passenger capacity varies by ship and itinerary."
+      },
+      {
+        "question": "Which is better for active travelers?",
+        "answer": "Scenic can be particularly attractive to active travelers who want choices among walking, cycling and other experiences. Tauck also offers active experiences but is particularly strong in guided touring."
+      },
+      {
+        "question": "Should I choose Scenic or Tauck for the Danube?",
+        "answer": "Both are excellent options. Choose Scenic if the ship and suite are major priorities. Choose Tauck if destination experiences, guides and seamless touring are more important."
+      },
+      {
+        "question": "Which has better European river cruise itineraries?",
+        "answer": "Neither universally wins. Compare the exact route, ports, duration, pre/post-cruise stays and excursion program for your travel dates."
+      },
+      {
+        "question": "Is Scenic or Tauck better for a luxury Christmas market cruise?",
+        "answer": "Both can be excellent. Compare the specific Christmas-market itinerary, included excursions, hotel stays and holiday programming rather than choosing purely by brand."
+      },
+      {
+        "question": "Can a luxury travel advisor help compare Scenic and Tauck?",
+        "answer": "Yes. A knowledgeable luxury travel advisor can compare the exact ship, suite category, itinerary, inclusions, promotions, transfers and pre/post-cruise arrangements to determine which experience best matches your priorities."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Scenic vs Tauck  There Isn't a Universal Winner",
+    "intro": "Choose Scenic for luxury, inclusions, and personalized service. Choose Tauck for space, balconies, flexibility, and active exploration.",
+    "readMore": [
+      "If your priority is the most luxurious overall river cruise experience, Scenic is likely the better choice. If your priority is having one of the most spacious and thoughtfully designed river cruise cabins, Tauck deserves serious consideration.",
+      "And if you're deciding between the two for a specific destination, the itinerary should be the final deciding factor. At Trips & Ships Luxury Travel, we'll help you compare the ship, suite, itinerary, and included experiences  not simply the advertised cruise price."
+    ],
+    "servicesTitle": "Our luxury planning services include:",
+    "planningServices": [
+      "Compare Scenic and Tauck itineraries and ships",
+      "Secure preferred suite categories",
+      "Coordinate airfare and transfers",
+      "Arrange pre- and post-cruise hotel stays",
+      "Communicate special occasions to the cruise line",
+      "Explain current Scenic and Tauck promotions",
+      "Handle travel logistics from start to finish",
+      "Compare Scenic and Tauck with other luxury river cruise lines"
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to Plan Your Perfect European River Cruise?",
+    "description": "Whether you are drawn to Scenic's all-inclusive 5-star Space-Ships with dedicated Butler Service, or Tauck's distinctively inclusive journeys with unmatched tour director guidance, let Angela Hughes tailor every detailfrom stateroom selection to flights and private shore arrangementsbacked by 40+ years of luxury travel expertise.",
+    "buttonText": "Book Your River Cruise Consultation",
+    "buttonLink": "/contact"
+  }
+}

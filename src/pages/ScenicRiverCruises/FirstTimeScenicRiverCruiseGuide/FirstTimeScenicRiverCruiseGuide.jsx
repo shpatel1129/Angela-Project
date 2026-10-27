@@ -32,6 +32,13 @@ import BalconySuiteImage from "../../../assets/ScenicRiverCruises/FirstTimeSceni
 import HowFormalImage from "../../../assets/ScenicRiverCruises/FirstTimeScenicRiverCruiseGuide/how-formal-is-scenic-river-cruising-dress-code.webp";
 import BookingYourFirstCruiseImage from "../../../assets/ScenicRiverCruises/FirstTimeScenicRiverCruiseGuide/booking-your-first-scenic-cruise-planning-cta.jpg";
 import FinalVerdictImage from "../../../assets/ScenicRiverCruises/FirstTimeScenicRiverCruiseGuide/a-confident-start-to-scenic-river-cruising-final-cta.webp";
+import RhineItineraryImage from "../../../assets/ScenicRiverCruises/FirstTimeScenicRiverCruiseGuide/first-time-itinerary-rhine-river-xanten.webp";
+import DanubeItineraryImage from "../../../assets/ScenicRiverCruises/FirstTimeScenicRiverCruiseGuide/first-time-itinerary-danube-river-durnstein.webp";
+
+const riverItineraryImages = {
+  "Rhine River Cruise": RhineItineraryImage,
+  "Danube River Cruise": DanubeItineraryImage,
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -147,7 +154,7 @@ const FirstTimeScenicRiverCruiseGuide = () => {
   // Itinerary items mapped
   const riverItems = data.bestItineraries.rivers.map((river) => ({
     ...river,
-    // image: undefined,
+    image: riverItineraryImages[river.name],
   }));
 
   // Which cabin recommendation features

@@ -35,6 +35,15 @@ import ReadyToChooseImage from "../../../assets/ScenicRiverCruises/ScenicRiverCr
 import BestForFirstTimersImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruiseShipsSuites/which-scenic-ship-is-best-for-first-time-cruisers.webp";
 import FinalCtaImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruiseShipsSuites/scenic-river-cruise-ships-suites-complete-guide-hero.webp";
 import ItineraryFitsImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruiseShipsSuites/which-scenic-river-cruise-itinerary-fits-you-best-cta.webp";
+import RhineDestinationImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruiseShipsSuites/scenic-ships-destination-rhine-river-valley.webp";
+import DanubeDestinationImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruiseShipsSuites/scenic-ships-destination-danube-regensburg-cathedral.webp";
+import SeineDestinationImage from "../../../assets/ScenicRiverCruises/ScenicRiverCruiseShipsSuites/scenic-ships-destination-seine-scenic-sapphire.webp";
+
+const destinationImages = {
+  "Rhine River": RhineDestinationImage,
+  "Danube River": DanubeDestinationImage,
+  "Seine River": SeineDestinationImage,
+};
 
 /* ── Schema ─────────────────────────────────────────────────────── */
 const schemaData = {
@@ -237,6 +246,11 @@ const schemaData = {
 };
 
 const ScenicRiverCruiseShipsSuites = () => {
+  const destinationRivers = data.shipsByDestination.rivers.map((river) => ({
+    ...river,
+    image: destinationImages[river.name],
+  }));
+
   return (
     <div className="bg-white">
       <Helmet> 
@@ -297,7 +311,7 @@ const ScenicRiverCruiseShipsSuites = () => {
       <AlternatingRiverShowcase
         title={data.shipsByDestination.title}
         description={data.shipsByDestination.description}
-        rivers={data.shipsByDestination.rivers}
+        rivers={destinationRivers}
       />
 
       {/* ── 6. INLINE CTA 1 ─────────────────────────────────────────── */}

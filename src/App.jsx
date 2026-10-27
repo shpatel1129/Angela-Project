@@ -705,7 +705,7 @@ function App() {
           <Route path="/seabourn-cruises" element={<SeabournCruises />} />
           <Route path="/seabourn-cruises/whats-included" element={<Seabournwhatsincluded />} />
           <Route path="/seabourn-cruises/ships" element={<Seabournships />} />
-          <Route path="/seabourn-cruises/suites" element={<Seabournsuites />} />
+          <Route path="/seabourn-cruises/suites" element={<Seabournsuites />} /> 
           <Route path="/seabourn-cruises/expeditions" element={<Seabournexpeditioncruises />} />
           <Route path="/seabourn-cruises/antarctica" element={<Seabournantarcticacruises />} />
           <Route path="/seabourn-cruises/seabourn-vs-silversea" element={<Seabournvssilversea />} />
