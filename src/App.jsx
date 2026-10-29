@@ -52,11 +52,11 @@ import WhoShouldSailViking from "./pages/WhoShouldSailViking/WhoShouldSailViking
 import WhoShouldNotSailViking from "./pages/WhoShouldNotSailViking/WhoShouldNotSailViking";
 import VikingDanubeRiverCruises from "./pages/VikingDanubeRiverCruises/VikingDanubeRiverCruises";
 import DisneyCruiseLineVacations from "./pages/DisneyCruiseLineVacations/DisneyCruiseLineVacations";
-import BestTravelAgentFlorida from "./pages/BestTravelAgentFlorida/BestTravelAgentFlorida";
-import BestTravelAgencyFlorida from "./pages/BestTravelAgencyFlorida/BestTravelAgencyFlorida";
-import BestCruiseTravelAgentFlorida from "./pages/BestCruiseTravelAgentFlorida/BestCruiseTravelAgentFlorida";
-import HowToFindReputableTravelAgentFlorida from "./pages/HowToFindReputableTravelAgentFlorida/HowToFindReputableTravelAgentFlorida";
-import DoesItCostMoreToBookThroughATravelAgent from "./pages/DoesItCostMoreToBookThroughATravelAgent/DoesItCostMoreToBookThroughATravelAgent";
+import BestTravelAgentFlorida from "./pages/Florida/BestTravelAgentFlorida/BestTravelAgentFlorida";
+import BestTravelAgencyFlorida from "./pages/Florida/BestTravelAgencyFlorida/BestTravelAgencyFlorida";
+import BestCruiseTravelAgentFlorida from "./pages/Florida/BestCruiseTravelAgentFlorida/BestCruiseTravelAgentFlorida";
+import HowToFindReputableTravelAgentFlorida from "./pages/Florida/HowToFindReputableTravelAgentFlorida/HowToFindReputableTravelAgentFlorida";
+import DoesItCostMoreToBookThroughATravelAgent from "./pages/Florida/DoesItCostMoreToBookThroughATravelAgent/DoesItCostMoreToBookThroughATravelAgent";
 import TravelProgramsForMuseums from "./pages/TravelProgramsForMuseums/TravelProgramsForMuseums";
 import TravelProgramsForAquariums from "./pages/TravelProgramsForAquariums/TravelProgramsForAquariums";
 import TravelProgramsForZoos from "./pages/TravelProgramsForZoos/TravelProgramsForZoos";

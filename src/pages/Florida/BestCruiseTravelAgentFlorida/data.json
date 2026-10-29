@@ -263,18 +263,34 @@
     "title": "Is It Worth Using a Cruise Travel Agent?",
     "subtitle": "For a straightforward cruise, some travelers are comfortable booking directly. For a luxury or complex itinerary, professional cruise planning provides immense value.",
     "reasons": [
-      "Narrow down hundreds of cruise choices and ship classes",
-      "Objectively compare luxury cruise lines and value inclusions",
-      "Identify the exact right ship for your travel style",
-      "Select the optimal cabin location and avoid noisy decks",
-      "Understand complex beverage, Wi-Fi, and excursion inclusions",
-      "Evaluate limited-time promotions and exclusive agency perks",
-      "Coordinate multiple reservations into one unified itinerary",
-      "Curate private shore excursions and independent guides",
-      "Add seamless pre- and post-cruise luxury hotels and transfers",
-      "Arrange comprehensive international travel protection",
-      "Handle flight changes, cancellations, and port reroutings",
-      "Enjoy dedicated, personal support rather than a call center"
+      {
+        "title": "Curated Cruise & Ship Selection",
+        "description": "Filter through hundreds of vessels and ship classes to pinpoint the ideal deck layout, vibe, and guest capacity for your voyage."
+      },
+      {
+        "title": "Objective Value & Inclusions Analysis",
+        "description": "Evaluate what is genuinely covered across luxury lines—from premium beverage packages and Wi-Fi to gratuities and shore excursions."
+      },
+      {
+        "title": "Travel Style & Vibe Matching",
+        "description": "Align your preferences with the right ambiance—whether you seek quiet enrichment, culinary mastery, or expedition discovery."
+      },
+      {
+        "title": "Strategic Cabin & Deck Placement",
+        "description": "Hand-verify deck plans against physical ship blueprints to avoid noisy public venues, high-traffic corridors, and obstructed views."
+      },
+      {
+        "title": "Complex Fare & Promotion Navigation",
+        "description": "Navigate complicated promotion structures, seasonal sailings, and fine-print restrictions without hidden surprises."
+      },
+      {
+        "title": "Exclusive Agency Perks & Credits",
+        "description": "Access preferred Virtuoso amenities, dedicated shipboard spending credits, and priority stateroom upgrade consideration."
+      },
+      {
+        "title": "Master Itinerary Coordination",
+        "description": "Seamlessly connect pre-cruise luxury hotels, private airport-to-ship transfers, flights, and post-cruise extensions into one unified schedule."
+      }
     ],
     "conclusion": "The biggest benefit may simply be having an experienced person who understands your trip rather than making every high-stakes decision yourself."
   },

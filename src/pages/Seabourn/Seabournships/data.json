@@ -18,7 +18,7 @@
       },
       {
         "@type": "Person",
-        "@id": "https://www.tripsandships.com/#person",
+        "@id": "https://www.tripsandships.com/#founder",
         "name": "Angela Hughes",
         "jobTitle": "CEO of Trips & Ships Luxury Travel",
         "description": "Luxury travel expert with over 40 years of experience and travel to 121+ countries."
@@ -27,7 +27,7 @@
         "@type": "WebPage",
         "@id": "https://www.tripsandships.com/seabourn-cruises/ships/#webpage",
         "name": "Seabourn Ships: Complete Fleet Guide & Ship Comparison",
-        "url": "https://www.tripsandships.com/seabourn-cruises/ships/",
+        "url": "https://www.tripsandships.com/seabourn-cruises/ships",
         "description": "Compare Seabourn ships including Quest, Encore, Ovation, Venture and Pursuit. Explore suites, dining, amenities, expedition features, size and which Seabourn ship is best for you.",
         "inLanguage": "en-US",
         "isPartOf": {
@@ -46,7 +46,7 @@
         "author": {
           "@type": "Person",
           "name": "Angela Hughes",
-          "@id": "https://www.tripsandships.com/#person"
+          "@id": "https://www.tripsandships.com/#founder"
         },
         "publisher": {
           "@type": "Organization",
@@ -72,13 +72,13 @@
             "@type": "ListItem",
             "position": 2,
             "name": "Seabourn Cruises",
-            "item": "https://www.tripsandships.com/seabourn-cruises/"
+            "item": "https://www.tripsandships.com/seabourn-cruises"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Seabourn Ships",
-            "item": "https://www.tripsandships.com/seabourn-cruises/ships/"
+            "item": "https://www.tripsandships.com/seabourn-cruises/ships"
           }
         ]
       },
@@ -105,71 +105,31 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Seabourn Quest",
-            "item": {
-              "@type": "Product",
-              "name": "Seabourn Quest",
-              "brand": {
-                "@type": "Brand",
-                "name": "Seabourn"
-              },
-              "category": "Luxury Ocean Cruise Ship"
-            }
+            "url": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-quest"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Seabourn Encore",
-            "item": {
-              "@type": "Product",
-              "name": "Seabourn Encore",
-              "brand": {
-                "@type": "Brand",
-                "name": "Seabourn"
-              },
-              "category": "Luxury Ocean Cruise Ship"
-            }
+            "url": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-encore"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Seabourn Ovation",
-            "item": {
-              "@type": "Product",
-              "name": "Seabourn Ovation",
-              "brand": {
-                "@type": "Brand",
-                "name": "Seabourn"
-              },
-              "category": "Luxury Ocean Cruise Ship"
-            }
+            "url": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-ovation"
           },
           {
             "@type": "ListItem",
             "position": 4,
             "name": "Seabourn Venture",
-            "item": {
-              "@type": "Product",
-              "name": "Seabourn Venture",
-              "brand": {
-                "@type": "Brand",
-                "name": "Seabourn"
-              },
-              "category": "Luxury Expedition Cruise Ship"
-            }
+            "url": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-venture"
           },
           {
             "@type": "ListItem",
             "position": 5,
             "name": "Seabourn Pursuit",
-            "item": {
-              "@type": "Product",
-              "name": "Seabourn Pursuit",
-              "brand": {
-                "@type": "Brand",
-                "name": "Seabourn"
-              },
-              "category": "Luxury Expedition Cruise Ship"
-            }
+            "url": "https://www.tripsandships.com/seabourn-cruises/ships/seabourn-pursuit"
           }
         ]
       },
@@ -327,9 +287,9 @@
   },
   "hero": {
     "badge": "Fleet Guide & Comparison",
-    "title": "Seabourn Ships\nComplete Fleet Guide",
+    "title": "Seabourn Ships:\nComplete Fleet Guide",
     "subtitle": "Choosing the right ship can be just as important as choosing the right itinerary.",
-    "description": "While Seabourn Cruises is known for its intimate, yacht-like approach to luxury cruising, the fleet is not identical. The current fleet includes five ships: Seabourn Quest, Seabourn Encore, Seabourn Ovation, Seabourn Venture and Seabourn Pursuit. The first three are ocean-going luxury ships, while Venture and Pursuit are purpose-built expedition vessels. That distinction matters. If you are planning a Mediterranean escape, you may prefer the atmosphere and amenities of Seabourn Encore or Seabourn Ovation. If your goal is Antarctica, the Arctic or the Kimberley, Seabourn Venture or Seabourn Pursuit are designed specifically for that style of exploration. This guide compares the five ships so you can understand which Seabourn ship is best for your travel style, destination and priorities.",
+    "description": "While Seabourn Cruises is known for its intimate, yacht-like approach to luxury cruising, the fleet is not identical. The current fleet includes five ships: Seabourn Quest, Seabourn Encore, Seabourn Ovation, Seabourn Venture and Seabourn Pursuit.",
     "ctaText": "Start Planning Your Voyage",
     "ctaLink": "/contact"
   },
@@ -766,7 +726,7 @@
   },
   "dining": {
     "title": "Seabourn Ships and Dining",
-    "subtitle": "World-class dining across the fleet with no single objective winner — dining differs venue-by-venue across ocean and expedition ships.",
+    "subtitle": "World-class dining across the fleet with no single objective winner - dining differs venue-by-venue across ocean and expedition ships.",
     "items": [
       {
         "title": "Encore & Ovation Dining",
@@ -778,7 +738,7 @@
       },
       {
         "title": "Venture & Pursuit Dining",
-        "description": "Expedition ships combine polar-grade exploration with Seabourn's gourmet culinary standard — fine dining, The Restaurant, and casual bites without sacrificing adventure."
+        "description": "Expedition ships combine polar-grade exploration with Seabourn's gourmet culinary standard - fine dining, The Restaurant, and casual bites without sacrificing adventure."
       },
       {
         "title": "Signature Culinary Experiences",
@@ -966,7 +926,7 @@
     "steps": [
       {
         "title": "Start With the Destination",
-        "description": "Don't choose the ship first. Choose the destination you want to experience — whether European ports or polar ice."
+        "description": "Don't choose the ship first. Choose the destination you want to experience - whether European ports or polar ice."
       },
       {
         "title": "Compare the Itineraries",
@@ -978,7 +938,7 @@
       },
       {
         "title": "Compare Suite Categories",
-        "description": "The same ship can offer dramatically different experiences depending on your suite — from classic oceanfront layouts to expansive multi-room verandas."
+        "description": "The same ship can offer dramatically different experiences depending on your suite - from classic oceanfront layouts to expansive multi-room verandas."
       },
       {
         "title": "Look at the Ship's Amenities",
@@ -1117,6 +1077,6 @@
     "title": "Seabourn Ships: Complete Fleet Overview & Vessel Comparison",
     "metaTitle": "Compare All Seabourn Cruise Ships: Ocean & Expedition Fleet",
     "description": "Compare all 5 Seabourn ships: Quest, Encore, Ovation, Venture, and Pursuit. Explore passenger capacity, suite options, dining venues, and destination specialties.",
-    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ships/"
+    "canonicalUrl": "https://www.tripsandships.com/seabourn-cruises/ships"
   }
 }
