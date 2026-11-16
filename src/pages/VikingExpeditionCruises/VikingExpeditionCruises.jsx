@@ -49,76 +49,97 @@ const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebPage",
+      "@id": "https://www.tripsandships.com/viking-expedition-cruises#webpage",
+      "url": "https://www.tripsandships.com/viking-expedition-cruises",
+      "name": "Viking Expedition Cruises | Explore Antarctica, the Arctic & Beyond",
+      "headline": "Viking Expedition Cruises",
+      "description":
+        "Discover Viking Expedition Cruises and explore Antarctica, the Arctic, the Great Lakes, and remote destinations around the world. Learn how Viking combines luxury, science, education, and exploration into unforgettable expedition experiences.",
+      "inLanguage": "en-US",
+      "author": {
+        "@id": "https://www.tripsandships.com/#founder"
+      },
+      "publisher": {
+        "@id": "https://www.tripsandships.com/#organization"
+      },
+      "isPartOf": { "@id": "https://www.tripsandships.com/#website" }
+    },
+    {
       "@type": "Organization",
       "@id": "https://www.tripsandships.com/#organization",
-      name: "Trips & Ships Luxury Travel",
-      url: "https://www.tripsandships.com",
-      logo: "https://www.tripsandships.com/logo.png",
-      description:
-        "Luxury travel agency specializing in luxury cruises, family travel, river cruises, expedition cruises, and custom travel planning.",
+      "name": "Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/",
+      "founder": {
+        "@id": "https://www.tripsandships.com/#founder"
+      }
     },
     {
+      "address": { "@type": "PostalAddress", "addressLocality": "Winter Garden", "addressRegion": "FL", "postalCode": "34787", "addressCountry": "US" },
       "@type": "TravelAgency",
       "@id": "https://www.tripsandships.com/#travelagency",
-      name: "Trips & Ships Luxury Travel",
-      url: "https://www.tripsandships.com",
-      description:
-        "Luxury travel experts helping travelers discover Viking Expedition Cruises through expert guidance and personalized travel planning.",
+      "name": "Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/",
+      "description":
+        "Luxury travel agency specializing in luxury cruises, river cruises, expedition cruises, yacht cruises, and personalized travel planning.",
+      "parentOrganization": {
+        "@id": "https://www.tripsandships.com/#organization"
+      }
     },
     {
-      "@type": "WebPage",
-      "@id": "https://www.tripsandships.com/viking-expedition-cruises",
-      url: "https://www.tripsandships.com/viking-expedition-cruises",
-      name: "Viking Expedition Cruises | Explore Antarctica, the Arctic & Beyond",
-      description:
-        "Discover Viking Expedition Cruises and explore Antarctica, the Arctic, the Great Lakes, and remote destinations around the world. Learn how Viking combines luxury, science, education, and exploration into unforgettable expedition experiences.",
-      isPartOf: { "@id": "https://www.tripsandships.com/#website" },
-      about: [{ "@type": "Organization", name: "Viking Cruises" }],
+      "@type": "Person",
+      "@id": "https://www.tripsandships.com/#founder",
+      "name": "Angela Hughes",
+      "jobTitle": "CEO of Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/our-story",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tripsandships.com/assets/Angela_Hughes.jpg",
+        "caption": "Angela Hughes - Luxury Travel Expert"
+      },
+      "description":
+        "Angela Hughes is a luxury travel expert with over 40 years of experience, having traveled to 121+ countries, specializing in luxury cruises and expedition cruises.",
+      "worksFor": {
+        "@id": "https://www.tripsandships.com/#organization"
+      },
+      "knowsAbout": [
+        "Luxury Travel",
+        "Expedition Cruises",
+        "Viking Expedition Cruises",
+        "Antarctica Expeditions",
+        "Arctic Cruises",
+        "Great Lakes Cruises"
+      ]
     },
     {
       "@type": "BreadcrumbList",
       "@id":
         "https://www.tripsandships.com/viking-expedition-cruises#breadcrumb",
-      itemListElement: [
+      "itemListElement": [
         {
           "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://www.tripsandships.com",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.tripsandships.com/"
         },
         {
           "@type": "ListItem",
-          position: 2,
-          name: "Cruise Guide",
-          item: "https://www.tripsandships.com/cruise-comparisons",
+          "position": 2,
+          "name": "Cruise Guide",
+          "item": "https://www.tripsandships.com/small-ship-cruises"
         },
         {
           "@type": "ListItem",
-          position: 3,
-          name: "Viking Expedition Cruises",
-          item: "https://www.tripsandships.com/viking-expedition-cruises",
-        },
-      ],
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://www.tripsandships.com/viking-expedition-cruises#itemlist",
-      name: "Popular Viking Expedition Destinations",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Antarctica Expeditions" },
-        { "@type": "ListItem", position: 2, name: "Arctic Expeditions" },
-        { "@type": "ListItem", position: 3, name: "Great Lakes Expeditions" },
-        {
-          "@type": "ListItem",
-          position: 4,
-          name: "North American Coastal Expeditions",
-        },
-      ],
+          "position": 3,
+          "name": "Viking Expedition Cruises",
+          "item": "https://www.tripsandships.com/viking-expedition-cruises"
+        }
+      ]
     },
     {
       "@type": "FAQPage",
       "@id": "https://www.tripsandships.com/viking-expedition-cruises#faq",
-      mainEntity: [
+      "mainEntity": [
         {
           "@type": "Question",
           name: "What is Viking Expedition Cruises known for?",
@@ -242,40 +263,45 @@ const schemaData = {
       ],
     },
     {
-      "@type": "Review",
-      "@id": "https://www.tripsandships.com/viking-expedition-cruises#review",
-      itemReviewed: {
-        "@type": "TravelAction",
-        name: "Viking Expedition Cruises",
+      "@type": "Product",
+      "name": "Viking Expedition Cruises",
+      "description":
+        "Destination-focused polar and wilderness expedition voyages to Antarctica, the Arctic, and the Great Lakes aboard purpose-built Polar Class 6 expedition ships.",
+      "image": "https://www.tripsandships.com/viking-expedition.png",
+      "brand": {
+        "@type": "Brand",
+        "name": "Viking"
       },
-      reviewBody:
-        "Viking Expedition Cruises offers award-winning destination-focused expedition voyages designed for curious adult travelers — combining purpose-built polar class ships, inclusive pricing, scientific discovery, and expert expedition guides.",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "4995",
+        "highPrice": "24995",
+        "offerCount": "10",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.tripsandships.com/viking-expedition-cruises"
       },
-      author: {
-        "@type": "Organization",
-        name: "Trips & Ships Luxury Travel",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "28",
+        "bestRating": "5"
       },
-    },
-    {
-      "@type": "TouristTrip",
-      "@id":
-        "https://www.tripsandships.com/viking-expedition-cruises#touristtrip",
-      name: "Viking Expedition Cruises — Antarctica, Arctic & Great Lakes",
-      description:
-        "Explore remote polar regions, Greenland, Svalbard, and North America's Great Lakes onboard Viking's state-of-the-art expedition vessels with expert lecturers and Zodiac excursions.",
-      touristType: [
-        "Retirees",
-        "Couples",
-        "Solo Travelers",
-        "Nature Enthusiasts",
-        "Photographers",
-        "Adventure Travelers",
-        "Lifelong Learners",
-      ],
+      "review": {
+        "@type": "Review",
+        "@id": "https://www.tripsandships.com/viking-expedition-cruises#review",
+        "reviewBody":
+          "Viking Expedition Cruises offers award-winning destination-focused expedition voyages designed for curious adult travelers — combining purpose-built polar class ships, inclusive pricing, scientific discovery, and expert expedition guides.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      }
     },
   ],
 };

@@ -61,10 +61,18 @@ const schemaData = {
     {
       "@type": "TravelAgency",
       "@id": "https://www.tripsandships.com/#travelagency",
-      name: "Trips & Ships Luxury Travel",
-      url: "https://www.tripsandships.com",
-      description:
-        "Luxury travel experts helping travelers discover Viking Ocean cruise experiences through expert guidance and personalized travel planning.",
+      "name": "Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/",
+      "description": "Luxury travel experts helping travelers discover Viking Ocean cruise experiences through expert guidance and personalized travel planning.",
+      "image": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Winter Garden",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-603-860-3274",
+      "email": "sales@tripsandships.com"
     },
     {
       "@type": "WebPage",
@@ -90,7 +98,7 @@ const schemaData = {
           "@type": "ListItem",
           position: 2,
           name: "Cruise Guide",
-          item: "https://www.tripsandships.com/cruise-comparisons",
+          item: "https://www.tripsandships.com/small-ship-cruises",
         },
         {
           "@type": "ListItem",
@@ -234,25 +242,6 @@ const schemaData = {
       ],
     },
     {
-      "@type": "Review",
-      "@id": "https://www.tripsandships.com/viking-ocean-cruises#review",
-      itemReviewed: {
-        "@type": "TravelAction",
-        name: "Viking Ocean Cruises",
-      },
-      reviewBody:
-        "Viking Ocean Cruises offers award-winning destination-focused ocean voyages designed for curious adult travelers — combining elegant Scandinavian design, inclusive pricing, cultural enrichment programs, and smaller ship intimacy that set it apart from mainstream cruise lines.",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Trips & Ships Luxury Travel",
-      },
-    },
-    {
       "@type": "TouristTrip",
       "@id": "https://www.tripsandships.com/viking-ocean-cruises#touristtrip",
       name: "Viking Ocean Cruises — Destination-Focused Ocean Voyages",
@@ -266,6 +255,37 @@ const schemaData = {
         "Solo Travelers",
         "History Enthusiasts",
       ],
+    },
+    {
+      "@type": "Product",
+      "name": "Viking Ocean Cruises",
+      "description":
+        "Destination-focused ocean voyages designed for curious adult travelers, combining Scandinavian design, inclusive pricing, and small ship luxury.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Viking"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "38",
+        "bestRating": "5"
+      },
+      "review": {
+        "@type": "Review",
+        "@id": "https://www.tripsandships.com/viking-ocean-cruises#review",
+        "reviewBody":
+          "Viking Ocean Cruises offers award-winning destination-focused ocean voyages designed for curious adult travelers — combining elegant Scandinavian design, inclusive pricing, cultural enrichment programs, and smaller ship intimacy that set it apart from mainstream cruise lines.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      }
     },
   ],
 };

@@ -269,10 +269,18 @@ const schemaData = {
     {
       "@type": "TravelAgency",
       "@id": "https://www.tripsandships.com/#travelagency",
-      name: "Trips & Ships Luxury Travel",
-      url: "https://www.tripsandships.com",
-      description:
-        "Luxury travel experts helping families plan Disney Caribbean Cruises, Bahamas voyages, Eastern and Western Caribbean adventures, and multigenerational cruise vacations.",
+      "name": "Trips & Ships Luxury Travel",
+      "url": "https://www.tripsandships.com/",
+      "description": "Luxury travel experts helping families plan Disney Caribbean Cruises, Bahamas voyages, Eastern and Western Caribbean adventures, and multigenerational cruise vacations.",
+      "image": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Winter Garden",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-603-860-3274",
+      "email": "sales@tripsandships.com"
     },
 
     {
@@ -329,23 +337,35 @@ const schemaData = {
     },
 
     {
-      "@type": "Review",
-      "@id": "https://www.tripsandships.com/disney-caribbean-cruises#review",
-      itemReviewed: {
-        "@type": "TravelAction",
-        name: "Disney Caribbean Cruises",
+      "@type": "Product",
+      "name": "Disney Caribbean Cruises",
+      "description":
+        "Disney Caribbean cruises featuring tropical islands, Castaway Cay and Lookout Cay private island stops, family activities, and world-class entertainment.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Disney Cruise Line"
       },
-      reviewBody:
-        "Disney Caribbean Cruises successfully combine iconic tropical destinations with Disney's family-focused service, entertainment, accommodations, private island experiences, and multigenerational appeal.",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "34",
+        "bestRating": "5"
       },
-      author: {
-        "@type": "Organization",
-        name: "Trips & Ships Luxury Travel",
-      },
+      "review": {
+        "@type": "Review",
+        "@id": "https://www.tripsandships.com/disney-caribbean-cruises#review",
+        "reviewBody":
+          "Disney Caribbean Cruises successfully combine iconic tropical destinations with Disney's family-focused service, entertainment, accommodations, private island experiences, and multigenerational appeal.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      }
     },
 
     {
@@ -363,7 +383,7 @@ const schemaData = {
           "@type": "ListItem",
           position: 2,
           name: "Disney Cruises",
-          item: "https://www.tripsandships.com/disney-cruises",
+          item: "https://www.tripsandships.com/disney-cruise-line-ultimate-guide",
         },
         {
           "@type": "ListItem",
