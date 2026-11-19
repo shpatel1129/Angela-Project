@@ -1,0 +1,870 @@
+{
+  "meta": {
+    "title": "Celebrity Cruises Dress Code: What to Wear & Pack",
+    "metaTitle": "Celebrity Cruises Dress Code: What to Wear and What to Pack",
+    "description": "Understand the Celebrity Cruises dress code, including Smart Casual and Evening Chic nights. Discover what to wear, what to pack, and what to avoid.",
+    "canonicalUrl": "https://www.tripsandships.com/celebrity-cruises/dress-code",
+    "primaryKeyword": "Celebrity Cruises dress code",
+    "secondaryKeywords": [
+      "What to wear on Celebrity Cruises",
+      "Celebrity Cruises Evening Chic",
+      "Celebrity Cruises Smart Casual dress code",
+      "Celebrity cruise packing list",
+      "Celebrity Cruises formal night dress code",
+      "What to wear on a Celebrity cruise at night",
+      "Celebrity Cruises dining dress code"
+    ]
+  },
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "telephone": "+1-801-555-0199",
+        "founder": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#author",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO & Luxury Travel Advisor",
+        "worksFor": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "url": "https://www.tripsandships.com/about-angela-hughes"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com",
+        "name": "Trips & Ships Luxury Travel",
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/dress-code#webpage",
+        "url": "https://www.tripsandships.com/celebrity-cruises/dress-code",
+        "name": "Celebrity Cruises Dress Code: What to Wear & Pack",
+        "description": "Understand the Celebrity Cruises dress code, including Smart Casual and Evening Chic nights. Discover what to wear, what to pack, and what to avoid.",
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/dress-code#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/dress-code#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Celebrity Cruises",
+            "item": "https://www.tripsandships.com/celebrity-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Celebrity Cruises Dress Code",
+            "item": "https://www.tripsandships.com/celebrity-cruises/dress-code"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/dress-code#article",
+        "headline": "Celebrity Cruises Dress Code: What to Wear and What to Pack",
+        "description": "Understand the Celebrity Cruises dress code, including Smart Casual and Evening Chic nights. Discover what to wear, what to pack, and what to avoid.",
+        "author": {
+          "@id": "https://www.tripsandships.com/#author"
+        },
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "datePublished": "2026-11-04",
+        "dateModified": "2026-11-04",
+        "mainEntityOfPage": "https://www.tripsandships.com/celebrity-cruises/dress-code"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/dress-code#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the dress code on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity Cruises uses a casual-chic approach. Daytime clothing is generally relaxed, most evenings follow Smart Casual, and selected evenings are designated Evening Chic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity Cruises have formal nights?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity calls its dressier evenings Evening Chic rather than traditional formal nights. Guests can wear elegant clothing, but tuxedos and formal gowns are optional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does Evening Chic mean on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evening Chic means dressing in a sophisticated, polished style. Cocktail dresses, elegant separates, tailored trousers, designer jeans, blazers, and dress shirts are suitable examples."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many formal nights are on a Celebrity cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most itineraries feature one or two Evening Chic nights. The number depends on the sailing, so check the daily program for your specific cruise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a tuxedo on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. A tuxedo is optional. A suit, blazer, cocktail dress, elegant top, or other polished outfit is also appropriate for Evening Chic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I wear jeans on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Neat jeans are acceptable as part of Smart Casual attire. Pair them with a stylish top, button-down shirt, or blazer for a more polished appearance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you wear shorts to dinner on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shorts are not considered Smart Casual attire for evening dining in the main and specialty restaurants. Choose long trousers, a skirt, or a dress instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are flip-flops allowed on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Flip-flops are suitable for poolside use, but they are not considered Smart Casual evening footwear. Choose dressier shoes for evening dining."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I wear a T-shirt in the main dining room?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's published guidance asks guests to refrain from wearing T-shirts in the main and specialty dining rooms. Choose a polo, button-down, blouse, or other suitable top instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I wear a swimsuit to the buffet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Swimwear is appropriate around the pool, but Celebrity asks guests to avoid swimsuits, see-through cover-ups, and robes in the main and specialty dining rooms. Put on suitable clothing before dining indoors."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I wear a sundress on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Sundresses are suitable daytime resort wear and can also work for Smart Casual evenings, depending on the style and overall appearance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should men wear on Celebrity Evening Chic nights?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Men can wear tailored trousers or smart jeans with a button-down shirt, dress shirt, or sophisticated sweater. A blazer, suit, or tuxedo is optional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should women wear on Celebrity Evening Chic nights?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Women can choose a cocktail dress, elegant skirt and top, dressy trousers, a pantsuit, or designer jeans with a sophisticated top."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are jackets and ties required on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Jackets and ties are welcome for guests who enjoy dressing up, but they are not required for Evening Chic."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I skip Evening Chic night?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity states that Smart Casual attire is acceptable for dining and the theater if you do not wish to participate in Evening Chic."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Celebrity Cruises Style & Packing Guide",
+    "title": "Celebrity Cruises Dress Code: What to Wear and What to Pack",
+    "subtitle": "Polished, contemporary casual chic for relaxed daytime sea days, smart-casual dinners, and flexible Evening Chic celebrations.",
+    "byline": "By Angela Hughes, CEO of Trips & Ships Luxury Travel • Updated November 2026",
+    "introParagraphs": [
+      "Celebrity Cruises has a polished, contemporary approach to onboard dressing. You do not need a suitcase full of formal gowns and tuxedos, but you should bring a few outfits that work for relaxed daytime activities, smart-casual dinners, and the occasional dressier evening.",
+      "The cruise line describes its overall style as casual chic. During the day, resort wear is appropriate around the ship, while most evenings follow a Smart Casual dress code. Selected evenings are designated as Evening Chic, giving guests an opportunity to dress up without requiring traditional black-tie clothing.",
+      "Whether you are sailing to the Caribbean, Alaska, Europe, or another destination, understanding the Celebrity Cruises dress code before departure makes packing easier and helps you prepare for every part of the experience."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: What Is the Dress Code on Celebrity Cruises?",
+    "subtitle": "Celebrity Cruises has three main clothing expectations across every voyage:",
+    "categories": [
+      {
+        "category": "Daytime",
+        "description": "Casual resort wear, including shorts, sundresses, polos, jeans, and comfortable shoes."
+      },
+      {
+        "category": "Smart Casual evenings",
+        "description": "Dresses, skirts, long trousers, stylish jeans, elegant tops, and button-down shirts."
+      },
+      {
+        "category": "Evening Chic nights",
+        "description": "Dressier outfits such as cocktail dresses, elegant separates, designer jeans, blazers, and sophisticated shirts. Tuxedos and gowns are welcome but not required."
+      }
+    ],
+    "notes": "Most itineraries feature one or two Evening Chic nights. The exact schedule is provided in the ship's daily program. Guests who prefer not to dress up can wear Smart Casual attire for dining and the theater on those evenings."
+  },
+  "understanding": {
+    "title": "Understanding the Celebrity Cruises Dress Code",
+    "subtitle": "Celebrity Cruises aims for a stylish atmosphere without making guests follow an overly complicated dress code. The emphasis is on looking appropriate for the setting while remaining comfortable.",
+    "columns": [
+      "Occasion",
+      "Recommended attire",
+      "What to remember"
+    ],
+    "rows": [
+      {
+        "occasion": "Daytime around the ship",
+        "attire": "Resort wear, shorts, sundresses, polos",
+        "remember": "Comfortable and relaxed"
+      },
+      {
+        "occasion": "Pool deck",
+        "attire": "Swimwear and cover-ups",
+        "remember": "Cover up when leaving the pool area"
+      },
+      {
+        "occasion": "Main dining room",
+        "attire": "Smart Casual",
+        "remember": "Avoid poolwear and overly casual clothing"
+      },
+      {
+        "occasion": "Specialty restaurants",
+        "attire": "Smart Casual",
+        "remember": "Dress neatly for dinner"
+      },
+      {
+        "occasion": "Celebrity Theatre",
+        "attire": "Smart Casual or Evening Chic, depending on the night",
+        "remember": "Follow the evening's dress guidance"
+      },
+      {
+        "occasion": "Evening Chic",
+        "attire": "Dressier, sophisticated outfits",
+        "remember": "Formalwear is optional"
+      },
+      {
+        "occasion": "Shore excursions",
+        "attire": "Destination-appropriate clothing",
+        "remember": "Consider weather and activities"
+      }
+    ],
+    "packingAdvice": "The most useful packing strategy is to choose versatile clothing that can be dressed up or down. A pair of tailored trousers, for example, can work during the day with a casual shirt and in the evening with a more polished top."
+  },
+  "smartCasual": {
+    "title": "What Is Smart Casual on Celebrity Cruises?",
+    "subtitle": "Smart Casual is the standard evening dress code on most Celebrity Cruises sailings. It is intended to look neat and put together without requiring formal clothing.",
+    "description": "Celebrity describes Smart Casual as comfortable yet tasteful attire. Appropriate choices include dresses, skirts, long trousers, jeans, stylish tops, and button-down shirts.",
+    "womenTitle": "Smart Casual Outfits for Women",
+    "womenItems": [
+      "Casual dresses and sundresses.",
+      "Skirts with elegant blouses.",
+      "Tailored trousers or dress pants.",
+      "Well-fitted, non-distressed jeans.",
+      "Stylish tops and lightweight sweaters.",
+      "Comfortable dress shoes, flats, or low heels."
+    ],
+    "womenTip": "A simple dress with sandals or a blouse paired with tailored trousers can work well for most Smart Casual evenings.",
+    "menTitle": "Smart Casual Outfits for Men",
+    "menItems": [
+      "Long trousers or chinos.",
+      "Neat, non-distressed jeans.",
+      "Collared shirts and button-downs.",
+      "Polos and smart casual shirts.",
+      "Lightweight sweaters.",
+      "Loafers or other appropriate evening shoes."
+    ],
+    "menTip": "A tie and suit are not necessary for an ordinary Smart Casual evening.",
+    "jeansQuestion": "Are jeans allowed on Celebrity Cruises?",
+    "jeansAnswer": "Yes. Jeans are acceptable as part of Smart Casual attire when they look neat and appropriate for the restaurant or venue. Dark jeans paired with a button-down shirt or stylish top can be a practical choice. Avoid treating ripped, heavily distressed, or beach-style clothing as evening wear.",
+    "shortsQuestion": "Can you wear shorts to dinner?",
+    "shortsAnswer": "Celebrity's Smart Casual guidance does not consider shorts appropriate for evening dining in the main and specialty restaurants or for the Celebrity Theatre. If you prefer to remain in shorts, consider a casual dining option or poolside venue where that clothing is appropriate."
+  },
+  "eveningChic": {
+    "title": "What Is Evening Chic on Celebrity Cruises?",
+    "subtitle": "Evening Chic is Celebrity Cruises' name for its dressier evenings. It replaces the traditional expectation of a compulsory formal night with a more flexible opportunity to dress elegantly.",
+    "description": "Think sophisticated rather than strictly black tie. Guests can choose how dressed up they want to be, within the Evening Chic guidance.",
+    "womenTitle": "Evening Chic Outfits for Women",
+    "womenItems": [
+      "Cocktail dresses.",
+      "Elegant skirts with dressy tops.",
+      "Tailored trousers and sophisticated blouses.",
+      "Dressy jumpsuits.",
+      "Designer jeans with an elegant top.",
+      "Dressy pantsuits.",
+      "Evening accessories and statement jewelry."
+    ],
+    "womenTip": "You do not need to purchase a new formal outfit specifically for the cruise. A versatile dress or coordinated outfit that you already own can be an excellent choice.",
+    "menTitle": "Evening Chic Outfits for Men",
+    "menItems": [
+      "Dress trousers with a button-down shirt.",
+      "A blazer with smart trousers.",
+      "A sophisticated sweater and tailored pants.",
+      "Designer jeans with an elegant shirt.",
+      "A suit for guests who enjoy dressing up.",
+      "A tuxedo for those who prefer traditional formalwear."
+    ],
+    "menTip": "A jacket and tie can look appropriate, but they are not compulsory.",
+    "tuxedoQuestion": "Do you need a tuxedo or formal gown?",
+    "tuxedoAnswer": "No. Celebrity Cruises welcomes guests who want to wear tuxedos, suits, gowns, and other traditional formal clothing, but these outfits are optional. A cocktail dress, elegant separates, a blazer, or a polished shirt and trousers can be sufficient for Evening Chic.",
+    "scheduleQuestion": "How many Evening Chic nights are there?",
+    "scheduleAnswer": "Celebrity itineraries feature one or two Evening Chic nights, depending on the sailing. Do not assume that every cruise follows exactly the same schedule. Check the Celebrity app and the daily program delivered to your stateroom for the dress guidance on each evening.",
+    "skipQuestion": "What if you do not want to dress up?",
+    "skipAnswer": "You can still participate in the evening's dining and entertainment without wearing formal clothing. Celebrity states that Smart Casual attire is acceptable for dining and the theater when guests do not wish to participate in Evening Chic."
+  },
+  "byTimeOfDay": {
+    "title": "Celebrity Cruises Dress Code by Time of Day",
+    "subtitle": "The best way to plan your wardrobe is to consider what you will be doing throughout the day.",
+    "venues": [
+      {
+        "time": "Morning and Breakfast",
+        "description": "Mornings are generally relaxed. Appropriate options include shorts and T-shirts, casual trousers, polos and casual shirts, sundresses, and comfortable sandals or sneakers. If you are visiting the buffet after spending time at the pool, put on suitable clothing rather than arriving in swimwear alone."
+      },
+      {
+        "time": "Afternoon and Pool Deck",
+        "description": "The pool deck has a relaxed resort atmosphere. Pack swimsuits, swim cover-ups, shorts and casual tops, sandals or flip-flops for the pool area, sunglasses, a sun hat, and a lightweight bag for pool essentials. Remember that pool clothing is not appropriate for the main and specialty dining rooms."
+      },
+      {
+        "time": "Main Dining Room (Evening)",
+        "description": "The main dining room follows Smart Casual guidance in the evening. A dress, skirt, tailored trousers, neat jeans, or a stylish shirt is a practical choice. Swimwear, see-through cover-ups, robes, bare feet, tank tops, T-shirts, and baseball caps are not appropriate in the main and specialty restaurants under Celebrity's published guidance."
+      },
+      {
+        "time": "Specialty Restaurants",
+        "description": "Specialty dining is a good opportunity to wear something a little more polished. Smart Casual is the standard evening expectation, so you do not need to pack a separate formal outfit for every restaurant. A versatile dinner outfit can work across several evenings."
+      },
+      {
+        "time": "Celebrity Theatre",
+        "description": "Smart Casual is the usual evening standard, with Evening Chic applying on designated evenings. Check the daily program for the applicable guidance."
+      }
+    ]
+  },
+  "whatNotToWear": {
+    "title": "What Not to Wear on Celebrity Cruises",
+    "subtitle": "Knowing what to leave out of your evening wardrobe is just as useful as knowing what to pack.",
+    "columns": [
+      "Clothing or footwear",
+      "Where it may be unsuitable"
+    ],
+    "rows": [
+      {
+        "item": "Swimsuits",
+        "unsuitable": "Main and specialty dining rooms"
+      },
+      {
+        "item": "See-through pool cover-ups",
+        "unsuitable": "Main and specialty dining rooms"
+      },
+      {
+        "item": "Bathrobes",
+        "unsuitable": "Main and specialty dining rooms"
+      },
+      {
+        "item": "Bare feet",
+        "unsuitable": "Main and specialty dining rooms"
+      },
+      {
+        "item": "Tank tops",
+        "unsuitable": "Main and specialty dining rooms"
+      },
+      {
+        "item": "T-shirts",
+        "unsuitable": "Main and specialty dining rooms under published guidance"
+      },
+      {
+        "item": "Baseball caps",
+        "unsuitable": "Main and specialty dining rooms"
+      },
+      {
+        "item": "Shorts",
+        "unsuitable": "Smart Casual evening dining"
+      },
+      {
+        "item": "Flip-flops",
+        "unsuitable": "Smart Casual evening dining"
+      }
+    ],
+    "guidanceNote": "These guidelines are particularly relevant when moving from the pool deck to an indoor restaurant. For daytime activities, casual clothing is generally appropriate. For evening dining, choose an outfit that meets the published Smart Casual or Evening Chic expectations."
+  },
+  "packingChecklist": {
+    "title": "What to Pack for a Celebrity Cruise: Complete Checklist",
+    "subtitle": "A well-planned Celebrity cruise wardrobe should cover daytime activities, evenings, shore excursions, and changes in weather. Adjust quantities based on sailing length, destination, excursions, and laundry access.",
+    "categories": [
+      {
+        "title": "Everyday Clothing",
+        "badge": "DAYTIME & CASUAL",
+        "items": [
+          "T-shirts and casual tops",
+          "Shorts",
+          "Jeans or casual trousers",
+          "Polos and button-down shirts",
+          "Sundresses or casual dresses",
+          "Skirts and lightweight trousers",
+          "Underwear and socks",
+          "Sleepwear",
+          "Comfortable everyday shoes"
+        ]
+      },
+      {
+        "title": "Evening Clothing",
+        "badge": "DINNER & THEATRE",
+        "items": [
+          "Smart Casual dinner outfits",
+          "A dress or elegant separates",
+          "Dress trousers or chinos",
+          "Button-down shirts",
+          "A blazer or smart jacket, if desired",
+          "An Evening Chic outfit",
+          "Dress shoes, loafers, or suitable heels",
+          "Jewelry, belts, and other accessories"
+        ]
+      },
+      {
+        "title": "Pool and Beach Essentials",
+        "badge": "RESORT WEAR",
+        "items": [
+          "Swimsuits",
+          "Swim cover-ups",
+          "Sandals or flip-flops",
+          "Sunglasses",
+          "Sun hat",
+          "Beach bag",
+          "Sunscreen",
+          "Waterproof phone pouch, if useful"
+        ]
+      },
+      {
+        "title": "Activewear and Fitness Clothing",
+        "badge": "GYM & RECREATION",
+        "items": [
+          "Workout shirts and tops",
+          "Athletic shorts or leggings",
+          "Sports bras, where applicable",
+          "Gym sneakers",
+          "Socks",
+          "Lightweight jacket for outdoor activities"
+        ]
+      },
+      {
+        "title": "Shore Excursion Clothing",
+        "badge": "PORT ACTIVITIES",
+        "items": [
+          "Comfortable walking shoes",
+          "Lightweight trousers or shorts",
+          "Breathable shirts",
+          "Sun-protective clothing",
+          "Rain jacket or waterproof outerwear",
+          "Day backpack",
+          "Water shoes, where appropriate",
+          "Modest clothing for religious or cultural sites"
+        ]
+      },
+      {
+        "title": "Toiletries & Personal Essentials",
+        "badge": "TRAVEL ESSENTIALS",
+        "items": [
+          "Toothbrush and toothpaste",
+          "Skincare products",
+          "Shampoo and conditioner, if preferred",
+          "Deodorant",
+          "Hairbrush and personal grooming products",
+          "Prescription medication",
+          "Travel documents",
+          "Charging cables and adapters",
+          "Glasses or contact lenses",
+          "Small first-aid essentials"
+        ]
+      }
+    ],
+    "carryOnTip": "Important Packing Tip: Keep travel documents, medication, valuables, and essential boarding-day items in your carry-on rather than relying on checked luggage arriving immediately."
+  },
+  "byDestination": {
+    "title": "What to Wear on Celebrity Cruises by Destination",
+    "subtitle": "Your destination should influence your packing decisions just as much as the dress code.",
+    "destinations": [
+      {
+        "region": "Caribbean Cruises",
+        "imageTag": "celebrity-caribbean-cruise-daytime-resort-wear.jpg",
+        "description": "Caribbean sailings are generally warm, making lightweight and breathable clothing particularly useful.",
+        "packingPoints": [
+          "Sundresses and lightweight outfits.",
+          "Shorts and breathable shirts.",
+          "Swimwear and cover-ups.",
+          "Comfortable sandals.",
+          "Sunglasses and sun protection.",
+          "A light outfit for air-conditioned indoor spaces.",
+          "One or two dressier evening combinations."
+        ],
+        "tip": "For beach excursions, bring suitable footwear and a bag for wet swimwear."
+      },
+      {
+        "region": "Alaska Cruises",
+        "imageTag": "celebrity-alaska-cruise-layered-clothing.jpg",
+        "description": "Alaska requires more attention to changing weather. Even during warmer months, temperatures can vary significantly between ports, outdoor excursions, and time spent on deck.",
+        "packingPoints": [
+          "Base layers.",
+          "Long-sleeved shirts.",
+          "Sweaters or fleece.",
+          "Waterproof jackets.",
+          "Comfortable walking shoes.",
+          "Waterproof footwear for selected excursions.",
+          "Warm socks.",
+          "Hats and gloves.",
+          "Sunglasses."
+        ],
+        "tip": "Layering is more practical than relying on one heavy coat. You can add or remove clothing as the weather changes."
+      },
+      {
+        "region": "Mediterranean Cruises",
+        "imageTag": "celebrity-mediterranean-cruise-shore-excursion-outfits.jpg",
+        "description": "Mediterranean itineraries often involve walking through historic cities, coastal towns, museums, and religious sites.",
+        "packingPoints": [
+          "Lightweight dresses and trousers.",
+          "Breathable shirts.",
+          "Comfortable walking shoes.",
+          "Sun hats and sunglasses.",
+          "A lightweight jacket.",
+          "Modest clothing for religious sites where required."
+        ],
+        "tip": "Some destinations have cobbled streets, uneven paths, or rocky beaches, so choose footwear based on the excursions you plan to take."
+      },
+      {
+        "region": "Northern Europe & Transatlantic Cruises",
+        "imageTag": "celebrity-northern-europe-cruise-layered-outfits.jpg",
+        "description": "For Northern Europe and transatlantic sailings, prepare for a wider range of weather conditions.",
+        "packingPoints": [
+          "Long trousers and long-sleeved tops.",
+          "Sweaters and cardigans.",
+          "Waterproof outerwear.",
+          "Comfortable closed-toe shoes.",
+          "A scarf and warm accessories.",
+          "A few lighter outfits for indoor spaces and warmer days."
+        ],
+        "tip": "The ship's indoor spaces may be considerably warmer than the weather outside, so layers are useful."
+      }
+    ]
+  },
+  "activities": {
+    "title": "What to Wear on Celebrity Cruises for Different Activities",
+    "subtitle": "Tailor your clothing choices to your planned daily activities both on and off the ship.",
+    "items": [
+      {
+        "activity": "At the Gym",
+        "description": "Wear comfortable workout clothing and athletic shoes. Bring suitable clothing if you plan to use the fitness center, take a fitness class, or participate in outdoor activities."
+      },
+      {
+        "activity": "At the Spa",
+        "description": "Bring comfortable clothing for your appointment and swimwear if you intend to use facilities that require it. Check the specific ship's spa and thermal-suite guidance before packing."
+      },
+      {
+        "activity": "On Shore Excursions",
+        "description": "Dress for the activity rather than the ship's evening dress code. For walking tours, choose supportive shoes. For water-based excursions, pack swimwear and appropriate footwear. For cultural visits, check local dress expectations in advance."
+      },
+      {
+        "activity": "For Photographs",
+        "description": "Evening Chic provides an opportunity to dress up for photographs. If you enjoy taking professional-style vacation photos, consider bringing one outfit that feels special without taking up too much luggage space."
+      },
+      {
+        "activity": "For Themed Parties",
+        "description": "Some sailings may feature themed entertainment or parties. Check your cruise itinerary and the Celebrity app before departure. These activities are separate from standard Smart Casual and Evening Chic guidance, and themed clothing is generally a personal choice."
+      }
+    ]
+  },
+  "byShipClass": {
+    "title": "Does the Celebrity Cruises Dress Code Change by Ship?",
+    "subtitle": "Celebrity Cruises uses the same general Smart Casual and Evening Chic terminology across its fleet. However, the atmosphere and onboard venues can vary by ship.",
+    "classes": [
+      {
+        "name": "Edge Series",
+        "subtitle": "CONTEMPORARY ARCHITECTURAL LUXURY",
+        "expectation": "Contemporary restaurants, lounges, and entertainment spaces with a polished atmosphere."
+      },
+      {
+        "name": "Solstice Series",
+        "subtitle": "CLASSIC RESORT SOPHISTICATION",
+        "expectation": "A mix of relaxed daytime activities and sophisticated evening venues."
+      },
+      {
+        "name": "Millennium Series",
+        "subtitle": "TIMELESS BOUTIQUE AMBIANCE",
+        "expectation": "A range of dining and entertainment settings with the same general dress guidance."
+      }
+    ],
+    "verdict": "The dress code is not a reason to choose one ship class over another. Consider the ship's layout, dining options, accommodations, itinerary, and onboard experiences when deciding which vessel suits your travel style."
+  },
+  "enforcement": {
+    "title": "Does Celebrity Cruises Enforce Its Dress Code?",
+    "subtitle": "Celebrity publishes clothing guidance to help maintain the atmosphere of its dining and entertainment venues.",
+    "paragraphs": [
+      "The most important distinction is between daytime casual clothing and evening dining attire.",
+      "Guests should follow the published Smart Casual and Evening Chic guidance, particularly when entering the main dining room, specialty restaurants, and theater.",
+      "If you do not want to dress up on an Evening Chic night, Celebrity permits Smart Casual attire for dining and the theater. You do not have to wear a tuxedo, gown, or other traditional formal clothing.",
+      "For the most accurate information during your sailing, check the daily program and ask the onboard team if you are uncertain about a particular venue."
+    ]
+  },
+  "packLight": {
+    "title": "Can You Pack Light for a Celebrity Cruise?",
+    "subtitle": "Yes. You can pack efficiently without sacrificing style. The key is to choose outfits that work for more than one occasion.",
+    "strategies": [
+      {
+        "title": "Build a Mix-and-Match Capsule Wardrobe",
+        "description": "Choose a small range of complementary colors so that tops, trousers, skirts, and accessories can be combined in different ways. One pair of tailored trousers works with several tops; a neutral dress transitions from day to dinner; a blazer instantly polishes a simple shirt."
+      },
+      {
+        "title": "Avoid Packing Too Many Formal Outfits",
+        "description": "Celebrity's Evening Chic guidance does not require a new formal outfit for every sailing night. One or two versatile dressier combinations may be enough, depending on the itinerary and your preferences."
+      },
+      {
+        "title": "Consider the Length of Your Sailing",
+        "description": "A short cruise requires fewer outfit changes than a longer voyage. For longer itineraries, consider onboard laundry services and reusing versatile, high-quality garments."
+      },
+      {
+        "title": "Check the Forecast Before Departure",
+        "description": "Look at the forecast for your embarkation port and the destinations on your itinerary. This is particularly important for Alaska, Northern Europe, and shoulder-season Mediterranean cruises."
+      }
+    ]
+  },
+  "cruiseLineComparison": {
+    "title": "Celebrity Cruises Dress Code vs. Other Cruise Lines",
+    "subtitle": "Celebrity's approach is best understood as an upscale, contemporary resort style rather than a traditional formal cruise dress code.",
+    "columns": [
+      "Cruise line",
+      "Evening dress-code approach",
+      "What travelers should consider"
+    ],
+    "rows": [
+      {
+        "line": "Celebrity Cruises",
+        "approach": "Smart Casual and Evening Chic",
+        "consider": "Flexible evening dressing with optional formalwear"
+      },
+      {
+        "line": "Royal Caribbean",
+        "approach": "Smart Casual and formal-night guidance",
+        "consider": "Dress expectations vary by venue and sailing"
+      },
+      {
+        "line": "Princess Cruises",
+        "approach": "Smart Casual and formal nights",
+        "consider": "More traditional formal-night terminology"
+      },
+      {
+        "line": "Holland America Line",
+        "approach": "Smart Casual and dressy evenings",
+        "consider": "A more classic cruise atmosphere"
+      },
+      {
+        "line": "Disney Cruise Line",
+        "approach": "Rotational dining attire and selected themed or formal evenings",
+        "consider": "Family-oriented dining and themed experiences"
+      }
+    ],
+    "comparisonAdvice": "These are broad comparisons, not a substitute for each cruise line's current policy. Dress expectations can differ by itinerary, venue, and sailing. If you are deciding between cruise lines, consider the overall experience, not just the dress code. Dining, entertainment, ship design, service, itinerary, and inclusions may be more important to your decision."
+  },
+  "packingMistakes": {
+    "title": "Common Celebrity Cruise Packing Mistakes to Avoid",
+    "subtitle": "A little planning can prevent unnecessary luggage and last-minute shopping.",
+    "mistakes": [
+      {
+        "title": "Packing Too Many Formal Outfits",
+        "description": "Evening Chic is dressy but does not require black-tie clothing. One or two dressier outfits are plenty."
+      },
+      {
+        "title": "Forgetting Comfortable Walking Shoes",
+        "description": "Shore excursions may involve long walks, uneven streets, stairs, or outdoor terrain."
+      },
+      {
+        "title": "Bringing Only Warm-Weather Clothing",
+        "description": "Even Caribbean ships have air-conditioned indoor spaces, and cooler destinations require layers."
+      },
+      {
+        "title": "Wearing Swimwear into Indoor Dining Rooms",
+        "description": "Pack a cover-up and suitable clothing when leaving the pool area before entering restaurants."
+      },
+      {
+        "title": "Assuming Every Evening Has the Same Dress Code",
+        "description": "Check the daily program for designated Evening Chic nights rather than guessing."
+      },
+      {
+        "title": "Packing Without Checking the Itinerary",
+        "description": "A Mediterranean walking tour requires different clothing from a Caribbean beach day or an Alaska excursion."
+      },
+      {
+        "title": "Overlooking Cultural Dress Expectations",
+        "description": "Some religious and historic sites require covered shoulders, knees, or other modest attire."
+      }
+    ]
+  },
+  "whoWillEnjoy": {
+    "title": "Is Celebrity Cruises Dressy? Who Will Enjoy Its Dress Code?",
+    "subtitle": "Celebrity's dress code is a good fit for travelers who appreciate a polished onboard atmosphere but prefer flexibility over compulsory formal evenings.",
+    "goodFit": [
+      "Couples who enjoy dressing up for dinner occasionally.",
+      "Travelers who prefer upscale resort-style clothing.",
+      "Guests who like elegant dining without a strict black-tie requirement.",
+      "First-time cruisers who want straightforward clothing guidance.",
+      "Travelers who prefer to pack a combination of casual and smart outfits."
+    ],
+    "lessAppealing": [
+      "Guests who want a very relaxed, casual environment every single evening without changing.",
+      "Travelers who specifically want compulsory traditional formal nights with tuxedos and ballgowns on every sea day."
+    ],
+    "flexibilityVerdict": "The advantage is flexibility: guests can participate in Evening Chic in their own style, while Smart Casual remains an acceptable alternative across dining and the theater."
+  },
+  "rightChoice": {
+    "title": "Is Celebrity Cruises the Right Choice for Your Travel Style?",
+    "subtitle": "The dress code is only one part of the onboard experience. When choosing Celebrity, also consider the ship, itinerary, stateroom category, dining options, service, and additional costs.",
+    "links": [
+      {
+        "title": "The Retreat on Celebrity Cruises",
+        "href": "/celebrity-cruises/the-retreat",
+        "description": "Explore the all-suite enclave with dedicated Luminae dining, Retreat Lounge, and private sundeck."
+      },
+      {
+        "title": "Celebrity Cruises Staterooms Explained",
+        "href": "/celebrity-cruises/staterooms",
+        "description": "Compare Inside, Oceanview, Veranda, Concierge Class, and AquaClass staterooms."
+      },
+      {
+        "title": "Is Celebrity Cruises Worth the Money?",
+        "href": "/celebrity-cruises/is-it-worth-it",
+        "description": "Understand Celebrity's complete value proposition across modern luxury cruising."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Final Verdict: What Should You Pack for Celebrity Cruises?",
+    "subtitle": "Celebrity Cruises makes it relatively easy to dress well without overpacking. The daytime atmosphere is relaxed, most evenings call for Smart Casual clothing, and Evening Chic provides an opportunity to dress up without requiring traditional formalwear.",
+    "practicalWardrobe": [
+      "Comfortable daytime and excursion clothing.",
+      "Swimwear and cover-ups.",
+      "A few Smart Casual dinner outfits.",
+      "One or two dressier combinations, depending on the itinerary.",
+      "Comfortable walking shoes and appropriate evening footwear.",
+      "Weather-specific layers and accessories."
+    ],
+    "conclusion": "The most important advice is to pack for your itinerary, check the daily program, and choose clothing that makes you comfortable and confident. Celebrity's approach is about personal style, not an extensive list of formal clothing requirements."
+  },
+  "faqs": [
+    {
+      "question": "What is the dress code on Celebrity Cruises?",
+      "answer": "Celebrity Cruises uses a casual-chic approach. Daytime clothing is generally relaxed, most evenings follow Smart Casual, and selected evenings are designated Evening Chic."
+    },
+    {
+      "question": "Does Celebrity Cruises have formal nights?",
+      "answer": "Celebrity calls its dressier evenings Evening Chic rather than traditional formal nights. Guests can wear elegant clothing, but tuxedos and formal gowns are optional."
+    },
+    {
+      "question": "What does Evening Chic mean on Celebrity Cruises?",
+      "answer": "Evening Chic means dressing in a sophisticated, polished style. Cocktail dresses, elegant separates, tailored trousers, designer jeans, blazers, and dress shirts are suitable examples."
+    },
+    {
+      "question": "How many formal nights are on a Celebrity cruise?",
+      "answer": "Most itineraries feature one or two Evening Chic nights. The number depends on the sailing, so check the daily program for your specific cruise."
+    },
+    {
+      "question": "Do I need a tuxedo on Celebrity Cruises?",
+      "answer": "No. A tuxedo is optional. A suit, blazer, cocktail dress, elegant top, or other polished outfit is also appropriate for Evening Chic."
+    },
+    {
+      "question": "Can I wear jeans on Celebrity Cruises?",
+      "answer": "Yes. Neat jeans are acceptable as part of Smart Casual attire. Pair them with a stylish top, button-down shirt, or blazer for a more polished appearance."
+    },
+    {
+      "question": "Can you wear shorts to dinner on Celebrity Cruises?",
+      "answer": "Shorts are not considered Smart Casual attire for evening dining in the main and specialty restaurants. Choose long trousers, a skirt, or a dress instead."
+    },
+    {
+      "question": "Are flip-flops allowed on Celebrity Cruises?",
+      "answer": "Flip-flops are suitable for poolside use, but they are not considered Smart Casual evening footwear. Choose dressier shoes for evening dining."
+    },
+    {
+      "question": "Can I wear a T-shirt in the main dining room?",
+      "answer": "Celebrity's published guidance asks guests to refrain from wearing T-shirts in the main and specialty dining rooms. Choose a polo, button-down, blouse, or other suitable top instead."
+    },
+    {
+      "question": "Can I wear a swimsuit to the buffet?",
+      "answer": "Swimwear is appropriate around the pool, but Celebrity asks guests to avoid swimsuits, see-through cover-ups, and robes in the main and specialty dining rooms. Put on suitable clothing before dining indoors."
+    },
+    {
+      "question": "Can I wear a sundress on Celebrity Cruises?",
+      "answer": "Yes. Sundresses are suitable daytime resort wear and can also work for Smart Casual evenings, depending on the style and overall appearance."
+    },
+    {
+      "question": "What should men wear on Celebrity Evening Chic nights?",
+      "answer": "Men can wear tailored trousers or smart jeans with a button-down shirt, dress shirt, or sophisticated sweater. A blazer, suit, or tuxedo is optional."
+    },
+    {
+      "question": "What should women wear on Celebrity Evening Chic nights?",
+      "answer": "Women can choose a cocktail dress, elegant skirt and top, dressy trousers, a pantsuit, or designer jeans with a sophisticated top."
+    },
+    {
+      "question": "Are jackets and ties required on Celebrity Cruises?",
+      "answer": "No. Jackets and ties are welcome for guests who enjoy dressing up, but they are not required for Evening Chic."
+    },
+    {
+      "question": "Can I skip Evening Chic night?",
+      "answer": "Yes. Celebrity states that Smart Casual attire is acceptable for dining and the theater if you do not wish to participate in Evening Chic."
+    }
+  ]
+}

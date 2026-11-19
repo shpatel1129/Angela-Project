@@ -1,0 +1,999 @@
+{
+  "meta": {
+    "title": "Oceania Cruises vs. Azamara: Ships, Dining & Destinations",
+    "description": "Compare Oceania Cruises vs. Azamara on ships, dining, drinks, pricing, inclusions and destination experiences. Discover which small-ship cruise line suits your travel style.",
+    "keywords": "Oceania Cruises vs. Azamara, Oceania vs. Azamara Cruises, Azamara vs. Oceania, Oceania Cruises comparison, Azamara Cruises comparison, small ship luxury cruises, Oceania vs. Azamara dining, Azamara destination immersion, best small ship cruise line",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/oceania-vs-azamara"
+  },
+  "hero": {
+    "badge": "SMALL-SHIP LUXURY COMPARISON",
+    "title": "Oceania Cruises vs. Azamara: Ships, Dining and Destination Experiences",
+    "subtitle": "An In-Depth Head-to-Head Comparison of Inclusions, Culinary Standards, Port Immersion & Overall Value",
+    "description": "Compare Oceania Cruises vs. Azamara on ships, dining, drinks, pricing, inclusions and destination experiences. Discover which small-ship cruise line best aligns with your travel style.",
+    "primaryCtaText": "Compare Ship Itineraries",
+    "primaryCtaLink": "/oceania-cruises/ships",
+    "secondaryCtaText": "Speak with an Advisor",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "THE QUICK ANSWER",
+    "heading": "Culinary Distinction vs. Destination Immersion & Extended Port Stays",
+    "paragraphs": [
+      "Oceania Cruises and Azamara are both appealing choices for travelers who prefer smaller ships, personalized service and destination-focused itineraries. However, their onboard experiences and included benefits are different.",
+      "Choose Oceania Cruises if you prioritize culinary experiences, included specialty restaurants, complimentary Wi-Fi, included shipboard gratuities and a refined atmosphere. Oceania is particularly appealing to travelers who enjoy exploring different cuisines and want a strong dining experience throughout their voyage.",
+      "Choose Azamara if you want to spend more time exploring destinations, enjoy overnight port calls, appreciate local cultural experiences and prefer having selected alcoholic beverages, gratuities and self-service laundry included. Its signature AzAmazing Evenings and Extended Destination Days make it especially attractive to destination-focused travelers.",
+      "Neither is automatically the better value. Your decision should depend on the itinerary, ship, accommodation, dining preferences and the benefits you expect to use."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania vs. Azamara at a Glance",
+    "subtitle": "Inclusions, ship facilities and booking conditions can change. Confirm the benefits attached to the exact sailing and accommodation category.",
+    "headers": [
+      "Category",
+      "Oceania Cruises",
+      "Azamara"
+    ],
+    "rows": [
+      [
+        "Overall style",
+        "Culinary-focused premium luxury",
+        "Destination-focused small-ship cruising"
+      ],
+      [
+        "Atmosphere",
+        "Refined, residential and relaxed",
+        "Intimate, welcoming and relaxed"
+      ],
+      [
+        "Fleet",
+        "Different ship sizes and layouts",
+        "Four intimate-style ships"
+      ],
+      [
+        "Specialty dining",
+        "All specialty restaurants included",
+        "Several dining venues included; selected specialty restaurants carry a surcharge"
+      ],
+      [
+        "Main dining",
+        "Included",
+        "Included"
+      ],
+      [
+        "Drinks",
+        "Nonalcoholic beverages included; wine and beer amenity on qualifying bookings",
+        "Select standard spirits, beers and wines included"
+      ],
+      [
+        "Shipboard gratuities",
+        "Included",
+        "Included"
+      ],
+      [
+        "Wi-Fi",
+        "Included, subject to usage terms",
+        "Standard Wi-Fi benefits vary by booking and suite category"
+      ],
+      [
+        "Laundry",
+        "Complimentary laundry benefits; check service and booking terms",
+        "Self-service laundry included"
+      ],
+      [
+        "Shore excursions",
+        "Credit available as an amenity choice on qualifying bookings",
+        "Excursions generally cost extra"
+      ],
+      [
+        "Cultural experiences",
+        "Destination-focused itineraries and enrichment",
+        "AzAmazing Evenings on most voyages and local experiences"
+      ],
+      [
+        "Port stays",
+        "Destination-rich itineraries",
+        "Extended Destination Days and frequent overnight stays"
+      ],
+      [
+        "Best known for",
+        "The Finest Cuisine at Sea",
+        "Destination Immersion"
+      ]
+    ]
+  },
+  "biggestDifference": {
+    "title": "What Is the Biggest Difference Between Oceania and Azamara?",
+    "regent": {
+      "badge": "Oceania Cruises",
+      "title": "Culinary Distinction & Specialty Dining",
+      "description": "Oceania has built its identity around culinary experiences. Its ships feature multiple open-seating restaurants, distinctive specialty dining venues and menus influenced by international cuisines. Its Your World Included program covers specialty dining, shipboard gratuities, Wi-Fi and selected nonalcoholic beverages. Qualifying bookings also offer a choice between complimentary wine and beer by the glass during restaurant lunch and dinner hours or a shore-excursion credit.",
+      "features": [
+        "Finest Cuisine at Sea with all specialty restaurants included without surcharges",
+        "Standard shipboard gratuities and Starlink Wi-Fi included in base fare",
+        "Amenity choice: Shore excursion credit OR restaurant lunch & dinner wine/beer",
+        "Diverse fleet sizes from 670-guest boutique ships to 1,250-guest contemporary vessels"
+      ]
+    },
+    "viking": {
+      "badge": "Azamara",
+      "title": "Destination Immersion & Included Alcohol",
+      "description": "Azamara places greater emphasis on the destinations themselves. Its smaller ships are designed to reach boutique ports inaccessible to larger vessels. Longer port stays, overnight calls, local experiences and its AzAmazing Evenings program are core components of the journey. Azamara also includes selected standard spirits, international beers and wines, and self-service laundry in its standard fare.",
+      "features": [
+        "Destination Immersion with Extended Destination Days (10+ hours in port) and overnights",
+        "Select standard spirits, international beers, and wines included throughout the day",
+        "Signature shoreside AzAmazing Evenings cultural event on most voyages",
+        "Uniform boutique fleet of four intimate R-class sister ships (approximately 700 guests)"
+      ]
+    }
+  },
+  "pricingAndValue": {
+    "title": "Oceania vs. Azamara Pricing: Which Offers Better Value?",
+    "subtitle": "The advertised cruise fare is only one part of the comparison. Included amenities, drinks, dining, shore excursions and additional services all influence the final vacation cost.",
+    "items": [
+      {
+        "title": "Oceania Cruises Pricing & Inclusions",
+        "subtitle": "Your World Included Program",
+        "category": "Culinary Value Model",
+        "points": [
+          "Dining in all specialty restaurants included without cover charges",
+          "Standard shipboard gratuities covered in the fare",
+          "Complimentary Starlink Wi-Fi throughout all staterooms and public spaces",
+          "Specialty coffees, teas, sodas, and still/sparkling Vero Water",
+          "Selected cold-pressed juices, smoothies, and gourmet ice cream",
+          "Complimentary laundry services under current program terms",
+          "Qualifying bookings include amenity choice: Wine & beer at lunch and dinner OR Shore-excursion credit"
+        ]
+      },
+      {
+        "title": "Azamara Pricing & Inclusions",
+        "subtitle": "Always Azamara Program",
+        "category": "Inclusive Destination Model",
+        "points": [
+          "Select standard spirits, international beers, and wines included throughout the day",
+          "Bottled water, soft drinks, specialty coffees, and teas included",
+          "Onboard crew gratuities included in the standard fare",
+          "Self-service launderettes included at no extra charge",
+          "24-hour room service and concierge services",
+          "Complimentary shuttle service to port communities where available",
+          "AzAmazing Evenings cultural event included on most voyages",
+          "Note: Specialty restaurants (Prime C, Aqualina) carry an extra cover charge for most staterooms"
+        ]
+      },
+      {
+        "title": "Inclusions Compared",
+        "subtitle": "Value Assessment Checklist",
+        "category": "Head-to-Head Comparison",
+        "points": [
+          "Specialty Dining: Included across all venues on Oceania; surcharges apply on Azamara",
+          "Beverages: Azamara includes spirits/beer/wine all day; Oceania includes nonalcoholic + mealtime wine/beer amenity",
+          "Shipboard Gratuities: Included on both cruise lines",
+          "Wi-Fi: Complimentary on Oceania; Wi-Fi allowances on Azamara vary by suite tier",
+          "Laundry: Included benefits on Oceania; complimentary self-service launderettes on Azamara",
+          "Recommendation: Azamara offers great value for travelers who enjoy drinks and longer port stays. Oceania offers stronger value if you plan to enjoy specialty dining and want included Wi-Fi."
+        ]
+      }
+    ]
+  },
+  "shipsAndFleet": {
+    "title": "Ships and Fleet: Oceania vs. Azamara",
+    "subtitle": "Both cruise lines operate smaller ships, but their fleets have different sizes, layouts and onboard experiences.",
+    "ships": [
+      {
+        "name": "Oceania Cruises Ships",
+        "atmosphere": "Varied Fleet Scale & Dining Selections",
+        "launched": "7 ACTIVE VESSELS (670–1,250 GUESTS)",
+        "description": "Oceania operates a varied fleet, with ships offering different capacities and dining selections. Its current fleet includes Oceania Allura, Oceania Vista, Oceania Marina, Oceania Riviera, Oceania Nautica, Oceania Insignia, and Oceania Sirena. The fleet includes different ship designs and guest capacities: the larger vessels generally offer more restaurant choices and public spaces, while the smaller ships create a more intimate atmosphere. Oceania's newer ships feature contemporary residential interiors and expanded culinary concepts, while its smaller vessels offer a more traditional small-ship experience.",
+        "guests": "670 to 1,250 Guests",
+        "bestFor": "Extensive Specialty Dining, Residential Decor & Ship Scale Variety"
+      },
+      {
+        "name": "Azamara Ships",
+        "atmosphere": "Four Intimate Sister Vessels",
+        "launched": "UNIFORM FLEET (~700 GUESTS)",
+        "description": "Azamara operates four ships: Azamara Journey, Azamara Quest, Azamara Pursuit, and Azamara Onward. The ships have an intimate layout and are designed around destination exploration rather than large-scale resort facilities. Their smaller size allows Azamara to visit a variety of ports and destinations that may be less accessible to larger cruise ships. The fleet also offers a relatively consistent onboard atmosphere, making it easier for repeat guests to recognize the layout and experience when sailing on different vessels.",
+        "guests": "Approx. 700 Guests",
+        "bestFor": "Boutique Port Access, Layout Consistency & Destination Exploration"
+      },
+      {
+        "name": "Oceania Future Additions",
+        "atmosphere": "Next-Gen Newbuilds on Order",
+        "launched": "FUTURE VESSELS (PLANNED DELIVERIES)",
+        "description": "Oceania also has future ships planned, including Oceania Sonata and Oceania Aurelia. These vessels should be treated as future additions rather than currently operating ships until their respective delivery dates. They will expand Oceania's Allura-class lineage with state-of-the-art culinary facilities and luxury suite innovations.",
+        "guests": "1,200 Guests (Planned)",
+        "bestFor": "Next-Generation Culinary Studios & Contemporary Luxury Suites"
+      },
+      {
+        "name": "Fleet Design & Atmosphere",
+        "atmosphere": "Contrasting Onboard Environments",
+        "launched": "DESIGN & EXPERIENCE COMPARISON",
+        "description": "While both cruise lines operate smaller ships compared to mass-market mega-resorts, Oceania provides multi-tiered ship sizes—from 670-guest intimate ships to 1,250-guest contemporary flagships with up to eight specialty dining choices. In contrast, Azamara maintains a single, uniform platform across all four ships, offering intimate club-like public spaces and intuitive deck navigation wherever you sail.",
+        "guests": "Multi-Class (Oceania) vs. Single-Class (Azamara)",
+        "bestFor": "Fleet Choice vs. Single-Class Familiarity"
+      }
+    ],
+    "pillars": [
+      {
+        "icon": "ship",
+        "title": "Oceania Fleet Scale & Diversity",
+        "description": "Oceania operates a diverse fleet across multiple ship classes: intimate 670-guest R-class ships (Nautica, Insignia, Sirena), 1,250-guest O-class ships (Marina, Riviera), and modern 1,200-guest Allura-class ships (Vista, Allura), plus upcoming sister ships Sonata and Aurelia. Larger vessels feature more specialty dining options and expanded public lounges."
+      },
+      {
+        "icon": "compass",
+        "title": "Azamara R-Class Sister Ships",
+        "description": "Azamara operates four intimate sister ships: Azamara Journey, Azamara Quest, Azamara Pursuit, and Azamara Onward. Carrying approximately 700 guests each, these R-class vessels share a consistent, familiar deck plan with intimate public spaces, creating a welcoming country-club ambiance."
+      },
+      {
+        "icon": "window",
+        "title": "Interior Design & Onboard Spaces",
+        "description": "Oceania's newest ships showcase contemporary residential elegance, expansive marble bathrooms, and dedicated Culinary Centers. Azamara's ships offer cozy, classic boutique hotel interiors with warm earth tones, intimate libraries (The Drawing Room), and relaxed social bars (The Den)."
+      },
+      {
+        "icon": "star",
+        "title": "Port Access & Maneuverability",
+        "description": "Both lines leverage small-ship dimensions to access remote, boutique harbors and dock close to historic city centers—such as sailing up the Guadalquivir River into Seville, berthing along Bordeaux's riverfront, or docking in Amalfi and Kotor."
+      }
+    ]
+  },
+  "diningComparison": {
+    "title": "Dining Comparison: Oceania vs. Azamara",
+    "subtitle": "Dining is one of the strongest reasons to consider either cruise line, but their restaurant programs are structured differently.",
+    "venues": [
+      {
+        "name": "Dining on Oceania Cruises",
+        "cuisine": "The Finest Cuisine at Sea",
+        "description": "Oceania is celebrated for its culinary identity and variety of included specialty restaurants. Guests enjoy open-seating venues influenced by global culinary capitals: The Grand Dining Room, Polo Grill (classic steakhouse), Toscana (regional Italian), Red Ginger (bold pan-Asian), Jacques (classic French bistro on select ships), Terrace Café (artisan buffet with outdoor seating), Waves Grill (poolside gourmet burgers and seafood), Aquamar Kitchen (wellness cuisine), and Baristas & The Bakery. Crucially, all specialty restaurants are included in the cruise fare without extra cover charges, letting food lovers dine at distinctive venues every evening."
+      },
+      {
+        "name": "Dining on Azamara",
+        "cuisine": "Destination-Inspired & Boutique Classics",
+        "description": "Azamara offers several dining venues: Discoveries Restaurant (main dining room with regional and contemporary dishes), Windows Café (casual buffet with indoor/outdoor dining and themed culinary evenings), The Patio (poolside grill and relaxed evening dining), Mosaic Café (artisan coffee and pastries), and 24-hour room service. For specialty dining, Prime C offers classic steakhouse cuisine with ocean views, and Aqualina delivers contemporary Italian fare. Both specialty venues carry a cover charge (typically $35-$50 per person) for most stateroom guests, though complimentary access is included for select suite tiers."
+      },
+      {
+        "name": "Which Cruise Line Has Better Dining?",
+        "cuisine": "Culinary Recommendation",
+        "description": "Oceania is the clear winner for travelers who want specialty restaurant variety without paying extra cover charges. With diverse culinary concepts (Asian, French, Italian, Steakhouse, Wellness) included in base fares, dining is the centerpiece of the cruise. Azamara is ideal for guests who enjoy fresh, destination-themed casual meals and are comfortable paying occasionally for specialty dining."
+      }
+    ]
+  },
+  "drinksComparison": {
+    "title": "Drinks and Beverage Packages",
+    "subtitle": "The beverage programs are another important distinction between the two small-ship cruise lines.",
+    "includedTitle": "Oceania Cruises Drinks",
+    "extrasTitle": "Azamara Drinks",
+    "included": [
+      {
+        "title": "Included Nonalcoholic Standard",
+        "description": "Oceania includes specialty coffees, teas, sodas, still and sparkling Vero Water, and selected juices and smoothies for all guests throughout the ship."
+      },
+      {
+        "title": "Mealtime Wine & Beer Amenity",
+        "description": "On qualifying bookings, guests can select complimentary wine and beer by the glass during restaurant lunch and dinner hours as an additional Your World Included amenity."
+      },
+      {
+        "title": "Cocktails & Premium Spirits",
+        "description": "Cocktails, premium spirits, and beverages outside restaurant dining hours require individual purchase or an upgrade to the Prestige Select package."
+      },
+      {
+        "title": "Best Suited For",
+        "description": "Guests who appreciate artisan coffees and nonalcoholic beverages throughout the day and are satisfied with wine and beer at mealtimes."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Included Standard Spirits, Beers & Wines",
+        "description": "Azamara includes a rotating daily selection of red and white wines, international beers, and standard spirits throughout the ship all day and evening."
+      },
+      {
+        "title": "All-Day Nonalcoholic Inclusions",
+        "description": "Bottled water, soft drinks, specialty espresso beverages, and teas are included at no additional charge across all bars and lounges."
+      },
+      {
+        "title": "Premium Package Upgrades",
+        "description": "Guests who prefer top-shelf spirits, craft cocktails, and premium international wine labels can upgrade to the Premium or Ultimate Beverage Package."
+      },
+      {
+        "title": "Best Suited For",
+        "description": "Travelers who enjoy casual cocktails by the pool, pre-dinner drinks, and wine at dinner without worrying about bar tabs or drink limits."
+      }
+    ]
+  },
+  "destinationExperiences": {
+    "title": "Destination Experiences: Oceania vs. Azamara",
+    "subtitle": "Destination experiences are one of the most important reasons travelers choose these two cruise lines. Both offer itineraries around the world, but Azamara has a particularly strong identity built around spending more time in port.",
+    "items": [
+      {
+        "category": "OCEANIA CRUISES • GLOBAL REACH",
+        "title": "Oceania Destination Experiences",
+        "lead": "Appeals to travelers who enjoy a combination of iconic destinations, smaller ports, culinary discovery and longer voyages.",
+        "description": "Oceania offers itineraries across a wide range of global destinations, pairing boutique harbor access with in-depth culinary immersion ashore. Its smaller ships can visit a range of ports, including destinations that are not always included on larger cruise itineraries.",
+        "features": [
+          "Mediterranean & Northern Europe",
+          "Caribbean & Alaska",
+          "Asia, Australia and New Zealand",
+          "South America, Africa & South Pacific",
+          "World cruises and extended collector voyages"
+        ],
+        "highlight": "Small-ship navigation into boutique ports inaccessible to large mega-resort ships."
+      },
+      {
+        "category": "AZAMARA • EXTENDED PORT DAYS",
+        "title": "Azamara Destination Immersion",
+        "lead": "Destination Immersion is central to Azamara's identity, emphasizing 10+ hour port calls and overnights.",
+        "description": "The cruise line emphasizes longer stays, overnight calls and Extended Destination Days, which can provide 10 or more hours in port on selected itineraries. Azamara also offers its signature AzAmazing Evenings on most voyages—special shoreside cultural experiences connecting guests with regional traditions.",
+        "features": [
+          "Explore historic districts without rushing back to the ship",
+          "Enjoy local restaurants and regional cuisine ashore",
+          "Experience evening entertainment and local nightlife",
+          "Visit cultural attractions at an unhurried, comfortable pace",
+          "Explore destinations beyond main tourist areas on local tours"
+        ],
+        "highlight": "Late-night departures and signature complimentary AzAmazing Evenings ashore."
+      },
+      {
+        "category": "DECISION FRAMEWORK • COMPARISON",
+        "title": "Pacing & Destination Priority",
+        "lead": "Both lines excel in small-ship port access, but daily pacing and shoreside time differ significantly.",
+        "description": "While both cruise lines operate smaller ships visiting marquee capitals and secluded coastal harbors, your preferred travel rhythm defines the choice between global itinerary variety and evening shoreside immersion.",
+        "features": [
+          "Oceania: Broader worldwide itinerary catalog & chef-led culinary market tours",
+          "Azamara: Maximum hours in port, frequent overnights & evening dining ashore",
+          "Both: Dock right in historic town centers without lengthy bus transfers",
+          "Both: Avoid large tourist crowds with uncrowded tender operations"
+        ],
+        "highlight": "Choose Oceania for culinary exploration; choose Azamara for evening cultural immersion."
+      }
+    ]
+  },
+  "azAmazingEvenings": {
+    "title": "AzAmazing Evenings vs. Oceania's Destination Experiences",
+    "subtitle": "Comparing Azamara's signature shoreside cultural evening with Oceania's curated excursion credits and Culinary Discovery Tours.",
+    "items": [
+      {
+        "title": "Azamara AzAmazing Evenings",
+        "description": "A complimentary, private cultural event held on most voyages of seven nights or longer. Guests are transported to historic venues—such as ancient amphitheaters, private castles, or town squares—for exclusive musical performances, regional dance, and local hospitality.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Oceania Shore Excursion Credit",
+        "description": "On qualifying bookings, guests can select a shore-excursion credit as their additional Your World Included amenity. This credit can be applied toward Oceania's curated tour collections based on the traveler's personal interests.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Oceania Culinary Discovery Tours",
+        "description": "Oceania offers unique chef-led excursions where guests tour local food markets with an onboard master chef, purchase fresh regional ingredients, and return to the ship's Culinary Center for hands-on cooking classes.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Local Culture & Nightlife Ashore",
+        "description": "Azamara's overnight stays and late-night departures allow guests to explore local tapas bars, opera performances, and evening promenades independently, blurring the line between cruising and land-based travel.",
+        "icon": "Moon"
+      },
+      {
+        "title": "The Cultural Verdict",
+        "description": "Travelers who love exclusive, organized cultural spectacles and evening ashore immersion will adore AzAmazing Evenings. Those who prefer selecting their own specialized culinary or historical tours will appreciate Oceania's excursion credit.",
+        "icon": "Check"
+      }
+    ]
+  },
+  "stateroomsAndSuites": {
+    "title": "Staterooms and Suites: Which Offers Better Accommodation?",
+    "subtitle": "Comparing cabin categories, suite amenities, and butler privileges across both small-ship fleets",
+    "items": [
+      {
+        "name": "Inside & Oceanview Staterooms",
+        "price": "Boutique Starting Categories",
+        "description": "Both cruise lines offer well-appointed inside and oceanview staterooms. Oceania provides custom Tranquility Beds with 1,000-thread-count linens and marble bathrooms. Azamara staterooms feature plush Egyptian cotton linens, fresh fruit upon arrival, and 24-hour room service in an intimate boutique setting.",
+        "signatureFeatures": [
+          "Oceania: Tranquility Bed and marble/granite bathroom finishes",
+          "Azamara: Fresh cut flowers, tote bag, and 24-hour complimentary room service",
+          "Both lines provide bathrobes, slippers, and premium bath amenities",
+          "Compact, comfortable layouts ideal for destination-focused cruisers"
+        ]
+      },
+      {
+        "name": "Veranda & Club Veranda Plus",
+        "price": "Private Teak Balconies",
+        "description": "Oceania Veranda and Concierge Level Veranda staterooms feature private teak balconies, dedicated Concierge lounge access, and expanded perks. Azamara Club Veranda Plus staterooms offer private balconies plus 120 complimentary internet minutes, one free bag of laundry per 7 nights, and priority check-in.",
+        "signatureFeatures": [
+          "Oceania: Teak-decked private balconies and Concierge privileges",
+          "Azamara: Club Veranda Plus includes laundry benefits and internet minutes",
+          "Floor-to-ceiling glass sliding doors with panoramic sea views",
+          "Complimentary Starlink Wi-Fi on Oceania / Wi-Fi packages on Azamara"
+        ]
+      },
+      {
+        "name": "Penthouse Suites vs. Club Continent Suites",
+        "price": "Spacious Suites & Butler Service",
+        "description": "Oceania Penthouse Suites (420-440 sq ft) offer generous living areas, walk-in closets, and dedicated European butler service. Azamara Club Continent Suites (266-302 sq ft) and Club World Owner's Suites (up to 793 sq ft) include dedicated English butler service, complimentary specialty dining, and in-suite afternoon tea.",
+        "signatureFeatures": [
+          "Oceania Penthouse: Expansive residential living and 24-hour butler service",
+          "Azamara Club Suites: Butler service, complimentary specialty dining, and laundry perks",
+          "Priority embarkation, tender access, and luggage delivery on both lines",
+          "In-suite dining course-by-course from specialty restaurant menus"
+        ]
+      }
+    ]
+  },
+  "onboardActivities": {
+    "title": "Onboard Activities and Entertainment",
+    "subtitle": "Both cruise lines offer onboard entertainment, but neither is designed around the large-scale resort atmosphere of mainstream cruise ships.",
+    "items": [
+      {
+        "title": "Oceania Onboard Leisure",
+        "subtitle": "Relaxed & Refined Atmosphere",
+        "description": "Oceania's onboard experience is generally relaxed, country-club refined, and centered on world-class dining, reading, socializing, swimming pools, fitness facilities, and destination enrichment rather than loud resort spectacles."
+      },
+      {
+        "title": "Oceania Culinary & Arts",
+        "subtitle": "Enrichment & Cooking Classes",
+        "description": "Oceania's activities feature live music, piano lounges, enrichment lectures, destination presentations, culinary demonstrations, wine tastings, art workshops, and hands-on cooking classes on selected ships."
+      },
+      {
+        "title": "Azamara Onboard Life",
+        "subtitle": "Intimate Social Environment",
+        "description": "Azamara offers an intimate onboard environment with live music, lounge entertainment, cultural presentations, destination enrichment, poolside relaxation, fitness activities, and spa services."
+      },
+      {
+        "title": "Azamara Evening Pacing",
+        "subtitle": "Shoreside Nights & Culture",
+        "description": "With frequent overnight calls and 10+ hour Extended Destination Days, guests spend evenings dining ashore, enjoying nightlife, and attending signature AzAmazing Evenings rather than relying on large-scale onboard productions."
+      }
+    ],
+    "bentoItems": [
+      {
+        "stat": "Culinary Center",
+        "label": "Hands-On Cooking Classes",
+        "title": "Oceania Master Chef Cooking Classes",
+        "description": "Oceania features custom cooking schools where guests prepare regional dishes under master chef instruction, paired with chef-led local market tours.",
+        "tag": "OCEANIA"
+      },
+      {
+        "stat": "AzAmazing Evening",
+        "label": "Private Cultural Events",
+        "title": "Azamara Shoreside Spectacles",
+        "description": "Azamara hosts exclusive private cultural performances in historic venues ashore—such as symphonies in St. Petersburg or opera in Livorno.",
+        "tag": "AZAMARA"
+      },
+      {
+        "stat": "White Night Party",
+        "label": "Deck Celebrations",
+        "title": "Azamara Signature White Night",
+        "description": "An Azamara tradition where guests dress in white for an open-air pool deck buffet feast, live music, and dancing under the stars in warm ports.",
+        "tag": "AZAMARA"
+      },
+      {
+        "stat": "Enrichment Lectures",
+        "label": "Cultural Immersion",
+        "title": "Oceania Destination Seminars",
+        "description": "Oceania emphasizes intimate destination presentations, guest historians, art classes in the Artist Loft, and sommelier-led wine tastings.",
+        "tag": "OCEANIA"
+      },
+      {
+        "stat": "Intimate Lounges",
+        "label": "Evening Gatherings",
+        "title": "The Den & Horizons Lounge",
+        "description": "Azamara's The Den lounge and Oceania's Horizons feature jazz pianists, classical string duos, and relaxed cocktail conversation.",
+        "tag": "SOCIAL"
+      },
+      {
+        "stat": "Library Sanctuaries",
+        "label": "Quiet Retreats",
+        "title": "The Drawing Room & English Library",
+        "description": "Both lines boast exceptional libraries with ceiling frescoes, leather armchairs, and extensive book collections for peaceful sea days.",
+        "tag": "RELAXATION"
+      }
+    ]
+  },
+  "spaAndWellness": {
+    "title": "Spa and Wellness: Oceania vs. Azamara",
+    "subtitle": "Both cruise lines provide spa and fitness facilities designed to complement their smaller-ship experience.",
+    "items": [
+      {
+        "title": "Oceania Aquamar Spa + Vitality Center",
+        "description": "Oceania ships feature the Aquamar Spa + Vitality Center, offering restorative massage therapies, marine-based facials, salon services, and outdoor vitality pools. Dedicated to quiet holistic rejuvenation."
+      },
+      {
+        "title": "Azamara The Sanctum Spa",
+        "description": "Azamara ships feature The Sanctum Spa, offering facial rituals, body polishes, acupuncture, and salon services. The intimate spa setting is tailored for unwinding after active days ashore."
+      },
+      {
+        "title": "The Sanctum Terrace & Thalassotherapy",
+        "description": "Azamara's Sanctum Spa features an open-air outdoor relaxation terrace with a bubbling thalassotherapy pool and ocean-facing loungers (complimentary for suite guests; day passes available for staterooms)."
+      },
+      {
+        "title": "Fitness Centers & Instructor-Led Classes",
+        "description": "Both lines provide ocean-view fitness facilities equipped with cardio machines, free weights, and daily instructor-led stretch, yoga, and pilates sessions overlooking the sea."
+      },
+      {
+        "title": "Wellness Verdict & Booking Policies",
+        "description": "Both lines offer high-quality spa and wellness amenities suited to boutique cruising. Individual treatments carry standard service charges on both cruise lines."
+      }
+    ]
+  },
+  "serviceAndAtmosphere": {
+    "title": "Service and Onboard Atmosphere",
+    "subtitle": "Both cruise lines emphasize attentive service, but the atmosphere onboard has a distinct character.",
+    "categories": [
+      {
+        "id": "daytime",
+        "title": "Oceania: Residential, Refined & Culinary-Centered",
+        "description": "Oceania offers a warm country-club residential aesthetic with rich wood accents, open-seating restaurants, and an unpretentious upscale atmosphere.",
+        "items": [
+          "High crew-to-guest ratio with polished, intuitive service",
+          "Uncrowded pool decks with plush padded loungers",
+          "Quiet observation lounges and Italian espresso bars",
+          "Primarily adult passenger demographic"
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Azamara: Warm, Friendly & Community-Minded",
+        "description": "Azamara feels like a friendly boutique hotel where officers and crew mingle with guests, fostering a warm, club-like camaraderie among well-traveled cruisers.",
+        "items": [
+          "Welcoming, inclusive atmosphere where guests bond easily",
+          "Officers and captains frequently host and mingle at social events",
+          "Informal, unpretentious hospitality with genuine personal warmth",
+          "Fellow guests share a passion for in-depth destination travel"
+        ]
+      },
+      {
+        "id": "onboard",
+        "title": "Evening Attire: Resort Casual & Elegant Casual",
+        "description": "Neither cruise line has mandatory formal nights or tuxedo dress codes. Both promote a relaxed, sophisticated evening wardrobe.",
+        "items": [
+          "Oceania: Elegant casual every evening (no formal gowns or tuxedos)",
+          "Azamara: Resort casual (collared shirts, slacks, sundresses)",
+          "No rigid seating times or assigned table companions on either line",
+          "Comfortable, upscale dining atmospheres across all restaurants"
+        ]
+      }
+    ]
+  },
+  "itinerariesAndDestinations": {
+    "title": "Itineraries and Destinations",
+    "subtitle": "Both cruise lines visit destinations around the world, but the style of itinerary can differ significantly.",
+    "badgeSuffix": "DESTINATION STRATEGY",
+    "footerLeft": "Global Small-Ship Navigation",
+    "footerRight": "Oceania vs. Azamara Comparison",
+    "items": [
+      {
+        "title": "Oceania Global Itineraries",
+        "icon": "Compass",
+        "description": "Oceania offers a broad selection of global itineraries, appealing to travelers who want a rich mix of iconic world destinations and less familiar boutique ports.",
+        "bulletPoints": [
+          "Mediterranean, Northern Europe & British Isles",
+          "Caribbean, Alaska, Asia & Australia/New Zealand",
+          "South America, Africa, South Pacific & 180-Day World Cruises",
+          "Balanced mix of celebrated world capitals and boutique culinary harbors"
+        ]
+      },
+      {
+        "title": "Azamara Destination Immersion",
+        "icon": "Clock",
+        "description": "Azamara focuses heavily on destination immersion and regional exploration, placing particular emphasis on overnight calls, longer port days and smaller destinations.",
+        "bulletPoints": [
+          "Mediterranean, Northern Europe, Caribbean & Alaska",
+          "Asia, Africa, South America & Australia/New Zealand",
+          "Extended Destination Days with 10 or more hours in port",
+          "Frequent overnight stays for evening dining and nightlife ashore"
+        ]
+      },
+      {
+        "title": "Itinerary Pacing & Small-Ship Harbors",
+        "icon": "Ship",
+        "description": "Both cruise lines operate smaller ships to access ports inaccessible to mega-ships, but their daily rhythm ashore creates two distinctly different vacation styles.",
+        "bulletPoints": [
+          "Oceania: Brisk port-to-port pacing paired with celebrated specialty dining onboard",
+          "Azamara: In-depth regional immersion with late departures & shoreside AzAmazing Evenings",
+          "Both: Dock right in the center of historic destinations without lengthy transfers",
+          "Both: Avoid crowds with unhurried tender boat embarkation"
+        ]
+      }
+    ]
+  },
+  "whatCostsExtra": {
+    "title": "What Costs Extra on Oceania and Azamara?",
+    "intro": [
+      "Understanding what is not included is important when comparing the final cost."
+    ],
+    "items": [
+      {
+        "title": "Common Additional Expenses on Oceania",
+        "paragraphs": [
+          "Depending on the booking and services selected, guests may pay extra for:"
+        ],
+        "lists": [
+          {
+            "title": "Potential Out-of-Pocket Expenses",
+            "items": [
+              "Premium alcoholic beverages",
+              "Beverage packages",
+              "Shore excursions beyond any available credit",
+              "Spa and salon treatments",
+              "Certain specialty wine and culinary events",
+              "Private tours and overland arrangements",
+              "Airfare and transfers when not included",
+              "Hotels before and after the cruise",
+              "Travel insurance",
+              "Personal purchases",
+              "Certain onboard services"
+            ]
+          }
+        ],
+        "highlight": {
+          "title": "Oceania Gratuities Policy",
+          "text": "Oceania includes shipboard gratuities through Your World Included, but additional service charges may apply to certain purchases."
+        }
+      },
+      {
+        "title": "Common Additional Expenses on Azamara",
+        "paragraphs": [
+          "Depending on the booking and accommodation category, guests may pay extra for:"
+        ],
+        "lists": [
+          {
+            "title": "Potential Out-of-Pocket Expenses",
+            "items": [
+              "Premium alcoholic beverages beyond the included selection",
+              "Beverage package upgrades",
+              "Specialty dining at selected restaurants",
+              "Shore excursions",
+              "Wi-Fi upgrades or additional access",
+              "Spa and salon treatments",
+              "Private tours and overland arrangements",
+              "Airfare and transfers when not included",
+              "Hotels before and after the cruise",
+              "Travel insurance",
+              "Personal purchases"
+            ]
+          }
+        ],
+        "highlight": {
+          "title": "Azamara Gratuities & Laundry Policy",
+          "text": "Azamara includes onboard gratuities and self-service laundry in its standard experience. However, premium services and selected onboard purchases may carry additional charges."
+        }
+      }
+    ]
+  },
+  "travelerSuitability": {
+    "title": "Which Cruise Line Is Better for Different Travelers?",
+    "subtitle": "Matching traveler priorities to the ideal small-ship cruise line",
+    "personas": [
+      {
+        "icon": "Gem",
+        "title": "Food-Focused Travelers",
+        "description": "Oceania is the premier choice for epicures. With all specialty restaurants included without cover charges and chef-led Culinary Centers, dining is the centerpiece of the voyage.",
+        "traits": [
+          "Specialty restaurants included without fees",
+          "Hands-on culinary cooking classes",
+          "Gourmet dining variety across all ships"
+        ],
+        "recommendations": [
+          "Oceania Cruises"
+        ]
+      },
+      {
+        "icon": "Moon",
+        "title": "Longer Port Stay Enthusiasts",
+        "description": "Azamara is unmatched for travelers who want to experience destinations after dark. Extended Destination Days and frequent overnight stays give you time to dine at local restaurants ashore.",
+        "traits": [
+          "Extended Destination Days (10+ hours)",
+          "Overnight port calls in iconic cities",
+          "Dinner and nightlife exploration ashore"
+        ],
+        "recommendations": [
+          "Azamara"
+        ]
+      },
+      {
+        "icon": "Wine",
+        "title": "Included Drink Lovers",
+        "description": "Azamara includes standard spirits, international beers, and wines by the glass throughout the day in its standard cruise fare, eliminating bar tabs.",
+        "traits": [
+          "Select spirits, beers, and wines included",
+          "All-day bar and lounge access",
+          "No need to select a separate drinks perk"
+        ],
+        "recommendations": [
+          "Azamara"
+        ]
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Cultural Event Admirers",
+        "description": "Azamara's complimentary AzAmazing Evenings provide exclusive private access to historic venues, classical concerts, and traditional cultural performances ashore.",
+        "traits": [
+          "Complimentary signature cultural event",
+          "Exclusive historic venue access",
+          "Private performances for cruise guests"
+        ],
+        "recommendations": [
+          "Azamara"
+        ]
+      },
+      {
+        "icon": "Check",
+        "title": "Wi-Fi & Gratuities Focused",
+        "description": "Oceania includes both standard shipboard gratuities and Starlink Wi-Fi for all staterooms under Your World Included, making onboard folios completely predictable.",
+        "traits": [
+          "Starlink Wi-Fi included for all guests",
+          "Shipboard crew gratuities included",
+          "Specialty dining included without fees"
+        ],
+        "recommendations": [
+          "Oceania Cruises"
+        ]
+      },
+      {
+        "icon": "Compass",
+        "title": "Ship Variety Seekers",
+        "description": "Oceania provides a choice of different ship sizes—from intimate 670-guest vessels to amenity-rich 1,250-guest ships—while Azamara maintains a uniform 700-guest fleet.",
+        "traits": [
+          "Choice between 670 and 1,250-guest ships",
+          "More specialty restaurants on larger vessels",
+          "Modern residential interior designs"
+        ],
+        "recommendations": [
+          "Oceania Cruises"
+        ]
+      }
+    ]
+  },
+  "prosAndCons": {
+    "title": "Oceania vs. Azamara: Pros and Cons",
+    "subtitle": "Honest Strengths & Considerations",
+    "cards": [
+      {
+        "title": "Oceania Cruises: Advantages",
+        "items": [
+          "All specialty restaurants included in the cruise fare",
+          "Shipboard gratuities included",
+          "Complimentary Wi-Fi",
+          "Complimentary laundry benefits under current program terms",
+          "Strong culinary identity",
+          "Multiple dining venues",
+          "Choice of wine and beer or shore-excursion credit on qualifying bookings",
+          "Different ship sizes and accommodation options",
+          "Destination-rich global itineraries"
+        ]
+      },
+      {
+        "title": "Oceania Cruises: Considerations",
+        "items": [
+          "Wine and beer and the shore-excursion credit are alternative amenities on qualifying bookings.",
+          "Premium alcoholic beverages may cost extra.",
+          "Shore excursions generally require separate payment beyond any available credit.",
+          "Spa treatments and selected onboard services carry additional charges.",
+          "Ship facilities and accommodation layouts vary across the fleet."
+        ]
+      },
+      {
+        "title": "Azamara: Advantages",
+        "items": [
+          "Select alcoholic beverages included",
+          "Onboard gratuities included",
+          "Self-service laundry included",
+          "24-hour room service",
+          "AzAmazing Evenings on most voyages",
+          "Longer port stays and overnight calls",
+          "Smaller ships that can visit selected less-accessible ports",
+          "Concierge services",
+          "Shuttle service in selected destinations",
+          "Intimate onboard atmosphere"
+        ]
+      },
+      {
+        "title": "Azamara: Considerations",
+        "items": [
+          "Selected specialty restaurants carry an additional charge for many guests.",
+          "Premium beverages may require an upgrade.",
+          "Wi-Fi benefits vary by booking and accommodation category.",
+          "Shore excursions generally cost extra.",
+          "Port shuttle availability depends on the destination.",
+          "Ship facilities are more limited than those on larger cruise vessels."
+        ]
+      }
+    ]
+  },
+  "costComparisonChecklist": {
+    "title": "How to Compare the True Cost of an Oceania and Azamara Cruise",
+    "description": "Before booking, compare two actual sailings with similar destinations, dates and accommodation categories. Use this checklist to calculate your total vacation investment.",
+    "headers": [
+      "Cost Category",
+      "Oceania Cruises Quote",
+      "Azamara Quote"
+    ],
+    "rows": [
+      [
+        "Cruise fare",
+        "Confirm base fare with inclusions",
+        "Confirm base fare with inclusions"
+      ],
+      [
+        "Taxes and port charges",
+        "Confirm applicable port taxes",
+        "Confirm applicable port taxes"
+      ],
+      [
+        "Stateroom category",
+        "Confirm exact category (Veranda/Suite)",
+        "Confirm exact category (Veranda/Club Suite)"
+      ],
+      [
+        "Specialty dining",
+        "Included across all specialty restaurants",
+        "Add specialty restaurant charges if applicable"
+      ],
+      [
+        "Drinks",
+        "Included nonalcoholic + selected amenity",
+        "Included select spirits, beers, and wines"
+      ],
+      [
+        "Wi-Fi",
+        "Included under Your World Included",
+        "Confirm package cost or suite allowance"
+      ],
+      [
+        "Gratuities",
+        "Included under Your World Included",
+        "Included in standard fare"
+      ],
+      [
+        "Laundry",
+        "Included laundry benefits under terms",
+        "Self-service launderettes included"
+      ],
+      [
+        "Shore excursions",
+        "Apply eligible excursion credit if selected",
+        "Add expected excursion costs per port"
+      ],
+      [
+        "AzAmazing Evening",
+        "Not applicable",
+        "Included on most 7+ night voyages"
+      ],
+      [
+        "Spa and wellness",
+        "Add planned treatments if desired",
+        "Add planned treatments or Sanctum passes"
+      ],
+      [
+        "Airfare and transfers",
+        "Confirm promotional or custom airfare",
+        "Confirm airfare and transfer arrangements"
+      ],
+      [
+        "Final estimated vacation cost",
+        "Calculate total vacation investment",
+        "Calculate total vacation investment"
+      ]
+    ]
+  },
+  "whichShouldYouChoose": {
+    "title": "Which Should You Choose: Oceania Cruises or Azamara?",
+    "subtitle": "After comparing the ships, dining, drinks, inclusions and destination experiences, the decision comes down to your travel style.",
+    "brandA": {
+      "name": "Choose Oceania Cruises If:",
+      "image": "",
+      "features": [
+        "You consider food and dining a major part of your vacation.",
+        "You want specialty restaurants included in the fare.",
+        "You value complimentary Wi-Fi.",
+        "You want shipboard gratuities included.",
+        "You prefer a refined and relaxed atmosphere.",
+        "You want a choice of ship sizes and accommodation categories.",
+        "You enjoy exploring destinations through a mix of independent travel and curated excursions."
+      ]
+    },
+    "brandB": {
+      "name": "Choose Azamara If:",
+      "image": "",
+      "features": [
+        "You want longer stays in port.",
+        "You enjoy overnight calls and evening exploration.",
+        "You value local cultural experiences.",
+        "You want selected alcoholic beverages included.",
+        "You appreciate onboard gratuities and self-service laundry being covered.",
+        "You prefer smaller ships and an intimate atmosphere.",
+        "You want to experience AzAmazing Evenings on your voyage."
+      ]
+    }
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "SMALL-SHIP LUXURY CONNOISSEUR",
+      "authorityBoxTitle": "My Final Recommendation: Oceania or Azamara?",
+      "authoritySubtitle": "Unbiased guidance from an elite travel advisor who has planned hundreds of small-ship voyages",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Elite Travel Advisor",
+      "experienceBadge": "40+ Years Luxury Cruise Experience",
+      "bio": "Both cruise lines offer attractive experiences for travelers who prefer smaller ships and more personalized service. However, their strengths are different. Oceania Cruises is my recommendation for travelers who prioritize dining, culinary variety and included specialty restaurants. Its Your World Included program provides meaningful benefits, particularly for guests who enjoy trying different restaurants and value included Wi-Fi and shipboard gratuities. Azamara is an excellent choice for travelers who want to spend more time exploring destinations. Its Extended Destination Days, overnight stays, AzAmazing Evenings, selected alcoholic beverages and included gratuities make it particularly appealing to guests who value the destination as much as the ship.",
+      "quote": "If your ideal vacation revolves around discovering new restaurants and enjoying a refined onboard experience, start with Oceania. If you would rather spend longer exploring local neighborhoods, cultural attractions and evening experiences in port, Azamara deserves serious consideration. The best choice ultimately depends on the exact ship, itinerary, stateroom and benefits included in your reservation.",
+      "quoteSubtitle": "On matching your lifestyle to the ideal small-ship cruise line",
+      "credentials": [
+        "Top Producer: Oceania Cruises Connoisseur Club",
+        "Certified Azamara Small-Ship Specialist & Top Partner",
+        "Over 30 Years Designing Bespoke Luxury Itineraries",
+        "Personal Voyages on Oceania Vista, Riviera, Azamara Journey & Quest"
+      ],
+      "ctaText": "Compare Oceania & Azamara Quotes",
+      "ctaLink": "/contact"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions: Oceania Cruises vs. Azamara",
+    "subtitle": "Clear, verified answers to the most common questions when choosing between Oceania and Azamara",
+    "questions": [
+      {
+        "question": "Is Oceania Cruises better than Azamara?",
+        "answer": "Oceania is generally a better fit for travelers who prioritize specialty dining, culinary experiences and included Wi-Fi. Azamara may be better for travelers who want longer port stays, included selected alcoholic beverages and cultural experiences. The right choice depends on your travel preferences."
+      },
+      {
+        "question": "What is the main difference between Oceania and Azamara?",
+        "answer": "Oceania focuses on culinary experiences and specialty dining, while Azamara emphasizes destination immersion, longer port stays, overnight calls and local cultural experiences."
+      },
+      {
+        "question": "Which cruise line has better food?",
+        "answer": "Oceania is particularly known for its culinary focus and specialty restaurants, all included in the standard cruise fare. Azamara offers several complimentary dining venues along with specialty restaurants that carry additional charges for many guests."
+      },
+      {
+        "question": "Are specialty restaurants included on Oceania Cruises?",
+        "answer": "Yes. Dining in Oceania's specialty restaurants is included in the Your World Included program, subject to availability and reservation policies."
+      },
+      {
+        "question": "Are specialty restaurants included on Azamara?",
+        "answer": "Azamara includes several dining venues in its cruise fare. Selected specialty restaurants, including Prime C and Aqualina, generally carry an additional charge for many guests. Certain suite categories receive specialty dining benefits."
+      },
+      {
+        "question": "Does Azamara include alcoholic drinks?",
+        "answer": "Yes. Azamara includes selected standard spirits, international beers and wines in its standard onboard experience. Premium brands and additional beverage selections may require an upgrade or individual purchase."
+      },
+      {
+        "question": "Does Oceania include alcoholic drinks?",
+        "answer": "Oceania offers complimentary wine and beer by the glass during restaurant lunch and dinner hours as an additional amenity on qualifying bookings. Guests must select this amenity instead of the shore-excursion credit."
+      },
+      {
+        "question": "Are gratuities included on Oceania Cruises?",
+        "answer": "Yes. Shipboard gratuities are included through the Your World Included program. Additional service charges may apply to certain onboard purchases."
+      },
+      {
+        "question": "Are gratuities included on Azamara?",
+        "answer": "Yes. Onboard gratuities are included in Azamara's standard cruise experience."
+      },
+      {
+        "question": "Which cruise line has better shore excursions?",
+        "answer": "Both offer destination experiences. Oceania provides a shore-excursion credit as an additional amenity on qualifying bookings. Azamara focuses on local experiences, longer port stays and cultural events, although most individual shore excursions are purchased separately."
+      },
+      {
+        "question": "What are AzAmazing Evenings?",
+        "answer": "AzAmazing Evenings are special shoreside cultural experiences designed to introduce guests to local traditions, entertainment and destinations. They are offered on most Azamara voyages, subject to itinerary and operational arrangements."
+      },
+      {
+        "question": "Does Oceania offer overnight port stays?",
+        "answer": "Oceania offers itineraries that may include overnight stays and extended port calls. Availability depends on the specific voyage. Compare the actual port schedule when choosing between Oceania and Azamara."
+      },
+      {
+        "question": "Which cruise line has smaller ships?",
+        "answer": "Both operate smaller ships compared with large mainstream cruise lines. Azamara has four intimate-style ships (approximately 700 guests), while Oceania has a varied fleet with different capacities and layouts (670 to 1,250 guests)."
+      },
+      {
+        "question": "Which cruise line is better for couples?",
+        "answer": "Both are suitable for couples seeking a relaxed small-ship experience. Oceania may appeal more to couples who enjoy dining and culinary experiences, while Azamara may suit couples who prioritize destination exploration and longer stays ashore."
+      },
+      {
+        "question": "Is Azamara more inclusive than Oceania?",
+        "answer": "Azamara includes selected alcoholic beverages, gratuities, self-service laundry and AzAmazing Evenings on most voyages. Oceania includes specialty dining, shipboard gratuities, Wi-Fi and several nonalcoholic beverages. Each line has a different set of standard benefits."
+      }
+    ]
+  },
+  "centerCta": {
+    "title": "Ready to Plan Your Oceania or Azamara Cruise?",
+    "subtitle": "Choosing between Oceania and Azamara involves evaluating ships, itineraries, time in port, dining preferences, accommodation and total vacation value. Angela Hughes and the Trips & Ships Luxury Travel team are here to help you make the right choice.",
+    "primaryCtaText": "Contact Trips & Ships Luxury Travel",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Oceania Ships",
+    "secondaryCtaLink": "/oceania-cruises/ships"
+  }
+}

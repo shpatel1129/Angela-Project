@@ -35,23 +35,17 @@ const ThreeColumnGrid = ({ title, subtitle, items }) => {
                 if (remainder === 2 && idx === lastRowStart) colClass = 'md:col-span-2 md:col-start-2';
 
                 return (
-                  <FadeIn key={idx} delay={idx * 0.1} className={`h-full ${colClass}`}>
+                  <FadeIn key={idx} delay={idx * 0.1} className={`h-full flex flex-col ${colClass}`}>
                     <div className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden h-full flex flex-col group hover:shadow-md transition-shadow">
                       
                       {/* Image */}
                       <div className="h-48 bg-slate-200 relative overflow-hidden flex-shrink-0">
-                        {item.image ? (
-                          <MasterImage 
+                        <MasterImage 
                             src={item.image} 
                             alt={item.title}
+                            placeholderLabel={item.title}
                             className="w-full h-full object-cover absolute inset-0"
                           />
-                        ) : (
-                          <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-500 font-sans tracking-widest text-xs uppercase text-center px-4 border-b border-dashed border-slate-300">
-                            <span className="font-bold text-slate-400 tracking-[0.2em] mb-1 text-[10px]">IMAGE PLACEHOLDER</span>
-                            <span className="font-display text-sm text-slate-600 font-normal">{item.title}</span>
-                          </div>
-                        )}
                         <div className="absolute inset-0 bg-gradient-to-t from-navy-950/30 to-transparent"></div>
                       </div>
 
@@ -65,13 +59,40 @@ const ThreeColumnGrid = ({ title, subtitle, items }) => {
                         
                         <h3 className="font-display text-2xl text-navy-900 mb-4 italic">{item.title}</h3>
                         
-                        {item.description && (
-                          <p className="font-sans text-slate-500 mb-6 text-sm leading-relaxed">{item.description}</p>
+                        {/* Optional Editorial Lead Hook */}
+                        {item.lead && (
+                          <p className="font-serif italic text-navy-900/90 text-sm leading-relaxed mb-4 pb-3 border-b border-slate-100">
+                            "{item.lead}"
+                          </p>
                         )}
+
+                        {/* Structured Editorial Facets / Highlights */}
+                        {item.facets && Array.isArray(item.facets) ? (
+                          <div className="space-y-3 mb-6">
+                            {item.facets.map((facet, fIdx) => (
+                              <div key={fIdx} className="text-xs leading-relaxed text-slate-600">
+                                <span className="font-bold text-navy-950 uppercase tracking-wider text-[10px] mr-1.5 inline-block">
+                                  {facet.label}:
+                                </span>
+                                <span>{facet.text}</span>
+                              </div>
+                            ))}
+                          </div>
+                        ) : Array.isArray(item.description) ? (
+                          <div className="space-y-2 mb-6">
+                            {item.description.map((para, pIdx) => (
+                              <p key={pIdx} className="font-sans text-slate-600 text-sm leading-relaxed">
+                                {para}
+                              </p>
+                            ))}
+                          </div>
+                        ) : item.description ? (
+                          <p className="font-sans text-slate-500 mb-6 text-sm leading-relaxed">{item.description}</p>
+                        ) : null}
 
                         {/* Stats Grid (New distinct structure for Specs/Ships) */}
                         {item.stats && (
-                          <div className="mt-auto bg-slate-50/80 rounded-xl p-5 border border-slate-100 shadow-sm">
+                          <div className="mt-auto bg-slate-50/80 rounded-xl p-5 border border-slate-100 shadow-sm mb-4">
                             <div className="grid grid-cols-2 gap-y-5 gap-x-4">
                               {item.stats.map((stat, i) => (
                                 <div key={i} className="flex flex-col">

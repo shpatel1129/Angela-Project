@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "title": "How Much Does an Oceania Cruise Cost? 2026–2027 Prices",
+    "description": "How much does an Oceania cruise cost? Explore 2026–2027 cruise fares, stateroom prices, what's included, extra expenses and ways to find the best value.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/cost",
+    "primaryKeyword": "How much does an Oceania cruise cost",
+    "secondaryKeywords": [
+      "Oceania Cruises prices",
+      "Oceania cruise cost per person",
+      "Oceania Cruises fares",
+      "Oceania cruise cost for two",
+      "Oceania cruise prices 2026",
+      "Oceania cruise prices 2027",
+      "Oceania Cruises all-inclusive cost",
+      "Oceania cruise suite prices",
+      "Oceania Cruises hidden costs",
+      "Oceania cruise price comparison"
+    ],
+    "pageUrl": "/oceania-cruises/cost",
+    "author": "Angela Hughes, CEO of Trips & Ships Luxury Travel",
+    "publishDate": "2026-11-05",
+    "updated": "2026-11-05"
+  },
+  "hero": {
+    "badge": "2026–2027 Cruise Fare & Pricing Guide",
+    "title": "How Much Does an Oceania Cruise Cost?",
+    "subtitle": "2026–2027 Pricing, Staterooms, Inclusions & Practical Budgeting Guide",
+    "description": "An Oceania cruise can cost anywhere from a few thousand dollars per person for a shorter sailing to considerably more for longer voyages, premium suite categories, and extended international itineraries. Explore advertised starting fares, what's included under Your World Included®, stateroom categories, and expert budgeting strategies.",
+    "primaryCtaText": "Plan with an Advisor",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "View Cost Breakdown",
+    "secondaryCtaLink": "#cost-at-a-glance"
+  },
+  "intro": {
+    "eyebrow": "PRICING & VALUE OVERVIEW",
+    "heading": "What Does an Oceania Cruise Really Cost?",
+    "paragraphs": [
+      "An Oceania cruise can cost anywhere from a few thousand dollars per person for a shorter sailing to considerably more for longer voyages, premium suite categories, and extended international itineraries. The final price depends on the ship, destination, cruise length, stateroom category, departure date, promotional offer, and number of guests sharing the accommodation.",
+      "As an illustrative snapshot of Oceania's advertised 2026–2027 fares, selected voyages have been listed from approximately $2,190 per person for a seven-day cruise, while some 14- and 15-day itineraries have been advertised from approximately $4,699 and $6,799 per person, respectively. These are starting fares for specific sailings, not guaranteed prices for every departure or cabin category.",
+      "Oceania's Your World Included program also changes how travelers should evaluate the price. Eligible cruise fares include specialty dining, shipboard gratuities, Wi-Fi, and a choice between complimentary wine and beer by the glass during restaurant lunch and dinner hours or a shore excursion credit.",
+      "The important question is not simply how much the cruise fare costs. It is what the fare includes, which expenses remain separate, and whether the overall experience represents good value for your travel priorities."
+    ]
+  },
+  "costAtAGlance": {
+    "title": "Oceania Cruises Cost at a Glance",
+    "headers": ["Cost Factor", "What to Expect"],
+    "rows": [
+      ["Shorter cruises (7 days)", "Selected seven-day 2026–2027 voyages have been advertised from around $2,190 per person"],
+      ["Two-week cruises (14 days)", "Selected 14-day voyages have been advertised from around $4,699 per person"],
+      ["Longer international cruises (15+ days)", "Selected 15-day voyages have been advertised from around $6,799 per person"],
+      ["Stateroom category", "Inside, oceanview, veranda, Concierge Level and suites have distinct fare structures"],
+      ["Specialty dining", "Included on eligible Your World Included fares without cover charges"],
+      ["Shipboard gratuities", "Included in eligible cruise fares for stateroom attendants, butlers & waitstaff"],
+      ["Wi-Fi", "Complimentary Wi-Fi included, subject to published terms and device allowances"],
+      ["Wine and beer", "Choice of beverage amenity (wine/beer during meals) or shore excursion credit"],
+      ["Shore excursions", "Excursion credit available under applicable offer; specialized tours cost extra"],
+      ["Flights and hotels", "May be separate, depending on specific booking and current promotions"],
+      ["Travel insurance", "Generally an additional expense recommended for international luxury voyages"]
+    ],
+    "importantNote": "Important: Oceania's advertised fares are subject to change and may be based on two guests sharing a stateroom. Promotional pricing can have residency, booking-date, sailing, and category restrictions. Always check the final price and terms for your specific departure."
+  },
+  "averageCostAndExamples": {
+    "title": "Advertised Fare Benchmarks & What It Means for Two Guests",
+    "subtitle": "There is no single average price that accurately represents every Oceania sailing. A seven-day Caribbean cruise, a two-week Mediterranean itinerary, and a longer Asia voyage have different pricing structures.",
+    "advertisedFares": {
+      "title": "Examples of Advertised Oceania Cruise Prices (2026–2027)",
+      "headers": ["Example Voyage", "Ship", "Duration", "Advertised Starting Fare"],
+      "rows": [
+        ["Miami round-trip Caribbean", "Oceania Vista", "7 days", "From $2,190 per guest"],
+        ["Miami round-trip Caribbean", "Oceania Marina", "14 days", "From $4,699 per guest"],
+        ["Hong Kong to Singapore", "Oceania Nautica", "15 days", "From $6,799 per guest"],
+        ["Tokyo round-trip Japan", "Oceania Nautica", "10 days", "From $5,199 per guest"]
+      ]
+    },
+    "twoGuestsTable": {
+      "title": "What Does That Mean for Two Guests? (Double Occupancy Baseline)",
+      "headers": ["Advertised Fare Per Guest", "Approximate Cruise Fare for Two"],
+      "rows": [
+        ["$2,190", "$4,380"],
+        ["$4,699", "$9,398"],
+        ["$5,199", "$10,398"],
+        ["$6,799", "$13,598"]
+      ]
+    },
+    "note": "These fares are based on selected fares displayed by Oceania Cruises during the November 2026 research period. The available cabin category, remaining inventory, promotional eligibility, and booking conditions can change the amount shown. They are not final booking totals and do not account for optional extras, airfare, hotel stays, or insurance."
+  },
+  "staterooms": {
+    "title": "How Much Does an Oceania Cruise Cost by Stateroom Category?",
+    "subtitle": "Your accommodation is one of the most important factors affecting the cost of an Oceania cruise. Oceania offers several accommodation categories, ranging from comfortable inside staterooms to expansive Owner's Suites.",
+    "categories": [
+      {
+        "title": "Inside Staterooms",
+        "category": "Entry Luxury Category",
+        "icon": "Home",
+        "description": "Inside staterooms are generally among the least expensive accommodation options. Suitable for travelers who plan to spend most of their time exploring the ship and visiting destinations rather than relaxing in their cabin.",
+        "bullets": [
+          "Usually the lowest starting fare on any given sailing",
+          "Comfortable private space with tranquil sleeping environment",
+          "Full access to the ship's included specialty dining and public lounges",
+          "Practical option for travelers prioritizing port itineraries and overall value"
+        ]
+      },
+      {
+        "title": "Oceanview Staterooms",
+        "category": "Mid-Tier Natural Light",
+        "icon": "Sun",
+        "description": "Oceanview staterooms offer natural light and an outside view through a window or classic porthole, providing an attractive middle ground without the premium price of a private balcony.",
+        "bullets": [
+          "Abundant natural daylight and panoramic ocean horizon views",
+          "Cost-effective alternative to full veranda accommodations",
+          "Same comfortable furnishings and bedding as higher tiers",
+          "Price difference depends on sailing duration and remaining inventory"
+        ]
+      },
+      {
+        "title": "Veranda Staterooms",
+        "category": "Signature Outdoor Space",
+        "icon": "Compass",
+        "description": "Veranda accommodations provide a private teak balcony, allowing guests to enjoy fresh sea air and coastline scenery directly from their stateroom without leaving their private quarters.",
+        "bullets": [
+          "Private outdoor veranda with comfortable teak seating",
+          "Particularly appealing for scenic Mediterranean, Alaska & Norway routes",
+          "Perfect for morning alfresco espresso or quiet sunset cocktails",
+          "Often commands a moderate premium over oceanview staterooms"
+        ]
+      },
+      {
+        "title": "Concierge Level Veranda",
+        "category": "Upgraded Veranda & Privileges",
+        "icon": "Award",
+        "description": "Concierge Level accommodations combine private veranda stateroom comfort with dedicated concierge privileges, priority bookings, and enhanced in-suite amenities.",
+        "bullets": [
+          "Enhanced in-room amenities, plush robes, and upgraded toiletries",
+          "Priority specialty restaurant reservations and boarding privileges",
+          "Access to private Concierge Lounge with dedicated staff on select ships",
+          "Compare specific benefits with standard veranda to evaluate value"
+        ]
+      },
+      {
+        "title": "Oceania Suites & Penthouse Suites",
+        "category": "Elevated Luxury & Space",
+        "icon": "Crown",
+        "description": "Oceania's suite collection—including Penthouse, Oceania, Vista, and Owner's Suites—is designed for guests seeking generous square footage, bespoke butler service, and VIP amenities.",
+        "bullets": [
+          "24-hour certified Butler service delivering course-by-course in-suite dining",
+          "Expansive living rooms, marble bathrooms, and oversized wrap-around verandas",
+          "Exclusive Executive Lounge access, unlimited garment pressing, and priority embarkation",
+          "Highest tier pricing requiring early booking due to limited shipboard inventory"
+        ]
+      }
+    ]
+  },
+  "shipImpact": {
+    "title": "How Does the Ship Affect Oceania Cruise Prices?",
+    "subtitle": "Oceania operates ships with different capacities, accommodation layouts, onboard facilities, and itineraries. The ship you choose can influence the fare, although there is no universal rule that one ship is always more expensive.",
+    "features": [
+      {
+        "title": "Newer Vessels (Allura, Vista)",
+        "description": "Newer ships feature all-veranda layouts, contemporary residential styling, and signature venues like Ember and Aquamar Kitchen. They often command premium pricing on high-demand departures."
+      },
+      {
+        "title": "Classic R-Class Ships (Nautica, Insignia, Sirena)",
+        "description": "Carrying just 670 guests, Oceania's intimate R-Class vessels can navigate shallow waterways and boutique harbors that larger ships cannot reach, creating unique value on exotic routes."
+      },
+      {
+        "title": "Seasonal Demand & Itinerary Exclusivity",
+        "description": "Popular seasonal departures—such as Mediterranean summers or Japan cherry blossom sailings—can command higher fares regardless of ship size due to finite suite inventory."
+      },
+      {
+        "title": "Voyage Duration vs. Nightly Rate",
+        "description": "Longer voyages (14 to 30+ days) feature higher total sticker prices, yet their calculated per-night cost is often significantly more economical than quick 7-day sailings."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "What Is Included in the Cost of an Oceania Cruise?",
+    "subtitle": "Oceania's Your World Included® program transforms the cruise fare into a comprehensive luxury package without the nickel-and-diming common on mainstream lines.",
+    "included": [
+      {
+        "title": "Specialty Dining",
+        "description": "Complimentary reservations at Polo Grill, Toscana, Red Ginger, Jacques & Ember without restaurant cover fees"
+      },
+      {
+        "title": "Shipboard Gratuities",
+        "description": "Full onboard service gratuities included for stateroom attendants, butlers, and dining staff"
+      },
+      {
+        "title": "Complimentary Wi-Fi",
+        "description": "Shipwide standard unlimited internet connectivity for everyday browsing and messaging"
+      },
+      {
+        "title": "Specialty Coffees & Beverages",
+        "description": "Baristas specialty coffees, espresso, artisanal teas, sodas, and cold-pressed juices"
+      },
+      {
+        "title": "Vero Water",
+        "description": "Unlimited still and sparkling purified Vero Water served throughout the ship"
+      },
+      {
+        "title": "Free Laundry",
+        "description": "Complimentary laundry services and self-service laundrette access included for guests"
+      },
+      {
+        "title": "Choice of Amenity",
+        "description": "Choice of wine and beer by the glass during restaurant meal hours OR a generous shore excursion credit"
+      }
+    ],
+    "extras": [
+      {
+        "title": "International & Domestic Airfare",
+        "description": "Separate unless booked under a specific promotional air program"
+      },
+      {
+        "title": "Pre- & Post-Cruise Hotels",
+        "description": "Overland hotel nights and city stays before embarkation or after disembarkation"
+      },
+      {
+        "title": "Shore Excursions Beyond Credit",
+        "description": "Specialized private tours, helicopter excursions, and small-group cultural programs"
+      },
+      {
+        "title": "Cocktails & Spirits",
+        "description": "Hard liquor, premium cocktails, and wines outside restaurant lunch and dinner service hours"
+      },
+      {
+        "title": "Aquamar Spa Treatments",
+        "description": "Massages, facials, salon appointments, and specialized body treatments"
+      },
+      {
+        "title": "Private Dining & Boutiques",
+        "description": "Exclusive private dining experiences (e.g. Privée, wine tastings) and boutique retail shopping"
+      },
+      {
+        "title": "Comprehensive Travel Insurance",
+        "description": "Medical evacuation, trip cancellation, and baggage protection policies"
+      }
+    ]
+  },
+  "budgetingFramework": {
+    "title": "How Much Should You Budget for an Oceania Cruise?",
+    "subtitle": "The cruise fare is only one component of your total vacation investment. Here is a realistic budgeting framework for planning an Oceania voyage.",
+    "table": {
+      "headers": ["Expense Category", "Budget Consideration"],
+      "rows": [
+        ["Cruise Fare", "Core cost, determined by sailing date, itinerary length, and stateroom category"],
+        ["Flights", "Depends on departure city, destination gateway, and preferred cabin class (Economy vs Business)"],
+        ["Hotel Stays", "1–2 nights recommended prior to embarkation to prevent flight delay risks"],
+        ["Airport & Port Transfers", "Private chauffeured transfers, taxis, or shared cruise line shuttles"],
+        ["Shore Excursions", "Calculated based on chosen guided tours minus any Your World Included credit applied"],
+        ["Travel Insurance", "Typically 7%–10% of total non-refundable trip costs based on age and trip value"],
+        ["Additional Drinks", "Allowance for evening martinis, poolside cocktails, or premium vintage wines"],
+        ["Spa & Boutique Purchases", "Optional personal spending for massages, salon treatments, or duty-free keepsakes"],
+        ["Pre/Post Sightseeing", "Meals, admissions, and local transport during land extension days"]
+      ]
+    },
+    "exampleTwoPerson": {
+      "title": "Illustrative Budget: 14-Day Caribbean Cruise for Two",
+      "lead": "Suppose two travelers select an Oceania sailing advertised from $4,699 per person ($9,398 cruise fare for two):",
+      "items": [
+        {
+          "category": "Cruise Fare (2 Guests)",
+          "cost": "$9,398",
+          "description": "14-day double occupancy fare with specialty dining, gratuities, Wi-Fi & laundry included",
+          "priority": "Essential Baseline"
+        },
+        {
+          "category": "Round-Trip Flights",
+          "cost": "Route Quote",
+          "description": "Domestic or international airfare tailored to your gateway city and cabin class",
+          "priority": "Essential Transport"
+        },
+        {
+          "category": "Pre-Cruise Hotel (1–2 Nights)",
+          "cost": "$350 – $900",
+          "description": "Comfortable luxury hotel night in Miami or departure port to ensure relaxed embarkation",
+          "priority": "Highly Recommended"
+        },
+        {
+          "category": "Transfers & Ground Transport",
+          "cost": "$150 – $300",
+          "description": "Airport to hotel and hotel to cruise terminal chauffeured transfers",
+          "priority": "Practical Comfort"
+        },
+        {
+          "category": "Excursions Beyond Credit",
+          "cost": "$400 – $1,200",
+          "description": "Specialized snorkeling, catamaran charters, or historic walking tours beyond amenity credit",
+          "priority": "Destination Value"
+        },
+        {
+          "category": "Cocktails & Personal Purchases",
+          "cost": "$300 – $600",
+          "description": "Evening cocktails in Martinis Lounge, Aquamar spa massage, or boutique souvenirs",
+          "priority": "Discretionary Luxury"
+        },
+        {
+          "category": "Comprehensive Travel Insurance",
+          "cost": "$600 – $1,000",
+          "description": "Medical evacuation, trip cancellation, and interruption protection",
+          "priority": "Essential Security"
+        }
+      ],
+      "totalCruiseFare": "$9,398",
+      "conclusion": "Total estimated vacation investment for two typically ranges from $11,500 to $14,000+ depending on flight choices and personal travel habits."
+    }
+  },
+  "allInclusiveTruth": {
+    "title": "Does Oceania Offer All-Inclusive Pricing?",
+    "eyebrow": "THE REALITY BEHIND THE LABEL",
+    "paragraphs": [
+      "Oceania is often described as an inclusive luxury cruise experience, but it is important to understand what that actually means. Your World Included covers several key onboard amenities, including specialty dining, shipboard gratuities, Wi-Fi, and selected nonalcoholic beverages. Guests also receive a choice between wine and beer by the glass during applicable restaurant hours or a shore excursion credit.",
+      "However, the program does not mean every possible expense is included. Travelers may still pay separately for flights not included in their booking, pre- or post-cruise hotels, premium spirits outside meal hours, excursions beyond the available credit, spa treatments, private tours, and travel insurance.",
+      "The best way to evaluate Oceania is to compare the full list of inclusions with your actual travel habits. A traveler who enjoys specialty dining, appreciates included gratuities, and makes use of Wi-Fi and the beverage or excursion amenity often finds Oceania delivers vastly superior value compared to paying a la carte on mainstream lines."
+    ]
+  },
+  "competitors": {
+    "title": "How Much Does an Oceania Cruise Cost Compared With Other Luxury Cruise Lines?",
+    "subtitle": "Oceania competes in the premium and upper-premium luxury travel market. Here is how its pricing and value proposition compare with its closest competitors.",
+    "items": [
+      {
+        "brand": "Regent Seven Seas Cruises",
+        "fareModel": "Ultra All-Inclusive",
+        "pricingStyle": "Higher upfront fare; nearly everything included",
+        "inclusionsComparison": "Regent includes unlimited shore excursions, unlimited top-shelf open bar 24/7, round-trip flights on most sailings, and pre-cruise luxury hotels for concierge suites.",
+        "oceaniaDifference": "Oceania provides lower starting entry fares with specialty dining and gratuities included, allowing guests to pay only for excursions and top-shelf liquor if they want them.",
+        "bestFor": "Regent appeals to travelers wanting a completely frictionless, 100% all-inclusive package with zero incidental bills. Oceania appeals to culinary and destination lovers who prefer paying less upfront."
+      },
+      {
+        "brand": "Viking Ocean Cruises",
+        "fareModel": "Inclusive Destination Cruising",
+        "pricingStyle": "Mid-to-upper luxury baseline with strict adults-only focus",
+        "inclusionsComparison": "Viking includes one complimentary shore excursion in every port, beer/wine with lunch and dinner, thermal spa access, and Wi-Fi, but charges extra for specialty liquor and gratuities.",
+        "oceaniaDifference": "Oceania includes all specialty restaurants without limitation, includes shipboard gratuities, and provides a broader variety of fine culinary venues led by world-class chefs.",
+        "bestFor": "Viking suits travelers who want an included tour in every port and Scandinavian serenity. Oceania suits those who demand world-class culinary excellence and boutique ship charm."
+      },
+      {
+        "brand": "Seabourn",
+        "fareModel": "Ultra-Luxury Yacht Cruising",
+        "pricingStyle": "Premium all-inclusive with smaller yacht capacities",
+        "inclusionsComparison": "Seabourn features all-suite accommodations, open-bar champagne and caviar on demand, and smaller yacht atmosphere (450–600 guests).",
+        "oceaniaDifference": "Oceania offers greater dining variety (up to 8+ distinct venues), larger ship amenities, and more stateroom price points while keeping passenger counts comfortably under 1,200.",
+        "bestFor": "Seabourn is ideal for travelers seeking private yacht-club exclusivity. Oceania offers superior dining diversity, larger verandas, and competitive cost-per-night economics."
+      }
+    ]
+  },
+  "costFactors": {
+    "title": "What Factors Make an Oceania Cruise More Expensive?",
+    "subtitle": "Several key variables dictate the final price of your Oceania voyage. Understanding them allows you to strategically optimize your budget.",
+    "spendMore": [
+      {
+        "title": "High-Demand Scenic Itineraries",
+        "description": "Mediterranean summer peak seasons, Japan cherry blossom departures, and Iceland/Norway fjord sailings command premium pricing due to high seasonal demand and limited port berths."
+      },
+      {
+        "title": "Extended Voyage Durations",
+        "description": "14- to 30-day Grand Voyages and World Cruises naturally carry higher overall price tags, even when their daily cost per night is lower than shorter sailings."
+      },
+      {
+        "title": "Penthouse and Top-Tier Suites",
+        "description": "Suites with dedicated butler service, wrap-around verandas, and VIP lounge access command significantly higher fares and typically book out 12 to 18 months in advance."
+      }
+    ],
+    "spendLess": [
+      {
+        "title": "Shoulder Season Sailings",
+        "description": "Booking Mediterranean cruises in late October/November or Caribbean cruises in early December/January yields substantially lower starting fares."
+      },
+      {
+        "title": "Standard Veranda Staterooms",
+        "description": "Standard veranda staterooms provide the identical ocean air and balcony experience as Concierge Level verandas at a noticeably lower fare point."
+      },
+      {
+        "title": "Solo Traveler Supplement Promotions",
+        "description": "Oceania regularly releases limited solo promotions with reduced single supplements, saving independent travelers thousands over standard double-occupancy pricing."
+      }
+    ]
+  },
+  "savingsTips": {
+    "title": "How Can You Get the Best Price on an Oceania Cruise?",
+    "subtitle": "Six Proven Strategies from Luxury Cruise Advisors",
+    "steps": [
+      {
+        "title": "Compare Multiple Departure Dates",
+        "description": "If your travel window is flexible, compare adjacent departure dates. Moving your sailing by one or two weeks can reveal dramatic fare differences, different promotions, and better stateroom inventory."
+      },
+      {
+        "title": "Compare Stateroom Category Upgrades",
+        "description": "Do not assume the lowest inside cabin is always the best value. On scenic coastal sailings, the modest price gap between an oceanview and veranda often delivers far greater personal enjoyment."
+      },
+      {
+        "title": "Review Current Oceania Promotions",
+        "description": "Oceania periodically rolls out seasonal promotions offering shipboard credits, category upgrades, or special airfare credits. Always review eligibility terms and booking windows."
+      },
+      {
+        "title": "Take Advantage of Solo Traveler Offers",
+        "description": "Oceania regularly reduces single supplements on selected sailings and categories. If traveling solo, check these dedicated promotions instead of paying standard double-occupancy rates."
+      },
+      {
+        "title": "Strategic Amenity Selection",
+        "description": "Under Your World Included, choose between mealtime wine/beer or shore excursion credit based on your habits. If you prefer independent exploration, the wine amenity is generally more valuable."
+      },
+      {
+        "title": "Book with a Luxury Cruise Travel Advisor",
+        "description": "A knowledgeable luxury advisor like Angela Hughes has access to consortia shipboard credits, group amenity rates, and insider cabin availability that public booking engines cannot match."
+      }
+    ]
+  },
+  "worthIt": {
+    "title": "Is an Oceania Cruise Worth the Money?",
+    "advantages": [
+      "Food lovers who value The Finest Cuisine at Sea® with zero specialty dining cover charges",
+      "Adult travelers who appreciate an elegant, refined atmosphere free of crowds and children",
+      "Travelers who value included shipboard gratuities and complimentary Wi-Fi",
+      "Destination enthusiasts wanting boutique port calls, late-night stays, and overnight port itineraries",
+      "Couples seeking smaller, beautifully appointed ships (670–1,200 guests) with personal service",
+      "Guests who appreciate casual country-club elegance without formal black-tie mandates"
+    ],
+    "drawbacks": [
+      "Families with children under 18 (Oceania is strictly adults-only for new reservations)",
+      "Travelers expecting unlimited 24/7 top-shelf spirits and cocktails without paying extra",
+      "Guests expecting every single shore excursion to be free without spending beyond credit",
+      "Vacationers seeking large mega-ship entertainment, waterslides, casinos, and rock walls",
+      "Budget travelers looking for the lowest possible rock-bottom mass-market cruise fare"
+    ],
+    "bottomNote": "The Verdict: Oceania delivers exceptional luxury value for travelers whose core priorities are world-class dining, destination depth, and refined, uncrowded shipboard elegance."
+  },
+  "expert": {
+    "badge": "VERIFIED LUXURY CRUISE AUTHORITY",
+    "authorityBoxTitle": "ANGELA HUGHES LUXURY CRUISE INSIGHTS",
+    "authoritySubtitle": "Trusted Global Travel Advisor & CEO",
+    "name": "Angela Hughes",
+    "title": "Luxury Cruise Specialist & CEO, Trips & Ships Luxury Travel",
+    "experienceBadge": "40+ YEARS CRUISE EXPERTISE",
+    "bio": "Choosing an Oceania cruise involves more than selecting the lowest advertised fare. The ship, itinerary, stateroom, departure date, and included amenities all influence the overall value. At Trips & Ships Luxury Travel, Angela Hughes and her team help travelers compare luxury cruise experiences and identify sailings that align with their travel preferences and budgets. Whether you are considering a Mediterranean voyage, a Caribbean escape, or an extended Grand Voyage, personalized guidance ensures you get the maximum value from your travel investment.",
+    "quote": "Oceania's Your World Included program has fundamentally changed the luxury cruise value calculation. By including specialty dining, gratuities, and Wi-Fi, you enjoy an upscale culinary experience without the unexpected charges that inflate mainstream cruise bills.",
+    "quoteSubtitle": "On Evaluating True Luxury Cruise Value",
+    "credentials": [
+      "Over 40 Years Advising Luxury & World Cruise Travelers",
+      "Explored 121+ Countries Across Seven Continents",
+      "Personal Relationships with Luxury Cruise Line Executives",
+      "Specialist in Solo, Couples & Extended World Cruise Itineraries",
+      "CEO & Founder of Trips & Ships Luxury Travel",
+      "Recipient of Top Luxury Travel Industry Producer Awards"
+    ],
+    "ctaText": "Plan Your Oceania Cruise with Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": {
+    "title": "Oceania Cruise Cost: Frequently Asked Questions",
+    "subtitle": "Detailed pricing, inclusions, and budgeting insights for planning your Oceania voyage.",
+    "questions": [
+      {
+        "question": "How much does an Oceania cruise cost per person?",
+        "answer": "The cost depends on the itinerary, ship, travel date, and stateroom category. Selected seven-day 2026–2027 voyages have been advertised from around $2,190 per person, while longer voyages can cost considerably more. Always check the current fare for your preferred sailing."
+      },
+      {
+        "question": "How much does a seven-day Oceania cruise cost?",
+        "answer": "A selected seven-day Oceania Vista Caribbean sailing has been advertised from approximately $2,190 per guest. Other seven-day itineraries may be priced differently depending on the ship, destination, date, and cabin availability."
+      },
+      {
+        "question": "How much does a 14-day Oceania cruise cost?",
+        "answer": "A selected 14-day Oceania Marina Caribbean voyage has been advertised from approximately $4,699 per guest. This is an example of one sailing, not a standard price for every two-week cruise."
+      },
+      {
+        "question": "How much does an Oceania cruise cost for two people?",
+        "answer": "For two guests sharing a stateroom, multiply the advertised per-person double-occupancy fare by two to estimate the cruise fare. Flights, hotels, insurance, and optional expenses may increase the total vacation cost."
+      },
+      {
+        "question": "Is Oceania Cruises all-inclusive?",
+        "answer": "Oceania's Your World Included program covers specialty dining, shipboard gratuities, Wi-Fi, selected nonalcoholic beverages, and other amenities. Guests also choose between wine and beer by the glass during applicable restaurant hours or a shore excursion credit. Flights, hotels, premium purchases, and many optional experiences may cost extra."
+      },
+      {
+        "question": "Are gratuities included on Oceania Cruises?",
+        "answer": "Yes. Eligible Your World Included cruise fares include shipboard gratuities for covered onboard service teams, including stateroom attendants, butlers, and dining waitstaff. Additional gratuities may apply to certain onboard purchases and services."
+      },
+      {
+        "question": "Is specialty dining included on Oceania Cruises?",
+        "answer": "Yes. Dining in Oceania's specialty restaurants is included under Your World Included. Restaurant availability and the selection of venues depend on the ship."
+      },
+      {
+        "question": "Are drinks included on Oceania Cruises?",
+        "answer": "Your World Included offers a choice of wine and beer by the glass during restaurant lunch and dinner hours or a shore excursion credit. Selected nonalcoholic beverages are also included. Premium drinks and beverages outside the applicable selection or service hours may cost extra."
+      },
+      {
+        "question": "Is Wi-Fi free on Oceania Cruises?",
+        "answer": "Complimentary Wi-Fi is included under Your World Included, subject to the program's terms. The standard benefit has device and usage conditions and does not include streaming."
+      },
+      {
+        "question": "Are shore excursions included in Oceania cruise fares?",
+        "answer": "Oceania offers a choice between a beverage amenity and a shore excursion credit. Choosing the credit can reduce the cost of eligible tours, but it does not mean every excursion is included."
+      },
+      {
+        "question": "Does Oceania include airfare?",
+        "answer": "Airfare depends on the specific booking and promotional offer. Do not assume flights are included in every advertised cruise fare. Check the applicable air program and final booking confirmation."
+      },
+      {
+        "question": "Are port taxes and government fees included?",
+        "answer": "Oceania's published promotional terms state that qualifying advertised fares include government taxes and fees. Always review the fare breakdown and applicable booking terms to confirm what is included in your particular quote."
+      },
+      {
+        "question": "Are there hidden costs on Oceania Cruises?",
+        "answer": "There are optional expenses beyond the cruise fare. These can include airfare, hotels, private excursions, premium drinks, spa services, travel insurance, and selected onboard purchases. Reviewing these costs before booking helps avoid surprises."
+      },
+      {
+        "question": "Is an Oceania veranda stateroom worth the extra cost?",
+        "answer": "A veranda may be worthwhile if you enjoy private outdoor space and ocean views. It can be particularly appealing on scenic itineraries. Compare the price difference with an inside or oceanview cabin before deciding."
+      },
+      {
+        "question": "Are Oceania suite prices much higher than standard cabins?",
+        "answer": "Suite fares are generally higher because they offer more space and additional amenities or services. The exact difference depends on the ship, suite category, itinerary, and availability."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Plan Your Oceania Cruise with Expert Guidance",
+    "description": "Speak with Angela Hughes and the luxury cruise advisors at Trips & Ships Luxury Travel to tailor your Oceania voyage, unlock exclusive amenities, and secure the ideal suite.",
+    "buttonText": "Speak with a Luxury Cruise Advisor",
+    "buttonLink": "/contact"
+  }
+}
+

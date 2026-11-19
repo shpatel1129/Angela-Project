@@ -1,0 +1,1040 @@
+{
+  "meta": {
+    "title": "How Much Does a Celebrity Cruise Cost? 2026–2027 Guide",
+    "metaTitle": "How Much Does a Celebrity Cruise Cost?",
+    "description": "How much does a Celebrity cruise cost? Compare cruise fares, cabin prices, All Included packages, gratuities, drinks, Wi-Fi, excursions and the total cost of a Celebrity vacation.",
+    "canonicalUrl": "https://www.tripsandships.com/celebrity-cruises/cost",
+    "primaryKeyword": "How Much Does a Celebrity Cruise Cost",
+    "secondaryKeywords": [
+      "Celebrity Cruises prices",
+      "Celebrity cruise cost per person",
+      "Celebrity cruise prices",
+      "Celebrity cruise fare",
+      "Celebrity cruise cost for two",
+      "Celebrity cruise cost for a family",
+      "Celebrity cruise cost per night",
+      "Celebrity cruise price by cabin",
+      "Celebrity cruise balcony cost",
+      "Celebrity cruise suite prices",
+      "Celebrity All Included cost",
+      "Celebrity Cruise-Only fare",
+      "Celebrity cruise gratuities",
+      "Celebrity cruise drink package cost",
+      "Celebrity cruise Wi-Fi cost",
+      "Celebrity cruise additional expenses",
+      "Celebrity cruise total vacation cost",
+      "Celebrity cruise deals",
+      "Celebrity cruise price comparison",
+      "Is Celebrity Cruises expensive?",
+      "Celebrity cruise budget"
+    ]
+  },
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "telephone": "+1-801-555-0199",
+        "founder": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#author",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO & Luxury Travel Advisor",
+        "worksFor": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "url": "https://www.tripsandships.com/about-angela-hughes"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com",
+        "name": "Trips & Ships Luxury Travel",
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/cost#webpage",
+        "url": "https://www.tripsandships.com/celebrity-cruises/cost",
+        "name": "How Much Does a Celebrity Cruise Cost? 2026–2027 Guide",
+        "description": "How much does a Celebrity cruise cost? Compare cruise fares, cabin prices, All Included packages, gratuities, drinks, Wi-Fi, excursions and the total cost of a Celebrity vacation.",
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/cost#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/cost#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Celebrity Cruises",
+            "item": "https://www.tripsandships.com/celebrity-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How Much Does a Celebrity Cruise Cost?",
+            "item": "https://www.tripsandships.com/celebrity-cruises/cost"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/cost#article",
+        "headline": "How Much Does a Celebrity Cruise Cost? 2026–2027 Guide",
+        "description": "How much does a Celebrity cruise cost? Compare cruise fares, cabin prices, All Included packages, gratuities, drinks, Wi-Fi, excursions and the total cost of a Celebrity vacation.",
+        "author": {
+          "@id": "https://www.tripsandships.com/#author"
+        },
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-03",
+        "mainEntityOfPage": "https://www.tripsandships.com/celebrity-cruises/cost"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/cost#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does a Celebrity cruise cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The cost depends on the ship, destination, sailing date, cruise length, stateroom category, number of guests and fare package. The final vacation budget should also account for taxes, fees, gratuities, excursions, flights and other expenses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a Celebrity cruise cost per person?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity commonly displays cruise fares per person based on two guests sharing a stateroom. The actual price varies by sailing, cabin category, occupancy and applicable taxes and fees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a Celebrity cruise cost for two people?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The cost for two includes the applicable stateroom fare and any additional taxes, fees and selected extras. Drinks, Wi-Fi, gratuities, excursions, flights and hotels may increase the total."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Cruises expensive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity is a premium cruise brand. Whether it is expensive depends on the ship, accommodation, itinerary, included amenities and the total vacation budget."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is included in a Celebrity cruise fare?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Generally, the fare includes stateroom accommodation, ocean transportation, most onboard meals, some nonalcoholic beverages and most onboard entertainment. Other amenities and services may cost extra."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Cruise-Only and All Included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cruise-Only is generally the lower base fare and does not include the Classic Drinks Package or Basic Wi-Fi. Eligible All Included bookings bundle those amenities. Check the exact terms for your sailing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity All Included cover gratuities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The current U.S. All Included FAQ states that beverage-package gratuities are included, but onboard staff gratuities are charged separately. Always confirm the terms attached to your specific booking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity All Included include Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Eligible All Included bookings generally include Basic Wi-Fi. Retreat guests receive Premium Wi-Fi under the applicable Retreat inclusions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are drinks included on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some nonalcoholic beverages are included in the general cruise fare. Alcoholic beverages and other drinks may cost extra unless covered by a beverage package or eligible fare inclusion."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are meals included on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most standard onboard meals are included. Specialty restaurants and certain dining experiences generally involve additional charges unless covered by an applicable package or benefit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are shore excursions included in Celebrity cruise prices?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shore excursions are generally additional expenses. Their cost depends on the destination, length, activity and whether you choose a private or group experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much are Celebrity cruise gratuities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gratuities depend on the stateroom category and applicable booking terms. Check Celebrity's current gratuity schedule and your reservation invoice for the amount that applies."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a Celebrity balcony cabin cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Veranda Stateroom's price varies by ship, itinerary, sailing date, availability and occupancy. Compare the same sailing and fare conditions when evaluating cabin prices."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do Celebrity suites cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Suite prices vary substantially by ship, suite category, sailing date and itinerary. The Retreat includes a different accommodation and amenity experience from standard stateroom categories."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity All Included worth it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It may be worthwhile if you expect to use the Classic Drinks Package and Basic Wi-Fi. Compare the fare difference with the cost of purchasing those amenities separately."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "How Much Does a Celebrity Cruise Cost?",
+    "subtitle": "A Celebrity cruise can cost significantly different amounts depending on the ship, itinerary, sailing date, stateroom category, number of guests and fare package you choose.",
+    "description": "There is no single price that applies to every Celebrity cruise. A short Caribbean sailing in an Inside Stateroom will generally have a different price from a longer Mediterranean voyage in a balcony stateroom or a luxury suite in The Retreat. Your total vacation cost also extends beyond the advertised cruise fare.",
+    "badge": "Celebrity Cruises Cost Guide / Cruise Pricing and Budget Planner",
+    "ctaText": "Plan Your Celebrity Cruise",
+    "ctaLink": "/contact#celebrity-cruise-inquiry",
+    "byline": true,
+    "author": "Angela Hughes",
+    "authorBioUrl": "https://www.tripsandships.com/about-angela-hughes",
+    "updated": "2026-11-02",
+    "disclaimer": "Pricing, promotions, package availability and booking conditions can change. Always confirm the final price and inclusions for your specific sailing before making a reservation."
+  },
+  "quickCompareTable": {
+    "title": "Quick Answer: How Much Does a Celebrity Cruise Cost?",
+    "subtitle": "Celebrity cruise prices depend on several factors:",
+    "headers": [
+      "Pricing Factor",
+      "How It Affects Your Cost"
+    ],
+    "rows": [
+      [
+        "Ship",
+        "Newer and more in-demand ships may command higher fares"
+      ],
+      [
+        "Destination",
+        "Popular destinations and seasonal demand affect pricing"
+      ],
+      [
+        "Sailing date",
+        "Holidays, school breaks and peak seasons can cost more"
+      ],
+      [
+        "Cruise length",
+        "Longer voyages generally have higher total fares"
+      ],
+      [
+        "Stateroom",
+        "Inside, ocean-view, veranda, Concierge, AquaClass and suites have different prices"
+      ],
+      [
+        "Fare package",
+        "Cruise-Only and All Included have different inclusions"
+      ],
+      [
+        "Number of guests",
+        "Occupancy and single supplements affect the total"
+      ],
+      [
+        "Booking timing",
+        "Availability and promotions can change"
+      ],
+      [
+        "Additional experiences",
+        "Excursions, specialty dining, spa treatments and other purchases add to the budget"
+      ]
+    ]  },
+  "whichBest": {
+    "title": "Which Celebrity Cabin Offers the Best Value?",
+    "subtitle": "No Single Best Cabin For Every Traveler",
+    "intro": "The right choice depends on your budget, itinerary, time spent in the cabin and the amenities you will actually use. For a port-intensive itinerary, an Inside or Ocean View Stateroom may be sufficient for some travelers. For a scenic sailing or longer vacation, a veranda may provide additional enjoyment. For travelers who value premium accommodation and exclusive spaces, The Retreat may justify a higher fare.",
+    "relatedGuide": "Celebrity Cruises Suites and Staterooms Guide.",
+    "personas": [
+      {
+        "title": "Inside Stateroom",
+        "description": "Lowest accommodation cost. Suitable for travelers who prioritize the itinerary, spend little time in cabin, and don't require exterior views.",
+        "badge": "Budget Priority",
+        "icon": "Gem"
+      },
+      {
+        "title": "Ocean View Stateroom",
+        "description": "Natural light and an ocean view without paying for a private veranda. Perfect for scenic coastal journeys.",
+        "badge": "Natural Light",
+        "icon": "Compass"
+      },
+      {
+        "title": "Veranda Stateroom",
+        "description": "Private outdoor space. The gold standard for couples, longer voyages, and scenic destinations like Alaska or the Mediterranean.",
+        "badge": "Most Popular",
+        "icon": "Star"
+      },
+      {
+        "title": "Concierge Class",
+        "description": "Dedicated service and enhanced amenities. Compare benefits on your selected ship before deciding whether the fare difference is worthwhile.",
+        "badge": "Enhanced Service",
+        "icon": "Award"
+      },
+      {
+        "title": "AquaClass",
+        "description": "Wellness-focused experience with unlimited SEA Thermal Suite spa access and exclusive dining at Blu restaurant.",
+        "badge": "Spa & Wellness",
+        "icon": "Heart"
+      },
+      {
+        "title": "The Retreat",
+        "description": "Premium luxury suite experience with private sundeck, lounge, Luminae restaurant, dedicated butler, Premium Drinks and Premium Wi-Fi.",
+        "badge": "Ultra-Luxury",
+        "icon": "Crown"
+      }
+    ]
+  },
+  "pricingBasics": {
+    "perPerson": {
+      "title": "How Much Does a Celebrity Cruise Cost Per Person?",
+      "description": "Celebrity generally advertises cruise prices on a per-person basis, commonly using two guests sharing a stateroom as the pricing basis. The final amount depends on the selected sailing, stateroom, occupancy and applicable taxes and fees.",
+      "checklistHeading": "When comparing two prices, check whether they represent:",
+      "checklist": [
+        "The price per person or the total stateroom price",
+        "Double occupancy or single occupancy",
+        "Cruise-Only or All Included",
+        "A fare before or after taxes and fees",
+        "A refundable or nonrefundable deposit option, where offered",
+        "A promotional fare with specific restrictions"
+      ],
+      "note": "A price that initially looks lower may not represent the better overall value if important amenities are excluded."
+    },
+    "howToCompare": {
+      "title": "How to Compare Celebrity Cruise Prices",
+      "intro": "For a meaningful comparison, use the same: Destination, Departure date, Number of nights, Ship, where possible, Stateroom category, Number of guests, Fare type.",
+      "conclusion": "Then compare the final amount and included amenities."
+    },
+    "costForTwo": {
+      "title": "How Much Does a Celebrity Cruise Cost for Two?",
+      "intro": "The cost for two travelers depends on the stateroom and sailing.",
+      "budgetHeading": "For a couple, the total vacation budget can include:",
+      "budgetItems": [
+        "Two guests' cruise fare",
+        "Taxes, fees and port expenses",
+        "Daily onboard gratuities",
+        "Drinks and Wi-Fi if not included",
+        "Shore excursions",
+        "Specialty dining",
+        "Flights",
+        "Hotels",
+        "Airport and port transfers",
+        "Travel insurance"
+      ],
+      "pricingBasisNote": "The cruise fare is not necessarily twice the price shown in an individual per-person advertisement. The displayed rate may already be based on two guests sharing a cabin.",
+      "advice": "Always review the complete stateroom quote rather than multiplying an advertised per-person figure without checking its pricing basis."
+    }
+  },
+  "fleet": [
+    {
+      "name": "Edge Series Ships",
+      "subtitle": "Modern Luxury Flagships",
+      "tag": "Edge Class",
+      "description": "Celebrity Edge, Apex, Beyond, Ascent and Xcel. Celebrity operates multiple ship classes, and individual ships offer different accommodations, restaurants, entertainment, venues and onboard experiences. Edge Series ships feature iconic innovations including the cantilevered Magic Carpet, Infinite Verandas, and rooftop gardens. Demand for newer Edge Series ships frequently commands premium fares.",
+      "specs": [
+        {
+          "label": "Ships",
+          "value": "Edge, Apex, Beyond, Ascent, Xcel"
+        },
+        {
+          "label": "Key Feature",
+          "value": "Magic Carpet & Infinite Verandas"
+        },
+        {
+          "label": "Class Vibe",
+          "value": "Modern Resort Luxury"
+        }
+      ],
+      "bestFor": "Modern luxury seekers, design lovers & couples",
+      "relatedGuide": "Celebrity Cruises Ships and Fleet Guide."
+    },
+    {
+      "name": "Solstice Series Ships",
+      "subtitle": "Classic Contemporary Elegance",
+      "tag": "Solstice Class",
+      "description": "Celebrity Solstice, Equinox, Eclipse, Silhouette and Reflection. Celebrated for real lawn grass decks at the Lawn Club, glassblowing studios, and exceptional specialty dining. Solstice Series ships offer a spacious, refined balance of value and premium amenities across the Caribbean, Alaska and Europe.",
+      "specs": [
+        {
+          "label": "Ships",
+          "value": "Solstice, Equinox, Eclipse, Silhouette, Reflection"
+        },
+        {
+          "label": "Key Feature",
+          "value": "The Lawn Club & Specialty Dining"
+        },
+        {
+          "label": "Class Vibe",
+          "value": "Sophisticated Traditional"
+        }
+      ],
+      "bestFor": "Traditional premium cruisers & destination seekers",
+      "relatedGuide": "Celebrity Cruises Ships and Fleet Guide."
+    },
+    {
+      "name": "Millennium Series Ships",
+      "subtitle": "Intimate & Revolutionized",
+      "tag": "Millennium Class",
+      "description": "Celebrity Millennium, Infinity, Summit and Constellation. Extensively modernized through the multi-million-dollar Celebrity Revolution with upgraded staterooms, redesigned public lounges, and The Retreat Sundeck. Their mid-size scale enables access to more intimate worldwide ports.",
+      "specs": [
+        {
+          "label": "Ships",
+          "value": "Millennium, Infinity, Summit, Constellation"
+        },
+        {
+          "label": "Key Feature",
+          "value": "Intimate Scale & Global Itineraries"
+        },
+        {
+          "label": "Class Vibe",
+          "value": "Boutique Ocean Cruising"
+        }
+      ],
+      "bestFor": "In-depth port exploration & travelers seeking great value",
+      "relatedGuide": "Celebrity Cruises Ships and Fleet Guide."
+    },
+    {
+      "name": "Celebrity's Galapagos Fleet",
+      "subtitle": "All-Inclusive Expedition Yachting",
+      "tag": "Galapagos Expedition",
+      "description": "Celebrity Flora, Celebrity Xpedition and Celebrity Xploration. A distinct product from Celebrity's mainstream ocean cruises, operating purpose-built luxury expedition voyages in the Galapagos Islands with certified naturalists, Zodiac explorations, and all-inclusive regional fares.",
+      "specs": [
+        {
+          "label": "Ships",
+          "value": "Flora, Xpedition, Xploration"
+        },
+        {
+          "label": "Key Feature",
+          "value": "Purpose-built Galapagos Expedition"
+        },
+        {
+          "label": "Class Vibe",
+          "value": "Active Ecological Luxury"
+        }
+      ],
+      "bestFor": "Wildlife enthusiasts & bucket-list expedition travelers",
+      "relatedGuide": "Celebrity Galapagos Cruises."
+    }
+  ],
+  "allIncludedTable": {
+    "title": "What Does All Included Cover?",
+    "subtitle": "Feature comparison between Cruise-Only base fares and eligible All Included packages",
+    "headers": [
+      "Feature",
+      "Cruise-Only",
+      "All Included"
+    ],
+    "rows": [
+      [
+        "Stateroom",
+        "Included",
+        "Included"
+      ],
+      [
+        "Ocean transportation",
+        "Included",
+        "Included"
+      ],
+      [
+        "Most standard dining",
+        "Included",
+        "Included"
+      ],
+      [
+        "Most entertainment",
+        "Included",
+        "Included"
+      ],
+      [
+        "Classic Drinks Package",
+        "Not included",
+        "Included on eligible bookings"
+      ],
+      [
+        "Basic Wi-Fi",
+        "Not included",
+        "Included on eligible bookings"
+      ],
+      [
+        "Beverage package gratuities",
+        "Not applicable unless package purchased",
+        "Included with the package"
+      ],
+      [
+        "Onboard staff gratuities",
+        "Additional",
+        "Additional under current U.S. terms"
+      ],
+      [
+        "Shore excursions",
+        "Additional",
+        "Additional"
+      ],
+      [
+        "Specialty dining",
+        "Additional",
+        "Additional"
+      ],
+      [
+        "Spa treatments",
+        "Additional",
+        "Additional"
+      ]
+    ],
+    "details": [
+      "The beverage package gratuities are included with the drink package.",
+      "Onboard staff gratuities are charged separately under the current U.S. All Included FAQ.",
+      "The Retreat has different inclusions: Retreat guests receive Premium Drinks and Premium Wi-Fi as part of the applicable enhanced experience.",
+      "The precise terms depend on the booking, stateroom category, market and sailing.",
+      "All Included is not the same as an unlimited, everything-included vacation. Check the actual offer and booking confirmation for your sailing."
+    ],
+    "isItWorthIt": {
+      "title": "Is All Included Worth the Extra Cost?",
+      "intro": "It depends on how you plan to spend your vacation.",
+      "worthConsidering": [
+        "You regularly order drinks from the included beverage selection.",
+        "You want Basic Wi-Fi.",
+        "You prefer paying for selected amenities before sailing.",
+        "The package price compares favorably with purchasing the amenities separately."
+      ],
+      "lessAttractive": [
+        "You rarely purchase drinks.",
+        "You do not need Wi-Fi.",
+        "You prefer to manage expenses individually.",
+        "The package price is higher than the value you expect to use."
+      ],
+      "advice": "Compare the difference between the Cruise-Only and All Included fares with the actual pre-cruise prices of the packages you want.",
+      "relatedGuide": "Celebrity All Included Package: What's Included and Is It Worth It?"
+    }
+  },
+  "stateroomShowcase": {
+    "title": "How Much Does Each Celebrity Stateroom Category Cost?",
+    "subtitle": "The stateroom you choose can substantially affect the total cruise fare.",
+    "features": [
+      {
+        "title": "Inside Stateroom",
+        "subtitle": "Value & Itinerary Focused",
+        "description": "Inside Staterooms are generally among Celebrity's lower-priced accommodation options. They are suitable for travelers who want to prioritize the itinerary, spend relatively little time in their cabin, prefer to keep accommodation costs lower, and do not need a window or private veranda."
+      },
+      {
+        "title": "Ocean View Stateroom",
+        "subtitle": "Natural Light & Scenery",
+        "description": "Ocean View Staterooms provide a window with an outside view. They may appeal to travelers who want natural light and an ocean view without paying for a private veranda."
+      },
+      {
+        "title": "Veranda Stateroom",
+        "subtitle": "Private Outdoor Balcony",
+        "description": "Veranda Staterooms offer private outdoor space. They can be attractive for couples, longer voyages, scenic destinations, and travelers who enjoy private outdoor relaxation."
+      },
+      {
+        "title": "Concierge Class",
+        "subtitle": "Dedicated Service Touch",
+        "description": "Concierge Class provides an enhanced accommodation experience with additional services and amenities. Compare the actual benefits on your selected ship and sailing before deciding whether the fare difference is worthwhile."
+      },
+      {
+        "title": "AquaClass",
+        "subtitle": "Wellness & Exclusive Dining",
+        "description": "AquaClass is designed around a wellness-focused experience and includes specific amenities and dining access associated with the category, including unlimited access to the SEA Thermal Suite and dedicated dining at Blu restaurant. The value depends on whether you will use the additional features."
+      },
+      {
+        "title": "The Retreat",
+        "subtitle": "VIP Luxury Suite Enclave",
+        "description": "The Retreat is Celebrity's premium suite experience. Depending on the ship and suite category, guests may receive enhanced accommodations, dedicated service, exclusive spaces, and additional amenities including Premium Drinks and Premium Wi-Fi. Retreat suite pricing varies considerably by ship, suite type and itinerary. Important: Do not compare a standard Veranda fare directly with a Retreat suite fare as if the two offer the same experience. Compare the accommodation, services and inclusions as well as the price."
+      }
+    ]
+  },
+  "diningAndDrinks": {
+    "title": "Celebrity Specialty Dining & Beverage Costs",
+    "subtitle": "Understand individual venue charges, drink packages, and culinary budgeting.",
+    "items": [
+      {
+        "title": "Le Voyage by Daniel Boulud",
+        "description": "Celebrity's flagship fine dining specialty restaurant on Edge Series ships, featuring globally inspired cuisine by Michelin-starred chef Daniel Boulud with an intimate, upscale atmosphere."
+      },
+      {
+        "title": "Fine Cut Steakhouse & Murano",
+        "description": "Specialty dining venues offering prime dry-aged steaks, chops, and contemporary French fine dining with tableside service. Specialty dining is generally an additional expense unless an applicable package or benefit applies."
+      },
+      {
+        "title": "Classic & Premium Drink Packages",
+        "description": "Potential beverage expenses include cocktails, wine by the glass, beer, spirits, specialty coffee, fresh juices, bottled water and soft drinks. Consider how many drinks you consume and whether premium brands are desired before purchasing."
+      },
+      {
+        "title": "Le Petit Chef & Rooftop Garden Grill",
+        "description": "Interactive animated 3D dining experiences and casual open-air grill venues. Before booking a dining package, consider how often you want to eat at specialty restaurants; restaurant lineups vary by ship."
+      }
+    ],
+    "relatedGuides": [
+      "Celebrity Cruises Drink Packages and Costs.",
+      "Celebrity Cruises Dining Guide."
+    ]
+  },
+  "destinationShowcase": {
+    "title": "How Much Does a Celebrity Cruise Cost by Destination?",
+    "subtitle": "Compare vacation budgets across Celebrity's primary worldwide cruising regions.",
+    "items": [
+      {
+        "title": "Caribbean Cruises",
+        "description": "Caribbean cruise prices vary by departure port, number of nights, ship, itinerary, sailing season, stateroom category and fare package. Shorter itineraries may appeal to travelers who want a quick vacation, while longer voyages can visit more islands. Include flights to the departure port, hotel costs if arriving early, transfers and shore excursions.",
+        "features": [
+          "Departure ports in Florida, Puerto Rico & Caribbean",
+          "Short 3-5 night weekend escapes to 7-10 night sailings",
+          "Includes Perfect Day at CocoCay & private beach clubs"
+        ]
+      },
+      {
+        "title": "Alaska Cruises",
+        "description": "Alaska cruises can involve more than the ship fare. Consider cruise accommodation, taxes and fees, gratuities, flights, hotels, transfers, shore excursions and pre- or post-cruise land travel. A cruise that includes a longer land extension will have a different total vacation cost from a simple round-trip sailing. Compare the itinerary and complete travel arrangements.",
+        "features": [
+          "Inside Passage & Gulf of Alaska glacier routes",
+          "Cruisetours with Denali National Park land lodges",
+          "Bucket-list excursions: dog sledding, whale watching & helicopters"
+        ]
+      },
+      {
+        "title": "Mediterranean Cruises",
+        "description": "Mediterranean cruises differ considerably depending on departure port, season and itinerary. Your overall budget may include cruise fare, flights to Europe, pre-cruise hotel, transfers, shore excursions, additional hotel nights and post-cruise travel. Visiting popular ports like Rome, Barcelona or Athens requires excursion and transportation planning.",
+        "features": [
+          "Greek Isles, French Riviera, Italy & Spain",
+          "High summer peak fares vs. shoulder spring/autumn value",
+          "Extended pre- and post-cruise hotel stays"
+        ]
+      },
+      {
+        "title": "Galapagos Expeditions",
+        "description": "Celebrity's Galapagos itineraries are a distinct product from its mainstream ocean cruises. They involve different ships, experiences, inclusions and booking considerations. Do not compare a Galapagos fare directly with a Caribbean or Mediterranean cruise without reviewing inclusions. Standard All Included packages exclude Galapagos voyages.",
+        "features": [
+          "Purpose-built expedition mega-yacht Celebrity Flora",
+          "Certified naturalist guides, Zodiac excursions & gear included",
+          "Includes regional flights, transfers, park fees & all meals"
+        ]
+      }
+    ]
+  },
+  "additionalCostsTable": {
+    "title": "What Additional Costs Should You Budget for on a Celebrity Cruise?",
+    "subtitle": "The advertised cruise fare is not necessarily the complete vacation cost. Use this checklist when planning your budget.",
+    "headers": [
+      "Expense",
+      "Potential Additional Cost"
+    ],
+    "rows": [
+      [
+        "Taxes, fees and port expenses",
+        "Depends on sailing and booking quote"
+      ],
+      [
+        "Onboard gratuities",
+        "Depends on accommodation and booking terms"
+      ],
+      [
+        "Drinks",
+        "Depends on package and consumption"
+      ],
+      [
+        "Wi-Fi",
+        "Depends on package and fare"
+      ],
+      [
+        "Specialty dining",
+        "Depends on restaurant and package"
+      ],
+      [
+        "Shore excursions",
+        "Depends on destination and activity"
+      ],
+      [
+        "Spa and salon",
+        "Depends on treatment"
+      ],
+      [
+        "Flights",
+        "Depends on origin and travel dates"
+      ],
+      [
+        "Hotels",
+        "Depends on location and length of stay"
+      ],
+      [
+        "Transfers",
+        "Depends on airport, port and arrangements"
+      ],
+      [
+        "Travel insurance",
+        "Depends on traveler and coverage"
+      ],
+      [
+        "Shopping and personal expenses",
+        "Depends on individual spending"
+      ]
+    ]
+  },
+  "estimationFormulaSteps": {
+    "title": "What Is the Best Way to Estimate Your Total Cost?",
+    "subtitle": "Use this comprehensive calculation framework for a realistic vacation budget comparison.",
+    "steps": [
+      {
+        "title": "Cruise Fare",
+        "description": "Base stateroom fare per person or double occupancy depending on Inside, Ocean View, Veranda or The Retreat."
+      },
+      {
+        "title": "Taxes, Fees & Port Expenses",
+        "description": "Government taxes, port administration and maritime fees added to your reservation quote."
+      },
+      {
+        "title": "Onboard Daily Gratuities",
+        "description": "Daily service charges per guest based on stateroom category, separate from beverage gratuities."
+      },
+      {
+        "title": "Drinks & Wi-Fi Packages",
+        "description": "Beverages and internet connectivity if not already bundled within an eligible All Included or Retreat fare."
+      },
+      {
+        "title": "Shore Excursions",
+        "description": "Guided cultural tours, wildlife expeditions, private vehicles, or independent port exploration activities."
+      },
+      {
+        "title": "Specialty Dining",
+        "description": "Fine Cut Steakhouse, Le Voyage, Murano and specialty culinary tasting menus."
+      },
+      {
+        "title": "Flights, Hotels & Transfers",
+        "description": "Airfare to departure ports, pre-cruise and post-cruise hotel nights, and airport/port transfers."
+      },
+      {
+        "title": "Insurance & Personal Expenses",
+        "description": "Comprehensive travel insurance, spa treatments, casino, onboard shopping and personal spending."
+      }
+    ]
+  },
+  "brandComparisonTable": {
+    "title": "Celebrity Cruise Cost vs. Other Cruise Lines",
+    "subtitle": "When comparing Celebrity with other cruise brands, make sure you compare similar products.",
+    "headers": [
+      "Comparison",
+      "What to Evaluate"
+    ],
+    "rows": [
+      [
+        "Celebrity vs. Royal Caribbean",
+        "Ship experience, accommodation, activities and inclusions"
+      ],
+      [
+        "Celebrity vs. Princess",
+        "Itinerary, onboard experience and fare inclusions"
+      ],
+      [
+        "Celebrity vs. Holland America",
+        "Ship atmosphere, dining, destinations and pricing"
+      ],
+      [
+        "Celebrity vs. Norwegian",
+        "Fare structure, packages and onboard options"
+      ],
+      [
+        "Celebrity vs. Seabourn",
+        "Premium mainstream cruising vs. ultra-luxury cruising"
+      ],
+      [
+        "Celebrity vs. Explora Journeys",
+        "Ship experience, suite product, service and inclusions"
+      ]
+    ],
+    "note": "Do not compare the advertised price alone. Compare the total cost for a similar itinerary, accommodation level and travel experience. Celebrity is positioned as a premium cruise brand; the best value is the sailing that delivers the experience you want within your overall budget.",
+    "relatedGuide": "Seabourn vs. Celebrity Retreat: Is Ultra-Luxury Worth the Upgrade?"
+  },
+  "dealsAndTimingSteps": {
+    "title": "Finding Deals & Optimizing Booking Timing",
+    "subtitle": "Smart booking strategies to maximize value on your Celebrity cruise.",
+    "steps": [
+      {
+        "title": "Compare Promotion Inclusions",
+        "description": "Celebrity periodically offers seasonal promotions, last-minute deals, senior rates, loyalty benefits and onboard booking offers. Compare fare, taxes, deposit conditions, cancellation terms and package inclusions."
+      },
+      {
+        "title": "Booking Early Advantages",
+        "description": "Booking early provides more stateroom choices, greater choice of cabin locations, more time to coordinate flights and hotels, and access to available early-bird promotions."
+      },
+      {
+        "title": "Booking Last Minute Considerations",
+        "description": "Last-minute offers provide reduced fares on remaining inventory for flexible travelers, but carry limited cabin availability, fewer departure dates, and potentially higher airfare."
+      },
+      {
+        "title": "Leverage a Travel Advisor",
+        "description": "A luxury cruise advisor compares ships, reviews cabin categories, evaluates Cruise-Only vs. All Included, coordinates flights and hotels, and ensures no hidden costs are overlooked."
+      }
+    ]
+  },
+  "angelaHughes": {
+    "name": "Angela Hughes",
+    "title": "CEO, Trips & Ships Luxury Travel | Founder, Luxury Travel University",
+    "badge": "LUXURY CRUISE EXPERTISE",
+    "experienceBadge": "40+ YEARS INDUSTRY LEADERSHIP",
+    "authorityBoxTitle": "Why Plan Your Celebrity Cruise with Trips & Ships Luxury Travel?",
+    "authoritySubtitle": "Established in 1995 with more than 140 travel advisors worldwide.",
+    "paragraphs": [
+      "Trips & Ships Luxury Travel specializes in luxury travel planning, including premium cruises, small-ship voyages, expedition travel and custom vacations.",
+      "Established in 1995, the agency has more than 140 travel advisors. CEO Angela Hughes has more than four decades of travel-industry experience and is the founder of Luxury Travel University.",
+      "When planning a Celebrity cruise, the Trips & Ships team can help you evaluate: Ship and itinerary choices, Stateroom categories, Cruise pricing, All Included package options, Flights and hotels, Shore excursions, Special occasions, Family and multigenerational travel, and Pre- and post-cruise arrangements.",
+      "The focus is on understanding your priorities and building a complete vacation around the right cruise. The goal is not simply to find the lowest advertised price. It is to understand what you are paying for and avoid overlooking important expenses."
+    ],
+    "credentials": [
+      "Over 4 Decades of Luxury Travel Planning Leadership",
+      "CEO & Founder of Trips & Ships Luxury Travel (Est. 1995)",
+      "Founder of Luxury Travel University & Industry Mentor",
+      "Network of 140+ Professional Luxury Cruise Advisors",
+      "Expertise in Premium Ocean, River & Expedition Voyaging",
+      "Direct Relationships with Cruise Line Executives Worldwide"
+    ],
+    "quote": "The best Celebrity cruise is not necessarily the lowest base fare. When you evaluate the complete vacation cost—accounting for drinks, Wi-Fi, port fees, and daily gratuities—the total value becomes crystal clear.",
+    "quoteSubtitle": "On navigating cruise pricing, packages, and vacation value.",
+    "ctaText": "Speak with Angela Hughes",
+    "ctaLink": "/contact#celebrity-cruise-inquiry"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About Celebrity Cruise Costs",
+    "subtitle": "30 detailed answers addressing pricing, packages, cabins, gratuities and travel planning.",
+    "items": [
+      {
+        "question": "1. How much does a Celebrity cruise cost?",
+        "answer": "The cost depends on the ship, destination, sailing date, cruise length, stateroom category, number of guests and fare package. The final vacation budget should also account for taxes, fees, gratuities, excursions, flights and other expenses."
+      },
+      {
+        "question": "2. How much does a Celebrity cruise cost per person?",
+        "answer": "Celebrity commonly displays cruise fares per person based on two guests sharing a stateroom. The actual price varies by sailing, cabin category, occupancy and applicable taxes and fees."
+      },
+      {
+        "question": "3. How much does a Celebrity cruise cost for two people?",
+        "answer": "The cost for two includes the applicable stateroom fare and any additional taxes, fees and selected extras. Drinks, Wi-Fi, gratuities, excursions, flights and hotels may increase the total."
+      },
+      {
+        "question": "4. Is Celebrity Cruises expensive?",
+        "answer": "Celebrity is a premium cruise brand. Whether it is expensive depends on the ship, accommodation, itinerary, included amenities and the total vacation budget."
+      },
+      {
+        "question": "5. What is included in a Celebrity cruise fare?",
+        "answer": "Generally, the fare includes stateroom accommodation, ocean transportation, most onboard meals, some nonalcoholic beverages and most onboard entertainment. Other amenities and services may cost extra."
+      },
+      {
+        "question": "6. What is the difference between Cruise-Only and All Included?",
+        "answer": "Cruise-Only is generally the lower base fare and does not include the Classic Drinks Package or Basic Wi-Fi. Eligible All Included bookings bundle those amenities. Check the exact terms for your sailing."
+      },
+      {
+        "question": "7. Does Celebrity All Included cover gratuities?",
+        "answer": "The current U.S. All Included FAQ states that beverage-package gratuities are included, but onboard staff gratuities are charged separately. Always confirm the terms attached to your specific booking."
+      },
+      {
+        "question": "8. Does Celebrity All Included include Wi-Fi?",
+        "answer": "Eligible All Included bookings generally include Basic Wi-Fi. Retreat guests receive Premium Wi-Fi under the applicable Retreat inclusions."
+      },
+      {
+        "question": "9. Are drinks included on Celebrity Cruises?",
+        "answer": "Some nonalcoholic beverages are included in the general cruise fare. Alcoholic beverages and other drinks may cost extra unless covered by a beverage package or eligible fare inclusion."
+      },
+      {
+        "question": "10. Are meals included on Celebrity Cruises?",
+        "answer": "Most standard onboard meals are included. Specialty restaurants and certain dining experiences generally involve additional charges unless covered by an applicable package or benefit."
+      },
+      {
+        "question": "11. Are shore excursions included in Celebrity cruise prices?",
+        "answer": "Shore excursions are generally additional expenses. Their cost depends on the destination, length, activity and whether you choose a private or group experience."
+      },
+      {
+        "question": "12. How much are Celebrity cruise gratuities?",
+        "answer": "Gratuities depend on the stateroom category and applicable booking terms. Check Celebrity's current gratuity schedule and your reservation invoice for the amount that applies."
+      },
+      {
+        "question": "13. How much does a Celebrity balcony cabin cost?",
+        "answer": "A Veranda Stateroom's price varies by ship, itinerary, sailing date, availability and occupancy. Compare the same sailing and fare conditions when evaluating cabin prices."
+      },
+      {
+        "question": "14. How much do Celebrity suites cost?",
+        "answer": "Suite prices vary substantially by ship, suite category, sailing date and itinerary. The Retreat includes a different accommodation and amenity experience from standard stateroom categories."
+      },
+      {
+        "question": "15. Is Celebrity All Included worth it?",
+        "answer": "It may be worthwhile if you expect to use the Classic Drinks Package and Basic Wi-Fi. Compare the fare difference with the cost of purchasing those amenities separately."
+      }
+    ]
+  },
+  "verdict": {
+    "sections": [
+      {
+        "heading": "Final Takeaway: How Much Should You Budget for a Celebrity Cruise?",
+        "paragraphs": [
+          "Celebrity cruise prices depend on the ship, destination, sailing date, cruise length, stateroom and fare package.",
+          "The most important distinction is between the advertised cruise fare and the complete cost of your vacation.",
+          "Before booking, compare: Cruise fare, Taxes and port expenses, Cabin category, Cruise-Only vs. All Included, Onboard gratuities, Drinks and Wi-Fi, Shore excursions, Specialty dining, Flights and hotels, Transfers and insurance.",
+          "The best Celebrity cruise is not necessarily the cheapest one. It is the sailing that gives you the experience you want at a total cost that makes sense for your budget.",
+          "For personalized guidance, Trips & Ships Luxury Travel can help you compare Celebrity ships, itineraries, accommodation and available fare options."
+        ]
+      }
+    ]
+  },
+  "pricingBasicsCards": {
+    "title": "How Much Does a Celebrity Cruise Cost Per Person?",
+    "subtitle": "Celebrity generally advertises cruise prices on a per-person basis, commonly using two guests sharing a stateroom as the pricing basis. The final amount depends on the selected sailing, stateroom, occupancy and applicable taxes and fees.",
+    "cards": [
+      {
+        "icon": "Scale",
+        "title": "When Comparing Two Prices",
+        "description": "A price that initially looks lower may not represent the better overall value if important amenities are excluded. Check whether they represent:",
+        "bullets": [
+          "The price per person or the total stateroom price",
+          "Double occupancy or single occupancy",
+          "Cruise-Only or All Included",
+          "A fare before or after taxes and fees",
+          "A refundable or nonrefundable deposit option, where offered",
+          "A promotional fare with specific restrictions"
+        ]
+      },
+      {
+        "icon": "Compass",
+        "title": "How to Compare Celebrity Cruise Prices",
+        "description": "For a meaningful comparison, use the same parameters across quotes, then compare the final amount and included amenities:",
+        "bullets": [
+          "Destination",
+          "Departure date",
+          "Number of nights",
+          "Ship, where possible",
+          "Stateroom category",
+          "Number of guests",
+          "Fare type"
+        ]
+      },
+      {
+        "icon": "Users",
+        "title": "How Much Does a Celebrity Cruise Cost for Two?",
+        "description": "The cost for two travelers depends on the stateroom and sailing. The cruise fare is not necessarily twice the price shown in an individual per-person advertisement. Always review the complete stateroom quote rather than multiplying an advertised per-person figure without checking its pricing basis. For a couple, the total vacation budget can include:",
+        "bullets": [
+          "Two guests' cruise fare",
+          "Taxes, fees and port expenses",
+          "Daily onboard gratuities",
+          "Drinks and Wi-Fi if not included",
+          "Shore excursions",
+          "Specialty dining",
+          "Flights",
+          "Hotels",
+          "Airport and port transfers",
+          "Travel insurance"
+        ]
+      }
+    ]
+  },
+  "allIncludedValueBreakdown": {
+    "title": "Is All Included Worth the Extra Cost?",
+    "subtitle": "It depends on how you plan to spend your vacation.",
+    "includedTitle": "It may be worth considering if:",
+    "extrasTitle": "It may be less attractive if:",
+    "included": [
+      {
+        "title": "Drinks & Wi-Fi Packages",
+        "description": "You expect to purchase both a drink package and Wi-Fi"
+      },
+      {
+        "title": "Predictable Onboard Account",
+        "description": "You prefer a more predictable onboard account"
+      },
+      {
+        "title": "Key Amenities Bundled",
+        "description": "You value having key amenities bundled together from the start"
+      },
+      {
+        "title": "Attractive Package Pricing",
+        "description": "The package difference is attractive compared with pre-cruise package pricing"
+      }
+    ],
+    "extras": [
+      {
+        "title": "Minimal Alcohol Consumption",
+        "description": "You drink little alcohol and do not need daily beverage packages"
+      },
+      {
+        "title": "Occasional Internet Needs",
+        "description": "You need only basic or occasional internet access"
+      },
+      {
+        "title": "Pay-As-You-Go Drinks",
+        "description": "You prefer to pay for drinks individually"
+      },
+      {
+        "title": "Alternative Budget Priorities",
+        "description": "You would rather direct that budget toward shore excursions or specialty dining"
+      }
+    ],
+    "importantDetailsHeading": "Important details to check:",
+    "importantDetails": [
+      "The beverage package gratuities are included with the drink package",
+      "Onboard staff gratuities are charged separately under current U.S. All Included FAQ",
+      "Retreat guests receive Premium Drinks and Premium Wi-Fi",
+      "All Included is not the same as an unlimited, everything-included vacation"
+    ],
+    "advice": "Compare the difference between the Cruise-Only and All Included fares with the actual pre-cruise prices of the packages you want.",
+    "relatedGuide": "Celebrity All Included Package: What's Included and Is It Worth It?"
+  }
+}

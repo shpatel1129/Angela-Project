@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "title": "What's Included on an Oceania Cruise? Costs & Extras",
+    "description": "Discover what's included on an Oceania cruise and what costs extra. Compare dining, drinks, Wi-Fi, gratuities, laundry, excursions, spa services and more.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/whats-included",
+    "primaryKeyword": "What is included on an Oceania cruise",
+    "secondaryKeywords": [
+      "Oceania Cruises what's included",
+      "Oceania cruise inclusions",
+      "Oceania Cruises extra costs",
+      "Oceania cruise drink packages",
+      "Oceania Cruises shore excursions",
+      "Oceania Cruises gratuities included",
+      "Oceania Cruises specialty dining",
+      "Oceania Cruises Wi-Fi",
+      "Oceania Cruises laundry services",
+      "Oceania Cruises all-inclusive",
+      "Oceania Your World Included"
+    ],
+    "pageUrl": "/oceania-cruises/whats-included",
+    "author": "Angela Hughes, CEO of Trips & Ships Luxury Travel",
+    "publishDate": "2026-11-05",
+    "updated": "2026-11-05"
+  },
+  "hero": {
+    "badge": "2026–2027 Inclusions & Extras Guide",
+    "title": "What Is Included on an Oceania Cruise and What Costs Extra?",
+    "subtitle": "Your World Included Inclusions, Choice Amenities, Category Privileges & Out-of-Pocket Expenses",
+    "description": "Oceania Cruises includes more in its standard cruise fare than many travelers initially expect. Through its Your World Included program, guests receive specialty dining, shipboard gratuities, complimentary Wi-Fi, selected nonalcoholic beverages, and laundry-related benefits. In addition, guests can choose between complimentary wine and beer by the glass during restaurant lunch and dinner hours or a shore excursion credit.",
+    "primaryCtaText": "Plan with an Advisor",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "View Inclusions Table",
+    "secondaryCtaLink": "#inclusions-table"
+  },
+  "intro": {
+    "eyebrow": "VALUE & TRANSPARENCY",
+    "heading": "Understanding Oceania's Inclusion Formula",
+    "paragraphs": [
+      "Oceania Cruises includes more in its standard cruise fare than many travelers initially expect. Through its Your World Included program, guests receive specialty dining, shipboard gratuities, complimentary Wi-Fi, selected nonalcoholic beverages, and laundry-related benefits. In addition, guests can choose between complimentary wine and beer by the glass during restaurant lunch and dinner hours or a shore excursion credit.",
+      "However, Oceania is not an entirely all-inclusive cruise line where every drink, excursion, spa treatment, and personal purchase is covered. Some experiences still cost extra, including premium alcoholic beverages, spa treatments, certain culinary experiences, excursions beyond the available credit, and optional travel arrangements such as flights and hotels.",
+      "Understanding the difference between standard inclusions and optional expenses can help you calculate the real cost of your cruise before booking."
+    ]
+  },
+  "inclusionsTable": {
+    "title": "Oceania Cruises: What's Included vs. What Costs Extra?",
+    "headers": ["Cruise Feature", "Included or Extra?"],
+    "rows": [
+      ["Main dining room meals", "Included in standard cruise fare"],
+      ["Specialty restaurant dining (Polo Grill, Toscana, Red Ginger, etc.)", "Included without cover fees"],
+      ["In-suite and in-stateroom dining", "Included without room service delivery fee"],
+      ["Shipboard gratuities for covered crew", "Included under Your World Included®"],
+      ["Standard Wi-Fi (2 devices per stateroom)", "Included complimentary shipwide"],
+      ["Wi-Fi streaming upgrade", "Extra (Daily or voyage package)"],
+      ["Specialty coffees, espressos, and teas", "Included at Baristas and all restaurants"],
+      ["Sodas and selected nonalcoholic drinks", "Included throughout the ship"],
+      ["Cold-pressed juices and smoothies", "Included at breakfast and Aquamar Kitchen"],
+      ["Still and sparkling Vero Water", "Included unlimited throughout the ship"],
+      ["Wine & beer by the glass (restaurant lunch & dinner)", "Included if selected as Choice Amenity"],
+      ["Unlimited premium cocktails and spirits", "Extra (Upgraded beverage packages available)"],
+      ["Shore excursion credit ($400 to $1,200 per stateroom)", "Included if selected as Choice Amenity"],
+      ["Excursions beyond available credit", "Extra (Billed to onboard account)"],
+      ["Self-service launderettes", "Included for all stateroom guests"],
+      ["Full-service laundry and pressing", "Category-dependent (Concierge & Suite privileges)"],
+      ["Selected group fitness classes & gym access", "Included at Aquamar Vitality Center"],
+      ["Spa treatments and salon services", "Extra (Massages, facials, beauty appointments)"],
+      ["Casino gaming and boutique retail shopping", "Extra"],
+      ["Airfare and airport transfers", "Usually extra (Unless promotional air is booked)"],
+      ["Pre- and post-cruise luxury hotel stays", "Usually extra (Separate land arrangements)"],
+      ["Comprehensive travel insurance", "Extra (Recommended for all international voyages)"]
+    ]
+  },
+  "yourWorldIncluded": {
+    "title": "What Is Oceania's Your World Included Program?",
+    "subtitle": "Always Included, Always Free Amenities Combined with a Choice of Additional Amenity",
+    "included": [
+      {
+        "title": "Specialty Restaurant Dining",
+        "description": "Complimentary reservations at Polo Grill, Toscana, Red Ginger, Jacques & Ember with zero restaurant cover fees"
+      },
+      {
+        "title": "Shipboard Gratuities",
+        "description": "Prepaid standard tips for stateroom attendants, butlers, and dining waitstaff included in the published cruise fare"
+      },
+      {
+        "title": "Complimentary Starlink Wi-Fi",
+        "description": "Complimentary Wi-Fi logins for the first two devices per stateroom (solo travelers receive access to two devices)"
+      },
+      {
+        "title": "Specialty Coffees, Teas & Vero Water",
+        "description": "Baristas specialty espressos, artisanal teas, soft drinks, still and sparkling Vero Water, juices, and gourmet gelato"
+      },
+      {
+        "title": "In-Suite & In-Stateroom Dining",
+        "description": "Hot and cold in-room dining selections delivered to your private accommodation without delivery service fees"
+      },
+      {
+        "title": "Fitness Classes & Launderettes",
+        "description": "Complimentary gym access, selected group fitness classes at Aquamar Vitality Center, and self-service launderettes"
+      }
+    ],
+    "extras": [
+      {
+        "title": "Complimentary Wine & Beer",
+        "description": "A curated selection of wine by the glass and beer included during restaurant lunch and dinner hours throughout the sailing"
+      },
+      {
+        "title": "Shore Excursion Credit",
+        "description": "A generous shore excursion credit of $400 to $1,200 per stateroom based on voyage length to apply toward eligible tours"
+      },
+      {
+        "title": "Choice Amenity Policy",
+        "description": "The choice between wine/beer and excursion credit must be made by final payment. Guests sharing a stateroom select the same option"
+      },
+      {
+        "title": "Third & Fourth Guests Exclusions",
+        "description": "Choice amenities generally apply to the first two guests in the stateroom and do not automatically extend to 3rd/4th occupants"
+      }
+    ]
+  },
+  "dining": {
+    "title": "Is Dining Included on Oceania Cruises?",
+    "subtitle": "The Finest Cuisine at Sea®: No Restaurant Cover Fees, Diverse Venues & 24-Hour Room Service",
+    "venues": [
+      {
+        "title": "The Grand Dining Room",
+        "category": "Continental Fine Dining",
+        "icon": "Utensils",
+        "description": "Oceania's signature venue offering breakfast, lunch, and multi-course dinners with Jacques Pépin signature dishes and rotating daily menus.",
+        "bullets": [
+          "Open seating with no reservations required",
+          "Jacques Pépin signature French continental creations",
+          "Extensive vegetarian and healthy Aquamar options",
+          "Included in standard cruise fare"
+        ]
+      },
+      {
+        "title": "Polo Grill Steakhouse",
+        "category": "Classic Steakhouse Cuisine",
+        "icon": "Award",
+        "description": "Classic American steakhouse featuring 28-day dry-aged USDA Prime beef, succulent Maine lobster, and classic tableside caesar salads.",
+        "bullets": [
+          "Included specialty restaurant with zero cover fees",
+          "Custom dry-aged prime beef cuts & chops",
+          "Classic dark wood and leather country-club decor",
+          "Advance reservations recommended"
+        ]
+      },
+      {
+        "title": "Toscana Regional Italian",
+        "category": "Regional Italian Cuisine",
+        "icon": "Sparkles",
+        "description": "Authentic regional Italian dining served on custom Versace china, highlighting recipes inspired by master Italian culinary chefs.",
+        "bullets": [
+          "Tableside olive oil & balsamic sommelier cart",
+          "Handcrafted pastas and slow-simmered sauces",
+          "Traditional Tuscan & Northern Italian dishes",
+          "Zero cover fees or surcharges"
+        ]
+      },
+      {
+        "title": "Red Ginger Pan-Asian",
+        "category": "Contemporary Asian Masterpieces",
+        "icon": "Compass",
+        "description": "Contemporary Asian culinary masterpieces including miso-glazed sea bass, spicy roast duck salad, and specialized artisanal tea selections.",
+        "bullets": [
+          "Feng shui dining room with glowing red chandeliers",
+          "Dedicated tea sommelier with artisan loose-leaf selections",
+          "Acclaimed signature miso-glazed sea bass",
+          "Included specialty dining reservation"
+        ]
+      }
+    ]
+  },
+  "drinks": {
+    "title": "Are Drinks Included on Oceania Cruises?",
+    "subtitle": "Understanding Non-Alcoholic Inclusions, Mealtime Wine & Beer, and Upgraded Beverage Packages",
+    "drinkPillars": [
+      {
+        "title": "Always Included Non-Alcoholic Drinks",
+        "category": "All Venues & Staterooms",
+        "icon": "Coffee",
+        "description": "Specialty coffees, espressos, cappuccinos, teas, Vero Water, sodas, cold-pressed juices, and smoothies are 100% complimentary all day in every venue.",
+        "bullets": [
+          "Baristas artisan espresso bar drinks included",
+          "Purified still and sparkling Vero Water unlimited",
+          "Sodas, tonic, club soda, and soft drinks complimentary",
+          "Cold-pressed fruit and vegetable smoothies"
+        ]
+      },
+      {
+        "title": "Mealtime Wine & Beer (Choice Amenity)",
+        "category": "Restaurant Lunch & Dinner",
+        "icon": "Wine",
+        "description": "If selected under Your World Included, enjoy wine by the glass and draft/bottled beer during restaurant lunch and dinner hours from the general menu.",
+        "bullets": [
+          "Served in open restaurant dining rooms",
+          "Selected red, white, rose, and sparkling wines",
+          "Draft and bottled beers included",
+          "Valid during published meal service times"
+        ]
+      },
+      {
+        "title": "Cocktails & Spirits (What Costs Extra)",
+        "category": "Optional Purchases",
+        "icon": "GlassWater",
+        "description": "Cocktails, hard liquor, premium wines by the bottle, and drinks outside meal times are billed a la carte or covered by an upgraded Prestige package.",
+        "bullets": [
+          "Martinis Lounge craft cocktails billed per drink",
+          "Prestige Beverage Package upgrades available",
+          "Top-shelf spirits and vintage champagnes cost extra",
+          "20% beverage service gratuity applied to purchases"
+        ]
+      }
+    ]
+  },
+  "wifi": {
+    "title": "Is Wi-Fi Included on Oceania Cruises?",
+    "subtitle": "Complimentary Starlink connectivity, device access, and streaming upgrade details",
+    "features": [
+      {
+        "title": "Fleetwide Starlink Connectivity",
+        "description": "Oceania includes complimentary Wi-Fi throughout the ship using Starlink connectivity across its fleet. Service is available in staterooms and suites, restaurants, lounges, public areas, and outdoor decks.",
+        "tags": ["Starlink Powered", "Fleetwide Access", "Public & Private Decks"],
+        "highlight": "Available throughout all public and private spaces"
+      },
+      {
+        "title": "Device Limits & Login Access",
+        "description": "The standard benefit provides complimentary Wi-Fi logins for the first two devices per stateroom or suite. Solo travelers receive one login with access to two devices. Each login can be used on one device at a time. Additional logins for third and fourth guests may be purchased onboard.",
+        "tags": ["2 Devices / Room", "Solo: 1 Login / 2 Devices", "1 Active at a Time"],
+        "highlight": "Extra guest logins available for purchase"
+      },
+      {
+        "title": "Streaming Policy & Upgrades",
+        "description": "Standard complimentary Wi-Fi does not include streaming. Guests wanting to watch movies, stream music, or access certain video/audio services may purchase a streaming upgrade. Oceania publishes separate streaming upgrade rates and terms onboard.",
+        "tags": ["No Streaming Included", "Upgrade Available", "Video & Music"],
+        "highlight": "Streaming packages available onboard"
+      },
+      {
+        "title": "Remote Work & Business Viability",
+        "description": "The included connection is suitable for email, web browsing, messaging, news, and general online communication. Because satellite performance can vary with location and weather, guests needing dependable video conferencing should consider upgrades or backup connection plans.",
+        "tags": ["Email & Messaging", "Browsing & News", "Video Calling Caution"],
+        "highlight": "Reliable for routine tasks; upgrades advised for video calls"
+      }
+    ]
+  },
+  "gratuities": {
+    "title": "Are Gratuities Included on Oceania Cruises?",
+    "subtitle": "Prepaid crew gratuities under Your World Included and transparent onboard tipping guidelines",
+    "paragraphs": [
+      "For bookings covered by the current Your World Included program, standard shipboard gratuities for covered service teams are included in the cruise fare. This provides significant value because guests do not need to calculate or budget a separate daily per-guest service fee.",
+      "The included shipboard gratuities cover stateroom attendants, suite attendants and butlers (where applicable), and dining waitstaff. However, a 20% service gratuity still applies to certain additional onboard purchases such as beverage packages and spa treatments.",
+      "Additional tipping remains an entirely personal decision. Standard covered gratuities are already paid in full within your fare, so extra cash tips are optional and reserved for exceptional personal service."
+    ],
+    "items": [
+      {
+        "title": "Standard Crew Gratuities Included",
+        "icon": "check",
+        "description": "Standard daily tips for service teams are 100% covered in the cruise fare under Your World Included, eliminating routine daily service charges.",
+        "features": [
+          "Stateroom attendants",
+          "Suite attendants & butlers (where applicable)",
+          "Dining waitstaff across all restaurants",
+          "No separate daily service charges billed onboard"
+        ]
+      },
+      {
+        "title": "20% Service Gratuity on Added Purchases",
+        "icon": "dollar",
+        "description": "Included gratuities do not automatically cover optional purchases. A 20% service gratuity applies to certain extra onboard transactions under published terms.",
+        "features": [
+          "20% service gratuity on applicable beverage purchases",
+          "20% service charge on spa and salon services",
+          "Specific specialized services and boutique tastings",
+          "Clearly itemized on your final shipboard folio"
+        ]
+      },
+      {
+        "title": "Personal Discretion on Extra Tipping",
+        "icon": "user",
+        "description": "Additional tipping is a personal choice. Standard gratuities are prepaid, so extra cash tips are completely optional for exceptional attention.",
+        "features": [
+          "Standard covered gratuities 100% prepaid in cruise fare",
+          "Extra cash tipping completely at guest discretion",
+          "Recognizes exceptional personal attention and care",
+          "Zero obligation to pay standard covered gratuity again"
+        ]
+      }
+    ]
+  },
+  "laundry": {
+    "title": "Is Laundry Included on Oceania Cruises?",
+    "subtitle": "Self-service launderettes, concierge suite privileges, and smart packing for extended voyages",
+    "items": [
+      {
+        "title": "Complimentary Self-Service Launderettes",
+        "icon": "Sparkles",
+        "description": "Oceania provides complimentary self-service launderettes to all guests across the fleet. These facilities include complimentary detergent, washers, dryers, and ironing boards, making it easy to refresh clothing at your convenience throughout the voyage.",
+        "bullets": [
+          "Complimentary washers, dryers & laundry detergent",
+          "Ironing boards & irons available in every launderette",
+          "Available to all stateroom and suite categories",
+          "Ideal for maintaining a fresh wardrobe mid-sailing"
+        ]
+      },
+      {
+        "title": "Full-Service Valet Laundry & Pressing",
+        "icon": "Star",
+        "description": "Full-service laundry and pressing benefits are available under certain accommodation-category privileges. Concierge Level and suite guests have access to specified complimentary laundry services with published category limits. Not every full-service laundry or pressing request is complimentary for every guest.",
+        "bullets": [
+          "Complimentary garment pressing on embarkation (Concierge & Suites)",
+          "Complimentary wash-and-fold bag service for top suites",
+          "Garment and bag limits apply based on accommodation tier",
+          "Standard valet laundry available for fee for other categories"
+        ]
+      },
+      {
+        "title": "Packing Value on Longer Cruises",
+        "icon": "Ship",
+        "description": "Laundry benefits are especially valuable on two-week itineraries, extended international voyages, Grand Voyages, World Cruises, and back-to-back sailings. Having reliable laundry facilities dramatically reduces the amount of luggage you need to pack.",
+        "bullets": [
+          "Critical advantage for 14-day+ extended international sailings",
+          "Essential convenience on Grand Voyages and World Cruises",
+          "Enables traveling with carry-on or lighter luggage",
+          "Avoids costly hotel laundry bills before or after sailing"
+        ]
+      }
+    ]
+  },
+  "fitnessAndSpa": {
+    "title": "Are Fitness Classes, Gym Access, and Spa Facilities Included?",
+    "subtitle": "Comparing complimentary Aquamar fitness center amenities with optional spa treatments and wellness services",
+    "description": "Oceania Cruises includes access to its onboard fitness facilities and selected group classes, while individual spa treatments and specialized salon appointments generally cost extra.",
+    "items": [
+      {
+        "name": "Are Fitness Classes and Gym Access Included?",
+        "description": "Oceania includes access to its onboard fitness facilities and selected group fitness classes. The Aquamar Spa + Vitality Center offers opportunities for guests to maintain their fitness routines while sailing.",
+        "bestFor": "Included Fitness Privileges: Complimentary for all guests across every stateroom and suite category",
+        "highlights": [
+          "Access to the onboard fitness center with modern cardio and resistance machines",
+          "Selected group fitness classes including morning stretch, yoga, and Pilates",
+          "Use of standard fitness equipment, treadmills, ellipticals, and weights",
+          "Outdoor walking and exercise spaces with panoramic ocean views"
+        ]
+      },
+      {
+        "name": "Are Spa Facilities and Treatments Included?",
+        "description": "Not all spa services are included in the standard cruise fare. Oceania's Aquamar Spa + Vitality Center offers a range of wellness experiences, but individual treatments and selected services generally cost extra.",
+        "bestFor": "Spa Services & What Costs Extra: Personal training, private sessions, and salon appointments carry additional charges",
+        "highlights": [
+          "Massages, facials, wraps, scrubs, and specialized restorative treatments",
+          "Full-service salon appointments for hair styling, manicures, and pedicures",
+          "Personal training, private fitness sessions, and specialty consultations",
+          "Category-dependent access to the Aquamar Spa Terrace (included for Concierge & Suites)",
+          "Spa Worth Assessment: Budget for treatments if valued; gym & classes remain $0 extra"
+        ]
+      }
+    ]
+  },
+  "excursions": {
+    "title": "Are Shore Excursions Included on Oceania Cruises?",
+    "subtitle": "Shore Excursion Credit Amounts Under Your World Included® (Per Stateroom)",
+    "headers": ["Voyage Duration", "Shore Excursion Credit (Per Stateroom)", "Recommended Usage"],
+    "rows": [
+      ["Up to 9 Days", "$400 per stateroom", "1–2 curated walking tours or scenic coastal highlights"],
+      ["10 to 13 Days", "$600 per stateroom", "Multiple guided historical tours, vineyard tastings, or boat trips"],
+      ["14 to 19 Days", "$800 per stateroom", "In-depth destination exploration across multiple ports of call"],
+      ["20 to 25 Days", "$1,000 per stateroom", "Extensive excursion program on multi-country European or Asian routes"],
+      ["26 Days or Longer", "$1,200 per stateroom", "Grand Voyages and extended world cruise segments"]
+    ]  },
+  "whatCostsExtra": {
+    "title": "What Costs Extra on an Oceania Cruise?",
+    "subtitle": "Ten Optional Expenses to Keep in Mind When Planning Your Cruise Budget",
+    "spendMore": [
+      {
+        "title": "Premium Cocktails & Hard Spirits",
+        "description": "Spirits, mixed cocktails in lounges, and fine wines outside restaurant lunch and dinner hours."
+      },
+      {
+        "title": "Aquamar Spa Treatments & Salon Services",
+        "description": "Massages, facials, acupuncture, wellness therapies, haircuts, and manicure services at the Aquamar Spa."
+      },
+      {
+        "title": "Specialized & Private Shore Excursions",
+        "description": "Private drivers and guides, flightseeing helicopters, and extended overland multi-day adventures beyond the included credit."
+      },
+      {
+        "title": "Wi-Fi Streaming Upgrades",
+        "description": "High-bandwidth streaming upgrades required for Netflix, YouTube, video conferencing, or large file transfers."
+      },
+      {
+        "title": "Flights & Airport Transfers",
+        "description": "International flights and airport-to-ship transfers unless booked under a specific promotional air package."
+      }
+    ],
+    "spendLess": [
+      {
+        "title": "Pre- and Post-Cruise Hotels",
+        "description": "Overland hotel stays before embarkation or after disembarkation to explore destination gateway cities."
+      },
+      {
+        "title": "Comprehensive Travel Insurance",
+        "description": "Crucial travel insurance coverage for medical emergencies, medical evacuation, trip cancellation, and travel delays."
+      },
+      {
+        "title": "Casino Gaming & Boutique Purchases",
+        "description": "Casino slot and table play, plus tax- and duty-free fine jewelry, luxury watches, fashion, and souvenirs."
+      },
+      {
+        "title": "Separately Operated Dining Experiences",
+        "description": "Exclusive private dining in Privée, Dom Pérignon vintage pairing dinners, and hands-on Culinary Center cooking classes."
+      },
+      {
+        "title": "Visas & Personal Travel Expenses",
+        "description": "Required international visas, tourist entry taxes, local taxis, and meals ashore during independent exploration."
+      }
+    ]
+  },
+  "categoryPrivileges": {
+    "title": "Does Your Accommodation Category Change What's Included?",
+    "subtitle": "How Standard Staterooms, Concierge Level, and Suites Expand Your Included Privileges",
+    "categories": [
+      {
+        "title": "Standard Staterooms (Inside, Oceanview, Veranda)",
+        "category": "Core Inclusions",
+        "icon": "Compass",
+        "description": "Full access to Your World Included: all specialty dining, shipboard gratuities, Starlink Wi-Fi, beverages, room service, self-service laundry, and choice of wine/beer or excursion credit.",
+        "bullets": [
+          "Zero dining cover charges across all restaurants",
+          "Shipboard crew gratuities prepaid",
+          "Two Wi-Fi logins included per stateroom",
+          "Self-service launderettes included"
+        ]
+      },
+      {
+        "title": "Concierge Level Veranda Staterooms",
+        "category": "Enhanced Amenities",
+        "icon": "Award",
+        "description": "Adds dedicated Concierge Lounge access, priority online specialty restaurant reservations, complimentary garment pressing, welcome bottle of Prosecco, and unlimited Aquamar Spa Terrace access.",
+        "bullets": [
+          "Unlimited access to Aquamar Spa Terrace",
+          "Complimentary garment pressing upon embarkation",
+          "Priority specialty restaurant reservations",
+          "Dedicated Concierge Lounge with coffee & snacks"
+        ]
+      },
+      {
+        "title": "Oceania Suites & Penthouse Suites",
+        "category": "Ultimate Privileges",
+        "icon": "Crown",
+        "description": "Includes 24-hour certified Butler service, course-by-course in-suite dining from any specialty restaurant, Executive Lounge access, unlimited garment pressing, and priority embarkation/luggage delivery.",
+        "bullets": [
+          "24-hour certified Butler service",
+          "Course-by-course in-suite dining from any restaurant",
+          "Priority embarkation & luggage delivery",
+          "Executive Lounge access & premium Bulgari amenities"
+        ]
+      }
+    ]
+  },
+  "allInclusiveTruth": {
+    "title": "Is Oceania Cruises Really All-Inclusive?",
+    "eyebrow": "REALITY CHECK",
+    "paragraphs": [
+      "Oceania is often described as an inclusive luxury cruise experience, but it is most accurately described as a luxury cruise line with a substantial set of included amenities and transparent optional extras.",
+      "The cruise fare covers the most significant day-to-day onboard costs: specialty dining with no cover charges, shipboard crew gratuities, Starlink Wi-Fi, nonalcoholic beverages, and laundry facilities. The Your World Included program gives guests the flexibility to choose either mealtime wine and beer or shore excursion credits.",
+      "However, travelers who expect 24/7 unlimited top-shelf open bar, complimentary spa treatments, or every single shore tour to be free will find that those items remain separate. For travelers who prioritize dining excellence and destination depth without paying for unused perks, Oceania represents an extraordinarily smart luxury value."
+    ]
+  },
+  "savingsTips": {
+    "title": "How to Avoid Unexpected Expenses on an Oceania Cruise",
+    "subtitle": "Six Essential Recommendations from Luxury Cruise Travel Advisors",
+    "steps": [
+      {
+        "title": "Review Your Booking Confirmation",
+        "description": "Verify your specific fare code and confirmation to confirm which Your World Included amenity (wine/beer or excursion credit) is attached to your stateroom."
+      },
+      {
+        "title": "Select the Right Choice Amenity",
+        "description": "If you enjoy wine with lunch and dinner, the beverage amenity provides substantial daily value. If you prefer guided tours, choose the shore excursion credit."
+      },
+      {
+        "title": "Evaluate Your Beverage Consumption",
+        "description": "If you regularly drink cocktails, martinis, or spirits outside dining hours, price out the upgraded Prestige Beverage Package in advance to save on a la carte pricing."
+      },
+      {
+        "title": "Book Excursions at Least 14 Days Ahead",
+        "description": "When applying your shore excursion credit, secure your tours early through Oceania's portal or your advisor, as popular boutique excursions have strict capacity limits."
+      },
+      {
+        "title": "Understand Wi-Fi Streaming Limits",
+        "description": "Standard Wi-Fi is ideal for browsing, messages, and email. If you need Netflix streaming or high-bandwidth video conferencing, budget for the streaming upgrade."
+      },
+      {
+        "title": "Plan for Pre-Cruise Travel & Insurance",
+        "description": "Protect your cruise investment by budgeting for a pre-cruise hotel night (avoiding flight delays) and comprehensive travel insurance covering emergency medical evacuation."
+      }
+    ]
+  },
+  "worthIt": {
+    "title": "Is Oceania's Included Program Good Value?",
+    "advantages": [
+      "Travelers who appreciate gourmet dining with zero specialty restaurant cover charges",
+      "Guests who want prepaid crew gratuities without daily auto-gratuity surprise charges",
+      "Couples who enjoy wine or beer with lunch and dinner",
+      "Travelers who utilize complimentary shipwide Starlink Wi-Fi on their devices",
+      "Guests who value self-service laundry facilities on longer 10- to 30-day sailings",
+      "Those seeking a refined, adults-only luxury experience with boutique ship service"
+    ],
+    "drawbacks": [
+      "Guests expecting 24/7 unlimited premium liquor and cocktails everywhere without an upgrade",
+      "Travelers expecting every single excursion in every port to be 100% complimentary",
+      "Vacationers seeking unlimited complimentary spa treatments or salon services",
+      "Travelers requiring unlimited high-speed video streaming without purchasing an upgrade",
+      "Families with children under 18 (Oceania is strictly adults-only for new reservations)"
+    ],
+    "bottomNote": "The Verdict: Oceania's Your World Included® program delivers exceptional luxury value by including the amenities that guests use and appreciate most—dining, gratuities, Wi-Fi, and laundry—without bundling costly add-ons you may not want."
+  },
+  "expert": {
+    "badge": "VERIFIED LUXURY CRUISE AUTHORITY",
+    "authorityBoxTitle": "ANGELA HUGHES CRUISE INCLUSIONS ADVICE",
+    "authoritySubtitle": "CEO & Trusted Luxury Cruise Travel Advisor",
+    "name": "Angela Hughes",
+    "title": "Luxury Cruise Specialist & CEO, Trips & Ships Luxury Travel",
+    "experienceBadge": "40+ YEARS CRUISE EXPERTISE",
+    "bio": "Understanding what is included on an Oceania cruise can help you choose the right itinerary, accommodation, and fare option. The Your World Included program offers valuable benefits, but the best booking decision depends on how you plan to travel. Whether you prefer specialty dining, wine with meals, destination excursions, or a relaxing onboard experience, comparing the details ensures you get the maximum value from your cruise vacation.",
+    "quote": "Oceania's Your World Included program hits the sweet spot in luxury travel: it eliminates routine nickel-and-diming for specialty dining, tips, and internet, while keeping the cruise fare far more accessible than ultra-all-inclusive lines.",
+    "quoteSubtitle": "On Maximizing Value on Oceania Cruises",
+    "credentials": [
+      "Over 40 Years Advising Luxury & World Cruise Travelers",
+      "Explored 121+ Countries Across Seven Continents",
+      "Personal Relationships with Luxury Cruise Line Executives",
+      "Specialist in Solo, Couples & Extended World Cruise Itineraries",
+      "CEO & Founder of Trips & Ships Luxury Travel",
+      "Recipient of Top Luxury Travel Industry Producer Awards"
+    ],
+    "ctaText": "Plan Your Oceania Cruise with Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About What's Included on Oceania Cruises",
+    "subtitle": "Essential answers on dining, drinks, internet, tipping, excursions, and extras.",
+    "questions": [
+      {
+        "question": "What is included in an Oceania cruise fare?",
+        "answer": "Oceania's Your World Included program covers specialty dining, shipboard gratuities for covered service teams, Wi-Fi, selected nonalcoholic beverages, in-suite and in-stateroom dining, selected group fitness classes, and laundry-related benefits. Guests can also choose between complimentary wine and beer by the glass during restaurant lunch and dinner hours or a shore excursion credit."
+      },
+      {
+        "question": "Are all meals included on Oceania Cruises?",
+        "answer": "Most regular onboard dining is included, including main dining venues, specialty restaurants, and in-room dining selections. Certain premium culinary experiences or separately priced events may cost extra."
+      },
+      {
+        "question": "Are drinks free on Oceania Cruises?",
+        "answer": "Selected nonalcoholic beverages, including sodas, specialty coffees and teas, Vero Water, juices, smoothies, and gourmet ice cream, are included. Guests can also choose selected wine and beer by the glass during restaurant lunch and dinner hours. Premium alcoholic beverages may cost extra."
+      },
+      {
+        "question": "Is alcohol included on Oceania Cruises?",
+        "answer": "Selected wine and beer are included if guests choose the beverage amenity. Cocktails, spirits, premium wines, and drinks outside the applicable selection or hours may require an additional purchase."
+      },
+      {
+        "question": "Are gratuities included on Oceania Cruises?",
+        "answer": "Yes. Current eligible Your World Included bookings cover standard gratuities for stateroom and suite attendants, butlers where applicable, and dining waitstaff. A 20% service gratuity may still apply to certain additional purchases, such as beverages and spa services."
+      },
+      {
+        "question": "Is Wi-Fi free on Oceania Cruises?",
+        "answer": "Yes. Standard Wi-Fi is included, with complimentary logins for the first two devices per stateroom or suite under the published terms. Streaming upgrades and additional logins may cost extra."
+      },
+      {
+        "question": "Is specialty dining included on Oceania Cruises?",
+        "answer": "Yes. Regular specialty restaurants are included in the cruise fare under Your World Included. Restaurant selection depends on the ship, and certain special culinary experiences may be separately priced."
+      },
+      {
+        "question": "Are shore excursions included on Oceania Cruises?",
+        "answer": "Guests can choose a shore excursion credit instead of the wine-and-beer amenity. The credit amount depends on voyage length and is subject to the promotional terms. Excursions costing more than the available credit require additional payment."
+      },
+      {
+        "question": "Is laundry free on Oceania Cruises?",
+        "answer": "Oceania provides complimentary self-service launderettes. Full-service laundry and pressing benefits depend on the accommodation category. Concierge Level and suite guests receive specified additional laundry privileges subject to limits."
+      },
+      {
+        "question": "Are spa treatments included on Oceania Cruises?",
+        "answer": "No. Massages, facials, salon appointments, and many other spa services generally cost extra. Selected group fitness classes are included, and certain accommodation categories receive additional spa-related privileges."
+      },
+      {
+        "question": "Are flights included in Oceania cruise fares?",
+        "answer": "Flights are not automatically included in every booking. Some voyages may have an applicable airfare program or promotional offer. Check the specific reservation for flight and transfer details."
+      },
+      {
+        "question": "Does Oceania include pre-cruise and post-cruise hotels?",
+        "answer": "Hotel stays are generally separate unless included in a specific package or promotion. Travelers should check their booking details before arranging accommodation."
+      },
+      {
+        "question": "What is the difference between wine and beer and shore excursion credit?",
+        "answer": "They are alternative Your World Included amenities. Guests can select wine and beer by the glass during restaurant lunch and dinner hours or choose a shore excursion credit based on voyage length. Selecting one means the other is not included under the same choice offer."
+      },
+      {
+        "question": "Is Oceania Cruises truly all-inclusive?",
+        "answer": "Oceania includes many onboard essentials, but not every possible expense. Premium drinks, spa treatments, some excursions, streaming upgrades, travel arrangements, and personal purchases may cost extra. It is best described as an inclusive luxury cruise experience rather than an entirely all-inclusive package."
+      },
+      {
+        "question": "How can I find out exactly what is included in my Oceania booking?",
+        "answer": "Review the booking confirmation, fare conditions, and applicable Your World Included promotional terms. Check the selected amenity, accommodation benefits, Wi-Fi conditions, and any air or hotel arrangements. A luxury cruise travel advisor can help compare the complete inclusions before you book."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Plan Your Oceania Cruise with Expert Guidance",
+    "description": "Speak with Angela Hughes and the luxury cruise advisors at Trips & Ships Luxury Travel to tailor your Oceania voyage, unlock exclusive amenities, and navigate every inclusion.",
+    "buttonText": "Speak with a Luxury Cruise Advisor",
+    "buttonLink": "/contact"
+  }
+}
+

@@ -1,0 +1,896 @@
+{
+  "meta": {
+    "title": "Celebrity Cruises Wi-Fi: Packages, Prices & Internet Guide",
+    "description": "Discover Celebrity Cruises Wi-Fi packages, Basic vs. Premium Wi-Fi, estimated costs, Starlink internet, streaming, device limits and ways to save.",
+    "canonical": "https://www.tripsandships.com/celebrity-cruises/wifi",
+    "primaryKeyword": "Celebrity Cruises Wi-Fi",
+    "secondaryKeywords": [
+      "Celebrity Cruises Wi-Fi packages",
+      "Celebrity Cruises internet prices",
+      "Celebrity Premium Wi-Fi",
+      "Celebrity Basic Wi-Fi",
+      "Celebrity Cruises Wi-Fi cost per day",
+      "Is Wi-Fi included on Celebrity Cruises?",
+      "Celebrity Cruises Starlink internet",
+      "Celebrity All Included Wi-Fi",
+      "Celebrity Cruises internet package"
+    ]
+  },
+  "hero": {
+    "badge": "Fleetwide Connectivity Guide",
+    "title": "Celebrity Cruises Wi-Fi: Packages, Costs and What to Expect",
+    "subtitle": "Celebrity Cruises offers onboard Wi-Fi so guests can browse the internet, check emails, message family, share vacation photos and, with the appropriate package, stream entertainment."
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Which Celebrity Wi-Fi Package Should You Choose?",
+    "subtitle": "Compare core features between Celebrity Cruises Basic and Premium Wi-Fi packages.",
+    "columns": [
+      "Feature",
+      "Basic Wi-Fi",
+      "Premium Wi-Fi"
+    ],
+    "rows": [
+      {
+        "feature": "Web browsing",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Email",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Messaging apps",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Large email attachments",
+        "basic": "Limited",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Social media photo uploads",
+        "basic": "Not supported",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Social media video uploads",
+        "basic": "Not supported",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Video calls",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Streaming movies and shows",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Streaming music",
+        "basic": "Not supported as a package feature",
+        "premium": "Yes"
+      },
+      {
+        "feature": "Best for",
+        "basic": "Light internet use",
+        "premium": "Full connectivity and entertainment"
+      }
+    ],
+    "recommendation": "Basic Wi-Fi is generally sufficient if you only need to check emails, browse websites and send text messages. Choose Premium Wi-Fi if you want to make video calls, upload photos and videos, stream entertainment or work online during your cruise.",
+    "retreatNote": "If you are booking The Retreat or an eligible All Included fare, check which Wi-Fi package is already part of your cruise price before purchasing anything separately."
+  },
+  "fleetwideWifi": {
+    "title": "Does Celebrity Cruises Have Wi-Fi?",
+    "paragraphs": [
+      "Yes. Celebrity Cruises offers onboard Wi-Fi throughout its fleet, with the exception of its Galapagos-based ships, which have a different Wi-Fi arrangement.",
+      "Guests can use Wi-Fi on compatible smartphones, tablets and laptops to stay connected while sailing.",
+      "Celebrity's onboard internet service uses satellite connectivity. The cruise line identifies Starlink as the technology powering its Premium Wi-Fi service."
+    ],
+    "whatCanYouDoTitle": "What Can You Do With Celebrity Wi-Fi?",
+    "whatCanYouDoIntro": "Depending on your package, you can:",
+    "whatCanYouDoItems": [
+      "Browse websites and search for information.",
+      "Send and receive emails.",
+      "Message friends and family.",
+      "Upload vacation photographs.",
+      "Share videos on social media.",
+      "Make video calls.",
+      "Watch movies and television shows through supported streaming services.",
+      "Listen to music online.",
+      "Work remotely using compatible applications."
+    ],
+    "whatCanYouDoNote": "The activities available depend on whether you purchase Basic or Premium Wi-Fi.",
+    "availableEverywhereTitle": "Is Celebrity Wi-Fi Available Everywhere on the Ship?",
+    "availableEverywhereParagraph": "Celebrity provides onboard internet access in guest areas, but connection quality may vary depending on location, ship operations, satellite coverage and network demand.",
+    "availableEverywhereWarning": "Do not assume the connection will perform exactly like your home broadband or mobile network."
+  },
+  "packagesExplained": {
+    "title": "Celebrity Cruises Wi-Fi Packages Explained",
+    "subtitle": "Celebrity offers two main Wi-Fi options. Understanding the differences will help you avoid paying for more internet access than you need.",
+    "basic": {
+      "title": "A. Celebrity Basic Wi-Fi",
+      "subtitle": "Basic Wi-Fi is designed for guests who want to remain connected without needing advanced internet features.",
+      "suitableForTitle": "Suitable light online activities:",
+      "suitableFor": [
+        "Checking emails.",
+        "Reading online articles.",
+        "Browsing websites.",
+        "Sending text messages through supported messaging apps.",
+        "Keeping in touch with family and friends."
+      ],
+      "limitationsTitle": "Limitations to consider:",
+      "limitations": [
+        "Does not support streaming services (Netflix, YouTube, Hulu).",
+        "Does not support video or audio calls (FaceTime, WhatsApp calling).",
+        "Cannot download or send large-file email attachments.",
+        "Social media photo or video uploads are not supported."
+      ],
+      "whoShouldChooseTitle": "Who should choose Basic Wi-Fi?",
+      "whoShouldChoose": "Basic is a practical option if you want to check messages occasionally, read the news, browse the internet and stay in touch with people at home. It may also suit travelers who plan to spend most of their vacation enjoying the ship and destinations rather than using the internet."
+    },
+    "premium": {
+      "title": "B. Celebrity Premium Wi-Fi",
+      "subtitle": "Premium Wi-Fi is designed for travelers who want a more complete internet experience.",
+      "starlinkNote": "Celebrity describes its Premium Wi-Fi as being powered by Starlink. It supports more demanding activities than Basic Wi-Fi.",
+      "canDoTitle": "With Premium Wi-Fi, you can:",
+      "canDo": [
+        "Browse websites.",
+        "Send and receive emails, including larger attachments.",
+        "Use social media.",
+        "Upload photographs and videos.",
+        "Make video calls through supported applications.",
+        "Stream movies and television shows.",
+        "Listen to music through streaming services.",
+        "Stay connected for work and personal activities."
+      ],
+      "inStateroomTvNote": "Celebrity also identifies in-stateroom TV streaming from personal devices as available on select ships, including Celebrity Apex, Celebrity Beyond, Celebrity Ascent and Celebrity Xcel. This feature should be checked against the specific ship and equipment.",
+      "whoShouldChooseTitle": "Who should choose Premium Wi-Fi?",
+      "whoShouldChoose": "Premium is worth considering if you regularly use social media, need to make video calls, work remotely, upload vacation content or want to stream entertainment. For travelers who depend on internet access, the additional features can make a meaningful difference."
+    }
+  },
+  "packageComparison": {
+    "title": "Celebrity Basic Wi-Fi vs. Premium Wi-Fi: What's the Difference?",
+    "subtitle": "The main difference is the type of internet activities each package supports. Basic Wi-Fi covers everyday browsing and communication. Premium Wi-Fi adds features that require more advanced connectivity.",
+    "columns": [
+      "Internet activity",
+      "Basic",
+      "Premium"
+    ],
+    "rows": [
+      {
+        "activity": "Read online news",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Browse websites",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Check email",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Send text messages",
+        "basic": "Yes",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Send large attachments",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Upload photographs",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Upload videos",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Make video calls",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Stream Netflix or similar services",
+        "basic": "No",
+        "premium": "Yes, subject to service availability"
+      },
+      {
+        "activity": "Stream music",
+        "basic": "No",
+        "premium": "Yes"
+      },
+      {
+        "activity": "Remote work",
+        "basic": "Limited",
+        "premium": "Better suited, subject to network conditions"
+      }
+    ],
+    "valueVerdictTitle": "Which Package Offers Better Value?",
+    "valueVerdictParagraphs": [
+      "The answer depends on how you plan to use the internet.",
+      "Basic Wi-Fi is usually the more economical choice for occasional browsing and messaging.",
+      "Premium Wi-Fi offers greater flexibility for guests who need more than basic connectivity.",
+      "Consider your actual usage before purchasing. If you rarely use video calls or streaming services, you may not need Premium."
+    ]
+  },
+  "wifiCosts": {
+    "title": "How Much Does Celebrity Cruises Wi-Fi Cost?",
+    "subtitle": "Celebrity Cruises Wi-Fi prices vary by sailing and reservation. The cruise line does not publish a single standard daily price that applies to every ship and itinerary.",
+    "factorsTitle": "The price you see can depend on:",
+    "factors": [
+      "Cruise duration.",
+      "Ship and itinerary.",
+      "Travel date.",
+      "Number of guests.",
+      "Package type.",
+      "Booking country and currency.",
+      "Whether you purchase before departure or onboard.",
+      "Promotions and package combinations.",
+      "Whether Wi-Fi is already included in your cruise fare."
+    ],
+    "tableTitle": "Celebrity Wi-Fi Cost: What Should You Budget?",
+    "tableSubtitle": "The most accurate price is the one displayed in your Celebrity account for your specific reservation.",
+    "columns": [
+      "Purchase option",
+      "How pricing works"
+    ],
+    "rows": [
+      {
+        "option": "Basic Wi-Fi",
+        "pricing": "Availability and price depend on eligible booking options and pre-cruise offers"
+      },
+      {
+        "option": "Premium Wi-Fi",
+        "pricing": "Priced according to the sailing and package offer"
+      },
+      {
+        "option": "Basic-to-Premium upgrade",
+        "pricing": "An additional charge applies; the price depends on the booking and upgrade offer"
+      },
+      {
+        "option": "All Included",
+        "pricing": "Eligible fares combine Basic Wi-Fi with other amenities"
+      },
+      {
+        "option": "The Retreat",
+        "pricing": "Premium Wi-Fi is included for Retreat guests under the applicable package terms"
+      },
+      {
+        "option": "Premium Access",
+        "pricing": "Includes Premium Wi-Fi for two devices when available and purchased"
+      }
+    ],
+    "preCruiseCheaperTitle": "Is Celebrity Wi-Fi Cheaper Before the Cruise?",
+    "preCruiseCheaperParagraphs": [
+      "Celebrity recommends purchasing or upgrading internet packages before departure when possible.",
+      "Its official FAQ states that pre-cruise upgrade pricing is lower than onboard pricing.",
+      "You can review available packages through your Celebrity account and Cruise Planner.",
+      "If you already have Basic Wi-Fi through an eligible All Included booking, check the available Premium upgrade price before sailing."
+    ],
+    "importantNote": "Important: Do not rely on an online price quoted for another ship or sailing. The price shown in your own reservation is the relevant amount."
+  },
+  "allIncludedWifi": {
+    "title": "Is Wi-Fi Included in Celebrity Cruises' All Included Package?",
+    "subtitle": "Celebrity's All Included pricing option combines selected amenities with the cruise fare.",
+    "inclusionsTitle": "For eligible bookings, All Included provides:",
+    "inclusions": [
+      "Basic Wi-Fi.",
+      "Classic Drink Package.",
+      "Beverage package gratuities are included with the drink package, but onboard staff gratuities are charged separately."
+    ],
+    "retreatNote": "Guests who book The Retreat receive Premium Wi-Fi and the Premium Drink Package under the applicable Retreat benefits.",
+    "exceptionsNote": "All Included availability and terms can vary by market and booking conditions. Celebrity's current FAQ also identifies Galapagos sailings as an exception to the standard All Included offering.",
+    "upgradeTitle": "Can You Upgrade All Included Basic Wi-Fi to Premium?",
+    "upgradeParagraphs": [
+      "Yes. Celebrity allows eligible guests to upgrade Basic Wi-Fi to Premium Wi-Fi.",
+      "The upgrade can be arranged through the Cruise Planner before departure or onboard, subject to availability and applicable charges.",
+      "Celebrity's FAQ lists an upgrade charge of $9.99 per person, per day for the specified All Included upgrade. This should not be treated as a guaranteed price for every reservation or sailing; confirm the current amount in your Cruise Planner."
+    ],
+    "isWorthItTitle": "Is All Included Worth It Just for Wi-Fi?",
+    "isWorthItParagraphs": [
+      "Usually, it is better to compare the complete package rather than considering Wi-Fi alone.",
+      "All Included combines internet access with a Classic Drink Package. Its value depends on whether you would otherwise purchase both amenities separately.",
+      "If you do not drink much or do not need internet access, a cruise-only fare with selected add-ons may be more suitable."
+    ]
+  },
+  "theRetreatWifi": {
+    "title": "Is Wi-Fi Included in The Retreat?",
+    "paragraphs": [
+      "Yes. Celebrity's Retreat suite experience includes Premium Wi-Fi under its applicable suite benefits.",
+      "The Retreat also offers other premium amenities, including access to Luminae and dedicated Retreat spaces, depending on the ship.",
+      "For guests who regularly use the internet, having Premium Wi-Fi included can add value to the overall suite experience.",
+      "However, compare the total suite fare with other stateroom options rather than booking a higher category only for its internet benefit."
+    ]
+  },
+  "starlinkWifi": {
+    "title": "Does Celebrity Cruises Use Starlink Wi-Fi?",
+    "paragraphs": [
+      "Celebrity identifies Starlink as the satellite technology powering its Premium Wi-Fi service.",
+      "Starlink is designed to provide broadband internet connectivity through a network of low-Earth-orbit satellites.",
+      "For cruise passengers, this can support activities such as browsing websites, video calls, social media, streaming entertainment, and sending larger email attachments.",
+      "However, Starlink does not mean that every onboard connection will be as fast or consistent as a home internet connection."
+    ],
+    "factorsTitle": "Actual performance can be affected by:",
+    "factors": [
+      "The ship's location.",
+      "Satellite coverage.",
+      "Weather and operating conditions.",
+      "Network demand.",
+      "The number of connected devices.",
+      "The applications being used."
+    ],
+    "streamingTitle": "Is Celebrity Starlink Wi-Fi Fast Enough for Streaming?",
+    "streamingParagraph": "Premium Wi-Fi is the package designed for streaming supported video and music services. However, streaming quality and consistency can vary. If you have a particular show or movie you want to watch, downloading it before boarding is a sensible backup."
+  },
+  "whatsappWifi": {
+    "title": "Can You Use WhatsApp on Celebrity Cruises?",
+    "paragraphs": [
+      "Yes. Celebrity's Basic Wi-Fi supports text messaging through select messaging applications.",
+      "You can use supported messaging services to stay in touch with family and friends.",
+      "Premium Wi-Fi provides additional functionality, including video calls."
+    ],
+    "callsTitle": "Can You Make WhatsApp Calls on Celebrity Wi-Fi?",
+    "callsParagraph": "Basic Wi-Fi does not support video calls. Premium Wi-Fi is the appropriate package for video and voice communication through supported internet applications. The quality of a call will depend on the connection and network conditions.",
+    "photosTitle": "Can You Send Photos on WhatsApp?",
+    "photosParagraph": "Celebrity identifies sharing photos and videos as Premium Wi-Fi features. Do not assume that Basic Wi-Fi will support media uploads simply because text messaging works. If sharing vacation photographs is important, consider Premium."
+  },
+  "netflixYoutubeWifi": {
+    "title": "Can You Watch Netflix and YouTube on Celebrity Cruises?",
+    "paragraphs": [
+      "Celebrity's Premium Wi-Fi is designed to support video and music streaming through compatible applications.",
+      "This means guests can use supported streaming services, subject to the connection and the service's own availability.",
+      "Basic Wi-Fi does not support streaming applications."
+    ],
+    "netflixTitle": "Can You Watch Netflix on Celebrity Cruises?",
+    "netflixParagraphs": [
+      "Premium Wi-Fi is the appropriate package for attempting to stream Netflix or other compatible entertainment services.",
+      "However, the experience may vary based on network conditions and streaming-service restrictions. Some streaming services may limit access based on location or account terms."
+    ],
+    "youtubeTitle": "Can You Watch YouTube on Celebrity Wi-Fi?",
+    "youtubeParagraphs": [
+      "Premium Wi-Fi supports streaming activities, so YouTube and other compatible video platforms may be accessible.",
+      "Video quality may vary depending on available bandwidth and network demand."
+    ],
+    "advice": "Our advice: Download important entertainment before boarding if you want to avoid relying entirely on the ship's internet connection."
+  },
+  "remoteWork": {
+    "title": "Can You Work Remotely on Celebrity Cruises?",
+    "paragraphs": [
+      "Yes, Premium Wi-Fi may support many remote-working activities, but a cruise ship's internet connection should not be treated as a guaranteed replacement for office broadband."
+    ],
+    "usefulForTitle": "It can be useful for:",
+    "usefulForItems": [
+      "Checking and responding to emails.",
+      "Attending some online meetings.",
+      "Sending documents.",
+      "Accessing cloud-based tools.",
+      "Browsing business websites.",
+      "Communicating with colleagues."
+    ],
+    "videoMeetingsTitle": "Is Celebrity Wi-Fi Suitable for Video Meetings?",
+    "videoMeetingsParagraphs": [
+      "Premium Wi-Fi supports video calls, but performance depends on the ship's location, network demand and connection quality.",
+      "If you have an important client presentation or meeting, consider whether it can be rescheduled for a day when you are ashore with reliable internet.",
+      "For essential business work, always have a backup plan."
+    ]
+  },
+  "deviceLimits": {
+    "title": "How Many Devices Can You Use With Celebrity Wi-Fi?",
+    "paragraphs": [
+      "Device access depends on the package and booking arrangement.",
+      "Celebrity's Premium Access offering specifically includes Premium Wi-Fi for two devices. This is a separate bundled offering and should not be confused with the standard internet package."
+    ],
+    "considerationsTitle": "Before purchasing a standalone Wi-Fi package, check:",
+    "considerations": [
+      "How many devices are included.",
+      "Whether the package is assigned per person or per device.",
+      "Whether you can switch between devices.",
+      "Whether additional device access costs extra.",
+      "Whether your partner or another guest has a separate package."
+    ],
+    "switchingTitle": "Can You Switch Between Devices?",
+    "switchingParagraph": "Device switching and simultaneous connection rules depend on the package purchased. Review the current terms shown during checkout rather than assuming every package allows unlimited simultaneous connections. If you are traveling as a couple or family, compare the total cost of individual packages with any available multi-device option."
+  },
+  "howToBuy": {
+    "title": "How to Buy Celebrity Cruises Wi-Fi",
+    "subtitle": "You can review and purchase eligible internet packages before your cruise or through the available onboard purchase options.",
+    "option1Title": "Option 1: Purchase Before Your Cruise",
+    "option1Subtitle": "This is generally the best place to start. Celebrity states that pre-cruise upgrade pricing is lower than onboard pricing.",
+    "option1Steps": [
+      "Visit the official Celebrity Cruises website.",
+      "Sign in to your Celebrity account.",
+      "Open your booked cruise.",
+      "Navigate to the Cruise Planner.",
+      "Select the internet or Wi-Fi package section.",
+      "Compare Basic and Premium options available for your sailing.",
+      "Review the price and device terms.",
+      "Complete the purchase if you decide to proceed."
+    ],
+    "option2Title": "Option 2: Purchase Onboard",
+    "option2Subtitle": "Assistance through the iLounge or Photo Gallery",
+    "option2Paragraphs": [
+      "Guests can also review available internet options once onboard.",
+      "Celebrity identifies onboard assistance through the iLounge or Photo Gallery on applicable ships.",
+      "Package availability, pricing and upgrade options can vary."
+    ],
+    "betterOptionTitle": "Which Is the Better Option?",
+    "betterOptionParagraph": "For most travelers, reviewing the options before departure is more convenient. It gives you time to compare prices and determine whether you need Basic or Premium Wi-Fi."
+  },
+  "cellularAtSea": {
+    "title": "Can You Use Your Mobile Phone Without Buying Celebrity Wi-Fi?",
+    "paragraphs": [
+      "Yes, but you need to understand the difference between Wi-Fi and cellular roaming.",
+      "Your phone may connect to the ship's cellular network when the vessel is in international waters.",
+      "Celebrity identifies its onboard cellular service through Wireless Maritime Services. Your mobile carrier determines the applicable roaming charges.",
+      "These charges are separate from Celebrity's Wi-Fi packages."
+    ],
+    "whatIsCellularAtSeaTitle": "What Is Cellular at Sea?",
+    "whatIsCellularAtSeaParagraphs": [
+      "Cellular at Sea is a maritime mobile network that allows compatible phones to connect while the ship is sailing.",
+      "When connected, calls, texts and mobile data may be billed through your regular mobile carrier under its maritime roaming rates. These charges can be substantially different from ordinary domestic mobile rates."
+    ],
+    "networkNames": [
+      "Cellular at Sea",
+      "NOR18",
+      "901-18"
+    ],
+    "avoidRoamingTitle": "How Can You Avoid Unexpected Roaming Charges?",
+    "avoidRoamingTips": [
+      "Contact your mobile carrier before departure.",
+      "Ask whether it offers a cruise or maritime roaming package.",
+      "Understand the charges for calls, texts and data.",
+      "Disable data roaming if you do not intend to use cellular service.",
+      "Use the ship's Wi-Fi when appropriate.",
+      "Check your phone's network connection after boarding."
+    ],
+    "importantNote": "Important: Connecting to the ship's cellular network is not the same as connecting to Celebrity's Wi-Fi. Your mobile carrier may charge you separately."
+  },
+  "freeWifi": {
+    "title": "Does Celebrity Cruises Have Free Wi-Fi?",
+    "paragraphs": [
+      "Standard Celebrity cruise fares should not be assumed to include complimentary Wi-Fi.",
+      "Some booking options include Basic Wi-Fi as part of All Included, while The Retreat includes Premium Wi-Fi under its applicable benefits.",
+      "Celebrity also identifies unlimited Wi-Fi as included on its Galapagos-based ships, which have a different arrangement from the standard fleet packages.",
+      "Before booking, check the exact inclusions shown in your cruise confirmation."
+    ],
+    "inPortTitle": "Can You Use Wi-Fi in Port Without Buying a Package?",
+    "inPortParagraphs": [
+      "When the ship is docked, you may be able to use local Wi-Fi at a café, hotel, port facility or other venue, depending on availability.",
+      "You can also use a local mobile network if your phone plan supports it.",
+      "Remember that shipboard Wi-Fi and local port Wi-Fi are separate services."
+    ]
+  },
+  "isWifiWorthIt": {
+    "title": "Is Celebrity Cruises Wi-Fi Worth the Money?",
+    "intro": "Whether Celebrity Wi-Fi is worth purchasing depends on how much you expect to use the internet. For some travelers, staying offline is part of the vacation. Others want to remain connected to family, work or social media throughout the sailing.",
+    "basicWorthTitle": "When Basic Wi-Fi Is Worth It",
+    "basicWorthPoints": [
+      "Need to check email.",
+      "Want to send text messages.",
+      "Occasionally browse websites.",
+      "Do not need video calls.",
+      "Prefer to spend less on internet access."
+    ],
+    "premiumWorthTitle": "When Premium Wi-Fi Is Worth It",
+    "premiumWorthPoints": [
+      "Need to work during the cruise.",
+      "Want to make video calls.",
+      "Upload photos and videos regularly.",
+      "Enjoy streaming movies and shows.",
+      "Use social media frequently.",
+      "Need to send larger files."
+    ],
+    "notNeededTitle": "When You May Not Need to Buy Wi-Fi",
+    "notNeededPoints": [
+      "You want a digital break.",
+      "You only need internet when visiting ports.",
+      "You have a suitable mobile roaming plan.",
+      "Your booking already includes the internet package you need.",
+      "You do not expect to use the internet often."
+    ],
+    "recommendationTitle": "Our Recommendation",
+    "recommendationParagraphs": [
+      "Do not automatically purchase Premium Wi-Fi just because it offers more features.",
+      "First, consider how you use the internet at home and what you expect to do while cruising.",
+      "For occasional messages and browsing, Basic may be enough. For video calls, streaming and work, Premium is the more appropriate option."
+    ]
+  },
+  "moneySavingTips": {
+    "title": "Tips to Save Money on Celebrity Cruises Wi-Fi",
+    "subtitle": "You can make your internet spending more efficient with a little planning.",
+    "tips": [
+      {
+        "number": "01",
+        "title": "Compare Prices Before Boarding",
+        "description": "Check the Cruise Planner before departure. Celebrity states that pre-cruise upgrade pricing is lower than onboard pricing."
+      },
+      {
+        "number": "02",
+        "title": "Check Your Existing Cruise Benefits",
+        "description": "If your booking includes All Included or The Retreat, review the internet benefits before purchasing another package."
+      },
+      {
+        "number": "03",
+        "title": "Choose the Right Package",
+        "description": "Avoid paying for Premium if you only need occasional browsing and text messages."
+      },
+      {
+        "number": "04",
+        "title": "Download Entertainment Before Sailing",
+        "description": "Download movies, music, podcasts and other content before boarding. This can reduce the amount of internet access you need."
+      },
+      {
+        "number": "05",
+        "title": "Use Local Wi-Fi in Port",
+        "description": "Some hotels, cafés and other venues offer Wi-Fi access. Check security and connection terms before using public networks."
+      },
+      {
+        "number": "06",
+        "title": "Check Your Mobile Carrier's Cruise Plan",
+        "description": "A suitable mobile plan may be useful in port, but do not assume it covers the ship's maritime cellular network. Confirm the exact coverage and rates before using it."
+      },
+      {
+        "number": "07",
+        "title": "Compare Multi-Device Options",
+        "description": "If you are traveling with a partner or family, review the device terms of the available packages. Premium Access, for example, includes Premium Wi-Fi for two devices when offered."
+      }
+    ]
+  },
+  "cruiseLineComparison": {
+    "title": "Celebrity Cruises Wi-Fi vs. Other Cruise Lines",
+    "subtitle": "Cruise lines structure their internet packages differently. Comparing them can help you understand what you are paying for.",
+    "columns": [
+      "Cruise line",
+      "Internet package approach"
+    ],
+    "rows": [
+      {
+        "line": "Celebrity Cruises",
+        "approach": "Basic and Premium Wi-Fi, with Premium powered by Starlink"
+      },
+      {
+        "line": "Royal Caribbean",
+        "approach": "Internet packages with options that vary by sailing and ship"
+      },
+      {
+        "line": "Norwegian Cruise Line",
+        "approach": "Internet package options and selected promotional inclusions"
+      },
+      {
+        "line": "Princess Cruises",
+        "approach": "MedallionNet internet packages and eligible bundled benefits"
+      },
+      {
+        "line": "Holland America Line",
+        "approach": "Internet packages with different levels of access"
+      }
+    ],
+    "paragraphs": [
+      "The package names, device rules, prices and included features are not directly interchangeable.",
+      "When comparing cruise lines, look beyond the advertised daily rate. Consider video calls, streaming, social media, device access and whether internet is included in your fare."
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Celebrity Cruises Wi-Fi",
+    "subtitle": "Get clear answers to the most common questions regarding onboard internet, Starlink performance, device sharing, and costs.",
+    "items": [
+      {
+        "question": "Does Celebrity Cruises have Wi-Fi?",
+        "answer": "Yes. Celebrity offers Basic and Premium Wi-Fi packages across its standard fleet. Galapagos-based ships have a different Wi-Fi arrangement."
+      },
+      {
+        "question": "How much does Celebrity Cruises Wi-Fi cost?",
+        "answer": "The price varies by ship, sailing, package, booking conditions and purchase timing. Check your Celebrity Cruise Planner for the current price attached to your reservation."
+      },
+      {
+        "question": "What is the difference between Basic and Premium Wi-Fi?",
+        "answer": "Basic supports web browsing, email and text messaging through select apps. Premium adds video calls, social media uploads, larger email attachments and streaming."
+      },
+      {
+        "question": "Is Celebrity Cruises Wi-Fi free?",
+        "answer": "Wi-Fi is not automatically included in every standard cruise fare. Eligible All Included bookings provide Basic Wi-Fi, while The Retreat includes Premium Wi-Fi under its applicable benefits."
+      },
+      {
+        "question": "Does Celebrity Cruises use Starlink?",
+        "answer": "Yes. Celebrity identifies Starlink as the technology powering its Premium Wi-Fi service."
+      },
+      {
+        "question": "Can I watch Netflix on Celebrity Cruises?",
+        "answer": "Premium Wi-Fi is designed to support streaming through compatible applications, including services such as Netflix, subject to network performance and streaming-service restrictions."
+      },
+      {
+        "question": "Can I use WhatsApp on Celebrity Cruises?",
+        "answer": "Basic Wi-Fi supports text messaging through select messaging applications. Premium Wi-Fi supports additional features, including video calls."
+      },
+      {
+        "question": "Can I make video calls on Celebrity Cruises?",
+        "answer": "Video calls are supported by Premium Wi-Fi. Basic Wi-Fi does not support video calling."
+      },
+      {
+        "question": "Can I use FaceTime on Celebrity Cruises?",
+        "answer": "Premium Wi-Fi is the appropriate package for video calling. Actual performance depends on the connection and application availability."
+      },
+      {
+        "question": "Can I use social media on Celebrity Basic Wi-Fi?",
+        "answer": "Basic supports light browsing and messaging, but sharing photos and videos on social media requires Premium Wi-Fi."
+      },
+      {
+        "question": "Can I upload photos with Celebrity Wi-Fi?",
+        "answer": "Celebrity identifies photo and video uploads as Premium Wi-Fi features. Basic Wi-Fi does not provide the same upload functionality."
+      },
+      {
+        "question": "Can I work remotely on Celebrity Cruises?",
+        "answer": "Premium Wi-Fi may support email, document sharing, web-based tools and video meetings. However, internet performance can vary, so it should not be treated as guaranteed office-grade connectivity."
+      },
+      {
+        "question": "Is Celebrity Premium Wi-Fi worth it?",
+        "answer": "It can be worthwhile if you need video calls, streaming, social media uploads or remote-work connectivity. If you only browse websites and send messages, Basic may be sufficient."
+      },
+      {
+        "question": "Can I upgrade from Basic to Premium Wi-Fi?",
+        "answer": "Yes. Eligible guests can upgrade before departure through the Cruise Planner or onboard, subject to availability and the applicable price."
+      },
+      {
+        "question": "How much does it cost to upgrade to Premium Wi-Fi?",
+        "answer": "Celebrity's FAQ lists a $9.99 per person, per day upgrade for the specified All Included upgrade. The current amount for your booking may differ, so check the Cruise Planner."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Final Verdict: Is Celebrity Cruises Wi-Fi Worth Buying?",
+    "subtitle": "Choosing the right connectivity package for your sailing habits.",
+    "paragraphs": [
+      "Celebrity Cruises provides two main internet options to suit different needs.",
+      "Basic Wi-Fi is a practical choice for travelers who want to check emails, browse websites and send messages.",
+      "Premium Wi-Fi is better for guests who want to stream entertainment, make video calls, upload photos and videos, or work while sailing. Its Starlink-powered service is designed to provide a more complete internet experience, although performance can vary.",
+      "Before purchasing, check whether your booking already includes Basic or Premium Wi-Fi. Eligible All Included fares provide Basic Wi-Fi, while The Retreat includes Premium Wi-Fi under its applicable benefits.",
+      "Our recommendation is to choose your package based on how you actually plan to use the internet. Compare the price in your Cruise Planner, review the device terms and purchase before departure when the available pricing is more favorable."
+    ]
+  },
+  "advisorGuidance": {
+    "title": "Plan Your Cruise Connectivity with Trips & Ships Luxury Travel",
+    "subtitle": "Planning a Celebrity Cruises vacation? Trips & Ships Luxury Travel can help you compare cruise fares, onboard packages, stateroom categories and available benefits so you can make a more informed booking decision.",
+    "author": {
+      "name": "Angela Hughes",
+      "title": "CEO & Luxury Cruise Specialist, Trips & Ships Luxury Travel",
+      "credentials": [
+        "Over 30 years of global luxury cruise and agency leadership",
+        "Expert advisory on Celebrity All Included vs. Cruise-Only fares",
+        "Pre-cruise planning, package upgrades, and suite benefits guidance"
+      ]
+    }
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "telephone": "+1-801-555-0199",
+        "founder": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#author",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO & Luxury Travel Advisor",
+        "worksFor": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "url": "https://www.tripsandships.com/about-angela-hughes"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com",
+        "name": "Trips & Ships Luxury Travel",
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/wifi#webpage",
+        "url": "https://www.tripsandships.com/celebrity-cruises/wifi",
+        "name": "Celebrity Cruises Wi-Fi: Packages, Prices & Internet Guide",
+        "description": "Discover Celebrity Cruises Wi-Fi packages, Basic vs. Premium internet costs, Starlink speeds, streaming quality, and whether All Included Wi-Fi is worth it.",
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/wifi#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/wifi#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Celebrity Cruises",
+            "item": "https://www.tripsandships.com/celebrity-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Celebrity Cruises Wi-Fi Guide",
+            "item": "https://www.tripsandships.com/celebrity-cruises/wifi"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/wifi#article",
+        "headline": "Celebrity Cruises Wi-Fi: Packages, Prices & Internet Guide",
+        "description": "Discover Celebrity Cruises Wi-Fi packages, Basic vs. Premium internet costs, Starlink speeds, streaming quality, and whether All Included Wi-Fi is worth it.",
+        "author": {
+          "@id": "https://www.tripsandships.com/#author"
+        },
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-03",
+        "mainEntityOfPage": "https://www.tripsandships.com/celebrity-cruises/wifi"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/wifi#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does Celebrity Cruises have Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity offers Basic and Premium Wi-Fi packages across its standard fleet. Galapagos-based ships have a different Wi-Fi arrangement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does Celebrity Cruises Wi-Fi cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The price varies by ship, sailing, package, booking conditions and purchase timing. Check your Celebrity Cruise Planner for the current price attached to your reservation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Basic and Premium Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic supports web browsing, email and text messaging through select apps. Premium adds video calls, social media uploads, larger email attachments and streaming."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Cruises Wi-Fi free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wi-Fi is not automatically included in every standard cruise fare. Eligible All Included bookings provide Basic Wi-Fi, while The Retreat includes Premium Wi-Fi under its applicable benefits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity Cruises use Starlink?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity identifies Starlink as the technology powering its Premium Wi-Fi service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I watch Netflix on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Premium Wi-Fi is designed to support streaming through compatible applications, including services such as Netflix, subject to network performance and streaming-service restrictions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use WhatsApp on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic Wi-Fi supports text messaging through select messaging applications. Premium Wi-Fi supports additional features, including video calls."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I make video calls on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Video calls are supported by Premium Wi-Fi. Basic Wi-Fi does not support video calling."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use FaceTime on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Premium Wi-Fi is the appropriate package for video calling. Actual performance depends on the connection and application availability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use social media on Celebrity Basic Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Basic supports light browsing and messaging, but sharing photos and videos on social media requires Premium Wi-Fi."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I upload photos with Celebrity Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity identifies photo and video uploads as Premium Wi-Fi features. Basic Wi-Fi does not provide the same upload functionality."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I work remotely on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Premium Wi-Fi may support email, document sharing, web-based tools and video meetings. However, internet performance can vary, so it should not be treated as guaranteed office-grade connectivity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Premium Wi-Fi worth it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It can be worthwhile if you need video calls, streaming, social media uploads or remote-work connectivity. If you only browse websites and send messages, Basic may be sufficient."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I upgrade from Basic to Premium Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Eligible guests can upgrade before departure through the Cruise Planner or onboard, subject to availability and the applicable price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to upgrade to Premium Wi-Fi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's FAQ lists a $9.99 per person, per day upgrade for the specified All Included upgrade. The current amount for your booking may differ, so check the Cruise Planner."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

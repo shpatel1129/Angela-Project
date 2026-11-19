@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "title": "Oceania Cruises Dining Guide: Restaurants, Menus & Reservations",
+    "description": "Explore Oceania Cruises restaurants, menus, specialty dining, reservations and included dining. Compare onboard venues and discover what to expect on each ship.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/dining",
+    "primaryKeyword": "Oceania Cruises dining",
+    "secondaryKeywords": [
+      "Oceania Cruises restaurants",
+      "Oceania Cruises menus",
+      "Oceania specialty dining",
+      "Oceania Cruises dining reservations",
+      "Oceania Cruises food",
+      "Oceania Cruises included restaurants",
+      "Oceania Cruises dining options"
+    ],
+    "publishDate": "2025-02-15",
+    "updated": "2026-03-30"
+  },
+  "hero": {
+    "title": "Oceania Cruises Dining Guide",
+    "subtitle": "RESTAURANTS, MENUS, RESERVATIONS & THE FINEST CUISINE AT SEA",
+    "description": "From Jacques Pépin-inspired French classics and prime steaks at Polo Grill to wellness bowls at Aquamar Kitchen, discover how Oceania Cruises delivers world-class specialty dining with zero restaurant cover charges.",
+    "badge": "COMPLETE CULINARY DIRECTORY",
+    "primaryCtaText": "Explore Restaurants",
+    "primaryCtaLink": "#restaurant-overview",
+    "secondaryCtaText": "Speak with a Culinary Specialist",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "ELEVATED GASTRONOMY WITHOUT SURCHARGES",
+    "heading": "How Is the Dining on Oceania Cruises?",
+    "paragraphs": [
+      "Oceania Cruises is known for a culinary program that combines traditional fine dining, international cuisine, specialty restaurants and more relaxed options. Guests can choose from elegant sit-down restaurants, casual cafés, poolside dining, afternoon tea and complimentary in-room dining.",
+      "A major advantage is that most restaurants, including the principal specialty dining venues, are included in the cruise fare. Unlike some cruise lines that charge an additional cover fee for every specialty restaurant visit, Oceania generally includes its regular specialty dining experiences without an extra restaurant surcharge. Reservations are still required at selected venues, and availability depends on the ship and sailing.",
+      "The experience is not limited to dinner. Guests can enjoy made-to-order breakfast, leisurely lunches, changing dinner menus, international selections and dishes inspired by destinations along the itinerary."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Oceania Cruises Dining at a Glance",
+    "subtitle": "INSTANT OVERVIEW OF ONBOARD CULINARY EXPERIENCES & INCLUSIONS",
+    "headers": ["Dining Feature", "What to Expect"],
+    "rows": [
+      ["Overall dining style", "Refined, destination-inspired and international with open-seating flexibility"],
+      ["Specialty restaurants", "Generally included in the cruise fare with zero cover charges"],
+      ["Main dining room", "The Grand Dining Room (open for breakfast, lunch, and dinner)"],
+      ["Steakhouse", "Polo Grill or Tuscan Steak, depending on ship"],
+      ["Italian restaurant", "Toscana (authentic regional recipes and handmade pastas)"],
+      ["French restaurant", "Jacques on selected ships (Marina, Riviera, Vista, Allura)"],
+      ["Asian restaurant", "Red Ginger on selected ships (bold pan-Asian specialties)"],
+      ["Casual dining", "Terrace Café buffet and poolside Waves Grill"],
+      ["Wellness-focused dining", "Aquamar Kitchen on selected ships (Vista, Allura, Marina)"],
+      ["Coffee and pastries", "Baristas (complimentary handcrafted espresso and pastries)"],
+      ["Afternoon tea", "Traditional daily afternoon tea service with live string quartet"],
+      ["Room service", "Complimentary in-room dining 24 hours a day"],
+      ["Restaurant reservations", "Required at selected specialty restaurants; open-seating in MDR"],
+      ["Menus", "Change by venue, day and itinerary; destination-inspired dishes"],
+      ["Additional charges", "Certain premium culinary experiences, wine pairings, and cellar tastings may cost extra"]
+    ]
+  },
+  "restaurantOverview": {
+    "title": "Oceania Cruises Restaurants: Complete Overview",
+    "intro": [
+      "Oceania offers several distinct dining styles, from formal multi-course evening meals to relaxed outdoor poolside lunches.",
+      "The following 11 dining venues represent the heart of Oceania's acclaimed culinary portfolio across its fleet."
+    ],
+    "venues": [
+      {
+        "title": "The Grand Dining Room",
+        "paragraphs": [
+          "The Grand Dining Room is Oceania's principal restaurant and one of the central parts of its onboard dining experience. Its elegant surroundings, attentive service and broad menu make it a popular choice for breakfast, lunch and dinner.",
+          "The menu combines Continental favorites, international dishes, selections associated with Executive Culinary Director Jacques Pépin and lighter options. Menus change daily, so the dishes available on one evening will not repeat throughout your voyage.",
+          "Dining Details: Open for breakfast, lunch, and dinner. Open-seating dining style with no reservations required. Country-club casual atmosphere. Fully included in cruise fare across all ships."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Classic Continental dishes and changing daily chef specialties",
+              "Fresh seafood, poultry, and premium meat entrées",
+              "Jacques Pépin-inspired signature appetizers and sauces",
+              "Vegetarian, plant-forward, and Aquamar Vitality Cuisine selections",
+              "Decadent dessert selections and artisan cheese boards"
+            ]
+          },
+          {
+            "title": "Who Should Choose It?",
+            "items": [
+              "Guests who enjoy a leisurely, formal dining room ambiance without the constraint of advance reservations.",
+              "Travelers who value daily variety and dishes inspired by the ports visited on each itinerary."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Polo Grill",
+        "paragraphs": [
+          "Polo Grill is Oceania's traditional steakhouse, with a menu centered on classic American steakhouse dishes and seafood. The restaurant offers a more formal evening atmosphere, with rich wood paneling, crisp white linens, and leather seating.",
+          "Dining Details: Open exclusively for dinner. Reservations required. Traditional steakhouse dining style. Generally included in the cruise fare on Marina, Riviera, Vista, Allura, Nautica, and Insignia."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "USDA Prime 28-day dry-aged beef cuts and tender filet mignon",
+              "Whole steamed or grilled Maine lobster preparations",
+              "Pan-seared jumbo sea scallops and grilled Alaskan halibut",
+              "Tableside classic Caesar salad and iceberg wedge with blue cheese",
+              "Traditional steakhouse sides: creamed spinach, truffle fries, and roasted asparagus",
+              "Classic American desserts including New York cheesecake and key lime pie"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Toscana",
+        "paragraphs": [
+          "Toscana celebrates Italian cooking, with recipes inspired by regional traditions and family kitchens across Tuscany, Piedmont, and the Amalfi Coast. The restaurant is celebrated for its custom Versace china and warm, attentive tableside service.",
+          "Dining Details: Open for dinner. Reservations required. Authentic regional Italian dining style. Included in the cruise fare on Marina, Riviera, Vista, Allura, Nautica, and Insignia."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Artisanal antipasti cart with aged prosciutto, bresaola, and marinated olives",
+              "Handmade fresh pasta: tortelloni, tagliolini with lobster, and handmade gnocchi",
+              "Slow-simmered regional risottos with saffron, wild mushrooms, or seafood",
+              "Traditional meat entrées: Osso buco alla Milanese and Florentine beef steaks",
+              "Pan-roasted Mediterranean branzino and fresh herb-crusted sea bass",
+              "Classic Italian desserts: authentic tiramisu, cannoli, and artisanal panna cotta"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Jacques",
+        "paragraphs": [
+          "Jacques is Oceania's signature French restaurant named after the celebrated chef Jacques Pépin, Oceania's founding Executive Culinary Director. Its atmosphere takes inspiration from a classic Parisian bistro, featuring heirloom artworks and intimate banquette seating.",
+          "Dining Details: Open for dinner. Reservations required. Refined French bistro dining style. Included in the cruise fare on selected ships: Marina, Riviera, Vista, and Allura."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Classic French appetizers: escargots de Bourgogne and duck foie gras terrine",
+              "Showpiece rotisserie meats: herb-roasted chicken and prime rib of beef",
+              "Traditional regional classics: slow-braised coq au vin and bouillabaisse",
+              "Dover sole meunière filleted tableside with lemon brown butter",
+              "Artisanal French cheese cart curated with regional AOC selections",
+              "Classic French pastries: warm Grand Marnier soufflé and tarte tatin"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Red Ginger",
+        "paragraphs": [
+          "Red Ginger offers contemporary interpretations of Asian cuisine, featuring ebony woods, red lacquer accents, and hand-blown glass light fixtures. Its menu draws bold inspiration from Thai, Malaysian, Japanese, and Vietnamese culinary traditions.",
+          "Dining Details: Open for dinner. Reservations required. Contemporary pan-Asian dining style. Included in the cruise fare on Marina, Riviera, Vista, Allura, and Sirena."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Crispy duck salad with watermelon, mint, toasted coconut, and sweet chili",
+              "Miso-glazed sea bass wrapped in hoba leaf (a signature guest favorite)",
+              "Aromatic Malaysian beef rendang and Thai red curry with tiger prawns",
+              "Sushi, sashimi, and tempura selections prepared fresh to order",
+              "Vegetable-based creations: wok-tossed morning glory and spicy eggplant",
+              "Exotic desserts: ginger caramel cake and Japanese matcha green tea ice cream"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tuscan Steak",
+        "paragraphs": [
+          "Tuscan Steak combines elements of a traditional American steakhouse with the rustic, olive-oil-infused flavors of Tuscany. This venue is unique within the fleet and serves as the signature specialty venue on Oceania Sirena.",
+          "Dining Details: Open for dinner. Reservations required. Italian-influenced steakhouse dining. Included in the cruise fare exclusively on Oceania Sirena."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Florentine-style grilled T-bone steaks and prime rib-eye cuts",
+              "Lobster fra diavolo over freshly made linguine",
+              "Veal chop alla Milanese and pan-seared pork belly with balsamic glaze",
+              "House-made pasta favorites paired with rich truffle cream sauces",
+              "Crisp polenta fries, roasted garlic mash, and sautéed wild greens"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Terrace Café",
+        "paragraphs": [
+          "Terrace Café is Oceania's relaxed buffet-style restaurant, offering indoor air-conditioned seating and shaded alfresco teak deck tables. It provides unmatched dining flexibility without needing any reservations.",
+          "Dining Details: Open for breakfast, lunch, and dinner. Open-seating, casual buffet and live-action cooking stations. Included on all Oceania ships."
+        ],
+        "lists": [
+          {
+            "title": "Breakfast, Lunch & Dinner Highlights",
+            "items": [
+              "Breakfast: Eggs prepared to order, fresh fruit, pastries, and smoked salmon",
+              "Lunch: Rotisserie carving stations, freshly tossed salads, pasta, and pizza",
+              "Dinner: Grilled lobster tails, lamb cutlets, steaks, and fresh sushi/sashimi",
+              "Alfresco sunset dining with ocean breezes and panoramic wake views"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Waves Grill",
+        "paragraphs": [
+          "Located just steps from the swimming pool, Waves Grill offers casual alfresco dining in a relaxed daytime setting. It is the perfect choice for a casual bite between shore excursions or sunbathing.",
+          "Dining Details: Open for lunch and mid-afternoon dining. Open-seating, poolside casual. Included on all Oceania ships."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Gourmet burgers: The Kobe Burger with caramelized onions and blue cheese",
+              "Grilled seafood: mahi-mahi sandwich, garlic prawns, and calamari",
+              "Crispy french fries, sweet potato fries, and fresh garden salads",
+              "Handmade milkshakes, smoothies, and artisan gelato by the scoop"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Aquamar Kitchen",
+        "paragraphs": [
+          "Aquamar Kitchen brings wellness-focused cuisine to life without sacrificing indulgence. Introduced on Vista and Allura, and added to Marina during refurbishment, it highlights fresh, clean ingredients and nourishing flavor combinations.",
+          "Dining Details: Open for breakfast and lunch. Casual open-seating, no reservations required. Fully included on Vista, Allura, and Marina."
+        ],
+        "lists": [
+          {
+            "title": "What You May Find on the Menu",
+            "items": [
+              "Breakfast: Cold-pressed juices, organic smoothies, and chia seed pudding bowls",
+              "Artisanal avocado toast with poached eggs and microgreens",
+              "Lunch: Yellowfin tuna poke bowls with sesame and brown rice",
+              "Lebanese salad bowls, roasted veggie falafel wraps, and grilled salmon tacos",
+              "Refreshing nonalcoholic mocktails infused with fresh botanical herbs"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Baristas and Bakery",
+        "paragraphs": [
+          "Baristas is Oceania's chic Italian coffee bar, serving expertly pulled Illy espresso drinks crafted by professional baristas alongside freshly baked morning pastries and afternoon biscotti.",
+          "Dining Details: Open throughout the morning and afternoon. Complimentary espresso, cappuccino, and pastries included on all ships."
+        ],
+        "lists": [
+          {
+            "title": "What to Expect at Baristas",
+            "items": [
+              "Complimentary double espresso, cappuccino, macchiato, and lattes",
+              "Freshly baked croissants, fruit Danish, and warm cookies",
+              "Italian biscotti and miniature afternoon tea sandwiches",
+              "Relaxed lounge seating overlooking panoramic sea views"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Afternoon Tea",
+        "paragraphs": [
+          "Afternoon Tea is a cherished Oceania tradition served daily at four o'clock in the Horizon Lounge. Guests are accompanied by the gentle melodies of a classical string quartet as white-gloved waiters present four tiers of culinary delights.",
+          "Dining Details: Daily 4:00 PM afternoon service. Open-seating, no reservations required. Fully included on all Oceania ships."
+        ],
+        "lists": [
+          {
+            "title": "Traditional Afternoon Tea Service",
+            "items": [
+              "Traditional finger sandwiches: cucumber & dill, smoked salmon, and egg salad",
+              "Warm freshly baked British scones served with clotted cream and strawberry jam",
+              "Miniature French éclairs, fruit tartlets, macarons, and petit fours",
+              "Curated artisanal loose-leaf teas served in fine bone china"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "shipAvailability": {
+    "title": "Which Restaurants Are Available on Each Oceania Ship?",
+    "subtitle": "FLEET-WIDE DINING VENUE BREAKDOWN BY VESSEL CLASS",
+    "headers": ["Ship", "Class & Guests", "Signature Specialty Restaurants", "Casual & Wellness Venues"],
+    "rows": [
+      ["Oceania Allura", "Allura Class (1,200)", "Grand Dining Room, Polo Grill, Toscana, Jacques, Red Ginger", "Terrace Café, Aquamar Kitchen, Waves Grill, Baristas, Bakery"],
+      ["Oceania Vista", "Allura Class (1,200)", "Grand Dining Room, Polo Grill, Toscana, Jacques, Red Ginger", "Terrace Café, Aquamar Kitchen, Waves Grill, Baristas, Bakery"],
+      ["Oceania Marina", "O-Class (1,238)", "Grand Dining Room, Polo Grill, Toscana, Jacques, Red Ginger", "Terrace Café, Aquamar Kitchen, Waves Grill, Baristas"],
+      ["Oceania Riviera", "O-Class (1,238)", "Grand Dining Room, Polo Grill, Toscana, Jacques, Red Ginger", "Terrace Café, Waves Grill, Baristas"],
+      ["Oceania Nautica", "R-Class (670)", "Grand Dining Room, Polo Grill, Toscana", "Terrace Café, Waves Grill, Baristas"],
+      ["Oceania Insignia", "R-Class (670)", "Grand Dining Room, Polo Grill, Toscana", "Terrace Café, Waves Grill, Baristas"],
+      ["Oceania Sirena", "R-Class (670)", "Grand Dining Room, Tuscan Steak, Red Ginger", "Terrace Café, Waves Grill, Baristas"]
+    ]
+  },
+  "menuOverview": {
+    "title": "What Are the Menus Like on Oceania Cruises?",
+    "subtitle": "DAILY EVOLVING CULINARY REPERTOIRES ACROSS MEAL PERIODS",
+    "items": [
+      {
+        "category": "Morning Offerings",
+        "title": "Breakfast Menus",
+        "description": "Start the day with made-to-order omelets, Belgian waffles, avocado toast, and smoked salmon in The Grand Dining Room, Terrace Café, or your private veranda.",
+        "lead": "Start the day with made-to-order omelets, Belgian waffles, avocado toast, and smoked salmon in The Grand Dining Room, Terrace Café, or your private veranda.",
+        "placeholderLabel": "Breakfast",
+        "facets": [
+          {
+            "label": "Hot Classics",
+            "text": "Made-to-order eggs, Benedicts, and fluffy buttermilk pancakes"
+          },
+          {
+            "label": "Wellness Kitchen",
+            "text": "Healthy energy bowls and cold-pressed juices at Aquamar Kitchen"
+          },
+          {
+            "label": "Artisan Bakery",
+            "text": "Freshly baked Viennoiserie pastries and artisan European breads"
+          },
+          {
+            "label": "Veranda Service",
+            "text": "Complimentary in-room veranda breakfast service delivered daily"
+          }
+        ]
+      },
+      {
+        "category": "Midday Selections",
+        "title": "Lunch Menus",
+        "description": "Midday options are tailored for exploration, offering light salads, authentic pasta, gourmet Kobe burgers, and rotating international buffets.",
+        "lead": "Midday options are tailored for exploration, offering light salads, authentic pasta, gourmet Kobe burgers, and rotating international buffets.",
+        "placeholderLabel": "Lunch",
+        "facets": [
+          {
+            "label": "Terrace Buffet",
+            "text": "Fresh rotisserie meats, artisanal flatbreads, and seafood paella"
+          },
+          {
+            "label": "Waves Grill",
+            "text": "Handcrafted gourmet burgers and grilled fish tacos"
+          },
+          {
+            "label": "Aquamar Kitchen",
+            "text": "Lebanese salad bowls, poke, and wellness wraps"
+          },
+          {
+            "label": "Grand Dining",
+            "text": "Leisurely 3-course Jacques Pépin lunches in The Grand Dining Room"
+          }
+        ]
+      },
+      {
+        "category": "Evening Multi-Course",
+        "title": "Dinner Menus",
+        "description": "Evenings feature the pinnacle of Oceania's culinary craftsmanship with multi-course menus that evolve nightly based on regional ports.",
+        "lead": "Evenings feature the pinnacle of Oceania's culinary craftsmanship with multi-course menus that evolve nightly based on regional ports.",
+        "placeholderLabel": "Dinner",
+        "facets": [
+          {
+            "label": "Polo Grill",
+            "text": "USDA Prime dry-aged steaks and whole Maine lobster"
+          },
+          {
+            "label": "Toscana",
+            "text": "Handmade pastas and regional osso buco"
+          },
+          {
+            "label": "Red Ginger",
+            "text": "Miso-glazed sea bass and aromatic Asian duck"
+          },
+          {
+            "label": "Jacques",
+            "text": "Classic Dover sole and rotisserie prime rib"
+          }
+        ]
+      }
+    ]
+  },
+  "specialtyInclusions": {
+    "title": "Are Specialty Restaurants Included on Oceania Cruises?",
+    "subtitle": "TRANSPARENT LUXURY DINING: WHAT IS COVERED VS. PREMIUM OPTIONS",
+    "includedTitle": "Included Specialty Dining (Zero Surcharge)",
+    "extrasTitle": "Optional Premium Culinary Upgrades",
+    "included": [
+      {
+        "title": "Polo Grill Steakhouse",
+        "description": "Full multi-course steakhouse dining including USDA Prime beef, Maine lobster, and classic desserts at no extra cover charge."
+      },
+      {
+        "title": "Toscana Italian Ristorante",
+        "description": "Handmade pasta, regional risottos, and Italian seafood specialties included across all eligible ships."
+      },
+      {
+        "title": "Jacques French Bistro",
+        "description": "Celebrated Parisian dining inspired by Master Chef Jacques Pépin included on Marina, Riviera, Vista, and Allura."
+      },
+      {
+        "title": "Red Ginger Pan-Asian",
+        "description": "Contemporary Asian cuisine and sushi selections included on Marina, Riviera, Vista, Allura, and Sirena."
+      },
+      {
+        "title": "Tuscan Steak (Sirena)",
+        "description": "Signature Italian steakhouse dining included without cover charge on Oceania Sirena."
+      }
+    ],
+    "extras": [
+      {
+        "title": "La Reserve by Wine Spectator",
+        "description": "Exclusive multi-course dinners paired with rare vintage wines (available on Marina and Riviera for an additional fee)."
+      },
+      {
+        "title": "Privée Private Dining Room",
+        "description": "An opulent private dining venue for up to 10 guests featuring a bespoke custom menu and dedicated service."
+      },
+      {
+        "title": "Dom Pérignon Experience",
+        "description": "A six-course degustation dinner paired with different vintages of Dom Pérignon Champagne."
+      },
+      {
+        "title": "Culinary Center Cooking Classes",
+        "description": "Hands-on culinary workstation classes taught by master chef instructors (nominal participation fee)."
+      },
+      {
+        "title": "Premium Wine & Spirit Packages",
+        "description": "Top-shelf spirits, reserve cellar wines, and premium cocktails outside standard promotional inclusions."
+      }
+    ]
+  },
+  "reservationsGuide": {
+    "title": "How Do Oceania Cruises Dining Reservations Work?",
+    "subtitle": "A PRACTICAL 4-PHASE GUIDE TO PLANNING YOUR SPECIALTY SEATINGS",
+    "steps": [
+      {
+        "title": "Before Booking: Evaluate Ship Restaurant Lineups",
+        "description": "Compare vessel layouts to ensure your preferred specialty venues (such as Jacques, Red Ginger, or Aquamar Kitchen) are featured on the ship you plan to sail."
+      },
+      {
+        "title": "After Booking: Check Stateroom Booking Windows",
+        "description": "Specialty dining reservation windows open online prior to departure based on accommodation tier (Suites receive the earliest priority window, followed by Concierge and Veranda)."
+      },
+      {
+        "title": "Pre-Departure: Reserve Through Oceania's Portal",
+        "description": "Log into your Oceania account to secure one reservation in each included specialty restaurant for your sailing, selecting preferred dining times and party sizes."
+      },
+      {
+        "title": "Once Onboard: Request Additional Visits & Table Preferences",
+        "description": "Visit the dining reservations desk on embarkation day to request second visits or adjust seating times. Maitre d's accommodate walk-ins and additional bookings subject to nightly capacity."
+      }
+    ]
+  },
+  "diningFlexibility": {
+    "title": "Open-Seating Freedom & Complimentary In-Room Dining",
+    "subtitle": "ELEVATING FLEXIBILITY WITHOUT RIGID SCHEDULES",
+    "cards": [
+      {
+        "title": "Open-Seating Dining Benefits",
+        "items": [
+          "Dine whenever you wish during open restaurant hours without rigid fixed early or late seating assignments.",
+          "Perfect flexibility around long port days, sunset sailaways, and evening shore excursions.",
+          "Freedom to choose a table for two, join a lively table of new friends, or dine with traveling companions.",
+          "The Grand Dining Room and Terrace Café never require advance bookings—simply arrive when ready.",
+          "Enjoy diverse dining styles nightly, from a quick poolside grill lunch to a relaxed 4-course banquet."
+        ]
+      },
+      {
+        "title": "Complimentary 24-Hour Room Service & Suite Perks",
+        "items": [
+          "Complimentary around-the-clock in-room dining available to every stateroom and suite category.",
+          "Order hot breakfasts, crisp salads, Angus burgers, and desserts directly to your private veranda.",
+          "Concierge Level and Suites enjoy an expanded room-service menu ordered directly from The Grand Dining Room.",
+          "Penthouse and upper suite guests receive full course-by-course in-suite dining served by a dedicated butler.",
+          "Ideal for early excursion departures, quiet romantic evenings, or dining under the stars on your veranda."
+        ]
+      }
+    ]
+  },
+  "dietaryFacts": {
+    "title": "Dietary Accommodations & Wellness Cuisine",
+    "items": [
+      {
+        "label": "Wellness Venue",
+        "value": "Aquamar Kitchen",
+        "description": "Dedicated clean-eating venue serving smoothie bowls, avocado toast, poke, and fresh juices on Vista, Allura, and Marina."
+      },
+      {
+        "label": "Plant-Forward",
+        "value": "Vegetarian & Vegan",
+        "description": "Vast plant-based menu selections featured daily in The Grand Dining Room and Terrace Café with chef-curated plant recipes."
+      },
+      {
+        "label": "Allergy Protocols",
+        "value": "Gluten & Celiac Safe",
+        "description": "Strict galley cross-contact controls for gluten-free, dairy-free, nut-free, and medically restricted dietary requirements."
+      },
+      {
+        "label": "Advance Protocol",
+        "value": "Chef Coordination",
+        "description": "Guests submit dietary requests before sailing and meet with the Executive Chef upon boarding to customize meals."
+      }
+    ]
+  },
+  "dressCode": {
+    "title": "What Is the Dress Code for Oceania Cruises Restaurants?",
+    "subtitle": "REFINED COUNTRY-CLUB CASUAL: ELEGANCE WITHOUT FORMAL GOWNS OR TUXEDOS",
+    "categories": [
+      {
+        "id": "daytime",
+        "title": "Daytime & Casual Venues",
+        "description": "Relaxed resort wear throughout the day at Terrace Café, Waves Grill, and open decks.",
+        "items": [
+          "Casual shorts, polo shirts, sundresses, and swimwear cover-ups on outdoor decks",
+          "Footwear and shirts are required when entering indoor dining areas",
+          "Swimwear, bathrobes, and wet pool clothing are never permitted inside restaurants",
+          "Athletic and fitness attire is welcome at Aquamar Kitchen during breakfast and lunch"
+        ]
+      },
+      {
+        "id": "onboard",
+        "title": "Afternoon Tea & Lounges",
+        "description": "Polished resort attire for traditional Afternoon Tea and Baristas coffee bar.",
+        "items": [
+          "Comfortable, smart daytime clothing suitable for elegant lounge settings",
+          "Crisp linen shirts, tailored shorts or trousers, and casual dresses",
+          "Dry, tasteful footwear appropriate for indoor afternoon hospitality"
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Evening Fine Dining (6:00 PM Onward)",
+        "description": "Smart country-club casual in The Grand Dining Room and all specialty restaurants.",
+        "items": [
+          "Collared shirts, button-downs, or dress polos with slacks or khakis for men",
+          "Elegant blouses, dresses, skirts, or tailored pantsuits for women",
+          "Jackets are optional and welcomed, but formal ties, tuxedos, and gowns are never required",
+          "Jeans, baseball caps, t-shirts, athletic wear, and flip-flops are prohibited in evening venues"
+        ]
+      }
+    ]
+  },
+  "luxuryComparison": {
+    "title": "Oceania Cruises Dining Compared With Other Luxury Lines",
+    "subtitle": "BENCHMARKING CULINARY QUALITY, RESTAURANT VARIETY & FARE INCLUSIONS",
+    "headers": ["Cruise Line", "Dining Style & Inclusions", "Key Considerations for Food Lovers"],
+    "rows": [
+      [
+        "Oceania Cruises",
+        "Master Chef Jacques Pépin culinary leadership, multiple signature specialty restaurants included with zero cover fees, open seating.",
+        "The gold standard for food-focused travelers who desire restaurant variety (French, Steakhouse, Italian, Pan-Asian) without cover fees."
+      ],
+      [
+        "Regent Seven Seas",
+        "Ultra-all-inclusive fine dining with specialty venues (Prime 7, Chartreuse, Pacific Rim) included in the comprehensive ticket fare.",
+        "Comparable culinary excellence with fine wines included; higher upfront cruise fare encompasses unlimited excursions and airfare."
+      ],
+      [
+        "Viking Ocean Cruises",
+        "Nordic-inspired understated dining, Manfredi's Italian, Chef's Table tasting menus, open-seating included without surcharge.",
+        "Fewer total restaurant concepts than Oceania's large ships, but very consistent culinary delivery and relaxed dress codes."
+      ],
+      [
+        "Seabourn",
+        "Intimate luxury dining with bespoke chef creations, Earth & Ocean alfresco dining, complimentary caviar and fine spirits.",
+        "Smaller yacht-like fleet means fewer distinct specialty restaurant spaces, but highly individualized personalized service."
+      ],
+      [
+        "Silversea Cruises",
+        "S.A.L.T. (Sea and Land Taste) culinary program with regional chef menus, La Terrazza, and specialty dining venues.",
+        "S.A.L.T. offers deep immersion into local destination food cultures; certain top-tier venues like La Dame carry cover fees."
+      ]
+    ]
+  },
+  "foodLoversVerdict": {
+    "title": "Is Oceania Cruises Good for Food Lovers?",
+    "subtitle": "WHY SERIOUS EPICUREANS CONSISTENTLY RANK OCEANIA AT THE TOP",
+    "pillars": [
+      {
+        "icon": "star",
+        "title": "Jacques Pépin Culinary Heritage",
+        "description": "Oceania allocates the highest culinary spend per guest of any cruise line, overseen by Master Chef Jacques Pépin and world-class Executive Chefs."
+      },
+      {
+        "icon": "ship",
+        "title": "Zero Restaurant Surcharges",
+        "description": "Enjoy dry-aged steaks, Maine lobster, and Peking duck in dedicated specialty venues without paying $50–$100 cover charges per meal."
+      },
+      {
+        "icon": "compass",
+        "title": "Destination-Driven Sourcing",
+        "description": "Chefs regularly visit local markets in Mediterranean, Baltic, and Asian ports of call to procure fresh seafood, seasonal fruits, and regional cheeses."
+      },
+      {
+        "icon": "window",
+        "title": "The Culinary Center",
+        "description": "Marina, Riviera, Vista, and Allura feature hands-on teaching cooking stations where guests prepare authentic regional recipes guided by master chefs."
+      }
+    ]
+  },
+  "diningTips": {
+    "title": "10 Expert Tips for Getting the Most From Oceania Dining",
+    "subtitle": "INSIDER STRATEGIES FROM OUR LUXURY CRUISE ADVISORS",
+    "items": [
+      {
+        "title": "Review Ship Lineup First",
+        "description": "Do not assume every ship has identical restaurants. Allura and Vista feature Aquamar Kitchen and Jacques, while Sirena features Tuscan Steak."
+      },
+      {
+        "title": "Reserve Early Online",
+        "description": "Book your specialty dining reservations as soon as your stateroom booking window opens to secure your preferred dining times and tables."
+      },
+      {
+        "title": "Explore Every Cuisine",
+        "description": "Rotate between Italian at Toscana, French classics at Jacques, steaks at Polo Grill, and Asian specialties at Red Ginger during your cruise."
+      },
+      {
+        "title": "Use Casual Venues on Port Days",
+        "description": "Terrace Café and Waves Grill provide quick, high-quality dining that easily fits around demanding shore excursion departures."
+      },
+      {
+        "title": "Check Daily Current Schedules",
+        "description": "Consult the onboard Currents newsletter for opening hours, specialty dessert nights, and Horizon Lounge afternoon tea timings."
+      },
+      {
+        "title": "Communicate Dietary Needs",
+        "description": "Register allergies or dietary restrictions with Oceania in advance and meet the galley team upon boarding to arrange customized meals."
+      },
+      {
+        "title": "Savor Destination Menus",
+        "description": "Look for locally inspired dishes in The Grand Dining Room highlighting regional ingredients sourced directly from ports along your route."
+      },
+      {
+        "title": "Understand Wine Inclusions",
+        "description": "Standard specialty meals are included, but premium cellar wines, wine-pairing degustations, and reserve spirits carry separate charges."
+      },
+      {
+        "title": "Leverage Suite Veranda Dining",
+        "description": "If booked in Concierge Level or Suites, take advantage of Grand Dining Room course-by-course room service on your private teak balcony."
+      },
+      {
+        "title": "Inquire About Extra Seatings",
+        "description": "Onboard maitre d's often have cancellation slots available. Stop by the dining desk on embarkation day to request second visits."
+      }
+    ]
+  },
+  "isItWorthIt": {
+    "title": "Is Oceania Cruises Dining Worth It?",
+    "brandA": {
+      "name": "Oceania Dining is an Ideal Fit If You:",
+      "features": [
+        "Prioritize exceptional culinary quality, fresh ingredients, and fine dining presentation",
+        "Want full access to specialty steakhouses, Italian, French, and Asian venues without paying cover charges",
+        "Value the flexibility of open-seating dining rather than rigid assigned dinner times",
+        "Appreciate country-club casual elegance without packing tuxedos or formal evening gowns",
+        "Enjoy complimentary espresso drinks, afternoon tea, and 24-hour in-room dining included"
+      ]
+    },
+    "brandB": {
+      "name": "Consider Alternative Options If You:",
+      "features": [
+        "Expect 8+ specialty restaurants on smaller R-Class ships (Nautica, Insignia, Sirena)",
+        "Prefer massive 24-hour midnight buffet operations found on mega-ships",
+        "Demand that rare vintage wine-pairing dinners (like Dom Pérignon) be included free of charge",
+        "Insist on wearing athletic shorts or graphic t-shirts in formal evening dining salons"
+      ]
+    }
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "OCEANIA ELITE CRUISE SPECIALIST",
+      "authorityBoxTitle": "Need Expert Guidance on Oceania Dining & Ship Selection?",
+      "authoritySubtitle": "Angela Hughes — Luxury Cruise Specialist & Founder of Trips & Ships Luxury Travel",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Oceania Elite Cruise Advisor",
+      "experienceBadge": "40+ Years Luxury Travel Experience",
+      "bio": "Angela Hughes has sailed extensively aboard Oceania's fleet, helping food lovers match the right vessel, suite category, and dining itineraries to their culinary expectations.",
+      "quote": "Oceania's culinary program is genuinely in a class of its own. Not only is the food prepared to the exact standard of a Michelin-starred European bistro, but having all signature specialty restaurants included in your cruise fare without extra cover fees makes Oceania one of the smartest investments in luxury travel.",
+      "quoteSubtitle": "A Personal Note on Oceania's Culinary Excellence",
+      "credentials": [
+        "Certified Oceania Cruises Elite Master Advisor",
+        "Recognized Luxury Travel Expert & Condé Nast Traveler Top Specialist",
+        "Personal experience dining across every Oceania ship class and restaurant venue",
+        "Dedicated VIP dining reservation concierge service for client itineraries"
+      ],
+      "ctaText": "Plan Your Oceania Cruise With Angela",
+      "ctaLink": "/contact"
+    }
+  },
+  "centerCta": {
+    "title": "Ready to Experience The Finest Cuisine at Sea®?",
+    "subtitle": "Let Trips & Ships Luxury Travel guide your Oceania ship selection, suite category, and priority specialty dining reservations.",
+    "primaryCtaText": "Plan Your Oceania Voyage",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore All Oceania Cruises",
+    "secondaryCtaLink": "/oceania-cruises"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Cruises Dining",
+    "subtitle": "EVERYTHING YOU NEED TO KNOW ABOUT RESTAURANTS, MENUS & RESERVATIONS",
+    "questions": [
+      {
+        "question": "Is dining included on Oceania Cruises?",
+        "answer": "Yes. Most regular dining venues, including the main dining room, casual restaurants and regular specialty restaurants, are included in the cruise fare. Certain premium culinary experiences and optional purchases may cost extra."
+      },
+      {
+        "question": "Are specialty restaurants free on Oceania Cruises?",
+        "answer": "Oceania generally includes its regular specialty restaurant dining without a separate cover charge. Reservations are required at selected venues, and availability depends on the ship and sailing."
+      },
+      {
+        "question": "How many restaurants are on an Oceania cruise ship?",
+        "answer": "The number varies by ship. Newer and larger ships (Allura, Vista, Marina, Riviera) generally offer 7 to 9 dining venues, while smaller R-Class ships (Nautica, Insignia, Sirena) feature a more compact lineup of 4 to 5 dining options."
+      },
+      {
+        "question": "Which Oceania ship has the best restaurants?",
+        "answer": "Allura and Vista offer Oceania's most extensive culinary lineups, featuring Aquamar Kitchen, Jacques, Red Ginger, Polo Grill, Toscana, and Ember alongside The Grand Dining Room. Marina and Riviera also offer exceptional dining variety."
+      },
+      {
+        "question": "Does Oceania Cruises have a steakhouse?",
+        "answer": "Yes. Polo Grill is Oceania's traditional steakhouse on several ships, serving 28-day dry-aged USDA Prime beef and Maine lobster. Oceania Sirena features Tuscan Steak, which combines steakhouse cuts with Italian regional specialties."
+      },
+      {
+        "question": "Does Oceania Cruises have an Italian restaurant?",
+        "answer": "Yes. Toscana is Oceania's signature Italian specialty restaurant on selected ships. It features regional Italian dishes, handmade pasta, risotto, fresh Mediterranean seafood, and traditional desserts served on custom Versace china."
+      },
+      {
+        "question": "Does Oceania Cruises have a French restaurant?",
+        "answer": "Yes. Jacques is a celebrated French-inspired specialty restaurant available on selected ships, including Marina, Riviera, Vista, and Allura, featuring recipes curated by founding Executive Culinary Director Jacques Pépin."
+      },
+      {
+        "question": "Does Oceania Cruises have an Asian restaurant?",
+        "answer": "Yes. Red Ginger offers contemporary Asian cuisine on Marina, Riviera, Vista, Allura, and Sirena, featuring bold flavors inspired by Thai, Malaysian, Japanese, and Vietnamese culinary traditions."
+      },
+      {
+        "question": "Are Oceania Cruises dining reservations required?",
+        "answer": "Reservations are generally required for specialty restaurants such as Polo Grill, Toscana, Jacques, Red Ginger, and Tuscan Steak. The Grand Dining Room, Terrace Café, Waves Grill, and Aquamar Kitchen do not require reservations."
+      },
+      {
+        "question": "Can you make dining reservations before boarding?",
+        "answer": "Yes. Specialty restaurant reservations open online prior to departure based on accommodation tier. Suites receive the earliest booking window, followed by Concierge Level Veranda staterooms and standard Verandas."
+      },
+      {
+        "question": "Can you eat at specialty restaurants more than once?",
+        "answer": "Yes, depending on sailing length and reservation availability. Guests can secure one reservation in each included specialty restaurant in advance, and request additional bookings with the onboard maître d' upon embarkation."
+      },
+      {
+        "question": "Does Oceania Cruises offer open seating?",
+        "answer": "Yes. The Grand Dining Room generally uses open seating, allowing guests to dine anytime during operating hours without a traditional fixed early or late dinner assignment. Specialty restaurants require specific reservation times."
+      },
+      {
+        "question": "Does Oceania Cruises offer room service?",
+        "answer": "Yes. Complimentary 24-hour in-room dining is available for all guests. Concierge Level and suite guests enjoy expanded room-service selections ordered directly from The Grand Dining Room, with full course-by-course butler service in Penthouse Suites and above."
+      },
+      {
+        "question": "Does Oceania Cruises offer vegetarian meals?",
+        "answer": "Yes. Vegetarian and plant-forward selections are available across all dining venues. The Grand Dining Room features dedicated vegetarian menus, and Aquamar Kitchen specializes in wellness-focused plant-forward cuisine."
+      },
+      {
+        "question": "Does Oceania Cruises offer vegan meals?",
+        "answer": "Yes. Plant-based dishes are available fleet-wide. Guests following a strict vegan diet should communicate their requirements prior to sailing and verify individual recipes with the onboard culinary team."
+      },
+      {
+        "question": "Can Oceania accommodate gluten-free diets?",
+        "answer": "Yes. Guests can communicate gluten-free dietary requirements to Oceania before departure. The culinary staff prepares gluten-free bread, pasta, and custom entrées with strict cross-contact precautions."
+      },
+      {
+        "question": "Does Oceania Cruises accommodate food allergies?",
+        "answer": "Yes. Guests should disclose food allergies in advance and consult with the dining staff upon embarkation. The Executive Chef and restaurant managers review ingredients and preparation methods for each meal."
+      },
+      {
+        "question": "Is alcohol included with dining on Oceania Cruises?",
+        "answer": "Oceania's Your World Included program includes selected wine and beer by the glass during restaurant lunch and dinner hours when that option is selected. Premium spirits, reserve cellar wines, and drinks outside dining hours may carry extra charges."
+      },
+      {
+        "question": "Does Oceania Cruises have a buffet?",
+        "answer": "Yes. Terrace Café is the main casual buffet-style restaurant, offering made-to-order breakfast, extensive international lunch selections, and evening grilled seafood and steaks with indoor and alfresco terrace seating."
+      },
+      {
+        "question": "Does Oceania Cruises have a poolside restaurant?",
+        "answer": "Yes. Waves Grill provides casual poolside dining, featuring gourmet Kobe burgers, grilled seafood, fresh salads, milkshakes, and artisanal gelato by the scoop."
+      }
+    ]
+  }
+}

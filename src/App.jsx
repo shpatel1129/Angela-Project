@@ -216,6 +216,51 @@ import SoloTravelOffers from "./pages/LuxurySoloWomenTravel/SoloTravelOffers/Sol
 // import WomenOver50 from "./pages/LuxurySoloWomensTravel/WomenOver50/WomenOver50";
 // import BestDestinations from "./pages/LuxurySoloWomensTravel/BestDestinations/BestDestinations";
 
+// Celebrity Cruises Pages
+import CelebrityCruisesGuide from "./pages/CelebrityCruisePages/CelebrityCruise/CelebrityCruises";
+import CelebrityAquaClassVsConciergeVsVeranda from "./pages/CelebrityCruisePages/CelebrityAquaClassVsConciergeVsVeranda/CelebrityAquaClassVsConciergeVsVeranda";
+import CelebrityCaptainsClub from "./pages/CelebrityCruisePages/CelebrityCaptainsClub/CelebrityCaptainsClub";
+import CelebrityCruiseCost from "./pages/CelebrityCruisePages/CelebrityCruiseCost/CelebrityCruiseCost";
+import CelebrityDressCode from "./pages/CelebrityCruisePages/CelebrityDressCode/CelebrityDressCode";
+import CelebrityFamilies from "./pages/CelebrityCruisePages/CelebrityFamilies/CelebrityFamilies";
+import CelebrityGratuities from "./pages/CelebrityCruisePages/CelebrityGratuities/CelebrityGratuities";
+import CelebrityInfiniteVerandaVsBalcony from "./pages/CelebrityCruisePages/CelebrityInfiniteVerandaVsBalcony/CelebrityInfiniteVerandaVsBalcony";
+import CelebrityShipClasses from "./pages/CelebrityCruisePages/CelebrityShipClasses/CelebrityShipClasses";
+import CelebritySoloTravelers from "./pages/CelebrityCruisePages/CelebritySoloTravelers/CelebritySoloTravelers";
+import CelebrityStaterooms from "./pages/CelebrityCruisePages/CelebrityStaterooms/CelebrityStaterooms";
+import CelebrityTheRetreat from "./pages/CelebrityCruisePages/CelebrityTheRetreat/CelebrityTheRetreat";
+import CelebrityVsHollandAmerica from "./pages/CelebrityCruisePages/CelebrityVsHollandAmerica/CelebrityVsHollandAmerica";
+import CelebrityWifi from "./pages/CelebrityCruisePages/CelebrityWifi/CelebrityWifi";
+import IsCelebrityWorthIt from "./pages/CelebrityCruisePages/IsCelebrityWorthIt/IsCelebrityWorthIt";
+
+// Oceania Cruises Pages
+import OceaniaCruises from "./pages/OceniaCruise/OceaniaCruises/OceaniaCruises";
+import OceaniaAlaska from "./pages/OceniaCruise/OceaniaAlaska/OceaniaAlaska";
+import OceaniaClub from "./pages/OceniaCruise/OceaniaClub/OceaniaClub";
+import OceaniaConciergeVsVeranda from "./pages/OceniaCruise/OceaniaConciergeVsVeranda/OceaniaConciergeVsVeranda";
+import OceaniaCruiseCost from "./pages/OceniaCruise/OceaniaCruiseCost/OceaniaCruiseCost";
+import OceaniaCruiseShips from "./pages/OceniaCruise/OceaniaCruiseShips/OceaniaCruiseShips";
+import OceaniaCruiseWhatsIncluded from "./pages/OceniaCruise/OceaniaCruiseWhatsIncluded/OceaniaCruiseWhatsIncluded";
+import OceaniaCruiseWorthIt from "./pages/OceniaCruise/OceaniaCruiseWorthIt/OceaniaCruiseWorthIt";
+import OceaniaDining from "./pages/OceniaCruise/OceaniaDining/OceaniaDining";
+import OceaniaDressCode from "./pages/OceniaCruise/OceaniaDressCode/OceaniaDressCode";
+import OceaniaDrinkPackages from "./pages/OceniaCruise/OceaniaDrinkPackages/OceaniaDrinkPackages";
+import OceaniaGratuities from "./pages/OceniaCruise/OceaniaGratuities/OceaniaGratuities";
+import OceaniaMediterranean from "./pages/OceniaCruise/OceaniaMediterranean/OceaniaMediterranean";
+import OceaniaNorthernEurope from "./pages/OceniaCruise/OceaniaNorthernEurope/OceaniaNorthernEurope";
+import OceaniaPenthouseSuites from "./pages/OceniaCruise/OceaniaPenthouseSuites/OceaniaPenthouseSuites";
+import OceaniaShipClasses from "./pages/OceniaCruise/OceaniaShipClasses/OceaniaShipClasses";
+import OceaniaShoreExcursions from "./pages/OceniaCruise/OceaniaShoreExcursions/OceaniaShoreExcursions";
+import OceaniaSoloTravelers from "./pages/OceniaCruise/OceaniaSoloTravelers/OceaniaSoloTravelers";
+import OceaniaSpecialtyDining from "./pages/OceniaCruise/OceaniaSpecialtyDining/OceaniaSpecialtyDining";
+import OceaniaStateroomsAndSuites from "./pages/OceniaCruise/OceaniaStateroomsAndSuites/OceaniaStateroomsAndSuites";
+import OceaniaVsAzamara from "./pages/OceniaCruise/OceaniaVsAzamara/OceaniaVsAzamara";
+import OceaniaVsCelebrity from "./pages/OceniaCruise/OceaniaVsCelebrity/OceaniaVsCelebrity";
+import OceaniaVsRegent from "./pages/OceniaCruise/OceaniaVsRegent/OceaniaVsRegent";
+import OceaniaVsViking from "./pages/OceniaCruise/OceaniaVsViking/OceaniaVsViking";
+import OceaniaWifi from "./pages/OceniaCruise/OceaniaWifi/OceaniaWifi";
+import OceaniaWorldCruises from "./pages/OceniaCruise/OceaniaWorldCruises/OceaniaWorldCruises";
+
 
 
 
@@ -758,6 +803,51 @@ function App() {
           {/* <Route path="/luxury-solo-womens-travel/women-only-tours" element={<WomenOnlyTours />} />
           <Route path="/luxury-solo-womens-travel/women-over-50" element={<WomenOver50 />} />
           <Route path="/luxury-solo-womens-travel/best-destinations" element={<BestDestinations />} /> */}
+
+          {/* Celebrity Cruises Routes */}
+          <Route path="/celebrity-cruises" element={<CelebrityCruisesGuide />} />
+          <Route path="/celebrity-cruises/aquaclass-vs-concierge-vs-veranda" element={<CelebrityAquaClassVsConciergeVsVeranda />} />
+          <Route path="/celebrity-cruises/captains-club" element={<CelebrityCaptainsClub />} />
+          <Route path="/celebrity-cruises/cost" element={<CelebrityCruiseCost />} />
+          <Route path="/celebrity-cruises/dress-code" element={<CelebrityDressCode />} />
+          <Route path="/celebrity-cruises/families" element={<CelebrityFamilies />} />
+          <Route path="/celebrity-cruises/gratuities" element={<CelebrityGratuities />} />
+          <Route path="/celebrity-cruises/infinite-veranda-vs-balcony" element={<CelebrityInfiniteVerandaVsBalcony />} />
+          <Route path="/celebrity-cruises/ship-classes" element={<CelebrityShipClasses />} />
+          <Route path="/celebrity-cruises/solo-travelers" element={<CelebritySoloTravelers />} />
+          <Route path="/celebrity-cruises/staterooms" element={<CelebrityStaterooms />} />
+          <Route path="/celebrity-cruises/the-retreat" element={<CelebrityTheRetreat />} />
+          <Route path="/celebrity-cruises/celebrity-vs-holland-america" element={<CelebrityVsHollandAmerica />} />
+          <Route path="/celebrity-cruises/wifi" element={<CelebrityWifi />} />
+          <Route path="/celebrity-cruises/is-it-worth-it" element={<IsCelebrityWorthIt />} />
+
+          {/* Oceania Cruises Routes */}
+          <Route path="/oceania-cruises" element={<OceaniaCruises />} />
+          <Route path="/oceania-cruises/alaska" element={<OceaniaAlaska />} />
+          <Route path="/oceania-cruises/oceania-club" element={<OceaniaClub />} />
+          <Route path="/oceania-cruises/concierge-vs-veranda" element={<OceaniaConciergeVsVeranda />} />
+          <Route path="/oceania-cruises/cost" element={<OceaniaCruiseCost />} />
+          <Route path="/oceania-cruises/ships" element={<OceaniaCruiseShips />} />
+          <Route path="/oceania-cruises/whats-included" element={<OceaniaCruiseWhatsIncluded />} />
+          <Route path="/oceania-cruises/is-it-worth-it" element={<OceaniaCruiseWorthIt />} />
+          <Route path="/oceania-cruises/dining" element={<OceaniaDining />} />
+          <Route path="/oceania-cruises/dress-code" element={<OceaniaDressCode />} />
+          <Route path="/oceania-cruises/drink-packages" element={<OceaniaDrinkPackages />} />
+          <Route path="/oceania-cruises/gratuities" element={<OceaniaGratuities />} />
+          <Route path="/oceania-cruises/mediterranean" element={<OceaniaMediterranean />} />
+          <Route path="/oceania-cruises/northern-europe" element={<OceaniaNorthernEurope />} />
+          <Route path="/oceania-cruises/penthouse-suites" element={<OceaniaPenthouseSuites />} />
+          <Route path="/oceania-cruises/ship-classes" element={<OceaniaShipClasses />} />
+          <Route path="/oceania-cruises/shore-excursions" element={<OceaniaShoreExcursions />} />
+          <Route path="/oceania-cruises/solo-travelers" element={<OceaniaSoloTravelers />} />
+          <Route path="/oceania-cruises/specialty-dining" element={<OceaniaSpecialtyDining />} />
+          <Route path="/oceania-cruises/staterooms-and-suites" element={<OceaniaStateroomsAndSuites />} />
+          <Route path="/oceania-cruises/oceania-vs-azamara" element={<OceaniaVsAzamara />} />
+          <Route path="/oceania-cruises/oceania-vs-celebrity" element={<OceaniaVsCelebrity />} />
+          <Route path="/oceania-cruises/oceania-vs-regent" element={<OceaniaVsRegent />} />
+          <Route path="/oceania-cruises/oceania-vs-viking" element={<OceaniaVsViking />} />
+          <Route path="/oceania-cruises/wifi" element={<OceaniaWifi />} />
+          <Route path="/oceania-cruises/world-cruises" element={<OceaniaWorldCruises />} />
 
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "title": "Oceania Cruises Wi-Fi: What's Included, Costs & Packages",
+    "description": "Discover what's included with Oceania Cruises Wi-Fi, how Starlink works, streaming upgrade prices, device limits, cellular options and internet tips for your cruise.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/wifi",
+    "primaryKeyword": "Oceania Cruises Wi-Fi",
+    "secondaryKeywords": [
+      "Oceania Cruises internet package",
+      "Oceania Cruises Wi-Fi cost",
+      "Oceania Starlink internet",
+      "Oceania Cruises streaming package",
+      "Oceania Cruises internet speed",
+      "Oceania Cruises Wi-Fi devices"
+    ],
+    "publishDate": "2025-02-15",
+    "updated": "2026-03-30"
+  },
+  "hero": {
+    "title": "Oceania Cruises Wi-Fi",
+    "subtitle": "INCLUSIONS, PACKAGES & WHAT TO EXPECT",
+    "description": "Oceania Cruises includes complimentary Starlink Wi-Fi on all ships, providing two logins per stateroom. Discover speed capabilities, streaming upgrade costs, device switching rules, and how to avoid maritime cellular roaming charges.",
+    "badge": "COMPLETE WI-FI & INTERNET GUIDE",
+    "primaryCtaText": "Explore Inclusions",
+    "primaryCtaLink": "#included-wifi",
+    "secondaryCtaText": "Speak with an Oceania Specialist",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "ONBOARD CONNECTIVITY OVERVIEW",
+    "heading": "Does Oceania Cruises Include Wi-Fi?",
+    "paragraphs": [
+      "Yes. Oceania Cruises includes complimentary Starlink Wi-Fi in its cruise fare on all ships. Eligible guests receive two complimentary Wi-Fi logins per stateroom or suite, with each login usable on one device at a time. Solo travelers receive one complimentary login with access to two devices.",
+      "The included service supports everyday internet activities such as browsing, email, messaging, and general online access. However, streaming music, movies, and sporting events through entertainment apps requires a separate streaming upgrade.",
+      "Oceania also offers additional logins for third and fourth guests sharing a stateroom or suite, subject to an onboard charge. For most travelers, the included Wi-Fi is sufficient for staying in touch, checking email, browsing websites, and keeping up with everyday online activities."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania Cruises Wi-Fi at a Glance",
+    "subtitle": "KEY INCLUSIONS, LOGINS, UPGRADES & POLICIES",
+    "headers": ["Wi-Fi Feature", "What to Expect"],
+    "rows": [
+      ["Standard Wi-Fi", "Complimentary on all sailings under Your World Included"],
+      ["Network technology", "SpaceX Starlink high-speed low-latency satellite internet"],
+      ["Fleet availability", "Installed and operational across all Oceania ships"],
+      ["Complimentary logins", "Two logins per stateroom or suite (1 device active per login)"],
+      ["Solo traveler allowance", "One complimentary login with access to two devices"],
+      ["Simultaneous device use", "One device per login at a time (disconnect before switching)"],
+      ["Additional 3rd/4th guest login", "$24.99 per day"],
+      ["Streaming upgrade (up to 29 days)", "$19.99 per day"],
+      ["Streaming upgrade (30+ days)", "$14.99 per day"],
+      ["Wi-Fi coverage area", "Ship-wide: staterooms, suites, public lounges, restaurants, and open decks"]
+    ]
+  },
+  "includedWifiPillars": {
+    "title": "What Is Included in Oceania Cruises Wi-Fi?",
+    "intro": [
+      "Oceania includes complimentary Wi-Fi as an always-included benefit of its Your World Included program.",
+      "The service is engineered to keep guests connected throughout their voyage without requiring the purchase of a standard daily internet package."
+    ],
+    "items": [
+      {
+        "title": "1. Complimentary Starlink Satellite Connectivity",
+        "paragraphs": [
+          "Oceania has completed the fleet-wide installation of SpaceX's Starlink satellite internet network.",
+          "Starlink's constellation of low-Earth-orbit satellites offers significantly lower latency and faster response times than legacy geostationary maritime systems.",
+          "Guests enjoy faster loading speeds for web pages, responsive messaging, and reliable email access across all corners of the globe."
+        ],
+        "lists": [
+          {
+            "title": "Fleet-Wide Availability",
+            "items": [
+              "Available on Allura, Vista, Marina, Riviera, Nautica, Insignia, and Sirena",
+              "Operates while sailing open ocean waters and while docked in global ports",
+              "Delivers steady connectivity for news, online banking, and personal correspondence",
+              "Performance dynamically adjusts based on atmospheric conditions and ship positioning"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Two Complimentary Logins Per Stateroom",
+        "paragraphs": [
+          "Oceania provides two separate complimentary login credentials for each stateroom or suite.",
+          "Each login supports one active device connection simultaneously, allowing couples to both stay connected on their respective devices at the same time.",
+          "If a traveler wants to switch from a smartphone to an iPad or laptop, they simply disconnect from the first device before logging in on the second."
+        ],
+        "lists": [
+          {
+            "title": "Login Rules & Device Sharing",
+            "items": [
+              "Login 1 can connect a smartphone while Login 2 connects a laptop simultaneously",
+              "No daily time limits, megabyte data caps, or metered minute counting",
+              "Unused logins cannot be pooled or transferred between cabins",
+              "Additional simultaneous logins can be purchased onboard if needed"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Complimentary Wi-Fi for Solo Travelers",
+        "paragraphs": [
+          "Recognizing the needs of solo guests, Oceania provides a tailored connectivity allowance for individual travelers.",
+          "Guests sailing solo receive one complimentary login credential that supports access for two devices.",
+          "This allows solo travelers to keep both their smartphone and their tablet or laptop connected simultaneously without purchasing upgrades."
+        ],
+        "lists": [
+          {
+            "title": "Solo Traveler Benefits",
+            "items": [
+              "Applies to guests booked in dedicated Solo Veranda categories or single-supplement fares",
+              "Dual-device simultaneous access on a single master login",
+              "Included automatically in the cruise fare under Your World Included",
+              "Can be upgraded to streaming at the standard daily rate if desired"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Comprehensive Ship-Wide Coverage",
+        "paragraphs": [
+          "Oceania's Wi-Fi network extends across the entire ship with enterprise-grade wireless access points installed throughout all decks.",
+          "Guests can check messages from the comfort of their private veranda, browse news over an espresso at Baristas, or relax by the pool at Waves Grill.",
+          "The ship's dedicated onboard internet team is available daily to assist with device configuration and connectivity."
+        ],
+        "lists": [
+          {
+            "title": "Coverage Areas",
+            "items": [
+              "All guest staterooms, suites, and private teak verandas",
+              "Public salons, Grand Dining Room, specialty restaurants, and Baristas coffee bar",
+              "Horizon Lounge, Martinis Bar, library, and pool decks",
+              "Onboard computer workstations available in the internet center for guest convenience"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "onlineActivitiesSplit": {
+    "title": "What Can You Do With Complimentary Wi-Fi vs. Streaming?",
+    "subtitle": "EVERYDAY BROWSING INCLUSIONS VS. BANDWIDTH-INTENSIVE STREAMING UPGRADES",
+    "includedTitle": "Included with Standard Complimentary Wi-Fi",
+    "extrasTitle": "Requires Paid Streaming Upgrade ($14.99–$19.99/day)",
+    "included": [
+      {
+        "title": "Email & Messaging Apps",
+        "description": "Checking and sending emails (Gmail, Outlook), text messaging via WhatsApp, iMessage, and SMS."
+      },
+      {
+        "title": "Web Browsing & Online News",
+        "description": "Browsing websites, reading digital newspapers, travel blogs, weather forecasts, and destination guides."
+      },
+      {
+        "title": "Social Media Feeds",
+        "description": "Scrolling feeds on Facebook, Instagram, LinkedIn, and X (Twitter) for general updates and text posts."
+      },
+      {
+        "title": "Banking & Essential Travel Apps",
+        "description": "Accessing online banking, airline apps, mobile boarding passes, and currency converter tools."
+      },
+      {
+        "title": "Oceania Digital Services",
+        "description": "Viewing daily Currents newsletters, onboard schedules, restaurant menus, and excursion details."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Video Streaming (Netflix, Prime, Disney+)",
+        "description": "Watching movies, documentaries, and TV series on streaming platforms requires the streaming package."
+      },
+      {
+        "title": "Music & Podcast Streaming (Spotify, Apple)",
+        "description": "Streaming audio on Spotify, Apple Music, Pandora, or online radio requires the upgrade."
+      },
+      {
+        "title": "Live Sports Broadcasts (ESPN, Fubo)",
+        "description": "Accessing live sports apps and real-time video feeds requires dedicated streaming bandwidth."
+      },
+      {
+        "title": "YouTube & TikTok Video Feeds",
+        "description": "Watching high-definition video clips on YouTube, TikTok, or Instagram Reels requires the upgrade."
+      },
+      {
+        "title": "Heavy Video Conferencing (Zoom, Teams)",
+        "description": "Sustained two-way business video calls require higher streaming throughput to avoid buffering."
+      }
+    ]
+  },
+  "pricingMatrix": {
+    "title": "Oceania Streaming Upgrade Prices & Voyage Calculations",
+    "subtitle": "PUBLISHED DAILY RATES & SAMPLE VOYAGE EXPENDITURES",
+    "headers": ["Cruise Duration", "Streaming Daily Rate", "Total Upgrade Cost (1 Login)", "Key Savings & Policy Notes"],
+    "rows": [
+      ["7-Day Cruise", "$19.99 / day", "$139.93", "Standard short-voyage daily rate"],
+      ["10-Day Cruise", "$19.99 / day", "$199.90", "Full voyage streaming access"],
+      ["14-Day Cruise", "$19.99 / day", "$279.86", "Popular two-week European voyage"],
+      ["21-Day Cruise", "$19.99 / day", "$419.79", "Grand voyage / back-to-back sailing"],
+      ["30-Day Cruise", "$14.99 / day", "$449.70", "Long voyage discount rate ($5/day savings)"],
+      ["35-Day Cruise", "$14.99 / day", "$524.65", "Extended voyage discount rate applies"]
+    ]
+  },
+  "connectionProfiles": {
+    "title": "Which Connection Setup Fits Your Cruise Style?",
+    "subtitle": "EVALUATING 3 DISTINCT TRAVELER INTERNET PROFILES",
+    "items": [
+      {
+        "category": "Profile 1: Relaxed & Unplugged",
+        "title": "The Everyday Casual Browser",
+        "lead": "Checks email, texts family via WhatsApp, and reads morning news",
+        "placeholderLabel": "Complimentary",
+        "description": "If your primary goal is checking in with family, sharing a few vacation photos, reading digital magazines, and tracking port schedules, Oceania's included Wi-Fi is completely sufficient.",
+        "features": [
+          "Two complimentary logins cover two devices simultaneously",
+          "Fast Starlink web browsing, WhatsApp messaging, and email",
+          "Zero additional cost added to your cruise folio",
+          "Pre-download movies and audiobooks at home for offline enjoyment"
+        ],
+        "highlight": "Recommendation: Stick with 100% complimentary Wi-Fi; no upgrade needed."
+      },
+      {
+        "category": "Profile 2: Entertainment Focused",
+        "title": "The Movie & Sports Streamer",
+        "lead": "Loves watching Netflix in bed, listening to Spotify, or following live games",
+        "placeholderLabel": "Streaming Upgrade",
+        "description": "If you unwind by streaming favorite TV series, watching evening movies on your iPad, or following live sporting events from home while sailing, the streaming upgrade delivers seamless enjoyment.",
+        "features": [
+          "Unlocks Netflix, Prime Video, Disney+, YouTube, and live sports apps",
+          "Enables Spotify, Apple Music, and podcast streaming all day",
+          "Priced at $19.99/day (short voyages) or $14.99/day (30+ day sailings)",
+          "Activated easily onboard via the shipboard internet portal"
+        ],
+        "highlight": "Recommendation: Purchase the Streaming Upgrade on day one for uninterrupted media."
+      },
+      {
+        "category": "Profile 3: Business & Flexibility",
+        "title": "The Work-From-Sea Professional",
+        "lead": "Manages remote business tasks, reviews cloud files, and takes occasional calls",
+        "placeholderLabel": "Remote Work",
+        "description": "For remote workers, Oceania's Starlink network handles cloud documents, emails, Slack, and web apps with ease. For frequent video meetings or multi-person cabin setups, consider an additional login or streaming boost.",
+        "features": [
+          "Starlink low-latency handles cloud workflows and email reliably",
+          "Additional 3rd/4th guest login available at $24.99/day",
+          "Combined streaming + extra login option at $34.99–$39.98/day",
+          "Download heavy presentation decks and files in advance"
+        ],
+        "highlight": "Recommendation: Use complimentary Wi-Fi for general work; add streaming if video calls are vital."
+      }
+    ]
+  },
+  "remoteWorkAndApps": {
+    "title": "Remote Work Realities & Messaging App Capabilities",
+    "subtitle": "MANAGING EXPECTATIONS FOR PRODUCTIVITY AND COMMUNICATION AT SEA",
+    "cards": [
+      {
+        "title": "Is Oceania Wi-Fi Fast Enough for Remote Work?",
+        "items": [
+          "Routine Tasks: Sending emails, reviewing cloud documents, Slack messaging, and web research perform smoothly over Starlink.",
+          "Video Conferences: Zoom, Microsoft Teams, and Google Meet may work when satellite connectivity is optimal, but are not guaranteed.",
+          "Large File Transfers: Uploading high-res video files or syncing massive databases can experience bandwidth throttling.",
+          "Download Offline: Save critical business files, client presentations, and contracts to your hard drive before boarding.",
+          "Meeting Timing: Avoid scheduling critical business video calls during harbor departures or heavy storms when satellite signals fluctuate."
+        ]
+      },
+      {
+        "title": "Using WhatsApp, FaceTime & Social Media Onboard",
+        "items": [
+          "WhatsApp & iMessage: Text-based messages, group chats, and photo sharing work reliably on the complimentary connection.",
+          "FaceTime Audio & Calls: Voice calls over WhatsApp or Wi-Fi calling generally work; video calls require stronger satellite throughput.",
+          "Social Media Scrolling: Browsing Instagram, Facebook, and LinkedIn works well; uploading high-definition video reels may be slow.",
+          "Streaming Video Blocks: Netflix, Hulu, YouTube, and TikTok video playback are blocked on standard Wi-Fi without the streaming upgrade.",
+          "VPN Networks: Corporate VPNs can be used, though latency may vary depending on corporate firewall configurations."
+        ]
+      }
+    ]
+  },
+  "wifiVsCellular": {
+    "title": "Shipboard Wi-Fi vs. Cellular at Sea (Maritime Roaming)",
+    "subtitle": "HOW TO STAY CONNECTED WHILE AVOIDING COSTLY ROAMING SURPRISES",
+    "headers": ["Feature", "Oceania Shipboard Wi-Fi", "Cellular at Sea (Maritime Network)"],
+    "rows": [
+      ["Connection Type", "Starlink satellite Wi-Fi network", "Maritime cellular roaming network"],
+      ["Included in Cruise Fare?", "Yes, complimentary for all guests", "No, billed at international roaming rates by your mobile carrier"],
+      ["Typical Daily Cost", "$0 for standard Wi-Fi; optional streaming upgrade", "Can cost $5.00+ per minute or $10.00+ per MB of data"],
+      ["Best Used For", "Web browsing, email, WhatsApp messaging, and apps", "Emergency phone calls only if Wi-Fi is unavailable"],
+      ["How to Activate", "Connect to ship's Wi-Fi network and enter login credentials", "Connects automatically when phone is not in Airplane Mode"],
+      ["Recommended Action", "Keep phone in Airplane Mode with Wi-Fi switched ON", "Disable Cellular Roaming immediately upon boarding to prevent fees"]
+    ]
+  },
+  "connectionSteps": {
+    "title": "How to Connect to Oceania Cruises Wi-Fi in 5 Easy Steps",
+    "subtitle": "A SIMPLE ONBOARD CONNECTION GUIDE FOR SMARTPHONES, TABLETS & LAPTOPS",
+    "steps": [
+      {
+        "title": "Step 1: Put Phone in Airplane Mode & Enable Wi-Fi",
+        "description": "Switch your device to Airplane Mode immediately upon boarding to disable maritime cellular roaming, then turn your Wi-Fi toggle back ON."
+      },
+      {
+        "title": "Step 2: Connect to the Ship's Wi-Fi Network",
+        "description": "Open your device's Wi-Fi settings and select the official shipboard network (e.g., 'Oceania-WiFi' or ship-specific name displayed in stateroom materials)."
+      },
+      {
+        "title": "Step 3: Open Your Web Browser",
+        "description": "Open Safari, Chrome, or your preferred browser. The shipboard login portal should appear automatically. If not, type 'login.com' or any web address to trigger the page."
+      },
+      {
+        "title": "Step 4: Enter Your Stateroom Credentials",
+        "description": "Enter your stateroom number, last name, and date of birth or pre-assigned PIN code as instructed on your onboard welcome card."
+      },
+      {
+        "title": "Step 5: Select Complimentary or Streaming",
+        "description": "Select the complimentary standard access option (or choose to activate the streaming upgrade). You are now connected and free to browse."
+      }
+    ]
+  },
+  "worldCruiseEconomics": {
+    "title": "Long Voyages & World Cruise Wi-Fi Economics",
+    "items": [
+      {
+        "label": "Base Inclusion",
+        "value": "$0 Extra Cost",
+        "description": "Full voyage complimentary Starlink browsing across all 180 days of an Around the World cruise or grand voyage segment."
+      },
+      {
+        "label": "Long-Haul Discount",
+        "value": "$14.99 / Day Rate",
+        "description": "Voyages of 30 days or longer receive an automatic $5/day discount on streaming upgrades (down from $19.99/day)."
+      },
+      {
+        "label": "Dual Login Freedom",
+        "value": "2 Active Devices",
+        "description": "Couples sailing extended multi-month voyages maintain simultaneous connectivity without paying separate internet package fees."
+      },
+      {
+        "label": "Port Day Savings",
+        "value": "Local Roaming",
+        "description": "Combine complimentary shipboard Wi-Fi with international eSIM or carrier day passes ashore for complete global connectivity."
+      }
+    ]
+  },
+  "expertTips": {
+    "title": "10 Expert Tips for Getting the Most From Oceania Wi-Fi",
+    "subtitle": "INSIDER STRATEGIES FROM CERTIFIED CRUISE SPECIALISTS",
+    "items": [
+      {
+        "title": "Keep Airplane Mode ON",
+        "description": "Always keep Airplane Mode enabled while at sea, turning Wi-Fi back on manually. This prevents accidental maritime cellular charges."
+      },
+      {
+        "title": "Pre-Download Entertainment at Home",
+        "description": "Download Netflix series, Prime movies, Spotify playlists, and audiobooks before leaving home to save money on streaming packages."
+      },
+      {
+        "title": "Pause Background App Updates",
+        "description": "Turn off automatic app updates and cloud photo backups in your phone settings to prevent background data from slowing down your connection."
+      },
+      {
+        "title": "Remember to Log Out to Switch",
+        "description": "Each login allows one active device. If switching from your phone to an iPad, visit the logout portal or disconnect Wi-Fi before connecting the second device."
+      },
+      {
+        "title": "Use Wi-Fi Calling for Regular Calls",
+        "description": "Enable Wi-Fi Calling on your smartphone before departure to make and receive standard phone calls and SMS over the ship's Wi-Fi network."
+      },
+      {
+        "title": "Leverage Solo Traveler Dual Access",
+        "description": "If traveling solo in a Solo Veranda or single-supplement booking, your single login supports two active devices simultaneously."
+      },
+      {
+        "title": "Take Advantage of 30+ Day Rates",
+        "description": "On grand voyages of 30 days or longer, the streaming upgrade drops from $19.99/day to $14.99/day, saving $150+ per month."
+      },
+      {
+        "title": "Check Port Workstations in Internet Center",
+        "description": "If you don't travel with a laptop, use the ship's dedicated internet workstations for quick boarding pass printing or desktop browsing."
+      },
+      {
+        "title": "Purchase Extra Logins for Families",
+        "description": "If sharing a cabin with 3 or 4 guests, purchase the additional login ($24.99/day) so everyone can connect simultaneously without sharing credentials."
+      },
+      {
+        "title": "Consult the Onboard Internet Manager",
+        "description": "If you experience weak signal in your stateroom or need help connecting a work VPN, visit the onboard internet manager during desk hours."
+      }
+    ]
+  },
+  "isItWorthIt": {
+    "title": "Is Oceania Cruises Wi-Fi Worth It?",
+    "brandA": {
+      "name": "Oceania's Wi-Fi Policy Is an Outstanding Value If You:",
+      "features": [
+        "Want everyday email, web browsing, and WhatsApp messaging included with zero package fees",
+        "Value modern, low-latency SpaceX Starlink satellite speeds over legacy satellite connections",
+        "Appreciate having two complimentary logins per cabin so couples can browse simultaneously",
+        "Prefer transparent pricing where streaming is an optional upgrade rather than an inflated flat fare",
+        "Sail solo and can connect both a phone and laptop on your complimentary single master login"
+      ]
+    },
+    "brandB": {
+      "name": "Consider Upgrading or Preparing Ahead If You:",
+      "features": [
+        "Expect continuous 4K video streaming of movies, live sports, or YouTube without an upgrade fee",
+        "Require uninterrupted high-definition video conferencing for mission-critical corporate meetings",
+        "Share a stateroom with 3 or 4 adults who all require simultaneous active internet connections",
+        "Do not download entertainment offline before boarding and rely heavily on streaming apps"
+      ]
+    }
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "OCEANIA ELITE CRUISE ADVISOR",
+      "authorityBoxTitle": "Need Personalized Advice on Oceania Inclusions & Wi-Fi?",
+      "authoritySubtitle": "Angela Hughes — Luxury Cruise Specialist & Founder of Trips & Ships Luxury Travel",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Oceania Elite Cruise Advisor",
+      "experienceBadge": "40+ Years Luxury Travel Experience",
+      "bio": "Angela Hughes has sailed on every Oceania vessel, helping travelers navigate onboard technology, choose the right suite categories, and maximize fare inclusions under Your World Included.",
+      "quote": "Oceania's rollout of Starlink across the entire fleet has transformed the onboard guest experience. Having complimentary Wi-Fi for two devices per stateroom without paying $30+ a day in internet packages makes staying in touch effortless, while giving travelers the freedom to upgrade for streaming only if they truly need it.",
+      "quoteSubtitle": "A Personal Perspective on Oceania's Starlink Connectivity",
+      "credentials": [
+        "Certified Oceania Cruises Elite Master Advisor",
+        "Condé Nast Traveler Top Travel Specialist",
+        "Decades of personal experience working remotely and testing connectivity across all Oceania ship classes",
+        "VIP reservation support and custom cruise budgeting for all clients"
+      ],
+      "ctaText": "Plan Your Oceania Cruise With Angela",
+      "ctaLink": "/contact"
+    }
+  },
+  "centerCta": {
+    "title": "Ready to Sail Connected on Oceania Cruises?",
+    "subtitle": "Let Trips & Ships Luxury Travel guide your stateroom selection, itinerary planning, and onboard inclusions.",
+    "primaryCtaText": "Plan Your Oceania Voyage",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Oceania Inclusions",
+    "secondaryCtaLink": "/oceania-cruises/whats-included"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Cruises Wi-Fi",
+    "subtitle": "EVERYTHING YOU NEED TO KNOW ABOUT STARLINK, LOGINS & STREAMING",
+    "questions": [
+      {
+        "question": "Is Wi-Fi free on Oceania Cruises?",
+        "answer": "Yes. Complimentary Starlink Wi-Fi is included in the cruise fare on all Oceania ships under Your World Included. Standard access includes two logins per stateroom or suite, with one device connected per login at a time."
+      },
+      {
+        "question": "Does Oceania Cruises use Starlink?",
+        "answer": "Yes. Oceania has completed Starlink installation across its entire fleet, delivering high-speed low-latency satellite internet for all guests."
+      },
+      {
+        "question": "How many devices can connect to Oceania Cruises Wi-Fi?",
+        "answer": "The standard allowance provides two complimentary logins per stateroom or suite, each usable on one device at a time. Solo travelers receive one login with access to two devices. Additional logins are available for purchase."
+      },
+      {
+        "question": "Is streaming included with Oceania Cruises Wi-Fi?",
+        "answer": "No. Standard complimentary Wi-Fi does not include streaming. Guests can purchase a streaming upgrade for access to music, movies, sporting events, and other audio or video apps."
+      },
+      {
+        "question": "How much does Oceania Cruises Wi-Fi cost?",
+        "answer": "Standard Wi-Fi is complimentary. Oceania's published reference price for the streaming upgrade is $19.99 per day for voyages up to 29 days and $14.99 per day for voyages of 30 days or longer."
+      },
+      {
+        "question": "How much does an additional Wi-Fi login cost?",
+        "answer": "Oceania lists an additional login for third and fourth guests in a stateroom at $24.99 per day, with combined streaming options available at $34.99 to $39.98 per day."
+      },
+      {
+        "question": "Can I use Netflix on Oceania Cruises?",
+        "answer": "Netflix and other video streaming platforms require the paid streaming upgrade. Standard complimentary Wi-Fi does not include streaming access."
+      },
+      {
+        "question": "Can I use YouTube on Oceania Cruises?",
+        "answer": "Streaming video through YouTube requires the streaming upgrade. Browsing websites and text-based internet services are covered by the complimentary connection."
+      },
+      {
+        "question": "Can I use WhatsApp on Oceania Cruises?",
+        "answer": "Yes. Text-based WhatsApp messaging and photo sharing work smoothly on the standard complimentary connection. Voice and video calls depend on available satellite throughput."
+      },
+      {
+        "question": "Can I make FaceTime calls on Oceania Cruises?",
+        "answer": "Video calls may function when connection conditions are strong, but consistent performance is not guaranteed on standard complimentary Wi-Fi. Heavy video callers should consider the streaming upgrade."
+      },
+      {
+        "question": "Is Oceania Cruises Wi-Fi fast enough for remote work?",
+        "answer": "It reliably supports routine work activities such as email, document review, and Slack messaging. Sustained video meetings and large file transfers can be less predictable and should be budgeted with flexibility."
+      },
+      {
+        "question": "Does Oceania Cruises Wi-Fi work in staterooms?",
+        "answer": "Yes. Oceania's Wi-Fi network covers all guest staterooms, suites, private verandas, public lounges, restaurants, and outdoor decks."
+      },
+      {
+        "question": "Does Oceania Cruises offer Wi-Fi on all ships?",
+        "answer": "Yes. Starlink satellite internet is fully installed and operational across the entire fleet (Allura, Vista, Marina, Riviera, Nautica, Insignia, and Sirena)."
+      },
+      {
+        "question": "Can two people use Oceania Wi-Fi at the same time?",
+        "answer": "Yes. Two complimentary logins are provided per stateroom, allowing two devices to browse simultaneously."
+      },
+      {
+        "question": "Can I switch between my phone and laptop?",
+        "answer": "Yes. You can switch devices, but each login supports only one active device at a time. Disconnect or log out on the first device before connecting on the second."
+      },
+      {
+        "question": "Do solo travelers receive complimentary Wi-Fi?",
+        "answer": "Yes. Solo travelers receive one complimentary login with access to two devices simultaneously under Oceania's published internet policy."
+      },
+      {
+        "question": "Can a family of four use Oceania Wi-Fi?",
+        "answer": "The standard allowance provides two complimentary logins per stateroom. Additional logins for third and fourth guests can be purchased onboard for $24.99 per day."
+      },
+      {
+        "question": "Does Oceania Cruises Wi-Fi work in port?",
+        "answer": "Yes. Shipboard Wi-Fi remains active while docked in port, subject to normal network conditions. Guests can also use local Wi-Fi networks ashore."
+      },
+      {
+        "question": "Is Cellular at Sea included with Oceania Cruises?",
+        "answer": "No. Cellular at Sea is a maritime cellular roaming service billed directly by your mobile carrier, not Oceania. It can be very expensive, so keep phones in Airplane Mode with Wi-Fi on."
+      },
+      {
+        "question": "Should I put my phone in airplane mode on an Oceania cruise?",
+        "answer": "Yes. Keeping your phone in Airplane Mode with Wi-Fi switched ON prevents accidental cellular roaming charges while allowing full access to the ship's complimentary Starlink Wi-Fi."
+      }
+    ]
+  }
+}
+

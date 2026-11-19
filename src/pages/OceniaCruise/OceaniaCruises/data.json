@@ -1,0 +1,1046 @@
+{
+  "meta": {
+    "title": "Oceania Cruises: Ships, Suites, Dining & Destinations Guide",
+    "description": "Explore Oceania Cruises ships, suites, dining, destinations, fares, included amenities and shore excursions. Discover which Oceania cruise is right for you.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises",
+    "primaryKeyword": "Oceania Cruises",
+    "secondaryKeywords": [
+      "Oceania Cruises ships",
+      "Oceania Cruises reviews",
+      "Oceania Cruises suites",
+      "Oceania Cruises dining",
+      "Oceania Cruises itineraries",
+      "Oceania Cruises destinations",
+      "Oceania Cruises prices",
+      "Oceania Cruises what's included",
+      "Oceania Cruises shore excursions",
+      "Oceania Cruises luxury cruise",
+      "Oceania Cruises vs Regent Seven Seas",
+      "Oceania Cruises vs Viking",
+      "Oceania Cruises adults only"
+    ],
+    "pageUrl": "/oceania-cruises",
+    "author": "Angela Hughes, CEO of Trips & Ships Luxury Travel",
+    "publishDate": "2026-11-05"
+  },
+  "hero": {
+    "badge": "Luxury Culinary & Destination Cruising",
+    "title": "Oceania Cruises: The Complete Guide to Ships, Suites, Dining and Itineraries",
+    "subtitle": "Explore Oceania Cruises ships, suites, dining, destinations, fares, included amenities and shore excursions. Discover which Oceania cruise is right for you.",
+    "primaryCtaText": "Plan Your Oceania Cruise",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Fleet & Inclusions",
+    "secondaryCtaLink": "#fleet-guide",
+    "updated": "2026-11-05"
+  },
+  "intro": {
+    "eyebrow": "LUXURY CULINARY FOCUS",
+    "heading": "What Is Oceania Cruises?",
+    "paragraphs": [
+      "Oceania Cruises is a luxury cruise line known for its culinary experiences, destination-focused itineraries, smaller ships, and personalized onboard atmosphere. Its philosophy centers on combining memorable dining with opportunities to explore destinations in greater depth.",
+      "The cruise line appeals to travelers who appreciate excellent food, comfortable accommodations, attentive service, and itineraries that include both well-known cities and smaller ports. Unlike cruise brands that emphasize large-scale entertainment and extensive family facilities, Oceania focuses on a more relaxed, sophisticated experience. Its ships provide a variety of restaurants, lounges, enrichment programs, wellness facilities, and comfortable public spaces without the scale of a mega-ship.",
+      "Oceania's signature culinary positioning is reflected in its brand promise, The Finest Cuisine at Sea®. Guests can enjoy multiple restaurants, including specialty dining venues that are included in the cruise fare. The line's current value proposition, Your World Included®, also includes shipboard gratuities, Wi-Fi, specialty coffees, teas, soft drinks, selected juices, smoothies, gourmet ice cream, and other amenities. Guests can additionally choose between selected beverage or shore-excursion benefits, depending on the applicable offer.",
+      "Oceania is also transitioning to an adults-only experience. For new reservations made from January 7, 2026, guests must be at least 18 years old. Existing reservations made before that date that include younger travelers are being honored under the announced transition policy."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: What You Need to Know About Oceania Cruises",
+    "items": [
+      {
+        "label": "Cruise Line Type",
+        "content": "Luxury, culinary-focused and destination-focused"
+      },
+      {
+        "label": "Signature Identity",
+        "content": "Dining, smaller ships, personalized service and immersive itineraries"
+      },
+      {
+        "label": "Adults-Only Policy",
+        "content": "Yes, for new reservations from Jan 7, 2026 (prior bookings protected)"
+      },
+      {
+        "label": "Specialty Dining Inclusions",
+        "content": "Yes, published Your World Included program includes specialty dining"
+      },
+      {
+        "label": "Gratuities Policy",
+        "content": "Yes, shipboard gratuities are included"
+      },
+      {
+        "label": "Wi-Fi Connectivity",
+        "content": "Yes, complimentary shipwide Wi-Fi is included"
+      },
+      {
+        "label": "Beverage Inclusions",
+        "content": "Specialty coffees, teas, soft drinks & juices included; alcohol varies by offer"
+      },
+      {
+        "label": "Shore Excursions",
+        "content": "Shore-excursion credit may be selected under applicable Your World Included offer"
+      },
+      {
+        "label": "Fleet Scale",
+        "content": "Yes, intimate fleet with ~670-guest and ~1,200-guest ships"
+      },
+      {
+        "label": "Ideal Traveler",
+        "content": "Adults who value dining, destinations, comfort and a relaxed luxury atmosphere"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Oceania Cruises?",
+    "subtitle": "Oceania's appeal comes from the way it combines dining, service, accommodation, and destination experiences designed around travelers who want time to enjoy both the journey and the places they visit.",
+    "features": [
+      {
+        "title": "1. Destination-Focused Itineraries",
+        "description": "Oceania visits major international destinations as well as smaller ports that may be less accessible to larger vessels. Depending on the itinerary, guests can explore historic European cities, Mediterranean coastal towns, Asian cultural centers, South American destinations, Caribbean islands, and remote regions. Some voyages include overnight stays or extended time in port, giving travelers more opportunity to explore beyond a short daytime visit."
+      },
+      {
+        "title": "2. A Strong Culinary Identity",
+        "description": "Dining is one of Oceania's most recognizable features. The cruise line offers a range of open-seating restaurants, specialty dining venues, casual eateries, and culinary experiences. Menus feature international dishes, Italian cuisine, French-inspired cooking, Asian flavors, steakhouse classics, and wellness-focused choices. Many specialty restaurants are included without an additional cover charge."
+      },
+      {
+        "title": "3. Smaller Ships & Intimate Atmosphere",
+        "description": "Oceania operates ships that are considerably smaller than mainstream mega-vessels. Its smaller ships accommodate approximately 670 guests, while newer Allura Class ships accommodate around 1,200 guests. The smaller scale creates a refined onboard atmosphere with fewer passengers sharing venues, allowing access to boutique harbors inaccessible to larger ships."
+      },
+      {
+        "title": "4. Comfortable Suites and Staterooms",
+        "description": "Oceania offers accommodation ranging from inside and ocean-view staterooms to veranda categories and spacious suites. Higher accommodation categories include additional space, upgraded furnishings, butler service, concierge assistance, and personalized amenities tailored to ship and suite type."
+      },
+      {
+        "title": "5. Included Dining, Wi-Fi and Gratuities",
+        "description": "The Your World Included program makes it straightforward to understand the basic value of an Oceania cruise. Specialty dining, shipboard gratuities, Wi-Fi, specialty coffees, teas, soft drinks, and selected amenities are included for all guests under the published program."
+      },
+      {
+        "title": "6. An Adults-Only Environment",
+        "description": "Oceania announced its transition to an adults-only cruise experience in January 2026. New reservations made from January 7, 2026, are exclusively for guests aged 18 and older. The policy supports the line's focus on a quieter atmosphere, relaxed dining, cultural discovery, and adult-oriented travel."
+      }
+    ]
+  },
+  "fleetGuide": {
+    "title": "Oceania Cruises Ships: Complete Fleet Guide",
+    "subtitle": "Oceania's fleet includes ships of different sizes and designs. Choosing the right vessel can make a significant difference to your experience, particularly if you have a preference for smaller ships, newer accommodations, or a particular collection of restaurants.",
+    "table": [
+      {
+        "ship": "Oceania Allura",
+        "capacity": "1,200",
+        "character": "Newer Allura Class (Debuted 2025)"
+      },
+      {
+        "ship": "Oceania Vista",
+        "capacity": "1,200",
+        "character": "Newer Allura Class (Debuted 2023)"
+      },
+      {
+        "ship": "Oceania Marina",
+        "capacity": "1,250",
+        "character": "Marina Class"
+      },
+      {
+        "ship": "Oceania Riviera",
+        "capacity": "1,250",
+        "character": "Marina Class"
+      },
+      {
+        "ship": "Oceania Nautica",
+        "capacity": "670",
+        "character": "Regatta-era smaller ship"
+      },
+      {
+        "ship": "Oceania Insignia",
+        "capacity": "670",
+        "character": "Regatta-era smaller ship"
+      },
+      {
+        "ship": "Oceania Sirena",
+        "capacity": "670",
+        "character": "Regatta-era smaller ship"
+      }
+    ],
+    "ships": [
+      {
+        "title": "1. Oceania Allura",
+        "meta": "Allura Class · ~1,200 Guests · Entered Service 2025",
+        "description": "Oceania Allura entered service in 2025 as the second ship in the Allura Class, following Oceania Vista. The ship combines contemporary residential-style interiors with a strong culinary offering. It is designed for guests who appreciate a modern luxury environment without the scale of a large resort-style cruise ship. Allura is worth considering if you want one of Oceania's newest ships and a broad selection of dining experiences.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "Multiple open-seating restaurants & The Grand Dining Room",
+          "Polo Grill, Toscana, Red Ginger, and Aquamar Kitchen",
+          "The Crêperie and The Bakery at Baristas",
+          "Comfortable veranda accommodations and elegant lounges"
+        ]
+      },
+      {
+        "title": "2. Oceania Vista",
+        "meta": "Allura Class · ~1,200 Guests · Debuted 2023",
+        "description": "Oceania Vista debuted in 2023 and introduced the Allura Class design. The ship combines elegant interiors, contemporary accommodations, destination-focused itineraries, and an expanded culinary experience. Vista is particularly appealing to travelers who want a newer ship with a strong balance of dining, wellness, and destination exploration.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "The Grand Dining Room, Polo Grill, and Toscana",
+          "Red Ginger and Jacques French cuisine",
+          "Aquamar Kitchen and The Bakery at Baristas",
+          "Spacious public areas and selection of veranda staterooms and suites"
+        ]
+      },
+      {
+        "title": "3. Oceania Marina",
+        "meta": "Marina Class · ~1,250 Guests · Established Culinary Ship",
+        "description": "Oceania Marina is one of the line's larger established ships and has a reputation for its culinary venues and elegant public spaces. The ship offers a variety of restaurants, lounges, and accommodation categories, alongside culinary experiences such as La Reserve by Wine Spectator and Privée. Marina is a good option for travelers who want a wider choice of dining venues and a traditional Oceania atmosphere.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "The Grand Dining Room, Polo Grill, Toscana, Jacques, and Red Ginger",
+          "Terrace Café, Waves Grill, and Baristas coffee venue",
+          "La Reserve and Privée private dining experiences (subject to terms)",
+          "Refined traditional atmosphere with extensive public spaces"
+        ]
+      },
+      {
+        "title": "4. Oceania Riviera",
+        "meta": "Marina Class · ~1,250 Guests · Refined Culinary Sister",
+        "description": "Oceania Riviera is the sister ship to Marina and offers a similar combination of elegant accommodation, dining, and comfortable public spaces. The ship has a refined interior design and a culinary program that includes several complimentary specialty restaurants. Riviera appeals to guests who appreciate a well-established ship with an extensive restaurant selection.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "The Grand Dining Room, Polo Grill, and Toscana",
+          "Red Ginger, Jacques, and casual Terrace Café",
+          "Aquamar Spa + Vitality Center wellness facilities",
+          "Selected premium culinary and wine tasting experiences"
+        ]
+      },
+      {
+        "title": "5. Oceania Nautica",
+        "meta": "Regatta Era · ~670 Guests · Intimate Boutique Ship",
+        "description": "Oceania Nautica is one of the smaller ships in the fleet, accommodating approximately 670 guests. Its more compact size offers a different atmosphere from the newer Allura Class ships. It can be particularly attractive to travelers who prefer smaller vessels and an intimate onboard environment.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "Selection of open-seating restaurants including The Grand Dining Room",
+          "Signature specialty dining at Toscana and Polo Grill",
+          "Comfortable, uncrowded lounges and bars",
+          "Aquamar Spa + Vitality Center and mix of veranda cabins and suites"
+        ]
+      },
+      {
+        "title": "6. Oceania Insignia",
+        "meta": "Regatta Era · ~670 Guests · Boutique World Explorer",
+        "description": "Oceania Insignia offers the smaller-ship experience that many repeat Oceania guests appreciate. Its intimate scale, traditional design, and destination-oriented voyages can appeal to travelers who prefer a quieter atmosphere and a less crowded onboard environment.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "Open-seating dining in The Grand Dining Room",
+          "Specialty dining at Toscana and Polo Grill",
+          "Aquamar Spa + Vitality Center and intimate lounges",
+          "Ideal platform for extended world journeys and boutique ports"
+        ]
+      },
+      {
+        "title": "7. Oceania Sirena",
+        "meta": "Regatta Era · ~670 Guests · Boutique Culinary Blend",
+        "description": "Oceania Sirena is another approximately 670-guest ship. It combines a smaller vessel size with a selection of familiar Oceania restaurants and public spaces. Its dining program includes Tuscan-inspired Toscana, steakhouse Polo Grill, and Asian-inspired Red Ginger. Sirena is worth considering if you want the smaller ship experience with a variety of dining choices.",
+        "icon": "Ship",
+        "bulletPoints": [
+          "Smaller vessel size with signature dining venues",
+          "Toscana, Polo Grill, and Red Ginger dining options",
+          "Quiet lounges, pool deck, and personalized service",
+          "Access to small, shallow-water international boutique ports"
+        ]
+      },
+      {
+        "title": "Upcoming: Oceania Sonata",
+        "meta": "New Sonata Class · ~1,390 Guests · Debut August 2027",
+        "description": "Oceania Sonata is scheduled to debut in August 2027 as the first ship in the new Sonata Class. Accommodating approximately 1,390 guests with ~86,000 gross tons, Sonata introduces a new generation of residential-style accommodations and culinary experiences. Planned highlights include approximately 695 suites and staterooms, new Horizon Suite category, Penthouse Deluxe Suites, four two-bedroom Owner's Suites exceeding 2,500 sq ft, La Table par Maîtres Cuisiniers de France (exclusive French chef's table), Nikkei Kitchen (Peruvian-Japanese fusion), and an all-veranda accommodation design.",
+        "icon": "Sparkles",
+        "bulletPoints": [
+          "Debut August 2027 · ~1,390 guests · 86,000 gross tons",
+          "All-veranda accommodation design across 695 staterooms",
+          "New Horizon Suites, Penthouse Deluxe Suites & 4 two-bedroom Owner's Suites (2,500+ sq ft)",
+          "La Table par Maîtres Cuisiniers de France & Nikkei Kitchen"
+        ]
+      },
+      {
+        "title": "Upcoming: Oceania Aurelia",
+        "meta": "Extended Global Journeys · 238 Suites · Debut November 2027",
+        "description": "Oceania Aurelia is scheduled to debut in November 2027, designed specifically for extended global journeys and longer voyages. The planned ship will feature 238 suites and staterooms, approximately 400 crew members, spacious accommodation with most rooms designed as suites, light-filled lounges, expansive decks, and enrichment programs. Aurelia is expected to operate extended voyages including the 2028 and 2029 Around the World journeys along with Grand Voyages.",
+        "icon": "Compass",
+        "bulletPoints": [
+          "Debut November 2027 · Designed for extended global journeys",
+          "238 suites and staterooms with ~400 attentive crew members",
+          "Light-filled lounges, expansive observation decks and enrichment hubs",
+          "Host vessel for 2028 & 2029 Around the World and Grand Voyages"
+        ]
+      }
+    ],
+    "selectionGuide": [
+      { "preference": "Newer ship design", "ships": "Allura and Vista" },
+      { "preference": "Newer culinary concepts", "ships": "Allura and Vista" },
+      { "preference": "A traditional Oceania experience", "ships": "Marina and Riviera" },
+      { "preference": "A smaller, intimate ship", "ships": "Nautica, Insignia and Sirena" },
+      { "preference": "A future next-generation ship", "ships": "Sonata" },
+      { "preference": "Extended global journeys", "ships": "Aurelia" }
+    ]
+  },
+  "suites": {
+    "title": "Oceania Cruises Suites & Staterooms",
+    "subtitle": "Oceania offers a range of accommodation categories designed for different budgets and travel preferences. Exact category names, layouts, square footage, amenities, and locations vary across the fleet.",
+    "items": [
+      {
+        "title": "1. Inside Staterooms",
+        "category": "Value & Comfort",
+        "description": "Inside staterooms are an option for guests who want comfortable private accommodation without paying for a window or veranda. They are suitable if you expect to spend most of your time enjoying the ship's restaurants, lounges, entertainment, and destinations. Consider an inside stateroom if you want to manage overall cruise budget, do not require outdoor space, and prioritize itinerary and dining.",
+        "bestFor": "Budget-conscious travelers prioritizing overall itinerary and dining value."
+      },
+      {
+        "title": "2. Ocean View Staterooms",
+        "category": "Natural Light & Scenery",
+        "description": "Ocean View staterooms offer natural light and an outside view through a window or porthole, depending on the cabin. They provide a solid middle ground for travelers who want to see the sea and destination arrivals from their room but do not require a private veranda.",
+        "bestFor": "Guests who want natural ocean light and scenery without veranda rates."
+      },
+      {
+        "title": "3. Veranda Staterooms",
+        "category": "Private Outdoor Balcony",
+        "description": "Veranda staterooms are popular with guests who enjoy private outdoor space. A veranda provides a personal space to enjoy morning coffee, read, relax, or watch the scenery as the ship approaches port. Oceania's newer ships feature residential-style veranda accommodations.",
+        "bestFor": "Travelers who value morning coffee, reading, and scenic views on a private balcony."
+      },
+      {
+        "title": "4. Concierge Level Veranda",
+        "category": "Enhanced Amenities & Lounge",
+        "description": "Concierge Level Veranda accommodation builds on the standard veranda experience with additional amenities and services. Depending on the ship and terms, benefits can include concierge services, priority embarkation, access to the exclusive Concierge Lounge on applicable ships, enhanced in-room amenities, additional laundry/pressing services, and welcome amenities.",
+        "bestFor": "Guests who value dedicated concierge services, lounge access, and boarding privileges."
+      },
+      {
+        "title": "5. Penthouse Suites",
+        "category": "Suite Space & Butler Service",
+        "description": "Penthouse Suites offer more space and additional suite amenities. They feature separate sitting areas, upgraded furnishings, enhanced bathroom features, and dedicated 24-hour butler service depending on ship and category. A strong choice for guests seeking elevated comfort and personalized attention.",
+        "bestFor": "Travelers wanting expanded square footage, luxury bathrooms, and butler service."
+      },
+      {
+        "title": "6. Oceania Suites",
+        "category": "Spacious Residential Living",
+        "description": "Oceania Suites offer a more spacious residential-style accommodation experience. Features typically include separate living and sleeping areas, private veranda, butler service, larger bathrooms, enhanced amenities, and generous storage and seating.",
+        "bestFor": "Guests seeking a spacious, multi-room residential suite experience."
+      },
+      {
+        "title": "7. Vista Suites",
+        "category": "Expansive Luxury Retreats",
+        "description": "Vista Suites are larger suite accommodations available on selected Oceania ships. They are designed for guests who want a spacious private retreat, with expanded living rooms, master bedrooms, and expansive outdoor veranda spaces overlooking the sea.",
+        "bestFor": "Travelers wanting expanded suite square footage and grand private balconies."
+      },
+      {
+        "title": "8. Owner's Suites",
+        "category": "Top-Tier Luxury Flagship",
+        "description": "Owner's Suites are among the most exclusive accommodations in the Oceania fleet. Featuring expansive living areas, premium furnishings, oversized wraparound verandas, and top-tier butler service. The upcoming Sonata Class introduces four two-bedroom Owner's Suites exceeding 2,500 sq ft with aft-facing verandas.",
+        "bestFor": "Discerning guests seeking the finest residential accommodation and premier luxury perks."
+      }
+    ],
+    "selectionTable": [
+      { "category": "Inside", "bestSuited": "Travelers prioritizing overall value" },
+      { "category": "Ocean View", "bestSuited": "Guests who want natural light" },
+      { "category": "Veranda", "bestSuited": "Travelers who enjoy private outdoor space" },
+      { "category": "Concierge Level Veranda", "bestSuited": "Guests who value additional services" },
+      { "category": "Penthouse Suite", "bestSuited": "Travelers wanting more room and suite benefits" },
+      { "category": "Oceania Suite", "bestSuited": "Guests seeking a larger residential-style experience" },
+      { "category": "Vista Suite", "bestSuited": "Travelers wanting expanded suite space" },
+      { "category": "Owner's Suite", "bestSuited": "Guests seeking top-level accommodation" }
+    ]
+  },
+  "dining": {
+    "title": "Oceania Cruises Dining: The Finest Cuisine at Sea",
+    "subtitle": "Dining is central to the Oceania experience. The cruise line offers a selection of open-seating restaurants, specialty dining venues, casual eateries, and culinary experiences with no specialty restaurant cover charges under Your World Included.",
+    "isSpecialtyFree": "Yes. Oceania's Your World Included program includes dining in its specialty restaurants without an additional cover charge. This is a foundational part of the brand's value proposition. Private dining arrangements, selected premium experiences, and certain special events carry separate conditions or charges.",
+    "venues": [
+      {
+        "title": "The Grand Dining Room",
+        "description": "Signature formal setting combining Continental dishes, international flavors, and selections associated with Executive Culinary Director Jacques Pépin. Menus change regularly across breakfast, lunch, and dinner."
+      },
+      {
+        "title": "Polo Grill",
+        "description": "Oceania's classic steakhouse-style restaurant offering premium cuts, succulent seafood, and traditional steakhouse accompaniments in a richly paneled, clubby setting."
+      },
+      {
+        "title": "Toscana",
+        "description": "Focuses on Italian cuisine and regional traditions. Guests enjoy authentic antipasti, handmade pastas, fresh seafood, and regional Italian specialties on custom Versace china."
+      },
+      {
+        "title": "Red Ginger",
+        "description": "Acclaimed Asian-inspired culinary experience featuring dishes influenced by Japanese, Thai, and Vietnamese traditions in an evocative, contemporary ebony and red interior."
+      },
+      {
+        "title": "Jacques",
+        "description": "French-inspired dining associated with Chef Jacques Pépin. Reflects classic French bistro traditions with rotisserie meats, artisanal cheeses, and fine-dining presentation (selected ships)."
+      },
+      {
+        "title": "Terrace Café",
+        "description": "Casual, open-seating buffet-style venue featuring chef-prepared hot dishes, grilled specialties, sushi, carved meats, and alfresco outdoor dining with stunning wake views."
+      },
+      {
+        "title": "Waves Grill",
+        "description": "Informal poolside dining serving cooked-to-order burgers, seafood sandwiches, hand-cut fries, and milkshakes in a relaxed atmosphere right next to the swimming pool."
+      },
+      {
+        "title": "Aquamar Kitchen",
+        "description": "Wellness-inspired dining combining wholesome breakfasts, fresh organic salads, power bowls, smoothies, and lighter culinary creations without sacrificing gourmet flavor."
+      },
+      {
+        "title": "Baristas & The Bakery",
+        "description": "Oceania's welcoming artisanal coffee venue serving Illy espresso, specialty coffees, and teas, alongside The Bakery's freshly baked French croissants and Italian pastries."
+      },
+      {
+        "title": "Other Culinary Experiences",
+        "description": "Additional venues vary by ship and include The Crêperie, Ember, Privée private dining, La Reserve by Wine Spectator, afternoon tea service, and chef-led culinary demonstrations."
+      }
+    ]
+  },
+  "inclusions": {
+    "title": "What's Included? Understanding Your World Included",
+    "subtitle": "Oceania's Your World Included program is designed to make the cruise fare transparent by combining core amenities with a choice of additional benefits.",
+    "alwaysIncluded": [
+      {
+        "title": "Specialty Dining",
+        "description": "Complimentary dining across included specialty restaurants (Polo Grill, Toscana, Red Ginger, Jacques, etc.) with no cover charge."
+      },
+      {
+        "title": "Shipboard Gratuities",
+        "description": "All onboard service gratuities for stateroom attendants, butlers, and dining staff are included in the published cruise fare."
+      },
+      {
+        "title": "Shipwide Wi-Fi",
+        "description": "Complimentary shipwide internet connectivity for all guests throughout the voyage."
+      },
+      {
+        "title": "Specialty Coffees and Teas",
+        "description": "Selected specialty coffee drinks (cappuccinos, lattes, espressos at Baristas) and gourmet teas."
+      },
+      {
+        "title": "Soft Drinks & Juices",
+        "description": "Selected sodas, non-alcoholic beverages, cold-pressed juices, and healthy fruit smoothies."
+      },
+      {
+        "title": "Vero Water®",
+        "description": "Still and sparkling premium purified water served complimentary throughout the vessel."
+      },
+      {
+        "title": "Gourmet Ice Cream",
+        "description": "Artisanal homemade gelato and selected ice creams served daily."
+      },
+      {
+        "title": "Launderettes & Laundry",
+        "description": "Complimentary self-service launderettes; laundry services for eligible upper accommodation categories."
+      }
+    ],
+    "luxuryOfChoice": {
+      "title": "Luxury of Choice: Select an Additional Amenity",
+      "description": "Under Oceania's current Your World Included offer, guests select between two valuable additional benefits depending on their travel preferences:",
+      "option1": "Option 1: Wine & Beer by the Glass — Complimentary wine and beer during restaurant lunch and dinner hours.",
+      "option2": "Option 2: Shore Excursion Credit — A dedicated credit applied toward eligible destination excursions ashore."
+    },
+    "notIncluded": [
+      {
+        "title": "Airfare & Transfers",
+        "description": "Commercial flights and airport transfers unless explicitly booked as part of a package offer."
+      },
+      {
+        "title": "Hotel Stays",
+        "description": "Pre-cruise and post-cruise hotel accommodations and land arrangements."
+      },
+      {
+        "title": "Shore Excursions Beyond Credit",
+        "description": "Tours and shore excursions exceeding the selected promotional credit value."
+      },
+      {
+        "title": "Spa & Salon Treatments",
+        "description": "Massages, body therapies, facial treatments, and salon services at Aquamar Spa."
+      },
+      {
+        "title": "Premium Alcohol & Upgrades",
+        "description": "Top-shelf spirits, reserve vintages, and all-day unlimited alcoholic beverage packages."
+      },
+      {
+        "title": "Private Dining Experiences",
+        "description": "Exclusive wine pairings at La Reserve by Wine Spectator and private room rental at Privée."
+      },
+      {
+        "title": "Personal Purchases & Insurance",
+        "description": "Boutique shopping, travel medical insurance, and personal discretionary expenses."
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Oceania Cruises Destinations and Itineraries",
+    "subtitle": "Oceania operates destination-focused itineraries worldwide, combining iconic cultural centers with boutique ports and extended port overnights.",
+    "items": [
+      {
+        "name": "Mediterranean Cruises",
+        "category": "Historic Cities & Coastal Towns",
+        "quote": "One of Oceania's signature cruising regions, featuring Italy, Greece, Croatia, France, Spain, Turkey, Malta, and Portugal.",
+        "recommendation": "Explore archaeological wonders, coastal rivieras, and authentic culinary traditions with longer stays.",
+        "reason": "Best for: Historic cities, coastal scenery, and authentic Mediterranean food traditions.",
+        "whyFits": [
+          "Calls on iconic ports like Barcelona, Civitavecchia (Rome), and Venice",
+          "Visits boutique harbors in the Amalfi Coast, Greek Isles, and Dalmatian Coast",
+          "Frequent late-night departures and overnight port stays"
+        ]
+      },
+      {
+        "name": "Northern Europe Cruises",
+        "category": "Fjords, Baltic Capitals & British Isles",
+        "quote": "Features Norway, Denmark, Sweden, Finland, Iceland, Greenland, the British Isles, and Baltic ports.",
+        "recommendation": "Scenic coastal cruising combined with deep cultural immersion in Scandinavian and Celtic heritage.",
+        "reason": "Best for: Fjords, dramatic nature, architecture, and Nordic history.",
+        "whyFits": [
+          "Dramatic fjord navigation in Geirangerfjord and Flåm",
+          "Exploration of historic Baltic capitals and British coastal towns",
+          "Expedition-like itineraries to Iceland, Greenland, and the North Cape"
+        ]
+      },
+      {
+        "name": "Alaska Cruises",
+        "category": "Glaciers, Wildlife & Wilderness",
+        "quote": "Oceania's Alaska itineraries offer opportunities to experience dramatic landscapes, coastal communities, and regional wildlife.",
+        "recommendation": "Calls on Juneau, Ketchikan, Sitka, Skagway, and scenic cruising areas without megaship crowds.",
+        "reason": "Best for: Natural glaciers, marine wildlife, and intimate Inside Passage cruising.",
+        "whyFits": [
+          "Visits boutique ports and indigenous cultural centers",
+          "Glacier viewing in Hubbard Glacier and Tracy Arm Fjord",
+          "Expert naturalist enrichment lectures onboard"
+        ]
+      },
+      {
+        "name": "Caribbean Cruises",
+        "category": "Boutique Islands & Warm Escapes",
+        "quote": "A mix of popular islands and less-visited Caribbean destinations away from commercial cruise crowds.",
+        "recommendation": "Explore Barbados, St. Lucia, Antigua, Dominica, St. Kitts, the British Virgin Islands, and more.",
+        "reason": "Best for: Warm beaches, island cuisine, and secluded boutique anchorages.",
+        "whyFits": [
+          "Access to smaller Caribbean harbors like Gustavia (St. Barts) and Virgin Gorda",
+          "Relaxed adults-only atmosphere perfect for tropical unwinding",
+          "Active snorkeling, sailing, and cultural heritage excursions"
+        ]
+      },
+      {
+        "name": "Asia Cruises",
+        "category": "Ancient Traditions & Modern Capitals",
+        "quote": "Destinations include Japan, South Korea, China, Vietnam, Thailand, Singapore, Malaysia, and Indonesia.",
+        "recommendation": "Immersive journeys connecting major futuristic metropolises with centuries-old temples and cuisines.",
+        "reason": "Best for: Temples, bustling markets, rich history, and culinary exploration.",
+        "whyFits": [
+          "Intensive circumnavigations of Japan during cherry blossom or autumn seasons",
+          "Overnight stays in Tokyo, Bangkok, Singapore, and Hong Kong",
+          "Local market culinary tours with onboard guest chefs"
+        ]
+      },
+      {
+        "name": "Australia & New Zealand",
+        "category": "Dramatic Fjords & Wine Regions",
+        "quote": "Combines coastal cities, scenic landscapes, world-renowned wine valleys, and indigenous cultural experiences.",
+        "recommendation": "Calls at Sydney, Melbourne, Auckland, Wellington, Tauranga, Hobart, and Milford Sound.",
+        "reason": "Best for: Coastal scenery, wine tastings, Maori culture, and wildlife.",
+        "whyFits": [
+          "Scenic cruising through Fiordland National Park",
+          "Visits to boutique Tasmanian ports and Australian wine regions",
+          "Comprehensive trans-Tasman itineraries"
+        ]
+      },
+      {
+        "name": "South America Cruises",
+        "category": "Vibrant Cultures & Scenic Wilderness",
+        "quote": "Itineraries span Brazil, Argentina, Uruguay, Chile, Peru, the Amazon River, and Patagonia.",
+        "recommendation": "Experience tango halls, Inca heritage, Amazonian biodiversity, and Chilean fjord glaciers.",
+        "reason": "Best for: Cultural diversity, Amazon wildlife, and Chilean fjord cruising.",
+        "whyFits": [
+          "Amazon River expeditions visiting remote jungle communities",
+          "Patagonian glacier cruising around Cape Horn",
+          "Overnight stays in Rio de Janeiro and Buenos Aires"
+        ]
+      },
+      {
+        "name": "Africa & Middle East",
+        "category": "Exotic Ports & Ancient Wonders",
+        "quote": "Combines cultural landmarks, historic desert cities, Indian Ocean coastal gems, and safari gateways.",
+        "recommendation": "Visits South Africa, Egypt, Oman, UAE, and distinctive African coastal harbors.",
+        "reason": "Best for: Safari extensions, historic trade routes, and unique coastal cultures.",
+        "whyFits": [
+          "Overnight stays in Cape Town, Dubai, and Muscat",
+          "Access to game reserves and UNESCO historical sites",
+          "Carefully curated seasonal itineraries"
+        ]
+      },
+      {
+        "name": "Panama Canal & Mexico",
+        "category": "Engineering Marvels & Coastal Charms",
+        "quote": "A mix of engineering history, lush rainforest coastal scenery, historic colonial towns, and Pacific beaches.",
+        "recommendation": "Full daylight transits of the Panama Canal combined with Central American coastal calls.",
+        "reason": "Best for: Maritime engineering history, tropical nature, and colonial architecture.",
+        "whyFits": [
+          "Narrated daytime transit of the historic Panama Canal locks",
+          "Calls on Costa Rica, Colombia, and Mexican Riviera ports",
+          "Smooth trans-oceanic positioning voyages"
+        ]
+      },
+      {
+        "name": "Grand Voyages & World Cruises",
+        "category": "Extended Global Exploration",
+        "quote": "Designed for retired travelers, long-term explorers, and guests who prefer a single extended journey across continents.",
+        "recommendation": "Around the World voyages spanning 180+ days across dozens of countries, hosted on ships like Insignia and upcoming Aurelia.",
+        "reason": "Best for: Ultimate global exploration, sea-day relaxation, and immersive world travel.",
+        "whyFits": [
+          "Seamless continuous voyages without repeated packing and flights",
+          "Exclusive shoreside events, galas, and VIP cultural access",
+          "Deep community of like-minded international travelers"
+        ]
+      }
+    ],
+    "selectionTable": [
+      { "interest": "Historic cities and food", "destination": "Mediterranean" },
+      { "interest": "Fjords and dramatic scenery", "destination": "Northern Europe" },
+      { "interest": "Wildlife and natural landscapes", "destination": "Alaska" },
+      { "interest": "Beaches and island culture", "destination": "Caribbean" },
+      { "interest": "Temples, cities and regional cuisine", "destination": "Asia" },
+      { "interest": "Coastal scenery and wine regions", "destination": "Australia and New Zealand" },
+      { "interest": "Cultural diversity and scenic cruising", "destination": "South America" },
+      { "interest": "Extended international travel", "destination": "Grand Voyages and Around the World" }
+    ]
+  },
+  "excursions": {
+    "title": "Oceania Shore Excursions: Exploring Destinations in More Depth",
+    "subtitle": "Shore excursions are designed to introduce guests to local culture, history, food, architecture, nature, and traditions across small-group and private formats.",
+    "items": [
+      {
+        "title": "Curated Small-Group & Culinary Excursions",
+        "subtitle": "Local Culture & Culinary Discovery",
+        "badge": "CURATED EXCURSIONS",
+        "description": "Oceania offers guided city tours, historic and cultural sightseeing, local food and wine tastings, scenic drives, museum visits, nature walks, and exclusive Culinary Discovery Tours™ accompanied by the ship's Master Chef.",
+        "highlights": [
+          "Guided city walks and UNESCO World Heritage explorations",
+          "Culinary Discovery Tours with market shopping and cooking lessons",
+          "Active outdoor excursions, scenic nature drives, and private tours"
+        ]
+      },
+      {
+        "title": "Understanding Excursion Inclusions & Credits",
+        "subtitle": "Your World Included Offer Details",
+        "badge": "INCLUSIONS & CREDITS",
+        "description": "Not all shore excursions are automatically included. Under the current Your World Included offer, guests may select a shore-excursion credit as one of their additional amenities, reducing the out-of-pocket cost of eligible experiences ashore.",
+        "highlights": [
+          "Choice between shore excursion credit or beverage package",
+          "Credit applies directly toward official Oceania excursions",
+          "Guests cover the difference for tours exceeding the credit amount"
+        ]
+      },
+      {
+        "title": "Independent Tours & Logistics Checklist",
+        "subtitle": "Smart Planning for Private Guides",
+        "badge": "LOGISTICS CHECKLIST",
+        "description": "Independent tours or private local guides can provide a personalized experience in select ports, but travelers must carefully evaluate logistics before venturing independently.",
+        "highlights": [
+          "Confirm exact distance from dock to destination city center",
+          "Ensure guaranteed return time well ahead of all-aboard deadline",
+          "Verify vehicle reliability, traffic patterns, and local conditions"
+        ]
+      }
+    ]
+  },
+  "onboardLife": {
+    "title": "Life Onboard Oceania Cruises",
+    "subtitle": "Oceania's onboard atmosphere is relaxed, elegant, and oriented toward dining, conversation, wellness, and enrichment without megaship crowds or gimmicks.",
+    "items": [
+      {
+        "title": "Sophisticated Lounges and Bars",
+        "description": "A refined selection of lounges and bars where guests can enjoy artisanal cocktails, listen to classical or jazz musicians, socialize, or unwind in a quiet, subdued environment."
+      },
+      {
+        "title": "Enrichment & Curated Conversations",
+        "description": "Onboard guest speakers, destination presentations, cultural lectures, culinary cooking classes, art workshops, and Oceania's Curated Conversations initiative."
+      },
+      {
+        "title": "Aquamar Spa + Vitality Center",
+        "description": "State-of-the-art fitness facilities, complimentary group fitness classes, therapeutic spa treatments, acupuncture, relaxation sundecks, and holistic wellness programs."
+      },
+      {
+        "title": "Quiet Pools & Expansive Sun Decks",
+        "description": "Teak-lined outdoor pool decks, comfortable padded loungers, whirlpool hot tubs, and unhurried outdoor spaces designed for quiet reading and panoramic sea views."
+      },
+      {
+        "title": "Boutiques & Library Sanctuary",
+        "description": "Duty-free boutiques offering fine jewelry, resort wear, and essentials, alongside one of the cruise industry's most richly appointed, quiet shipboard libraries."
+      }
+    ]
+  },
+  "adultsOnly": {
+    "title": "Is Oceania Cruises Adults-Only?",
+    "regent": {
+      "badge": "New Policy (From Jan 7, 2026)",
+      "title": "Adults-Only Transformation",
+      "description": "Effective January 7, 2026, new reservations for future voyages are exclusively for guests aged 18 and older. Existing reservations made before that date that included younger travelers are honored under the transition policy.",
+      "features": [
+        "Guests must be at least 18 years old for new bookings",
+        "Prior bookings honored under protective transition rules",
+        "Intentional move away from family-centric amenities",
+        "Reflects the core preferences of Oceania's loyal travelers"
+      ]
+    },
+    "viking": {
+      "badge": "Onboard Atmosphere",
+      "title": "Quiet, Sophisticated Ambiance",
+      "description": "The adults-only policy reinforces Oceania's emphasis on unhurried dining, cultural discovery, wellness, and peaceful public lounges without children's facilities or high-energy waterparks.",
+      "features": [
+        "Tranquil, unhurried fine dining experiences",
+        "Quiet observation lounges, library, and pool deck",
+        "Destination-focused enrichment and intellectual discussions",
+        "Tailored for couples, solo travelers, and mature adults"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "How Much Does an Oceania Cruise Cost?",
+    "subtitle": "Oceania cruise prices vary considerably based on ship, stateroom category, itinerary, duration, departure date, and promotional offers.",
+    "spendMore": [
+      {
+        "title": "1. Ship Class & Age",
+        "description": "Newer ships like Allura and Vista command premium pricing compared to established Marina Class and smaller Regatta-era vessels."
+      },
+      {
+        "title": "2. Stateroom & Suite Category",
+        "description": "Inside and Ocean View cabins offer baseline value, while Verandas, Concierge cabins, and Butler-serviced Penthouse/Owner's Suites represent higher investments."
+      },
+      {
+        "title": "3. Itinerary & Destination Rarity",
+        "description": "High-demand or remote itineraries (Japan circumnavigations, Alaska, Tahiti, Grand Voyages) reflect seasonal demand and port expenses."
+      },
+      {
+        "title": "4. Cruise Duration & Sea Days",
+        "description": "Fares range from 7-night Mediterranean getaways to 30-night Grand Voyages and 180-night Around the World journeys."
+      }
+    ],
+    "spendLess": [
+      {
+        "title": "Checklist: Total Cost Evaluation",
+        "description": "Confirm total cruise fare, itemized port taxes, specialty dining inclusions, gratuities, Wi-Fi, and promotional beverage choice before booking."
+      },
+      {
+        "title": "Seasonal & Shoulder-Month Savings",
+        "description": "Booking shoulder seasons (spring/autumn in Europe) can provide substantial savings over peak summer departures."
+      },
+      {
+        "title": "Evaluating 'Your World Included' Value",
+        "description": "Because gratuities, Wi-Fi, and specialty dining are included, the out-of-pocket onboard spend is significantly lower than on mainstream lines."
+      },
+      {
+        "title": "Is Oceania Worth the Price?",
+        "description": "For travelers prioritizing exceptional food, smaller ships, and deep port exploration, Oceania's inclusive value justifies its premium luxury position."
+      }
+    ]
+  },
+  "travelerTypes": {
+    "title": "Oceania Cruises for Different Types of Travelers",
+    "subtitle": "Discover how Oceania's culinary focus, smaller ships, and adults-only environment cater to distinct traveler styles.",
+    "items": [
+      {
+        "title": "Couples & Romance",
+        "icon": "Heart",
+        "description": "An excellent choice for couples who appreciate romantic unhurried dining, comfortable veranda staterooms, quiet pool decks, and an adults-only sanctuary.",
+        "fitScore": "98%",
+        "tags": ["Fine Dining", "Adults-Only", "Romantic Sunsets"]
+      },
+      {
+        "title": "Solo Travelers",
+        "icon": "User",
+        "description": "Solo guests appreciate destination-rich itineraries, enrichment lectures, social dining tables, and dedicated solo stateroom categories on newer ships.",
+        "fitScore": "94%",
+        "tags": ["Solo Staterooms", "Enrichment", "Social Dining"]
+      },
+      {
+        "title": "Mature & Retired Travelers",
+        "icon": "Compass",
+        "description": "Ideal for mature travelers with the time to enjoy 14- to 30-night Grand Voyages and World Cruises without the chaotic energy of family megaships.",
+        "fitScore": "96%",
+        "tags": ["Longer Voyages", "Relaxed Pace", "Cultural Depth"]
+      },
+      {
+        "title": "Food & Wine Enthusiasts",
+        "icon": "Utensils",
+        "description": "Dining is Oceania's premier selling point. Guests can experience master chef menus, cooking classes, sommelier wine pairings, and culinary excursions.",
+        "fitScore": "99%",
+        "tags": ["Gourmet Dining", "Chef Pépin", "Culinary Tours"]
+      },
+      {
+        "title": "Destination-Focused Cruisers",
+        "icon": "MapPin",
+        "description": "Travelers who prioritize where they go over shipboard waterslides. Oceania's itineraries feature boutique ports, late departures, and overnights.",
+        "fitScore": "97%",
+        "tags": ["Boutique Ports", "Overnight Stays", "UNESCO Sites"]
+      },
+      {
+        "title": "Small-Ship Aficionados",
+        "icon": "Ship",
+        "description": "Guests who dislike crowded 5,000-passenger mega-vessels find Oceania's 670- to 1,200-guest fleet manageable, intimate, and effortlessly elegant.",
+        "fitScore": "95%",
+        "tags": ["No Crowds", "Intimate Scale", "Easy Navigation"]
+      }
+    ]
+  },
+  "comparisons": {
+    "title": "Oceania Cruises vs. Other Luxury Cruise Lines",
+    "subtitle": "Compare Oceania's culinary-centered model with other premier ocean cruise brands to make the right choice.",
+    "mainBrand": {
+      "name": "Oceania Cruises",
+      "tagline": "The Finest Cuisine at Sea & Destination Luxury",
+      "strengths": [
+        "World-renowned culinary identity with all specialty restaurants included",
+        "Your World Included program covers gratuities, Wi-Fi, and non-alcoholic drinks",
+        "Smaller, intimate ships (~670 to ~1,200 guests) with boutique port access",
+        "Adults-only environment (18+) for new reservations from Jan 7, 2026",
+        "Flexible luxury of choice between wine/beer package or excursion credit"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "Regent Seven Seas",
+        "tagline": "Ultra-Luxury All-Inclusive Model",
+        "description": "Oceania and Regent Seven Seas are both part of Norwegian Cruise Line Holdings, but their cruise experiences are positioned differently. Oceania emphasizes culinary experiences, destination-rich itineraries, and a luxury offering with selected amenities included. Regent Seven Seas is positioned as an ultra-luxury, more comprehensively inclusive cruise experience, with a broader range of inclusions depending on the voyage.",
+        "mainBrandStrengths": [
+          "Positioning: Luxury culinary & destination focus",
+          "Main emphasis: Exceptional dining and immersive boutique itineraries",
+          "Specialty dining: Included at participating restaurants with no cover charge",
+          "Shipboard gratuities & Wi-Fi: Included under Your World Included®",
+          "Shore excursions: Optional or credit-based flexibility",
+          "Beverage offering: Selected beverages included with customizable packages"
+        ],
+        "competitorStrengths": [
+          "Positioning: Ultra-luxury comprehensive all-inclusive model",
+          "Main emphasis: Extensive inclusions and ultra-luxury service",
+          "Specialty dining: Fully included across the fleet",
+          "Shipboard gratuities & Wi-Fi: Included in base cruise fare",
+          "Shore excursions: Unlimited shore excursions included (subject to terms)",
+          "Beverage offering: More comprehensive open-bar beverage inclusions"
+        ],
+        "bestForMainBrand": [
+          "Culinary and destination-focused travelers",
+          "Guests who prefer flexibility and lower upfront fares over paying for unwanted inclusions"
+        ],
+        "bestForCompetitor": [
+          "Travelers seeking an ultra-luxury, comprehensively inclusive experience",
+          "Guests who want shore excursions and unlimited open bar fully prepaid"
+        ],
+        "table": {
+          "headers": ["Comparison Metric", "Oceania Cruises", "Regent Seven Seas"],
+          "rows": [
+            ["Positioning", "Luxury", "Ultra-luxury"],
+            ["Main emphasis", "Dining and destinations", "Extensive inclusions and luxury service"],
+            ["Specialty dining", "Included at participating restaurants", "Included"],
+            ["Shipboard gratuities", "Included", "Included"],
+            ["Wi-Fi", "Included", "Included"],
+            ["Shore excursions", "Optional or credit-based, depending on offer", "Broad excursion inclusions, subject to terms"],
+            ["Beverage offering", "Selected beverages included; additional options depend on offer", "More comprehensive beverage inclusions"],
+            ["Best suited to", "Culinary and destination-focused travelers", "Travelers seeking a highly inclusive luxury experience"]
+          ]
+        }
+      },
+      {
+        "name": "Viking",
+        "tagline": "Destination & Cultural Enrichment",
+        "description": "Oceania and Viking appeal to travelers who value destinations, enrichment, and a more relaxed onboard atmosphere. However, their ships, dining programs, excursion inclusions, and overall cruise models differ.",
+        "mainBrandStrengths": [
+          "Core identity: Culinary and destination-focused luxury",
+          "Fleet: Ocean-going luxury ships with diverse architectural designs",
+          "Dining: Multiple signature specialty restaurants included (Polo Grill, Toscana, Red Ginger, Jacques)",
+          "Shore excursions: Selected offers, culinary discovery tours, and optional excursions",
+          "Atmosphere: Relaxed country-club casual luxury without rigid dress codes"
+        ],
+        "competitorStrengths": [
+          "Core identity: Destination and cultural enrichment",
+          "Fleet: Ocean and river cruise ships with uniform Scandinavian design",
+          "Dining: Multiple dining venues with different inclusions (wine/beer at meals)",
+          "Shore excursions: One included shore excursion in each port on many ocean itineraries",
+          "Atmosphere: Relaxed, enrichment-focused with daily lectures and Nordic spa"
+        ],
+        "bestForMainBrand": [
+          "Guests prioritizing cuisine, master chef recipes, and varied itineraries",
+          "Cruisers who enjoy distinctive specialty dining and residential-style ships"
+        ],
+        "bestForCompetitor": [
+          "Guests prioritizing cultural enrichment, history, and destination discovery",
+          "Travelers who value an included shore excursion in every port"
+        ],
+        "table": {
+          "headers": ["Comparison Metric", "Oceania Cruises", "Viking"],
+          "rows": [
+            ["Core identity", "Culinary and destination-focused", "Destination and cultural enrichment"],
+            ["Fleet", "Ocean-going luxury ships", "Ocean and river cruise ships"],
+            ["Dining", "Multiple specialty restaurants included", "Multiple dining venues with different inclusions"],
+            ["Shore excursions", "Selected offers and additional excursions", "One included shore excursion in each port on many ocean itineraries, subject to terms"],
+            ["Atmosphere", "Relaxed luxury", "Relaxed, enrichment-focused"],
+            ["Best suited to", "Guests prioritizing cuisine and varied itineraries", "Guests prioritizing cultural enrichment and destination discovery"]
+          ]
+        }
+      },
+      {
+        "name": "Seabourn",
+        "tagline": "Intimate Yacht-Like Ultra-Luxury",
+        "description": "Oceania and Seabourn both offer smaller luxury ships and destination-oriented experiences. Oceania has a strong culinary identity and a distinctive included dining program. Seabourn emphasizes highly personalized service, all-suite accommodations on its ocean fleet, and a more inclusive luxury experience.",
+        "mainBrandStrengths": [
+          "Positioning: Luxury culinary-focused cruise line",
+          "Culinary focus: Central part of brand identity (The Finest Cuisine at Sea®)",
+          "Ship atmosphere: Relaxed, country-club refined and uncrowded",
+          "Accommodation: Diverse choice of staterooms and spacious suites",
+          "Included beverages: Selected beverages, specialty coffees, and flexible wine/beer options"
+        ],
+        "competitorStrengths": [
+          "Positioning: Ultra-luxury boutique cruise line",
+          "Culinary focus: Fine dining and curated culinary experiences",
+          "Ship atmosphere: Intimate, highly personalized yacht vibe (under 600 guests)",
+          "Accommodation: Ocean ships primarily offer oceanfront veranda suites",
+          "Included beverages: More extensive beverage inclusions and complimentary open bar"
+        ],
+        "bestForMainBrand": [
+          "Food-focused and destination-focused travelers",
+          "Guests who value a wider selection of specialty restaurants and newer 1,200-guest ships"
+        ],
+        "bestForCompetitor": [
+          "Travelers seeking intimate ultra-luxury and personalized butler-style service",
+          "Guests who prioritize an all-suite yacht setting and all-inclusive open bar"
+        ],
+        "table": {
+          "headers": ["Comparison Metric", "Oceania Cruises", "Seabourn"],
+          "rows": [
+            ["Positioning", "Luxury", "Ultra-luxury"],
+            ["Culinary focus", "Central part of brand identity", "Fine dining and curated culinary experiences"],
+            ["Ship atmosphere", "Relaxed and refined", "Intimate and highly personalized"],
+            ["Accommodation", "Staterooms and suites", "Ocean ships primarily offer suites"],
+            ["Included beverages", "Selected beverages and optional offers", "More extensive beverage inclusions, subject to terms"],
+            ["Best suited to", "Food-focused and destination-focused travelers", "Travelers seeking intimate luxury and personalized service"]
+          ]
+        }
+      }
+    ],
+    "conclusion": {
+      "title": "Which Cruise Line Should You Choose?",
+      "description": "The best option depends on your individual vacation priorities:",
+      "items": [
+        "Choose Oceania if dining, smaller ships, and destination-rich itineraries are your highest priorities.",
+        "Consider Regent if you prefer a more comprehensive ultra-luxury inclusion model with unlimited excursions.",
+        "Compare Viking if cultural enrichment and structured daily lectures are central to your trip.",
+        "Consider Seabourn if highly personalized yacht-style service and an all-suite intimate ship are essential."
+      ],
+      "footer": "Compare the full fare, itinerary, ship, accommodation, and inclusions before making a final decision."
+    }
+  },
+  "prosCons": {
+    "title": "Oceania Cruises: Pros and Cons",
+    "advantages": [
+      "Strong culinary identity with The Finest Cuisine at Sea®",
+      "Specialty dining included in published cruise fare with no cover charge",
+      "Shipboard gratuities included under Your World Included®",
+      "Complimentary shipwide Wi-Fi included for all guests",
+      "Specialty coffees, teas, soft drinks, Vero Water, and gourmet gelato included",
+      "Smaller ships (~670 to ~1,200 guests) providing an intimate atmosphere",
+      "Destination-focused itineraries featuring boutique ports and overnights",
+      "Wide choice of stateroom and suite categories",
+      "Adults-only experience for new reservations from January 7, 2026",
+      "Longer Grand Voyages and Around the World itineraries",
+      "Curated enrichment talks and Aquamar wellness facilities"
+    ],
+    "drawbacks": [
+      "Cruise fares are higher than mainstream resort cruise lines",
+      "Alcoholic beverage inclusions are not equivalent to an unlimited open bar",
+      "Shore excursions are not all automatically included (credit-based)",
+      "Some premium culinary experiences (Privée, La Reserve) cost extra",
+      "Smaller ships offer fewer large-scale Broadway shows or waterslides",
+      "Not every ship has identical restaurants or suite categories",
+      "Adults-only policy makes Oceania unsuitable for families with children under 18",
+      "Popular suites and world itineraries often sell out far in advance"
+    ],
+    "bottomNote": "Is Oceania Cruises Worth It? Oceania is worth considering if you want a luxury cruise built around dining, destination exploration, attentive service, and a relaxed onboard atmosphere. If your priorities are exceptional dining, interesting itineraries, comfortable accommodations, and a quieter adults-only environment, Oceania deserves serious consideration."
+  },
+  "expert": {
+    "badge": "VERIFIED LUXURY CRUISE AUTHORITY",
+    "authorityBoxTitle": "ANGELA HUGHES LUXURY CRUISE INSIGHTS",
+    "authoritySubtitle": "Trusted Global Travel Advisor & CEO",
+    "name": "Angela Hughes",
+    "title": "Luxury Cruise Specialist & CEO, Trips & Ships Luxury Travel",
+    "experienceBadge": "40+ YEARS CRUISE EXPERTISE",
+    "bio": "Choosing an Oceania cruise involves more than selecting a destination and departure date. The ship, accommodation, dining preferences, itinerary, shore-excursion options, and included amenities all influence the experience. At Trips & Ships Luxury Travel, Angela Hughes and her team help travelers compare luxury cruise lines, evaluate ship and suite options, and select itineraries that match their travel interests.",
+    "quote": "Oceania delivers one of the finest culinary experiences afloat without the rigid formality of old-world cruising. For adults who appreciate exceptional dining and deep destination immersion, it offers unparalleled value.",
+    "quoteSubtitle": "On Planning the Perfect Oceania Cruise",
+    "credentials": [
+      "Over 40 Years Advising Luxury & World Cruise Travelers",
+      "Explored 121+ Countries Across Seven Continents",
+      "Personal Relationships with Luxury Cruise Line Executives",
+      "Specialist in Solo, Couples & Extended World Cruise Itineraries",
+      "CEO & Founder of Trips & Ships Luxury Travel",
+      "Recipient of Top Luxury Travel Industry Producer Awards"
+    ],
+    "ctaText": "Plan Your Oceania Cruise with Angela",
+    "ctaLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Cruises",
+    "subtitle": "Everything you need to know about Oceania's ships, dining, inclusions, and policies.",
+    "questions": [
+      {
+        "question": "What is Oceania Cruises known for?",
+        "answer": "Oceania is known for its culinary-focused luxury cruise experience, destination-rich itineraries, smaller ships, personalized service, and comfortable accommodations. Dining is one of the central elements of its brand identity."
+      },
+      {
+        "question": "Is Oceania Cruises considered a luxury cruise line?",
+        "answer": "Yes. Oceania is positioned as a luxury cruise line, combining upscale accommodations, specialty dining, attentive service, and destination-focused itineraries."
+      },
+      {
+        "question": "Is Oceania Cruises adults-only?",
+        "answer": "Oceania announced an adults-only policy effective January 7, 2026, for new reservations for future voyages. Guests must be 18 or older under the new booking policy. Existing reservations made before that date that include younger travelers are being honored."
+      },
+      {
+        "question": "How many ships does Oceania Cruises have?",
+        "answer": "Oceania's operating fleet includes Allura, Vista, Marina, Riviera, Nautica, Insignia, and Sirena. Future additions include Sonata and Aurelia, scheduled to debut in 2027."
+      },
+      {
+        "question": "What is the newest Oceania cruise ship?",
+        "answer": "Oceania Allura debuted in 2025 and is the newest ship currently operating in the fleet as of November 2026. Oceania Sonata is scheduled to debut in August 2027."
+      },
+      {
+        "question": "What is the smallest Oceania cruise ship?",
+        "answer": "Nautica, Insignia, and Sirena are among Oceania's smaller ships, each accommodating approximately 670 guests."
+      },
+      {
+        "question": "Which Oceania ship is best?",
+        "answer": "There is no single best ship for every traveler. Allura and Vista appeal to guests who prefer newer ship design, Marina and Riviera offer established culinary-focused experiences, and Nautica, Insignia, and Sirena provide a smaller-ship atmosphere."
+      },
+      {
+        "question": "Does Oceania Cruises have large ships?",
+        "answer": "Oceania operates smaller luxury ships compared with the largest mainstream cruise vessels. Its operating fleet includes ships accommodating approximately 670 guests and others accommodating around 1,200 guests."
+      },
+      {
+        "question": "What is included on Oceania Cruises?",
+        "answer": "Your World Included generally includes specialty dining, shipboard gratuities, Wi-Fi, specialty coffees, teas, soft drinks, selected juices, smoothies, Vero Water, and gourmet ice cream. Laundry services and self-service facilities are also included according to accommodation level and program terms."
+      },
+      {
+        "question": "Are gratuities included on Oceania Cruises?",
+        "answer": "Yes. Shipboard gratuities are included in the published Your World Included program for all guests."
+      },
+      {
+        "question": "Is Wi-Fi free on Oceania Cruises?",
+        "answer": "Yes. Complimentary shipwide Wi-Fi is included under the published Your World Included program. Connection performance and availability can vary."
+      },
+      {
+        "question": "Are drinks included on Oceania Cruises?",
+        "answer": "Selected non-alcoholic beverages, specialty coffees, teas, and other listed drinks are included. The current Your World Included offer also allows guests to select wine and beer by the glass during restaurant lunch and dinner hours or choose a shore-excursion credit. This is not automatically an unlimited alcoholic beverage package."
+      },
+      {
+        "question": "Is specialty dining free on Oceania Cruises?",
+        "answer": "Yes. Dining in Oceania's included specialty restaurants is covered by the cruise fare under Your World Included. Selected premium or private dining experiences may have additional charges or booking conditions."
+      },
+      {
+        "question": "How many restaurants does Oceania have?",
+        "answer": "The number varies by ship. Dining options can include The Grand Dining Room, Polo Grill, Toscana, Red Ginger, Jacques, Terrace Café, Waves Grill, Aquamar Kitchen, Baristas, and other ship-specific venues."
+      },
+      {
+        "question": "Does Oceania Cruises have formal nights?",
+        "answer": "Oceania generally promotes a country-club casual style rather than traditional formal-night dressing. Guests should check the current dress guidance for their sailing and restaurant."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Experience The Finest Cuisine at Sea®?",
+    "description": "Speak with Angela Hughes and the luxury cruise advisors at Trips & Ships Luxury Travel to tailor your Oceania voyage, unlock exclusive amenities, and secure the ideal suite.",
+    "buttonText": "Plan Your Oceania Cruise",
+    "buttonLink": "/contact"
+  }
+}
+

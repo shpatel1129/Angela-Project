@@ -1,0 +1,787 @@
+{
+  "meta": {
+    "title": "Celebrity Cruises Gratuities: Daily Rates, Tips & Extra Costs",
+    "description": "Understand Celebrity Cruises gratuities, daily service charges, drink package tips, The Retreat fees, All Included benefits and what costs extra in 2026.",
+    "canonical": "https://www.tripsandships.com/celebrity-cruises/gratuities",
+    "primaryKeyword": "Celebrity Cruises gratuities",
+    "secondaryKeywords": [
+      "Celebrity Cruises daily gratuities",
+      "Celebrity Cruises tipping policy",
+      "Celebrity Cruises gratuity fees",
+      "Celebrity Cruises service charges",
+      "Celebrity Cruises tips per day",
+      "Are gratuities included on Celebrity Cruises?",
+      "Celebrity Cruises drink package gratuities",
+      "Celebrity Cruises All Included gratuities",
+      "Celebrity Cruises Retreat gratuities",
+      "How much should you tip on Celebrity Cruises?"
+    ],
+    "searchIntent": "Informational and commercial investigation",
+    "author": "Angela Hughes, CEO of Trips & Ships Luxury Travel"
+  },
+  "hero": {
+    "badge": "2026 Policy & Pricing Guide",
+    "title": "Celebrity Cruises Gratuities:\nWhat Is Included and What Costs Extra?",
+    "subtitle": "Understand daily onboard staff charges, 20% purchase gratuities, The Retreat policies, and how to budget accurately for your cruise.",
+    "description": "Celebrity Cruises charges daily onboard gratuities to help compensate the crew members who contribute to your cruise experience. These gratuities are separate from your cruise fare unless they have been prepaid or specifically included through a booking arrangement.",
+    "importantNote": "Celebrity states that gratuities are optional and may be adjusted or removed at the guest's discretion. The daily amount is automatically added to the SeaPass account when it has not been prepaid."
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Are Gratuities Included on Celebrity Cruises?",
+    "subtitle": "It depends on your booking and what you purchase. Understand the core distinction between daily staff gratuities and purchase-specific service fees.",
+    "columns": [
+      "Booking or Purchase Type",
+      "Gratuity Status & Details"
+    ],
+    "rows": [
+      {
+        "item": "Standard Cruise Fare",
+        "status": "Do not assume daily onboard staff gratuities are included in the base fare."
+      },
+      {
+        "item": "Prepaid Gratuities",
+        "status": "Daily onboard staff gratuities are paid before sailing and won't appear as daily charges."
+      },
+      {
+        "item": "All Included Package",
+        "status": "Beverage package gratuities are included, but daily onboard staff gratuities are separate."
+      },
+      {
+        "item": "The Retreat",
+        "status": "Premium beverage package gratuities are included under suite benefits; daily staff gratuities are separate ($24.50/day)."
+      },
+      {
+        "item": "Beverages Purchased Separately",
+        "status": "A 20% gratuity is automatically added to individual drink and package purchases."
+      },
+      {
+        "item": "Specialty Dining",
+        "status": "A 20% gratuity is generally added to the specialty dining cover charge or package."
+      },
+      {
+        "item": "Spa and Salon Services",
+        "status": "A 20% gratuity is generally added to all pre-cruise and onboard wellness treatments."
+      }
+    ],
+    "verdict": "The most important distinction is that daily onboard staff gratuities and gratuities on individual purchases are two different charges."
+  },
+  "dailyRates": {
+    "title": "How Much Are Celebrity Cruises Gratuities in 2026?",
+    "subtitle": "Celebrity Cruises uses different daily gratuity rates depending on the stateroom category. Rates are charged per guest, per day.",
+    "effectiveDate": "Published rates effective July 29, 2026",
+    "ratesColumns": [
+      "Stateroom Category",
+      "Per Person, Per Day",
+      "7-Night Cruise Per Person"
+    ],
+    "ratesRows": [
+      {
+        "category": "Inside",
+        "perDay": "$19.50",
+        "sevenNight": "$136.50"
+      },
+      {
+        "category": "Oceanview",
+        "perDay": "$19.50",
+        "sevenNight": "$136.50"
+      },
+      {
+        "category": "Veranda",
+        "perDay": "$19.50",
+        "sevenNight": "$136.50"
+      },
+      {
+        "category": "Concierge Class",
+        "perDay": "$20.50",
+        "sevenNight": "$143.50"
+      },
+      {
+        "category": "AquaClass",
+        "perDay": "$20.50",
+        "sevenNight": "$143.50"
+      },
+      {
+        "category": "The Retreat",
+        "perDay": "$24.50",
+        "sevenNight": "$171.50"
+      }
+    ],
+    "twoGuestsTitle": "How Much Will Two Guests Pay?",
+    "twoGuestsSubtitle": "For a seven-night sailing, two guests sharing a stateroom would pay:",
+    "twoGuestsColumns": [
+      "Stateroom Category",
+      "Total for Two Guests, 7 Nights"
+    ],
+    "twoGuestsRows": [
+      {
+        "category": "Inside, Oceanview or Veranda",
+        "total": "$273"
+      },
+      {
+        "category": "Concierge Class or AquaClass",
+        "total": "$287"
+      },
+      {
+        "category": "The Retreat",
+        "total": "$343"
+      }
+    ],
+    "exampleTitle": "Example: A Seven-Night Celebrity Cruise",
+    "exampleParagraphs": [
+      "Imagine two guests book a seven-night Celebrity cruise in a Veranda stateroom.",
+      "The calculation is: Daily gratuity per guest: $19.50 | Number of guests: 2 | Number of nights: 7 | Total: $19.50 × 2 × 7 = $273.",
+      "If the gratuities have not been prepaid, this amount is generally applied to the guests' onboard SeaPass accounts."
+    ],
+    "shipVariationTitle": "Do Celebrity Gratuities Change by Ship?",
+    "shipVariationParagraphs": [
+      "The published daily rates are based on stateroom category rather than a different advertised rate for every ship.",
+      "However, applicable rates and booking arrangements can change. Always review the gratuity terms on your booking confirmation and Celebrity's current official policy before departure."
+    ]
+  },
+  "whatGratuitiesCover": {
+    "title": "What Do Celebrity Cruises Daily Gratuities Cover?",
+    "subtitle": "Daily gratuities contribute toward the compensation of crew members who provide guest services throughout the cruise.",
+    "paragraphs": [
+      "Celebrity explains that gratuities are pooled and distributed among teams that contribute to the overall onboard experience.",
+      "These crew members include dining room staff, bar and culinary services staff, stateroom attendants, hotel services teams, and other crew members who work behind the scenes."
+    ],
+    "crewTeams": [
+      "Dining room service and waitstaff teams",
+      "Culinary preparation, kitchen, and galley personnel",
+      "Stateroom attendants and housekeeping stewards",
+      "Hotel services, guest relations, and operations teams",
+      "Behind-the-scenes maritime crew who support daily onboard comfort"
+    ],
+    "cabinStewardQuestion": "Do Daily Gratuities Go Only to Your Cabin Steward?",
+    "cabinStewardAnswer": "No. The daily gratuity is not simply a personal tip for your cabin attendant. It is pooled and distributed among multiple onboard teams. Your cabin steward is an important part of your cruise experience, but the daily gratuity also recognizes the work of dining staff, culinary teams, hotel services and other crew members.",
+    "separateTippingQuestion": "Should You Tip Your Cabin Steward Separately?",
+    "separateTippingAnswer": "Additional cash tipping is a personal choice. If a crew member provides exceptional service and you would like to recognize it personally, you can offer an additional tip. However, you should understand that the daily gratuity already contributes to the onboard crew compensation pool. There is no need to assume that an additional cash tip is mandatory."
+  },
+  "fareInclusions": {
+    "title": "Are Gratuities Included in Celebrity Cruises' Cruise Fare?",
+    "subtitle": "For standard cruise-only bookings, do not assume that daily onboard staff gratuities are included in the advertised cruise fare. Celebrity allows guests to prepay gratuities at the time of booking or have the applicable amount added to their onboard SeaPass account.",
+    "cards": [
+      {
+        "title": "What Happens If You Do Not Prepay?",
+        "description": "If you do not prepay your onboard staff gratuities, Celebrity generally adds the applicable daily amount to your SeaPass account. This means the gratuity becomes part of your onboard account balance.",
+        "bullets": [
+          "You can review your charges during the cruise through the Celebrity app or onboard account facilities."
+        ],
+        "icon": "CreditCard"
+      },
+      {
+        "title": "What If I Prepay Gratuities?",
+        "description": "If you prepay the daily onboard staff gratuities, those charges are paid before departure. They should not be charged again as daily gratuities to your onboard account.",
+        "bullets": [
+          "Check your booking confirmation to verify that prepaid gratuities are listed as an included or paid item."
+        ],
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Can a Travel Advisor Arrange Prepaid Gratuities?",
+        "description": "A travel advisor can help review the booking details and identify whether prepaid gratuities are included in the reservation or can be added.",
+        "bullets": [
+          "The exact payment arrangement depends on the fare, promotion and booking terms."
+        ],
+        "icon": "CheckCircle2"
+      }
+    ]
+  },
+  "allIncluded": {
+    "title": "Does Celebrity Cruises All Included Cover Gratuities?",
+    "subtitle": "Celebrity's All Included pricing option combines selected onboard amenities with the cruise fare. Understand what is covered and what remains separate.",
+    "paragraphs": [
+      "The All Included package includes: Basic Wi-Fi, Classic Drink Package, and beverage package gratuities.",
+      "However, All Included does not automatically cover daily onboard staff gratuities.",
+      "This distinction is important because some travelers assume that choosing an inclusive cruise fare means every type of gratuity has already been paid. That is not the case."
+    ],
+    "tableColumns": [
+      "Benefit",
+      "Included in All Included?"
+    ],
+    "tableRows": [
+      {
+        "benefit": "Basic Wi-Fi",
+        "included": "Yes"
+      },
+      {
+        "benefit": "Classic Drink Package",
+        "included": "Yes"
+      },
+      {
+        "benefit": "Gratuities on the included drink package",
+        "included": "Yes"
+      },
+      {
+        "benefit": "Daily onboard staff gratuities",
+        "included": "No"
+      },
+      {
+        "benefit": "Additional spa gratuities",
+        "included": "No"
+      },
+      {
+        "benefit": "Additional specialty dining gratuities",
+        "included": "No"
+      }
+    ],
+    "beverageGratuitiesNote": "Yes. Celebrity confirms that the Classic Drink Package provided through All Included includes beverage package gratuities. You should not need to pay a second beverage-package gratuity simply because you use the included package. However, purchases outside the package may have separate charges and applicable gratuities.",
+    "worthItNote": "The value depends on how much you expect to use the included amenities. If you plan to use the drink package and internet regularly, All Included may offer convenience and value. However, compare the total fare against the cruise-only option and the cost of purchasing the amenities separately."
+  },
+  "theRetreat": {
+    "title": "Are Gratuities Included in The Retreat?",
+    "eyebrow": "Celebrity Cruises Suite Policies",
+    "paragraphs": [
+      "Celebrity's Retreat experience includes premium amenities such as: Premium Drink Package, Premium Wi-Fi, Access to Luminae, Access to the Retreat Lounge or Michael's Club on applicable ships, and Dedicated Retreat services.",
+      "Celebrity confirms that the Premium Drink Package includes beverage package gratuities. However, The Retreat does not automatically eliminate the daily onboard staff gratuity. The Retreat has its own daily gratuity rate."
+    ],
+    "highlights": [
+      "The Retreat Daily Gratuity Rate: As of November 2026, the published daily onboard staff gratuity for The Retreat is $24.50 per guest, per day.",
+      "Seven-Night Cruise Calculation: For example, two guests sailing for seven nights would pay: $24.50 × 2 × 7 = $343. This is the daily onboard staff gratuity calculation, separate from the Retreat's included beverage package benefits.",
+      "Do Retreat Guests Pay Extra Drink Tips?: The Premium Drink Package included with the applicable Retreat benefits includes beverage package gratuities. However, purchases outside the included package may have their own charges and applicable gratuities."
+    ]
+  },
+  "drinksGratuity": {
+    "title": "Does Celebrity Cruises Add a 20% Gratuity to Drinks?",
+    "subtitle": "Yes. Celebrity's gratuity policy states that a 20% gratuity is automatically added to beverage and beverage package purchases made before the cruise or onboard.",
+    "paragraphs": [
+      "This 20% charge is separate from the daily onboard staff gratuity.",
+      "Example: Imagine you purchase a drink priced at $15. Drink price: $15 | 20% gratuity: $3 | Total: $18. Applicable taxes or other charges may also affect the final amount.",
+      "What If You Have a Drink Package? If you have an eligible beverage package with gratuities included, you should not be charged another standard beverage-package gratuity for drinks covered by that package.",
+      "However, if you order a drink above the package's price limit, you may pay the price difference and the applicable gratuity on that difference.",
+      "For example, if your package covers a drink up to $12 and you order a $14 drink: Price difference: $2 | 20% gratuity on the difference: $0.40 | Additional amount: $2.40. The exact calculation depends on the package terms and applicable charges."
+    ]
+  },
+  "specialtyDining": {
+    "title": "Are Gratuities Included in Celebrity Specialty Dining?",
+    "subtitle": "No. Celebrity's policy states that a 20% gratuity is added to specialty dining purchases and specialty dining packages.",
+    "paragraphs": [
+      "This applies to eligible pre-cruise and onboard purchases.",
+      "Example: Imagine a specialty dining experience costs $60 per guest. Dining price: $60 | 20% gratuity: $12 | Total: $72. Applicable taxes or other charges may also apply.",
+      "What If Specialty Dining Is Included in My Suite? Celebrity provides specialty dining benefits to guests staying in certain higher-tier Retreat suites. The eligible suite categories and benefits should be checked against the current Retreat terms. If a dining experience is included in your suite benefits, do not automatically assume that the same purchase gratuity applies as it would to a separately purchased dining cover. Confirm the specific benefit and any additional charges before making a reservation."
+    ]
+  },
+  "spaGratuity": {
+    "title": "Are Spa and Salon Gratuities Included on Celebrity Cruises?",
+    "subtitle": "No. Celebrity generally adds a 20% gratuity to pre-cruise and onboard spa and salon service purchases.",
+    "paragraphs": [
+      "Examples include massages, facials, beauty treatments, hair services, salon appointments, and other eligible spa services.",
+      "Example: Imagine you book a spa treatment priced at $150. Treatment price: $150 | 20% gratuity: $30 | Total: $180. Any applicable taxes or additional charges may change the final amount.",
+      "Do You Need to Tip the Spa Therapist Again? The standard gratuity is automatically added to the applicable purchase. If you wish to offer an additional tip for exceptional service, that is a personal decision rather than a requirement."
+    ]
+  },
+  "roomService": {
+    "title": "Are Room Service and Minibar Gratuities Included?",
+    "subtitle": "Celebrity's gratuity policy includes a 20% gratuity on eligible room service and minibar purchases.",
+    "paragraphs": [
+      "This is separate from the daily onboard staff gratuity. Some room service orders may also involve a delivery fee or other menu-specific charge.",
+      "Before ordering, check the menu and the final checkout amount to understand the total cost.",
+      "Does the Daily Gratuity Cover Room Service? The daily onboard staff gratuity contributes to the compensation of the broader onboard team. However, Celebrity's policy separately identifies room service and minibar purchases as subject to an additional 20% gratuity. Therefore, do not assume that your daily gratuity covers every charge associated with room service."
+    ]
+  },
+  "shoreExcursions": {
+    "title": "Are Shore Excursion Tips Included in Celebrity Cruises Gratuities?",
+    "subtitle": "Daily onboard staff gratuities should not be confused with tips for independent tour guides, drivers or excursion staff.",
+    "paragraphs": [
+      "When you book an excursion, check its description and inclusions to understand whether gratuities are included or whether additional tipping is customary.",
+      "For independently operated tours, tipping practices can vary by destination and local service expectations.",
+      "Should You Tip Shore Excursion Guides? An additional tip is generally a personal choice based on the service received and local customs. If you receive excellent service from a guide or driver, you may choose to recognize that service separately. Do not assume that the ship's daily gratuity automatically covers every person involved in a shore excursion."
+    ]
+  },
+  "adjustRemove": {
+    "title": "Can You Adjust or Remove Celebrity Cruises Gratuities?",
+    "subtitle": "Yes. Celebrity's published gratuity policy states that gratuities are optional and guests may adjust or remove them at their discretion.",
+    "paragraphs": [
+      "If you want to modify the daily onboard staff gratuity, visit the Guest Relations desk onboard.",
+      "Celebrity states that changes must be made before the morning of disembarkation. Once the sailing has ended, modifications cannot be made.",
+      "Can You Remove the 20% Gratuity on Drinks or Spa Services? Celebrity's policy also states that the additional gratuities on eligible purchases are optional and may be adjusted or removed at the guest's discretion. If you want to discuss a purchase-related gratuity, contact Guest Relations and review the applicable charge before the cruise ends.",
+      "Should You Remove Daily Gratuities? That is a personal decision. The daily gratuity contributes toward compensation for many crew members, including people who work behind the scenes. If you have concerns about a charge or the service you received, discuss the issue with Guest Relations before the end of the sailing."
+    ],
+    "steps": [
+      "Visit Guest Relations onboard the ship.",
+      "Explain that you want to adjust or remove the applicable gratuity.",
+      "Ask the team to review the charge on your SeaPass account.",
+      "Confirm that the requested adjustment has been processed before disembarkation morning."
+    ]
+  },
+  "prepayGratuities": {
+    "title": "Should You Prepay Celebrity Cruises Gratuities?",
+    "subtitle": "Prepaying gratuities can make cruise budgeting easier by settling service charges before departure.",
+    "prepayBenefits": [
+      "Helps you plan and finalize your cruise budget ahead of time.",
+      "Reduces the number of charges added to your onboard SeaPass account.",
+      "Makes it easier to estimate your overall cruise vacation expenses.",
+      "Allows you to lock in confirmed gratuity terms before departure."
+    ],
+    "onboardBenefits": [
+      "Allows travelers to settle all onboard expenses together at the conclusion of sailing.",
+      "If you do not prepay, the applicable daily gratuity is automatically charged to your SeaPass account.",
+      "Provides flexibility to review onboard account charges during your voyage."
+    ],
+    "verdict": "Neither option is automatically better for every traveler. If you prefer to have more of your cruise expenses paid before departure, prepaying can be convenient. If you prefer to manage expenses during the sailing, you may choose the onboard payment arrangement. Our recommendation: Check the applicable rate and booking conditions before choosing. If you have already prepaid gratuities under an earlier rate, confirm whether that amount is protected under your reservation."
+  },
+  "budgeting": {
+    "title": "How Much Should You Budget for Celebrity Cruises Gratuities?",
+    "subtitle": "Your total gratuity budget depends on your stateroom category, cruise duration and onboard purchases.",
+    "intro": "The following examples show the daily onboard staff gratuity only. Calculations use Celebrity's published 2026 daily rates and assume the gratuities have not already been prepaid or included through a specific booking arrangement.",
+    "tables": [
+      {
+        "duration": "Seven-Night Cruise",
+        "columns": [
+          "Stateroom Category",
+          "One Guest",
+          "Two Guests"
+        ],
+        "rows": [
+          {
+            "category": "Inside, Oceanview or Veranda",
+            "one": "$136.50",
+            "two": "$273"
+          },
+          {
+            "category": "Concierge Class or AquaClass",
+            "one": "$143.50",
+            "two": "$287"
+          },
+          {
+            "category": "The Retreat",
+            "one": "$171.50",
+            "two": "$343"
+          }
+        ]
+      },
+      {
+        "duration": "Ten-Night Cruise",
+        "columns": [
+          "Stateroom Category",
+          "One Guest",
+          "Two Guests"
+        ],
+        "rows": [
+          {
+            "category": "Inside, Oceanview or Veranda",
+            "one": "$195",
+            "two": "$390"
+          },
+          {
+            "category": "Concierge Class or AquaClass",
+            "one": "$205",
+            "two": "$410"
+          },
+          {
+            "category": "The Retreat",
+            "one": "$245",
+            "two": "$490"
+          }
+        ]
+      },
+      {
+        "duration": "Fourteen-Night Cruise",
+        "columns": [
+          "Stateroom Category",
+          "One Guest",
+          "Two Guests"
+        ],
+        "rows": [
+          {
+            "category": "Inside, Oceanview or Veranda",
+            "one": "$273",
+            "two": "$546"
+          },
+          {
+            "category": "Concierge Class or AquaClass",
+            "one": "$287",
+            "two": "$574"
+          },
+          {
+            "category": "The Retreat",
+            "one": "$343",
+            "two": "$686"
+          }
+        ]
+      }
+    ],
+    "note": "These calculations do not include additional purchase-related gratuities, porters, independent shore excursion tips or other optional payments."
+  },
+  "cruiseLineComparison": {
+    "title": "Celebrity Cruises Gratuities vs. Other Cruise Lines",
+    "subtitle": "Different cruise lines use different tipping policies, daily rates and package arrangements. When comparing cruise fares, it is important to look beyond the headline cruise price.",
+    "considerations": [
+      "Whether daily staff gratuities are included in the fare.",
+      "Whether beverage package gratuities are included.",
+      "Whether specialty dining carries additional service charges.",
+      "Whether gratuities are prepaid or charged onboard.",
+      "Whether the cruise line allows adjustments or opt-outs.",
+      "Whether suite guests have different daily rates."
+    ],
+    "columns": [
+      "Cruise Line",
+      "General Gratuity Approach"
+    ],
+    "rows": [
+      {
+        "line": "Celebrity Cruises",
+        "approach": "Daily stateroom-category gratuities, plus 20% purchase-related gratuities on drinks, dining, and spa."
+      },
+      {
+        "line": "Royal Caribbean",
+        "approach": "Daily gratuity rates based on accommodation category, with additional purchase gratuities on beverages and dining."
+      },
+      {
+        "line": "Norwegian Cruise Line",
+        "approach": "Daily service charges and additional service charges on selected beverage and dining purchases."
+      },
+      {
+        "line": "Princess Cruises",
+        "approach": "Daily crew appreciation charges, with package-specific arrangements such as Princess Plus or Premier."
+      },
+      {
+        "line": "Holland America Line",
+        "approach": "Daily hotel service charges and applicable purchase-related charges across onboard venues."
+      }
+    ],
+    "note": "Rates and policies vary and can change. Compare the current terms for the exact sailing rather than assuming that one cruise line's gratuities are included in another's advertised fare."
+  },
+  "howToCheck": {
+    "title": "How to Check Your Celebrity Cruises Gratuities Before Sailing",
+    "subtitle": "Before departure, review your reservation so you understand which gratuities have already been paid and which may be added later.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Review Your Booking Confirmation",
+        "description": "Check whether your booking lists prepaid onboard gratuities or any gratuity-related promotion."
+      },
+      {
+        "number": "02",
+        "title": "Check Your Celebrity Account",
+        "description": "Sign in to your Celebrity account and review your booking details and available payment information."
+      },
+      {
+        "number": "03",
+        "title": "Review Your Cruise Planner",
+        "description": "Check the packages and services you have purchased before sailing. Pay attention to beverage packages, specialty dining, spa services and other purchases that may carry separate gratuities."
+      },
+      {
+        "number": "04",
+        "title": "Check Your Onboard Account",
+        "description": "Once onboard, review your SeaPass charges in the Celebrity app to confirm that the daily gratuity and any additional purchase charges are correct."
+      },
+      {
+        "number": "05",
+        "title": "Contact Guest Relations if Something Is Unclear",
+        "description": "If you believe a gratuity has been charged incorrectly or you want to request an adjustment, speak with Guest Relations before the end of the cruise."
+      }
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Celebrity Cruises Gratuities",
+    "subtitle": "Get clear answers to the 30 most common questions regarding Celebrity daily service charges, drink package tips, and onboard tipping policies.",
+    "items": [
+      {
+        "question": "How much are Celebrity Cruises gratuities per day in 2026?",
+        "answer": "As of November 2026, Celebrity's published daily rates are $19.50 per guest for Inside, Oceanview and Veranda staterooms; $20.50 for Concierge Class and AquaClass; and $24.50 for The Retreat."
+      },
+      {
+        "question": "Are gratuities included in Celebrity Cruises?",
+        "answer": "Daily onboard staff gratuities are not automatically included in every standard cruise fare. They can be prepaid or added to the onboard SeaPass account. Certain package benefits include beverage gratuities, but that does not automatically cover daily staff gratuities."
+      },
+      {
+        "question": "Does Celebrity All Included cover daily gratuities?",
+        "answer": "No. All Included provides Basic Wi-Fi and a Classic Drink Package, including beverage package gratuities. Daily onboard staff gratuities are charged separately."
+      },
+      {
+        "question": "Are Celebrity drink package gratuities included?",
+        "answer": "Celebrity's All Included package and applicable Retreat drink benefits include beverage package gratuities. Separately purchased beverage packages generally have a 20% gratuity added."
+      },
+      {
+        "question": "Does The Retreat include gratuities?",
+        "answer": "The Retreat includes Premium Drink Package gratuities under its applicable benefits. Daily onboard staff gratuities are separate and are charged at the Retreat rate unless prepaid."
+      },
+      {
+        "question": "How much are gratuities for a seven-night Celebrity cruise?",
+        "answer": "For one guest, the daily onboard staff gratuity totals $136.50 in an Inside, Oceanview or Veranda stateroom, $143.50 in Concierge Class or AquaClass, and $171.50 in The Retreat."
+      },
+      {
+        "question": "How much are Celebrity gratuities for two people?",
+        "answer": "For a seven-night cruise, two guests would pay $273 in an Inside, Oceanview or Veranda stateroom, $287 in Concierge Class or AquaClass, or $343 in The Retreat, assuming gratuities are not prepaid."
+      },
+      {
+        "question": "Are Celebrity Cruises gratuities mandatory?",
+        "answer": "Celebrity states that gratuities are optional and may be adjusted or removed at the guest's discretion, subject to its policy and applicable law."
+      },
+      {
+        "question": "Can I remove gratuities on Celebrity Cruises?",
+        "answer": "Yes. Celebrity allows guests to adjust or remove gratuities by visiting Guest Relations onboard before the morning of disembarkation."
+      },
+      {
+        "question": "Can I remove gratuities after the cruise?",
+        "answer": "Celebrity states that gratuity modifications cannot be made once the sailing has ended."
+      },
+      {
+        "question": "Does Celebrity add 20% gratuity to drinks?",
+        "answer": "Yes. Celebrity's policy states that a 20% gratuity is added to eligible beverage purchases and beverage packages purchased before the cruise or onboard."
+      },
+      {
+        "question": "Do I have to tip again if I have a Celebrity drink package?",
+        "answer": "If the beverage package includes gratuities, you should not be charged another standard beverage-package gratuity for drinks covered by the package. Additional charges may apply to purchases outside the package."
+      },
+      {
+        "question": "Are specialty dining gratuities included?",
+        "answer": "Celebrity generally adds a 20% gratuity to specialty dining covers and packages. Certain suite benefits may include specialty dining, so check the terms of the specific benefit."
+      },
+      {
+        "question": "Does Celebrity charge gratuities on spa treatments?",
+        "answer": "Yes. Celebrity's published policy states that a 20% gratuity is added to eligible spa and salon service purchases."
+      },
+      {
+        "question": "Are room service gratuities included?",
+        "answer": "Celebrity identifies eligible room service and minibar purchases as subject to a 20% gratuity. Separate menu or delivery charges may also apply."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "title": "Final Verdict: What Should You Budget for Celebrity Cruises Gratuities?",
+    "subtitle": "Clear, predictable budgeting guidelines for your luxury cruise vacation.",
+    "paragraphs": [
+      "Celebrity Cruises uses a combination of daily onboard staff gratuities and additional purchase-related gratuities.",
+      "For 2026, the published daily rates are: $19.50 per guest, per day for Inside, Oceanview and Veranda staterooms; $20.50 per guest, per day for Concierge Class and AquaClass; and $24.50 per guest, per day for The Retreat.",
+      "These daily charges are separate from the 20% gratuities that may apply to beverages, beverage packages, specialty dining, spa and salon services, room service and minibar purchases.",
+      "If you choose All Included, the beverage package gratuities are covered, but daily onboard staff gratuities remain separate. Retreat guests receive Premium Drink Package gratuities as part of the applicable benefits, but the daily Retreat gratuity still applies unless prepaid.",
+      "Our recommendation is to review the gratuity arrangements before departure rather than waiting until the onboard account is settled. Understanding what has already been paid and what may be charged separately will make your cruise budget easier to manage.",
+      "Planning a Celebrity Cruises vacation? Trips & Ships Luxury Travel can help you compare cruise fares, package benefits, stateroom categories and additional expenses before booking."
+    ]
+  },
+  "advisorGuidance": {
+    "title": "Expert Advisory Guidance on Celebrity Cruises Gratuities",
+    "subtitle": "Personalized advice from Angela Hughes, CEO of Trips & Ships Luxury Travel",
+    "author": {
+      "name": "Angela Hughes",
+      "title": "CEO & Luxury Cruise Specialist",
+      "credentials": [
+        "Over 30 years of elite cruise consulting and luxury travel advising",
+        "Specialist in Celebrity Cruises Edge Series, Solstice Class & The Retreat",
+        "Direct coordination with Celebrity Cruise Planners to lock in prepaid rates"
+      ]
+    }
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "logo": "https://www.tripsandships.com/Copy-of-TRIPSSHIPS-e1592486640831.webp"
+      },
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.tripsandships.com/#travelagency",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com/",
+        "telephone": "+1-801-555-0199",
+        "founder": {
+          "@type": "Person",
+          "name": "Angela Hughes"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#author",
+        "name": "Angela Hughes",
+        "jobTitle": "CEO & Luxury Travel Advisor",
+        "worksFor": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "url": "https://www.tripsandships.com/about-angela-hughes"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com",
+        "name": "Trips & Ships Luxury Travel",
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/gratuities#webpage",
+        "url": "https://www.tripsandships.com/celebrity-cruises/gratuities",
+        "name": "Celebrity Cruises Gratuities: Daily Rates, Tips & Extra Costs",
+        "description": "Understand Celebrity Cruises gratuities, daily service charges, drink package tips, The Retreat fees, All Included benefits and what costs extra in 2026.",
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/gratuities#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/gratuities#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Celebrity Cruises",
+            "item": "https://www.tripsandships.com/celebrity-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Celebrity Cruises Gratuities",
+            "item": "https://www.tripsandships.com/celebrity-cruises/gratuities"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/gratuities#article",
+        "headline": "Celebrity Cruises Gratuities: Daily Rates, Tips & Extra Costs",
+        "description": "Understand Celebrity Cruises gratuities, daily service charges, drink package tips, The Retreat fees, All Included benefits and what costs extra in 2026.",
+        "author": {
+          "@id": "https://www.tripsandships.com/#author"
+        },
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "datePublished": "2026-11-02",
+        "dateModified": "2026-11-03",
+        "mainEntityOfPage": "https://www.tripsandships.com/celebrity-cruises/gratuities"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/gratuities#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much are Celebrity Cruises gratuities per day in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As of November 2026, Celebrity's published daily rates are $19.50 per guest for Inside, Oceanview and Veranda staterooms; $20.50 for Concierge Class and AquaClass; and $24.50 for The Retreat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are gratuities included in Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Daily onboard staff gratuities are not automatically included in every standard cruise fare. They can be prepaid or added to the onboard SeaPass account. Certain package benefits include beverage gratuities, but that does not automatically cover daily staff gratuities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity All Included cover daily gratuities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. All Included provides Basic Wi-Fi and a Classic Drink Package, including beverage package gratuities. Daily onboard staff gratuities are charged separately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Celebrity drink package gratuities included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's All Included package and applicable Retreat drink benefits include beverage package gratuities. Separately purchased beverage packages generally have a 20% gratuity added."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does The Retreat include gratuities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Retreat includes Premium Drink Package gratuities under its applicable benefits. Daily onboard staff gratuities are separate and are charged at the Retreat rate unless prepaid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much are gratuities for a seven-night Celebrity cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For one guest, the daily onboard staff gratuity totals $136.50 in an Inside, Oceanview or Veranda stateroom, $143.50 in Concierge Class or AquaClass, and $171.50 in The Retreat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much are Celebrity gratuities for two people?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a seven-night cruise, two guests would pay $273 in an Inside, Oceanview or Veranda stateroom, $287 in Concierge Class or AquaClass, or $343 in The Retreat, assuming gratuities are not prepaid."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Celebrity Cruises gratuities mandatory?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity states that gratuities are optional and may be adjusted or removed at the guest's discretion, subject to its policy and applicable law."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I remove gratuities on Celebrity Cruises?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity allows guests to adjust or remove gratuities by visiting Guest Relations onboard before the morning of disembarkation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I remove gratuities after the cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity states that gratuity modifications cannot be made once the sailing has ended."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity add 20% gratuity to drinks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity's policy states that a 20% gratuity is added to eligible beverage purchases and beverage packages purchased before the cruise or onboard."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I have to tip again if I have a Celebrity drink package?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If the beverage package includes gratuities, you should not be charged another standard beverage-package gratuity for drinks covered by the package. Additional charges may apply to purchases outside the package."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are specialty dining gratuities included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity generally adds a 20% gratuity to specialty dining covers and packages. Certain suite benefits may include specialty dining, so check the terms of the specific benefit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity charge gratuities on spa treatments?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Celebrity's published policy states that a 20% gratuity is added to eligible spa and salon service purchases."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are room service gratuities included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity identifies eligible room service and minibar purchases as subject to a 20% gratuity. Separate menu or delivery charges may also apply."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

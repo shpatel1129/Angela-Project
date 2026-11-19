@@ -1,0 +1,650 @@
+{
+  "meta": {
+    "title": "Oceania Alaska Cruises: Ships, Itineraries & Planning Guide",
+    "description": "Explore Oceania Alaska cruises, including ships, itineraries, ports, glaciers, shore excursions and planning tips. Discover how to choose the right Alaska voyage.",
+    "keywords": "Oceania Alaska cruises, Oceania Alaska itineraries, Oceania Riviera Alaska, Oceania Alaska cruise ports, Oceania Alaska cruise ships, Oceania Alaska shore excursions, luxury Alaska cruises",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/alaska"
+  },
+  "hero": {
+    "badge": "LUXURY ALASKA VOYAGES & PLANNING GUIDE",
+    "title": "Oceania Alaska Cruises: Ships, Itineraries and How to Choose",
+    "subtitle": "Explore Glaciers, Historic Gold Rush Ports, Coastal Rainforests & Gastronomic Excellence Aboard Oceania Riviera",
+    "description": "Oceania Alaska cruises combine the dramatic wilderness of America's Last Frontier with smaller-ship intimacy, destination-focused itineraries, and world-class culinary experiences in Juneau, Ketchikan, Sitka, Skagway, and beyond.",
+    "primaryCtaText": "Explore Alaska Sailings",
+    "primaryCtaLink": "/oceania-cruises/ships",
+    "secondaryCtaText": "Plan with an Advisor",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "A GUIDE TO SHIPS, ITINERARIES & PORTS",
+    "heading": "The Last Frontier Meets the Finest Cuisine at Sea",
+    "paragraphs": [
+      "Oceania Alaska cruises combine the dramatic scenery of America's Last Frontier with the line's smaller-ship atmosphere, destination-focused itineraries and culinary experiences. Guests can explore glacier-carved waterways, historic Gold Rush communities, coastal fishing towns and wildlife-rich landscapes before returning to an elegant ship with open-seating restaurants and personalized service.",
+      "For the 2027 Alaska season, Oceania Cruises has announced voyages aboard Oceania Riviera, with seven-, 10- and 11-day itineraries departing from Seattle and Vancouver. The program includes well-known ports such as Juneau, Ketchikan and Sitka, as well as less familiar destinations including Wrangell, Klawock and Haines. Selected voyages also feature scenic cruising through Holkham Bay Glacier Fjords or past Hubbard Glacier.",
+      "The best Oceania Alaska cruise depends on how much time you have, which ports you want to visit, whether you prefer a round-trip sailing or a one-way journey, and how much time you want to spend exploring Alaska before or after your cruise.",
+      "This guide explains the ships, itineraries, ports, shore excursions, onboard experience and practical planning considerations to help you choose the right voyage."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania Alaska Cruises at a Glance",
+    "subtitle": "Itineraries, ports, ships and departure dates are subject to change. Always check the exact voyage before booking.",
+    "headers": [
+      "Feature",
+      "What to Expect"
+    ],
+    "rows": [
+      [
+        "Featured 2027 ship",
+        "Oceania Riviera (1,250 guests)"
+      ],
+      [
+        "Announced voyage lengths",
+        "7, 10 and 11 days (plus extended 27-day transpacific option)"
+      ],
+      [
+        "Main departure ports",
+        "Seattle, Washington and Vancouver, British Columbia"
+      ],
+      [
+        "Alaska destinations",
+        "Juneau, Ketchikan, Sitka, Skagway, Haines, Wrangell, Klawock and Icy Strait Point"
+      ],
+      [
+        "Scenic cruising",
+        "Holkham Bay Glacier Fjords and Hubbard Glacier on selected itineraries"
+      ],
+      [
+        "Onboard experience",
+        "Small-ship luxury, destination-focused programming and included specialty dining"
+      ],
+      [
+        "Shore excursions",
+        "Wildlife encounters, glacier helicopter tours, cultural tours and culinary activities"
+      ],
+      [
+        "Best for",
+        "Travelers who value destination exploration, gourmet dining and a refined onboard atmosphere"
+      ]
+    ]
+  },
+  "whichShipSails": {
+    "title": "Which Oceania Ship Sails to Alaska?",
+    "subtitle": "For the announced 2027 Alaska season, Oceania Riviera is the featured ship, combining culinary excellence with destination-rich exploration.",
+    "badgeSuffix": "2027 ALASKA SEASON",
+    "footerLeft": "Oceania Cruises",
+    "footerRight": "Oceania Riviera",
+    "items": [
+      {
+        "title": "Oceania Riviera: Featured Alaska Ship",
+        "icon": "Ship",
+        "description": "For the announced 2027 Alaska season, Oceania Riviera is the featured ship. It combines the line's culinary focus with a comfortable onboard environment for exploring Alaska's coastal communities and scenic waterways.",
+        "bulletPoints": [
+          "Carries 1,250 guests in an intimate, uncrowded luxury atmosphere",
+          "Offers a wide range of public spaces, comfortable lounges, and accommodation categories",
+          "Designed for a relaxed onboard experience between port calls"
+        ]
+      },
+      {
+        "title": "Onboard Highlights & Culinary Program",
+        "icon": "UtensilsCrossed",
+        "description": "The ship's culinary program is particularly relevant in Alaska, where regional seafood, local ingredients and destination-inspired menus can complement the experiences ashore.",
+        "bulletPoints": [
+          "Multiple open-seating restaurants, including specialty dining venues",
+          "The Grand Dining Room for a varied menu and classic dining experience",
+          "Polo Grill for steakhouse-style dining and Toscana for Italian-inspired cuisine",
+          "Red Ginger for Asian-inspired dishes and Terrace Café for casual dining",
+          "Waves Grill for relaxed poolside meals and The Culinary Center for hands-on cooking experiences",
+          "Spa and wellness facilities, plus lounges and public spaces for relaxing between destinations"
+        ]
+      },
+      {
+        "title": "Why Ship Choice Matters in Alaska",
+        "icon": "Compass",
+        "description": "In Alaska, the ship is more than a place to sleep between ports. You may spend time watching mountains, forests, islands and glaciers from the deck or your stateroom veranda.",
+        "bulletPoints": [
+          "Veranda access: A private outdoor space can be valuable for enjoying the scenery",
+          "Public viewing areas: Look for comfortable places to watch scenic cruising",
+          "Dining variety: Consider the restaurants and menus available on the specific ship",
+          "Voyage length: A longer sailing may offer more ports and a different pace",
+          "Embarkation and disembarkation: Seattle and Vancouver offer different pre- and post-cruise travel opportunities",
+          "Do not assume that every Oceania ship operates every Alaska itinerary. Check the ship assigned to the exact sailing"
+        ]
+      }
+    ]
+  },
+  "itinerariesOverview": {
+    "title": "Oceania Alaska Cruise Itineraries",
+    "eyebrow": "SAILING LENGTHS & ROUTING",
+    "subtitle": "Oceania's announced 2027 Alaska program includes seven-, 10- and 11-day voyages, offering distinct ways to experience the region.",
+    "items": [
+      {
+        "title": "7-Day Alaska Cruises: Visions of Alaska",
+        "category": "Roundtrip from Seattle",
+        "description": "A practical choice for travelers with limited vacation time who want a convenient round-trip sailing. Operates roundtrip from Seattle, calling at Ketchikan, Icy Strait Point, Sitka, and Victoria (British Columbia). Ideal for first-time Alaska cruisers and those combining a cruise with a Pacific Northwest land stay.",
+        "subtitle": "Roundtrip from Seattle"
+      },
+      {
+        "title": "10-Day Alaska Cruises: Deeper Coastal Immersion",
+        "category": "Seattle Roundtrip & Vancouver Connectors",
+        "description": "Provides more time in Alaska with additional ports and diverse scenic cruising. Features both roundtrip Seattle sailings and one-way journeys between Vancouver and Seattle, visiting Ketchikan, Sitka, Wrangell, Icy Strait Point, and Haines for travelers seeking smaller coastal towns.",
+        "subtitle": "Seattle Roundtrip & Vancouver Connectors"
+      },
+      {
+        "title": "11-Day Alaska Cruises: Comprehensive Wilderness",
+        "category": "One-Way Vancouver & Seattle Journeys",
+        "description": "A slower, comprehensive coastal journey between Vancouver and Seattle (or reverse). Calls include Juneau, Ketchikan, Sitka, Haines, Wrangell, and Klawock, offering more scenic cruising through Holkham Bay or past Hubbard Glacier with fewer sea days.",
+        "subtitle": "One-Way Vancouver & Seattle Journeys"
+      },
+      {
+        "title": "27-Day Transpacific Collector: Alaska to Japan",
+        "category": "Grand Transoceanic Voyage",
+        "description": "An extraordinary extended journey departing Vancouver, cruising the Alaska Inside Passage, visiting Hubbard Glacier and Dutch Harbor in the Aleutians, and crossing the Pacific Ocean to Tokyo, Japan. Perfect for travelers seeking a world-class grand voyage.",
+        "subtitle": "Grand Transoceanic Voyage"
+      }
+    ]
+  },
+  "popularPorts": {
+    "title": "Best Alaska Ports to Visit on an Oceania Cruise",
+    "subtitle": "From historic Gold Rush towns and Indigenous cultural centers to wildlife sanctuaries and glacier gateways.",
+    "items": [
+      {
+        "category": "Capital & Glacier Gateway",
+        "title": "Juneau: Mendenhall Glacier & Whale Watching",
+        "description": "Accessible only by sea or air, Alaska's capital offers helicopter glacier flightseeing, dog sledding on icefields, scenic whale-watching excursions in Auke Bay, and the Mount Roberts Tramway."
+      },
+      {
+        "category": "Salmon Capital of the World",
+        "title": "Ketchikan: Totem Poles & Historic Creek Street",
+        "description": "Set on the edge of the Tongass National Forest, Ketchikan is famous for historic over-water boardwalks at Creek Street, rich Tlingit and Haida totem pole art, and floating oyster farm culinary tours."
+      },
+      {
+        "category": "Russian & Tlingit History",
+        "title": "Sitka: Coastal Fjords & Baranof Island",
+        "description": "Former capital of Russian America, Sitka features St. Michael's Russian Orthodox Cathedral, the Sitka National Historical Park totem trail, sea otter boat quests, and coastal rainforest trails."
+      },
+      {
+        "category": "Gateway to the Klondike",
+        "title": "Skagway: Gold Rush Streets & White Pass Railway",
+        "description": "Step into 1898 along preserved wooden boardwalks and false-front saloons. Board the vintage White Pass & Yukon Route narrow-gauge railroad climbing 3,000 feet past roaring waterfalls and mountain passes."
+      },
+      {
+        "category": "Wilderness & Tlingit Culture",
+        "title": "Icy Strait Point: Hoonah & Marine Wildlife",
+        "description": "Owned and operated by local Huna Tlingit Native people, offering world-class brown bear viewing in Spasski River valley, humpback whale tours, and coastal kayaking."
+      },
+      {
+        "category": "Boutique Coastal Towns",
+        "title": "Haines, Wrangell & Klawock: Authentic Small-Town Alaska",
+        "description": "Less-visited ports accessed by smaller ships: Haines (Chilkat bald eagles and dramatic peaks), Wrangell (Petroglyph Beach and Anan Bear Observatory), and Klawock (authentic Prince of Wales totem carving)."
+      }
+    ]
+  },
+  "glacierScenery": {
+    "title": "Glacier Scenery on an Oceania Alaska Cruise",
+    "regent": {
+      "badge": "Holkham Bay Glacier Fjords",
+      "title": "Steep Granite Walls & Tidewater Ice",
+      "description": "Holkham Bay is celebrated for dramatic fjord scenery, sheer granite cliff walls soaring thousands of feet, and pristine ice-carved waterways. As Oceania Riviera navigates these narrow channels, guests observe floating azure icebergs, roaring waterfalls, harbor seals resting on ice floes, and towering glaciers from panoramic viewing decks.",
+      "features": [
+        "Scenic cruising through dramatic fjord landscapes",
+        "Viewing from the comfort of the ship's open decks and private verandas",
+        "Harbor seals pupping on floating ice bergs and cascading waterfalls",
+        "Intimate waterways inaccessible to mega-resort cruise ships"
+      ]
+    },
+    "viking": {
+      "badge": "Hubbard Glacier",
+      "title": "North America's Largest Tidewater Giant",
+      "description": "Hubbard Glacier is one of Alaska's most magnificent natural wonders. Spanning more than six miles across its face and towering up to 400 feet above the water, this active advancing glacier frequently calves massive ice chunks into Disenchantment Bay with a thunderous roar known as \"white thunder.\"",
+      "features": [
+        "Enormous six-mile-wide ice face rising 400 feet above water",
+        "Active calving with thunderous echoing splashes into the bay",
+        "Narrated by onboard naturalists and destination specialists",
+        "Surrounded by snow-capped peaks of the Saint Elias Mountains"
+      ]
+    }
+  },
+  "shoreExcursions": {
+    "title": "Oceania Alaska Shore Excursions",
+    "subtitle": "Immerse yourself in wildlife, glaciers, culinary traditions, and native heritage across Alaska's coastal wilderness.",
+    "items": [
+      {
+        "title": "Wildlife & Whale-Watching Encounters",
+        "description": "Board custom high-speed catamarans in Auke Bay or Icy Strait Point with expert naturalists to observe humpback whales breaching, orcas hunting, sea otters rafting, and bald eagles nesting in old-growth trees."
+      },
+      {
+        "title": "Helicopter Flightseeing & Glacier Trekking",
+        "description": "Soar over the dramatic jagged crevasses of the Juneau Icefield or Taku Glacier before touching down for a guided walk atop ancient glacial ice with crampons and specialized ice gear."
+      },
+      {
+        "title": "Dog Sledding on Glaciers & Kennels",
+        "description": "Meet Alaskan husky sled dogs and Iditarod mushers. Fly via helicopter to high-altitude glacier camps for an authentic dogsled ride across pristine snowpack, or tour historic working training kennels."
+      },
+      {
+        "title": "Chef-Led Culinary & Seafood Tours",
+        "description": "Oceania's exclusive culinary excursions: visit Ketchikan's floating oyster farms, sample wild Dungeness crab and Pacific salmon, and participate in master cooking classes back onboard in the Culinary Center."
+      },
+      {
+        "title": "Tlingit Heritage & Gold Rush History",
+        "description": "Explore authentic Native clan houses, watch master totem carvers at work in Klawock, or ride the vintage White Pass & Yukon Route narrow-gauge railway tracing the footsteps of 1898 gold prospectors."
+      }
+    ]
+  },
+  "whatIsIncluded": {
+    "title": "What Is Included on an Oceania Alaska Cruise?",
+    "subtitle": "Understanding the Your World Included program and budgeting for optional vacation upgrades",
+    "includedTitle": "Included in Base Cruise Fare",
+    "extrasTitle": "Optional Out-of-Pocket Expenses",
+    "included": [
+      {
+        "title": "All Specialty Dining Venues",
+        "description": "Complimentary dining across Polo Grill, Toscana, Red Ginger, The Grand Dining Room, and Terrace Café with no restaurant cover charges."
+      },
+      {
+        "title": "Shipboard Crew Gratuities",
+        "description": "Standard shipboard gratuities for stateroom attendants, butlers, and dining waitstaff are fully covered."
+      },
+      {
+        "title": "Complimentary Starlink Wi-Fi",
+        "description": "High-speed internet access included for all staterooms and suites throughout the Alaska sailing."
+      },
+      {
+        "title": "Specialty Nonalcoholic Drinks",
+        "description": "Artisan coffees, espressos, teas, sodas, Vero Water, cold-pressed juices, smoothies, and gourmet gelato."
+      },
+      {
+        "title": "Amenity Choice on Qualifying Bookings",
+        "description": "Choice between complimentary wine and beer by the glass at restaurant lunch & dinner OR a generous shore excursion credit."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Premium Spirits & Cocktails",
+        "description": "Cocktails and spirits outside included dining hours require individual purchase or the Prestige Select package."
+      },
+      {
+        "title": "Adventure Shore Excursions",
+        "description": "High-ticket adventure tours (helicopter glacier landings, dog sledding) beyond available excursion credits."
+      },
+      {
+        "title": "Spa & Salon Treatments",
+        "description": "Massages, facials, and therapies at the Aquamar Spa + Vitality Center carry standard menu charges."
+      },
+      {
+        "title": "Pre/Post-Cruise Hotels & Flights",
+        "description": "Hotel stays in Seattle or Vancouver, airfare, and transfers unless booked under specific promotional packages."
+      },
+      {
+        "title": "Denali & Interior Land Tours",
+        "description": "Pre- or post-cruise multi-day land packages into Denali National Park or the Canadian Rockies."
+      }
+    ]
+  },
+  "whichItineraryToChoose": {
+    "title": "Which Oceania Alaska Itinerary Should You Choose?",
+    "subtitle": "Matching your available vacation time, departure preferences, and travel style to the ideal route",
+    "bestForTitle": "Round-Trip Seattle Sailings",
+    "bestFor": [
+      {
+        "title": "First-Time Alaska Cruisers",
+        "description": "A convenient 7-day sailing covering marquee ports (Ketchikan, Sitka, Icy Strait Point) with simple round-trip domestic flights."
+      },
+      {
+        "title": "Straightforward Travel Logistics",
+        "description": "Embark and disembark in the same U.S. city (Seattle), eliminating international airport transfers and one-way airfare surcharges."
+      },
+      {
+        "title": "Combining Seattle Sightseeing",
+        "description": "Easily add a 2-night pre- or post-cruise stay to explore Pike Place Market, the Space Needle, and Chihuly Garden and Glass."
+      },
+      {
+        "title": "Includes Victoria, British Columbia",
+        "description": "Features a charming Canadian evening call at Victoria's picturesque Inner Harbour."
+      }
+    ],
+    "notForTitle": "One-Way Vancouver & Seattle (10-11 Days)",
+    "notFor": [
+      {
+        "title": "More Days & Deeper Exploration",
+        "description": "10 and 11 days allow you to visit smaller, authentic ports like Wrangell, Haines, and Klawock with fewer sea days."
+      },
+      {
+        "title": "Scenic Glacier Cruising",
+        "description": "Expanded routing provides scenic cruising through Holkham Bay Glacier Fjords or past the advancing face of Hubbard Glacier."
+      },
+      {
+        "title": "Two World-Class Departure Cities",
+        "description": "Experience both cosmopolitan Vancouver (Stanley Park, Gastown) and energetic Seattle in a single vacation."
+      },
+      {
+        "title": "Ideal for Land Extension Tours",
+        "description": "Seamlessly connect with Rocky Mountaineer train tours into the Canadian Rockies or flights up into Denali National Park."
+      }
+    ]
+  },
+  "bestTimeToSail": {
+    "title": "Best Time to Take an Oceania Alaska Cruise",
+    "description": "Alaska's main cruise season generally runs from spring through early autumn. The experience changes throughout the season, so your preferred travel month matters.",
+    "items": [
+      {
+        "title": "May",
+        "description": "May can offer a quieter start to the Alaska cruise season. Travelers may encounter cooler temperatures and early-season conditions. Consider May if you prefer: Earlier-season travel, potentially fewer crowds than peak summer, and a focus on scenery and coastal communities. Weather and excursion availability can vary."
+      },
+      {
+        "title": "June",
+        "description": "June brings longer daylight hours and the beginning of the summer travel period. It may appeal to travelers who want: Extended daylight for sightseeing, opportunities for wildlife and outdoor activities, and a summer atmosphere in Alaska's ports."
+      },
+      {
+        "title": "July",
+        "description": "July is a popular month for Alaska cruises. It generally offers a full summer travel experience, although visitor numbers can be higher. Consider booking early if you have specific cabin, itinerary or excursion preferences."
+      },
+      {
+        "title": "August",
+        "description": "August can be a good option for travelers who want summer conditions and a different seasonal atmosphere from early summer. Weather remains variable, and rain is possible."
+      },
+      {
+        "title": "September",
+        "description": "September offers a later-season experience, with changing landscapes and a transition toward autumn. Travelers should pay attention to the exact sailing date, excursion schedules and weather-related considerations."
+      }
+    ]
+  },
+  "whatToPack": {
+    "title": "What to Pack for an Oceania Alaska Cruise",
+    "subtitle": "A versatile layered packing strategy is essential for Alaska's rapidly changing coastal microclimates.",
+    "categories": [
+      {
+        "id": "daytime",
+        "title": "The Essential Layering System",
+        "description": "Plan for three functional layers rather than one heavy winter coat: moisture-wicking base, insulating fleece mid-layer, and waterproof outer shell.",
+        "items": [
+          "High-performance waterproof, breathable hooded rain shell",
+          "Warm fleece jacket, wool sweater, or lightweight down jacket",
+          "Moisture-wicking thermal base layer tops and bottoms",
+          "Quick-drying hiking trousers and comfortable casual pants"
+        ]
+      },
+      {
+        "id": "onboard",
+        "title": "Outdoor Gear & Glacier Viewing",
+        "description": "Deck viewing in glacier fjords can be breezy and chilly. Proper accessories ensure hours of comfortable wildlife spotting.",
+        "items": [
+          "High-magnification compact binoculars (8x42 or 10x42)",
+          "Waterproof walking shoes or sturdy trail sneakers with deep traction",
+          "Warm fleece beanie hat and touchscreen-compatible gloves",
+          "Polarized sunglasses and UV sunscreen (glacier ice reflection is intense)"
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Onboard Elegant Casual Evening Attire",
+        "description": "Oceania follows an elegant casual dress code in the evenings. Formal tuxedos and evening gowns are never required.",
+        "items": [
+          "Collared shirts, sweaters, and tailored slacks for men",
+          "Stylish dresses, elegant separates, or pantsuits for women",
+          "Smart loafers or dress shoes for evening dining venues",
+          "Warm wrap or light jacket for starlit evening deck strolls"
+        ]
+      }
+    ]
+  },
+  "verandaStaterooms": {
+    "title": "Should You Book a Veranda Stateroom for Alaska?",
+    "subtitle": "Evaluating the value of private outdoor viewing space for scenic cruising through fjords and glacier bays",
+    "items": [
+      {
+        "name": "Veranda Stateroom",
+        "price": "The Essential Alaska Choice",
+        "description": "Featuring a private teak balcony with patio furniture and floor-to-ceiling glass sliding doors. Watch misty mountains, breaching whales, and bald eagles glide past right from your bed or morning coffee perch without putting on a coat.",
+        "signatureFeatures": [
+          "Private teak balcony for personal, quiet glacier viewing",
+          "Tranquility Bed with 1,000-thread-count linens",
+          "Marble and granite bathroom with plush robes and slippers",
+          "Fresh coastal air and unobstructed wildlife photography"
+        ]
+      },
+      {
+        "name": "Concierge Level Veranda",
+        "price": "Expanded Amenities & Perks",
+        "description": "Combines the private veranda with exclusive privileges: dedicated Concierge Lounge access, complimentary shoe shine, priority dining reservations, and enhanced in-suite amenities tailored for Alaska cruising.",
+        "signatureFeatures": [
+          "Private Concierge Lounge access with dedicated staff",
+          "Priority specialty dining and shore excursion reservations",
+          "Complimentary pressing of garments upon embarkation",
+          "Prime mid-ship and higher-deck panoramic locations"
+        ]
+      },
+      {
+        "name": "Penthouse Suites with Butler",
+        "price": "Expansive Residential Luxury",
+        "description": "Spanning 420 sq ft with an oversized teak veranda, separate sitting area, walk-in closet, and 24-hour white-glove European butler service. Enjoy in-suite course-by-course specialty dining while sailing past Hubbard Glacier.",
+        "signatureFeatures": [
+          "Dedicated European-trained 24-hour butler service",
+          "Course-by-course in-suite dining from specialty restaurant menus",
+          "Oversized private veranda with teak lounge chairs and dining table",
+          "Priority tender embarkation and VIP disembarkation privileges"
+        ]
+      }
+    ]
+  },
+  "landStayExtensions": {
+    "title": "Adding a Land Stay Before or After Your Alaska Cruise",
+    "subtitle": "Extend your coastal voyage into the dramatic interior of Alaska or the Canadian Rockies.",
+    "items": [
+      {
+        "title": "Denali National Park & Interior Alaska",
+        "description": "Journey north into the heart of Alaska aboard glass-domed luxury railcars. Spend 3 to 5 nights exploring Denali's six million acres of wilderness, viewing Mount Denali (20,310 ft), grizzly bears, moose, and caribou.",
+        "icon": "Mountain"
+      },
+      {
+        "title": "Vancouver & British Columbia",
+        "description": "Add 2 to 3 nights in Vancouver before or after your one-way cruise. Walk the seawall at Stanley Park, explore historic Gastown, visit Granville Island Market, and take the Capilano Suspension Bridge excursion.",
+        "icon": "Building"
+      },
+      {
+        "title": "The Canadian Rockies & Rocky Mountaineer",
+        "description": "Connect your Vancouver sailing with the world-famous Rocky Mountaineer luxury train through the Canadian Rockies, visiting Banff, Lake Louise, and Jasper with five-star Fairmont resort stays.",
+        "icon": "Train"
+      },
+      {
+        "title": "Seattle & Pacific Northwest",
+        "description": "Pair your Seattle roundtrip with a weekend exploring Pike Place Market, Washington wine tastings in Woodinville, or a day trip to Mount Rainier National Park before embarking on Oceania Riviera.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Custom Land-and-Sea Curation",
+        "description": "Trips & Ships Luxury Travel coordinates seamless transfers, five-star luxury hotel reservations, and private guided land excursions to complement your Oceania Alaska cruise.",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "prosAndCons": {
+    "title": "Pros and Cons of Oceania Alaska Cruises",
+    "subtitle": "An objective evaluation of what sets Oceania apart in Alaska and key considerations to plan for",
+    "sailing": {
+      "label": "Oceania Cruises Alaska",
+      "philosophy": "Core Advantages",
+      "points": [
+        "ADVANTAGE: Refined small-ship luxury aboard the 1,250-guest Oceania Riviera with zero crowds or long lines",
+        "ADVANTAGE: World-renowned specialty dining included across all restaurants with no cover charges",
+        "ADVANTAGE: Standard shipboard gratuities and Starlink Wi-Fi included under Your World Included",
+        "ADVANTAGE: State-of-the-art Culinary Center offering chef-led Alaska seafood cooking classes",
+        "ADVANTAGE: Diverse 7-, 10-, and 11-day itineraries visiting both marquee ports and boutique towns (Haines, Wrangell)",
+        "ADVANTAGE: Scenic cruising through Holkham Bay Glacier Fjords or past Hubbard Glacier on select sailings"
+      ]
+    },
+    "allSuite": {
+      "label": "Oceania Cruises Alaska",
+      "philosophy": "Important Considerations",
+      "points": [
+        "CONSIDERATION: Announced 2027 Alaska program is centered on a single ship (Oceania Riviera)",
+        "CONSIDERATION: High-ticket adventure excursions (glacier helicopter tours, dog sledding) carry separate costs",
+        "CONSIDERATION: Weather is inherently variable; glacier approach and wildlife sightings depend on conditions",
+        "CONSIDERATION: One-way itineraries between Vancouver and Seattle require separate open-jaw flight arrangements",
+        "CONSIDERATION: A cruise alone explores coastal communities; visiting Denali requires an added land extension tour"
+      ]
+    }
+  },
+  "bookingSteps": {
+    "title": "How to Book the Right Oceania Alaska Cruise",
+    "subtitle": "Choosing the right sailing requires more than selecting a departure date. Compare the itinerary, stateroom, fare conditions and travel arrangements together.",
+    "steps": [
+      {
+        "title": "Choose Your Preferred Travel Dates",
+        "description": "Start with your available vacation dates and compare the sailings that operate during that period."
+      },
+      {
+        "title": "Decide Between Seattle and Vancouver",
+        "description": "Consider whether a round-trip or one-way itinerary is more convenient. Include airfare, hotel stays and transfers in the comparison."
+      },
+      {
+        "title": "Compare the Port List",
+        "description": "Review every port and scenic cruising day. Look for the destinations that matter most to you rather than relying only on the itinerary title."
+      },
+      {
+        "title": "Select Your Stateroom",
+        "description": "Compare inside, oceanview, veranda and suite categories. Consider the price difference and how you plan to use the stateroom."
+      },
+      {
+        "title": "Review the Fare and Inclusions",
+        "description": "Check the exact Your World Included benefits, beverage options, shore excursion credit and any promotional terms attached to your booking."
+      },
+      {
+        "title": "Plan Shore Excursions",
+        "description": "Identify excursions that are important to you, particularly limited-capacity activities such as helicopter tours and selected wildlife experiences."
+      },
+      {
+        "title": "Arrange Flights and Hotels",
+        "description": "For one-way itineraries, make sure your arrival and departure arrangements match the embarkation and disembarkation ports."
+      },
+      {
+        "title": "Consider a Land Extension",
+        "description": "If you want to experience Denali, the Canadian Rockies or other inland destinations, allow enough time for a properly planned extension."
+      }
+    ]
+  },
+  "competitorComparison": {
+    "title": "Oceania Alaska Cruises vs. Other Alaska Cruise Experiences",
+    "headers": [
+      "Cruise Experience",
+      "Primary Characteristics",
+      "How It Compares to Oceania"
+    ],
+    "rows": [
+      [
+        "Oceania Cruises (Riviera)",
+        "Upscale small-ship luxury, culinary excellence, boutique ports",
+        "1,250 guests; all specialty dining & gratuities included; refined adult country-club atmosphere"
+      ],
+      [
+        "Mainstream Lines (Princess / Holland America)",
+        "Large resort ships (2,000-3,500+ guests), extensive family programs",
+        "Larger crowds, extra cover charges for specialty restaurants; dedicated Glacier Bay permits and extensive rail packages"
+      ],
+      [
+        "Ultra-Luxury Lines (Regent / Silversea / Seabourn)",
+        "Ultra-luxury all-inclusive with smaller ships (300-750 guests)",
+        "Higher upfront fares; unlimited shore excursions and premium open-bar included on Regent/Silversea"
+      ],
+      [
+        "Expedition Lines (Lindblad / UnCruise)",
+        "Small expedition vessels (60-100 guests) focused on rugged wilderness",
+        "Zodiac landings, hiking, and kayaking; no luxury amenities, fine dining variety, or private verandas"
+      ]
+    ]
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "ALASKA LUXURY CRUISE CONNOISSEUR",
+      "authorityBoxTitle": "Plan Your Oceania Alaska Cruise with Expert Guidance",
+      "authoritySubtitle": "Bespoke itinerary curation from an elite luxury travel advisor who has explored Alaska extensively",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Elite Travel Advisor",
+      "experienceBadge": "40+ Years Luxury Cruise Experience",
+      "bio": "An Alaska cruise is a bucket-list journey, but maximizing your experience requires understanding the difference between round-trip and one-way itineraries, selecting the right stateroom location for scenic cruising, and securing coveted excursion spaces. At Trips & Ships Luxury Travel, Angela Hughes and her team help travelers compare Oceania Riviera voyages, coordinate seamless Seattle and Vancouver luxury hotel stays, arrange Rocky Mountaineer extensions, and maximize Your World Included amenity packages.",
+      "quote": "Alaska is an expansive wilderness best experienced with time on your side. Choosing a 10- or 11-day sailing or adding a pre-cruise Canadian Rockies rail extension transforms a standard cruise into an unforgettable expedition. We guide you through every detail so your Alaska voyage is seamless from departure to return.",
+      "quoteSubtitle": "On planning an extraordinary luxury Alaska cruise",
+      "credentials": [
+        "Top Producer: Oceania Cruises Connoisseur Club",
+        "Certified Alaska Destination & Small-Ship Specialist",
+        "Over 30 Years Designing Bespoke Luxury Itineraries",
+        "Personal Voyages through Glacier Bay, Hubbard Glacier & Inside Passage"
+      ],
+      "ctaText": "Plan Your Alaska Cruise",
+      "ctaLink": "/contact"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Alaska Cruises",
+    "subtitle": "Clear, verified answers to the most common questions when planning an Oceania Alaska voyage",
+    "questions": [
+      {
+        "question": "Does Oceania Cruises sail to Alaska?",
+        "answer": "Yes. Oceania Cruises offers Alaska itineraries. Its announced 2027 Alaska season features Oceania Riviera, with seven-, 10- and 11-day voyages departing from Seattle and Vancouver."
+      },
+      {
+        "question": "Which Oceania ship sails to Alaska in 2027?",
+        "answer": "Oceania Riviera is the ship announced for the 2027 Alaska season. Always check the ship assigned to the specific departure when booking."
+      },
+      {
+        "question": "How long are Oceania Alaska cruises?",
+        "answer": "The announced 2027 program includes seven-, 10- and 11-day cruises. Longer journeys combining Alaska with transpacific destinations to Tokyo are also available."
+      },
+      {
+        "question": "Where do Oceania Alaska cruises depart from?",
+        "answer": "The announced 2027 Alaska itineraries include departures from Seattle, Washington, and Vancouver, British Columbia."
+      },
+      {
+        "question": "What ports does Oceania visit in Alaska?",
+        "answer": "Depending on the itinerary, ports can include Juneau, Ketchikan, Sitka, Skagway, Haines, Wrangell, Klawock and Icy Strait Point."
+      },
+      {
+        "question": "Does Oceania visit Hubbard Glacier?",
+        "answer": "Selected Oceania Alaska itineraries include scenic cruising near Hubbard Glacier. Check the exact voyage details because routes vary."
+      },
+      {
+        "question": "Does Oceania cruise through Holkham Bay Glacier Fjords?",
+        "answer": "Yes. Holkham Bay Glacier Fjords feature in selected announced 2027 itineraries, providing dramatic fjord scenic cruising from the ship."
+      },
+      {
+        "question": "Is a seven-day Oceania Alaska cruise enough?",
+        "answer": "A seven-day cruise can be a good introduction to Alaska, particularly for travelers with limited vacation time. It will not visit every port, so compare the itinerary carefully."
+      },
+      {
+        "question": "Is a 10- or 11-day Alaska cruise better?",
+        "answer": "A longer cruise offers additional ports, more time in the region, and a slower pace. The best option depends on your available vacation time and port preferences."
+      },
+      {
+        "question": "What is the best month for an Oceania Alaska cruise?",
+        "answer": "May through September are the primary cruise months. June and July offer long daylight hours and warmth, while May and September provide quieter shoulder-season travel."
+      },
+      {
+        "question": "Can I see whales on an Oceania Alaska cruise?",
+        "answer": "Yes. Whales inhabit Alaska's coastal waters, and ports like Juneau and Icy Strait Point offer world-class whale-watching excursions. Sightings depend on wildlife activity."
+      },
+      {
+        "question": "Are shore excursions included on Oceania Alaska cruises?",
+        "answer": "Qualifying bookings under Your World Included offer a choice of a shore excursion credit. Excursions beyond an applicable credit carry extra costs."
+      },
+      {
+        "question": "Does Oceania include drinks on Alaska cruises?",
+        "answer": "Your World Included covers specialty coffees, teas, sodas, and Vero Water. Qualifying bookings can select complimentary wine and beer by the glass during restaurant lunch and dinner hours."
+      },
+      {
+        "question": "Is specialty dining included on Oceania Alaska cruises?",
+        "answer": "Yes. Dining at all specialty restaurants (Polo Grill, Toscana, Red Ginger) is included in the cruise fare without cover charges."
+      },
+      {
+        "question": "Is Wi-Fi included on Oceania Alaska cruises?",
+        "answer": "Yes. Complimentary Starlink Wi-Fi is included for all staterooms and suites under the published Your World Included program."
+      }
+    ]
+  },
+  "centerCta": {
+    "title": "Ready to Plan Your Oceania Alaska Cruise?",
+    "subtitle": "Choosing between Alaska itineraries involves evaluating sailing lengths, ports, glacier viewing, staterooms, and land extensions. Angela Hughes and the Trips & Ships Luxury Travel team are here to help you craft an extraordinary journey.",
+    "primaryCtaText": "Plan Your Oceania Alaska Cruise",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Oceania Ships",
+    "secondaryCtaLink": "/oceania-cruises/ships"
+  }
+}

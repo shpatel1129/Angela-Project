@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "title": "Oceania Cruises Gratuities: What's Included & Extra Costs",
+    "description": "Learn whether Oceania Cruises gratuities are included, which crew members are covered, when 20% service charges apply, and whether you need to tip extra.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/gratuities",
+    "primaryKeyword": "Oceania Cruises gratuities",
+    "secondaryKeywords": [
+      "Oceania Cruises tipping policy",
+      "Oceania gratuities included",
+      "Oceania Cruises service charges",
+      "how much to tip on Oceania Cruises",
+      "Oceania Cruises 20% gratuity"
+    ],
+    "publishDate": "2025-02-15",
+    "updated": "2026-03-30"
+  },
+  "hero": {
+    "title": "Oceania Cruises Gratuities",
+    "subtitle": "WHAT IS INCLUDED AND WHAT COSTS EXTRA?",
+    "description": "Oceania Cruises includes standard shipboard gratuities for stateroom stewards, butlers, and dining waitstaff in current Your World Included fares. Understand when 20% service charges apply, how historical daily rates compare, and whether extra cash tipping is expected.",
+    "badge": "COMPLETE GRATUITY & TIPPING GUIDE",
+    "primaryCtaText": "View Inclusions",
+    "primaryCtaLink": "#included-gratuities",
+    "secondaryCtaText": "Consult an Oceania Specialist",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "TIPPING POLICY OVERVIEW",
+    "heading": "Are Gratuities Included on Oceania Cruises?",
+    "paragraphs": [
+      "Yes. Oceania Cruises includes standard shipboard gratuities in the cruise fare under its Your World Included program. This covers gratuities for stateroom and suite attendants, butlers, and dining waitstaff. Guests do not need to budget for a separate daily crew gratuity charge on qualifying current bookings.",
+      "However, not every service charge is included. Oceania generally adds a 20% service gratuity to certain onboard purchases, including beverages and spa services. Other optional expenses, such as shore excursions, premium beverages, and selected onboard services, may also increase the final cost of a cruise.",
+      "The important distinction is that standard crew gratuities are included in your ticket fare, while service charges associated with certain additional purchases may still apply."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania Cruises Gratuities at a Glance",
+    "subtitle": "QUICK BREAKDOWN OF INCLUDED CREW TIPS & EXTRA CHARGES",
+    "headers": ["Gratuity or Service Charge", "What to Expect"],
+    "rows": [
+      ["Stateroom attendants", "Included in qualifying current cruise fares under Your World Included"],
+      ["Suite attendants", "Included in qualifying current cruise fares under Your World Included"],
+      ["Butler service", "Included in qualifying current cruise fares for eligible suites"],
+      ["Dining waitstaff", "Included in qualifying current cruise fares across all restaurants"],
+      ["Daily standard crew gratuities", "No separate daily payment added to onboard folios"],
+      ["Beverage purchases", "A 20% service gratuity generally applies to chargeable drinks"],
+      ["Spa and salon services", "A 20% service gratuity applies to qualifying wellness treatments"],
+      ["Specialty dining", "Included at Oceania's regular specialty restaurants with zero service fees"],
+      ["Extra cash tips", "Completely optional; at the guest's personal discretion"],
+      ["Shore excursions", "Separate cost unless covered by an applicable excursion credit or promotion"]
+    ]
+  },
+  "includedGratuities": {
+    "title": "What Gratuities Are Included on Oceania Cruises?",
+    "intro": [
+      "Oceania's Your World Included program incorporates standard crew gratuities into the cruise fare.",
+      "This means guests do not have to calculate and pay a separate daily crew tip for the core onboard service teams."
+    ],
+    "items": [
+      {
+        "title": "1. Stateroom and Suite Attendants",
+        "paragraphs": [
+          "Your stateroom or suite attendant maintains your private living quarters throughout the voyage, providing attentive twice-daily service.",
+          "Standard gratuities for stateroom attendants are completely covered under qualifying Your World Included cruise fares.",
+          "You will not see any daily room steward gratuities billed to your onboard folio."
+        ],
+        "lists": [
+          {
+            "title": "Included Steward Responsibilities",
+            "items": [
+              "Daily morning cleaning, sanitizing, and stateroom refreshing",
+              "Evening turn-down service, pillow chocolates, and Currents schedule delivery",
+              "Refreshing plush towels and fine European bed linens according to schedule",
+              "Restocking Vero Water carafes, ice buckets, and bathroom amenities",
+              "Responding promptly to housekeeping and special laundry requests"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Dedicated Butler Service in Suites",
+        "paragraphs": [
+          "Guests sailing in Penthouse Suites, Oceania Suites, Vista Suites, and Owner's Suites receive personalized 24-hour butler service.",
+          "Under current Your World Included fares, standard gratuities for your dedicated butler are fully incorporated into the cruise fare.",
+          "Guests do not need to settle a separate daily butler gratuity at the end of their sailing."
+        ],
+        "lists": [
+          {
+            "title": "Included Butler Services",
+            "items": [
+              "Course-by-course in-suite dining service from specialty restaurant menus",
+              "Assisting with priority luggage unpacking and embarkation garment pressing",
+              "Coordinating priority reservations, spa appointments, and shore excursions",
+              "Delivering afternoon canapés, evening cocktails, and private veranda breakfasts",
+              "Packing assistance prior to debarkation and shoeshine services"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Restaurant Dining Waitstaff & Sommeliers",
+        "paragraphs": [
+          "Oceania's dining teams are celebrated across the industry for delivering fine-dining European hospitality across all venues.",
+          "The included gratuities cover dining waitstaff, assistant waiters, head waiters, and maître d' teams in The Grand Dining Room and all signature specialty venues.",
+          "Guests enjoy open-seating flexibility and four-course specialty dinners without adding a tip to each meal check."
+        ],
+        "lists": [
+          {
+            "title": "Covered Dining Venues",
+            "items": [
+              "The Grand Dining Room: open-seating breakfast, lunch, and multi-course dinner",
+              "Polo Grill Steakhouse: USDA Prime dry-aged steaks and Maine lobster service",
+              "Toscana: regional Italian pasta and tableside olive oil cart service",
+              "Jacques: French bistro cuisine curated by Master Chef Jacques Pépin",
+              "Red Ginger & Tuscan Steak: contemporary Asian and Italian steakhouse dining",
+              "Terrace Café buffet, Waves Grill poolside, and Horizon Lounge afternoon tea"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "notIncludedGratuities": {
+    "title": "What Is Not Included in Oceania Cruises Gratuities?",
+    "subtitle": "TRANSPARENT BREAKDOWN OF 20% SERVICE CHARGES & EXTRA PURCHASES",
+    "includedTitle": "Covered in Base Fare (Zero Surcharge)",
+    "extrasTitle": "Subject to 20% Gratuity or Separate Cost",
+    "included": [
+      {
+        "title": "Stateroom Stewards & Housekeeping",
+        "description": "Daily room cleaning, evening turn-down, and stateroom maintenance covered."
+      },
+      {
+        "title": "Dedicated Suite Butlers",
+        "description": "Full butler services in Penthouse, Oceania, Vista, and Owner's Suites covered."
+      },
+      {
+        "title": "Dining Room & Specialty Waiters",
+        "description": "Waitstaff in all main dining and specialty restaurants covered without meal chits."
+      },
+      {
+        "title": "Galley & Culinary Support Crew",
+        "description": "Back-of-house culinary teams, pastry chefs, and provisioning crew included."
+      },
+      {
+        "title": "Complimentary Beverage Amenities",
+        "description": "Vero Water, Baristas coffees, sodas, and lunch/dinner wine & beer amenity (zero gratuity fee)."
+      }
+    ],
+    "extras": [
+      {
+        "title": "20% Beverage Service Gratuity",
+        "description": "An automatic 20% service charge applies to à la carte cocktails, spirits, and cellar wine purchases."
+      },
+      {
+        "title": "20% Spa & Salon Service Gratuity",
+        "description": "A 20% service charge applies to all massages, facials, hair styling, and beauty treatments."
+      },
+      {
+        "title": "Specialty Wine Pairings & Privée",
+        "description": "La Reserve sommelier dinners, Dom Pérignon tastings, and Privée private room rentals carry fees."
+      },
+      {
+        "title": "Shore Excursion Guide Tips",
+        "description": "Tips for local bus drivers and step-on tour guides ashore are voluntary cash expenses."
+      },
+      {
+        "title": "Retail, Casino & Medical Services",
+        "description": "Boutique shopping, casino gaming, and shipboard medical center consultations."
+      }
+    ]
+  },
+  "historicalGratuitiesMatrix": {
+    "title": "Does Oceania Cruises Charge a Daily Gratuity?",
+    "subtitle": "CURRENT $0 DAILY CHARGE VS. HISTORICAL REFERENCE RATES",
+    "headers": ["Accommodation Category", "Current Your World Included Fare", "Historical Daily Gratuity (Past Policy)", "Total 14-Day Savings (Couple)"],
+    "rows": [
+      ["Standard Veranda & Ocean View", "$0 / day (Included in Fare)", "$18.00 per person / day", "$504.00 Saved"],
+      ["Concierge Level Veranda", "$0 / day (Included in Fare)", "$18.00 per person / day", "$504.00 Saved"],
+      ["Penthouse Suite (with Butler)", "$0 / day (Included in Fare)", "$23.00 per person / day", "$644.00 Saved"],
+      ["Oceania & Vista Suites", "$0 / day (Included in Fare)", "$23.00 per person / day", "$644.00 Saved"],
+      ["Owner's Suite (with Butler)", "$0 / day (Included in Fare)", "$23.00 per person / day", "$644.00 Saved"]
+    ]
+  },
+  "savingsScenarios": {
+    "title": "Included Gratuity Value Across Itinerary Lengths",
+    "subtitle": "HOW MUCH YOU SAVE WITHOUT SEPARATE DAILY CREW CHARGES",
+    "items": [
+      {
+        "category": "7-Night Sailing",
+        "title": "7-Day Mediterranean or Baltic Cruise",
+        "lead": "A couple saves $252 to $322 in eliminated daily gratuities",
+        "placeholderLabel": "7 Nights",
+        "description": "On a typical 7-night voyage, contemporary lines add $18 to $23 per person daily, generating unexpected checkout charges of up to $322 per couple. On Oceania, that amount is completely absorbed into your fare.",
+        "features": [
+          "Zero daily gratuity charges added to your onboard account",
+          "Saves $252 per couple in standard Veranda accommodations",
+          "Saves $322 per couple in Penthouse or luxury suites",
+          "Allows seamless budgeting with no checkout folio surprise"
+        ],
+        "highlight": "Couple Savings: $252 to $322 in waived daily tips."
+      },
+      {
+        "category": "14-Night Sailing",
+        "title": "14-Day Transatlantic or Grand Voyage",
+        "lead": "A couple saves $504 to $644 in eliminated daily gratuities",
+        "placeholderLabel": "14 Nights",
+        "description": "Over a two-week sailing, daily gratuities on other premium cruise lines accumulate rapidly. Oceania's inclusive policy provides over $640 in direct value for suite guests on a 14-night itinerary.",
+        "features": [
+          "14 full days of butler, dining, and steward service included",
+          "Saves $504 per couple in standard Veranda categories",
+          "Saves $644 per couple in Penthouse Suites and above",
+          "Funds can be re-allocated toward private shore excursions or spa days"
+        ],
+        "highlight": "Couple Savings: $504 to $644 in waived daily tips."
+      },
+      {
+        "category": "30-Night Extended Voyage",
+        "title": "30-Day World Cruise Segment or Grand Voyage",
+        "lead": "A couple saves $1,080 to $1,380 in eliminated daily gratuities",
+        "placeholderLabel": "30 Nights",
+        "description": "On extended grand voyages, daily gratuity fees often exceed $1,000 per cabin. Oceania includes standard crew tips across all 30 days, substantially elevating the real value of longer itineraries.",
+        "features": [
+          "Complete monthly coverage across all dining and housekeeping teams",
+          "Saves $1,080 per couple in Veranda staterooms",
+          "Saves $1,380 per couple in suites with personal butler service",
+          "Standard crew gratuities remain covered regardless of voyage length"
+        ],
+        "highlight": "Couple Savings: $1,080 to $1,380 in waived daily tips."
+      }
+    ]
+  },
+  "tippingEtiquetteCards": {
+    "title": "The 20% Service Gratuity & Cash Tipping Etiquette",
+    "subtitle": "CLEAR RULES ON EXTRA TIPPING & AUTOMATIC PERCENTAGE CHARGES",
+    "cards": [
+      {
+        "title": "How the 20% Purchase Gratuity Works",
+        "items": [
+          "An automatic 20% service gratuity is applied to à la carte beverage orders, cocktail purchases, and spa/salon treatments.",
+          "For example, a $15 cocktail will have a $3 service charge added automatically to the bar chit (total $18).",
+          "A $200 massage at Aquamar Spa will incur an automatic $40 service charge (total $240 billed to folio).",
+          "Drinks ordered under the Complimentary Wine and Beer amenity carry zero extra service charges or percentage fees.",
+          "Purchasing the Prestige Select Beverage Package includes the service fee or applies it at checkout depending on promotion."
+        ]
+      },
+      {
+        "title": "Do You Need to Tip Extra in Cash?",
+        "items": [
+          "Additional cash tipping is completely optional and never expected on Oceania Cruises.",
+          "Crew members receive their fair share of standard gratuities through the Your World Included program.",
+          "Guests who receive exceptional or personalized care may voluntarily present a modest cash tip on the final evening.",
+          "Common occasions for extra tips: complex butler concierge requests, personalized cocktail preparation, or special baggage handling.",
+          "Do not feel pressured to tip extra cash—your cruise fare has already taken care of the onboard service team."
+        ]
+      }
+    ]
+  },
+  "luxuryCompetitorComparison": {
+    "title": "Oceania Gratuities Compared With Other Luxury Lines",
+    "subtitle": "HOW LUXURY CRUISE BRANDS HANDLE CREW TIPPING & EXTRA CHARGES",
+    "headers": ["Cruise Line", "Standard Crew Gratuity Policy", "Additional Service Charges to Check"],
+    "rows": [
+      [
+        "Oceania Cruises",
+        "Standard shipboard crew gratuities included in qualifying Your World Included fares.",
+        "Automatic 20% service charge on à la carte beverages and spa treatments."
+      ],
+      [
+        "Regent Seven Seas",
+        "All crew gratuities fully included in comprehensive luxury ticket fare.",
+        "Virtually all beverages and dining included; spa treatments incur standard charges."
+      ],
+      [
+        "Seabourn",
+        "Tipping is neither required nor expected; standard crew gratuities included throughout yacht.",
+        "Spa treatments and reserve cellar vintage wines carry standard service fees."
+      ],
+      [
+        "Silversea Cruises",
+        "Standard crew gratuities included in both Door-to-Door and Port-to-Port fares.",
+        "Premium dining surcharges (La Dame) and spa services carry separate fees."
+      ],
+      [
+        "Viking Ocean Cruises",
+        "Gratuities are not always included in base fares; standard daily tipping fees (~$17/day) apply.",
+        "Beverage package service charges and optional tour guide tips."
+      ]
+    ]
+  },
+  "budgetBeyondFare": {
+    "title": "What to Budget Beyond the Included Cruise Fare",
+    "items": [
+      {
+        "label": "20% Service Fee",
+        "value": "À La Carte Drinks",
+        "description": "Cocktails ($12–$16) and cellar wines ordered outside meal hours incur an automatic 20% service gratuity."
+      },
+      {
+        "label": "Wellness Surcharge",
+        "value": "Spa Treatments",
+        "description": "Massages, facials, and salon appointments at Aquamar Spa carry an automatic 20% service gratuity on listed prices."
+      },
+      {
+        "label": "Tour Expenses",
+        "value": "Shore Excursions",
+        "description": "Excursion costs exceeding your Your World Included credit, plus customary cash tips for local guides ($5–$10/person)."
+      },
+      {
+        "label": "Optional Spending",
+        "value": "Retail & Casino",
+        "description": "Onboard boutique shopping, logo apparel, casino gaming, and rare sommelier wine-pairing degustations."
+      }
+    ]
+  },
+  "verificationChecklist": {
+    "title": "6-Point Pre-Cruise Gratuity Verification Checklist",
+    "subtitle": "HOW TO VERIFY YOUR FARE INCLUSIONS BEFORE EMBARKATION",
+    "steps": [
+      {
+        "title": "1. Confirm Booking Date & Promotion",
+        "description": "Verify whether your reservation was booked under Your World Included (where standard gratuities are bundled) or an earlier promotional fare."
+      },
+      {
+        "title": "2. Check Your Sailing Confirmation",
+        "description": "Review your booking invoice and guest confirmation documents to ensure standard crew gratuities are listed as included."
+      },
+      {
+        "title": "3. Review Your Selected Amenity",
+        "description": "Confirm whether you selected Complimentary Wine & Beer or the Shore Excursion Credit ($400–$1,200) prior to your final payment deadline."
+      },
+      {
+        "title": "4. Understand the 20% Purchase Policy",
+        "description": "Familiarize yourself with the 20% service charge on à la carte alcoholic drinks and spa treatments so your onboard budget is accurate."
+      },
+      {
+        "title": "5. Prepare Local Currency for Shore Guides",
+        "description": "Keep small bills in euros, pounds, or dollars for local tour guides and motorcoach drivers, as they are not cruise line employees."
+      },
+      {
+        "title": "6. Monitor Your Onboard Folio",
+        "description": "Check your folio periodically on the Oceania mobile app or at Guest Services to ensure all charges reflect your actual onboard purchases."
+      }
+    ]
+  },
+  "expertTips": {
+    "title": "  Expert Tips for Navigating Oceania Gratuities",
+    "subtitle": "INSIDER ADVICE FROM CERTIFIED CRUISE SPECIALISTS",
+    "items": [
+      {
+        "title": "No Need to Add Meal Tips",
+        "description": "Waitstaff tips in The Grand Dining Room and specialty restaurants are completely covered. Never feel obligated to write tips on meal slips."
+      },
+      {
+        "title": "Budget for the 20% Bar Gratuity",
+        "description": "If ordering cocktails or premium cellar wines à la carte, remember the 20% service charge will be automatically added to your bill."
+      },
+      {
+        "title": "Check Spa Treatment Totals",
+        "description": "Spa quotes generally exclude the mandatory 20% service charge. Add 20% to listed treatment prices when planning wellness budgets."
+      },
+      {
+        "title": "Cash Tips Are Strictly Discretionary",
+        "description": "Crew members do not expect cash tips. Only offer extra cash if an attendant or butler went far above and beyond expectations."
+      },
+      {
+        "title": "Carry Cash for Shore Excursions",
+        "description": "Local tour guides and drivers ashore are independent contractors. Customary tips ($5–$10 per person) should be paid in local currency."
+      },
+      {
+        "title": "Prestige Select Includes Bar Tips",
+        "description": "Purchasing the Prestige Select package covers bar service fees on included drinks, eliminating individual 20% charges per glass."
+      },
+      {
+        "title": "Wine Amenity Drinks Incur Zero Tip",
+        "description": "Wines and beers poured under the Complimentary Wine and Beer amenity carry zero extra service gratuities on qualifying pours."
+      },
+      {
+        "title": "Avoid Tipping Room Service Extra",
+        "description": "Complimentary 24-hour in-room dining is serviced by onboard staff covered under the standard gratuity program."
+      },
+      {
+        "title": "Verify Older Booking Invoices",
+        "description": "If traveling on a rescheduled or older booking made prior to Your World Included, confirm whether historical daily fees apply."
+      },
+      {
+        "title": "Review Folio Before Debarkation",
+        "description": "Review your final stateroom folio on debarkation morning to ensure all billed 20% gratuities match your actual onboard orders."
+      }
+    ]
+  },
+  "isItWorthIt": {
+    "title": "Is Oceania Cruises Good Value When Gratuities Are Included?",
+    "brandA": {
+      "name": "Oceania's Gratuity Policy Is an Exceptional Fit If You:",
+      "features": [
+        "Prefer transparent upfront pricing that already covers stateroom attendants, butlers, and dining waitstaff",
+        "Dislike unexpected checkout charges of $250 to $650+ per couple added at the end of your cruise",
+        "Enjoy fine dining and specialty restaurants without having to calculate or sign meal tips nightly",
+        "Appreciate that twice-daily housekeeping and 24-hour butler services are fully covered",
+        "Are taking longer voyages (14–30+ days) where eliminated daily gratuities produce massive dollar savings"
+      ]
+    },
+    "brandB": {
+      "name": "What to Keep in Mind Before Sailing:",
+      "features": [
+        "A 20% service charge still applies to à la carte cocktails, spirits, and spa treatments",
+        "Shore excursion guide tips are not covered and should be budgeted in local cash",
+        "Premium cellar bottles of wine and La Reserve dining experiences carry extra costs",
+        "Older bookings made prior to Your World Included may follow historical daily gratuity policies"
+      ]
+    }
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "OCEANIA ELITE CRUISE ADVISOR",
+      "authorityBoxTitle": "Need Clarity on Oceania's Gratuity & Fare Inclusions?",
+      "authoritySubtitle": "Angela Hughes — Luxury Cruise Specialist & Founder of Trips & Ships Luxury Travel",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Oceania Elite Cruise Advisor",
+      "experienceBadge": "40+ Years Luxury Travel Experience",
+      "bio": "Angela Hughes has sailed on every Oceania vessel, helping clients navigate fare structures, understand amenity options, and avoid unexpected onboard expenses.",
+      "quote": "Including standard shipboard crew gratuities in current Your World Included fares was a monumental improvement for Oceania guests. Not only does it eliminate $35 to $46 per day in couple tipping fees, but it also allows travelers to relax completely and enjoy world-class dining without constantly worrying about tipping calculations.",
+      "quoteSubtitle": "A Personal Note on Oceania's Transparent Pricing",
+      "credentials": [
+        "Certified Oceania Cruises Elite Master Advisor",
+        "Condé Nast Traveler Top Travel Specialist",
+        "Over 30 years of luxury cruise advisory and stateroom fare analysis",
+        "Direct advocacy and customized budget planning for all client reservations"
+      ],
+      "ctaText": "Plan Your Oceania Cruise With Angela",
+      "ctaLink": "/contact"
+    }
+  },
+  "centerCta": {
+    "title": "Ready to Experience Transparent Luxury with Oceania Cruises?",
+    "subtitle": "Let Trips & Ships Luxury Travel guide your stateroom selection, amenity choices, and fare inclusions.",
+    "primaryCtaText": "Plan Your Oceania Voyage",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Oceania What's Included",
+    "secondaryCtaLink": "/oceania-cruises/whats-included"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Cruises Gratuities",
+    "subtitle": "EVERYTHING YOU NEED TO KNOW ABOUT TIPPING, CREW CHARGES & POLICIES",
+    "questions": [
+      {
+        "question": "Are gratuities included on Oceania Cruises?",
+        "answer": "Yes. Standard gratuities for stateroom and suite attendants, butlers, and dining waitstaff are included in qualifying current cruise fares under Your World Included."
+      },
+      {
+        "question": "How much are gratuities on Oceania Cruises per day?",
+        "answer": "For qualifying current bookings, standard shipboard gratuities are included in the cruise fare, so there is no separate daily crew gratuity amount to budget. Historically, daily rates were $18/day for standard categories and $23/day for suites."
+      },
+      {
+        "question": "Does Oceania Cruises charge a 20% gratuity?",
+        "answer": "Yes. A 20% service gratuity generally applies to qualifying onboard purchases, including à la carte beverages and spa services."
+      },
+      {
+        "question": "Do I need to tip my Oceania cabin steward?",
+        "answer": "No additional tip is required for standard cabin service because the applicable crew gratuity is already included in qualifying current fares. An extra cash tip is optional."
+      },
+      {
+        "question": "Are butler tips included on Oceania Cruises?",
+        "answer": "Yes. For eligible suites with butler service (Penthouse Suites and above), standard butler gratuities are fully included under the current Your World Included arrangement."
+      },
+      {
+        "question": "Are dining room tips included on Oceania Cruises?",
+        "answer": "Yes. Standard gratuities for dining waitstaff are included in qualifying current cruise fares across all main dining venues and specialty restaurants."
+      },
+      {
+        "question": "Are specialty restaurant gratuities included?",
+        "answer": "Standard dining gratuities are included, and Oceania's regular specialty restaurants (Polo Grill, Toscana, Jacques, Red Ginger, Tuscan Steak) are part of the cruise fare. Certain exclusive experiences like La Reserve carry extra charges."
+      },
+      {
+        "question": "Can I prepay gratuities on Oceania Cruises?",
+        "answer": "Standard crew gratuities are already included in qualifying current bookings. Guests with older reservations should check their booking confirmation to determine whether any gratuities were prepaid or need settling separately."
+      },
+      {
+        "question": "Are gratuities included in Oceania's cruise fare?",
+        "answer": "Yes. Oceania includes standard shipboard gratuities as part of its Your World Included program for qualifying current bookings."
+      },
+      {
+        "question": "Is the 20% gratuity included in the cruise fare?",
+        "answer": "No. The 20% service gratuity on applicable additional onboard purchases (such as bar drinks and spa treatments) is separate from standard crew gratuities included in the fare."
+      },
+      {
+        "question": "Are beverage gratuities included on Oceania Cruises?",
+        "answer": "Standard crew gratuities are included, but an automatic 20% service gratuity generally applies to chargeable beverage purchases. Complimentary beverage amenities are poured without service fees."
+      },
+      {
+        "question": "Are spa gratuities included on Oceania Cruises?",
+        "answer": "The standard shipboard crew gratuity is included in the fare, but an automatic 20% service gratuity applies to qualifying spa and salon treatments."
+      },
+      {
+        "question": "Do I need to tip extra on Oceania Cruises?",
+        "answer": "No. Additional tipping is strictly optional. You may choose to recognize exceptional service with an extra cash tip on the final evening, but it is never required or expected."
+      },
+      {
+        "question": "Does Oceania Cruises include gratuities for solo travelers?",
+        "answer": "Yes. Standard shipboard gratuities are included for all qualifying guests, including solo travelers booked in Solo Veranda or standard categories."
+      },
+      {
+        "question": "Are gratuities included on Oceania world cruises?",
+        "answer": "Standard shipboard gratuities are included on qualifying current bookings, including eligible longer voyages and World Cruise segments."
+      },
+      {
+        "question": "Are Oceania Cruises gratuities refundable?",
+        "answer": "Standard gratuities included in the cruise fare are not treated as a separate refundable daily item. For disputed onboard purchases, consult Guest Services prior to disembarkation."
+      },
+      {
+        "question": "Can I remove the 20% gratuity from an onboard purchase?",
+        "answer": "The treatment of purchase-related service gratuities is governed by Oceania's legal terms. If you experience unsatisfactory service on a specific purchase, speak with Guest Services to review the charge."
+      },
+      {
+        "question": "Are gratuities included in Oceania's complimentary wine and beer amenity?",
+        "answer": "Yes. Wine and beer poured under the Complimentary Wine and Beer amenity during lunch and dinner carry zero additional service charges or gratuity fees."
+      },
+      {
+        "question": "Are gratuities included in Oceania's shore excursion credit?",
+        "answer": "Standard shipboard crew gratuities are included in qualifying cruise fares. Shore excursion credit applies to tour tickets; tips for local step-on guides and drivers ashore remain discretionary cash expenses."
+      },
+      {
+        "question": "Where can I find Oceania Cruises' official gratuity policy?",
+        "answer": "The most reliable sources are Oceania's official Your World Included page, its support center gratuity FAQs, and the Guest Ticket Contract attached to your reservation."
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,750 @@
+{
+  "meta": {
+    "title": "Oceania Mediterranean Cruises: Itineraries, Ports & Tips",
+    "description": "Explore Oceania Mediterranean cruises, including itineraries, ports in Italy, Greece, Spain and France, shore excursions, the best time to sail and planning tips.",
+    "keywords": "Oceania Mediterranean cruises, Oceania Mediterranean itineraries, Oceania Cruises Mediterranean ports, Mediterranean cruises from Rome, Oceania Greek Isles cruises, Oceania Italy cruises, Oceania Spain cruises, best time for a Mediterranean cruise",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/mediterranean"
+  },
+  "hero": {
+    "badge": "DESTINATION-FOCUSED MEDITERRANEAN VOYAGES",
+    "title": "Oceania Mediterranean Cruises: Itineraries, Ports and Planning Tips",
+    "subtitle": "Explore Historic Capitals, Sun-Drenched Islands, Boutique Harbors & World-Class Culinary Traditions",
+    "description": "Oceania Mediterranean cruises combine destination-focused sailing with opportunities to explore some of Europe's most celebrated cities, historic landmarks, coastal villages and culinary regions in Italy, Greece, Spain, France, Croatia, Malta, Montenegro and Turkey.",
+    "primaryCtaText": "Explore Mediterranean Sailings",
+    "primaryCtaLink": "/oceania-cruises/ships",
+    "secondaryCtaText": "Plan with an Advisor",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "QUICK OVERVIEW",
+    "heading": "Are Oceania Mediterranean Cruises Worth Considering?",
+    "paragraphs": [
+      "Oceania Mediterranean cruises combine destination-focused sailing with opportunities to explore some of Europe's most celebrated cities, historic landmarks, coastal villages and culinary regions. Depending on the itinerary, guests can visit destinations in Italy, Greece, Spain, France, Croatia, Malta, Montenegro and Turkey while enjoying Oceania Cruises' smaller-ship atmosphere and food-focused onboard experience.",
+      "Rather than concentrating only on the most famous ports, Oceania's Mediterranean itineraries can include smaller destinations, less-visited islands, extended port calls and overnight stays. This makes the region appealing to travelers who want time to explore beyond a brief visit to a major city.",
+      "The right itinerary depends on the destinations you want to experience, the length of your vacation, your preferred travel season and how much time you want to spend ashore. Some voyages focus on the Greek Isles and Adriatic coast, while others connect the western Mediterranean with Italy, France and Spain.",
+      "Oceania Mediterranean cruises are worth considering if you value destination-rich itineraries, regional cuisine, smaller-ship experiences and opportunities to explore historic European ports at an unhurried, comfortable pace."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Mediterranean Planning at a Glance",
+    "subtitle": "Key considerations when evaluating an Oceania Mediterranean voyage",
+    "headers": [
+      "Planning Consideration",
+      "What to Know"
+    ],
+    "rows": [
+      [
+        "Main regions",
+        "Western Mediterranean, Eastern Mediterranean, Greek Isles and Adriatic"
+      ],
+      [
+        "Popular countries",
+        "Italy, Greece, Spain, France, Croatia, Malta, Montenegro and Turkey"
+      ],
+      [
+        "Common departure or arrival cities",
+        "Rome (Civitavecchia), Barcelona, Athens (Piraeus), Istanbul, Trieste and regional gateways"
+      ],
+      [
+        "Voyage length",
+        "Options range from 7-night regional sailings to 14- to 24-night extended voyages"
+      ],
+      [
+        "Best-known experiences",
+        "Ancient ruins, coastal villages, historic cities, food and wine immersion"
+      ],
+      [
+        "Onboard experience",
+        "Destination-focused luxury cruising with Oceania's prominent culinary emphasis"
+      ],
+      [
+        "Shore excursions",
+        "Organized tours, cultural visits, chef-led market tours and independent exploration"
+      ],
+      [
+        "Best time to sail",
+        "Spring and autumn for ideal sightseeing weather; summer for warm beach & island visits"
+      ]
+    ]
+  },
+  "whyChooseOceania": {
+    "title": "Why Choose Oceania for a Mediterranean Cruise?",
+    "subtitle": "The Mediterranean is a region where the itinerary is just as important as the ship. Oceania combines in-depth destination discovery with refined small-ship luxury.",
+    "pillars": [
+      {
+        "icon": "compass",
+        "title": "Destination-Rich Itineraries",
+        "description": "Oceania connects marquee Mediterranean gateways (Barcelona, Rome, Athens) with boutique coastal jewels and lesser-known islands (Paros, Kotor, Zadar, Portofino) inaccessible to mega-resort ships."
+      },
+      {
+        "icon": "star",
+        "title": "A True Culinary Focus",
+        "description": "Mediterranean voyages showcase local epicurean traditions: hands-on Culinary Center cooking classes, chef-led market excursions, and regional specialties across all open-seating restaurants with no cover charges."
+      },
+      {
+        "icon": "ship",
+        "title": "Intimate Ship Environment",
+        "description": "Carrying between 670 and 1,250 guests, Oceania's ships provide an uncrowded, country-club relaxed atmosphere with no long lines, unhurried disembarkation, and serene open-deck lounges."
+      },
+      {
+        "icon": "window",
+        "title": "Extended Days & Overnight Calls",
+        "description": "Itineraries feature late-night departures and overnight port calls in vibrant cities like Istanbul, Barcelona, and Venice, letting guests dine ashore and experience local evening culture."
+      }
+    ]
+  },
+  "mainRegions": {
+    "title": "Understanding the Main Mediterranean Cruise Regions",
+    "eyebrow": "MEDITERRANEAN SUBREGIONS",
+    "subtitle": "The Mediterranean encompasses diverse cultures, landscapes, and histories. Understanding the four core subregions helps you choose the perfect voyage.",
+    "items": [
+      {
+        "title": "Western Mediterranean: Spain, France & Italy",
+        "category": "Art, Architecture & Coastline",
+        "subtitle": "Art, Architecture & Coastline",
+        "description": "Western Mediterranean itineraries combine Barcelona, Valencia, and Palma de Mallorca in Spain with Marseille, Cannes, and Nice in France, continuing down the Italian coast to Livorno (Florence/Pisa), Civitavecchia (Rome), Naples, and Sicily. Ideal for first-time Mediterranean cruisers, culture seekers, and food lovers wanting iconic landmarks."
+      },
+      {
+        "title": "Eastern Mediterranean & Turkey",
+        "category": "Antiquity, Bazaars & Crossroads",
+        "subtitle": "Antiquity, Bazaars & Crossroads",
+        "description": "Eastern Mediterranean voyages connect Athens (Piraeus) and Istanbul with Rhodes, Crete, Valletta (Malta), and coastal Turkey. These sailings showcase ancient Greco-Roman antiquities, Byzantine mosaics, Ottoman palaces, and vibrant bazaars, perfect for history enthusiasts and extended voyagers."
+      },
+      {
+        "title": "Greek Isles: Aegean Blue & Sun-Bleached Villages",
+        "category": "Island Hopping & Iconic Views",
+        "subtitle": "Island Hopping & Iconic Views",
+        "description": "Focusing on the Cyclades, Dodecanese, and Ionian islands, these itineraries feature Santorini's dramatic caldera, Mykonos' whitewashed windmills, Crete's Minoan Palace of Knossos, Corfu's Venetian fortresses, and Paros' tranquil fishing harbors. Best for island lovers, romance, and scenic vistas."
+      },
+      {
+        "title": "Adriatic: Venice, Dalmatian Coast & Montenegro",
+        "category": "Medieval Walled Cities & Fjords",
+        "subtitle": "Medieval Walled Cities & Fjords",
+        "description": "Connecting Venice and Trieste with Croatia's Dalmatian Coast (Dubrovnik, Split, Zadar) and Montenegro's fjord-like Bay of Kotor. Renowned for medieval walled towns, terracotta rooftops, crystal-clear swimming bays, and Roman ruins like Diocletian's Palace."
+      }
+    ]
+  },
+  "popularPorts": {
+    "title": "Popular Oceania Mediterranean Cruise Ports",
+    "subtitle": "From historic capitals to sun-soaked coastal villages, explore the primary destinations featured on Oceania Mediterranean routes.",
+    "items": [
+      {
+        "category": "ITALY • CIVITAVECCHIA, LIVORNO & NAPLES",
+        "title": "Rome, Florence, Tuscany & Amalfi Coast",
+        "description": "Civitavecchia serves as the gateway to the Colosseum and Vatican. Livorno opens access to the Renaissance treasures of Florence and Pisa, while Naples offers Pompeii, Capri, and the cliffside villages of the Amalfi Coast."
+      },
+      {
+        "category": "GREECE • PIRAEUS, SANTORINI & MYKONOS",
+        "title": "Athens & Sun-Drenched Aegean Isles",
+        "description": "Piraeus is the historic gateway to the Parthenon and Acropolis Museum. Santorini captivates with cliffside blue-domed churches in Oia, while Mykonos offers charming labyrinthine alleyways and seaside tavernas."
+      },
+      {
+        "category": "SPAIN • BARCELONA, VALENCIA & MALLORCA",
+        "title": "Catalonia, Paella & Balearic Charm",
+        "description": "Barcelona dazzles with Gaudí's Sagrada Família, the Gothic Quarter, and vibrant tapas markets. Valencia offers futuristic architecture and authentic paella, while Palma de Mallorca charms with its Gothic cathedral."
+      },
+      {
+        "category": "FRANCE • MARSEILLE, NICE & CANNES",
+        "title": "The French Riviera & Provence",
+        "description": "Marseille provides entry into the lavender fields and stone villages of Provence. Nice and Cannes deliver Belle Époque glamour along the Promenade des Anglais, Monaco, and hilltop Èze."
+      },
+      {
+        "category": "CROATIA & MONTENEGRO • DUBROVNIK & KOTOR",
+        "title": "Croatia's Walled Towns & Montenegro",
+        "description": "Walk atop Dubrovnik's medieval city walls overlooking the sapphire Adriatic. In Kotor, sail into Europe's southernmost fjord beneath soaring limestone cliffs to explore a Venetian UNESCO-listed old town."
+      },
+      {
+        "category": "TURKEY • ISTANBUL & EPHESUS",
+        "title": "Where East Meets West",
+        "description": "Istanbul enchants with the Blue Mosque, Hagia Sophia, and bustling Grand Bazaar, often featured with overnight stays. Kusadasi provides access to the grand classical ruins of ancient Ephesus."
+      }
+    ],
+    "bentoItems": [
+      {
+        "stat": "Italy",
+        "label": "Civitavecchia, Livorno & Naples",
+        "title": "Rome, Florence, Tuscany & Amalfi Coast",
+        "description": "Civitavecchia serves as the gateway to the Colosseum and Vatican. Livorno opens access to the Renaissance treasures of Florence and Pisa, while Naples offers Pompeii, Capri, and the cliffside villages of the Amalfi Coast.",
+        "tag": "ITALY"
+      },
+      {
+        "stat": "Greece",
+        "label": "Piraeus, Santorini & Mykonos",
+        "title": "Athens & Sun-Drenched Aegean Isles",
+        "description": "Piraeus is the historic gateway to the Parthenon and Acropolis Museum. Santorini captivates with cliffside blue-domed churches in Oia, while Mykonos offers charming labyrinthine alleyways and seaside tavernas.",
+        "tag": "GREECE"
+      },
+      {
+        "stat": "Spain",
+        "label": "Barcelona, Valencia & Mallorca",
+        "title": "Catalonia, Paella & Balearic Charm",
+        "description": "Barcelona dazzles with Gaudí's Sagrada Família, the Gothic Quarter, and vibrant tapas markets. Valencia offers futuristic architecture and authentic paella, while Palma de Mallorca charms with its Gothic cathedral.",
+        "tag": "SPAIN"
+      },
+      {
+        "stat": "France",
+        "label": "Marseille, Nice & Cannes",
+        "title": "The French Riviera & Provence",
+        "description": "Marseille provides entry into the lavender fields and stone villages of Provence. Nice and Cannes deliver Belle Époque glamour along the Promenade des Anglais, Monaco, and hilltop Èze.",
+        "tag": "FRANCE"
+      },
+      {
+        "stat": "Adriatic",
+        "label": "Dubrovnik & Bay of Kotor",
+        "title": "Croatia's Walled Towns & Montenegro",
+        "description": "Walk atop Dubrovnik's medieval city walls overlooking the sapphire Adriatic. In Kotor, sail into Europe's southernmost fjord beneath soaring limestone cliffs to explore a Venetian UNESCO-listed old town.",
+        "tag": "CROATIA & MONTENEGRO"
+      },
+      {
+        "stat": "Turkey",
+        "label": "Istanbul & Ephesus",
+        "title": "Where East Meets West",
+        "description": "Istanbul enchants with the Blue Mosque, Hagia Sophia, and bustling Grand Bazaar, often featured with overnight stays. Kusadasi provides access to the grand classical ruins of ancient Ephesus.",
+        "tag": "TURKEY"
+      }
+    ]
+  },
+  "sampleItineraries": {
+    "title": "Sample Oceania Mediterranean Itineraries",
+    "subtitle": "Representative routing examples demonstrating how Oceania combines marquee cities and boutique harbors.",
+    "items": [
+      {
+        "title": "Western Mediterranean Highlights",
+        "description": "Representative Route: Barcelona to Rome (or reverse), calling at Palma de Mallorca, Marseille (Provence), Monte Carlo or Cannes (French Riviera), Livorno (Florence/Pisa), and Naples (Pompeii/Amalfi Coast). A perfect introduction to Europe's most celebrated coastal cities.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Greek Isles & Eastern Mediterranean",
+        "description": "Representative Route: Athens (Piraeus) to Istanbul, calling at Mykonos, Santorini, Crete (Heraklion), Rhodes, Kusadasi (Ephesus), and an overnight stay in Istanbul. Combines archaeological splendor with quintessential Aegean island hopping.",
+        "icon": "Sun"
+      },
+      {
+        "title": "Adriatic & Italian Coast Discovery",
+        "description": "Representative Route: Trieste to Athens, calling at Zadar, Split, Dubrovnik, Kotor, Corfu, Katakolon (Olympia), and Athens. Showcases dramatic fjord-like sailing, Venetian ramparts, and UNESCO World Heritage sites.",
+        "icon": "Anchor"
+      },
+      {
+        "title": "Grand Mediterranean Collector Voyages",
+        "description": "Representative Route: Extended 14- to 24-night voyages linking Barcelona through Italy, the Adriatic, Greek Isles, and Istanbul. Eliminates the need to choose between western and eastern subregions for a comprehensive European journey.",
+        "icon": "MapPin"
+      },
+      {
+        "title": "Oceania Sonata Mediterranean Maiden Voyage",
+        "description": "Special 14-day Mediterranean Collage departing Rome on August 7, 2027, arriving in Trieste. Ports include Salerno, Catania, Valletta, Katakolon, Heraklion, Paros, Athens, Mykonos, Argostoli, Corfu, Bar, Split, and Zadar across five countries.",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "bestTimeToSail": {
+    "title": "Best Time to Take an Oceania Mediterranean Cruise",
+    "subtitle": "Evaluating seasonal weather, port conditions, and crowds across the Mediterranean calendar",
+    "cards": [
+      {
+        "icon": "Sun",
+        "title": "Spring: April to May",
+        "description": "Spring can be an appealing time to explore Mediterranean cities. Temperatures are often more comfortable for walking tours, archaeological sites and sightseeing. It can be particularly attractive for travelers who want to visit Rome, Athens, Barcelona and other historic cities without the intense heat that can occur during summer. However, spring weather is not guaranteed to be warm everywhere. Pack layers and check the forecast for each destination.",
+        "bullets": [
+          "Comfortable walking tours in Rome, Athens & Barcelona",
+          "Variable coastal weather — packing layers recommended"
+        ]
+      },
+      {
+        "icon": "SunMedium",
+        "title": "Summer: June to August",
+        "description": "Summer brings long daylight hours, warm weather and lively coastal destinations. It is a popular season for Greek island visits and beach experiences. The trade-off is that popular ports can become crowded, and temperatures in cities such as Rome and Athens can be very high. Travelers who choose summer should plan outdoor sightseeing carefully, stay hydrated and consider early-morning excursions.",
+        "bullets": [
+          "Peak beach energy and extended daylight hours",
+          "Plan outdoor sightseeing early and stay hydrated"
+        ]
+      },
+      {
+        "icon": "Leaf",
+        "title": "Autumn: September to October",
+        "description": "Early autumn can be an excellent balance of warm weather and more comfortable sightseeing conditions. The sea may remain warm after summer, while city temperatures can become easier to manage. September and October are worth considering for travelers who prioritize cultural visits and coastal exploration. Always check the exact sailing schedule because seasonal availability differs by ship and year.",
+        "bullets": [
+          "Warm sea temperatures for coastal swimming",
+          "Balanced daytime climate for cultural exploration"
+        ]
+      },
+      {
+        "icon": "Snowflake",
+        "title": "Winter: November to March",
+        "description": "Winter Mediterranean sailings can provide a different experience, particularly for travelers more interested in historic cities and cultural attractions than beaches. Some islands and coastal destinations may have reduced seasonal services, and weather can be cooler or less predictable. Check the port schedule and local opening hours before choosing a winter itinerary.",
+        "bullets": [
+          "Uncrowded historic cities, museums and landmarks",
+          "Check port schedules and seasonal opening hours"
+        ]
+      }
+    ]
+  },
+  "whichShipToChoose": {
+    "title": "Which Oceania Ship Should You Choose for the Mediterranean?",
+    "subtitle": "Comparing ship classes and onboard atmospheres deployed across the Mediterranean",
+    "items": [
+      {
+        "name": "Allura Class (Vista & Allura)",
+        "price": "Modern Luxury (1,200 Guests)",
+        "description": "Oceania's newest flagships feature all-veranda accommodations, stunning residential decor, the expanded Culinary Center with individual chef stations, Aquamar Kitchen wellness dining, and signature specialty venues including Ember and Red Ginger.",
+        "signatureFeatures": [
+          "100% veranda staterooms and expansive luxury suites",
+          "Dedicated Culinary Center with chef-led cooking stations",
+          "Contemporary residential design with soaring light-filled atriums",
+          "Comprehensive specialty dining lineup across all international styles"
+        ]
+      },
+      {
+        "name": "O-Class (Marina & Riviera)",
+        "price": "Culinary Icons (1,250 Guests)",
+        "description": "Recently revitalized with multimillion-dollar refurbishments, Marina and Riviera offer generous public spaces, the Grand Dining Room, Polo Grill, Toscana, Jacques, and Red Ginger, striking a perfect balance between variety and small-ship intimacy.",
+        "signatureFeatures": [
+          "Multiple specialty restaurants included with no cover charges",
+          "Lalique Grand Staircase and Ralph Lauren Home-designed Owner's Suites",
+          "Spacious heated pool deck and panoramic Horizons observation lounge",
+          "High crew-to-guest ratio with personalized white-glove service"
+        ]
+      },
+      {
+        "name": "R-Class (Nautica, Insignia, Sirena)",
+        "price": "Boutique Intimacy (670 Guests)",
+        "description": "These intimate, charming ships can navigate shallow channels and dock directly in the heart of historic harbor towns like Amalfi, Portofino, and Kotor, offering an authentic country-club atmosphere with zero crowds.",
+        "signatureFeatures": [
+          "Boutique scale allowing direct docking at town piers",
+          "Rich mahogany paneling, traditional English library, and cozy lounges",
+          "Warm, familiar camaraderie between guests and attentive crew",
+          "Uncrowded disembarkation for rapid access to shoreside sightseeing"
+        ]
+      }
+    ]
+  },
+  "whatIsIncluded": {
+    "title": "What Is Included on an Oceania Mediterranean Cruise?",
+    "subtitle": "Understanding the Your World Included program and potential vacation upgrades",
+    "includedTitle": "Included in Base Cruise Fare",
+    "extrasTitle": "Optional Upgrades & Out-of-Pocket",
+    "included": [
+      {
+        "title": "All Specialty Dining",
+        "description": "Complimentary dining across all specialty restaurants (Polo Grill, Toscana, Red Ginger, Jacques, Ember) with no restaurant cover charges."
+      },
+      {
+        "title": "Shipboard Crew Gratuities",
+        "description": "Standard shipboard gratuities for stateroom attendants, butlers, and dining waitstaff are fully covered."
+      },
+      {
+        "title": "Complimentary Starlink Wi-Fi",
+        "description": "High-speed internet access included for all staterooms and suites throughout the voyage."
+      },
+      {
+        "title": "Specialty Nonalcoholic Drinks",
+        "description": "Artisan espressos, cappuccinos, teas, sodas, still and sparkling Vero Water, juices, smoothies, and gourmet gelato."
+      },
+      {
+        "title": "Amenity Choice on Qualifying Bookings",
+        "description": "Choice between complimentary wine and beer by the glass at restaurant lunch & dinner OR a generous shore excursion credit."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Premium Spirits & Cocktails",
+        "description": "Cocktails and spirits outside included dining hours require individual purchase or the Prestige Select beverage package."
+      },
+      {
+        "title": "Excursions Beyond Credit",
+        "description": "Shore tours exceeding your booking's excursion credit allowance are billed to your onboard account."
+      },
+      {
+        "title": "Spa Treatments & Salon Services",
+        "description": "Massages, facials, and personal therapies at the Aquamar Spa + Vitality Center carry standard menu charges."
+      },
+      {
+        "title": "Exclusive Wine Pairing Dinners",
+        "description": "Private sommelier-led tasting events (such as the Dom Pérignon Experience) carry an additional cover charge."
+      },
+      {
+        "title": "Airfare, Transfers & Hotels",
+        "description": "Pre/post-cruise hotel stays, airfare, and airport-port transfers unless booked under specific promotional packages."
+      }
+    ]
+  },
+  "shoreExcursions": {
+    "title": "Oceania Mediterranean Shore Excursions: What Can You Do Ashore?",
+    "subtitle": "Oceania offers a diverse collection of curated shore experiences designed to immerse travelers in European history, culture, and cuisine.",
+    "items": [
+      {
+        "title": "Historical & Archaeological Tours",
+        "description": "Step back thousands of years with expert licensed guides: walking the Roman Forum and Colosseum from Civitavecchia, ascending Athens' Acropolis, discovering preserved Roman villas in Pompeii, or exploring Ephesus."
+      },
+      {
+        "title": "Culinary Discovery & Wine Tastings",
+        "description": "Oceania's signature foodie excursions: tour bustling local markets in Barcelona or Nice with a master chef, sample Chianti in Tuscan vineyards, taste olive oils in Crete, and prepare authentic regional dishes back onboard."
+      },
+      {
+        "title": "Scenic Coastal Drives & Island Vistas",
+        "description": "Experience panoramic beauty along the winding Amalfi Coast drive, ride private catamarans across Santorini's volcanic caldera, or drive the Corniche roads overlooking Monaco and the French Riviera."
+      },
+      {
+        "title": "Private Cars & Small-Group Tours",
+        "description": "Tailor-made private driver arrangements for families or small groups who want complete flexibility to linger at museums, visit secluded beaches, or dine at countryside trattorias at their own pace."
+      },
+      {
+        "title": "Independent Port Exploration",
+        "description": "Many Mediterranean ports (Dubrovnik, Mykonos, Kotor, Palma) allow guests to step right off the ship into historic walled towns for relaxed, self-guided strolling, shopping, and cafe dining."
+      }
+    ]
+  },
+  "planningAroundPorts": {
+    "title": "How to Plan Your Mediterranean Cruise Around the Ports",
+    "subtitle": "Choosing the right itinerary requires more than looking at destination names. Time in port, terminal locations, and transfer distances significantly shape your experience.",
+    "steps": [
+      {
+        "title": "Decide Which Countries Matter Most",
+        "description": "Start with the destinations you most want to visit. For example: Italy and France for art, architecture, and food; Greece for islands, ancient history, and coastal scenery; Croatia and Montenegro for historic towns and Adriatic views; Spain for architecture, food, and lively city experiences; or Turkey for major historic landmarks and cultural contrasts. A focused itinerary may be more enjoyable than trying to visit too many countries in a short time."
+      },
+      {
+        "title": "Check the Actual Port Locations",
+        "description": "Cruise ports do not always sit beside the cities they serve. Civitavecchia is a gateway to Rome, Livorno serves Florence and Pisa, and Piraeus serves Athens. These transfers can take considerable time. Review the port location and excursion duration before assuming that a famous attraction will be easy to reach."
+      },
+      {
+        "title": "Compare Port Hours & Stay Durations",
+        "description": "A port call of several hours can offer a very different experience from an overnight stay. For each itinerary, check arrival and departure times, whether the ship stays overnight, whether the port is a tender port, distance to main attractions, and whether desired excursions are available. Longer stays can be particularly useful in major cities with multiple attractions."
+      },
+      {
+        "title": "Plan Pre-Cruise and Post-Cruise Stays",
+        "description": "Consider arriving one or two days before embarkation, especially if your cruise departs from a major international city. A pre-cruise stay can help you manage flight delays, recover from jet lag, and explore the departure city. A post-cruise stay can also be valuable if you want to explore the final destination without rushing to the airport."
+      },
+      {
+        "title": "Match Excursions to Your Travel Style",
+        "description": "You do not need to book an organized tour in every port. A balanced approach may include guided tours in destinations with complex transport or major archaeological sites, combined with independent exploration in walkable towns. Consider your mobility, sightseeing interests, budget, and preferred pace."
+      }
+    ]
+  },
+  "costBreakdown": {
+    "title": "What Does an Oceania Mediterranean Cruise Cost?",
+    "subtitle": "Mediterranean cruise fares depend on sailing length, stateroom tier, seasonality, and promotional inclusions. Here is a realistic cost framework.",
+    "items": [
+      {
+        "category": "7- to 10-Night Regional Voyages",
+        "cost": "$3,499 – $5,999 pp",
+        "description": "The quintessential starting point for focused Western Mediterranean (Barcelona to Rome) or Greek Isles (Athens to Istanbul) sailings in a private veranda stateroom.",
+        "priority": "Best for First-Time Mediterranean Voyagers"
+      },
+      {
+        "category": "12- to 16-Night Extended Voyages",
+        "cost": "$6,200 – $10,500 pp",
+        "description": "Comprehensive itineraries bridging the Italian Riviera, Dalmatian Coast, and Aegean islands with late-night port departures and overnight stays in marquee capitals.",
+        "priority": "Best Balance of Pace & Deep Discovery"
+      },
+      {
+        "category": "20+ Night Grand Collector Voyages",
+        "cost": "$9,800 – $18,000+ pp",
+        "description": "Seamless multi-voyage journeys spanning Spain to Turkey without port repetition, yielding the most advantageous per-diem rates and expanded amenity credits.",
+        "priority": "Maximum Daily Value for Sabbaticals"
+      },
+      {
+        "category": "Suite Upgrades & Butler Living",
+        "cost": "+$1,200 to +$6,000 pp",
+        "description": "Upgrades from Veranda to Concierge Level or Penthouse Suites, featuring 24-hour white-glove European butler service, complimentary garment pressing, and priority dining reservations.",
+        "priority": "High Value for Panoramic Veranda Cruising"
+      }
+    ]
+  },
+  "whatToPack": {
+    "title": "What Should You Pack for an Oceania Mediterranean Cruise?",
+    "subtitle": "Packing essentials tailored for European cobblestones, historic cathedrals, sunny decks, and elegant casual evenings.",
+    "categories": [
+      {
+        "id": "daytime",
+        "title": "Daytime Sightseeing Outfits",
+        "description": "Lightweight, breathable natural fabrics (linen, cotton) for warm daytime walking tours, plus modest layers for sacred sites.",
+        "items": [
+          "Lightweight linen shirts, blouses, and tailored shorts",
+          "Comfortable trousers and sun dresses",
+          "Shoulder wraps or light cardigans for cathedral visits",
+          "UV-blocking sunglasses, wide-brim sun hat, and swimwear"
+        ]
+      },
+      {
+        "id": "onboard",
+        "title": "Footwear for Historic Cobblestones",
+        "description": "Supportive, broken-in walking shoes are essential for navigating ancient ruins, uneven stone streets, and marble steps.",
+        "items": [
+          "Sturdy, cushioned walking sneakers for full-day tours",
+          "Comfortable supportive walking sandals",
+          "Smart loafers or dress shoes for onboard evenings",
+          "Non-slip pool deck sandals or espadrilles"
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Onboard Elegant Casual Evening Attire",
+        "description": "Oceania follows an elegant casual dress code in the evenings. Traditional tuxedos and formal gowns are never required.",
+        "items": [
+          "Collared dress shirts, polo shirts, and smart slacks for men",
+          "Sport coats or blazers (optional but popular for dining)",
+          "Stylish dresses, skirts, or tailored pantsuits for women",
+          "Light evening wrap or jacket for starlit deck strolls"
+        ]
+      }
+    ]
+  },
+  "travelerSuitability": {
+    "title": "Is an Oceania Mediterranean Cruise Suitable for Different Travelers?",
+    "subtitle": "How Oceania's Mediterranean sailings align with different travel styles and preferences",
+    "personas": [
+      {
+        "icon": "Heart",
+        "title": "Couples & Romance",
+        "description": "The Mediterranean is inherently romantic. Couples will love sunset dinners overlooking Santorini's caldera, private gondola rides, and intimate open-seating specialty dinners without formal rigidity.",
+        "traits": [
+          "Romantic coastal vistas & sunset dining",
+          "No rigid assigned seating times",
+          "Intimate ambiance on uncrowded ships"
+        ],
+        "recommendations": [
+          "Oceania Mediterranean Voyages"
+        ]
+      },
+      {
+        "icon": "Compass",
+        "title": "First-Time Mediterranean Cruisers",
+        "description": "A cruise is the most seamless way to experience Rome, Barcelona, Florence, and the French Riviera in a single trip without unpacking or navigating European train stations.",
+        "traits": [
+          "Multiple European countries in one trip",
+          "Unpack once with zero hotel transfers",
+          "Convenient gateway embarkation ports"
+        ],
+        "recommendations": [
+          "Western Mediterranean Routes"
+        ]
+      },
+      {
+        "icon": "Gem",
+        "title": "Food & Wine Enthusiasts",
+        "description": "Oceania's culinary heritage pairs perfectly with Europe's gastronomic capitals. Enjoy onboard Culinary Center cooking classes and market excursions led by master chefs.",
+        "traits": [
+          "Market-to-table chef excursions",
+          "Complimentary dining across 6+ venues",
+          "Regional wine tastings and pairings"
+        ],
+        "recommendations": [
+          "Italy, France & Spain Itineraries"
+        ]
+      },
+      {
+        "icon": "Landmark",
+        "title": "Experienced European Travelers",
+        "description": "Travelers who have already seen Rome and Paris will appreciate Oceania's boutique itineraries visiting Paros, Kotor, Zadar, and Sicily with late departures.",
+        "traits": [
+          "Smaller boutique harbor calls",
+          "Fewer crowds than mega-ship ports",
+          "Overnight stays in historic cities"
+        ],
+        "recommendations": [
+          "Adriatic & Greek Isles Routes"
+        ]
+      },
+      {
+        "icon": "Camera",
+        "title": "Solo Travelers",
+        "description": "Oceania offers dedicated Solo Oceanview staterooms on select ships, social get-togethers, and small-group excursions ideal for independent explorers.",
+        "traits": [
+          "Dedicated solo stateroom options",
+          "Welcoming social environment",
+          "Safe, curated guided group tours"
+        ],
+        "recommendations": [
+          "Oceania Vista & Revitalized Ships"
+        ]
+      },
+      {
+        "icon": "Bike",
+        "title": "Older Travelers & Active Seniors",
+        "description": "Small ships provide easy, short walking distances between staterooms and dining. Tours offer varied physical activity levels to suit mobility needs.",
+        "traits": [
+          "Short walking distances onboard",
+          "Varied tour activity difficulty levels",
+          "Comfortable small-ship accessibility"
+        ],
+        "recommendations": [
+          "All Mediterranean Sailings"
+        ]
+      }
+    ]
+  },
+  "competitorComparison": {
+    "title": "Oceania Mediterranean Cruises vs. Other Luxury Cruise Lines",
+    "headers": [
+      "Cruise Line",
+      "Core Appeal in Mediterranean",
+      "Key Distinctions to Compare"
+    ],
+    "rows": [
+      [
+        "Oceania Cruises",
+        "Culinary focus & destination-rich boutique itineraries",
+        "All specialty dining & gratuities included; flexible amenity choice; varied ship sizes (670-1,250 guests)"
+      ],
+      [
+        "Regent Seven Seas",
+        "Ultra-luxury comprehensive all-inclusive model",
+        "Unlimited shore excursions & beverages included; all-suite fleet; higher upfront fares"
+      ],
+      [
+        "Seabourn",
+        "Intimate yacht-like luxury and personalized service",
+        "Yacht-scale ships (450-600 guests); watersports marina; inclusive luxury fare structure"
+      ],
+      [
+        "Azamara",
+        "Destination Immersion and extended port stays",
+        "Extended Destination Days (10+ hours); AzAmazing Evenings; selected alcohol included; specialty dining extra"
+      ],
+      [
+        "Viking Ocean",
+        "Scandinavian serenity and cultural enrichment",
+        "Included port excursion in every port; 100% all-veranda 930-guest ships; Nordic thermal spa access included"
+      ]
+    ]
+  },
+  "howToChoose": {
+    "title": "How to Choose the Right Oceania Mediterranean Itinerary",
+    "subtitle": "The best itinerary gives you enough time to enjoy the destinations you care about most.",
+    "bestForTitle": "Your Travel Priority",
+    "bestFor": [
+      {
+        "title": "First-Time Mediterranean Exploration",
+        "description": "Choose a Western Mediterranean route combining Barcelona, the French Riviera, Florence, and Rome for an iconic introduction."
+      },
+      {
+        "title": "Ancient Antiquity & Island Romance",
+        "description": "Select a Greek Isles and Eastern Mediterranean voyage featuring Athens, Mykonos, Santorini, and Istanbul."
+      },
+      {
+        "title": "Medieval Walled Towns & Dramatic Scenery",
+        "description": "Choose an Adriatic voyage connecting Trieste with Croatia's Dalmatian Coast (Dubrovnik, Split) and Montenegro's Bay of Kotor."
+      },
+      {
+        "title": "Food, Wine & Epicurean Discovery",
+        "description": "Select an Italy, France, and Spain itinerary highlighting Tuscan vineyards, Provençal markets, and Catalan tapas."
+      },
+      {
+        "title": "Comprehensive In-Depth Journey",
+        "description": "Book a 14- to 24-night Grand Mediterranean voyage linking western and eastern subregions with overnights in major cities."
+      }
+    ],
+    "notForTitle": "Is Oceania Mediterranean Right for You?",
+    "notFor": [
+      {
+        "title": "Destination-Rich Balance",
+        "description": "Oceania strikes the ideal balance between smaller-ship intimacy, diverse port access, and five-star culinary distinction."
+      },
+      {
+        "title": "Unpack Once in Luxury",
+        "description": "Wake up in a new historic harbor each morning without the hassle of packing, checking in, or catching European regional trains."
+      },
+      {
+        "title": "World-Class Gastronomy",
+        "description": "Dine in world-class specialty restaurants every evening at no additional cost after active days of shoreside sightseeing."
+      },
+      {
+        "title": "Comfortable Pace & Extended Hours",
+        "description": "Late departures and overnight calls ensure you experience Europe's coastal cities after the tour buses have departed."
+      }
+    ]
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "MEDITERRANEAN CRUISE SPECIALIST",
+      "authorityBoxTitle": "Plan Your Oceania Mediterranean Cruise with Expert Guidance",
+      "authoritySubtitle": "Bespoke itinerary curation from an elite luxury cruise advisor who has sailed Europe extensively",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Elite Travel Advisor",
+      "experienceBadge": "40+ Years Luxury Cruise Experience",
+      "bio": "An Oceania Mediterranean cruise can be an extraordinary vacation, but choosing between similar itineraries requires evaluating port hours, transfer distances, ship classes, and seasonal crowd dynamics. At Trips & Ships Luxury Travel, Angela Hughes and her team help clients compare Mediterranean routes, select optimal stateroom and suite locations, coordinate seamless pre- and post-cruise luxury hotel stays, and maximize Your World Included amenity benefits.",
+      "quote": "The strongest Mediterranean itinerary is not simply the one with the most ports—it is the one that gives you enough unhurried time in the destinations you care about most. We help travelers analyze the nuances of port schedules, tender logistics, and ship deployments so every European voyage exceeds expectations.",
+      "quoteSubtitle": "On curating the ultimate Mediterranean luxury cruise",
+      "credentials": [
+        "Top Producer: Oceania Cruises Connoisseur Club",
+        "Certified European Destination & Small-Ship Specialist",
+        "Over 30 Years Designing Bespoke Luxury Itineraries",
+        "Personal Sailings across the Western Med, Greek Isles & Adriatic"
+      ],
+      "ctaText": "Plan Your Mediterranean Cruise",
+      "ctaLink": "/contact"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Mediterranean Cruises",
+    "subtitle": "Clear, verified answers to the most common questions when planning an Oceania Mediterranean vacation",
+    "questions": [
+      {
+        "question": "Does Oceania Cruises sail in the Mediterranean?",
+        "answer": "Yes. Oceania offers extensive Mediterranean itineraries that include destinations in Italy, Greece, Spain, France, Croatia, Montenegro, Malta and Turkey. Available routes vary by ship and sailing season."
+      },
+      {
+        "question": "What are the most popular Oceania Mediterranean cruise destinations?",
+        "answer": "Popular destinations include Rome (Civitavecchia), Barcelona, Athens (Piraeus), Mykonos, Santorini, Dubrovnik, Venice/Trieste-area ports, the French Riviera (Nice/Cannes), Sicily and Istanbul. The exact destinations depend on the itinerary."
+      },
+      {
+        "question": "What is the best month for an Oceania Mediterranean cruise?",
+        "answer": "May, June, September and October are ideal for many travelers. These months offer a comfortable balance of pleasant sightseeing temperatures, warm sea conditions and manageable crowds."
+      },
+      {
+        "question": "Are Oceania Mediterranean cruises good for first-time visitors?",
+        "answer": "Yes. They are an exceptional option for first-time visitors who want to explore multiple European destinations without changing hotels or navigating train logistics. Choose an itinerary that includes the marquee ports you most want to visit."
+      },
+      {
+        "question": "How long are Oceania Mediterranean cruises?",
+        "answer": "Voyage lengths vary. Oceania offers 7- to 10-night regional itineraries as well as extended 14- to 24-night Grand Voyages that connect multiple Mediterranean subregions. Check current schedules for specific durations."
+      },
+      {
+        "question": "Which Oceania ships sail in the Mediterranean?",
+        "answer": "Ship deployment changes by season and year. Oceania frequently deploys Allura-class (Vista, Allura), O-class (Marina, Riviera), and R-class ships (Nautica, Insignia, Sirena) in the Mediterranean throughout the spring, summer, and autumn."
+      },
+      {
+        "question": "Do Oceania Mediterranean cruises include Greece?",
+        "answer": "Many Mediterranean itineraries include Greek destinations, but not every sailing visits Greece. Some routes focus on Italy, France and Spain, while others concentrate on the Greek Isles and Eastern Mediterranean."
+      },
+      {
+        "question": "Can I visit Rome on an Oceania Mediterranean cruise?",
+        "answer": "Yes. Many itineraries embark, disembark, or call at Civitavecchia, the cruise port serving Rome. Because the city is approximately 60 to 90 minutes from the port, booking a pre- or post-cruise hotel stay in Rome is strongly recommended."
+      },
+      {
+        "question": "Does Oceania visit Santorini and Mykonos?",
+        "answer": "Certain Oceania Mediterranean itineraries include Santorini, Mykonos or both. Check individual voyage itineraries because island calls vary by route and season."
+      },
+      {
+        "question": "Are shore excursions included on Oceania Mediterranean cruises?",
+        "answer": "Shore excursions are not universally unlimited. Qualifying bookings under Your World Included offer a choice of a generous shore excursion credit, which can be applied toward Oceania's curated tour collections."
+      },
+      {
+        "question": "What types of shore excursions are available?",
+        "answer": "Depending on the port, options include historical sightseeing, archaeological tours, chef-led market and cooking tours, scenic drives along coastal cliffs, cultural visits, small-group excursions, and private driver arrangements."
+      },
+      {
+        "question": "Can I explore Mediterranean ports independently?",
+        "answer": "Yes, in many destinations. However, always check the port's distance from the city center, local transport availability, tender boat arrangements, and all-aboard times before heading out on your own."
+      },
+      {
+        "question": "Are overnight stays available on Oceania Mediterranean cruises?",
+        "answer": "Yes. Certain itineraries feature overnight stays or late-night departures in marquee destinations such as Istanbul, Barcelona, and Venice, allowing guests to experience local evening dining and nightlife."
+      },
+      {
+        "question": "What is the best Mediterranean itinerary for couples?",
+        "answer": "Couples often prefer itineraries combining Italy, Greece, France, and Spain, particularly routes featuring scenic ports like Santorini, the Amalfi Coast, and the French Riviera with ample opportunities for romantic dining ashore."
+      },
+      {
+        "question": "Are Oceania Mediterranean cruises suitable for older travelers?",
+        "answer": "Yes, but accessibility varies by port and excursion. European historic centers frequently involve cobblestones, steps, and hills, while some island ports require tender boats. Review excursion activity levels before booking."
+      }
+    ]
+  },
+  "centerCta": {
+    "title": "Ready to Plan Your Oceania Mediterranean Cruise?",
+    "subtitle": "Choosing between Mediterranean itineraries involves evaluating ports, sailing seasons, ship sizes, and travel logistics. Angela Hughes and the Trips & Ships Luxury Travel team are here to help you design an unforgettable voyage.",
+    "primaryCtaText": "Contact Trips & Ships Luxury Travel",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Oceania Ships",
+    "secondaryCtaLink": "/oceania-cruises/ships"
+  }
+}

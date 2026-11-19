@@ -1,0 +1,841 @@
+{
+  "meta": {
+    "title": "Oceania World Cruises & Grand Voyages: Booking Guide",
+    "description": "Explore Oceania World Cruises and Grand Voyages. Compare voyage lengths, 2028 and 2029 itineraries, ships, inclusions, costs, booking options and planning tips.",
+    "keywords": "Oceania World Cruises, Oceania Grand Voyages, Oceania 180-day World Cruise, Oceania 2028 World Cruise, Oceania 2029 World Cruise, Oceania long cruises, Oceania around the world cruise, luxury world cruises",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/world-cruises"
+  },
+  "hero": {
+    "badge": "LUXURY WORLD CRUISES & GRAND VOYAGES",
+    "title": "Oceania World Cruises and Grand Voyages: What to Know Before Booking",
+    "subtitle": "Explore 180-Day Around the World Journeys for 2028 & 2029, Extended Grand Voyages, Inclusions, Costs and Planning Tips Aboard Oceania Aurelia",
+    "description": "An Oceania World Cruise or Grand Voyage offers an unparalleled way to explore the globe: spend weeks or months discovering dozens of countries across multiple continents aboard the same intimate luxury ship with world-class dining, refined small-ship luxury, and generous inclusive packages.",
+    "primaryCtaText": "Explore World Voyages",
+    "primaryCtaLink": "/oceania-cruises/ships",
+    "secondaryCtaText": "Plan with an Advisor",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "A COMPREHENSIVE PLANNING GUIDE",
+    "heading": "Circumnavigate the Globe in Refined Small-Ship Elegance",
+    "paragraphs": [
+      "An Oceania World Cruise or Grand Voyage offers a different way to travel: instead of visiting one destination and returning home, you spend weeks or months exploring multiple countries aboard the same ship.",
+      "Oceania Cruises has expanded its longer-voyage program with 180-day Around the World journeys for 2028 and 2029, along with Grand Voyages that explore regions such as Northern Europe, the Baltics, South America and the Mediterranean.",
+      "The distinction matters when choosing a trip. A World Cruise is designed for travelers who want an extensive global journey, while a Grand Voyage generally focuses on a particular region or connects several destinations over a shorter period.",
+      "Oceania's announced 2028 and 2029 World Cruises will sail aboard Oceania Aurelia, a ship planned to debut in late 2027. The 2028 voyage departs Miami on January 18 and arrives in New York after 180 days. The 2029 voyage departs Los Angeles on January 6 and also concludes in New York after 180 days. The line has also announced two 2028 Grand Voyages: a 78-day Nordic and Baltic journey from New York to Boston and a 71-day South America journey from Miami to Los Angeles. This guide explains the differences between these extended journeys, itineraries, ships, booking options, inclusions, costs and practical planning details."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania World Cruises and Grand Voyages at a Glance",
+    "subtitle": "Voyage duration, itinerary, ship, booking options and included amenities vary. Confirm terms for your exact departure before booking.",
+    "headers": [
+      "Feature",
+      "World Cruises",
+      "Grand Voyages"
+    ],
+    "rows": [
+      [
+        "Main purpose",
+        "Explore multiple continents in one extended journey",
+        "Explore a region or several connected regions in depth"
+      ],
+      [
+        "Typical duration",
+        "Can extend to approximately six months",
+        "Often several weeks to more than two months"
+      ],
+      [
+        "Example duration",
+        "180 days (Around the World 2028 & 2029)",
+        "71 and 78 days for announced 2028 voyages"
+      ],
+      [
+        "Destination coverage",
+        "Multiple continents, dozens of countries and 80+ ports",
+        "Regional or multi-region comprehensive itineraries"
+      ],
+      [
+        "Booking approach",
+        "Full 180-day voyage, with segment options subject to availability",
+        "Full voyage or available regional segments"
+      ],
+      [
+        "Best for",
+        "Travelers with substantial time who want a global journey",
+        "Travelers seeking an extended experience without a full 6-month commitment"
+      ],
+      [
+        "Planning needs",
+        "Extensive preparation for travel, visas, medical and home affairs",
+        "Longer-term planning, but usually fewer logistical demands"
+      ]
+    ]
+  },
+  "worldCruise2028Highlights": {
+    "title": "Oceania's 2028 World Cruise: Around the World in 180 Days",
+    "subtitle": "Sailing aboard Oceania Aurelia, departing Miami on January 18, 2028, and arriving in New York after visiting 6 continents, 35 countries, 88 ports and 10 overnight stays.",
+    "badgeSuffix": "180-DAY GLOBAL VOYAGE",
+    "footerLeft": "Miami to New York (Jan 18, 2028)",
+    "footerRight": "Aboard Oceania Aurelia",
+    "items": [
+      {
+        "title": "Mexico and Central America",
+        "icon": "Compass",
+        "description": "The voyage begins in Miami and proceeds toward the Pacific through the Panama Canal region, introducing travelers to vibrant Mexican and Central American coastal cultures before venturing across the Pacific.",
+        "bulletPoints": [
+          "Daylight transit of the historic Panama Canal engineering wonder",
+          "Exploration of Mexican coastal towns and Central American rainforest ports",
+          "Rich colonial history and tropical wildlife before open-ocean cruising"
+        ],
+        "image": ""
+      },
+      {
+        "title": "Hawaii and the South Pacific",
+        "icon": "Heart",
+        "description": "The Pacific crossing includes Hawaiian island ports alongside French Polynesia and the wider South Pacific, featuring legendary lagoons, volcanic peaks, and Polynesian traditions.",
+        "bulletPoints": [
+          "Calls in Oahu, Maui, and the Big Island of Hawaii",
+          "Bora Bora, Tahiti, and Moorea with crystal turquoise lagoons",
+          "Authentic island welcomes, traditional music, and coral reef exploration"
+        ],
+        "image": ""
+      },
+      {
+        "title": "Australia and New Zealand",
+        "icon": "Ship",
+        "description": "Cross the International Date Line to discover the dramatic contrast between iconic cosmopolitan hubs like Sydney and Auckland and the raw natural beauty of New Zealand's fjords and Australia's coast.",
+        "bulletPoints": [
+          "Sydney Harbour scenic arrival and overnight city exploration",
+          "New Zealand's geothermal wonders in Rotorua and Milford Sound scenic cruising",
+          "Great Barrier Reef gateway ports and unique Australian wildlife encounters"
+        ],
+        "image": ""
+      },
+      {
+        "title": "Southeast Asia and East Asia",
+        "icon": "UtensilsCrossed",
+        "description": "Immerse in Asia's dynamic blend of ancient heritage and futuristic architecture, savoring regional street food traditions, Buddhist temples, and bustling cosmopolitan centers.",
+        "bulletPoints": [
+          "Singapore, Bangkok (Laem Chabang), and Ho Chi Minh City",
+          "Calls across Japan, Taiwan, and coastal East Asian hubs",
+          "Chef-led market excursions and UNESCO World Heritage temple visits"
+        ],
+        "image": ""
+      },
+      {
+        "title": "India, Maldives & Arabian Peninsula",
+        "icon": "Star",
+        "description": "Navigate the Indian Ocean, calling at tropical atolls in the Maldives, historic trading ports in India, and the glittering architectural marvels of the Arabian Peninsula.",
+        "bulletPoints": [
+          "Overnight in Dubai with futuristic skylines and desert safari options",
+          "Idyllic coral reefs and turquoise waters of Malé in the Maldives",
+          "Cultural immersion in Cochin and Mumbai with spice market tours"
+        ],
+        "image": ""
+      },
+      {
+        "title": "The Mediterranean and Europe",
+        "icon": "Sparkles",
+        "description": "The final European chapter visits classic Mediterranean ports in Greece, Croatia, Italy, Spain, and France, continuing through the British Isles before the transatlantic crossing to New York.",
+        "bulletPoints": [
+          "Venice, Rome (Civitavecchia), Barcelona, and French Riviera ports",
+          "Overnights in key cultural capitals allowing evening dining ashore",
+          "Transatlantic crossing arriving triumphantly in New York Harbor"
+        ],
+        "image": ""
+      }
+    ]
+  },
+  "otherLongerVoyages": {
+    "title": "Other Oceania Longer Voyages to Consider",
+    "subtitle": "Not every extended cruise requires 180 days. Oceania offers substantial multi-week journeys connecting several regions.",
+    "items": [
+      {
+        "title": "Epic Reefs to Icy Glaciers (68 Days)",
+        "subtitle": "Sydney to Vancouver • Oceania Riviera",
+        "description": "Departs March 7, 2027. Connects Australia's Great Barrier Reef, Southeast Asia, Japan, and Alaska's rugged coast, including scenic cruising past Hubbard Glacier.",
+        "image": ""
+      },
+      {
+        "title": "Asia to Alaska Majesty (39 Days)",
+        "subtitle": "Singapore to Vancouver • Oceania Riviera",
+        "description": "Departs April 5, 2027. Connects Southeast Asia and East Asia with Alaska, perfect for travelers seeking a substantial transpacific journey without months away.",
+        "image": ""
+      },
+      {
+        "title": "Springing Into Summer (66 Days)",
+        "subtitle": "Trieste to London • Oceania Marina",
+        "description": "Departs April 17, 2027. Combines the Adriatic, Mediterranean and Northern Europe, visiting Slovenia, Croatia, Greece, Italy, Spain, France and the British Isles.",
+        "image": ""
+      },
+      {
+        "title": "South Pacific Grand Voyage (59 Days)",
+        "subtitle": "Miami to Sydney • Oceania Vista",
+        "description": "Departs October 2027. Explores the Panama Canal, Hawaii, French Polynesia, Fiji, and Australia, delivering an extraordinary island-focused extended escape.",
+        "image": ""
+      }
+    ]
+  },
+  "shipAureliaOverview": {
+    "title": "Oceania Aurelia: Designed for Global Exploration",
+    "subtitle": "Debuting in late 2027, Oceania Aurelia is purposefully crafted for extended world cruising with intimate capacity and residential luxury.",
+    "items": [
+      {
+        "category": "INTIMATE CAPACITY & ACCESS",
+        "title": "Under 250 Luxury Suites & Staterooms",
+        "lead": "Smaller-Ship Intimacy with Mega-Yacht Harbor Access",
+        "description": "Oceania Aurelia carries fewer than 500 guests, creating an uncrowded country-club atmosphere where crew members know your personal preferences by name. Its yacht-like dimensions allow it to dock at city-center piers and secluded harbors unreachable by large commercial liners.",
+        "features": [
+          "Fewer than 250 staterooms ensuring tranquil public lounges",
+          "Direct docking at historic city wharves without lengthy bus transfers",
+          "Uncrowded pool decks, quiet observation libraries, and sun lounges",
+          "Personalized service with an exceptional staff-to-guest ratio"
+        ],
+        "image": ""
+      },
+      {
+        "category": "CULINARY EXCELLENCE OVER MONTHS",
+        "title": "Extensive Dining Variety with Zero Surcharges",
+        "lead": "Rotating Menus and Specialty Venues for Long-Term Variety",
+        "description": "On a voyage lasting six months, menu variety is critical. Aurelia features multiple open-seating specialty restaurants, destination-inspired dishes that evolve with every port, and hands-on cooking classes in The Culinary Center.",
+        "features": [
+          "Multiple open-seating specialty dining venues included in the fare",
+          "Rotating destination menus incorporating fresh local ingredients",
+          "Hands-on Culinary Center with individual chef cooking stations",
+          "Casual Terrace Café and poolside Waves Grill for relaxed dining"
+        ],
+        "image": ""
+      },
+      {
+        "category": "SUITES & EXTENDED LIVING SPACES",
+        "title": "Generous Storage & Residential Comfort",
+        "lead": "Your Private Oceanfront Home Away from Home",
+        "description": "Staterooms and suites on Aurelia are engineered specifically for multi-month travel, featuring walk-in closets, abundant drawer storage, Tranquility Beds with Egyptian cotton linens, marble bathrooms with rainfall showers, and private teak verandas.",
+        "features": [
+          "Expanded wardrobe and luggage storage designed for 180 days",
+          "Private teak balconies for scenic ocean and harbor viewing",
+          "Dedicated European-trained butler service in all suite tiers",
+          "Complimentary in-suite bar setup with premium spirits and wine"
+        ],
+        "image": ""
+      }
+    ]
+  },
+  "worldVsGrandPhilosophy": {
+    "title": "World Cruise vs. Grand Voyage: Two Distinct Travel Styles",
+    "subtitle": "Understanding the fundamental differences between a continuous global circumnavigation and an in-depth regional journey.",
+    "regent": {
+      "badge": "180-Day Around the World",
+      "title": "Comprehensive Global Circumnavigation",
+      "description": "A transformative, once-in-a-lifetime journey designed for travelers who want to visit dozens of countries across six continents in one continuous, seamless odyssey aboard the same intimate ship.",
+      "features": [
+        "Full 180-day continuous itinerary spanning 30+ countries and 80+ ports",
+        "Includes Exclusive Prestige Package with First Class Air and pre-cruise hotel",
+        "Unpack once for six months of travel across diverse global cultures",
+        "Exclusive shoreside gala events and private cultural receptions",
+        "Best suited for retirees, sabbatical travelers, and true global explorers"
+      ]
+    },
+    "viking": {
+      "badge": "70 to 80-Day Grand Voyages",
+      "title": "In-Depth Regional Exploration",
+      "description": "An extended voyage designed for travelers who want to immerse themselves deeply in one specific region—such as Northern Europe or South America—without committing to a six-month circumnavigation.",
+      "features": [
+        "71 to 78-day concentrated regional journeys with less logistical demand",
+        "Deep exploration of specific coastlines like Scandinavia, Baltics, or South America",
+        "Fewer visa and medical coordination requirements than a global voyage",
+        "Combine extended travel with other annual personal and family commitments",
+        "Option to book individual cruise segments based on preferred ports"
+      ]
+    }
+  },
+  "worldCruiseCompareTable": {
+    "title": "2028 vs. 2029 Oceania World Cruise Comparison",
+    "subtitle": "Compare the published route highlights, departure cities, and regional focuses of Oceania's two 180-day voyages aboard Oceania Aurelia.",
+    "headers": [
+      "Comparison Feature",
+      "2028 Around the World",
+      "2029 Around the World"
+    ],
+    "rows": [
+      [
+        "Departure date",
+        "January 18, 2028",
+        "January 6, 2029"
+      ],
+      [
+        "Departure city",
+        "Miami, Florida",
+        "Los Angeles, California"
+      ],
+      [
+        "Arrival city",
+        "New York, New York",
+        "New York, New York"
+      ],
+      [
+        "Total voyage duration",
+        "180 days (6 months)",
+        "180 days (6 months)"
+      ],
+      [
+        "Featured ship",
+        "Oceania Aurelia (debut late 2027)",
+        "Oceania Aurelia"
+      ],
+      [
+        "Route emphasis",
+        "Panama Canal, Hawaii, South Pacific, Australia, Southeast Asia, India, Arabian Peninsula, Mediterranean & Europe",
+        "South America, South Pacific islands, New Zealand, Australia, Asia, Middle East & Europe"
+      ],
+      [
+        "Key overnights",
+        "10 overnight stays in marquee capitals",
+        "Multiple overnights in key Asian and South American ports"
+      ],
+      [
+        "Best suited for",
+        "Travelers interested in Hawaii, Polynesia, India and the Mediterranean",
+        "Travelers interested in South America, New Zealand, and West Coast embarkation"
+      ]
+    ]
+  },
+  "whichToChooseMatch": {
+    "title": "World Cruise vs. Grand Voyage: Which Should You Choose?",
+    "subtitle": "Match your available time, travel priorities, and lifestyle commitments to the right extended voyage.",
+    "bestForTitle": "Choose a 180-Day World Cruise If:",
+    "bestFor": [
+      {
+        "title": "You Have Approximately Six Months Available",
+        "description": "You can step away from home responsibilities, careers, or local commitments for half a year to embark on a true global circumnavigation."
+      },
+      {
+        "title": "You Want to Explore Multiple Continents in One Journey",
+        "description": "You value visiting 30+ countries across the Americas, the South Pacific, Asia, the Middle East, and Europe without booking dozens of separate flights."
+      },
+      {
+        "title": "You Value Maximum Onboard Continuity & Community",
+        "description": "You appreciate building lifelong friendships with fellow world travelers and enjoying the comfort of the exact same suite and crew for 180 days."
+      },
+      {
+        "title": "You Want Exclusive World Cruise Prestige Amenities",
+        "description": "You want the benefits of included First Class Air, pre-cruise luxury hotel stays, shoreside gala events, and comprehensive luggage delivery."
+      }
+    ],
+    "notForTitle": "Choose a 70 to 80-Day Grand Voyage If:",
+    "notFor": [
+      {
+        "title": "You Prefer Travel Lasting Several Weeks Rather Than Half a Year",
+        "description": "A 71- or 78-day voyage offers an extraordinary extended vacation that easily integrates with family holidays and work schedules."
+      },
+      {
+        "title": "You Want In-Depth Focus on One Specific Region",
+        "description": "You want to concentrate deeply on Greenland, Iceland, and the Baltic, or circumnavigate South America's diverse cultural coastlines."
+      },
+      {
+        "title": "You Want Simpler Pre-Trip Preparation & Logistics",
+        "description": "Fewer countries mean simpler visa requirements, easier medication supplies, and less complex home property management while away."
+      },
+      {
+        "title": "You Are Looking for a Lower Upfront Financial Commitment",
+        "description": "A Grand Voyage provides the luxury of extended small-ship cruising at a fraction of the total investment of a six-month world circumnavigation."
+      }
+    ]
+  },
+  "grandVoyages2028Showcase": {
+    "title": "Oceania's 2028 Grand Voyages Aboard Oceania Aurelia",
+    "brandA": {
+      "name": "Grand Nordic & Baltic Discovery (78 Days)",
+      "image": "",
+      "features": [
+        "Departs New York on July 18, 2028, and concludes in Boston after 78 unforgettable days",
+        "Route: Greenland, Iceland, Faroe Islands, British Isles, Norway, Scandinavia, Baltics, and Western Europe",
+        "Witness Prince Christian Sound, Icelandic waterfalls, medieval Tallinn, and Stockholm's archipelago",
+        "Perfect for travelers seeking dramatic North Atlantic landscapes combined with iconic European capitals"
+      ]
+    },
+    "brandB": {
+      "name": "Grand South America Adventure (71 Days)",
+      "image": "",
+      "features": [
+        "Departs Miami on October 27, 2028, and concludes in Los Angeles after 71 days",
+        "Route: Caribbean islands, Brazil, Uruguay, Argentina, Chilean Fjords, Peru, and Pacific coast",
+        "Highlights include Rio de Janeiro, Buenos Aires, scenic Chilean fjord cruising, and Machu Picchu gateways",
+        "Holiday-season sailing connecting Atlantic and Pacific cultures with warm-weather exploration"
+      ]
+    }
+  },
+  "preparationPillars": {
+    "title": "Preparing for a Long Oceania Cruise",
+    "description": "A voyage lasting several weeks or months requires thoughtful advance organization across travel, health, home, and personal affairs.",
+    "items": [
+      {
+        "title": "Passports, Visas & Entry Regulations",
+        "description": "Ensure your passport has at least six months' validity beyond the cruise conclusion and ample blank visa pages. Review visa requirements for all 30+ destinations well in advance, even if utilizing an included visa support package.",
+        "image": ""
+      },
+      {
+        "title": "Medical Planning & Prescriptions",
+        "description": "Consult your physician 6 months before sailing to arrange a full 180-day supply of maintenance medications. Secure copies of medical records, verify travel medical insurance with emergency evacuation, and obtain destination vaccines.",
+        "image": ""
+      },
+      {
+        "title": "Home, Property & Financial Management",
+        "description": "Arrange automated bill payments, home maintenance, mail forwarding, and security checks. Notify your bank and credit card issuers of your multi-country itinerary to ensure uninterrupted global card access.",
+        "image": ""
+      },
+      {
+        "title": "Multi-Climate Wardrobe Planning",
+        "description": "A World Cruise crosses diverse climates from tropical South Pacific warmth to brisk North Atlantic sea breezes. Take advantage of included laundry services and pack versatile layers that mix and match easily.",
+        "image": ""
+      }
+    ]
+  },
+  "wardrobePacking": {
+    "title": "What to Pack for a Multi-Month Cruise",
+    "subtitle": "Planning attire for six months across multiple hemispheres and climate zones.",
+    "categories": [
+      {
+        "id": "clothing",
+        "title": "Multi-Climate Clothing Essentials",
+        "description": "Pack versatile, breathable garments that can be layered for tropical heat and chilly ocean breezes.",
+        "items": [
+          "Lightweight linen and cotton daytime resort wear for tropical ports",
+          "Breathable moisture-wicking shirts and comfortable walking shorts/pants",
+          "Warm mid-layers, cashmere sweaters, and a fleece jacket for cooler latitudes",
+          "High-performance waterproof, windproof jacket with a protective hood",
+          "Elegant casual evening attire: collared shirts, trousers, sundresses, and blazers",
+          "Modest clothing covering shoulders and knees for temple and cathedral visits"
+        ]
+      },
+      {
+        "id": "footwear",
+        "title": "Footwear & Essential Accessories",
+        "description": "Supportive walking shoes and accessories ensure comfort during long shore excursions.",
+        "items": [
+          "Two pairs of thoroughly broken-in walking shoes with non-slip traction",
+          "Sturdy water-resistant walking shoes or lightweight hiking boots",
+          "Smart casual leather loafers, boat shoes, or evening flats for dinner",
+          "Polarized UV-blocking sunglasses, wide-brim sun hat, and compact umbrella",
+          "Compact high-definition binoculars for wildlife viewing and scenic cruising",
+          "Universal travel adapters, multi-plug surge-free extension, and e-readers"
+        ]
+      },
+      {
+        "id": "logistics",
+        "title": "Laundry & Luggage Strategy",
+        "description": "Leverage Oceania's inclusive laundry perks to travel with manageable luggage.",
+        "items": [
+          "Take advantage of Oceania's unlimited laundry services included in World Cruise packages",
+          "Self-service complimentary launderettes available on stateroom decks with free detergent",
+          "Pack for approximately 14 days of rotation rather than 180 individual outfits",
+          "Utilize Oceania's included door-to-door luggage delivery services for hassle-free transit",
+          "Keep essential medications, fine jewelry, and travel documents in your personal carry-on"
+        ]
+      }
+    ]
+  },
+  "stateroomSelection": {
+    "title": "How to Choose the Right Stateroom for a Long Voyage",
+    "subtitle": "Your stateroom becomes your home for up to six months. Space, natural light, and storage are paramount.",
+    "items": [
+      {
+        "name": "Veranda & Concierge Veranda",
+        "title": "Veranda & Concierge Veranda",
+        "subtitle": "Private Teak Balcony & Fresh Ocean Air",
+        "price": "From $54,999 per guest",
+        "description": "A private outdoor veranda is invaluable over 180 days, providing private front-row views of tropical sunrises, fjord waterfalls, and city arrivals with a morning coffee. Concierge Level verandas include dedicated lounge access, priority dining reservations, and expanded laundry perks.",
+        "features": [
+          "Private teak balcony with plush padded lounge chairs",
+          "Natural daylight and direct fresh ocean air every morning",
+          "Expanded wardrobe and under-bed storage for multi-month luggage",
+          "Tranquility Bed with 1,000-thread-count Egyptian cotton linens"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Penthouse Suites",
+        "title": "Penthouse Suites",
+        "subtitle": "Expanded Living Room & 24-Hour Butler Service",
+        "price": "From $89,999 per guest",
+        "description": "At over 420 square feet, Penthouse Suites provide distinct living and sleeping spaces, walk-in closets, marble bathrooms with soaking tubs, and 24-hour European-trained butler service to unpack luggage, coordinate dry cleaning, and serve in-suite dinners course-by-course.",
+        "features": [
+          "24-hour dedicated butler service throughout all 180 days",
+          "Spacious walk-in closet with ample drawer and hanging storage",
+          "In-suite dining served course-by-course from specialty restaurants",
+          "Priority shore excursion reservations and tender embarkation"
+        ],
+        "image": ""
+      },
+      {
+        "name": "Oceania & Owner's Suites",
+        "title": "Oceania & Owner's Suites",
+        "subtitle": "Palatial Residential Luxury Up to 2,000+ Sq Ft",
+        "price": "From $149,999 per guest",
+        "description": "The pinnacle of luxury world cruising. These expansive residential sanctuaries feature separate master bedrooms, guest powder rooms, private whirlpool tubs, wrap-around teak verandas overlooking the ship's bow or wake, and customized in-suite bar setups.",
+        "features": [
+          "Over 1,000 to 2,000+ square feet of opulent residential space",
+          "Expansive wraparound teak verandas with private outdoor whirlpools",
+          "Complimentary customized full-bar setup with premium spirits and champagne",
+          "Exclusive private shoreside car transfers and VIP event access"
+        ],
+        "image": ""
+      }
+    ]
+  },
+  "dailyLife": {
+    "title": "Daily Life Aboard an Oceania World Cruise",
+    "subtitle": "Life at sea on an extended voyage establishes a relaxing, enriching, and deeply satisfying rhythm.",
+    "items": [
+      {
+        "title": "Culinary Variety & Epicurean Discovery",
+        "description": "With multiple open-seating specialty restaurants, daily rotating menus inspired by the destinations visited, and hands-on cooking classes at The Culinary Center, every meal is an adventure without ever repeating unless you wish."
+      },
+      {
+        "title": "Enrichment Lectures & Guest Speakers",
+        "description": "World-renowned historians, former diplomats, naturalists, and culinary masters deliver captivating presentations on upcoming ports, geopolitical context, regional art, and maritime history during relaxing sea days."
+      },
+      {
+        "title": "An Intimate, Enduring Global Community",
+        "description": "Spending six months with like-minded travelers creates lasting friendships. Guests bond over afternoon trivia, wine tastings, bridge tournaments, and shared dinners while sharing stories of global exploration."
+      },
+      {
+        "title": "Wellness, Fitness & Rejuvenation",
+        "description": "Maintain your health and vitality at the Aquamar Spa + Vitality Center. Enjoy ocean-view yoga, personal training, fitness classes, restorative thermal suite relaxation, and therapeutic body treatments."
+      },
+      {
+        "title": "Unrushed Sea Days & Quiet Sanctuaries",
+        "description": "Unlike frantic port-intensive weeklong cruises, a World Cruise features balanced sea days. Spend unhurried afternoons reading in the English-style library, relaxing on the sun deck, or watching waves from the observation lounge."
+      }
+    ]
+  },
+  "whatIsIncluded": {
+    "title": "What Is Included on an Oceania World Cruise?",
+    "subtitle": "Oceania provides the generous Your World Included package plus the Exclusive Prestige Package on full World Cruises.",
+    "includedTitle": "Included with Full World Cruise Bookings",
+    "extrasTitle": "Optional Services That May Cost Extra",
+    "included": [
+      {
+        "title": "First Class Air & Airport Transfers",
+        "description": "Included First Class roundtrip airfare from select North American gateways plus coordinated private transfers between airport, hotel, and ship."
+      },
+      {
+        "title": "Pre-Cruise Luxury Hotel Stay & Luggage Delivery",
+        "description": "One-night pre-cruise luxury hotel stay in the embarkation city plus door-to-door luggage delivery service from your home to your stateroom."
+      },
+      {
+        "title": "All Specialty Dining with Zero Surcharges",
+        "description": "Open-seating dining in all specialty restaurants, including steakhouse, Italian, Asian, and French venues, with zero cover charges throughout the 180 days."
+      },
+      {
+        "title": "Shipboard Gratuities & Unlimited Laundry",
+        "description": "Prepaid standard shipboard gratuities for stateroom attendants, waitstaff, and butlers, plus unlimited complimentary laundry services."
+      },
+      {
+        "title": "Wine/Beer Package OR up to $9,000 Excursion Credit",
+        "description": "Choice between unlimited wine and beer during lunch and dinner or a generous shore excursion credit of up to $9,000 per stateroom."
+      },
+      {
+        "title": "Onboard Medical Consultations & Visa Package",
+        "description": "Onboard medical consultations with the ship's physician included under package terms, plus comprehensive visa handling support for included destinations."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Premium Spirits Outside Package Terms",
+        "description": "Ultra-premium spirits, rare vintage wines, and cocktails outside included beverage package terms require individual purchase."
+      },
+      {
+        "title": "Excursions Beyond Amenity Credit",
+        "description": "Shore excursions exceeding your booking's $9,000 credit or specialized private overland overland excursions require separate payment."
+      },
+      {
+        "title": "Aquamar Spa & Salon Treatments",
+        "description": "A la carte body massages, acupuncture, facial treatments, and salon styling services carry standard spa fees."
+      },
+      {
+        "title": "Comprehensive Travel & Medical Evacuation Insurance",
+        "description": "Trip cancellation, emergency interruption, and medical evacuation insurance are strongly advised and purchased separately."
+      },
+      {
+        "title": "Personal Shopping & Retail Boutiques",
+        "description": "Boutique shopping, fine jewelry, artisan souvenirs, and personal incidental expenses incurred ashore or onboard."
+      }
+    ]
+  },
+  "segmentsGuide": {
+    "title": "Can You Book Only Part of an Oceania World Cruise?",
+    "subtitle": "Shorter voyage segments allow travelers to experience the magic of a World Cruise without committing to 180 days.",
+    "items": [
+      {
+        "title": "Regional Segment Availability",
+        "subtitle": "Tailored 20 to 60-Day Itineraries",
+        "description": "Oceania typically opens select segments of its 180-day World Cruises for individual booking, allowing travelers to join or disembark at approved major international turnaround ports like Sydney, Singapore, Dubai, or Barcelona.",
+        "icon": "Compass",
+        "highlights": [
+          "Join for single-continent chapters like the South Pacific, Asia, or Mediterranean",
+          "Experience the festive world cruise atmosphere with less time away from home",
+          "Subject to inventory availability after full-world cruise reservations open"
+        ]
+      },
+      {
+        "title": "Approved Turnaround Ports",
+        "subtitle": "Embark & Disembark with Ease",
+        "description": "Segments begin and end in major hub cities with excellent international flight connections, simplifying arrival and departure logistics without complex regional transfers.",
+        "icon": "Ship",
+        "highlights": [
+          "Popular turnaround hubs: Miami, Los Angeles, Sydney, Singapore, Dubai, Rome",
+          "Seamless port infrastructure with international customs and immigration",
+          "Options to add pre- or post-segment land extensions in marquee cities"
+        ]
+      },
+      {
+        "title": "Package & Amenity Considerations",
+        "subtitle": "Verifying Segment Benefit Inclusions",
+        "description": "Full World Cruise Exclusive Prestige benefits (such as First Class Air and $9,000 excursion credits) may not apply to shorter segments. Always review the exact fare inclusions attached to your specific segment quote.",
+        "icon": "Star",
+        "highlights": [
+          "Standard Your World Included amenities (dining, gratuities, Wi-Fi) always apply",
+          "Airfare and pre-cruise hotel benefits vary based on segment length and fare tier",
+          "Compare the per-day value of a segment against booking multiple independent cruises"
+        ]
+      }
+    ]
+  },
+  "valueComparison": {
+    "title": "Is a World Cruise Better Value Than Multiple Shorter Cruises?",
+    "subtitle": "Evaluating the total financial and logistical value of one continuous global voyage vs. separate vacations.",
+    "includedTitle": "Advantages of a Single World Cruise",
+    "extrasTitle": "Considerations of Multiple Separate Cruises",
+    "included": [
+      {
+        "title": "Zero Repeated Long-Haul Flights",
+        "description": "Eliminates dozens of round-trip international flights, jet lag cycles, airport security queues, and baggage transfers across a multi-year period."
+      },
+      {
+        "title": "Unpack Once for Six Months",
+        "description": "Your suite is your continuous sanctuary. Avoid packing and unpacking across dozens of hotel rooms, train stations, and regional cruise lines."
+      },
+      {
+        "title": "Bundled Luxury Prestige Amenities",
+        "description": "Full world cruise bookings bundle First Class Air, pre-cruise hotels, luggage delivery, shoreside galas, and up to $9,000 in excursion credits."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Substantial Upfront Capital Commitment",
+        "description": "A 180-day world cruise requires a significant financial investment paid in advance, requiring careful budgeting and deposit planning."
+      },
+      {
+        "title": "Requires Six Months Away from Home",
+        "description": "Requires managing property, family obligations, and healthcare from afar for half a year, which may not suit travelers with ongoing local commitments."
+      },
+      {
+        "title": "Less Seasonal Timing Flexibility",
+        "description": "The ship's itinerary dictates your travel dates, whereas booking individual cruises allows you to select specific seasonal months for each destination."
+      }
+    ]
+  },
+  "prosAndCons": {
+    "title": "Pros and Cons of Oceania World Cruises & Grand Voyages",
+    "subtitle": "An honest assessment of the extraordinary benefits and practical travel realities of extended global cruising.",
+    "sailing": {
+      "label": "Core Advantages",
+      "philosophy": "Why Choose an Oceania Extended Voyage",
+      "points": [
+        "ADVANTAGE: Circumnavigate the globe across 6 continents and 30+ countries in one continuous journey",
+        "ADVANTAGE: Intimate ship capacity (<250 suites on Aurelia) delivers personalized service without crowds",
+        "ADVANTAGE: Unrivaled culinary excellence with all specialty dining venues included with zero surcharges",
+        "ADVANTAGE: Exclusive Prestige Package bundles First Class Air, hotel, luggage delivery, and laundry",
+        "ADVANTAGE: Multiple overnight port stays (10+ overnights) allow deep cultural immersion and evening dining",
+        "ADVANTAGE: Unpack once for up to 180 days, eliminating repeated airport transfers and hotel check-ins"
+      ]
+    },
+    "allSuite": {
+      "label": "Practical Considerations",
+      "philosophy": "Key Factors to Evaluate Before Reserving",
+      "points": [
+        "CONSIDERATION: A 180-day World Cruise requires an extensive six-month time commitment away from home",
+        "CONSIDERATION: Substantial financial investment requiring early deposits and comprehensive travel insurance",
+        "CONSIDERATION: Complex visa coordination and multi-month medical prescription supplies required before departure",
+        "CONSIDERATION: Long periods at sea between continents may not suit travelers who prefer constant land touring",
+        "CONSIDERATION: New ship Oceania Aurelia debuts late 2027; verify final deck plans and stateroom specifications",
+        "CONSIDERATION: Segment availability is limited and subject to remaining inventory after full-world bookings open"
+      ]
+    }
+  },
+  "bookingSteps": {
+    "title": "How to Book an Oceania World Cruise or Grand Voyage",
+    "subtitle": "Follow this ten-step planning roadmap to secure your suite, coordinate logistics, and prepare for extended travel.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Decide on Voyage Length & Time Away",
+        "description": "Determine whether you can commit to a full 180-day Around the World voyage, a 70-80 day Grand Voyage, or a focused regional segment."
+      },
+      {
+        "number": "02",
+        "title": "Compare 2028 vs. 2029 World Cruise Routes",
+        "description": "Compare the 2028 Miami-to-New York route (Hawaii, Polynesia, India, Mediterranean) with the 2029 Los Angeles route (South America, NZ, Australia)."
+      },
+      {
+        "number": "03",
+        "title": "Select Your Ideal Stateroom or Suite",
+        "description": "For several months at sea, prioritize space, natural light, and storage. Evaluate Veranda vs. Penthouse Suites with dedicated butler service."
+      },
+      {
+        "number": "04",
+        "title": "Review the Exclusive Prestige Package Terms",
+        "description": "Confirm all included amenities in writing: First Class Air, pre-cruise hotel, luggage delivery, laundry, and your choice of drinks or excursion credits."
+      },
+      {
+        "number": "05",
+        "title": "Check Segment Availability if Needed",
+        "description": "If taking a partial voyage, work with your advisor to identify approved embarkation and disembarkation turnaround ports."
+      },
+      {
+        "number": "06",
+        "title": "Understand Deposit & Cancellation Policies",
+        "description": "Review Oceania's deposit requirements, milestone payment schedules, and cancellation penalty dates for extended sailings."
+      },
+      {
+        "number": "07",
+        "title": "Secure Comprehensive Travel & Medical Insurance",
+        "description": "Obtain robust travel insurance covering trip cancellation, interruption, primary medical care abroad, and emergency medical evacuation."
+      },
+      {
+        "number": "08",
+        "title": "Coordinate Visas & Passport Requirements",
+        "description": "Ensure your passport has at least six months' validity past completion. Utilize the included visa service to process multi-country entry permits."
+      },
+      {
+        "number": "09",
+        "title": "Arrange 180-Day Prescription Supplies & Medical Checks",
+        "description": "Consult your physician to organize 6-month supplies of maintenance medications and schedule required routine health and dental checkups."
+      },
+      {
+        "number": "10",
+        "title": "Automate Home, Financial & Property Affairs",
+        "description": "Set up automated bill payments, arrange trusted property caretakers, schedule mail forwarding, and notify financial institutions."
+      }
+    ]
+  },
+  "isItWorthIt": {
+    "title": "Are Oceania World Cruises and Grand Voyages Worth It?",
+    "items": [
+      {
+        "label": "The Ultimate Journey",
+        "value": "Transformative Life Experience",
+        "description": "Circumnavigating the globe or spending months sailing an entire continent represents one of travel's greatest milestones, offering personal growth, profound cultural connections, and lifelong memories."
+      },
+      {
+        "label": "Outstanding Inclusive Value",
+        "value": "Comprehensive Prestige Package",
+        "description": "When bundling First Class Air, luxury pre-cruise hotels, specialty dining with zero fees, prepaid gratuities, unlimited laundry, and up to $9,000 in excursions, Oceania delivers exceptional long-voyage value."
+      },
+      {
+        "label": "Unpack Once Simplicity",
+        "value": "Effortless Global Travel",
+        "description": "Experience 30+ countries without the stress of repeated airport terminals, luggage transfers, train schedules, and hotel check-ins. Your luxury stateroom travels with you everywhere."
+      },
+      {
+        "label": "Small-Ship Intimacy",
+        "value": "Oceania Aurelia Yacht Luxury",
+        "description": "With fewer than 250 suites, Oceania Aurelia combines mega-yacht intimacy and harbor accessibility with the expansive amenities and culinary depth of a world-class luxury vessel."
+      }
+    ]
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "LUXURY CRUISE SPECIALIST & ELITE TRAVEL ADVISOR",
+      "authorityBoxTitle": "Expert World Cruise & Grand Voyage Guidance",
+      "authoritySubtitle": "Personalized Itinerary Curation from Angela Hughes & Trips & Ships Luxury Travel",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Founder, Trips & Ships Luxury Travel",
+      "experienceBadge": "40+ Years Curating Extended Luxury Voyages",
+      "bio": "Angela Hughes is a celebrated luxury travel specialist with over three decades of experience orchestrating complex extended voyages, World Cruises, and Grand Journeys for discerning travelers worldwide. Angela guides clients through suite selection for multi-month voyages, visa and medical logistics, and maximizing package amenities across Oceania's fleet.",
+      "quote": "A 180-day World Cruise is not just a vacation—it is an extraordinary life chapter. Choosing between the 2028 and 2029 routes comes down to whether you dream of Polynesia, India, and the Mediterranean or South America and New Zealand. Booking early ensures you secure your preferred suite and full Prestige Package benefits.",
+      "quoteSubtitle": "On Choosing Your Ideal Extended Global Odyssey",
+      "credentials": [
+        "Condé Nast Traveler Top Travel Specialist",
+        "Travel + Leisure A-List Advisor",
+        "Virtuoso Luxury Travel Network Member",
+        "Decades of firsthand experience with Oceania's global fleet & luxury world voyages"
+      ],
+      "ctaText": "Plan Your World Voyage",
+      "ctaLink": "/contact"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania World Cruises and Grand Voyages",
+    "subtitle": "Essential answers regarding 2028 and 2029 itineraries, Oceania Aurelia, Prestige Package inclusions, and booking options.",
+    "questions": [
+      {
+        "question": "Does Oceania Cruises offer World Cruises?",
+        "answer": "Yes. Oceania has announced 180-day Around the World voyages for 2028 and 2029 aboard Oceania Aurelia."
+      },
+      {
+        "question": "How long is an Oceania World Cruise?",
+        "answer": "The announced 2028 and 2029 Around the World voyages are each 180 days long, or approximately six months."
+      },
+      {
+        "question": "Which ship will operate Oceania's 2028 World Cruise?",
+        "answer": "Oceania Aurelia is scheduled to operate the 2028 Around the World voyage. The ship is planned to debut in late 2027."
+      },
+      {
+        "question": "When does the 2028 Oceania World Cruise depart?",
+        "answer": "The announced 2028 voyage is scheduled to depart Miami on January 18, 2028, and arrive in New York after 180 days."
+      },
+      {
+        "question": "When does the 2029 Oceania World Cruise depart?",
+        "answer": "The announced 2029 voyage is scheduled to depart Los Angeles on January 6, 2029, and arrive in New York after 180 days."
+      },
+      {
+        "question": "What countries are included in the 2028 Oceania World Cruise?",
+        "answer": "The published route includes destinations across 35 countries and six continents. Regional highlights include the Americas, Hawaii, French Polynesia, Australia, Asia, India, the Arabian Peninsula and Europe."
+      },
+      {
+        "question": "How many ports are included in the 2028 World Cruise?",
+        "answer": "Oceania's published 2028 itinerary lists 88 ports and 10 overnight stays."
+      },
+      {
+        "question": "What is the difference between an Oceania World Cruise and a Grand Voyage?",
+        "answer": "A World Cruise is a long global journey that can connect several continents over approximately six months. A Grand Voyage is generally shorter and focuses on one region or a combination of connected regions."
+      },
+      {
+        "question": "How long are Oceania Grand Voyages?",
+        "answer": "The duration varies. The announced 2028 Grand Nordic & Baltic Discovery is 78 days, while the Grand South America Adventure is 71 days. Other extended voyages can be shorter or longer."
+      },
+      {
+        "question": "What is the 2028 Grand Nordic & Baltic Discovery?",
+        "answer": "It is a 78-day voyage aboard Oceania Aurelia, scheduled to depart New York on July 18, 2028, and arrive in Boston. The route includes Greenland, Iceland, the Faroe Islands, the British Isles, Norway, Scandinavia, the Baltics and Western Europe."
+      },
+      {
+        "question": "What is the 2028 Grand South America Adventure?",
+        "answer": "It is a 71-day voyage aboard Oceania Aurelia, scheduled to depart Miami on October 27, 2028, and arrive in Los Angeles. The route includes Caribbean destinations and a journey around South America."
+      },
+      {
+        "question": "Can I book only part of an Oceania World Cruise?",
+        "answer": "Some extended voyages may offer shorter segments, subject to availability and the applicable booking terms. Not every port is necessarily an approved embarkation or disembarkation point."
+      },
+      {
+        "question": "Are World Cruise segments more affordable than booking the entire voyage?",
+        "answer": "A segment may have a lower total fare because it covers fewer days, but the per-day value and included amenities can differ. Compare the actual segment fare and benefits with the full-voyage offer."
+      },
+      {
+        "question": "Does the 2028 Oceania World Cruise include airfare?",
+        "answer": "Oceania's published 2028 Exclusive Prestige Package lists First Class Air as a benefit. Eligibility, routing, conditions and other terms should be confirmed for the specific booking."
+      },
+      {
+        "question": "Does Oceania include laundry on its World Cruise?",
+        "answer": "The published 2028 World Cruise Prestige Package lists unlimited laundry services. Standard Your World Included laundry-related benefits and other voyage offers may have different conditions. Confirm the package attached to your reservation."
+      }
+    ]
+  },
+  "centerCta": {
+    "title": "Plan Your Oceania World Cruise with Trips & Ships",
+    "subtitle": "A World Cruise or Grand Voyage is a monumental milestone. Collaborate with Angela Hughes and the Trips & Ships luxury team to select your ideal route, stateroom, and Exclusive Prestige Package benefits.",
+    "primaryCtaText": "Speak with a World Cruise Specialist",
+    "primaryCtaLink": "/contact"
+  }
+}

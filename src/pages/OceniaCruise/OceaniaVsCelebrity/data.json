@@ -1,0 +1,912 @@
+{
+  "meta": {
+    "title": "Oceania Cruises vs. Celebrity: Which Cruise Is Better?",
+    "description": "Compare Oceania Cruises vs. Celebrity Cruises on pricing, dining, ships, staterooms, drinks, entertainment and inclusions. Find the cruise line that best fits your travel style.",
+    "keywords": "Oceania Cruises vs. Celebrity, Oceania vs. Celebrity Cruises, Oceania or Celebrity, Celebrity Cruises comparison, Oceania Cruises comparison, luxury cruise lines, Oceania vs. Celebrity pricing, Oceania vs. Celebrity dining",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/oceania-vs-celebrity"
+  },
+  "hero": {
+    "badge": "LUXURY CRUISE BENCHMARK & COMPARISON",
+    "title": "Oceania Cruises vs. Celebrity: Which Fits Your Travel Style?",
+    "subtitle": "An In-Depth Head-to-Head Comparison of Inclusions, Dining, Ships, Entertainment & Overall Value",
+    "description": "Oceania Cruises and Celebrity Cruises both appeal to travelers who appreciate good food, comfortable accommodations and memorable destinations. However, they offer noticeably different onboard experiences. Discover which cruise line best aligns with your vacation preferences.",
+    "primaryCtaText": "Compare Ship Itineraries",
+    "primaryCtaLink": "/oceania-cruises/ships",
+    "secondaryCtaText": "Speak with an Advisor",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "THE QUICK ANSWER",
+    "heading": "Intimate Culinary Luxury vs. Contemporary Premium Cruising",
+    "paragraphs": [
+      "Oceania Cruises and Celebrity Cruises both appeal to travelers who appreciate good food, comfortable accommodations and memorable destinations. However, they offer noticeably different onboard experiences.",
+      "Choose Oceania Cruises if you prefer smaller ships, an adults-only environment, included specialty restaurants, a more intimate atmosphere and itineraries designed around destination exploration. Oceania is especially appealing to travelers who consider dining an important part of their vacation.",
+      "Choose Celebrity Cruises if you want contemporary ship designs, more entertainment choices, a wider range of sailing lengths, family-friendly facilities and different accommodation experiences, including AquaClass and The Retreat. Celebrity can also offer more flexibility for travelers comparing entry-level fares with upgraded packages.",
+      "Neither line is automatically the better value. The right choice depends on your preferred ship, itinerary, stateroom, fare inclusions and the kind of experience you want."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania vs. Celebrity at a Glance",
+    "subtitle": "Policies, promotions, fare inclusions and onboard facilities can change. Always confirm the details for the specific sailing and reservation.",
+    "headers": [
+      "Category",
+      "Oceania Cruises",
+      "Celebrity Cruises"
+    ],
+    "rows": [
+      [
+        "Overall style",
+        "Upper-premium, culinary-focused cruising",
+        "Contemporary premium cruising"
+      ],
+      [
+        "Atmosphere",
+        "Intimate, relaxed and refined",
+        "Modern, stylish and lively"
+      ],
+      [
+        "Guest profile",
+        "Primarily adult travelers",
+        "Couples, families, groups and adults"
+      ],
+      [
+        "Ship sizes",
+        "Smaller ships with varying capacities",
+        "Generally larger ships with more facilities"
+      ],
+      [
+        "Dining",
+        "Specialty restaurants included",
+        "Main dining included; specialty dining generally costs extra"
+      ],
+      [
+        "Specialty dining",
+        "Included in the standard Your World Included program",
+        "Generally additional, with some fare and suite-specific exceptions"
+      ],
+      [
+        "Drinks",
+        "Nonalcoholic beverages included; wine and beer amenity available on qualifying bookings",
+        "Depends on fare; All Included may offer a Classic Drinks Package"
+      ],
+      [
+        "Wi-Fi",
+        "Included, subject to usage terms",
+        "Depends on fare and stateroom; Basic or Premium packages under applicable terms"
+      ],
+      [
+        "Shipboard gratuities",
+        "Included through Your World Included",
+        "Depends on fare and booking terms; verify the reservation"
+      ],
+      [
+        "Shore excursions",
+        "Credit available as a selected amenity on qualifying bookings",
+        "Generally purchased separately"
+      ],
+      [
+        "Family facilities",
+        "Adults-only policy for new bookings; no conventional children's club program",
+        "Camp at Sea, teen programming and family facilities"
+      ],
+      [
+        "Signature experience",
+        "Culinary discovery and destination-focused voyages",
+        "Edge Series ships, entertainment and The Retreat"
+      ],
+      [
+        "Best for",
+        "Food lovers and travelers who prefer smaller ships",
+        "Travelers seeking contemporary ships, activities and flexibility"
+      ]
+    ]
+  },
+  "biggestDifference": {
+    "title": "What Is the Biggest Difference Between Oceania and Celebrity?",
+    "regent": {
+      "badge": "Oceania Cruises",
+      "title": "Intimate, Food-Focused Luxury",
+      "description": "Oceania focuses on culinary experiences, smaller ships and a relaxed atmosphere. Its Your World Included program covers specialty dining, shipboard gratuities, Wi-Fi and several nonalcoholic beverages. Qualifying bookings also allow guests to select either complimentary wine and beer by the glass during restaurant lunch and dinner hours or a shore-excursion credit.",
+      "features": [
+        "Finest Cuisine at Sea with specialty dining included without cover charges",
+        "Standard shipboard gratuities and Starlink Wi-Fi included in standard fare",
+        "Intimate ship atmosphere focused on conversation and relaxation",
+        "Adults-only policy for new bookings; highly destination-rich itineraries"
+      ]
+    },
+    "viking": {
+      "badge": "Celebrity Cruises",
+      "title": "Contemporary Premium Versatility",
+      "description": "Celebrity offers a more contemporary premium cruise experience. Its ships feature a wider variety of entertainment, public spaces, pools, bars, specialty restaurants and accommodation categories. Depending on the fare, guests may also be able to include drinks and Wi-Fi through an All Included pricing option.",
+      "features": [
+        "Modern, stylish ships featuring Edge Series architectural innovations",
+        "Extensive Broadway-style productions, acrobatic shows, and lively nightlife",
+        "Camp at Sea youth programming and multi-generational family amenities",
+        "Distinctive accommodation concepts including AquaClass and The Retreat"
+      ]
+    }
+  },
+  "pricingAndInclusions": {
+    "title": "Pricing Comparison: Is Oceania or Celebrity More Expensive?",
+    "subtitle": "Cruise fares vary significantly according to ship, destination, sailing date, cabin category, promotions and booking conditions. The important question is which one offers better value for the experience you want.",
+    "items": [
+      {
+        "title": "Oceania Cruises Pricing & Inclusions",
+        "subtitle": "Your World Included Program",
+        "category": "High-Value Base Inclusions",
+        "points": [
+          "Dining in specialty restaurants included without cover charges",
+          "Standard shipboard gratuities covered in the fare",
+          "Complimentary Starlink Wi-Fi throughout the ship",
+          "Specialty coffees, teas, sodas, and still/sparkling Vero Water",
+          "Cold-pressed juices, smoothies, and gourmet ice cream",
+          "Complimentary laundry facilities and applicable laundry benefits",
+          "Qualifying bookings include amenity choice: Wine & beer at lunch and dinner OR Shore excursion credit"
+        ]
+      },
+      {
+        "title": "Celebrity Cruises Pricing & Inclusions",
+        "subtitle": "Cruise-Only vs. All Included & The Retreat",
+        "category": "Tiered Pricing Model",
+        "points": [
+          "Cruise-only fare covers stateroom, main dining rooms, Oceanview Café, standard entertainment, and public pools",
+          "All Included pricing option bundles Basic Wi-Fi, Classic Drinks Package, and package service gratuities",
+          "The Retreat suites include Premium Drinks Package, Premium Wi-Fi, exclusive Luminae restaurant, and Retreat lounge access",
+          "Specialty dining generally requires an additional cover charge or multi-night dining package",
+          "Onboard crew gratuities on cruise-only fares are charged separately ($18-$23/person/day)"
+        ]
+      },
+      {
+        "title": "What Is Included in Each Cruise Fare?",
+        "subtitle": "Key Inclusions Comparison",
+        "category": "Bottom-Line Checklist",
+        "points": [
+          "Specialty Dining: Included on Oceania; generally extra on Celebrity",
+          "Crew Gratuities: Included on Oceania; depends on fare/booking on Celebrity",
+          "Wi-Fi: Included on Oceania; Basic or Premium package required on Celebrity",
+          "Beverages: Included nonalcoholic + amenity choice on Oceania; Classic/Premium package on Celebrity",
+          "Shore Excursions: Excursion credit available on Oceania; purchased separately on Celebrity",
+          "Expert Take: Celebrity may offer a lower starting entry fare, but Oceania's included specialty dining and gratuities can make its overall total vacation cost competitive or lower."
+        ]
+      }
+    ]
+  },
+  "diningComparison": {
+    "title": "Dining: Oceania vs. Celebrity Cruises",
+    "subtitle": "Dining is a major strength of both cruise lines, but their restaurant programs operate on fundamentally different models.",
+    "venues": [
+      {
+        "name": "Dining on Oceania Cruises",
+        "cuisine": "The Finest Cuisine at Sea",
+        "description": "Oceania is renowned for its culinary focus and wide variety of included specialty restaurants. Guests enjoy open-seating venues influenced by global culinary capitals: The Grand Dining Room, Polo Grill (classic steakhouse), Toscana (regional Italian), Red Ginger (bold pan-Asian), Jacques (classic French bistro on select ships), Terrace Café (artisan buffet with outdoor seating), Waves Grill (poolside gourmet burgers and seafood), Aquamar Kitchen (wellness cuisine), and Baristas & The Bakery. Crucially, all specialty restaurants are included in the cruise fare without extra cover charges, letting food lovers dine at distinctive venues every evening."
+      },
+      {
+        "name": "Dining on Celebrity Cruises",
+        "cuisine": "Contemporary Global & Celebrity Chefs",
+        "description": "Celebrity offers an impressive collection of dining venues: Main Dining Rooms (Cosmopolitan, Normandie, Cyprus, Tuscan on Edge Series), Oceanview Café, Blu (exclusive for AquaClass guests), Luminae (exclusive for The Retreat suite guests), Le Voyage by Daniel Boulud, Fine Cut Steakhouse, Raw on 5 (sushi and seafood), Eden Restaurant (experiential culinary storytelling), Tuscan Grille, and Le Petit Chef (animated 3D table mapping). While main and casual dining are included, specialty dining venues generally cost between $45 and $150+ per person unless covered by a package."
+      },
+      {
+        "name": "Which Cruise Line Has Better Dining?",
+        "cuisine": "Culinary Recommendation",
+        "description": "Oceania is the undisputed winner if you want multi-course specialty dining across diverse cuisines included in your base cruise fare without paying cover charges. Celebrity is appealing if you enjoy theatrical, experiential culinary concepts like Le Petit Chef and Eden, or if you book AquaClass/The Retreat for private restaurant access to Blu or Luminae."
+      }
+    ]
+  },
+  "drinksComparison": {
+    "title": "Drinks and Beverage Packages",
+    "subtitle": "Beverage inclusions and package structures differ significantly between Oceania and Celebrity.",
+    "includedTitle": "Oceania Cruises Drinks",
+    "extrasTitle": "Celebrity Cruises Drinks",
+    "included": [
+      {
+        "title": "Included Nonalcoholic Standard",
+        "description": "Oceania includes specialty coffees, teas, sodas, still and sparkling Vero Water, and selected juices and smoothies for all guests at all times."
+      },
+      {
+        "title": "Mealtime Wine & Beer Amenity",
+        "description": "On qualifying bookings, guests can choose complimentary wine and beer by the glass during restaurant lunch and dinner hours as an additional Your World Included amenity."
+      },
+      {
+        "title": "Cocktails & Premium Spirits",
+        "description": "Guests who want cocktails, spirits, or drinks outside meal hours can purchase individual drinks or upgrade to the Prestige Select beverage package."
+      },
+      {
+        "title": "Best Suited For",
+        "description": "Travelers who appreciate artisan coffees, sodas, and quality wine with meals without needing an around-the-clock unlimited open bar."
+      }
+    ],
+    "extras": [
+      {
+        "title": "All Included Classic Package",
+        "description": "Celebrity's All Included fare includes the Classic Drink Package covering beers, spirits, cocktails, and wines by the glass up to $10-$12."
+      },
+      {
+        "title": "The Retreat Premium Package",
+        "description": "Suite guests in The Retreat receive the Premium Drinks Package, covering top-shelf spirits, craft cocktails, craft beers, and wines up to $17."
+      },
+      {
+        "title": "Cruise-Only A La Carte Pricing",
+        "description": "On cruise-only fares, cocktails, beers, wines, sodas, and specialty coffees are charged individually, with 20% beverage gratuity added automatically."
+      },
+      {
+        "title": "Best Suited For",
+        "description": "Travelers who enjoy poolside cocktails, martini bars, sunset lounges, and all-day drink availability through a bundled beverage package."
+      }
+    ]
+  },
+  "shipsAndFleet": {
+    "title": "Ships and Fleet: Oceania vs. Celebrity",
+    "subtitle": "The ships themselves create one of the most noticeable differences between these cruise lines: smaller culinary boutique ships versus innovative large resort vessels.",
+    "ships": [
+      {
+        "name": "Oceania Cruises Fleet",
+        "atmosphere": "Boutique, Dining-Centered & Intimate",
+        "launched": "670 – 1,250 GUESTS",
+        "guests": "670 – 1,250",
+        "bestFor": "Small-ship luxury, destination depth & culinary discovery",
+        "description": "Oceania's ships are generally smaller and designed around dining, destination exploration and a more intimate onboard experience. Its fleet includes Oceania Allura, Oceania Vista, Oceania Marina, Oceania Riviera, Oceania Nautica, Oceania Insignia, and Oceania Sirena, with future additions planned including Oceania Sonata and Oceania Aurelia. The larger vessels offer more restaurant choices and public spaces, while the smaller vessels provide a more intimate atmosphere, making them particularly appealing to travelers who prefer a smaller-ship environment without giving up a refined dining experience.",
+        "image": ""
+      },
+      {
+        "name": "Celebrity Edge Series",
+        "atmosphere": "Contemporary Architectural Icons",
+        "launched": "2,900 – 3,260 GUESTS",
+        "guests": "2,900 – 3,260",
+        "bestFor": "Futuristic design, Infinite Verandas & lively entertainment",
+        "description": "Celebrity's flagship Edge Series includes Celebrity Edge, Apex, Beyond, Ascent and Xcel. These ships are particularly distinctive, with contemporary design features such as the cantilevered Magic Carpet, Infinite Veranda staterooms on applicable ships, the multi-level botanical Eden sanctuary, and innovative outward-facing public spaces that redefine modern luxury resort cruising.",
+        "image": ""
+      },
+      {
+        "name": "Celebrity Solstice & Millennium Series",
+        "atmosphere": "Classic Premium Fleet Classes",
+        "launched": "2,150 – 2,850 GUESTS",
+        "guests": "2,150 – 2,850",
+        "bestFor": "Traditional cruising, real lawn grass & spacious public spaces",
+        "description": "Celebrity's fleet includes several ship classes, each with its own design and onboard atmosphere. The Solstice Series includes Celebrity Solstice, Equinox, Eclipse, Silhouette and Reflection, celebrated for the half-acre Lawn Club and soaring atriums. The Millennium Series includes Celebrity Millennium, Infinity, Summit and Constellation. These series offer different layouts and onboard features, making comparing specific vessels important as ship assignments evolve.",
+        "image": ""
+      },
+      {
+        "name": "Fleet Design Philosophy",
+        "atmosphere": "Small-Ship Intimacy vs. Resort Facilities",
+        "launched": "FLEET OVERVIEW",
+        "guests": "670 vs. 3,260+",
+        "bestFor": "Matching ship size to your vacation preference",
+        "description": "The ships themselves create one of the most noticeable differences between these cruise lines. Oceania's ships are generally smaller and designed around dining, destination exploration and a more intimate onboard experience. Celebrity operates a larger and more varied fleet, with ships featuring contemporary architecture, extensive entertainment facilities, expansive pool decks, and varied public spaces.",
+        "image": ""
+      }
+    ]
+  },
+  "stateroomsAndSuites": {
+    "title": "Staterooms and Suites: Which Offers Better Accommodation?",
+    "subtitle": "Comparing accommodation variety, unique veranda designs, and VIP suite complexes",
+    "items": [
+      {
+        "name": "Inside & Oceanview Staterooms",
+        "price": "Economical Starting Fares",
+        "description": "Both lines offer well-appointed inside and oceanview staterooms. Oceania provides custom Tranquility Beds with 1,000-thread-count linens and marble bathrooms. Celebrity offers smart-TV automation, contemporary styling, and prime access to ship facilities at lower entry fares.",
+        "signatureFeatures": [
+          "Oceania: Tranquility Bed and marble/granite bathroom finishes",
+          "Celebrity: Contemporary design and digital room key automation",
+          "Both lines include daily housekeeping and 24-hour room service",
+          "Ideal for value-conscious cruisers focusing budget on destinations"
+        ]
+      },
+      {
+        "name": "Veranda vs. Infinite Veranda",
+        "price": "Classic Balcony vs. Modern Window Tech",
+        "description": "Oceania features traditional teak-decked private balconies with patio furniture and floor-to-ceiling sliding glass doors. Celebrity Edge Series introduces the Infinite Veranda, where bi-fold balcony doors open up and the outer window lowers with the touch of a button to transform the entire living room into an open-air veranda.",
+        "signatureFeatures": [
+          "Oceania: Traditional private teak veranda with open ocean breezes",
+          "Celebrity: Infinite Veranda seamlessly expands interior cabin square footage",
+          "Oceania Concierge Level: Exclusive private lounge access and expanded perks",
+          "Celebrity AquaClass: Dedicated dining at Blu and SEA Thermal Suite access"
+        ]
+      },
+      {
+        "name": "Penthouse Suites vs. The Retreat",
+        "price": "Residential Luxury vs. Ship-Within-a-Ship",
+        "description": "Oceania Penthouse Suites (420-440 sq ft) offer residential elegance with dedicated 24-hour butler service. Celebrity's The Retreat provides an all-inclusive VIP sanctuary with private sundecks, exclusive Retreat Lounge, private restaurant Luminae, and dedicated Retreat Concierge and Butler service.",
+        "signatureFeatures": [
+          "Oceania Penthouse: White-glove butler service and expanded in-suite dining",
+          "Celebrity The Retreat: Private sundeck, pool, Luminae restaurant, and Retreat Lounge",
+          "Priority embarkation, tender access, and luggage delivery on both lines",
+          "Premium beverage packages and high-speed Wi-Fi included in Retreat suites"
+        ]
+      }
+    ]
+  },
+  "entertainmentAndActivities": {
+    "title": "Entertainment and Onboard Activities",
+    "subtitle": "Entertainment is one of the clearest differences between the cruise lines: Celebrity offers varied, larger-scale productions, while Oceania focuses on a quieter environment with enrichment, culinary experiences and relaxed activities.",
+    "items": [
+      {
+        "category": "OCEANIA CRUISES",
+        "title": "Entertainment on Oceania Cruises",
+        "lead": "Relaxed, Understated & Culinary Enrichment",
+        "description": "Oceania focuses on a quieter onboard environment. Its activities appeal to travelers who prefer a quiet lounge, a good meal or an educational presentation rather than loud resort spectacles.",
+        "features": [
+          "Live music and intimate piano lounges",
+          "Enrichment presentations and destination-related lectures",
+          "Culinary demonstrations and cooking classes on selected ships",
+          "Sommelier-led wine tastings and food pairings",
+          "Art and creative workshops in dedicated studios",
+          "Swimming pools and oceanfront fitness activities",
+          "Relaxed, understated evening entertainment"
+        ],
+        "highlight": "The atmosphere is generally more understated. Travelers who prefer a quiet lounge, a good meal or an educational presentation may appreciate this approach.",
+        "image": ""
+      },
+      {
+        "category": "CELEBRITY CRUISES",
+        "title": "Entertainment on Celebrity Cruises",
+        "lead": "Large-Scale Main Stage & Nightlife Productions",
+        "description": "Celebrity offers a wider range of larger-scale entertainment and high-energy interactive activities across all ship classes, providing vibrant entertainment throughout day and night.",
+        "features": [
+          "Broadway-style musical productions and main theater shows",
+          "Live music and theatrical acrobatic performances",
+          "Comedy shows and interactive entertainment",
+          "DJ events, silent discos and themed evening parties",
+          "Full Vegas-style casino activities and gaming",
+          "Poolside entertainment, sports and fitness activities",
+          "Art and enrichment programs across all decks"
+        ],
+        "highlight": "Celebrity generally offers more varied and larger-scale entertainment with high-tech stages, acrobatic spectacles, and vibrant multi-lounge nightlife.",
+        "image": ""
+      },
+      {
+        "category": "CELEBRITY SIGNATURE SPACES",
+        "title": "Distinctive Edge Spaces & Demonstrations",
+        "lead": "Architectural Marvels & Specialized Activities",
+        "description": "Celebrity's flagship classes feature distinctive architectural venues and signature interactive activities unique in modern cruising.",
+        "features": [
+          "Eden multi-level performance art, dining and garden sanctuary",
+          "The Magic Carpet cantilevered open-air moving platform",
+          "Glassblowing demonstrations by master artisans on selected ships",
+          "Half-acre real grass Lawn Club activities on selected Solstice ships",
+          "Rooftop Garden live concerts and open-air movie screenings",
+          "Interactive art galleries and hands-on workshops"
+        ],
+        "highlight": "The Edge Series also features distinctive spaces such as Eden and the Magic Carpet, while Solstice ships offer the real-grass Lawn Club and hot glass shows.",
+        "image": ""
+      }
+    ]
+  },
+  "familiesAndChildren": {
+    "title": "Families and Children: Oceania vs. Celebrity",
+    "prosTitle": "Oceania Cruises: Adults-Only Focus",
+    "consTitle": "Celebrity Cruises: Camp at Sea & Youth Programs",
+    "bestFor": [
+      "Adults-only policy for new bookings made from January 7, 2026 onward",
+      "No children's facilities, kids clubs, arcades, or waterslides onboard",
+      "Peaceful pool decks and lounges without energetic youth crowds",
+      "Ideal for couples, solo travelers, and adults seeking tranquility",
+      "Existing reservations with younger travelers subject to previous booking terms"
+    ],
+    "notBestFor": [
+      "Camp at Sea program with 500+ dynamic activities for kids and teens",
+      "Dedicated age-specific spaces: Shipmates (3-5), Cadets (6-9), Captains (10-12), Teens (13-17)",
+      "Family-friendly staterooms and multi-bedroom connecting suites",
+      "Interactive entertainment, family pool games, sports deck, and movie nights",
+      "The clear choice for families traveling with children or multi-generational groups"
+    ]
+  },
+  "spaAndWellness": {
+    "title": "Spa and Wellness: Oceania vs. Celebrity",
+    "subtitle": "Both cruise lines offer spa and fitness facilities, but their wellness programs have distinct strengths.",
+    "items": [
+      {
+        "title": "Oceania Aquamar Spa + Vitality Center",
+        "description": "Oceania ships feature the Aquamar Spa + Vitality Center, offering restorative massage therapies, marine-based facials, salon services, and outdoor vitality pools. Dedicated to quiet holistic rejuvenation."
+      },
+      {
+        "title": "Celebrity SEA Thermal Suite",
+        "description": "Celebrity Edge Series ships feature the expansive SEA Thermal Suite with eight distinct wellness spaces, including the Crystalarium, Rainfall Water Therapy Room, Salt Room, and heated ceramic loungers."
+      },
+      {
+        "title": "Celebrity AquaClass Experience",
+        "description": "AquaClass staterooms include unlimited access to the SEA Thermal Suite, in-room yoga mats and wellness amenities, plus exclusive dining at Blu, featuring clean, plant-forward cuisine."
+      },
+      {
+        "title": "Fitness Facilities & Group Classes",
+        "description": "Both lines provide ocean-view fitness centers. Oceania emphasizes instructor-led wellness classes; Celebrity offers F45 functional training and Peloton cycling classes."
+      },
+      {
+        "title": "Wellness Verdict & Booking Recommendation",
+        "description": "Celebrity is the stronger fit for travelers wanting a complete wellness lifestyle via AquaClass and the SEA Thermal Suite. Oceania is perfect for guests who appreciate a peaceful spa alongside Aquamar Kitchen dining."
+      }
+    ]
+  },
+  "serviceAndAtmosphere": {
+    "title": "Service and Atmosphere",
+    "subtitle": "The onboard atmosphere has a profound influence on your overall cruise vacation experience.",
+    "categories": [
+      {
+        "id": "daytime",
+        "title": "Oceania: Intimate, Refined & Country-Club Relaxed",
+        "description": "Oceania offers a warm residential aesthetic with rich wood accents, open-seating restaurants, genuine crew warmth, and an unpretentious upscale atmosphere.",
+        "items": [
+          "High crew-to-guest ratio with personalized service",
+          "Uncrowded pool decks with plush padded loungers",
+          "Quiet observation lounges and Italian espresso bars",
+          "Primarily adult passenger demographic"
+        ]
+      },
+      {
+        "id": "evening",
+        "title": "Celebrity: Modern, Stylish & Socially Energetic",
+        "description": "Celebrity delivers a stylish boutique-hotel vibe designed by world-renowned architects, featuring soaring glass atriums, energetic cocktail lounges, and active public spaces.",
+        "items": [
+          "Cutting-edge architectural design by Kelly Hoppen and Tom Wright",
+          "Vibrant social venues like the Sunset Bar and Martini Bar",
+          "Exclusive VIP enclaves via The Retreat lounge and sundeck",
+          "Multi-generational crowd of couples, friend groups, and families"
+        ]
+      },
+      {
+        "id": "onboard",
+        "title": "Evening Attire: Elegant Casual vs. Evening Chic",
+        "description": "Both cruise lines avoid rigid formal nights. Oceania follows an elegant casual code, while Celebrity features relaxed smart casual with occasional Evening Chic nights.",
+        "items": [
+          "Oceania: Elegant casual every evening (no tuxedos or formal gowns required)",
+          "Celebrity: Smart casual with optional Evening Chic cocktail attire",
+          "Both lines: Relaxed resort dresses, collared shirts, and blazers",
+          "Comfortable, polished dining atmospheres across all restaurants"
+        ]
+      }
+    ]
+  },
+  "destinationsAndItineraries": {
+    "title": "Itineraries and Destinations",
+    "subtitle": "Both cruise lines visit destinations around the world. The best choice depends on the itinerary, ports, time in port and overall voyage length.",
+    "badgeSuffix": "ITINERARY STRATEGY",
+    "footerLeft": "Global Route Planning",
+    "footerRight": "Oceania vs. Celebrity Comparison",
+    "items": [
+      {
+        "title": "Oceania Cruises Destinations",
+        "icon": "Compass",
+        "description": "Oceania is particularly appealing to travelers who enjoy destination-rich itineraries, extended port stays, and boutique harbors inaccessible to mega-ships.",
+        "bulletPoints": [
+          "Mediterranean & Greek Isles",
+          "Northern Europe, Baltic & British Isles",
+          "Caribbean, Panama Canal & Alaska",
+          "Asia, Australia & New Zealand",
+          "South America, Africa & South Pacific",
+          "World cruises and extended voyages"
+        ],
+        "image": ""
+      },
+      {
+        "title": "Celebrity Cruises Destinations",
+        "icon": "Ship",
+        "description": "Celebrity offers a broad range of global itineraries alongside convenient shorter cruise options in select regions, making it attractive to travelers with limited vacation time.",
+        "bulletPoints": [
+          "Caribbean & Bahamas weekend getaways",
+          "Alaska inside passage and glacier routes",
+          "Mediterranean & Northern Europe capitals",
+          "Asia, Australia & New Zealand",
+          "South America & Bermuda sailings",
+          "Transatlantic and selected longer repositioning cruises"
+        ],
+        "image": ""
+      },
+      {
+        "title": "Destination Pacing & Voyage Length",
+        "icon": "Clock",
+        "description": "The best choice depends on the itinerary, ports, time spent in port and overall voyage length matching your vacation timeline.",
+        "bulletPoints": [
+          "Oceania: Destination-rich itineraries with boutique ports and extended port calls",
+          "Celebrity: Wide range of 3- to 7-night quick getaways plus classic 10-14 night sailings",
+          "Oceania: Smaller ships dock right at historic city piers without extensive transfers",
+          "Celebrity: Major international turnaround hubs with extensive flight connections"
+        ],
+        "image": ""
+      }
+    ]
+  },
+  "adultsOnlyExperience": {
+    "title": "Adults-Only Experience: Oceania vs. Celebrity",
+    "items": [
+      {
+        "label": "Oceania Policy",
+        "value": "18+ Adults-Only",
+        "description": "Oceania introduced an adults-only policy for new bookings made from January 7, 2026 onward, dedicating the entire ship to mature relaxation."
+      },
+      {
+        "label": "Celebrity Solarium",
+        "value": "Adults-Only Pool",
+        "description": "While Celebrity welcomes families, all ships feature an enclosed, adults-only Solarium pool, hot tubs, and quiet relaxation lounge."
+      },
+      {
+        "label": "Passenger Profile",
+        "value": "Couples & Friends",
+        "description": "Oceania appeals primarily to couples, solo travelers, and retirees. Celebrity attracts a balanced mix of couples, multi-gen families, and friends."
+      },
+      {
+        "label": "Onboard Ambiance",
+        "value": "Tranquil vs. Vibrant",
+        "description": "Oceania maintains a consistently quiet, peaceful ambiance. Celebrity balances tranquil adults-only enclaves with lively family-friendly zones."
+      }
+    ]
+  },
+  "whatCostsExtra": {
+    "title": "What Costs Extra on Oceania and Celebrity?",
+    "subtitle": "Understanding additional expenses helps you compare the actual bottom-line cost of each cruise.",
+    "includedTitle": "Common Additional Expenses on Oceania",
+    "extrasTitle": "Common Additional Expenses on Celebrity",
+    "included": [
+      {
+        "title": "Premium Spirits & Cocktails",
+        "description": "Cocktails and spirits outside included amenity terms require a separate beverage package or individual purchase."
+      },
+      {
+        "title": "Spa & Salon Treatments",
+        "description": "Massages, facials, and salon treatments at the Aquamar Spa carry standard service charges."
+      },
+      {
+        "title": "Wine Events & Sommelier Dinners",
+        "description": "Specialty wine-pairing dinners (such as Dom Pérignon Experience) carry an extra fee."
+      },
+      {
+        "title": "Shore Excursions Beyond Credit",
+        "description": "Excursions exceeding your Your World Included excursion credit are billed separately."
+      },
+      {
+        "title": "Airfare, Hotels & Transfers",
+        "description": "Pre/post-cruise hotels, airfare, and transfers unless booked through special promotional packages."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Specialty Dining Cover Charges",
+        "description": "Specialty restaurants (Le Voyage, Fine Cut, Tuscan Grille) generally cost $45 to $150+ per person."
+      },
+      {
+        "title": "Onboard Crew Gratuities",
+        "description": "Standard daily gratuities ($18-$23/day) are additional on cruise-only fares unless booked under All Included."
+      },
+      {
+        "title": "Wi-Fi & Drink Packages",
+        "description": "On cruise-only fares, Wi-Fi packages and alcoholic drink packages must be purchased separately."
+      },
+      {
+        "title": "Shore Excursions",
+        "description": "Shore excursions are not included and are purchased a la carte for each destination port."
+      },
+      {
+        "title": "SEA Thermal Suite Access",
+        "description": "Thermal spa access is additional unless booked in AquaClass or purchased via day/week passes."
+      }
+    ]
+  },
+  "travelerSuitability": {
+    "title": "Which Cruise Line Is Better for Different Travelers?",
+    "subtitle": "Matching traveler types to the best cruise line for their vacation style",
+    "personas": [
+      {
+        "icon": "Gem",
+        "title": "Food-Focused Travelers",
+        "description": "Oceania is the premier choice. With specialty restaurants included in base fares without cover charges and culinary centers with hands-on cooking classes, food is at the heart of the journey.",
+        "traits": [
+          "Specialty dining included without fees",
+          "Master chef cooking classes",
+          "Gourmet dining variety across all ships"
+        ],
+        "recommendations": [
+          "Oceania Cruises"
+        ]
+      },
+      {
+        "icon": "Heart",
+        "title": "Families with Children",
+        "description": "Celebrity is the clear winner for families. Camp at Sea youth programs, teen lounges, family pool areas, and connecting staterooms provide an engaging vacation for all ages.",
+        "traits": [
+          "Camp at Sea youth programming",
+          "Interactive family activities",
+          "Multi-room connecting staterooms"
+        ],
+        "recommendations": [
+          "Celebrity Cruises"
+        ]
+      },
+      {
+        "icon": "Camera",
+        "title": "Adults Seeking Quiet Relaxation",
+        "description": "Oceania's smaller ships, tranquil pool decks, and adults-only policy for new bookings create a peaceful, refined atmosphere free of crowds and high-decibel poolside games.",
+        "traits": [
+          "Adults-only onboard environment",
+          "Uncrowded pool decks and lounges",
+          "Refined, quiet country-club feel"
+        ],
+        "recommendations": [
+          "Oceania Cruises"
+        ]
+      },
+      {
+        "icon": "Landmark",
+        "title": "Contemporary Ship & Tech Fans",
+        "description": "Celebrity Edge Series ships offer modern architectural wonders: Infinite Verandas, the cantilevered Magic Carpet, Eden pavilion, and high-tech theater productions.",
+        "traits": [
+          "Cutting-edge modern ship architecture",
+          "Infinite Veranda stateroom design",
+          "High-tech Broadway-scale productions"
+        ],
+        "recommendations": [
+          "Celebrity Cruises"
+        ]
+      },
+      {
+        "icon": "Wine",
+        "title": "VIP Suite Experience Seekers",
+        "description": "Both lines excel in luxury suites. Choose Oceania for European-trained butler service and expansive Owner's Suites. Choose Celebrity for The Retreat's private ship-within-a-ship sanctuary.",
+        "traits": [
+          "Dedicated butler and concierge service",
+          "Exclusive VIP restaurant and lounge access",
+          "Priority tender and embarkation access"
+        ],
+        "recommendations": [
+          "Both Lines (The Retreat & Oceania Suites)"
+        ]
+      },
+      {
+        "icon": "Bike",
+        "title": "Shorter & Flexible Vacationers",
+        "description": "Celebrity offers an extensive portfolio of 3- to 7-night Caribbean and Bahamas getaways, perfect for travelers with limited vacation time or seeking a quick premium escape.",
+        "traits": [
+          "Wide selection of 3- to 7-night sailings",
+          "Frequent weekend Caribbean getaways",
+          "Flexible departure ports across Florida"
+        ],
+        "recommendations": [
+          "Celebrity Cruises"
+        ]
+      }
+    ]
+  },
+  "prosAndCons": {
+    "title": "Oceania vs. Celebrity: Pros and Cons",
+    "subtitle": "Honest Strengths & Considerations",
+    "cards": [
+      {
+        "title": "Oceania Cruises: Advantages",
+        "items": [
+          "Specialty dining included in the cruise fare",
+          "Shipboard gratuities included",
+          "Complimentary Wi-Fi",
+          "Smaller ships and a more intimate atmosphere",
+          "Strong culinary identity",
+          "Multiple accommodation categories",
+          "Choice of wine and beer or shore-excursion credit on qualifying bookings",
+          "Adult-focused environment for new bookings under its current policy"
+        ]
+      },
+      {
+        "title": "Oceania Cruises: Considerations",
+        "items": [
+          "Premium alcoholic beverages may cost extra.",
+          "The wine-and-beer amenity and shore-excursion credit are alternative choices on qualifying bookings.",
+          "It does not offer a conventional children's club program.",
+          "Entertainment is generally more understated than Celebrity's.",
+          "Ship amenities and accommodation layouts vary across the fleet."
+        ]
+      },
+      {
+        "title": "Celebrity Cruises: Advantages",
+        "items": [
+          "Contemporary ship design",
+          "Larger variety of entertainment and onboard activities",
+          "Family-friendly facilities and youth programming",
+          "AquaClass and The Retreat accommodation experiences",
+          "Specialty restaurants and distinctive ship-specific venues",
+          "A wide range of itineraries and sailing lengths",
+          "Eligible All Included fares can bundle drinks and Wi-Fi"
+        ]
+      },
+      {
+        "title": "Celebrity Cruises: Considerations",
+        "items": [
+          "Specialty dining generally costs extra.",
+          "Shore excursions are generally additional.",
+          "Cruise-only fares may require separate purchases for drinks and Wi-Fi.",
+          "Laundry and many spa services cost extra.",
+          "The experience varies considerably between ship classes."
+        ]
+      }
+    ]
+  },
+  "costComparisonChecklist": {
+    "title": "How to Compare the True Cost of an Oceania and Celebrity Cruise",
+    "description": "Before choosing between the two, compare actual sailings with similar dates, destinations and accommodation categories. Use this checklist to calculate your total vacation investment.",
+    "headers": [
+      "Cost Category",
+      "Oceania Cruises Quote",
+      "Celebrity Cruises Quote"
+    ],
+    "rows": [
+      [
+        "Cruise fare",
+        "Confirm base fare with inclusions",
+        "Confirm cruise-only or All Included fare"
+      ],
+      [
+        "Taxes and port charges",
+        "Confirm applicable port taxes",
+        "Confirm applicable port taxes"
+      ],
+      [
+        "Stateroom category",
+        "Confirm exact category (Veranda/Suite)",
+        "Confirm exact category (Veranda/AquaClass/Retreat)"
+      ],
+      [
+        "Specialty dining",
+        "Included under Your World Included",
+        "Add expected specialty dining cover charges"
+      ],
+      [
+        "Drinks",
+        "Included nonalcoholic + selected amenity",
+        "Confirm Classic/Premium package or a la carte"
+      ],
+      [
+        "Wi-Fi",
+        "Included under Your World Included",
+        "Confirm Basic/Premium package inclusion"
+      ],
+      [
+        "Gratuities",
+        "Included under Your World Included",
+        "Confirm whether gratuities are bundled or separate"
+      ],
+      [
+        "Shore excursions",
+        "Apply eligible excursion credit if selected",
+        "Add expected excursion costs per port"
+      ],
+      [
+        "Spa and wellness",
+        "Add planned treatments if desired",
+        "Add planned treatments or Thermal Suite pass"
+      ],
+      [
+        "Airfare and transfers",
+        "Confirm promotional or custom airfare",
+        "Confirm Flights by Celebrity quote"
+      ],
+      [
+        "Hotels",
+        "Confirm pre/post-cruise hotel package",
+        "Confirm pre/post-cruise hotel package"
+      ],
+      [
+        "Final estimated vacation cost",
+        "Calculate total vacation investment",
+        "Calculate total vacation investment"
+      ]
+    ]
+  },
+  "whichShouldYouChoose": {
+    "title": "Which Should You Choose: Oceania Cruises or Celebrity?",
+    "subtitle": "After comparing the two cruise lines, the decision comes down to your travel style.",
+    "brandA": {
+      "name": "Choose Oceania Cruises If:",
+      "image": "",
+      "features": [
+        "You consider dining one of the most important parts of your vacation.",
+        "You want specialty restaurants included in the fare.",
+        "You prefer smaller ships and a quieter onboard atmosphere.",
+        "You value included shipboard gratuities.",
+        "You want a primarily adult environment.",
+        "You enjoy destination-focused itineraries.",
+        "You prefer a more intimate cruise experience."
+      ]
+    },
+    "brandB": {
+      "name": "Choose Celebrity Cruises If:",
+      "image": "",
+      "features": [
+        "You enjoy contemporary ship designs.",
+        "You want more entertainment and onboard activities.",
+        "You are traveling with children or multiple generations.",
+        "You want to compare AquaClass and The Retreat.",
+        "You enjoy larger ships with more public spaces.",
+        "You want a wider selection of shorter cruise itineraries."
+      ]
+    }
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "LUXURY CRUISE CONNOISSEUR",
+      "authorityBoxTitle": "My Final Recommendation: Oceania or Celebrity?",
+      "authoritySubtitle": "Unbiased guidance from an elite travel advisor who has planned hundreds of premium voyages",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Elite Travel Advisor",
+      "experienceBadge": "40+ Years Luxury Cruise Experience",
+      "bio": "Both Oceania and Celebrity offer appealing cruise experiences, but they serve different priorities. Oceania Cruises is my recommendation for travelers who value culinary experiences, smaller ships and a more relaxed, adult-focused environment. Its included specialty dining and shipboard gratuities are meaningful benefits, especially for guests who plan to enjoy several restaurants during their voyage. Celebrity Cruises is an excellent choice for travelers who want contemporary ships, a broader entertainment program, family-friendly facilities and more accommodation experiences. It offers flexibility for guests who want to compare different fare types and onboard packages.",
+      "quote": "If you are traveling as a couple and place dining and a quieter atmosphere at the top of your list, start by comparing Oceania. If you are traveling with children, enjoy larger ships or want more entertainment choices, Celebrity deserves serious consideration. The best decision comes from comparing the exact ships, itineraries, staterooms and final vacation costs.",
+      "quoteSubtitle": "On matching your lifestyle to the ideal premium cruise brand",
+      "credentials": [
+        "Top Producer: Oceania Cruises Connoisseur Club",
+        "Certified Celebrity Cruises Specialist & Top Partner",
+        "Over 30 Years Designing Bespoke Luxury Itineraries",
+        "Personal Voyages on Oceania Vista, Riviera, Celebrity Beyond & Apex"
+      ],
+      "ctaText": "Compare Oceania & Celebrity Quotes",
+      "ctaLink": "/contact"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions: Oceania Cruises vs. Celebrity",
+    "subtitle": "Clear, verified answers to the most common questions when choosing between Oceania and Celebrity",
+    "questions": [
+      {
+        "question": "Is Oceania Cruises better than Celebrity?",
+        "answer": "Oceania is often a better fit for travelers who prioritize specialty dining, smaller ships and a relaxed adult-focused atmosphere. Celebrity may be better for travelers who want contemporary ships, more entertainment and family-friendly facilities. The right choice depends on your preferences."
+      },
+      {
+        "question": "Is Oceania more luxurious than Celebrity?",
+        "answer": "Oceania generally occupies a higher position in the premium cruise market, with a focus on culinary experiences, smaller ships and included specialty dining. Celebrity offers a contemporary premium experience with upgraded suite options through The Retreat. Both have different levels of accommodation and service."
+      },
+      {
+        "question": "Which cruise line has better food?",
+        "answer": "Oceania is particularly known for its culinary focus and included specialty restaurants. Celebrity also offers a strong dining program, including distinctive specialty restaurants and exclusive dining venues for eligible AquaClass and suite guests."
+      },
+      {
+        "question": "Is specialty dining included on Oceania Cruises?",
+        "answer": "Yes. Dining at Oceania's specialty restaurants is included in the standard Your World Included program, subject to restaurant availability and reservation policies."
+      },
+      {
+        "question": "Is specialty dining included on Celebrity Cruises?",
+        "answer": "Celebrity's main dining and casual dining options are generally included. Specialty restaurants usually require an additional charge or dining package, although suite benefits and promotions may provide different arrangements."
+      },
+      {
+        "question": "Does Oceania include drinks?",
+        "answer": "Oceania includes specialty coffees, teas, sodas, selected juices, smoothies and Vero Water. Qualifying bookings can select complimentary wine and beer by the glass during restaurant lunch and dinner hours as an additional amenity."
+      },
+      {
+        "question": "Does Celebrity include drinks?",
+        "answer": "Celebrity's drink inclusions depend on the fare. Eligible All Included bookings may include a Classic Drink Package, while The Retreat includes a Premium Drinks Package under applicable terms. Cruise-only fares may require a separate beverage package."
+      },
+      {
+        "question": "Are gratuities included on Oceania Cruises?",
+        "answer": "Yes. Shipboard gratuities for the relevant onboard service teams are included through Your World Included. Additional service charges may apply to certain purchases and services."
+      },
+      {
+        "question": "Are gratuities included on Celebrity Cruises?",
+        "answer": "Gratuity arrangements depend on the fare and booking terms. Guests should check their reservation to determine whether applicable gratuities have been included or need to be paid separately."
+      },
+      {
+        "question": "Which cruise line has smaller ships?",
+        "answer": "Oceania generally operates smaller ships than Celebrity. Its vessels offer a more intimate atmosphere (670 to 1,250 guests), while Celebrity's larger ships (2,150 to 3,260 guests) provide more public spaces, entertainment venues and onboard facilities."
+      },
+      {
+        "question": "Which cruise line is better for families?",
+        "answer": "Celebrity is the stronger choice for families. It offers Camp at Sea, teen programming, family-friendly facilities and a variety of activities for younger guests. Oceania's current policy for new bookings is adults-only."
+      },
+      {
+        "question": "Is Oceania Cruises adults-only?",
+        "answer": "Oceania introduced an adults-only policy for new bookings made from January 7, 2026. Existing reservations made before that date that include younger travelers are subject to applicable existing-booking arrangements."
+      },
+      {
+        "question": "Does Celebrity Cruises have an adults-only area?",
+        "answer": "Yes. Many Celebrity ships have an adults-only Solarium. However, Celebrity itself is not an adults-only cruise line and welcomes families and children."
+      },
+      {
+        "question": "Which cruise line has better entertainment?",
+        "answer": "Celebrity generally offers a wider range of entertainment, including theatrical productions, live music, interactive performances and ship-specific activities. Oceania focuses more on live music, enrichment, culinary experiences and a relaxed atmosphere."
+      },
+      {
+        "question": "Which cruise line has better staterooms?",
+        "answer": "Both offer comfortable accommodation. Oceania provides a range of stateroom and suite categories, while Celebrity offers distinctive choices such as Infinite Veranda, AquaClass and The Retreat. The best option depends on the ship and category."
+      }
+    ]
+  },
+  "centerCta": {
+    "title": "Ready to Plan Your Oceania or Celebrity Cruise?",
+    "subtitle": "Choosing between Oceania and Celebrity involves evaluating ships, cabin locations, dining preferences, entertainment, itineraries and total vacation value. Angela Hughes and the Trips & Ships Luxury Travel team are here to help you make the right choice.",
+    "primaryCtaText": "Contact Trips & Ships Luxury Travel",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Oceania Ships",
+    "secondaryCtaLink": "/oceania-cruises/ships"
+  }
+}

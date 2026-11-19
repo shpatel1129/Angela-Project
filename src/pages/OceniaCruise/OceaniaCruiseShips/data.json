@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "Which Oceania Cruise Ship Is Best? Compare All Ships",
+    "description": "Compare Oceania Cruises ships, including Allura, Vista, Marina, Riviera, Nautica, Insignia and Sirena. Explore ship sizes, dining, accommodations and which vessel suits your travel style.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/ships",
+    "primaryKeyword": "Which Oceania cruise ship should you choose?",
+    "secondaryKeywords": [
+      "Best Oceania cruise ship",
+      "Oceania Cruises ships compared",
+      "Oceania cruise ship comparison",
+      "Oceania Allura vs Vista",
+      "Oceania Marina vs Riviera",
+      "Oceania small ships",
+      "Oceania Cruises fleet",
+      "Oceania cruise ship sizes",
+      "Oceania Cruises ship guide",
+      "Which Oceania ship is right for me?"
+    ],
+    "pageUrl": "/oceania-cruises/ships",
+    "author": "Angela Hughes, CEO of Trips & Ships Luxury Travel",
+    "publishDate": "2026-11-05",
+    "updated": "2026-11-05"
+  },
+  "hero": {
+    "title": "Which Oceania Cruise Ship Should You Choose?",
+    "subtitle": "A Complete Fleet Comparison Across Allura, Vista, Marina, Riviera, Nautica, Insignia & Sirena",
+    "description": "Choosing the right Oceania Cruises ship depends on the kind of vacation you want. Some travelers prefer newer ships with contemporary accommodations and a wider range of onboard spaces. Others enjoy smaller vessels that create a more intimate atmosphere and offer access to destination-focused boutique ports. Compare ship sizes, dining venues, and accommodations to find your ideal vessel.",
+    "badge": "2026–2027 FLEET GUIDE",
+    "primaryCtaText": "Find Your Ideal Ship",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Compare Ship Classes",
+    "secondaryCtaLink": "#fleet-classes"
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Which Oceania Ship Is Best?",
+    "subtitle": "At-a-glance comparison of guest capacities and primary appeal across the fleet",
+    "headers": ["Ship", "Best For", "Approx. Guest Capacity"],
+    "rows": [
+      ["Oceania Allura", "Newer ship design, all-veranda staterooms, and contemporary luxury", "1,200"],
+      ["Oceania Vista", "Modern accommodations, Aquamar Kitchen, and elevated mixology", "1,200"],
+      ["Oceania Marina", "Culinary experiences, La Reserve wine pairings, and spacious lounges", "1,250"],
+      ["Oceania Riviera", "Classic Oceania luxury, Lalique grand staircase, and specialty dining", "1,250"],
+      ["Oceania Nautica", "Smaller-ship travel, intimate surroundings, and boutique harbor access", "670"],
+      ["Oceania Insignia", "Refreshed interiors, classic small-ship atmosphere, and 180-day World Cruises", "670"],
+      ["Oceania Sirena", "Smaller-ship cruising with distinctive Tuscan Steak and Red Ginger dining", "670"]
+    ]
+  },
+  "fleetClasses": {
+    "title": "Oceania Cruises Fleet Overview & Classes",
+    "subtitle": "The current seven ships fall into three distinct architectural and experiential classes",
+    "items": [
+      {
+        "title": "Allura Class (Allura & Vista)",
+        "category": "NEW GENERATION LUXURY",
+        "description": "Debuted in 2023 and 2025, these 1,200-guest sister ships represent Oceania's latest evolution. They feature all-veranda staterooms, residential interior design, soaring Grand Lounges, and modern dining concepts like Aquamar Kitchen and The Bakery at Baristas.",
+        "features": [
+          "Capacity: Approx. 1,200 guests (all-veranda cabins)",
+          "Venues: Aquamar Kitchen, Ember, The Bakery at Baristas",
+          "Design: Contemporary residential luxury and expansive suites",
+          "Atmosphere: Balanced blend of boutique intimacy and modern amenities"
+        ],
+        "placeholderLabel": "Oceania Allura Class Ships"
+      },
+      {
+        "title": "O-Class (Marina & Riviera)",
+        "category": "CULINARY HUBS & CLASSIC LUXURY",
+        "description": "Carrying 1,250 guests, Marina and Riviera are celebrated as the culinary flagships of the fleet. Built with food lovers in mind, they feature multiple open-seating gourmet restaurants, custom Lalique glass staircases, and hands-on cooking demonstration centers.",
+        "features": [
+          "Capacity: Approx. 1,250 guests (624 staterooms)",
+          "Venues: Polo Grill, Toscana, Red Ginger, Jacques, Privée",
+          "Specialty: Hands-on Culinary Center and La Reserve wine pairings",
+          "Atmosphere: Sophisticated country-club casual with expansive public rooms"
+        ],
+        "placeholderLabel": "Oceania O-Class Ships"
+      },
+      {
+        "title": "R-Class (Nautica, Insignia & Sirena)",
+        "category": "INTIMATE BOUTIQUE CRUISING",
+        "description": "Carrying just 670 guests, Oceania's smaller R-class vessels deliver the pinnacle of intimate cruising. Their compact size allows them to navigate narrow rivers, shallow coastal fjords, and historic city centers inaccessible to larger liners.",
+        "features": [
+          "Capacity: Approx. 670 guests (340 staterooms)",
+          "Venues: Four open-seating restaurants including Tuscan Steak on Sirena",
+          "Ports: Access to shallow boutique harbors and exotic World Cruise stops",
+          "Atmosphere: Classic traditional cruising with personalized, uncrowded service"
+        ],
+        "placeholderLabel": "Oceania R-Class Small Ships"
+      }
+    ]
+  },
+  "shipShowcase": {
+    "title": "Explore the Seven Ships in the Oceania Fleet",
+    "subtitle": "Click any vessel to compare interior atmosphere, guest capacity, and standout features",
+    "ships": [
+      {
+        "name": "Oceania Allura",
+        "atmosphere": "Contemporary Luxury & Newest Venues",
+        "launched": "Allura Class (Debuted 2025)",
+        "guests": "1,200",
+        "bestFor": "Newer ship design and all-veranda accommodations",
+        "description": "Oceania Allura entered service in 2025 and reflects Oceania's newest approach to residential-style design, culinary experiences, and personalized service. With all-veranda accommodations, wellness dining, and an expanded mixology program, she offers an ideal balance of intimacy and modern amenities.",
+        "image": null
+      },
+      {
+        "name": "Oceania Vista",
+        "atmosphere": "Modern Design & Wellness Dining",
+        "launched": "Allura Class (Debuted 2023)",
+        "guests": "1,200",
+        "bestFor": "Aquamar Kitchen & The Bakery at Baristas",
+        "description": "Debuting in 2023, Vista introduced distinctive concepts like Aquamar Kitchen for wellness cuisine, The Bakery at Baristas for fresh French and Italian pastries, and dedicated solo veranda accommodations. Perfect for travelers seeking a vibrant, contemporary luxury aesthetic.",
+        "image": null
+      },
+      {
+        "name": "Oceania Marina",
+        "atmosphere": "Grand Culinary Center & Classic Elegance",
+        "launched": "O-Class Fleet",
+        "guests": "1,250",
+        "bestFor": "Food-focused travelers & wine lovers",
+        "description": "Designed with culinary enthusiasts in mind, Marina features multiple open-seating specialty restaurants, La Reserve by Wine Spectator for seven-course pairing dinners, Privée for private dining, and a custom Lalique crystal staircase in the grand atrium.",
+        "image": null
+      },
+      {
+        "name": "Oceania Riviera",
+        "atmosphere": "Refined Furnishings & Specialty Dining",
+        "launched": "O-Class Fleet",
+        "guests": "1,250",
+        "bestFor": "Classic luxury interiors & culinary variety",
+        "description": "Sister ship to Marina, Riviera carries approximately 1,250 guests and shares her culinary heritage. Known for its sophisticated residential decor, high-end art collection, and relaxed onboard atmosphere, Riviera delivers classic Oceania elegance on popular Mediterranean and Caribbean routes.",
+        "image": null
+      },
+      {
+        "name": "Oceania Nautica",
+        "atmosphere": "Intimate Surroundings & Boutique Ports",
+        "launched": "R-Class Boutique",
+        "guests": "670",
+        "bestFor": "Quiet, destination-focused cruising",
+        "description": "Carrying just 670 guests, Nautica offers an intimate atmosphere with four open-seating gourmet restaurants, warm teak decks, and access to shallow harbor ports. Note: Nautica is scheduled to transform into Oceania Aurelia in November 2027 for extended global voyages.",
+        "image": null
+      },
+      {
+        "name": "Oceania Insignia",
+        "atmosphere": "Refreshed Classic Small-Ship Experience",
+        "launched": "R-Class Boutique",
+        "guests": "670",
+        "bestFor": "180-Day Around the World Cruises",
+        "description": "Insignia has undergone significant interior enhancements, featuring refreshed staterooms, updated marble bathrooms, and elegant public areas. As the flagship for Oceania's famed 180-day World Cruises, she offers a timeless small-ship atmosphere.",
+        "image": null
+      },
+      {
+        "name": "Oceania Sirena",
+        "atmosphere": "Distinctive Dining & Small-Ship Charms",
+        "launched": "R-Class Boutique",
+        "guests": "670",
+        "bestFor": "Tuscan Steak & exotic regional itineraries",
+        "description": "Sirena combines intimate 670-guest cruising with distinctive dining, headlined by Tuscan Steak—a venue fusing Italian favorites with prime steaks and seafood—alongside Red Ginger and eight intimate lounges and bars.",
+        "image": null
+      }
+    ]
+  },
+  "fleetMetricsTable": {
+    "title": "Oceania Ships Compared: Size, Capacity and Features",
+    "subtitle": "Key specifications across the seven operating vessels",
+    "headers": ["Ship", "Approx. Guests", "Suites & Rooms", "Ship Class", "Standout Distinction"],
+    "rows": [
+      ["Oceania Allura", "1,200", "605", "Allura Class", "Newest 2025 vessel, all-veranda accommodations, contemporary design"],
+      ["Oceania Vista", "1,200", "607", "Allura Class", "Aquamar Kitchen wellness dining, The Bakery at Baristas, solo staterooms"],
+      ["Oceania Marina", "1,250", "624", "O-Class", "Culinary Center cooking school, La Reserve wine pairings, Privée dining"],
+      ["Oceania Riviera", "1,250", "624", "O-Class", "Lalique crystal grand staircase, multiple gourmet restaurants, fine art collection"],
+      ["Oceania Nautica", "670", "340", "R-Class", "Intimate boutique cruising; scheduled to become Oceania Aurelia in late 2027"],
+      ["Oceania Insignia", "670", "340", "R-Class", "Refreshed accommodations, flagship vessel for 180-day World Cruises"],
+      ["Oceania Sirena", "670", "337", "R-Class", "Exclusive Tuscan Steak specialty restaurant, Red Ginger, 8 intimate bars"]
+    ]
+  },
+  "headToHead": {
+    "title": "Direct Ship Showdowns: Sister Ships Compared",
+    "mainBrand": {
+      "name": "First Ship"
+    },
+    "competitors": [
+      {
+        "name": "Oceania Allura vs. Oceania Vista",
+        "mainBrandStrengths": [
+          "Debuted in 2025: Allura is the newest ship in the fleet with the latest interior refinements",
+          "Contemporary residential interior design and expanded mixology lounge spaces",
+          "All-veranda accommodations across all non-suite categories",
+          "Best For: Guests wanting the very newest ship in the Oceania fleet"
+        ],
+        "competitorStrengths": [
+          "Debuted in 2023: Introduced the original Aquamar Kitchen and The Bakery at Baristas",
+          "Dedicated solo veranda staterooms engineered specifically for single travelers",
+          "Broad selection of established Mediterranean and transatlantic itineraries",
+          "Best For: Travelers who value Vista's distinctive culinary spaces and solo cabins"
+        ],
+        "bestForMainBrand": [
+          "Guests who prioritize sailing on the newest cruise ship afloat",
+          "Travelers seeking the latest 2025/2026 delivery refinements"
+        ],
+        "bestForCompetitor": [
+          "Solo travelers looking for dedicated single-occupancy veranda cabins",
+          "Guests attracted to Vista's specific Mediterranean and Caribbean departures"
+        ]
+      },
+      {
+        "name": "Oceania Marina vs. Oceania Riviera",
+        "mainBrandStrengths": [
+          "Celebrated flagship for food lovers with extensive Culinary Center cooking stations",
+          "Multiple open-seating specialty restaurants (Polo Grill, Toscana, Red Ginger, Jacques)",
+          "La Reserve by Wine Spectator seven-course wine pairing dinners",
+          "Best For: Culinary-focused luxury travelers who want expansive specialty dining"
+        ],
+        "competitorStrengths": [
+          "Sister ship with virtually identical 1,250-guest capacity and layout",
+          "Stunning Lalique crystal grand staircase and museum-grade curated fine art",
+          "Comfortable, residential-style public spaces and quiet library retreats",
+          "Best For: Classic Oceania luxury and travelers choosing based on specific port dates"
+        ],
+        "bestForMainBrand": [
+          "Guests prioritizing culinary immersion and cooking classes",
+          "Travelers who find Marina's itinerary dates better match their calendar"
+        ],
+        "bestForCompetitor": [
+          "Guests who appreciate classical interior elegance and Lalique artistry",
+          "Travelers choosing Riviera for its specific seasonal routes"
+        ]
+      }
+    ]
+  },
+  "futureFleet": {
+    "title": "The Future Fleet: Oceania Aurelia & Oceania Sonata",
+    "subtitle": "Exciting upcoming vessels joining the Oceania family in 2027",
+    "description": "Oceania continues to innovate with two purpose-built ships scheduled to debut in 2027. One is tailored for extended world cruising, while the other introduces an entirely new class of culinary luxury.",
+    "items": [
+      {
+        "name": "Oceania Aurelia (Debuting November 2027)",
+        "description": "Oceania Aurelia is being developed through a comprehensive reimagining of Oceania Nautica, engineered specifically for extended global journeys and worldwide exploration. With around 238 spacious suites and 400 dedicated crew members, she will feature refined public spaces and circumnavigation itineraries.",
+        "bestFor": "Extended World Cruises, Grand Voyages, and travelers spending months at sea",
+        "highlights": [
+          "Approximately 238 suites and rooms with enhanced living spaces",
+          "High crew-to-guest ratio with around 400 dedicated crew members",
+          "Custom-designed for Around the World and Grand Voyage itineraries",
+          "Reimagined residential lounges and world-traveler library spaces"
+        ]
+      },
+      {
+        "name": "Oceania Sonata (Debuting August 2027)",
+        "description": "Oceania Sonata is the flagship of the brand-new Sonata Class, scheduled to debut in August 2027. Planned for approximately 1,390 guests across 695 all-veranda staterooms, Sonata introduces groundbreaking dining concepts including La Table par Maîtres Cuisiniers de France and Nikkei Kitchen.",
+        "bestFor": "Next-generation luxury cruising with brand-new dining concepts and spacious accommodations",
+        "highlights": [
+          "Approximately 1,390 guests across 695 all-veranda staterooms and suites",
+          "New culinary concepts: La Table par Maîtres Cuisiniers de France & Nikkei Kitchen",
+          "New suite categories offering expanded residential layouts and verandas",
+          "Next-generation environmental efficiency and sustainable maritime technology"
+        ]
+      }
+    ]
+  },
+  "travelerMatch": {
+    "title": "Which Oceania Ship Is Best for Your Travel Style?",
+    "subtitle": "Matching Oceania's fleet with different traveler preferences",
+    "personas": [
+      {
+        "title": "First-Time Oceania Cruisers",
+        "icon": "Ship",
+        "description": "Allura and Vista provide the gentlest introduction for travelers transitioning from premium lines. They combine contemporary all-veranda accommodations with modern dining venues like Aquamar Kitchen without overwhelming guest counts.",
+        "traits": [
+          "Allura and Vista offer 100% all-veranda staterooms",
+          "Contemporary residential decor feels fresh and familiar",
+          "Marina and Riviera also provide established specialty dining",
+          "Recommended over R-class for guests who desire larger public lounges"
+        ]
+      },
+      {
+        "title": "Couples & Milestone Anniversaries",
+        "icon": "Heart",
+        "description": "All seven ships suit couples seeking romantic, uncrowded luxury. Marina and Riviera offer special occasion dining at Privée and La Reserve, while Nautica, Insignia, and Sirena offer an intimate, quiet boutique ambiance.",
+        "traits": [
+          "Uncrowded lounges and romantic open-seating specialty dining",
+          "No rowdy nightlife or blaring pool deck music",
+          "Intimate sunset verandas and couple-friendly spa terraces",
+          "Privée private dining available for private milestone dinners"
+        ]
+      },
+      {
+        "title": "Solo Travelers",
+        "icon": "Compass",
+        "description": "Vista and Allura feature dedicated solo concierge veranda staterooms designed for single travelers without double supplements. Across all ships, open-seating dining makes meeting new friends effortless.",
+        "traits": [
+          "Dedicated solo veranda cabins on Vista and Allura",
+          "Periodic reduced single-supplement promotions fleetwide",
+          "Open-seating dining makes social dinner conversation effortless",
+          "Safe, boutique ship environment with attentive staff"
+        ]
+      },
+      {
+        "title": "Extended & World Cruise Explorers",
+        "icon": "Landmark",
+        "description": "Insignia and the future Oceania Aurelia are the crown jewels for 60- to 180-day Grand Voyages. Their compact size allows prolonged dockings in smaller, exotic ports across Asia, Africa, and the South Pacific.",
+        "traits": [
+          "Insignia hosts legendary 180-day Around the World voyages",
+          "Oceania Aurelia debuting in late 2027 tailored for extended cruising",
+          "Complimentary self-service launderettes ease multi-month packing",
+          "Deep community bonding among long-voyage repeat guests"
+        ]
+      }
+    ]
+  },
+  "decisionFactors": {
+    "title": "Six Things to Consider Before Choosing an Oceania Ship",
+    "subtitle": "Key factors that should guide your ship selection",
+    "items": [
+      {
+        "title": "Itinerary and Destinations",
+        "description": "Always prioritize the ports of call, overnight dockings, and port times over ship age. A boutique R-class ship might visit remote Greek or Norwegian harbors that larger ships cannot enter."
+      },
+      {
+        "title": "Ship Size & Onboard Scale",
+        "description": "Decide whether you prefer the 670-guest intimacy of R-class ships (Nautica, Insignia, Sirena) or the 1,200–1,250-guest scale of Allura, Vista, Marina, and Riviera with wider entertainment."
+      },
+      {
+        "title": "Dining Venue Preferences",
+        "description": "Review restaurant menus before booking. Jacques (French) is only on Marina and Riviera; Tuscan Steak is exclusive to Sirena; Aquamar Kitchen and The Bakery are on Allura and Vista."
+      },
+      {
+        "title": "Accommodation Configurations",
+        "description": "Allura and Vista are all-veranda ships. Marina, Riviera, and R-class ships offer inside and oceanview categories, allowing budget-conscious travelers to experience Oceania for less."
+      },
+      {
+        "title": "Onboard Amenities & Classes",
+        "description": "If hands-on cooking classes are essential, choose Marina, Riviera, Vista, or Allura for their Culinary Centers. R-class ships have smaller spa and fitness footprints."
+      },
+      {
+        "title": "Total Real-World Vacation Budget",
+        "description": "Compare complete fares including flights, transfers, and excursions. Promotional offers like Your World Included® apply fleetwide, but starting fares vary significantly by vessel and route."
+      }
+    ]
+  },
+  "finalRecommendations": {
+    "title": "Which Oceania Ship Should You Choose? Final Verdict",
+    "eyebrow": "RECOMMENDATION MATRIX",
+    "paragraphs": [
+      "If your priority is the newest ship experience with contemporary residential decor and all-veranda staterooms, choose Oceania Allura (2025) or Oceania Vista (2023). They represent the pinnacle of modern luxury shipboard design.",
+      "If culinary depth and expansive public spaces are paramount, choose Oceania Marina or Oceania Riviera. Their Culinary Centers, La Reserve wine pairings, and Jacques Pépin French bistros remain the gold standard in premium gastronomy.",
+      "If you favor smaller ships with an unhurried, intimate atmosphere and access to boutique, shallow-water harbors worldwide, choose Oceania Nautica, Insignia, or Sirena. And for future global circumnavigations, keep an eye on Oceania Aurelia and Oceania Sonata arriving in 2027."
+    ]
+  },
+  "expert": {
+    "badge": "LUXURY CRUISE SPECIALIST REVIEW",
+    "authorityBoxTitle": "Expert Fleet Assessment from Angela Hughes",
+    "authoritySubtitle": "40+ Years Advising Discerning Cruise Travelers",
+    "name": "Angela Hughes",
+    "title": "CEO & Luxury Cruise Advisor, Trips & Ships Luxury Travel",
+    "experienceBadge": "40+ YEARS CRUISE EXPERTISE",
+    "bio": "Having evaluated ships across every luxury brand, I find Oceania's fleet one of the most thoughtfully differentiated in cruising. Whether you choose the spacious modern grandeur of Vista and Allura, the culinary authority of Marina and Riviera, or the boutique intimacy of the R-class ships, you receive the same impeccable service and The Finest Cuisine at Sea®.",
+    "quote": "There is no wrong Oceania ship—only the right ship for your specific itinerary and travel style. If you want cutting-edge design, book Vista or Allura; if you want intimate port immersion, choose the smaller R-class.",
+    "quoteSubtitle": "On Selecting the Perfect Oceania Ship",
+    "credentials": [
+      "Over 40 Years Planning Custom Luxury Cruise Vacations",
+      "Personally Inspected and Sailed Across Premier Luxury Fleets",
+      "Visited 121+ Countries and Hundreds of Cruise Harbors Worldwide",
+      "Executive Direct Access to Oceania Cruises Fleet Management"
+    ],
+    "ctaText": "Consult Angela on Your Oceania Ship Selection",
+    "ctaLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Cruises Ships",
+    "subtitle": "Answers to the 20 most common questions travelers ask when choosing an Oceania vessel",
+    "questions": [
+      {
+        "question": "How many ships does Oceania Cruises have?",
+        "answer": "As of November 2026, Oceania Cruises operates seven ships: Allura, Vista, Marina, Riviera, Nautica, Insignia, and Sirena. Future ships scheduled for 2027 include Oceania Sonata and Oceania Aurelia."
+      },
+      {
+        "question": "Which Oceania cruise ship is the best?",
+        "answer": "There is no single best ship for everyone. Allura and Vista are best for newer design and all-veranda staterooms; Marina and Riviera are best for culinary diversity and wine pairings; Nautica, Insignia, and Sirena are best for small-ship intimacy."
+      },
+      {
+        "question": "What is the newest Oceania cruise ship?",
+        "answer": "Oceania Allura entered service in 2025, making it the newest operating ship in the fleet. Oceania Sonata is scheduled to debut as the flagship of the Sonata Class in August 2027."
+      },
+      {
+        "question": "What is the largest Oceania cruise ship?",
+        "answer": "Currently, Marina and Riviera are the largest ships with a double-occupancy capacity of approximately 1,250 guests. The upcoming Oceania Sonata (August 2027) will accommodate approximately 1,390 guests."
+      },
+      {
+        "question": "What is the smallest Oceania cruise ship?",
+        "answer": "Nautica, Insignia, and Sirena are the smallest ships, each carrying approximately 670 guests at double occupancy. Their compact size enables access to historic city centers and shallow harbors."
+      },
+      {
+        "question": "Are Oceania Allura and Vista sister ships?",
+        "answer": "Yes. Allura and Vista are sister ships in the Allura Class, sharing the same 1,200-guest capacity, all-veranda stateroom configuration, and contemporary residential design."
+      },
+      {
+        "question": "What is the difference between Oceania Marina and Riviera?",
+        "answer": "Marina and Riviera are sister ships in the O-Class with almost identical 1,250-guest layouts, culinary facilities, and restaurants. The choice between them generally comes down to your preferred sailing dates and itinerary."
+      },
+      {
+        "question": "Which Oceania ship is best for food lovers?",
+        "answer": "All Oceania ships place food at the center of the experience, but Marina and Riviera are particularly celebrated for their Culinary Center cooking schools and La Reserve by Wine Spectator pairing dinners. Allura and Vista also offer contemporary concepts like Aquamar Kitchen."
+      },
+      {
+        "question": "Which Oceania ship is best for first-time cruisers?",
+        "answer": "Allura and Vista are ideal for first-timers seeking contemporary accommodations and all-veranda staterooms. Marina and Riviera are also excellent for travelers wanting an established culinary experience."
+      },
+      {
+        "question": "Are Oceania ships small?",
+        "answer": "Yes, compared to mainstream mega-ships carrying 4,000–6,000 guests, Oceania's fleet ranges from 670 to 1,250 guests, creating an uncrowded, boutique atmosphere."
+      },
+      {
+        "question": "Do all Oceania ships have veranda staterooms?",
+        "answer": "Veranda accommodations are available across the entire fleet. Allura and Vista are designed as 100% all-veranda ships, while Marina, Riviera, and R-class ships also offer inside and oceanview staterooms."
+      },
+      {
+        "question": "Which Oceania ship is best for couples?",
+        "answer": "All seven ships are wonderful for couples. Allura and Vista provide modern romantic luxury, Marina and Riviera offer private dining at Privée, and the smaller R-class ships provide quiet intimacy."
+      },
+      {
+        "question": "Which Oceania ship is best for solo travelers?",
+        "answer": "Vista and Allura feature dedicated solo concierge veranda staterooms with no single supplement. Across all ships, open-seating dining makes meeting other guests easy and welcoming."
+      },
+      {
+        "question": "Which Oceania ship is best for longer voyages?",
+        "answer": "Insignia is the traditional flagship for 180-day Around the World Cruises. The upcoming Oceania Aurelia (November 2027) is specifically designed for extended global journeys."
+      },
+      {
+        "question": "Is Oceania Regatta still part of the fleet?",
+        "answer": "No. Oceania Regatta completed her final voyage for Oceania Cruises in August 2026 and transferred to a new operator. She is no longer sailing under the Oceania brand."
+      },
+      {
+        "question": "What is Oceania Aurelia?",
+        "answer": "Oceania Aurelia is a future ship debuting in November 2027. She is being created through a major reimagining of Oceania Nautica, featuring approximately 238 spacious suites and 400 crew members for extended world voyages."
+      },
+      {
+        "question": "What is Oceania Sonata?",
+        "answer": "Oceania Sonata is the first ship in the new Sonata Class, launching in August 2027 with a capacity of approximately 1,390 guests, all-veranda staterooms, and new culinary venues including Nikkei Kitchen."
+      },
+      {
+        "question": "Are Oceania ships good for families?",
+        "answer": "Oceania is designed for adults, with no kids' clubs, waterslides, or youth programs. Furthermore, Oceania enforces an adults-only policy for new bookings made from January 7, 2026."
+      },
+      {
+        "question": "Do all Oceania ships have the same restaurants?",
+        "answer": "No. While The Grand Dining Room, Polo Grill, and Toscana are widespread, Jacques is on Marina and Riviera, Tuscan Steak is exclusive to Sirena, and Aquamar Kitchen is on Allura and Vista."
+      },
+      {
+        "question": "How do I choose between Oceania cruise ships?",
+        "answer": "Start with your desired itinerary and destinations, choose between small-ship intimacy (670 guests) versus mid-size variety (1,200–1,250 guests), compare dining preferences, and consult a luxury cruise advisor."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Choose Your Oceania Cruise Ship?",
+    "description": "Let Trips & Ships Luxury Travel match your vacation style, preferred itinerary, and dining interests with the perfect Oceania vessel.",
+    "buttonText": "Plan Your Oceania Cruise",
+    "buttonLink": "/contact"
+  }
+}
+

@@ -1744,6 +1744,333 @@ const Nav = () => {
                 Best Destinations for Solo Women
               </NavLink> */}
 
+              <NavLink
+                to="/celebrity-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises Guide
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/aquaclass-vs-concierge-vs-veranda"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity AquaClass vs Concierge vs Veranda
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/captains-club"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Captain's Club Loyalty Guide
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/cost"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruise Cost Guide
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/dress-code"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises Dress Code
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/families"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises for Families
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/gratuities"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises Gratuities Guide
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/infinite-veranda-vs-balcony"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Infinite Veranda vs Balcony
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/ship-classes"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruise Ship Classes
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/solo-travelers"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises for Solo Travelers
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/staterooms"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises Staterooms & Suites
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/the-retreat"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises The Retreat
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/celebrity-vs-holland-america"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity vs Holland America
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/wifi"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Celebrity Cruises Wi-Fi Guide
+              </NavLink>
+
+              <NavLink
+                to="/celebrity-cruises/is-it-worth-it"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Celebrity Cruises Worth It?
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Cruises Overview
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/alaska"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Alaska Cruises
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/oceania-club"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Club Loyalty Program
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/concierge-vs-veranda"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Concierge vs. Veranda
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/cost"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Cruise Cost Guide
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/ships"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Cruise Ships Guide
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/whats-included"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                What's Included on Oceania
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/is-it-worth-it"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Is Oceania Cruises Worth It?
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/dining"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Dining Guide
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/dress-code"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Cruises Dress Code
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/drink-packages"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Drink Packages
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/gratuities"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Cruises Gratuities
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/mediterranean"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Mediterranean Cruises
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/northern-europe"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Northern Europe Cruises
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/penthouse-suites"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Penthouse Suites
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/ship-classes"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Ship Classes Guide
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/shore-excursions"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Shore Excursions
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/solo-travelers"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania for Solo Travelers
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/specialty-dining"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Specialty Dining
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/staterooms-and-suites"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Staterooms & Suites
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/oceania-vs-azamara"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania vs. Azamara
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/oceania-vs-celebrity"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania vs. Celebrity
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/oceania-vs-regent"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania vs. Regent Seven Seas
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/oceania-vs-viking"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania vs. Viking Ocean
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/wifi"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania Cruises Wi-Fi
+              </NavLink>
+
+              <NavLink
+                to="/oceania-cruises/world-cruises"
+                className="nav-dropdown-single"
+                onClick={toggleMenu}
+              >
+                Oceania World Cruises
+              </NavLink>
 
             </div>
           </div>
@@ -3474,6 +3801,334 @@ const Nav = () => {
             >
               Best Destinations for Solo Women
             </NavLink> */}
+
+            <NavLink
+              to="/celebrity-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises Guide
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/aquaclass-vs-concierge-vs-veranda"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity AquaClass vs Concierge vs Veranda
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/captains-club"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Captain's Club Loyalty Guide
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/cost"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruise Cost Guide
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/dress-code"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises Dress Code
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/families"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises for Families
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/gratuities"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises Gratuities Guide
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/infinite-veranda-vs-balcony"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Infinite Veranda vs Balcony
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/ship-classes"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruise Ship Classes
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/solo-travelers"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises for Solo Travelers
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/staterooms"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises Staterooms & Suites
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/the-retreat"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises The Retreat
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/celebrity-vs-holland-america"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity vs Holland America
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/wifi"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Celebrity Cruises Wi-Fi Guide
+            </NavLink>
+
+            <NavLink
+              to="/celebrity-cruises/is-it-worth-it"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Celebrity Cruises Worth It?
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Cruises Overview
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/alaska"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Alaska Cruises
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/oceania-club"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Club Loyalty Program
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/concierge-vs-veranda"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Concierge vs. Veranda
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/cost"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Cruise Cost Guide
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/ships"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Cruise Ships Guide
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/whats-included"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              What's Included on Oceania
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/is-it-worth-it"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Is Oceania Cruises Worth It?
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/dining"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Dining Guide
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/dress-code"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Cruises Dress Code
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/drink-packages"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Drink Packages
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/gratuities"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Cruises Gratuities
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/mediterranean"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Mediterranean Cruises
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/northern-europe"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Northern Europe Cruises
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/penthouse-suites"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Penthouse Suites
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/ship-classes"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Ship Classes Guide
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/shore-excursions"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Shore Excursions
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/solo-travelers"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania for Solo Travelers
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/specialty-dining"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Specialty Dining
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/staterooms-and-suites"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Staterooms & Suites
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/oceania-vs-azamara"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania vs. Azamara
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/oceania-vs-celebrity"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania vs. Celebrity
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/oceania-vs-regent"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania vs. Regent Seven Seas
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/oceania-vs-viking"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania vs. Viking Ocean
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/wifi"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania Cruises Wi-Fi
+            </NavLink>
+
+            <NavLink
+              to="/oceania-cruises/world-cruises"
+              className="nav-dropdown-single"
+              onClick={toggleMenu}
+            >
+              Oceania World Cruises
+            </NavLink>
 
             <span className="mobile-dropdown-divider"></span>
           </div>

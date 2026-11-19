@@ -33,35 +33,59 @@ const DualBrandComparisonTable = ({ title, subtitle, headers, rows }) => {
                 </tr>
               </thead>
               <tbody className="bg-white">
-                {rows.map((row, rowIndex) => (
-                  <tr
-                    key={rowIndex}
-                    className="border-b border-slate-100 last:border-b-0 hover:bg-ice-50/60 transition-colors"
-                  >
-                    <td className="px-6 py-5 font-sans font-semibold text-navy-900 text-sm">
-                      {row.category}
-                    </td>
-                    <td className="px-6 py-5 font-sans text-sm text-slate-600">
-                      {row.avalon}
-                    </td>
-                    <td className="px-6 py-5 font-sans text-sm text-slate-600">
-                      {row.ama}
-                    </td>
-                    <td className="px-6 py-5">
-                      {row.winner && (
-                        <span className={`inline-block font-sans text-[11px] font-bold uppercase tracking-[0.15em] px-3 py-1.5 rounded-full border ${
-                          row.winner.toLowerCase() === 'tie'
-                            ? 'bg-slate-100 text-slate-500 border-slate-200'
-                            : row.winner.toLowerCase().includes('avalon')
-                            ? 'bg-navy-800/10 text-navy-900 border-navy-200'
-                            : 'bg-ice-50 text-navy-800 border-ice-200'
-                        }`}>
-                          {row.winner}
-                        </span>
-                      )}
-                    </td>
-                  </tr>
-                ))}
+                {rows.map((row, rowIndex) => {
+                  if (Array.isArray(row)) {
+                    return (
+                      <tr
+                        key={rowIndex}
+                        className="border-b border-slate-100 last:border-b-0 hover:bg-ice-50/60 transition-colors"
+                      >
+                        {row.map((cell, cellIndex) => (
+                          <td
+                            key={cellIndex}
+                            className={`px-6 py-5 font-sans text-sm ${
+                              cellIndex === 0
+                                ? 'font-semibold text-navy-900'
+                                : 'text-slate-600'
+                            }`}
+                          >
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    );
+                  }
+
+                  return (
+                    <tr
+                      key={rowIndex}
+                      className="border-b border-slate-100 last:border-b-0 hover:bg-ice-50/60 transition-colors"
+                    >
+                      <td className="px-6 py-5 font-sans font-semibold text-navy-900 text-sm">
+                        {row.category}
+                      </td>
+                      <td className="px-6 py-5 font-sans text-sm text-slate-600">
+                        {row.avalon}
+                      </td>
+                      <td className="px-6 py-5 font-sans text-sm text-slate-600">
+                        {row.ama}
+                      </td>
+                      <td className="px-6 py-5">
+                        {row.winner && (
+                          <span className={`inline-block font-sans text-[11px] font-bold uppercase tracking-[0.15em] px-3 py-1.5 rounded-full border ${
+                            row.winner.toLowerCase() === 'tie'
+                              ? 'bg-slate-100 text-slate-500 border-slate-200'
+                              : row.winner.toLowerCase().includes('avalon')
+                              ? 'bg-navy-800/10 text-navy-900 border-navy-200'
+                              : 'bg-ice-50 text-navy-800 border-ice-200'
+                          }`}>
+                            {row.winner}
+                          </span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

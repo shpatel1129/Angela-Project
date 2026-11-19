@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "title": "Oceania Club Loyalty Program: Levels, Benefits & Rewards",
+    "description": "Explore the Oceania Club loyalty program, including Bronze, Silver, Gold, Platinum, Diamond and President's Circle. Learn how to earn cruise credits, unlock benefits and use your status.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/oceania-club",
+    "keywords": "Oceania Club, Oceania Club loyalty program, Oceania Cruises loyalty levels, Oceania Club benefits, Oceania cruise credits, Oceania Club rewards, Oceania President's Circle, Oceania Club status, Oceania Cruises member benefits"
+  },
+  "hero": {
+    "badge": "Oceania Cruises Loyalty Guide",
+    "title": "Oceania Club: Loyalty Levels and Benefits Explained",
+    "subtitle": "Six Membership Tiers, Cruise Credit Earning, Milestone Rewards & Cross-Brand Status",
+    "description": "Explore the full spectrum of Oceania Club loyalty privileges across Bronze, Silver, Gold, Platinum, Diamond and President's Circle. Learn how voyage length accrues cruise credits, unlock shipboard and spa credits, and status-match across Norwegian Cruise Line Holdings sister brands.",
+    "primaryCtaText": "Explore Membership Tiers",
+    "primaryCtaLink": "#membership-levels",
+    "secondaryCtaText": "Speak with Angela Hughes",
+    "secondaryCtaLink": "#expert-advice"
+  },
+  "editorialIntro": {
+    "eyebrow": "Frequent Sailor Rewards",
+    "heading": "What Is the Oceania Club Loyalty Program?",
+    "paragraphs": [
+      "Oceania Club is the loyalty program for guests who sail with Oceania Cruises. It rewards returning travelers with membership privileges, exclusive offers, shipboard credits, beverage-package savings and additional onboard benefits as they accumulate cruise credits.",
+      "The program has six membership levels: Bronze, Silver, Gold, Platinum, Diamond and President's Circle. Your membership level is determined by the number of qualifying cruise credits you earn through completed Oceania voyages.",
+      "The higher your tier, the more privileges become available. Depending on your membership level, these can include priority terminal check-in, complimentary wine tastings, Aquamar Spa treatment credits, savings on the Prestige Select beverage package and other rewards.",
+      "Oceania Club also participates in Norwegian Cruise Line Holdings' Loyalty Status Honoring Program, which allows eligible members to receive equivalent loyalty recognition when sailing with Regent Seven Seas Cruises or Norwegian Cruise Line, subject to the program's terms.",
+      "The short answer: Oceania Club rewards repeat Oceania guests with benefits that increase as they earn cruise credits. Travelers who sail frequently or take longer voyages may progress through the tiers more quickly."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Oceania Club Loyalty Program: At a Glance",
+    "subtitle": "Essential Membership Characteristics & Qualification Rules",
+    "headers": ["Feature", "Program Details"],
+    "rows": [
+      [
+        "Program Name",
+        "Oceania Club"
+      ],
+      [
+        "Cruise Line",
+        "Oceania Cruises"
+      ],
+      [
+        "Membership Levels",
+        "Bronze (2), Silver (10), Gold (15), Platinum (20), Diamond (40), President's Circle (60+)"
+      ],
+      [
+        "Qualification Basis",
+        "Cumulative cruise credits earned based on completed voyage duration"
+      ],
+      [
+        "Shortest Qualifying Voyage",
+        "Voyages up to 24 days earn 1 credit"
+      ],
+      [
+        "Highest Membership Level",
+        "President's Circle (60+ cruise credits)"
+      ],
+      [
+        "Onboard Rewards",
+        "Shipboard credits (up to $1,250), Aquamar Spa credits, beverage savings, priority check-in, laundry"
+      ],
+      [
+        "Cross-Brand Recognition",
+        "Eligible status recognition on Regent Seven Seas Cruises and Norwegian Cruise Line under NCLH"
+      ],
+      [
+        "Enrollment",
+        "Automatic membership number created and associated with your first completed Oceania cruise"
+      ],
+      [
+        "Official Program Portal",
+        "Oceania Club Benefits (experience.oceaniacruises.com/oceania-club-benefits)"
+      ]
+    ]
+  },
+  "sixMembershipLevels": {
+    "title": "What Are the Six Oceania Club Membership Levels?",
+    "subtitle": "Progressive Privileges Across Oceania's Loyalty Tiers",
+    "items": [
+      {
+        "title": "Bronze Member",
+        "badge": "2 Cruise Credits",
+        "description": "The entry milestone offering formal membership recognition, member pin, exclusive members-only offers, 10% onboard logo merchandise savings, a complimentary bottle of private-label wine, member cap upon achievement, and $100 shipboard credit per stateroom."
+      },
+      {
+        "title": "Silver Member",
+        "badge": "10 Cruise Credits",
+        "description": "Introduces elevated onboard social and beverage privileges, including all Bronze benefits, exclusive Oceania Club cocktail reception invitations, 10% savings on the Prestige Select beverage package, and $500 shipboard credit per stateroom."
+      },
+      {
+        "title": "Gold Member",
+        "badge": "15 Cruise Credits",
+        "description": "Adds signature wellness and air privileges, featuring all lower-tier benefits, $650 shipboard credit per stateroom, two complimentary Aquamar Spa treatment credits (each valued up to $150), and two custom air fee waivers."
+      },
+      {
+        "title": "Platinum Member",
+        "badge": "20 Cruise Credits",
+        "description": "A major milestone bringing priority embarkation privileges, including priority terminal check-in, $750 shipboard credit per stateroom, two Aquamar Spa credits (up to $150 each), two custom air fee waivers, and milestone reward eligibility."
+      },
+      {
+        "title": "Diamond Member",
+        "badge": "40 Cruise Credits",
+        "description": "Recognizes extensive sailing history with $1,000 shipboard credit per stateroom, two Aquamar Spa credits (up to $200 each), complimentary sommelier wine tasting, priority terminal check-in, custom air fee waivers, and milestone rewards."
+      },
+      {
+        "title": "President's Circle",
+        "badge": "60+ Cruise Credits",
+        "description": "The pinnacle of Oceania loyalty, providing $1,250 shipboard credit per stateroom, two Aquamar Spa credits (up to $200 each), a complimentary Prestige Select beverage package, General Manager's VIP recognition, and complimentary laundry service."
+      }
+    ]
+  },
+  "creditRequirementsTable": {
+    "title": "Oceania Club Membership Levels and Cruise Credit Requirements",
+    "subtitle": "Cumulative Membership Thresholds and Illustrative Voyage Counts",
+    "headers": ["Membership Level", "Required Credits", "Illustrative 1-Credit Voyages", "Key Tier Privileges"],
+    "rows": [
+      [
+        "Bronze",
+        "2 credits",
+        "2 cruises (up to 24 days each)",
+        "$100 Shipboard Credit, Welcome Wine, Member Pin, 10% Logo Savings"
+      ],
+      [
+        "Silver",
+        "10 credits",
+        "10 cruises (or fewer with longer voyages)",
+        "$500 Shipboard Credit, Exclusive Cocktail Receptions, 10% Beverage Savings"
+      ],
+      [
+        "Gold",
+        "15 credits",
+        "15 cruises (or fewer with longer voyages)",
+        "$650 Shipboard Credit, 2 Aquamar Spa Credits ($150 ea), 2 Air Fee Waivers"
+      ],
+      [
+        "Platinum",
+        "20 credits",
+        "20 cruises (or fewer with longer voyages)",
+        "$750 Shipboard Credit, Priority Terminal Check-In, Milestone Reward Eligibility"
+      ],
+      [
+        "Diamond",
+        "40 credits",
+        "40 cruises (or fewer with longer voyages)",
+        "$1,000 Shipboard Credit, 2 Spa Credits ($200 ea), Complimentary Wine Tasting"
+      ],
+      [
+        "President's Circle",
+        "60+ credits",
+        "60+ cruises (or fewer with longer voyages)",
+        "$1,250 Shipboard Credit, Free Prestige Select Drinks, Laundry, GM VIP List"
+      ]
+    ]
+  },
+  "cruiseCreditAccrual": {
+    "title": "How Do You Earn Oceania Club Cruise Credits?",
+    "paragraphs": [
+      "Oceania Club members earn cruise credits determined by the published duration of completed voyages. Unlike programs based solely on dollar spend, Oceania awards multiple credits on longer voyages, enabling guests who take extended sailings to advance rapidly.",
+      "A standard 10-day voyage earns 1 credit, while a 70-day Grand Voyage earns 7 credits, and a 180-day World Cruise earns 15 credits in a single journey."
+    ],
+    "items": [
+      {
+        "label": "Up to 24 Days",
+        "value": "1 Cruise Credit"
+      },
+      {
+        "label": "25–34 Days",
+        "value": "2 Cruise Credits"
+      },
+      {
+        "label": "35–54 Days",
+        "value": "3–4 Cruise Credits (35-44d: 3, 45-54d: 4)"
+      },
+      {
+        "label": "55–99 Days",
+        "value": "5–7 Cruise Credits (55-64d: 5, 65-99d: 7)"
+      },
+      {
+        "label": "100–157 Days",
+        "value": "10 Cruise Credits"
+      },
+      {
+        "label": "158+ Days / World Cruise",
+        "value": "15 Cruise Credits"
+      }
+    ]
+  },
+  "benefitsAnalysis": {
+    "title": "What Benefits Do Oceania Club Members Receive?",
+    "subtitle": "Comprehensive Value Breakdown of Member Privileges vs. Out-of-Pocket Items",
+    "includedTitle": "Published Loyalty Privileges by Tier",
+    "extrasTitle": "Program Conditions & Excluded Expenses",
+    "included": [
+      {
+        "title": "Tiered Shipboard Credit ($100 to $1,250)",
+        "description": "Generous onboard credit applied per stateroom, escalating from $100 at Bronze to $1,250 for President's Circle members."
+      },
+      {
+        "title": "Aquamar Spa Treatment Credits ($300 to $400)",
+        "description": "Two complimentary spa treatment credits per stateroom at Gold/Platinum ($150 each) and Diamond/President's Circle ($200 each)."
+      },
+      {
+        "title": "Prestige Select Beverage Savings",
+        "description": "10% package savings for Silver, Gold, Platinum, and Diamond; fully complimentary Prestige Select package for President's Circle."
+      },
+      {
+        "title": "Priority Terminal Check-In",
+        "description": "Expedited embarkation check-in at cruise terminals for Platinum, Diamond, and President's Circle guests."
+      },
+      {
+        "title": "Complimentary Sommelier Wine Tasting",
+        "description": "Curated wine tasting events hosted by ship sommeliers for Diamond and President's Circle members."
+      },
+      {
+        "title": "Custom Air Fee Waivers",
+        "description": "Two complimentary custom air administrative fee waivers ($398 published combined value) for Gold members and above."
+      },
+      {
+        "title": "Complimentary Laundry Service",
+        "description": "Full wash-and-fold laundry service provided exclusively for President's Circle members throughout their voyage."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Per-Stateroom Benefit Limits",
+        "description": "Shipboard and spa credits are allocated per stateroom based on double occupancy, not doubled for two elite guests sharing."
+      },
+      {
+        "title": "Non-Refundable / No Cash Value",
+        "description": "Unused shipboard credits or spa allowances expire at the end of the cruise and cannot be redeemed for cash."
+      },
+      {
+        "title": "Airline Differentials & Route Costs",
+        "description": "Custom air fee waivers cover administrative processing fees only; any airline fare differentials remain the guest's responsibility."
+      },
+      {
+        "title": "Excluded Milestone Benefits on Partner Lines",
+        "description": "Cross-brand status recognition with Regent or NCL excludes milestone cruise credits and select elite tier discounts."
+      },
+      {
+        "title": "Special Promotional Fare Exclusions",
+        "description": "Certain deeply discounted travel-industry, interline, or charter bookings may not earn cruise credits or receive club perks."
+      },
+      {
+        "title": "Non-Transferable Account Status",
+        "description": "Membership status, accumulated cruise credits, and milestone rewards cannot be gifted, merged, or transferred between guests."
+      },
+      {
+        "title": "Personal Onboard Incidentals",
+        "description": "Medical consultations, casino gaming, boutique retail purchases, and premium reserve wine cellar selections remain chargeable."
+      }
+    ]
+  },
+  "milestoneCreditShowdown": {
+    "title": "What Is the Oceania Club Milestone Cruise Credit?",
+    "brandA": {
+      "name": "Updated Milestone Cruise Credit (Nov 2, 2026)",
+      "tag": "Current Official Policy",
+      "points": [
+        "Replaced the former 'Free Cruise' voucher benefit effective November 2, 2026",
+        "Awarded per eligible passenger and deposited directly into the member's Oceania Club account",
+        "Calculated based on qualifying cruise history immediately preceding milestone achievement",
+        "Applied toward the cruise-only fare of eligible future Oceania reservations",
+        "A fresh qualifying period begins immediately after each milestone credit is issued"
+      ]
+    },
+    "brandB": {
+      "name": "Legacy Free Cruise Benefit (Pre-Nov 2026)",
+      "tag": "Retired Historical Terms",
+      "points": [
+        "Required manual paper voucher issuance and restrictive inventory request forms",
+        "Subject to stringent capacity controls and blackout dates on popular itineraries",
+        "Calculated under older cruise tier formulas no longer recognized by Oceania",
+        "Guests reading older travel blogs should note this voucher is no longer active",
+        "Cannot be combined with modern promotional fares or milestone credit calculations"
+      ]
+    }
+  },
+  "ambassadorProgram": {
+    "title": "How Does the Oceania Club Ambassador Program Work?",
+    "subtitle": "MEMBER REFERRAL INCENTIVES",
+    "cards": [
+      {
+        "title": "Member Referral Reward",
+        "items": [
+          "Existing Oceania Club members receive a $200 Future Cruise Credit for each eligible referral",
+          "Credit is deposited upon completion of the referred guest's first qualifying voyage",
+          "Can be accumulated across multiple qualifying suite referrals up to published program caps",
+          "Applied directly toward the cruise-only fare of your next Oceania reservation"
+        ]
+      },
+      {
+        "title": "Referred Guest Savings",
+        "items": [
+          "First-time Oceania guests receive an immediate $200 savings off their inaugural booking",
+          "Applies to qualifying stateroom or suite categories booked on eligible published itineraries",
+          "Must be registered through the official Oceania Club Ambassador referral portal prior to booking",
+          "Provides immediate financial incentive for friends and family to experience Oceania"
+        ]
+      },
+      {
+        "title": "Eligibility Requirements",
+        "items": [
+          "Referred traveler must have never previously sailed aboard any Oceania Cruises vessel",
+          "Referral registration must be completed and linked before final reservation deposit",
+          "Applies to commercial public fares; charter and interline bookings are strictly excluded",
+          "Both parties must maintain active, verifiable contact profiles within Oceania's database"
+        ]
+      },
+      {
+        "title": "Redemption & Credit Rules",
+        "items": [
+          "Ambassador Future Cruise Credits carry no cash redemption value and are non-transferable",
+          "Credits typically remain valid for redemption on voyages departing within 24 months",
+          "Cannot be combined with select promotional travel-agent group amenities or employee rates",
+          "Always confirm active Ambassador credit status with your luxury cruise advisor before final payment"
+        ]
+      }
+    ]
+  },
+  "crossBrandRecognition": {
+    "title": "Can You Use Oceania Club Status on Regent or Norwegian?",
+    "rhine": {
+      "title": "Status Honoring on Regent Seven Seas",
+      "subtitle": "Seven Seas Society Tier Alignment",
+      "features": [
+        "Tier Alignment: Oceania Bronze, Silver, Gold, and Platinum map directly to Regent Bronze, Silver, Gold, and Platinum.",
+        "Diamond & President's Circle: Both elite tiers map to Regent Titanium status, Regent's highest recognized honors tier.",
+        "Accrual Integrity: Cruise credits do not transfer between lines; voyages sailed on Regent accumulate Seven Seas Society credits.",
+        "Advance Request Required: Guests must submit reservation details and loyalty numbers at least 10 business days before sailing.",
+        "Milestone Exclusions: Milestone cruise credits, complimentary cruises, and tier upgrade vouchers do not cross over."
+      ]
+    },
+    "danube": {
+      "title": "Status Honoring on Norwegian Cruise Line",
+      "subtitle": "Latitudes Rewards Tier Alignment",
+      "features": [
+        "Tier Alignment: Oceania Bronze, Silver, Gold, and Platinum correspond to NCL Bronze, Silver, Gold, and Platinum.",
+        "Diamond & President's Circle: Both elite Oceania tiers map to NCL Ambassador status, unlocking top-tier Latitudes perks.",
+        "Single-Voyage Scope: Recognition applies temporarily to the specific confirmed sailing and does not permanently change NCL status.",
+        "Processing Timeline: NCL requires at least 10 days' advance notice and may take up to 72 business hours to verify recognition.",
+        "Excluded Benefits: Onboard casino tier matching, free milestone cruise certificates, and specialty dining certificates are excluded."
+      ]
+    }
+  },
+  "bookingEligibilityChecklist": {
+    "title": "Do Oceania Club Benefits Apply to Every Booking?",
+    "subtitle": "PROGRAM CONDITIONS & PRE-BOOKING VERIFICATION",
+    "items": [
+      {
+        "title": "Double-Occupancy & Stateroom Rules",
+        "description": "Most benefits, including shipboard and spa credits, are calculated per stateroom based on double occupancy. When two elite members share a cabin, benefits are not doubled."
+      },
+      {
+        "title": "Commercial vs. Restricted Fares",
+        "description": "Standard public commercial fares qualify fully for cruise credit accrual. However, certain interline rates, employee fares, contest prizes, and charters are excluded."
+      },
+      {
+        "title": "Promotional Rate Compatibility",
+        "description": "Select travel-advisor promotional group rates or limited-time flash sales may restrict the combination of full loyalty benefits or shipboard credits with promotional pricing."
+      },
+      {
+        "title": "Attaching Your Club ID Early",
+        "description": "Your Oceania Club membership number must be attached to the reservation at the time of deposit to ensure priority check-in and loyalty amenities load properly."
+      },
+      {
+        "title": "Non-Transferable & No Cash Value",
+        "description": "Loyalty privileges and cruise credits belong strictly to the individual member; they cannot be transferred, sold, or redeemed for cash if left unused."
+      },
+      {
+        "title": "Pre-Booking Verification Checklist",
+        "description": "Always confirm that your reservation invoice explicitly lists active cruise-credit accrual, tier amenities, and whether milestone rewards apply."
+      }
+    ]
+  },
+  "howToJoinSteps": {
+    "title": "How to Join Oceania Club & Safeguard Your Cruise Credits",
+    "subtitle": "Six Essential Steps to Guarantee Accurate Tier Accrual",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Complete Your Inaugural Cruise",
+        "description": "Oceania Club membership is automatically generated upon completion of your first sailing; an official member number is assigned to your profile."
+      },
+      {
+        "number": "02",
+        "title": "Record Your Membership Number",
+        "description": "Locate your Oceania Club ID on your post-cruise welcome packet or online account dashboard and save it for future reservations."
+      },
+      {
+        "number": "03",
+        "title": "Attach Your ID to Every Booking",
+        "description": "Provide your club number to your travel advisor whenever placing a cruise deposit to ensure tier privileges and credits attach seamlessly."
+      },
+      {
+        "number": "04",
+        "title": "Align Name & Date of Birth",
+        "description": "Verify that your passport name and birthdate exactly match your Oceania Club profile; discrepancies cause automated tracking to fail."
+      },
+      {
+        "number": "05",
+        "title": "Audit Post-Cruise Credit Accrual",
+        "description": "Log into your account 7 to 14 days after disembarking to verify that your completed voyage length and new cruise credits are credited."
+      },
+      {
+        "number": "06",
+        "title": "Reconcile Missing Voyages Promptly",
+        "description": "If a past sailing does not appear, submit your booking invoice and reservation number to Oceania Club support or your travel advisor."
+      }
+    ]
+  },
+  "travelerProfiles": {
+    "title": "Who Benefits Most from Oceania Club Loyalty?",
+    "subtitle": "Five Independent Traveler Profiles That Maximize Oceania Club Tiers",
+    "items": [
+      {
+        "title": "Frequent Oceania Cruisers",
+        "timeframe": "Annual Sailings",
+        "description": "Travelers who cruise once or twice yearly quickly progress to Gold and Platinum, unlocking substantial shipboard credits ($650–$750) and priority embarkation."
+      },
+      {
+        "title": "World & Grand Voyage Cruisers",
+        "timeframe": "60 – 180 Days",
+        "description": "Guests booking 180-day World Cruises earn 15 credits in a single voyage, leaping across multiple tiers and accelerating toward President's Circle."
+      },
+      {
+        "title": "Fine Wine & Culinary Lovers",
+        "timeframe": "Epicurean Voyagers",
+        "description": "Food and wine enthusiasts benefit from complimentary sommelier wine tastings at Diamond, and the fully complimentary Prestige Select package at President's Circle."
+      },
+      {
+        "title": "Aquamar Spa Devotees",
+        "timeframe": "Wellness Travelers",
+        "description": "Guests who frequent the spa maximize $300 to $400 in complimentary treatment credits per stateroom at Gold, Platinum, Diamond, and President's Circle."
+      },
+      {
+        "title": "Multi-Brand NCLH Voyagers",
+        "timeframe": "Sister-Brand Sailors",
+        "description": "Travelers who alternate between Oceania, Regent Seven Seas, and Norwegian leverage reciprocal status recognition without starting from scratch."
+      }
+    ]
+  },
+  "prosAndCons": {
+    "title": "Oceania Club Comparison with Premium Loyalty Programs",
+    "subtitle": "Evaluating Strengths Against Competing Cruise Line Loyalty Structures",
+    "bestForTitle": "Key Strengths of Oceania Club",
+    "bestFor": [
+      {
+        "title": "Voyage-Length Cruise Credit Acceleration",
+        "description": "Longer voyages earn up to 15 credits per sailing, rewarding extended travelers far faster than single-night accrual models."
+      },
+      {
+        "title": "Substantial Shipboard Credits",
+        "description": "Escalates from $100 up to $1,250 per stateroom, providing meaningful cash offsets for shore excursions and reserve wines."
+      },
+      {
+        "title": "Aquamar Spa Treatment Credits",
+        "description": "Two complimentary spa credits ($150 to $200 each) provide genuine luxury pampering on every voyage from Gold tier upward."
+      },
+      {
+        "title": "Complimentary Top-Tier Beverage Package",
+        "description": "President's Circle members receive the Prestige Select beverage package completely free of charge on all voyages."
+      },
+      {
+        "title": "NCLH Cross-Brand Reciprocity",
+        "description": "Status-honoring across Regent Seven Seas and Norwegian Cruise Line expands loyalty recognition across premium and contemporary cruising."
+      }
+    ],
+    "notForTitle": "Considerations & Limitations",
+    "notFor": [
+      {
+        "title": "Cruise Credits Do Not Transfer",
+        "description": "Accumulated credits remain brand-specific; you cannot merge points between Oceania, Regent, or Norwegian."
+      },
+      {
+        "title": "Per-Stateroom Credit Allocation",
+        "description": "Shipboard and spa credits are allocated per cabin rather than per individual passenger, reducing net per-person yield for couples."
+      },
+      {
+        "title": "Retired Free Cruise Benefit",
+        "description": "The legacy complimentary cruise voucher was replaced by the Milestone Cruise Credit on November 2, 2026."
+      },
+      {
+        "title": "Manual Cross-Brand Status Request",
+        "description": "Reciprocal status on sister brands is not automatic; guests must formally submit requests at least 10 days prior to sailing."
+      },
+      {
+        "title": "Excluded Milestone Perks on Partner Brands",
+        "description": "Status-honoring does not extend to milestone cruise rewards, complimentary upgrades, or personalized milestone gifts."
+      }
+    ]
+  },
+  "valueTips": {
+    "title": "Ten Tips for Getting More Value From Oceania Club",
+    "items": [
+      {
+        "title": "Add Club Number Early",
+        "tag": "Booking",
+        "description": "Always attach your Oceania Club number at the time of initial booking to ensure priority embarkation and credits load automatically."
+      },
+      {
+        "title": "Leverage Longer Sailings",
+        "tag": "Strategy",
+        "description": "Sailings over 25 days earn 2+ credits, and 100+ day voyages earn 10 credits, dramatically speeding up tier advancement."
+      },
+      {
+        "title": "Pre-Book Spa Appointments",
+        "tag": "Wellness",
+        "description": "Book Aquamar Spa services on embarkation day to secure prime time slots for your two complimentary loyalty treatment credits."
+      },
+      {
+        "title": "Request NCLH Match 10 Days Prior",
+        "tag": "Reciprocity",
+        "description": "When sailing Regent or NCL, submit your status-honoring request at least 10 days before departure for seamless priority boarding."
+      }
+    ]
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "Luxury Cruise Specialist",
+      "authorityBoxTitle": "Expert Oceania Club Advisory",
+      "authoritySubtitle": "Personalized Loyalty & Itinerary Planning with Trips & Ships",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Elite Travel Advisor",
+      "experienceBadge": "40+ Years Luxury Cruise Leadership",
+      "bio": "Angela Hughes is a celebrated luxury cruise authority with over three decades of executive experience curating world-class voyages. Specializing in Oceania Cruises, Angela helps clients maximize their Oceania Club status, apply milestone credits, navigate NCLH cross-brand reciprocity, and access exclusive travel-advisor amenities.",
+      "quote": "Oceania Club is among the most rewarding loyalty programs in luxury cruising, especially for guests who appreciate fine dining and longer voyages. Knowing how to leverage custom air waivers, spa credits, and status matching unlocks extraordinary value on every sailing.",
+      "quoteSubtitle": "On Maximizing Luxury Cruise Loyalty Value",
+      "credentials": [
+        "Over 30 years of elite luxury travel industry leadership",
+        "Top-producing Oceania Cruises specialist advisor",
+        "Expert in Oceania Club milestone credits and NCLH reciprocity",
+        "End-to-end door-to-door itinerary and VIP stateroom management"
+      ],
+      "ctaText": "Consult with Angela on Oceania Club",
+      "ctaLink": "/contact"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Club",
+    "subtitle": "Clear, Authoritative Answers Regarding Tiers, Credits & Rewards",
+    "questions": [
+      {
+        "question": "What is Oceania Club?",
+        "answer": "Oceania Club is the loyalty program for Oceania Cruises guests. Members earn cruise credits through qualifying voyages and progress through six membership levels, unlocking additional onboard benefits and privileges."
+      },
+      {
+        "question": "What are the Oceania Club membership levels?",
+        "answer": "The six levels are Bronze, Silver, Gold, Platinum, Diamond and President's Circle."
+      },
+      {
+        "question": "How many cruise credits do you need for Oceania Club Bronze?",
+        "answer": "Bronze requires 2 cruise credits under Oceania's published tier structure."
+      },
+      {
+        "question": "How many cruise credits are required for Silver?",
+        "answer": "Silver requires 10 accumulated cruise credits."
+      },
+      {
+        "question": "How many cruise credits are required for Gold?",
+        "answer": "Gold requires 15 accumulated cruise credits."
+      },
+      {
+        "question": "How many cruise credits are required for Platinum?",
+        "answer": "Platinum requires 20 accumulated cruise credits."
+      },
+      {
+        "question": "How many cruise credits are required for Diamond?",
+        "answer": "Diamond requires 40 accumulated cruise credits."
+      },
+      {
+        "question": "How many cruise credits are required for President's Circle?",
+        "answer": "President's Circle requires 60 or more accumulated cruise credits."
+      },
+      {
+        "question": "How do you earn Oceania Club cruise credits?",
+        "answer": "Members earn credits based on the length of qualifying voyages. A voyage of up to 24 days earns one credit, while longer voyages earn additional credits according to Oceania's published schedule."
+      },
+      {
+        "question": "Does a longer Oceania cruise earn more loyalty credits?",
+        "answer": "Yes. Longer qualifying voyages earn more cruise credits. For example, a voyage lasting 100–157 days earns 10 credits under the published schedule."
+      },
+      {
+        "question": "Do Oceania Club members receive shipboard credit?",
+        "answer": "Yes. The published benefit schedule ranges from $100 for Bronze members to $1,250 for President's Circle members per stateroom. Terms and restrictions apply."
+      },
+      {
+        "question": "Which Oceania Club members receive spa credits?",
+        "answer": "Gold, Platinum, Diamond and President's Circle members receive two complimentary Aquamar Spa treatment credits. The value of each credit varies by membership tier."
+      },
+      {
+        "question": "Do Oceania Club members receive beverage-package discounts?",
+        "answer": "Silver, Gold, Platinum and Diamond members receive 10% savings on the Prestige Select beverage package under the published benefits. President's Circle members receive a complimentary package subject to program terms."
+      },
+      {
+        "question": "Do Oceania Club members receive priority check-in?",
+        "answer": "Yes. Priority terminal check-in is a published benefit for Platinum, Diamond and President's Circle members."
+      },
+      {
+        "question": "Does Oceania Club include complimentary laundry?",
+        "answer": "Complimentary laundry service is listed as a President's Circle benefit. The applicable program terms and conditions should be checked before sailing."
+      }
+    ]
+  },
+  "centerCta": {
+    "title": "Maximize Your Oceania Club Status on Your Next Voyage",
+    "subtitle": "Connect with Angela Hughes and Trips & Ships Luxury Travel to verify your loyalty tier, apply eligible shipboard credits, and map your path to higher Oceania Club privileges.",
+    "primaryCtaText": "Speak with an Oceania Specialist",
+    "primaryCtaLink": "/contact"
+  }
+}

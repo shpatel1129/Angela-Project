@@ -1,0 +1,646 @@
+{
+  "meta": {
+    "title": "Oceania Cruises Shore Excursions: Options, Costs & Tips",
+    "description": "Explore Oceania Cruises shore excursions, tour types, costs, included excursion credits, private tours and booking tips. Learn how to choose the right experiences ashore.",
+    "canonical": "https://www.tripsandships.com/oceania-cruises/shore-excursions",
+    "primaryKeyword": "Oceania Cruises shore excursions",
+    "secondaryKeywords": [
+      "Oceania shore excursions",
+      "Oceania Cruises excursion prices",
+      "Oceania excursion credit",
+      "Oceania private shore excursions",
+      "Oceania Go Local tours",
+      "Oceania Culinary Discovery Tours",
+      "Oceania port excursions",
+      "Oceania shore tour booking"
+    ],
+    "publishDate": "2025-02-15",
+    "updated": "2026-03-30"
+  },
+  "hero": {
+    "title": "Oceania Cruises Shore Excursions",
+    "subtitle": "OPTIONS, COSTS, EXCURSION CREDITS & HOW TO CHOOSE",
+    "description": "From chef-led Culinary Discovery Tours and architectural Beyond Blueprints walks to small-group Oceania Exclusive excursions and private Executive Collection vehicles—learn how Oceania's destination program and Your World Included credits work.",
+    "badge": "COMPLETE SHORE EXCURSION GUIDE",
+    "primaryCtaText": "Explore Tour Collections",
+    "primaryCtaLink": "#tour-collections",
+    "secondaryCtaText": "Speak with an Oceania Specialist",
+    "secondaryCtaLink": "/contact"
+  },
+  "editorialIntro": {
+    "eyebrow": "DESTINATION IMMERSION OVERVIEW",
+    "heading": "Are Shore Excursions Included on Oceania Cruises?",
+    "paragraphs": [
+      "Oceania Cruises offers a large collection of shore excursions, but not every tour is automatically included in the cruise fare. Guests can purchase individual excursions, choose from specialty tour collections, arrange private experiences or explore independently.",
+      "Eligible bookings may also receive a shore excursion credit through Oceania's Your World Included program. The credit is an optional booking amenity where guests choose between the shore excursion credit and Complimentary Wine and Beer, subject to applicable booking terms. The credit amount ranges from $400 to $1,200 depending on the length of the voyage.",
+      "Oceania's excursion portfolio includes cultural tours, historical sightseeing, chef-led culinary experiences, small-group excursions, wellness activities, private tours and immersive local community encounters."
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Oceania Cruises Shore Excursions",
+    "subtitle": "AT-A-GLANCE GUIDE TO EXCURSION POLICIES, CREDITS & COLLECTIONS",
+    "headers": ["Feature", "What to Know"],
+    "rows": [
+      ["Shore excursions automatically included?", "Not automatically; tours can be purchased or offset using excursion credits"],
+      ["Excursion credit available?", "Yes, for eligible bookings selecting that amenity under Your World Included"],
+      ["Credit amount", "$400–$1,200 per stateroom depending on voyage length"],
+      ["Complimentary wine and beer", "Alternative booking amenity to the shore excursion credit"],
+      ["Private excursions", "Available through the Executive Collection with private car, driver, and English-speaking guide"],
+      ["Small-group excursions", "Oceania Exclusive tours capped at a maximum of 16 guests"],
+      ["Culinary tours", "Chef-led Culinary Discovery Tours and Food & Wine Trails with market visits"],
+      ["Local experiences", "Go Local tours connecting guests directly with everyday residents and craftspeople"],
+      ["Wellness experiences", "Wellness Discovery Tours by Aquamar focusing on traditional regional health practices"],
+      ["Booking timing", "Recommended to secure selected excursions at least 14 days before sailing when using credits"],
+      ["Independent exploration", "Fully permitted; guests can explore ports on their own schedule"]
+    ]
+  },
+  "destinationPillars": {
+    "title": "What Makes Oceania Shore Excursions Distinctive?",
+    "items": [
+      {
+        "label": "Global Reach",
+        "value": "8,000+ Port Tours",
+        "description": "Extensive catalog of cultural, historic, and active excursions across Mediterranean, Northern European, Asian, and American ports."
+      },
+      {
+        "label": "Culinary Leadership",
+        "value": "Chef-Led Sourcing",
+        "description": "Culinary Discovery Tours led by master chefs visiting local food markets followed by hands-on onboard cooking."
+      },
+      {
+        "label": "Intimate Groups",
+        "value": "Max 16 Guests",
+        "description": "Oceania Exclusive tours ensure small-group intimacy, personalized guide interaction, and agile transport."
+      },
+      {
+        "label": "Extended Stays",
+        "value": "Late Evenings & Overnights",
+        "description": "Itineraries feature late-night departures and multi-day port overnights to experience destinations after dark."
+      }
+    ]
+  },
+  "excursionCredit": {
+    "title": "Oceania Cruises Shore Excursion Credit Explained",
+    "subtitle": "PUBLISHED YOUR WORLD INCLUDED CREDIT AMOUNTS BY VOYAGE LENGTH",
+    "headers": ["Voyage Length", "Shore Excursion Credit", "Coverage Scope", "Eligibility Rule"],
+    "rows": [
+      ["Up to 9 Days", "$400 per stateroom", "Offsets 1 to 2 standard guided port excursions", "Standard stateroom choice of amenity"],
+      ["10–13 Days", "$600 per stateroom", "Offsets 2 to 3 cultural or culinary port tours", "Standard stateroom choice of amenity"],
+      ["14–19 Days", "$800 per stateroom", "Offsets multiple tours across diverse ports of call", "Standard stateroom choice of amenity"],
+      ["20–25 Days", "$1,000 per stateroom", "Generous credit for extended multi-week itineraries", "Standard stateroom choice of amenity"],
+      ["26+ Days / Grand Voyages", "$1,200 per stateroom", "Maximum published allowance for grand voyages", "Standard stateroom choice of amenity"]
+    ],
+    "importantConditions": [
+      "Guests must select Shore Excursion Credit instead of the Complimentary Wine and Beer amenity at booking.",
+      "Guests sharing the same stateroom must choose the same amenity (both choose credit or both choose wine/beer).",
+      "The choice of amenity must be locked in by final payment under published booking terms.",
+      "The credit is calculated per stateroom (single travelers in Solo categories or single-supplement fares receive the per-guest rate).",
+      "Excursions should be selected at least 14 days before sailing to ensure seamless credit application.",
+      "The credit is non-transferable and non-refundable; unused credit converts to shipboard credit on the same voyage or is surrendered at disembarkation."
+    ]
+  },
+  "tourCollections": {
+    "title": "Types of Oceania Cruises Shore Excursions",
+    "intro": [
+      "Oceania categorizes its shore excursions into distinct thematic collections designed for different travel styles.",
+      "From architectural walks and food market shopping to private driver arrangements and small-group outings, discover the 10 tour collections available fleet-wide."
+    ],
+    "items": [
+      {
+        "title": "1. Beyond Blueprints Tours – Architecture & Design",
+        "paragraphs": [
+          "Beyond Blueprints tours offer in-depth architectural and engineering perspectives on world-famous structures and modern design marvels.",
+          "Rather than standard surface sightseeing, guests receive behind-the-scenes access, architectural commentary, and context on how urban landscapes evolved.",
+          "Best for: Architecture aficionados, design enthusiasts, and travelers fascinated by structural engineering and history."
+        ],
+        "lists": [
+          {
+            "title": "Example Beyond Blueprints Highlights",
+            "items": [
+              "Exclusive architectural tours of Gaudí masterworks in Barcelona",
+              "Behind-the-scenes visits to the Royal Library and modern harbor design in Copenhagen",
+              "Palazzo and cathedral engineering perspectives across historic Italian ports",
+              "Contemporary sustainable urban design showcases in Oslo and Helsinki"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Culinary Discovery Tours – Chef-Led Gastronomy",
+        "paragraphs": [
+          "Culinary Discovery Tours are Oceania's flagship food experiences, led directly by chef instructors from The Culinary Center.",
+          "Guests tour bustling neighborhood markets, sample artisanal produce, meet local cheesemakers and vintners, and often return to the ship for a private hands-on cooking class incorporating market ingredients.",
+          "Best for: Serious food lovers, home cooks, and travelers wanting authentic gastronomic immersion."
+        ],
+        "lists": [
+          {
+            "title": "Culinary Discovery Experiences",
+            "items": [
+              "Shopping historic fish and vegetable markets in Marseille, Athens, or Palermo with an executive chef",
+              "Private olive oil tastings and pasta workshops in Tuscan farm estates",
+              "Seafood foraging and Michelin-starred tasting luncheons in Northern Spain",
+              "Exclusive availability aboard Marina, Riviera, Vista, and Allura"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Executive Collection – Private Car, Driver & Guide",
+        "paragraphs": [
+          "The Executive Collection provides the ultimate in private, customizable shore exploration with a private luxury vehicle, driver, and English-speaking guide.",
+          "You retain total control over your schedule, stops, and pace—allowing you to linger at favorite sights or bypass crowded attractions entirely.",
+          "Best for: Couples, multi-generational families, or small private groups desiring total schedule autonomy."
+        ],
+        "lists": [
+          {
+            "title": "Executive Collection Advantages",
+            "items": [
+              "Completely customized itineraries tailored to your exact personal interests",
+              "Door-to-door port pickup and drop-off in a luxury sedan or private minivan",
+              "Total flexibility to adjust tour timing on the fly based on weather or energy levels",
+              "Available in most major worldwide ports subject to advance reservation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Oceania Exclusive Excursions – Small Groups (Max 16)",
+        "paragraphs": [
+          "Oceania Exclusive excursions follow signature guided itineraries but strictly limit party size to a maximum of 16 participants.",
+          "Smaller group sizes ensure agile transport, priority entry, intimate interactions with local guides, and zero waiting on large coach groups.",
+          "Best for: Travelers who appreciate guided structure but dislike large tour buses and crowded groups."
+        ],
+        "lists": [
+          {
+            "title": "Small-Group Excursion Benefits",
+            "items": [
+              "Capped at exactly 16 guests per group for an intimate, boutique feel",
+              "Enhanced two-way dialogue and Q&A with specialist local historians",
+              "Faster embarking and disembarking at popular archaeological and museum sites",
+              "Use of nimble executive mini-coaches rather than 50-passenger buses"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. Go Local Tours – Everyday Life & Community Encounters",
+        "paragraphs": [
+          "Go Local tours bypass typical tourist routes to immerse guests in everyday community life, local traditions, and neighborhood customs.",
+          "Guests visit family-run bakeries, community markets, craft workshops, and private homes to converse with residents and understand regional lifestyles.",
+          "Best for: Curious travelers who value authentic cultural connections over conventional tourist monuments."
+        ],
+        "lists": [
+          {
+            "title": "Go Local Sample Encounters",
+            "items": [
+              "Playing pétanque with village locals in a small French Riviera square",
+              "Visiting traditional textile and ceramic artisans in Greek island mountain villages",
+              "Joining a local family for home-cooked afternoon tea and pastry baking in Ireland",
+              "Exploring residential neighborhood food stalls with local neighborhood residents"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Food & Wine Trails Tours – Terroir & Viticulture",
+        "paragraphs": [
+          "Food & Wine Trails excursions explore regional viticultural heritage, historic wine estates, and gourmet farm-to-table pairings.",
+          "Led by certified sommeliers, culinary experts, or estate winemakers, these tours celebrate the connection between soil, climate, and taste.",
+          "Best for: Wine connoisseurs, vineyard enthusiasts, and travelers passionate about European and New World wine culture."
+        ],
+        "lists": [
+          {
+            "title": "Food & Wine Trails Highlights",
+            "items": [
+              "Cellar tours and private tastings at premier cru estates in Bordeaux and Burgundy",
+              "Super Tuscan vineyard visits and olive grove luncheons in Bolgheri and Chianti",
+              "Rioja and Ribera del Duero bodega tastings paired with regional tapas in Spain",
+              "Sommelier-guided port tastings in historic Vila Nova de Gaia cellars"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. Wellness Discovery Tours by Aquamar – Mindful Travel",
+        "paragraphs": [
+          "Curated in partnership with Oceania's Aquamar Spa + Vitality Center, these tours focus on traditional wellness, restorative nature, and mindfulness.",
+          "Experiences range from thermal hot spring bathing and yoga in scenic coastal settings to learning ancient herbal medicine remedies.",
+          "Best for: Wellness seekers, nature lovers, and travelers wanting peaceful rejuvenation ashore."
+        ],
+        "lists": [
+          {
+            "title": "Wellness Discovery Experiences",
+            "items": [
+              "Therapeutic mineral baths and mud treatments in natural Mediterranean thermal springs",
+              "Guided meditation and yoga on secluded rocky coves in the Greek Isles",
+              "Forest bathing and botanical herbal medicine walks in Scandinavian woodlands",
+              "Centuries-old tea ceremony rituals and restorative wellness traditions in East Asia"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. Go Green Tours – Conservation & Sustainability",
+        "paragraphs": [
+          "Go Green tours highlight ecological conservation, renewable energy initiatives, wildlife preservation, and sustainable agriculture.",
+          "Guests witness how local communities and innovative researchers work to protect vulnerable ecosystems and preserve indigenous heritage.",
+          "Best for: Eco-conscious travelers interested in biodiversity, conservation science, and responsible tourism."
+        ],
+        "lists": [
+          {
+            "title": "Go Green Sustainable Projects",
+            "items": [
+              "Visiting organic solar-powered vineyards and bio-dynamic farms in the Mediterranean",
+              "Marine biology encounters and coral reef restoration projects in the Caribbean and South Pacific",
+              "Reforestation and wildlife rehabilitation center visits in Costa Rica and Norway",
+              "Learning how historic coastal towns implement modern climate-resilience measures"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. Evening Excursions – Nightlife & Sunset Sights",
+        "paragraphs": [
+          "Capitalizing on Oceania's late-night port departures and overnight stays, Evening Excursions reveal a destination's nocturnal charm.",
+          "From sunset catamaran cruises and classical concerts in historic palaces to tapas crawls and night markets, experience ports when day-trippers have left.",
+          "Best for: Night owls, romantic couples, and travelers wanting extended cultural immersion."
+        ],
+        "lists": [
+          {
+            "title": "Evening Port Highlights",
+            "items": [
+              "Chamber music concerts in historic baroque palaces in Vienna or St. Petersburg",
+              "Sunset sailboat cruises along the dramatic caldera cliffs of Santorini",
+              "Private evening dining and flamenco performances in Seville or Barcelona",
+              "Night market culinary walks and neon illuminated harbor tours in Singapore and Tokyo"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. Oceania Select Excursions – Standout Icons",
+        "paragraphs": [
+          "Oceania Select excursions highlight the most iconic, awe-inspiring, and culturally momentous experiences in each global region.",
+          "These curated tours frequently include exclusive access, private transport, and expert guest lecturers for unforgettable bucket-list sightseeing.",
+          "Best for: First-time visitors seeking the definitive, can't-miss highlights of a landmark destination."
+        ],
+        "lists": [
+          {
+            "title": "Oceania Select Landmark Experiences",
+            "items": [
+              "Exclusive early-access guided walkthrough of the Vatican Museums and Sistine Chapel",
+              "Charter flight or private express rail to the Taj Mahal or Luxor's Valley of the Kings",
+              "Helicopter flightseeing over Alaskan glaciers and Hawaiian volcanic craters",
+              "Private after-hours tours of the Hermitage or Topkapi Palace"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pricingFactors": {
+    "title": "What Excursion Inclusions Cover vs. Extra Costs",
+    "subtitle": "UNDERSTANDING HOW TOUR PRICING IS CONSTRUCTED",
+    "includedTitle": "Included in Standard Tour Pricing",
+    "extrasTitle": "Potential Out-of-Pocket Extras",
+    "included": [
+      {
+        "title": "Certified English-Speaking Guides",
+        "description": "Licensed local expert historians, naturalists, and culinary guides throughout the excursion."
+      },
+      {
+        "title": "Dedicated Port Transportation",
+        "description": "Air-conditioned motorcoaches, executive minivans, or private tenders meeting guests at shipside."
+      },
+      {
+        "title": "Guaranteed Return to Ship",
+        "description": "Oceania excursions are fully coordinated with the ship's departure; the ship will wait if tours are delayed."
+      },
+      {
+        "title": "Pre-Arranged Monument Entry",
+        "description": "Pre-paid admission tickets to museums, archaeological parks, and historic landmarks with skip-the-line access."
+      },
+      {
+        "title": "Specified Tastings & Meals",
+        "description": "Multi-course lunches, winery tastings, or market samples where expressly noted in the tour overview."
+      }
+    ],
+    "extras": [
+      {
+        "title": "Excess Costs Above Tour Credit",
+        "description": "If a tour ticket exceeds your stateroom's credit balance, the difference is billed to your shipboard folio."
+      },
+      {
+        "title": "Discretionary Guide & Driver Tips",
+        "description": "Gratuities for local shore guides and motorcoach drivers are voluntary and not included in cruise staff tips."
+      },
+      {
+        "title": "Alcohol Outside Specified Tastings",
+        "description": "Cocktails, premium wines, or extra beverages ordered during tour lunch stops carry separate charges."
+      },
+      {
+        "title": "Personal Shopping & Souvenirs",
+        "description": "Purchases of local handicrafts, spices, wine bottles, and personal items during market free time."
+      },
+      {
+        "title": "Independent Pre/Post Transport",
+        "description": "Taxis or transport taken if you choose to break away from the organized group to explore on your own."
+      }
+    ]
+  },
+  "oceaniaVsIndependent": {
+    "title": "Oceania Shore Excursions vs. Independent Port Exploration",
+    "subtitle": "BALANCING CONVENIENCE, SHIP-GUARANTEED RETURN & FLEXIBILITY",
+    "headers": ["Consideration", "Oceania Organised Shore Excursion", "Independent Port Exploration"],
+    "rows": [
+      ["Booking & Reservation", "Booked online via Oceania portal or onboard desk", "Arranged privately via local operators or DIY"],
+      ["Tour Guide", "Licensed local expert guide included on all guided tours", "Must be sourced, vetted, and hired independently"],
+      ["Transportation", "Dedicated air-conditioned coaches or private cars from pier", "Public transit, local taxis, ferries, or rental cars"],
+      ["Ship Return Guarantee", "Ship is guaranteed to wait in case of traffic delays", "Guest is 100% responsible for returning prior to all-aboard"],
+      ["Excursion Credit Use", "Eligible toward published Your World Included credit", "Credit cannot be applied to third-party independent tours"],
+      ["Group Size", "Standard coach (25–35) or Oceania Exclusive (max 16)", "Private or variable based on chosen third-party vendor"],
+      ["Flexibility & Pacing", "Fixed group schedule with designated stops and timing", "Complete autonomy to explore, stop, or leave whenever you wish"],
+      ["Ideal Port Scenarios", "Distant attractions (e.g. Rome from Civitavecchia, Florence from Livorno)", "Walkable ports with piers near town centers (e.g. Dubrovnik, Old San Juan)"]
+    ]
+  },
+  "threeColumnScenarios": {
+    "title": "Shore Exploration Styles: Which Fits Your Port Day?",
+    "subtitle": "EVALUATING 3 WAYS TO EXPERIENCE DESTINATIONS ASHORE",
+    "items": [
+      {
+        "category": "Style 1: Private & Tailored",
+        "title": "The Executive Collection (Private Car & Guide)",
+        "lead": "Maximum flexibility with dedicated chauffeur and specialist guide",
+        "placeholderLabel": "Private Vehicle",
+        "description": "Ideal for couples celebrating milestones, small family groups, or guests who want to bypass large group dynamics. Customize every stop, bypass crowds, and travel in a private air-conditioned vehicle.",
+        "features": [
+          "Dedicated English-speaking guide and private chauffeur",
+          "Complete schedule control to stay longer or depart earlier at each stop",
+          "Door-to-door pier pickup and guaranteed return to ship",
+          "Perfect for travelers with mobility preferences or specific niche interests"
+        ],
+        "highlight": "Best For: Total privacy, customized stops, and relaxed luxury pacing."
+      },
+      {
+        "category": "Style 2: Boutique & Social",
+        "title": "Oceania Exclusive (Capped at 16 Guests)",
+        "lead": "Small-group intimacy with premier access and agile transportation",
+        "placeholderLabel": "Small Group (16)",
+        "description": "Combines the convenience, expert guidance, and ship guarantees of an Oceania-organized tour with the agility and personal attention of an intimate small group.",
+        "features": [
+          "Strictly limited to a maximum of 16 guests per group",
+          "Comfortable executive mini-coaches with easy access to narrow lanes",
+          "Rich interactive Q&A with specialist local historians and naturalists",
+          "Seamless application of your Your World Included shore excursion credit"
+        ],
+        "highlight": "Best For: Travelers who want curated guidance without large coach crowds."
+      },
+      {
+        "category": "Style 3: Freedom & Discovery",
+        "title": "Independent Walking & Local Exploration",
+        "lead": "Strolling at your own pace directly from the pier into historic town centers",
+        "placeholderLabel": "Independent",
+        "description": "In ports where the ship docks directly beside historic quarters (such as Corfu, Old Town Rhodes, or Kotor), exploring independently offers delightful spontaneity at zero extra cost.",
+        "features": [
+          "Step right off the gangway directly into cobblestone village centers",
+          "Dine at authentic local trattorias, cafes, and bakeries of your choice",
+          "Spend zero dollars on tour tickets; explore museums at your leisure",
+          "Simply ensure you monitor the ship's all-aboard time with a safe buffer"
+        ],
+        "highlight": "Best For: Familiar ports, tender ports with town-center piers, and spontaneous strolls."
+      }
+    ]
+  },
+  "activityAndMobility": {
+    "title": "Activity Ratings & Older Traveler Accessibility",
+    "subtitle": "CRITICAL CONSIDERATIONS BEFORE SELECTING YOUR TOURS",
+    "cards": [
+      {
+        "title": "Oceania Excursion Activity Levels Explained",
+        "items": [
+          "Level 1 (Mild): Involves leisurely walking over relatively even surfaces, with minimal stairs and extended seated transport.",
+          "Level 2 (Moderate): Involves moderate walking (1–2 miles) over cobblestones, uneven terrain, and several flights of stairs.",
+          "Level 3 (Strenuous): Involves strenuous hiking, uphill climbs, rugged terrain, steep stairs, or prolonged exposure to heat/sun.",
+          "Always review the tour's specific physical requirements—a Level 1 tour may still require stepping in and out of high tour buses.",
+          "Historic Mediterranean and European city centers feature uneven cobblestones and limited vehicular access."
+        ]
+      },
+      {
+        "title": "Mobility & Older Traveler Comfort Considerations",
+        "items": [
+          "Collapsible wheelchairs can generally be stored beneath tour motorcoaches if guests can independently navigate bus entry steps.",
+          "Tender ports (where small boats transport guests ashore) may restrict wheelchair embarkation depending on sea conditions.",
+          "The Executive Collection provides the safest, most comfortable alternative for guests with limited stamina or mobility challenges.",
+          "Guests should notify Oceania's Shore Excursion desk upon booking to confirm accessibility arrangements for specific ports.",
+          "Schedule relaxed sea days or independent port mornings between intense tour days to prevent vacation fatigue."
+        ]
+      }
+    ]
+  },
+  "bookingSteps": {
+    "title": "How to Book Oceania Shore Excursions & Apply Credits",
+    "subtitle": "A PRACTICAL 4-PHASE GUIDE FROM SELECTION TO DISEMBARKATION",
+    "steps": [
+      {
+        "title": "Phase 1: Confirm Your Excursion Credit",
+        "description": "Ensure your booking has selected Shore Excursion Credit ($400–$1,200) instead of Complimentary Wine and Beer prior to your final payment deadline."
+      },
+      {
+        "title": "Phase 2: Research Port Options 120+ Days Out",
+        "description": "Log into your Oceania My Account portal to explore available tours across each port on your itinerary, comparing duration, activity rating, and group size."
+      },
+      {
+        "title": "Phase 3: Reserve Online at Least 14 Days Prior",
+        "description": "Secure your preferred tours early. Published terms recommend selecting credit-funded tours at least 14 days before departure to guarantee credit application and avoid sold-out small-group excursions."
+      },
+      {
+        "title": "Phase 4: Confirm Tickets Onboard on Day One",
+        "description": "Upon embarkation, your excursion tickets will be waiting in your stateroom. Review meeting times and locations; stop by Destination Services if any itinerary adjustments are needed."
+      }
+    ]
+  },
+  "expertTips": {
+    "title": "Expert Tips for Getting the Most From Oceania Shore Excursions",
+    "subtitle": "INSIDER STRATEGIES FROM CERTIFIED CRUISE ADVISORS",
+    "items": [
+      {
+        "title": "Book Small Groups Early",
+        "description": "Oceania Exclusive (max 16) and Culinary Discovery Tours fill up fast. Reserve them the moment your booking opens online."
+      },
+      {
+        "title": "Prioritize Denser, Complex Ports",
+        "description": "Use your tour credit for ports where sights are far from the pier (like Florence from Livorno, or Rome from Civitavecchia)."
+      },
+      {
+        "title": "Explore Walkable Towns on Foot",
+        "description": "Save excursion funds in ports where the ship docks directly in town (like Dubrovnik, Kotor, or San Juan) and explore on your own."
+      },
+      {
+        "title": "Verify Cobblestone & Stair Counts",
+        "description": "Check tour descriptions carefully. European medieval towns involve significant cobblestone walking and ancient staircases."
+      },
+      {
+        "title": "Utilize Unused Credit on Board",
+        "description": "If you don't spend all your excursion credit ashore, current published terms allow remaining balances to convert to shipboard credit."
+      },
+      {
+        "title": "Share an Executive Collection Car",
+        "description": "A private van and driver split between two couples often costs less per person than two separate high-end group tours."
+      },
+      {
+        "title": "Leverage Evening Port Stays",
+        "description": "Take advantage of late-night departures by booking an evening tapas crawl or sunset catamaran cruise after daytime crowds depart."
+      },
+      {
+        "title": "Carry Cash for Guide Gratuities",
+        "description": "Local guide and driver tips are customary ($5–$10 per person) and must be paid in local currency, not billed to your cruise folio."
+      },
+      {
+        "title": "Dress Appropriately for Sacred Sites",
+        "description": "Cathedrals and mosques in Italy, Greece, and Turkey strictly enforce covered shoulders and knees. Pack a light scarf or shawl."
+      },
+      {
+        "title": "Mind the 14-Day Booking Rule",
+        "description": "Ensure your credit-funded excursions are finalized online at least 14 days prior to embarkation under published guidelines."
+      }
+    ]
+  },
+  "isItWorthIt": {
+    "title": "Is Oceania Shore Excursions Worth It?",
+    "brandA": {
+      "name": "Oceania Shore Excursions Are an Ideal Fit If You:",
+      "features": [
+        "Value destination immersion, expert local guides, and seamless pier-to-pier transportation",
+        "Love culinary exploration and want to shop regional markets with onboard master chefs",
+        "Prefer small-group intimacy (max 16) over massive 50-passenger cruise buses",
+        "Want guaranteed peace of mind knowing the ship will never leave without an organized tour",
+        "Can leverage the Your World Included $400–$1,200 shore excursion credit toward tour costs"
+      ]
+    },
+    "brandB": {
+      "name": "Consider Alternative Options If You:",
+      "features": [
+        "Expect every single shore excursion to be 100% complimentary without any out-of-pocket costs",
+        "Prefer completely unstructured independent backpacking and public transit at every port",
+        "Dislike any organized group schedules or predetermined sightseeing agendas",
+        "Prefer choosing the Complimentary Wine and Beer amenity instead of the excursion credit"
+      ]
+    }
+  },
+  "expertAdvice": {
+    "expert": {
+      "badge": "OCEANIA ELITE CRUISE ADVISOR",
+      "authorityBoxTitle": "Need Personalized Guidance on Oceania Shore Excursions?",
+      "authoritySubtitle": "Angela Hughes — Luxury Cruise Specialist & Founder of Trips & Ships Luxury Travel",
+      "name": "Angela Hughes",
+      "title": "Luxury Cruise Specialist & Oceania Elite Cruise Advisor",
+      "experienceBadge": "40+ Years Luxury Travel Experience",
+      "bio": "Angela Hughes has explored hundreds of ports worldwide with Oceania Cruises, helping travelers match their personal mobility, cultural interests, and excursion credits to the most rewarding shore experiences.",
+      "quote": "Oceania's destination programming is among the finest in the industry. Whether you're foraging for white truffles in Piedmont on a Culinary Discovery Tour or touring ancient Ephesus with a private historian, using your Your World Included credit strategically turns standard port visits into lifelong memories.",
+      "quoteSubtitle": "A Personal Perspective on Oceania's Destination Immersion",
+      "credentials": [
+        "Certified Oceania Cruises Elite Master Advisor",
+        "Condé Nast Traveler Top Travel Specialist",
+        "Direct experience with Culinary Discovery Tours, Beyond Blueprints, and Executive Collection fleet-wide",
+        "Custom port itinerary curation and excursion credit optimization for all clients"
+      ],
+      "ctaText": "Plan Your Oceania Cruise With Angela",
+      "ctaLink": "/contact"
+    }
+  },
+  "centerCta": {
+    "title": "Ready to Discover the World with Oceania Cruises?",
+    "subtitle": "Let Trips & Ships Luxury Travel guide your excursion selections, booking amenity choices, and suite reservations.",
+    "primaryCtaText": "Plan Your Oceania Voyage",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore All Oceania Cruises",
+    "secondaryCtaLink": "/oceania-cruises"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Oceania Shore Excursions",
+    "subtitle": "EVERYTHING YOU NEED TO KNOW ABOUT CREDITS, BOOKING & TOUR TYPES",
+    "questions": [
+      {
+        "question": "Are shore excursions included on Oceania Cruises?",
+        "answer": "Not all shore excursions are automatically included in the cruise fare. Eligible bookings can choose a shore excursion credit as one of the Your World Included amenities, which can be applied toward qualifying excursions under booking terms."
+      },
+      {
+        "question": "How much shore excursion credit does Oceania Cruises offer?",
+        "answer": "The current published credit ranges from $400 to $1,200 depending on voyage length: up to 9 days receives $400; 10–13 days receives $600; 14–19 days receives $800; 20–25 days receives $1,000; and 26 days or longer receives $1,200 per stateroom."
+      },
+      {
+        "question": "Is Oceania's shore excursion credit per person or per stateroom?",
+        "answer": "It is generally per stateroom. Published terms provide an exception for qualifying solo travelers booked in a Solo category or with a single-supplement discount, where the credit is calculated per guest."
+      },
+      {
+        "question": "Can I choose shore excursion credit instead of complimentary wine and beer?",
+        "answer": "Yes. Eligible bookings can choose one of the two amenities: Shore Excursion Credit or Complimentary Wine and Beer. They are alternatives rather than cumulative benefits."
+      },
+      {
+        "question": "Can I use Oceania shore excursion credit for any tour?",
+        "answer": "The credit is subject to Oceania's booking terms and excursion eligibility. Review the available tours and applicable conditions in your My Account portal before making reservations."
+      },
+      {
+        "question": "What happens if I do not use all my shore excursion credit?",
+        "answer": "Under current published terms, unused credit can be used as shipboard credit on the same voyage. Any amount not used by disembarkation is surrendered."
+      },
+      {
+        "question": "When should I book Oceania shore excursions?",
+        "answer": "Book early where possible, particularly for limited-capacity tours. Guests selecting the current shore excursion credit are advised to secure their excursions at least 14 days before sailing."
+      },
+      {
+        "question": "Can I book Oceania shore excursions after boarding?",
+        "answer": "Availability may remain after boarding at the Destination Services desk, but popular excursions can sell out. It is strongly recommended to reserve preferred experiences before departure."
+      },
+      {
+        "question": "Does Oceania offer private shore excursions?",
+        "answer": "Yes. The Executive Collection provides private driver and English-speaking guide arrangements in selected ports, subject to availability."
+      },
+      {
+        "question": "What are Oceania Exclusive excursions?",
+        "answer": "Oceania Exclusive excursions are small-group experiences strictly capped at a maximum of 16 guests. They are designed to offer a more intimate tour and greater personal attention."
+      },
+      {
+        "question": "What are Oceania Go Local tours?",
+        "answer": "Go Local tours focus on everyday life in a destination. They may include visits to local homes, neighborhood businesses, community markets, craftspeople and authentic cultural experiences."
+      },
+      {
+        "question": "What are Culinary Discovery Tours?",
+        "answer": "Culinary Discovery Tours focus on local food culture led by chef instructors from The Culinary Center. Guests visit food markets, meet producers, taste regional dishes, and participate in hands-on cooking classes."
+      },
+      {
+        "question": "What are Beyond Blueprints tours?",
+        "answer": "Beyond Blueprints tours focus on architecture and design, offering behind-the-scenes access and commentary on significant historic and contemporary buildings."
+      },
+      {
+        "question": "Does Oceania offer food and wine excursions?",
+        "answer": "Yes. Food & Wine Trails tours explore regional cuisine and wine traditions, featuring winery visits, sommelier tastings, and estate luncheons in premier wine regions."
+      },
+      {
+        "question": "Are Oceania shore excursions suitable for older travelers?",
+        "answer": "Some excursions are suitable for guests who prefer a relaxed pace, but activity levels vary. Review walking distances, stairs, cobblestones, and physical requirements before booking."
+      },
+      {
+        "question": "Can I arrange my own private tour instead of booking through Oceania?",
+        "answer": "Yes. Guests can arrange independent tours and transportation, but must carefully manage return timing. Independent excursions do not qualify for Oceania's shore excursion credit and the ship will not wait if you are delayed."
+      },
+      {
+        "question": "Are Oceania shore excursions refundable?",
+        "answer": "Cancellation terms vary by excursion. The cruise line's general terms state that optional services, including shore excursions, are generally non-refundable except where expressly provided in the applicable contract or tour conditions."
+      },
+      {
+        "question": "Do Oceania shore excursions include meals?",
+        "answer": "Some excursions include meals, tastings or refreshments, while others do not. Check the individual tour description to confirm what is covered."
+      },
+      {
+        "question": "Do Oceania shore excursions include transportation?",
+        "answer": "Organized excursions generally specify the transportation included in the tour description (air-conditioned motorcoaches, executive minivans, or boats)."
+      },
+      {
+        "question": "Are Oceania shore excursions worth the cost?",
+        "answer": "They are worthwhile when the tour offers knowledgeable guides, convenient transportation, special access or a distinctive cultural experience. Compare the price with what you would spend arranging the same experience independently."
+      }
+    ]
+  }
+}
+

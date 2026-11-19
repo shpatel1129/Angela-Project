@@ -1,0 +1,1071 @@
+{
+  "meta": {
+    "title": "Celebrity Cruises vs. Holland America: Which Is Better?",
+    "description": "Celebrity Cruises vs. Holland America: compare ships, dining, entertainment, cabins, destinations, pricing, and onboard atmosphere to find your best fit.",
+    "keywords": [
+      "Celebrity Cruises vs. Holland America",
+      "Celebrity vs Holland America cruises",
+      "Celebrity Cruises or Holland America",
+      "Celebrity Cruises vs Holland America Line",
+      "Holland America vs Celebrity comparison",
+      "Which cruise line is better Celebrity or Holland America",
+      "Celebrity vs Holland America Alaska cruises",
+      "Celebrity vs Holland America dining",
+      "Celebrity vs Holland America ships"
+    ],
+    "canonical": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america"
+  },
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.tripsandships.com/assets/logo.png"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#author-angela-hughes",
+        "name": "Angela Hughes",
+        "jobTitle": "Luxury Cruise Specialist & Travel Industry Expert",
+        "worksFor": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "description": "With over 40 years of luxury travel and cruise consulting experience, Angela Hughes provides expert comparative guidance between premier cruise lines."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com",
+        "name": "Trips & Ships Luxury Travel"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america#webpage",
+        "url": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america",
+        "name": "Celebrity Cruises vs. Holland America: Which Is Better?",
+        "description": "Celebrity Cruises vs. Holland America: compare ships, dining, entertainment, cabins, destinations, pricing, and onboard atmosphere to find your best fit.",
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Celebrity Cruises",
+            "item": "https://www.tripsandships.com/celebrity-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Celebrity vs. Holland America",
+            "item": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america#article",
+        "headline": "Celebrity Cruises vs. Holland America: Which Fits Your Travel Style?",
+        "description": "Celebrity Cruises vs. Holland America: compare ships, dining, entertainment, cabins, destinations, pricing, and onboard atmosphere to find your best fit.",
+        "author": {
+          "@id": "https://www.tripsandships.com/#author-angela-hughes"
+        },
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america#webpage"
+        },
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/celebrity-vs-holland-america#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Cruises better than Holland America?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Neither cruise line is universally better. Celebrity is generally a stronger fit for travelers who prefer contemporary ship design, modern dining, and a resort-style atmosphere. Holland America may be better for travelers who value classic cruising, live music, and destination-focused itineraries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the main difference between Celebrity Cruises and Holland America?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The main difference is the onboard atmosphere. Celebrity emphasizes contemporary design, modern restaurants, and varied entertainment. Holland America focuses more on traditional premium cruising, destination immersion, live music, and enrichment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line is more luxurious, Celebrity or Holland America?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both operate in the premium cruise market. Celebrity's Retreat offers a distinctive contemporary suite experience, while Holland America has premium accommodation categories such as Neptune and Pinnacle Suites. The level of luxury depends on the ship, cabin category, and fare."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line has better food?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity offers contemporary restaurant concepts and specialty dining options. Holland America emphasizes destination-inspired menus and established specialty restaurants. Food quality and preference vary by ship and restaurant."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Cruises more expensive than Holland America?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pricing varies by itinerary, ship, date, cabin, and promotional offer. Compare the total cost of similar sailings, including drinks, Wi-Fi, gratuities, specialty dining, and excursions, rather than assuming one line is always more expensive."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line has better entertainment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity generally offers a more contemporary mix of theater productions, bars, lounges, and entertainment venues. Holland America is particularly appealing to guests who enjoy live music, cultural programming, and destination-related presentations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line is better for Alaska?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both offer Alaska cruises. Holland America may appeal to travelers who prioritize destination immersion and longer itineraries, while Celebrity suits those who prefer contemporary ships and a modern onboard experience. Compare the exact ports, glacier experiences, and sailing dates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line has better ships?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's Edge Series is known for contemporary architecture and innovative public spaces. Holland America's Pinnacle Class combines modern facilities with a more traditional cruise atmosphere. The best ship depends on what you value."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line is better for couples?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity may suit couples who enjoy stylish dining, modern entertainment, and contemporary ship design. Holland America may appeal more to couples who prefer live music, relaxed evenings, and destination-focused voyages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Cruises better for families?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity offers Camp at Sea and family-oriented facilities on eligible ships. Holland America offers Club HAL on eligible ships and sailings. Compare the actual youth facilities and activities on the vessel you plan to book."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line is better for older travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both welcome older travelers. Holland America's classic atmosphere and enrichment programming may appeal to some, while Celebrity's modern ship design and entertainment may appeal to others. Mobility, itinerary, and personal preferences matter more than age alone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line is better for solo travelers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both can work well for solo guests. Compare single-occupancy pricing, solo cabin availability, social activities, hosted gatherings, and excursions on the exact sailing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Celebrity Cruises have more nightlife than Holland America?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity generally offers a broader contemporary nightlife environment with a variety of bars, lounges, clubs, and entertainment spaces. Holland America emphasizes live music and relaxed evening entertainment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line has better live music?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Holland America has a particularly recognizable live music offering, with venues such as Rolling Stone Lounge and other music spaces on selected ships. Celebrity also offers live music in lounges and other venues."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which cruise line has better dining packages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both offer optional dining packages and promotions on eligible sailings. Compare the restaurants included, number of meals, booking conditions, and price before purchasing."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "PREMIUM CRUISE COMPARISON",
+    "title": "Celebrity Cruises vs. Holland America: Which Fits Your Travel Style?",
+    "subtitle": "A comprehensive, side-by-side comparison of ships, dining, entertainment, accommodations, destinations, pricing, and onboard atmosphere.",
+    "author": {
+      "name": "Angela Hughes",
+      "role": "Luxury Cruise Specialist",
+      "date": "March 30, 2026",
+      "readTime": "18 min read"
+    },
+    "primaryCtaText": "Compare Specific Sailings",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Comparison",
+    "secondaryCtaLink": "#quick-comparison"
+  },
+  "intro": {
+    "badge": "THE CORE DIFFERENCE",
+    "heading": "Celebrity Cruises vs. Holland America: Which Fits Your Travel Style?",
+    "paragraphs": [
+      "Choosing between Celebrity Cruises and Holland America Line is not simply a question of which cruise line is better. Both offer premium ocean cruising, attractive destinations, quality dining, comfortable accommodations, and an experience that goes beyond basic transportation between ports.",
+      "The difference is in how they deliver that experience. Celebrity Cruises generally appeals to travelers who enjoy contemporary ship design, stylish restaurants and bars, innovative entertainment, and a modern resort-style atmosphere. Its Edge Series ships, specialty dining concepts, and suite experience through The Retreat are particularly appealing to guests who value contemporary design and onboard experiences.",
+      "Holland America Line takes a more traditional approach to premium cruising. Its ships emphasize destination-focused itineraries, live music, culinary experiences, enrichment activities, and a relaxed atmosphere. Travelers who enjoy longer voyages, classic cruise traditions, and exploring ports at a comfortable pace may find Holland America especially appealing.",
+      "Neither cruise line is automatically the better choice. The right option depends on the ship, itinerary, budget, preferred onboard atmosphere, and the type of vacation you want."
+    ]
+  },
+  "quickComparison": {
+    "title": "Celebrity Cruises vs. Holland America: Quick Comparison",
+    "subtitle": "Side-by-side overview across all key cruising categories.",
+    "headers": [
+      "Category",
+      "Celebrity Cruises",
+      "Holland America Line"
+    ],
+    "rows": [
+      [
+        "Overall atmosphere",
+        "Contemporary, stylish, resort-inspired",
+        "Classic, relaxed, destination-focused"
+      ],
+      [
+        "Cruise experience",
+        "Modern premium cruising",
+        "Traditional premium cruising"
+      ],
+      [
+        "Ship design",
+        "Contemporary architecture and innovative spaces",
+        "Classic ship layouts with comfortable public areas"
+      ],
+      [
+        "Dining",
+        "Diverse restaurants and modern culinary concepts",
+        "Destination-inspired dining and established specialty restaurants"
+      ],
+      [
+        "Entertainment",
+        "Large-scale productions, live music, immersive venues",
+        "Live music, cultural programming, theater productions"
+      ],
+      [
+        "Evening atmosphere",
+        "Stylish bars, lounges, and varied nightlife",
+        "Live music venues and a more relaxed evening pace"
+      ],
+      [
+        "Accommodations",
+        "Edge-class Infinite Verandas, AquaClass, The Retreat suites",
+        "Veranda staterooms, Signature and Neptune Suites, Pinnacle Suites"
+      ],
+      [
+        "Destination focus",
+        "Broad global itineraries, including Galapagos",
+        "Strong destination and longer-voyage focus"
+      ],
+      [
+        "Alaska",
+        "Scenic itineraries and contemporary ships",
+        "Strong Alaska presence and destination-oriented programming"
+      ],
+      [
+        "Families",
+        "Camp at Sea and family-oriented facilities",
+        "Club HAL and family facilities"
+      ],
+      [
+        "Longer voyages",
+        "Select extended sailings and Grand Voyage offerings",
+        "Grand Voyages and extended itineraries are a notable strength"
+      ],
+      [
+        "Best suited to",
+        "Travelers who enjoy modern design and a lively premium atmosphere",
+        "Travelers who appreciate classic cruising and destination immersion"
+      ]
+    ],
+    "verdict": "The short verdict: Choose Celebrity if contemporary ship design, stylish dining, and a more modern onboard atmosphere are priorities. Choose Holland America if live music, destination-focused experiences, classic cruising, and longer itineraries appeal more to you."
+  },
+  "atmosphere": {
+    "title": "Celebrity Cruises vs. Holland America: Overall Onboard Atmosphere",
+    "subtitle": "The onboard atmosphere is one of the most noticeable differences between these cruise lines. Both offer a premium experience, but the ships feel different once you step aboard.",
+    "features": [
+      {
+        "title": "Celebrity Cruises: Contemporary and design-focused",
+        "description": "Celebrity Cruises has developed a recognizable contemporary style, particularly on its Edge Series ships. The experience emphasizes modern interior architecture, contemporary restaurants and bars, stylish lounges and social spaces, large entertainment productions, innovative outdoor and indoor venues, and a polished resort-style environment. On ships such as Celebrity Ascent, Celebrity Beyond, Celebrity Apex, and Celebrity Xcel, the design is a significant part of the experience. The Magic Carpet, Eden, Rooftop Garden, and distinctive pool areas give these ships a contemporary character."
+      },
+      {
+        "title": "Holland America: Classic elegance and destination immersion",
+        "description": "Holland America has a more traditional approach to premium cruising. Its ships emphasize comfortable public spaces, thoughtful service, destination-related experiences, and an atmosphere that encourages guests to enjoy the voyage at a relaxed pace. Common characteristics include classic ship interiors, comfortable lounges and observation spaces, live music venues, culinary experiences inspired by destinations, enrichment programming, and a relaxed approach to evenings at sea. Holland America's Pinnacle Class ships (Rotterdam, Nieuw Statendam, Koningsdam) combine contemporary facilities with established style, while smaller R Class vessels offer an intimate ambiance."
+      },
+      {
+        "title": "Which atmosphere is better?",
+        "description": "Celebrity is generally the stronger fit for travelers who enjoy contemporary design, stylish social spaces, and a more modern resort atmosphere. Holland America may be a better fit for guests who appreciate traditional cruise experiences, quieter spaces, live music, and a destination-focused journey."
+      }
+    ]
+  },
+  "shipsAndFleet": {
+    "title": "Celebrity vs. Holland America: Ships and Fleet Experience",
+    "subtitle": "The ship you choose can make as much difference as the cruise line itself. Celebrity’s fleet includes contemporary Edge, Solstice, and Millennium Series, while Holland America organizes its fleet into Pinnacle, Signature, Vista, and R classes.",
+    "hollandTable": {
+      "title": "Holland America Line Ship Classes Overview",
+      "subtitle": "Fleet breakdown from intimate traditional vessels to contemporary flagships",
+      "headers": [
+        "Ship class",
+        "Example ships",
+        "General characteristics"
+      ],
+      "rows": [
+        [
+          "Pinnacle Class",
+          "Rotterdam, Nieuw Statendam, Koningsdam",
+          "Larger contemporary ships with extensive dining and entertainment facilities"
+        ],
+        [
+          "Signature Class",
+          "Nieuw Amsterdam, Eurodam",
+          "Mid-sized ships with established dining and onboard experiences"
+        ],
+        [
+          "Vista Class",
+          "Noordam, Oosterdam, Westerdam, Zuiderdam",
+          "Traditional ship layouts and a comfortable premium atmosphere"
+        ],
+        [
+          "R Class",
+          "Volendam, Zaandam",
+          "Smaller ships with a more intimate cruising environment"
+        ]
+      ]
+    },
+    "celebrityText": "Celebrity's Edge Series (Edge, Apex, Beyond, Ascent, Xcel) is particularly distinctive because of its architecture and spaces like the Magic Carpet and Eden. Celebrity's Solstice and Millennium Series offer a different onboard experience, while Celebrity Flora provides specialized Galapagos exploration.",
+    "comparisonVerdict": "Which cruise line has better ships? There is no universal winner. Celebrity's Edge Series is particularly attractive to travelers who prioritize contemporary architecture, innovative venues, and modern design. Holland America's Pinnacle Class may appeal more to guests who want a combination of traditional cruising and modern facilities. For a fair comparison, compare ships of similar size and age, not simply the newest ship from one line against an older vessel from the other."
+  },
+  "dining": {
+    "title": "Dining: Celebrity Cruises vs. Holland America",
+    "subtitle": "Dining is an important part of both cruise experiences, but the restaurants and culinary styles differ.",
+    "features": [
+      {
+        "title": "Celebrity Cruises Dining Concepts",
+        "description": "Celebrity emphasizes contemporary culinary concepts and a wide range of dining environments. Venues include Main dining rooms, Oceanview Café buffet, casual cafés, Fine Cut Steakhouse, Le Voyage, Raw on 5, Tuscan Grille, Blu for eligible AquaClass guests, and Luminae for Retreat guests. Celebrity is particularly appealing to travelers who enjoy exploring different restaurant concepts and dining in contemporary spaces.",
+        "tags": [
+          "Main Dining Rooms & Oceanview Café",
+          "Fine Cut Steakhouse & Le Voyage",
+          "Raw on 5 & Tuscan Grille",
+          "Blu (AquaClass) & Luminae (The Retreat)"
+        ],
+        "highlight": "Celebrity excels in trendy culinary design, upscale international concepts, and dedicated class-specific dining rooms."
+      },
+      {
+        "title": "Holland America Destination-Inspired Dining",
+        "description": "Holland America combines established cruise dining traditions with destination-inspired menus and specialty restaurants. Venues include the Main Dining Room, Lido Market, Dive-In, Pinnacle Grill, Tamarind, Canaletto, Morimoto by Sea, and Grand Dutch Café. Holland America places particular emphasis on culinary experiences inspired by the destinations visited, featuring regional ingredients that connect dining with the itinerary.",
+        "tags": [
+          "Main Dining Room & Lido Market",
+          "Pinnacle Grill & Canaletto",
+          "Tamarind & Morimoto by Sea",
+          "Grand Dutch Café & Dive-In Burgers"
+        ],
+        "highlight": "Holland America features a renowned Culinary Council with world-class guest chefs and fresh regional port-to-plate sourcing."
+      }
+    ],
+    "verdict": "Which cruise line has better food? Celebrity may be a stronger fit for travelers who enjoy modern restaurant concepts, contemporary presentations, and a broad range of dining experiences. Holland America may appeal to travelers who appreciate destination-inspired menus, classic dining, and a more traditional culinary approach. If dining is a major deciding factor, compare the actual restaurants available on the two ships you are considering."
+  },
+  "entertainment": {
+    "title": "Entertainment and Nightlife: Which Is More Exciting?",
+    "subtitle": "Entertainment is another area where the cruise lines have different personalities.",
+    "cards": [
+      {
+        "title": "Celebrity: High-Energy & Immersive",
+        "badge": "MODERN NIGHTLIFE",
+        "icon": "Sparkles",
+        "description": "Celebrity offers large-scale theater productions, live music, comedy, dance and acrobatic shows, silent discos, themed parties, and nightclubs. On Edge Series ships, Eden and The Club provide distinctive settings for entertainment and social activities, while the Martini Bar serves as a bustling social centerpiece.",
+        "features": [
+          "Large-scale theatrical & acrobatic productions",
+          "Eden multi-sensory immersive performance venue",
+          "The Club nightlife, silent discos & themed parties",
+          "Lively Martini Bar with flair bartending"
+        ]
+      },
+      {
+        "title": "Holland America: Live Music Walk",
+        "badge": "AUTHENTIC LIVE MUSIC",
+        "icon": "Compass",
+        "description": "Holland America has an industry-leading focus on live music and cultural entertainment. Depending on the ship, guests enjoy the Rolling Stone Lounge, Billboard Onboard, B.B. King's Blues Club, World Stage productions, classical performances, cooking demonstrations, and destination enrichment presentations.",
+        "features": [
+          "Rolling Stone Lounge rock & pop performances",
+          "Billboard Onboard dueling pianos & chart hits",
+          "B.B. King's Blues Club Memphis rhythm & blues",
+          "World Stage LED media wall productions & lectures"
+        ]
+      },
+      {
+        "title": "Which Has Better Nightlife?",
+        "badge": "VERDICT & FIT",
+        "icon": "Ship",
+        "description": "Celebrity is generally the better choice if you want a wider variety of contemporary entertainment spaces and a more energetic evening atmosphere. Holland America is a strong choice if live music, cultural programming, and relaxed evenings are more important than nightclubs and late-night partying.",
+        "features": [
+          "Choose Celebrity for upbeat lounges, DJs & late nights",
+          "Choose Holland America for exceptional live music genres",
+          "Always verify venue lineups on your specific vessel"
+        ]
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Destinations and Itineraries: Celebrity vs. Holland America",
+    "subtitle": "Both cruise lines visit destinations across the world, including Alaska, the Caribbean, Europe, Asia, South America, and other regions. However, their itinerary strengths and voyage styles can differ.",
+    "summary": "Celebrity offers broad global itineraries with a standout Galapagos small-ship program and stylish Mediterranean and Caribbean sailings. Holland America boasts historic leadership in Alaska, extensive Panama Canal transits, and world-renowned Grand Voyages.",
+    "features": [
+      "Celebrity Global Routes: Caribbean, Alaska, Mediterranean, Northern Europe, South America, Australia/New Zealand, Asia, Bermuda, Transatlantic, and specialized Galapagos expeditions on Celebrity Flora.",
+      "Holland America Global Routes: Alaska, Caribbean, Canada & New England, Europe, Hawaii, Mexico, Panama Canal, South America, Asia, Australia/New Zealand, South Pacific, and iconic Grand World Voyages.",
+      "Alaska Comparison: Both lines are top-tier in Alaska, but Holland America offers more Glacier Bay permits, longer port stays, and historic Yukon land-sea cruisetour infrastructure.",
+      "Celebrity in Alaska delivers modern resort-style sailing with Edge Series architecture, glass observation venues, and upscale staterooms."
+    ],
+    "alaskaDecision": {
+      "title": "Which Cruise Line Is Better for Alaska?",
+      "celebrityIf": [
+        "You prefer contemporary ships and modern public spaces.",
+        "You want a resort-style onboard experience.",
+        "You value stylish restaurants and entertainment.",
+        "You are comparing a specific Celebrity itinerary with a similar Holland America sailing."
+      ],
+      "hollandIf": [
+        "Destination programming is a priority.",
+        "You appreciate longer or more traditional Alaska itineraries.",
+        "You want to explore options that include extended land-and-sea arrangements.",
+        "You enjoy enrichment and regional experiences."
+      ]
+    }
+  },
+  "accommodations": {
+    "title": "Staterooms and Suites: Which Offers Better Accommodations?",
+    "subtitle": "Both cruise lines offer a range of accommodations, from interior cabins to premium suites.",
+    "cards": [
+      {
+        "title": "Celebrity Edge Infinite Verandas",
+        "badge": "INNOVATIVE BALCONY",
+        "description": "The Infinite Veranda integrates the balcony area into the stateroom with a motorized opening glass window. AquaClass adds wellness amenities and exclusive access to Blu restaurant.",
+        "bullets": [
+          "Seamless indoor-outdoor living with 23% more stateroom space",
+          "AquaClass wellness perks, spa thermal suite access & Blu dining",
+          "Concierge Class with dedicated service & priority check-in"
+        ],
+        "icon": "Maximize"
+      },
+      {
+        "title": "Celebrity The Retreat Suites",
+        "badge": "RESORT-WITHIN-A-RESORT",
+        "description": "The Retreat provides an upscale suite-exclusive enclave including private restaurant Luminae, The Retreat Lounge, dedicated sundeck, butler service, Premium Wi-Fi, and drinks.",
+        "bullets": [
+          "Luminae private restaurant with signature Daniel Boulud dishes",
+          "The Retreat Lounge & private outdoor sundeck with cabanas",
+          "Dedicated butler service and included premium amenities"
+        ],
+        "icon": "Crown"
+      },
+      {
+        "title": "Holland America Veranda Staterooms",
+        "badge": "CLASSIC BALCONY",
+        "description": "Holland America verandas feature generous dimensions, traditional separate outdoor balconies, floor-to-ceiling glass doors, and signature Mariner Dream beds.",
+        "bullets": [
+          "Traditional deep outdoor teak-style private balconies",
+          "Generous storage, plush bathrobes, and Elemis bath products",
+          "Signature Mariner's Dream euro-top beds"
+        ],
+        "icon": "Compass"
+      },
+      {
+        "title": "Holland America Neptune & Pinnacle Suites",
+        "badge": "TRADITIONAL LUXURY",
+        "description": "Neptune and Pinnacle Suites offer expansive interior layouts, deep wraparound balconies, and exclusive access to the private Neptune Lounge with personal concierge service.",
+        "bullets": [
+          "Spacious layouts with dressing areas and whirlpool baths",
+          "Exclusive access to the private Neptune Lounge & concierge",
+          "Complimentary laundry, dry cleaning, and priority tender boarding"
+        ],
+        "icon": "Sparkles"
+      }
+    ],
+    "verdict": "Which cruise line has better suites? Celebrity may appeal to travelers who want a contemporary suite experience with dedicated venues and a resort-inspired atmosphere. Holland America may be a better fit for guests who value traditional suite layouts, spacious accommodations, and access to Neptune Lounge or other suite benefits."
+  },
+  "pricing": {
+    "title": "Pricing and What's Included: Celebrity vs. Holland America",
+    "subtitle": "Cruise pricing is not as simple as comparing the first advertised fare. The final cost depends on the ship, itinerary, stateroom, departure date, promotions, fare type, and additional purchases.",
+    "headers": [
+      "Cost consideration",
+      "Celebrity Cruises",
+      "Holland America"
+    ],
+    "rows": [
+      [
+        "Cruise fare",
+        "Varies by ship, date, and cabin",
+        "Varies by ship, date, and cabin"
+      ],
+      [
+        "Main dining",
+        "Included options available",
+        "Included options available"
+      ],
+      [
+        "Specialty dining",
+        "Generally additional unless included in a package or benefit",
+        "Generally additional unless included in a package or benefit"
+      ],
+      [
+        "Drinks",
+        "Package or fare dependent",
+        "Package or fare dependent (Have It All available)"
+      ],
+      [
+        "Wi-Fi",
+        "Package or fare dependent",
+        "Package or fare dependent"
+      ],
+      [
+        "Shore excursions",
+        "Usually additional",
+        "Usually additional (Have It All excursion credit available)"
+      ],
+      [
+        "Gratuities",
+        "Fare and booking terms dependent",
+        "Fare and booking terms dependent"
+      ],
+      [
+        "Suite benefits",
+        "Vary by suite and fare (The Retreat includes all-in perks)",
+        "Vary by suite and fare (Neptune Lounge & amenities)"
+      ]
+    ],
+    "note": "Before booking, request a side-by-side quote that includes the same cabin category, itinerary length, drinks, Wi-Fi, gratuities, and any excursions you expect to purchase."
+  },
+  "service": {
+    "eyebrow": "HOSPITALITY STANDARDS",
+    "heading": "Service and Overall Guest Experience",
+    "paragraphs": [
+      "Both cruise lines place importance on service, but the experience can feel different depending on the ship, crew, itinerary, and accommodation category.",
+      "Celebrity Cruises emphasizes a polished, contemporary premium experience. Guests appreciate attentive restaurant service, professional stateroom attendants, dedicated suite services for eligible Retreat guests, and a high crew-to-guest ratio across modern onboard spaces.",
+      "Holland America Line emphasizes traditional maritime hospitality and a comfortable onboard environment. Its crew is renowned for genuine warmth, thoughtful personal attention, and an unhurried, gracious service culture.",
+      "Which has better service? There is no reliable universal winner. Service can vary by ship, sailing, crew, and individual expectations. If personalized suite service is important, compare The Retreat with Holland America's Neptune and Pinnacle Suite benefits rather than comparing standard cabins."
+    ]
+  },
+  "personas": {
+    "title": "Traveler Matchmaker: Couples, Families, Solo & Older Travelers",
+    "subtitle": "How Celebrity and Holland America compare across four key traveler groups.",
+    "items": [
+      {
+        "title": "Best for Couples",
+        "subtitle": "Romance & Connection",
+        "badge": "ROMANTIC GETAWAYS",
+        "description": "Celebrity suits couples who enjoy stylish cocktail lounges, modern dining, spa thermal suites, and evening entertainment. Holland America suits couples who prefer quiet conversation, live music, relaxed dining, and scenic port immersion.",
+        "icon": "Heart"
+      },
+      {
+        "title": "Best for Families",
+        "subtitle": "Multi-Gen & Youth",
+        "badge": "FAMILY VOYAGES",
+        "description": "Celebrity's Camp at Sea offers contemporary youth programming for children and teens on resort-style ships. Holland America's Club HAL is ideal for multi-generational families who prioritize cultural destinations, scenic cruising, and enrichment.",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Best for Solo Travelers",
+        "subtitle": "Independent Cruising",
+        "badge": "SOLO ADVENTURES",
+        "description": "Celebrity features Single Infinite Verandas on Edge Series ships and lively social gathering spaces. Holland America offers dedicated solo staterooms on Pinnacle Class ships and a relaxed, welcoming environment for independent explorers.",
+        "icon": "Compass"
+      },
+      {
+        "title": "Best for Older Travelers",
+        "subtitle": "Comfort & Enrichment",
+        "badge": "MATURE TRAVELERS",
+        "description": "Holland America has a longstanding reputation for traditional cruising, enrichment lectures, and extended voyages. Celebrity appeals to mature travelers who prefer a contemporary, upscale resort environment with easy elevator access and diverse dining.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "dressCode": {
+    "title": "Celebrity vs. Holland America: Dress Code and Evening Atmosphere",
+    "subtitle": "Smart Casual & Evening Chic vs. Smart Casual & Dressy Nights",
+    "paragraphs": [
+      "Both cruise lines allow guests to dress comfortably during the day and use a more polished standard for evening dining.",
+      "Celebrity Cruises uses Smart Casual for most evenings and Evening Chic for selected nights. Evening Chic is dressier than an ordinary dinner outfit, but tuxedos and formal gowns are optional, giving guests flexibility to dress up in designer or stylish attire without traditional formalwear.",
+      "Holland America Line uses Smart Casual for most evenings and Dressy Nights on selected evenings. Published guidance encourages polished evening clothing such as slacks, skirts, dresses, blouses, collared shirts, and jackets. Formal attire is recommended on Grand Voyages when designated as Formal.",
+      "Which is more relaxed? Celebrity's Evening Chic terminology provides modern stylistic flexibility, while Holland America's Dressy Nights maintain a slightly more traditional maritime presentation."
+    ]
+  },
+  "prosCons": {
+    "title": "Celebrity Cruises vs. Holland America: Pros and Cons",
+    "subtitle": "Honest comparison of advantages and practical considerations for both cruise lines.",
+    "prosCelebrity": [
+      "Contemporary ship architecture and design (Edge Series)",
+      "Stylish restaurants, bars, and innovative venues like Eden",
+      "Broad selection of modern entertainment and lively nightlife",
+      "Distinctive Infinite Veranda accommodations on Edge Series",
+      "Upscale, all-inclusive suite enclave through The Retreat",
+      "Specialized Galapagos small-ship expedition program (Celebrity Flora)"
+    ],
+    "consCelebrity": [
+      "Specialty dining and package add-ons can increase overall cruise cost",
+      "Newest Edge-class vessels command higher fares than older fleet ships",
+      "Signature architectural features vary by ship class and are not fleet-wide"
+    ],
+    "prosHolland": [
+      "Deep destination-focused itineraries and extended port stays",
+      "Industry-leading live music programming (Music Walk venues)",
+      "Wide range of ship sizes, including smaller intimate R-Class ships",
+      "Legendary Grand Voyages and world cruise offerings",
+      "Destination-inspired dining and renowned Culinary Council menus",
+      "Relaxed, unhurried traditional cruise atmosphere"
+    ],
+    "consHolland": [
+      "Traditional onboard atmosphere may not suit travelers seeking high-energy resort nightlife",
+      "Music Walk venues and specialty dining options vary across older ship classes",
+      "Smaller ships offer fewer public entertainment and dining facilities"
+    ],
+    "hollandAdvantages": [
+      {
+        "title": "Destination-Focused Cruise Experience",
+        "description": "Deep itinerary immersion with extended port stays, overnight visits, and historic operational leadership in Alaska."
+      },
+      {
+        "title": "Strong Live Music & Cultural Programming",
+        "description": "Renowned Music Walk venues, Lincoln Center Stage classical performances, and regional cultural presentations."
+      },
+      {
+        "title": "A Range of Ship Sizes and Classes",
+        "description": "A versatile fleet spanning from intimate, traditional R-Class ships to amenity-rich Pinnacle Class flagships."
+      },
+      {
+        "title": "Grand Voyages and Extended Itineraries",
+        "description": "A standout industry strength offering extended journeys, legendary Grand World Voyages, and unique global routes."
+      },
+      {
+        "title": "Culinary Experiences Inspired by Destinations",
+        "description": "Authentic regional dishes and specialty dining developed in collaboration with master chefs on the Culinary Council."
+      },
+      {
+        "title": "Traditional Cruise Atmosphere",
+        "description": "A relaxed, comfortable maritime setting featuring classic public spaces, generous balconies, and Neptune Suite perks."
+      }
+    ],
+    "hollandConsiderations": [
+      {
+        "title": "Traditional Onboard Style",
+        "description": "The classic, relaxed onboard style may not suit travelers seeking a highly contemporary resort atmosphere or high-energy late-night partying."
+      },
+      {
+        "title": "Entertainment Venues Differ by Ship",
+        "description": "Music Walk spaces, specialty dining venues, and signature experiences differ by ship class and are not identical across the fleet."
+      },
+      {
+        "title": "Specialty Dining & Package Extras",
+        "description": "Some specialty dining restaurants, beverage packages, and Wi-Fi add-ons cost extra and require complete fare comparison."
+      },
+      {
+        "title": "Smaller Ships Have Fewer Facilities",
+        "description": "Smaller traditional vessels offer fewer public facilities, lounges, and mega-ship attractions than larger contemporary ships."
+      }
+    ]
+  },
+  "decisionMatrix": {
+    "title": "Celebrity vs. Holland America: Which Should You Choose?",
+    "subtitle": "Match your vacation preferences directly to the cruise line that delivers best.",
+    "headers": [
+      "Your travel preference",
+      "Recommended cruise line",
+      "Why"
+    ],
+    "rows": [
+      [
+        "Contemporary ship design",
+        "Celebrity",
+        "Modern architecture and distinctive venues"
+      ],
+      [
+        "Traditional cruise atmosphere",
+        "Holland America",
+        "Classic ship style and onboard traditions"
+      ],
+      [
+        "Stylish restaurants and bars",
+        "Celebrity",
+        "Contemporary dining and social spaces"
+      ],
+      [
+        "Live music and cultural programming",
+        "Holland America",
+        "Strong live music and enrichment focus"
+      ],
+      [
+        "Alaska destination immersion",
+        "Holland America may be a strong fit",
+        "Extensive destination-oriented offerings & Glacier Bay"
+      ],
+      [
+        "Modern resort-style Alaska sailing",
+        "Celebrity",
+        "Contemporary ships and onboard facilities"
+      ],
+      [
+        "Galapagos exploration",
+        "Celebrity",
+        "Specialized Galapagos cruise program on Celebrity Flora"
+      ],
+      [
+        "Grand Voyages and long itineraries",
+        "Holland America",
+        "A notable strength of its extended voyage program"
+      ],
+      [
+        "Suite-focused contemporary experience",
+        "Celebrity",
+        "The Retreat private restaurant, lounge & sundeck"
+      ],
+      [
+        "Traditional premium suite experience",
+        "Holland America",
+        "Neptune and Pinnacle Suite categories & lounge"
+      ],
+      [
+        "Evening Chic atmosphere",
+        "Celebrity",
+        "Flexible dressier evenings"
+      ],
+      [
+        "Classic Dressy Night experience",
+        "Holland America",
+        "Traditional evening presentation"
+      ]
+    ],
+    "chooseCelebrityIf": [
+      "You enjoy contemporary ship design.",
+      "You like stylish bars, lounges, and restaurants.",
+      "You want a modern resort-style atmosphere.",
+      "You appreciate innovative entertainment venues.",
+      "You are interested in The Retreat or AquaClass.",
+      "You prefer a balance of relaxation and onboard activities."
+    ],
+    "chooseHollandIf": [
+      "You enjoy classic premium cruising.",
+      "You value live music and cultural entertainment.",
+      "You want destination-focused programming.",
+      "You are interested in longer itineraries or Grand Voyages.",
+      "You prefer a relaxed onboard pace.",
+      "You appreciate a range of ship sizes, including smaller vessels."
+    ]
+  },
+  "comparisonGuide": {
+    "title": "How to Compare Two Specific Sailings Before Booking",
+    "subtitle": "A cruise-line comparison becomes much more useful when you compare actual sailings rather than general brand descriptions.",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Compare the itinerary",
+        "description": "Look at the ports, time in port, overnight stays, embarkation and disembarkation locations, and scenic cruising opportunities."
+      },
+      {
+        "step": "2",
+        "title": "Compare the ships",
+        "description": "A new Celebrity ship and an older Holland America ship may offer very different facilities. Compare vessels of similar age and size when possible."
+      },
+      {
+        "step": "3",
+        "title": "Compare cabin categories",
+        "description": "Check the actual stateroom dimensions, balcony arrangement, location, included benefits, and accessibility."
+      },
+      {
+        "step": "4",
+        "title": "Compare the complete fare",
+        "description": "Include drinks, Wi-Fi, gratuities, specialty dining, shore excursions, and transportation costs."
+      },
+      {
+        "step": "5",
+        "title": "Compare the onboard experience",
+        "description": "Review restaurants, entertainment, live music, pool facilities, enrichment programs, and activities."
+      },
+      {
+        "step": "6",
+        "title": "Consider the travel party",
+        "description": "A couple seeking nightlife may make a different choice from a family, solo traveler, or multi-generational group."
+      },
+      {
+        "step": "7",
+        "title": "Review the cancellation and payment terms",
+        "description": "Deposit requirements, final payment dates, cancellation penalties, and promotional conditions can differ."
+      }
+    ]
+  },
+  "finalVerdict": {
+    "sections": [
+      {
+        "heading": "Final Verdict: Celebrity Cruises vs. Holland America",
+        "paragraphs": [
+          "There is no single answer that applies to every traveler. A couple planning a Mediterranean holiday may prefer Celebrity's contemporary ships and restaurant options. A traveler planning an extended Alaska journey may find Holland America's itinerary and destination programming more appealing. Similarly, a guest who wants a suite with a dedicated lounge and restaurant may compare The Retreat with Holland America's Neptune and Pinnacle Suite categories.",
+          "Celebrity Cruises is the stronger fit for travelers who want: Contemporary ship design, stylish dining and social spaces, modern entertainment, a resort-inspired atmosphere, innovative accommodation options, and The Retreat suite experience.",
+          "Holland America Line is the stronger fit for travelers who want: Classic premium cruising, destination-focused itineraries, live music and cultural programming, a relaxed onboard atmosphere, Grand Voyages and longer itineraries, and traditional suite hospitality.",
+          "The best cruise is not necessarily the newest ship or the lowest fare. It is the one that matches your expectations, travel style, and priorities. Compare the actual sailing, not just the cruise-line name, before making your decision."
+        ]
+      }
+    ]
+  },
+  "expertCredentials": {
+    "badge": "CRUISE COMPARISON SPECIALIST",
+    "title": "Angela Hughes Authority & Credentials",
+    "authorName": "Angela Hughes",
+    "authorityBoxTitle": "Master Cruise Counselor & Luxury Travel Advisor",
+    "authoritySubtitle": "Trips & Ships Luxury Travel Leadership",
+    "experienceBadge": "40+ YEARS EXPERTISE",
+    "credentials": [
+      "Master Cruise Counselor (MCC) with Cruise Lines International Association (CLIA)",
+      "40+ years advising luxury and premium cruise travelers across global destinations",
+      "Specialist in Celebrity Cruises Edge Series, Solstice Series, and The Retreat",
+      "Certified expert in Holland America Line Pinnacle Class, Alaska Land+Sea cruisetours, and Grand Voyages"
+    ],
+    "bio": "Angela Hughes is a celebrated travel advisor with four decades of experience curating bespoke voyages for discerning travelers. Her firsthand comparative knowledge of premium cruise lines helps clients identify the exact ship and itinerary that matches their vacation style.",
+    "quote": "Neither cruise line is universally better—the magic happens when you align your personal cruising pace with the ship's authentic personality.",
+    "quoteSubtitle": "Angela Hughes, CEO & Founder of Trips & Ships Luxury Travel",
+    "bottomText": "Plan your Celebrity or Holland America voyage with Angela and her team to ensure your stateroom, promotions, and inclusions are tailored perfectly.",
+    "ctaText": "Consult With Angela",
+    "ctaLink": "/contact"
+  },
+  "cta": {
+    "title": "Plan Your Next Luxury Cruise With Trips & Ships",
+    "description": "Not sure whether Celebrity Cruises or Holland America is the better fit for your next vacation?\n\nConnect with Angela Hughes and our expert luxury travel advisors for personalized guidance comparing cruise lines, ships, itineraries, staterooms, and available booking amenities.",
+    "buttonText": "Speak With a Cruise Advisor",
+    "buttonLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions: Celebrity Cruises vs. Holland America",
+    "subtitle": "Clear answers to the most common questions comparing Celebrity Cruises and Holland America Line.",
+    "items": [
+      {
+        "question": "Is Celebrity Cruises better than Holland America?",
+        "answer": "Neither cruise line is universally better. Celebrity is generally a stronger fit for travelers who prefer contemporary ship design, modern dining, and a resort-style atmosphere. Holland America may be better for travelers who value classic cruising, live music, and destination-focused itineraries."
+      },
+      {
+        "question": "What is the main difference between Celebrity Cruises and Holland America?",
+        "answer": "The main difference is the onboard atmosphere. Celebrity emphasizes contemporary design, modern restaurants, and varied entertainment. Holland America focuses more on traditional premium cruising, destination immersion, live music, and enrichment."
+      },
+      {
+        "question": "Which cruise line is more luxurious, Celebrity or Holland America?",
+        "answer": "Both operate in the premium cruise market. Celebrity's Retreat offers a distinctive contemporary suite experience, while Holland America has premium accommodation categories such as Neptune and Pinnacle Suites. The level of luxury depends on the ship, cabin category, and fare."
+      },
+      {
+        "question": "Which cruise line has better food?",
+        "answer": "Celebrity offers contemporary restaurant concepts and specialty dining options. Holland America emphasizes destination-inspired menus and established specialty restaurants. Food quality and preference vary by ship and restaurant."
+      },
+      {
+        "question": "Is Celebrity Cruises more expensive than Holland America?",
+        "answer": "Pricing varies by itinerary, ship, date, cabin, and promotional offer. Compare the total cost of similar sailings, including drinks, Wi-Fi, gratuities, specialty dining, and excursions, rather than assuming one line is always more expensive."
+      },
+      {
+        "question": "Which cruise line has better entertainment?",
+        "answer": "Celebrity generally offers a more contemporary mix of theater productions, bars, lounges, and entertainment venues. Holland America is particularly appealing to guests who enjoy live music, cultural programming, and destination-related presentations."
+      },
+      {
+        "question": "Which cruise line is better for Alaska?",
+        "answer": "Both offer Alaska cruises. Holland America may appeal to travelers who prioritize destination immersion and longer itineraries, while Celebrity suits those who prefer contemporary ships and a modern onboard experience. Compare the exact ports, glacier experiences, and sailing dates."
+      },
+      {
+        "question": "Which cruise line has better ships?",
+        "answer": "Celebrity's Edge Series is known for contemporary architecture and innovative public spaces. Holland America's Pinnacle Class combines modern facilities with a more traditional cruise atmosphere. The best ship depends on what you value."
+      },
+      {
+        "question": "Which cruise line is better for couples?",
+        "answer": "Celebrity may suit couples who enjoy stylish dining, modern entertainment, and contemporary ship design. Holland America may appeal more to couples who prefer live music, relaxed evenings, and destination-focused voyages."
+      },
+      {
+        "question": "Is Celebrity Cruises better for families?",
+        "answer": "Celebrity offers Camp at Sea and family-oriented facilities on eligible ships. Holland America offers Club HAL on eligible ships and sailings. Compare the actual youth facilities and activities on the vessel you plan to book."
+      },
+      {
+        "question": "Which cruise line is better for older travelers?",
+        "answer": "Both welcome older travelers. Holland America's classic atmosphere and enrichment programming may appeal to some, while Celebrity's modern ship design and entertainment may appeal to others. Mobility, itinerary, and personal preferences matter more than age alone."
+      },
+      {
+        "question": "Which cruise line is better for solo travelers?",
+        "answer": "Both can work well for solo guests. Compare single-occupancy pricing, solo cabin availability, social activities, hosted gatherings, and excursions on the exact sailing."
+      },
+      {
+        "question": "Does Celebrity Cruises have more nightlife than Holland America?",
+        "answer": "Celebrity generally offers a broader contemporary nightlife environment with a variety of bars, lounges, clubs, and entertainment spaces. Holland America emphasizes live music and relaxed evening entertainment."
+      },
+      {
+        "question": "Which cruise line has better live music?",
+        "answer": "Holland America has a particularly recognizable live music offering, with venues such as Rolling Stone Lounge and other music spaces on selected ships. Celebrity also offers live music in lounges and other venues."
+      },
+      {
+        "question": "Which cruise line has better dining packages?",
+        "answer": "Both offer optional dining packages and promotions on eligible sailings. Compare the restaurants included, number of meals, booking conditions, and price before purchasing."
+      }
+    ]
+  },
+  "decisionMatrixTable": {
+    "title": "Celebrity vs. Holland America: Which Should You Choose?",
+    "subtitle": "Match your vacation preferences directly to the cruise line that delivers best.",
+    "intro": "Side-by-side travel style recommendations based on cruise preferences.",
+    "table": {
+      "headers": [
+        "Your travel preference",
+        "Recommended cruise line",
+        "Why"
+      ],
+      "rows": [
+        [
+          "Contemporary ship design",
+          "Celebrity",
+          "Modern architecture and distinctive venues"
+        ],
+        [
+          "Traditional cruise atmosphere",
+          "Holland America",
+          "Classic ship style and onboard traditions"
+        ],
+        [
+          "Stylish restaurants and bars",
+          "Celebrity",
+          "Contemporary dining and social spaces"
+        ],
+        [
+          "Live music and cultural programming",
+          "Holland America",
+          "Strong live music and enrichment focus"
+        ],
+        [
+          "Alaska destination immersion",
+          "Holland America may be a strong fit",
+          "Extensive destination-oriented offerings & Glacier Bay"
+        ],
+        [
+          "Modern resort-style Alaska sailing",
+          "Celebrity",
+          "Contemporary ships and onboard facilities"
+        ],
+        [
+          "Galapagos exploration",
+          "Celebrity",
+          "Specialized Galapagos cruise program on Celebrity Flora"
+        ],
+        [
+          "Grand Voyages and long itineraries",
+          "Holland America",
+          "A notable strength of its extended voyage program"
+        ],
+        [
+          "Suite-focused contemporary experience",
+          "Celebrity",
+          "The Retreat private restaurant, lounge & sundeck"
+        ],
+        [
+          "Traditional premium suite experience",
+          "Holland America",
+          "Neptune and Pinnacle Suite categories & lounge"
+        ],
+        [
+          "Evening Chic atmosphere",
+          "Celebrity",
+          "Flexible dressier evenings"
+        ],
+        [
+          "Classic Dressy Night experience",
+          "Holland America",
+          "Traditional evening presentation"
+        ]
+      ]
+    }
+  },
+  "pricingDetailed": {
+    "title": "Pricing and What's Included: Celebrity vs. Holland America",
+    "intro": [
+      "Cruise pricing is not as simple as comparing the first advertised fare.",
+      "The final cost depends on the ship, itinerary, stateroom, departure date, promotions, fare type, and additional purchases.",
+      "Both cruise lines have included dining and entertainment, but drinks, Wi-Fi, specialty dining, shore excursions, and other extras can affect the total."
+    ],
+    "items": [
+      {
+        "title": "Celebrity Cruises pricing",
+        "paragraphs": [
+          "Celebrity uses different fare and package structures, which may change over time and by sailing."
+        ],
+        "lists": [
+          {
+            "title": "Depending on the fare selected, guests may have access to:",
+            "items": [
+              "Main dining and selected casual dining.",
+              "Standard onboard entertainment.",
+              "Fitness center access.",
+              "Selected onboard activities.",
+              "Optional beverage packages.",
+              "Optional Wi-Fi packages.",
+              "Specialty dining at an additional cost."
+            ]
+          }
+        ],
+        "paragraphsAfter": [
+          "Some offers or eligible fare options include additional benefits. The Retreat suite experience has its own package and benefit structure.",
+          "Do not assume that every Celebrity fare includes drinks, Wi-Fi, gratuities, or specialty dining. Check the exact booking terms."
+        ]
+      },
+      {
+        "title": "Holland America pricing",
+        "paragraphs": [
+          "Holland America cruise fares generally include:"
+        ],
+        "lists": [
+          {
+            "title": "",
+            "items": [
+              "Stateroom accommodation.",
+              "Main dining and selected casual dining.",
+              "Standard onboard entertainment.",
+              "Selected onboard activities.",
+              "Access to public facilities."
+            ]
+          }
+        ],
+        "paragraphsAfter": [
+          "Holland America also offers promotional packages, including Have It All on eligible sailings. Package benefits and eligibility can change, so confirm the terms for the selected voyage.",
+          "Depending on the offer, package benefits may include items such as a beverage package, Wi-Fi, shore excursion credit, and specialty dining."
+        ]
+      }
+    ]
+  }
+}

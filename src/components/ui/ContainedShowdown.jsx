@@ -2,7 +2,7 @@ import React from 'react';
 import { Check } from 'lucide-react';
 import FadeIn from './FadeIn';
 
-const ContainedShowdown = ({ title, brandA, brandB }) => {
+const ContainedShowdown = ({ title, subtitle, brandA = {}, brandB = {} }) => {
   return (
     <section className="w-full bg-navy-950 py-12 md:py-20 border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6">
@@ -13,6 +13,11 @@ const ContainedShowdown = ({ title, brandA, brandB }) => {
             <h2 className="font-display text-3xl md:text-4xl text-white tracking-wide">
               {title}
             </h2>
+            {subtitle && (
+              <p className="font-sans text-base md:text-lg text-slate-300 max-w-3xl mx-auto mt-4">
+                {subtitle}
+              </p>
+            )}
           </div>
         </FadeIn>
 
@@ -26,18 +31,18 @@ const ContainedShowdown = ({ title, brandA, brandB }) => {
               <div className="h-64 md:h-80 w-full relative overflow-hidden group">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-[2000ms] ease-out group-hover:scale-110"
-                  style={{ backgroundImage: `url('${brandA.image}')` }}
+                  style={{ backgroundImage: `url('${brandA?.image}')` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 to-transparent opacity-80" />
                 <h3 className="absolute bottom-6 left-8 font-display text-3xl text-white drop-shadow-md">
-                  {brandA.name}
+                  {brandA?.name}
                 </h3>
               </div>
               
               {/* Content */}
               <div className="p-8 md:p-10 flex-grow flex flex-col justify-start">
                 <ul className="space-y-5">
-                  {brandA.features?.map((feature, idx) => (
+                  {(brandA?.features || brandA?.points || []).map((feature, idx) => (
                     <li key={idx} className="flex items-start">
                       <Check className="w-5 h-5 mr-4 flex-shrink-0 mt-0.5 text-ts-gold drop-shadow-md" />
                       <span className="font-sans text-base md:text-lg leading-relaxed text-ice-50">
@@ -57,18 +62,18 @@ const ContainedShowdown = ({ title, brandA, brandB }) => {
               <div className="h-64 md:h-80 w-full relative overflow-hidden group">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-[2000ms] ease-out group-hover:scale-110"
-                  style={{ backgroundImage: `url('${brandB.image}')` }}
+                  style={{ backgroundImage: `url('${brandB?.image}')` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 to-transparent opacity-80" />
                 <h3 className="absolute bottom-6 left-8 font-display text-3xl text-white drop-shadow-md">
-                  {brandB.name}
+                  {brandB?.name}
                 </h3>
               </div>
               
               {/* Content */}
               <div className="p-8 md:p-10 flex-grow flex flex-col justify-start">
                 <ul className="space-y-5">
-                  {brandB.features?.map((feature, idx) => (
+                  {(brandB?.features || brandB?.points || []).map((feature, idx) => (
                     <li key={idx} className="flex items-start">
                       <Check className="w-5 h-5 mr-4 flex-shrink-0 mt-0.5 text-ts-gold drop-shadow-md" />
                       <span className="font-sans text-base md:text-lg leading-relaxed text-ice-50">

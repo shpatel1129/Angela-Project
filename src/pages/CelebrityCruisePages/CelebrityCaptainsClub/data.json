@@ -1,0 +1,1386 @@
+{
+  "meta": {
+    "title": "Celebrity Cruises Captain’s Club: Tiers, Points & Benefits",
+    "description": "Discover Celebrity Cruises Captain’s Club tiers, points, Elite and Zenith benefits, loyalty status matching, milestone rewards, and how to earn points faster.",
+    "keywords": [
+      "Celebrity Cruises Captain’s Club",
+      "Celebrity Cruises loyalty program",
+      "Celebrity Captain’s Club tiers",
+      "Celebrity Cruises loyalty points",
+      "Celebrity Captain’s Club benefits",
+      "Celebrity Elite benefits",
+      "Celebrity Elite Plus benefits",
+      "Celebrity Zenith benefits",
+      "How to earn Celebrity Cruises points",
+      "Celebrity Cruises status match",
+      "Captain’s Club points per night",
+      "Celebrity Cruises milestone benefits"
+    ],
+    "canonical": "https://www.tripsandships.com/celebrity-cruises/captains-club"
+  },
+  "schemaData": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.tripsandships.com/#organization",
+        "name": "Trips & Ships Luxury Travel",
+        "url": "https://www.tripsandships.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.tripsandships.com/assets/logo.png"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.tripsandships.com/#author-angela-hughes",
+        "name": "Angela Hughes",
+        "jobTitle": "Luxury Cruise Specialist & Travel Industry Expert",
+        "worksFor": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "description": "With over 40 years of travel industry experience, Angela Hughes provides expert advice on luxury cruising, premium ship accommodations, and cruise line loyalty programs."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tripsandships.com/#website",
+        "url": "https://www.tripsandships.com",
+        "name": "Trips & Ships Luxury Travel"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/captains-club#webpage",
+        "url": "https://www.tripsandships.com/celebrity-cruises/captains-club",
+        "name": "Celebrity Cruises Captain’s Club: Tiers, Points & Benefits",
+        "description": "Discover Celebrity Cruises Captain’s Club tiers, points, Elite and Zenith benefits, loyalty status matching, milestone rewards, and how to earn points faster.",
+        "isPartOf": {
+          "@id": "https://www.tripsandships.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/captains-club#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/captains-club#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.tripsandships.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Celebrity Cruises",
+            "item": "https://www.tripsandships.com/celebrity-cruises"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Captain's Club",
+            "item": "https://www.tripsandships.com/celebrity-cruises/captains-club"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/captains-club#article",
+        "headline": "Celebrity Cruises Captain’s Club: Loyalty Tiers and Benefits Explained",
+        "description": "Discover Celebrity Cruises Captain’s Club tiers, points, Elite and Zenith benefits, loyalty status matching, milestone rewards, and how to earn points faster.",
+        "author": {
+          "@id": "https://www.tripsandships.com/#author-angela-hughes"
+        },
+        "publisher": {
+          "@id": "https://www.tripsandships.com/#organization"
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.tripsandships.com/celebrity-cruises/captains-club#webpage"
+        },
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.tripsandships.com/celebrity-cruises/captains-club#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Celebrity Cruises Captain’s Club?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Captain’s Club is Celebrity Cruises' free loyalty program. Members earn Club Points through qualifying sailings and eligible activities. As they accumulate points, they progress through membership tiers and receive additional benefits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Celebrity Cruises Captain’s Club free to join?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Captain’s Club is free to join. Guests can enroll through the Celebrity Cruises website and manage their membership through their online account."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many Captain’s Club tiers are there?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There are six levels: Preview, Classic, Select, Elite, Elite Plus, and Zenith."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the highest Celebrity Cruises loyalty tier?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zenith is the highest standard Captain’s Club tier. Members need at least 3,000 Club Points to qualify through the program's normal earning rules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many points do you need for Celebrity Classic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Classic requires 2–149 Club Points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many points do you need for Select?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Select requires 150–299 Club Points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many points do you need for Elite?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Elite requires 300–749 Club Points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many points do you need for Elite Plus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Elite Plus requires 750–2,999 Club Points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many points do you need for Zenith?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zenith requires 3,000 or more Club Points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Celebrity Cruises calculate Captain’s Club points?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Points are primarily based on the number of nights sailed and the stateroom category purchased. Higher accommodation categories generally earn more points per night."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many Captain’s Club points do you earn on a seven-night cruise?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the cabin. A seven-night Inside or Ocean View sailing earns 14 points, a Veranda earns 21, Concierge Class or AquaClass earns 35, and selected suites can earn between 56 and 168 points."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do solo travelers earn double Captain’s Club points?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's published program information states that eligible solo travelers who book a stateroom and pay the full fare earn double Club Points based on their stateroom category and nights sailed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you earn Captain’s Club points without cruising?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Eligible members can participate in Power Up Points activities, such as surveys and webinars. The published conversion is 10 Power Up Points for one Club Point."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Go Green Bonus?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Go Green Bonus allows eligible guests who opt into reduced housekeeping to earn one additional night of points for their voyage, subject to program conditions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do Celebrity Captain’s Club points expire?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Celebrity's published FAQ states that earned Club Points do not expire."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "badge": "CAPTAIN’S CLUB LOYALTY GUIDE",
+    "title": "Celebrity Cruises Captain’s Club: Loyalty Tiers and Benefits Explained",
+    "subtitle": "A complete guide to tiers, Club Points, milestone rewards, status matching, and how to earn benefits faster with Celebrity Cruises.",
+    "author": {
+      "name": "Angela Hughes",
+      "role": "Luxury Cruise Specialist",
+      "date": "March 30, 2026",
+      "readTime": "16 min read"
+    },
+    "primaryCtaText": "Plan Your Celebrity Cruise",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Loyalty Tiers",
+    "secondaryCtaLink": "#tiers-at-a-glance"
+  },
+  "overview": {
+    "badge": "LOYALTY PROGRAM OVERVIEW",
+    "heading": "What Is Celebrity Cruises Captain’s Club?",
+    "paragraphs": [
+      "Celebrity Cruises Captain’s Club is the cruise line's free loyalty program. It rewards eligible guests for sailing with Celebrity and participating in selected activities. Members earn Club Points based primarily on the number of nights sailed and the stateroom category booked.",
+      "As members accumulate points, they progress through six membership levels: Preview, Classic, Select, Elite, Elite Plus, and Zenith. Each level offers a different collection of benefits, which can include onboard events, Wi-Fi and beverage package discounts, laundry services, priority services, exclusive offers, and special milestone rewards.",
+      "The program is particularly valuable for travelers who cruise with Celebrity regularly. Benefits become more substantial at Elite and Elite Plus, while Zenith provides the highest published level of recognition.",
+      "Captain’s Club also connects with the loyalty programs of Royal Caribbean International and Silversea through a shared status-matching arrangement. This gives eligible members opportunities to enjoy recognition across three cruise brands, although points and sailing credits are governed by separate program rules."
+    ],
+    "highlights": [
+      "Free Membership: No cost to join, points never expire",
+      "Six Recognition Tiers: From Preview to Zenith (3,000+ points)",
+      "Status Matching: Reciprocity with Royal Caribbean & Silversea",
+      "Valuable Privileges: Complimentary laundry, drinks & suite upgrades"
+    ]
+  },
+  "quickAnswer": {
+    "title": "Quick Answer: Key Captain’s Club Program Details",
+    "subtitle": "Essential facts and rules regarding Celebrity Cruises' loyalty program at a glance.",
+    "headers": [
+      "Question",
+      "Answer"
+    ],
+    "rows": [
+      [
+        "Is Captain’s Club free?",
+        "Yes"
+      ],
+      [
+        "How many membership tiers are there?",
+        "Six, including Preview"
+      ],
+      [
+        "What is the first earned tier?",
+        "Classic"
+      ],
+      [
+        "How many points are needed for Select?",
+        "150"
+      ],
+      [
+        "How many points are needed for Elite?",
+        "300"
+      ],
+      [
+        "How many points are needed for Elite Plus?",
+        "750"
+      ],
+      [
+        "How many points are needed for Zenith?",
+        "3,000"
+      ],
+      [
+        "How are points earned?",
+        "Primarily through nights sailed and stateroom category"
+      ],
+      [
+        "Do points expire?",
+        "Celebrity's published FAQ says earned points do not expire"
+      ],
+      [
+        "Can solo travelers earn extra points?",
+        "Yes, eligible solo guests paying the full fare earn double points"
+      ],
+      [
+        "Does Celebrity match status with Royal Caribbean and Silversea?",
+        "Yes, under the applicable status-match rules"
+      ]
+    ],
+    "note": "The most important detail is that Captain’s Club rewards are based on your accumulated Club Points, not simply the number of cruises you have taken."
+  },
+  "tiersAtAGlance": {
+    "title": "Celebrity Cruises Captain’s Club Tiers at a Glance",
+    "subtitle": "Captain’s Club has six membership levels. Preview is the entry stage, while the other five are earned through qualifying points.",
+    "note": "A member's tier automatically advances after the required qualifying points have been earned and posted to the account. The benefits of the new tier generally apply to the sailing after the member reaches that level, subject to the program terms.",
+    "tiers": [
+      {
+        "tier": "Preview",
+        "points": "0 Club Points",
+        "description": "The starting stage of Captain’s Club membership upon enrollment or prior to first sailing points.",
+        "color": "bg-slate-50 border-slate-200"
+      },
+      {
+        "tier": "Classic",
+        "points": "2–149 Club Points",
+        "description": "The first earned tier, generally reached after completing your first qualifying Celebrity cruise.",
+        "color": "bg-blue-50 border-blue-200"
+      },
+      {
+        "tier": "Select",
+        "points": "150–299 Club Points",
+        "description": "Adds more savings, internet package discounts, and selected onboard service perks.",
+        "color": "bg-emerald-50 border-emerald-200"
+      },
+      {
+        "tier": "Elite",
+        "points": "300–749 Club Points",
+        "description": "A major milestone introducing daily cocktail hours, complimentary laundry, and premium events.",
+        "color": "bg-indigo-50 border-indigo-200"
+      },
+      {
+        "tier": "Elite Plus",
+        "points": "750–2,999 Club Points",
+        "description": "Substantially upgraded benefits including complimentary specialty dining, fitness classes, and extra laundry.",
+        "color": "bg-purple-50 border-purple-200"
+      },
+      {
+        "tier": "Zenith",
+        "points": "3,000+ Club Points",
+        "description": "The highest published tier offering complimentary premium packages, laundry, and a free 7-night cruise.",
+        "color": "bg-amber-50 border-amber-200"
+      }
+    ]
+  },
+  "tierBreakdown": {
+    "title": "Comprehensive Breakdown of All Six Captain’s Club Tiers",
+    "subtitle": "Detailed privileges, requirements, and benefits at every stage of the loyalty program.",
+    "tiers": [
+      {
+        "name": "Preview: The Entry Level",
+        "pointsRequired": "0 Club Points",
+        "summary": "Preview is the starting stage of Captain’s Club membership. It is associated with enrollment or a booking before the member has earned the points required for Classic. At this level, members can begin receiving program communications, access the Loyalty Desk between cruises, and view eligible member offers.",
+        "benefitsTitle": "Preview membership highlights:",
+        "benefits": [
+          "Entry into the Captain’s Club program.",
+          "Access to member communications and updates.",
+          "Access to the Captain’s Club Loyalty Desk between cruises.",
+          "Eligibility to view member offers and promotions before your first earned tier."
+        ]
+      },
+      {
+        "name": "Classic: 2–149 Club Points",
+        "pointsRequired": "2–149 Club Points",
+        "summary": "Classic is the first earned Captain’s Club tier. Guests generally reach this level after completing their first qualifying Celebrity sailing, depending on the stateroom category and cruise length. Classic introduces members to the program's onboard recognition and exclusive offers.",
+        "benefitsTitle": "Featured Classic benefits may include:",
+        "benefits": [
+          "Captain’s Club Welcome Event.",
+          "Access to exclusive Captain’s Club promotions when booking onboard.",
+          "One category stateroom upgrade before sailing, up to AquaClass, based on availability and promotional conditions.",
+          "10% discount on Wi-Fi packages or Wi-Fi upgrades.",
+          "Selected onboard discounts and member recognition."
+        ]
+      },
+      {
+        "name": "Select: 150–299 Club Points",
+        "pointsRequired": "150–299 Club Points",
+        "summary": "Select is the next level after Classic. It adds more savings and selected service benefits.",
+        "benefitsTitle": "Featured Select benefits include:",
+        "benefits": [
+          "25% discount on a Wi-Fi package or Wi-Fi upgrade.",
+          "10% discount on laundry services, one-time use.",
+          "Captain’s Club Wine Tasting event invitation.",
+          "Captain’s Club Backstage Tour on selected sailings.",
+          "Priority status on the shore excursion waitlist.",
+          "Continued eligibility for stateroom upgrade offers under program rules."
+        ]
+      },
+      {
+        "name": "Elite: 300–749 Club Points",
+        "pointsRequired": "300–749 Club Points",
+        "summary": "Elite is an important milestone because it introduces several recognizable onboard privileges. The benefits are particularly useful for travelers who enjoy relaxing before dinner, using laundry services on longer cruises, and staying connected at sea.",
+        "benefitsTitle": "Featured Elite benefits include:",
+        "benefits": [
+          "Daily Captain’s Club Evening Cocktail Hour with complimentary drinks from a select menu between 5:00 PM and 7:00 PM at participating onboard venues (excluding embarkation day).",
+          "Captain’s Club Senior Officer Party.",
+          "30% discount on Wi-Fi packages or Wi-Fi upgrades.",
+          "Complimentary bag of laundry, wash and fold, one per stateroom on cruises of five nights or longer.",
+          "Complimentary pressing of two items.",
+          "Captain’s Club Breakfast on selected mornings.",
+          "Priority tender service where available.",
+          "15% discount on drink packages or drink package upgrades before sailing."
+        ]
+      },
+      {
+        "name": "Elite Plus: 750–2,999 Club Points",
+        "pointsRequired": "750–2,999 Club Points",
+        "summary": "Elite Plus adds higher discounts, more laundry benefits, and additional dining privileges. It is designed for guests who cruise regularly with Celebrity.",
+        "benefitsTitle": "Featured Elite Plus benefits include:",
+        "benefits": [
+          "35% discount on Wi-Fi packages or Wi-Fi upgrades.",
+          "Two complimentary bags of laundry on sailings of five nights or longer.",
+          "Complimentary specialty coffee and tea when ordered during Captain’s Club Breakfast hours.",
+          "Complimentary fitness class onboard.",
+          "15% discount on specialty dining cover charges.",
+          "Continued access to the Daily Captain’s Club Evening Cocktail Hour.",
+          "Early access to onboard entertainment reservations where available."
+        ]
+      },
+      {
+        "name": "Zenith: 3,000+ Club Points",
+        "pointsRequired": "3,000+ Club Points",
+        "summary": "Zenith is the highest published tier in the Captain’s Club program. It represents a substantial milestone and includes premium services and personal recognition.",
+        "benefitsTitle": "Featured Zenith benefits include:",
+        "benefits": [
+          "Complimentary Premium Beverage Package.",
+          "Complimentary Unlimited Premium Wi-Fi.",
+          "Complimentary laundry service throughout the sailing.",
+          "Access to The Retreat Lounge and Michael’s Club even when booking outside The Retreat.",
+          "Concierge Lunch in the Main Dining Room.",
+          "Priority boarding and luggage delivery.",
+          "A complimentary seven-night Caribbean or Bermuda cruise upon reaching Zenith, subject to program terms.",
+          "Personalized Zenith benefits and milestone gifts."
+        ]
+      }
+    ]
+  },
+  "earningPoints": {
+    "title": "How Do You Earn Celebrity Cruises Captain’s Club Points?",
+    "subtitle": "Captain’s Club points are primarily calculated using two factors: the stateroom category booked and the number of nights sailed.",
+    "introText": "Unlike airline programs that often rely on dollars spent or miles flown, Celebrity bases its core points calculation on cruise length and cabin level. The higher the stateroom category, the more points earned per night.",
+    "oceanTable": {
+      "title": "Captain’s Club Points Per Night by Stateroom Category",
+      "headers": [
+        "Ocean cruise stateroom category",
+        "Points per night"
+      ],
+      "rows": [
+        [
+          "Inside and Ocean View",
+          "2"
+        ],
+        [
+          "Veranda and Infinite Veranda",
+          "3"
+        ],
+        [
+          "Concierge Class and AquaClass",
+          "5"
+        ],
+        [
+          "Selected Panoramic and Sky Suites",
+          "8"
+        ],
+        [
+          "Celebrity, Signature, Royal, and Sunset Suites",
+          "12"
+        ],
+        [
+          "Penthouse, Reflection Suite, and Edge Villa",
+          "18"
+        ],
+        [
+          "Iconic Suite",
+          "24"
+        ]
+      ]
+    },
+    "sevenNightExample": {
+      "title": "Example: How Many Points Can You Earn on a Seven-Night Cruise?",
+      "subtitle": "A standard seven-night cruise illustrates how quickly points can accumulate in different stateroom categories.",
+      "headers": [
+        "Stateroom category",
+        "Points per night",
+        "Seven-night total"
+      ],
+      "rows": [
+        [
+          "Inside",
+          "2",
+          "14"
+        ],
+        [
+          "Ocean View",
+          "2",
+          "14"
+        ],
+        [
+          "Veranda",
+          "3",
+          "21"
+        ],
+        [
+          "Infinite Veranda",
+          "3",
+          "21"
+        ],
+        [
+          "Concierge Class",
+          "5",
+          "35"
+        ],
+        [
+          "AquaClass",
+          "5",
+          "35"
+        ],
+        [
+          "Selected Sky Suites",
+          "8",
+          "56"
+        ],
+        [
+          "Celebrity Suite",
+          "12",
+          "84"
+        ],
+        [
+          "Edge Villa",
+          "18",
+          "126"
+        ],
+        [
+          "Iconic Suite",
+          "24",
+          "168"
+        ]
+      ],
+      "note": "This calculation shows why guests in suites reach higher tiers much faster than travelers who cruise primarily in standard veranda or interior staterooms."
+    }
+  },
+  "specialCruises": {
+    "galapagos": {
+      "title": "Do Galapagos Cruises Earn Captain’s Club Points?",
+      "description": "Yes. Celebrity’s Galapagos expedition sailings earn Captain’s Club points. Because Galapagos vessels such as Celebrity Flora feature suite accommodations, point accumulation can be substantial.",
+      "headers": [
+        "Galapagos stateroom category",
+        "Points per night"
+      ],
+      "rows": [
+        [
+          "Sky Suite with Veranda",
+          "8"
+        ],
+        [
+          "Premium Suite with Infinite Veranda",
+          "12"
+        ],
+        [
+          "Royal Suite and Penthouse",
+          "18"
+        ]
+      ]
+    },
+    "river": {
+      "title": "Do Celebrity River Cruises Earn Captain’s Club Points?",
+      "description": "Yes. Eligible Celebrity river cruises earn Captain’s Club points based on the cabin or suite category booked.",
+      "headers": [
+        "River cruise accommodation",
+        "Points per night"
+      ],
+      "rows": [
+        [
+          "River View and Infinite Balcony",
+          "8"
+        ],
+        [
+          "Balcony",
+          "12"
+        ],
+        [
+          "Skylight Infinite Balcony and Vista Balcony Suites",
+          "18"
+        ]
+      ]
+    }
+  },
+  "earningBoosters": {
+    "title": "Points Accelerators: Solo Travel, Power Up & Go Green",
+    "subtitle": "Three proven strategies to increase your Captain’s Club points balance faster.",
+    "cards": [
+      {
+        "title": "Solo Traveler Points Bonus",
+        "badge": "DOUBLE POINTS",
+        "description": "Solo guests who pay the full single supplement—meaning they pay 200% of the standard stateroom fare—earn double Captain’s Club points on eligible sailings.",
+        "details": [
+          "Inside: 14 pts -> 28 pts (7 nights)",
+          "Veranda: 21 pts -> 42 pts (7 nights)",
+          "Concierge Class: 35 pts -> 70 pts (7 nights)",
+          "Selected Sky Suite: 56 pts -> 112 pts (7 nights)"
+        ],
+        "footerNote": "This double-points benefit makes Celebrity an appealing option for solo travelers looking to advance through loyalty levels faster."
+      },
+      {
+        "title": "What Are Power Up Points?",
+        "badge": "EARN FROM HOME",
+        "description": "Power Up Points allow Captain’s Club members to earn loyalty points without taking a cruise. Celebrity invites members to participate in surveys, webinars, and promotional activities.",
+        "details": [
+          "Conversion formula: 10 Power Up Points = 1 Captain’s Club Point",
+          "10 Power Up Points = 1 Club Point",
+          "50 Power Up Points = 5 Club Points",
+          "100 Power Up Points = 10 Club Points",
+          "250 Power Up Points = 25 Club Points"
+        ],
+        "footerNote": "While Power Up Points do not replace cruising, they provide a convenient way to keep accumulating points between vacations."
+      },
+      {
+        "title": "Captain’s Club Go Green Bonus",
+        "badge": "ECO-FRIENDLY BONUS",
+        "description": "Celebrity’s Go Green program rewards members who choose to reduce daily housekeeping services on eligible sailings.",
+        "details": [
+          "Opt into the Go Green program through the Celebrity App or Guest Relations",
+          "Reduce daily linen and housekeeping frequency",
+          "Earn up to 5 bonus Captain’s Club points per stateroom per sailing",
+          "Contributes directly to your qualifying points balance"
+        ],
+        "footerNote": "The bonus points contribute to your qualifying points balance and support Celebrity’s environmental sustainability efforts."
+      }
+    ]
+  },
+  "milestoneBenefits": {
+    "title": "What Are Captain’s Club Milestone Benefits?",
+    "subtitle": "Celebrity rewards members with additional milestone privileges when they reach significant points levels above Elite and Zenith.",
+    "description": "These milestone recognitions are separate from standard tier progression and give long-time cruisers continued goals after reaching top tiers.",
+    "milestones": [
+      {
+        "step": "1",
+        "title": "1,500 Club Points",
+        "points": "1,500 Club Points",
+        "description": "Complimentary bottle of champagne and access to selected onboard recognitions."
+      },
+      {
+        "step": "2",
+        "title": "2,250 Club Points",
+        "points": "2,250 Club Points",
+        "description": "Complimentary specialty dining dinner for two and selected onboard amenity gifts."
+      },
+      {
+        "step": "3",
+        "title": "3,000 Club Points (Zenith Achievement)",
+        "points": "3,000 Club Points",
+        "description": "Official Zenith tier status. Complimentary seven-night Caribbean or Bermuda cruise in a Veranda stateroom, complimentary Premium Drink Package, complimentary Unlimited Premium Wi-Fi, and complimentary laundry service."
+      },
+      {
+        "step": "4",
+        "title": "6,000 Club Points",
+        "points": "6,000 Club Points",
+        "description": "An additional complimentary seven-night Caribbean or Bermuda cruise in a Veranda stateroom, plus upgraded dining and champagne gifts."
+      },
+      {
+        "step": "5",
+        "title": "9,000 Club Points",
+        "points": "9,000 Club Points",
+        "description": "A complimentary seven-night cruise in a Sky Suite accommodation, along with enhanced onboard privileges."
+      }
+    ],
+    "table": {
+      "title": "Milestone Comparison Summary",
+      "headers": [
+        "Point milestone",
+        "Main rewards"
+      ],
+      "rows": [
+        [
+          "1,500",
+          "Complimentary champagne and selected onboard recognition"
+        ],
+        [
+          "2,250",
+          "Complimentary specialty dinner for two and gifts"
+        ],
+        [
+          "3,000",
+          "Zenith milestone rewards and Veranda cruise benefit"
+        ],
+        [
+          "6,000",
+          "Additional specialty lunch and dinner benefits and champagne"
+        ],
+        [
+          "9,000",
+          "Complimentary seven-night Sky Suite cruise and additional dining benefits"
+        ]
+      ],
+      "items": [
+        {
+          "title": "1,500 Club Points",
+          "description": "Complimentary champagne and selected onboard recognition"
+        },
+        {
+          "title": "2,250 Club Points",
+          "description": "Complimentary specialty dinner for two and gifts"
+        },
+        {
+          "title": "3,000 Club Points",
+          "description": "Zenith milestone rewards and Veranda cruise benefit"
+        },
+        {
+          "title": "6,000 Club Points",
+          "description": "Additional specialty lunch and dinner benefits and champagne"
+        },
+        {
+          "title": "9,000 Club Points",
+          "description": "Complimentary seven-night Sky Suite cruise and additional dining benefits"
+        }
+      ]
+    }
+  },
+  "statusMatch": {
+    "title": "Captain’s Club Status Match: Royal Caribbean & Silversea",
+    "subtitle": "RECIPROCAL LOYALTY STATUS MATCHING",
+    "intro": "If you hold qualifying status with Royal Caribbean’s Crown & Anchor Society or Silversea’s Venetian Society, you may be eligible for matching recognition on Celebrity Cruises across equivalent tiers.",
+    "table": {
+      "headers": [
+        "Celebrity Captain’s Club",
+        "Royal Caribbean Crown & Anchor",
+        "Silversea Venetian Society"
+      ],
+      "rows": [
+        [
+          "Classic",
+          "Gold",
+          "1 VS Day"
+        ],
+        [
+          "Select",
+          "Platinum",
+          "15 VS Days"
+        ],
+        [
+          "Elite",
+          "Diamond",
+          "100 VS Days"
+        ],
+        [
+          "Elite Plus",
+          "Diamond Plus",
+          "250 VS Days"
+        ],
+        [
+          "Zenith",
+          "Pinnacle Club",
+          "500 VS Days"
+        ]
+      ]
+    }
+  },
+  "pointsChoice": {
+    "title": "Are Loyalty Points Combined Across the Three Lines? & What Is Points Choice?",
+    "subtitle": "Understanding how points transfer and the innovative Points Choice option.",
+    "paragraphs": [
+      "By default, loyalty points are not combined into a single balance. Each program maintains its own points history and tier requirements. Status matching provides equivalent privileges on partner sailings, but your base points remain tied to the cruise line where they were earned.",
+      "Points Choice is a feature designed for guests who cruise across multiple Royal Caribbean Group brands. Under Points Choice, eligible members can choose which loyalty program receives the points earned from a sailing.",
+      "For example, a guest sailing on Celebrity can elect to direct the points earned from that cruise to their Royal Caribbean Crown & Anchor account or Silversea Venetian Society profile, subject to published conversion ratios."
+    ],
+    "table": {
+      "title": "Points Choice Allocation Matrix",
+      "headers": [
+        "Stateroom category",
+        "Captain’s Club points per night",
+        "Crown & Anchor points per night",
+        "Venetian Society"
+      ],
+      "rows": [
+        [
+          "Iconic Suite",
+          "24",
+          "2",
+          "1 VS Day"
+        ],
+        [
+          "Edge Villa, Penthouse, and Reflection Suite",
+          "18",
+          "2",
+          "1 VS Day"
+        ],
+        [
+          "Royal, Signature, Celebrity, and Sunset Suites",
+          "12",
+          "2",
+          "1 VS Day"
+        ],
+        [
+          "Panoramic and Sky Suites",
+          "8",
+          "2",
+          "1 VS Day"
+        ],
+        [
+          "Concierge and AquaClass",
+          "5",
+          "2",
+          "1 VS Day for every 2 nights"
+        ],
+        [
+          "Veranda and Infinite Veranda",
+          "3",
+          "1",
+          "1 VS Day for every 3 nights"
+        ],
+        [
+          "Inside and Ocean View",
+          "2",
+          "1",
+          "1 VS Day for every 4 nights"
+        ]
+      ]
+    },
+    "note": "Points Choice gives frequent cruisers the flexibility to target status on the cruise line where they want recognition most."
+  },
+  "logisticsAndJoin": {
+    "expiration": {
+      "title": "Do Celebrity Cruises Captain’s Club Points Expire?",
+      "content": "Celebrity's published Captain’s Club FAQ states that earned Club Points do not expire. This means members can continue building their points balance across qualifying cruises rather than needing to reach a new tier within a fixed annual period. However, it is still important to keep your account details accurate and check that points from completed sailings have posted correctly."
+    },
+    "posting": {
+      "title": "How Long Does It Take for Captain’s Club Points to Appear?",
+      "content": "Celebrity's published FAQ indicates that Club Points can take up to 14 days to post after a sailing. If the points have not appeared after that period, members should contact the Captain’s Club team and provide their booking and sailing details. Keep your cruise confirmation and final booking information until the points have been credited."
+    },
+    "howToJoin": {
+      "title": "How Do You Join Celebrity Cruises Captain’s Club?",
+      "subtitle": "Joining Captain’s Club is free and the enrollment process is straightforward across five steps.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Step 1: Create a Celebrity Cruises account",
+          "description": "Visit the official Celebrity Cruises website and create a guest account if you do not already have one."
+        },
+        {
+          "step": "2",
+          "title": "Step 2: Enroll in Captain’s Club",
+          "description": "Opt into the loyalty program through your account dashboard. You will receive a Captain’s Club membership number."
+        },
+        {
+          "step": "3",
+          "title": "Step 3: Add Your Membership Number to Your Booking",
+          "description": "Ensure your Captain’s Club number is attached to every Celebrity reservation prior to embarkation."
+        },
+        {
+          "step": "4",
+          "title": "Step 4: Complete Your Qualifying Sailing",
+          "description": "Sail on your cruise. Points will calculate automatically based on cruise nights and cabin category."
+        },
+        {
+          "step": "5",
+          "title": "Step 5: Track Your Progress",
+          "description": "Check your account dashboard 14 days after disembarkation to verify that your points and tier status are accurate."
+        }
+      ]
+    }
+  },
+  "tierEvaluation": {
+    "title": "Which Captain’s Club Tier Is Worth Reaching?",
+    "subtitle": "The value of a Captain’s Club tier depends on how frequently you sail and which benefits you actually use.",
+    "personas": [
+      {
+        "title": "Classic: A Useful Starting Point",
+        "subtitle": "2–149 Club Points",
+        "description": "Classic introduces members to the loyalty program and eligible member offers. It is a natural first milestone after qualifying sailing activity.",
+        "badge": "ENTRY MILESTONE",
+        "highlights": [
+          "Onboard welcome event",
+          "10% Wi-Fi discount",
+          "Eligibility for upgrade offers"
+        ]
+      },
+      {
+        "title": "Select: Useful for Everyday Savings",
+        "subtitle": "150–299 Club Points",
+        "description": "Select adds meaningful Wi-Fi discounts and selected service savings. It works well for guests who take one or two cruises per year.",
+        "badge": "MODERATE CRUISER",
+        "highlights": [
+          "25% Wi-Fi discount",
+          "10% laundry discount",
+          "Wine tasting & backstage tours"
+        ]
+      },
+      {
+        "title": "Elite: A Noticeable Onboard Upgrade",
+        "subtitle": "300–749 Club Points",
+        "description": "Elite is where the program becomes significantly more rewarding. The daily cocktail hour and complimentary laundry provide visible value on every sailing.",
+        "badge": "SWEET SPOT TIER",
+        "highlights": [
+          "Daily complimentary cocktail hour",
+          "Free bag of laundry & pressing",
+          "Priority tender & 30% Wi-Fi off"
+        ]
+      },
+      {
+        "title": "Elite Plus: Strong Benefits for Frequent Cruisers",
+        "subtitle": "750–2,999 Club Points",
+        "description": "Elite Plus is ideal for travelers who spend weeks at sea each year. The additional laundry, dining savings, and higher internet discounts add up quickly.",
+        "badge": "FREQUENT SAILOR",
+        "highlights": [
+          "Two free bags of laundry",
+          "15% off specialty dining",
+          "Free specialty morning coffees"
+        ]
+      },
+      {
+        "title": "Zenith: The Highest Level of Recognition",
+        "subtitle": "3,000+ Club Points",
+        "description": "Zenith provides an exceptional cruise experience with complimentary beverage packages, unlimited Wi-Fi, full laundry service, and free milestone cruises.",
+        "badge": "TOP RECOGNITION",
+        "highlights": [
+          "Free Premium Drinks & Unlimited Wi-Fi",
+          "Full free laundry & Retreat Lounge",
+          "Free 7-night cruise upon reaching tier"
+        ]
+      }
+    ]
+  },
+  "tips": {
+    "title": "Tips for Maximizing Your Celebrity Captain’s Club Benefits",
+    "subtitle": "A few practical steps can help you make better use of the program.",
+    "cards": [
+      {
+        "title": "Enroll Before Your Next Cruise",
+        "description": "Join before booking or make sure your membership number is attached to your reservation. This helps prevent missing points after a sailing."
+      },
+      {
+        "title": "Compare Stateroom Categories",
+        "description": "If you are close to a new tier, look at the difference in points earned between staterooms. Moving from a Veranda to Concierge Class increases points from 3 to 5 per night."
+      },
+      {
+        "title": "Watch for Power Up Points",
+        "description": "Participating in online surveys, webinars, and promotional activities can add points between cruises without requiring additional travel."
+      },
+      {
+        "title": "Leverage Solo Sailings",
+        "description": "Solo travelers paying the full single supplement receive double points, making solo cruising one of the fastest paths to Elite or Elite Plus."
+      },
+      {
+        "title": "Take Advantage of Status Match",
+        "description": "If you sail on Royal Caribbean or Silversea, ensure your accounts are linked so you receive reciprocal benefits across all three brands."
+      },
+      {
+        "title": "Book While Onboard",
+        "description": "Celebrity frequently offers onboard booking promotions that include reduced deposits, onboard credit, and exclusive Captain’s Club offers."
+      },
+      {
+        "title": "Check Your Account After Every Cruise",
+        "description": "Points usually appear within 14 days. Review your account to confirm the correct points and tier level are reflected."
+      },
+      {
+        "title": "Review Onboard Discounts Early",
+        "description": "Some benefits, such as internet and laundry discounts, can be used during your cruise. Familiarize yourself with available savings before sailing."
+      },
+      {
+        "title": "Look Beyond the Loyalty Math",
+        "description": "Earning points is satisfying, but your vacation experience should always come first. Choose the ship, stateroom, and itinerary that fit your travel style."
+      }
+    ]
+  },
+  "conclusion": {
+    "sections": [
+      {
+        "heading": "Is Celebrity Cruises Captain’s Club Worth It?",
+        "paragraphs": [
+          "Yes. Captain’s Club is worth joining if you sail with Celebrity because enrollment is free and eligible members can receive benefits as they accumulate qualifying points.",
+          "The program becomes more valuable for repeat cruisers. Classic and Select provide access to member offers and selected discounts, while Elite and Elite Plus introduce more noticeable onboard benefits. Zenith provides the highest level of recognition and additional milestone rewards.",
+          "The program is particularly attractive for travelers who regularly use services such as Wi-Fi, laundry, spa treatments, and specialty dining.",
+          "However, Captain’s Club should be treated as a loyalty reward rather than a reason to spend more than necessary. A higher stateroom category can earn more points, but the additional cruise fare should make sense independently of the loyalty calculation."
+        ]
+      }
+    ]
+  },
+  "expertCredentials": {
+    "badge": "CRUISE LOYALTY SPECIALIST",
+    "title": "Angela Hughes Authority & Credentials",
+    "authorName": "Angela Hughes",
+    "image": "/assets/angela-hughes.webp",
+    "authorityBoxTitle": "Master Cruise Counselor & Luxury Travel Advisor",
+    "authoritySubtitle": "Trips & Ships Luxury Travel Leadership",
+    "experienceBadge": "40+ YEARS EXPERTISE",
+    "credentials": [
+      "Master Cruise Counselor (MCC) with Cruise Lines International Association (CLIA)",
+      "40+ years advising luxury and premium cruise travelers across global destinations",
+      "Specialist in Celebrity Cruises Edge Series, Solstice Series, and Galapagos expeditions",
+      "Certified expert in cruise line loyalty tiers, status reciprocity, and stateroom value optimization"
+    ],
+    "bio": "Angela Hughes is a celebrated travel advisor with four decades of experience curating bespoke voyages for discerning travelers. Her in-depth understanding of loyalty program perks, stateroom categories, and cruise logistics ensures clients maximize every voyage.",
+    "quote": "Cruise loyalty programs should work for your travel lifestyle—unlocking real onboard comfort, effortless connectivity, and genuine recognition every time you step aboard.",
+    "quoteSubtitle": "Angela Hughes, CEO & Founder of Trips & Ships Luxury Travel",
+    "bottomText": "Plan your Celebrity Cruises journey with Angela and her team to ensure your Captain’s Club status is maximized from day one.",
+    "ctaText": "Consult With Angela",
+    "ctaLink": "/contact"
+  },
+  "cta": {
+    "title": "Plan Your Next Celebrity Cruise With Trips & Ships Luxury Travel",
+    "description": "Choosing the right Celebrity sailing involves more than selecting a ship and departure date. Your stateroom category, loyalty status, fare inclusions, itinerary, and onboard preferences can all affect the overall experience.\n\nAt Trips & Ships Luxury Travel, Angela Hughes and her team help travelers compare Celebrity cruise options, understand available booking benefits, and plan vacations around their individual preferences.\n\nWhether you are working toward Elite, comparing the value of Elite Plus, or planning how to make the most of Zenith benefits, an informed booking decision can help you get more from your next cruise.\n\nSpeak with a luxury cruise travel advisor about your preferred ship, itinerary, stateroom category, and Captain’s Club membership.",
+    "buttonText": "Speak With an Advisor",
+    "buttonLink": "/contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Celebrity Cruises Captain’s Club",
+    "subtitle": "Answers to common questions about Captain’s Club tiers, earning rules, status matching, and onboard benefits.",
+    "items": [
+      {
+        "question": "What is Celebrity Cruises Captain’s Club?",
+        "answer": "Captain’s Club is Celebrity Cruises' free loyalty program. Members earn Club Points through qualifying sailings and eligible activities. As they accumulate points, they progress through membership tiers and receive additional benefits."
+      },
+      {
+        "question": "Is Celebrity Cruises Captain’s Club free to join?",
+        "answer": "Yes. Captain’s Club is free to join. Guests can enroll through the Celebrity Cruises website and manage their membership through their online account."
+      },
+      {
+        "question": "How many Captain’s Club tiers are there?",
+        "answer": "There are six levels: Preview, Classic, Select, Elite, Elite Plus, and Zenith."
+      },
+      {
+        "question": "What is the highest Celebrity Cruises loyalty tier?",
+        "answer": "Zenith is the highest standard Captain’s Club tier. Members need at least 3,000 Club Points to qualify through the program's normal earning rules."
+      },
+      {
+        "question": "How many points do you need for Celebrity Classic?",
+        "answer": "Classic requires 2–149 Club Points."
+      },
+      {
+        "question": "How many points do you need for Select?",
+        "answer": "Select requires 150–299 Club Points."
+      },
+      {
+        "question": "How many points do you need for Elite?",
+        "answer": "Elite requires 300–749 Club Points."
+      },
+      {
+        "question": "How many points do you need for Elite Plus?",
+        "answer": "Elite Plus requires 750–2,999 Club Points."
+      },
+      {
+        "question": "How many points do you need for Zenith?",
+        "answer": "Zenith requires 3,000 or more Club Points."
+      },
+      {
+        "question": "How does Celebrity Cruises calculate Captain’s Club points?",
+        "answer": "Points are primarily based on the number of nights sailed and the stateroom category purchased. Higher accommodation categories generally earn more points per night."
+      },
+      {
+        "question": "How many Captain’s Club points do you earn on a seven-night cruise?",
+        "answer": "It depends on the cabin. A seven-night Inside or Ocean View sailing earns 14 points, a Veranda earns 21, Concierge Class or AquaClass earns 35, and selected suites can earn between 56 and 168 points."
+      },
+      {
+        "question": "Do solo travelers earn double Captain’s Club points?",
+        "answer": "Celebrity's published program information states that eligible solo travelers who book a stateroom and pay the full fare earn double Club Points based on their stateroom category and nights sailed."
+      },
+      {
+        "question": "Can you earn Captain’s Club points without cruising?",
+        "answer": "Yes. Eligible members can participate in Power Up Points activities, such as surveys and webinars. The published conversion is 10 Power Up Points for one Club Point."
+      },
+      {
+        "question": "What is the Go Green Bonus?",
+        "answer": "The Go Green Bonus allows eligible guests who opt into reduced housekeeping to earn one additional night of points for their voyage, subject to program conditions."
+      },
+      {
+        "question": "Do Celebrity Captain’s Club points expire?",
+        "answer": "Celebrity's published FAQ states that earned Club Points do not expire."
+      }
+    ]
+  },
+  "pricingFactorsData": {
+    "title": "Celebrity Cruises Captain’s Club Tiers at a Glance",
+    "description": "Captain’s Club has six membership levels. Preview is the entry stage, while the other five are earned through qualifying points. A member's tier automatically advances after the required qualifying points have been earned and posted to the account. The benefits of the new tier generally apply to the sailing after the member reaches that level, subject to the program terms.",
+    "factors": [
+      {
+        "title": "Preview (0 Club Points)",
+        "description": "The starting stage of Captain’s Club membership upon enrollment or prior to first sailing points."
+      },
+      {
+        "title": "Classic (2–149 Club Points)",
+        "description": "The first earned tier, generally reached after completing your first qualifying Celebrity cruise."
+      },
+      {
+        "title": "Select (150–299 Club Points)",
+        "description": "Adds more savings, internet package discounts, and selected onboard service perks."
+      },
+      {
+        "title": "Elite (300–749 Club Points)",
+        "description": "A major milestone introducing daily cocktail hours, complimentary laundry, and premium events."
+      },
+      {
+        "title": "Elite Plus (750–2,999 Club Points)",
+        "description": "Substantially upgraded benefits including complimentary specialty dining, fitness classes, and extra laundry."
+      },
+      {
+        "title": "Zenith (3,000+ Club Points)",
+        "description": "The highest published tier offering complimentary premium packages, laundry, and a free 7-night cruise."
+      }
+    ]
+  },
+  "tierCardsData": {
+    "title": "Comprehensive Breakdown of All Six Captain’s Club Tiers",
+    "subtitle": "Detailed privileges, requirements, and benefits at every stage of the loyalty program.",
+    "cards": [
+      {
+        "title": "Preview: The Entry Level",
+        "badge": "0 Club Points",
+        "description": "Preview is the starting stage of Captain’s Club membership. It is associated with enrollment or a booking before the member has earned the points required for Classic. At this level, members can begin receiving program communications, access the Loyalty Desk between cruises, and view eligible member offers.",
+        "icon": "Compass",
+        "bullets": [
+          "Entry into the Captain’s Club program.",
+          "Access to member communications and updates.",
+          "Access to the Captain’s Club Loyalty Desk between cruises.",
+          "Eligibility to view member offers and promotions before your first earned tier."
+        ]
+      },
+      {
+        "title": "Classic: 2–149 Club Points",
+        "badge": "2–149 Club Points",
+        "description": "Classic is the first earned Captain’s Club tier. Guests generally reach this level after completing their first qualifying Celebrity sailing, depending on the stateroom category and cruise length. Classic introduces members to the program's onboard recognition and exclusive offers.",
+        "icon": "Anchor",
+        "bullets": [
+          "Captain’s Club Welcome Event.",
+          "Access to exclusive Captain’s Club promotions when booking onboard.",
+          "One category stateroom upgrade before sailing, up to AquaClass, based on availability and promotional conditions.",
+          "10% discount on Wi-Fi packages or Wi-Fi upgrades.",
+          "Selected onboard discounts and member recognition."
+        ]
+      },
+      {
+        "title": "Select: 150–299 Club Points",
+        "badge": "150–299 Club Points",
+        "description": "Select is the next level after Classic. It adds more savings and selected service benefits.",
+        "icon": "Award",
+        "bullets": [
+          "25% discount on a Wi-Fi package or Wi-Fi upgrade.",
+          "10% discount on laundry services, one-time use.",
+          "Captain’s Club Wine Tasting event invitation.",
+          "Captain’s Club Backstage Tour on selected sailings.",
+          "Priority status on the shore excursion waitlist.",
+          "Continued eligibility for stateroom upgrade offers under program rules."
+        ]
+      },
+      {
+        "title": "Elite: 300–749 Club Points",
+        "badge": "300–749 Club Points",
+        "description": "Elite is an important milestone because it introduces several recognizable onboard privileges. The benefits are particularly useful for travelers who enjoy relaxing before dinner, using laundry services on longer cruises, and staying connected at sea.",
+        "icon": "Wine",
+        "bullets": [
+          "Daily Captain’s Club Evening Cocktail Hour with complimentary drinks from a select menu between 5:00 PM and 7:00 PM at participating onboard venues (excluding embarkation day).",
+          "Captain’s Club Senior Officer Party.",
+          "30% discount on Wi-Fi packages or Wi-Fi upgrades.",
+          "Complimentary bag of laundry, wash and fold, one per stateroom on cruises of five nights or longer.",
+          "Complimentary pressing of two items.",
+          "Captain’s Club Breakfast on selected mornings.",
+          "Priority tender service where available.",
+          "15% discount on drink packages or drink package upgrades before sailing."
+        ]
+      },
+      {
+        "title": "Elite Plus: 750–2,999 Club Points",
+        "badge": "750–2,999 Club Points",
+        "description": "Elite Plus adds higher discounts, more laundry benefits, and additional dining privileges. It is designed for guests who cruise regularly with Celebrity.",
+        "icon": "Sparkles",
+        "bullets": [
+          "35% discount on Wi-Fi packages or Wi-Fi upgrades.",
+          "Two complimentary bags of laundry on sailings of five nights or longer.",
+          "Complimentary specialty coffee and tea when ordered during Captain’s Club Breakfast hours.",
+          "Complimentary fitness class onboard.",
+          "15% discount on specialty dining cover charges.",
+          "Continued access to the Daily Captain’s Club Evening Cocktail Hour.",
+          "Early access to onboard entertainment reservations where available."
+        ]
+      },
+      {
+        "title": "Zenith: 3,000+ Club Points",
+        "badge": "3,000+ Club Points",
+        "description": "Zenith is the highest published tier in the Captain’s Club program. It represents a substantial milestone and includes premium services and personal recognition.",
+        "icon": "Crown",
+        "bullets": [
+          "Complimentary Premium Beverage Package.",
+          "Complimentary Unlimited Premium Wi-Fi.",
+          "Complimentary laundry service throughout the sailing.",
+          "Access to The Retreat Lounge and Michael’s Club even when booking outside The Retreat.",
+          "Concierge Lunch in the Main Dining Room.",
+          "Priority boarding and luggage delivery.",
+          "A complimentary seven-night Caribbean or Bermuda cruise upon reaching Zenith, subject to program terms.",
+          "Personalized Zenith benefits and milestone gifts."
+        ]
+      }
+    ]
+  },
+  "acceleratorsGrid": {
+    "title": "Points Accelerators: Solo Travel, Power Up & Go Green",
+    "subtitle": "Three proven strategies to increase your Captain’s Club points balance faster.",
+    "paragraphs": [
+      "Beyond standard cruise nights, Celebrity provides several dedicated methods to fast-track your Captain's Club point accumulation, whether booking alone, participating in home-based activities, or choosing eco-friendly onboard options."
+    ],
+    "items": [
+      {
+        "title": "Solo Traveler Points Bonus",
+        "subtitle": "DOUBLE POINTS",
+        "description": "Solo guests who pay the full single supplement—meaning they pay 200% of the standard stateroom fare—earn double Captain’s Club points on eligible sailings. This double-points benefit makes Celebrity an appealing option for solo travelers looking to advance through loyalty levels faster.",
+        "icon": "user",
+        "features": [
+          "Inside: 14 pts -> 28 pts (7 nights)",
+          "Veranda: 21 pts -> 42 pts (7 nights)",
+          "Concierge Class: 35 pts -> 70 pts (7 nights)",
+          "Selected Sky Suite: 56 pts -> 112 pts (7 nights)"
+        ]
+      },
+      {
+        "title": "What Are Power Up Points?",
+        "subtitle": "EARN FROM HOME",
+        "description": "Power Up Points allow Captain’s Club members to earn loyalty points without taking a cruise. Celebrity invites members to participate in surveys, webinars, and promotional activities. While Power Up Points do not replace cruising, they provide a convenient way to keep accumulating points between vacations.",
+        "icon": "ship",
+        "features": [
+          "Conversion formula: 10 Power Up Points = 1 Captain’s Club Point",
+          "10 Power Up Points = 1 Club Point",
+          "50 Power Up Points = 5 Club Points",
+          "100 Power Up Points = 10 Club Points",
+          "250 Power Up Points = 25 Club Points"
+        ]
+      },
+      {
+        "title": "Captain’s Club Go Green Bonus",
+        "subtitle": "ECO-FRIENDLY BONUS",
+        "description": "Celebrity’s Go Green program rewards members who choose to reduce daily housekeeping services on eligible sailings. The bonus points contribute to your qualifying points balance and support Celebrity’s environmental sustainability efforts.",
+        "icon": "Heart",
+        "features": [
+          "Opt into the Go Green program through the Celebrity App or Guest Relations",
+          "Reduce daily linen and housekeeping frequency",
+          "Earn up to 5 bonus Captain’s Club points per stateroom per sailing",
+          "Contributes directly to your qualifying points balance"
+        ]
+      }
+    ]
+  },
+  "milestonesTimeline": {
+    "title": "What Are Captain’s Club Milestone Benefits?",
+    "subtitle": "Celebrity rewards members with additional milestone privileges when they reach significant points levels above Elite and Zenith. These milestone recognitions are separate from standard tier progression and give long-time cruisers continued goals after reaching top tiers.",
+    "steps": [
+      {
+        "timeframe": "1,500 Club Points",
+        "title": "1,500 Club Points",
+        "description": "Complimentary bottle of champagne and access to selected onboard recognitions.",
+        "checklist": []
+      },
+      {
+        "timeframe": "2,250 Club Points",
+        "title": "2,250 Club Points",
+        "description": "Complimentary specialty dining dinner for two and selected onboard amenity gifts.",
+        "checklist": []
+      },
+      {
+        "timeframe": "3,000 Club Points",
+        "title": "3,000 Club Points (Zenith Achievement)",
+        "description": "Official Zenith tier status. Complimentary seven-night Caribbean or Bermuda cruise in a Veranda stateroom, complimentary Premium Drink Package, complimentary Unlimited Premium Wi-Fi, and complimentary laundry service.",
+        "checklist": []
+      },
+      {
+        "timeframe": "6,000 Club Points",
+        "title": "6,000 Club Points",
+        "description": "An additional complimentary seven-night Caribbean or Bermuda cruise in a Veranda stateroom, plus upgraded dining and champagne gifts.",
+        "checklist": []
+      },
+      {
+        "timeframe": "9,000 Club Points",
+        "title": "9,000 Club Points",
+        "description": "A complimentary seven-night cruise in a Sky Suite accommodation, along with enhanced onboard privileges.",
+        "checklist": []
+      }
+    ]
+  },
+  "tipsCards": {
+    "title": "Tips for Maximizing Your Celebrity Captain’s Club Benefits",
+    "subtitle": "A few practical steps can help you make better use of the program.",
+    "cards": [
+      {
+        "title": "Pre-Cruise Strategy",
+        "items": [
+          "Enroll Before Your Next Cruise — Join before booking or make sure your membership number is attached to your reservation. This helps prevent missing points after a sailing.",
+          "Compare Stateroom Categories — If you are close to a new tier, look at the difference in points earned between staterooms. Moving from a Veranda to Concierge Class increases points from 3 to 5 per night.",
+          "Watch for Power Up Points — Participating in online surveys, webinars, and promotional activities can add points between cruises without requiring additional travel."
+        ]
+      },
+      {
+        "title": "Maximizing Point Accrual",
+        "items": [
+          "Leverage Solo Sailings — Solo travelers paying the full single supplement receive double points, making solo cruising one of the fastest paths to Elite or Elite Plus.",
+          "Take Advantage of Status Match — If you sail on Royal Caribbean or Silversea, ensure your accounts are linked so you receive reciprocal benefits across all three brands.",
+          "Book While Onboard — Celebrity frequently offers onboard booking promotions that include reduced deposits, onboard credit, and exclusive Captain’s Club offers."
+        ]
+      },
+      {
+        "title": "Onboard Savings & Long-Term Value",
+        "items": [
+          "Check Your Account After Every Cruise — Points usually appear within 14 days. Review your account to confirm the correct points and tier level are reflected.",
+          "Review Onboard Discounts Early — Some benefits, such as internet and laundry discounts, can be used during your cruise. Familiarize yourself with available savings before sailing.",
+          "Look Beyond the Loyalty Math — Earning points is satisfying, but your vacation experience should always come first. Choose the ship, stateroom, and itinerary that fit your travel style."
+        ]
+      }
+    ]
+  },
+  "personaCards": {
+    "title": "Which Captain’s Club Tier Is Worth Reaching?",
+    "subtitle": "The value of a Captain’s Club tier depends on how frequently you sail and which benefits you actually use.",
+    "personas": [
+      {
+        "title": "Classic: A Useful Starting Point",
+        "subtitle": "2–149 Club Points",
+        "description": "Classic introduces members to the loyalty program and eligible member offers. It is a natural first milestone after qualifying sailing activity.",
+        "badge": "ENTRY MILESTONE",
+        "icon": "Compass",
+        "highlights": [
+          "Onboard welcome event",
+          "10% Wi-Fi discount",
+          "Eligibility for upgrade offers"
+        ]
+      },
+      {
+        "title": "Select: Useful for Everyday Savings",
+        "subtitle": "150–299 Club Points",
+        "description": "Select adds meaningful Wi-Fi discounts and selected service savings. It works well for guests who take one or two cruises per year.",
+        "badge": "MODERATE CRUISER",
+        "icon": "Anchor",
+        "highlights": [
+          "25% Wi-Fi discount",
+          "10% laundry discount",
+          "Wine tasting & backstage tours"
+        ]
+      },
+      {
+        "title": "Elite: A Noticeable Onboard Upgrade",
+        "subtitle": "300–749 Club Points",
+        "description": "Elite is where the program becomes significantly more rewarding. The daily cocktail hour and complimentary laundry provide visible value on every sailing.",
+        "badge": "SWEET SPOT TIER",
+        "icon": "Wine",
+        "highlights": [
+          "Daily complimentary cocktail hour",
+          "Free bag of laundry & pressing",
+          "Priority tender & 30% Wi-Fi off"
+        ]
+      },
+      {
+        "title": "Elite Plus: Strong Benefits for Frequent Cruisers",
+        "subtitle": "750–2,999 Club Points",
+        "description": "Elite Plus is ideal for travelers who spend weeks at sea each year. The additional laundry, dining savings, and higher internet discounts add up quickly.",
+        "badge": "FREQUENT SAILOR",
+        "icon": "Gem",
+        "highlights": [
+          "Two free bags of laundry",
+          "15% off specialty dining",
+          "Free specialty morning coffees"
+        ]
+      },
+      {
+        "title": "Zenith: The Highest Level of Recognition",
+        "subtitle": "3,000+ Club Points",
+        "description": "Zenith provides an exceptional cruise experience with complimentary beverage packages, unlimited Wi-Fi, full laundry service, and free milestone cruises.",
+        "badge": "TOP RECOGNITION",
+        "icon": "Crown",
+        "highlights": [
+          "Free Premium Drinks & Unlimited Wi-Fi",
+          "Full free laundry & Retreat Lounge",
+          "Free 7-night cruise upon reaching tier"
+        ]
+      }
+    ]
+  }
+}

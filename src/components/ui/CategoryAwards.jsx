@@ -42,7 +42,7 @@ const CategoryAwards = ({ title, subtitle, categories }) => {
                 </div>
 
                 {/* Description */}
-                <p className="font-sans text-ice-300 leading-relaxed text-sm">
+                <p className="font-sans text-ice-100/90 leading-relaxed text-sm">
                   {item.description}
                 </p>
 

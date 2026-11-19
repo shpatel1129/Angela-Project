@@ -1,0 +1,991 @@
+{
+  "seo": {
+    "title": "Celebrity Cruises: Complete Guide",
+    "metaTitle": "Celebrity Cruises: Complete Guide",
+    "metaDescription": "Explore Celebrity Cruises ships, destinations, cabins, dining, packages, onboard experiences, costs, and planning tips for your next cruise vacation.",
+    "keywords": "Celebrity Cruises, Celebrity Cruises ships, Celebrity Cruises destinations, Celebrity Cruises itineraries, Celebrity Cruises cabins, Celebrity Cruises dining, Celebrity Cruises packages, Celebrity Cruises prices, Celebrity Cruises Edge Series, Celebrity Xcel, Celebrity Ascent, Celebrity Beyond, Celebrity Apex, Celebrity cruise guide",
+    "canonical": "https://www.tripsandships.com/celebrity-cruises"
+  },
+  "hero": {
+    "eyebrow": "Celebrity Cruises · Trips & Ships Luxury Travel",
+    "title": "Celebrity Cruises: Complete Guide",
+    "subtitle": "Explore Celebrity Cruises ships, destinations, cabins, dining, packages, onboard experiences, costs, and planning tips for your next cruise vacation.",
+    "primaryCtaText": "Schedule a Consultation",
+    "primaryCtaLink": "/contact",
+    "secondaryCtaText": "Explore Itineraries",
+    "secondaryCtaLink": "#itineraries"
+  },
+  "intro": {
+    "title": "Contemporary Luxury at Sea",
+    "lead": "Celebrity Cruises is a premium cruise line known for modern ship design, destination-focused itineraries, elevated dining, wellness experiences, and a strong emphasis on contemporary onboard spaces. Its fleet includes Edge Series ships such as Celebrity Edge, Celebrity Apex, Celebrity Beyond, Celebrity Ascent, and Celebrity Xcel, alongside Solstice and Millennium Series ships and the expedition-oriented Celebrity Flora.",
+    "paragraphs": [
+      "Celebrity Cruises currently offers itineraries across regions including the Caribbean, Europe, Alaska, Asia, Australia and New Zealand, South America, Antarctica, and the Galápagos Islands. Its 2026–2027 program includes sailings across more than 70 countries and all seven continents.",
+      "For travelers comparing premium cruise lines, Celebrity Cruises can be particularly interesting if you want a vacation that combines resort-style amenities with multiple destinations in one trip."
+    ],
+    "imageBadge": "Premium Cruising",
+    "imagePlaceholder": "Celebrity Edge Series Ship Sailing at Sunset"
+  },
+  "knownForAndSuited": {
+    "eyebrow": "WHAT IS CELEBRITY CRUISES KNOWN FOR?",
+    "title": "Contemporary Design, Culinary Experiences, and Destination Immersion",
+    "description1": "Celebrity Cruises occupies the premium segment of the cruise market and places considerable emphasis on contemporary design, culinary experiences, wellness, accommodations, and destination immersion.",
+    "description2": "Its newer Edge Series introduced several distinctive ship concepts, including the Magic Carpet, Infinite Veranda staterooms, large outdoor spaces, and redesigned public areas. Celebrity Xcel builds on the Edge Series concept with additional dining, entertainment, and destination-focused experiences.",
+    "description3": "Celebrity's fleet also provides different styles of cruising, from large resort-style ships to the purpose-built Celebrity Flora, which operates in the Galápagos.",
+    "footerNote": "It is worth comparing individual ships and itineraries rather than judging the entire fleet as one product because onboard layouts, venues, accommodations, and destinations vary considerably.",
+    "bestSuitedHeader": "BEST SUITED TO",
+    "bestSuitedTitle": "Who Should Choose Celebrity Cruises?",
+    "suitedList": [
+      "Couples looking for an upscale cruise experience",
+      "Adults seeking sophisticated dining and entertainment",
+      "Families wanting modern ships and varied activities",
+      "Travelers interested in European and Caribbean itineraries",
+      "Guests who value wellness and spa experiences",
+      "Travelers who prefer contemporary ship design",
+      "Suite guests seeking more private accommodations and dedicated spaces",
+      "Destination-focused travelers who want longer or more varied itineraries"
+    ]
+  },
+  "edgeSeries": {
+    "eyebrow": "CELEBRITY CRUISES SHIPS",
+    "title": "Celebrity Edge Series",
+    "intro": "Celebrity Cruises operates several generations and styles of ships. The fleet includes Edge Series, Solstice Series, Millennium Series, and specialized Galápagos vessels. The Edge Series represents Celebrity's most contemporary ship design. Celebrity's official fleet information lists these ships and their current regional deployment.",
+    "headers": [
+      "Ship",
+      "Notable Characteristics",
+      "Example Regions"
+    ],
+    "ships": [
+      {
+        "ship": "Celebrity Edge",
+        "notable": "Original Edge Series ship with innovative design",
+        "regions": "Alaska, Australia & New Zealand, Hawaii, Transpacific"
+      },
+      {
+        "ship": "Celebrity Apex",
+        "notable": "Modern Edge Series design and Magic Carpet",
+        "regions": "Caribbean, Europe, Transatlantic"
+      },
+      {
+        "ship": "Celebrity Beyond",
+        "notable": "Expanded Edge Series spaces and large outdoor areas",
+        "regions": "Caribbean"
+      },
+      {
+        "ship": "Celebrity Ascent",
+        "notable": "Fourth Edge Series ship with extensive dining and outdoor spaces",
+        "regions": "Caribbean, Europe, Transatlantic"
+      },
+      {
+        "ship": "Celebrity Xcel",
+        "notable": "Newest Edge Series addition with new onboard concepts",
+        "regions": "Caribbean, Europe"
+      }
+    ]
+  },
+  "featuredShips": {
+    "ascent": {
+      "eyebrow": "FEATURED SHIP",
+      "badge": "Edge Series",
+      "title": "Celebrity Ascent",
+      "lead": "Celebrity Ascent is the fourth Edge Series ship and features an extensive dining, wellness, and outdoor experience.",
+      "body": "Highlights include:",
+      "features": [
+        "32 restaurants, bars, and lounges",
+        "Le Voyage by Chef Daniel Boulud",
+        "Infinite Veranda accommodations",
+        "AquaClass staterooms",
+        "The Retreat suite experience",
+        "The Rooftop Garden",
+        "Cantilevered pools"
+      ]
+    },
+    "xcel": {
+      "eyebrow": "FEATURED SHIP",
+      "badge": "Newest Ship",
+      "title": "Celebrity Xcel",
+      "lead": "Celebrity Xcel is the newest addition to the Edge Series.",
+      "body": "It combines the design language of earlier Edge Series ships with new spaces, dining concepts, entertainment, and destination-oriented experiences. Its 2026 deployment includes Caribbean and European itineraries."
+    }
+  },
+  "fleetMore": {
+    "eyebrow": "MORE OF THE FLEET",
+    "title": "Solstice Series, Millennium Series & Celebrity Flora",
+    "solstice": {
+      "title": "Solstice Series",
+      "description": "Operates across Europe, Caribbean, Alaska, Bermuda, Canada, South America and other seasonal regions.",
+      "ships": [
+        "Celebrity Solstice",
+        "Celebrity Equinox",
+        "Celebrity Eclipse",
+        "Celebrity Silhouette",
+        "Celebrity Reflection"
+      ]
+    },
+    "millennium": {
+      "title": "Millennium Series",
+      "description": "A premium cruise experience on a different layout and scale from the newest Edge Series vessels. Deployment varies by season.",
+      "ships": [
+        "Celebrity Millennium",
+        "Celebrity Infinity",
+        "Celebrity Constellation",
+        "Celebrity Summit"
+      ]
+    },
+    "flora": {
+      "tag": "EXPEDITION · ALL-SUITE",
+      "title": "Celebrity Flora — Purpose-Built for the Galápagos",
+      "description": "Celebrity Flora is designed specifically for exploring the Galápagos Islands. It is an all-suite ship intended for expedition-style travel, combining accommodation and expedition access in one specialized vessel."
+    }
+  },
+  "destinations": {
+    "caribbean": {
+      "eyebrow": "WHERE DOES CELEBRITY SAIL?",
+      "badge": "Caribbean",
+      "title": "Caribbean",
+      "lead": "The Caribbean is one of Celebrity's major cruising regions, with itineraries visiting destinations throughout the eastern, western, and southern Caribbean.",
+      "footnote": "Celebrity's 2026–2027 Caribbean program includes both traditional seven-night cruises and shorter three- and four-night escapes.",
+      "body": "Depending on the itinerary, ports can include:",
+      "ports": [
+        "Grand Cayman",
+        "Cozumel",
+        "St. Maarten",
+        "Tortola",
+        "Antigua",
+        "Puerto Rico",
+        "Aruba",
+        "Bonaire",
+        "Curaçao",
+        "The Bahamas"
+      ]
+    },
+    "mediterranean": {
+      "eyebrow": "EUROPE",
+      "badge": "Mediterranean",
+      "title": "Mediterranean and Europe",
+      "lead": "European cruises are a major part of Celebrity's itinerary portfolio.",
+      "footnote": "Celebrity's 2026–2027 Mediterranean program includes sailings from Barcelona, Rome, Ravenna, Athens, and Lisbon, with itineraries designed around destinations throughout the Mediterranean.",
+      "body": "Common departure or destination regions include:",
+      "regions": [
+        "Barcelona",
+        "Rome",
+        "Athens",
+        "Ravenna",
+        "Lisbon",
+        "Greece",
+        "Italy",
+        "Croatia",
+        "France",
+        "Turkey",
+        "Spain",
+        "Portugal",
+        "Malta"
+      ]
+    },
+    "global": {
+      "eyebrow": "MORE DESTINATIONS",
+      "title": "Alaska, Asia, Australia & New Zealand, South America & Antarctica, and the Galápagos",
+      "regions": [
+        {
+          "title": "Alaska",
+          "description": "Alaska cruises combine coastal scenery, wildlife, glaciers, and port visits. Celebrity's Alaska program includes itineraries involving destinations such as Vancouver, Seattle, and Seward, depending on the sailing. For travelers choosing an Alaska cruise, itinerary direction, glacier viewing, port time, and the time of year can be as important as the ship itself."
+        },
+        {
+          "title": "Asia",
+          "description": "Celebrity itineraries can include destinations in Japan, South Korea, Vietnam, Thailand, Taiwan, and Southeast Asia. Longer voyages can make Asia especially attractive for travelers who want to combine several countries without changing hotels between destinations. Celebrity's current global program highlights Japan, South Korea, Thailand, Vietnam, and a newly added Taiwan port of call.",
+          "destinations": [
+            "Japan",
+            "South Korea",
+            "Vietnam",
+            "Thailand",
+            "Taiwan",
+            "Southeast Asia"
+          ]
+        },
+        {
+          "title": "Australia & New Zealand",
+          "description": "Celebrity also operates itineraries around Australia and New Zealand, making it possible to combine major cities with coastal and natural attractions."
+        },
+        {
+          "title": "South America & Antarctica",
+          "description": "Selected longer itineraries travel through South America and into Antarctic waters. Celebrity's 2026–2027 program includes sailings into the Antarctic Circle as well as voyages around the southern tip of South America."
+        },
+        {
+          "title": "The Galápagos",
+          "tag": "EXPEDITION",
+          "description": "The Galápagos offers a very different Celebrity experience because the focus is expedition-style exploration rather than a traditional large-ship cruise. Celebrity Flora is purpose-built for the region and provides an all-suite experience."
+        }
+      ]
+    }
+  },
+  "itinerarySelection": {
+    "eyebrow": "PLANNING",
+    "title": "Celebrity Cruises Itineraries: How to Choose One",
+    "intro": "The best Celebrity itinerary depends on how much time you have, which destinations you want to visit, and whether the ship or ports are your priority.",
+    "headers": [
+      "Trip Length",
+      "Good For",
+      "What to Consider"
+    ],
+    "tripLengths": [
+      {
+        "length": "3–4 nights",
+        "goodFor": "Short getaway",
+        "consider": "Fewer ports and limited onboard time"
+      },
+      {
+        "length": "5–7 nights",
+        "goodFor": "First cruise or standard vacation",
+        "consider": "Good balance between ship and destinations"
+      },
+      {
+        "length": "8–11 nights",
+        "goodFor": "Deeper regional exploration",
+        "consider": "More ports or longer stays"
+      },
+      {
+        "length": "12+ nights",
+        "goodFor": "Extended vacation",
+        "consider": "More destinations and sea days"
+      },
+      {
+        "length": "Long/global voyage",
+        "goodFor": "Experienced travelers",
+        "consider": "Extensive planning and more time away"
+      }
+    ],
+    "footnote": "Celebrity's current programs also include overnight stays on selected itineraries, allowing travelers to experience destinations after normal daytime excursion hours."
+  },
+  "accommodations": {
+    "interiorAndOceanView": {
+      "eyebrow": "CELEBRITY CRUISES ACCOMMODATIONS",
+      "badge": "Interior Stateroom",
+      "title": "Interior and Ocean View Staterooms",
+      "lead": "Celebrity accommodations range from interior and ocean-view rooms to verandas, AquaClass staterooms, and suites. Interior rooms are generally the most straightforward choice for travelers who prioritize itinerary and onboard activities over having a view from the cabin.",
+      "footnote": "Ocean-view cabins provide a window and natural light without the outdoor space of a traditional balcony.",
+      "body": "They can work well for:",
+      "goodFor": [
+        "Budget-conscious cruisers",
+        "Travelers who spend little time in their room",
+        "Shorter cruises",
+        "Guests who prefer to allocate more budget toward excursions and specialty experiences"
+      ]
+    },
+    "verandaAquaClassSuites": {
+      "eyebrow": "VERANDA, AQUACLASS & SUITES",
+      "badge": "Infinite Veranda",
+      "title": "Veranda, Infinite Veranda, AquaClass & The Retreat",
+      "footnote": "The Retreat is Celebrity's suite experience, providing access to dedicated spaces and services.",
+      "features": [
+        "Traditional veranda cabins provide private outdoor space, which can be particularly valuable on scenic itineraries such as Alaska or Mediterranean cruises.",
+        "Selected Edge Series ships feature Infinite Veranda staterooms, an accommodation concept designed to bring the exterior view closer into the cabin through a convertible indoor-outdoor space.",
+        "AquaClass is designed around wellness-focused amenities and access to additional wellness-oriented experiences.",
+        "Suite guests can have access to areas including Luminae, a suites-only restaurant, along with other exclusive spaces depending on the ship."
+      ]
+    }
+  },
+  "dining": {
+    "overview": {
+      "eyebrow": "DINING ON CELEBRITY CRUISES",
+      "badge": "Dining",
+      "title": "A Major Component of the Celebrity Experience",
+      "lead": "Food is a major component of the Celebrity experience, with options ranging from casual venues to specialty restaurants. Dining can vary by ship, but travelers may encounter:",
+      "venues": [
+        "Main dining restaurants",
+        "Oceanview Café",
+        "Specialty restaurants",
+        "Poolside food",
+        "Cafés",
+        "Bars and lounges",
+        "Suite dining",
+        "Chef-led culinary experiences"
+      ],
+      "footnote": "Celebrity Ascent, for example, has 32 restaurants, bars, and lounges across the ship."
+    },
+    "styles": {
+      "eyebrow": "SPECIALTY DINING",
+      "title": "Dining for Different Travel Styles",
+      "intro": "Specialty restaurants generally require an additional charge or may be included in certain packages or promotional offers. Before booking, check whether your selected fare includes specialty dining or whether it should be added separately.",
+      "items": [
+        {
+          "title": "Couples",
+          "desc": "Specialty restaurants and intimate dining venues can complement an evening-focused itinerary."
+        },
+        {
+          "title": "Families",
+          "desc": "Flexible casual dining can be useful when everyone wants different meals or schedules."
+        },
+        {
+          "title": "Food-focused travelers",
+          "desc": "Look closely at each ship’s restaurant lineup because specialty venues vary between ships."
+        },
+        {
+          "title": "Suite guests",
+          "desc": "The Retreat experience includes access to Luminae on applicable ships."
+        }
+      ]
+    }
+  },
+  "onboardPackagesAndWellness": {
+    "packages": {
+      "title": "Drinks, Wi-Fi and Cruise Packages",
+      "body": "Cruise fares and inclusions can differ according to sailing, fare type, promotion, destination, and booking conditions. Possible package categories can include:",
+      "items": [
+        "Beverage packages",
+        "Wi-Fi packages",
+        "Specialty dining",
+        "Shore excursions",
+        "Spa treatments",
+        "Premium onboard experiences"
+      ],
+      "note": "Always compare the total trip cost rather than only the advertised cruise fare. A lower base fare can become more expensive if you add drinks, Wi-Fi, specialty dining, excursions, gratuities, flights, hotels, and transfers separately."
+    },
+    "activities": {
+      "title": "Things to Do on a Celebrity Cruise",
+      "body": "Celebrity ships are designed to provide activities throughout the day as well as evening entertainment. Depending on the ship, travelers can find:",
+      "items": [
+        "Swimming pools",
+        "Fitness centers",
+        "Spa facilities",
+        "Live entertainment",
+        "Theater productions",
+        "Bars and lounges",
+        "Outdoor decks",
+        "Rooftop spaces"
+      ],
+      "note": "Edge Series ships place particular emphasis on open-air spaces and unconventional ship design, including the Magic Carpet and large outdoor social spaces."
+    },
+    "wellness": {
+      "title": "Wellness & Entertainment",
+      "body": "Wellness options can include:",
+      "items": [
+        "Fitness facilities",
+        "Spa treatments",
+        "Thermal and relaxation areas",
+        "Yoga or fitness classes",
+        "Wellness-oriented accommodations"
+      ],
+      "note": "AquaClass is particularly relevant for travelers who want wellness to be a more central part of their cruise experience. Entertainment varies by ship and sailing but can include theater performances, live music, parties, lounges, and other evening activities. Check the specific ship's current entertainment program before booking if a particular type of show or nightlife is important to you."
+    }
+  },
+  "travelerProfiles": {
+    "couples": {
+      "eyebrow": "CELEBRITY CRUISES FOR COUPLES",
+      "badge": "For Couples",
+      "title": "A Balance of Relaxation, Dining, and Destinations",
+      "lead": "Celebrity Cruises can be a strong option for couples who want a balance between relaxation, dining, destinations, and evening entertainment. Couples may want to prioritize:",
+      "priorities": [
+        "A veranda or Infinite Veranda stateroom",
+        "A Mediterranean or Caribbean itinerary",
+        "Specialty dining",
+        "Spa or wellness experiences",
+        "Longer port stays or overnight calls",
+        "A newer Edge Series ship"
+      ],
+      "footnote": "For a romantic European trip, Mediterranean itineraries can combine cities such as Rome, Barcelona, Athens, and other coastal destinations in one vacation."
+    },
+    "families": {
+      "eyebrow": "CELEBRITY CRUISES FOR FAMILIES",
+      "badge": "For Families",
+      "title": "Modern Ships and Varied Activities",
+      "lead": "Celebrity Cruises offers activities and accommodations suitable for multigenerational travel, although families should compare individual ships carefully. When choosing a family cruise, consider:",
+      "considerations": [
+        "Cabin configuration",
+        "Connecting rooms",
+        "Kids' and teen programming",
+        "Pool facilities",
+        "Dining flexibility",
+        "Shore excursions",
+        "Number of sea days",
+        "Port duration"
+      ],
+      "footnote": "For families traveling with children, the itinerary can be just as important as the ship. A cruise with shorter port days may feel very different from one with long destination stays."
+    },
+    "solo": {
+      "eyebrow": "CELEBRITY CRUISES FOR SOLO TRAVELERS",
+      "title": "Compare Cabins, Pricing, and Activities",
+      "text": "Solo travelers should compare current cabin categories, solo pricing, onboard activities, and itinerary structure before booking. A ship with numerous social venues and activities can make it easier to meet other travelers, while longer itineraries provide more time to settle into the ship and destination schedule. Solo pricing can vary significantly, so compare the total fare rather than assuming that a particular ship or itinerary will have the lowest single-occupancy cost."
+    }
+  },
+  "cost": {
+    "eyebrow": "HOW MUCH DOES A CELEBRITY CRUISE COST?",
+    "title": "Costs to Budget For",
+    "intro": "There is no single Celebrity Cruises price because fares vary according to ship, destination, departure date, cruise length, cabin category, number of guests, season, promotions, included packages, taxes and fees, and availability. The most useful comparison is the total vacation cost, not simply the initial cruise fare.",
+    "headers": [
+      "Expense",
+      "May Be Included in Cruise Fare?"
+    ],
+    "budgetTable": [
+      {
+        "expense": "Accommodation",
+        "included": "Usually"
+      },
+      {
+        "expense": "Main dining",
+        "included": "Usually"
+      },
+      {
+        "expense": "Selected entertainment",
+        "included": "Usually"
+      },
+      {
+        "expense": "Basic onboard activities",
+        "included": "Usually"
+      },
+      {
+        "expense": "Specialty dining",
+        "included": "Often additional"
+      },
+      {
+        "expense": "Premium beverages",
+        "included": "Often additional"
+      },
+      {
+        "expense": "Wi-Fi",
+        "included": "Depends on fare/package"
+      },
+      {
+        "expense": "Shore excursions",
+        "included": "Usually additional"
+      },
+      {
+        "expense": "Spa treatments",
+        "included": "Additional"
+      },
+      {
+        "expense": "Flights",
+        "included": "Usually separate"
+      },
+      {
+        "expense": "Pre/post-cruise hotel",
+        "included": "Usually separate"
+      },
+      {
+        "expense": "Transfers",
+        "included": "Depends on booking"
+      }
+    ],
+    "footnote": "Because inclusions and promotions change, check the conditions attached to the exact sailing before comparing prices."
+  },
+  "bestTimeToBook": {
+    "eyebrow": "WHEN IS THE BEST TIME TO BOOK?",
+    "badge": "Booking Timing",
+    "title": "There Is No Universal Best Booking Date",
+    "lead": "There is no universal best booking date for every traveler. Booking earlier can be useful when:",
+    "reasons": [
+      "You want a specific suite",
+      "You need connecting rooms",
+      "You want a particular sailing date",
+      "You are traveling during a popular season",
+      "You need flights around fixed dates"
+    ],
+    "body": "Waiting for a promotion may be useful when your dates and cabin category are flexible. For highly specific itineraries, availability can matter more than trying to predict the lowest possible fare."
+  },
+  "chooseShipSteps": {
+    "eyebrow": "STEP BY STEP",
+    "title": "How to Choose the Right Celebrity Ship",
+    "subtext": "Start with the destination rather than choosing the ship first. Follow these five steps to find the best match for your travel style.",
+    "steps": [
+      {
+        "title": "Choose Your Destination",
+        "desc": "Decide whether you prefer Caribbean beaches, Mediterranean culture, Alaska scenery, Asia, Australia and New Zealand, South America, Antarctica, or Galápagos exploration."
+      },
+      {
+        "title": "Choose Your Cruise Length",
+        "desc": "Determine whether a long weekend, week-long vacation, extended regional journey, or longer voyage fits your schedule."
+      },
+      {
+        "title": "Compare Ships",
+        "desc": "Look at ship age, ship class, restaurants, pools, entertainment, staterooms, suite facilities, outdoor spaces, and spa and fitness options."
+      },
+      {
+        "title": "Compare the Full Cost",
+        "desc": "Include packages, excursions, transportation, hotels, and other expenses — not just the base cruise fare."
+      },
+      {
+        "title": "Check the Itinerary",
+        "desc": "Look at number of ports, sea days, port arrival and departure times, overnight stays, embarkation port, and disembarkation port."
+      }
+    ],
+    "tip": "The best Celebrity ship is the one that fits your destination, travel dates, cabin preference, and budget — not just the newest or largest vessel in the fleet."
+  },
+  "comparisonVsOthers": {
+    "eyebrow": "HOW CELEBRITY COMPARES",
+    "title": "Celebrity Cruises vs. Other Premium Cruise Options",
+    "intro": "Celebrity Cruises is best compared by travel style rather than simply by brand.",
+    "headers": [
+      "Factor",
+      "Celebrity Cruises"
+    ],
+    "factors": [
+      {
+        "factor": "Overall style",
+        "value": "Contemporary premium cruising"
+      },
+      {
+        "factor": "Ship design",
+        "value": "Strong focus on modern design"
+      },
+      {
+        "factor": "Destinations",
+        "value": "Broad global portfolio"
+      },
+      {
+        "factor": "Dining",
+        "value": "Multiple casual and specialty options"
+      },
+      {
+        "factor": "Wellness",
+        "value": "Significant focus"
+      },
+      {
+        "factor": "Suites",
+        "value": "Dedicated premium suite experience"
+      },
+      {
+        "factor": "Best known newer ships",
+        "value": "Edge Series"
+      },
+      {
+        "factor": "Expedition option",
+        "value": "Galápagos"
+      },
+      {
+        "factor": "Short cruises",
+        "value": "Available in selected regions"
+      },
+      {
+        "factor": "Longer voyages",
+        "value": "Available, including global itineraries"
+      }
+    ],
+    "footnote": "The right alternative depends on whether you prioritize luxury, expedition travel, family entertainment, traditional cruising, smaller ships, or destination immersion."
+  },
+  "firstTimeTips": {
+    "eyebrow": "FIRST-TIME TRAVELERS",
+    "title": "What to Know Before Your First Celebrity Cruise",
+    "subtext": "Ensure a smooth voyage by preparing these essential details before you arrive at the embarkation port.",
+    "tips": [
+      {
+        "title": "Check Your Travel Documents",
+        "desc": "Passport, visa, entry, and transit requirements depend on nationality and itinerary. Check official government and cruise-line requirements before departure."
+      },
+      {
+        "title": "Arrive at the Embarkation Port Early",
+        "desc": "If you are flying to the departure city, consider arriving at least one day before the cruise when practical. This reduces the risk of a flight delay causing you to miss embarkation."
+      },
+      {
+        "title": "Download the Cruise App",
+        "desc": "Use the official cruise app and pre-cruise information to review check-in requirements, schedules, reservations, and onboard information."
+      },
+      {
+        "title": "Reserve Popular Experiences",
+        "desc": "Specialty dining, excursions, and certain activities can have limited availability."
+      },
+      {
+        "title": "Pack for the Itinerary",
+        "desc": "A Caribbean cruise and an Alaska cruise can require very different clothing and equipment."
+      },
+      {
+        "title": "Budget for Extras",
+        "desc": "Plan for excursions, drinks, Wi-Fi, specialty dining, transportation, hotels, and other expenses that may not be included in the base fare."
+      }
+    ]
+  },
+  "highlights2026": {
+    "eyebrow": "LOOKING AHEAD",
+    "title": "Celebrity Cruises 2026–2027 Highlights",
+    "subtext": "Celebrity's current 2026–2027 program includes a particularly broad range of global travel opportunities.",
+    "items": [
+      "Caribbean island-hopping",
+      "Mediterranean cruises",
+      "European destinations",
+      "Iceland",
+      "Norway",
+      "Asia",
+      "Australia and New Zealand",
+      "South America",
+      "Antarctica",
+      "Galápagos",
+      "Longer global voyages"
+    ],
+    "footer": "Celebrity's published 2026–2027 program describes itineraries spanning more than 70 countries and all seven continents, with more than 280 destinations represented across the program. The fleet and itinerary schedule can change, so travelers should verify current sailing details before booking."
+  },
+  "expertInsight": {
+    "name": "Angela Hughes",
+    "role": "Luxury Cruise Travel Expert & CEO, Trips & Ships Luxury Travel",
+    "badge": "EXPERT ADVISOR",
+    "experience": "40+ Years Experience",
+    "countries": "121+ Countries Visited",
+    "eyebrow": "MEET THE CEO",
+    "title": "Insight from Angela Hughes",
+    "quote": "Celebrity Cruises earns its premium reputation by pairing contemporary ship design with genuinely destination-focused itineraries. The Edge Series proves that innovative architecture and thoughtful travel planning can work beautifully together.",
+    "standoutTitle": "What Makes Celebrity Cruises Stand Out:",
+    "standoutPills": [
+      "Contemporary Edge Series Design",
+      "Global Destination Portfolio",
+      "Elevated Culinary Program",
+      "The Retreat Suite Experience",
+      "Wellness-Focused AquaClass",
+      "Galápagos Expedition Access"
+    ],
+    "bio": "As founder of Luxury Travel University and CEO of Trips & Ships Luxury Travel, Angela Hughes uses her personal, deep connections in the cruise industry to deliver custom travel planning that regular booking engines simply cannot replicate."
+  },
+  "keyTakeaways": {
+    "eyebrow": "SUMMARY",
+    "title": "Key Takeaways",
+    "items": [
+      "Celebrity Cruises is a premium cruise line focused on contemporary design, dining, wellness, and destinations.",
+      "The fleet includes Edge Series, Solstice Series, Millennium Series, and the specialized Celebrity Flora.",
+      "Celebrity Xcel is the newest Edge Series ship, while Celebrity Ascent is another recent addition to the fleet.",
+      "Major destinations include the Caribbean, Mediterranean, Europe, Alaska, Asia, Australia and New Zealand, South America, Antarctica, and the Galápagos.",
+      "Mediterranean itineraries can depart from cities including Barcelona, Rome, Athens, Ravenna, and Lisbon.",
+      "Caribbean cruises range from short escapes to longer regional itineraries.",
+      "Accommodation choices range from interior cabins to veranda staterooms, AquaClass rooms, and suites in The Retreat.",
+      "Edge Series ships feature distinctive design concepts such as Infinite Verandas and the Magic Carpet.",
+      "Celebrity Flora provides a specialized all-suite option for Galápagos exploration.",
+      "Cruise prices vary according to ship, itinerary, cabin, date, season, availability, and included packages.",
+      "Compare total vacation costs rather than focusing only on the advertised cruise fare.",
+      "For the best choice, evaluate the ship and itinerary together. Always verify current sailing schedules, inclusions, documentation, and booking terms before traveling."
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions About Celebrity Cruises",
+    "questions": [
+      {
+        "question": "What is Celebrity Cruises known for?",
+        "answer": "Celebrity Cruises is known for premium cruising, contemporary ship design, destination-focused itineraries, dining, wellness experiences, and modern accommodations. Its Edge Series is particularly associated with innovative ship design."
+      },
+      {
+        "question": "Is Celebrity Cruises a luxury cruise line?",
+        "answer": "Celebrity Cruises is positioned as a premium cruise line rather than a traditional ultra-luxury cruise line. It offers elevated accommodations, dining, service, and suite experiences while operating larger ships with extensive onboard facilities."
+      },
+      {
+        "question": "Which Celebrity Cruises ship is the newest?",
+        "answer": "Celebrity Xcel is the newest addition to Celebrity Cruises' Edge Series. Celebrity's current fleet information identifies Xcel as the newest Edge Series ship."
+      },
+      {
+        "question": "What destinations does Celebrity Cruises visit?",
+        "answer": "Celebrity Cruises sails to destinations including the Caribbean, Mediterranean and wider Europe, Alaska, Asia, Australia and New Zealand, South America, Antarctica, and the Galápagos Islands. Its itinerary portfolio changes by season."
+      },
+      {
+        "question": "Does Celebrity Cruises sail to the Caribbean?",
+        "answer": "Yes. Celebrity Cruises operates Caribbean cruises ranging from short three- and four-night escapes to longer itineraries visiting multiple Caribbean destinations."
+      },
+      {
+        "question": "Does Celebrity Cruises sail the Mediterranean?",
+        "answer": "Yes. Celebrity operates Mediterranean itineraries from ports including Barcelona, Rome, Ravenna, Athens, and Lisbon, depending on the season and sailing."
+      },
+      {
+        "question": "What types of cabins are available on Celebrity Cruises?",
+        "answer": "Celebrity accommodations can include interior, ocean-view, veranda, Infinite Veranda, AquaClass, and suite categories. Exact categories vary by ship."
+      },
+      {
+        "question": "What is an Infinite Veranda on Celebrity Cruises?",
+        "answer": "An Infinite Veranda is an Edge Series stateroom concept designed to extend the cabin's usable living space toward the exterior and provide a closer connection to the ocean view."
+      },
+      {
+        "question": "What is The Retreat on Celebrity Cruises?",
+        "answer": "The Retreat is Celebrity's suite-focused experience. Depending on the ship, suite guests can receive access to exclusive spaces and amenities, including Luminae, the suites-only restaurant."
+      },
+      {
+        "question": "Does Celebrity Cruises have specialty restaurants?",
+        "answer": "Yes. Celebrity ships offer a mixture of included dining and specialty restaurants, although the exact venues and additional charges vary by ship and sailing."
+      },
+      {
+        "question": "Are drinks included on Celebrity Cruises?",
+        "answer": "Drink inclusions depend on the selected fare, package, promotion, and sailing. Travelers should check the specific booking terms to determine which beverages are included and whether a beverage package is necessary."
+      },
+      {
+        "question": "Is Wi-Fi included on Celebrity Cruises?",
+        "answer": "Wi-Fi inclusion depends on the fare or package selected. Travelers should check the current conditions for their specific sailing because inclusions and promotions can change."
+      },
+      {
+        "question": "Is Celebrity Cruises good for couples?",
+        "answer": "Celebrity Cruises can be well suited to couples who value contemporary ships, dining, wellness, scenic destinations, and evening entertainment. Mediterranean and Caribbean itineraries are popular choices for couples."
+      },
+      {
+        "question": "How much does a Celebrity Cruise cost?",
+        "answer": "Celebrity cruise prices vary according to the ship, itinerary, departure date, cabin type, season, availability, and included benefits. The complete vacation cost should also account for transportation, excursions, drinks, Wi-Fi, specialty dining, and other extras."
+      },
+      {
+        "question": "How do I choose the best Celebrity Cruises ship?",
+        "answer": "Choose the destination and itinerary first, then compare ships based on accommodations, dining, entertainment, outdoor spaces, wellness facilities, ship size, and overall price. The best ship depends on your travel style and the itinerary you want."
+      }
+    ]
+  },
+  "curatedGuides": [
+    {
+      "title": "Celebrity Edge Series Ships",
+      "category": "Edge Series Fleet",
+      "description": "Comprehensive guides to Edge, Apex, Beyond, Ascent, and the innovative newest vessel, Celebrity Xcel.",
+      "links": [
+        {
+          "label": "Celebrity Ship Classes Guide",
+          "url": "/celebrity-cruises/aquaclass-vs-concierge-vs-veranda"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/ship-classes",
+      "_comment_links": [
+        {
+          "label": "Celebrity Xcel Guide",
+          "_comment_url": "/celebrity-cruises/ships/celebrity-xcel"
+        },
+        {
+          "label": "Celebrity Ascent Guide",
+          "_comment_url": "/celebrity-cruises/ships/celebrity-ascent"
+        },
+        {
+          "label": "Celebrity Beyond Guide",
+          "_comment_url": "/celebrity-cruises/ships/celebrity-beyond"
+        },
+        {
+          "label": "Celebrity Apex Guide",
+          "_comment_url": "/celebrity-cruises/ships/celebrity-apex"
+        },
+        {
+          "label": "Celebrity Edge Guide",
+          "_comment_url": "/celebrity-cruises/ships/celebrity-edge"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/edge-series"
+    },
+    {
+      "title": "Complete Fleet & Ship Showdowns",
+      "category": "Fleet Guide & Architecture",
+      "description": "Compare ships across the entire fleet, Edge Series innovations, and Solstice Series contrasts.",
+      "links": [
+        {
+          "label": "Celebrity Ship Classes Guide",
+          "url": "/celebrity-cruises/ship-classes"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/ship-classes",
+      "_comment_links": [
+        {
+          "label": "Celebrity Cruise Ships Fleet",
+          "_comment_url": "/celebrity-cruises/ships"
+        },
+        {
+          "label": "Edge Series Overview",
+          "_comment_url": "/celebrity-cruises/edge-series"
+        },
+        {
+          "label": "Edge vs Solstice Series",
+          "_comment_url": "/celebrity-cruises/edge-vs-solstice-series"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/ships"
+    },
+    {
+      "title": "The Retreat & Staterooms Guide",
+      "category": "Exclusive Living & Cabins",
+      "description": "Discover all-inclusive luxury suite living, private sundeck access, Luminae restaurant, and Infinite Verandas.",
+      "links": [
+        {
+          "label": "Celebrity Staterooms Guide",
+          "url": "/celebrity-cruises/staterooms"
+        },
+        {
+          "label": "The Retreat Experience Guide",
+          "url": "/celebrity-cruises/the-retreat"
+        },
+        {
+          "label": "Infinite Veranda vs Balcony",
+          "url": "/celebrity-cruises/infinite-veranda-vs-balcony"
+        },
+        {
+          "label": "AquaClass vs. Concierge vs. Veranda",
+          "url": "/celebrity-cruises/aquaclass-vs-concierge-vs-veranda"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/the-retreat",
+      "_comment_links": [
+        {
+          "label": "The Retreat Suite Guide",
+          "_comment_url": "/celebrity-cruises/the-retreat"
+        },
+        {
+          "label": "Celebrity Staterooms & Suites",
+          "_comment_url": "/celebrity-cruises/staterooms-suites"
+        },
+        {
+          "label": "Infinite Veranda Cabins",
+          "_comment_url": "/celebrity-cruises/infinite-veranda"
+        },
+        {
+          "label": "AquaClass vs Concierge Class",
+          "_comment_url": "/celebrity-cruises/aquaclass-vs-concierge-class"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/the-retreat"
+    },
+    {
+      "title": "Celebrity Dining, Drinks & Cruise Costs",
+      "category": "Culinary & Package Inclusions",
+      "description": "Explore complimentary dining, beverage packages, realistic cruise cost budgeting, and honest value reviews.",
+      "links": [
+        {
+          "label": "Celebrity Cruise Cost Breakdown",
+          "url": "/celebrity-cruises/cost"
+        },
+        {
+          "label": "Is Celebrity Cruises Worth It?",
+          "url": "/celebrity-cruises/is-it-worth-it"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/cost",
+      "_comment_links": [
+        {
+          "label": "Celebrity Dining Guide",
+          "_comment_url": "/celebrity-cruises/dining"
+        },
+        {
+          "label": "Drink Packages Breakdown",
+          "_comment_url": "/celebrity-cruises/drink-packages"
+        },
+        {
+          "label": "What Is Included on Celebrity",
+          "_comment_url": "/celebrity-cruises/whats-included"
+        },
+        {
+          "label": "Celebrity All Included Explained",
+          "_comment_url": "/celebrity-cruises/all-included"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/dining"
+    },
+    {
+      "title": "Onboard Packages: Wifi & Gratuities",
+      "category": "Packages & Onboard Spending",
+      "description": "Starlink internet speeds, Premium vs Basic wifi tiers, daily automatic service gratuities, and crew tipping guidelines.",
+      "links": [
+        {
+          "label": "Celebrity Wifi Packages & Speed",
+          "url": "/celebrity-cruises/wifi"
+        },
+        {
+          "label": "Celebrity Gratuities & Tipping",
+          "url": "/celebrity-cruises/gratuities"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/wifi",
+      "_comment_links": [
+        {
+          "label": "Celebrity Caribbean Cruises",
+          "_comment_url": "/celebrity-cruises/caribbean"
+        },
+        {
+          "label": "Celebrity Mediterranean Cruises",
+          "_comment_url": "/celebrity-cruises/mediterranean"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/caribbean"
+    },
+    {
+      "title": "Onboard Life: Dress Code & Captains Club",
+      "category": "Onboard Lifestyle & Rewards",
+      "description": "Evening Chic guidelines, smart casual packing rules, and Captains Club tier perks, loyalty matches, and discounts.",
+      "links": [
+        {
+          "label": "Celebrity Dress Code Guide",
+          "url": "/celebrity-cruises/dress-code"
+        },
+        {
+          "label": "Captains Club Loyalty Benefits",
+          "url": "/celebrity-cruises/captains-club"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/dress-code",
+      "_comment_links": [
+        {
+          "label": "Celebrity Alaska Cruises",
+          "_comment_url": "/celebrity-cruises/alaska"
+        },
+        {
+          "label": "Celebrity Galápagos Cruises",
+          "_comment_url": "/celebrity-cruises/galapagos"
+        },
+        {
+          "label": "Celebrity River Cruises",
+          "_comment_url": "/celebrity-cruises/river-cruises"
+        },
+        {
+          "label": "Celebrity Rhine River Cruises",
+          "_comment_url": "/celebrity-cruises/river-cruises/rhine"
+        },
+        {
+          "label": "Celebrity Danube River Cruises",
+          "_comment_url": "/celebrity-cruises/river-cruises/danube"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/alaska"
+    },
+    {
+      "title": "Brand Showdowns & Loyalty Programs",
+      "category": "Competitor Comparisons & Rewards",
+      "description": "Detailed side-by-side comparisons of Celebrity vs Princess, Royal Caribbean, and Holland America Line.",
+      "links": [
+        {
+          "label": "Celebrity vs Holland America",
+          "url": "/celebrity-cruises/celebrity-vs-holland-america"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/celebrity-vs-holland-america",
+      "_comment_links": [
+        {
+          "label": "Celebrity vs Princess Cruises",
+          "_comment_url": "/celebrity-cruises/celebrity-vs-princess"
+        },
+        {
+          "label": "Celebrity vs Royal Caribbean",
+          "_comment_url": "/celebrity-cruises/celebrity-vs-royal-caribbean"
+        },
+        {
+          "label": "Celebrity Offers & Loyalty",
+          "_comment_url": "/celebrity-cruises/offers-loyalty"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/celebrity-vs-royal-caribbean"
+    },
+    {
+      "title": "Traveler Profiles & Booking Advice",
+      "category": "Travel Planning & Styles",
+      "description": "Tailored recommendations for families, multigenerational groups, and solo travelers exploring Celebrity.",
+      "links": [
+        {
+          "label": "Celebrity Family Cruising Guide",
+          "url": "/celebrity-cruises/families"
+        },
+        {
+          "label": "Solo Traveler Cabins & Events",
+          "url": "/celebrity-cruises/solo-travelers"
+        }
+      ],
+      "mainUrl": "/celebrity-cruises/families",
+      "_comment_links": [
+        {
+          "label": "Why Book Celebrity With Trips & Ships",
+          "_comment_url": "/celebrity-cruises/why-book-with-us"
+        },
+        {
+          "label": "Frequently Asked Questions",
+          "_comment_url": "/celebrity-cruises/faqs"
+        },
+        {
+          "label": "Request a Celebrity Cruise Quote",
+          "_comment_url": "/celebrity-cruises/request-a-quote"
+        }
+      ],
+      "_comment_mainUrl": "/celebrity-cruises/why-book-with-us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "PLAN YOUR CELEBRITY CRUISE WITH TRIPS AND SHIPS",
+    "title": "Ready to Compare Celebrity Cruises Ships, Destinations, and Itineraries?",
+    "description": "Start with the destination you want to explore, compare the ships sailing there, then evaluate cabin categories and the complete trip cost. Whether you're considering a Caribbean escape, Mediterranean voyage, Alaska cruise, or a longer global itinerary, choosing the right combination of ship + itinerary + cabin + inclusions can make the planning process much easier. Explore the latest Celebrity Cruises options and use Trips and Ships to continue researching your next cruise vacation.",
+    "primaryButtonText": "Schedule a Consultation",
+    "primaryButtonLink": "/contact",
+    "secondaryButtonText": "Explore Celebrity Cruises Itineraries",
+    "secondaryButtonLink": "#itineraries"
+  }
+}
